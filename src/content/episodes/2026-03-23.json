@@ -1,0 +1,148 @@
+{
+  "date": "2026-03-23",
+  "episodeNumber": 3,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "Claude Code ecosystem occupies 10 of 25 top trendi, ByteDance deer-flow debuts at +1,690 stars/day, 'Reports of code's death are greatly exaggerated' ",
+  "heroStat": {
+    "value": "6K",
+    "label": "total"
+  },
+  "insights": [
+    {
+      "text": "Claude Code ecosystem occupies 10 of 25 top trending GitHub repos — 40% concentration is unprecedented. Docker at its 2016 peak never exceeded 20%. Platform status confirmed.",
+      "tags": [
+        "github-trending",
+        "claude-code",
+        "ecosystem"
+      ]
+    },
+    {
+      "text": "ByteDance deer-flow debuts at +1,690 stars/day (36.6K total) — highest first-day velocity for any multi-agent framework in 2026. Big tech now contests the agent framework market: Anthropic, OpenAI, GitHub, ByteDance, Nvidia.",
+      "tags": [
+        "github-trending",
+        "agents",
+        "bytedance"
+      ],
+      "source": "GitHub +1,690/day"
+    },
+    {
+      "text": "'Reports of code's death are greatly exaggerated' (374 pts, Steve Krouse) arrives as the precision counter-narrative. Same day GitHub ships spec-kit (80.9K stars). Both can be true: specs drive development AND the resulting code demands precision.",
+      "tags": [
+        "github-trending"
+      ],
+      "source": "GitHub 80.9K stars"
+    },
+    {
+      "text": "Anthropic takes legal action against OpenCode (Tildes) — first legal confrontation between commercial and open-source agent harness. Same day Flash-MoE (344 pts) runs 397B params locally. Local AI is the escape valve from API legal disputes.",
+      "tags": [
+        "agents",
+        "open-source"
+      ]
+    },
+    {
+      "text": "pentagi autonomous pentesting at +1,069/day (12.4K stars, Go) — security agents are the fastest-growing domain-specific category. Dual-use concerns escalate alongside adoption.",
+      "tags": [
+        "security",
+        "agents"
+      ],
+      "source": "GitHub +1,069/day"
+    },
+    {
+      "text": "everything-claude-code at 99,500 stars — approaching 100K, which would make it the second Claude Code ecosystem project (after superpowers) to cross this threshold in the same month.",
+      "tags": [
+        "claude-code",
+        "ecosystem"
+      ]
+    },
+    {
+      "text": "project-nomad sustains Day 2 at +2,300/day (11.1K stars) — offline AI hardware/knowledge is a real category, not a curiosity. 'They're Vibe-Coding Spam Now' (79 pts) runs simultaneously — the community debates AI's creative vs destructive uses.",
+      "tags": [],
+      "source": "GitHub +2,300/day"
+    },
+    {
+      "text": "Anti-AI discourse enters Day 6 across Lobsters (formalized 'vibecoding' tag), Tildes (193 combined votes on 3 anti-AI stories), and Dev.to (89 comments on AI tech debt). This is a structural counter-movement with its own vocabulary and platforms.",
+      "tags": []
+    }
+  ],
+  "trending": [
+    {
+      "name": "everything-claude-code",
+      "stars": "99.5K",
+      "language": "JavaScript",
+      "delta": "+3,724/d"
+    },
+    {
+      "name": "project-nomad",
+      "stars": "11.1K",
+      "language": "TypeScript",
+      "delta": "+2,300/d"
+    },
+    {
+      "name": "MoneyPrinterV2",
+      "stars": "20.7K",
+      "language": "Python",
+      "delta": "+1,787/d"
+    },
+    {
+      "name": "deer-flow",
+      "stars": "36.6K",
+      "language": "Python",
+      "delta": "+1,690/d"
+    },
+    {
+      "name": "pentagi",
+      "stars": "12.4K",
+      "language": "Go",
+      "delta": "+1,069/d"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "546",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "3,724",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "14",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "March 23, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Claude Code ecosystem occupies 10 of 25 top trending GitHub repos",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "ByteDance deer-flow debuts at +1,690 stars/day",
+        "metric": "+1,690/d",
+        "source": "GitHub"
+      },
+      {
+        "text": "'Reports of code's death are greatly exaggerated' arrives as the precision counter-narrative. Same day GitHub ships spec-kit . Both can be true: specs drive development AND the resulting code demands precision.",
+        "metric": "80.9K",
+        "source": "GitHub"
+      }
+    ],
+    "takeaway": {
+      "text": "**Steve Krouse publishes \"Reports of code's death are greatly exaggerated\" (374 pts, 280 comments), the most significant counter-narrative to the \"code is dead\" thesis in 2026 — arguing precision in coding remains irreplaceable.** Anthropic takes legal action against OpenCode (Tildes ~tech, 12 votes) — the first known legal confrontation between a commercial AI tool provider and an open-source competitor, escalating from API pricing moats to formal litigation. **Flash-MoE achieves 397B parameter model inference on a laptop (344 pts, 114 comments)** — if quality proves sufficient, this eliminates the API dependency that defines the current AI coding tool economics."
+    }
+  }
+}

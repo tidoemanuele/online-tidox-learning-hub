@@ -1,0 +1,157 @@
+{
+  "date": "2026-03-27",
+  "episodeNumber": 6,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "LiteLLM supply chain attack, last30days-skill is #1 on GitHub trending at +2,68, Meta's HyperAgents introduces recursive self-impro",
+  "heroStat": {
+    "value": "97M",
+    "label": "monthly downloads"
+  },
+  "insights": [
+    {
+      "text": "LiteLLM supply chain attack (276 HN pts) — TeamPCP compromised the most popular LLM proxy (97M monthly downloads) via a cascading Trivy dependency attack. The AI supply chain is now a target-rich environment. Cisco released DefenseClaw the same day — security responses measured in hours.",
+      "tags": [
+        "security",
+        "supply-chain"
+      ],
+      "source": "HN 276pts"
+    },
+    {
+      "text": "last30days-skill is #1 on GitHub trending at +2,685 stars/day (10.2K total) — validates the 'single-purpose skill' pattern. Not a framework, not a harness, just one skill that does research. The Claude Code ecosystem now produces viral individual skills.",
+      "tags": [
+        "github-trending",
+        "claude-code",
+        "research"
+      ],
+      "source": "GitHub +2,685/day"
+    },
+    {
+      "text": "Meta's HyperAgents (121 HN pts) introduces recursive self-improvement — agents that rewrite not just their task code but their improvement procedure itself. Cross-domain transfer (robotics strategies improving math grading) is the unexpected result.",
+      "tags": [
+        "agents",
+        "meta"
+      ],
+      "source": "HN 121pts"
+    },
+    {
+      "text": "deer-flow accelerates to +2,394/day (48.3K stars) — ByteDance's SuperAgent is the fastest-growing multi-agent framework this week. Big tech agent race: Anthropic (Claude Code), ByteDance (deer-flow), Nvidia (NemoClaw), Meta (HyperAgents), Microsoft (AutoGen).",
+      "tags": [
+        "claude-code",
+        "agents",
+        "bytedance"
+      ],
+      "source": "GitHub +2,394/day"
+    },
+    {
+      "text": "everything-claude-code crosses 100K stars (~108K) — two Claude Code ecosystem projects (superpowers + everything-claude-code) have crossed 100K in the same month. The plugin ecosystem grows faster than the underlying tool.",
+      "tags": [
+        "claude-code",
+        "ecosystem"
+      ],
+      "source": "GitHub 100K stars"
+    },
+    {
+      "text": "Stripe Projects launches (102 HN pts) — Stripe entering CLI-based infrastructure provisioning signals that developer platform tooling is the next contested territory. One CLI to provision hosting, databases, auth, analytics, and AI services.",
+      "tags": [
+        "fintech"
+      ],
+      "source": "HN 102pts"
+    },
+    {
+      "text": "Domain-specific agents break out: Dexter (financial research, 19K stars), pentagi (pentesting), Sashiko (kernel review). The shift from 'general agent framework' to 'agent that does one thing exceptionally' mirrors the vertical SaaS pattern.",
+      "tags": [
+        "agents",
+        "research"
+      ],
+      "source": "GitHub 19K stars"
+    },
+    {
+      "text": "RuView at 43K stars (+1K/day) — camera-free human sensing via WiFi CSI signals a privacy-preserving monitoring category. Rust + ESP32 ($1/node) makes it deployable at scale. Genuinely novel non-AI infrastructure.",
+      "tags": [
+        "rust"
+      ],
+      "source": "GitHub 43K stars"
+    }
+  ],
+  "trending": [
+    {
+      "name": "last30days-skill",
+      "stars": "11.2K",
+      "language": "Python",
+      "delta": "+2,685/d"
+    },
+    {
+      "name": "deer-flow",
+      "stars": "49.3K",
+      "language": "Python",
+      "delta": "+2,394/d"
+    },
+    {
+      "name": "insanely-fast-whisper",
+      "stars": "11.5K",
+      "language": "Jupyter Notebook",
+      "delta": "+1,370/d"
+    },
+    {
+      "name": "RuView",
+      "stars": "43.5K",
+      "language": "Rust",
+      "delta": "+1,002/d"
+    },
+    {
+      "name": "oh-my-claudecode",
+      "stars": "13.1K",
+      "language": "TypeScript",
+      "delta": "+598/d"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "890",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "2,685",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "14",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "March 27, 2026"
+    },
+    "headlines": [
+      {
+        "text": "LiteLLM supply chain attack",
+        "metric": "276 pts",
+        "source": "HN"
+      },
+      {
+        "text": "last30days-skill is #1 on GitHub trending at +2,685 stars/day",
+        "metric": "+2,685/d",
+        "source": "GitHub"
+      },
+      {
+        "text": "Meta's HyperAgents introduces recursive self-improvement",
+        "metric": "121 pts",
+        "source": "HN"
+      }
+    ],
+    "takeaway": {
+      "text": "The cross-topic signal has shifted slightly toward cost-justification narratives and security surfacing alongside continued agent-framework advancement. GitHub's trending shows sustained velocity in memory and research tools (last30days-skill +2,685/day, deer-flow +2,394/day) while a new high-amplitude HN thread (\"LiteLLM malware attack,\" +352 pts) introduces trust as an explicit adoption filter."
+    }
+  }
+}

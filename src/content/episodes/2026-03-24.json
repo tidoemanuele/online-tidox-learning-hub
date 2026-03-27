@@ -1,0 +1,135 @@
+{
+  "date": "2026-03-24",
+  "episodeNumber": 4,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "Box of Secrets: Discreetly modding an apartment in, Epoch confirms GPT5.4 Pro solved a frontier math o, Log File Viewer for the Terminal",
+  "heroStat": {
+    "value": "562",
+    "label": "points on \"iPhone 17 Pro Demonstrated Running a 400B LLM\""
+  },
+  "insights": [
+    {
+      "text": "Box of Secrets: Discreetly modding an apartment intercom to work with Apple Home (52 pts, 8 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 52pts"
+    },
+    {
+      "text": "Epoch confirms GPT5.4 Pro solved a frontier math open problem (255 pts, 181 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 255pts"
+    },
+    {
+      "text": "Log File Viewer for the Terminal (24 pts, 4 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 24pts"
+    },
+    {
+      "text": "BIO – The Bao I/O Co-Processor (20 pts, 4 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 20pts"
+    },
+    {
+      "text": "Autoresearch on an old research idea (334 pts, 72 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 334pts"
+    },
+    {
+      "text": "FCC updates covered list to include foreign-made consumer routers (285 pts, 190 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 285pts"
+    }
+  ],
+  "trending": [
+    {
+      "name": "everything-claude-code",
+      "stars": "103K",
+      "language": "JavaScript",
+      "delta": "+4,458/d"
+    },
+    {
+      "name": "project-nomad",
+      "stars": "13.8K",
+      "language": "TypeScript",
+      "delta": "+4,138/d"
+    },
+    {
+      "name": "deer-flow",
+      "stars": "40.6K",
+      "language": "Python",
+      "delta": "+3,546/d"
+    },
+    {
+      "name": "MoneyPrinterV2",
+      "stars": "23.6K",
+      "language": "Python",
+      "delta": "+2,880/d"
+    },
+    {
+      "name": "TradingAgents",
+      "stars": "39.8K",
+      "language": "Python",
+      "delta": "+2,530/d"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "562",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "4,458",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "14",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "6",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "March 24, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Box of Secrets: Discreetly modding an apartment intercom to work with Apple Home",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Epoch confirms GPT5.4 Pro solved a frontier math open problem",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Log File Viewer for the Terminal",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "**iPhone 17 Pro runs a 400B LLM locally (562 pts, 259 comments) — the highest-engagement local AI story in tracking history, surpassing \"Can I run AI locally?\" (1,295 pts, Mar 14) in signal density by demonstrating consumer mobile hardware running frontier-scale models.** GPT-5.4 Pro confirmed solving an open math problem by Epoch (255 pts, 181 comments) — first independent verification of a frontier model achieving genuine mathematical discovery, two months after GPT-5's initial claim. **everything-claude-code crosses the 100K star milestone (+4,458/day, 102,780 total)** — first Claude Code ecosystem project to hit six figures, sustaining multi-week explosive growth."
+    }
+  }
+}

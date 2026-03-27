@@ -1,0 +1,69 @@
+name: Daily Episode
+
+on:
+  schedule:
+    # Run at 06:00 UTC daily (07:00 CET / 08:00 CEST)
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+    inputs:
+      date:
+        description: 'Episode date (YYYY-MM-DD, defaults to today)'
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Determine date
+        id: date
+        env:
+          INPUT_DATE: ${{ inputs.date }}
+        run: |
+          if [ -n "$INPUT_DATE" ]; then
+            echo "date=$INPUT_DATE" >> "$GITHUB_OUTPUT"
+          else
+            echo "date=$(date +%Y-%m-%d)" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Generate episode
+        env:
+          EPISODE_DATE: ${{ steps.date.outputs.date }}
+        run: npx tsx scripts/scrape-to-props.ts "$EPISODE_DATE"
+
+      - name: Build site
+        run: npm run build
+
+      - name: Commit and push episode
+        env:
+          EPISODE_DATE: ${{ steps.date.outputs.date }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Only commit if there are changes
+          if git diff --quiet && git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          git add src/content/episodes/
+          git commit -m "episode: ${EPISODE_DATE} daily intelligence brief"
+          git push

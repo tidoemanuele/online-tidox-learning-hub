@@ -1,0 +1,145 @@
+{
+  "date": "2026-03-25",
+  "episodeNumber": 5,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "Seven repos above +1,000 stars/day simultaneously, MoneyPrinterV2 surges to +3,006/day, pascalorg/editor at +1,449/day proves non-AI creat",
+  "heroStat": {
+    "value": "1K",
+    "label": "stars"
+  },
+  "insights": [
+    {
+      "text": "Seven repos above +1,000 stars/day simultaneously — the all-time-high daily count. AI agent market is diversifying into stable subcategories: orchestration, content automation, local/offline, finance, memory, verification.",
+      "tags": [
+        "github-trending",
+        "agents"
+      ],
+      "source": "GitHub +1,000/day"
+    },
+    {
+      "text": "MoneyPrinterV2 surges to +3,006/day (25.1K stars) — automated content creation becomes a distinct agent vertical. Not coding, not research — content as commodity pipeline.",
+      "tags": [
+        "agents",
+        "research"
+      ],
+      "source": "GitHub +3,006/day"
+    },
+    {
+      "text": "pascalorg/editor at +1,449/day proves non-AI creative tooling can still capture attention — 3D architectural editing in the browser, no AI involved.",
+      "tags": [],
+      "source": "GitHub +1,449/day"
+    },
+    {
+      "text": "Trivy trending despite active security compromise — the most popular container vulnerability scanner was itself compromised. Popularity/trust decoupling is empirically demonstrated.",
+      "tags": [
+        "security",
+        "rust"
+      ]
+    },
+    {
+      "text": "Email.md (283 HN pts) — Markdown-to-email publishing. The agent-friendly creative interface remains Markdown-first (79% confidence).",
+      "tags": [
+        "agents"
+      ],
+      "source": "HN 283pts"
+    },
+    {
+      "text": "'I took a technician job to build vertical SaaS for pest control' (283 HN pts, 119 comments) — domain immersion becomes more valuable as AI cuts implementation cost. The binding constraint shifts from coding time to domain knowledge.",
+      "tags": [],
+      "source": "HN 283pts"
+    },
+    {
+      "text": "Video.js v10 rewrite (380 HN pts) — 88% smaller bundle. Anti-bloat simplification earns sustained attention alongside agent framework explosion. The community rewards restraint.",
+      "tags": [
+        "agents"
+      ],
+      "source": "HN 380pts"
+    },
+    {
+      "text": "Hypura (201 HN pts) — Apple Silicon local inference runtime. Local AI inference convergence continues: every major chip architecture now has a dedicated inference runtime.",
+      "tags": [],
+      "source": "HN 201pts"
+    }
+  ],
+  "trending": [
+    {
+      "name": "deer-flow",
+      "stars": "44.7K",
+      "language": "Python",
+      "delta": "+4,346/d"
+    },
+    {
+      "name": "MoneyPrinterV2",
+      "stars": "25.1K",
+      "language": "Python",
+      "delta": "+3,006/d"
+    },
+    {
+      "name": "project-nomad",
+      "stars": "15.8K",
+      "language": "TypeScript",
+      "delta": "+2,513/d"
+    },
+    {
+      "name": "TradingAgents",
+      "stars": "41.3K",
+      "language": "Python",
+      "delta": "+1,760/d"
+    },
+    {
+      "name": "editor",
+      "stars": "6.1K",
+      "language": "TypeScript",
+      "delta": "+1,449/d"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "891",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "4,346",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "14",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "March 25, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Seven repos above +1,000 stars/day simultaneously",
+        "metric": "+1,000/d",
+        "source": "GitHub"
+      },
+      {
+        "text": "MoneyPrinterV2 surges to +3,006/day",
+        "metric": "+3,006/d",
+        "source": "GitHub"
+      },
+      {
+        "text": "pascalorg/editor at +1,449/day proves non-AI creative tooling can still capture attention",
+        "metric": "+1,449/d",
+        "source": "GitHub"
+      }
+    ],
+    "takeaway": {
+      "text": "**LiteLLM's compromised PyPI releases (645 pts, 413 comments) are the most operationally important signal of the day because they convert last week's Trivy compromise from an isolated supply-chain story into a second-order ecosystem breach.** LiteLLM's own incident note confirms `litellm==1.82.7` and `1.82.8` were malicious and that the compromise may have originated from the Trivy CI/CD incident. **Wine 11's NTSYNC-era performance jump (891 pts, 315 comments)** is the highest-engagement technical story and shows that deep systems engineering still captures more trust than thin AI wrappers."
+    }
+  }
+}

@@ -1,0 +1,162 @@
+---
+import Base from '../../layouts/Base.astro';
+import { VideoPlayer } from '../../components/VideoPlayer';
+import { getCollection, getEntry } from 'astro:content';
+
+export async function getStaticPaths() {
+  const episodes = await getCollection('episodes');
+  return episodes.map((ep) => ({
+    params: { date: ep.data.date },
+    props: { episode: ep },
+  }));
+}
+
+const { episode } = Astro.props;
+const ep = episode.data;
+
+// Find prev/next episodes for navigation
+const allEpisodes = await getCollection('episodes');
+const sorted = allEpisodes.sort((a, b) => a.data.date.localeCompare(b.data.date));
+const currentIndex = sorted.findIndex(e => e.data.date === ep.date);
+const prev = currentIndex > 0 ? sorted[currentIndex - 1] : null;
+const next = currentIndex < sorted.length - 1 ? sorted[currentIndex + 1] : null;
+---
+
+<Base title={`Episode ${ep.episodeNumber} · ${ep.date}`} description={ep.subtitle}>
+  <article>
+    <!-- Episode meta -->
+    <div class="mb-2">
+      <span class="inline-block text-[12px] font-[family-name:var(--font-mono)] text-gray bg-light-bg px-2.5 py-1 rounded">
+        EPISODE {ep.episodeNumber} · {ep.date.replace(/-/g, '.')}
+      </span>
+    </div>
+
+    <!-- Brand label -->
+    <p class="text-[11px] font-[family-name:var(--font-mono)] tracking-[1.5px] uppercase text-terracotta mb-3">
+      {ep.title}
+    </p>
+
+    <!-- Daily editorial headline (the hero text) -->
+    <h1 class="text-[28px] md:text-[32px] font-bold font-[family-name:var(--font-display)] text-navy leading-tight mb-6">
+      {ep.subtitle}
+    </h1>
+
+    <!-- Hero stat -->
+    {ep.heroStat && (
+      <div class="bg-navy rounded-xl px-6 py-5 mb-6">
+        <p class="text-[48px] md:text-[56px] font-bold font-[family-name:var(--font-mono)] text-cream leading-none">
+          {ep.heroStat.value}
+        </p>
+        <p class="text-[14px] text-cream/70 mt-1">
+          {ep.heroStat.label}
+        </p>
+      </div>
+    )}
+
+    <!-- Remotion video player (renders 60s brief from JSON props) -->
+    <div class="rounded-xl overflow-hidden mb-3">
+      <!-- CSS poster frame shown during React hydration -->
+      <div class="aspect-video bg-near-black flex items-center justify-center" id="video-poster" aria-label="Daily video brief loading">
+        <div class="text-center">
+          <p class="text-[11px] font-[family-name:var(--font-mono)] tracking-[1.5px] uppercase text-cream/50 mb-2">
+            {ep.scenes.masthead.title}
+          </p>
+          <p class="text-[18px] font-[family-name:var(--font-display)] font-bold text-cream">
+            {ep.scenes.masthead.subtitle}
+          </p>
+        </div>
+      </div>
+      <!-- Remotion player replaces poster after hydration -->
+      <VideoPlayer episode={ep} client:only="react" />
+    </div>
+    <div class="flex justify-between text-[12px] text-gray mb-8">
+      <span>55s video brief · Rendered from today's data</span>
+    </div>
+
+    <!-- Audio player -->
+    {ep.audio?.podcastUrl ? (
+      <div class="bg-light-bg border border-divider rounded-lg p-4 flex items-center gap-3 mb-8" aria-label="Full podcast episode">
+        <div class="w-9 h-9 bg-terracotta rounded-full flex items-center justify-center flex-shrink-0">
+          <svg class="w-4 h-4 text-cream ml-0.5" viewBox="0 0 24 24" fill="currentColor">
+            <polygon points="5,3 19,12 5,21" />
+          </svg>
+        </div>
+        <div>
+          <p class="text-[13px] font-semibold">Full Podcast — 19 min</p>
+          <p class="text-[11px] text-gray">8 segments · VoxCPM narration</p>
+        </div>
+      </div>
+    ) : (
+      <!-- Audio hidden when no podcast URL -->
+      <Fragment />
+    )}
+
+    <!-- Action row -->
+    <div class="flex items-center gap-4 text-[12px] text-gray mb-8 pb-8 border-b border-divider">
+      <button class="hover:text-near-black transition-colors" title="Copy link">Share</button>
+      <span class="text-divider">·</span>
+      <a href="/feed.xml" class="hover:text-near-black transition-colors">RSS</a>
+      <span class="text-divider">·</span>
+      <span class="text-gray/50">Get daily email (coming soon)</span>
+    </div>
+
+    <!-- Two-column: Insights + Trending -->
+    <div class="grid grid-cols-1 md:grid-cols-[2fr_1fr] gap-8">
+      <!-- Insights -->
+      <section role="feed" aria-label="Today's insights">
+        <h2 class="text-[11px] font-bold tracking-[1.5px] uppercase text-terracotta mb-4 pb-2 border-b-2 border-terracotta">
+          Today's Insights
+        </h2>
+        {ep.insights.map((insight) => (
+          <article role="article" class="py-4 border-b border-divider last:border-b-0">
+            <p class="text-[15px] leading-relaxed mb-2">{insight.text}</p>
+            <div class="flex gap-1.5 flex-wrap">
+              {insight.tags.map((tag) => (
+                <span class="text-[11px] px-2 py-0.5 rounded bg-light-bg text-gray">{tag}</span>
+              ))}
+              {insight.source && (
+                <span class="text-[11px] px-2 py-0.5 rounded bg-light-bg text-gray font-[family-name:var(--font-mono)]">
+                  {insight.source}
+                </span>
+              )}
+            </div>
+          </article>
+        ))}
+      </section>
+
+      <!-- Trending repos -->
+      <section aria-label="Trending repositories">
+        <h2 class="text-[11px] font-bold tracking-[1.5px] uppercase text-terracotta mb-4 pb-2 border-b-2 border-terracotta">
+          Trending Repos
+        </h2>
+        {ep.trending.map((repo) => (
+          <div class="flex justify-between items-center py-2.5 border-b border-divider last:border-b-0 text-[13px]">
+            <div>
+              <p class="font-semibold text-navy">{repo.name}</p>
+              <p class="text-[11px] text-gray">{repo.language}</p>
+            </div>
+            <span class="font-[family-name:var(--font-mono)] text-[12px] text-terracotta">{repo.delta}</span>
+          </div>
+        ))}
+      </section>
+    </div>
+
+    <!-- Episode navigation -->
+    <nav class="flex justify-between mt-12 pt-6 border-t border-divider text-[13px]" aria-label="Episode navigation">
+      {prev ? (
+        <a href={`/daily/${prev.data.date}`} class="text-navy hover:text-terracotta transition-colors">
+          &larr; {prev.data.date}
+        </a>
+      ) : (
+        <span class="text-gray/40 italic">This is where it begins.</span>
+      )}
+      {next ? (
+        <a href={`/daily/${next.data.date}`} class="text-navy hover:text-terracotta transition-colors">
+          {next.data.date} &rarr;
+        </a>
+      ) : (
+        <span class="text-divider">Tomorrow &rarr;</span>
+      )}
+    </nav>
+  </article>
+</Base>

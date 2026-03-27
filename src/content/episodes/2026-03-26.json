@@ -1,0 +1,141 @@
+{
+  "date": "2026-03-26",
+  "episodeNumber": 2,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "'Thoughts on slowing the fuck down' hits 784 HN pt, last30days-skill jumps from +209/day to +1,341/day, supermemory accelerates from +344/day to +810/day",
+  "heroStat": {
+    "value": "9K",
+    "label": "stars)"
+  },
+  "insights": [
+    {
+      "text": "'Thoughts on slowing the fuck down' hits 784 HN pts — strongest single cultural signal of the day. Generation capacity has outpaced review capacity. The pacing problem is now mainstream.",
+      "tags": [],
+      "source": "HN 784pts"
+    },
+    {
+      "text": "last30days-skill jumps from +209/day to +1,341/day — the single strongest day-over-day acceleration across all tracked projects. Research/synthesis is now a 'first-class demand center,' not a secondary agent capability.",
+      "tags": [
+        "agents",
+        "research"
+      ],
+      "source": "GitHub +209/day"
+    },
+    {
+      "text": "supermemory accelerates from +344/day to +810/day (18.9K stars) — the memory layer is gaining independent momentum, not just riding framework hype.",
+      "tags": [],
+      "source": "GitHub +344/day"
+    },
+    {
+      "text": "LiteLLM continues trending despite active security compromise — popularity and trust are formally decoupled. GitHub stars should be read as attention metrics, not endorsement.",
+      "tags": [
+        "security",
+        "github-trending",
+        "rust"
+      ]
+    },
+    {
+      "text": "claude-subconscious appears on GitHub trending — background context tools for agents are becoming a category. The agent surface area expands into ambient, always-on context management.",
+      "tags": [
+        "github-trending",
+        "agents"
+      ]
+    },
+    {
+      "text": "Terminal-first + browser-portable is an emerging pattern (Gridland, 78 HN pts) — tools that work in both terminal and browser are the next agent-friendly creative substrate.",
+      "tags": [
+        "agents"
+      ],
+      "source": "HN 78pts"
+    },
+    {
+      "text": "Signal scarcity on CLI tools (no major launches) doesn't mean category decline — the creative CLI stack is in a consolidation phase after weeks of rapid expansion.",
+      "tags": []
+    },
+    {
+      "text": "Mobile AI demand still concentrates into one incumbent (ChatGPT at #5) — no visible breakout cohort. External signal: Sora shutdown suggests consumer AI media apps remain strategically fragile.",
+      "tags": []
+    }
+  ],
+  "trending": [
+    {
+      "name": "deer-flow",
+      "stars": "47.0K",
+      "language": "Python",
+      "delta": "+3,787/d"
+    },
+    {
+      "name": "editor",
+      "stars": "7.0K",
+      "language": "TypeScript",
+      "delta": "+2,353/d"
+    },
+    {
+      "name": "project-nomad",
+      "stars": "16.9K",
+      "language": "TypeScript",
+      "delta": "+1,718/d"
+    },
+    {
+      "name": "last30days-skill",
+      "stars": "8.4K",
+      "language": "Python",
+      "delta": "+1,341/d"
+    },
+    {
+      "name": "ruflo",
+      "stars": "26.4K",
+      "language": "TypeScript",
+      "delta": "+1,174/d"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "949",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "3,787",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "14",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "March 26, 2026"
+    },
+    "headlines": [
+      {
+        "text": "'Thoughts on slowing the fuck down' hits 784 HN pts",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "last30days-skill jumps from +209/day to +1,341/day",
+        "metric": "+209/d",
+        "source": "GitHub"
+      },
+      {
+        "text": "supermemory accelerates from +344/day to +810/day",
+        "metric": "+344/d",
+        "source": "GitHub"
+      }
+    ],
+    "takeaway": {
+      "text": "The strongest cross-topic signal is that AI tooling is moving further into workflow capture, memory scaffolding, and governance while consumer adoption remains much narrower. The highest-confidence facts behind that signal are: GitHub announced that, starting April 24, Copilot Free, Pro, and Pro+ interaction data will be used for model training unless users opt out; ARC-AGI-3 launched as an interactive reasoning benchmark focused on adaptation over time; GitHub trending elevated memory and research tools such as last30days-skill, supermemory, and claude-subconscious; and the Google Play top tier still shows ChatGPT as the only obvious AI-native winner."
+    }
+  }
+}

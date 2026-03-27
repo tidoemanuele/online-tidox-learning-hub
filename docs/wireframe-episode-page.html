@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tidox Learning Hub — Daily Episode Wireframe</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: system-ui, -apple-system, sans-serif;
+    background: #FAFAF5;
+    color: #1A1A1A;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 24px;
+  }
+  /* Intentionally rough wireframe aesthetic */
+  .wireframe-note {
+    font-size: 11px;
+    color: #999;
+    font-style: italic;
+    margin-bottom: 8px;
+  }
+
+  /* === HEADER === */
+  .site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+    border-bottom: 1px solid #D4D4D0;
+    margin-bottom: 32px;
+  }
+  .site-logo {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    color: #1B3A5C;
+  }
+  .site-logo span { color: #C45D3E; }
+  .nav-links { display: flex; gap: 20px; font-size: 13px; color: #6B6B6B; }
+  .nav-links a { text-decoration: none; color: inherit; }
+
+  /* === DATE BADGE === */
+  .date-badge {
+    display: inline-block;
+    font-size: 12px;
+    font-family: monospace;
+    color: #6B6B6B;
+    background: #F0F0EA;
+    padding: 4px 10px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+  }
+
+  /* === EPISODE HERO === */
+  .episode-hero {
+    margin-bottom: 32px;
+  }
+  .episode-title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #1B3A5C;
+    margin-bottom: 8px;
+  }
+  .episode-subtitle {
+    font-size: 15px;
+    color: #6B6B6B;
+    margin-bottom: 20px;
+  }
+
+  /* === VIDEO PLAYER AREA === */
+  /* This is where @remotion/player embeds */
+  .video-player {
+    background: #1A1A1A;
+    border-radius: 12px;
+    aspect-ratio: 16/9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 12px;
+    overflow: hidden;
+  }
+  .play-btn {
+    width: 64px;
+    height: 64px;
+    background: rgba(255,255,255,0.15);
+    border: 2px solid rgba(255,255,255,0.4);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .play-btn::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 22px solid rgba(255,255,255,0.8);
+    border-top: 14px solid transparent;
+    border-bottom: 14px solid transparent;
+    margin-left: 4px;
+  }
+  .video-progress {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: rgba(255,255,255,0.1);
+  }
+  .video-progress-fill {
+    width: 35%;
+    height: 100%;
+    background: #C45D3E;
+  }
+  .video-meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #999;
+    margin-bottom: 24px;
+  }
+
+  /* === AUDIO PLAYER === */
+  .audio-player {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: #F5F5F0;
+    border: 1px solid #E5E5E0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 32px;
+  }
+  .audio-play-btn {
+    width: 36px;
+    height: 36px;
+    background: #C45D3E;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  .audio-play-btn::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 12px solid white;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    margin-left: 2px;
+  }
+  .audio-info { flex: 1; }
+  .audio-title { font-size: 13px; font-weight: 600; }
+  .audio-duration { font-size: 11px; color: #999; }
+  .audio-waveform {
+    flex: 2;
+    height: 32px;
+    background: repeating-linear-gradient(
+      90deg,
+      #D4D4D0 0px, #D4D4D0 2px,
+      transparent 2px, transparent 5px
+    );
+    border-radius: 4px;
+    opacity: 0.5;
+  }
+
+  /* === INSIGHTS SECTION === */
+  .section-header {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #C45D3E;
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #C45D3E;
+  }
+
+  .insight-card {
+    padding: 16px 0;
+    border-bottom: 1px solid #EAEAE5;
+  }
+  .insight-card:last-child { border-bottom: none; }
+  .insight-text {
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 8px;
+  }
+  .insight-tags {
+    display: flex;
+    gap: 6px;
+  }
+  .tag {
+    font-size: 11px;
+    padding: 2px 8px;
+    border-radius: 3px;
+    background: #F0F0EA;
+    color: #6B6B6B;
+  }
+
+  /* === TRENDING SIDEBAR (shown as section on mobile) === */
+  .two-col {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 32px;
+    margin-top: 32px;
+  }
+
+  .trending-repo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #EAEAE5;
+    font-size: 13px;
+  }
+  .trending-repo:last-child { border-bottom: none; }
+  .repo-name { font-weight: 600; color: #1B3A5C; }
+  .repo-stars {
+    font-family: monospace;
+    font-size: 12px;
+    color: #C45D3E;
+  }
+  .repo-lang {
+    font-size: 11px;
+    color: #999;
+  }
+
+  /* === EPISODE NAV === */
+  .episode-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+    padding-top: 24px;
+    border-top: 1px solid #D4D4D0;
+    font-size: 13px;
+    color: #6B6B6B;
+  }
+  .episode-nav a { color: #1B3A5C; text-decoration: none; }
+
+  /* === FOOTER === */
+  .site-footer {
+    margin-top: 48px;
+    padding: 24px 0;
+    border-top: 1px solid #D4D4D0;
+    font-size: 12px;
+    color: #999;
+    text-align: center;
+  }
+
+  /* Dashed border wireframe indicators */
+  .wireframe-box {
+    border: 1.5px dashed #CCC;
+    border-radius: 4px;
+    padding: 8px;
+    position: relative;
+  }
+  .wireframe-label {
+    position: absolute;
+    top: -8px;
+    left: 8px;
+    background: #FAFAF5;
+    font-size: 10px;
+    color: #999;
+    padding: 0 4px;
+    font-family: monospace;
+  }
+</style>
+</head>
+<body>
+
+<!-- Design decision: warm cream background (#FAFAF5) matches existing
+     awesome-emerging palette. Terracotta accent (#C45D3E) carries through
+     from the Revideo video components. -->
+
+<p class="wireframe-note">WIREFRAME — Tidox Learning Hub — Daily Episode Page</p>
+
+<!-- HEADER -->
+<header class="site-header">
+  <div class="site-logo">tidox<span>.</span>hub</div>
+  <nav class="nav-links">
+    <a href="#">Today</a>
+    <a href="#">Archive</a>
+    <a href="#">Categories</a>
+    <a href="#">About</a>
+  </nav>
+</header>
+
+<!-- EPISODE HERO -->
+<section class="episode-hero">
+  <div class="date-badge">EPISODE 127 &middot; MAR 27, 2026</div>
+  <h1 class="episode-title">Intelligence Brief</h1>
+  <p class="episode-subtitle">LiteLLM supply chain attack, last30days-skill goes viral, Meta's HyperAgents introduce recursive self-improvement</p>
+
+  <!-- VIDEO PLAYER — @remotion/player renders here from JSON props -->
+  <div class="wireframe-box" style="margin-bottom: 4px;">
+    <span class="wireframe-label">@remotion/player</span>
+    <div class="video-player">
+      <div class="play-btn"></div>
+      <div class="video-progress"><div class="video-progress-fill"></div></div>
+    </div>
+  </div>
+  <div class="video-meta">
+    <span>55s video brief &middot; Rendered from today's data</span>
+    <span>Download MP4</span>
+  </div>
+</section>
+
+<!-- AUDIO PLAYER -->
+<section>
+  <div class="wireframe-box" style="margin-bottom: 24px;">
+    <span class="wireframe-label">podcast audio</span>
+    <div class="audio-player">
+      <div class="audio-play-btn"></div>
+      <div class="audio-info">
+        <div class="audio-title">Full Podcast — 19 min</div>
+        <div class="audio-duration">8 segments &middot; VoxCPM narration</div>
+      </div>
+      <div class="audio-waveform"></div>
+    </div>
+  </div>
+</section>
+
+<!-- TWO COLUMN: INSIGHTS + TRENDING -->
+<div class="two-col">
+  <div>
+    <div class="section-header">Today's Insights</div>
+
+    <div class="insight-card">
+      <p class="insight-text">LiteLLM supply chain attack (276 HN pts) — TeamPCP compromised the most popular LLM proxy (97M monthly downloads) via a cascading Trivy dependency attack. The AI supply chain is now a target-rich environment.</p>
+      <div class="insight-tags">
+        <span class="tag">security</span>
+        <span class="tag">supply-chain</span>
+        <span class="tag">HN 276pts</span>
+      </div>
+    </div>
+
+    <div class="insight-card">
+      <p class="insight-text">last30days-skill is #1 on GitHub trending at +2,685 stars/day (10.2K total) — validates the 'single-purpose skill' pattern. Not a framework, not a harness, just one skill that does research.</p>
+      <div class="insight-tags">
+        <span class="tag">github-trending</span>
+        <span class="tag">claude-code</span>
+        <span class="tag">+2685/day</span>
+      </div>
+    </div>
+
+    <div class="insight-card">
+      <p class="insight-text">Meta's HyperAgents (121 HN pts) introduces recursive self-improvement — agents that rewrite not just their task code but their improvement procedure itself.</p>
+      <div class="insight-tags">
+        <span class="tag">agents</span>
+        <span class="tag">meta</span>
+        <span class="tag">research</span>
+      </div>
+    </div>
+
+    <div class="insight-card">
+      <p class="insight-text">deer-flow accelerates to +2,394/day (48.3K stars) — ByteDance's SuperAgent is the fastest-growing multi-agent framework this week.</p>
+      <div class="insight-tags">
+        <span class="tag">agents</span>
+        <span class="tag">bytedance</span>
+        <span class="tag">+2394/day</span>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <div class="section-header">Trending Repos</div>
+
+    <div class="trending-repo">
+      <div>
+        <div class="repo-name">last30days-skill</div>
+        <div class="repo-lang">TypeScript</div>
+      </div>
+      <div class="repo-stars">+2,685/d</div>
+    </div>
+    <div class="trending-repo">
+      <div>
+        <div class="repo-name">deer-flow</div>
+        <div class="repo-lang">Python</div>
+      </div>
+      <div class="repo-stars">+2,394/d</div>
+    </div>
+    <div class="trending-repo">
+      <div>
+        <div class="repo-name">everything-claude-code</div>
+        <div class="repo-lang">Markdown</div>
+      </div>
+      <div class="repo-stars">+1,200/d</div>
+    </div>
+    <div class="trending-repo">
+      <div>
+        <div class="repo-name">RuView</div>
+        <div class="repo-lang">Rust</div>
+      </div>
+      <div class="repo-stars">+1,000/d</div>
+    </div>
+    <div class="trending-repo">
+      <div>
+        <div class="repo-name">Dexter</div>
+        <div class="repo-lang">Python</div>
+      </div>
+      <div class="repo-stars">+890/d</div>
+    </div>
+  </div>
+</div>
+
+<!-- EPISODE NAVIGATION -->
+<nav class="episode-nav">
+  <a href="#">&larr; Mar 26 — Slowing the fuck down</a>
+  <span style="color: #D4D4D0;">Tomorrow &rarr;</span>
+</nav>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  Tidox Learning Hub &middot; Automated daily intelligence &middot; Built by a solo developer with AI
+</footer>
+
+</body>
+</html>
