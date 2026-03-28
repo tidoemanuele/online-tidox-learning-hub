@@ -1,6 +1,6 @@
 import React from 'react';
 import { AbsoluteFill, interpolate, useCurrentFrame } from 'remotion';
-import { colors, fonts, DURATIONS } from '../constants';
+import { colors, fonts } from '../constants';
 import type { TrendingRepo } from '../types';
 
 interface TrendingTickerProps {
@@ -9,82 +9,127 @@ interface TrendingTickerProps {
 
 export const TrendingTicker: React.FC<TrendingTickerProps> = ({ repos }) => {
   const frame = useCurrentFrame();
-  const totalFrames = DURATIONS.trendingTicker;
 
-  const headerOpacity = interpolate(frame, [0, 12], [0, 1], { extrapolateRight: 'clamp' });
-
-  // Scroll the repo list horizontally
-  const scrollX = interpolate(frame, [15, totalFrames - 15], [0, -((repos.length - 3) * 420)], {
-    extrapolateLeft: 'clamp',
-    extrapolateRight: 'clamp',
-  });
+  const headerOpacity = interpolate(frame, [0, 10], [0, 1], { extrapolateRight: 'clamp' });
+  const ruleOpacity = interpolate(frame, [0, 10], [0, 1], { extrapolateRight: 'clamp' });
 
   return (
-    <AbsoluteFill style={{ backgroundColor: colors.navy }}>
-      {/* Header */}
+    <AbsoluteFill
+      style={{
+        backgroundColor: colors.cream,
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'flex-start',
+        paddingTop: 140,
+        paddingLeft: 120,
+        paddingRight: 120,
+      }}
+    >
+      {/* Section header */}
       <div
         style={{
-          position: 'absolute',
-          top: 120,
-          left: 140,
+          fontFamily: fonts.body,
+          fontSize: 18,
+          fontWeight: 600,
+          letterSpacing: 8,
+          color: colors.gray,
+          marginBottom: 36,
           opacity: headerOpacity,
-          fontFamily: fonts.mono,
-          fontSize: 14,
-          letterSpacing: 3,
-          color: colors.terracotta,
         }}
       >
         TRENDING ON GITHUB
       </div>
 
-      {/* Scrolling repo cards */}
+      {/* Top rule */}
       <div
         style={{
-          position: 'absolute',
-          top: 220,
-          left: 140,
-          display: 'flex',
-          gap: 32,
-          transform: `translateX(${scrollX}px)`,
+          width: '100%',
+          maxWidth: 1000,
+          height: 1,
+          backgroundColor: colors.divider,
+          marginBottom: 40,
+          opacity: ruleOpacity,
         }}
-      >
-        {repos.map((repo, i) => {
-          const cardOpacity = interpolate(frame, [8 + i * 6, 16 + i * 6], [0, 1], {
-            extrapolateRight: 'clamp',
-            extrapolateLeft: 'clamp',
-          });
+      />
 
-          return (
+      {/* Repo rows — staggered reveal, 1s apart */}
+      {repos.map((repo, i) => {
+        // Each row fades in 6 frames (200ms), staggered by 30 frames (1s)
+        const rowStart = 10 + i * 30;
+        const rowOpacity = interpolate(frame, [rowStart, rowStart + 6], [0, 1], {
+          extrapolateRight: 'clamp',
+          extrapolateLeft: 'clamp',
+        });
+
+        return (
+          <div
+            key={i}
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'space-between',
+              width: '100%',
+              maxWidth: 1000,
+              marginBottom: 36,
+              opacity: rowOpacity,
+            }}
+          >
+            {/* Left: repo name */}
             <div
-              key={i}
               style={{
-                width: 388,
-                padding: '32px 28px',
-                backgroundColor: 'rgba(255,255,255,0.06)',
-                borderRadius: 12,
-                border: '1px solid rgba(255,255,255,0.08)',
-                opacity: cardOpacity,
-                flexShrink: 0,
+                fontFamily: fonts.mono,
+                fontSize: 28,
+                fontWeight: 500,
+                color: colors.nearBlack,
               }}
             >
-              <div style={{ fontFamily: fonts.body, fontSize: 22, fontWeight: 600, color: colors.cream, marginBottom: 8 }}>
-                {repo.name}
-              </div>
-              <div style={{ fontFamily: fonts.mono, fontSize: 14, color: 'rgba(250,250,245,0.5)', marginBottom: 20 }}>
-                {repo.language}
-              </div>
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                <div style={{ fontFamily: fonts.mono, fontSize: 18, color: 'rgba(250,250,245,0.7)' }}>
-                  {repo.stars}
-                </div>
-                <div style={{ fontFamily: fonts.mono, fontSize: 20, fontWeight: 600, color: colors.terracotta }}>
-                  {repo.delta}
-                </div>
-              </div>
+              {repo.name}
             </div>
-          );
-        })}
-      </div>
+
+            {/* Right: stars, language badge, delta */}
+            <div style={{ display: 'flex', alignItems: 'center', gap: 20 }}>
+              <span style={{ fontFamily: fonts.mono, fontSize: 22, color: colors.nearBlack }}>
+                ★ {repo.stars}
+              </span>
+              <span
+                style={{
+                  fontFamily: fonts.body,
+                  fontSize: 16,
+                  fontWeight: 500,
+                  color: colors.cream,
+                  backgroundColor: colors.navy,
+                  borderRadius: 4,
+                  padding: '5px 12px',
+                }}
+              >
+                {repo.language}
+              </span>
+              <span
+                style={{
+                  fontFamily: fonts.mono,
+                  fontSize: 22,
+                  fontWeight: 600,
+                  color: '#2D7D46',
+                }}
+              >
+                {repo.delta}
+              </span>
+            </div>
+          </div>
+        );
+      })}
+
+      {/* Bottom rule */}
+      <div
+        style={{
+          width: '100%',
+          maxWidth: 1000,
+          height: 1,
+          backgroundColor: colors.divider,
+          marginTop: 4,
+          opacity: ruleOpacity,
+        }}
+      />
     </AbsoluteFill>
   );
 };

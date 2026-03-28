@@ -11,59 +11,42 @@ interface MastheadProps {
 export const Masthead: React.FC<MastheadProps> = ({ title, subtitle, episodeNumber }) => {
   const frame = useCurrentFrame();
 
-  const titleOpacity = interpolate(frame, [0, 15], [0, 1], { extrapolateRight: 'clamp' });
-  const titleY = interpolate(frame, [0, 15], [20, 0], { extrapolateRight: 'clamp' });
-
-  const subtitleOpacity = interpolate(frame, [10, 25], [0, 1], { extrapolateRight: 'clamp' });
-  const badgeOpacity = interpolate(frame, [20, 35], [0, 1], { extrapolateRight: 'clamp' });
-
-  const accentWidth = interpolate(frame, [0, 20], [0, 120], { extrapolateRight: 'clamp' });
+  const ruleOpacity = interpolate(frame, [0, 12], [0, 1], { extrapolateRight: 'clamp' });
+  const titleOpacity = interpolate(frame, [5, 18], [0, 1], { extrapolateRight: 'clamp' });
+  const subtitleOpacity = interpolate(frame, [12, 25], [0, 1], { extrapolateRight: 'clamp' });
+  const editionOpacity = interpolate(frame, [20, 33], [0, 1], { extrapolateRight: 'clamp' });
 
   return (
-    <AbsoluteFill style={{ backgroundColor: colors.cream, justifyContent: 'center', alignItems: 'center' }}>
-      {/* Terracotta accent bar */}
+    <AbsoluteFill
+      style={{
+        backgroundColor: colors.cream,
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'center',
+        paddingBottom: 80,
+      }}
+    >
+      {/* Top rule */}
       <div
         style={{
-          position: 'absolute',
-          top: '50%',
-          left: 140,
-          width: accentWidth,
-          height: 6,
-          backgroundColor: colors.terracotta,
-          transform: 'translateY(-80px)',
+          width: 700,
+          height: 1,
+          backgroundColor: colors.divider,
+          marginBottom: 56,
+          opacity: ruleOpacity,
         }}
       />
 
-      {/* Episode badge */}
+      {/* Title — large serif */}
       <div
         style={{
-          position: 'absolute',
-          top: '50%',
-          left: 140,
-          transform: 'translateY(-120px)',
-          opacity: badgeOpacity,
-          fontFamily: fonts.mono,
-          fontSize: 18,
-          letterSpacing: 2,
-          color: colors.gray,
-        }}
-      >
-        EPISODE {String(episodeNumber).padStart(3, '0')}
-      </div>
-
-      {/* Title */}
-      <div
-        style={{
-          position: 'absolute',
-          top: '50%',
-          left: 140,
-          transform: `translateY(${titleY - 30}px)`,
+          fontFamily: "'Georgia', 'Source Serif 4', serif",
+          fontSize: 56,
+          fontWeight: 300,
+          letterSpacing: 8,
+          color: colors.nearBlack,
           opacity: titleOpacity,
-          fontFamily: fonts.display,
-          fontWeight: 700,
-          fontSize: 48,
-          color: colors.navy,
-          letterSpacing: -1,
         }}
       >
         {title}
@@ -72,18 +55,42 @@ export const Masthead: React.FC<MastheadProps> = ({ title, subtitle, episodeNumb
       {/* Subtitle / date */}
       <div
         style={{
-          position: 'absolute',
-          top: '50%',
-          left: 140,
-          transform: 'translateY(40px)',
-          opacity: subtitleOpacity,
           fontFamily: fonts.body,
-          fontSize: 24,
+          fontSize: 26,
+          fontWeight: 400,
+          letterSpacing: 6,
           color: colors.gray,
+          marginTop: 36,
+          opacity: subtitleOpacity,
         }}
       >
         {subtitle}
       </div>
+
+      {/* Edition label */}
+      <div
+        style={{
+          fontFamily: fonts.mono,
+          fontSize: 16,
+          letterSpacing: 4,
+          color: '#9A9A96',
+          marginTop: 56,
+          opacity: editionOpacity,
+        }}
+      >
+        DAILY EDITION
+      </div>
+
+      {/* Bottom rule */}
+      <div
+        style={{
+          width: 700,
+          height: 1,
+          backgroundColor: colors.divider,
+          marginTop: 56,
+          opacity: ruleOpacity,
+        }}
+      />
     </AbsoluteFill>
   );
 };

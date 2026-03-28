@@ -1,5 +1,5 @@
 import React from 'react';
-import { AbsoluteFill, interpolate, useCurrentFrame } from 'remotion';
+import { AbsoluteFill, interpolate, useCurrentFrame, Easing } from 'remotion';
 import { colors, fonts } from '../constants';
 import type { Stat } from '../types';
 
@@ -7,97 +7,122 @@ interface NumbersGridProps {
   stats: Stat[];
 }
 
-const AnimatedNumber: React.FC<{ value: string; startFrame: number }> = ({ value, startFrame }) => {
+function parseValue(val: string): number {
+  const cleaned = val.replace(/,/g, '').trim();
+  if (cleaned.endsWith('k') || cleaned.endsWith('K')) return parseFloat(cleaned) * 1000;
+  if (cleaned.endsWith('m') || cleaned.endsWith('M')) return parseFloat(cleaned) * 1_000_000;
+  return parseFloat(cleaned) || 0;
+}
+
+function formatCounter(current: number, original: string): string {
+  const cleaned = original.replace(/,/g, '').trim();
+  if (cleaned.endsWith('k') || cleaned.endsWith('K')) return (current / 1000).toFixed(1) + 'k';
+  if (cleaned.endsWith('m') || cleaned.endsWith('M')) return (current / 1_000_000).toFixed(1) + 'M';
+  return Math.round(current).toLocaleString();
+}
+
+const CounterCell: React.FC<{ stat: Stat; index: number }> = ({ stat, index }) => {
   const frame = useCurrentFrame();
-  const localFrame = frame - startFrame;
 
-  // Parse numeric value (strip commas)
-  const numericStr = value.replace(/,/g, '');
-  const target = parseInt(numericStr, 10);
-
-  if (isNaN(target)) {
-    // Non-numeric, just fade in
-    const opacity = interpolate(localFrame, [0, 10], [0, 1], { extrapolateRight: 'clamp', extrapolateLeft: 'clamp' });
-    return <span style={{ opacity }}>{value}</span>;
-  }
-
-  const progress = interpolate(localFrame, [0, 24], [0, 1], {
+  // Stagger: each cell starts 12 frames (0.4s) after the previous
+  const cellStart = 10 + index * 12;
+  const cellOpacity = interpolate(frame, [cellStart, cellStart + 6], [0, 1], {
     extrapolateRight: 'clamp',
     extrapolateLeft: 'clamp',
   });
 
-  const current = Math.round(target * progress);
-  const formatted = current.toLocaleString();
+  // Counter rolls from 0 to target over 24 frames (0.8s), with easeOut
+  const target = parseValue(stat.value);
+  const counterProgress = interpolate(frame, [cellStart + 4, cellStart + 28], [0, 1], {
+    extrapolateRight: 'clamp',
+    extrapolateLeft: 'clamp',
+    easing: Easing.out(Easing.cubic),
+  });
+  const currentValue = target * counterProgress;
+  const displayValue = counterProgress >= 1 ? stat.value : formatCounter(currentValue, stat.value);
 
-  return <>{formatted}</>;
+  return (
+    <div
+      style={{
+        width: '50%',
+        padding: '36px 40px',
+        opacity: cellOpacity,
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'flex-start',
+      }}
+    >
+      {/* Top rule */}
+      <div style={{ width: '90%', height: 1, backgroundColor: colors.divider, marginBottom: 28 }} />
+
+      {/* Number + unit */}
+      <div style={{ display: 'flex', alignItems: 'baseline', gap: 10 }}>
+        <span
+          style={{
+            fontFamily: fonts.mono,
+            fontSize: 80,
+            fontWeight: 700,
+            color: colors.navy,
+            lineHeight: 1,
+          }}
+        >
+          {displayValue}
+        </span>
+        {stat.unit && (
+          <span style={{ fontFamily: fonts.mono, fontSize: 24, color: colors.gray }}>
+            {stat.unit}
+          </span>
+        )}
+      </div>
+
+      {/* Label */}
+      <div style={{ fontFamily: fonts.body, fontSize: 20, color: colors.gray, marginTop: 10 }}>
+        {stat.label}
+      </div>
+    </div>
+  );
 };
 
 export const NumbersGrid: React.FC<NumbersGridProps> = ({ stats }) => {
   const frame = useCurrentFrame();
-
-  const headerOpacity = interpolate(frame, [0, 12], [0, 1], { extrapolateRight: 'clamp' });
+  const headerOpacity = interpolate(frame, [0, 10], [0, 1], { extrapolateRight: 'clamp' });
 
   return (
-    <AbsoluteFill style={{ backgroundColor: colors.cream, justifyContent: 'center', alignItems: 'center' }}>
+    <AbsoluteFill
+      style={{
+        backgroundColor: colors.cream,
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        paddingTop: 140,
+      }}
+    >
       {/* Header */}
       <div
         style={{
-          position: 'absolute',
-          top: 120,
-          left: 140,
+          fontFamily: fonts.body,
+          fontSize: 18,
+          fontWeight: 600,
+          letterSpacing: 8,
+          color: colors.gray,
+          marginBottom: 60,
           opacity: headerOpacity,
-          fontFamily: fonts.mono,
-          fontSize: 14,
-          letterSpacing: 3,
-          color: colors.terracotta,
         }}
       >
         BY THE NUMBERS
       </div>
 
-      {/* 2x2 Grid */}
+      {/* 2x2 grid */}
       <div
         style={{
-          display: 'grid',
-          gridTemplateColumns: '1fr 1fr',
-          gap: 40,
+          display: 'flex',
+          flexWrap: 'wrap',
           width: 1000,
-          marginTop: 40,
         }}
       >
-        {stats.slice(0, 4).map((stat, i) => {
-          const cellDelay = i * 8;
-          const cellOpacity = interpolate(frame, [12 + cellDelay, 22 + cellDelay], [0, 1], {
-            extrapolateRight: 'clamp',
-            extrapolateLeft: 'clamp',
-          });
-          const cellY = interpolate(frame, [12 + cellDelay, 22 + cellDelay], [15, 0], {
-            extrapolateRight: 'clamp',
-            extrapolateLeft: 'clamp',
-          });
-
-          return (
-            <div
-              key={i}
-              style={{
-                opacity: cellOpacity,
-                transform: `translateY(${cellY}px)`,
-                padding: '36px 32px',
-                borderLeft: `4px solid ${colors.terracotta}`,
-              }}
-            >
-              <div style={{ fontFamily: fonts.mono, fontSize: 64, fontWeight: 700, color: colors.navy, lineHeight: 1 }}>
-                <AnimatedNumber value={stat.value} startFrame={12 + cellDelay} />
-              </div>
-              <div style={{ fontFamily: fonts.mono, fontSize: 18, color: colors.gray, marginTop: 4 }}>
-                {stat.unit}
-              </div>
-              <div style={{ fontFamily: fonts.body, fontSize: 18, color: colors.gray, marginTop: 12 }}>
-                {stat.label}
-              </div>
-            </div>
-          );
-        })}
+        {stats.slice(0, 4).map((stat, i) => (
+          <CounterCell key={i} stat={stat} index={i} />
+        ))}
       </div>
     </AbsoluteFill>
   );

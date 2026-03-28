@@ -10,7 +10,8 @@ export const DURATIONS = {
   headlineCard: 6 * FPS,    // 180 frames per card, 3 cards = 540 total
   trendingTicker: 10 * FPS, // 300 frames = 10s
   numbersGrid: 10 * FPS,    // 300 frames = 10s
-  takeaway: 10 * FPS,       // 300 frames = 10s
+  takeaway: 8 * FPS,        // 240 frames = 8s
+  close: 5 * FPS,           // 150 frames = 5s
 } as const;
 
 export const TOTAL_FRAMES =
@@ -18,7 +19,8 @@ export const TOTAL_FRAMES =
   DURATIONS.headlineCard * 3 +
   DURATIONS.trendingTicker +
   DURATIONS.numbersGrid +
-  DURATIONS.takeaway;
+  DURATIONS.takeaway +
+  DURATIONS.close;
 
 // Design tokens (mirrors src/design-tokens.ts)
 export const colors = {
