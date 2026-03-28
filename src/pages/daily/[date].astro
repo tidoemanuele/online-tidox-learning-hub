@@ -53,24 +53,22 @@ const next = currentIndex < sorted.length - 1 ? sorted[currentIndex + 1] : null;
       </div>
     )}
 
-    <!-- Remotion video player (renders 60s brief from JSON props) -->
+    <!-- Video: serve pre-rendered MP4 (with audio) if available, else Remotion player -->
     <div class="rounded-xl overflow-hidden mb-3">
-      <!-- CSS poster frame shown during React hydration -->
-      <div class="aspect-video bg-near-black flex items-center justify-center" id="video-poster" aria-label="Daily video brief loading">
-        <div class="text-center">
-          <p class="text-[11px] font-[family-name:var(--font-mono)] tracking-[1.5px] uppercase text-cream/50 mb-2">
-            {ep.scenes.masthead.title}
-          </p>
-          <p class="text-[18px] font-[family-name:var(--font-display)] font-bold text-cream">
-            {ep.scenes.masthead.subtitle}
-          </p>
-        </div>
-      </div>
-      <!-- Remotion player replaces poster after hydration -->
-      <VideoPlayer episode={ep} client:only="react" />
+      <video
+        class="w-full aspect-video bg-near-black"
+        controls
+        preload="metadata"
+        aria-label="Daily intelligence brief"
+        poster=""
+      >
+        <source src={`/video/${ep.date}.mp4`} type="video/mp4" />
+        <!-- Fallback text if no MP4 exists -->
+        Your browser does not support the video tag.
+      </video>
     </div>
     <div class="flex justify-between text-[12px] text-gray mb-8">
-      <span>55s video brief · Rendered from today's data</span>
+      <span>Daily intelligence brief · Two-voice podcast with visuals</span>
     </div>
 
     <!-- Audio player -->
