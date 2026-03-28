@@ -1,0 +1,156 @@
+[
+  {
+    "type": "intro",
+    "highlight": "March 27th, 2026",
+    "subtext": "Daily Intelligence Brief"
+  },
+  {
+    "type": "intro",
+    "highlight": "Let's Get Into It",
+    "subtext": "Andrew & Aria"
+  },
+  {
+    "type": "number",
+    "highlight": "LiteLLM Hit by Supply Chain Attack",
+    "number": "97M",
+    "subtext": "Monthly downloads compromised"
+  },
+  {
+    "type": "insight",
+    "highlight": "That's Not Niche — That's Infrastructure",
+    "label": "SCALE"
+  },
+  {
+    "type": "repo",
+    "highlight": "DefenseClaw",
+    "subtext": "Cisco shipped detection in hours, not weeks",
+    "label": "RAPID RESPONSE"
+  },
+  {
+    "type": "insight",
+    "highlight": "AI Stack Is Now a High-Value Target",
+    "subtext": "Security response time is compressing dramatically"
+  },
+  {
+    "type": "quote",
+    "highlight": "The Trust Radius Just Got Smaller",
+    "subtext": "Every black-box dependency is an attack surface"
+  },
+  {
+    "type": "action",
+    "highlight": "Audit Your Dependency Tree Now",
+    "subtext": "Treat it like 2021 Log4j all over again",
+    "label": "ACTION ITEM"
+  },
+  {
+    "type": "repo",
+    "highlight": "last30days-skill",
+    "number": "2685",
+    "subtext": "+2,685 stars in a single day — #1 trending on GitHub"
+  },
+  {
+    "type": "insight",
+    "highlight": "One Skill That Does Research",
+    "subtext": "Not a framework. Not a platform. One atomic capability."
+  },
+  {
+    "type": "number",
+    "highlight": "Claude Code Ecosystem Exploding",
+    "number": "100K",
+    "subtext": "everything-claude-code crosses 100K stars"
+  },
+  {
+    "type": "quote",
+    "highlight": "Ecosystem Growing Faster Than the Platform",
+    "subtext": "The plugin layer is where the energy is"
+  },
+  {
+    "type": "insight",
+    "highlight": "The Platform Becomes the Launchpad",
+    "subtext": "Value accrues in the skill layer — like VS Code extensions"
+  },
+  {
+    "type": "action",
+    "highlight": "Write One Skill That Does One Thing",
+    "subtext": "The viral unit is the skill, not the framework",
+    "label": "OPPORTUNITY"
+  },
+  {
+    "type": "repo",
+    "highlight": "deer-flow",
+    "subtext": "ByteDance — +2,394 stars/day alongside Meta, Nvidia, Microsoft",
+    "label": "MULTI-AGENT RACE"
+  },
+  {
+    "type": "insight",
+    "highlight": "Agents That Rewrite Their Own Code",
+    "subtext": "Meta's HyperAgents: recursive self-improvement",
+    "label": "HYPERAGENTS"
+  },
+  {
+    "type": "quote",
+    "highlight": "Robotics Strategies Improved Math Grading",
+    "subtext": "Cross-domain transfer across unrelated tasks"
+  },
+  {
+    "type": "insight",
+    "highlight": "AGI-Adjacent Claims Need Scrutiny",
+    "subtext": "Impressive in papers — unproven outside benchmarks",
+    "label": "SKEPTICISM"
+  },
+  {
+    "type": "number",
+    "highlight": "Competing Frameworks in One Quarter",
+    "number": "5",
+    "subtext": "Five major companies shipping agent frameworks simultaneously"
+  },
+  {
+    "type": "quote",
+    "highlight": "More Frameworks, More Attack Surface",
+    "subtext": "The supply chain and agent stories are deeply connected"
+  },
+  {
+    "type": "repo",
+    "highlight": "Stripe Projects",
+    "subtext": "One CLI command: hosting, databases, auth, analytics, and AI",
+    "label": "NEW LAUNCH"
+  },
+  {
+    "type": "quote",
+    "highlight": "We're Not Just Payments Anymore",
+    "subtext": "Stripe declares itself the developer platform",
+    "label": "STRIPE"
+  },
+  {
+    "type": "insight",
+    "highlight": "Who Owns the Developer's Command Line?",
+    "subtext": "Stripe vs Claude Code vs Vercel — the CLI wars begin"
+  },
+  {
+    "type": "insight",
+    "highlight": "Three Layers of the Same Story",
+    "subtext": "Security · Single-purpose tools · Developer workflow",
+    "label": "TODAY'S THESIS"
+  },
+  {
+    "type": "quote",
+    "highlight": "Trust Is the New Adoption Filter",
+    "subtext": "Dependencies, tools, and platforms — all filtered by trust"
+  },
+  {
+    "type": "action",
+    "highlight": "Audit, Ship a Skill, Watch the CLI Wars",
+    "subtext": "Three moves to make this week",
+    "label": "YOUR PLAYBOOK"
+  },
+  {
+    "type": "close",
+    "highlight": "Move on These Signals Today",
+    "subtext": "The builders who act now lead in six months"
+  },
+  {
+    "type": "close",
+    "highlight": "Go Build Something",
+    "subtext": "See you tomorrow"
+  }
+]

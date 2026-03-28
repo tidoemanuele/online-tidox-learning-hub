@@ -1,0 +1,114 @@
+[
+  [
+    "A",
+    "March 27th, 2026. I'm Andrew."
+  ],
+  [
+    "B",
+    "And I'm Aria. Let's get into it."
+  ],
+  [
+    "A",
+    "So here's the number that stopped me this morning: 97 million. That's the monthly download count for LiteLLM — the most popular LLM proxy out there. And it got hit with a supply chain attack."
+  ],
+  [
+    "B",
+    "Wait. 97 million monthly downloads. That's not some niche library — that's infrastructure. What happened exactly?"
+  ],
+  [
+    "A",
+    "A group called TeamPCP compromised it through a cascading dependency attack via Trivy. They didn't go after LiteLLM directly — they poisoned something LiteLLM trusts. Classic supply chain play. And here's the thing: Cisco shipped a detection tool called DefenseClaw the same day. Hours, not weeks."
+  ],
+  [
+    "B",
+    "OK so two things jump out at me. One — the AI stack is now a high-value target. And two — the security response time is compressing dramatically. That's actually encouraging."
+  ],
+  [
+    "A",
+    "It is, but it also tells us something uncomfortable. Every layer of the AI stack that we treat as a black box dependency — proxies, model routers, embedding pipelines — those are all attack surfaces now. The trust radius just got a lot smaller."
+  ],
+  [
+    "B",
+    "So if you're building on LLM infrastructure today, the action item is: audit your dependency tree like it's 2021 Log4j all over again. Don't just trust the proxy."
+  ],
+  [
+    "A",
+    "Exactly. Now let's talk about something more fun. The number one trending repo on GitHub yesterday — last30days-skill. Plus 2,685 stars in a single day."
+  ],
+  [
+    "B",
+    "That's wild. And it's not a framework. It's not a platform. It's literally one skill that does research across the last 30 days of internet activity."
+  ],
+  [
+    "A",
+    "Right. And that's the pattern I want people to notice. The Claude Code ecosystem is now producing viral individual skills. Not monolithic tools — atomic, single-purpose capabilities. Everything-claude-code just crossed 100K stars. Oh-my-claudecode is trending at plus 598 a day."
+  ],
+  [
+    "B",
+    "So what you're saying is... the ecosystem around Claude Code is growing faster than Claude Code itself. The plugin layer is where the energy is."
+  ],
+  [
+    "A",
+    "That's exactly right. And it mirrors what happened with VS Code extensions, npm packages, even smartphone apps. The platform becomes the launchpad. The real value accrues in the skill layer."
+  ],
+  [
+    "B",
+    "OK so if I'm a builder listening to this — the opportunity is clear. Write one skill that does one thing brilliantly. That's the viral unit now. Not the framework. The skill."
+  ],
+  [
+    "A",
+    "Now here's where it gets interesting. While individual skills are going viral, the big players are racing on multi-agent frameworks. ByteDance's deer-flow hit plus 2,394 stars per day. Meta dropped HyperAgents. Nvidia has NemoClaw. Microsoft has AutoGen."
+  ],
+  [
+    "B",
+    "And Meta's HyperAgents paper is genuinely surprising. These aren't just agents that improve at their tasks — they rewrite their own improvement procedure. Recursive self-improvement."
+  ],
+  [
+    "A",
+    "The unexpected finding was cross-domain transfer. Strategies an agent learned in robotics were improving its performance in math grading. Completely unrelated domains."
+  ],
+  [
+    "B",
+    "Hmm, I don't know about that. Cross-domain transfer sounds impressive in a paper, but I'd want to see it hold up outside Meta's benchmarks. The history of AGI-adjacent claims is... not great."
+  ],
+  [
+    "A",
+    "Fair skepticism. But even if you discount the recursive angle, the sheer velocity of agent framework development is the signal. Five major companies shipping competing frameworks in the same quarter."
+  ],
+  [
+    "B",
+    "Which brings us back to the supply chain story. More agent frameworks means more dependencies, more attack surface, more trust decisions. These two stories are deeply connected."
+  ],
+  [
+    "A",
+    "They are. And there's one more piece. Stripe launched Stripe Projects — CLI-based infrastructure provisioning. One command line to set up hosting, databases, auth, analytics, and AI services."
+  ],
+  [
+    "B",
+    "So Stripe is saying: we're not just payments anymore. We're the developer platform."
+  ],
+  [
+    "A",
+    "And that's the contest shaping up for the rest of this year. Who owns the developer's command line? Is it Stripe? Is it Claude Code with its skill ecosystem? Is it Vercel? Everyone wants to be the single CLI that developers live in."
+  ],
+  [
+    "B",
+    "Let me think about this... So today's thesis is actually three layers of the same story. The AI supply chain is now critical infrastructure that needs real security. Single-purpose tools are beating frameworks for adoption. And everyone is racing to own the developer workflow."
+  ],
+  [
+    "A",
+    "And the thread connecting all of it is trust. Trust in your dependencies. Trust in your tools. Trust in which platform you build on. That's the new adoption filter."
+  ],
+  [
+    "B",
+    "So here's what I'd do if I'm listening to this. First — audit your AI dependency chain this week, not next month. Second — if you've been thinking about building a Claude Code skill, ship it. The window for viral single-purpose tools is wide open. And third — watch the CLI wars. Wherever you invest your workflow, that's where you'll be locked in."
+  ],
+  [
+    "A",
+    "Well said. The builders who move on these signals today are the ones who'll be ahead in six months."
+  ],
+  [
+    "B",
+    "Go build something. We'll see you tomorrow."
+  ]
+]

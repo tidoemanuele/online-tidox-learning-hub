@@ -1,0 +1,156 @@
+[
+  {
+    "type": "intro",
+    "highlight": "Saturday, March 28th",
+    "subtext": "Your weekly dev intel briefing"
+  },
+  {
+    "type": "intro",
+    "highlight": "Let's get into it",
+    "subtext": "Andrew & Aria"
+  },
+  {
+    "type": "number",
+    "highlight": "The dot-claude folder broke Hacker News",
+    "number": "460",
+    "subtext": "points for a config folder deep-dive",
+    "label": "TOP STORY"
+  },
+  {
+    "type": "quote",
+    "highlight": "Reverse-engineering the config folder is the most popular post",
+    "subtext": "Not a feature. Not a launch. The internals."
+  },
+  {
+    "type": "number",
+    "highlight": "Go hard on agents, not your filesystem",
+    "number": "258",
+    "subtext": "points — same thesis, opposite direction",
+    "label": "SECOND STORY"
+  },
+  {
+    "type": "quote",
+    "highlight": "Spell that out for me"
+  },
+  {
+    "type": "insight",
+    "highlight": "Developers study AI tools like they studied compilers",
+    "subtext": "The internals are the product",
+    "label": "PARADIGM SHIFT"
+  },
+  {
+    "type": "quote",
+    "highlight": "You're a director who orchestrates AI agents",
+    "subtext": "Understanding how agents think is the core skill"
+  },
+  {
+    "type": "repo",
+    "highlight": "deer-flow",
+    "subtext": "ByteDance multi-agent framework — 49K stars",
+    "label": "TRENDING REPO"
+  },
+  {
+    "type": "number",
+    "highlight": "Sustained velocity with no deceleration",
+    "number": "2,400",
+    "subtext": "new stars per day on day five"
+  },
+  {
+    "type": "repo",
+    "highlight": "oh-my-claudecode",
+    "subtext": "+598 stars/day — 13K total",
+    "label": "AGENT TOOLING"
+  },
+  {
+    "type": "quote",
+    "highlight": "What's the action? Pick a framework?",
+    "subtext": "The listener's question"
+  },
+  {
+    "type": "action",
+    "highlight": "Solve a real problem with agents instead of code",
+    "subtext": "Don't learn frameworks in the abstract — wire up a workflow",
+    "label": "DO THIS"
+  },
+  {
+    "type": "repo",
+    "highlight": "insanely-fast-whisper",
+    "subtext": "+1,300 stars in a single day",
+    "label": "ON-DEVICE AI"
+  },
+  {
+    "type": "insight",
+    "highlight": "The full local AI stack is assembling piece by piece",
+    "subtext": "Local inference, speech-to-text, agent frameworks",
+    "label": "TREND"
+  },
+  {
+    "type": "number",
+    "highlight": "macOS is consistently bad unironically",
+    "number": "378",
+    "subtext": "points — developers routing around platform regression"
+  },
+  {
+    "type": "insight",
+    "highlight": "Developers want to own their stack again",
+    "subtext": "The cloud-dependency pendulum is swinging back",
+    "label": "CONTROL"
+  },
+  {
+    "type": "quote",
+    "highlight": "It's a hybrid architecture emerging",
+    "subtext": "Local for latency, cloud for heavy reasoning"
+  },
+  {
+    "type": "repo",
+    "highlight": "Velxio 2.0",
+    "subtext": "Arduino, ESP32, Raspberry Pi — emulated in the browser",
+    "label": "HARDWARE IN BROWSER"
+  },
+  {
+    "type": "quote",
+    "highlight": "Another domain the browser just absorbed",
+    "subtext": "Hardware prototyping with zero install"
+  },
+  {
+    "type": "action",
+    "highlight": "If you're not browser-first, you're already behind",
+    "subtext": "Design tools, IDEs, now hardware emulation",
+    "label": "BUILDER NOTE"
+  },
+  {
+    "type": "quote",
+    "highlight": "What is today actually telling us?"
+  },
+  {
+    "type": "insight",
+    "highlight": "Three layers of a new dev stack crystallizing",
+    "subtext": "Agents → On-device AI → Browser runtime",
+    "label": "THE BIG PICTURE"
+  },
+  {
+    "type": "insight",
+    "highlight": "Writing code to wiring layers together",
+    "subtext": "Understanding AI internals is competitive advantage",
+    "label": "JOB SHIFT"
+  },
+  {
+    "type": "quote",
+    "highlight": "Those studying how AI tools think will build the best products"
+  },
+  {
+    "type": "action",
+    "highlight": "Study the machinery. Wire up a workflow.",
+    "subtext": "The stack is assembling fast — understand it first",
+    "label": "YOUR MOVE"
+  },
+  {
+    "type": "close",
+    "highlight": "See you Monday"
+  },
+  {
+    "type": "close",
+    "highlight": "Go build something",
+    "subtext": "tidox.dev"
+  }
+]

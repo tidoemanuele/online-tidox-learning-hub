@@ -1,0 +1,114 @@
+[
+  [
+    "A",
+    "Saturday, March 28th. I'm Andrew."
+  ],
+  [
+    "B",
+    "And I'm Aria. Let's get into it."
+  ],
+  [
+    "A",
+    "So the top story on Hacker News this week — and I want you to sit with this — is a blog post about the dot-claude folder. The internal file structure of Claude Code. Four hundred and sixty points."
+  ],
+  [
+    "B",
+    "Wait. Not a new feature. Not a product launch. People are reverse-engineering the config folder and that's the most popular post of the week?"
+  ],
+  [
+    "A",
+    "Exactly. And right below it, at 258 points, is a post titled 'Go hard on agents, not on your filesystem.' These two stories are saying the same thing from opposite directions."
+  ],
+  [
+    "B",
+    "OK spell that out for me."
+  ],
+  [
+    "A",
+    "The first one says: developers now study their AI tools the way they used to study compilers. The internals are the product. The second one says: stop thinking about file organization entirely. Let agents handle the structure. Your job is to orchestrate."
+  ],
+  [
+    "B",
+    "So the mental model is shifting. You're not a developer who uses an AI assistant. You're a director who orchestrates AI agents. And understanding how those agents think — their config, their memory — that becomes the core skill."
+  ],
+  [
+    "A",
+    "That's the read. And the GitHub data backs it up. deer-flow, ByteDance's multi-agent framework — day five at plus twenty-four hundred stars per day. Forty-nine thousand total. No deceleration."
+  ],
+  [
+    "B",
+    "That's wild. Most repos spike and fade within 48 hours. Sustained velocity like that means people aren't just starring it, they're building on it."
+  ],
+  [
+    "A",
+    "Right. And oh-my-claudecode is at plus 598 a day. Thirteen thousand stars. The agent tooling layer is becoming its own ecosystem."
+  ],
+  [
+    "B",
+    "OK so if I'm a developer listening to this, what's the action? Learn agent orchestration patterns now? Pick a framework?"
+  ],
+  [
+    "A",
+    "I'd say pick a problem you already have and solve it with agents instead of code. Don't learn the framework in the abstract. Wire up a workflow. The dot-claude post is popular because people want to understand the machinery so they can customize it."
+  ],
+  [
+    "B",
+    "Alright, let me pivot to something that caught my eye. insanely-fast-whisper — plus thirteen hundred stars in a single day."
+  ],
+  [
+    "A",
+    "This is the on-device story quietly assembling itself. You've got local inference engines trending, local speech-to-text trending, local agent frameworks trending. The full stack for running AI without a cloud call is coming together piece by piece."
+  ],
+  [
+    "B",
+    "And that connects to the macOS frustration post — 378 points, 'Make macOS consistently bad unironically.' Developers are fed up with platform regression and routing around it with terminal-first, cross-platform tooling."
+  ],
+  [
+    "A",
+    "It's the same impulse. Control. Developers want to own their stack again. Local models, local speech processing, terminal workflows they control. The cloud-dependent era created convenience but also dependency. The pendulum is swinging."
+  ],
+  [
+    "B",
+    "Hmm, I don't know about that entirely. I think it's more nuanced. People want local for latency-sensitive stuff — speech, code completion, quick inference. But they still want cloud for the heavy reasoning. It's a hybrid architecture emerging."
+  ],
+  [
+    "A",
+    "Fair point. It's not either-or. It's about having the right tool at the right layer. And speaking of layers — Velxio 2.0 hit 136 points. It emulates Arduino, ESP32, and Raspberry Pi in the browser."
+  ],
+  [
+    "B",
+    "In the browser. Hardware prototyping with zero install. That's another domain the browser just absorbed."
+  ],
+  [
+    "A",
+    "The browser-as-platform thesis keeps winning. Design tools, IDEs, now hardware emulation. If you're building developer tools and you're not browser-first, you're already behind."
+  ],
+  [
+    "B",
+    "So let me try to tie this together. What is today actually telling us?"
+  ],
+  [
+    "A",
+    "Here's my read. We're watching three layers of a new developer stack crystallize in real time. Layer one: agent orchestration replaces manual coding for workflows. Layer two: on-device AI handles the latency-sensitive pieces — speech, inference, local reasoning. Layer three: the browser becomes the universal runtime for everything else."
+  ],
+  [
+    "B",
+    "And the developer's job is shifting from writing code to wiring these layers together. Understanding the internals — like that dot-claude folder — isn't curiosity. It's competitive advantage."
+  ],
+  [
+    "A",
+    "The people studying how their AI tools think today will be the ones building the best products tomorrow."
+  ],
+  [
+    "B",
+    "That's the takeaway. Go study the machinery. Go wire up a workflow. The stack is assembling fast and the builders who understand it first will define what's next."
+  ],
+  [
+    "A",
+    "See you Monday."
+  ],
+  [
+    "B",
+    "Go build something."
+  ]
+]
