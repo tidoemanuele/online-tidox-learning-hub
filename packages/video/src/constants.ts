@@ -4,21 +4,24 @@ export const FPS = 30;
 export const WIDTH = 1920;
 export const HEIGHT = 1080;
 
-// Scene durations in frames
+// Scene durations in frames — precisely synced to podcast topic transitions
 export const DURATIONS = {
-  masthead: 3 * FPS,        // 90 frames = 3s
-  headlineCard: 6 * FPS,    // 180 frames per card, 3 cards = 540 total
-  trendingTicker: 10 * FPS, // 300 frames = 10s
-  numbersGrid: 10 * FPS,    // 300 frames = 10s
-  takeaway: 8 * FPS,        // 240 frames = 8s
-  close: 5 * FPS,           // 150 frames = 5s
+  masthead: 252,        //   8.4s (intro before first topic)
+  headline1: 2541,      //  84.7s (LiteLLM supply chain deep dive)
+  headline2: 2393,      //  79.8s (last30days-skill + ecosystem)
+  headline3: 2390,      //  79.7s (HyperAgents + agent race)
+  trendingTicker: 1017, //  33.9s (trending + Stripe + CLI wars)
+  takeaway: 1782,       //  59.4s (thesis + action items)
+  close: 115,           //   3.8s (closing)
 } as const;
 
+// Total: ~350s (~5:50, matches podcast duration)
 export const TOTAL_FRAMES =
   DURATIONS.masthead +
-  DURATIONS.headlineCard * 3 +
+  DURATIONS.headline1 +
+  DURATIONS.headline2 +
+  DURATIONS.headline3 +
   DURATIONS.trendingTicker +
-  DURATIONS.numbersGrid +
   DURATIONS.takeaway +
   DURATIONS.close;
 

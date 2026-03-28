@@ -3,7 +3,6 @@ import { AbsoluteFill, Series } from 'remotion';
 import { Masthead } from './scenes/Masthead';
 import { HeadlineCard } from './scenes/HeadlineCard';
 import { TrendingTicker } from './scenes/TrendingTicker';
-import { NumbersGrid } from './scenes/NumbersGrid';
 import { Takeaway } from './scenes/Takeaway';
 import { Close } from './scenes/Close';
 import { ScreenFrame } from './scenes/ScreenFrame';
@@ -13,7 +12,6 @@ import type { EpisodeProps } from './types';
 export const Episode: React.FC<EpisodeProps> = (props) => {
   return (
     <AbsoluteFill>
-      {/* Scene content layer */}
       <Series>
         <Series.Sequence durationInFrames={DURATIONS.masthead}>
           <Masthead
@@ -23,16 +21,17 @@ export const Episode: React.FC<EpisodeProps> = (props) => {
           />
         </Series.Sequence>
 
-        <Series.Sequence durationInFrames={DURATIONS.headlineCard * props.scenes.headlines.length}>
-          <HeadlineCard headlines={props.scenes.headlines} />
-        </Series.Sequence>
+        {props.scenes.headlines.map((headline, i) => {
+          const dur = [DURATIONS.headline1, DURATIONS.headline2, DURATIONS.headline3][i];
+          return (
+            <Series.Sequence key={i} durationInFrames={dur || DURATIONS.headline1}>
+              <HeadlineCard headlines={[headline]} />
+            </Series.Sequence>
+          );
+        })}
 
         <Series.Sequence durationInFrames={DURATIONS.trendingTicker}>
           <TrendingTicker repos={props.trending} />
-        </Series.Sequence>
-
-        <Series.Sequence durationInFrames={DURATIONS.numbersGrid}>
-          <NumbersGrid stats={props.numbers} />
         </Series.Sequence>
 
         <Series.Sequence durationInFrames={DURATIONS.takeaway}>
@@ -44,7 +43,6 @@ export const Episode: React.FC<EpisodeProps> = (props) => {
         </Series.Sequence>
       </Series>
 
-      {/* ScreenFrame overlay — persistent chrome on every frame */}
       <ScreenFrame date={props.date} totalFrames={TOTAL_FRAMES} />
     </AbsoluteFill>
   );

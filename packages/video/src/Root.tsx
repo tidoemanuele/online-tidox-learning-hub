@@ -1,8 +1,14 @@
 import React from 'react';
 import { Composition } from 'remotion';
 import { Episode } from './Episode';
+import { BeatEpisode } from './BeatEpisode';
 import { FPS, WIDTH, HEIGHT, TOTAL_FRAMES } from './constants';
 import type { EpisodeProps } from './types';
+
+// Load beat-based data for the podcast video
+import script from '../../../public/audio/2026-03-27/script.json';
+import beats from '../../../public/audio/2026-03-27/beats.json';
+import lineDurations from '../../../public/audio/2026-03-27/line-durations.json';
 
 const sampleData: EpisodeProps = {
   date: '2026-03-27',
@@ -32,21 +38,39 @@ const sampleData: EpisodeProps = {
       { text: "Meta's HyperAgents introduces recursive self-improvement for AI agents", metric: '121 pts', source: 'HN' },
     ],
     takeaway: {
-      text: 'The AI supply chain is now a target-rich environment, and the response is measured in hours, not months. Meanwhile, the single-purpose skill pattern validates at scale.',
+      text: 'The AI supply chain is now a target-rich environment. Security responses measured in hours, not months.',
     },
   },
 };
 
+const beatTotalFrames = lineDurations.reduce((sum: number, d: number) => sum + Math.round(d * FPS), 0);
+
 export const RemotionRoot: React.FC = () => {
   return (
-    <Composition
-      id="Episode"
-      component={Episode}
-      durationInFrames={TOTAL_FRAMES}
-      fps={FPS}
-      width={WIDTH}
-      height={HEIGHT}
-      defaultProps={sampleData}
-    />
+    <>
+      <Composition
+        id="Episode"
+        component={Episode}
+        durationInFrames={TOTAL_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+        defaultProps={sampleData}
+      />
+      <Composition
+        id="PodcastBrief"
+        component={BeatEpisode}
+        durationInFrames={beatTotalFrames}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+        defaultProps={{
+          date: '2026-03-27',
+          script: script as [string, string][],
+          beats,
+          lineDurations: lineDurations as number[],
+        }}
+      />
+    </>
   );
 };

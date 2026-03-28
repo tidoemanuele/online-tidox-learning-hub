@@ -1,6 +1,6 @@
 import React from 'react';
 import { AbsoluteFill, interpolate, spring, useCurrentFrame, useVideoConfig } from 'remotion';
-import { colors, fonts, DURATIONS } from '../constants';
+import { colors, fonts } from '../constants';
 import type { Headline } from '../types';
 
 interface HeadlineCardProps {
@@ -113,25 +113,18 @@ const SingleCard: React.FC<{ headline: Headline; index: number; localFrame: numb
 
 export const HeadlineCard: React.FC<HeadlineCardProps> = ({ headlines }) => {
   const frame = useCurrentFrame();
-  const cardDuration = DURATIONS.headlineCard;
+  const { durationInFrames } = useVideoConfig();
 
-  const cardIndex = Math.min(Math.floor(frame / cardDuration), headlines.length - 1);
-  const localFrame = frame - cardIndex * cardDuration;
+  // When used with a single headline per Series.Sequence
+  const headline = headlines[0];
+  if (!headline) return null;
 
   return (
-    <AbsoluteFill>
-      {headlines.map((headline, i) => {
-        if (i !== cardIndex) return null;
-        return (
-          <SingleCard
-            key={i}
-            headline={headline}
-            index={i}
-            localFrame={localFrame}
-            cardDuration={cardDuration}
-          />
-        );
-      })}
-    </AbsoluteFill>
+    <SingleCard
+      headline={headline}
+      index={0}
+      localFrame={frame}
+      cardDuration={durationInFrames}
+    />
   );
 };

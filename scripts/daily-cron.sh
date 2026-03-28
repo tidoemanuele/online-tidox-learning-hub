@@ -8,7 +8,9 @@
 # Cron setup (run at 07:00 daily):
 #   0 7 * * * ~/Code/tidoemanuele/online-tidox-learning-hub/scripts/daily-cron.sh >> /tmp/tidox-daily.log 2>&1
 
-set -euo pipefail
+set -uo pipefail
+# NOTE: no set -e. Steps are allowed to fail individually.
+# Critical failures exit explicitly. Non-critical ones log and continue.
 
 DATE="$(date +%Y-%m-%d)"
 LOG_PREFIX="[$(date '+%H:%M:%S')]"
@@ -25,7 +27,14 @@ echo "  Tidox Daily Pipeline — ${DATE}"
 echo "  Started: $(date)"
 echo "========================================"
 
-export PATH="$HOME/.local/bin:$HOME/.nvm/versions/node/$(ls $HOME/.nvm/versions/node/ 2>/dev/null | tail -1)/bin:/opt/homebrew/bin:/usr/local/bin:$PATH"
+# Cron has a minimal PATH. Load the full environment.
+export PATH="$HOME/.local/bin:/opt/homebrew/bin:/usr/local/bin:$PATH"
+# Add nvm node if available
+NVM_NODE=$(ls -d "$HOME/.nvm/versions/node/"* 2>/dev/null | tail -1)
+[ -n "$NVM_NODE" ] && export PATH="$NVM_NODE/bin:$PATH"
+# Source shell profile for any remaining env (zsh on macOS)
+[ -f "$HOME/.zprofile" ] && source "$HOME/.zprofile" 2>/dev/null || true
+[ -f "$HOME/.zshrc" ] && source "$HOME/.zshrc" 2>/dev/null || true
 
 FAILED_STEPS=()
 step_start() { STEP_START=$(date +%s); }
@@ -37,85 +46,62 @@ step_end() {
 STEP_TIMES=()
 START_TIME=$(date +%s)
 
-# ── Step 1: Research with /last30days ───────────────────────
+# ── Step 1: Scraping ────────────────────────────────────────
 echo ""
-echo "${LOG_PREFIX} Step 1: Running /last30days research..."
-step_start
-
-mkdir -p "$RESEARCH_DIR/last30days"
-
-# Research topics matching our research-config.yaml
-TOPICS=(
-  "AI coding tools and AI agents trending this week"
-  "GitHub trending repositories and open source projects today"
-  "developer productivity tools and solo developer workflows"
-  "AI security vulnerabilities and supply chain attacks"
-)
-
-for topic in "${TOPICS[@]}"; do
-  SLUG=$(echo "$topic" | tr ' ' '-' | tr '[:upper:]' '[:lower:]' | cut -c1-40)
-  echo "${LOG_PREFIX}   Researching: ${topic:0:50}..."
-
-  cd "$HUB_DIR"
-  claude -p "/last30days $topic --days=1 --quick" --max-turns 15 \
-    > "$RESEARCH_DIR/last30days/${SLUG}.md" 2>/dev/null || true
-done
-
-L30D_COUNT=$(ls "$RESEARCH_DIR/last30days/"*.md 2>/dev/null | wc -l | tr -d ' ')
-echo "${LOG_PREFIX}   /last30days produced ${L30D_COUNT} reports"
-
-step_end "last30days research"
-
-# ── Step 1b: Fallback scraping (if last30days insufficient) ─
-echo ""
-echo "${LOG_PREFIX} Step 1b: Running agent-browser scraping..."
+echo "${LOG_PREFIX} Step 1: Running scrapers..."
 step_start
 
 SCRAPER="${LEARN_DIR}/research-browser/scrape-daily.sh"
 if [ -x "$SCRAPER" ]; then
   cd "$LEARN_DIR"
-  "$SCRAPER" "$DATE" 2>&1 | tail -3 || FAILED_STEPS+=("scrape")
+  /bin/zsh "$SCRAPER" "$DATE" 2>&1 | tail -5 || FAILED_STEPS+=("scrape")
   SOURCE_COUNT=$(ls "$SCRAPED_DIR"/*.json 2>/dev/null | wc -l | tr -d ' ')
   echo "${LOG_PREFIX}   Scraped ${SOURCE_COUNT} sources"
 else
-  echo "${LOG_PREFIX}   ⚠ Scraper not found (continuing with last30days data)"
+  echo "${LOG_PREFIX}   ⚠ Scraper not found at ${SCRAPER}"
+  FAILED_STEPS+=("scrape")
 fi
 
-step_end "agent-browser scraping"
+step_end "Scraping"
 
-# ── Step 2: AI Analysis + Synthesis ─────────────────────────
+# ── Step 2: AI Research + Synthesis (single Claude session) ─
 echo ""
-echo "${LOG_PREFIX} Step 2: AI synthesis session..."
+echo "${LOG_PREFIX} Step 2: AI research + synthesis..."
 step_start
 
+mkdir -p "$RESEARCH_DIR"
+
+# Single Claude session: search the web, read scraped data, produce everything
+RESEARCH_PROMPT="You are running the daily tech intelligence research for ${DATE}.
+
+STEP 1 — GATHER DATA:
+- Read scraped data at ${SCRAPED_DIR}/ if it exists (JSON files from HN, GitHub Trending, Reddit, etc.)
+- Use web search to find: what's trending on GitHub today, top Hacker News stories, major AI/dev tool news, any security incidents
+- Look at: https://news.ycombinator.com, GitHub trending, and search for '${DATE} AI developer tools news'
+
+STEP 2 — WRITE RESEARCH SUMMARY:
+Write a daily research summary to: ${RESEARCH_DIR}/daily-research-${DATE}.md
+Include: top signal, hypotheses with evidence, confidence assessments.
+Follow the format of previous summaries in ${RESEARCH_DIR}/../
+
+STEP 3 — WRITE EDITORIAL INSIGHTS:
+Update ${AE_DIR}/src/data/insights.ts — add a new entry at the TOP of the insights array for date '${DATE}'.
+Each insight: 1-2 sentences with specific data points (HN points, GitHub stars/day, names).
+Write 6-8 insights. Follow the exact format and voice of existing entries.
+Read the existing file first to match the style precisely.
+
+STEP 4 — VERIFY:
+Confirm both files were written. Print the insight texts you wrote."
+
 cd "$LEARN_DIR"
-
-# Build a prompt that uses BOTH last30days reports and scraped data
-RESEARCH_PROMPT="Run the daily research synthesis for ${DATE}.
-
-PRIMARY SOURCES (read these first):
-- /last30days research reports at: ${RESEARCH_DIR}/last30days/
-  These contain grounded findings from Reddit, X, HN, Polymarket with real citations.
-
-SECONDARY SOURCES (cross-reference):
-- Scraped data at: ${RESEARCH_DIR}/scraped/ (raw JSON from 14 tech sources)
-
-TASK:
-1. Read all /last30days reports and scraped data
-2. Synthesize into a daily research summary at: ${RESEARCH_DIR}/daily-research-${DATE}.md
-3. Extract the top 6-8 editorial insights and update: ${AE_DIR}/src/data/insights.ts
-   Add a new entry for date '${DATE}' following the exact existing format.
-   Each insight should be 1-2 sentences with specific data points and source attribution.
-4. Follow the existing format and voice from previous entries in insights.ts exactly."
-
-if claude -p "$RESEARCH_PROMPT" --max-turns 30 2>&1 | tail -10; then
-  echo "${LOG_PREFIX}   ✓ Synthesis complete"
+if claude -p "$RESEARCH_PROMPT" --max-turns 40 2>&1 | tail -15; then
+  echo "${LOG_PREFIX}   ✓ Research + synthesis complete"
 else
-  echo "${LOG_PREFIX}   ⚠ Synthesis had issues"
-  FAILED_STEPS+=("synthesis")
+  echo "${LOG_PREFIX}   ⚠ Research had issues"
+  FAILED_STEPS+=("research")
 fi
 
-step_end "AI synthesis"
+step_end "AI research + synthesis"
 
 # ── Step 3: Transform to EpisodeProps ───────────────────────
 echo ""

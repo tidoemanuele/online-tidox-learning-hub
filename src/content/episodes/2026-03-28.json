@@ -1,0 +1,145 @@
+{
+  "date": "2026-03-28",
+  "episodeNumber": 6,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "'Anatomy of the .claude/ folder' hits 460 HN pts, 'Go hard on agents, not on your filesystem', insanely-fast-whisper surges to +1,370 stars/day",
+  "heroStat": {
+    "value": "5K",
+    "label": "total"
+  },
+  "insights": [
+    {
+      "text": "'Anatomy of the .claude/ folder' hits 460 HN pts — the most popular Claude Code story of the week. Developer tooling internals are now content. The community doesn't just use the tool, they study how it's built.",
+      "tags": [
+        "claude-code"
+      ],
+      "source": "HN 460pts"
+    },
+    {
+      "text": "'Go hard on agents, not on your filesystem' (258 HN pts) — the agent-first development philosophy crystallizes into a direct manifesto. Stop organizing files. Start orchestrating agents.",
+      "tags": [
+        "agents"
+      ],
+      "source": "HN 258pts"
+    },
+    {
+      "text": "insanely-fast-whisper surges to +1,370 stars/day (11.5K total) — local speech processing enters the same viral velocity tier as agent frameworks. The on-device AI stack is assembling: inference (Hypura), speech (Whisper), agents (deer-flow).",
+      "tags": [
+        "github-trending",
+        "agents"
+      ],
+      "source": "GitHub +1,370/day"
+    },
+    {
+      "text": "'Make macOS consistently bad unironically' reaches 378 HN pts — developer frustration with platform regression hits a new amplitude. The community routes around it: terminal-first workflows, cross-platform tools, self-hosted alternatives.",
+      "tags": [
+        "rust"
+      ],
+      "source": "HN 378pts"
+    },
+    {
+      "text": "Velxio 2.0 (136 HN pts) — emulate Arduino, ESP32, and Raspberry Pi 3 in the browser. Hardware prototyping goes zero-install. The browser-as-platform thesis continues to absorb traditionally native domains.",
+      "tags": [],
+      "source": "HN 136pts"
+    },
+    {
+      "text": "deer-flow sustains at +2,394/day (49.3K stars, Day 5) — ByteDance's multi-agent framework shows no deceleration. The big tech agent race enters a sustained velocity phase rather than a spike-and-fade pattern.",
+      "tags": [
+        "agents",
+        "bytedance"
+      ],
+      "source": "GitHub +2,394/day"
+    },
+    {
+      "text": "AMD Ryzen 9 9950X3D2 packs 208MB cache into a single chip (121 HN pts) — hardware continues to remove AI inference bottlenecks from the bottom up. More cache means more model parameters stay resident. Local AI gets faster without algorithmic changes.",
+      "tags": [],
+      "source": "HN 121pts"
+    },
+    {
+      "text": "Nashville library launches Memory Lab for digitizing home movies (142 HN pts) — the preservation-digitization wave reaches public institutions. Cultural infrastructure meets consumer nostalgia at the local library.",
+      "tags": [],
+      "source": "HN 142pts"
+    }
+  ],
+  "trending": [
+    {
+      "name": "last30days-skill",
+      "stars": "11.2K",
+      "language": "Python",
+      "delta": "+2,685/d"
+    },
+    {
+      "name": "deer-flow",
+      "stars": "49.3K",
+      "language": "Python",
+      "delta": "+2,394/d"
+    },
+    {
+      "name": "insanely-fast-whisper",
+      "stars": "11.5K",
+      "language": "Jupyter Notebook",
+      "delta": "+1,370/d"
+    },
+    {
+      "name": "RuView",
+      "stars": "43.5K",
+      "language": "Rust",
+      "delta": "+1,002/d"
+    },
+    {
+      "name": "oh-my-claudecode",
+      "stars": "13.1K",
+      "language": "TypeScript",
+      "delta": "+598/d"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "890",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "2,685",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "14",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "March 28, 2026"
+    },
+    "headlines": [
+      {
+        "text": "'Anatomy of the .claude/ folder' hits 460 HN pts",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "'Go hard on agents, not on your filesystem'",
+        "metric": "258 pts",
+        "source": "HN"
+      },
+      {
+        "text": "insanely-fast-whisper surges to +1,370 stars/day",
+        "metric": "+1,370/d",
+        "source": "GitHub"
+      }
+    ],
+    "takeaway": {
+      "text": "Today's brief covers the most interesting signals across the tech landscape."
+    }
+  }
+}
