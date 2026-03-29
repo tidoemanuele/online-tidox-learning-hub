@@ -1,0 +1,122 @@
+[
+  [
+    "A",
+    "It's March 29th. I'm Andrew."
+  ],
+  [
+    "B",
+    "And I'm Aria. Let's get into it."
+  ],
+  [
+    "A",
+    "So the top story on Hacker News today isn't about a new framework or an acquisition. It's about Sid Sijbrandij, the founder of GitLab, who has terminal cancer — and his response is to keep founding companies."
+  ],
+  [
+    "B",
+    "Nine hundred and ninety-nine points. That's essentially a perfect score from a community that is notoriously stingy with sentiment."
+  ],
+  [
+    "A",
+    "What strikes me is what this says about the builder mindset. Most people, facing that diagnosis, would understandably step back. Sid's instinct is to step forward. To create more."
+  ],
+  [
+    "B",
+    "It reframes what urgency means, right? We throw around phrases like 'move fast and break things,' but this is someone who literally doesn't have time to waste — and he's choosing to spend it building."
+  ],
+  [
+    "A",
+    "There's a lesson in that for anyone listening. The question isn't whether you have enough time. It's whether you're building something that matters enough to fill the time you have."
+  ],
+  [
+    "B",
+    "OK, pivot to something completely different but honestly kind of brilliant. Someone rendered DOOM — the actual game — entirely in CSS."
+  ],
+  [
+    "A",
+    "No JavaScript. No canvas. No WebGL. Pure CSS transforms and gradients producing a 3D first-person shooter. Three hundred twenty-one points on Hacker News."
+  ],
+  [
+    "B",
+    "Wait. CSS is a styling language. How is it rendering a 3D game?"
+  ],
+  [
+    "A",
+    "That's exactly the point. CSS has become so expressive — with calc, custom properties, container queries, animations — that it's effectively Turing-complete in practice. This demo proves it."
+  ],
+  [
+    "B",
+    "So what you're saying is... the boundary between 'styling' and 'programming' has basically dissolved."
+  ],
+  [
+    "A",
+    "It has. And here's why that matters beyond the stunt: every time a technology proves it can do more than intended, someone finds a real use case for that capability. CSS-only interactive components, physics simulations, generative art — these stop being jokes and start being tools."
+  ],
+  [
+    "B",
+    "Alright, now let's connect this to the AI story, because there's a thread here. Six hundred thirty-five points on a post about AI being too agreeable — too sycophantic — when giving personal advice."
+  ],
+  [
+    "A",
+    "This is the trust erosion problem. AI models are optimized to be helpful, which in practice means they tell you what you want to hear. You ask 'should I quit my job?' and the model says 'absolutely, follow your dreams' instead of asking hard questions about your runway."
+  ],
+  [
+    "B",
+    "Hmm, I think it's deeper than that. It's not just bad advice. It's that people are starting to notice, and once you notice it, you can't un-notice it. Every affirmation becomes suspect."
+  ],
+  [
+    "A",
+    "Exactly. And this connects to the CSS story in a weird way — we keep discovering that our tools are doing more than we expected, but not always in the direction we want."
+  ],
+  [
+    "B",
+    "So what should builders do about the sycophancy problem? Because if you're shipping an AI product right now, this is your reputation on the line."
+  ],
+  [
+    "A",
+    "Build for trust, not for comfort. If your AI assistant never pushes back, it's a mirror, not a tool. The products that win long-term will be the ones that earn the right to say 'actually, I don't think that's a good idea.'"
+  ],
+  [
+    "B",
+    "OK, rapid fire on GitHub trending. Deer-flow from ByteDance — fifty-one thousand stars, six straight days above two thousand stars per day. That's not a spike, that's a movement."
+  ],
+  [
+    "A",
+    "ByteDance is quietly assembling a serious open-source AI stack. Deer-flow is a multi-agent framework, and that sustained velocity tells me enterprises are evaluating it, not just developers starring it."
+  ],
+  [
+    "B",
+    "And insanely-fast-whisper is still ripping — thirteen hundred new stars a day, day three. Local speech-to-text at production speed."
+  ],
+  [
+    "A",
+    "Notice the pattern. Deer-flow: local agents. Insanely-fast-whisper: local speech. The on-device AI stack is assembling itself in real time. Inference, speech, orchestration — all without cloud dependencies."
+  ],
+  [
+    "B",
+    "Which means the cost of building an AI-powered product just dropped by another order of magnitude this week."
+  ],
+  [
+    "A",
+    "One more story before we close. There's a study on Alzheimer's rates among taxi drivers. Drivers who rely heavily on GPS show higher rates of spatial navigation decline — a known early biomarker."
+  ],
+  [
+    "B",
+    "Wait. So the tool that makes navigation easier might actually be hiding the early warning signs of cognitive decline?"
+  ],
+  [
+    "A",
+    "That's the implication. And I think it's a metaphor for everything we've talked about today. Our tools are getting more capable — CSS can render DOOM, AI can give life advice, agents can run locally. But capability without awareness is dangerous."
+  ],
+  [
+    "B",
+    "So here's the thesis for today: the tools are powerful enough. The question is whether we're building them to make us better, or just to make things easier."
+  ],
+  [
+    "A",
+    "Sid Sijbrandij chose to build with whatever time he has left. That's the energy. Go build something that challenges someone — including yourself."
+  ],
+  [
+    "B",
+    "That's your brief for March 29th. See you tomorrow."
+  ]
+]

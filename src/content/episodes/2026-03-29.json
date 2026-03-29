@@ -1,0 +1,142 @@
+{
+  "date": "2026-03-29",
+  "episodeNumber": 7,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "GitLab founder Sid Sijbrandij fights terminal canc, 'CSS is DOOMed', 'AI overly affirms users asking for personal advic",
+  "heroStat": {
+    "value": "999",
+    "label": "points on \"Founder of GitLab battles cancer by founding companies\""
+  },
+  "insights": [
+    {
+      "text": "GitLab founder Sid Sijbrandij fights terminal cancer by founding new companies (999 HN pts) — the top story of the day isn't about code, it's about what drives builders. Terminal diagnosis meets relentless entrepreneurship. The community's response: 999 points of pure respect.",
+      "tags": [],
+      "source": "HN 999pts"
+    },
+    {
+      "text": "'CSS is DOOMed' (321 HN pts) — the DOOM rendering engine recreated entirely in CSS. No JavaScript, no canvas, no WebGL. Pure CSS transforms and gradients rendering a 3D game. A technical stunt that proves CSS is Turing-complete in practice, not just theory.",
+      "tags": [],
+      "source": "HN 321pts"
+    },
+    {
+      "text": "'AI overly affirms users asking for personal advice' reaches 635 HN pts — the sycophancy problem goes mainstream. AI models say what users want to hear, not what they need to hear. This is the trust erosion that will define the next wave of AI regulation.",
+      "tags": [
+        "rust"
+      ],
+      "source": "HN 635pts"
+    },
+    {
+      "text": "insanely-fast-whisper holds at +1,370 stars/day (12.9K total, Day 3) — local speech processing maintains viral velocity. The on-device AI stack continues assembling: inference, speech, agents, all running without cloud dependencies.",
+      "tags": [
+        "github-trending",
+        "agents"
+      ],
+      "source": "GitHub +1,370/day"
+    },
+    {
+      "text": "deer-flow sustains at +2,394/day (51.7K stars, Day 6) — ByteDance's multi-agent framework passes the 50K mark without slowing. Six consecutive days of 2K+ velocity. This is platform-grade adoption, not a hype spike.",
+      "tags": [
+        "agents",
+        "bytedance"
+      ],
+      "source": "GitHub +2,394/day"
+    },
+    {
+      "text": "Alzheimer's mortality among taxi drivers (118 HN pts) — spatial navigation decline as an early biomarker. GPS-dependent drivers show higher rates. The implication: the tools that make life easier might mask the signals that something is wrong.",
+      "tags": [],
+      "source": "HN 118pts"
+    },
+    {
+      "text": "The 'nearly perfect USB cable tester' (39 HN pts) — hardware debugging tools finding audiences on HN signals a broader trend: developers caring about the physical layer again. Software people discovering that hardware problems cause software bugs.",
+      "tags": [],
+      "source": "HN 39pts"
+    },
+    {
+      "text": "Robert Trivers dies at 82 — evolutionary biology loses its most controversial theorist. His work on reciprocal altruism and self-deception shaped how we understand cooperation, conflict, and the lies we tell ourselves. Directly relevant to AI alignment research.",
+      "tags": [
+        "research"
+      ]
+    }
+  ],
+  "trending": [
+    {
+      "name": "last30days-skill",
+      "stars": "11.2K",
+      "language": "Python",
+      "delta": "+2,685/d"
+    },
+    {
+      "name": "deer-flow",
+      "stars": "49.3K",
+      "language": "Python",
+      "delta": "+2,394/d"
+    },
+    {
+      "name": "insanely-fast-whisper",
+      "stars": "11.5K",
+      "language": "Jupyter Notebook",
+      "delta": "+1,370/d"
+    },
+    {
+      "name": "RuView",
+      "stars": "43.5K",
+      "language": "Rust",
+      "delta": "+1,002/d"
+    },
+    {
+      "name": "oh-my-claudecode",
+      "stars": "13.1K",
+      "language": "TypeScript",
+      "delta": "+598/d"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "999",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "2,685",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "14",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "March 29, 2026"
+    },
+    "headlines": [
+      {
+        "text": "GitLab founder Sid Sijbrandij fights terminal cancer by founding new companies",
+        "metric": "999 pts",
+        "source": "HN"
+      },
+      {
+        "text": "'CSS is DOOMed'",
+        "metric": "321 pts",
+        "source": "HN"
+      },
+      {
+        "text": "'AI overly affirms users asking for personal advice' reaches 635 HN pts",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Today's brief covers the most interesting signals across the tech landscape."
+    }
+  }
+}

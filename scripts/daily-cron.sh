@@ -8,9 +8,8 @@
 # Cron setup (run at 07:00 daily):
 #   0 7 * * * ~/Code/tidoemanuele/online-tidox-learning-hub/scripts/daily-cron.sh >> /tmp/tidox-daily.log 2>&1
 
-set -uo pipefail
-# NOTE: no set -e. Steps are allowed to fail individually.
-# Critical failures exit explicitly. Non-critical ones log and continue.
+# No set -e or -u. Cron scripts must be resilient.
+# Steps fail individually. Critical failures exit explicitly.
 
 DATE="$(date +%Y-%m-%d)"
 LOG_PREFIX="[$(date '+%H:%M:%S')]"
@@ -30,11 +29,8 @@ echo "========================================"
 # Cron has a minimal PATH. Load the full environment.
 export PATH="$HOME/.local/bin:/opt/homebrew/bin:/usr/local/bin:$PATH"
 # Add nvm node if available
-NVM_NODE=$(ls -d "$HOME/.nvm/versions/node/"* 2>/dev/null | tail -1)
+NVM_NODE="$(ls -d "$HOME/.nvm/versions/node/"* 2>/dev/null | tail -1 || true)"
 [ -n "$NVM_NODE" ] && export PATH="$NVM_NODE/bin:$PATH"
-# Source shell profile for any remaining env (zsh on macOS)
-[ -f "$HOME/.zprofile" ] && source "$HOME/.zprofile" 2>/dev/null || true
-[ -f "$HOME/.zshrc" ] && source "$HOME/.zshrc" 2>/dev/null || true
 
 FAILED_STEPS=()
 step_start() { STEP_START=$(date +%s); }
@@ -165,12 +161,12 @@ echo ""
 echo "========================================"
 echo "  Pipeline complete — ${TOTAL_TIME}s total"
 echo "========================================"
-for t in "${STEP_TIMES[@]}"; do
-  echo "  $t"
+for t in "${STEP_TIMES[@]+"${STEP_TIMES[@]}"}"; do
+  [ -n "$t" ] && echo "  $t"
 done
-if [ ${#FAILED_STEPS[@]} -eq 0 ]; then
+if [ ${#FAILED_STEPS[@]+"${#FAILED_STEPS[@]}"} -eq 0 ] 2>/dev/null; then
   echo "  Status: ALL STEPS SUCCEEDED"
 else
-  echo "  Status: COMPLETED WITH WARNINGS: ${FAILED_STEPS[*]}"
+  echo "  Status: COMPLETED WITH WARNINGS: ${FAILED_STEPS[*]+"${FAILED_STEPS[*]}"}"
 fi
 echo "========================================"

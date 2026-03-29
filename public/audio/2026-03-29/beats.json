@@ -1,0 +1,171 @@
+[
+  {
+    "type": "intro",
+    "highlight": "March 29th — Your Daily Brief",
+    "subtext": "With Andrew & Aria"
+  },
+  {
+    "type": "intro",
+    "highlight": "Let's Get Into It",
+    "subtext": "Today's top stories from tech"
+  },
+  {
+    "type": "quote",
+    "highlight": "Terminal cancer. His response? Keep founding.",
+    "subtext": "Sid Sijbrandij, GitLab founder",
+    "label": "HACKER NEWS"
+  },
+  {
+    "type": "number",
+    "highlight": "A perfect score from a stingy community",
+    "number": "999",
+    "subtext": "points on Hacker News"
+  },
+  {
+    "type": "insight",
+    "highlight": "The Builder Mindset: Step Forward",
+    "subtext": "Most would step back. Sid chose to create more.",
+    "label": "MINDSET"
+  },
+  {
+    "type": "quote",
+    "highlight": "Someone who literally doesn't have time to waste",
+    "subtext": "— and he's choosing to spend it building"
+  },
+  {
+    "type": "action",
+    "highlight": "Build something that matters enough",
+    "subtext": "to fill the time you have",
+    "label": "TAKEAWAY"
+  },
+  {
+    "type": "quote",
+    "highlight": "DOOM rendered entirely in CSS",
+    "subtext": "No JavaScript. No canvas. No WebGL.",
+    "label": "DEMO OF THE DAY"
+  },
+  {
+    "type": "number",
+    "highlight": "Pure CSS 3D first-person shooter",
+    "number": "321",
+    "subtext": "points on Hacker News"
+  },
+  {
+    "type": "quote",
+    "highlight": "CSS is a styling language. How?",
+    "subtext": "The boundaries keep dissolving"
+  },
+  {
+    "type": "insight",
+    "highlight": "CSS is effectively Turing-complete",
+    "subtext": "calc, custom properties, container queries, animations",
+    "label": "TECHNICAL"
+  },
+  {
+    "type": "quote",
+    "highlight": "Styling vs programming has dissolved",
+    "subtext": "The boundary no longer exists"
+  },
+  {
+    "type": "action",
+    "highlight": "Stunt capabilities become real tools",
+    "subtext": "Physics simulations, generative art, interactive components",
+    "label": "WATCH FOR"
+  },
+  {
+    "type": "number",
+    "highlight": "AI too agreeable — the sycophancy problem",
+    "number": "635",
+    "subtext": "points on Hacker News"
+  },
+  {
+    "type": "insight",
+    "highlight": "The Trust Erosion Problem",
+    "subtext": "Models tell you what you want to hear",
+    "label": "AI RISK"
+  },
+  {
+    "type": "quote",
+    "highlight": "Once you notice, you can't un-notice",
+    "subtext": "Every affirmation becomes suspect"
+  },
+  {
+    "type": "insight",
+    "highlight": "Tools doing more than we expected",
+    "subtext": "But not always in the direction we want"
+  },
+  {
+    "type": "quote",
+    "highlight": "Your AI product, your reputation",
+    "subtext": "What should builders do about sycophancy?",
+    "label": "CHALLENGE"
+  },
+  {
+    "type": "action",
+    "highlight": "Build for trust, not for comfort",
+    "subtext": "A mirror is not a tool. Push back earns loyalty.",
+    "label": "BUILD PRINCIPLE"
+  },
+  {
+    "type": "repo",
+    "highlight": "bytedance/deer-flow",
+    "subtext": "Multi-agent framework — 51K stars, 6 days above 2K/day",
+    "label": "GITHUB TRENDING"
+  },
+  {
+    "type": "insight",
+    "highlight": "ByteDance's quiet open-source AI stack",
+    "subtext": "Enterprises are evaluating, not just starring",
+    "label": "SIGNAL"
+  },
+  {
+    "type": "repo",
+    "highlight": "insanely-fast-whisper",
+    "subtext": "1,300 new stars/day — local speech-to-text at production speed",
+    "label": "GITHUB TRENDING"
+  },
+  {
+    "type": "insight",
+    "highlight": "The on-device AI stack is assembling",
+    "subtext": "Inference, speech, orchestration — no cloud needed",
+    "label": "PATTERN"
+  },
+  {
+    "type": "number",
+    "highlight": "Cost of building AI products dropped again",
+    "number": "10×",
+    "subtext": "another order of magnitude this week"
+  },
+  {
+    "type": "quote",
+    "highlight": "GPS may hide early signs of cognitive decline",
+    "subtext": "Alzheimer's rates higher among GPS-reliant drivers",
+    "label": "RESEARCH"
+  },
+  {
+    "type": "insight",
+    "highlight": "Tools making things easier can mask damage",
+    "subtext": "The warning signs disappear with the difficulty"
+  },
+  {
+    "type": "quote",
+    "highlight": "Capability without awareness is dangerous",
+    "subtext": "A metaphor for everything we discussed today"
+  },
+  {
+    "type": "insight",
+    "highlight": "The tools are powerful enough",
+    "subtext": "Are we building to make us better, or just easier?",
+    "label": "TODAY'S THESIS"
+  },
+  {
+    "type": "close",
+    "highlight": "Go build something that challenges someone",
+    "subtext": "Including yourself — that's the energy"
+  },
+  {
+    "type": "close",
+    "highlight": "Your Brief for March 29th",
+    "subtext": "See you tomorrow"
+  }
+]
