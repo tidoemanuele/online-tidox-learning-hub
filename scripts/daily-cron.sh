@@ -26,11 +26,15 @@ echo "  Tidox Daily Pipeline — ${DATE}"
 echo "  Started: $(date)"
 echo "========================================"
 
-# Cron has a minimal PATH. Load the full environment.
+# Cron has a minimal PATH. Source the full shell environment.
+source "$HOME/.zshrc" 2>/dev/null || true
+source "$HOME/.zprofile" 2>/dev/null || true
 export PATH="$HOME/.local/bin:/opt/homebrew/bin:/usr/local/bin:$PATH"
-# Add nvm node if available
 NVM_NODE="$(ls -d "$HOME/.nvm/versions/node/"* 2>/dev/null | tail -1 || true)"
 [ -n "$NVM_NODE" ] && export PATH="$NVM_NODE/bin:$PATH"
+# Ensure npm global bin is in PATH
+NPM_BIN="$(npm bin -g 2>/dev/null || true)"
+[ -n "$NPM_BIN" ] && export PATH="$NPM_BIN:$PATH"
 
 FAILED_STEPS=()
 step_start() { STEP_START=$(date +%s); }
@@ -90,7 +94,7 @@ STEP 4 — VERIFY:
 Confirm both files were written. Print the insight texts you wrote."
 
 cd "$LEARN_DIR"
-if claude -p "$RESEARCH_PROMPT" --max-turns 40 2>&1 | tail -15; then
+if claude -p "$RESEARCH_PROMPT" --max-turns 40 --dangerously-skip-permissions 2>&1 | tail -15; then
   echo "${LOG_PREFIX}   ✓ Research + synthesis complete"
 else
   echo "${LOG_PREFIX}   ⚠ Research had issues"
