@@ -1,0 +1,147 @@
+[
+  {
+    "type": "intro",
+    "highlight": "Daily Intelligence Brief",
+    "subtext": "March 30, 2026"
+  },
+  {
+    "type": "intro",
+    "highlight": "Who Do You Trust?",
+    "subtext": "Your code. Your infrastructure. Your tools."
+  },
+  {
+    "type": "number",
+    "highlight": "Cloudflare Reads Your React State",
+    "number": 523,
+    "subtext": "points on Hacker News",
+    "label": "TRENDING"
+  },
+  {
+    "type": "insight",
+    "highlight": "Your CDN Is Inspecting App State",
+    "subtext": "Not headers. Not cookies. Runtime state.",
+    "label": "PRIVACY"
+  },
+  {
+    "type": "quote",
+    "highlight": "What Happens in the Browser No Longer Stays There",
+    "subtext": "A foundational assumption is breaking"
+  },
+  {
+    "type": "action",
+    "highlight": "Audit What You Expose to Infrastructure",
+    "subtext": "This isn't a bug — it's an architecture problem",
+    "label": "DO THIS"
+  },
+  {
+    "type": "number",
+    "highlight": "Copilot Edited an Ad Into My PR",
+    "number": 308,
+    "subtext": "points on Hacker News",
+    "label": "TRENDING"
+  },
+  {
+    "type": "quote",
+    "highlight": "Your Coding Assistant Is Your Ad Platform",
+    "subtext": "GitHub Copilot inserted a promotional link"
+  },
+  {
+    "type": "insight",
+    "highlight": "Business Model Tension Is No Longer Theoretical",
+    "subtext": "The tool that writes your code also sells services",
+    "label": "AI TOOLS"
+  },
+  {
+    "type": "insight",
+    "highlight": "The Erosion of Developer Agency",
+    "subtext": "Your tools are doing things you didn't ask for",
+    "label": "PATTERN"
+  },
+  {
+    "type": "number",
+    "highlight": "Voyager 1 Still Running Strong",
+    "number": 69,
+    "subtext": "kilobytes of memory — interstellar space",
+    "label": "ENGINEERING"
+  },
+  {
+    "type": "quote",
+    "highlight": "What Are Our Constraints Breeding?",
+    "subtext": "500 MB bundles vs. Voyager's 69K of real science"
+  },
+  {
+    "type": "number",
+    "highlight": "Coding Agents Could Revive Free Software",
+    "number": 152,
+    "subtext": "points on Hacker News",
+    "label": "OPEN SOURCE"
+  },
+  {
+    "type": "quote",
+    "highlight": "Open Source's Problem Was Never Ideology",
+    "subtext": "It was labor"
+  },
+  {
+    "type": "insight",
+    "highlight": "One Dev Plus Agents Equals a Team",
+    "subtext": "Solo-maintained open source becomes viable again",
+    "label": "OPPORTUNITY"
+  },
+  {
+    "type": "insight",
+    "highlight": "Free From Labor, Captured by Toolchain",
+    "subtext": "Haven't we just moved the dependency?",
+    "label": "COUNTERPOINT"
+  },
+  {
+    "type": "quote",
+    "highlight": "The Agent Giveth, The Agent Inserteth Ads",
+    "subtext": "Trust but verify — always"
+  },
+  {
+    "type": "action",
+    "highlight": "Treat Agent Output Like Untrusted Code",
+    "subtext": "Own your toolchain where it matters most",
+    "label": "DO THIS"
+  },
+  {
+    "type": "repo",
+    "highlight": "bytedance/deer-flow",
+    "subtext": "49K stars — 2,000+/day for eight straight days",
+    "label": "TRENDING REPO"
+  },
+  {
+    "type": "number",
+    "highlight": "Webminal — Fifteen Years, One Server",
+    "number": 1,
+    "subtext": "server · 8 GB RAM · 500K users",
+    "label": "SIMPLICITY"
+  },
+  {
+    "type": "insight",
+    "highlight": "The Voyager Principle for Web Infra",
+    "subtext": "Constraints. Focus. Longevity.",
+    "label": "PHILOSOPHY"
+  },
+  {
+    "type": "quote",
+    "highlight": "Incredible Capability, Eroding Control",
+    "subtext": "Use the power without surrendering the agency"
+  },
+  {
+    "type": "action",
+    "highlight": "Read Your Diffs, Audit Your Dependencies",
+    "subtext": "Never let infrastructure know more than you do",
+    "label": "DO THIS"
+  },
+  {
+    "type": "close",
+    "highlight": "Do More With Less",
+    "subtext": "Ship something still running in 47 years. Go build."
+  },
+  {
+    "type": "close",
+    "highlight": "See You Tomorrow",
+    "subtext": "Tidox Daily Intelligence Brief"
+  }
+]

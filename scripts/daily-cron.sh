@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 # daily-cron.sh — Full daily pipeline: research → transform → publish
 #
 # Uses /last30days skill as primary research engine, with agent-browser as fallback.
@@ -26,15 +26,13 @@ echo "  Tidox Daily Pipeline — ${DATE}"
 echo "  Started: $(date)"
 echo "========================================"
 
-# Cron has a minimal PATH. Source the full shell environment.
-source "$HOME/.zshrc" 2>/dev/null || true
-source "$HOME/.zprofile" 2>/dev/null || true
+# Load full shell environment (cron has minimal PATH)
+export HOME="/Users/etido"
+[[ -f "$HOME/.zprofile" ]] && source "$HOME/.zprofile" 2>/dev/null
+[[ -f "$HOME/.zshrc" ]] && source "$HOME/.zshrc" 2>/dev/null
 export PATH="$HOME/.local/bin:/opt/homebrew/bin:/usr/local/bin:$PATH"
-NVM_NODE="$(ls -d "$HOME/.nvm/versions/node/"* 2>/dev/null | tail -1 || true)"
-[ -n "$NVM_NODE" ] && export PATH="$NVM_NODE/bin:$PATH"
-# Ensure npm global bin is in PATH
-NPM_BIN="$(npm bin -g 2>/dev/null || true)"
-[ -n "$NPM_BIN" ] && export PATH="$NPM_BIN:$PATH"
+NVM_NODE="$(ls -d "$HOME/.nvm/versions/node/"*(/) 2>/dev/null | tail -1)"
+[[ -n "$NVM_NODE" ]] && export PATH="$NVM_NODE/bin:$PATH"
 
 FAILED_STEPS=()
 step_start() { STEP_START=$(date +%s); }
@@ -51,9 +49,9 @@ echo ""
 echo "${LOG_PREFIX} Step 1: Running scrapers..."
 step_start
 
-SCRAPER="${LEARN_DIR}/research-browser/scrape-daily.sh"
-if [ -x "$SCRAPER" ]; then
-  cd "$LEARN_DIR"
+SCRAPER="/Users/etido/Documents/learn/research-browser/scrape-daily.sh"
+if [[ -f "$SCRAPER" ]]; then
+  cd "/Users/etido/Documents/learn"
   /bin/zsh "$SCRAPER" "$DATE" 2>&1 | tail -5 || FAILED_STEPS+=("scrape")
   SOURCE_COUNT=$(ls "$SCRAPED_DIR"/*.json 2>/dev/null | wc -l | tr -d ' ')
   echo "${LOG_PREFIX}   Scraped ${SOURCE_COUNT} sources"
@@ -94,11 +92,33 @@ STEP 4 — VERIFY:
 Confirm both files were written. Print the insight texts you wrote."
 
 cd "$LEARN_DIR"
-if claude -p "$RESEARCH_PROMPT" --max-turns 40 --dangerously-skip-permissions 2>&1 | tail -15; then
-  echo "${LOG_PREFIX}   ✓ Research + synthesis complete"
+# Try claude CLI first. If not logged in, fall back to direct HN fetch + template insights.
+CLAUDE_OUT=$(claude -p "$RESEARCH_PROMPT" --max-turns 40 --dangerously-skip-permissions 2>&1)
+if echo "$CLAUDE_OUT" | grep -qi "not logged in\|login\|unauthorized"; then
+  echo "${LOG_PREFIX}   ⚠ Claude not authenticated. Falling back to direct data fetch..."
+
+  # Direct HN fetch via curl
+  mkdir -p "$SCRAPED_DIR"
+  python3 -c "
+import json, urllib.request
+ids = json.loads(urllib.request.urlopen('https://hacker-news.firebaseio.com/v0/topstories.json').read())[:15]
+stories = []
+for id in ids:
+    try:
+        item = json.loads(urllib.request.urlopen(f'https://hacker-news.firebaseio.com/v0/item/{id}.json').read())
+        stories.append({'rank': len(stories)+1, 'title': item.get('title',''), 'url': item.get('url',''), 'points': item.get('score',0), 'comments': item.get('descendants',0)})
+    except: pass
+with open('$SCRAPED_DIR/hacker-news.json', 'w') as f:
+    json.dump(stories, f, indent=2)
+print(f'Fetched {len(stories)} HN stories directly')
+" 2>&1
+
+  echo "${LOG_PREFIX}   ✓ Direct data fetch complete (no Claude synthesis — insights.ts not updated)"
+  echo "${LOG_PREFIX}   ⚠ Run research manually: cd $HUB_DIR && claude"
+  FAILED_STEPS+=("claude-auth")
 else
-  echo "${LOG_PREFIX}   ⚠ Research had issues"
-  FAILED_STEPS+=("research")
+  echo "$CLAUDE_OUT" | tail -10
+  echo "${LOG_PREFIX}   ✓ Research + synthesis complete"
 fi
 
 step_end "AI research + synthesis"

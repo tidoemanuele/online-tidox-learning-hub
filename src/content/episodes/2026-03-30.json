@@ -1,0 +1,145 @@
+{
+  "date": "2026-03-30",
+  "episodeNumber": 8,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "'ChatGPT won't let you type until Cloudflare reads, 'Copilot edited an ad into my PR' reaches 308 HN p, 'Voyager 1 runs on 69KB of memory and an 8-track t",
+  "heroStat": {
+    "value": "523",
+    "label": "points on \"ChatGPT won't let you type until Cloudflare reads your React\""
+  },
+  "insights": [
+    {
+      "text": "'ChatGPT won't let you type until Cloudflare reads your React state' hits 523 HN pts — Cloudflare's bot protection now executes JavaScript before users can interact. Your React state is being read by infrastructure you didn't consent to. The implications for privacy and client-side trust are massive.",
+      "tags": [
+        "rust"
+      ],
+      "source": "HN 523pts"
+    },
+    {
+      "text": "'Copilot edited an ad into my PR' reaches 308 HN pts — GitHub Copilot inserted a promotional link into a pull request. The line between AI assistance and AI advertising just blurred. If your coding assistant is also your ad platform, who is the customer?",
+      "tags": [
+        "github-trending"
+      ],
+      "source": "HN 308pts"
+    },
+    {
+      "text": "'Voyager 1 runs on 69KB of memory and an 8-track tape recorder' at 491 HN pts — the most distant human-made object operates on less memory than a single web page. A reminder that constraints breed engineering genius. We've normalized 500MB JavaScript bundles while Voyager explores interstellar space.",
+      "tags": [],
+      "source": "HN 491pts"
+    },
+    {
+      "text": "'Coding Agents Could Make Free Software Matter Again' (152 HN pts) — the argument: AI agents could eliminate the maintenance burden that killed so many open source projects. One person with coding agents can now maintain what used to require a team. Free software's biggest problem was never ideology, it was labor.",
+      "tags": [
+        "agents",
+        "open-source"
+      ],
+      "source": "HN 152pts"
+    },
+    {
+      "text": "deer-flow holds at +2,200/day (54K stars, Day 8) — ByteDance's multi-agent framework enters its second week of sustained viral growth. Eight consecutive days above 2K stars/day. The 50K-to-100K trajectory is now visible.",
+      "tags": [
+        "github-trending",
+        "agents",
+        "bytedance"
+      ],
+      "source": "GitHub +2,200/day"
+    },
+    {
+      "text": "'15 years, one server, 8GB RAM and 500k users' (Webminal) — proof that you don't need Kubernetes, microservices, or a cloud bill to serve half a million people. One machine, kept simple, for 15 years. The opposite of everything the industry sells you.",
+      "tags": []
+    },
+    {
+      "text": "C++26 is done (209 HN pts) — the ISO standard finalizes with reflection, contracts, and pattern matching. After decades, C++ gets the metaprogramming model that Rust proved was possible. The language refuses to die and refuses to stop evolving.",
+      "tags": [
+        "rust"
+      ],
+      "source": "HN 209pts"
+    },
+    {
+      "text": "'Philly courts ban all smart eyeglasses starting next week' (197 HN pts) — the first institutional ban on AR/smart glasses in a government setting. The collision between surveillance capability and institutional privacy is here. Expect this pattern to spread to hospitals, schools, and courtrooms worldwide.",
+      "tags": [],
+      "source": "HN 197pts"
+    }
+  ],
+  "trending": [
+    {
+      "name": "last30days-skill",
+      "stars": "11.2K",
+      "language": "Python",
+      "delta": "+2,685/d"
+    },
+    {
+      "name": "deer-flow",
+      "stars": "49.3K",
+      "language": "Python",
+      "delta": "+2,394/d"
+    },
+    {
+      "name": "insanely-fast-whisper",
+      "stars": "11.5K",
+      "language": "Jupyter Notebook",
+      "delta": "+1,370/d"
+    },
+    {
+      "name": "RuView",
+      "stars": "43.5K",
+      "language": "Rust",
+      "delta": "+1,002/d"
+    },
+    {
+      "name": "oh-my-claudecode",
+      "stars": "13.1K",
+      "language": "TypeScript",
+      "delta": "+598/d"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "523",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "2,685",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "2",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "March 30, 2026"
+    },
+    "headlines": [
+      {
+        "text": "'ChatGPT won't let you type until Cloudflare reads your React state' hits 523 HN pts",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "'Copilot edited an ad into my PR' reaches 308 HN pts",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "'Voyager 1 runs on 69KB of memory and an 8-track tape recorder' at 491 HN pts",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Today's brief covers the most interesting signals across the tech landscape."
+    }
+  }
+}

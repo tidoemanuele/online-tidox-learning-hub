@@ -1,0 +1,102 @@
+[
+  [
+    "A",
+    "Good morning. I'm Andrew."
+  ],
+  [
+    "B",
+    "And I'm Aria. It's March 30th, 2026, and today's brief has a theme I didn't expect: trust. Who do you trust with your code, your infrastructure, your tools?"
+  ],
+  [
+    "A",
+    "Let's start with the story that hit 523 points on Hacker News. Quote: 'ChatGPT won't let you type until Cloudflare reads your React state.' What's happening here is Cloudflare's bot protection is now executing JavaScript on the client before users can even interact with the page. Your React state — your app's internal data — is being read by infrastructure you didn't opt into."
+  ],
+  [
+    "B",
+    "Wait. So the CDN sitting between your app and your users is now inspecting your application state? Not just headers, not just cookies — the actual runtime state of your frontend?"
+  ],
+  [
+    "A",
+    "That's the claim. And the privacy implications are enormous. We've spent years building client-side apps under the assumption that what happens in the browser stays in the browser. That assumption is breaking."
+  ],
+  [
+    "B",
+    "OK so if that's true, then every developer using Cloudflare in front of a React app needs to ask: what data am I exposing to my infrastructure provider that I never intended to? This isn't a bug. It's an architecture problem."
+  ],
+  [
+    "A",
+    "Exactly. And it connects directly to our next story. 'Copilot edited an ad into my PR' — 308 points on HN. GitHub Copilot apparently inserted a promotional link into someone's pull request."
+  ],
+  [
+    "B",
+    "That's wild. Your coding assistant is now also your ad platform?"
+  ],
+  [
+    "A",
+    "Here's what this tells us. The business model tension we warned about with AI tools is no longer theoretical. When the tool that writes your code is owned by a company that also sells services, the incentive to nudge you toward those services is overwhelming."
+  ],
+  [
+    "B",
+    "And notice the pattern. Cloudflare reads your state without consent. Copilot edits your code without consent. The theme isn't just trust — it's the erosion of developer agency. Your tools are doing things you didn't ask for."
+  ],
+  [
+    "A",
+    "Which makes our third story almost poetic. Voyager 1 — 491 HN points — still running on 69 kilobytes of memory and an 8-track tape recorder. The most distant human-made object, exploring interstellar space, on hardware that makes a calculator look luxurious."
+  ],
+  [
+    "B",
+    "I love this story because it's the perfect mirror. We're out here shipping 500-megabyte JavaScript bundles wrapped in layers of infrastructure we don't fully control, and Voyager is doing real science on 69K. Constraints bred that engineering. What are our constraints breeding?"
+  ],
+  [
+    "A",
+    "Complexity, mostly. And dependency. Which brings us to the counterpoint — there's a story at 152 HN points arguing that coding agents could make free software matter again."
+  ],
+  [
+    "B",
+    "OK, explain that one. How?"
+  ],
+  [
+    "A",
+    "The argument is simple. Open source's biggest problem was never ideology — it was labor. Maintaining a project is exhausting. But if one developer with coding agents can now do the maintenance work that used to require a team, suddenly solo-maintained open source becomes viable again."
+  ],
+  [
+    "B",
+    "Hmm, I don't know about that. If the agents themselves are controlled by companies like Microsoft or Google, haven't we just moved the dependency? You're free from the labor, but captured by the toolchain."
+  ],
+  [
+    "A",
+    "That's the right pushback. And it loops back to the Copilot ad story. The agent giveth, the agent inserteth advertisements."
+  ],
+  [
+    "B",
+    "So what should builders actually do with this? Let me think about this... I think the move is: own your toolchain where it matters most. Use agents, absolutely, but treat their output like you'd treat code from an untrusted contributor. Review everything."
+  ],
+  [
+    "A",
+    "Agreed. And on the trending side — deer-flow from ByteDance just hit day eight above 2,000 stars per day. It's at 49K now. That 50-to-100K trajectory is real. Also notable: a project called Webminal made the rounds. Fifteen years, one server, 8 gigs of RAM, half a million users."
+  ],
+  [
+    "B",
+    "One server! No Kubernetes, no microservices, no cloud bill. That's not a tech story, that's a philosophy of engineering. Keep it simple, keep it running."
+  ],
+  [
+    "A",
+    "It's the Voyager principle applied to web infrastructure. Constraints, focus, longevity."
+  ],
+  [
+    "B",
+    "So here's where I land today, Andrew. The thesis is this: we are living in an era of incredible capability and eroding control. The tools are more powerful than ever, but they're also less transparent. The developers who win are the ones who use the power without surrendering the agency."
+  ],
+  [
+    "A",
+    "Well said. Build with AI. Ship with agents. But read your diffs, audit your dependencies, and never let your infrastructure know more about your app than you do."
+  ],
+  [
+    "B",
+    "And maybe take some inspiration from Voyager. Do more with less. Ship something that'll still be running in 47 years. Go build."
+  ],
+  [
+    "A",
+    "See you tomorrow."
+  ]
+]
