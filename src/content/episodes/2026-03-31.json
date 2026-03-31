@@ -1,0 +1,104 @@
+{
+  "date": "2026-03-31",
+  "episodeNumber": 9,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "Axios compromised on NPM – Malicious versions drop, Open source CAD in the browser, Combinators",
+  "heroStat": {
+    "value": "1349",
+    "label": "points on \"Axios compromised on NPM – Malicious versions drop remote ac\""
+  },
+  "insights": [
+    {
+      "text": "Axios compromised on NPM – Malicious versions drop remote access trojan (1349 pts, 509 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 1349pts"
+    },
+    {
+      "text": "Open source CAD in the browser (Solvespace) (66 pts, 16 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 66pts"
+    },
+    {
+      "text": "Combinators (53 pts, 10 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 53pts"
+    },
+    {
+      "text": "Ollama is now powered by MLX on Apple Silicon in preview (465 pts, 225 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 465pts"
+    },
+    {
+      "text": "Claude Code's source code has been leaked via a map file in their NPM registry (865 pts, 474 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 865pts"
+    },
+    {
+      "text": "Artemis II is not safe to fly (589 pts, 364 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 589pts"
+    }
+  ],
+  "trending": [],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "1349",
+      "unit": "pts"
+    },
+    {
+      "label": "Repos",
+      "value": "0",
+      "unit": "tracked"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "1",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "6",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "March 31, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Axios compromised on NPM – Malicious versions drop remote access trojan",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Open source CAD in the browser",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Combinators",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Today's brief covers the most interesting signals across the tech landscape."
+    }
+  }
+}
