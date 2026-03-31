@@ -1,0 +1,166 @@
+[
+  {
+    "type": "intro",
+    "highlight": "March 31st, 2026",
+    "subtext": "Daily Intelligence Brief",
+    "label": "MONDAY MORNING"
+  },
+  {
+    "type": "intro",
+    "highlight": "Axios Compromised on NPM",
+    "subtext": "The HTTP client in every Node project",
+    "label": "SUPPLY CHAIN ATTACK"
+  },
+  {
+    "type": "number",
+    "highlight": "Four Hundred Million Weekly Downloads",
+    "number": "400M",
+    "subtext": "Malicious versions dropped a remote access trojan",
+    "label": "AXIOS ON NPM"
+  },
+  {
+    "type": "insight",
+    "highlight": "NPM Registry Actively Under Siege",
+    "subtext": "Not a one-off — a pattern",
+    "label": "THREAT LANDSCAPE"
+  },
+  {
+    "type": "insight",
+    "highlight": "Top-of-the-Dependency-Tree Libraries",
+    "subtext": "The ones everything else imports",
+    "label": "ATTACK SURFACE"
+  },
+  {
+    "type": "quote",
+    "highlight": "You Can't Just Stop Using Axios",
+    "subtext": "It's in your transitive dependencies whether you chose it or not"
+  },
+  {
+    "type": "action",
+    "highlight": "Pin Versions. Vendor Critical Dependencies.",
+    "subtext": "Lock files are security infrastructure now",
+    "label": "DO THIS TODAY"
+  },
+  {
+    "type": "quote",
+    "highlight": "Treat the Ecosystem Like Untrusted Input",
+    "subtext": "The promise of 'trust the ecosystem' is over"
+  },
+  {
+    "type": "insight",
+    "highlight": "Branch Predictor Vulnerability — No Fix, Period",
+    "subtext": "The silicon itself is the vulnerability",
+    "label": "INTEL HARDWARE"
+  },
+  {
+    "type": "quote",
+    "highlight": "Hardware Assumptions Software Depends On Are Breaking",
+    "subtext": "A different kind of supply chain problem"
+  },
+  {
+    "type": "insight",
+    "highlight": "Chip to Dependency — Cracks in the Same Week",
+    "subtext": "The entire stack is showing vulnerabilities",
+    "label": "FULL STACK RISK"
+  },
+  {
+    "type": "quote",
+    "highlight": "Give Me Something Someone Is Building",
+    "subtext": "Shifting gears from crisis to creation"
+  },
+  {
+    "type": "repo",
+    "highlight": "Solvespace Compiled to WebAssembly",
+    "subtext": "Full open-source CAD, no install, no license",
+    "label": "SOLVESPACE"
+  },
+  {
+    "type": "insight",
+    "highlight": "If It Compiles to WASM, It Will Run in a Tab",
+    "subtext": "Photoshop, Figma, SQLite — now professional CAD",
+    "label": "THE WASM PATTERN"
+  },
+  {
+    "type": "quote",
+    "highlight": "Browser Is Eating Professional Desktop Software",
+    "subtext": "The way mobile ate consumer software a decade ago"
+  },
+  {
+    "type": "quote",
+    "highlight": "A URL Beats an Installer Every Time",
+    "subtext": "WebAssembly removes the performance excuse, distribution wins"
+  },
+  {
+    "type": "repo",
+    "highlight": "deer-flow by ByteDance",
+    "number": "55,000",
+    "subtext": "Crossed 55K GitHub stars on day nine",
+    "label": "DEER-FLOW"
+  },
+  {
+    "type": "number",
+    "highlight": "Still Gaining Stars Every Single Day",
+    "number": "1,800",
+    "subtext": "Per day — down from 2,400 but still absurd",
+    "label": "DAILY STAR VELOCITY"
+  },
+  {
+    "type": "insight",
+    "highlight": "Developers Standardizing on Agent Frameworks",
+    "subtext": "Like web frameworks in 2015",
+    "label": "MARKET SIGNAL"
+  },
+  {
+    "type": "number",
+    "highlight": "LLM Benchmarks Are Lying to You",
+    "number": "89",
+    "subtext": "Goodhart's Law hitting AI — trending on HN",
+    "label": "HACKER NEWS POINTS"
+  },
+  {
+    "type": "insight",
+    "highlight": "Models Optimizing for Benchmarks, Not Capability",
+    "subtext": "The leaderboard might be the worst place to look",
+    "label": "EVAL CRISIS"
+  },
+  {
+    "type": "action",
+    "highlight": "Test With Your Own Data on Your Own Tasks",
+    "subtext": "Always has been the answer — now it's urgent",
+    "label": "TAKEAWAY"
+  },
+  {
+    "type": "number",
+    "highlight": "Combinators Explainer Trending Today",
+    "number": "53",
+    "subtext": "Foundational CS theory amid security fires and AI hype",
+    "label": "HACKER NEWS POINTS"
+  },
+  {
+    "type": "quote",
+    "highlight": "Reaching for Theory When Practice Is on Fire",
+    "subtext": "The community's instinct for fundamentals"
+  },
+  {
+    "type": "insight",
+    "highlight": "Combinators Underneath the Agents Everyone Is Building",
+    "subtext": "Reading about Y combinator while others panic about Axios"
+  },
+  {
+    "type": "quote",
+    "highlight": "That Person Will Build the Thing That Lasts",
+    "subtext": "Foundations outlive hype cycles"
+  },
+  {
+    "type": "close",
+    "highlight": "Trust Is Being Renegotiated at Every Layer",
+    "subtext": "Registries, benchmarks, hardware — verify your own assumptions",
+    "label": "TODAY'S THREAD"
+  },
+  {
+    "type": "close",
+    "highlight": "Pin. Benchmark. Build. Verify.",
+    "subtext": "Go build something today — see you tomorrow",
+    "label": "TIDOX DAILY BRIEF"
+  }
+]

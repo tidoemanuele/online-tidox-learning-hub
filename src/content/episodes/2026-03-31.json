@@ -1,55 +1,58 @@
 {
   "date": "2026-03-31",
-  "episodeNumber": 9,
+  "episodeNumber": 10,
   "locale": "en-US",
   "title": "Intelligence Brief",
-  "subtitle": "Axios compromised on NPM – Malicious versions drop, Open source CAD in the browser, Combinators",
+  "subtitle": "Axios compromised on NPM, 'Open source CAD in the browser' hits 66 HN pts, Combinators explained",
   "heroStat": {
     "value": "1349",
     "label": "points on \"Axios compromised on NPM – Malicious versions drop remote ac\""
   },
   "insights": [
     {
-      "text": "Axios compromised on NPM – Malicious versions drop remote access trojan (1349 pts, 509 comments)",
+      "text": "Axios compromised on NPM — malicious versions drop a remote access trojan (1,349 HN pts). The most popular HTTP client in the JavaScript ecosystem (400M+ weekly downloads) was supply-chain attacked. Two days after LiteLLM. The npm registry is under siege.",
       "tags": [
-        "hacker-news"
+        "security",
+        "ecosystem"
       ],
-      "source": "HN 1349pts"
+      "source": "HN 349pts"
     },
     {
-      "text": "Open source CAD in the browser (Solvespace) (66 pts, 16 comments)",
+      "text": "'Open source CAD in the browser' (Solvespace) hits 66 HN pts — parametric CAD running in WebAssembly. No install, no license, no vendor lock-in. Another traditionally native professional tool moving to the browser. The pattern: if it can run in WASM, it will.",
       "tags": [
-        "hacker-news"
+        "open-source"
       ],
       "source": "HN 66pts"
     },
     {
-      "text": "Combinators (53 pts, 10 comments)",
+      "text": "Combinators explained (53 HN pts) — foundational computer science content trending on a day dominated by security news. The community reaching for theory when practice is on fire. Combinators as the mathematical foundation underneath the agents everyone is building.",
       "tags": [
-        "hacker-news"
+        "security",
+        "agents"
       ],
       "source": "HN 53pts"
     },
     {
-      "text": "Ollama is now powered by MLX on Apple Silicon in preview (465 pts, 225 comments)",
+      "text": "'There is no fix for Intel's branch predictor vulnerability' (128 HN pts) — an unfixable hardware bug in Intel CPUs. Not a software patch away. The chip itself is the vulnerability. Hardware security assumptions that software depends on are breaking.",
       "tags": [
-        "hacker-news"
+        "security"
       ],
-      "source": "HN 465pts"
+      "source": "HN 128pts"
     },
     {
-      "text": "Claude Code's source code has been leaked via a map file in their NPM registry (865 pts, 474 comments)",
+      "text": "deer-flow crosses 55K stars (Day 9, +1,800/day) — velocity is finally slowing from 2,400 to 1,800 but the trajectory is still parabolic. ByteDance's agent framework is now the fastest repo to reach 50K in the agent category.",
       "tags": [
-        "hacker-news"
+        "agents",
+        "bytedance"
       ],
-      "source": "HN 865pts"
+      "source": "GitHub +1,800/day"
     },
     {
-      "text": "Artemis II is not safe to fly (589 pts, 364 comments)",
+      "text": "'Why your LLM benchmarks are lying to you' (89 HN pts) — the eval crisis goes mainstream. Models optimizing for benchmarks rather than actual capability. Goodhart's Law applied to AI: when a measure becomes a target, it ceases to be a good measure.",
       "tags": [
-        "hacker-news"
+        "research"
       ],
-      "source": "HN 589pts"
+      "source": "HN 89pts"
     }
   ],
   "trending": [],
@@ -82,19 +85,19 @@
     },
     "headlines": [
       {
-        "text": "Axios compromised on NPM – Malicious versions drop remote access trojan",
+        "text": "Axios compromised on NPM",
         "metric": "—",
         "source": "web"
       },
       {
-        "text": "Open source CAD in the browser",
+        "text": "'Open source CAD in the browser' hits 66 HN pts",
         "metric": "—",
         "source": "web"
       },
       {
-        "text": "Combinators",
-        "metric": "—",
-        "source": "web"
+        "text": "Combinators explained",
+        "metric": "53 pts",
+        "source": "HN"
       }
     ],
     "takeaway": {

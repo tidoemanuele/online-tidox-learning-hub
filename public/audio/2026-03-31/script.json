@@ -1,0 +1,114 @@
+[
+  [
+    "A",
+    "March 31st, 2026. Monday morning, and if you're a JavaScript developer, I hope you checked your lock files before your coffee. Axios — the HTTP client that lives in basically every Node project — was compromised on NPM."
+  ],
+  [
+    "B",
+    "Wait. Axios. Four hundred million weekly downloads Axios?"
+  ],
+  [
+    "A",
+    "That one. Malicious versions were published that drop a remote access trojan. Thirteen hundred points on Hacker News. And this is two days after LiteLLM had its own supply chain incident."
+  ],
+  [
+    "B",
+    "OK so this isn't a one-off anymore. The NPM registry is actively under siege."
+  ],
+  [
+    "A",
+    "That's the right framing. We're not talking about typosquatting obscure packages. These are top-of-the-dependency-tree libraries. The ones everything else imports."
+  ],
+  [
+    "B",
+    "So what does a developer actually do here? You can't just stop using Axios. It's in your transitive dependencies whether you chose it or not."
+  ],
+  [
+    "A",
+    "Pin your versions. Lock files aren't optional anymore, they're security infrastructure. And honestly, this accelerates the case for vendoring critical dependencies. If you can't trust the registry to serve the same bytes tomorrow, keep a copy."
+  ],
+  [
+    "B",
+    "That's a huge shift though. The whole promise of package managers was 'trust the ecosystem.' Now you're saying treat the ecosystem like an untrusted input."
+  ],
+  [
+    "A",
+    "I am. And here's what makes today's brief wild — it's not just software. There's an Intel story. A branch predictor vulnerability that has no fix. Not 'no patch yet.' No fix, period. The silicon itself is the vulnerability."
+  ],
+  [
+    "B",
+    "Hardware assumptions that software depends on are breaking. That's... that's a different kind of supply chain problem."
+  ],
+  [
+    "A",
+    "Exactly. You've got supply chain attacks at the package level, and unfixable vulnerabilities at the hardware level. The entire stack, from chip to dependency, is showing cracks in the same week."
+  ],
+  [
+    "B",
+    "OK I need something hopeful. Give me something someone is building."
+  ],
+  [
+    "A",
+    "How about parametric CAD running in your browser? Solvespace got compiled to WebAssembly. Full open-source CAD, no install, no license, no vendor lock-in."
+  ],
+  [
+    "B",
+    "See, this is the pattern I keep tracking. If it can compile to WASM, it will eventually run in a browser tab. We saw it with Photoshop, with Figma, with SQLite. Now professional engineering CAD."
+  ],
+  [
+    "A",
+    "The browser is eating professional desktop software the way mobile ate consumer software ten years ago."
+  ],
+  [
+    "B",
+    "And the unlock is always the same — WebAssembly removes the performance excuse, and then distribution wins. A URL beats an installer every time."
+  ],
+  [
+    "A",
+    "Speaking of things growing fast — deer-flow, ByteDance's agent framework, crossed 55,000 GitHub stars. Day nine. Still gaining 1,800 stars a day."
+  ],
+  [
+    "B",
+    "That velocity is slowing down from 2,400 a day, but... 1,800 a day is still absurd. What's driving it?"
+  ],
+  [
+    "A",
+    "It's the fastest repo to hit 50K in the agent category. ByteDance has the distribution muscle, but I think there's a deeper signal — developers are standardizing on agent frameworks the way they standardized on web frameworks in 2015."
+  ],
+  [
+    "B",
+    "And there was a really interesting piece trending today about how LLM benchmarks are lying to you. Eighty-nine points on HN. Goodhart's Law hitting AI — when a measure becomes a target, it stops being useful."
+  ],
+  [
+    "A",
+    "Models are optimizing for benchmarks instead of actual capability. The eval crisis is going mainstream, and it matters because if you're choosing which model to put in your agent framework, the leaderboard might be the worst place to look."
+  ],
+  [
+    "B",
+    "So test with your own data on your own tasks. That's the takeaway."
+  ],
+  [
+    "A",
+    "Always has been. But now it's urgent. And here's the thing I find poetic about today — there was also a combinators explainer trending. Foundational computer science theory, fifty-three points, on a day dominated by security fires and AI hype."
+  ],
+  [
+    "B",
+    "The community reaching for theory when practice is on fire. I actually love that."
+  ],
+  [
+    "A",
+    "Combinators are the mathematical foundations underneath the agents everyone is rushing to build. Someone out there is reading about the Y combinator while everyone else is panicking about Axios."
+  ],
+  [
+    "B",
+    "And that person is probably going to build the thing that actually lasts."
+  ],
+  [
+    "A",
+    "So here's the thread through all of today. Trust is being renegotiated at every layer. We can't blindly trust registries, benchmarks, or even hardware anymore. The builders who win are the ones who verify their own assumptions."
+  ],
+  [
+    "B",
+    "Pin your dependencies. Benchmark on your own tasks. And if something can run in WASM, maybe you should be the one putting it there. Go build something today. We'll see you tomorrow."
+  ]
+]
