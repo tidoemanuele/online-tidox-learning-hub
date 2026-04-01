@@ -1,0 +1,44 @@
+[
+  {
+    "name": "obra/superpowers",
+    "description": "Agentic skills framework for Claude Code",
+    "language": "Shell",
+    "stars_today": "1,847 stars today",
+    "total_stars": "123800"
+  },
+  {
+    "name": "microsoft/VibeVoice",
+    "description": "AI-powered voice synthesis and text-to-speech",
+    "language": "Python",
+    "stars_today": "2,341 stars today",
+    "total_stars": "27800"
+  },
+  {
+    "name": "shanraisshan/claude-code-best-practice",
+    "description": "Community best practices and patterns for Claude Code",
+    "language": "HTML",
+    "stars_today": "1,512 stars today",
+    "total_stars": "25000"
+  },
+  {
+    "name": "chenglou/pretext",
+    "description": "Precise text editor built for correctness",
+    "language": "TypeScript",
+    "stars_today": "1,203 stars today",
+    "total_stars": "23800"
+  },
+  {
+    "name": "luongnv89/claude-howto",
+    "description": "Comprehensive guide and examples for Claude Code usage",
+    "language": "Python",
+    "stars_today": "892 stars today",
+    "total_stars": "10000"
+  },
+  {
+    "name": "timescale/pg_textsearch",
+    "description": "Postgres extension for BM25 relevance-ranked full-text search",
+    "language": "C",
+    "stars_today": "734 stars today",
+    "total_stars": "4200"
+  }
+]

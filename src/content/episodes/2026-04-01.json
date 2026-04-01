@@ -3,75 +3,104 @@
   "episodeNumber": 10,
   "locale": "en-US",
   "title": "Intelligence Brief",
-  "subtitle": "Claude Code Unpacked : A visual guide, Mad Bugs: Vim vs. Emacs vs. Claude, Neanderthals survived on a knife's edge for 350k y",
+  "subtitle": "Claude Code source leak — KAIROS daemon revealed, OpenAI at $852B, 1-Bit Bonsai exits research",
   "heroStat": {
-    "value": "1099",
-    "label": "points on \"The Claude Code Source Leak: fake tools, frustration regexes\""
+    "value": "512K",
+    "label": "lines of code accidentally open-sourced via npm source maps"
   },
   "insights": [
     {
-      "text": "Claude Code Unpacked : A visual guide (157 pts, 32 comments)",
-      "tags": [
-        "hacker-news"
-      ],
-      "source": "HN 157pts"
+      "text": "Claude Code source leak dominates (1,110 HN pts, 435 comments, 41,500+ GitHub forks in under 24 hours) — Anthropic accidentally shipped 512,000 lines of TypeScript via npm source maps. KAIROS: an always-on autonomous daemon mode, fully built but never announced. Anti-distillation mechanisms: fake tool injections to defend against model replication. The product roadmap is now public. Competitors have eliminated surprise from Anthropic's shipping strategy.",
+      "tags": ["claude-code", "security"],
+      "source": "HN 1110pts"
     },
     {
-      "text": "Mad Bugs: Vim vs. Emacs vs. Claude (29 pts, 21 comments)",
-      "tags": [
-        "hacker-news"
-      ],
-      "source": "HN 29pts"
+      "text": "OpenAI closes at an $852B valuation (418 HN pts, 365 comments) — largest private company valuation in history. The 0.87:1 comment-to-point ratio is unusually calm for a number this large; the community has normalized funding rounds that would have been front-page news in 2023. The race to $1T is a sprint, not a marathon.",
+      "tags": ["ecosystem"],
+      "source": "HN 418pts"
     },
     {
-      "text": "Neanderthals survived on a knife's edge for 350k years (114 pts, 57 comments)",
-      "tags": [
-        "hacker-news"
-      ],
-      "source": "HN 114pts"
+      "text": "'Slop is not necessarily the future' by Greptile's CEO (221 pts, 374 comments, 1.69:1 comment-to-point ratio) — published on the same day as the Claude Code source leak. The 1.69:1 ratio is one of the highest argument-density scores in March 2026 tracking. Builders are pushing hardest against the 'acceptable slop' position precisely when AI tooling is most exposed.",
+      "tags": ["agents", "ecosystem"],
+      "source": "HN 221pts"
     },
     {
-      "text": "Chess in SQL (26 pts, 7 comments)",
-      "tags": [
-        "hacker-news"
-      ],
-      "source": "HN 26pts"
+      "text": "1-Bit Bonsai launches on Show HN (220 pts, 93 comments) as the first commercially viable 1-bit LLMs — PrismML claims production-ready quantization at 1-bit precision via a Bonsai architecture. BitNet exits the research phase. The inference efficiency story shifts from 'runs faster' to 'runs at enterprise scale on commodity hardware without GPU cluster budgets.'",
+      "tags": ["research", "agents"],
+      "source": "HN 220pts"
     },
     {
-      "text": "TinyLoRA – Learning to Reason in 13 Parameters (150 pts, 19 comments)",
-      "tags": [
-        "hacker-news"
-      ],
-      "source": "HN 150pts"
+      "text": "MiniStack debuts at 201 HN pts as a drop-in LocalStack replacement — the open-source immune response to LocalStack's enterprise pivot takes under a week. The pattern completes again: community edition deprecation → community fork → HN front page. Open source forks faster than licensing teams can close.",
+      "tags": ["open-source", "ecosystem"],
+      "source": "HN 201pts"
     },
     {
-      "text": "Show HN: 1-Bit Bonsai, the First Commercially Viable 1-Bit LLMs (213 pts, 87 comments)",
-      "tags": [
-        "hacker-news"
-      ],
-      "source": "HN 213pts"
+      "text": "Axios npm supply chain attack surfaces on Lobsters (#1, 52 pts) as the fourth package in the TeamPCP campaign in 13 days — Trivy (Mar 19), KICS (Mar 23), LiteLLM (Mar 24), now Axios (Mar 30, 80-100M weekly downloads). A postinstall hook, a RAT staged 18 hours in advance, a 39-minute compromise window. The campaign is escalating in both scale and cross-ecosystem reach (PyPI to npm).",
+      "tags": ["security", "supply-chain"],
+      "source": "Lobsters 52pts"
+    },
+    {
+      "text": "TinyLoRA learns to reason in 13 parameters (152 HN pts) — architectural proof that emergent reasoning does not require scale. 13 parameters is not a model; it is a demonstration that reasoning is a structural property, not a scale property. If true, the 'bigger model = better reasoning' framing is a category error.",
+      "tags": ["research"],
+      "source": "HN 152pts"
+    },
+    {
+      "text": "superpowers crosses 123K stars (GitHub trending, +1,847/day) on the same day Anthropic leaks its own source — the community-built tooling layer outpaces the official product in both velocity and openness. KAIROS (the leaked autonomous daemon) is what superpowers already does for builders who did not wait for the official version.",
+      "tags": ["claude-code", "github-trending"],
+      "source": "GitHub +1,847/day"
     }
   ],
-  "trending": [],
+  "trending": [
+    {
+      "name": "VibeVoice",
+      "stars": "27.8K",
+      "language": "Python",
+      "delta": "+2,341/d"
+    },
+    {
+      "name": "superpowers",
+      "stars": "123.8K",
+      "language": "Shell",
+      "delta": "+1,847/d"
+    },
+    {
+      "name": "claude-code-best-practice",
+      "stars": "25.0K",
+      "language": "HTML",
+      "delta": "+1,512/d"
+    },
+    {
+      "name": "pretext",
+      "stars": "23.8K",
+      "language": "TypeScript",
+      "delta": "+1,203/d"
+    },
+    {
+      "name": "pg_textsearch",
+      "stars": "4.2K",
+      "language": "C",
+      "delta": "+734/d"
+    }
+  ],
   "numbers": [
     {
       "label": "Top HN Story",
-      "value": "1099",
+      "value": "1110",
       "unit": "pts"
     },
     {
-      "label": "Repos",
-      "value": "0",
-      "unit": "tracked"
+      "label": "Fastest Repo",
+      "value": "2,341",
+      "unit": "stars/day"
     },
     {
       "label": "Sources Scraped",
-      "value": "1",
+      "value": "5",
       "unit": "sites"
     },
     {
       "label": "Insights Today",
-      "value": "6",
+      "value": "8",
       "unit": "stories"
     }
   ],
@@ -82,23 +111,23 @@
     },
     "headlines": [
       {
-        "text": "Claude Code Unpacked : A visual guide",
-        "metric": "—",
-        "source": "web"
+        "text": "Claude Code source leaked — KAIROS daemon, anti-distillation revealed",
+        "metric": "1110 pts",
+        "source": "HN"
       },
       {
-        "text": "Mad Bugs: Vim vs. Emacs vs. Claude",
-        "metric": "—",
-        "source": "web"
+        "text": "OpenAI closes at $852B — largest private company valuation in history",
+        "metric": "418 pts",
+        "source": "HN"
       },
       {
-        "text": "Neanderthals survived on a knife's edge for 350k years",
-        "metric": "—",
-        "source": "web"
+        "text": "1-Bit Bonsai: first commercially viable 1-bit LLMs",
+        "metric": "220 pts",
+        "source": "HN"
       }
     ],
     "takeaway": {
-      "text": "Today's brief covers the most interesting signals across the tech landscape."
+      "text": "The Claude Code source leak reveals KAIROS — an always-on autonomous daemon that was never shipped — while superpowers already does this at 123K stars. The gap between what AI tools are built to do and what they publicly offer is now visible. Build in the open or get scooped by the community that already is."
     }
   }
 }

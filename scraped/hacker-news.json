@@ -1,0 +1,137 @@
+[
+  {
+    "rank": 1,
+    "id": 47586778,
+    "title": "The Claude Code Source Leak: fake tools, frustration regexes, undercover mode",
+    "points": 1110,
+    "comments": 435,
+    "url": "https://alex000kim.com/posts/2026-03-31-claude-code-source-leak/",
+    "by": "alex000kim"
+  },
+  {
+    "rank": 2,
+    "id": 47592755,
+    "title": "OpenAI closes funding round at an $852B valuation",
+    "points": 418,
+    "comments": 365,
+    "url": "https://www.cnbc.com/2026/03/31/openai-funding-round-ipo.html",
+    "by": "surprisetalk"
+  },
+  {
+    "rank": 3,
+    "id": 47587953,
+    "title": "Slop is not necessarily the future",
+    "points": 221,
+    "comments": 374,
+    "url": "https://www.greptile.com/blog/ai-slopware-future",
+    "by": "dakshgupta"
+  },
+  {
+    "rank": 4,
+    "id": 47593422,
+    "title": "Show HN: 1-Bit Bonsai, the First Commercially Viable 1-Bit LLMs",
+    "points": 220,
+    "comments": 93,
+    "url": "https://prismml.com/",
+    "by": "PrismML"
+  },
+  {
+    "rank": 5,
+    "id": 47593556,
+    "title": "A dot a day keeps the clutter away",
+    "points": 267,
+    "comments": 82,
+    "url": "https://scottlawsonbc.com/post/dot-system",
+    "by": "scottlawson"
+  },
+  {
+    "rank": 6,
+    "id": 47593285,
+    "title": "MiniStack (replacement for LocalStack)",
+    "points": 201,
+    "comments": 39,
+    "url": "https://ministack.org/",
+    "by": "kerblang"
+  },
+  {
+    "rank": 7,
+    "id": 47549128,
+    "title": "4D Doom",
+    "points": 185,
+    "comments": 41,
+    "url": "https://github.com/danieldugas/HYPERHELL",
+    "by": "chronolitus"
+  },
+  {
+    "rank": 8,
+    "id": 47597085,
+    "title": "Claude Code Unpacked : A visual guide",
+    "points": 182,
+    "comments": 38,
+    "url": "https://ccunpacked.dev/",
+    "by": "autocracy101"
+  },
+  {
+    "rank": 9,
+    "id": 47541733,
+    "title": "TinyLoRA \u2013 Learning to Reason in 13 Parameters",
+    "points": 152,
+    "comments": 19,
+    "url": "https://arxiv.org/abs/2602.04118",
+    "by": "sorenjan"
+  },
+  {
+    "rank": 10,
+    "id": 47595572,
+    "title": "Neanderthals survived on a knife's edge for 350k years",
+    "points": 116,
+    "comments": 62,
+    "url": "https://www.science.org/content/article/neanderthals-survived-knife-s-edge-350-000-years",
+    "by": "Hooke"
+  },
+  {
+    "rank": 11,
+    "id": 47557171,
+    "title": "TruffleRuby",
+    "points": 106,
+    "comments": 6,
+    "url": "https://chrisseaton.com/truffleruby/",
+    "by": "tosh"
+  },
+  {
+    "rank": 12,
+    "id": 47593634,
+    "title": "Ordinary Lab Gloves May Have Skewed Microplastic Data",
+    "points": 97,
+    "comments": 31,
+    "url": "https://nautil.us/ordinary-lab-gloves-may-have-skewed-microplastic-data-1279386",
+    "by": "WaitWaitWha"
+  },
+  {
+    "rank": 13,
+    "id": 47589856,
+    "title": "Show HN: Postgres extension for BM25 relevance-ranked full-text search",
+    "points": 139,
+    "comments": 42,
+    "url": "https://github.com/timescale/pg_textsearch",
+    "by": "tjgreen"
+  },
+  {
+    "rank": 14,
+    "id": 47597382,
+    "title": "Mad Bugs: Vim vs. Emacs vs. Claude",
+    "points": 30,
+    "comments": 24,
+    "url": "https://blog.calif.io/p/mad-bugs-vim-vs-emacs-vs-claude",
+    "by": "Munksgaard"
+  },
+  {
+    "rank": 15,
+    "id": 47596457,
+    "title": "Analyzing Geekbench 6 under Intel's BOT",
+    "points": 20,
+    "comments": 12,
+    "url": "https://www.geekbench.com/blog/2026/03/analyzing-geekbench-6-under-intels-bot/",
+    "by": "hajile"
+  }
+]

@@ -1,0 +1,201 @@
+[
+  {
+    "type": "intro",
+    "highlight": "April 1, 2026",
+    "subtext": "Daily Intelligence Brief",
+    "label": "TIDOX LEARNING HUB"
+  },
+  {
+    "type": "number",
+    "highlight": "512K lines of TypeScript leaked",
+    "number": "512K",
+    "subtext": "Claude Code source via npm source maps",
+    "label": "ACCIDENTAL DISCLOSURE"
+  },
+  {
+    "type": "insight",
+    "highlight": "Internal architecture — not credentials",
+    "subtext": "Feature flags, slash commands, KAIROS",
+    "label": "WHAT LEAKED"
+  },
+  {
+    "type": "quote",
+    "highlight": "KAIROS: always-on autonomous daemon",
+    "subtext": "Fully compiled. Never announced. Flag set to false.",
+    "label": "THE DISCOVERY"
+  },
+  {
+    "type": "insight",
+    "highlight": "The public tool is not the product being built",
+    "subtext": "Reactive vs. autonomous — two different products",
+    "label": "IMPLICATION"
+  },
+  {
+    "type": "repo",
+    "highlight": "superpowers",
+    "subtext": "123K stars — community built the daemon layer first",
+    "label": "GITHUB TRENDING"
+  },
+  {
+    "type": "insight",
+    "highlight": "Anti-distillation: fake tools in API requests",
+    "subtext": "A moat built into the protocol, not the weights",
+    "label": "LEAKED MECHANISM"
+  },
+  {
+    "type": "quote",
+    "highlight": "A moat inside the protocol",
+    "subtext": "Not the model weights — the request layer",
+    "label": "STRATEGY"
+  },
+  {
+    "type": "insight",
+    "highlight": "The feature flag list is the roadmap",
+    "subtext": "512K lines of code is irrelevant. The flags are not.",
+    "label": "REAL DAMAGE"
+  },
+  {
+    "type": "number",
+    "highlight": "OpenAI closes at $852B",
+    "number": "$852B",
+    "subtext": "Largest private company valuation in history",
+    "label": "FUNDING"
+  },
+  {
+    "type": "number",
+    "highlight": "0.87:1 comment-to-point ratio",
+    "number": "0.87",
+    "subtext": "The community is numb to these numbers",
+    "label": "HN SIGNAL"
+  },
+  {
+    "type": "quote",
+    "highlight": "Now it's just a Tuesday",
+    "subtext": "Normalization of nine-figure AI rounds",
+    "label": "CONTEXT"
+  },
+  {
+    "type": "insight",
+    "highlight": "Capital has decided. The question is allocation.",
+    "subtext": "We are in a different phase now",
+    "label": "PHASE SHIFT"
+  },
+  {
+    "type": "insight",
+    "highlight": "AI coding tools: the most contested territory",
+    "subtext": "Anthropic leaks. OpenAI raises. Same week.",
+    "label": "PATTERN"
+  },
+  {
+    "type": "number",
+    "highlight": "Slop debate: 1.69:1 comment ratio",
+    "number": "1.69",
+    "subtext": "Highest argument density of March 2026",
+    "label": "HN SIGNAL"
+  },
+  {
+    "type": "insight",
+    "highlight": "Fighting about slop while the daemon leaked",
+    "subtext": "Not a coincidence — same day, same community",
+    "label": "TENSION"
+  },
+  {
+    "type": "quote",
+    "highlight": "Undisclosed daemon mode. The irony is thick.",
+    "subtext": "Quality debate while autonomy was already shipped internally",
+    "label": "IRONY"
+  },
+  {
+    "type": "repo",
+    "highlight": "1-Bit Bonsai",
+    "subtext": "First commercially viable 1-bit LLMs — PrismML",
+    "label": "SHOW HN — 220 pts"
+  },
+  {
+    "type": "insight",
+    "highlight": "Enterprise inference scale without GPU cluster budgets",
+    "subtext": "BitNet architecture exits research phase",
+    "label": "EFFICIENCY"
+  },
+  {
+    "type": "insight",
+    "highlight": "Barrier to capable models drops again",
+    "subtext": "Matters more for agent infra than chat",
+    "label": "IMPLICATION"
+  },
+  {
+    "type": "number",
+    "highlight": "Axios: 80–100M weekly npm downloads compromised",
+    "number": "100M",
+    "subtext": "TeamPCP campaign — fourth package in 13 days",
+    "label": "SUPPLY CHAIN"
+  },
+  {
+    "type": "insight",
+    "highlight": "PyPI to npm: the campaign crossed ecosystems",
+    "subtext": "Trivy → KICS → LiteLLM → Axios",
+    "label": "ESCALATION"
+  },
+  {
+    "type": "number",
+    "highlight": "39-minute compromise window",
+    "number": "39m",
+    "subtext": "RAT staged 18 hours in advance. Coordinated.",
+    "label": "TIMELINE"
+  },
+  {
+    "type": "repo",
+    "highlight": "MiniStack",
+    "subtext": "201 pts — drop-in LocalStack replacement",
+    "label": "OPEN SOURCE IMMUNE RESPONSE"
+  },
+  {
+    "type": "number",
+    "highlight": "TinyLoRA reasons in 13 parameters",
+    "number": "13",
+    "subtext": "Not 13 billion. 13.",
+    "label": "RESEARCH"
+  },
+  {
+    "type": "insight",
+    "highlight": "If reasoning is structural, scale logic breaks",
+    "subtext": "A structural property, not an emergent one",
+    "label": "IMPLICATION"
+  },
+  {
+    "type": "insight",
+    "highlight": "Efficiency frontier outpacing parameter count frontier",
+    "subtext": "True for 18 months and accelerating",
+    "label": "TREND"
+  },
+  {
+    "type": "action",
+    "highlight": "KAIROS is the target. Build toward it.",
+    "subtext": "The leak shows what Anthropic is building toward",
+    "label": "BUILDER TAKEAWAY"
+  },
+  {
+    "type": "action",
+    "highlight": "superpowers is already there. Use it today.",
+    "subtext": "123K stars. Open architecture. No waiting.",
+    "label": "ACTION"
+  },
+  {
+    "type": "action",
+    "highlight": "Audit your postinstall hooks now",
+    "subtext": "Postinstall + account compromise = the attack surface",
+    "label": "SECURITY ACTION"
+  },
+  {
+    "type": "close",
+    "highlight": "Build in the open or get scooped",
+    "subtext": "The gap between what's built and what's shipped is now visible",
+    "label": "THESIS"
+  },
+  {
+    "type": "close",
+    "highlight": "Go build something.",
+    "subtext": "April 1, 2026",
+    "label": "TIDOX INTELLIGENCE BRIEF"
+  }
+]

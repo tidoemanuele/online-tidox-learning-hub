@@ -1,0 +1,58 @@
+[
+  {
+    "id": 47593422,
+    "title": "Show HN: 1-Bit Bonsai, the First Commercially Viable 1-Bit LLMs",
+    "points": 220,
+    "comments": 93,
+    "url": "https://prismml.com/",
+    "by": "PrismML"
+  },
+  {
+    "id": 47589856,
+    "title": "Show HN: Postgres extension for BM25 relevance-ranked full-text search",
+    "points": 139,
+    "comments": 42,
+    "url": "https://github.com/timescale/pg_textsearch",
+    "by": "tjgreen"
+  },
+  {
+    "id": 47541746,
+    "title": "Show HN: Forkrun \u2013 NUMA-aware shell parallelizer (50\u00d7\u2013400\u00d7 faster than parallel)",
+    "points": 129,
+    "comments": 31,
+    "url": "https://github.com/jkool702/forkrun",
+    "by": "jkool702"
+  },
+  {
+    "id": 47555035,
+    "title": "Show HN: Loreline, narrative language transpiled via Haxe: C++/C#/JS/Java/Py/Lua",
+    "points": 65,
+    "comments": 20,
+    "url": "https://loreline.app/en/docs/technical-overview/",
+    "by": "jeremyfa"
+  },
+  {
+    "id": 47588324,
+    "title": "Show HN: Sundial \u2013 a new way to look at a weather forecast",
+    "points": 42,
+    "comments": 15,
+    "url": "https://sundial.page/",
+    "by": "izaidi"
+  },
+  {
+    "id": 47592392,
+    "title": "Show HN: EU Leadership \u2013 Live API data site comparing Europe to the world",
+    "points": 24,
+    "comments": 7,
+    "url": "https://ajh.ovh/",
+    "by": "aureljohn"
+  },
+  {
+    "id": 47594804,
+    "title": "Show HN: Claude Code rewritten as a bash script",
+    "points": 11,
+    "comments": 0,
+    "url": "https://github.com/jdcodes1/claude-sh",
+    "by": "rpst"
+  }
+]

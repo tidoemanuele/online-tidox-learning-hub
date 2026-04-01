@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Supply Chain Attack on Axios",
+    "score": 52,
+    "tags": ["javascript", "security"],
+    "url": "https://socket.dev/blog/axios-npm-package-compromised",
+    "comment_count": 29
+  },
+  {
+    "title": "Historical GitHub Uptime Charts",
+    "score": 49,
+    "tags": ["vcs", "web"],
+    "url": "https://damrnelson.github.io/github-historical-uptime/",
+    "comment_count": 6
+  },
+  {
+    "title": "your hex editor should color-code bytes",
+    "score": 39,
+    "tags": ["editors", "practices"],
+    "url": "https://simonomi.dev/blog/color-code-your-bytes/",
+    "comment_count": 10
+  },
+  {
+    "title": "RubyGems Fracture Incident Report",
+    "score": 26,
+    "tags": ["ruby"],
+    "url": "https://rubycentral.org/news/rubygems-fracture-incident-report/",
+    "comment_count": 15
+  },
+  {
+    "title": "Reading leaked Claude Code source code",
+    "score": 21,
+    "tags": ["vibecoding"],
+    "url": "https://lr0.org/blog/p/claude-code-source/",
+    "comment_count": 2
+  },
+  {
+    "title": "Gaim 3 Exists",
+    "score": 22,
+    "tags": ["release"],
+    "url": "https://gaim.imfreedom.org/",
+    "comment_count": 8
+  },
+  {
+    "title": "Pidgin 3.0 Alpha 1 has been released",
+    "score": 26,
+    "tags": ["release"],
+    "url": "https://discourse.imfreedom.org/t/pidgin-3-0-alpha-1-2-95-0-has-been-released/378",
+    "comment_count": 5
+  },
+  {
+    "title": "The Subprime Technical Debt Crisis",
+    "score": 21,
+    "tags": ["vibecoding"],
+    "url": "https://blog.happyfellow.dev/the-subprime-technical-debt-crisis/",
+    "comment_count": 8
+  }
+]
