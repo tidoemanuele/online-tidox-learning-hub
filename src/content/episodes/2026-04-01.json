@@ -1,0 +1,104 @@
+{
+  "date": "2026-04-01",
+  "episodeNumber": 10,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "Claude Code Unpacked : A visual guide, Mad Bugs: Vim vs. Emacs vs. Claude, Neanderthals survived on a knife's edge for 350k y",
+  "heroStat": {
+    "value": "1099",
+    "label": "points on \"The Claude Code Source Leak: fake tools, frustration regexes\""
+  },
+  "insights": [
+    {
+      "text": "Claude Code Unpacked : A visual guide (157 pts, 32 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 157pts"
+    },
+    {
+      "text": "Mad Bugs: Vim vs. Emacs vs. Claude (29 pts, 21 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 29pts"
+    },
+    {
+      "text": "Neanderthals survived on a knife's edge for 350k years (114 pts, 57 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 114pts"
+    },
+    {
+      "text": "Chess in SQL (26 pts, 7 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 26pts"
+    },
+    {
+      "text": "TinyLoRA – Learning to Reason in 13 Parameters (150 pts, 19 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 150pts"
+    },
+    {
+      "text": "Show HN: 1-Bit Bonsai, the First Commercially Viable 1-Bit LLMs (213 pts, 87 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 213pts"
+    }
+  ],
+  "trending": [],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "1099",
+      "unit": "pts"
+    },
+    {
+      "label": "Repos",
+      "value": "0",
+      "unit": "tracked"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "1",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "6",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "April 1, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Claude Code Unpacked : A visual guide",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Mad Bugs: Vim vs. Emacs vs. Claude",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Neanderthals survived on a knife's edge for 350k years",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Today's brief covers the most interesting signals across the tech landscape."
+    }
+  }
+}
