@@ -1,25 +1,25 @@
 {
   "date": "2026-04-02",
-  "episodeNumber": 12,
+  "episodeNumber": 11,
   "locale": "en-US",
   "title": "Intelligence Brief",
-  "subtitle": "LinkedIn is illegally searching your computer, Google releases Gemma 4 open models, AMD releases Lemonade, a fast open-source local LL",
+  "subtitle": "LinkedIn is illegally searching your computer, Google releases Gemma 4 open models under Apache 2, AMD releases Lemonade, a fast open-source local LL",
   "heroStat": {
-    "value": "1401",
-    "label": "points on \"LinkedIn is illegally searching your computer\""
+    "value": "1,401",
+    "label": "HN pts — LinkedIn BrowserGate: scanning 6,000+ extensions illegally"
   },
   "insights": [
     {
-      "text": "LinkedIn is illegally searching your computer (1,401 HN pts, 620 comments, 0.44:1 comment-to-point ratio) — BrowserGate documents LinkedIn enumerating installed browser extensions on users' machines without disclosure, a behavior that crosses from dark-pattern into illegal data collection under GDPR and CCPA. The low comment-to-point ratio is not apathy; it is forensics. The community is documenting the technical method, not just venting. Lobsters cross-posted simultaneously (security tag, 18 pts). Browser enumeration is now a documented live threat vector from a top-5 social network.",
+      "text": "LinkedIn is illegally searching your computer (1,401 HN pts, 620 comments, 0.44:1 ratio) — BrowserGate documents LinkedIn enumerating installed browser extensions without disclosure, scanning a list that grew from 461 to 6,000+ products between 2024 and February 2026. The surveillance is not just profiling: LinkedIn specifically scans for 200+ competitor products (Apollo, Lusha, ZoomInfo) — harvesting competitor customer lists from users' browsers. Data exposed includes religious beliefs, political opinions, disabilities, and employer identity. Illegal under GDPR and DMA with no disclosed legal basis. The low comment-to-point ratio is forensics, not apathy. Lobsters cross-posted simultaneously (security tag, 18 pts).",
       "tags": [
         "security"
       ],
       "source": "HN 401pts"
     },
     {
-      "text": "Google releases Gemma 4 open models (782 HN pts, 236 comments) — multimodal, open-weights, released on the same day Alibaba drops Qwen3.6-Plus (340 pts, 117 comments). Two major open model releases in a single day creates a benchmark collision: the open weights leaderboard is now a weekly event. The combined HN signal (1,122 pts across two stories) is the strongest single-day open-model interest since Llama 3's release. The gap between frontier closed and frontier open continues to close on every axis except raw parameter count.",
+      "text": "Google releases Gemma 4 open models under Apache 2.0 — first time the Gemma family has used a fully commercial-friendly license (782 HN pts, 236 comments). Four model sizes from phone-class (E2B, E4B) to workstation (26B MoE, 31B Dense); the 31B Dense ranks #3 on Arena AI text leaderboard, beating models 20x its size. Released on the same day Alibaba drops Qwen3.6-Plus (340 pts, 117 comments, 1M context window, agentic coding focus). Combined 1,122 HN pts across two open model releases — strongest single-day open-model signal since Llama 3. The Apache 2.0 shift is the under-discussed detail: it removes the last legal friction for commercial deployment of frontier-class open models.",
       "tags": [
-        "research"
+        "agents"
       ],
       "source": "HN 782pts"
     },
@@ -36,9 +36,8 @@
       "source": "HN 246pts"
     },
     {
-      "text": "Cursor 3 launches (103 HN pts, 90 comments, 0.87:1 comment-to-point ratio) — the 0.87:1 ratio for a product launch is a strong skepticism signal; most product releases land at 0.3–0.5:1. The AI editor market is no longer a novelty category generating unconditional enthusiasm. Builders are now differentiating between editor integrations and evaluating trade-offs. Cursor, Windsurf, Zed, and GitHub Copilot are competing on measurably different philosophies. The product that wins will be the one that earns trust from developers who have already tried three others.",
+      "text": "Cursor 3 launches to a 0.87:1 comment-to-point ratio (103 HN pts, 90 comments) — the near-parity is explained by a concurrent Dev.to top post: 'Cursor Used Kimi K2.5 (a Chinese AI Model) Without Disclosure — Why Every Developer Should Care.' Cursor routed developer requests through an undisclosed third-party Chinese model without informing users. The Kimi K2.5 controversy and the Cursor 3 launch landing on the same day created maximum friction: enthusiasm and distrust in the same comment thread. This is the AI editor trust problem made concrete — not abstract concern about data, but a documented instance of an AI tool silently substituting models on paying customers.",
       "tags": [
-        "github-trending",
         "rust"
       ],
       "source": "HN 103pts"
@@ -129,7 +128,7 @@
         "source": "web"
       },
       {
-        "text": "Google releases Gemma 4 open models",
+        "text": "Google releases Gemma 4 open models under Apache 2.0",
         "metric": "—",
         "source": "web"
       },
