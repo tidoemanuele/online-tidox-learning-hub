@@ -2,41 +2,41 @@
   {
     "id": 47557921,
     "title": "Show HN: Git bayesect – Bayesian Git bisection for non-deterministic bugs",
-    "points": 254,
-    "comments": 39,
+    "points": 326,
+    "comments": 44,
     "url": "https://github.com/hauntsaninja/git_bayesect",
     "by": "hauntsaninja"
   },
   {
-    "id": 47571183,
-    "title": "Show HN: CLI to order groceries via reverse-engineered REWE API (Haskell)",
-    "points": 189,
-    "comments": 78,
-    "url": "https://github.com/yannick-cw/korb",
-    "by": "yannick_cw"
-  },
-  {
-    "id": 47574871,
-    "title": "Show HN: Zerobox – Sandbox any command with file, network, credential controls",
-    "points": 119,
-    "comments": 85,
-    "url": "https://github.com/afshinm/zerobox",
-    "by": "afshinm"
-  },
-  {
-    "id": 47603966,
-    "title": "Show HN: Flight-Viz – 10K flights on a 3D globe in 3.5MB of Rust+WASM",
-    "points": 71,
-    "comments": 37,
-    "url": "https://flight-viz.com",
-    "by": "flightviz"
-  },
-  {
     "id": 47606560,
     "title": "Show HN: Dull – Instagram Without Reels, YouTube Without Shorts (iOS)",
-    "points": 68,
-    "comments": 53,
+    "points": 135,
+    "comments": 108,
     "url": "https://getdull.app",
-    "by": "getdull"
+    "by": "kasparnoor"
+  },
+  {
+    "id": 47612321,
+    "title": "Show HN: I built a DNS resolver from scratch in Rust – no DNS libraries",
+    "points": 72,
+    "comments": 51,
+    "url": "https://github.com/razvandimescu/numa",
+    "by": "rdme"
+  },
+  {
+    "id": 47616777,
+    "title": "Show HN: Portcullis, a review gate for curl|bash",
+    "points": 5,
+    "comments": 1,
+    "url": "https://github.com/imjasonh/portcullis",
+    "by": "ImJasonH"
+  },
+  {
+    "id": 47618235,
+    "title": "Show HN: Most products have no idea what their AI agents did yesterday",
+    "points": 3,
+    "comments": 0,
+    "url": "https://velt.dev/activity-logs",
+    "by": "rakeshgoyal"
   }
 ]

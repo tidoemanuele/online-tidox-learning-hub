@@ -1,58 +1,58 @@
 [
   {
-    "title": "Reading leaked Claude Code source code",
-    "score": 76,
-    "tags": ["vibecoding"],
-    "url": "https://lr0.org/blog/p/claude-code-source/",
+    "title": "What Would You See Changed in Haskell?",
+    "score": 61,
+    "tags": ["haskell"],
+    "url": "https://blog.haskell.org/what-would-you-see-changed-in-haskell/",
+    "comment_count": 23
+  },
+  {
+    "title": "Email obfuscation: What works in 2026?",
+    "score": 58,
+    "tags": ["email", "privacy", "web"],
+    "url": "https://spencermortensen.com/articles/email-obfuscation/",
     "comment_count": 12
   },
   {
-    "title": "CSS or BS?",
-    "score": 60,
-    "tags": ["css"],
-    "url": "https://www.keithcirkel.co.uk/css-or-bs",
-    "comment_count": 18
+    "title": "Every dependency you add is a supply chain attack waiting to happen",
+    "score": 39,
+    "tags": ["programming"],
+    "url": "https://benhoyt.com/writings/dependencies/",
+    "comment_count": 19
   },
   {
-    "title": "The Self-Cancelling Subscription",
-    "score": 58,
-    "tags": ["debugging"],
-    "url": "https://predr.ag/blog/the-self-cancelling-subscription/",
-    "comment_count": 14
-  },
-  {
-    "title": "Linear types proposal for Hare",
-    "score": 46,
-    "tags": ["plt"],
-    "url": "https://yerinalexey.srht.site/borrow/notes.html",
-    "comment_count": 22
-  },
-  {
-    "title": "Gaim 3 Exists",
-    "score": 44,
-    "tags": ["release"],
-    "url": "https://gaim.imfreedom.org/",
-    "comment_count": 31
-  },
-  {
-    "title": "What Would You See Changed in Haskell?",
+    "title": "Packaging 128 languages with Nix",
     "score": 28,
-    "tags": ["haskell"],
-    "url": "https://blog.haskell.org/what-would-you-see-changed-in-haskell/",
-    "comment_count": 45
+    "tags": ["nix"],
+    "url": "https://invariant.club/articles/packaging-128-programming-languages-with-nix.html",
+    "comment_count": 10
   },
   {
-    "title": "git_bayesect: Bayesian git bisect",
-    "score": 24,
-    "tags": ["debugging"],
-    "url": "https://github.com/hauntsaninja/git_bayesect",
+    "title": "Python Yet Reforged Entirely",
+    "score": 21,
+    "tags": ["compilers", "python", "rust", "vibecoding"],
+    "url": "https://pyre-lang.org/",
+    "comment_count": 16
+  },
+  {
+    "title": "jj v0.40.0 released",
+    "score": 26,
+    "tags": ["release", "vcs"],
+    "url": "https://github.com/jj-vcs/jj/releases/tag/v0.40.0",
     "comment_count": 9
   },
   {
-    "title": "Don't Let AI Write For You",
-    "score": 20,
-    "tags": ["vibecoding"],
-    "url": "https://alexhwoods.com/dont-let-ai-write-for-you/",
-    "comment_count": 38
+    "title": "LinkedIn Is Scanning for Browser Extensions",
+    "score": 18,
+    "tags": ["security"],
+    "url": "https://browsergate.eu/",
+    "comment_count": 3
+  },
+  {
+    "title": "Running out of Disk Space in Production",
+    "score": 25,
+    "tags": ["devops", "nix"],
+    "url": "https://alt-romes.github.io/posts/2026-04-01-running-out-of-disk-space-on-launch.html",
+    "comment_count": 4
   }
 ]

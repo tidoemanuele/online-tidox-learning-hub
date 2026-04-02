@@ -19,8 +19,8 @@ import { readFileSync, writeFileSync, existsSync, readdirSync } from 'fs';
 import { join } from 'path';
 
 // --- Paths ---
-const RESEARCH_BASE = '/Users/etido/Documents/learn/docs/research';
-const INSIGHTS_FILE = '/Users/etido/Code/tidoemanuele/awesome-emerging/src/data/insights.ts';
+const RESEARCH_BASE = process.env.RESEARCH_BASE || '/home/user/online-tidox-learning-hub/research';
+const INSIGHTS_FILE = process.env.INSIGHTS_FILE || '/home/user/awesome-emerging/src/data/insights.ts';
 const OUTPUT_DIR = join(import.meta.dirname!, '..', 'src', 'content', 'episodes');
 
 // --- Types (mirrors packages/video/src/types.ts) ---

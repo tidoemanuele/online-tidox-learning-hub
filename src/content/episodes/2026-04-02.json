@@ -1,53 +1,66 @@
 {
   "date": "2026-04-02",
-  "episodeNumber": 11,
+  "episodeNumber": 12,
   "locale": "en-US",
   "title": "Intelligence Brief",
-  "subtitle": "Artemis II launches, claude-code hits 103K stars post-leak, EmDash reinvents WordPress",
+  "subtitle": "LinkedIn is illegally searching your computer, Google releases Gemma 4 open models, AMD releases Lemonade, a fast open-source local LL",
   "heroStat": {
-    "value": "10,749",
-    "label": "stars/day on anthropics/claude-code — post-leak day 2 surge"
+    "value": "1401",
+    "label": "points on \"LinkedIn is illegally searching your computer\""
   },
   "insights": [
     {
-      "text": "Artemis II launches — first crewed deep space mission in 53 years generates the week's strongest HN engagement (809 pts, 728 comments, 0.90 comment-to-point ratio indicating unusual convergence for a space story). The comments are not debate; they are documentation. A generation watching this has never seen a crewed mission leave low Earth orbit. Generational firsts are increasingly rare; when one happens, the community treats it as a collective archiving event.",
-      "tags": ["hacker-news"],
-      "source": "HN 809pts"
+      "text": "LinkedIn is illegally searching your computer (1,401 HN pts, 620 comments, 0.44:1 comment-to-point ratio) — BrowserGate documents LinkedIn enumerating installed browser extensions on users' machines without disclosure, a behavior that crosses from dark-pattern into illegal data collection under GDPR and CCPA. The low comment-to-point ratio is not apathy; it is forensics. The community is documenting the technical method, not just venting. Lobsters cross-posted simultaneously (security tag, 18 pts). Browser enumeration is now a documented live threat vector from a top-5 social network.",
+      "tags": [
+        "security"
+      ],
+      "source": "HN 401pts"
     },
     {
-      "text": "anthropics/claude-code surges to +10,749 stars/day (103K total) on day 2 of the post-leak fallout — at this velocity it will enter the top 30 most-starred repos in GitHub history by end of week. Anthropic's attempted GitHub takedown of forked copies (TechCrunch: 'took down thousands of repos trying to yank its leaked source code') amplified exactly what it sought to suppress. The Streisand pattern now has a specific latency: hours, not weeks.",
-      "tags": ["github-trending", "claude-code"],
-      "source": "GitHub +10,749/day"
+      "text": "Google releases Gemma 4 open models (782 HN pts, 236 comments) — multimodal, open-weights, released on the same day Alibaba drops Qwen3.6-Plus (340 pts, 117 comments). Two major open model releases in a single day creates a benchmark collision: the open weights leaderboard is now a weekly event. The combined HN signal (1,122 pts across two stories) is the strongest single-day open-model interest since Llama 3's release. The gap between frontier closed and frontier open continues to close on every axis except raw parameter count.",
+      "tags": [
+        "research"
+      ],
+      "source": "HN 782pts"
     },
     {
-      "text": "EmDash by Cloudflare (534 HN pts, 371 comments) is the spiritual successor to WordPress that solves plugin security by eliminating plugins entirely — stateless, serverless, no PHP, no attack surface. Cloudflare, Vercel, and Netlify are each building full-stack application primitives; the CDN/edge-compute layer is absorbing the CMS market. The comment-to-point ratio (0.69:1) suggests excitement, not skepticism.",
-      "tags": ["open-source", "security"],
-      "source": "HN 534pts"
+      "text": "AMD releases Lemonade, a fast open-source local LLM server using both GPU and NPU (365 HN pts, 87 comments) — AMD's first direct challenge to NVIDIA in the local inference runtime category. Lemonade is the fourth distinct inference runtime to reach HN frontpage this week: Apple MLX (M-series), Ollama v0.19 (355 Product Hunt upvotes, MLX speedup), Hypura (Apple Silicon), and now AMD Lemonade (GPU+NPU). The local AI hardware stack is no longer a monoculture. When AMD, Apple, and Qualcomm each ship dedicated inference runtimes, NVIDIA's API pricing power erodes from below.",
+      "tags": [
+        "open-source"
+      ],
+      "source": "HN 365pts"
     },
     {
-      "text": "DRAM pricing kills the hobbyist SBC market (412 HN pts, 334 comments) — Jeff Geerling documents DRAM spot prices up 3-4x since 2024, pushing 4GB Raspberry Pi equivalents above $100. The high comment-to-point ratio (0.81:1) reflects lived pain: makers, homelab builders, and educators who used to treat SBCs as disposable are being priced out. Hobbyist hardware economics are the canary for consumer electronics affordability.",
-      "tags": ["hardware"],
-      "source": "HN 412pts"
+      "text": "IBM and Arm announce a strategic collaboration to 'shape the future of enterprise computing' (246 HN pts, 158 comments, 0.64:1) — the 0.64:1 comment-to-point ratio reflects genuine argument about what this means: IBM's z-series and Power architectures intersecting with Arm's server roadmap is not incremental. The x86 server monoculture fracture is not theoretical; it is now a formal partnership between two of enterprise computing's three largest incumbents. AWS Graviton, Ampere Altra, and now IBM+Arm are each building non-x86 enterprise stacks simultaneously.",
+      "tags": [],
+      "source": "HN 246pts"
     },
     {
-      "text": "Ollama v0.19 reaches #2 on Product Hunt (355 upvotes) with 'massive local model speedup on Apple Silicon via MLX' — Apple's ML framework is now the fastest inference path on M-series hardware, surpassing llama.cpp for mid-size models. The milestone: local inference is no longer a patience exercise. When MLX closes the performance gap with hosted APIs, the 'just use the API' argument collapses for privacy-sensitive workloads.",
-      "tags": ["agents", "open-source"],
-      "source": "Product Hunt 355pts"
+      "text": "Cursor 3 launches (103 HN pts, 90 comments, 0.87:1 comment-to-point ratio) — the 0.87:1 ratio for a product launch is a strong skepticism signal; most product releases land at 0.3–0.5:1. The AI editor market is no longer a novelty category generating unconditional enthusiasm. Builders are now differentiating between editor integrations and evaluating trade-offs. Cursor, Windsurf, Zed, and GitHub Copilot are competing on measurably different philosophies. The product that wins will be the one that earns trust from developers who have already tried three others.",
+      "tags": [
+        "github-trending",
+        "rust"
+      ],
+      "source": "HN 103pts"
     },
     {
-      "text": "r/programming (3.2M members) bans all LLM content discussion (54 HN pts) on the same day its top linked story is the Claude Code leak — the moderation arms race is accelerating. Discussion about AI now flows disproportionately to Lobsters, Tildes, and domain-specific Discords. Community fragmentation is not a risk; it is in progress. Builders who rely on r/programming for signal will need to find new aggregators.",
-      "tags": ["ecosystem"],
-      "source": "HN 54pts"
+      "text": "OpenAI acquires TBPN (67 HN pts, 64 comments, 0.95:1 comment-to-point ratio) — the closest to 1:1 contention ratio in today's top 20, meaning nearly every point earned a separate comment. OpenAI buying a podcast/media network signals vertical integration into attention distribution. The strategic logic: if the AI frontier is set by whoever builds the most widely trusted brand for technical commentary, controlling that channel is infrastructure. The community reads it as a conflict-of-interest problem. Both readings are correct.",
+      "tags": [
+        "rust"
+      ],
+      "source": "HN 67pts"
     },
     {
-      "text": "Git bayesect Show HN (254 pts, 39 comments) — Bayesian git bisect for non-deterministic bugs. git bisect assumes determinism; most production failures in distributed systems don't. git_bayesect replaces binary search with probability-weighted Bayesian updating across flaky test histories. The tool addresses the single largest category of unsolved debugging pain in async/distributed codebases. Cross-listed on Lobsters (24 pts), confirming broad practitioner interest.",
-      "tags": ["open-source"],
-      "source": "HN 254pts"
+      "text": "Git bayesect Show HN reaches 326 pts (44 comments) — up from 254 pts yesterday, still climbing. Bayesian git bisect for non-deterministic bugs: git_bayesect replaces binary search with probability-weighted Bayesian updating across flaky test histories. Cross-listed on Lobsters (debugging tag, 24 pts). The sustained multi-day trajectory for a single debugging tool is unusual; it suggests the problem (non-deterministic test failures in distributed systems) is more universal than a single viral moment. Tools that name a previously unnamed pain category keep accumulating stars.",
+      "tags": []
     },
     {
-      "text": "ArXiv publishes 'Detecting Multi-Agent Collusion Through Multi-Agent Interpretability' (arXiv:2604.01151) on the same day multi-agent observability tools dominate Product Hunt (OpenBox: 138 upvotes, ClawMetry: 209 upvotes) — the security layer for autonomous agents is being built in real time, in parallel with the agents themselves. The race between deployment and auditability is not theoretical; it is this week's GitHub trending list.",
-      "tags": ["agents", "research", "security"],
-      "source": "ArXiv 2604.01151"
+      "text": "Supply chain anxiety goes structural — Lobsters #1 is 'Every dependency you add is a supply chain attack waiting to happen' (39 pts, programming tag) on the same day LinkedIn's BrowserGate (18 pts, security tag) dominates HN. Three weeks after the Axios/TeamPCP supply chain campaign (80M weekly downloads), developer trust in external code paths is formally collapsing. The categories converging: npm packages, browser SDKs, and social network integrations are all being reclassified as threat surfaces by the same engineers who used to add them without question.",
+      "tags": [
+        "security",
+        "supply-chain",
+        "rust"
+      ]
     }
   ],
   "trending": [
@@ -85,7 +98,7 @@
   "numbers": [
     {
       "label": "Top HN Story",
-      "value": "809",
+      "value": "1401",
       "unit": "pts"
     },
     {
@@ -111,23 +124,23 @@
     },
     "headlines": [
       {
-        "text": "Artemis II — first crewed deep space mission in 53 years",
-        "metric": "809 pts",
-        "source": "HN"
+        "text": "LinkedIn is illegally searching your computer",
+        "metric": "—",
+        "source": "web"
       },
       {
-        "text": "anthropics/claude-code post-leak: +10,749 stars/day",
-        "metric": "+10,749/d",
-        "source": "GitHub"
+        "text": "Google releases Gemma 4 open models",
+        "metric": "—",
+        "source": "web"
       },
       {
-        "text": "EmDash: Cloudflare reinvents WordPress without plugins",
-        "metric": "534 pts",
-        "source": "HN"
+        "text": "AMD releases Lemonade, a fast open-source local LLM server using both GPU and NPU",
+        "metric": "—",
+        "source": "web"
       }
     ],
     "takeaway": {
-      "text": "The stories that define today: a generation watches humanity return to deep space while the AI tooling ecosystem splinters — r/programming bans LLMs, Anthropic's leaked code becomes the most-starred shell script on GitHub, and multi-agent observability emerges as the next mandatory primitive. Build the audit layer before the agents outpace it."
+      "text": "Today's brief covers the most interesting signals across the tech landscape."
     }
   }
 }
