@@ -1,0 +1,133 @@
+{
+  "date": "2026-04-02",
+  "episodeNumber": 11,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "Artemis II launches, claude-code hits 103K stars post-leak, EmDash reinvents WordPress",
+  "heroStat": {
+    "value": "10,749",
+    "label": "stars/day on anthropics/claude-code — post-leak day 2 surge"
+  },
+  "insights": [
+    {
+      "text": "Artemis II launches — first crewed deep space mission in 53 years generates the week's strongest HN engagement (809 pts, 728 comments, 0.90 comment-to-point ratio indicating unusual convergence for a space story). The comments are not debate; they are documentation. A generation watching this has never seen a crewed mission leave low Earth orbit. Generational firsts are increasingly rare; when one happens, the community treats it as a collective archiving event.",
+      "tags": ["hacker-news"],
+      "source": "HN 809pts"
+    },
+    {
+      "text": "anthropics/claude-code surges to +10,749 stars/day (103K total) on day 2 of the post-leak fallout — at this velocity it will enter the top 30 most-starred repos in GitHub history by end of week. Anthropic's attempted GitHub takedown of forked copies (TechCrunch: 'took down thousands of repos trying to yank its leaked source code') amplified exactly what it sought to suppress. The Streisand pattern now has a specific latency: hours, not weeks.",
+      "tags": ["github-trending", "claude-code"],
+      "source": "GitHub +10,749/day"
+    },
+    {
+      "text": "EmDash by Cloudflare (534 HN pts, 371 comments) is the spiritual successor to WordPress that solves plugin security by eliminating plugins entirely — stateless, serverless, no PHP, no attack surface. Cloudflare, Vercel, and Netlify are each building full-stack application primitives; the CDN/edge-compute layer is absorbing the CMS market. The comment-to-point ratio (0.69:1) suggests excitement, not skepticism.",
+      "tags": ["open-source", "security"],
+      "source": "HN 534pts"
+    },
+    {
+      "text": "DRAM pricing kills the hobbyist SBC market (412 HN pts, 334 comments) — Jeff Geerling documents DRAM spot prices up 3-4x since 2024, pushing 4GB Raspberry Pi equivalents above $100. The high comment-to-point ratio (0.81:1) reflects lived pain: makers, homelab builders, and educators who used to treat SBCs as disposable are being priced out. Hobbyist hardware economics are the canary for consumer electronics affordability.",
+      "tags": ["hardware"],
+      "source": "HN 412pts"
+    },
+    {
+      "text": "Ollama v0.19 reaches #2 on Product Hunt (355 upvotes) with 'massive local model speedup on Apple Silicon via MLX' — Apple's ML framework is now the fastest inference path on M-series hardware, surpassing llama.cpp for mid-size models. The milestone: local inference is no longer a patience exercise. When MLX closes the performance gap with hosted APIs, the 'just use the API' argument collapses for privacy-sensitive workloads.",
+      "tags": ["agents", "open-source"],
+      "source": "Product Hunt 355pts"
+    },
+    {
+      "text": "r/programming (3.2M members) bans all LLM content discussion (54 HN pts) on the same day its top linked story is the Claude Code leak — the moderation arms race is accelerating. Discussion about AI now flows disproportionately to Lobsters, Tildes, and domain-specific Discords. Community fragmentation is not a risk; it is in progress. Builders who rely on r/programming for signal will need to find new aggregators.",
+      "tags": ["ecosystem"],
+      "source": "HN 54pts"
+    },
+    {
+      "text": "Git bayesect Show HN (254 pts, 39 comments) — Bayesian git bisect for non-deterministic bugs. git bisect assumes determinism; most production failures in distributed systems don't. git_bayesect replaces binary search with probability-weighted Bayesian updating across flaky test histories. The tool addresses the single largest category of unsolved debugging pain in async/distributed codebases. Cross-listed on Lobsters (24 pts), confirming broad practitioner interest.",
+      "tags": ["open-source"],
+      "source": "HN 254pts"
+    },
+    {
+      "text": "ArXiv publishes 'Detecting Multi-Agent Collusion Through Multi-Agent Interpretability' (arXiv:2604.01151) on the same day multi-agent observability tools dominate Product Hunt (OpenBox: 138 upvotes, ClawMetry: 209 upvotes) — the security layer for autonomous agents is being built in real time, in parallel with the agents themselves. The race between deployment and auditability is not theoretical; it is this week's GitHub trending list.",
+      "tags": ["agents", "research", "security"],
+      "source": "ArXiv 2604.01151"
+    }
+  ],
+  "trending": [
+    {
+      "name": "claude-code",
+      "stars": "103K",
+      "language": "Shell",
+      "delta": "+10,749/d"
+    },
+    {
+      "name": "claude-howto",
+      "stars": "16.1K",
+      "language": "Python",
+      "delta": "+3,301/d"
+    },
+    {
+      "name": "codex",
+      "stars": "72.1K",
+      "language": "Rust",
+      "delta": "+2,390/d"
+    },
+    {
+      "name": "VibeVoice",
+      "stars": "34.7K",
+      "language": "Python",
+      "delta": "+1,685/d"
+    },
+    {
+      "name": "prompts.chat",
+      "stars": "156K",
+      "language": "HTML",
+      "delta": "+398/d"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "809",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "10,749",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "5",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "April 2, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Artemis II — first crewed deep space mission in 53 years",
+        "metric": "809 pts",
+        "source": "HN"
+      },
+      {
+        "text": "anthropics/claude-code post-leak: +10,749 stars/day",
+        "metric": "+10,749/d",
+        "source": "GitHub"
+      },
+      {
+        "text": "EmDash: Cloudflare reinvents WordPress without plugins",
+        "metric": "534 pts",
+        "source": "HN"
+      }
+    ],
+    "takeaway": {
+      "text": "The stories that define today: a generation watches humanity return to deep space while the AI tooling ecosystem splinters — r/programming bans LLMs, Anthropic's leaked code becomes the most-starred shell script on GitHub, and multi-agent observability emerges as the next mandatory primitive. Build the audit layer before the agents outpace it."
+    }
+  }
+}

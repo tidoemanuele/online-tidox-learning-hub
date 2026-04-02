@@ -1,22 +1,50 @@
 [
   {
-    "name": "Agentplace",
-    "tagline": "Build Claude Code-style agents in one place",
-    "upvotes": 847
+    "name": "Noiz Easter Voice",
+    "tagline": "Crack an Easter egg to generate an AI voice",
+    "upvotes": 401,
+    "category": "AI"
   },
   {
-    "name": "Stitch 2.0 by Google",
-    "tagline": "Design production-ready UI in seconds",
-    "upvotes": 612
+    "name": "Ollama v0.19",
+    "tagline": "Massive local model speedup on Apple Silicon with MLX",
+    "upvotes": 355,
+    "category": "AI, Open Source"
   },
   {
-    "name": "Chronicle",
-    "tagline": "AI-powered stunning presentations, no design skills required",
-    "upvotes": 394
+    "name": "traceAI",
+    "tagline": "Open-source LLM tracing that speaks GenAI, not HTTP",
+    "upvotes": 256,
+    "category": "AI, Dev Tools, Open Source"
   },
   {
-    "name": "Vozo AI \u2014 Video localization",
-    "tagline": "Translate voice, subtitles & on-screen text",
-    "upvotes": 281
+    "name": "Zzzappy",
+    "tagline": "Science-backed breaks to protect your vision and prevent RSI",
+    "upvotes": 228,
+    "category": "Productivity"
+  },
+  {
+    "name": "ClawMetry for NVIDIA NemoClaw",
+    "tagline": "Know what's happening inside your NemoClaw sandboxes",
+    "upvotes": 209,
+    "category": "AI, Dev Tools"
+  },
+  {
+    "name": "Remodex",
+    "tagline": "Control Codex on your iPhone",
+    "upvotes": 172,
+    "category": "iOS, Dev Tools"
+  },
+  {
+    "name": "Google Veo 3.1 Lite",
+    "tagline": "Google's most cost-effective video generation model",
+    "upvotes": 153,
+    "category": "AI"
+  },
+  {
+    "name": "OpenBox",
+    "tagline": "See, verify, and govern every agent action",
+    "upvotes": 138,
+    "category": "Dev Tools, Security"
   }
 ]

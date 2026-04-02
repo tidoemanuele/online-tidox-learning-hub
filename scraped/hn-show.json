@@ -1,58 +1,42 @@
 [
   {
-    "id": 47593422,
-    "title": "Show HN: 1-Bit Bonsai, the First Commercially Viable 1-Bit LLMs",
-    "points": 220,
-    "comments": 93,
-    "url": "https://prismml.com/",
-    "by": "PrismML"
+    "id": 47557921,
+    "title": "Show HN: Git bayesect – Bayesian Git bisection for non-deterministic bugs",
+    "points": 254,
+    "comments": 39,
+    "url": "https://github.com/hauntsaninja/git_bayesect",
+    "by": "hauntsaninja"
   },
   {
-    "id": 47589856,
-    "title": "Show HN: Postgres extension for BM25 relevance-ranked full-text search",
-    "points": 139,
-    "comments": 42,
-    "url": "https://github.com/timescale/pg_textsearch",
-    "by": "tjgreen"
+    "id": 47571183,
+    "title": "Show HN: CLI to order groceries via reverse-engineered REWE API (Haskell)",
+    "points": 189,
+    "comments": 78,
+    "url": "https://github.com/yannick-cw/korb",
+    "by": "yannick_cw"
   },
   {
-    "id": 47541746,
-    "title": "Show HN: Forkrun \u2013 NUMA-aware shell parallelizer (50\u00d7\u2013400\u00d7 faster than parallel)",
-    "points": 129,
-    "comments": 31,
-    "url": "https://github.com/jkool702/forkrun",
-    "by": "jkool702"
+    "id": 47574871,
+    "title": "Show HN: Zerobox – Sandbox any command with file, network, credential controls",
+    "points": 119,
+    "comments": 85,
+    "url": "https://github.com/afshinm/zerobox",
+    "by": "afshinm"
   },
   {
-    "id": 47555035,
-    "title": "Show HN: Loreline, narrative language transpiled via Haxe: C++/C#/JS/Java/Py/Lua",
-    "points": 65,
-    "comments": 20,
-    "url": "https://loreline.app/en/docs/technical-overview/",
-    "by": "jeremyfa"
+    "id": 47603966,
+    "title": "Show HN: Flight-Viz – 10K flights on a 3D globe in 3.5MB of Rust+WASM",
+    "points": 71,
+    "comments": 37,
+    "url": "https://flight-viz.com",
+    "by": "flightviz"
   },
   {
-    "id": 47588324,
-    "title": "Show HN: Sundial \u2013 a new way to look at a weather forecast",
-    "points": 42,
-    "comments": 15,
-    "url": "https://sundial.page/",
-    "by": "izaidi"
-  },
-  {
-    "id": 47592392,
-    "title": "Show HN: EU Leadership \u2013 Live API data site comparing Europe to the world",
-    "points": 24,
-    "comments": 7,
-    "url": "https://ajh.ovh/",
-    "by": "aureljohn"
-  },
-  {
-    "id": 47594804,
-    "title": "Show HN: Claude Code rewritten as a bash script",
-    "points": 11,
-    "comments": 0,
-    "url": "https://github.com/jdcodes1/claude-sh",
-    "by": "rpst"
+    "id": 47606560,
+    "title": "Show HN: Dull – Instagram Without Reels, YouTube Without Shorts (iOS)",
+    "points": 68,
+    "comments": 53,
+    "url": "https://getdull.app",
+    "by": "getdull"
   }
 ]

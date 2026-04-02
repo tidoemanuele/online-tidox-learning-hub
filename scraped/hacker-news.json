@@ -1,137 +1,137 @@
 [
   {
     "rank": 1,
-    "id": 47586778,
-    "title": "The Claude Code Source Leak: fake tools, frustration regexes, undercover mode",
-    "points": 1110,
-    "comments": 435,
-    "url": "https://alex000kim.com/posts/2026-03-31-claude-code-source-leak/",
-    "by": "alex000kim"
+    "id": 47603657,
+    "title": "Live: Artemis II Launch Day Updates",
+    "points": 809,
+    "comments": 728,
+    "url": "https://www.nasa.gov/blogs/missions/2026/04/01/live-artemis-ii-launch-day-updates/",
+    "by": "nasa"
   },
   {
     "rank": 2,
-    "id": 47592755,
-    "title": "OpenAI closes funding round at an $852B valuation",
-    "points": 418,
-    "comments": 365,
-    "url": "https://www.cnbc.com/2026/03/31/openai-funding-round-ipo.html",
-    "by": "surprisetalk"
+    "id": 47602832,
+    "title": "EmDash – A spiritual successor to WordPress that solves plugin security",
+    "points": 534,
+    "comments": 371,
+    "url": "https://blog.cloudflare.com/emdash-wordpress/",
+    "by": "cloudflare"
   },
   {
     "rank": 3,
-    "id": 47587953,
-    "title": "Slop is not necessarily the future",
-    "points": 221,
-    "comments": 374,
-    "url": "https://www.greptile.com/blog/ai-slopware-future",
-    "by": "dakshgupta"
+    "id": 47606840,
+    "title": "DRAM pricing is killing the hobbyist SBC market",
+    "points": 412,
+    "comments": 334,
+    "url": "https://www.jeffgeerling.com/blog/2026/dram-pricing-is-killing-the-hobbyist-sbc-market/",
+    "by": "jeffgeerling"
   },
   {
     "rank": 4,
-    "id": 47593422,
-    "title": "Show HN: 1-Bit Bonsai, the First Commercially Viable 1-Bit LLMs",
-    "points": 220,
-    "comments": 93,
-    "url": "https://prismml.com/",
-    "by": "PrismML"
+    "id": 47557921,
+    "title": "Show HN: Git bayesect – Bayesian Git bisection for non-deterministic bugs",
+    "points": 254,
+    "comments": 39,
+    "url": "https://github.com/hauntsaninja/git_bayesect",
+    "by": "hauntsaninja"
   },
   {
     "rank": 5,
-    "id": 47593556,
-    "title": "A dot a day keeps the clutter away",
-    "points": 267,
-    "comments": 82,
-    "url": "https://scottlawsonbc.com/post/dot-system",
-    "by": "scottlawson"
+    "id": 47603737,
+    "title": "AI for American-produced cement and concrete",
+    "points": 183,
+    "comments": 109,
+    "url": "https://engineering.fb.com/2026/03/30/data-center-engineering/ai-for-american-produced-cement-and-concrete/",
+    "by": "fb_engineering"
   },
   {
     "rank": 6,
-    "id": 47593285,
-    "title": "MiniStack (replacement for LocalStack)",
-    "points": 201,
-    "comments": 39,
-    "url": "https://ministack.org/",
-    "by": "kerblang"
+    "id": 47609564,
+    "title": "Steam on Linux Use Skyrocketed Above 5% in March",
+    "points": 154,
+    "comments": 58,
+    "url": "https://www.phoronix.com/news/Steam-On-Linux-Tops-5p",
+    "by": "phoronix"
   },
   {
     "rank": 7,
-    "id": 47549128,
-    "title": "4D Doom",
-    "points": 185,
-    "comments": 41,
-    "url": "https://github.com/danieldugas/HYPERHELL",
-    "by": "chronolitus"
+    "id": 47608058,
+    "title": "A new C++ back end for ocamlc",
+    "points": 148,
+    "comments": 12,
+    "url": "https://github.com/ocaml/ocaml/pull/14701",
+    "by": "ocaml"
   },
   {
     "rank": 8,
-    "id": 47597085,
-    "title": "Claude Code Unpacked : A visual guide",
-    "points": 182,
-    "comments": 38,
-    "url": "https://ccunpacked.dev/",
-    "by": "autocracy101"
+    "id": 47584386,
+    "title": "Fast and Gorgeous Erosion Filter",
+    "points": 123,
+    "comments": 13,
+    "url": "https://blog.runevision.com/2026/03/fast-and-gorgeous-erosion-filter.html",
+    "by": "runevision"
   },
   {
     "rank": 9,
-    "id": 47541733,
-    "title": "TinyLoRA \u2013 Learning to Reason in 13 Parameters",
-    "points": 152,
-    "comments": 19,
-    "url": "https://arxiv.org/abs/2602.04118",
-    "by": "sorenjan"
+    "id": 47608495,
+    "title": "Quantum computing bombshells that are not April Fools",
+    "points": 109,
+    "comments": 34,
+    "url": "https://scottaaronson.blog/?p=9665",
+    "by": "scottaaronson"
   },
   {
     "rank": 10,
-    "id": 47595572,
-    "title": "Neanderthals survived on a knife's edge for 350k years",
-    "points": 116,
-    "comments": 62,
-    "url": "https://www.science.org/content/article/neanderthals-survived-knife-s-edge-350-000-years",
-    "by": "Hooke"
+    "id": 47609294,
+    "title": "The Claude Code Leak",
+    "points": 91,
+    "comments": 44,
+    "url": "https://build.ms/2026/4/1/the-claude-code-leak/",
+    "by": "buildms"
   },
   {
     "rank": 11,
-    "id": 47557171,
-    "title": "TruffleRuby",
-    "points": 106,
-    "comments": 6,
-    "url": "https://chrisseaton.com/truffleruby/",
-    "by": "tosh"
+    "id": 47609882,
+    "title": "Subscription bombing and how to mitigate it",
+    "points": 57,
+    "comments": 41,
+    "url": "https://bytemash.net/posts/subscription-bombing-your-signup-form-is-a-weapon/",
+    "by": "bytemash"
   },
   {
     "rank": 12,
-    "id": 47593634,
-    "title": "Ordinary Lab Gloves May Have Skewed Microplastic Data",
-    "points": 97,
-    "comments": 31,
-    "url": "https://nautil.us/ordinary-lab-gloves-may-have-skewed-microplastic-data-1279386",
-    "by": "WaitWaitWha"
+    "id": 47610336,
+    "title": "r/programming bans all discussion of LLM programming",
+    "points": 54,
+    "comments": 17,
+    "url": "https://old.reddit.com/r/programming/comments/1s9jkzi/announcement_temporary_llm_content_ban/",
+    "by": "reddit_mod"
   },
   {
     "rank": 13,
-    "id": 47589856,
-    "title": "Show HN: Postgres extension for BM25 relevance-ranked full-text search",
-    "points": 139,
-    "comments": 42,
-    "url": "https://github.com/timescale/pg_textsearch",
-    "by": "tjgreen"
+    "id": 47608495,
+    "title": "Quantum computing bombshells that are not April Fools",
+    "points": 109,
+    "comments": 34,
+    "url": "https://scottaaronson.blog/?p=9665",
+    "by": "scottaaronson"
   },
   {
     "rank": 14,
-    "id": 47597382,
-    "title": "Mad Bugs: Vim vs. Emacs vs. Claude",
-    "points": 30,
-    "comments": 24,
-    "url": "https://blog.calif.io/p/mad-bugs-vim-vs-emacs-vs-claude",
-    "by": "Munksgaard"
+    "id": 47557921,
+    "title": "Show HN: Git bayesect – Bayesian Git bisection for non-deterministic bugs",
+    "points": 254,
+    "comments": 39,
+    "url": "https://github.com/hauntsaninja/git_bayesect",
+    "by": "hauntsaninja"
   },
   {
     "rank": 15,
-    "id": 47596457,
-    "title": "Analyzing Geekbench 6 under Intel's BOT",
-    "points": 20,
-    "comments": 12,
-    "url": "https://www.geekbench.com/blog/2026/03/analyzing-geekbench-6-under-intels-bot/",
-    "by": "hajile"
+    "id": 47609752,
+    "title": "The future of code search is not regex – 100x faster than ripgrep",
+    "points": 21,
+    "comments": 9,
+    "url": "https://fff.dmtrkovalenko.dev/",
+    "by": "dmtrkovalenko"
   }
 ]
