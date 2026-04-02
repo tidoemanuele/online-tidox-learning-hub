@@ -1,0 +1,44 @@
+[
+  {
+    "name": "anthropics/claude-code",
+    "description": "Agentic coding tool that lives in your terminal",
+    "language": "Shell",
+    "stars_today": "10,749 stars today",
+    "total_stars": "103067"
+  },
+  {
+    "name": "luongnv89/claude-howto",
+    "description": "Visual guide to Claude Code with practical templates",
+    "language": "Python",
+    "stars_today": "3,301 stars today",
+    "total_stars": "16091"
+  },
+  {
+    "name": "openai/codex",
+    "description": "Lightweight coding agent for terminal environments",
+    "language": "Rust",
+    "stars_today": "2,390 stars today",
+    "total_stars": "72073"
+  },
+  {
+    "name": "microsoft/VibeVoice",
+    "description": "Open-Source Frontier Voice AI",
+    "language": "Python",
+    "stars_today": "1,685 stars today",
+    "total_stars": "34701"
+  },
+  {
+    "name": "f/prompts.chat",
+    "description": "Community-driven platform for sharing AI prompts",
+    "language": "HTML",
+    "stars_today": "398 stars today",
+    "total_stars": "156291"
+  },
+  {
+    "name": "google-research/timesfm",
+    "description": "Pretrained time-series foundation model for time series forecasting",
+    "language": "Python",
+    "stars_today": "380 stars today",
+    "total_stars": "12511"
+  }
+]

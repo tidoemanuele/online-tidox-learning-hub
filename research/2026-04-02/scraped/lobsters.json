@@ -1,0 +1,58 @@
+[
+  {
+    "title": "What Would You See Changed in Haskell?",
+    "score": 61,
+    "tags": ["haskell"],
+    "url": "https://blog.haskell.org/what-would-you-see-changed-in-haskell/",
+    "comment_count": 23
+  },
+  {
+    "title": "Email obfuscation: What works in 2026?",
+    "score": 58,
+    "tags": ["email", "privacy", "web"],
+    "url": "https://spencermortensen.com/articles/email-obfuscation/",
+    "comment_count": 12
+  },
+  {
+    "title": "Every dependency you add is a supply chain attack waiting to happen",
+    "score": 39,
+    "tags": ["programming"],
+    "url": "https://benhoyt.com/writings/dependencies/",
+    "comment_count": 19
+  },
+  {
+    "title": "Packaging 128 languages with Nix",
+    "score": 28,
+    "tags": ["nix"],
+    "url": "https://invariant.club/articles/packaging-128-programming-languages-with-nix.html",
+    "comment_count": 10
+  },
+  {
+    "title": "Python Yet Reforged Entirely",
+    "score": 21,
+    "tags": ["compilers", "python", "rust", "vibecoding"],
+    "url": "https://pyre-lang.org/",
+    "comment_count": 16
+  },
+  {
+    "title": "jj v0.40.0 released",
+    "score": 26,
+    "tags": ["release", "vcs"],
+    "url": "https://github.com/jj-vcs/jj/releases/tag/v0.40.0",
+    "comment_count": 9
+  },
+  {
+    "title": "LinkedIn Is Scanning for Browser Extensions",
+    "score": 18,
+    "tags": ["security"],
+    "url": "https://browsergate.eu/",
+    "comment_count": 3
+  },
+  {
+    "title": "Running out of Disk Space in Production",
+    "score": 25,
+    "tags": ["devops", "nix"],
+    "url": "https://alt-romes.github.io/posts/2026-04-01-running-out-of-disk-space-on-launch.html",
+    "comment_count": 4
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Noiz Easter Voice",
+    "tagline": "Crack an Easter egg to generate an AI voice",
+    "upvotes": 401,
+    "category": "AI"
+  },
+  {
+    "name": "Ollama v0.19",
+    "tagline": "Massive local model speedup on Apple Silicon with MLX",
+    "upvotes": 355,
+    "category": "AI, Open Source"
+  },
+  {
+    "name": "traceAI",
+    "tagline": "Open-source LLM tracing that speaks GenAI, not HTTP",
+    "upvotes": 256,
+    "category": "AI, Dev Tools, Open Source"
+  },
+  {
+    "name": "Zzzappy",
+    "tagline": "Science-backed breaks to protect your vision and prevent RSI",
+    "upvotes": 228,
+    "category": "Productivity"
+  },
+  {
+    "name": "ClawMetry for NVIDIA NemoClaw",
+    "tagline": "Know what's happening inside your NemoClaw sandboxes",
+    "upvotes": 209,
+    "category": "AI, Dev Tools"
+  },
+  {
+    "name": "Remodex",
+    "tagline": "Control Codex on your iPhone",
+    "upvotes": 172,
+    "category": "iOS, Dev Tools"
+  },
+  {
+    "name": "Google Veo 3.1 Lite",
+    "tagline": "Google's most cost-effective video generation model",
+    "upvotes": 153,
+    "category": "AI"
+  },
+  {
+    "name": "OpenBox",
+    "tagline": "See, verify, and govern every agent action",
+    "upvotes": 138,
+    "category": "Dev Tools, Security"
+  }
+]

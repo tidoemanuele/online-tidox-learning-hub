@@ -1,0 +1,42 @@
+[
+  {
+    "id": 47557921,
+    "title": "Show HN: Git bayesect – Bayesian Git bisection for non-deterministic bugs",
+    "points": 326,
+    "comments": 44,
+    "url": "https://github.com/hauntsaninja/git_bayesect",
+    "by": "hauntsaninja"
+  },
+  {
+    "id": 47606560,
+    "title": "Show HN: Dull – Instagram Without Reels, YouTube Without Shorts (iOS)",
+    "points": 135,
+    "comments": 108,
+    "url": "https://getdull.app",
+    "by": "kasparnoor"
+  },
+  {
+    "id": 47612321,
+    "title": "Show HN: I built a DNS resolver from scratch in Rust – no DNS libraries",
+    "points": 72,
+    "comments": 51,
+    "url": "https://github.com/razvandimescu/numa",
+    "by": "rdme"
+  },
+  {
+    "id": 47616777,
+    "title": "Show HN: Portcullis, a review gate for curl|bash",
+    "points": 5,
+    "comments": 1,
+    "url": "https://github.com/imjasonh/portcullis",
+    "by": "ImJasonH"
+  },
+  {
+    "id": 47618235,
+    "title": "Show HN: Most products have no idea what their AI agents did yesterday",
+    "points": 3,
+    "comments": 0,
+    "url": "https://velt.dev/activity-logs",
+    "by": "rakeshgoyal"
+  }
+]
