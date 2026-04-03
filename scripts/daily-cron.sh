@@ -176,7 +176,14 @@ else
   git add src/content/episodes/
   git commit -m "episode: ${DATE} daily intelligence brief" --quiet
   git push --quiet
-  echo "${LOG_PREFIX}   ✓ Pushed. Vercel deploying."
+  echo "${LOG_PREFIX}   ✓ Pushed."
+
+  # Deploy to Vercel
+  echo "${LOG_PREFIX}   Waiting 60s for push to settle..."
+  sleep 60
+  cd "$HUB_DIR"
+  vercel --prod --yes 2>&1 | tail -3
+  echo "${LOG_PREFIX}   ✓ Vercel deployed."
 fi
 
 # ── Summary ─────────────────────────────────────────────────
