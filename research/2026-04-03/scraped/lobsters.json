@@ -1,0 +1,62 @@
+[
+  {
+    "title": "What Would You See Changed in Haskell?",
+    "score": 68,
+    "tags": ["haskell"],
+    "url": "https://blog.haskell.org/what-would-you-see-changed-in-haskell/"
+  },
+  {
+    "title": "Every dependency you add is a supply chain attack waiting to happen",
+    "score": 65,
+    "tags": ["programming"],
+    "url": "https://benhoyt.com/writings/dependencies/"
+  },
+  {
+    "title": "jj v0.40.0 released",
+    "score": 49,
+    "tags": ["release", "vcs"],
+    "url": "https://github.com/jj-vcs/jj/releases/tag/v0.40.0"
+  },
+  {
+    "title": "LinkedIn Is Scanning for Browser Extensions",
+    "score": 33,
+    "tags": ["security"],
+    "url": "https://browsergate.eu/"
+  },
+  {
+    "title": "Packaging 128 languages with Nix",
+    "score": 33,
+    "tags": ["nix"],
+    "url": "https://invariant.club/articles/packaging-128-programming-languages-with-nix.html"
+  },
+  {
+    "title": "Running out of Disk Space in Production",
+    "score": 31,
+    "tags": ["devops", "nix"],
+    "url": "https://alt-romes.github.io/posts/2026-04-01-running-out-of-disk-space-on-launch.html"
+  },
+  {
+    "title": "I used AI. It worked. I hated it",
+    "score": 28,
+    "tags": ["vibecoding"],
+    "url": "https://taggart-tech.com/reckoning/"
+  },
+  {
+    "title": "Reverse Engineering Crazy Taxi",
+    "score": 25,
+    "tags": ["games", "retrocomputing", "reversing"],
+    "url": "https://wretched.computer/post/crazytaxi"
+  },
+  {
+    "title": "landdown – Simple sandboxing for shell scripts",
+    "score": 22,
+    "tags": ["linux", "show"],
+    "url": "https://git.sr.ht/~marcc/landdown"
+  },
+  {
+    "title": "Activating Two Trap Cards at Once, or: A Gentle Response to the Popularity of Vibecoding",
+    "score": 17,
+    "tags": ["ai", "math", "plt", "python", "vibecoding"],
+    "url": "https://gist.github.com/MostAwesomeDude/560185c24f959f6fec229739cb5a6735"
+  }
+]

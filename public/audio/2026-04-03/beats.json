@@ -1,0 +1,163 @@
+[
+  {
+    "type": "intro",
+    "highlight": "LinkedIn BrowserGate: Day Two",
+    "label": "APRIL 3, 2026",
+    "subtext": "The story is still accelerating"
+  },
+  {
+    "type": "intro",
+    "highlight": "Stories don't usually gain points overnight",
+    "subtext": "viral moment → structural issue"
+  },
+  {
+    "type": "number",
+    "number": "1,648",
+    "highlight": "HN points — day two",
+    "subtext": "GDPR and DMA violations documented in comments"
+  },
+  {
+    "type": "action",
+    "highlight": "LinkedIn SDK: compliance audit, not privacy complaint",
+    "subtext": "Every developer who shipped the integration has a legal question"
+  },
+  {
+    "type": "insight",
+    "highlight": "Two consecutive days of cross-platform signal",
+    "subtext": "HN + Lobsters security tag simultaneously",
+    "label": "SIGNAL STRENGTH"
+  },
+  {
+    "type": "number",
+    "number": "1,812",
+    "highlight": "Combined HN pts across two open model releases",
+    "subtext": "Gemma 4 (1,326) + Qwen3.6-Plus (486)"
+  },
+  {
+    "type": "insight",
+    "highlight": "0.29:1 comment-to-point ratio on Gemma 4",
+    "label": "LOWEST ON FRONT PAGE",
+    "subtext": "Apache 2.0 removes the main objection"
+  },
+  {
+    "type": "quote",
+    "highlight": "Which means what, exactly?",
+    "subtext": "The right question"
+  },
+  {
+    "type": "insight",
+    "highlight": "When lawyers are satisfied, engineers go build",
+    "subtext": "Apache 2.0 licensing: the unlock that matters"
+  },
+  {
+    "type": "quote",
+    "highlight": "Cursor 3. I have feelings about this one.",
+    "subtext": "0.81:1 comment-to-point ratio"
+  },
+  {
+    "type": "number",
+    "number": "0.81:1",
+    "highlight": "Cursor 3 comment-to-point ratio",
+    "label": "CONTENTION INDEX",
+    "subtext": "Nearly one comment for every point"
+  },
+  {
+    "type": "insight",
+    "highlight": "Kimi K2.5: undisclosed model substitution",
+    "subtext": "Trust deficit established before the launch lands"
+  },
+  {
+    "type": "insight",
+    "highlight": "Every comment lands in a poisoned thread",
+    "subtext": "New features read through the trust deficit"
+  },
+  {
+    "type": "quote",
+    "highlight": "Should they switch tools?",
+    "subtext": "The builder's question"
+  },
+  {
+    "type": "action",
+    "highlight": "Audit your AI tooling for model disclosure",
+    "label": "ACTION",
+    "subtext": "Which model actually ran your query?"
+  },
+  {
+    "type": "repo",
+    "highlight": "oh-my-codex",
+    "subtext": "+2,867 stars/day — codex ecosystem layer",
+    "label": "GITHUB TRENDING #1"
+  },
+  {
+    "type": "insight",
+    "highlight": "Community ships ecosystem before official tooling catches up",
+    "subtext": "Pattern: terminal agent → community extension layer"
+  },
+  {
+    "type": "insight",
+    "highlight": "Two terminal agent ecosystems racing simultaneously",
+    "subtext": "oh-my-codex + everything-claude-code"
+  },
+  {
+    "type": "repo",
+    "highlight": "openscreen",
+    "subtext": "+2,573 stars/day — open-source Screen Studio alternative",
+    "label": "GITHUB TRENDING #2"
+  },
+  {
+    "type": "insight",
+    "highlight": "Lobsters #1 is not about AI today",
+    "label": "SIGNAL DIVERGENCE",
+    "subtext": "The systems community sees something different"
+  },
+  {
+    "type": "number",
+    "number": "68",
+    "highlight": "Haskell language design — Lobsters #1",
+    "subtext": "Beats supply chain security for top slot"
+  },
+  {
+    "type": "quote",
+    "highlight": "Is that actually meaningful or just noise?",
+    "subtext": "Worth asking"
+  },
+  {
+    "type": "insight",
+    "highlight": "Type-safety crowd: structural correctness vs velocity",
+    "subtext": "Lobsters diverges from HN on the same day"
+  },
+  {
+    "type": "insight",
+    "highlight": "Correctness properties that velocity culture ignores",
+    "subtext": "Dependency graphs + language design = same concern"
+  },
+  {
+    "type": "quote",
+    "highlight": "Trust is the scarcest resource in the stack",
+    "label": "TODAY'S THESIS",
+    "subtext": "LinkedIn. Microsoft. Cursor. Same week."
+  },
+  {
+    "type": "insight",
+    "highlight": "Momentum flows to verifiable foundations",
+    "subtext": "Apache 2.0. Open ecosystems. Disclosed routing."
+  },
+  {
+    "type": "action",
+    "highlight": "Build on what you can verify",
+    "subtext": "Open licenses. Auditable chains. Disclosed models.",
+    "label": "THE MOAT"
+  },
+  {
+    "type": "action",
+    "highlight": "Audit every dependency and AI tool in your stack",
+    "subtext": "What can you verify? What are you taking on faith?",
+    "label": "ONE ACTION"
+  },
+  {
+    "type": "close",
+    "highlight": "Ship the verifiable version",
+    "subtext": "That's the moat right now.",
+    "label": "LET'S GO"
+  }
+]

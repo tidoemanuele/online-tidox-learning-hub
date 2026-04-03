@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Yeachan-Heo/oh-my-codex",
+    "description": "OmX – Oh My codeX: Your codex is not alone. Add hooks, agent teams, HUDs, and so much more.",
+    "language": "TypeScript",
+    "stars_today": "2,867 stars today",
+    "total_stars": "12406"
+  },
+  {
+    "name": "siddharthvaddem/openscreen",
+    "description": "Create stunning demos for free. Open-source, no subscriptions, no watermarks, free for commercial use. An alternative to Screen Studio.",
+    "language": "TypeScript",
+    "stars_today": "2,573 stars today",
+    "total_stars": "16581"
+  },
+  {
+    "name": "sherlock-project/sherlock",
+    "description": "Hunt down social media accounts by username across social networks",
+    "language": "Python",
+    "stars_today": "827 stars today",
+    "total_stars": "77599"
+  },
+  {
+    "name": "asgeirtj/system_prompts_leaks",
+    "description": "Extracted system prompts from ChatGPT, Claude, Gemini, Grok, Perplexity, and more. Updated regularly.",
+    "language": "Markdown",
+    "stars_today": "612 stars today",
+    "total_stars": "36718"
+  },
+  {
+    "name": "jj-vcs/jj",
+    "description": "A Git-compatible VCS that is both simple and powerful",
+    "language": "Rust",
+    "stars_today": "389 stars today",
+    "total_stars": "14203"
+  }
+]

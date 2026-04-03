@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Dull",
+    "tagline": "Instagram Without Reels, YouTube Without Shorts",
+    "upvotes": 141,
+    "url": "https://getdull.app"
+  },
+  {
+    "name": "Ollama",
+    "tagline": "Local large language model runner",
+    "upvotes": 118,
+    "url": "https://ollama.com"
+  },
+  {
+    "name": "Noiz AI",
+    "tagline": "Text-to-voice-to-story workflow platform",
+    "upvotes": 97,
+    "url": "https://noiz.ai"
+  },
+  {
+    "name": "Wispr Flow",
+    "tagline": "Mac dictation app with natural speaking, auto-edits, 100+ language support",
+    "upvotes": 89,
+    "url": "https://wisprflow.ai"
+  },
+  {
+    "name": "Zzzappy",
+    "tagline": "Science-backed breaks for vision protection and RSI prevention",
+    "upvotes": 74,
+    "url": "https://zzzappy.app"
+  }
+]

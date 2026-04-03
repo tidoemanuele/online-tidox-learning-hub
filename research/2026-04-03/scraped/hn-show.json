@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Show HN: CLI to order groceries via reverse-engineered REWE API (Haskell)",
+    "points": 197,
+    "url": "https://github.com/yannick-cw/korb",
+    "comments": 81
+  },
+  {
+    "title": "Show HN: Dull – Instagram Without Reels, YouTube Without Shorts (iOS)",
+    "points": 141,
+    "url": "https://getdull.app",
+    "comments": 110
+  },
+  {
+    "title": "Show HN: I built a DNS resolver from scratch in Rust – no DNS libraries",
+    "points": 92,
+    "url": "https://github.com/razvandimescu/numa",
+    "comments": 53
+  },
+  {
+    "title": "Show HN: Made a little Artemis II tracker",
+    "points": 75,
+    "url": "https://artemis-ii-tracker.com/",
+    "comments": 30
+  },
+  {
+    "title": "Show HN: A P2P messenger with dual network modes (Fast and Tor)",
+    "points": 33,
+    "url": "https://github.com/Realman78/Kiyeovo/",
+    "comments": 18
+  },
+  {
+    "title": "Show HN: Home Maker: Declare Your Dev Tools in a Makefile",
+    "points": 24,
+    "url": "https://thottingal.in/blog/2026/03/29/home-maker/",
+    "comments": 12
+  },
+  {
+    "title": "Show HN: I tested 15 free AI models at building real software on a $25/year VPS",
+    "points": 19,
+    "url": "https://georgelarson.me/writing/2026-04-03-25-dollar-ai-lab/",
+    "comments": 3
+  },
+  {
+    "title": "Show HN: SyNumpy – a Header only C++17 library for working with NumPy Arrays",
+    "points": 17,
+    "url": "https://github.com/symisc/sy-numpy-cpp",
+    "comments": 2
+  },
+  {
+    "title": "Show HN: Minimal Brain Teaser Web Game (Handcrafted, No AI)",
+    "points": 3,
+    "url": "https://mehuleo.github.io/encircle/",
+    "comments": 0
+  }
+]
