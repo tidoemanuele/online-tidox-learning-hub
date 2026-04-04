@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Slap: Functional Concatenative Language... with a Borrow Checker?",
+    "score": 79,
+    "tags": ["concatenative", "plt"],
+    "url": "https://taylor.town/slap-000",
+    "comments": 12
+  },
+  {
+    "title": "Adobe wrote to my hosts file",
+    "score": 71,
+    "tags": ["design"],
+    "url": "https://www.reddit.com/r/webdev/comments/1sb6hzk/adobe_wrote_to_my_hosts_file_ive_never_had_an_app/",
+    "comments": 18
+  },
+  {
+    "title": "Claude Code Found a Linux Vulnerability Hidden for 23 Years",
+    "score": 67,
+    "tags": ["security", "vibecoding"],
+    "url": "https://mtlynch.io/claude-code-found-linux-vulnerability/",
+    "comments": 19
+  },
+  {
+    "title": "Lisette — Rust syntax, Go runtime",
+    "score": 53,
+    "tags": ["go", "plt", "rust"],
+    "url": "https://lisette.run",
+    "comments": 30
+  },
+  {
+    "title": "Your code is worthless",
+    "score": 30,
+    "tags": ["vibecoding"],
+    "url": "https://nathanielfishel.substack.com/p/your-code-is-worthless",
+    "comments": 7
+  },
+  {
+    "title": "Build your own Dial-up ISP with a Raspberry Pi",
+    "score": 26,
+    "tags": ["networking", "retrocomputing"],
+    "url": "https://www.jeffgeerling.com/blog/2026/build-your-own-dial-up-isp-with-a-raspberry-pi/",
+    "comments": 8
+  },
+  {
+    "title": "Why Nobody Can Verify What Booted Your Server",
+    "score": 24,
+    "tags": ["security"],
+    "url": "https://unmitigatedrisk.com/?p=1231",
+    "comments": 1
+  },
+  {
+    "title": "Making a Type Checker/LSP for Nix",
+    "score": 20,
+    "tags": ["nix"],
+    "url": "https://johns.codes/blog/making-a-type-checker-lsp-for-nix",
+    "comments": 0
+  }
+]
