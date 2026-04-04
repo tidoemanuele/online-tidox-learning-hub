@@ -3,111 +3,101 @@
   "episodeNumber": 12,
   "locale": "en-US",
   "title": "Intelligence Brief",
-  "subtitle": "LinkedIn BrowserGate reaches 1,648 HN pts, Google Gemma 4 Day 2: 1,326 HN pts as the open mod, Former Azure Core engineer documents trust erosion",
+  "subtitle": "Artemis II crew take “spectacular” image of Earth, Tell HN: Anthropic no longer allowing Claude Code , Oracle Files H-1B Visa Petitions Amid Mass Layoffs",
   "heroStat": {
-    "value": "1648",
-    "label": "points on \"LinkedIn is searching your browser extensions\""
+    "value": "628",
+    "label": "points on \"Artemis II crew take “spectacular” image of Earth\""
   },
   "insights": [
     {
-      "text": "LinkedIn BrowserGate reaches 1,648 HN pts (694 comments, 0.42:1 ratio) — Day 2 of coverage and the story is still accelerating, not decaying. Yesterday's 1,401 pts grew to 1,648 today: a story that gains points across two consecutive days has crossed from 'viral moment' into 'structural issue.' Lobsters cross-listed again (33 pts, security tag). The 0.42:1 ratio signals forensic engagement — engineers documenting specific violations, not reacting emotionally. GDPR and DMA enforcement bodies are now named in comments. This is no longer a privacy story; it is a legal exposure story for every developer who ships a LinkedIn SDK integration.",
+      "text": "Artemis II crew take “spectacular” image of Earth (628 pts, 236 comments)",
       "tags": [
-        "security"
+        "hacker-news"
       ],
-      "source": "HN 648pts"
+      "source": "HN 628pts"
     },
     {
-      "text": "Google Gemma 4 Day 2: 1,326 HN pts (386 comments, 0.29:1) as the open model absorption phase continues — Qwen3.6-Plus lands simultaneously at 486 pts (173 comments), giving the open model story a combined 1,812 HN pts across two releases in 48 hours. The 0.29:1 ratio on Gemma 4 is the lowest on today's front page: the community is reading, not arguing, because Apache 2.0 licensing removes the main objection. Lobsters contributed zero coverage — the open-weights story belongs entirely to HN, confirming that the systems/compiler audience has different priors than the builder audience.",
-      "tags": [],
-      "source": "HN 326pts"
-    },
-    {
-      "text": "Former Azure Core engineer documents trust erosion (578 HN pts, 212 comments, 0.37:1) — A senior insider critique earns more comments-per-point than either AI model release. The post names specific decisions: feature velocity over reliability, sales commitments made without engineering sign-off, Azure Functions cold start regressions shipped knowingly. The 0.37:1 ratio is not high — this is engineers confirming a diagnosis they already made, not arguing about it. The post appears three days after Microsoft's public Windows quality commitment (625 HN pts, 1,167 comments, 1.87:1 — the most argued story of the week). The juxtaposition is structural: the same week Microsoft publicly commits to quality, an ex-engineer explains why those commitments are unconvincing.",
+      "text": "Tell HN: Anthropic no longer allowing Claude Code subscriptions to use OpenClaw (478 pts, 437 comments)",
       "tags": [
-        "rust"
+        "hacker-news"
       ],
-      "source": "HN 578pts"
+      "source": "HN 478pts"
     },
     {
-      "text": "Cursor 3 hits 365 HN pts with 296 comments (0.81:1 ratio) — the second consecutive day of near-parity comment density for an AI editor launch. Yesterday's Kimi K2.5 undisclosed model controversy established the framing; today's 0.81:1 ratio confirms it is not dissipating. Cursor 3 adds background agents, a composer rewrite, and tab completion improvements — genuinely substantial upgrades. The community reads them through the trust deficit created by the undisclosed model substitution. This is the AI editor trust problem entering a second news cycle. Tools that trigger two consecutive days of 0.8+ comment ratios are experiencing a fundamental credibility challenge, not a PR problem.",
+      "text": "Oracle Files H-1B Visa Petitions Amid Mass Layoffs (475 pts, 257 comments)",
       "tags": [
-        "agents",
-        "rust"
+        "hacker-news"
       ],
-      "source": "HN 365pts"
+      "source": "HN 475pts"
     },
     {
-      "text": "oh-my-codex debuts at +2,867 stars/day (12.4K total, TypeScript) as the codex ecosystem mirrors the Claude Code pattern — OpenAI's terminal agent now has its own community extension layer: hooks, agent teams, HUDs, plugin architectures. The pattern completes in under two weeks: OpenAI ships terminal agent → community ships ecosystem layer → ecosystem layer trends above the underlying tool. oh-my-codex and openscreen (+2,573/d, TypeScript) both exceed 2,500 stars/day on the same day, making it the strongest dual-TypeScript trending day since the Claude Code ecosystem surge in March.",
+      "text": "F-15E jet shot down over Iran (435 pts, 993 comments)",
       "tags": [
-        "github-trending",
-        "claude-code",
-        "agents"
+        "hacker-news"
       ],
-      "source": "GitHub +2,867/day"
+      "source": "HN 435pts"
     },
     {
-      "text": "Lobsters Haskell thread reaches 68 pts as the top story — 'What Would You See Changed in Haskell?' beats 'Every dependency you add is a supply chain attack waiting to happen' (65 pts, programming tag) for the #1 slot. On a day when HN is dominated by AI model releases and trust crises, Lobsters surfaces a language design discussion as its highest-signal story. The divergence is not random: Lobsters' community self-selects for type-systems and correctness concerns, and Haskell language design is precisely the intersection of 'what matters for the long run' and 'what AI will never adequately replace.' The supply chain post (65 pts) running simultaneously reinforces the same theme: structural correctness — in language design and dependency graphs — is the counter-narrative to velocity culture.",
+      "text": "iNaturalist (372 pts, 105 comments)",
       "tags": [
-        "security",
-        "supply-chain",
-        "rust"
-      ]
+        "hacker-news"
+      ],
+      "source": "HN 372pts"
     },
     {
-      "text": "Show HN: Dull (141 pts, 110 comments, 0.78:1) — an iOS app that strips Reels from Instagram and Shorts from YouTube gets near-parity comment density on a product announcement. The 0.78:1 ratio is higher than Cursor 3 (0.81:1 yesterday) for a consumer app with no AI controversy. Engineers are arguing about whether algorithmic feed stripping is sustainable (ToS risks, API stability), not about the product category. The category is not contested: the 141 pts represent strong demand signal. The argument is about durability. When a 'use less' app earns the same comment density as an AI editor trust crisis, the anti-engagement-maximization category is generating real friction, not just applause.",
+      "text": "The FAA’s flight restriction for drones is an attempt to criminalize filming ICE (321 pts, 89 comments)",
       "tags": [
-        "rust"
-      ]
-    },
-    {
-      "text": "jj v0.40.0 lands on Lobsters (49 pts, vcs tag) and GitHub trending simultaneously (+389/d, 14.2K total, Rust) — the Git-compatible VCS with a first-class working copy model reaches a new release at the same moment it appears on the trending page. Cross-platform signal validation: when the same project appears in the Lobsters release tag and GitHub trending in the same day, the community convergence is genuine. jj's model — commits are first-class objects, the working copy is just another commit — is the VCS equivalent of the functional programming insight: the right abstraction eliminates entire categories of bugs. The timing of v0.40.0 against the Haskell language design discussion on Lobsters is coincidental but thematically coherent.",
-      "tags": [
-        "github-trending",
-        "rust"
-      ]
+        "hacker-news"
+      ],
+      "source": "HN 321pts"
     }
   ],
   "trending": [
     {
       "name": "oh-my-codex",
-      "stars": "12.4K",
+      "fullName": "Yeachan-Heo/oh-my-codex",
+      "stars": "14.5K",
       "language": "TypeScript",
-      "delta": "+2,867/d"
+      "delta": "+3047/d"
     },
     {
       "name": "openscreen",
-      "stars": "16.6K",
+      "fullName": "siddharthvaddem/openscreen",
+      "stars": "18.4K",
       "language": "TypeScript",
-      "delta": "+2,573/d"
+      "delta": "+2771/d"
+    },
+    {
+      "name": "onyx",
+      "fullName": "onyx-dot-app/onyx",
+      "stars": "23.5K",
+      "language": "Python",
+      "delta": "+1852/d"
     },
     {
       "name": "sherlock",
-      "stars": "77.6K",
+      "fullName": "sherlock-project/sherlock",
+      "stars": "78.7K",
       "language": "Python",
-      "delta": "+827/d"
+      "delta": "+1192/d"
     },
     {
-      "name": "system_prompts_leaks",
-      "stars": "36.7K",
-      "language": "Markdown",
-      "delta": "+612/d"
-    },
-    {
-      "name": "jj",
+      "name": "timesfm",
+      "fullName": "google-research/timesfm",
       "stars": "14.2K",
-      "language": "Rust",
-      "delta": "+389/d"
+      "language": "Python",
+      "delta": "+916/d"
     }
   ],
   "numbers": [
     {
       "label": "Top HN Story",
-      "value": "1648",
+      "value": "628",
       "unit": "pts"
     },
     {
       "label": "Fastest Repo",
-      "value": "2,867",
+      "value": "3047",
       "unit": "stars/day"
     },
     {
@@ -117,7 +107,7 @@
     },
     {
       "label": "Insights Today",
-      "value": "8",
+      "value": "6",
       "unit": "stories"
     }
   ],
@@ -128,17 +118,17 @@
     },
     "headlines": [
       {
-        "text": "LinkedIn BrowserGate reaches 1,648 HN pts",
+        "text": "Artemis II crew take “spectacular” image of Earth",
         "metric": "—",
         "source": "web"
       },
       {
-        "text": "Google Gemma 4 Day 2: 1,326 HN pts as the open model absorption phase continues",
+        "text": "Tell HN: Anthropic no longer allowing Claude Code subscriptions to use OpenClaw",
         "metric": "—",
         "source": "web"
       },
       {
-        "text": "Former Azure Core engineer documents trust erosion",
+        "text": "Oracle Files H-1B Visa Petitions Amid Mass Layoffs",
         "metric": "—",
         "source": "web"
       }
