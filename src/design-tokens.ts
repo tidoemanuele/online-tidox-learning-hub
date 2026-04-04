@@ -1,18 +1,20 @@
 /**
- * Design tokens — single source of truth for the Tidox Learning Hub.
- * Consumed by both Tailwind CSS (via global.css) and Remotion components.
- *
- * Light editorial palette: warm cream, terracotta accents, navy headings.
+ * Design tokens — TS consumers (e.g. future components).
+ * Site styling is driven by src/styles/global.css (@theme dark UI).
+ * Remotion video package keeps its own constants for on-screen briefs.
  */
 
 export const colors = {
+  page: '#0B0E12',
   cream: '#FAFAF5',
   navy: '#1B3A5C',
-  terracotta: '#C45D3E',
-  nearBlack: '#1A1A1A',
-  gray: '#6B6B6B',
-  divider: '#D4D4D0',
-  lightBg: '#F0F0EA',
+  heading: '#E8E6E1',
+  terracotta: '#D97254',
+  nearBlack: '#D4D1CA',
+  gray: '#8F8A82',
+  divider: '#2A3139',
+  lightBg: '#141920',
+  void: '#060708',
   white: '#FFFFFF',
 } as const;
 

@@ -11,15 +11,15 @@ interface MastheadProps {
 export const Masthead: React.FC<MastheadProps> = ({ title, subtitle, episodeNumber }) => {
   const frame = useCurrentFrame();
 
-  const ruleOpacity = interpolate(frame, [0, 12], [0, 1], { extrapolateRight: 'clamp' });
-  const titleOpacity = interpolate(frame, [5, 18], [0, 1], { extrapolateRight: 'clamp' });
-  const subtitleOpacity = interpolate(frame, [12, 25], [0, 1], { extrapolateRight: 'clamp' });
-  const editionOpacity = interpolate(frame, [20, 33], [0, 1], { extrapolateRight: 'clamp' });
+  const ruleOpacity = interpolate(frame, [0, 8], [0, 1], { extrapolateRight: 'clamp' });
+  const titleOpacity = interpolate(frame, [0, 14], [0, 1], { extrapolateRight: 'clamp' });
+  const subtitleOpacity = interpolate(frame, [6, 18], [0, 1], { extrapolateRight: 'clamp' });
+  const editionOpacity = interpolate(frame, [12, 22], [0, 1], { extrapolateRight: 'clamp' });
 
   return (
     <AbsoluteFill
       style={{
-        backgroundColor: colors.cream,
+        backgroundColor: colors.page,
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
@@ -32,7 +32,7 @@ export const Masthead: React.FC<MastheadProps> = ({ title, subtitle, episodeNumb
         style={{
           width: 700,
           height: 1,
-          backgroundColor: colors.divider,
+          backgroundColor: colors.ruleDark,
           marginBottom: 56,
           opacity: ruleOpacity,
         }}
@@ -45,7 +45,7 @@ export const Masthead: React.FC<MastheadProps> = ({ title, subtitle, episodeNumb
           fontSize: 56,
           fontWeight: 300,
           letterSpacing: 8,
-          color: colors.nearBlack,
+          color: colors.onPage,
           opacity: titleOpacity,
         }}
       >
@@ -59,7 +59,7 @@ export const Masthead: React.FC<MastheadProps> = ({ title, subtitle, episodeNumb
           fontSize: 26,
           fontWeight: 400,
           letterSpacing: 6,
-          color: colors.gray,
+          color: colors.onPageMuted,
           marginTop: 36,
           opacity: subtitleOpacity,
         }}
@@ -73,7 +73,7 @@ export const Masthead: React.FC<MastheadProps> = ({ title, subtitle, episodeNumb
           fontFamily: fonts.mono,
           fontSize: 16,
           letterSpacing: 4,
-          color: '#9A9A96',
+          color: colors.onPageMuted,
           marginTop: 56,
           opacity: editionOpacity,
         }}
@@ -86,7 +86,7 @@ export const Masthead: React.FC<MastheadProps> = ({ title, subtitle, episodeNumb
         style={{
           width: 700,
           height: 1,
-          backgroundColor: colors.divider,
+          backgroundColor: colors.ruleDark,
           marginTop: 56,
           opacity: ruleOpacity,
         }}

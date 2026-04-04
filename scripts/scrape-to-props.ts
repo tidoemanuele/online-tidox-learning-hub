@@ -18,10 +18,12 @@
 import { readFileSync, writeFileSync, existsSync, readdirSync } from 'fs';
 import { join } from 'path';
 
-// --- Paths ---
-const RESEARCH_BASE = process.env.RESEARCH_BASE || '/home/user/online-tidox-learning-hub/research';
-const INSIGHTS_FILE = process.env.INSIGHTS_FILE || '/home/user/awesome-emerging/src/data/insights.ts';
-const OUTPUT_DIR = join(import.meta.dirname!, '..', 'src', 'content', 'episodes');
+// --- Paths (hub root = parent of scripts/) ---
+const HUB_ROOT = join(import.meta.dirname!, '..');
+const RESEARCH_BASE = process.env.RESEARCH_BASE || join(HUB_ROOT, 'research');
+const INSIGHTS_FILE =
+  process.env.INSIGHTS_FILE || join(HUB_ROOT, '..', 'awesome-emerging', 'src', 'data', 'insights.ts');
+const OUTPUT_DIR = join(HUB_ROOT, 'src', 'content', 'episodes');
 
 // --- Types (mirrors packages/video/src/types.ts) ---
 interface RawGithubRepo {
@@ -152,11 +154,18 @@ function main() {
   const researchDir = join(RESEARCH_BASE, date);
   const scrapedDir = join(researchDir, 'scraped');
 
-  // Count existing episodes to determine episode number
-  const existingEpisodes = existsSync(OUTPUT_DIR)
-    ? readdirSync(OUTPUT_DIR).filter((f: string) => f.endsWith('.json')).length
-    : 0;
-  const episodeNumber = existingEpisodes + 1;
+  const outFileEarly = join(OUTPUT_DIR, `${date}.json`);
+  let episodeNumber = existsSync(OUTPUT_DIR)
+    ? readdirSync(OUTPUT_DIR).filter((f: string) => f.endsWith('.json')).length + 1
+    : 1;
+  if (existsSync(outFileEarly)) {
+    try {
+      const prev = JSON.parse(readFileSync(outFileEarly, 'utf-8')) as { episodeNumber?: number };
+      if (typeof prev.episodeNumber === 'number') episodeNumber = prev.episodeNumber;
+    } catch {
+      /* keep computed */
+    }
+  }
 
   // --- Load sources ---
 
@@ -224,7 +233,8 @@ function main() {
     })
     .slice(0, 5)
     .map(repo => ({
-      name: repo.name.split('/').pop() || repo.name,
+      name: repo.name.includes('/') ? (repo.name.split('/').pop() || repo.name) : repo.name,
+      fullName: repo.name,
       stars: parseTotalStars(repo.total_stars),
       language: repo.language || 'Unknown',
       delta: parseStarDelta(repo.stars_today),

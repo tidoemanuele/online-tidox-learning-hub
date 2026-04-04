@@ -25,15 +25,25 @@ export const TOTAL_FRAMES =
   DURATIONS.takeaway +
   DURATIONS.close;
 
-// Design tokens (mirrors src/design-tokens.ts)
+// Design tokens — dark slides (matches Learning Hub); cream kept for text on navy badges.
 export const colors = {
   cream: '#FAFAF5',
+  /** Full-frame slide background */
+  page: '#0C1018',
+  /** Primary text on dark slides */
+  onPage: '#E4E1D9',
+  /** Captions / secondary on dark slides */
+  onPageMuted: '#8E8A82',
+  /** Rules, progress track on dark */
+  ruleDark: '#343C48',
   navy: '#1B3A5C',
-  terracotta: '#C45D3E',
+  terracotta: '#D97254',
   nearBlack: '#1A1A1A',
   gray: '#6B6B6B',
   divider: '#D4D4D0',
   white: '#FFFFFF',
+  /** Star delta on dark bg */
+  positive: '#5CB87A',
 } as const;
 
 export const fonts = {

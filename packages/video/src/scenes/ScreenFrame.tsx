@@ -10,7 +10,7 @@ interface ScreenFrameProps {
 export const ScreenFrame: React.FC<ScreenFrameProps> = ({ date, totalFrames }) => {
   const frame = useCurrentFrame();
 
-  const fadeIn = interpolate(frame, [0, 10], [0, 1], { extrapolateRight: 'clamp' });
+  const fadeIn = interpolate(frame, [0, 5], [0, 1], { extrapolateRight: 'clamp' });
 
   // Progress bar instead of dots (works for any number of beats)
   const progress = frame / totalFrames;
@@ -43,10 +43,10 @@ export const ScreenFrame: React.FC<ScreenFrameProps> = ({ date, totalFrames }) =
           padding: '0 60px',
         }}
       >
-        <span style={{ fontFamily: fonts.mono, fontSize: 18, letterSpacing: 3, color: colors.gray }}>
+        <span style={{ fontFamily: fonts.mono, fontSize: 18, letterSpacing: 3, color: colors.onPageMuted }}>
           {date}
         </span>
-        <span style={{ fontFamily: fonts.body, fontSize: 16, fontWeight: 600, letterSpacing: 6, color: colors.gray }}>
+        <span style={{ fontFamily: fonts.body, fontSize: 16, fontWeight: 600, letterSpacing: 6, color: colors.onPageMuted }}>
           INTELLIGENCE BRIEF
         </span>
       </div>
@@ -59,7 +59,7 @@ export const ScreenFrame: React.FC<ScreenFrameProps> = ({ date, totalFrames }) =
           left: 60,
           right: 60,
           height: 1,
-          backgroundColor: colors.divider,
+          backgroundColor: colors.ruleDark,
         }}
       />
 
@@ -71,7 +71,7 @@ export const ScreenFrame: React.FC<ScreenFrameProps> = ({ date, totalFrames }) =
           left: 60,
           right: 60,
           height: 2,
-          backgroundColor: colors.divider,
+          backgroundColor: colors.ruleDark,
           borderRadius: 1,
         }}
       >

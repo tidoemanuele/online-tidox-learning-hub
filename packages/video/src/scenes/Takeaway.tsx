@@ -17,7 +17,7 @@ export const Takeaway: React.FC<TakeawayProps> = ({ text }) => {
   const accentHeight = interpolate(frame, [0, 20], [0, 200], { extrapolateRight: 'clamp' });
 
   return (
-    <AbsoluteFill style={{ backgroundColor: colors.cream, justifyContent: 'center', paddingLeft: 140, paddingRight: 200 }}>
+    <AbsoluteFill style={{ backgroundColor: colors.page, justifyContent: 'center', paddingLeft: 140, paddingRight: 200 }}>
       {/* Terracotta accent bar (left) */}
       <div
         style={{
@@ -54,7 +54,7 @@ export const Takeaway: React.FC<TakeawayProps> = ({ text }) => {
           fontWeight: 700,
           fontSize: 32,
           lineHeight: 1.4,
-          color: colors.nearBlack,
+          color: colors.onPage,
           maxWidth: 1400,
         }}
       >

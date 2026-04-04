@@ -8,6 +8,7 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
+    "research:refresh": "npx tsx scripts/refresh-scraped.ts",
     "preview": "astro preview",
     "video:preview": "cd packages/video && npx remotion preview",
     "video:render": "cd packages/video && npx remotion render"

@@ -3,53 +3,53 @@
   "episodeNumber": 12,
   "locale": "en-US",
   "title": "Intelligence Brief",
-  "subtitle": "Artemis II crew take “spectacular” image of Earth, Tell HN: Anthropic no longer allowing Claude Code , Oracle Files H-1B Visa Petitions Amid Mass Layoffs",
+  "subtitle": "Artemis II crew take “spectacular” image of Earth, Tell HN: Anthropic no longer allowing Claude Code , F-15E jet shot down over Iran",
   "heroStat": {
-    "value": "628",
+    "value": "640",
     "label": "points on \"Artemis II crew take “spectacular” image of Earth\""
   },
   "insights": [
     {
-      "text": "Artemis II crew take “spectacular” image of Earth (628 pts, 236 comments)",
+      "text": "Artemis II crew take “spectacular” image of Earth (640 pts, 238 comments)",
       "tags": [
         "hacker-news"
       ],
-      "source": "HN 628pts"
+      "source": "HN 640pts"
     },
     {
-      "text": "Tell HN: Anthropic no longer allowing Claude Code subscriptions to use OpenClaw (478 pts, 437 comments)",
+      "text": "Tell HN: Anthropic no longer allowing Claude Code subscriptions to use OpenClaw (490 pts, 449 comments)",
       "tags": [
         "hacker-news"
       ],
-      "source": "HN 478pts"
+      "source": "HN 490pts"
     },
     {
-      "text": "Oracle Files H-1B Visa Petitions Amid Mass Layoffs (475 pts, 257 comments)",
+      "text": "F-15E jet shot down over Iran (438 pts, 999 comments)",
       "tags": [
         "hacker-news"
       ],
-      "source": "HN 475pts"
+      "source": "HN 438pts"
     },
     {
-      "text": "F-15E jet shot down over Iran (435 pts, 993 comments)",
+      "text": "iNaturalist (376 pts, 105 comments)",
       "tags": [
         "hacker-news"
       ],
-      "source": "HN 435pts"
+      "source": "HN 376pts"
     },
     {
-      "text": "iNaturalist (372 pts, 105 comments)",
+      "text": "The FAA’s flight restriction for drones is an attempt to criminalize filming ICE (324 pts, 94 comments)",
       "tags": [
         "hacker-news"
       ],
-      "source": "HN 372pts"
+      "source": "HN 324pts"
     },
     {
-      "text": "The FAA’s flight restriction for drones is an attempt to criminalize filming ICE (321 pts, 89 comments)",
+      "text": "OpenClaw privilege escalation vulnerability (310 pts, 174 comments)",
       "tags": [
         "hacker-news"
       ],
-      "source": "HN 321pts"
+      "source": "HN 310pts"
     }
   ],
   "trending": [
@@ -63,7 +63,7 @@
     {
       "name": "openscreen",
       "fullName": "siddharthvaddem/openscreen",
-      "stars": "18.4K",
+      "stars": "18.5K",
       "language": "TypeScript",
       "delta": "+2771/d"
     },
@@ -84,7 +84,7 @@
     {
       "name": "timesfm",
       "fullName": "google-research/timesfm",
-      "stars": "14.2K",
+      "stars": "14.3K",
       "language": "Python",
       "delta": "+916/d"
     }
@@ -92,7 +92,7 @@
   "numbers": [
     {
       "label": "Top HN Story",
-      "value": "628",
+      "value": "640",
       "unit": "pts"
     },
     {
@@ -128,7 +128,7 @@
         "source": "web"
       },
       {
-        "text": "Oracle Files H-1B Visa Petitions Amid Mass Layoffs",
+        "text": "F-15E jet shot down over Iran",
         "metric": "—",
         "source": "web"
       }

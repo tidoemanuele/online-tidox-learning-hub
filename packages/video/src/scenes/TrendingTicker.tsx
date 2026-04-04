@@ -16,7 +16,7 @@ export const TrendingTicker: React.FC<TrendingTickerProps> = ({ repos }) => {
   return (
     <AbsoluteFill
       style={{
-        backgroundColor: colors.cream,
+        backgroundColor: colors.page,
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'flex-start',
@@ -32,7 +32,7 @@ export const TrendingTicker: React.FC<TrendingTickerProps> = ({ repos }) => {
           fontSize: 18,
           fontWeight: 600,
           letterSpacing: 8,
-          color: colors.gray,
+          color: colors.onPageMuted,
           marginBottom: 36,
           opacity: headerOpacity,
         }}
@@ -46,7 +46,7 @@ export const TrendingTicker: React.FC<TrendingTickerProps> = ({ repos }) => {
           width: '100%',
           maxWidth: 1000,
           height: 1,
-          backgroundColor: colors.divider,
+          backgroundColor: colors.ruleDark,
           marginBottom: 40,
           opacity: ruleOpacity,
         }}
@@ -80,7 +80,7 @@ export const TrendingTicker: React.FC<TrendingTickerProps> = ({ repos }) => {
                 fontFamily: fonts.mono,
                 fontSize: 28,
                 fontWeight: 500,
-                color: colors.nearBlack,
+                color: colors.onPage,
               }}
             >
               {repo.name}
@@ -88,7 +88,7 @@ export const TrendingTicker: React.FC<TrendingTickerProps> = ({ repos }) => {
 
             {/* Right: stars, language badge, delta */}
             <div style={{ display: 'flex', alignItems: 'center', gap: 20 }}>
-              <span style={{ fontFamily: fonts.mono, fontSize: 22, color: colors.nearBlack }}>
+              <span style={{ fontFamily: fonts.mono, fontSize: 22, color: colors.onPage }}>
                 ★ {repo.stars}
               </span>
               <span
@@ -109,7 +109,7 @@ export const TrendingTicker: React.FC<TrendingTickerProps> = ({ repos }) => {
                   fontFamily: fonts.mono,
                   fontSize: 22,
                   fontWeight: 600,
-                  color: '#2D7D46',
+                  color: colors.positive,
                 }}
               >
                 {repo.delta}
@@ -125,7 +125,7 @@ export const TrendingTicker: React.FC<TrendingTickerProps> = ({ repos }) => {
           width: '100%',
           maxWidth: 1000,
           height: 1,
-          backgroundColor: colors.divider,
+          backgroundColor: colors.ruleDark,
           marginTop: 4,
           opacity: ruleOpacity,
         }}

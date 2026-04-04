@@ -14,6 +14,7 @@ const { title, description = 'Automated daily intelligence — built by a solo d
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="dark" />
   <title>{title} — Tidox Learning Hub</title>
   <meta name="description" content={description} />
   <meta property="og:title" content={`${title} — Tidox Learning Hub`} />
@@ -24,16 +25,16 @@ const { title, description = 'Automated daily intelligence — built by a solo d
   <!-- Header -->
   <header class="border-b border-divider">
     <nav class="mx-auto max-w-[960px] px-6 flex h-14 items-center justify-between">
-      <a href="/" class="text-lg font-bold font-[family-name:var(--font-display)] text-navy">
+      <a href="/" class="text-lg font-bold font-[family-name:var(--font-display)] text-heading">
         tidox<span class="text-terracotta">.</span>hub
       </a>
       <div class="hidden md:flex items-center gap-5 text-[13px] text-gray">
-        <a href="/" class="hover:text-near-black transition-colors">Today</a>
-        <a href="/archive" class="hover:text-near-black transition-colors">Archive</a>
-        <a href="/about" class="hover:text-near-black transition-colors">About</a>
+        <a href="/" class="hover:text-heading transition-colors">Today</a>
+        <a href="/archive" class="hover:text-heading transition-colors">Archive</a>
+        <a href="/about" class="hover:text-heading transition-colors">About</a>
       </div>
       <!-- Mobile hamburger placeholder -->
-      <button type="button" id="mobile-toggle" class="md:hidden p-2 text-gray hover:text-near-black" aria-label="Menu">
+      <button type="button" id="mobile-toggle" class="md:hidden p-2 text-gray hover:text-heading" aria-label="Menu">
         <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
           <line x1="3" y1="6" x2="21" y2="6" /><line x1="3" y1="12" x2="21" y2="12" /><line x1="3" y1="18" x2="21" y2="18" />
         </svg>

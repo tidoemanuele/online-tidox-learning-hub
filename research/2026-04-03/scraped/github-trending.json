@@ -1,37 +1,51 @@
 [
   {
     "name": "Yeachan-Heo/oh-my-codex",
-    "description": "OmX – Oh My codeX: Your codex is not alone. Add hooks, agent teams, HUDs, and so much more.",
+    "description": "OmX - Oh My codeX: Your codex is not alone. Add hooks, agent teams, HUDs, and so much more.",
     "language": "TypeScript",
-    "stars_today": "2,867 stars today",
-    "total_stars": "12406"
+    "stars_today": "3047 stars today",
+    "total_stars": "14482"
+  },
+  {
+    "name": "onyx-dot-app/onyx",
+    "description": "Open Source AI Platform - AI Chat with advanced features that works with every LLM",
+    "language": "Python",
+    "stars_today": "1852 stars today",
+    "total_stars": "23487"
+  },
+  {
+    "name": "google-research/timesfm",
+    "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+    "language": "Python",
+    "stars_today": "916 stars today",
+    "total_stars": "14250"
   },
   {
     "name": "siddharthvaddem/openscreen",
-    "description": "Create stunning demos for free. Open-source, no subscriptions, no watermarks, free for commercial use. An alternative to Screen Studio.",
+    "description": "Create stunning demos for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio.",
     "language": "TypeScript",
-    "stars_today": "2,573 stars today",
-    "total_stars": "16581"
+    "stars_today": "2771 stars today",
+    "total_stars": "18460"
+  },
+  {
+    "name": "dmtrKovalenko/fff.nvim",
+    "description": "The fastest and the most accurate file search toolkit for AI agents, Neovim, Rust, C, and NodeJS",
+    "language": "Rust",
+    "stars_today": "750 stars today",
+    "total_stars": "3343"
+  },
+  {
+    "name": "f/prompts.chat",
+    "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
+    "language": "HTML",
+    "stars_today": "375 stars today",
+    "total_stars": "157276"
   },
   {
     "name": "sherlock-project/sherlock",
     "description": "Hunt down social media accounts by username across social networks",
     "language": "Python",
-    "stars_today": "827 stars today",
-    "total_stars": "77599"
-  },
-  {
-    "name": "asgeirtj/system_prompts_leaks",
-    "description": "Extracted system prompts from ChatGPT, Claude, Gemini, Grok, Perplexity, and more. Updated regularly.",
-    "language": "Markdown",
-    "stars_today": "612 stars today",
-    "total_stars": "36718"
-  },
-  {
-    "name": "jj-vcs/jj",
-    "description": "A Git-compatible VCS that is both simple and powerful",
-    "language": "Rust",
-    "stars_today": "389 stars today",
-    "total_stars": "14203"
+    "stars_today": "1192 stars today",
+    "total_stars": "78683"
   }
 ]

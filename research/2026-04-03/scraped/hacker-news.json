@@ -1,107 +1,212 @@
 [
   {
     "rank": 1,
-    "title": "LinkedIn is searching your browser extensions",
-    "points": 1648,
-    "url": "https://browsergate.eu/",
-    "comments": 694
+    "title": "Artemis II crew take “spectacular” image of Earth",
+    "url": "https://www.bbc.com/news/articles/ce8jzr423p9o",
+    "points": 640,
+    "comments": 238
   },
   {
     "rank": 2,
-    "title": "Google releases Gemma 4 open models",
-    "points": 1326,
-    "url": "https://deepmind.google/models/gemma/gemma-4/",
-    "comments": 386
+    "title": "Tell HN: Anthropic no longer allowing Claude Code subscriptions to use OpenClaw",
+    "url": "https://news.ycombinator.com/item?id=47633396",
+    "points": 490,
+    "comments": 449
   },
   {
     "rank": 3,
-    "title": "Decisions that eroded trust in Azure – by a former Azure Core engineer",
-    "points": 578,
-    "url": "https://isolveproblems.substack.com/p/how-microsoft-vaporized-a-trillion",
-    "comments": 212
+    "title": "F-15E jet shot down over Iran",
+    "url": "https://www.theguardian.com/world/2026/apr/03/us-fighter-jet-confirmed-shot-down-over-iran",
+    "points": 438,
+    "comments": 999
   },
   {
     "rank": 4,
-    "title": "Qwen3.6-Plus: Towards real world agents",
-    "points": 486,
-    "url": "https://qwen.ai/blog?id=qwen3.6",
-    "comments": 173
+    "title": "iNaturalist",
+    "url": "https://www.inaturalist.org/",
+    "points": 376,
+    "comments": 105
   },
   {
     "rank": 5,
-    "title": "Tailscale's new macOS home",
-    "points": 407,
-    "url": "https://tailscale.com/blog/macos-notch-escape",
-    "comments": 198
+    "title": "The FAA’s flight restriction for drones is an attempt to criminalize filming ICE",
+    "url": "https://www.eff.org/deeplinks/2026/04/faas-temporary-flight-restriction-drones-blatant-attempt-criminalize-filming-ice",
+    "points": 324,
+    "comments": 94
   },
   {
     "rank": 6,
-    "title": "Cursor 3",
-    "points": 365,
-    "url": "https://cursor.com/blog/cursor-3",
-    "comments": 296
+    "title": "OpenClaw privilege escalation vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33579",
+    "points": 310,
+    "comments": 174
   },
   {
     "rank": 7,
-    "title": "Good ideas do not need lots of lies in order to gain public acceptance (2008)",
-    "points": 221,
-    "url": "https://blog.danieldavies.com/2004/05/d-squared-digest-one-minute-mba.html",
-    "comments": 88
+    "title": "We replaced RAG with a virtual filesystem for our AI documentation assistant",
+    "url": "https://www.mintlify.com/blog/how-we-built-a-virtual-filesystem-for-our-assistant",
+    "points": 266,
+    "comments": 108
   },
   {
     "rank": 8,
-    "title": "Artemis II's toilet is a moon mission milestone",
-    "points": 205,
-    "url": "https://www.scientificamerican.com/article/artemis-iis-toilet-is-a-moon-mission-milestone/",
-    "comments": 81
+    "title": "SSH certificates: the better SSH experience",
+    "url": "https://jpmens.net/2026/04/03/ssh-certificates-the-better-ssh-experience/",
+    "points": 233,
+    "comments": 101
   },
   {
     "rank": 9,
-    "title": "George Goble has died",
-    "points": 136,
-    "url": "https://www.legacy.com/us/obituaries/wlfi/name/george-goble-obituary?id=61144779",
-    "comments": 25
+    "title": "Post Mortem: axios NPM supply chain compromise",
+    "url": "https://github.com/axios/axios/issues/10636",
+    "points": 219,
+    "comments": 95
   },
   {
     "rank": 10,
-    "title": "Significant progress made on Xbox 360 recompilation",
-    "points": 100,
-    "url": "https://readonlymemo.com/rexglue-xbox-360-recompilation-interview/",
-    "comments": 22
+    "title": "Delve removed from Y Combinator",
+    "url": "https://www.ycombinator.com/companies/delve",
+    "points": 188,
+    "comments": 96
   },
   {
     "rank": 11,
-    "title": "C89cc.sh – standalone C89/ELF64 compiler in pure portable shell",
-    "points": 98,
-    "url": "https://gist.github.com/alganet/2b89c4368f8d23d033961d8a3deb5c19",
-    "comments": 14
+    "title": "Go on Embedded Systems and WebAssembly",
+    "url": "https://tinygo.org/",
+    "points": 142,
+    "comments": 18
   },
   {
     "rank": 12,
-    "title": "Free stuff makes us irrational",
-    "points": 44,
-    "url": "https://thehustle.co/why-free-stuff-makes-us-irrational",
-    "comments": 36
+    "title": "What changes when you turn a Linux box into a router",
+    "url": "https://patrickmccanna.net/7-configuration-changes-that-turn-a-multi-homed-host-into-a-switch-router/",
+    "points": 138,
+    "comments": 34
   },
   {
     "rank": 13,
-    "title": "The Joy of Numbered Streets",
-    "points": 34,
-    "url": "https://humantransit.org/2026/03/the-joy-of-numbered-streets-or-call-it-39th-avenue.html",
-    "comments": 13
+    "title": "Build your own Dial-up ISP with a Raspberry Pi",
+    "url": "https://www.jeffgeerling.com/blog/2026/build-your-own-dial-up-isp-with-a-raspberry-pi/",
+    "points": 132,
+    "comments": 29
   },
   {
     "rank": 14,
-    "title": "Vector Meson Dominance",
-    "points": 10,
-    "url": "https://johncarlosbaez.wordpress.com/2026/03/29/vector-meson-dominance/",
-    "comments": 0
+    "title": "Age verification on Systemd and Flatpak",
+    "url": "https://cybrkyd.com/post/age-verification-on-systemd-and-flatpak/",
+    "points": 107,
+    "comments": 91
   },
   {
     "rank": 15,
-    "title": "Show HN: Home Maker: Declare Your Dev Tools in a Makefile",
-    "points": 24,
-    "url": "https://thottingal.in/blog/2026/03/29/home-maker/",
-    "comments": 12
+    "title": "Gold overtakes U.S. Treasuries as the largest foreign reserve asset",
+    "url": "https://economictimes.indiatimes.com/news/international/us/gold-overtakes-u-s-treasuries-as-the-worlds-largest-foreign-reserve-asset-in-2026-can-gold-challenge-the-u-s-dollars-dominance-and-hold-its-ground/articleshow/126420128.cms?from=mdr",
+    "points": 105,
+    "comments": 58
+  },
+  {
+    "rank": 16,
+    "title": "Fake Fans",
+    "url": "https://www.wordsfromeliza.com/p/fake-fans",
+    "points": 93,
+    "comments": 18
+  },
+  {
+    "rank": 17,
+    "title": "How to make a sliding, self-locking, and predator-proof chicken coop door (2020)",
+    "url": "https://www.backyardchickens.com/articles/how-to-make-a-sliding-self-locking-and-predator-proof-chicken-coop-door.75906/",
+    "points": 90,
+    "comments": 43
+  },
+  {
+    "rank": 18,
+    "title": "Why are we still using Markdown?",
+    "url": "https://bgslabs.org/blog/why-are-we-using-markdown/",
+    "points": 86,
+    "comments": 155
+  },
+  {
+    "rank": 19,
+    "title": "Big-Endian Testing with QEMU",
+    "url": "https://www.hanshq.net/big-endian-qemu.html",
+    "points": 85,
+    "comments": 89
+  },
+  {
+    "rank": 20,
+    "title": "The Technocracy Movement of the 1930s",
+    "url": "https://donotresearch.substack.com/p/welcome-to-the-technocracy",
+    "points": 82,
+    "comments": 73
+  },
+  {
+    "rank": 21,
+    "title": "Herbie: Automatically improve imprecise floating point formulas",
+    "url": "https://herbie.uwplse.org/doc/latest/tutorial.html",
+    "points": 73,
+    "comments": 10
+  },
+  {
+    "rank": 22,
+    "title": "The house is a work of art: Frank Lloyd Wright",
+    "url": "https://aeon.co/essays/frank-lloyd-wright-as-a-mirror-of-the-american-condition",
+    "points": 70,
+    "comments": 27
+  },
+  {
+    "rank": 23,
+    "title": "Run Linux containers on Android, no root required",
+    "url": "https://github.com/ExTV/Podroid",
+    "points": 70,
+    "comments": 24
+  },
+  {
+    "rank": 24,
+    "title": "Improving my focus by giving up my big monitor",
+    "url": "https://ounapuu.ee/posts/2026/04/01/focus/",
+    "points": 61,
+    "comments": 74
+  },
+  {
+    "rank": 25,
+    "title": "Show HN: Travel Hacking Toolkit – Points search and trip planning with AI",
+    "url": "https://github.com/borski/travel-hacking-toolkit",
+    "points": 53,
+    "comments": 19
+  },
+  {
+    "rank": 26,
+    "title": "Bourbon waste could provide next-gen supercapacitor components",
+    "url": "https://spectrum.ieee.org/supercapacitor-electrodes-bourbon-waste",
+    "points": 27,
+    "comments": 14
+  },
+  {
+    "rank": 27,
+    "title": "South Polar Times",
+    "url": "https://www.laphamsquarterly.org/roundtable/south-polar-times",
+    "points": 23,
+    "comments": 1
+  },
+  {
+    "rank": 28,
+    "title": "Conway's Game of Life, in real life",
+    "url": "https://lcamtuf.coredump.cx/blog/conway/",
+    "points": 12,
+    "comments": 1
+  },
+  {
+    "rank": 29,
+    "title": "Making your JITted Code known: Let me count the ways",
+    "url": "https://wakelift.de/2026/03/09/making-your-jitted-code-known-let-me-count-the-ways/",
+    "points": 9,
+    "comments": 1
+  },
+  {
+    "rank": 30,
+    "title": "When Coupled Volcanoes Talk, These Researchers Listen",
+    "url": "https://www.quantamagazine.org/when-coupled-volcanoes-talk-these-researchers-listen-20260327/",
+    "points": 9,
+    "comments": 0
   }
 ]

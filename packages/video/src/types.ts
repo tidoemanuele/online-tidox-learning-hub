@@ -30,7 +30,10 @@ export interface EpisodeProps {
 
   // Audio (populated after TTS step, empty in Phase 1-3)
   audio?: {
+    /** Full-length podcast — use with HTML `<audio>` on the site */
     podcastUrl?: string;
+    /** Narration synced to Remotion timeline (~same length as composition). Falls back to podcastUrl or /audio/{date}/brief.* in Astro. */
+    briefAudioUrl?: string;
     segmentDurations?: number[];
   };
 }
@@ -48,7 +51,10 @@ export interface Headline {
 }
 
 export interface TrendingRepo {
+  /** Short label (often repo name only) */
   name: string;
+  /** `owner/repo` when known — used for https://github.com/{fullName} */
+  fullName?: string;
   stars: string;
   language: string;
   delta: string;

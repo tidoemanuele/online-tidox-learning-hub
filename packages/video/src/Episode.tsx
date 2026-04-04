@@ -1,17 +1,26 @@
 import React from 'react';
-import { AbsoluteFill, Series } from 'remotion';
+import { AbsoluteFill, Audio, Series } from 'remotion';
 import { Masthead } from './scenes/Masthead';
 import { HeadlineCard } from './scenes/HeadlineCard';
 import { TrendingTicker } from './scenes/TrendingTicker';
 import { Takeaway } from './scenes/Takeaway';
 import { Close } from './scenes/Close';
 import { ScreenFrame } from './scenes/ScreenFrame';
-import { DURATIONS, TOTAL_FRAMES } from './constants';
+import { DURATIONS, TOTAL_FRAMES, colors } from './constants';
 import type { EpisodeProps } from './types';
 
 export const Episode: React.FC<EpisodeProps> = (props) => {
+  const syncAudioSrc = props.audio?.briefAudioUrl?.trim();
+
   return (
-    <AbsoluteFill>
+    <AbsoluteFill style={{ backgroundColor: colors.page }}>
+      {syncAudioSrc ? (
+        <Audio
+          src={syncAudioSrc}
+          useWebAudioApi={false}
+          volume={1}
+        />
+      ) : null}
       <Series>
         <Series.Sequence durationInFrames={DURATIONS.masthead}>
           <Masthead

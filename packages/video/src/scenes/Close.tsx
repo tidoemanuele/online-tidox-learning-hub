@@ -17,7 +17,7 @@ export const Close: React.FC<CloseProps> = ({ date }) => {
   return (
     <AbsoluteFill
       style={{
-        backgroundColor: colors.cream,
+        backgroundColor: colors.page,
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
@@ -30,7 +30,7 @@ export const Close: React.FC<CloseProps> = ({ date }) => {
         style={{
           width: 700,
           height: 1,
-          backgroundColor: colors.divider,
+          backgroundColor: colors.ruleDark,
           marginBottom: 60,
           opacity: ruleOpacity,
         }}
@@ -43,7 +43,7 @@ export const Close: React.FC<CloseProps> = ({ date }) => {
           fontSize: 28,
           fontWeight: 300,
           letterSpacing: 10,
-          color: colors.nearBlack,
+          color: colors.onPage,
           marginBottom: 40,
           opacity: titleOpacity,
         }}
@@ -56,7 +56,7 @@ export const Close: React.FC<CloseProps> = ({ date }) => {
         style={{
           fontFamily: fonts.body,
           fontSize: 24,
-          color: colors.gray,
+          color: colors.onPageMuted,
           marginBottom: 20,
           opacity: ctaOpacity,
         }}
@@ -76,7 +76,7 @@ export const Close: React.FC<CloseProps> = ({ date }) => {
         <span style={{ fontFamily: fonts.mono, fontSize: 18, color: colors.terracotta }}>
           ◉
         </span>
-        <span style={{ fontFamily: fonts.body, fontSize: 18, letterSpacing: 2, color: colors.gray }}>
+        <span style={{ fontFamily: fonts.body, fontSize: 18, letterSpacing: 2, color: colors.onPageMuted }}>
           ~19 min audio brief
         </span>
       </div>
@@ -86,7 +86,7 @@ export const Close: React.FC<CloseProps> = ({ date }) => {
         style={{
           width: 700,
           height: 1,
-          backgroundColor: colors.divider,
+          backgroundColor: colors.ruleDark,
           marginTop: 60,
           opacity: ruleOpacity,
         }}
@@ -97,7 +97,7 @@ export const Close: React.FC<CloseProps> = ({ date }) => {
         style={{
           fontFamily: fonts.mono,
           fontSize: 14,
-          color: colors.divider,
+          color: colors.onPageMuted,
           marginTop: 40,
           opacity: hintOpacity,
         }}

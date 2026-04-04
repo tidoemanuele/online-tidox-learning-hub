@@ -32,7 +32,7 @@ const SingleCard: React.FC<{ headline: Headline; index: number; localFrame: numb
   return (
     <AbsoluteFill
       style={{
-        backgroundColor: colors.cream,
+        backgroundColor: colors.page,
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'flex-start',
@@ -47,7 +47,7 @@ const SingleCard: React.FC<{ headline: Headline; index: number; localFrame: numb
         style={{
           fontFamily: fonts.mono,
           fontSize: 20,
-          color: colors.gray,
+          color: colors.onPageMuted,
           marginBottom: 36,
           transform: `translateY(${translateY}px)`,
         }}
@@ -76,7 +76,7 @@ const SingleCard: React.FC<{ headline: Headline; index: number; localFrame: numb
             fontSize: 18,
             fontWeight: 500,
             letterSpacing: 3,
-            color: colors.gray,
+            color: colors.onPageMuted,
           }}
         >
           {headline.source.toUpperCase()}
@@ -90,7 +90,7 @@ const SingleCard: React.FC<{ headline: Headline; index: number; localFrame: numb
           fontSize: 46,
           fontWeight: 400,
           lineHeight: 1.3,
-          color: colors.nearBlack,
+          color: colors.onPage,
           maxWidth: 1200,
           transform: `translateY(${translateY}px)`,
         }}
@@ -103,7 +103,7 @@ const SingleCard: React.FC<{ headline: Headline; index: number; localFrame: numb
         style={{
           width: 1000,
           height: 1,
-          backgroundColor: colors.divider,
+          backgroundColor: colors.ruleDark,
           marginTop: 56,
         }}
       />

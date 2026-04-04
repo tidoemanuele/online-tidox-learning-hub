@@ -53,7 +53,7 @@ const CounterCell: React.FC<{ stat: Stat; index: number }> = ({ stat, index }) =
       }}
     >
       {/* Top rule */}
-      <div style={{ width: '90%', height: 1, backgroundColor: colors.divider, marginBottom: 28 }} />
+      <div style={{ width: '90%', height: 1, backgroundColor: colors.ruleDark, marginBottom: 28 }} />
 
       {/* Number + unit */}
       <div style={{ display: 'flex', alignItems: 'baseline', gap: 10 }}>
@@ -62,21 +62,21 @@ const CounterCell: React.FC<{ stat: Stat; index: number }> = ({ stat, index }) =
             fontFamily: fonts.mono,
             fontSize: 80,
             fontWeight: 700,
-            color: colors.navy,
+            color: colors.terracotta,
             lineHeight: 1,
           }}
         >
           {displayValue}
         </span>
         {stat.unit && (
-          <span style={{ fontFamily: fonts.mono, fontSize: 24, color: colors.gray }}>
+          <span style={{ fontFamily: fonts.mono, fontSize: 24, color: colors.onPageMuted }}>
             {stat.unit}
           </span>
         )}
       </div>
 
       {/* Label */}
-      <div style={{ fontFamily: fonts.body, fontSize: 20, color: colors.gray, marginTop: 10 }}>
+      <div style={{ fontFamily: fonts.body, fontSize: 20, color: colors.onPageMuted, marginTop: 10 }}>
         {stat.label}
       </div>
     </div>
@@ -90,7 +90,7 @@ export const NumbersGrid: React.FC<NumbersGridProps> = ({ stats }) => {
   return (
     <AbsoluteFill
       style={{
-        backgroundColor: colors.cream,
+        backgroundColor: colors.page,
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
@@ -104,7 +104,7 @@ export const NumbersGrid: React.FC<NumbersGridProps> = ({ stats }) => {
           fontSize: 18,
           fontWeight: 600,
           letterSpacing: 8,
-          color: colors.gray,
+          color: colors.onPageMuted,
           marginBottom: 60,
           opacity: headerOpacity,
         }}

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "headers": [
+    {
+      "source": "/audio/(.*)\\.mp3",
+      "headers": [{ "key": "Content-Type", "value": "audio/mpeg" }]
+    },
+    {
+      "source": "/audio/(.*)\\.m4a",
+      "headers": [{ "key": "Content-Type", "value": "audio/mp4" }]
+    },
+    {
+      "source": "/audio/(.*)\\.wav",
+      "headers": [{ "key": "Content-Type", "value": "audio/wav" }]
+    }
+  ]
+}

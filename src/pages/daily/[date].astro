@@ -1,7 +1,10 @@
 ---
+import { existsSync } from 'node:fs';
+import { join } from 'node:path';
 import Base from '../../layouts/Base.astro';
 import { VideoPlayer } from '../../components/VideoPlayer';
-import { getCollection, getEntry } from 'astro:content';
+import { TrendingReposList } from '../../components/TrendingReposList';
+import { getCollection } from 'astro:content';
 
 export async function getStaticPaths() {
   const episodes = await getCollection('episodes');
@@ -13,6 +16,37 @@ export async function getStaticPaths() {
 
 const { episode } = Astro.props;
 const ep = episode.data;
+
+/** Pre-rendered MP4 must live at public/video/{date}.mp4 to be deployed with the site. */
+const mp4Path = join(process.cwd(), 'public', 'video', `${ep.date}.mp4`);
+const hasRenderedMp4 = existsSync(mp4Path);
+
+/** Audio for Remotion Player: explicit briefAudioUrl, then on-disk brief/narration, then podcastUrl. */
+const audioDir = join(process.cwd(), 'public', 'audio', ep.date);
+/** Prefer MP3 (widest decode support in Chromium / Remotion Html5Audio); then AAC m4a, then WAV. */
+const localBriefNames = [
+  'brief.mp3',
+  'brief.m4a',
+  'brief.wav',
+  'narration.mp3',
+  'narration.m4a',
+  'narration.wav',
+];
+let localBriefUrl: string | undefined;
+for (const name of localBriefNames) {
+  if (existsSync(join(audioDir, name))) {
+    localBriefUrl = `/audio/${ep.date}/${name}`;
+    break;
+  }
+}
+const resolvedBriefAudio =
+  ep.audio?.briefAudioUrl?.trim() || localBriefUrl || ep.audio?.podcastUrl?.trim() || undefined;
+const episodeForRemotion = {
+  ...ep,
+  audio: resolvedBriefAudio
+    ? { ...(ep.audio ?? {}), briefAudioUrl: resolvedBriefAudio }
+    : ep.audio,
+};
 
 // Find prev/next episodes for navigation
 const allEpisodes = await getCollection('episodes');
@@ -37,7 +71,7 @@ const next = currentIndex < sorted.length - 1 ? sorted[currentIndex + 1] : null;
     </p>
 
     <!-- Daily editorial headline (the hero text) -->
-    <h1 class="text-[28px] md:text-[32px] font-bold font-[family-name:var(--font-display)] text-navy leading-tight mb-6">
+    <h1 class="text-[28px] md:text-[32px] font-bold font-[family-name:var(--font-display)] text-heading leading-tight mb-6">
       {ep.subtitle}
     </h1>
 
@@ -53,19 +87,22 @@ const next = currentIndex < sorted.length - 1 ? sorted[currentIndex + 1] : null;
       </div>
     )}
 
-    <!-- Video: serve pre-rendered MP4 (with audio) if available, else Remotion player -->
-    <div class="rounded-xl overflow-hidden mb-3">
-      <video
-        class="w-full aspect-video bg-near-black"
-        controls
-        preload="metadata"
-        aria-label="Daily intelligence brief"
-        poster=""
-      >
-        <source src={`/video/${ep.date}.mp4`} type="video/mp4" />
-        <!-- Fallback text if no MP4 exists -->
-        Your browser does not support the video tag.
-      </video>
+    <!-- Video: pre-rendered MP4 in public/video/ when present; otherwise client-side Remotion (same data as episode JSON) -->
+    <div class="rounded-xl overflow-hidden mb-3 bg-void">
+      {hasRenderedMp4 ? (
+        <video
+          class="w-full aspect-video bg-void"
+          controls
+          playsinline
+          preload="metadata"
+          aria-label="Daily intelligence brief"
+        >
+          <source src={`/video/${ep.date}.mp4`} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      ) : (
+        <VideoPlayer client:visible episode={episodeForRemotion} />
+      )}
     </div>
     <div class="flex justify-between text-[12px] text-gray mb-8">
       <span>Daily intelligence brief · Two-voice podcast with visuals</span>
@@ -73,16 +110,21 @@ const next = currentIndex < sorted.length - 1 ? sorted[currentIndex + 1] : null;
 
     <!-- Audio player -->
     {ep.audio?.podcastUrl ? (
-      <div class="bg-light-bg border border-divider rounded-lg p-4 flex items-center gap-3 mb-8" aria-label="Full podcast episode">
-        <div class="w-9 h-9 bg-terracotta rounded-full flex items-center justify-center flex-shrink-0">
-          <svg class="w-4 h-4 text-cream ml-0.5" viewBox="0 0 24 24" fill="currentColor">
-            <polygon points="5,3 19,12 5,21" />
-          </svg>
+      <div class="bg-light-bg border border-divider rounded-lg p-4 mb-8" aria-label="Full podcast episode">
+        <div class="flex items-center gap-3 mb-3">
+          <div class="w-9 h-9 bg-terracotta rounded-full flex items-center justify-center flex-shrink-0">
+            <svg class="w-4 h-4 text-cream ml-0.5" viewBox="0 0 24 24" fill="currentColor">
+              <polygon points="5,3 19,12 5,21" />
+            </svg>
+          </div>
+          <div>
+            <p class="text-[13px] font-semibold text-near-black">Podcast audio</p>
+            <p class="text-[11px] text-gray">Full episode (may differ from brief length)</p>
+          </div>
         </div>
-        <div>
-          <p class="text-[13px] font-semibold">Full Podcast — 19 min</p>
-          <p class="text-[11px] text-gray">8 segments · VoxCPM narration</p>
-        </div>
+        <audio controls preload="metadata" class="w-full" src={ep.audio.podcastUrl}>
+          Your browser does not support audio playback.
+        </audio>
       </div>
     ) : (
       <!-- Audio hidden when no podcast URL -->
@@ -91,9 +133,9 @@ const next = currentIndex < sorted.length - 1 ? sorted[currentIndex + 1] : null;
 
     <!-- Action row -->
     <div class="flex items-center gap-4 text-[12px] text-gray mb-8 pb-8 border-b border-divider">
-      <button class="hover:text-near-black transition-colors" title="Copy link">Share</button>
+      <button class="hover:text-cream transition-colors" title="Copy link">Share</button>
       <span class="text-divider">·</span>
-      <a href="/feed.xml" class="hover:text-near-black transition-colors">RSS</a>
+      <a href="/feed.xml" class="hover:text-cream transition-colors">RSS</a>
       <span class="text-divider">·</span>
       <span class="text-gray/50">Get daily email (coming soon)</span>
     </div>
@@ -127,29 +169,21 @@ const next = currentIndex < sorted.length - 1 ? sorted[currentIndex + 1] : null;
         <h2 class="text-[11px] font-bold tracking-[1.5px] uppercase text-terracotta mb-4 pb-2 border-b-2 border-terracotta">
           Trending Repos
         </h2>
-        {ep.trending.map((repo) => (
-          <div class="flex justify-between items-center py-2.5 border-b border-divider last:border-b-0 text-[13px]">
-            <div>
-              <p class="font-semibold text-navy">{repo.name}</p>
-              <p class="text-[11px] text-gray">{repo.language}</p>
-            </div>
-            <span class="font-[family-name:var(--font-mono)] text-[12px] text-terracotta">{repo.delta}</span>
-          </div>
-        ))}
+        <TrendingReposList client:visible repos={ep.trending} />
       </section>
     </div>
 
     <!-- Episode navigation -->
     <nav class="flex justify-between mt-12 pt-6 border-t border-divider text-[13px]" aria-label="Episode navigation">
       {prev ? (
-        <a href={`/daily/${prev.data.date}`} class="text-navy hover:text-terracotta transition-colors">
+        <a href={`/daily/${prev.data.date}`} class="text-heading hover:text-terracotta transition-colors">
           &larr; {prev.data.date}
         </a>
       ) : (
         <span class="text-gray/40 italic">This is where it begins.</span>
       )}
       {next ? (
-        <a href={`/daily/${next.data.date}`} class="text-navy hover:text-terracotta transition-colors">
+        <a href={`/daily/${next.data.date}`} class="text-heading hover:text-terracotta transition-colors">
           {next.data.date} &rarr;
         </a>
       ) : (

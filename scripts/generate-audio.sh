@@ -78,6 +78,33 @@ sox -n "$AUDIO_DIR/ambient.wav" \
   gain -28 \
   2>/dev/null
 
+# ── Single web brief: concat narration (scene order) → brief.mp3 (or brief.wav) ──
+echo "  Merging narration for web player (Remotion / <audio>)..."
+MERGED="$AUDIO_DIR/brief-narration-merged.wav"
+rm -f "$AUDIO_DIR/brief.mp3" "$AUDIO_DIR/brief.wav" "$MERGED"
+
+sox \
+  "$AUDIO_DIR/narration-masthead.wav" \
+  "$AUDIO_DIR/narration-headline-1.wav" \
+  "$AUDIO_DIR/narration-headline-2.wav" \
+  "$AUDIO_DIR/narration-headline-3.wav" \
+  "$AUDIO_DIR/narration-trending.wav" \
+  "$AUDIO_DIR/narration-takeaway.wav" \
+  "$MERGED" 2>/dev/null || {
+  echo "    ⚠ sox merge failed (missing narration WAVs?); skip brief.mp3"
+}
+
+if [ -f "$MERGED" ]; then
+  if command -v ffmpeg >/dev/null 2>&1; then
+    ffmpeg -y -loglevel error -i "$MERGED" -codec:a libmp3lame -q:a 4 "$AUDIO_DIR/brief.mp3"
+    rm -f "$MERGED"
+    echo "    ✓ brief.mp3 (MP3, browser-safe)"
+  else
+    mv "$MERGED" "$AUDIO_DIR/brief.wav"
+    echo "    ✓ brief.wav (PCM; install ffmpeg for smaller brief.mp3)"
+  fi
+fi
+
 echo ""
 echo "  ✓ Audio at $AUDIO_DIR"
 ls -lh "$AUDIO_DIR"

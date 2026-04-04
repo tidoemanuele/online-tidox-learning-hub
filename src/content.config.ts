@@ -28,6 +28,7 @@ const episodes = defineCollection({
     insights: z.array(insightSchema).min(1),
     trending: z.array(z.object({
       name: z.string(),
+      fullName: z.string().optional(),
       stars: z.string(),
       language: z.string(),
       delta: z.string(),
@@ -44,6 +45,7 @@ const episodes = defineCollection({
     }),
     audio: z.object({
       podcastUrl: z.string().optional(),
+      briefAudioUrl: z.string().optional(),
       segmentDurations: z.array(z.number()).optional(),
     }).optional(),
   }),
