@@ -3,12 +3,17 @@
  * scrape-to-props.ts — Transforms raw research data into EpisodeProps JSON.
  *
  * Input sources:
- *   1. Raw scraped JSON files from learn/docs/research/{date}/scraped/
- *   2. Editorial insights from awesome-emerging/src/data/insights.ts
- *   3. Daily research summary markdown (for the takeaway)
+ *   1. Raw scraped JSON under {RESEARCH_BASE}/{date}/scraped/ (defaults to learn/docs/research when present)
+ *   2. Per-topic technical writeups: learn/docs/analysis/research/{date}/technical-*.md (Executive Summary)
+ *   3. Editorial insights from awesome-emerging/src/data/insights.ts
+ *   4. Daily research summary markdown (for the takeaway)
  *
  * Output:
  *   src/content/episodes/{date}.json (validated EpisodeProps)
+ *
+ * Env:
+ *   RESEARCH_BASE — override research root (folder containing {date}/scraped)
+ *   LEARN_DOCS_ROOT — default ~/Documents/learn/docs (for analysis/research/{date})
  *
  * Usage:
  *   npx tsx scripts/scrape-to-props.ts 2026-03-27
@@ -20,10 +25,44 @@ import { join } from 'path';
 
 // --- Paths (hub root = parent of scripts/) ---
 const HUB_ROOT = join(import.meta.dirname!, '..');
-const RESEARCH_BASE = process.env.RESEARCH_BASE || join(HUB_ROOT, 'research');
+const HUB_RESEARCH = join(HUB_ROOT, 'research');
+const HOME = process.env.HOME || '';
+const DEFAULT_LEARN_DOCS = join(HOME, 'Documents', 'learn', 'docs');
+const LEARN_DOCS_ROOT = process.env.LEARN_DOCS_ROOT || DEFAULT_LEARN_DOCS;
+const DEFAULT_LEARN_RESEARCH = join(LEARN_DOCS_ROOT, 'research');
+
+function resolveResearchBase(date: string): string {
+  if (process.env.RESEARCH_BASE) return process.env.RESEARCH_BASE;
+  const learnDateDir = join(DEFAULT_LEARN_RESEARCH, date);
+  const hubDateDir = join(HUB_RESEARCH, date);
+  const learnHasData =
+    existsSync(join(learnDateDir, 'scraped')) ||
+    existsSync(join(learnDateDir, `daily-research-${date}.md`));
+  const hubHasData =
+    existsSync(join(hubDateDir, 'scraped')) ||
+    existsSync(join(hubDateDir, `daily-research-${date}.md`));
+  if (learnHasData) return DEFAULT_LEARN_RESEARCH;
+  if (hubHasData) return HUB_RESEARCH;
+  return DEFAULT_LEARN_RESEARCH;
+}
+
+/** Per-topic markdown lives next to research: docs/analysis/research/{date}/ */
+function resolveTopicsDir(date: string): string | null {
+  const fromEnv = process.env.TOPICS_DIR;
+  if (fromEnv) {
+    const p = join(fromEnv, date);
+    return existsSync(p) ? p : null;
+  }
+  const t = join(LEARN_DOCS_ROOT, 'analysis', 'research', date);
+  return existsSync(t) ? t : null;
+}
+
 const INSIGHTS_FILE =
   process.env.INSIGHTS_FILE || join(HUB_ROOT, '..', 'awesome-emerging', 'src', 'data', 'insights.ts');
 const OUTPUT_DIR = join(HUB_ROOT, 'src', 'content', 'episodes');
+
+const MAX_INSIGHTS = 30;
+const EDITORIAL_CAP = 8;
 
 // --- Types (mirrors packages/video/src/types.ts) ---
 interface RawGithubRepo {
@@ -42,7 +81,168 @@ interface RawHNStory {
   comments: number;
 }
 
+interface InsightRow {
+  text: string;
+  tags: string[];
+  source?: string;
+}
+
 // --- Helpers ---
+
+function safeReadScrapedDir(scrapedDir: string): string[] {
+  if (!existsSync(scrapedDir)) return [];
+  return readdirSync(scrapedDir).filter((f: string) => f.endsWith('.json'));
+}
+
+/** First paragraph under ### Executive Summary (learn technical reports). */
+function extractExecutiveSummary(md: string): string | null {
+  const m = md.match(/### Executive Summary\s*\n+([\s\S]*?)(?=\n## |\n### [^E]|\Z)/);
+  if (!m) return null;
+  const block = m[1].trim();
+  const para = block.split(/\n\n+/)[0]?.trim();
+  return para || null;
+}
+
+/** technical-ai-powered-...-research-2026-04-04.md → readable label */
+function topicLabelFromFilename(filename: string): string {
+  const base = filename.replace(/^technical-/, '').replace(/-research-\d{4}-\d{2}-\d{2}\.md$/i, '');
+  return base.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+}
+
+function loadTopicInsights(topicsDir: string | null): InsightRow[] {
+  if (!topicsDir) return [];
+  const files = readdirSync(topicsDir).filter(
+    (f: string) => f.startsWith('technical-') && f.endsWith('.md')
+  );
+  const out: InsightRow[] = [];
+  for (const file of files.sort()) {
+    const path = join(topicsDir, file);
+    const md = readFileSync(path, 'utf-8');
+    const summary = extractExecutiveSummary(md);
+    if (!summary) continue;
+    const label = topicLabelFromFilename(file);
+    const text =
+      summary.length > 900 ? `${summary.slice(0, 897).trim()}…` : summary;
+    const extraTags = extractTagsFromInsight(summary).filter(t => t !== 'research');
+    const slugTag = label
+      .split(/\s+/)
+      .slice(0, 2)
+      .join('-')
+      .toLowerCase()
+      .replace(/[^a-z0-9-]/g, '')
+      .slice(0, 20);
+    const tags = ['topic', slugTag || 'digest', ...extraTags]
+      .filter(t => t.length > 0 && t.length <= 20);
+    const uniqueTags = [...new Set(tags)].slice(0, 3);
+
+    out.push({
+      text,
+      tags: uniqueTags,
+      source: `Topic: ${label}`,
+    });
+  }
+  console.log(`  Topic digests: ${out.length} technical reports`);
+  return out;
+}
+
+function loadLobsterInsights(scrapedDir: string, limit: number): InsightRow[] {
+  const f = join(scrapedDir, 'lobsters.json');
+  if (!existsSync(f)) return [];
+  type Row = { title: string; score: number; tags?: string[] };
+  const rows = JSON.parse(readFileSync(f, 'utf-8')) as Row[];
+  return rows
+    .sort((a, b) => b.score - a.score)
+    .slice(0, limit)
+    .map(r => ({
+      text: `${r.title} (${r.score} pts, Lobsters)`,
+      tags: (r.tags || []).slice(0, 2).concat('lobsters').slice(0, 3),
+      source: 'Lobsters',
+    }));
+}
+
+function loadProductHuntInsights(scrapedDir: string, limit: number): InsightRow[] {
+  const f = join(scrapedDir, 'product-hunt.json');
+  if (!existsSync(f)) return [];
+  type Row = { name: string; tagline: string; upvotes: number };
+  const rows = JSON.parse(readFileSync(f, 'utf-8')) as Row[];
+  return rows
+    .sort((a, b) => b.upvotes - a.upvotes)
+    .slice(0, limit)
+    .map(r => ({
+      text: `${r.name}: ${r.tagline} (${r.upvotes} votes)`,
+      tags: ['product-hunt', 'launch'],
+      source: 'Product Hunt',
+    }));
+}
+
+function loadShowHNInsights(scrapedDir: string, limit: number): InsightRow[] {
+  const f = join(scrapedDir, 'hn-show.json');
+  if (!existsSync(f)) return [];
+  const rows = JSON.parse(readFileSync(f, 'utf-8')) as RawHNStory[];
+  return rows
+    .sort((a, b) => b.points - a.points)
+    .slice(0, limit)
+    .map(r => ({
+      text: `${r.title} (${r.points} pts, ${r.comments} comments)`,
+      tags: ['show-hn', 'hacker-news'],
+      source: `Show HN ${r.points}pts`,
+    }));
+}
+
+function normalizeKey(text: string): string {
+  return text
+    .toLowerCase()
+    .replace(/\s*\([^)]*\)\s*/g, ' ')
+    .slice(0, 48)
+    .trim();
+}
+
+function mergeInsights(
+  editorial: string[],
+  topicRows: InsightRow[],
+  hnStories: RawHNStory[],
+  lob: InsightRow[],
+  ph: InsightRow[],
+  show: InsightRow[]
+): InsightRow[] {
+  const seen = new Set<string>();
+  const merged: InsightRow[] = [];
+
+  const push = (row: InsightRow) => {
+    if (merged.length >= MAX_INSIGHTS) return;
+    const k = normalizeKey(row.text);
+    if (!k || seen.has(k)) return;
+    seen.add(k);
+    merged.push(row);
+  };
+
+  for (const text of editorial.slice(0, EDITORIAL_CAP)) {
+    push({
+      text,
+      tags: extractTagsFromInsight(text),
+      source: extractSourceFromInsight(text),
+    });
+  }
+
+  for (const row of topicRows) push(row);
+
+  const editorialKeys = new Set(editorial.map(t => normalizeKey(t)));
+  const sortedHn = [...hnStories].sort((a, b) => b.points - a.points);
+  for (const story of sortedHn) {
+    if (editorialKeys.has(normalizeKey(story.title))) continue;
+    push({
+      text: `${story.title} (${story.points} pts, ${story.comments} comments)`,
+      tags: ['hacker-news'],
+      source: `HN ${story.points}pts`,
+    });
+  }
+
+  for (const row of lob) push(row);
+  for (const row of ph) push(row);
+  for (const row of show) push(row);
+
+  return merged;
+}
 
 function parseStarDelta(starsToday: string): string {
   // "2,685 stars today" → "+2,685/d"
@@ -149,7 +349,9 @@ function extractTakeaway(summaryMd: string): string {
 
 function main() {
   const date = process.argv[2] || new Date().toISOString().split('T')[0];
+  const RESEARCH_BASE = resolveResearchBase(date);
   console.log(`Generating EpisodeProps for ${date}...`);
+  console.log(`  RESEARCH_BASE: ${RESEARCH_BASE}`);
 
   const researchDir = join(RESEARCH_BASE, date);
   const scrapedDir = join(researchDir, 'scraped');
@@ -215,10 +417,27 @@ function main() {
     console.log(`  Research summary: loaded`);
   }
 
+  const topicsDir = resolveTopicsDir(date);
+  const topicRows = loadTopicInsights(topicsDir);
+  const lobRows = existsSync(scrapedDir) ? loadLobsterInsights(scrapedDir, 4) : [];
+  const phRows = existsSync(scrapedDir) ? loadProductHuntInsights(scrapedDir, 4) : [];
+  const showRows = existsSync(scrapedDir) ? loadShowHNInsights(scrapedDir, 5) : [];
+  if (lobRows.length) console.log(`  Lobsters: ${lobRows.length} insight rows`);
+  if (phRows.length) console.log(`  Product Hunt: ${phRows.length} insight rows`);
+  if (showRows.length) console.log(`  Show HN: ${showRows.length} insight rows`);
+
   // --- Validate minimum data ---
-  const sourceCount = (githubRepos.length > 0 ? 1 : 0) + (hnStories.length > 0 ? 1 : 0) + (editorialInsights.length > 0 ? 1 : 0);
+  const scrapedJsonCount = safeReadScrapedDir(scrapedDir).length;
+  const sourceCount =
+    (githubRepos.length > 0 ? 1 : 0) +
+    (hnStories.length > 0 ? 1 : 0) +
+    (editorialInsights.length > 0 ? 1 : 0) +
+    (topicRows.length > 0 ? 1 : 0) +
+    (scrapedJsonCount > 0 && (lobRows.length + phRows.length + showRows.length > 0) ? 1 : 0);
   if (sourceCount === 0) {
-    console.error(`ERROR: No data sources available for ${date}. Need at least GitHub trending, HN stories, or editorial insights.`);
+    console.error(
+      `ERROR: No data sources available for ${date}. Need GitHub trending, HN, editorial insights, topic reports, or supplemental scrapes.`
+    );
     process.exit(1);
   }
 
@@ -240,18 +459,19 @@ function main() {
       delta: parseStarDelta(repo.stars_today),
     }));
 
-  // Insights (from editorial layer, fallback to HN titles)
-  const insights = editorialInsights.length > 0
-    ? editorialInsights.slice(0, 8).map(text => ({
-        text,
-        tags: extractTagsFromInsight(text),
-        source: extractSourceFromInsight(text),
-      }))
-    : hnStories.slice(0, 6).map(story => ({
-        text: `${story.title} (${story.points} pts, ${story.comments} comments)`,
-        tags: ['hacker-news'],
-        source: `HN ${story.points}pts`,
-      }));
+  const insights = mergeInsights(
+    editorialInsights,
+    topicRows,
+    hnStories,
+    lobRows,
+    phRows,
+    showRows
+  );
+
+  if (insights.length === 0) {
+    console.error('ERROR: merge produced zero insights.');
+    process.exit(1);
+  }
 
   // Headlines (top 3 insights with metrics)
   const headlines = insights
@@ -282,15 +502,18 @@ function main() {
   const numbers = [
     topHN ? { label: 'Top HN Story', value: String(topHN.points), unit: 'pts' } : { label: 'Stories', value: String(hnStories.length), unit: 'items' },
     topRepo ? { label: 'Fastest Repo', value: topRepo.stars_today.replace(/\s*stars?\s*today/i, '').trim(), unit: 'stars/day' } : { label: 'Repos', value: String(githubRepos.length), unit: 'tracked' },
-    { label: 'Sources Scraped', value: String(readdirSync(scrapedDir).filter((f: string) => f.endsWith('.json')).length), unit: 'sites' },
+    { label: 'Sources Scraped', value: String(scrapedJsonCount), unit: 'sites' },
     { label: 'Insights Today', value: String(insights.length), unit: 'stories' },
+    { label: 'Topic Reports', value: String(topicRows.length), unit: 'files' },
   ];
 
   // Subtitle (first 3 insights summarized)
   const subtitle = headlines.map(h => h.text.slice(0, 50)).join(', ');
 
-  // Hero stat
-  const heroStat = pickHeroStat(editorialInsights, hnStories);
+  const heroStat = pickHeroStat(
+    insights.map(i => i.text),
+    hnStories
+  );
 
   // Takeaway
   const takeawayText = extractTakeaway(summaryMd);

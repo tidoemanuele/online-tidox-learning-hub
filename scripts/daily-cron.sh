@@ -129,9 +129,11 @@ echo "${LOG_PREFIX} Step 3: Transforming to EpisodeProps..."
 step_start
 
 cd "$HUB_DIR"
+export RESEARCH_BASE="${LEARN_DIR}/docs/research"
+export LEARN_DOCS_ROOT="${LEARN_DIR}/docs"
 EPISODE_FILE="${HUB_DIR}/src/content/episodes/${DATE}.json"
 
-if npx tsx scripts/scrape-to-props.ts "$DATE" 2>&1 | tail -3; then
+if npx tsx scripts/scrape-to-props.ts "$DATE" 2>&1 | tail -8; then
   echo "${LOG_PREFIX}   ✓ Episode JSON generated"
 else
   echo "${LOG_PREFIX}   ✗ Transform failed"
