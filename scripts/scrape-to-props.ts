@@ -31,6 +31,11 @@ const DEFAULT_LEARN_DOCS = join(HOME, 'Documents', 'learn', 'docs');
 const LEARN_DOCS_ROOT = process.env.LEARN_DOCS_ROOT || DEFAULT_LEARN_DOCS;
 const DEFAULT_LEARN_RESEARCH = join(LEARN_DOCS_ROOT, 'research');
 
+/**
+ * When RESEARCH_BASE is unset: learn holds daily-research + topics, but hub/research
+ * often has a richer scraped/ (Lobsters, PH, Show HN). We must not pick learn alone
+ * when hub has more JSON — that dropped supplemental sources on the site.
+ */
 function resolveResearchBase(date: string): string {
   if (process.env.RESEARCH_BASE) return process.env.RESEARCH_BASE;
   const learnDateDir = join(DEFAULT_LEARN_RESEARCH, date);
@@ -44,6 +49,42 @@ function resolveResearchBase(date: string): string {
   if (learnHasData) return DEFAULT_LEARN_RESEARCH;
   if (hubHasData) return HUB_RESEARCH;
   return DEFAULT_LEARN_RESEARCH;
+}
+
+/** Both learn and hub scraped dirs, richest first (most JSON files) for core HN/GitHub reads. */
+function resolveScrapedDirs(date: string): string[] {
+  const candidates = [
+    join(DEFAULT_LEARN_RESEARCH, date, 'scraped'),
+    join(HUB_RESEARCH, date, 'scraped'),
+  ].filter(d => existsSync(d));
+  return candidates.sort((a, b) => safeReadScrapedDir(b).length - safeReadScrapedDir(a).length);
+}
+
+function readScrapedJson<T>(scrapedDirs: string[], filename: string): T | null {
+  for (const d of scrapedDirs) {
+    const p = join(d, filename);
+    if (existsSync(p)) {
+      return JSON.parse(readFileSync(p, 'utf-8')) as T;
+    }
+  }
+  return null;
+}
+
+/** Prefer learn daily brief, then hub copy. */
+function resolveDailyResearchPath(date: string): string | null {
+  const paths = [
+    join(DEFAULT_LEARN_RESEARCH, date, `daily-research-${date}.md`),
+    join(HUB_RESEARCH, date, `daily-research-${date}.md`),
+  ];
+  return paths.find(p => existsSync(p)) || null;
+}
+
+function countUniqueScrapedJson(scrapedDirs: string[]): number {
+  const names = new Set<string>();
+  for (const d of scrapedDirs) {
+    for (const f of safeReadScrapedDir(d)) names.add(f);
+  }
+  return names.size;
 }
 
 /** Per-topic markdown lives next to research: docs/analysis/research/{date}/ */
@@ -145,26 +186,46 @@ function loadTopicInsights(topicsDir: string | null): InsightRow[] {
   return out;
 }
 
-function loadLobsterInsights(scrapedDir: string, limit: number): InsightRow[] {
-  const f = join(scrapedDir, 'lobsters.json');
-  if (!existsSync(f)) return [];
+function loadLobsterInsights(scrapedDirs: string[], limit: number): InsightRow[] {
   type Row = { title: string; score: number; tags?: string[] };
-  const rows = JSON.parse(readFileSync(f, 'utf-8')) as Row[];
+  const seen = new Set<string>();
+  const rows: Row[] = [];
+  for (const d of scrapedDirs) {
+    const f = join(d, 'lobsters.json');
+    if (!existsSync(f)) continue;
+    const part = JSON.parse(readFileSync(f, 'utf-8')) as Row[];
+    for (const r of part) {
+      const k = r.title.toLowerCase().slice(0, 80);
+      if (seen.has(k)) continue;
+      seen.add(k);
+      rows.push(r);
+    }
+  }
   return rows
     .sort((a, b) => b.score - a.score)
     .slice(0, limit)
     .map(r => ({
       text: `${r.title} (${r.score} pts, Lobsters)`,
-      tags: (r.tags || []).slice(0, 2).concat('lobsters').slice(0, 3),
+      tags: [...(r.tags || []).slice(0, 2).map(t => t.slice(0, 20)), 'lobsters'].filter(Boolean).slice(0, 3),
       source: 'Lobsters',
     }));
 }
 
-function loadProductHuntInsights(scrapedDir: string, limit: number): InsightRow[] {
-  const f = join(scrapedDir, 'product-hunt.json');
-  if (!existsSync(f)) return [];
+function loadProductHuntInsights(scrapedDirs: string[], limit: number): InsightRow[] {
   type Row = { name: string; tagline: string; upvotes: number };
-  const rows = JSON.parse(readFileSync(f, 'utf-8')) as Row[];
+  const seen = new Set<string>();
+  const rows: Row[] = [];
+  for (const d of scrapedDirs) {
+    const f = join(d, 'product-hunt.json');
+    if (!existsSync(f)) continue;
+    const part = JSON.parse(readFileSync(f, 'utf-8')) as Row[];
+    for (const r of part) {
+      const k = `${r.name}`.toLowerCase().slice(0, 40);
+      if (seen.has(k)) continue;
+      seen.add(k);
+      rows.push(r);
+    }
+  }
   return rows
     .sort((a, b) => b.upvotes - a.upvotes)
     .slice(0, limit)
@@ -175,10 +236,20 @@ function loadProductHuntInsights(scrapedDir: string, limit: number): InsightRow[
     }));
 }
 
-function loadShowHNInsights(scrapedDir: string, limit: number): InsightRow[] {
-  const f = join(scrapedDir, 'hn-show.json');
-  if (!existsSync(f)) return [];
-  const rows = JSON.parse(readFileSync(f, 'utf-8')) as RawHNStory[];
+function loadShowHNInsights(scrapedDirs: string[], limit: number): InsightRow[] {
+  const seen = new Set<string>();
+  const rows: RawHNStory[] = [];
+  for (const d of scrapedDirs) {
+    const f = join(d, 'hn-show.json');
+    if (!existsSync(f)) continue;
+    const part = JSON.parse(readFileSync(f, 'utf-8')) as RawHNStory[];
+    for (const r of part) {
+      const k = r.title.toLowerCase().slice(0, 80);
+      if (seen.has(k)) continue;
+      seen.add(k);
+      rows.push(r);
+    }
+  }
   return rows
     .sort((a, b) => b.points - a.points)
     .slice(0, limit)
@@ -350,11 +421,14 @@ function extractTakeaway(summaryMd: string): string {
 function main() {
   const date = process.argv[2] || new Date().toISOString().split('T')[0];
   const RESEARCH_BASE = resolveResearchBase(date);
+  const scrapedDirs = resolveScrapedDirs(date);
   console.log(`Generating EpisodeProps for ${date}...`);
-  console.log(`  RESEARCH_BASE: ${RESEARCH_BASE}`);
-
-  const researchDir = join(RESEARCH_BASE, date);
-  const scrapedDir = join(researchDir, 'scraped');
+  console.log(`  RESEARCH_BASE (metadata): ${RESEARCH_BASE}`);
+  if (scrapedDirs.length) {
+    console.log(
+      `  SCRAPED_DIRS (${scrapedDirs.length}): ${scrapedDirs.map(d => `${d} (${safeReadScrapedDir(d).length} json)`).join(' | ')}`
+    );
+  }
 
   const outFileEarly = join(OUTPUT_DIR, `${date}.json`);
   let episodeNumber = existsSync(OUTPUT_DIR)
@@ -371,11 +445,11 @@ function main() {
 
   // --- Load sources ---
 
-  // 1. GitHub trending
+  // 1. GitHub trending (first hit among scraped dirs, richest dir first)
   let githubRepos: RawGithubRepo[] = [];
-  const ghFile = join(scrapedDir, 'github-trending.json');
-  if (existsSync(ghFile)) {
-    githubRepos = JSON.parse(readFileSync(ghFile, 'utf-8'));
+  const ghData = readScrapedJson<RawGithubRepo[]>(scrapedDirs, 'github-trending.json');
+  if (ghData?.length) {
+    githubRepos = ghData;
     console.log(`  GitHub trending: ${githubRepos.length} repos`);
   } else {
     console.warn('  ⚠ github-trending.json not found');
@@ -383,9 +457,9 @@ function main() {
 
   // 2. Hacker News
   let hnStories: RawHNStory[] = [];
-  const hnFile = join(scrapedDir, 'hacker-news.json');
-  if (existsSync(hnFile)) {
-    hnStories = JSON.parse(readFileSync(hnFile, 'utf-8'));
+  const hnData = readScrapedJson<RawHNStory[]>(scrapedDirs, 'hacker-news.json');
+  if (hnData?.length) {
+    hnStories = hnData;
     console.log(`  Hacker News: ${hnStories.length} stories`);
   } else {
     console.warn('  ⚠ hacker-news.json not found');
@@ -409,25 +483,25 @@ function main() {
     }
   }
 
-  // 4. Daily research summary
+  // 4. Daily research summary (learn first, then hub)
   let summaryMd = '';
-  const summaryFile = join(researchDir, `daily-research-${date}.md`);
-  if (existsSync(summaryFile)) {
-    summaryMd = readFileSync(summaryFile, 'utf-8');
-    console.log(`  Research summary: loaded`);
+  const summaryPath = resolveDailyResearchPath(date);
+  if (summaryPath) {
+    summaryMd = readFileSync(summaryPath, 'utf-8');
+    console.log(`  Research summary: loaded (${summaryPath})`);
   }
 
   const topicsDir = resolveTopicsDir(date);
   const topicRows = loadTopicInsights(topicsDir);
-  const lobRows = existsSync(scrapedDir) ? loadLobsterInsights(scrapedDir, 4) : [];
-  const phRows = existsSync(scrapedDir) ? loadProductHuntInsights(scrapedDir, 4) : [];
-  const showRows = existsSync(scrapedDir) ? loadShowHNInsights(scrapedDir, 5) : [];
+  const lobRows = scrapedDirs.length ? loadLobsterInsights(scrapedDirs, 4) : [];
+  const phRows = scrapedDirs.length ? loadProductHuntInsights(scrapedDirs, 4) : [];
+  const showRows = scrapedDirs.length ? loadShowHNInsights(scrapedDirs, 5) : [];
   if (lobRows.length) console.log(`  Lobsters: ${lobRows.length} insight rows`);
   if (phRows.length) console.log(`  Product Hunt: ${phRows.length} insight rows`);
   if (showRows.length) console.log(`  Show HN: ${showRows.length} insight rows`);
 
   // --- Validate minimum data ---
-  const scrapedJsonCount = safeReadScrapedDir(scrapedDir).length;
+  const scrapedJsonCount = countUniqueScrapedJson(scrapedDirs);
   const sourceCount =
     (githubRepos.length > 0 ? 1 : 0) +
     (hnStories.length > 0 ? 1 : 0) +

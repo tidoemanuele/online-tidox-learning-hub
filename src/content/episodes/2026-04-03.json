@@ -50,6 +50,174 @@
         "hacker-news"
       ],
       "source": "HN 310pts"
+    },
+    {
+      "text": "We replaced RAG with a virtual filesystem for our AI documentation assistant (266 pts, 108 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 266pts"
+    },
+    {
+      "text": "SSH certificates: the better SSH experience (233 pts, 101 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 233pts"
+    },
+    {
+      "text": "Post Mortem: axios NPM supply chain compromise (219 pts, 95 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 219pts"
+    },
+    {
+      "text": "Delve removed from Y Combinator (188 pts, 96 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 188pts"
+    },
+    {
+      "text": "Go on Embedded Systems and WebAssembly (142 pts, 18 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 142pts"
+    },
+    {
+      "text": "What changes when you turn a Linux box into a router (138 pts, 34 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 138pts"
+    },
+    {
+      "text": "Build your own Dial-up ISP with a Raspberry Pi (132 pts, 29 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 132pts"
+    },
+    {
+      "text": "Age verification on Systemd and Flatpak (107 pts, 91 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 107pts"
+    },
+    {
+      "text": "Gold overtakes U.S. Treasuries as the largest foreign reserve asset (105 pts, 58 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 105pts"
+    },
+    {
+      "text": "Fake Fans (93 pts, 18 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 93pts"
+    },
+    {
+      "text": "How to make a sliding, self-locking, and predator-proof chicken coop door (2020) (90 pts, 43 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 90pts"
+    },
+    {
+      "text": "Why are we still using Markdown? (86 pts, 155 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 86pts"
+    },
+    {
+      "text": "Big-Endian Testing with QEMU (85 pts, 89 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 85pts"
+    },
+    {
+      "text": "The Technocracy Movement of the 1930s (82 pts, 73 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 82pts"
+    },
+    {
+      "text": "Herbie: Automatically improve imprecise floating point formulas (73 pts, 10 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 73pts"
+    },
+    {
+      "text": "The house is a work of art: Frank Lloyd Wright (70 pts, 27 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 70pts"
+    },
+    {
+      "text": "Run Linux containers on Android, no root required (70 pts, 24 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 70pts"
+    },
+    {
+      "text": "Improving my focus by giving up my big monitor (61 pts, 74 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 61pts"
+    },
+    {
+      "text": "Show HN: Travel Hacking Toolkit – Points search and trip planning with AI (53 pts, 19 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 53pts"
+    },
+    {
+      "text": "Bourbon waste could provide next-gen supercapacitor components (27 pts, 14 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 27pts"
+    },
+    {
+      "text": "South Polar Times (23 pts, 1 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 23pts"
+    },
+    {
+      "text": "Conway's Game of Life, in real life (12 pts, 1 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 12pts"
+    },
+    {
+      "text": "Making your JITted Code known: Let me count the ways (9 pts, 1 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 9pts"
+    },
+    {
+      "text": "When Coupled Volcanoes Talk, These Researchers Listen (9 pts, 0 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 9pts"
     }
   ],
   "trending": [
@@ -107,8 +275,13 @@
     },
     {
       "label": "Insights Today",
-      "value": "6",
+      "value": "30",
       "unit": "stories"
+    },
+    {
+      "label": "Topic Reports",
+      "value": "0",
+      "unit": "files"
     }
   ],
   "scenes": {
