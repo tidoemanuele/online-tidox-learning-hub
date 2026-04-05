@@ -22,6 +22,7 @@
 
 import { readFileSync, writeFileSync, existsSync, readdirSync } from 'fs';
 import { join } from 'path';
+import { extractTrendingFallbackFromTexts } from '../src/lib/hub-episode-utils.ts';
 
 // --- Paths (hub root = parent of scripts/) ---
 const HUB_ROOT = join(import.meta.dirname!, '..');
@@ -126,6 +127,7 @@ interface InsightRow {
   text: string;
   tags: string[];
   source?: string;
+  url?: string;
 }
 
 // --- Helpers ---
@@ -187,7 +189,7 @@ function loadTopicInsights(topicsDir: string | null): InsightRow[] {
 }
 
 function loadLobsterInsights(scrapedDirs: string[], limit: number): InsightRow[] {
-  type Row = { title: string; score: number; tags?: string[] };
+  type Row = { title: string; score: number; tags?: string[]; url?: string };
   const seen = new Set<string>();
   const rows: Row[] = [];
   for (const d of scrapedDirs) {
@@ -208,11 +210,12 @@ function loadLobsterInsights(scrapedDirs: string[], limit: number): InsightRow[]
       text: `${r.title} (${r.score} pts, Lobsters)`,
       tags: [...(r.tags || []).slice(0, 2).map(t => t.slice(0, 20)), 'lobsters'].filter(Boolean).slice(0, 3),
       source: 'Lobsters',
+      ...(r.url?.startsWith('http') ? { url: r.url } : {}),
     }));
 }
 
 function loadProductHuntInsights(scrapedDirs: string[], limit: number): InsightRow[] {
-  type Row = { name: string; tagline: string; upvotes: number };
+  type Row = { name: string; tagline: string; upvotes: number; url?: string };
   const seen = new Set<string>();
   const rows: Row[] = [];
   for (const d of scrapedDirs) {
@@ -233,6 +236,7 @@ function loadProductHuntInsights(scrapedDirs: string[], limit: number): InsightR
       text: `${r.name}: ${r.tagline} (${r.upvotes} votes)`,
       tags: ['product-hunt', 'launch'],
       source: 'Product Hunt',
+      ...(r.url?.startsWith('http') ? { url: r.url } : {}),
     }));
 }
 
@@ -257,6 +261,7 @@ function loadShowHNInsights(scrapedDirs: string[], limit: number): InsightRow[] 
       text: `${r.title} (${r.points} pts, ${r.comments} comments)`,
       tags: ['show-hn', 'hacker-news'],
       source: `Show HN ${r.points}pts`,
+      ...(r.url?.startsWith('http') ? { url: r.url } : {}),
     }));
 }
 
@@ -287,11 +292,47 @@ function mergeInsights(
     merged.push(row);
   };
 
+  // Build a lookup: HN title → url, for matching editorial insights to sources
+  const hnUrlMap = new Map<string, string>();
+  for (const story of hnStories) {
+    if (story.url) hnUrlMap.set(normalizeKey(story.title), story.url);
+    if (story.hn_url) hnUrlMap.set(normalizeKey(story.title), story.hn_url);
+    // Prefer story URL over HN comments URL
+    if (story.url?.startsWith('http')) hnUrlMap.set(normalizeKey(story.title), story.url);
+  }
+  // Also index lobsters, PH, show
+  for (const row of [...lob, ...ph, ...show]) {
+    if (row.url) hnUrlMap.set(normalizeKey(row.text), row.url);
+  }
+
   for (const text of editorial.slice(0, EDITORIAL_CAP)) {
+    // Try to find a matching URL from scraped data
+    let url: string | undefined;
+    const textKey = normalizeKey(text);
+    // Check if any scraped title is a substring of the insight text (or vice versa)
+    for (const [key, u] of hnUrlMap) {
+      if (textKey.includes(key) || key.includes(textKey.slice(0, 40))) {
+        url = u;
+        break;
+      }
+    }
+    // Also try matching by extracting a title-like phrase before the first em-dash
+    if (!url) {
+      const titlePart = text.split('—')[0].replace(/\s*\([^)]*\)\s*/g, '').trim();
+      const titleKey = normalizeKey(titlePart);
+      for (const [key, u] of hnUrlMap) {
+        if (key.includes(titleKey.slice(0, 30)) || titleKey.includes(key.slice(0, 30))) {
+          url = u;
+          break;
+        }
+      }
+    }
+
     push({
       text,
       tags: extractTagsFromInsight(text),
       source: extractSourceFromInsight(text),
+      ...(url ? { url } : {}),
     });
   }
 
@@ -305,6 +346,7 @@ function mergeInsights(
       text: `${story.title} (${story.points} pts, ${story.comments} comments)`,
       tags: ['hacker-news'],
       source: `HN ${story.points}pts`,
+      ...(story.url?.startsWith('http') ? { url: story.url } : {}),
     });
   }
 
@@ -517,8 +559,22 @@ function main() {
 
   // --- Build EpisodeProps ---
 
-  // Trending repos (top 5 by star velocity)
-  const trending = githubRepos
+  const insights = mergeInsights(
+    editorialInsights,
+    topicRows,
+    hnStories,
+    lobRows,
+    phRows,
+    showRows
+  );
+
+  if (insights.length === 0) {
+    console.error('ERROR: merge produced zero insights.');
+    process.exit(1);
+  }
+
+  // Trending repos (top 5 by star velocity); fallback when github-trending.json is missing
+  let trending = githubRepos
     .sort((a, b) => {
       const aStars = parseInt(a.stars_today.replace(/[^\d]/g, ''), 10) || 0;
       const bStars = parseInt(b.stars_today.replace(/[^\d]/g, ''), 10) || 0;
@@ -533,18 +589,12 @@ function main() {
       delta: parseStarDelta(repo.stars_today),
     }));
 
-  const insights = mergeInsights(
-    editorialInsights,
-    topicRows,
-    hnStories,
-    lobRows,
-    phRows,
-    showRows
-  );
-
-  if (insights.length === 0) {
-    console.error('ERROR: merge produced zero insights.');
-    process.exit(1);
+  if (trending.length === 0) {
+    const recovered = extractTrendingFallbackFromTexts(insights.map(i => i.text), 5);
+    if (recovered.length) {
+      trending = recovered;
+      console.log(`  Trending fallback: ${trending.length} repos from insight text`);
+    }
   }
 
   // Headlines (top 3 insights with metrics)
