@@ -3,125 +3,242 @@
   "episodeNumber": 13,
   "locale": "en-US",
   "title": "Intelligence Brief",
-  "subtitle": "Anthropic blocks Claude Code from OpenClaw (347K stars), CVE-2026-33579, Artemis II Earth photo day 4",
+  "subtitle": "The agent framework ecosystem shows a **sharp velo, Today's signal clusters around **platform control,, Today's CLI creative tools signal is **moderate-to",
   "heroStat": {
-    "value": "347K",
-    "label": "OpenClaw stars — more than React, now Anthropic-banned"
+    "value": "632",
+    "label": "points on \"Artemis II crew take “spectacular” image of Earth\""
   },
   "insights": [
     {
-      "text": "Anthropic blocks Claude Code subscriptions from accessing OpenClaw (914 HN pts, 708 comments, 0.77:1 ratio) — OpenClaw has 347K GitHub stars, surpassing React's 243K to become the most-starred active software repository in history, and now Anthropic is terminating its own product's access to it. The 0.77 comment-to-point ratio is the week's highest controversy signal; the community is not debating facts, it is processing what a closed platform tax means when the ecosystem has already escaped into the wild.",
+      "text": "The agent framework ecosystem shows a **sharp velocity spike in orchestration extensions** while simultaneously generating critical security and platform-control friction. oh-my-codex (OmX) surged to +3,047 stars/day on GitHub—an orchestration layer for OpenAI Codex adding hooks, agent teams, and HUDs. Cursor 3 launched on Product Hunt (308 votes) as a \"unified workspace for parallel local/cloud agents and MCPs.\"",
       "tags": [
-        "github-trending",
-        "claude-code",
-        "ecosystem"
-      ],
-      "source": "HN 914pts"
-    },
-    {
-      "text": "CVE-2026-33579 — OpenClaw privilege escalation vulnerability surfaces on NVD (476 HN pts, 221 comments) the same week Anthropic bans OpenClaw access. The temporal proximity creates interpretive ambiguity that will define the narrative for weeks: responsible disclosure or strategic timing? Security incidents that coincide with platform disputes are no longer treated as coincidences by the practitioner community.",
-      "tags": [
+        "topic",
+        "ai-agent",
         "security"
       ],
-      "source": "HN 476pts"
+      "source": "Topic: Ai Agent Frameworks And Workflows"
     },
     {
-      "text": "Artemis II crew photograph Earth from 270,000 miles — day 4 of mission generates 919 HN pts and 318 comments, more engagement than the launch. The community is not reacting; it is archiving. Each mission update becomes a collective memory document for a generation watching the first crewed deep-space mission in 53 years unfold in real time.",
-      "tags": [],
-      "source": "HN 919pts"
-    },
-    {
-      "text": "Claude Code finds a 23-year-old Linux kernel vulnerability autonomously (214 HN pts, 130 comments; 67 Lobsters pts, 19 comments) — cross-platform confirmation is the reliability signal: when a story clears both HN and Lobsters with separate organic uptake, it has passed a high practitioner-credibility bar. Autonomous AI as kernel-level vulnerability scanner is now demonstrated fact, not speculation. The security research community's skepticism window is closing.",
+      "text": "Today's signal clusters around **platform control, security vulnerabilities, and architectural divergence** in AI coding tools. Anthropic's decision to block Claude Code subscriptions from using OpenClaw (443 pts HN) occurs simultaneously with an OpenClaw privilege escalation vulnerability disclosure (291 pts, NIST). Mintlify's \"virtual filesystem replacing RAG\" (255 pts) represents an architectural pattern shift. Meanwhile, Claude Code found a 23-year-old Linux vulnerability (60 pts Lobsters, mtlynch), demonstrating AI tools producing novel security value—not just generating code. Product Hunt shows Cursor 3 launching parallel local/cloud agents with MCP unification (308 votes) and Google Gemma 4 as the top launch (351 votes). This data does not resolve whether platform control moves are defensive reactions to security incidents or independent strategic positioning; multiple causal i…",
       "tags": [
-        "security",
-        "claude-code",
-        "research"
+        "topic",
+        "ai-powered",
+        "security"
       ],
-      "source": "HN 214pts"
+      "source": "Topic: Ai Powered Development Tools And Techniques"
     },
     {
-      "text": "oh-my-codex reaches +1,803 stars/day (15.3K total, TypeScript) with hooks, agent teams, and HUDs layered on OpenAI Codex — the enhancement-shell pattern is now a standalone product category. Every major AI coding tool spawns a community project that does what the parent refuses to: oh-my-codex → codex; superpowers → claude-code; the pattern predicts openclaw enhancement layers will follow identical trajectories. The open-source immune response to closed platforms is a shell, not a fork.",
+      "text": "Today's CLI creative tools signal is **moderate-to-strong**, anchored by three distinct themes: a mature Rust/terminal ecosystem, shell-level innovation, and screen recording/visual content creation. orhun's \"800 Rust terminal projects in 3 years\" (Lobsters) documents an unprecedented density of CLI tooling in the Rust ecosystem. openscreen (+2,771 stars/day GitHub) provides open-source, CLI-accessible screen recording comparable to Screen Studio—directly relevant for AI agent demo generation. c89cc.sh, a standalone C89/ELF64 compiler in pure portable shell (Lobsters, 15 pts), demonstrates extreme CLI minimalism. landdown (Lobsters, 29 pts) provides shell-script sandboxing relevant to safe agent execution. The GIMP new color mode announcement (HN, 3 pts) signals continued evolution in open-source creative infrastructure. These signals collectively suggest the CLI creative tooling subs…",
       "tags": [
-        "github-trending",
-        "claude-code",
-        "agents"
+        "topic",
+        "cli-creative",
+        "github-trending"
       ],
-      "source": "GitHub +1,803/day"
+      "source": "Topic: Cli Creative Tools For Ai Agents"
     },
     {
-      "text": "arXiv:2604.01193 'Simple self-distillation improves code generation' lands at 333 HN pts (99 comments) — the technique requires no additional training data, no larger models, no external verifiers; models improve by re-evaluating their own outputs at inference time. If the technique holds at scale, the 'we need GPT-5 for better coding' argument weakens against 'GPT-4 + self-distillation at inference cost.' The most significant efficiency gains are increasingly embarrassingly simple.",
+      "text": "GitHub trending today shows a **strong clustering around developer tooling and AI-adjacent infrastructure**, with two projects exceeding +2,700 stars/day. oh-my-codex (+3,047/day, TypeScript, agent orchestration for Codex) and openscreen (+2,771/day, TypeScript, open-source Screen Studio alternative) dominate. Supporting projects include onyx (+1,852/day, Python, open-source AI platform), sherlock (+1,192/day, Python, social media username hunting), timesfm (+916/day, Google Research time series foundation model), and fff.nvim (+750/day, Rust, fastest file search for AI agents and Neovim). The mix is notable: agent tooling (oh-my-codex, fff.nvim), developer UX (openscreen), AI infrastructure (onyx, timesfm), and security/OSINT (sherlock). Compared to recent weeks, the \"research-and-memory\" layer prominence has receded in favor of \"extension-and-tooling\" projects.",
       "tags": [
-        "research"
+        "topic",
+        "github-popular",
+        "security"
       ],
-      "source": "HN 333pts"
+      "source": "Topic: Github Popular Open Source Projects"
     },
     {
-      "text": "Show HN: blogosphere.app — a frontpage for personal blogs earns 730 HN pts and 188 comments on the same day 914 people protest Anthropic's OpenClaw ban. The juxtaposition is structural: when AI platform wars suppress competition, the community's immune response is to rebuild the pre-platform web. The desire for non-platform-mediated discovery is the week's cross-story constant. The indie internet and open-source autonomy movements are now synchronized.",
+      "text": "Play Store top-tier dynamics remain **structurally frozen** for the fourth consecutive analysis period. ChatGPT continues as the only AI-native app with sustained top-tier placement. The Microsoft productivity cluster (Teams, Outlook, Word, Excel, PowerPoint) retains its 4.6-4.8 star range. No new AI-native mobile breakout is visible in the data. However, Product Hunt signals suggest consumer AI is moving toward embedded modes: ChatGPT on CarPlay (129 PH votes today), Claude Computer Use (#4 last week, 674 PH votes), and Claude Import Memory (#4 last month, 706 PH votes). The thesis that consumer AI adoption happens via feature embedding in incumbents rather than standalone app breakouts continues to receive support, but the evidence is circumstantial rather than definitive.",
       "tags": [
-        "open-source"
+        "topic",
+        "google-play"
       ],
-      "source": "HN 730pts"
+      "source": "Topic: Google Play Store App Trends"
     },
     {
-      "text": "Author of 'Careless People' banned from criticizing Meta by NDA (254 HN pts, 178 comments, 0.70:1 ratio) — Sarah Wynn-Williams documents internal Meta decisions; Meta's legal action prevents her from defending her own book publicly. Platform capture of speech has escaped social media and reached the physical books written about those platforms. The comment-to-point ratio signals sustained, not passing, anger.",
+      "text": "Solo developer productivity discourse this week centers on **physical-cost awareness, AI skepticism, and voice-first interaction paradigms**. Dev.to features \"Trading My Body for Logic: The Physical Decay We Ignore\" and \"Surviving as a Human in the Age of AI\" in its top weekly posts. Lobsters amplifies \"I used AI. It worked. I hated it\" (88 pts, 33 comments)—a nuanced take acknowledging productivity gains while articulating emotional and professional friction. On the tooling side, Product Hunt shows Claude Code Voice Mode (384 votes yesterday), VoiceOS (237 votes today, \"say it and it's done\"), and Cosyra \"run AI coding agents from your phone\" (182 votes). HN's \"Improving my focus by giving up my big monitor\" (51 pts, 66 comments) signals attention-management as an active solo-dev concern. The tension between \"AI makes me faster\" and \"AI makes me miserable\" is now explicitly documente…",
       "tags": [
-        "meta"
+        "topic",
+        "solo-developer",
+        "claude-code"
       ],
-      "source": "HN 254pts"
+      "source": "Topic: Solo Developer Productivity Tools And Workflows"
+    },
+    {
+      "text": "Artemis II crew take “spectacular” image of Earth (632 pts, 237 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 632pts",
+      "url": "https://www.bbc.com/news/articles/ce8jzr423p9o"
+    },
+    {
+      "text": "Tell HN: Anthropic no longer allowing Claude Code subscriptions to use OpenClaw (482 pts, 441 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 482pts"
+    },
+    {
+      "text": "iNaturalist (374 pts, 105 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 374pts",
+      "url": "https://www.inaturalist.org/"
+    },
+    {
+      "text": "OpenClaw privilege escalation vulnerability (303 pts, 175 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 303pts",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33579"
+    },
+    {
+      "text": "We replaced RAG with a virtual filesystem for our AI documentation assistant (264 pts, 108 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 264pts",
+      "url": "https://www.mintlify.com/blog/how-we-built-a-virtual-filesystem-for-our-assistant"
+    },
+    {
+      "text": "Post Mortem: axios NPM supply chain compromise (217 pts, 95 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 217pts",
+      "url": "https://github.com/axios/axios/issues/10636"
+    },
+    {
+      "text": "Delve removed from Y Combinator (182 pts, 93 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 182pts",
+      "url": "https://www.ycombinator.com/companies/delve"
+    },
+    {
+      "text": "Go on Embedded Systems and WebAssembly (142 pts, 19 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 142pts",
+      "url": "https://tinygo.org/"
+    },
+    {
+      "text": "What changes when you turn a Linux box into a router (135 pts, 34 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 135pts",
+      "url": "https://patrickmccanna.net/7-configuration-changes-that-turn-a-multi-homed-host-into-a-switch-router/"
+    },
+    {
+      "text": "Gold overtakes U.S. Treasuries as the largest foreign reserve asset (105 pts, 58 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 105pts",
+      "url": "https://economictimes.indiatimes.com/news/international/us/gold-overtakes-u-s-treasuries-as-the-worlds-largest-foreign-reserve-asset-in-2026-can-gold-challenge-the-u-s-dollars-dominance-and-hold-its-ground/articleshow/126420128.cms?from=mdr"
+    },
+    {
+      "text": "Herbie: Automatically improve imprecise floating point formulas (71 pts, 9 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 71pts",
+      "url": "https://herbie.uwplse.org/doc/latest/tutorial.html"
+    },
+    {
+      "text": "Run Linux containers on Android, no root required (69 pts, 23 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 69pts",
+      "url": "https://github.com/ExTV/Podroid"
+    },
+    {
+      "text": "The house is a work of art: Frank Lloyd Wright (68 pts, 27 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 68pts",
+      "url": "https://aeon.co/essays/frank-lloyd-wright-as-a-mirror-of-the-american-condition"
+    },
+    {
+      "text": "Improving my focus by giving up my big monitor (59 pts, 71 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 59pts",
+      "url": "https://ounapuu.ee/posts/2026/04/01/focus/"
+    },
+    {
+      "text": "Show HN: Travel Hacking Toolkit – Points search and trip planning with AI (49 pts, 19 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 49pts",
+      "url": "https://github.com/borski/travel-hacking-toolkit"
     }
   ],
   "trending": [
     {
       "name": "oh-my-codex",
-      "stars": "15.3K",
+      "stars": "—",
       "language": "TypeScript",
-      "delta": "+1,803/d"
+      "delta": "+3,047/d"
     },
     {
       "name": "openscreen",
-      "stars": "19.2K",
+      "stars": "—",
       "language": "TypeScript",
-      "delta": "+1,600/d"
+      "delta": "+2,771/d"
     },
     {
       "name": "onyx",
-      "stars": "23.9K",
+      "stars": "—",
       "language": "Python",
-      "delta": "+1,212/d"
+      "delta": "+1,852/d"
     },
     {
       "name": "sherlock",
-      "stars": "79.1K",
+      "stars": "—",
       "language": "Python",
-      "delta": "+993/d"
+      "delta": "+1,192/d"
     },
     {
-      "name": "goose",
-      "stars": "35.5K",
-      "language": "Rust",
-      "delta": "+947/d"
+      "name": "timesfm",
+      "stars": "—",
+      "language": "Unknown",
+      "delta": "+916/d"
     }
   ],
   "numbers": [
     {
       "label": "Top HN Story",
-      "value": "919",
+      "value": "632",
       "unit": "pts"
     },
     {
-      "label": "Fastest Repo",
-      "value": "1,803",
-      "unit": "stars/day"
+      "label": "Repos",
+      "value": "0",
+      "unit": "tracked"
     },
     {
       "label": "Sources Scraped",
-      "value": "4",
+      "value": "1",
       "unit": "sites"
     },
     {
       "label": "Insights Today",
-      "value": "8",
+      "value": "21",
       "unit": "stories"
+    },
+    {
+      "label": "Topic Reports",
+      "value": "6",
+      "unit": "files"
     }
   ],
   "scenes": {
@@ -131,23 +248,23 @@
     },
     "headlines": [
       {
-        "text": "Anthropic blocks Claude Code from accessing OpenClaw (347K stars, more than React)",
-        "metric": "914 pts",
-        "source": "HN"
+        "text": "The agent framework ecosystem shows a **sharp velocity spike in orchestration extensions** while simultaneously generating critical security and platform-control friction. oh-my-codex surged to +3,047 stars/day on GitHub",
+        "metric": "+3,047/d",
+        "source": "GitHub"
       },
       {
-        "text": "CVE-2026-33579: OpenClaw privilege escalation — disclosure or cover?",
-        "metric": "476 pts",
-        "source": "HN"
+        "text": "Today's signal clusters around **platform control, security vulnerabilities, and architectural divergence** in AI coding tools. Anthropic's decision to block Claude Code subscriptions from using OpenClaw occurs simultaneously with an OpenClaw privilege escalation vulnerability disclosure . Mintlify's \"virtual filesystem replacing RAG\" represents an architectural pattern shift. Meanwhile, Claude Code found a 23-year-old Linux vulnerability , demonstrating AI tools producing novel security value",
+        "metric": "—",
+        "source": "web"
       },
       {
-        "text": "Artemis II crew photograph Earth from deep space — day 4",
-        "metric": "919 pts",
-        "source": "HN"
+        "text": "Today's CLI creative tools signal is **moderate-to-strong**, anchored by three distinct themes: a mature Rust/terminal ecosystem, shell-level innovation, and screen recording/visual content creation. orhun's \"800 Rust terminal projects in 3 years\" documents an unprecedented density of CLI tooling in the Rust ecosystem. openscreen provides open-source, CLI-accessible screen recording comparable to Screen Studio",
+        "metric": "+2,771/d",
+        "source": "GitHub"
       }
     ],
     "takeaway": {
-      "text": "Today's dominant story is a platform war playing out in public: Anthropic bans its own subscribers from OpenClaw — the most-starred active software on GitHub — the same week a privilege escalation CVE gives the ban retroactive cover. The community response: 730 points for a personal-blog frontpage and 914 points of protest. When platforms close, builders rebuild the open web. Ship your audit and observability layer before your agents outpace your ability to govern them."
+      "text": "The cross-topic signal converges on **platform control and extension ecosystems** as the dominant theme. Anthropic blocking Claude Code subscriptions from using OpenClaw (443 pts HN, 420 comments) is the highest-amplitude single thread today, occurring alongside an OpenClaw privilege escalation CVE (291 pts)."
     }
   }
 }

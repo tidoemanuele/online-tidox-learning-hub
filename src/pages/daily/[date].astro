@@ -5,6 +5,7 @@ import Base from '../../layouts/Base.astro';
 import { VideoPlayer } from '../../components/VideoPlayer';
 import { TrendingReposList } from '../../components/TrendingReposList';
 import { getCollection } from 'astro:content';
+import { resolveInsightLink } from '../../lib/hub-episode-utils';
 
 export async function getStaticPaths() {
   const episodes = await getCollection('episodes');
@@ -54,6 +55,8 @@ const sorted = allEpisodes.sort((a, b) => a.data.date.localeCompare(b.data.date)
 const currentIndex = sorted.findIndex(e => e.data.date === ep.date);
 const prev = currentIndex > 0 ? sorted[currentIndex - 1] : null;
 const next = currentIndex < sorted.length - 1 ? sorted[currentIndex + 1] : null;
+
+const insightTextsForTrendingFallback = ep.insights.map((i) => i.text);
 ---
 
 <Base title={`Episode ${ep.episodeNumber} · ${ep.date}`} description={ep.subtitle}>
@@ -147,10 +150,35 @@ const next = currentIndex < sorted.length - 1 ? sorted[currentIndex + 1] : null;
         <h2 class="text-[11px] font-bold tracking-[1.5px] uppercase text-terracotta mb-4 pb-2 border-b-2 border-terracotta">
           Today's Insights
         </h2>
-        {ep.insights.map((insight) => (
+        {ep.insights.map((insight) => {
+          const link = resolveInsightLink(insight);
+          return (
           <article role="article" class="py-4 border-b border-divider last:border-b-0">
-            <p class="text-[15px] leading-relaxed mb-2">{insight.text}</p>
-            <div class="flex gap-1.5 flex-wrap">
+            {link?.isDirect ? (
+              <a
+                href={link.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="block group rounded-sm focus:outline-none focus-visible:ring-2 focus-visible:ring-terracotta/50"
+              >
+                <p class="text-[15px] leading-relaxed mb-2 group-hover:text-terracotta transition-colors">{insight.text}</p>
+              </a>
+            ) : (
+              <p class="text-[15px] leading-relaxed mb-2">{insight.text}</p>
+            )}
+            {link && !link.isDirect && (
+              <p class="mb-2">
+                <a
+                  href={link.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-[12px] font-semibold text-terracotta hover:underline"
+                >
+                  {link.label} ↗
+                </a>
+              </p>
+            )}
+            <div class="flex gap-1.5 flex-wrap items-center">
               {insight.tags.map((tag) => (
                 <span class="text-[11px] px-2 py-0.5 rounded bg-light-bg text-gray">{tag}</span>
               ))}
@@ -161,7 +189,8 @@ const next = currentIndex < sorted.length - 1 ? sorted[currentIndex + 1] : null;
               )}
             </div>
           </article>
-        ))}
+          );
+        })}
       </section>
 
       <!-- Trending repos -->
@@ -169,7 +198,11 @@ const next = currentIndex < sorted.length - 1 ? sorted[currentIndex + 1] : null;
         <h2 class="text-[11px] font-bold tracking-[1.5px] uppercase text-terracotta mb-4 pb-2 border-b-2 border-terracotta">
           Trending Repos
         </h2>
-        <TrendingReposList client:visible repos={ep.trending} />
+        <TrendingReposList
+          client:visible
+          repos={ep.trending}
+          insightTextsFallback={insightTextsForTrendingFallback}
+        />
       </section>
     </div>
 

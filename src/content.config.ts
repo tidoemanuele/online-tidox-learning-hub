@@ -5,6 +5,8 @@ const insightSchema = z.object({
   text: z.string(),
   tags: z.array(z.string().max(20)).max(3),
   source: z.string().optional(),
+  /** Canonical link when the scraper has it (HN item, Lobsters story URL, etc.). */
+  url: z.string().optional(),
 });
 
 const headlineSchema = z.object({

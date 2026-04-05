@@ -42,6 +42,8 @@ export interface Insight {
   text: string;
   tags: string[];    // max 3 tags, max 20 chars each
   source?: string;
+  /** Story URL when known (e.g. from HN Algolia or Lobsters JSON). */
+  url?: string;
 }
 
 export interface Headline {
