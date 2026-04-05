@@ -3,69 +3,25 @@
   "episodeNumber": 14,
   "locale": "en-US",
   "title": "Intelligence Brief",
-  "subtitle": "Show HN: A game where you build a GPU hits 615 HN , How many products does Microsoft have named 'Copil, AWS engineer reports PostgreSQL performance halved",
+  "subtitle": "Show HN: A game where you build a GPU, How many products does Microsoft have named 'Copil, AWS engineer reports PostgreSQL perf halved by Lin",
   "heroStat": {
     "value": "615",
     "label": "points on \"Show HN: A game where you build a GPU\""
   },
   "insights": [
     {
-      "text": "Show HN: A game where you build a GPU hits 615 HN pts (145 comments, 0.24:1 ratio) — the lowest controversy ratio among today's top stories, meaning this is pure enthusiasm with almost no argument. The game teaches shader programming, memory bandwidth, and pipeline stages through interactive play; its traction reveals a demand gap: GPU internals remain opaque to most practitioners, and the community rewards any project that demystifies hardware without assuming prior electrical engineering background. When the day's most upvoted Show HN is hardware education, the scarcest skill is not code—it is systems understanding.",
-      "tags": [],
-      "source": "HN 615pts"
-    },
-    {
-      "text": "How many products does Microsoft have named 'Copilot'? (534 HN pts, 259 comments, 0.49:1 ratio) — the post counts 16+ distinct products sharing a single brand name across Azure, Windows, GitHub, Office, Edge, Dynamics, Teams, Power Platform, and Xbox. The 0.49:1 controversy ratio is the day's strongest for a strategy-only story: engineers are not arguing about product quality, they are performing a strategic autopsy on a naming decision that eliminated the company's own ability to signal differentiation across divisions. Naming everything the same thing is an anti-pattern that scales: the more products, the less any individual Copilot means.",
-      "tags": [
-        "github-trending"
-      ],
-      "source": "HN 534pts"
-    },
-    {
-      "text": "AWS engineer reports PostgreSQL performance halved by Linux 7.0 (212 HN pts, 47 comments) and the fix 'may not be easy' — the Linux 7.0 scheduler changes that optimized throughput for batch workloads are penalizing synchronous I/O-intensive patterns like OLTP databases. This is not a bug with a patch queued but an architectural trade-off baked into the scheduler; PostgreSQL runs on the majority of production databases that depend on Linux, making a 2x regression a forcing function for kernel builds, distro configurations, and managed database provider upgrade policies company-wide.",
-      "tags": [],
-      "source": "HN 212pts"
-    },
-    {
-      "text": "Karpathy's LLM Wiki ('example of an idea file') lands at 131 HN pts (36 comments) on the same day Sebastian Raschka's 'Components of a Coding Agent' reaches 209 pts (67 comments) — two of the most-cited ML educators publishing knowledge frameworks in the same 24-hour window is a coordination signal, not a coincidence. Karpathy's format—timestamped hypotheses with confidence levels and revision reasoning—is an epistemic methodology, not a document; Raschka's coding agent anatomy is a practitioner taxonomy, not a tutorial. The community is hungry for stable conceptual scaffolding in a field that deprecates its own papers in months.",
-      "tags": [
-        "agents"
-      ],
-      "source": "HN 131pts"
-    },
-    {
-      "text": "Show HN: sllm – Split a GPU node with other developers, unlimited tokens (143 HN pts, 71 comments, 0.50:1 ratio) — sllm offers fractional H100 and A100 access at shared-cost rates with no per-token pricing. The 0.50:1 ratio reflects a genuine infrastructure debate: engineers who can afford dedicated nodes argue about isolation and security; engineers who cannot are calculating cost-per-inference. GPU access is now a two-tier market—pay-per-token (API) or pay-per-capacity (cloud)—and sllm proposes a third tier: pay-per-node-fraction, a mid-market the structural gap between APIs and raw GPU ownership created.",
-      "tags": [
-        "security"
-      ],
-      "source": "HN 143pts"
-    },
-    {
-      "text": "German eIDAS implementation will require an Apple or Google account to function (90 HN pts, 53 comments, 0.59:1 ratio) — the EU digital identity regulation, designed to give Europeans a government-issued alternative to platform identity, is being implemented in Germany through a mobile verification scheme that mandates either an App Store or Play Store account as a prerequisite. The 0.59:1 controversy ratio is high for an infrastructure policy story: practitioners immediately identified the recursive irony that a sovereignty initiative requires surrendering sovereignty to the two largest US platform gatekeepers to access a government service.",
-      "tags": [],
-      "source": "HN 90pts"
-    },
-    {
-      "text": "nvim-treesitter archived on GitHub surfaces as Lobsters' #1 story (62 pts, editors tag) — the parser library underlying syntax highlighting for virtually all modern Neovim configurations was archived without advance notice, leaving 200+ dependent plugins in an undefined maintenance state. The story lands on the same day Lobsters' vibecoding tag accumulates three separate essays in 24 hours: 'Your code is worthless' (46 pts), 'The Feature That Has Never Worked' (16 pts, on Claude Code reliability), and 'The Cathedral, the Bazaar, and the Winchester Mystery House' (4 pts). The juxtaposition is structural: the week that archival of critical editor infrastructure demonstrates how dependent ecosystems are on maintainer attention, a genre of essays argues that writing code has zero marginal cost. Both are right, about different problems.",
-      "tags": [
-        "github-trending",
-        "claude-code",
-        "ecosystem"
-      ]
-    },
-    {
-      "text": "Slap: Functional Concatenative Language with a Borrow Checker reaches Lobsters' second-highest story (90 pts, concatenative/plt tags) — a new language combining the stack-based composition model of Forth/Factor with Rust-style ownership semantics and linear types. On a day when Microsoft's Copilot brand sprawl (534 HN pts) and Linux kernel regressions (212 pts) dominate HN, Lobsters surfaces a programming language theory story as its top signal. The divergence is not random: Lobsters' community self-selects for correctness and type-system concerns, and a borrow-checked concatenative language is precisely the intersection of 'what survives AI code generation' and 'what requires human reasoning to design.' Language design is the counter-narrative to velocity culture.",
-      "tags": [
-        "rust"
-      ],
-      "source": "HN 534pts"
-    },
-    {
       "text": "Show HN: A game where you build a GPU (615 pts, 145 comments)",
       "tags": [
         "hacker-news"
       ],
       "source": "HN 615pts"
+    },
+    {
+      "text": "How many products does Microsoft have named 'Copilot'? (534 pts, 259 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 534pts"
     },
     {
       "text": "AWS engineer reports PostgreSQL perf halved by Linux 7.0, fix may not be easy (212 pts, 47 comments)",
@@ -94,6 +50,13 @@
         "hacker-news"
       ],
       "source": "HN 148pts"
+    },
+    {
+      "text": "Show HN: sllm – Split a GPU node with other developers, unlimited tokens (143 pts, 71 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 143pts"
     },
     {
       "text": "LLM Wiki – example of an \"idea file\" (131 pts, 36 comments)",
@@ -221,6 +184,54 @@
         "lobsters"
       ],
       "source": "Lobsters"
+    },
+    {
+      "text": "Google Vids 2.0: Create, edit and share videos at no cost w/ new AI features (376 votes)",
+      "tags": [
+        "product-hunt",
+        "launch"
+      ],
+      "source": "Product Hunt"
+    },
+    {
+      "text": "Sleek Analytics: See who's on your site. Right now. (248 votes)",
+      "tags": [
+        "product-hunt",
+        "launch"
+      ],
+      "source": "Product Hunt"
+    },
+    {
+      "text": "Surf Social Websites: Bring together people and content on the social web (212 votes)",
+      "tags": [
+        "product-hunt",
+        "launch"
+      ],
+      "source": "Product Hunt"
+    },
+    {
+      "text": "Mercury Edit 2: Ultra-fast next-edit prediction for coding (157 votes)",
+      "tags": [
+        "product-hunt",
+        "launch"
+      ],
+      "source": "Product Hunt"
+    },
+    {
+      "text": "Show HN: I built a frontpage for personal blogs (753 pts, 189 comments)",
+      "tags": [
+        "show-hn",
+        "hacker-news"
+      ],
+      "source": "Show HN 753pts"
+    },
+    {
+      "text": "Show HN: Apfel – The free AI already on your Mac (712 pts, 146 comments)",
+      "tags": [
+        "show-hn",
+        "hacker-news"
+      ],
+      "source": "Show HN 712pts"
     }
   ],
   "trending": [
@@ -294,7 +305,7 @@
     },
     "headlines": [
       {
-        "text": "Show HN: A game where you build a GPU hits 615 HN pts",
+        "text": "Show HN: A game where you build a GPU",
         "metric": "—",
         "source": "web"
       },
@@ -304,7 +315,7 @@
         "source": "web"
       },
       {
-        "text": "AWS engineer reports PostgreSQL performance halved by Linux 7.0 and the fix 'may not be easy'",
+        "text": "AWS engineer reports PostgreSQL perf halved by Linux 7.0, fix may not be easy",
         "metric": "—",
         "source": "web"
       }
