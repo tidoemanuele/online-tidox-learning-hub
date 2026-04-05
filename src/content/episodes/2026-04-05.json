@@ -14,140 +14,160 @@
       "tags": [
         "hacker-news"
       ],
-      "source": "HN 615pts"
+      "source": "HN 615pts",
+      "url": "https://jaso1024.com/mvidia/"
     },
     {
       "text": "How many products does Microsoft have named 'Copilot'? (534 pts, 259 comments)",
       "tags": [
         "hacker-news"
       ],
-      "source": "HN 534pts"
+      "source": "HN 534pts",
+      "url": "https://teybannerman.com/strategy/2026/03/31/how-many-microsoft-copilot-are-there.html"
     },
     {
       "text": "AWS engineer reports PostgreSQL perf halved by Linux 7.0, fix may not be easy (212 pts, 47 comments)",
       "tags": [
         "hacker-news"
       ],
-      "source": "HN 212pts"
+      "source": "HN 212pts",
+      "url": "https://www.phoronix.com/news/Linux-7.0-AWS-PostgreSQL-Drop"
     },
     {
       "text": "Components of a Coding Agent (209 pts, 67 comments)",
       "tags": [
         "hacker-news"
       ],
-      "source": "HN 209pts"
+      "source": "HN 209pts",
+      "url": "https://magazine.sebastianraschka.com/p/components-of-a-coding-agent"
     },
     {
       "text": "OpenScreen is an open-source alternative to Screen Studio (193 pts, 33 comments)",
       "tags": [
         "hacker-news"
       ],
-      "source": "HN 193pts"
+      "source": "HN 193pts",
+      "url": "https://github.com/siddharthvaddem/openscreen"
     },
     {
       "text": "Show HN: TurboQuant-WASM – Google's vector quantization in the browser (148 pts, 6 comments)",
       "tags": [
         "hacker-news"
       ],
-      "source": "HN 148pts"
+      "source": "HN 148pts",
+      "url": "https://github.com/teamchong/turboquant-wasm"
     },
     {
       "text": "Show HN: sllm – Split a GPU node with other developers, unlimited tokens (143 pts, 71 comments)",
       "tags": [
         "hacker-news"
       ],
-      "source": "HN 143pts"
+      "source": "HN 143pts",
+      "url": "https://sllm.cloud"
     },
     {
       "text": "LLM Wiki – example of an \"idea file\" (131 pts, 36 comments)",
       "tags": [
         "hacker-news"
       ],
-      "source": "HN 131pts"
+      "source": "HN 131pts",
+      "url": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f"
     },
     {
       "text": "The Indie Internet Index – submit your favorite sites (125 pts, 24 comments)",
       "tags": [
         "hacker-news"
       ],
-      "source": "HN 125pts"
+      "source": "HN 125pts",
+      "url": "https://iii.social"
     },
     {
       "text": "Ruckus: Racket for iOS (111 pts, 9 comments)",
       "tags": [
         "hacker-news"
       ],
-      "source": "HN 111pts"
+      "source": "HN 111pts",
+      "url": "https://ruckus.defn.io/"
     },
     {
       "text": "Introduction to Computer Music (2009) [pdf] (110 pts, 27 comments)",
       "tags": [
         "hacker-news"
       ],
-      "source": "HN 110pts"
+      "source": "HN 110pts",
+      "url": "https://composerprogrammer.com/introductiontocomputermusic.pdf"
     },
     {
       "text": "German implementation of eIDAS will require an Apple/Google account to function (90 pts, 53 comments)",
       "tags": [
         "hacker-news"
       ],
-      "source": "HN 90pts"
+      "source": "HN 90pts",
+      "url": "https://bmi.usercontent.opencode.de/eudi-wallet/wallet-development-documentation-public/latest/architecture-concept/06-mobile-devices/02-mdvm/"
     },
     {
       "text": "Advice to young people, the lies I tell myself (2024) (82 pts, 24 comments)",
       "tags": [
         "hacker-news"
       ],
-      "source": "HN 82pts"
+      "source": "HN 82pts",
+      "url": "https://jxnl.co/writing/2024/06/01/advice-to-young-people/"
     },
     {
       "text": "Show HN: I made open source, zero power PCB hackathon badges (77 pts, 8 comments)",
       "tags": [
         "hacker-news"
       ],
-      "source": "HN 77pts"
+      "source": "HN 77pts",
+      "url": "https://github.com/KaiPereira/Overglade-Badges"
     },
     {
       "text": "Show HN: M. C. Escher spiral in WebGL inspired by 3Blue1Brown (51 pts, 9 comments)",
       "tags": [
         "hacker-news"
       ],
-      "source": "HN 51pts"
+      "source": "HN 51pts",
+      "url": "https://static.laszlokorte.de/escher/"
     },
     {
       "text": "Show HN: Contrapunk – Real-time counterpoint harmony from guitar input, in Rust (35 pts, 5 comments)",
       "tags": [
         "hacker-news"
       ],
-      "source": "HN 35pts"
+      "source": "HN 35pts",
+      "url": "https://contrapunk.com/"
     },
     {
       "text": "What if the browser built the UI for you? (25 pts, 34 comments)",
       "tags": [
         "hacker-news"
       ],
-      "source": "HN 25pts"
+      "source": "HN 25pts",
+      "url": "https://jonno.nz/posts/what-if-your-browser-built-the-ui-for-you/"
     },
     {
       "text": "Rubysyn: Clarifying Ruby's Syntax and Semantics (19 pts, 0 comments)",
       "tags": [
         "hacker-news"
       ],
-      "source": "HN 19pts"
+      "source": "HN 19pts",
+      "url": "https://github.com/squadette/rubysyn/blob/master/README.md"
     },
     {
       "text": "Show HN: I built a small app for FSI German Course (13 pts, 2 comments)",
       "tags": [
         "hacker-news"
       ],
-      "source": "HN 13pts"
+      "source": "HN 13pts",
+      "url": "https://detawk.com/"
     },
     {
       "text": "Zml-smi: universal monitoring tool for GPUs, TPUs and NPUs (12 pts, 3 comments)",
       "tags": [
         "hacker-news"
       ],
-      "source": "HN 12pts"
+      "source": "HN 12pts",
+      "url": "https://zml.ai/posts/zml-smi/"
     },
     {
       "text": "Slap: Functional Concatenative Language... with a Borrow Checker? (90 pts, Lobsters)",
@@ -156,7 +176,8 @@
         "plt",
         "lobsters"
       ],
-      "source": "Lobsters"
+      "source": "Lobsters",
+      "url": "https://taylor.town/slap-000"
     },
     {
       "text": "Claude Code Found a Linux Vulnerability Hidden for 23 Years (79 pts, Lobsters)",
@@ -165,7 +186,8 @@
         "vibecoding",
         "lobsters"
       ],
-      "source": "Lobsters"
+      "source": "Lobsters",
+      "url": "https://mtlynch.io/claude-code-found-linux-vulnerability/"
     },
     {
       "text": "The nvim-treesitter repository was archived (62 pts, Lobsters)",
@@ -174,7 +196,8 @@
         "programming",
         "lobsters"
       ],
-      "source": "Lobsters"
+      "source": "Lobsters",
+      "url": "https://github.com/nvim-treesitter/nvim-treesitter"
     },
     {
       "text": "Where can I find the old internet? (55 pts, Lobsters)",
@@ -223,7 +246,8 @@
         "show-hn",
         "hacker-news"
       ],
-      "source": "Show HN 753pts"
+      "source": "Show HN 753pts",
+      "url": "https://text.blogosphere.app/"
     },
     {
       "text": "Show HN: Apfel – The free AI already on your Mac (712 pts, 146 comments)",
@@ -231,7 +255,8 @@
         "show-hn",
         "hacker-news"
       ],
-      "source": "Show HN 712pts"
+      "source": "Show HN 712pts",
+      "url": "https://apfel.franzai.com"
     }
   ],
   "trending": [
