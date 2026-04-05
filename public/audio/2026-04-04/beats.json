@@ -1,0 +1,181 @@
+[
+  {
+    "type": "intro",
+    "highlight": "INTELLIGENCE BRIEF",
+    "subtext": "April 4, 2026",
+    "label": "TIDOX DAILY"
+  },
+  {
+    "type": "intro",
+    "highlight": "OpenClaw: 347K Stars",
+    "subtext": "More than React",
+    "label": "GITHUB MILESTONE"
+  },
+  {
+    "type": "number",
+    "number": "914",
+    "highlight": "914 HN points",
+    "subtext": "Anthropic blocks Claude Code from OpenClaw",
+    "label": "CONTROVERSY"
+  },
+  {
+    "type": "insight",
+    "highlight": "Closed platform tax on an open ecosystem",
+    "subtext": "0.77 comment-to-point controversy ratio",
+    "label": "ANALYSIS"
+  },
+  {
+    "type": "repo",
+    "highlight": "CVE-2026-33579",
+    "subtext": "OpenClaw privilege escalation — disclosure or cover?",
+    "label": "SECURITY"
+  },
+  {
+    "type": "quote",
+    "highlight": "Responsible disclosure or convenient cover?",
+    "subtext": "476 HN pts, 221 comments",
+    "label": "OPEN QUESTION"
+  },
+  {
+    "type": "insight",
+    "highlight": "Security incidents + platform disputes = no coincidences",
+    "subtext": "Practitioner community reads timing carefully",
+    "label": "PATTERN"
+  },
+  {
+    "type": "insight",
+    "highlight": "The CVE gives Anthropic cover it didn't have to manufacture",
+    "label": "ANALYSIS"
+  },
+  {
+    "type": "repo",
+    "highlight": "oh-my-codex",
+    "subtext": "+1,803 stars/day — hooks, agent teams, HUDs over Codex",
+    "label": "GITHUB TRENDING"
+  },
+  {
+    "type": "insight",
+    "highlight": "The shell pattern: community wraps every closed platform",
+    "subtext": "superpowers → claude-code | oh-my-codex → codex",
+    "label": "ECOSYSTEM"
+  },
+  {
+    "type": "action",
+    "highlight": "Next shell will wrap OpenClaw — count on it",
+    "subtext": "Shells trend faster than the thing they wrap",
+    "label": "PREDICTION"
+  },
+  {
+    "type": "number",
+    "number": "919",
+    "highlight": "919 HN points",
+    "subtext": "Artemis II Earth photo — day 4 of mission",
+    "label": "ARTEMIS II"
+  },
+  {
+    "type": "insight",
+    "highlight": "More engagement than launch day",
+    "subtext": "270,000 miles from Earth",
+    "label": "ARTEMIS II"
+  },
+  {
+    "type": "quote",
+    "highlight": "The launch is an event. The photo is a moment.",
+    "subtext": "Comment threads are documentation, not debate",
+    "label": "COMMUNITY"
+  },
+  {
+    "type": "insight",
+    "highlight": "A generation archiving its first crewed deep-space mission",
+    "label": "CULTURAL SIGNAL"
+  },
+  {
+    "type": "repo",
+    "highlight": "Claude Code → 23-year Linux kernel bug",
+    "subtext": "214 HN pts + 67 Lobsters pts",
+    "label": "AUTONOMOUS SECURITY"
+  },
+  {
+    "type": "insight",
+    "highlight": "Cross-platform confirmation: HN + Lobsters independently",
+    "subtext": "Passes the practitioner-credibility bar",
+    "label": "SIGNAL VALIDATION"
+  },
+  {
+    "type": "insight",
+    "highlight": "AI as kernel-level vulnerability scanner — proven",
+    "subtext": "Not theoretical anymore",
+    "label": "SECURITY"
+  },
+  {
+    "type": "quote",
+    "highlight": "What is it finding in your codebase right now?",
+    "label": "BUILDER QUESTION"
+  },
+  {
+    "type": "repo",
+    "highlight": "arXiv:2604.01193",
+    "subtext": "Simple self-distillation improves code generation",
+    "label": "RESEARCH"
+  },
+  {
+    "type": "insight",
+    "highlight": "No extra training data. No bigger model.",
+    "subtext": "Model re-evaluates its own outputs at inference time",
+    "label": "TECHNIQUE"
+  },
+  {
+    "type": "insight",
+    "highlight": "'Need GPT-5 for better code' argument weakens",
+    "subtext": "333 HN pts — 99 comments",
+    "label": "IMPLICATION"
+  },
+  {
+    "type": "quote",
+    "highlight": "The best techniques are always embarrassingly simple.",
+    "label": "INSIGHT"
+  },
+  {
+    "type": "number",
+    "number": "730",
+    "highlight": "730 HN points",
+    "subtext": "blogosphere.app — frontpage for personal blogs",
+    "label": "INDIE WEB"
+  },
+  {
+    "type": "insight",
+    "highlight": "Same day as the 914-point OpenClaw protest",
+    "subtext": "Platform wars → community rebuilds the open web",
+    "label": "CONNECTED"
+  },
+  {
+    "type": "action",
+    "highlight": "Build your escape hatch now",
+    "subtext": "Platform access can be revoked in 24 hours",
+    "label": "ACTION 1"
+  },
+  {
+    "type": "action",
+    "highlight": "Run autonomous vulnerability scanning on your code",
+    "subtext": "Claude Code proved the bar is real",
+    "label": "ACTION 2"
+  },
+  {
+    "type": "action",
+    "highlight": "Own your distribution",
+    "subtext": "Don't let a platform own the path to your audience",
+    "label": "ACTION 3"
+  },
+  {
+    "type": "close",
+    "highlight": "Every dependency is a leverage point and a liability",
+    "subtext": "Every platform relationship is a policy decision",
+    "label": "TAKEAWAY"
+  },
+  {
+    "type": "close",
+    "highlight": "Build eyes open.",
+    "subtext": "TIDOX Intelligence Brief — April 4, 2026",
+    "label": "SIGN OFF"
+  }
+]

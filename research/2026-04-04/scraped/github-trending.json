@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Yeachan-Heo/oh-my-codex",
+    "description": "OmX - Your codex enhanced with hooks, agent teams, HUDs",
+    "language": "TypeScript",
+    "stars_today": "1,803 stars today",
+    "total_stars": "15252"
+  },
+  {
+    "name": "siddharthvaddem/openscreen",
+    "description": "Free, open-source video editing tool — alternative to Screen Studio, no subscriptions, no watermarks",
+    "language": "TypeScript",
+    "stars_today": "1,600 stars today",
+    "total_stars": "19185"
+  },
+  {
+    "name": "onyx-dot-app/onyx",
+    "description": "Open Source AI Platform with advanced AI chat features for every LLM",
+    "language": "Python",
+    "stars_today": "1,212 stars today",
+    "total_stars": "23945"
+  },
+  {
+    "name": "block/goose",
+    "description": "Open source, extensible AI agent that goes beyond code suggestions — installs, executes, edits, tests",
+    "language": "Rust",
+    "stars_today": "947 stars today",
+    "total_stars": "35454"
+  },
+  {
+    "name": "sherlock-project/sherlock",
+    "description": "Hunt down social media accounts by username across social networks",
+    "language": "Python",
+    "stars_today": "993 stars today",
+    "total_stars": "79107"
+  },
+  {
+    "name": "Blaizzy/mlx-vlm",
+    "description": "MLX-VLM: inference and fine-tuning of Vision Language Models on Mac via MLX",
+    "language": "Python",
+    "stars_today": "316 stars today",
+    "total_stars": "3455"
+  },
+  {
+    "name": "microsoft/agent-framework",
+    "description": "Framework for building AI agents and multi-agent workflows",
+    "language": "Python",
+    "stars_today": "66 stars today",
+    "total_stars": "8608"
+  },
+  {
+    "name": "telegramdesktop/tdesktop",
+    "description": "Telegram Desktop messaging app",
+    "language": "C++",
+    "stars_today": "282 stars today",
+    "total_stars": "30757"
+  }
+]

@@ -1,0 +1,327 @@
+{
+  "date": "2026-04-05",
+  "episodeNumber": 14,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "Show HN: A game where you build a GPU, How many products does Microsoft have named 'Copil, AWS engineer reports PostgreSQL perf halved by Lin",
+  "heroStat": {
+    "value": "615",
+    "label": "points on \"Show HN: A game where you build a GPU\""
+  },
+  "insights": [
+    {
+      "text": "Show HN: A game where you build a GPU (615 pts, 145 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 615pts"
+    },
+    {
+      "text": "How many products does Microsoft have named 'Copilot'? (534 pts, 259 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 534pts"
+    },
+    {
+      "text": "AWS engineer reports PostgreSQL perf halved by Linux 7.0, fix may not be easy (212 pts, 47 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 212pts"
+    },
+    {
+      "text": "Components of a Coding Agent (209 pts, 67 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 209pts"
+    },
+    {
+      "text": "OpenScreen is an open-source alternative to Screen Studio (193 pts, 33 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 193pts"
+    },
+    {
+      "text": "Show HN: TurboQuant-WASM – Google's vector quantization in the browser (148 pts, 6 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 148pts"
+    },
+    {
+      "text": "Show HN: sllm – Split a GPU node with other developers, unlimited tokens (143 pts, 71 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 143pts"
+    },
+    {
+      "text": "LLM Wiki – example of an \"idea file\" (131 pts, 36 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 131pts"
+    },
+    {
+      "text": "The Indie Internet Index – submit your favorite sites (125 pts, 24 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 125pts"
+    },
+    {
+      "text": "Ruckus: Racket for iOS (111 pts, 9 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 111pts"
+    },
+    {
+      "text": "Introduction to Computer Music (2009) [pdf] (110 pts, 27 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 110pts"
+    },
+    {
+      "text": "German implementation of eIDAS will require an Apple/Google account to function (90 pts, 53 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 90pts"
+    },
+    {
+      "text": "Advice to young people, the lies I tell myself (2024) (82 pts, 24 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 82pts"
+    },
+    {
+      "text": "Show HN: I made open source, zero power PCB hackathon badges (77 pts, 8 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 77pts"
+    },
+    {
+      "text": "Show HN: M. C. Escher spiral in WebGL inspired by 3Blue1Brown (51 pts, 9 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 51pts"
+    },
+    {
+      "text": "Show HN: Contrapunk – Real-time counterpoint harmony from guitar input, in Rust (35 pts, 5 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 35pts"
+    },
+    {
+      "text": "What if the browser built the UI for you? (25 pts, 34 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 25pts"
+    },
+    {
+      "text": "Rubysyn: Clarifying Ruby's Syntax and Semantics (19 pts, 0 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 19pts"
+    },
+    {
+      "text": "Show HN: I built a small app for FSI German Course (13 pts, 2 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 13pts"
+    },
+    {
+      "text": "Zml-smi: universal monitoring tool for GPUs, TPUs and NPUs (12 pts, 3 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 12pts"
+    },
+    {
+      "text": "Slap: Functional Concatenative Language... with a Borrow Checker? (90 pts, Lobsters)",
+      "tags": [
+        "concatenative",
+        "plt",
+        "lobsters"
+      ],
+      "source": "Lobsters"
+    },
+    {
+      "text": "Claude Code Found a Linux Vulnerability Hidden for 23 Years (79 pts, Lobsters)",
+      "tags": [
+        "security",
+        "vibecoding",
+        "lobsters"
+      ],
+      "source": "Lobsters"
+    },
+    {
+      "text": "The nvim-treesitter repository was archived (62 pts, Lobsters)",
+      "tags": [
+        "editors",
+        "programming",
+        "lobsters"
+      ],
+      "source": "Lobsters"
+    },
+    {
+      "text": "Where can I find the old internet? (55 pts, Lobsters)",
+      "tags": [
+        "ask",
+        "culture",
+        "lobsters"
+      ],
+      "source": "Lobsters"
+    },
+    {
+      "text": "Google Vids 2.0: Create, edit and share videos at no cost w/ new AI features (376 votes)",
+      "tags": [
+        "product-hunt",
+        "launch"
+      ],
+      "source": "Product Hunt"
+    },
+    {
+      "text": "Sleek Analytics: See who's on your site. Right now. (248 votes)",
+      "tags": [
+        "product-hunt",
+        "launch"
+      ],
+      "source": "Product Hunt"
+    },
+    {
+      "text": "Surf Social Websites: Bring together people and content on the social web (212 votes)",
+      "tags": [
+        "product-hunt",
+        "launch"
+      ],
+      "source": "Product Hunt"
+    },
+    {
+      "text": "Mercury Edit 2: Ultra-fast next-edit prediction for coding (157 votes)",
+      "tags": [
+        "product-hunt",
+        "launch"
+      ],
+      "source": "Product Hunt"
+    },
+    {
+      "text": "Show HN: I built a frontpage for personal blogs (753 pts, 189 comments)",
+      "tags": [
+        "show-hn",
+        "hacker-news"
+      ],
+      "source": "Show HN 753pts"
+    },
+    {
+      "text": "Show HN: Apfel – The free AI already on your Mac (712 pts, 146 comments)",
+      "tags": [
+        "show-hn",
+        "hacker-news"
+      ],
+      "source": "Show HN 712pts"
+    }
+  ],
+  "trending": [
+    {
+      "name": "oh-my-codex",
+      "fullName": "Yeachan-Heo/oh-my-codex",
+      "stars": "15.9K",
+      "language": "TypeScript",
+      "delta": "+1,789/d"
+    },
+    {
+      "name": "openscreen",
+      "fullName": "siddharthvaddem/openscreen",
+      "stars": "20.7K",
+      "language": "TypeScript",
+      "delta": "+1,591/d"
+    },
+    {
+      "name": "onyx",
+      "fullName": "onyx-dot-app/onyx",
+      "stars": "24.5K",
+      "language": "Python",
+      "delta": "+1,197/d"
+    },
+    {
+      "name": "sherlock",
+      "fullName": "sherlock-project/sherlock",
+      "stars": "79.5K",
+      "language": "Python",
+      "delta": "+994/d"
+    },
+    {
+      "name": "goose",
+      "fullName": "block/goose",
+      "stars": "35.8K",
+      "language": "Rust",
+      "delta": "+935/d"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "615",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "1,789",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "5",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "30",
+      "unit": "stories"
+    },
+    {
+      "label": "Topic Reports",
+      "value": "0",
+      "unit": "files"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "April 5, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Show HN: A game where you build a GPU",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "How many products does Microsoft have named 'Copilot'?",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "AWS engineer reports PostgreSQL perf halved by Linux 7.0, fix may not be easy",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Today's brief covers the most interesting signals across the tech landscape."
+    }
+  }
+}
