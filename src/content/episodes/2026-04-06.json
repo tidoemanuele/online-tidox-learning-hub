@@ -1,0 +1,187 @@
+{
+  "date": "2026-04-06",
+  "episodeNumber": 15,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "Gemma 4 on iPhone, Artemis II crew see first glimpse of far side of M, Microsoft hasn't had a coherent GUI strategy since",
+  "heroStat": {
+    "value": "535",
+    "label": "points on \"Gemma 4 on iPhone\""
+  },
+  "insights": [
+    {
+      "text": "Gemma 4 on iPhone (535 pts, 139 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 535pts",
+      "url": "https://apps.apple.com/nl/app/google-ai-edge-gallery/id6749645337"
+    },
+    {
+      "text": "Artemis II crew see first glimpse of far side of Moon [video] (458 pts, 350 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 458pts",
+      "url": "https://www.bbc.com/news/videos/ce3d5gkd2geo"
+    },
+    {
+      "text": "Microsoft hasn't had a coherent GUI strategy since Petzold (327 pts, 188 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 327pts",
+      "url": "https://www.jsnover.com/blog/2026/03/13/microsoft-hasnt-had-a-coherent-gui-strategy-since-petzold/"
+    },
+    {
+      "text": "LÖVE: 2D Game Framework for Lua (253 pts, 99 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 253pts",
+      "url": "https://github.com/love2d/love"
+    },
+    {
+      "text": "Show HN: I built a tiny LLM to demystify how language models work (249 pts, 20 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 249pts",
+      "url": "https://github.com/arman-bd/guppylm"
+    },
+    {
+      "text": "Running Gemma 4 locally with LM Studio's new headless CLI and Claude Code (232 pts, 56 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 232pts",
+      "url": "https://ai.georgeliu.com/p/running-google-gemma-4-locally-with"
+    },
+    {
+      "text": "Show HN: YouTube search barely works, I made a search form with advanced filters (162 pts, 100 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 162pts",
+      "url": "https://playlists.at/youtube/search/"
+    },
+    {
+      "text": "Copilot is 'for entertainment purposes only', per Microsoft's terms of use (122 pts, 25 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 122pts",
+      "url": "https://techcrunch.com/2026/04/05/copilot-is-for-entertainment-purposes-only-according-to-microsofts-terms-of-service/"
+    },
+    {
+      "text": "Endian wars and anti-portability: this again? (41 pts, 39 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 41pts",
+      "url": "https://dalmatian.life/2026/04/03/endian-wars-and-anti-portability-this-again/"
+    },
+    {
+      "text": "Show HN: Gemma Gem – AI model embedded in a browser – no API keys, no cloud (39 pts, 5 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 39pts",
+      "url": "https://github.com/kessler/gemma-gem"
+    },
+    {
+      "text": "An open-source 240-antenna array to bounce signals off the Moon (37 pts, 10 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 37pts",
+      "url": "https://moonrf.com/"
+    },
+    {
+      "text": "The 1987 game \"The Last Ninja\" was 40 kilobytes (35 pts, 15 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 35pts",
+      "url": "https://twitter.com/exQUIZitely/status/2040777977521398151"
+    },
+    {
+      "text": "Case study: recovery of a corrupted 12 TB multi-device pool (29 pts, 3 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 29pts",
+      "url": "https://github.com/kdave/btrfs-progs/issues/1107"
+    },
+    {
+      "text": "Winners of the 2026 Kokuyo Design Awards (20 pts, 1 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 20pts",
+      "url": "https://spoon-tamago.com/winners-of-the-2026-kokuyo-design-awards/"
+    },
+    {
+      "text": "Show HN: Real-time AI (audio/video in, voice out) on an M3 Pro with Gemma E2B (14 pts, 2 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 14pts",
+      "url": "https://github.com/fikrikarim/parlor"
+    }
+  ],
+  "trending": [],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "535",
+      "unit": "pts"
+    },
+    {
+      "label": "Repos",
+      "value": "0",
+      "unit": "tracked"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "1",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "15",
+      "unit": "stories"
+    },
+    {
+      "label": "Topic Reports",
+      "value": "0",
+      "unit": "files"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "April 6, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Gemma 4 on iPhone",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Artemis II crew see first glimpse of far side of Moon [video]",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Microsoft hasn't had a coherent GUI strategy since Petzold",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Today's brief covers the most interesting signals across the tech landscape."
+    }
+  }
+}
