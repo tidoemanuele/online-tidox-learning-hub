@@ -3,65 +3,12 @@
   "episodeNumber": 15,
   "locale": "en-US",
   "title": "Intelligence Brief",
-  "subtitle": "Gemma 4 on iPhone hits 535 HN pts via the Google A, Microsoft GUI strategy since Petzold earns 331 HN , Artemis II crew see first glimpse of far side of M",
+  "subtitle": "Gemma 4 on iPhone, Artemis II crew see first glimpse of far side of M, Why Switzerland has 25 Gbit internet and America d",
   "heroStat": {
     "value": "535",
     "label": "points on \"Gemma 4 on iPhone\""
   },
   "insights": [
-    {
-      "text": "Gemma 4 on iPhone hits 535 HN pts (139 comments, 0.26:1 ratio) via the Google AI Edge Gallery app — the App Store becomes a distribution channel for frontier-class open-weight inference. The 0.26:1 comment-to-point ratio is among the week's lowest: engineers are not debating, they are installing. The strategic significance is the channel, not the model: when an Apache 2.0 on-device model ships through the App Store as a consumer app, Google has answered Apple Intelligence with something more radical — running your own AI on the device you already own with no cloud dependency. The 'phone as inference node' transition is no longer a conference talk.",
-      "tags": [
-        "supply-chain"
-      ],
-      "source": "HN 535pts",
-      "url": "https://apps.apple.com/nl/app/google-ai-edge-gallery/id6749645337"
-    },
-    {
-      "text": "Microsoft GUI strategy since Petzold earns 331 HN pts (188 comments, 0.57:1 ratio) on the same day Copilot is declared 'for entertainment purposes only' in Microsoft's own Terms of Service (128 pts, 25 comments) — two structural critiques arriving in the same 24-hour window. Jeff Snover's post argues Microsoft has had no coherent GUI model since Charles Petzold's 1987 Windows framework, and the 0.57:1 ratio surfaces genuine argument from engineers who lived through Win32, WPF, WinRT, UWP, MAUI, and WinUI in sequence. But the Copilot ToS story is the more consequential reveal: the disclaimer that limits Copilot to 'entertainment purposes only' means every enterprise that deployed Copilot under professional-use assumptions is now in legal misalignment with the product's own terms. A company without a coherent GUI strategy in 40 years is now the default enterprise AI provider — and its flagship product legally disclaims professional reliability.",
-      "tags": [],
-      "source": "HN 331pts",
-      "url": "https://www.jsnover.com/blog/2026/03/13/microsoft-hasnt-had-a-coherent-gui-strategy-since-petzold/"
-    },
-    {
-      "text": "Artemis II crew see first glimpse of far side of Moon (459 HN pts, 351 comments, 0.76:1 ratio) — the second consecutive day of high engagement for a crewed deep-space mission milestone. The 0.76:1 ratio is exceptionally high for a science story: this is not passive observation but active contribution. HN threads become collective knowledge archives when the community is witnessing something genuinely unprecedented — the first humans at lunar distance in 53 years. The parallel with Gemma 4 on iPhone is the day's emotional counterpoint: one story is about AI running locally on phones; the other is about humans being as far from their phones as is currently possible.",
-      "tags": [],
-      "source": "HN 459pts",
-      "url": "https://www.bbc.com/news/videos/ce3d5gkd2geo"
-    },
-    {
-      "text": "Why Switzerland has 25 Gbit internet and America doesn't reaches 357 HN pts (273 comments, 0.77:1 ratio) — the week's highest argument density for a policy story. The post demolishes the 'free market = better infrastructure' claim with regulatory analysis: Switzerland's Telecoms Act mandates open-access wholesale, requires infrastructure monopolists to lease to competitors, and structures spectrum auctions to prevent carrier concentration. The thread becomes a comparative policy seminar — community members from Switzerland, Germany, the Netherlands, South Korea, and Japan validate the regulatory thesis from direct experience. American engineers who can compare are the most engaged. They are not arguing against the data; they are calculating what a fiber infrastructure gap means when local inference becomes the competitive differentiator.",
-      "tags": [],
-      "source": "HN 357pts",
-      "url": "https://sschueller.github.io/posts/the-free-market-lie/"
-    },
-    {
-      "text": "nvim-treesitter repository archived on GitHub scores 137 Lobsters pts (editors/vim/programming tags) with no advance notice, leaving 200+ dependent plugins in an undefined maintenance state — while three separate vibecoding essays accumulate simultaneously: 'If you thought the speed of writing code was your problem, you have bigger problems' (55 pts), 'Eight years of wanting, three months of building with AI' (51 pts), and 'Can We Measure Software Slop?' (3 pts). The structural juxtaposition is precise: the week critical editor infrastructure demonstrates how exposed ecosystems are to maintainer attention, a genre of essays argues that speed is not the real problem. Both are correct about different layers. AI-accelerated velocity does not solve the supply chain of maintained dependencies — and the nvim-treesitter archival is the week's clearest proof.",
-      "tags": [
-        "security",
-        "supply-chain",
-        "github-trending"
-      ],
-      "url": "https://github.com/nvim-treesitter/nvim-treesitter"
-    },
-    {
-      "text": "openscreen accelerates to +2,749 stars/day (22.9K total, TypeScript) as 'Running Gemma 4 locally with LM Studio's new headless CLI and Claude Code' reaches 232 HN pts (56 comments) — a demo creation tool and a local AI tutorial trending on the same day. openscreen is open-source, no watermarks, free for commercial use, purpose-built for converting ideas to visual demos; its velocity makes it the fastest-growing non-agent TypeScript project on GitHub trending this week. The tutorial earns 232 pts and 56 comments documenting a full local inference workflow. The convergence is not accidental: local AI workflows need better demo tooling, and the fastest-growing TypeScript project is precisely that. When the how-to and the tooling trend simultaneously, the category is becoming a practice, not a hobby.",
-      "tags": [
-        "github-trending",
-        "claude-code",
-        "agents"
-      ],
-      "source": "HN 232pts",
-      "url": "https://github.com/siddharthvaddem/openscreen"
-    },
-    {
-      "text": "Show HN: I built a tiny LLM to demystify how language models work hits 255 HN pts (21 comments, 0.08:1 ratio) — the lowest comment-to-point density of the day, meaning near-pure enthusiasm with almost no argument. guppylm is a minimal language model implementation designed for education: it explains tokenization, attention, residuals, and generation through auditable code with no abstraction layers. That 255 people upvoted and only 21 commented signals something specific: this is not a product evaluation, it is a gratitude response. The scarcest resource in the current LLM ecosystem is not compute or data — it is comprehension. When a 'tiny LLM for demystification' outscores a browser-based Gemma embed (Gemma Gem, 41 pts) and real-time AI on an M3 Pro (18 pts) on pure enthusiasm, the signal is clear: build for understanding, not just for capability.",
-      "tags": [
-        "ecosystem"
-      ],
-      "source": "HN 255pts",
-      "url": "https://github.com/arman-bd/guppylm"
-    },
     {
       "text": "Gemma 4 on iPhone (535 pts, 139 comments)",
       "tags": [
@@ -71,12 +18,36 @@
       "url": "https://apps.apple.com/nl/app/google-ai-edge-gallery/id6749645337"
     },
     {
+      "text": "Artemis II crew see first glimpse of far side of Moon [video] (459 pts, 351 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 459pts",
+      "url": "https://www.bbc.com/news/videos/ce3d5gkd2geo"
+    },
+    {
+      "text": "Why Switzerland has 25 Gbit internet and America doesn't (357 pts, 273 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 357pts",
+      "url": "https://sschueller.github.io/posts/the-free-market-lie/"
+    },
+    {
       "text": "Microsoft hasn't had a coherent GUI strategy since Petzold (331 pts, 188 comments)",
       "tags": [
         "hacker-news"
       ],
       "source": "HN 331pts",
       "url": "https://www.jsnover.com/blog/2026/03/13/microsoft-hasnt-had-a-coherent-gui-strategy-since-petzold/"
+    },
+    {
+      "text": "Show HN: I built a tiny LLM to demystify how language models work (255 pts, 21 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 255pts",
+      "url": "https://github.com/arman-bd/guppylm"
     },
     {
       "text": "LÖVE: 2D Game Framework for Lua (255 pts, 100 comments)",
@@ -252,7 +223,7 @@
     },
     {
       "label": "Insights Today",
-      "value": "23",
+      "value": "19",
       "unit": "stories"
     },
     {
@@ -268,17 +239,17 @@
     },
     "headlines": [
       {
-        "text": "Gemma 4 on iPhone hits 535 HN pts via the Google AI Edge Gallery app",
+        "text": "Gemma 4 on iPhone",
         "metric": "—",
         "source": "web"
       },
       {
-        "text": "Microsoft GUI strategy since Petzold earns 331 HN pts on the same day Copilot is declared 'for entertainment purposes only' in Microsoft's own Terms of Service",
+        "text": "Artemis II crew see first glimpse of far side of Moon [video]",
         "metric": "—",
         "source": "web"
       },
       {
-        "text": "Artemis II crew see first glimpse of far side of Moon",
+        "text": "Why Switzerland has 25 Gbit internet and America doesn't",
         "metric": "—",
         "source": "web"
       }
