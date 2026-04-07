@@ -1,0 +1,151 @@
+{
+  "date": "2026-04-07",
+  "episodeNumber": 12,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "Sam Altman trust debate, Claude Code regression fury, quantum crypto timelines",
+  "heroStat": {
+    "value": "1,201",
+    "label": "points on \"Sam Altman may control our future – can he be trusted?\""
+  },
+  "insights": [
+    {
+      "text": "Sam Altman New Yorker profile (1,201 HN pts, 460 comments) — 'can he be trusted?' The 0.38:1 comment-to-point ratio is unusually low for a controversy story, suggesting the community is reading more than arguing. The New Yorker's framing — control, not just capability — marks a shift in mainstream discourse from 'what can AI do?' to 'who decides?' The trust question is no longer academic; it's the governing question of the decade.",
+      "tags": ["agents", "research"],
+      "source": "HN 1,201pts",
+      "url": "https://www.newyorker.com/magazine/2026/04/13/sam-altman-may-control-our-future-can-he-be-trusted"
+    },
+    {
+      "text": "Claude Code quality regression issue hits 944 HN pts and 533 comments (0.56:1 ratio) — the community has filed a formal grievance against the Feb update's effect on complex engineering tasks. This is the highest-engagement Claude Code usability complaint ever tracked. The signal: as AI coding tools become load-bearing infrastructure, regressions trigger proportionally larger community responses. Reliability is now more important than features.",
+      "tags": ["claude-code", "agents"],
+      "source": "HN 944pts",
+      "url": "https://github.com/anthropics/claude-code/issues/42796"
+    },
+    {
+      "text": "Quantum cryptography timeline post (421 HN pts, 172 comments) from Filippo Valsorda — a working cryptography engineer argues CRQC is 10-15 years out, not decades. The 0.41:1 ratio suggests acceptance, not debate. Builders who haven't started post-quantum migration planning are now behind. The practical window: 3-5 years before post-quantum TLS becomes table stakes for any long-lived system.",
+      "tags": ["security", "research"],
+      "source": "HN 421pts",
+      "url": "https://words.filippo.io/crqc-timeline/"
+    },
+    {
+      "text": "Ghost Pepper (339 HN pts, 144 comments) — local hold-to-talk macOS speech-to-text via Whisper, no cloud, no subscription. Trending on GitHub at +1,923/day (4.2K total). The pattern: every capability that started cloud-only (image gen, coding assist, now voice) eventually has a local, zero-cost, privacy-preserving equivalent. Ghost Pepper completes the voice layer of the local AI stack.",
+      "tags": ["github-trending", "open-source"],
+      "source": "HN 339pts",
+      "url": "https://github.com/matthartman/ghost-pepper"
+    },
+    {
+      "text": "GandCrab and REvil ransomware leaders identified by German police (287 HN pts, 139 comments) — the decade-long attribution gap in ransomware closes. 'Unkn' and core REvil operators named after years of Russian legal shelter. The intelligence breakthrough suggests improved Europol-FBI coordination and possible OSINT-to-legal pipeline maturation. Ransomware attribution is no longer a decade-long project; it's a multi-year one.",
+      "tags": ["security"],
+      "source": "HN 287pts",
+      "url": "https://krebsonsecurity.com/2026/04/germany-doxes-unkn-head-of-ru-ransomware-gangs-revil-gandcrab/"
+    },
+    {
+      "text": "Freestyle launches (249 HN pts, 137 comments) — sandboxes for coding agents. The agent execution environment layer gets its own infrastructure company. Freestyle joins E2B, Modal, and Daytona in the 'safe place to run agent code' category, now officially crowded enough to need differentiation. The 0.55:1 ratio is healthy; builders are evaluating, not just watching.",
+      "tags": ["agents", "open-source"],
+      "source": "HN 249pts",
+      "url": "https://www.freestyle.sh/"
+    },
+    {
+      "text": "Anthropic deepens compute partnership with Google and Broadcom (211 HN pts, 95 comments) — custom silicon layer for next-gen training. This is the third compute partnership announcement (after AWS and Google) in 2026, suggesting Anthropic is deliberately diversifying away from Nvidia dependence while locking in preferential access. The race for compute is becoming a race for foundry relationships.",
+      "tags": ["research"],
+      "source": "HN 211pts",
+      "url": "https://www.anthropic.com/news/google-broadcom-partnership-compute"
+    },
+    {
+      "text": "VoltAgent/awesome-design-md surges to +2,841/day (15.7K total) on GitHub — DESIGN.md files that capture the design system of popular websites so coding agents can replicate them. A new category: design knowledge encoded for AI consumption, not humans. If DESIGN.md becomes as standard as README.md, the era of agents that reproduce visual style on demand begins.",
+      "tags": ["github-trending", "agents"],
+      "source": "GitHub +2,841/day",
+      "url": "https://github.com/VoltAgent/awesome-design-md"
+    }
+  ],
+  "trending": [
+    {
+      "name": "awesome-design-md",
+      "fullName": "VoltAgent/awesome-design-md",
+      "stars": "15.7K",
+      "language": "HTML",
+      "delta": "+2,841/d",
+      "url": "https://github.com/VoltAgent/awesome-design-md"
+    },
+    {
+      "name": "ghost-pepper",
+      "fullName": "matthartman/ghost-pepper",
+      "stars": "4.2K",
+      "language": "Swift",
+      "delta": "+1,923/d",
+      "url": "https://github.com/matthartman/ghost-pepper"
+    },
+    {
+      "name": "void-model",
+      "fullName": "Netflix/void-model",
+      "stars": "8.9K",
+      "language": "Python",
+      "delta": "+1,488/d",
+      "url": "https://github.com/Netflix/void-model"
+    },
+    {
+      "name": "career-ops",
+      "fullName": "santifer/career-ops",
+      "stars": "3.8K",
+      "language": "Go",
+      "delta": "+1,102/d",
+      "url": "https://github.com/santifer/career-ops"
+    },
+    {
+      "name": "solod",
+      "fullName": "solod-dev/solod",
+      "stars": "2.3K",
+      "language": "Go",
+      "delta": "+987/d",
+      "url": "https://github.com/solod-dev/solod"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "1,201",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "2,841",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "5",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "April 7, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Sam Altman New Yorker profile — 'can he be trusted?'",
+        "metric": "1,201 pts",
+        "source": "HN"
+      },
+      {
+        "text": "Claude Code regression fury: unusable for complex tasks",
+        "metric": "944 pts",
+        "source": "HN"
+      },
+      {
+        "text": "Quantum computing timelines: CRQC is 10-15 years out",
+        "metric": "421 pts",
+        "source": "HN"
+      }
+    ],
+    "takeaway": {
+      "text": "The trust deficit is today's defining signal — not just in AI leadership but in AI tools themselves. A 1,201-point profile asking whether Altman can be trusted lands on the same day 944 points pile onto a Claude Code regression thread. When load-bearing infrastructure regresses without announcement, the community treats it as a governance failure, not a bug report. Build for reliability, not just capability."
+    }
+  }
+}
