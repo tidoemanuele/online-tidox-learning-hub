@@ -1,0 +1,37 @@
+[
+  {
+    "title": "The Downfall and Enshittification of Microsoft in 2026",
+    "score": 105,
+    "tags": ["linux", "mac", "windows"],
+    "url": "https://caio.ca/blog/the-downfall-and-enshittification-of-microsoft.html",
+    "comments_url": "https://lobste.rs/s/jxw4nj/downfall_enshittification_microsoft"
+  },
+  {
+    "title": "A Cryptography Engineer's Perspective on Quantum Computing Timelines",
+    "score": 98,
+    "tags": ["cryptography", "security"],
+    "url": "https://words.filippo.io/crqc-timeline/",
+    "comments_url": "https://lobste.rs/s/pfoohx/cryptography_engineer_s_perspective_on"
+  },
+  {
+    "title": "Someone good at CSS help, my website design is dying",
+    "score": 49,
+    "tags": ["css"],
+    "url": "https://ahti.space/~nortti/writeups/my-website-design-is-dying.html",
+    "comments_url": "https://lobste.rs/s/aqaobg/someone_good_at_css_help_my_website_design"
+  },
+  {
+    "title": "Assessing Claude Mythos Preview's cybersecurity capabilities",
+    "score": 39,
+    "tags": ["security", "vibecoding"],
+    "url": "https://red.anthropic.com/2026/mythos-preview/",
+    "comments_url": "https://lobste.rs/s/aw2jr4/assessing_claude_mythos_preview_s"
+  },
+  {
+    "title": "OpenSSH begins warning for non-PQC key exchanges",
+    "score": 39,
+    "tags": ["networking", "security"],
+    "url": "https://www.openssh.com/pq.html",
+    "comments_url": "https://lobste.rs/s/edkm8d/openssh_begins_warning_for_non_pqc_key"
+  }
+]

@@ -1,0 +1,151 @@
+{
+  "date": "2026-04-08",
+  "episodeNumber": 12,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "Project Glasswing: $100M to defend critical software, Claude Mythos Preview drops, long-horizon AI war begins",
+  "heroStat": {
+    "value": "$100M",
+    "label": "in model credits — Anthropic deploys AI for defense at unprecedented scale"
+  },
+  "insights": [
+    {
+      "text": "Project Glasswing dominates HN at #1 (1115 HN pts, 520 comments, 0.47:1 comment-to-point ratio) — Anthropic and 11 tech giants (AWS, Apple, Google, Microsoft) deploy Claude Mythos Preview to find and fix security vulnerabilities in critical software before attackers can exploit them, backed by $100M in model credits and $4M in open-source security donations. The unusually low comment ratio signals convergence, not debate: the community treats this as a solved-argument announcement. Using AI's offensive vulnerability-finding capability for defense is the first coherent strategic answer to the AI security paradox.",
+      "tags": ["security", "open-source"],
+      "source": "HN 1115pts",
+      "url": "https://www.anthropic.com/glasswing"
+    },
+    {
+      "text": "Claude Mythos Preview System Card lands at 630 HN pts (449 comments) the same day as Project Glasswing — Anthropic coordinates a capability launch with a security initiative for the first time. Lobsters immediately cross-lists 'Assessing Claude Mythos Preview's cybersecurity capabilities' (39 pts, security + vibecoding tags). Red-teaming a model within hours of its announcement is now the standard practitioner response; the security community no longer waits for official reports.",
+      "tags": ["security"],
+      "source": "HN 630pts",
+      "url": "https://www-cdn.anthropic.com/53566bf5440a10affd749724787c8913a2ae0841.pdf"
+    },
+    {
+      "text": "GLM-5.1: Towards Long-Horizon Tasks debuts at 484 HN pts (195 comments) — Zhipu AI's framing is deliberate: 'long-horizon' is the next contested capability frontier after context length. Sustaining coherent reasoning across multi-step, multi-hour task chains is where current frontier models visibly break down. Chinese labs are targeting the exact gap practitioners complain about most. The context length war is over; the long-horizon war has begun.",
+      "tags": ["research"],
+      "source": "HN 484pts",
+      "url": "https://z.ai/blog/glm-5.1"
+    },
+    {
+      "text": "Google launches a two-repo edge AI offensive: google-ai-edge/gallery (+897/day, 19K total, Kotlin) and LiteRT-LM (+528/day, 2.6K total, C++) trend simultaneously — the on-device model inference stack is now a three-way platform competition: Apple Silicon MLX (fastest on M-series), Google LiteRT (cross-platform, mobile-first), Qualcomm AI Hub (NPU-native). Google ships an open demo gallery alongside the runtime — the distribution strategy is identical to the move that made TensorFlow dominant. Edge inference is not a research category; it is a shipping product.",
+      "tags": ["github-trending", "research"],
+      "source": "GitHub +897/day",
+      "url": "https://github.com/google-ai-edge/gallery"
+    },
+    {
+      "text": "S3 Files arrives at 259 HN pts — AWS adds a POSIX/NFS filesystem interface to S3, letting EC2 instances, containers, and Lambda functions mount S3 buckets as local filesystems without copying data. The object-vs-file storage architecture choice — which has constrained AI training pipelines, analytics frameworks, and legacy app migrations for a decade — is eliminated in a single API addition. Every tool that assumed POSIX now works on S3 natively. Werner Vogels calls it 'the changing face of S3'; practitioners will call it the end of data-locality constraints.",
+      "tags": ["open-source"],
+      "source": "HN 259pts",
+      "url": "https://www.allthingsdistributed.com/2026/04/s3-files-and-the-changing-face-of-s3.html"
+    },
+    {
+      "text": "GitNexus surges to +1,195/day (24.7K total stars, TypeScript) — browser-based knowledge graph creator with a Graph RAG Agent for code exploration. Graph-RAG for codebases is emerging as a distinct category from flat embedding search: instead of nearest-neighbor chunks, you get navigable relationship maps between functions, modules, and dependencies. The browser-native delivery means zero install friction. At current velocity, GitNexus will cross 30K stars within a week — the fastest-growing Graph-RAG tool in 2026.",
+      "tags": ["github-trending", "agents"],
+      "source": "GitHub +1,195/day",
+      "url": "https://github.com/abhigyanpatwari/GitNexus"
+    },
+    {
+      "text": "Lobsters #1 ('The Downfall and Enshittification of Microsoft in 2026', 105 pts) runs alongside Lobsters #2 (quantum computing crypto timelines, 98 pts, cryptography + security tags) — the practitioner community is processing two simultaneous crises of trust: trust in the largest enterprise software vendor, and trust in the cryptographic primitives that underpin everything. OpenSSH's post-quantum warning (39 pts on Lobsters) is not academic; it is infrastructure operators being told to act now.",
+      "tags": ["security"],
+      "source": "Lobsters 105pts",
+      "url": "https://caio.ca/blog/the-downfall-and-enshittification-of-microsoft.html"
+    },
+    {
+      "text": "seomachine (TheCraigHewitt/seomachine, +215/day, 4K total, Python) and NVIDIA PersonaPlex (+662/day, 8K total, Python) trend on the same day — Claude Code has expanded into content pipelines (SEO-optimized blog generation), and Nvidia has entered the AI personalization layer. The Claude Code ecosystem is no longer a coding tool category; it is a general-purpose workflow automation platform. Nvidia's PersonaPlex signals that persona management (consistent AI character across interactions) is the next infrastructure layer after inference.",
+      "tags": ["claude-code", "ecosystem", "github-trending"],
+      "source": "GitHub +215/day",
+      "url": "https://github.com/TheCraigHewitt/seomachine"
+    }
+  ],
+  "trending": [
+    {
+      "name": "GitNexus",
+      "fullName": "abhigyanpatwari/GitNexus",
+      "stars": "24.7K",
+      "language": "TypeScript",
+      "delta": "+1,195/d",
+      "url": "https://github.com/abhigyanpatwari/GitNexus"
+    },
+    {
+      "name": "gallery",
+      "fullName": "google-ai-edge/gallery",
+      "stars": "19.0K",
+      "language": "Kotlin",
+      "delta": "+897/d",
+      "url": "https://github.com/google-ai-edge/gallery"
+    },
+    {
+      "name": "qmd",
+      "fullName": "tobi/qmd",
+      "stars": "19.7K",
+      "language": "TypeScript",
+      "delta": "+859/d",
+      "url": "https://github.com/tobi/qmd"
+    },
+    {
+      "name": "personaplex",
+      "fullName": "NVIDIA/personaplex",
+      "stars": "8.1K",
+      "language": "Python",
+      "delta": "+662/d",
+      "url": "https://github.com/NVIDIA/personaplex"
+    },
+    {
+      "name": "RedditVideoMakerBot",
+      "fullName": "elebumm/RedditVideoMakerBot",
+      "stars": "10.1K",
+      "language": "Python",
+      "delta": "+636/d",
+      "url": "https://github.com/elebumm/RedditVideoMakerBot"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "1115",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "1,195",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "3",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "April 8, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Project Glasswing: Anthropic + 11 tech giants deploy AI to secure critical software",
+        "metric": "1115 pts",
+        "source": "HN"
+      },
+      {
+        "text": "Claude Mythos Preview System Card — new frontier model drops alongside security initiative",
+        "metric": "630 pts",
+        "source": "HN"
+      },
+      {
+        "text": "GLM-5.1 targets long-horizon reasoning — the next AI capability frontier",
+        "metric": "484 pts",
+        "source": "HN"
+      }
+    ],
+    "takeaway": {
+      "text": "Anthropic launches Project Glasswing alongside the Claude Mythos Preview system card — the first coordinated AI capability + security initiative from a frontier lab. The $100M in model credits committed to finding vulnerabilities in critical software represents the largest single defensive AI deployment ever announced."
+    }
+  }
+}

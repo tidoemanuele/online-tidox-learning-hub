@@ -1,0 +1,74 @@
+[
+  {
+    "name": "GitNexus",
+    "fullName": "abhigyanpatwari/GitNexus",
+    "description": "Browser-based knowledge graph creator with Graph RAG Agent for code exploration",
+    "language": "TypeScript",
+    "stars_today": "1,195 stars today",
+    "total_stars": "24742",
+    "url": "https://github.com/abhigyanpatwari/GitNexus"
+  },
+  {
+    "name": "gallery",
+    "fullName": "google-ai-edge/gallery",
+    "description": "A gallery showcasing on-device ML/GenAI use cases with local model trials",
+    "language": "Kotlin",
+    "stars_today": "897 stars today",
+    "total_stars": "19002",
+    "url": "https://github.com/google-ai-edge/gallery"
+  },
+  {
+    "name": "qmd",
+    "fullName": "tobi/qmd",
+    "description": "Local CLI search engine for documentation, knowledge bases, and meeting notes",
+    "language": "TypeScript",
+    "stars_today": "859 stars today",
+    "total_stars": "19732",
+    "url": "https://github.com/tobi/qmd"
+  },
+  {
+    "name": "personaplex",
+    "fullName": "NVIDIA/personaplex",
+    "description": "PersonaPlex: AI persona management and personalization framework",
+    "language": "Python",
+    "stars_today": "662 stars today",
+    "total_stars": "8080",
+    "url": "https://github.com/NVIDIA/personaplex"
+  },
+  {
+    "name": "RedditVideoMakerBot",
+    "fullName": "elebumm/RedditVideoMakerBot",
+    "description": "Create Reddit videos with a single command",
+    "language": "Python",
+    "stars_today": "636 stars today",
+    "total_stars": "10148",
+    "url": "https://github.com/elebumm/RedditVideoMakerBot"
+  },
+  {
+    "name": "LiteRT-LM",
+    "fullName": "google-ai-edge/LiteRT-LM",
+    "description": "Language model implementation for edge devices",
+    "language": "C++",
+    "stars_today": "528 stars today",
+    "total_stars": "2681",
+    "url": "https://github.com/google-ai-edge/LiteRT-LM"
+  },
+  {
+    "name": "seomachine",
+    "fullName": "TheCraigHewitt/seomachine",
+    "description": "Claude Code workspace for creating SEO-optimized long-form blog content",
+    "language": "Python",
+    "stars_today": "215 stars today",
+    "total_stars": "4045",
+    "url": "https://github.com/TheCraigHewitt/seomachine"
+  },
+  {
+    "name": "DeepTutor",
+    "fullName": "HKUDS/DeepTutor",
+    "description": "Agent-native personalized learning assistant",
+    "language": "Python",
+    "stars_today": "168 stars today",
+    "total_stars": "12484",
+    "url": "https://github.com/HKUDS/DeepTutor"
+  }
+]

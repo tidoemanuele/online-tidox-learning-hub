@@ -1,0 +1,155 @@
+[
+  {
+    "type": "intro",
+    "highlight": "Two Anthropic stories. One day. Not an accident.",
+    "subtext": "April 8, 2026",
+    "label": "INTELLIGENCE BRIEF"
+  },
+  {
+    "type": "number",
+    "highlight": "Project Glasswing goes #1 on HN",
+    "number": "1,115",
+    "subtext": "points — 11 tech giants deploy AI for defense",
+    "label": "HACKER NEWS"
+  },
+  {
+    "type": "insight",
+    "highlight": "0.47:1 comment ratio — consensus, not debate",
+    "subtext": "The community has no counter-argument to offer",
+    "label": "SIGNAL"
+  },
+  {
+    "type": "quote",
+    "highlight": "This one generated consensus. Why?",
+    "subtext": "The framing is airtight: use AI offensively for defense",
+    "label": "ANALYSIS"
+  },
+  {
+    "type": "insight",
+    "highlight": "$100M in model credits backing defensive AI",
+    "subtext": "The AI security paradox gets its first real answer",
+    "label": "PROJECT GLASSWING"
+  },
+  {
+    "type": "number",
+    "highlight": "Claude Mythos Preview system card drops",
+    "number": "630",
+    "subtext": "points — capability launch + security initiative, same day",
+    "label": "HACKER NEWS"
+  },
+  {
+    "type": "insight",
+    "highlight": "Red-teaming within hours — the new normal",
+    "subtext": "Security community doesn't wait for official reports",
+    "label": "LOBSTERS"
+  },
+  {
+    "type": "number",
+    "highlight": "GLM-5.1: Long-Horizon Tasks",
+    "number": "484",
+    "subtext": "points — Zhipu AI targets the next capability frontier",
+    "label": "HACKER NEWS"
+  },
+  {
+    "type": "insight",
+    "highlight": "Context length war is over. Long-horizon war begins.",
+    "subtext": "Sustaining reasoning across multi-hour tasks is the new gap",
+    "label": "CAPABILITY RACE"
+  },
+  {
+    "type": "quote",
+    "highlight": "Models lose the thread by step forty",
+    "subtext": "The failure mode practitioners feel most acutely",
+    "label": "PRACTITIONER SIGNAL"
+  },
+  {
+    "type": "insight",
+    "highlight": "Chinese labs targeting your biggest complaint",
+    "subtext": "That's not a coincidence — it's a product strategy",
+    "label": "COMPETITIVE ANALYSIS"
+  },
+  {
+    "type": "repo",
+    "highlight": "abhigyanpatwari/GitNexus",
+    "subtext": "+1,195 stars/day — Graph RAG for code exploration",
+    "label": "GITHUB TRENDING #1"
+  },
+  {
+    "type": "insight",
+    "highlight": "Graph preserves function, class, module relationships",
+    "subtext": "Flat embedding search is showing its limits",
+    "label": "GRAPH RAG"
+  },
+  {
+    "type": "insight",
+    "highlight": "Navigate code as a graph, not a document pile",
+    "subtext": "Agents become dramatically more accurate on refactoring",
+    "label": "IMPLICATION"
+  },
+  {
+    "type": "repo",
+    "highlight": "google-ai-edge/gallery + LiteRT-LM",
+    "subtext": "Google's two-repo edge AI offensive trends simultaneously",
+    "label": "GITHUB TRENDING"
+  },
+  {
+    "type": "insight",
+    "highlight": "Three-way fight for the edge inference layer",
+    "subtext": "Apple MLX vs Google LiteRT vs Qualcomm AI Hub",
+    "label": "PLATFORM WAR"
+  },
+  {
+    "type": "insight",
+    "highlight": "S3 Files: POSIX interface for S3 buckets",
+    "subtext": "259 HN pts — undersells the impact by an order of magnitude",
+    "label": "AWS"
+  },
+  {
+    "type": "action",
+    "highlight": "Every POSIX tool now works directly on S3",
+    "subtext": "An entire category of pipeline architecture work eliminated",
+    "label": "ACTION"
+  },
+  {
+    "type": "insight",
+    "highlight": "Microsoft enshittification #1 on Lobsters",
+    "subtext": "105 pts — developer trust in the platform is collapsing",
+    "label": "LOBSTERS"
+  },
+  {
+    "type": "insight",
+    "highlight": "Two trust crises. One day. Enterprise vendor and crypto primitives.",
+    "subtext": "OpenSSH warning on post-quantum key exchanges is not theoretical",
+    "label": "SECURITY"
+  },
+  {
+    "type": "action",
+    "highlight": "Harvest now, decrypt later — the threat is real",
+    "subtext": "Infrastructure operators must treat PQC migration as urgent",
+    "label": "POST-QUANTUM"
+  },
+  {
+    "type": "insight",
+    "highlight": "AI's dual-use problem gets explicit, coordinated, funded responses",
+    "subtext": "Glasswing, red-teaming communities, security researchers — all moving",
+    "label": "SYNTHESIS"
+  },
+  {
+    "type": "action",
+    "highlight": "Move on edge inference, Graph RAG, post-quantum crypto",
+    "subtext": "Six months of lead time is a structural advantage",
+    "label": "BUILDER TAKEAWAY"
+  },
+  {
+    "type": "close",
+    "highlight": "Go build something that matters.",
+    "subtext": "April 8, 2026",
+    "label": "TIDOX"
+  },
+  {
+    "type": "close",
+    "highlight": "That's the brief.",
+    "subtext": "Intelligence Brief — Daily",
+    "label": "TIDOX"
+  }
+]
