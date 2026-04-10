@@ -1,0 +1,162 @@
+{
+  "date": "2026-04-10",
+  "episodeNumber": 20,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "macOS space-switch API secret, NASA Artemis fault-tolerant architecture, SynthID watermark publicly defeated",
+  "heroStat": {
+    "value": "432",
+    "label": "points on macOS space switching"
+  },
+  "insights": [
+    {
+      "text": "Native Instant Space Switching on macOS pulls 432 HN pts and 200 comments (0.46:1 ratio) — the day's highest-scoring and most-discussed story. The technique uses a private CoreGraphics API to switch between macOS Spaces instantly with zero animation delay. The 0.46:1 ratio is power-user density, not debate: 200 engineers sharing Karabiner mappings, BetterTouchTool recipes, and SystemUIServer workarounds means the community treats window management as a solved-problem backlog item waiting for an official API. When the day's top story is an undocumented API call that eliminates a UI delay measured in milliseconds, the practitioner community is optimizing at the 1% productivity layer. Every millisecond of friction in the developer workflow is now a target — and the community is finding them without waiting for Apple.",
+      "tags": [],
+      "source": "HN 432pts",
+      "url": "https://arhan.sh/blog/native-instant-space-switching-on-macos/"
+    },
+    {
+      "text": "How NASA built Artemis II's fault-tolerant computer (251 HN pts, 84 comments, 0.33:1 ratio) — CACM's deep-dive on the Orion fault management system reveals triple-redundant voting architectures applied to a 28V/270V mixed-voltage avionics bus. The 0.33:1 ratio is rare for systems engineering: engineers are reading, not debating. The architecture uses federated avionics with fail-safe bus isolation — a pattern directly applicable to edge AI deployment at fault boundaries. Artemis II launched April 1; this article answers what practitioners were asking immediately after: how do you build a computer that cannot fail? The answer involves voting, diversity, and graceful degradation across redundant paths. The AI infrastructure community is facing the same problem at datacenter scale: when the model server fails, what is the recovery path that doesn't corrupt hours of agent state?",
+      "tags": [
+        "agents",
+        "research"
+      ],
+      "source": "HN 251pts",
+      "url": "https://cacm.acm.org/news/how-nasa-built-artemis-iis-fault-tolerant-computer/"
+    },
+    {
+      "text": "Reverse engineering Gemini's SynthID watermark detection accelerates to 131 HN pts and 49 comments today (0.37:1 ratio) — up from 22 HN pts yesterday, a 6x single-day point acceleration. The GitHub repo (aloshdenny/reverse-SynthID) documents a frequency-domain attack that defeats SynthID's imperceptibility claim: inject the inverse of the watermark signature into generation noise. The 6x acceleration is a community peer-review event: engineers are verifying the technique works and upvoting confirmation. SynthID is Google's primary technical apparatus for certifying AI-generated content across Gemini, Imagen, and YouTube. A confirmed public reversal means content provenance infrastructure is compromised across three Google product surfaces simultaneously. The week that watermarks don't work is the week that platform trust must be rebuilt on something other than watermarks.",
+      "tags": [
+        "security",
+        "github-trending"
+      ],
+      "source": "HN 131pts",
+      "url": "https://github.com/aloshdenny/reverse-SynthID"
+    },
+    {
+      "text": "Old laptops in a colo as low-cost servers (216 HN pts, 121 comments, 0.56:1 ratio) — the colaptop project documents running ThinkPad T440ps and X230s in colocation facilities at $15-30/month per rack unit, delivering 8-16 cores and 32GB RAM at a fraction of VPS pricing. The 0.56:1 ratio is operational exchange: engineers sharing colocation providers, power draw numbers, and BMC-over-USB configurations. Running your own hardware in a colo is not a nostalgia project — it is a cost-driven response to per-token and per-compute-hour pricing that compounds at scale for AI workloads. When the developer community's third most-engaged story is about recycling 10-year-old laptops as servers, the managed cloud pricing signal is very loud. The practitioner exit from expensive compute is active, not theoretical.",
+      "tags": [],
+      "source": "HN 216pts",
+      "url": "https://colaptop.pages.dev/"
+    },
+    {
+      "text": "We've raised $17M to build what comes after Git — GitButler's Series A announcement (45 HN pts, 64 comments, 1.42:1 comment-to-point ratio) carries the highest controversy density of the day. The 1.42:1 ratio is deep contention, not enthusiasm: 64 comments debating what 'after Git' means — branch-stacking UI layers, virtual branches, merge conflict assistance, or rewriting the DAG model entirely. GitButler's actual product is a Git client with virtual branch management; the 'what comes after Git' framing is the contested part. The ratio signals that the community agrees Git's UX is broken but disagrees profoundly on what broken means and what fixing looks like. Sequoia-led round plus 1.42:1 controversy ratio: institutional money believes the Git replacement category is real; practitioners are not yet convinced the problem is solved.",
+      "tags": [
+        "open-source"
+      ],
+      "source": "HN 45pts",
+      "url": "https://blog.gitbutler.com/series-a"
+    },
+    {
+      "text": "I Still Prefer MCP Over Skills (54 HN pts, 63 comments, 1.17:1 ratio) — the day's second-highest controversy density. The post argues MCP's standardized protocol wins over Claude's native skills mechanism for tool integration: model-agnostic, auditable, and composable versus tighter but vendor-locked. The community is not debating whether agents need tool integration — that is settled. They are debating protocol ownership: MCP (Anthropic-originated, now multi-vendor) versus skills (Claude-native). The implicit architectural question: do you bet on a protocol layer you can inspect, version, and audit, or on a native capability layer that performs better but ties you to a single vendor? The answer determines whether the agent tool ecosystem fragments by vendor or converges on a shared interface. Highest-ratio technical debates on any given day predict category definitions six months later.",
+      "tags": [
+        "agents",
+        "ecosystem"
+      ],
+      "source": "HN 54pts",
+      "url": "https://david.coffee/i-still-prefer-mcp-over-skills/"
+    },
+    {
+      "text": "Aphyr's 'The Future of Everything is Lies, I Guess' holds at Lobsters #1 with 161 pts for a second day — and 'Let's talk about LLMs' (39 Lobsters pts) and 'The AI Great Leap Forward' (41 Lobsters pts) trend simultaneously in the same feed. Three concurrent practitioner takes on AI epistemic architecture in one session is unusual. The Great Leap Forward essay frames AI adoption as analogous to planning systems that override their own feedback loops. The b-list LLM essay documents concrete production failure modes: hallucination rates that vary by domain, context degradation, and retrieval systems that don't reduce hallucination meaningfully. Together with Aphyr's frame, the Lobsters feed is assembling a three-part systematic case against uncritical LLM deployment. The community has moved from 'LLMs have failure modes' to 'here is the structural theory of why those failure modes cannot be tuned away.'",
+      "tags": [
+        "research"
+      ],
+      "url": "https://aphyr.com/posts/411-the-future-of-everything-is-lies-i-guess"
+    },
+    {
+      "text": "milla-jovovich/memplace sustains +843 stars/day (17.3K total, Python) — the fastest-growing AI memory repo in 2026 tracking — the same day aloshdenny/reverse-SynthID explodes to +756 stars/day driven by its 131-point HN spike. Two AI infrastructure layers are being simultaneously commoditized and attacked: agent memory (memplace) and content provenance (SynthID). The parallel is structural: the week that AI content authentication is shown to be defeatable, the tool for making AI agents remember everything is becoming the fastest-growing Python project among agent infrastructure repositories. When attack tooling and capability tooling both accelerate on the same day, the builder community is entering a phase where both offense and defense are becoming table stakes for production AI systems.",
+      "tags": [
+        "github-trending",
+        "agents",
+        "security"
+      ],
+      "source": "GitHub +843/day",
+      "url": "https://github.com/milla-jovovich/memplace"
+    }
+  ],
+  "trending": [
+    {
+      "name": "memplace",
+      "fullName": "milla-jovovich/memplace",
+      "stars": "17.3K",
+      "language": "Python",
+      "delta": "+843/d"
+    },
+    {
+      "name": "reverse-SynthID",
+      "fullName": "aloshdenny/reverse-SynthID",
+      "stars": "3.8K",
+      "language": "Python",
+      "delta": "+756/d"
+    },
+    {
+      "name": "claude-code",
+      "fullName": "anthropics/claude-code",
+      "stars": "111K",
+      "language": "TypeScript",
+      "delta": "+580/d"
+    },
+    {
+      "name": "claw-code",
+      "fullName": "ultraworkers/claw-code",
+      "stars": "174K",
+      "language": "Rust",
+      "delta": "+490/d"
+    },
+    {
+      "name": "awesome-design-md",
+      "fullName": "VoltAgent/awesome-design-md",
+      "stars": "31.6K",
+      "language": "HTML",
+      "delta": "+367/d"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "432",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "843",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "3",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "April 10, 2026"
+    },
+    "headlines": [
+      {
+        "text": "macOS Spaces hidden API unlocked — instant switch, zero animation",
+        "metric": "432 pts",
+        "source": "HN"
+      },
+      {
+        "text": "NASA Artemis II fault-tolerant computer: triple-redundant voting for AI infra patterns",
+        "metric": "251 pts",
+        "source": "HN"
+      },
+      {
+        "text": "SynthID watermark publicly reversed — Google AI content provenance compromised",
+        "metric": "131 pts",
+        "source": "HN"
+      }
+    ],
+    "takeaway": {
+      "text": "Today's dominant signal is the gap between official infrastructure and practitioner reality. Apple's OS has a hidden API delivering instant space switching that 432 engineers discovered themselves. Google's SynthID watermark — its official AI content provenance system — is publicly defeated in a frequency-domain attack with a 6x engagement spike confirming community verification. NASA's fault-tolerant voting architecture from space engineering is being read as a template for AI infra recovery, because the official cloud patterns don't cover it. And three Lobsters essays on AI epistemic failure are trending simultaneously, assembling a structural critique that the community did not need a research paper to articulate. The builders are ahead of the institutions on every story today."
+    }
+  }
+}

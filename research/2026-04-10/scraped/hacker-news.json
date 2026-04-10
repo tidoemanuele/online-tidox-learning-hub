@@ -1,0 +1,122 @@
+[
+  {
+    "rank": 1,
+    "title": "How NASA built Artemis II\u2019s fault-tolerant computer",
+    "url": "https://cacm.acm.org/news/how-nasa-built-artemis-iis-fault-tolerant-computer/",
+    "hn_url": "https://news.ycombinator.com/item?id=47704804",
+    "points": 251,
+    "comments": 84
+  },
+  {
+    "rank": 2,
+    "title": "The Raft Consensus Algorithm Explained Through \"Mean Girls\"",
+    "url": "https://www.cockroachlabs.com/blog/raft-is-so-fetch/",
+    "hn_url": "https://news.ycombinator.com/item?id=47713113",
+    "points": 51,
+    "comments": 13
+  },
+  {
+    "rank": 3,
+    "title": "Native Instant Space Switching on macOS",
+    "url": "https://arhan.sh/blog/native-instant-space-switching-on-macos/",
+    "hn_url": "https://news.ycombinator.com/item?id=47708818",
+    "points": 432,
+    "comments": 200
+  },
+  {
+    "rank": 4,
+    "title": "Generative art over the years",
+    "url": "https://blog.veitheller.de/Generative_art_over_the_years.html",
+    "hn_url": "https://news.ycombinator.com/item?id=47675906",
+    "points": 91,
+    "comments": 23
+  },
+  {
+    "rank": 5,
+    "title": "I still prefer MCP over skills",
+    "url": "https://david.coffee/i-still-prefer-mcp-over-skills/",
+    "hn_url": "https://news.ycombinator.com/item?id=47712718",
+    "points": 54,
+    "comments": 63
+  },
+  {
+    "rank": 6,
+    "title": "Principles of Mechanical Sympathy",
+    "url": "https://martinfowler.com/articles/mechanical-sympathy-principles.html",
+    "hn_url": "https://news.ycombinator.com/item?id=47675731",
+    "points": 32,
+    "comments": 4
+  },
+  {
+    "rank": 7,
+    "title": "We've raised $17M to build what comes after Git",
+    "url": "https://blog.gitbutler.com/series-a",
+    "hn_url": "https://news.ycombinator.com/item?id=47712656",
+    "points": 45,
+    "comments": 64
+  },
+  {
+    "rank": 8,
+    "title": "Charcuterie \u2013 Visual similarity Unicode explorer",
+    "url": "https://charcuterie.elastiq.ch/",
+    "hn_url": "https://news.ycombinator.com/item?id=47709158",
+    "points": 185,
+    "comments": 34
+  },
+  {
+    "rank": 9,
+    "title": "CollectWise (YC F24) Is Hiring",
+    "url": "https://www.ycombinator.com/companies/collectwise/jobs/Ktc6m6o-ai-agent-engineer",
+    "hn_url": "https://news.ycombinator.com/item?id=47713744",
+    "points": 1,
+    "comments": 0
+  },
+  {
+    "rank": 10,
+    "title": "Hip-hop pioneer, Afrika Bambaataa, dies aged 68",
+    "url": "https://www.bbc.co.uk/news/articles/c2evppm30p7o",
+    "hn_url": "https://news.ycombinator.com/item?id=47713584",
+    "points": 67,
+    "comments": 9
+  },
+  {
+    "rank": 11,
+    "title": "RAM Has a Design Flaw from 1966. I Bypassed It [video]",
+    "url": "https://www.youtube.com/watch?v=KKbgulTp3FE",
+    "hn_url": "https://news.ycombinator.com/item?id=47680005",
+    "points": 142,
+    "comments": 21
+  },
+  {
+    "rank": 12,
+    "title": "PicoZ80 \u2013 Drop-In Z80 Replacement",
+    "url": "https://eaw.app/picoz80/",
+    "hn_url": "https://news.ycombinator.com/item?id=47708041",
+    "points": 176,
+    "comments": 30
+  },
+  {
+    "rank": 13,
+    "title": "Reverse engineering Gemini's SynthID detection",
+    "url": "https://github.com/aloshdenny/reverse-SynthID",
+    "hn_url": "https://news.ycombinator.com/item?id=47709130",
+    "points": 131,
+    "comments": 49
+  },
+  {
+    "rank": 14,
+    "title": "Unfolder for Mac \u2013 A 3D model unfolding tool for creating papercraft",
+    "url": "https://www.unfolder.app/",
+    "hn_url": "https://news.ycombinator.com/item?id=47706140",
+    "points": 187,
+    "comments": 37
+  },
+  {
+    "rank": 15,
+    "title": "Old laptops in a colo as low cost servers",
+    "url": "https://colaptop.pages.dev/",
+    "hn_url": "https://news.ycombinator.com/item?id=47707477",
+    "points": 216,
+    "comments": 121
+  }
+]

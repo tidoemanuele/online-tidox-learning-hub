@@ -1,0 +1,74 @@
+[
+  {
+    "name": "reverse-SynthID",
+    "fullName": "aloshdenny/reverse-SynthID",
+    "description": "Frequency-domain attack that defeats Google Gemini's SynthID watermark detection — documents the inverse-signature injection technique",
+    "language": "Python",
+    "stars_today": "756 stars today",
+    "total_stars": "3800",
+    "url": "https://github.com/aloshdenny/reverse-SynthID"
+  },
+  {
+    "name": "memplace",
+    "fullName": "milla-jovovich/memplace",
+    "description": "The highest-scoring AI memory system ever benchmarked — persistent, structured memory for LLM agents",
+    "language": "Python",
+    "stars_today": "843 stars today",
+    "total_stars": "17300",
+    "url": "https://github.com/milla-jovovich/memplace"
+  },
+  {
+    "name": "claude-code",
+    "fullName": "anthropics/claude-code",
+    "description": "An agentic coding tool that lives in your terminal and understands your entire codebase",
+    "language": "TypeScript",
+    "stars_today": "580 stars today",
+    "total_stars": "110900",
+    "url": "https://github.com/anthropics/claude-code"
+  },
+  {
+    "name": "claw-code",
+    "fullName": "ultraworkers/claw-code",
+    "description": "Open-source personal AI assistant gateway connecting frontier models to 50+ integrations; runs entirely on your own devices",
+    "language": "Rust",
+    "stars_today": "490 stars today",
+    "total_stars": "174200",
+    "url": "https://github.com/ultraworkers/claw-code"
+  },
+  {
+    "name": "awesome-design-md",
+    "fullName": "VoltAgent/awesome-design-md",
+    "description": "A collection of DESIGN.md files that capture the design systems of popular websites so coding agents can replicate them",
+    "language": "HTML",
+    "stars_today": "367 stars today",
+    "total_stars": "31600",
+    "url": "https://github.com/VoltAgent/awesome-design-md"
+  },
+  {
+    "name": "career-ops",
+    "fullName": "santifer/career-ops",
+    "description": "AI agent for automated career operations, job tracking, and web scraping of opportunities",
+    "language": "JavaScript",
+    "stars_today": "312 stars today",
+    "total_stars": "19700",
+    "url": "https://github.com/santifer/career-ops"
+  },
+  {
+    "name": "graphify",
+    "fullName": "safishamsi/graphify",
+    "description": "Turn any folder of code, docs, papers, or images into a queryable knowledge graph for AI coding assistants",
+    "language": "Python",
+    "stars_today": "298 stars today",
+    "total_stars": "2700",
+    "url": "https://github.com/safishamsi/graphify"
+  },
+  {
+    "name": "awesome-ai-agents-2026",
+    "fullName": "caramaschiHG/awesome-ai-agents-2026",
+    "description": "The most comprehensive list of AI agents, frameworks and tools in 2026. 300+ resources, 20+ categories, updated monthly",
+    "language": "Markdown",
+    "stars_today": "312 stars today",
+    "total_stars": "8500",
+    "url": "https://github.com/caramaschiHG/awesome-ai-agents-2026"
+  }
+]

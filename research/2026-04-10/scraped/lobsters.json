@@ -1,0 +1,146 @@
+[
+  {
+    "title": "What are your programming \"hunches\" you haven't yet investigated?",
+    "score": 104,
+    "tags": [
+      "ask",
+      "programming"
+    ],
+    "url": "",
+    "comments_url": "https://lobste.rs/s/gns27z/what_are_your_programming_hunches_you"
+  },
+  {
+    "title": "Let\u2019s talk about LLMs",
+    "score": 39,
+    "tags": [
+      "vibecoding"
+    ],
+    "url": "https://www.b-list.org/weblog/2026/apr/09/llms/",
+    "comments_url": "https://lobste.rs/s/j2l2ya/let_s_talk_about_llms"
+  },
+  {
+    "title": "TIL that Helix and Typst are a match made in heaven",
+    "score": 38,
+    "tags": [
+      "editors"
+    ],
+    "url": "https://ergaster.org/til/helix-typst-match-in-heaven/",
+    "comments_url": "https://lobste.rs/s/1iwyg7/til_helix_typst_are_match_made_heaven"
+  },
+  {
+    "title": "You can absolutely have an RSS dependent website in 2026",
+    "score": 37,
+    "tags": [
+      "web"
+    ],
+    "url": "https://matduggan.com/you-can-absolutely-have-an-rss-dependent-website-in-2026/",
+    "comments_url": "https://lobste.rs/s/s51wss/you_can_absolutely_have_rss_dependent"
+  },
+  {
+    "title": "Elastic tabstops (2006)",
+    "score": 16,
+    "tags": [
+      "practices"
+    ],
+    "url": "https://nick-gravgaard.com/elastic-tabstops/",
+    "comments_url": "https://lobste.rs/s/pli6nn/elastic_tabstops_2006"
+  },
+  {
+    "title": "Incremental compilation with LLVM",
+    "score": 9,
+    "tags": [
+      "zig"
+    ],
+    "url": "https://ziglang.org/devlog/2026/#2026-04-08",
+    "comments_url": "https://lobste.rs/s/tbud4j/incremental_compilation_with_llvm"
+  },
+  {
+    "title": "Little Snitch for Linux",
+    "score": 138,
+    "tags": [
+      "linux",
+      "release",
+      "security"
+    ],
+    "url": "https://obdev.at/blog/little-snitch-for-linux/",
+    "comments_url": "https://lobste.rs/s/2zrhn4/little_snitch_for_linux"
+  },
+  {
+    "title": "The AI Great Leap Forward",
+    "score": 41,
+    "tags": [
+      "practices",
+      "vibecoding"
+    ],
+    "url": "https://leehanchung.github.io/blogs/2026/04/05/the-ai-great-leap-forward/",
+    "comments_url": "https://lobste.rs/s/nmhkdl/ai_great_leap_forward"
+  },
+  {
+    "title": "But what about K?",
+    "score": 36,
+    "tags": [
+      "apl",
+      "c"
+    ],
+    "url": "https://tony-zorman.com/posts/whitney-k.html",
+    "comments_url": "https://lobste.rs/s/nfrinx/what_about_k"
+  },
+  {
+    "title": "Borrow-checking surprises",
+    "score": 67,
+    "tags": [
+      "plt",
+      "rust"
+    ],
+    "url": "https://www.scattered-thoughts.net/writing/borrow-checking-surprises/",
+    "comments_url": "https://lobste.rs/s/lgdejq/borrow_checking_surprises"
+  },
+  {
+    "title": "The Future of Everything is Lies, I Guess",
+    "score": 161,
+    "tags": [
+      "vibecoding"
+    ],
+    "url": "https://aphyr.com/posts/411-the-future-of-everything-is-lies-i-guess",
+    "comments_url": "https://lobste.rs/s/phhjvs/future_everything_is_lies_i_guess"
+  },
+  {
+    "title": "My Login Shell in Assembly",
+    "score": 3,
+    "tags": [
+      "assembly",
+      "vibecoding"
+    ],
+    "url": "https://isene.org/2026/04/Bare.html",
+    "comments_url": "https://lobste.rs/s/wnizjm/my_login_shell_assembly"
+  },
+  {
+    "title": "I made a productivity device for less than 50 bucks",
+    "score": 21,
+    "tags": [
+      "hardware"
+    ],
+    "url": "https://thelibre.news/i-made-the-ultimate-productivity-device/",
+    "comments_url": "https://lobste.rs/s/vuphp4/i_made_productivity_device_for_less_than"
+  },
+  {
+    "title": "Yacc is Not Dead (2010)",
+    "score": 4,
+    "tags": [
+      "unix"
+    ],
+    "url": "https://research.swtch.com/yaccalive",
+    "comments_url": "https://lobste.rs/s/ylkrnu/yacc_is_not_dead_2010"
+  },
+  {
+    "title": "Running NixOS Micro VMs on MacOS",
+    "score": 6,
+    "tags": [
+      "mac",
+      "nix",
+      "virtualization"
+    ],
+    "url": "https://abhinavsarkar.net/notes/2026-microvm-nix/",
+    "comments_url": "https://lobste.rs/s/jqwrhe/running_nixos_micro_vms_on_macos"
+  }
+]

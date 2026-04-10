@@ -1,0 +1,186 @@
+[
+  {
+    "type": "intro",
+    "highlight": "Intelligence Brief — April 10, 2026",
+    "subtext": "Today's top signal is the gap between official systems and practitioner reality"
+  },
+  {
+    "type": "number",
+    "highlight": "macOS Spaces hidden API",
+    "number": "432",
+    "subtext": "HN points on window management — unexpectedly the day's top story",
+    "label": "HN PTS"
+  },
+  {
+    "type": "insight",
+    "highlight": "Private CoreGraphics API enables instant Space switching",
+    "subtext": "200 engineers sharing keyboard configs — power-user density, not debate",
+    "label": "MACOS"
+  },
+  {
+    "type": "quote",
+    "highlight": "That's not a feature story — it's an API gap story",
+    "subtext": "Developers found the workaround Apple didn't expose"
+  },
+  {
+    "type": "insight",
+    "highlight": "NASA Artemis II: triple-redundant voting architecture",
+    "subtext": "251 HN pts, 0.33:1 ratio — engineers reading, not debating",
+    "label": "FAULT TOLERANCE"
+  },
+  {
+    "type": "quote",
+    "highlight": "When one votes wrong, two override it",
+    "subtext": "No single point of failure — the pattern AI infra doesn't yet have"
+  },
+  {
+    "type": "insight",
+    "highlight": "Diversity + voting + graceful degradation",
+    "subtext": "Space engineering's answer to 'how do you build a computer that cannot fail?'",
+    "label": "SYSTEMS"
+  },
+  {
+    "type": "insight",
+    "highlight": "AI agents have no equivalent recovery path",
+    "subtext": "Model server fails → entire agent state lost. Space patterns apply."
+  },
+  {
+    "type": "insight",
+    "highlight": "Two top stories: the same gap, different domains",
+    "subtext": "What official systems provide vs. what practitioners actually need"
+  },
+  {
+    "type": "intro",
+    "highlight": "Story Three: SynthID is publicly defeated",
+    "subtext": "Google's AI content provenance layer, compromised",
+    "label": "SECURITY"
+  },
+  {
+    "type": "number",
+    "highlight": "SynthID reversal acceleration",
+    "number": "6x",
+    "subtext": "131 pts today, up from 22 pts yesterday — community peer-review spike",
+    "label": "1-DAY ACCELERATION"
+  },
+  {
+    "type": "insight",
+    "highlight": "Publish → verify → upvote confirmation",
+    "subtext": "How a 6x single-day spike happens: community peer review at scale"
+  },
+  {
+    "type": "insight",
+    "highlight": "Frequency-domain attack defeats SynthID imperceptibility",
+    "subtext": "Gemini, Imagen, YouTube — three surfaces, one public defeat",
+    "label": "ATTACK VECTOR"
+  },
+  {
+    "type": "quote",
+    "highlight": "Three product surfaces, one defeat. Now what?",
+    "subtext": "Anyone building on content provenance needs a new trust model"
+  },
+  {
+    "type": "insight",
+    "highlight": "Watermarks are not your trust layer",
+    "subtext": "Aphyr at Lobsters #1: plausibility engines cannot be structural sources of truth",
+    "label": "APHYR"
+  },
+  {
+    "type": "insight",
+    "highlight": "Three AI epistemic critiques trending simultaneously",
+    "subtext": "'The AI Great Leap Forward', 'Let's Talk About LLMs', Aphyr — all in the same feed"
+  },
+  {
+    "type": "quote",
+    "highlight": "The failure is structural, not a calibration you can tune away",
+    "subtext": "The community is assembling the theory, not debating the symptoms"
+  },
+  {
+    "type": "insight",
+    "highlight": "Old laptops in a colo: 216 pts, 121 comments",
+    "subtext": "ThinkPads and X230s delivering 16 cores for $30/month vs. cloud",
+    "label": "COST SIGNAL"
+  },
+  {
+    "type": "number",
+    "highlight": "Colo cost per rack unit",
+    "number": "$30",
+    "subtext": "8-16 cores, 32GB RAM — engineers doing the per-token math",
+    "label": "PER MONTH"
+  },
+  {
+    "type": "insight",
+    "highlight": "These comments are operational, not aspirational",
+    "subtext": "Providers, power draw, BMC-over-USB — the playbook is already written"
+  },
+  {
+    "type": "number",
+    "highlight": "GitButler Series A",
+    "number": "$17M",
+    "subtext": "Sequoia-led round to build what comes after Git — highest controversy today",
+    "label": "SERIES A"
+  },
+  {
+    "type": "insight",
+    "highlight": "1.42:1 comment-to-point ratio — maximum contention",
+    "subtext": "More comments per point than SynthID. Community agrees Git is broken; can't agree on the fix."
+  },
+  {
+    "type": "quote",
+    "highlight": "'What comes after Git' is doing work the product can't justify yet",
+    "subtext": "Institutional money believes the category. Practitioners are skeptical."
+  },
+  {
+    "type": "insight",
+    "highlight": "MCP vs Skills: 1.17:1 controversy ratio",
+    "subtext": "Second-highest debate density of the day — protocol ownership is contested",
+    "label": "ARCHITECTURE"
+  },
+  {
+    "type": "insight",
+    "highlight": "Model-agnostic auditable protocol vs. native vendor capability",
+    "subtext": "The answer determines whether the agent ecosystem fragments or converges"
+  },
+  {
+    "type": "quote",
+    "highlight": "Protocol ecosystem vs. vendor ecosystem — the biggest agent decision now",
+    "subtext": "High-ratio debates predict category definitions six months later"
+  },
+  {
+    "type": "repo",
+    "highlight": "milla-jovovich/memplace",
+    "subtext": "+843 stars/day · 17.3K total · Python",
+    "label": "GITHUB TRENDING"
+  },
+  {
+    "type": "insight",
+    "highlight": "Memory system + attack tool — both accelerating in parallel",
+    "subtext": "memplace +843/d (capability), reverse-SynthID +756/d (attack) — same day"
+  },
+  {
+    "type": "action",
+    "highlight": "Table stakes: memory layer, recovery patterns, trust beyond watermarks",
+    "subtext": "Both offense and defense are being commoditized simultaneously",
+    "label": "BUILD THIS"
+  },
+  {
+    "type": "insight",
+    "highlight": "Builders are ahead of every official system today",
+    "subtext": "Found the macOS API. Defeated the watermark. Applying space fault patterns to AI."
+  },
+  {
+    "type": "quote",
+    "highlight": "The gap between institutions and practitioners has never been wider",
+    "subtext": "And that gap is where every interesting product is being built"
+  },
+  {
+    "type": "action",
+    "highlight": "Go build in the gap",
+    "subtext": "That's the brief for April 10, 2026",
+    "label": "CLOSE"
+  },
+  {
+    "type": "close",
+    "highlight": "Intelligence Brief — See you tomorrow",
+    "subtext": "tidox.com/learn"
+  }
+]
