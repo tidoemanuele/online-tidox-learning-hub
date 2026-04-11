@@ -3,104 +3,82 @@
   "episodeNumber": 21,
   "locale": "en-US",
   "title": "Intelligence Brief",
-  "subtitle": "1D Chess lands at #1 on HN with 753 HN pts and 136, Artemis II safely splashes down, Filing the corners off my MacBooks pulls 625 HN pt",
+  "subtitle": "20 Years on AWS and Never Not My Job, Filing the corners off my MacBooks, Artemis II safely splashes down",
   "heroStat": {
     "value": "753",
     "label": "points on \"1D Chess\""
   },
   "insights": [
     {
-      "text": "1D Chess lands at #1 on HN with 753 HN pts and 136 comments (0.18:1 comment-to-point ratio) — the day's lowest controversy ratio and highest score, meaning near-pure enthusiasm with almost no argument. The game at rowan441.github.io/1dchess/chess.html collapses chess to a single dimension: a linear row of eight squares, two kings, instant checkmate rules. The 0.18:1 ratio is the practitioner equivalent of a standing ovation: 753 people upvoted without needing to debate. When the day's top story is a puzzle game engineered to be immediately comprehensible and absurd — delivered in a single HTML page — the community is signaling what it wants from creative coding: compression of a complex domain to its minimal interesting form. The low comment ratio distinguishes celebration from controversy. The practitioner community does not argue about things that are purely delightful.",
+      "text": "20 Years on AWS and Never Not My Job (39 pts, 1 comments)",
       "tags": [
-        "github-trending"
+        "hacker-news"
       ],
-      "source": "HN 753pts",
-      "url": "https://rowan441.github.io/1dchess/chess.html"
+      "source": "HN 39pts"
     },
     {
-      "text": "Artemis II safely splashes down (734 HN pts, 253 comments, 0.35:1 ratio) — the crew of Reid Wiseman, Victor Glover, Christina Koch, and Jeremy Hansen returned to the Pacific Ocean at 8:07 p.m. ET on April 10, completing the first crewed lunar-distance mission in 53 years and setting a new record for the farthest distance any humans have traveled from Earth. The 0.35:1 ratio is healthy engagement, not debate: engineers are reading, sharing trajectory data, and processing the mission timeline. The splashdown completes the story arc that HN has tracked since Artemis II's launch on April 1 — ten days of live mission coverage that peaked at 459 pts for the far-side-of-Moon first glimpse. The parallel across two days: on April 10, humans safely splash down from the farthest humans have ever been. On April 11, the community's top story is a one-dimensional chess game. Both belong at the top of the same feed. The range is the signal.",
-      "tags": [],
-      "source": "HN 734pts",
-      "url": "https://www.cbsnews.com/live-updates/artemis-ii-splashdown-return/"
-    },
-    {
-      "text": "Filing the corners off my MacBooks pulls 625 HN pts and 327 comments (0.52:1 ratio) — the day's highest comment-to-point ratio for any story. Kent Walters documents physically sanding and filing the sharp aluminum corners of his MacBook Air and Pro to eliminate wrist discomfort during extended use. The 0.52:1 ratio is the signature of a contested identity question, not a technical debate: engineers arguing about whether tools are sacred or functional, whether modifying expensive hardware is an act of stewardship or vandalism, and sharing their own MacBook body modifications, keyboard feels, and ergonomic workarounds. The story joins a durable thread in practitioner culture: the developer who treats the tool as raw material rather than a curated experience. Filing MacBook corners in 2026 is the same impulse as installing custom ROM on an Android device in 2012 — ownership asserted at the physical layer.",
-      "tags": [],
-      "source": "HN 625pts",
-      "url": "https://kentwalters.com/posts/corners/"
-    },
-    {
-      "text": "WireGuard ships a new Windows release after Microsoft resolves developer account lockout (443 HN pts, 125 comments, 0.28:1 ratio) — Jason Donenfeld's signed Windows driver is back in distribution after Microsoft reinstated the WireGuard Hardware Program account that was suspended in early April during a mandatory partner verification sweep. VeraCrypt and Windscribe were simultaneously affected. The 0.28:1 ratio is relief, not analysis: engineers are downloading the new release, not litigating what happened. The story's significance is systemic: three of the most trusted security tools in the Windows ecosystem were simultaneously blocked from shipping updates by an administrative process, not a security finding. When a mandatory verification sweep can halt distribution of a VPN, a disk encryption tool, and a privacy VPN simultaneously — with no advance notice and no fast recovery path — the Windows driver signing dependency is revealed as a single point of failure for critical open-source security infrastructure.",
+      "text": "Filing the corners off my MacBooks (625 pts, 327 comments)",
       "tags": [
-        "security",
-        "supply-chain",
-        "open-source"
+        "hacker-news"
       ],
-      "source": "HN 443pts",
-      "url": "https://lists.zx2c4.com/pipermail/wireguard/2026-April/009561.html"
+      "source": "HN 625pts"
     },
     {
-      "text": "The Linux kernel now has a formal policy on AI coding assistants (256 HN pts, 169 comments, 0.66:1 ratio) — the highest controversy ratio of the day's top stories. The document in torvalds/linux/Documentation/process/coding-assistants.rst establishes ground rules for AI-generated code submissions: contributors must disclose AI assistance, AI-generated patches cannot be submitted without human review of every line, and maintainers may reject patches that show evidence of uncritical AI output. The 0.66:1 ratio means engineers are arguing, not just reading: the thread splits into three factions — those who see the policy as appropriate rigor for a codebase running 97% of the world's servers, those who see it as the beginning of a broader tooling suppression, and those analyzing whether the policy is even enforceable given that AI-assisted code is increasingly indistinguishable from human-written code. Linus Torvalds formalizing AI governance before any other major kernel project is a policy anchor: every downstream Linux distributor and embedded systems vendor now has a reference document for their own AI contribution policies.",
-      "tags": [],
-      "source": "HN 256pts",
-      "url": "https://github.com/torvalds/linux/blob/master/Documentation/process/coding-assistants.rst"
-    },
-    {
-      "text": "CPU-Z and HWMonitor are compromised via CPUID site hijack (302 HN pts, 87 comments, 0.29:1 ratio) — the same day Keychron opens its full hardware design library (344 HN pts, 108 comments, 0.31:1 ratio). Two opposite hardware signals in the same 24-hour window. The CPUID hijack is a supply chain attack on diagnostic software used by millions of PC hardware enthusiasts and overclockers: the cpuid.com site was replaced with a malicious actor serving trojanized installer builds of CPU-Z and HWMonitor. The attack pattern is a trusted brand exploited through web infrastructure compromise rather than package repository infiltration. Simultaneously, Keychron publishes STEP, DXF, DWG, and PDF CAD files for 100+ keyboard and mouse models at github.com/Keychron/Keychron-Keyboards-Hardware-Design — enabling community-made compatible accessories under a source-available license. Both stories are about hardware trust: one exploits it, one builds it. The hardware security threat surface and the hardware commons are both expanding on the same day.",
+      "text": "Artemis II safely splashes down (734 pts, 253 comments)",
       "tags": [
-        "security",
-        "supply-chain",
-        "github-trending"
+        "hacker-news"
       ],
-      "source": "HN 302pts",
-      "url": "https://www.theregister.com/2026/04/10/cpuid_site_hijacked/"
+      "source": "HN 734pts"
     },
     {
-      "text": "'Installing every Firefox extension' earns 279 HN pts (30 comments, 0.11:1 ratio) and simultaneously reaches Lobsters at 57 pts with the browsers tag — the day's clearest cross-platform signal. Jack's experiment documents installing all ~84,000 Firefox extensions into a single browser profile on a virtual machine, reaching 49.3 GB of total storage and discovering that performance degrades to unusable above 4,000 extensions while the browser still technically loads pages. The 0.11:1 ratio on HN is the second-lowest of the day — behind 1D Chess — meaning this is celebration and fascination, not debate. The cross-platform pickup (HN readers + Lobsters browsers-tag readers) confirms the appeal is universal: a fully scoped, completionist engineering experiment with a specific finding about the boundary conditions of browser extension architecture. The practitioner community rewards projects that map the edges of a system they use every day. You do not need to install 84,000 extensions to use Firefox; you need someone to find out what happens if you do.",
-      "tags": [],
-      "source": "HN 279pts",
-      "url": "https://jack.cab/blog/every-firefox-extension"
-    },
-    {
-      "text": "Lobsters' highest-scoring story of the day is 'What are your programming hunches you haven't yet investigated?' at 151 pts (ask, programming tag) — the day's signal about the practitioner community's inner life. The ask thread accumulates hypotheses engineers have been carrying: that certain GC implementations have pathological failure modes at specific heap sizes, that human-readable error messages make code less debuggable at scale, that most software complexity exists because of assumptions about hardware that no longer hold. The thread is not about AI, not about any specific tool, not about a company or a model release. On a day when HN is processing a viral chess game, a lunar splashdown, MacBook surgery, and kernel governance, Lobsters surfaces what engineers are actually thinking about when they are not reacting. A 151-point practitioner ask thread about unresolved hypotheses is a research agenda published in public. The community is not short of things to investigate — it is short of time and permission to investigate them.",
+      "text": "1D Chess (753 pts, 136 comments)",
       "tags": [
-        "research"
+        "hacker-news"
       ],
-      "url": "https://lobste.rs/s/gns27z/what_are_your_programming_hunches_you"
+      "source": "HN 753pts"
+    },
+    {
+      "text": "Chimpanzees in Uganda locked in eight-year 'civil war', say researchers (295 pts, 152 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 295pts"
+    },
+    {
+      "text": "Installing every* Firefox extension (279 pts, 30 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 279pts"
     }
   ],
   "trending": [
     {
       "name": "rowboat",
-      "fullName": "rowboatlabs/rowboat",
       "stars": "8.4K",
       "language": "Python",
       "delta": "+1,243/d"
     },
     {
       "name": "Keychron-Keyboards-Hardware-Design",
-      "fullName": "Keychron/Keychron-Keyboards-Hardware-Design",
       "stars": "6.2K",
       "language": "Unknown",
       "delta": "+987/d"
     },
     {
       "name": "mempalace",
-      "fullName": "milla-jovovich/mempalace",
       "stars": "36.5K",
       "language": "Python",
       "delta": "+891/d"
     },
     {
       "name": "ecc-vs-lattices-long-bet",
-      "fullName": "FiloSottile/ecc-vs-lattices-long-bet",
       "stars": "3.1K",
       "language": "Unknown",
       "delta": "+612/d"
     },
     {
       "name": "maki",
-      "fullName": "makishan/maki",
       "stars": "4.8K",
       "language": "Go",
       "delta": "+543/d"
@@ -124,7 +102,7 @@
     },
     {
       "label": "Insights Today",
-      "value": "8",
+      "value": "6",
       "unit": "stories"
     }
   ],
@@ -135,23 +113,23 @@
     },
     "headlines": [
       {
-        "text": "1D Chess lands at #1 on HN with 753 HN pts and 136 comments",
-        "metric": "753 pts",
-        "source": "HN"
+        "text": "20 Years on AWS and Never Not My Job",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Filing the corners off my MacBooks",
+        "metric": "—",
+        "source": "web"
       },
       {
         "text": "Artemis II safely splashes down",
-        "metric": "734 pts",
-        "source": "HN"
-      },
-      {
-        "text": "Filing the corners off my MacBooks pulls 625 HN pts and 327 comments",
-        "metric": "625 pts",
-        "source": "HN"
+        "metric": "—",
+        "source": "web"
       }
     ],
     "takeaway": {
-      "text": "Today the practitioner community's highest-upvoted story is a one-dimensional chess game, its second is a lunar splashdown. Between them: hardware hacking, kernel governance, and a 151-point thread of unresolved engineering hypotheses. When the feed holds all of this in the same session, the range is the signal."
+      "text": "Today's brief covers the most interesting signals across the tech landscape."
     }
   }
 }
