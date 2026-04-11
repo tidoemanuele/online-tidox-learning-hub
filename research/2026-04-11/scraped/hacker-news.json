@@ -1,0 +1,162 @@
+[
+  {
+    "rank": 1,
+    "title": "20 Years on AWS and Never Not My Job",
+    "url": "https://www.daemonology.net/blog/2026-04-11-20-years-on-AWS-and-never-not-my-job.html",
+    "hn_url": "https://news.ycombinator.com/item?id=47727711",
+    "points": 39,
+    "comments": 1
+  },
+  {
+    "rank": 2,
+    "title": "Filing the corners off my MacBooks",
+    "url": "https://kentwalters.com/posts/corners/",
+    "hn_url": "https://news.ycombinator.com/item?id=47724352",
+    "points": 625,
+    "comments": 327
+  },
+  {
+    "rank": 3,
+    "title": "Artemis II safely splashes down",
+    "url": "https://www.cbsnews.com/live-updates/artemis-ii-splashdown-return/",
+    "hn_url": "https://news.ycombinator.com/item?id=47725583",
+    "points": 734,
+    "comments": 253
+  },
+  {
+    "rank": 4,
+    "title": "1D Chess",
+    "url": "https://rowan441.github.io/1dchess/chess.html",
+    "hn_url": "https://news.ycombinator.com/item?id=47719740",
+    "points": 753,
+    "comments": 136
+  },
+  {
+    "rank": 5,
+    "title": "Chimpanzees in Uganda locked in eight-year 'civil war', say researchers",
+    "url": "https://www.bbc.com/news/articles/cr71lkzv49po",
+    "hn_url": "https://news.ycombinator.com/item?id=47722333",
+    "points": 295,
+    "comments": 152
+  },
+  {
+    "rank": 6,
+    "title": "Installing every* Firefox extension",
+    "url": "https://jack.cab/blog/every-firefox-extension",
+    "hn_url": "https://news.ycombinator.com/item?id=47724118",
+    "points": 279,
+    "comments": 30
+  },
+  {
+    "rank": 7,
+    "title": "Bevy game development tutorials and in-depth resources",
+    "url": "https://taintedcoders.com/",
+    "hn_url": "https://news.ycombinator.com/item?id=47698111",
+    "points": 59,
+    "comments": 6
+  },
+  {
+    "rank": 8,
+    "title": "WireGuard makes new Windows release following Microsoft signing resolution",
+    "url": "https://lists.zx2c4.com/pipermail/wireguard/2026-April/009561.html",
+    "hn_url": "https://news.ycombinator.com/item?id=47719942",
+    "points": 443,
+    "comments": 125
+  },
+  {
+    "rank": 9,
+    "title": "Starfling: A one-tap endless orbital slingshot game in a single HTML file",
+    "url": "https://playstarfling.com",
+    "hn_url": "https://news.ycombinator.com/item?id=47698455",
+    "points": 32,
+    "comments": 14
+  },
+  {
+    "rank": 10,
+    "title": "Industrial design files for Keychron keyboards and mice",
+    "url": "https://github.com/Keychron/Keychron-Keyboards-Hardware-Design",
+    "hn_url": "https://news.ycombinator.com/item?id=47720419",
+    "points": 344,
+    "comments": 108
+  },
+  {
+    "rank": 11,
+    "title": "AI assistance when contributing to the Linux kernel",
+    "url": "https://github.com/torvalds/linux/blob/master/Documentation/process/coding-assistants.rst",
+    "hn_url": "https://news.ycombinator.com/item?id=47721953",
+    "points": 256,
+    "comments": 169
+  },
+  {
+    "rank": 12,
+    "title": "JSON formatter Chrome plugin now closed and injecting adware",
+    "url": "https://github.com/callumlocke/json-formatter",
+    "hn_url": "https://news.ycombinator.com/item?id=47721946",
+    "points": 190,
+    "comments": 105
+  },
+  {
+    "rank": 13,
+    "title": "Investigating Split Locks on x86-64",
+    "url": "https://chipsandcheese.com/p/investigating-split-locks-on-x86",
+    "hn_url": "https://news.ycombinator.com/item?id=47685984",
+    "points": 45,
+    "comments": 9
+  },
+  {
+    "rank": 14,
+    "title": "A practical guide for setting up Zettelkasten method in Obsidian",
+    "url": "https://desktopcommander.app/blog/zettelkasten-obsidian/",
+    "hn_url": "https://news.ycombinator.com/item?id=47700556",
+    "points": 31,
+    "comments": 12
+  },
+  {
+    "rank": 15,
+    "title": "CPU-Z and HWMonitor compromised",
+    "url": "https://www.theregister.com/2026/04/10/cpuid_site_hijacked/",
+    "hn_url": "https://news.ycombinator.com/item?id=47717847",
+    "points": 302,
+    "comments": 87
+  },
+  {
+    "rank": 16,
+    "title": "Helium is hard to replace",
+    "url": "https://www.construction-physics.com/p/helium-is-hard-to-replace",
+    "hn_url": "https://news.ycombinator.com/item?id=47719274",
+    "points": 288,
+    "comments": 201
+  },
+  {
+    "rank": 17,
+    "title": "Italo Calvino: A traveller in a world of uncertainty",
+    "url": "https://www.historytoday.com/archive/portrait-author-historian/italo-calvino-traveller-world-uncertainty",
+    "hn_url": "https://news.ycombinator.com/item?id=47725403",
+    "points": 61,
+    "comments": 12
+  },
+  {
+    "rank": 18,
+    "title": "What is RISC-V and why it matters to Canonical",
+    "url": "https://ubuntu.com/blog/risc-v-101-what-is-it-and-what-does-it-mean-for-canonical",
+    "hn_url": "https://news.ycombinator.com/item?id=47691538",
+    "points": 118,
+    "comments": 73
+  },
+  {
+    "rank": 19,
+    "title": "Quien \u2013 A better WHOIS lookup tool",
+    "url": "https://github.com/retlehs/quien/",
+    "hn_url": "https://news.ycombinator.com/item?id=47727076",
+    "points": 17,
+    "comments": 4
+  },
+  {
+    "rank": 20,
+    "title": "The Bra-and-Girdle Maker That Fashioned the Impossible for NASA",
+    "url": "https://thereader.mitpress.mit.edu/the-bra-and-girdle-maker-that-fashioned-the-impossible-for-nasa/",
+    "hn_url": "https://news.ycombinator.com/item?id=47701769",
+    "points": 74,
+    "comments": 4
+  }
+]

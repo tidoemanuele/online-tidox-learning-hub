@@ -1,0 +1,146 @@
+[
+  {
+    "title": "Put your SSH keys in your TPM chip",
+    "score": 29,
+    "tags": [
+      "linux",
+      "security"
+    ],
+    "url": "https://raymii.org/s/tutorials/Put_your_SSH_keys_in_your_TPM_chip.html",
+    "comments_url": "https://lobste.rs/s/ggum7f/put_your_ssh_keys_your_tpm_chip"
+  },
+  {
+    "title": "Why Aren't We uv Yet?",
+    "score": 29,
+    "tags": [
+      "python"
+    ],
+    "url": "https://aleyan.com/blog/2026-why-arent-we-uv-yet",
+    "comments_url": "https://lobste.rs/s/xfbwic/why_aren_t_we_uv_yet"
+  },
+  {
+    "title": "Meet Kiki - an array language",
+    "score": 27,
+    "tags": [
+      "apl",
+      "plt"
+    ],
+    "url": "https://eli.li/kiki",
+    "comments_url": "https://lobste.rs/s/cwxvlh/meet_kiki_array_language"
+  },
+  {
+    "title": "The Honest Climate Case for AI",
+    "score": 15,
+    "tags": [
+      "vibecoding"
+    ],
+    "url": "https://dev.to/dcc/the-honest-climate-case-for-ai-5hg5",
+    "comments_url": "https://lobste.rs/s/kfm1ph/honest_climate_case_for_ai"
+  },
+  {
+    "title": "Installing every* Firefox extension",
+    "score": 57,
+    "tags": [
+      "browsers"
+    ],
+    "url": "https://jack.cab/blog/every-firefox-extension/",
+    "comments_url": "https://lobste.rs/s/3ukqqt/installing_every_firefox_extension"
+  },
+  {
+    "title": "Favorite programmer website?",
+    "score": 37,
+    "tags": [
+      "ask",
+      "programming"
+    ],
+    "url": "",
+    "comments_url": "https://lobste.rs/s/iq7i4f/favorite_programmer_website"
+  },
+  {
+    "title": "A bet on whether ML-KEM-768 or X25519 will break first",
+    "score": 12,
+    "tags": [
+      "cryptography"
+    ],
+    "url": "https://github.com/FiloSottile/ecc-vs-lattices-long-bet",
+    "comments_url": "https://lobste.rs/s/sxvq6g/bet_on_whether_ml_kem_768_x25519_will_break"
+  },
+  {
+    "title": "The difficulty of making sure your website is broken",
+    "score": 16,
+    "tags": [
+      "web"
+    ],
+    "url": "https://letsencrypt.org/2026/04/10/test-sites.html",
+    "comments_url": "https://lobste.rs/s/k11wgv/difficulty_making_sure_your_website_is"
+  },
+  {
+    "title": "Advanced Mac Substitute",
+    "score": 3,
+    "tags": [
+      "retrocomputing"
+    ],
+    "url": "https://www.v68k.org/advanced-mac-substitute/",
+    "comments_url": "https://lobste.rs/s/yysxis/advanced_mac_substitute"
+  },
+  {
+    "title": "Capsicum vs seccomp: Process Sandboxing",
+    "score": 8,
+    "tags": [
+      "freebsd",
+      "linux",
+      "security"
+    ],
+    "url": "https://vivianvoss.net/blog/capsicum-vs-seccomp",
+    "comments_url": "https://lobste.rs/s/hbirya/capsicum_vs_seccomp_process_sandboxing"
+  },
+  {
+    "title": "With AI, you barely need a frontend framework",
+    "score": 1,
+    "tags": [
+      "vibecoding",
+      "web"
+    ],
+    "url": "https://dlants.me/vamp.html",
+    "comments_url": "https://lobste.rs/s/qywh3s/with_ai_you_barely_need_frontend"
+  },
+  {
+    "title": "maki - the efficient coder (AI agent)",
+    "score": 21,
+    "tags": [
+      "vibecoding"
+    ],
+    "url": "https://maki.sh/",
+    "comments_url": "https://lobste.rs/s/0vuzbv/maki_efficient_coder_ai_agent"
+  },
+  {
+    "title": "In defense of GitHub's poor uptime",
+    "score": 15,
+    "tags": [
+      "culture",
+      "devops"
+    ],
+    "url": "https://evanhahn.com/in-defense-of-githubs-poor-uptime/",
+    "comments_url": "https://lobste.rs/s/gh1rks/defense_github_s_poor_uptime"
+  },
+  {
+    "title": "What are you doing this weekend?",
+    "score": 15,
+    "tags": [
+      "ask",
+      "programming"
+    ],
+    "url": "",
+    "comments_url": "https://lobste.rs/s/rcom8t/what_are_you_doing_this_weekend"
+  },
+  {
+    "title": "What are your programming \"hunches\" you haven't yet investigated?",
+    "score": 151,
+    "tags": [
+      "ask",
+      "programming"
+    ],
+    "url": "",
+    "comments_url": "https://lobste.rs/s/gns27z/what_are_your_programming_hunches_you"
+  }
+]

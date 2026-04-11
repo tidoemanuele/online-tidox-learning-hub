@@ -1,0 +1,47 @@
+[
+  {
+    "name": "rowboat",
+    "fullName": "rowboatlabs/rowboat",
+    "description": "Open-source AI coworker with memory — connects to email and meeting notes, builds a persistent knowledge graph, runs locally as plain Markdown",
+    "language": "Python",
+    "stars_today": "1,243 stars today",
+    "total_stars": "8400",
+    "url": "https://github.com/rowboatlabs/rowboat"
+  },
+  {
+    "name": "Keychron-Keyboards-Hardware-Design",
+    "fullName": "Keychron/Keychron-Keyboards-Hardware-Design",
+    "description": "Industrial design files for Keychron keyboards and mice. 100+ models with CAD assets in STEP, DXF, DWG, and PDF. Source-available.",
+    "language": "Unknown",
+    "stars_today": "987 stars today",
+    "total_stars": "6200",
+    "url": "https://github.com/Keychron/Keychron-Keyboards-Hardware-Design"
+  },
+  {
+    "name": "ecc-vs-lattices-long-bet",
+    "fullName": "FiloSottile/ecc-vs-lattices-long-bet",
+    "description": "A formal bet on whether ML-KEM-768 or X25519 will break first — post-quantum cryptography accountability record",
+    "language": "Unknown",
+    "stars_today": "612 stars today",
+    "total_stars": "3100",
+    "url": "https://github.com/FiloSottile/ecc-vs-lattices-long-bet"
+  },
+  {
+    "name": "mempalace",
+    "fullName": "milla-jovovich/mempalace",
+    "description": "The highest-scoring AI memory system ever benchmarked — long-term persistent memory for LLM agents",
+    "language": "Python",
+    "stars_today": "891 stars today",
+    "total_stars": "36500",
+    "url": "https://github.com/milla-jovovich/mempalace"
+  },
+  {
+    "name": "maki",
+    "fullName": "makishan/maki",
+    "description": "maki - the efficient coder. AI agent for terminal-native development with minimal context overhead",
+    "language": "Go",
+    "stars_today": "543 stars today",
+    "total_stars": "4800",
+    "url": "https://github.com/makishan/maki"
+  }
+]
