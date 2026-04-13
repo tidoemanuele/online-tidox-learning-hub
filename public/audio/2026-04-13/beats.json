@@ -1,0 +1,163 @@
+[
+  {
+    "type": "intro",
+    "highlight": "April 13, 2026",
+    "subtext": "Bring Back Idiomatic Design — 512 pts",
+    "label": "INTELLIGENCE BRIEF"
+  },
+  {
+    "type": "intro",
+    "highlight": "Cross-platform pickup is rare",
+    "subtext": "HN + Lobsters on the same story signals convergence"
+  },
+  {
+    "type": "insight",
+    "highlight": "Software has lost its platform-native character",
+    "subtext": "Electron apps, homogenized UI, erased ecosystem identity",
+    "label": "IDIOMATIC DESIGN"
+  },
+  {
+    "type": "quote",
+    "highlight": "This essay was from 2023. Why 512 points now?",
+    "label": "THE TIMING QUESTION"
+  },
+  {
+    "type": "insight",
+    "highlight": "AI-generated UIs are shipping at scale",
+    "subtext": "What does quality mean when the code is machine-generated?"
+  },
+  {
+    "type": "quote",
+    "highlight": "Idiomatic design answers the vibecoding era's unasked question",
+    "label": "KEY INSIGHT"
+  },
+  {
+    "type": "insight",
+    "highlight": "Not skeuomorphism — intentionality",
+    "subtext": "Build from your platform's context, not against it"
+  },
+  {
+    "type": "number",
+    "number": "0.97:1",
+    "highlight": "Apple AI moat — maximum argument density",
+    "label": "COMMENT-TO-POINT RATIO"
+  },
+  {
+    "type": "insight",
+    "highlight": "Behind on the scoreboard ≠ losing the game",
+    "subtext": "Engineers split on whether Apple's privacy moat is enough"
+  },
+  {
+    "type": "insight",
+    "highlight": "What's the actual argument for Apple winning?",
+    "label": "THE QUESTION"
+  },
+  {
+    "type": "insight",
+    "highlight": "AI capabilities become commodity accessed via API",
+    "subtext": "'Who can I trust with my most sensitive data?' is the new differentiator"
+  },
+  {
+    "type": "quote",
+    "highlight": "The moat isn't the model — it's 20 years of credibility",
+    "label": "APPLE'S MOAT"
+  },
+  {
+    "type": "insight",
+    "highlight": "Giannandrea out, Subramanya in — Apple executing now",
+    "subtext": "Holding the position is no longer enough"
+  },
+  {
+    "type": "number",
+    "number": "96",
+    "highlight": "No one owes you supply-chain security",
+    "label": "LOBSTERS TOP STORY"
+  },
+  {
+    "type": "insight",
+    "highlight": "Unpaid maintainers owe users nothing",
+    "subtext": "Security backports on demand is entitlement, not contract"
+  },
+  {
+    "type": "number",
+    "number": "20,000",
+    "highlight": "Lobsters hits 20,000 users",
+    "subtext": "Same day as the top story about volunteer limits",
+    "label": "MILESTONE"
+  },
+  {
+    "type": "insight",
+    "highlight": "Responsibility without compensation isn't solved by tooling",
+    "subtext": "Rust Foundation progress is real — structural problem remains"
+  },
+  {
+    "type": "repo",
+    "highlight": "NousResearch/hermes-agent",
+    "subtext": "+3,218 stars/day — 64.2K total",
+    "label": "GITHUB TRENDING"
+  },
+  {
+    "type": "insight",
+    "highlight": "Agents that forget context can't be trusted",
+    "subtext": "v0.7 self-evolution loop writes Skill files to SQLite automatically"
+  },
+  {
+    "type": "number",
+    "number": "105K",
+    "highlight": "microsoft/markitdown crosses 105K stars",
+    "label": "INFRASTRUCTURE MILESTONE"
+  },
+  {
+    "type": "number",
+    "number": "0.72:1",
+    "highlight": "ROCm vs CUDA — highest infrastructure controversy",
+    "subtext": "131 HN pts — real experience on both sides",
+    "label": "HN SIGNAL"
+  },
+  {
+    "type": "insight",
+    "highlight": "CUDA dominance is network-effects lock-in, not technical monopoly",
+    "subtext": "ROCm now first-class in PyTorch, TensorFlow, vLLM"
+  },
+  {
+    "type": "action",
+    "highlight": "One step after another is the only viable path",
+    "subtext": "10 years of ecosystem depth doesn't fall to a single release"
+  },
+  {
+    "type": "number",
+    "number": "212",
+    "highlight": "All elementary functions from one binary operator",
+    "label": "ARXIV DELIGHT"
+  },
+  {
+    "type": "insight",
+    "highlight": "Minimal-basis results shape how engineers think about systems",
+    "subtext": "Not immediately useful — architecturally formative"
+  },
+  {
+    "type": "quote",
+    "highlight": "The community is reclaiming standards",
+    "subtext": "Design, tooling, maintainer obligations — the same signal"
+  },
+  {
+    "type": "insight",
+    "highlight": "What's the quality baseline that can't be automated away?",
+    "label": "TODAY'S QUESTION"
+  },
+  {
+    "type": "insight",
+    "highlight": "Practitioners are asking what we owe each other",
+    "subtext": "As AI labs ship faster than ever, the standards question surfaces"
+  },
+  {
+    "type": "action",
+    "highlight": "Intentionality can't be automated away",
+    "subtext": "Know your context. Build from it, not against it."
+  },
+  {
+    "type": "close",
+    "highlight": "Build for the context. Go ship something that understands where it lives.",
+    "label": "APRIL 13, 2026"
+  }
+]

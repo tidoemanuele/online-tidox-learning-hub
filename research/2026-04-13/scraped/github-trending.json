@@ -1,0 +1,47 @@
+[
+  {
+    "name": "siddharthvaddem/openscreen",
+    "fullName": "siddharthvaddem/openscreen",
+    "description": "Create stunning demos for free. Open-source, no subscriptions, no watermarks, free for commercial use. Alternative to Screen Studio with auto-zoom, motion blur, and custom backgrounds.",
+    "language": "TypeScript",
+    "stars_today": "612 stars today",
+    "total_stars": "28400",
+    "url": "https://github.com/siddharthvaddem/openscreen"
+  },
+  {
+    "name": "NousResearch/hermes-agent",
+    "fullName": "NousResearch/hermes-agent",
+    "description": "The agent that grows with you — persistent memory architecture for long-horizon task chains. Self-evolution loop writes reusable Markdown Skill files into SQLite after task completion.",
+    "language": "Python",
+    "stars_today": "3,218 stars today",
+    "total_stars": "64200",
+    "url": "https://github.com/NousResearch/hermes-agent"
+  },
+  {
+    "name": "microsoft/markitdown",
+    "fullName": "microsoft/markitdown",
+    "description": "Python tool for converting files and office documents to Markdown format for LLM ingestion. Supports PDF, DOCX, XLSX, PPTX, HTML, images, and more.",
+    "language": "Python",
+    "stars_today": "1,456 stars today",
+    "total_stars": "105000",
+    "url": "https://github.com/microsoft/markitdown"
+  },
+  {
+    "name": "multica-ai/multica",
+    "fullName": "multica-ai/multica",
+    "description": "The open-source managed agents platform — coding agents that behave like real teammates with defined roles, handoffs, and accountability.",
+    "language": "TypeScript",
+    "stars_today": "1,102 stars today",
+    "total_stars": "9500",
+    "url": "https://github.com/multica-ai/multica"
+  },
+  {
+    "name": "openclaw/openclaw",
+    "fullName": "openclaw/openclaw",
+    "description": "Your own personal AI assistant — runs entirely on your devices as a local gateway connecting AI models to 50+ integrations including WhatsApp, Telegram, Slack, Discord, Signal, and iMessage.",
+    "language": "TypeScript",
+    "stars_today": "742 stars today",
+    "total_stars": "356000",
+    "url": "https://github.com/openclaw/openclaw"
+  }
+]

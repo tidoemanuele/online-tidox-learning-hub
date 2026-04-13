@@ -1,0 +1,122 @@
+[
+  {
+    "rank": 1,
+    "title": "All elementary functions from a single binary operator",
+    "url": "https://arxiv.org/abs/2603.21852",
+    "hn_url": "https://news.ycombinator.com/item?id=47746610",
+    "points": 212,
+    "comments": 66
+  },
+  {
+    "rank": 2,
+    "title": "Taking on CUDA with ROCm: 'One Step After Another'",
+    "url": "https://www.eetimes.com/taking-on-cuda-with-rocm-one-step-after-another/",
+    "hn_url": "https://news.ycombinator.com/item?id=47745284",
+    "points": 131,
+    "comments": 94
+  },
+  {
+    "rank": 3,
+    "title": "Optimization of 32-bit Unsigned Division by Constants on 64-bit Targets",
+    "url": "https://arxiv.org/abs/2604.07902",
+    "hn_url": "https://news.ycombinator.com/item?id=47737542",
+    "points": 52,
+    "comments": 5
+  },
+  {
+    "rank": 4,
+    "title": "Show HN: boringBar \u2013 a taskbar-style dock replacement for macOS",
+    "url": "https://boringbar.app/",
+    "hn_url": "https://news.ycombinator.com/item?id=47742200",
+    "points": 318,
+    "comments": 178
+  },
+  {
+    "rank": 5,
+    "title": "Bring Back Idiomatic Design (2023)",
+    "url": "https://essays.johnloeber.com/p/4-bring-back-idiomatic-design",
+    "hn_url": "https://news.ycombinator.com/item?id=47738827",
+    "points": 512,
+    "comments": 279
+  },
+  {
+    "rank": 6,
+    "title": "DIY Soft Drinks",
+    "url": "https://blinry.org/diy-soft-drinks/",
+    "hn_url": "https://news.ycombinator.com/item?id=47741701",
+    "points": 349,
+    "comments": 94
+  },
+  {
+    "rank": 7,
+    "title": "The AI Layoff Trap",
+    "url": "https://arxiv.org/abs/2603.20617",
+    "hn_url": "https://news.ycombinator.com/item?id=47748123",
+    "points": 10,
+    "comments": 2
+  },
+  {
+    "rank": 8,
+    "title": "Ask HN: What Are You Working On? (April 2026)",
+    "url": "",
+    "hn_url": "https://news.ycombinator.com/item?id=47741527",
+    "points": 187,
+    "comments": 550
+  },
+  {
+    "rank": 9,
+    "title": "A Perfectable Programming Language",
+    "url": "https://alok.github.io/lean-pages/perfectable-lean/",
+    "hn_url": "https://news.ycombinator.com/item?id=47744540",
+    "points": 99,
+    "comments": 30
+  },
+  {
+    "rank": 10,
+    "title": "Most people can't juggle one ball",
+    "url": "https://www.lesswrong.com/posts/jTGbKKGqs5EdyYoRc/most-people-can-t-juggle-one-ball",
+    "hn_url": "https://news.ycombinator.com/item?id=47702887",
+    "points": 305,
+    "comments": 94
+  },
+  {
+    "rank": 11,
+    "title": "Apple's accidental moat: How the \"AI Loser\" may end up winning",
+    "url": "https://adlrocha.substack.com/p/adlrocha-how-the-ai-loser-may-end",
+    "hn_url": "https://news.ycombinator.com/item?id=47747017",
+    "points": 107,
+    "comments": 104
+  },
+  {
+    "rank": 12,
+    "title": "I gave every train in New York an instrument",
+    "url": "https://www.trainjazz.com/",
+    "hn_url": "https://news.ycombinator.com/item?id=47719490",
+    "points": 253,
+    "comments": 49
+  },
+  {
+    "rank": 13,
+    "title": "Haunt, the 70s text adventure game, is now playable on a website",
+    "url": "https://haunt.madebywindmill.com",
+    "hn_url": "https://news.ycombinator.com/item?id=47747248",
+    "points": 45,
+    "comments": 11
+  },
+  {
+    "rank": 14,
+    "title": "State of Homelab 2026",
+    "url": "https://mrlokans.work/posts/state-of-homelab-2026/",
+    "hn_url": "https://news.ycombinator.com/item?id=47746577",
+    "points": 64,
+    "comments": 50
+  },
+  {
+    "rank": 15,
+    "title": "Show HN: Oberon System 3 runs natively on Raspberry Pi 3 (with ready SD card)",
+    "url": "https://github.com/rochus-keller/OberonSystem3Native/releases",
+    "hn_url": "https://news.ycombinator.com/item?id=47739174",
+    "points": 183,
+    "comments": 38
+  }
+]

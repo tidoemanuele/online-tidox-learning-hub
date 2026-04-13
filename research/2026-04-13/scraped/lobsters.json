@@ -1,0 +1,142 @@
+[
+  {
+    "title": "How I run multiple $10K MRR companies on a $20/month tech stack",
+    "score": 39,
+    "tags": [
+      "practices",
+      "vibecoding"
+    ],
+    "url": "https://stevehanov.ca/blog/how-i-run-multiple-10k-mrr-companies-on-a-20month-tech-stack",
+    "comments_url": "https://lobste.rs/s/gptqt7/how_i_run_multiple_10k_mrr_companies_on_20"
+  },
+  {
+    "title": "The peril of laziness lost",
+    "score": 45,
+    "tags": [
+      "vibecoding"
+    ],
+    "url": "https://bcantrill.dtrace.org/2026/04/12/the-peril-of-laziness-lost/",
+    "comments_url": "https://lobste.rs/s/tmddcs/peril_laziness_lost"
+  },
+  {
+    "title": "48 hours ago lobste.rs surpassed 20,000 users",
+    "score": 75,
+    "tags": [
+      "meta"
+    ],
+    "url": "",
+    "comments_url": "https://lobste.rs/s/7fhahl/48_hours_ago_lobste_rs_surpassed_20_000"
+  },
+  {
+    "title": "Bring Back Idiomatic Design",
+    "score": 27,
+    "tags": [
+      "design"
+    ],
+    "url": "https://essays.johnloeber.com/p/4-bring-back-idiomatic-design",
+    "comments_url": "https://lobste.rs/s/5ywxzh/bring_back_idiomatic_design"
+  },
+  {
+    "title": "Forgejo monthly report - March 2026",
+    "score": 27,
+    "tags": [
+      "vcs"
+    ],
+    "url": "https://forgejo.org/2026-03-monthly-report/",
+    "comments_url": "https://lobste.rs/s/o2b59m/forgejo_monthly_report_march_2026"
+  },
+  {
+    "title": "LLM Reviews in cargo-crev",
+    "score": 10,
+    "tags": [
+      "rust",
+      "security",
+      "vibecoding"
+    ],
+    "url": "https://dpc.pw/posts/llm-reviews-in-cargo-crev/",
+    "comments_url": "https://lobste.rs/s/vpdpkq/llm_reviews_cargo_crev"
+  },
+  {
+    "title": "The Business Case for Vanilla JS",
+    "score": 18,
+    "tags": [
+      "javascript"
+    ],
+    "url": "https://lewiscampbell.tech/blog/250430.html",
+    "comments_url": "https://lobste.rs/s/9ihinj/business_case_for_vanilla_js"
+  },
+  {
+    "title": "No one owes you supply-chain security",
+    "score": 96,
+    "tags": [
+      "security"
+    ],
+    "url": "https://purplesyringa.moe/blog/no-one-owes-you-supply-chain-security/",
+    "comments_url": "https://lobste.rs/s/cxwidw/no_one_owes_you_supply_chain_security"
+  },
+  {
+    "title": "An undocumented bug in the Apollo 11 guidance computer code",
+    "score": 8,
+    "tags": [
+      "testing"
+    ],
+    "url": "https://www.juxt.pro/blog/a-bug-on-the-dark-side-of-the-moon/",
+    "comments_url": "https://lobste.rs/s/pel3uq/undocumented_bug_apollo_11_guidance"
+  },
+  {
+    "title": "Brocards for vulnerability triage",
+    "score": 56,
+    "tags": [
+      "security"
+    ],
+    "url": "https://blog.yossarian.net/2026/04/11/Brocards-for-vulnerability-triage",
+    "comments_url": "https://lobste.rs/s/0ddkvb/brocards_for_vulnerability_triage"
+  },
+  {
+    "title": "What is a property?",
+    "score": 11,
+    "tags": [
+      "haskell",
+      "plt"
+    ],
+    "url": "https://alperenkeles.com/posts/what-is-a-property/",
+    "comments_url": "https://lobste.rs/s/ogz2ro/what_is_property"
+  },
+  {
+    "title": "Mark\u2019s Magic Multiply",
+    "score": 10,
+    "tags": [
+      "assembly"
+    ],
+    "url": "https://wren.wtf/shower-thoughts/marks-magic-multiply/",
+    "comments_url": "https://lobste.rs/s/kulbhu/mark_s_magic_multiply"
+  },
+  {
+    "title": "IrDA",
+    "score": 31,
+    "tags": [
+      "historical",
+      "networking"
+    ],
+    "url": "https://computer.rip/2026-04-11-IrDA.html",
+    "comments_url": "https://lobste.rs/s/iy5upt/irda"
+  },
+  {
+    "title": "Native Raspberry Pi 3b version of the Oberon System 3",
+    "score": 6,
+    "tags": [
+      "retrocomputing"
+    ],
+    "url": "https://github.com/rochus-keller/OberonSystem3Native/releases/tag/2026-04-10",
+    "comments_url": "https://lobste.rs/s/6wxsq3/native_raspberry_pi_3b_version_oberon"
+  },
+  {
+    "title": "Did you notice the command error exit in the shell?",
+    "score": 1,
+    "tags": [
+      "linux"
+    ],
+    "url": "https://monzool.net/blog/2026/04/10/error-banner-in-shell/",
+    "comments_url": "https://lobste.rs/s/eqawpx/did_you_notice_command_error_exit_shell"
+  }
+]
