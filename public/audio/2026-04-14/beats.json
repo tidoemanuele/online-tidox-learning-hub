@@ -1,183 +1,181 @@
 [
   {
     "type": "intro",
-    "label": "APRIL 14, 2026",
-    "highlight": "Not an exploit — a purchase",
-    "subtext": "30 WordPress plugins bought and backdoored"
+    "highlight": "April 14, 2026",
+    "subtext": "WordPress backdoor — 838 pts · GitHub Stacked PRs — 604 pts",
+    "label": "INTELLIGENCE BRIEF"
   },
   {
     "type": "intro",
-    "label": "SUPPLY CHAIN",
-    "highlight": "They bought the trust. Then poisoned it.",
-    "subtext": "Acquisition as attack vector"
-  },
-  {
-    "type": "number",
-    "number": "838",
-    "label": "HN POINTS",
-    "highlight": "WordPress supply chain acquisition attack",
-    "subtext": "0.28:1 ratio — pure documentation, not debate"
+    "highlight": "Someone bought 30 plugins and backdoored all of them",
+    "subtext": "This is not a hack. It's an acquisition strategy."
   },
   {
     "type": "insight",
-    "label": "SIGNAL",
-    "highlight": "Not arguing. Just recording.",
-    "subtext": "Community consensus on what happened"
-  },
-  {
-    "type": "insight",
-    "label": "ATTACK SURFACE",
-    "highlight": "No change-of-control notification",
-    "subtext": "Trust transfers instantly on WordPress.org plugin sale"
+    "highlight": "A buyer purchased 30 plugins and inherited commit access",
+    "subtext": "Then injected PHP deserialization backdoors across all 30",
+    "label": "SUPPLY CHAIN ATTACK"
   },
   {
     "type": "quote",
-    "label": "IMPLICATION",
-    "highlight": "Every large install base is now a target",
-    "subtext": "Larger install base = more valuable trust to exploit"
+    "highlight": "They waited eight months before activating?",
+    "label": "THE DORMANCY WINDOW"
   },
   {
     "type": "number",
-    "number": "800K",
-    "label": "SMART SLIDER 3",
-    "highlight": "800,000 installs — 6 hours of exposure",
-    "subtext": "Same vector, 8 days earlier"
+    "number": "8",
+    "highlight": "Months dormant — invisible to every security scanner",
+    "label": "MONTHS OF SILENCE",
+    "subtext": "Disguised as a compatibility changelog entry"
   },
   {
     "type": "insight",
-    "label": "PATTERN",
-    "highlight": "The dependency chain fails in both directions",
-    "subtext": "Maintainers owe nothing. Users assumed otherwise."
+    "highlight": "The attack isn't about finding a vulnerability — it's about buying trust",
+    "label": "STRUCTURAL INSIGHT"
+  },
+  {
+    "type": "insight",
+    "highlight": "Author identity can be purchased. Registries don't track ownership transfers.",
+    "subtext": "npm, PyPI, RubyGems, crates.io — all share this gap",
+    "label": "EVERY REGISTRY"
+  },
+  {
+    "type": "action",
+    "highlight": "Audit plugins for new committers in the last 12 months",
+    "subtext": "Check WordPress.org plugin closure list — 30 already closed",
+    "label": "ACTION NOW"
+  },
+  {
+    "type": "insight",
+    "highlight": "Watch the plugin closure list — 30 already closed",
+    "label": "IMMEDIATE STEP"
   },
   {
     "type": "number",
     "number": "604",
+    "highlight": "GitHub Stacked PRs — private preview, cross-platform signal",
     "label": "HN POINTS",
-    "highlight": "GitHub Stacked PRs — cross-platform pickup",
-    "subtext": "604 HN + 42 Lobsters: genuine workflow shift"
-  },
-  {
-    "type": "repo",
-    "label": "GITHUB",
-    "highlight": "github/gh-stack",
-    "subtext": "How does it compare to Graphite, Phabricator, internal tools?"
+    "subtext": "42 Lobsters pts simultaneously — practitioners are paying attention"
   },
   {
     "type": "insight",
-    "label": "ARCHITECTURE",
-    "highlight": "Unit of review: the diff, not the branch",
-    "subtext": "60-80% latency drop, PRs under 200 lines"
+    "highlight": "Version control community treats stacking as foundational — not cosmetic",
+    "subtext": "42 Lobsters points from invitation-only practitioners",
+    "label": "CROSS-PLATFORM SIGNAL"
+  },
+  {
+    "type": "insight",
+    "highlight": "60–80% reduction in code review latency with stacked PRs",
+    "subtext": "The unit of review is the diff, not the branch",
+    "label": "THE WORKFLOW SHIFT"
+  },
+  {
+    "type": "insight",
+    "highlight": "Not whether stacking is useful — whether GitHub's implementation is good enough",
+    "subtext": "Mid-stack rebases, force-push coordination, merge ordering",
+    "label": "THE REAL QUESTION"
   },
   {
     "type": "quote",
-    "label": "COGNITIVE LOAD",
-    "highlight": "Incremental changes vs. complete feature branches",
-    "subtext": "That's actually a fundamentally different review model"
+    "highlight": "GitHub attacked at the trust layer — improved at the workflow layer. Same day.",
+    "label": "THE SHARPEST FRAMING"
   },
   {
-    "type": "repo",
-    "label": "KEY FEATURE",
-    "highlight": "github/gh-stack",
-    "subtext": "Rebase-cascade: modify one layer, whole stack syncs"
-  },
-  {
-    "type": "insight",
-    "label": "ADOPTION BAR",
-    "highlight": "Good enough to displace existing tooling?",
-    "subtext": "340 comments of debate says: maybe, not yet"
+    "type": "quote",
+    "highlight": "That's the sharpest framing I've heard today. Hold that.",
+    "label": "PAUSE"
   },
   {
     "type": "number",
-    "number": "393",
+    "number": "185",
+    "highlight": "Lean proved this program correct — then a bug was found",
     "label": "HN POINTS",
-    "highlight": "Nothing Ever Happens",
-    "subtext": "Polymarket bot: always bet No on non-sports markets"
+    "subtext": "52 Lobsters pts — formal methods + vibecoding community, same story"
   },
   {
-    "type": "number",
-    "number": "73.4%",
-    "label": "POLYMARKET STAT",
-    "highlight": "73.4% of non-sports markets resolve No",
-    "subtext": "The bot never reads the news"
+    "type": "insight",
+    "highlight": "Proofs covered DEFLATE and Huffman — but not the ZIP header reader",
+    "subtext": "The bug lived in Archive.lean — the unverified module",
+    "label": "THE COVERAGE GAP"
   },
   {
     "type": "quote",
-    "label": "THE QUESTION",
-    "highlight": "What information value do Yes positions hold?",
-    "subtext": "If a no-read bot outperforms, what are informed traders adding?"
+    "highlight": "Verification works exactly where you point it. Nothing more.",
+    "label": "THE LESSON"
   },
   {
     "type": "insight",
-    "label": "STRATEGY",
-    "highlight": "Steady gains, rare catastrophic loss",
-    "subtext": "Classic insurance-style — works until something does happen"
-  },
-  {
-    "type": "insight",
-    "label": "LINDY EFFECT",
-    "highlight": "Bet on stasis, beat the change-predictor",
-    "subtext": "Most announced disruptions don't materialize on schedule"
+    "highlight": "LLM-generated tests prove the stated specification — which is almost never complete",
+    "subtext": "Same gap: coverage boundary is where the risk lives",
+    "label": "AI CODE PARALLEL"
   },
   {
     "type": "quote",
-    "label": "THESIS",
-    "highlight": "Nothing Ever Happens is a philosophy",
-    "subtext": "Not just a trading strategy — a useful prior for builders"
-  },
-  {
-    "type": "repo",
-    "label": "GITHUB TRENDING",
-    "highlight": "sterlingcrispin/nothing-ever-happens",
-    "subtext": "HN story → GitHub trending in the same day: rare feedback loop"
-  },
-  {
-    "type": "number",
-    "number": "+3,218",
-    "label": "STARS/DAY",
-    "highlight": "NousResearch/hermes-agent: 64K total",
-    "subtext": "Three weeks of sustained velocity — agent memory gap persists"
-  },
-  {
-    "type": "repo",
-    "label": "LOBSTERS #1",
-    "highlight": "servo/servo — 0.1.0 LTS",
-    "subtext": "First Rust browser renderer on crates.io — no Chromium required"
-  },
-  {
-    "type": "insight",
-    "label": "RUST ECOSYSTEM",
-    "highlight": "Viable rendering option that isn't Electron",
-    "subtext": "Doc viewers, email clients, dashboards — now a real option"
-  },
-  {
-    "type": "insight",
-    "label": "TODAY'S THESIS",
-    "highlight": "Three trust systems fracturing simultaneously",
-    "subtext": "WordPress provenance, Polymarket accuracy, 158-year-old law"
-  },
-  {
-    "type": "number",
-    "number": "0.28",
-    "label": "COMMENT RATIO",
-    "highlight": "Pure forensics, not debate",
-    "subtext": "When community documents instead of argues: verdict is in"
-  },
-  {
-    "type": "quote",
-    "label": "THE BUILD QUESTION",
-    "highlight": "What doesn't depend on the trust layer that just failed?",
-    "subtext": "Build for the world where these systems don't hold"
+    "highlight": "What are builders supposed to take from that?",
+    "label": "THE PRACTICAL QUESTION"
   },
   {
     "type": "action",
-    "label": "ACTION ITEMS",
-    "highlight": "Audit plugins. Apply No prior. Watch the Servo crate.",
-    "subtext": "WordPress owners: check ownership changes now"
+    "highlight": "Draw your coverage map before you trust your proof",
+    "subtext": "Whether formal or AI-generated: what is this NOT covering?",
+    "label": "ACTION ITEM"
+  },
+  {
+    "type": "insight",
+    "highlight": "DaVinci Resolve 21 — free Hollywood color tools for photos",
+    "subtext": "Tethered shooting, Lightroom catalog import, node-based grading — $0",
+    "label": "DAVINCI RESOLVE 21"
+  },
+  {
+    "type": "insight",
+    "highlight": "Blackmagic gives away software to sell hardware",
+    "subtext": "Professional color science, non-subscription — Adobe's moat is under pressure",
+    "label": "THE STRATEGY"
+  },
+  {
+    "type": "quote",
+    "highlight": "Subscription model attacked not by a startup — by a camera company",
+    "label": "COMPETITIVE SIGNAL"
+  },
+  {
+    "type": "repo",
+    "highlight": "NousResearch/hermes-agent",
+    "subtext": "+3,218 stars/day · 64.2K total · persistent skill memory",
+    "label": "GITHUB TRENDING #1"
+  },
+  {
+    "type": "quote",
+    "highlight": "A bot that bets 'nothing will happen' is on trending? Because it works?",
+    "label": "WAIT"
+  },
+  {
+    "type": "number",
+    "number": "73%",
+    "highlight": "Non-sports Polymarket markets resolve No",
+    "label": "THE NULL HYPOTHESIS WINS",
+    "subtext": "nothing-ever-happens: +1,203 stars/day"
+  },
+  {
+    "type": "insight",
+    "highlight": "Trust fails at acquisition. Workflow improves at native. Proofs cover what you point at.",
+    "subtext": "Base rate of dramatic events is lower than coverage implies",
+    "label": "TODAY'S THESIS"
+  },
+  {
+    "type": "insight",
+    "highlight": "Every story today is about the gap between what a system covers and what it's assumed to cover",
+    "label": "THE THROUGH-LINE"
+  },
+  {
+    "type": "action",
+    "highlight": "Audit trust graph. Apply verification at highest risk. Ship as stacked diffs.",
+    "subtext": "The tools are finally there.",
+    "label": "THREE ACTIONS"
   },
   {
     "type": "close",
-    "label": "APRIL 14, 2026",
-    "highlight": "The practitioner community is writing the incident reports",
-    "subtext": "Go build something that doesn't assume those systems hold"
+    "highlight": "Let's build.",
+    "subtext": "See you tomorrow.",
+    "label": "APRIL 14, 2026"
   }
 ]
