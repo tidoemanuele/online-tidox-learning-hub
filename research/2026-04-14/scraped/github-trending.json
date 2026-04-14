@@ -1,0 +1,47 @@
+[
+  {
+    "name": "hermes-agent",
+    "fullName": "NousResearch/hermes-agent",
+    "description": "The agent that grows with you — persistent memory, self-evolving skills, long-horizon task chains",
+    "language": "Python",
+    "stars_today": "3,218 stars today",
+    "total_stars": "64200",
+    "url": "https://github.com/NousResearch/hermes-agent"
+  },
+  {
+    "name": "markitdown",
+    "fullName": "microsoft/markitdown",
+    "description": "Python tool for converting files and office documents to Markdown for LLM ingestion",
+    "language": "Python",
+    "stars_today": "1,456 stars today",
+    "total_stars": "106921",
+    "url": "https://github.com/microsoft/markitdown"
+  },
+  {
+    "name": "openscreen",
+    "fullName": "siddharthvaddem/openscreen",
+    "description": "Free, open-source screen recorder — auto-zoom, motion blur, no watermark, no subscription",
+    "language": "TypeScript",
+    "stars_today": "612 stars today",
+    "total_stars": "28926",
+    "url": "https://github.com/siddharthvaddem/openscreen"
+  },
+  {
+    "name": "gh-stack",
+    "fullName": "github/gh-stack",
+    "description": "GitHub's official stacked pull requests CLI — automates branch creation, rebasing, and PR base targeting",
+    "language": "Go",
+    "stars_today": "890 stars today",
+    "total_stars": "4300",
+    "url": "https://github.com/github/gh-stack"
+  },
+  {
+    "name": "nothing-ever-happens",
+    "fullName": "sterlingcrispin/nothing-ever-happens",
+    "description": "Polymarket bot that always buys No on non-sports markets — 73.4% of markets resolve No",
+    "language": "Python",
+    "stars_today": "1,203 stars today",
+    "total_stars": "3800",
+    "url": "https://github.com/sterlingcrispin/nothing-ever-happens"
+  }
+]

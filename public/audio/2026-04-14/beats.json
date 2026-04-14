@@ -1,0 +1,183 @@
+[
+  {
+    "type": "intro",
+    "label": "APRIL 14, 2026",
+    "highlight": "Not an exploit — a purchase",
+    "subtext": "30 WordPress plugins bought and backdoored"
+  },
+  {
+    "type": "intro",
+    "label": "SUPPLY CHAIN",
+    "highlight": "They bought the trust. Then poisoned it.",
+    "subtext": "Acquisition as attack vector"
+  },
+  {
+    "type": "number",
+    "number": "838",
+    "label": "HN POINTS",
+    "highlight": "WordPress supply chain acquisition attack",
+    "subtext": "0.28:1 ratio — pure documentation, not debate"
+  },
+  {
+    "type": "insight",
+    "label": "SIGNAL",
+    "highlight": "Not arguing. Just recording.",
+    "subtext": "Community consensus on what happened"
+  },
+  {
+    "type": "insight",
+    "label": "ATTACK SURFACE",
+    "highlight": "No change-of-control notification",
+    "subtext": "Trust transfers instantly on WordPress.org plugin sale"
+  },
+  {
+    "type": "quote",
+    "label": "IMPLICATION",
+    "highlight": "Every large install base is now a target",
+    "subtext": "Larger install base = more valuable trust to exploit"
+  },
+  {
+    "type": "number",
+    "number": "800K",
+    "label": "SMART SLIDER 3",
+    "highlight": "800,000 installs — 6 hours of exposure",
+    "subtext": "Same vector, 8 days earlier"
+  },
+  {
+    "type": "insight",
+    "label": "PATTERN",
+    "highlight": "The dependency chain fails in both directions",
+    "subtext": "Maintainers owe nothing. Users assumed otherwise."
+  },
+  {
+    "type": "number",
+    "number": "604",
+    "label": "HN POINTS",
+    "highlight": "GitHub Stacked PRs — cross-platform pickup",
+    "subtext": "604 HN + 42 Lobsters: genuine workflow shift"
+  },
+  {
+    "type": "repo",
+    "label": "GITHUB",
+    "highlight": "github/gh-stack",
+    "subtext": "How does it compare to Graphite, Phabricator, internal tools?"
+  },
+  {
+    "type": "insight",
+    "label": "ARCHITECTURE",
+    "highlight": "Unit of review: the diff, not the branch",
+    "subtext": "60-80% latency drop, PRs under 200 lines"
+  },
+  {
+    "type": "quote",
+    "label": "COGNITIVE LOAD",
+    "highlight": "Incremental changes vs. complete feature branches",
+    "subtext": "That's actually a fundamentally different review model"
+  },
+  {
+    "type": "repo",
+    "label": "KEY FEATURE",
+    "highlight": "github/gh-stack",
+    "subtext": "Rebase-cascade: modify one layer, whole stack syncs"
+  },
+  {
+    "type": "insight",
+    "label": "ADOPTION BAR",
+    "highlight": "Good enough to displace existing tooling?",
+    "subtext": "340 comments of debate says: maybe, not yet"
+  },
+  {
+    "type": "number",
+    "number": "393",
+    "label": "HN POINTS",
+    "highlight": "Nothing Ever Happens",
+    "subtext": "Polymarket bot: always bet No on non-sports markets"
+  },
+  {
+    "type": "number",
+    "number": "73.4%",
+    "label": "POLYMARKET STAT",
+    "highlight": "73.4% of non-sports markets resolve No",
+    "subtext": "The bot never reads the news"
+  },
+  {
+    "type": "quote",
+    "label": "THE QUESTION",
+    "highlight": "What information value do Yes positions hold?",
+    "subtext": "If a no-read bot outperforms, what are informed traders adding?"
+  },
+  {
+    "type": "insight",
+    "label": "STRATEGY",
+    "highlight": "Steady gains, rare catastrophic loss",
+    "subtext": "Classic insurance-style — works until something does happen"
+  },
+  {
+    "type": "insight",
+    "label": "LINDY EFFECT",
+    "highlight": "Bet on stasis, beat the change-predictor",
+    "subtext": "Most announced disruptions don't materialize on schedule"
+  },
+  {
+    "type": "quote",
+    "label": "THESIS",
+    "highlight": "Nothing Ever Happens is a philosophy",
+    "subtext": "Not just a trading strategy — a useful prior for builders"
+  },
+  {
+    "type": "repo",
+    "label": "GITHUB TRENDING",
+    "highlight": "sterlingcrispin/nothing-ever-happens",
+    "subtext": "HN story → GitHub trending in the same day: rare feedback loop"
+  },
+  {
+    "type": "number",
+    "number": "+3,218",
+    "label": "STARS/DAY",
+    "highlight": "NousResearch/hermes-agent: 64K total",
+    "subtext": "Three weeks of sustained velocity — agent memory gap persists"
+  },
+  {
+    "type": "repo",
+    "label": "LOBSTERS #1",
+    "highlight": "servo/servo — 0.1.0 LTS",
+    "subtext": "First Rust browser renderer on crates.io — no Chromium required"
+  },
+  {
+    "type": "insight",
+    "label": "RUST ECOSYSTEM",
+    "highlight": "Viable rendering option that isn't Electron",
+    "subtext": "Doc viewers, email clients, dashboards — now a real option"
+  },
+  {
+    "type": "insight",
+    "label": "TODAY'S THESIS",
+    "highlight": "Three trust systems fracturing simultaneously",
+    "subtext": "WordPress provenance, Polymarket accuracy, 158-year-old law"
+  },
+  {
+    "type": "number",
+    "number": "0.28",
+    "label": "COMMENT RATIO",
+    "highlight": "Pure forensics, not debate",
+    "subtext": "When community documents instead of argues: verdict is in"
+  },
+  {
+    "type": "quote",
+    "label": "THE BUILD QUESTION",
+    "highlight": "What doesn't depend on the trust layer that just failed?",
+    "subtext": "Build for the world where these systems don't hold"
+  },
+  {
+    "type": "action",
+    "label": "ACTION ITEMS",
+    "highlight": "Audit plugins. Apply No prior. Watch the Servo crate.",
+    "subtext": "WordPress owners: check ownership changes now"
+  },
+  {
+    "type": "close",
+    "label": "APRIL 14, 2026",
+    "highlight": "The practitioner community is writing the incident reports",
+    "subtext": "Go build something that doesn't assume those systems hold"
+  }
+]
