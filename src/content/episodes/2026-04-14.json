@@ -3,126 +3,85 @@
   "episodeNumber": 23,
   "locale": "en-US",
   "title": "Intelligence Brief",
-  "subtitle": "Someone bought 30 WordPress plugins and planted a , GitHub Stacked PRs lands at 604 HN pts and simulta, Lean proved this program correct; then I found a b",
+  "subtitle": "DaVinci Resolve releases Photo Editor, A new spam policy for \"back button hijacking\", Someone bought 30 WordPress plugins and planted a ",
   "heroStat": {
     "value": "838",
     "label": "points on \"Someone bought 30 WordPress plugins and planted a backdoor i\""
   },
   "insights": [
     {
-      "text": "Someone bought 30 WordPress plugins and planted a backdoor in all of them tops HN at 838 pts (235 comments, 0.28:1 comment-to-point ratio) — the day's highest-scoring story and the supply chain attack the open-source registry model has been designed to enable. The post at anchor.host/someone-bought-30-wordpress-plugins-and-planted-a-backdoor-in-all-of-them documents a structural attack: a trusted plugin author's commit access was acquired by a new owner on WordPress.org, who injected PHP deserialization backdoors across 30 active plugins on April 6, 2026, in a 6-hour 44-minute window. The payload sat dormant for eight months in version 2.6.7, disguised as a WordPress compatibility changelog entry. The 0.28:1 ratio is the practitioner community performing forensic analysis, not debate: 235 engineers cataloguing what was missed, what controls were absent, and what the attack surface of trust-by-author looks like at registry scale. WordPress.org has no mechanism to flag plugin ownership transfers, no change-of-control notification to users, and no additional code review triggered when a new committer pushes to a high-install-count plugin. The eight-month dormancy window is the attack's architectural insight: a backdoor that sleeps for eight months after acquisition evades every install-time security scan and dependency audit because no scanner has reason to re-examine a previously trusted, previously stable codebase. The community consensus in the thread is precise: trust stored in author identity rather than code provenance is a structural liability when author identity can be purchased. Every open-source registry — npm, PyPI, RubyGems, crates.io, WordPress.org — uses this same trust model: the author is verified; the code review is optional; the ownership transfer is invisible. The 30-plugin attack is a proof-of-concept that this model fails at the point of acquisition, and the failure is silent for as long as the attacker chooses to wait.",
+      "text": "DaVinci Resolve releases Photo Editor (276 pts, 63 comments)",
       "tags": [
-        "security",
-        "supply-chain",
-        "open-source"
+        "hacker-news"
       ],
-      "source": "HN 838pts",
-      "url": "https://anchor.host/someone-bought-30-wordpress-plugins-and-planted-a-backdoor-in-all-of-them/"
+      "source": "HN 276pts"
     },
     {
-      "text": "GitHub Stacked PRs lands at 604 HN pts (340 comments, 0.56:1 comment-to-point ratio) and simultaneously reaches 42 Lobsters pts (vcs tag) — the day's highest cross-platform practitioner signal and the week's most consequential developer tooling announcement. GitHub's gh-stack at github.github.com/gh-stack/ enters private preview with native stacked pull request support: branch stacks linked automatically, PR chains tracked visually, reviewer context preserved across the stack. The 0.56:1 ratio is engineers who have lived with the Graphite/ghstack/spr workaround era arguing with engineers who never had to. The community is not debating whether stacked PRs are better — that is settled by every engineer who has shipped production code as a dependent chain of reviewable units. The argument is about whether native GitHub support will actually be ergonomic, whether the private preview waitlist will ever clear, and whether the current implementation handles the hard cases: mid-stack rebases, force-push coordination, and merge ordering when reviewers approve out of sequence. The Lobsters vcs-tag pickup is the practitioner endorsement: the version control community treats native stacked PRs as a foundational workflow change, not a UI feature. The cross-platform signal on the same day as the WordPress supply chain story creates a precise juxtaposition: one story is about trust in shared code infrastructure being exploited; the other is about a long-broken part of that same infrastructure finally being fixed. The developer tooling surface that GitHub controls is being strengthened and attacked simultaneously. Stacked PRs entering private preview is the decade's most requested GitHub feature getting its first native implementation — and the 340-comment thread is the practitioner community's evidence that the decade of waiting generated enough accumulated frustration to make the release one of the year's highest-engagement GitHub announcements.",
+      "text": "A new spam policy for \"back button hijacking\" (162 pts, 83 comments)",
       "tags": [
-        "security",
-        "supply-chain",
-        "github-trending"
+        "hacker-news"
       ],
-      "source": "HN 604pts",
-      "url": "https://github.github.com/gh-stack/"
+      "source": "HN 162pts"
     },
     {
-      "text": "Lean proved this program correct; then I found a bug reaches 185 HN pts (95 comments, 0.51:1 comment-to-point ratio) and simultaneously scores 52 Lobsters pts (formalmethods|plt|security|vibecoding tags) — the day's clearest cross-platform convergence on formal verification's actual boundary. The post at kirancodes.me/posts/log-who-watches-the-watchers.html documents a structural limitation that formal verification practitioners have described in theory but rarely shown in a reproducible case: Lean 4's proofs covered the compression and decompression pipeline (DEFLATE, Huffman, CRC32, roundtrip correctness) but Archive.lean — the module that reads ZIP headers and extracts files — had zero theorems, verified or otherwise. The bug lived in the unverified module. The 0.51:1 ratio is two communities arguing at each other: engineers who see this as proof that formal verification is impractical (why bother if the unverified module is where the bug hides?) versus engineers who see this as proof that formal verification is precise (the proof was correct; the coverage boundary was the problem, and that boundary is now known). The Lobsters vibecoding tag is the tell: this story is being read by the community as a counterweight to AI-generated code that produces test suites proving the wrong things — the lesson that verification only works where it is applied is universal across formal methods and LLM-generated test coverage alike. The cross-platform pickup (HN practitioners + Lobsters formal methods community) on the same day confirms the resonance is structural: 'verification covers what you point it at' is both a lesson about Lean and a lesson about every automated correctness tool in production. The practitioner community is not dismissing formal verification — it is asking what the coverage map looks like before trusting the proof.",
+      "text": "Someone bought 30 WordPress plugins and planted a backdoor in all of them (838 pts, 235 comments)",
       "tags": [
-        "security",
-        "rust"
+        "hacker-news"
       ],
-      "source": "HN 185pts",
-      "url": "https://kirancodes.me/posts/log-who-watches-the-watchers.html"
+      "source": "HN 838pts"
     },
     {
-      "text": "DaVinci Resolve releases Photo Editor earns 276 HN pts (63 comments, 0.23:1 comment-to-point ratio) — near-universal enthusiasm, the day's lowest controversy ratio among top stories. Blackmagic Design's NAB 2026 announcement of DaVinci Resolve 21 at blackmagicdesign.com/products/davinciresolve/photo adds a full Photo page to the world's leading free color grading suite: RAW editing and tethered capture for Sony and Canon cameras, Lightroom catalog import, AI Magic Mask for one-click subject isolation, and the full node-based color pipeline that Hollywood colorists have used for two decades — all free of charge. The 0.23:1 ratio is the practitioner community's appreciation signal: 276 photographers and engineers upvoting a product announcement, 63 sharing workflows and comparing against Lightroom's $9.99/month subscription. The structural significance is not the feature list — it is the cost architecture. Blackmagic Design has historically used free software to sell hardware (cameras, control surfaces, capture cards). By making the Photo page free in DaVinci Resolve 21, Blackmagic creates the first credible zero-cost alternative to Adobe Lightroom with professional-grade color science and a non-subscription pricing model. The community thread is not asking whether DaVinci Resolve's color tools are better than Lightroom's — they measurably are, and have been for a decade. The question is whether the workflow integration, library management, and interoperability with mobile apps are complete enough for daily use. The announcement lands in the same week that Blackmagic confirmed tethered shooting support — the one workflow anchor that kept event and studio photographers locked to Lightroom's ecosystem. When the day's most celebrated product announcement is a free professional photo editor from a camera hardware company, the creative software subscription model is being challenged not by a startup but by an incumbent whose strategy is to give away the software to sell the hardware.",
+      "text": "GitHub Stacked PRs (604 pts, 340 comments)",
       "tags": [
-        "ecosystem"
+        "hacker-news"
       ],
-      "source": "HN 276pts",
-      "url": "https://www.blackmagicdesign.com/products/davinciresolve/photo"
+      "source": "HN 604pts"
     },
     {
-      "text": "Nothing Ever Happens: a Polymarket bot that always buys No on non-sports markets holds at 393 HN pts (211 comments, 0.54:1 comment-to-point ratio) — the day's third-highest-scoring story and a practitioner-verified claim about prediction market calibration at the structural level. The bot at github.com/sterlingcrispin/nothing-ever-happens executes a single strategy: buy No on every non-sports prediction market on Polymarket. No politics, no news, no macro events — just systematic No buying on markets predicting discrete outcomes that historically resolve without the event occurring. The 0.54:1 ratio is engineers and prediction market traders arguing about what this proves: whether prediction markets systematically overprice low-probability events (the bias toward Yes from attention effects), whether the profit is real after fees and liquidity costs, or whether the strategy works only in specific market regimes. The thread consensus is nuanced: the bot is profitable in backtests and in live trading since deployment in 2025, but the edge narrows as the market learns and as contract frequency increases. The structural insight that earns 393 points is not the strategy — it is the discovery that a null hypothesis (nothing happens) beats sophisticated prediction in the majority of markets, the majority of the time. The practitioner community is not endorsing prediction market nihilism; it is recognizing a real market structure: human attention creates systematic overpricing of newsworthy outcomes. When the day's third most upvoted story is a bot that profits by betting the world does not change, the HN community is acknowledging that the base rate of dramatic events is lower than media coverage implies — and that this miscalibration is not just a prediction market phenomenon.",
+      "text": "Lean proved this program correct; then I found a bug (185 pts, 95 comments)",
       "tags": [
-        "github-trending"
+        "hacker-news"
       ],
-      "source": "HN 393pts",
-      "url": "https://github.com/sterlingcrispin/nothing-ever-happens"
+      "source": "HN 185pts"
     },
     {
-      "text": "Servo 0.1.0 (first LTS version) is now available on crates.io tops Lobsters at 92 pts (browsers|release|web tags) — the highest single-story score on the practitioner platform today. The release announcement at servo.org/blog/2026/04/13/servo-0.1.0-release/ marks a structural transition for the Rust-based browser engine originally developed by Mozilla and now stewarded by the Linux Foundation: it is the first crates.io-published version with a formal long-term support commitment, enabling Rust developers to embed Servo as a dependency with the same stability guarantees they expect from any mature library. The LTS tier is designed for embedders who need security updates and migration guides on a half-yearly schedule rather than monthly breaking changes. The Lobsters browsers-tag score reflects the practitioner assessment of what 'first crates.io LTS' means in context: Servo is now the primary open-source alternative to the Chromium Embedded Framework (CEF) for embedding web rendering in Rust applications, and the LTS commitment signals that the project has crossed from research prototype to deployable infrastructure. The Phoronix coverage emphasizes the embedded-use potential — applications that need a web rendering component without shipping all of Chromium's 100M+ line footprint. The community discussion is architectural: Servo's component model (stylo for CSS, WebRender for graphics) is already shipping in Firefox; the full engine embedding via crates.io is the completion of a path that began when Mozilla spun the project to the Linux Foundation in 2023. When Lobsters' highest-scoring story is a browser engine version release, the practitioner community is signaling that foundational infrastructure — not AI tooling, not agent frameworks — earns top placement when the milestone is genuine. Servo 0.1.0 on crates.io is a genuine milestone.",
+      "text": "Sometimes powerful people just do dumb shit (59 pts, 6 comments)",
       "tags": [
-        "security",
-        "supply-chain",
-        "agents"
+        "hacker-news"
       ],
-      "source": "Lobsters 92pts",
-      "url": "https://servo.org/blog/2026/04/13/servo-0.1.0-release/"
-    },
-    {
-      "text": "snarktank/ralph sustains top GitHub trending at 14.3K total stars (TypeScript, +812/day) while jamiepine/voicebox climbs to 14.9K total stars (+657/day, TypeScript) and anthropics/claude-cookbooks consolidates at 39.2K total stars (+521/day, Jupyter Notebook) — three distinct categories of AI infrastructure trending simultaneously. Ralph at github.com/snarktank/ralph executes a single thesis: run Claude Code or Amp in a loop against a PRD until every item is complete, persisting memory through git history, progress.txt, and prd.json rather than through any novel architecture. Its +812/day velocity after crossing the 14K threshold is sustained, not spiking — practitioners are actually deploying it, not just starring and moving on. Voicebox at github.com/jamiepine/voicebox is the open-source answer to ElevenLabs' $22/month entry tier: local voice cloning from a few seconds of audio, 5 TTS engines (Qwen3-TTS, LuxTTS, Chatterbox Multilingual, Chatterbox Turbo, HumeAI TADA), 23 languages, paralinguistic emotion controls, and a post-processing effects pipeline — all running on local hardware. The +657/day velocity signals practitioners are switching active TTS workflows, not experimenting. Claude Cookbooks at github.com/anthropics/claude-cookbooks at 39.2K total is now infrastructure-by-adoption: the reference implementation repository for Claude tool use, caching, vision, and agent patterns has crossed into table-stakes territory. Three tools at three maturity stages — a loop agent gaining operational trust, an open-source voice studio gaining workflow adoption, and a reference cookbook solidifying as the canonical starting point — trending simultaneously maps the current practitioner build cycle precisely: you run the agent loop against a spec, you synthesize audio locally, you copy from the cookbook.",
-      "tags": [
-        "github-trending",
-        "claude-code",
-        "agents"
-      ],
-      "source": "GitHub +812/day",
-      "url": "https://github.com/trending"
-    },
-    {
-      "text": "Google's new spam policy for 'back button hijacking' lands at 162 HN pts (83 comments, 0.51:1 comment-to-point ratio) — the day's most consequential quiet story. The policy announcement at developers.google.com/search/blog/2026/04/back-button-hijacking defines back button hijacking as a spam violation: any script or technique that inserts or replaces pages in browser history to prevent users from immediately returning to their previous page will face manual spam actions or automated demotions beginning June 15, 2026. The 0.51:1 ratio is practitioners who build web properties arguing with practitioners who have been exploited by the practice: engineers comparing this to Google's 2016 interstitial penalty (effective within six months), discussing whether advertising platforms that inject history entries will be penalized alongside the sites that embed them, and noting that the two-month advance notice is the rarest form of Google enforcement transparency. The structural significance is not the policy itself — back button hijacking is universally recognized as a hostile UX pattern — but the mechanism: Google is classifying a JavaScript navigation manipulation technique as a spam signal, which means the penalty pathway runs through Google's anti-spam infrastructure rather than through a Webmaster Guidelines violation. The practitioner implication is architectural: sites that use history-injection for ad revenue optimization, engagement tracking, or recommendation pop-ups now have nine weeks to audit their advertising SDK stack, because the origin of the history injection may be in a third-party library the site does not directly control. The community thread identifies this as the clearest instance of Google enforcing browser navigation norms since the pushState era, and notes that the six-week enforcement gap is an implicit acknowledgment that the advertising ecosystem — not the site operators — is the primary source of the behavior.",
-      "tags": [
-        "ecosystem"
-      ],
-      "source": "HN 162pts",
-      "url": "https://developers.google.com/search/blog/2026/04/back-button-hijacking"
+      "source": "HN 59pts"
     }
   ],
   "trending": [
     {
       "name": "hermes-agent",
-      "fullName": "NousResearch/hermes-agent",
       "stars": "64.2K",
       "language": "Python",
-      "delta": "+3218/d",
-      "url": "https://github.com/NousResearch/hermes-agent"
+      "delta": "+3,218/d"
     },
     {
       "name": "markitdown",
-      "fullName": "microsoft/markitdown",
-      "stars": "106K",
+      "stars": "107K",
       "language": "Python",
-      "delta": "+1456/d",
-      "url": "https://github.com/microsoft/markitdown"
+      "delta": "+1,456/d"
     },
     {
       "name": "nothing-ever-happens",
-      "fullName": "sterlingcrispin/nothing-ever-happens",
       "stars": "3.8K",
       "language": "Python",
-      "delta": "+1203/d",
-      "url": "https://github.com/sterlingcrispin/nothing-ever-happens"
+      "delta": "+1,203/d"
     },
     {
       "name": "gh-stack",
-      "fullName": "github/gh-stack",
       "stars": "4.3K",
       "language": "Go",
-      "delta": "+890/d",
-      "url": "https://github.com/github/gh-stack"
+      "delta": "+890/d"
     },
     {
-      "name": "ralph",
-      "fullName": "snarktank/ralph",
-      "stars": "14.3K",
+      "name": "openscreen",
+      "stars": "28.9K",
       "language": "TypeScript",
-      "delta": "+812/d",
-      "url": "https://github.com/snarktank/ralph"
+      "delta": "+612/d"
     }
   ],
   "numbers": [
@@ -133,7 +92,7 @@
     },
     {
       "label": "Fastest Repo",
-      "value": "3218",
+      "value": "3,218",
       "unit": "stars/day"
     },
     {
@@ -143,7 +102,7 @@
     },
     {
       "label": "Insights Today",
-      "value": "8",
+      "value": "6",
       "unit": "stories"
     }
   ],
@@ -154,19 +113,19 @@
     },
     "headlines": [
       {
+        "text": "DaVinci Resolve releases Photo Editor",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "A new spam policy for \"back button hijacking\"",
+        "metric": "—",
+        "source": "web"
+      },
+      {
         "text": "Someone bought 30 WordPress plugins and planted a backdoor in all of them",
-        "metric": "838 pts",
-        "source": "HN"
-      },
-      {
-        "text": "GitHub Stacked PRs — native stacking enters private preview",
-        "metric": "604 pts",
-        "source": "HN"
-      },
-      {
-        "text": "Lean proved this program correct; then I found a bug",
-        "metric": "185 pts",
-        "source": "HN"
+        "metric": "—",
+        "source": "web"
       }
     ],
     "takeaway": {
