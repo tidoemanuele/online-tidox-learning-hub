@@ -1,113 +1,87 @@
 {
   "date": "2026-04-15",
-  "episodeNumber": 23,
+  "episodeNumber": 24,
   "locale": "en-US",
   "title": "Intelligence Brief",
-  "subtitle": "Rare concert recordings land on the Internet Archi, Claude Code Routines launches at 548 HN pts, Stop Flock campaign lands at 545 HN pts",
+  "subtitle": "Saying Goodbye to Agile, Claude Code Routines, Dependency cooldowns turn you into a free-rider",
   "heroStat": {
     "value": "597",
     "label": "points on \"Rare concert recordings are landing on the Internet Archive\""
   },
   "insights": [
     {
-      "url": "https://techcrunch.com/2026/04/13/thousands-of-rare-concert-recordings-are-landing-on-the-internet-archive-listen-now/",
-      "text": "Rare concert recordings land on the Internet Archive tops HN at 597 pts (171 comments, 0.29:1 comment-to-point ratio) — the day's highest-scoring story and a structural moment for digital preservation. The TechCrunch piece at techcrunch.com/2026/04/13/thousands-of-rare-concert-recordings-are-landing-on-the-internet-archive-listen-now documents thousands of live recordings — previously locked in personal and institutional archives — now publicly accessible for the first time. The 0.29:1 ratio is the preservation community in forensic mode, not nostalgia: 171 comments cataloguing what was at risk, what analog digitization costs, and what the loss calculus looks like when streaming platforms routinely purge back-catalogs or shut down entirely. The structural significance is timing: as Spotify, Apple Music, and Tidal consolidate catalog control and delete less commercially viable material, the Archive's role has crossed from archival redundancy to active cultural infrastructure. Every major streaming platform deletion this decade has sent content to the Archive as the last-resort repository. When the day's top story is thousands of live recordings entering the public domain, the practitioner community is validating a thesis: the Internet Archive is not a museum — it is the open web's immune system.",
-      "tags": []
+      "text": "Saying Goodbye to Agile (67 pts, 52 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 67pts"
     },
     {
-      "url": "https://news.ycombinator.com/item?id=47768133",
-      "text": "Claude Code Routines launches at 548 HN pts (314 comments, 0.57:1 comment-to-point ratio) — the day's second-highest story and Anthropic's first native automation layer for systematic agent workflows. The documentation at code.claude.com/docs/en/routines introduces named, repeatable instruction sequences that Claude executes on a single command: project setup, daily standup preparation, test-before-commit enforcement, documentation refresh. The 0.57:1 ratio is practitioners arguing at the boundary between scripting and intelligence: 314 engineers debating whether Routines are a proper abstraction or just named system prompts, whether they compose with hooks and custom commands, and whether the execution model guarantees idempotency. The structural significance is not the feature itself but the category it creates: Routines are the first Claude Code primitive designed for automation rather than interaction. Every shell script that wraps a Claude Code invocation is evidence that users have been building Routines manually for months. The practitioner community is not asking whether systematic AI workflows are valuable — it is asking whether the official abstraction is better than their homegrown wrappers. When a documentation page earns 548 points, the community already had the pattern; it just needed the name.",
+      "text": "Claude Code Routines (548 pts, 314 comments)",
       "tags": [
-        "claude-code",
-        "agents"
+        "hacker-news"
       ],
       "source": "HN 548pts"
     },
     {
-      "url": "https://stopflock.com",
-      "text": "Stop Flock campaign lands at 545 HN pts (132 comments, 0.24:1 comment-to-point ratio) — nearly tied with Claude Code Routines on the same day, an unusual simultaneous peak. The campaign at stopflock.com targets Cloudflare's Turnstile fingerprinting infrastructure, which Stop Flock documents is silently collecting browser fingerprints as part of bot-challenge flows on roughly 20% of the web's traffic. The 0.24:1 ratio is practitioners performing technical triage: 132 engineers dissecting what data is actually collected, whether the fingerprint persists across sessions, and whether Cloudflare's privacy policy covers the gap between 'challenge-only' collection and what the JavaScript actually sends. The simultaneous scoring of 545 (Stop Flock) and 548 (Claude Code Routines) on the same day is a precise signal: the community is equally invested in building new AI infrastructure and in defending the open web from surveillance consolidation at the network edge. Cloudflare controls bot detection for a structural fraction of the web; when that infrastructure performs fingerprinting beyond what challenge resolution requires, it is behavioral surveillance that is invisible to the user, unconsented to by the site operator, and indistinguishable from security tooling. The campaign earns 545 points not because the community is surprised — the HN thread in 2024 on 'Cloudflare knows everything about your users' hit 700 points — but because Stop Flock provides the first organized opt-out infrastructure.",
+      "text": "Dependency cooldowns turn you into a free-rider (61 pts, 35 comments)",
       "tags": [
-        "security",
-        "claude-code"
+        "hacker-news"
       ],
-      "source": "HN 545pts"
+      "source": "HN 61pts"
     },
     {
-      "url": "https://ziglang.org/download/0.16.0/release-notes.html",
-      "text": "Zig 0.16.0 releases with I/O as an Interface — the week's biggest language infrastructure event, topping Lobsters at 108 pts. The release at ziglang.org/download/0.16.0/release-notes.html represents 8 months of work from 244 contributors across 1,183 commits. The headline feature — std.Io as a runtime interface with io_uring (Linux) and GCD (macOS) backends — eliminates function coloring for async code: the same function works in both threaded and event-driven contexts without branching at the call site. The compiler's dependency graph shifts from cyclic to DAG-structured, enabling lazy field analysis so types used as namespaces no longer trigger unnecessary code inclusion. Incremental compilation improvements bring small-change recompile times from seconds to milliseconds. The Lobsters pickup at 108 pts (zig tag) is the practitioner community's strongest Zig signal of 2026: the systems-programming community treats Zig 0.16.0 not as a point release but as the version that makes async Zig practical for production I/O workloads. Ghostty's open migration issue (ghostty-org/ghostty#12228) is the cross-project signal: Zig 0.16's breaking changes are significant enough that a major application required a tracked migration effort. When the highest-scoring Lobsters story is a language release, the practitioner community is valuing infrastructure over tooling.",
+      "text": "Fixing a 20-year-old bug in Enlightenment E16 (13 pts, 3 comments)",
       "tags": [
-        "supply-chain"
-      ]
-    },
-    {
-      "url": "https://taoofmac.com/space/reviews/2026/04/11/1900",
-      "text": "Orange Pi 6 Plus earns 161 HN pts (114 comments, 0.71:1 comment-to-point ratio) — the day's highest comment-to-point ratio and the single-board computing community's most engaged story of April. The review at taoofmac.com/space/reviews/2026/04/11/1900 covers the Allwinner H700 board as a credible alternative to both the Raspberry Pi 5 and recent RISC-V boards: PCIe 2.1 lane for NVMe SSDs, 16GB LPDDR4X, 2.5GbE networking, and an NPU for on-device inference. The 0.71:1 ratio is practitioners in deep technical debate — 114 comments on thermal management, HDMI 2.1 support, mainline Linux driver availability, and whether the Allwinner vendor kernel gap is acceptable for production homelab use. The community concern is structural: the Allwinner ecosystem has historically lagged Raspberry Pi by 18-24 months on mainline kernel support, and the Orange Pi 6 Plus is entering a market where Raspberry Pi 5 availability has normalized. The story lands on the same day as the Maine data center ban discussion (124 pts), creating a precise juxtaposition: the state-level regulatory debate over megawatt-scale infrastructure runs parallel to a 161-point discussion about a $89 board that runs meaningful AI workloads at the edge. The compute decentralization thesis is not abstract — it is a 114-comment thread about whether a specific SBC can replace a cloud VM for specific workloads.",
-      "tags": [
-        "ecosystem"
+        "hacker-news"
       ],
-      "source": "HN 161pts"
+      "source": "HN 13pts"
     },
     {
-      "url": "https://kb.databasedesignbook.com/posts/5nf/",
-      "text": "5NF and Database Design reaches 152 HN pts (56 comments) — the fundamentals revival continues. The post at kb.databasedesignbook.com/posts/5nf/ walks through Fifth Normal Form from first principles: the condition where a relation cannot be decomposed further without losing information or creating spurious tuples. The Lobsters simultaneous score (19 pts, databases tag) is the cross-platform practitioner signal: engineers who work at the data layer are re-examining normalization theory at precisely the moment when AI-generated schema are shipping in production. The community thread is not nostalgic — it is architectural: 56 engineers arguing about whether AI coding tools generate schemas that violate 4NF and 5NF by default, whether ORMs obscure normalization decisions until they become performance problems, and whether the LLM-generated-code era requires a normalization audit step as standard practice. The 152-point score for a post on 5NF — a topic that most computer science programs teach once and move past — is evidence that fundamentals are experiencing a practitioner revival driven by AI tooling. When AI generates the data model, the human review step is exactly where normalization knowledge is applied. The community is sharpening the skills that AI assistance most frequently skips.",
-      "tags": [],
-      "source": "HN 152pts"
-    },
-    {
-      "url": "https://blog.google/products-and-platforms/products/chrome/skills-in-chrome/",
-      "text": "Google launches AI Skills in Chrome at 144 HN pts (68 comments, 0.47:1 comment-to-point ratio) — the browser becomes the primary AI prompt execution surface. The announcement at blog.google/products-and-platforms/products/chrome/skills-in-chrome/ introduces Skills: saved prompts that run one-click on any selected text in Chrome, backed by Gemini. Summarize, translate, rewrite, extract — any workflow a user repeats across sites becomes a browser-native action. The 0.47:1 ratio is practitioners processing an architectural shift: 68 engineers examining whether Skills are tab-scoped or cross-tab, whether they can read the DOM beyond selected text, and whether Google has effectively embedded a Gemini instruction layer between the user and every website they visit. The structural concern is not the feature — it is the surface: Chrome holds roughly 65% of global browser market share. When Google ships AI prompt execution as a first-class browser primitive, it is not a product feature; it is infrastructure. Every AI assistant that currently lives as a browser extension is now competing with a native Chrome capability that ships with automatic updates and full DOM access. The community is not asking whether AI in the browser is useful — it is asking whether a browser that executes AI prompts on web content changes the trust model of the web.",
+      "text": "Rare concert recordings are landing on the Internet Archive (597 pts, 171 comments)",
       "tags": [
-        "rust"
+        "hacker-news"
       ],
-      "source": "HN 144pts"
+      "source": "HN 597pts"
     },
     {
-      "url": "https://www.gadgetreview.com/maine-is-about-to-become-the-first-state-to-ban-major-new-data-centers",
-      "text": "Maine moves to ban major new data centers at 124 HN pts (159 comments, 1.28:1 comment-to-point ratio) — the highest comment-to-point ratio of the day and the first US state-level data center restriction driven by energy capacity. The Gadget Review piece at gadgetreview.com/maine-is-about-to-become-the-first-state-to-ban-major-new-data-centers documents legislation targeting facilities exceeding 100MW of power draw, citing grid stress from AI compute demand and the state's renewable energy commitments. The 1.28:1 ratio is the community in structural debate: 159 engineers and policy-watchers arguing about regulatory precedent, whether Maine's grid constraints are genuine or manufactured, and whether this is the first domino in a broader pattern of energy-constrained jurisdictions pushing back against hyperscaler expansion. TechCrunch's parallel coverage documents Microsoft, Meta, and Google building dedicated natural gas infrastructure in Texas specifically to escape regulated grid constraints — the AI energy demand that Maine is trying to limit is being absorbed by states with fewer restrictions. The 1.28:1 ratio confirms the community recognizes the dynamic: Maine's ban does not reduce demand, it displaces it. The structural question is whether energy-constrained states acting individually creates a race to the bottom among states competing for data center investment by weakening environmental standards, or whether Maine establishes a regulatory template that other states adopt.",
-      "tags": [],
-      "source": "HN 124pts"
+      "text": "Not all elementary functions can be expressed with exp-minus-log (44 pts, 24 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 44pts"
     }
   ],
   "trending": [
     {
       "name": "claw-code",
-      "fullName": "ultraworkers/claw-code",
       "stars": "301K",
       "language": "Rust",
-      "delta": "+4,231/d",
-      "url": "https://github.com/ultraworkers/claw-code"
+      "delta": "+4,231/d"
     },
     {
       "name": "hermes-agent",
-      "fullName": "NousResearch/hermes-agent",
       "stars": "64.2K",
       "language": "Python",
-      "delta": "+2,876/d",
-      "url": "https://github.com/NousResearch/hermes-agent"
+      "delta": "+2,876/d"
     },
     {
       "name": "markitdown",
-      "fullName": "microsoft/markitdown",
       "stars": "106K",
       "language": "Python",
-      "delta": "+1,342/d",
-      "url": "https://github.com/microsoft/markitdown"
+      "delta": "+1,342/d"
     },
     {
       "name": "zig",
-      "fullName": "ziglang/zig",
       "stars": "38.4K",
       "language": "Zig",
-      "delta": "+1,156/d",
-      "url": "https://github.com/ziglang/zig"
+      "delta": "+1,156/d"
     },
     {
       "name": "ai-hedge-fund",
-      "fullName": "virattt/ai-hedge-fund",
       "stars": "52.6K",
       "language": "Python",
-      "delta": "+893/d",
-      "url": "https://github.com/virattt/ai-hedge-fund"
+      "delta": "+893/d"
     }
   ],
   "numbers": [
@@ -128,7 +102,7 @@
     },
     {
       "label": "Insights Today",
-      "value": "8",
+      "value": "6",
       "unit": "stories"
     }
   ],
@@ -139,19 +113,19 @@
     },
     "headlines": [
       {
-        "text": "Rare concert recordings land on the Internet Archive",
-        "metric": "597 pts",
-        "source": "HN"
+        "text": "Saying Goodbye to Agile",
+        "metric": "—",
+        "source": "web"
       },
       {
-        "text": "Claude Code Routines launches",
-        "metric": "548 pts",
-        "source": "HN"
+        "text": "Claude Code Routines",
+        "metric": "—",
+        "source": "web"
       },
       {
-        "text": "Stop Flock: fight Cloudflare fingerprinting",
-        "metric": "545 pts",
-        "source": "HN"
+        "text": "Dependency cooldowns turn you into a free-rider",
+        "metric": "—",
+        "source": "web"
       }
     ],
     "takeaway": {
