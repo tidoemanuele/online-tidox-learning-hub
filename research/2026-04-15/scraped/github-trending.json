@@ -1,0 +1,65 @@
+[
+  {
+    "name": "claw-code",
+    "fullName": "ultraworkers/claw-code",
+    "description": "Open-source personal AI assistant gateway connecting frontier models to 50+ integrations; runs entirely on your own devices",
+    "language": "Rust",
+    "stars_today": "4,231 stars today",
+    "total_stars": "301215",
+    "url": "https://github.com/ultraworkers/claw-code"
+  },
+  {
+    "name": "hermes-agent",
+    "fullName": "NousResearch/hermes-agent",
+    "description": "The agent that grows with you — an adaptive multi-agent framework for long-horizon tasks",
+    "language": "Python",
+    "stars_today": "2,876 stars today",
+    "total_stars": "64218",
+    "url": "https://github.com/NousResearch/hermes-agent"
+  },
+  {
+    "name": "markitdown",
+    "fullName": "microsoft/markitdown",
+    "description": "Python tool for converting files and office documents to Markdown",
+    "language": "Python",
+    "stars_today": "1,342 stars today",
+    "total_stars": "106200",
+    "url": "https://github.com/microsoft/markitdown"
+  },
+  {
+    "name": "zig",
+    "fullName": "ziglang/zig",
+    "description": "General-purpose programming language and toolchain for maintaining robust, optimal, and reusable software",
+    "language": "Zig",
+    "stars_today": "1,156 stars today",
+    "total_stars": "38400",
+    "url": "https://github.com/ziglang/zig"
+  },
+  {
+    "name": "ai-hedge-fund",
+    "fullName": "virattt/ai-hedge-fund",
+    "description": "An AI Hedge Fund Team — multi-agent system for autonomous investment research and portfolio management",
+    "language": "Python",
+    "stars_today": "893 stars today",
+    "total_stars": "52600",
+    "url": "https://github.com/virattt/ai-hedge-fund"
+  },
+  {
+    "name": "claude-cookbooks",
+    "fullName": "anthropics/claude-cookbooks",
+    "description": "Fun and effective ways of using Claude — Jupyter Notebooks for Claude API patterns and use cases",
+    "language": "Jupyter Notebook",
+    "stars_today": "712 stars today",
+    "total_stars": "39100",
+    "url": "https://github.com/anthropics/claude-cookbooks"
+  },
+  {
+    "name": "WeClone",
+    "fullName": "xming521/WeClone",
+    "description": "One-stop solution to create your AI twin from your chat history with fine-tuned local LLMs",
+    "language": "Python",
+    "stars_today": "598 stars today",
+    "total_stars": "16500",
+    "url": "https://github.com/xming521/WeClone"
+  }
+]

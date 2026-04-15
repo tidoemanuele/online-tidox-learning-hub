@@ -1,0 +1,194 @@
+[
+  {
+    "type": "intro",
+    "highlight": "April 15, 2026 — Intelligence Brief",
+    "subtext": "Three stories separated by noise"
+  },
+  {
+    "type": "number",
+    "number": "597 / 548 / 545",
+    "highlight": "Three stories, three points apart",
+    "label": "HN PTS TODAY",
+    "subtext": "The gap between them? Noise."
+  },
+  {
+    "type": "insight",
+    "highlight": "Three simultaneous anxieties",
+    "label": "TODAY'S SIGNAL",
+    "subtext": "Preserve. Automate. Protect."
+  },
+  {
+    "type": "number",
+    "number": "597",
+    "highlight": "Internet Archive concert recordings",
+    "label": "HN POINTS",
+    "subtext": "Rare live recordings go public"
+  },
+  {
+    "type": "insight",
+    "highlight": "The Archive is infrastructure, not a museum",
+    "subtext": "Streaming platforms delete what they don't profit from"
+  },
+  {
+    "type": "quote",
+    "highlight": "Preservation is now active cultural infrastructure",
+    "label": "STRUCTURAL SHIFT"
+  },
+  {
+    "type": "number",
+    "number": "171",
+    "highlight": "Comments on digital preservation costs",
+    "label": "HN COMMENTS",
+    "subtext": "Engineers asking the hard questions"
+  },
+  {
+    "type": "number",
+    "number": "548",
+    "highlight": "Claude Code Routines launches",
+    "label": "HN POINTS",
+    "subtext": "Anthropic's first automation primitive"
+  },
+  {
+    "type": "insight",
+    "highlight": "Every shell script was already a Routine",
+    "subtext": "The community had the pattern — they needed the name"
+  },
+  {
+    "type": "number",
+    "number": "314",
+    "highlight": "Engineers debating the abstraction",
+    "label": "HN COMMENTS",
+    "subtext": "0.57:1 comment-to-point ratio"
+  },
+  {
+    "type": "action",
+    "highlight": "Naming creates coordination across teams",
+    "label": "TAKEAWAY",
+    "subtext": "Shared mental models compound"
+  },
+  {
+    "type": "insight",
+    "highlight": "A docs page earning 548 pts: the name is the contribution",
+    "label": "PATTERN"
+  },
+  {
+    "type": "number",
+    "number": "545",
+    "highlight": "Stop Flock: fight Cloudflare fingerprinting",
+    "label": "HN POINTS",
+    "subtext": "Near-tie with Claude Code Routines"
+  },
+  {
+    "type": "insight",
+    "highlight": "Fingerprinting 20% of web traffic as bot detection",
+    "subtext": "No consent. No transparency. Indistinguishable from security."
+  },
+  {
+    "type": "quote",
+    "highlight": "Behavioral surveillance invisible to users and operators",
+    "label": "STOP FLOCK THESIS"
+  },
+  {
+    "type": "insight",
+    "highlight": "548 and 545: build capability, resist surveillance",
+    "label": "DUAL SIGNAL",
+    "subtext": "Same community. Same day. Same stakes."
+  },
+  {
+    "type": "action",
+    "highlight": "Build the tools. Block the fingerprint.",
+    "label": "THE THESIS",
+    "subtext": "Not contradictions — the same argument"
+  },
+  {
+    "type": "repo",
+    "highlight": "ziglang/zig",
+    "label": "LOBSTERS #1",
+    "subtext": "108 pts — Zig 0.16.0 released"
+  },
+  {
+    "type": "insight",
+    "highlight": "I/O as Interface: one function, two runtimes",
+    "subtext": "io_uring + GCD — no function coloring"
+  },
+  {
+    "type": "number",
+    "number": "1,183",
+    "highlight": "Commits across 244 contributors",
+    "label": "ZIG 0.16.0",
+    "subtext": "8 months of work"
+  },
+  {
+    "type": "action",
+    "highlight": "Ghostty migration issue = production threshold crossed",
+    "label": "SIGNAL",
+    "subtext": "This is the async Zig turning point"
+  },
+  {
+    "type": "number",
+    "number": "124",
+    "highlight": "Maine to ban data centers over 100MW",
+    "label": "HN POINTS",
+    "subtext": "1.28:1 comment ratio — highest of the day"
+  },
+  {
+    "type": "insight",
+    "highlight": "The ban displaces demand — it doesn't reduce it",
+    "subtext": "Microsoft, Meta, Google building gas plants in Texas"
+  },
+  {
+    "type": "quote",
+    "highlight": "Race to the bottom or regulatory template?",
+    "label": "THE QUESTION",
+    "subtext": "First US state-level AI infrastructure restriction"
+  },
+  {
+    "type": "insight",
+    "highlight": "Three infrastructure layers built simultaneously",
+    "label": "TODAY'S PATTERN",
+    "subtext": "Automation. Privacy. Preservation."
+  },
+  {
+    "type": "insight",
+    "highlight": "Regulatory environment is a first-class engineering constraint",
+    "label": "MAINE SIGNAL"
+  },
+  {
+    "type": "action",
+    "highlight": "Understand this now — operate differently in 18 months",
+    "label": "BUILDER SIGNAL",
+    "subtext": "The stack is being assembled in public"
+  },
+  {
+    "type": "action",
+    "highlight": "Build the routine. Block the fingerprint. Archive the thing.",
+    "label": "APRIL 15 BRIEF",
+    "subtext": "Don't assume the platform will do it"
+  },
+  {
+    "type": "insight",
+    "highlight": "Don't assume the platform will do it",
+    "subtext": "Preserve. Automate. Protect."
+  },
+  {
+    "type": "insight",
+    "highlight": "Build. Block. Archive.",
+    "label": "APRIL 15 SIGNAL"
+  },
+  {
+    "type": "insight",
+    "highlight": "The open web's immune system is you",
+    "subtext": "Practitioners assembling the stack"
+  },
+  {
+    "type": "close",
+    "highlight": "April 15, 2026 — Intelligence Brief",
+    "label": "TIDOX LEARNING HUB",
+    "subtext": "See you tomorrow."
+  },
+  {
+    "type": "close",
+    "highlight": "See you tomorrow.",
+    "label": "END"
+  }
+]
