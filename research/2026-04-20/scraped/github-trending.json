@@ -1,0 +1,47 @@
+[
+  {
+    "fullName": "NousResearch/hermes-agent",
+    "name": "hermes-agent",
+    "description": "The agent that grows with you — persistent skills, three-layer memory, and self-improvement across sessions via genetic evolution and skill extraction",
+    "language": "Python",
+    "stars_today": "652 stars today",
+    "total_stars": "96100",
+    "url": "https://github.com/NousResearch/hermes-agent"
+  },
+  {
+    "fullName": "heygen-com/hyperframes",
+    "name": "hyperframes",
+    "description": "Write HTML. Render video. Built for agents. 50+ ready-to-use blocks including social overlays, shader transitions, data visualizations, and cinematic effects.",
+    "language": "TypeScript",
+    "stars_today": "572 stars today",
+    "total_stars": "5600",
+    "url": "https://github.com/heygen-com/hyperframes"
+  },
+  {
+    "fullName": "shivampkumar/trellis-mac",
+    "name": "trellis-mac",
+    "description": "Run TRELLIS.2 Image-to-3D generation natively on Apple Silicon via PyTorch MPS — no NVIDIA GPU required, 400K+ vertex meshes in ~3.5 minutes on M4 Pro",
+    "language": "Python",
+    "stars_today": "448 stars today",
+    "total_stars": "1247",
+    "url": "https://github.com/shivampkumar/trellis-mac"
+  },
+  {
+    "fullName": "forrestchang/andrej-karpathy-skills",
+    "name": "andrej-karpathy-skills",
+    "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls",
+    "language": "Unknown",
+    "stars_today": "421 stars today",
+    "total_stars": "52300",
+    "url": "https://github.com/forrestchang/andrej-karpathy-skills"
+  },
+  {
+    "fullName": "shanraisshan/claude-code-best-practice",
+    "name": "claude-code-best-practice",
+    "description": "Battle-tested Claude Code workflows, slash commands, hooks, and CLAUDE.md templates for production codebases",
+    "language": "Markdown",
+    "stars_today": "383 stars today",
+    "total_stars": "8940",
+    "url": "https://github.com/shanraisshan/claude-code-best-practice"
+  }
+]

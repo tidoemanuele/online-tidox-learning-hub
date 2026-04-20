@@ -1,0 +1,122 @@
+[
+  {
+    "rank": 1,
+    "title": "Vercel April 2026 security incident",
+    "url": "https://www.bleepingcomputer.com/news/security/vercel-confirms-breach-as-hackers-claim-to-be-selling-stolen-data/",
+    "hn_url": "https://news.ycombinator.com/item?id=47824463",
+    "points": 659,
+    "comments": 375
+  },
+  {
+    "rank": 2,
+    "title": "A Brief History of Fish Sauce",
+    "url": "https://www.legalnomads.com/fish-sauce/",
+    "hn_url": "https://news.ycombinator.com/item?id=47822734",
+    "points": 150,
+    "comments": 62
+  },
+  {
+    "rank": 3,
+    "title": "Claude Token Counter, now with model comparisons",
+    "url": "https://simonwillison.net/2026/Apr/20/claude-token-counts/",
+    "hn_url": "https://news.ycombinator.com/item?id=47829178",
+    "points": 49,
+    "comments": 17
+  },
+  {
+    "rank": 4,
+    "title": "Stop trying to engineer your way out of listening to people",
+    "url": "https://ashley.rolfmore.com/stop-trying-to-engineer-your-way-out-of-listening-to-people/",
+    "hn_url": "https://news.ycombinator.com/item?id=47827259",
+    "points": 123,
+    "comments": 41
+  },
+  {
+    "rank": 5,
+    "title": "Sudo for Windows (2024)",
+    "url": "https://github.com/microsoft/sudo",
+    "hn_url": "https://news.ycombinator.com/item?id=47828853",
+    "points": 59,
+    "comments": 32
+  },
+  {
+    "rank": 6,
+    "title": "The Bromine Chokepoint",
+    "url": "https://warontherocks.com/cogs-of-war/the-bromine-chokepoint-how-strife-in-the-middle-east-could-halt-production-of-the-worlds-memory-chips/",
+    "hn_url": "https://news.ycombinator.com/item?id=47826100",
+    "points": 183,
+    "comments": 90
+  },
+  {
+    "rank": 7,
+    "title": "Monumental ship burial beneath ancient Norwegian mound predates the Viking Age",
+    "url": "https://phys.org/news/2026-04-monumental-ship-burial-beneath-ancient.html",
+    "hn_url": "https://news.ycombinator.com/item?id=47804178",
+    "points": 20,
+    "comments": 4
+  },
+  {
+    "rank": 8,
+    "title": "Show HN: Run TRELLIS.2 Image-to-3D generation natively on Apple Silicon",
+    "url": "https://github.com/shivampkumar/trellis-mac",
+    "hn_url": "https://news.ycombinator.com/item?id=47828896",
+    "points": 134,
+    "comments": 21
+  },
+  {
+    "rank": 9,
+    "title": "Mechanical Keyboard Sounds \u2013 A listening Museum",
+    "url": "https://sheets.works/data-viz/keyboard-sounds",
+    "hn_url": "https://news.ycombinator.com/item?id=47780743",
+    "points": 80,
+    "comments": 30
+  },
+  {
+    "rank": 10,
+    "title": "Turtle WoW classic server announces shutdown after Blizzard wins injunction",
+    "url": "https://www.pcgamer.com/games/world-of-warcraft/turtle-wow-classic-server-announces-shutdown-after-blizzard-wins-injunction/",
+    "hn_url": "https://news.ycombinator.com/item?id=47825160",
+    "points": 188,
+    "comments": 160
+  },
+  {
+    "rank": 11,
+    "title": "Zero-copy protobuf and ConnectRPC for Rust",
+    "url": "https://medium.com/@iainmcgin/zero-copy-protobuf-and-connectrpc-for-rust-69bda8ac0f02",
+    "hn_url": "https://news.ycombinator.com/item?id=47801200",
+    "points": 6,
+    "comments": 2
+  },
+  {
+    "rank": 12,
+    "title": "Changes in the system prompt between Claude Opus 4.6 and 4.7",
+    "url": "https://simonwillison.net/2026/Apr/18/opus-system-prompt/",
+    "hn_url": "https://news.ycombinator.com/item?id=47823270",
+    "points": 269,
+    "comments": 161
+  },
+  {
+    "rank": 13,
+    "title": "A cache-friendly IPv6 LPM with AVX-512 (linearized B+-tree, real BGP benchmarks)",
+    "url": "https://github.com/esutcu/planb-lpm",
+    "hn_url": "https://news.ycombinator.com/item?id=47830071",
+    "points": 11,
+    "comments": 2
+  },
+  {
+    "rank": 14,
+    "title": "Swiss AI Initiative (2023)",
+    "url": "https://www.swiss-ai.org",
+    "hn_url": "https://news.ycombinator.com/item?id=47828444",
+    "points": 42,
+    "comments": 13
+  },
+  {
+    "rank": 15,
+    "title": "2,100 Swiss municipalities showing which provider handles their official email",
+    "url": "https://mxmap.ch/",
+    "hn_url": "https://news.ycombinator.com/item?id=47828420",
+    "points": 118,
+    "comments": 39
+  }
+]

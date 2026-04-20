@@ -1,0 +1,122 @@
+[
+  {
+    "rank": 1,
+    "title": "Vercel April 2026 security incident",
+    "url": "https://vercel.com/kb/bulletin/vercel-april-2026-security-incident",
+    "hn_url": "https://news.ycombinator.com/item?id=47829541",
+    "points": 659,
+    "comments": 312
+  },
+  {
+    "rank": 2,
+    "title": "Changes in the system prompt between Claude Opus 4.6 and 4.7",
+    "url": "https://simonwillison.net/2026/Apr/18/opus-system-prompt/",
+    "hn_url": "https://news.ycombinator.com/item?id=47823270",
+    "points": 269,
+    "comments": 189
+  },
+  {
+    "rank": 3,
+    "title": "Turtle WoW classic server announces shutdown after Blizzard wins injunction",
+    "url": "https://www.pcgamer.com/games/world-of-warcraft/turtle-wow-classic-server-announces-shutdown-after-blizzard-wins-injunction",
+    "hn_url": "https://news.ycombinator.com/item?id=47827014",
+    "points": 188,
+    "comments": 244
+  },
+  {
+    "rank": 4,
+    "title": "The Bromine Chokepoint",
+    "url": "https://warontherocks.com/cogs-of-war/the-bromine-chokepoint-how-strife-in-the-middle-east-could-halt-production-of-the-worlds-memory-chips/",
+    "hn_url": "https://news.ycombinator.com/item?id=47826100",
+    "points": 183,
+    "comments": 142
+  },
+  {
+    "rank": 5,
+    "title": "A Brief History of Fish Sauce",
+    "url": "https://www.legalnomads.com/fish-sauce/",
+    "hn_url": "https://news.ycombinator.com/item?id=47824882",
+    "points": 150,
+    "comments": 78
+  },
+  {
+    "rank": 6,
+    "title": "Show HN: Run TRELLIS.2 Image-to-3D generation natively on Apple Silicon",
+    "url": "https://github.com/shivampkumar/trellis-mac",
+    "hn_url": "https://news.ycombinator.com/item?id=47828896",
+    "points": 134,
+    "comments": 112
+  },
+  {
+    "rank": 7,
+    "title": "Stop trying to engineer your way out of listening to people",
+    "url": "https://ashley.rolfmore.com/stop-trying-to-engineer-your-way-out-of-listening-to-people/",
+    "hn_url": "https://news.ycombinator.com/item?id=47825673",
+    "points": 123,
+    "comments": 83
+  },
+  {
+    "rank": 8,
+    "title": "2,100 Swiss municipalities showing which provider handles their official digital services",
+    "url": "https://mxmap.ch/",
+    "hn_url": "https://news.ycombinator.com/item?id=47826891",
+    "points": 118,
+    "comments": 67
+  },
+  {
+    "rank": 9,
+    "title": "Mechanical Keyboard Sounds – A listening Museum",
+    "url": "https://sheets.works/data-viz/keyboard-sounds",
+    "hn_url": "https://news.ycombinator.com/item?id=47822114",
+    "points": 80,
+    "comments": 41
+  },
+  {
+    "rank": 10,
+    "title": "Sudo for Windows (2024)",
+    "url": "https://github.com/microsoft/sudo",
+    "hn_url": "https://news.ycombinator.com/item?id=47825102",
+    "points": 59,
+    "comments": 38
+  },
+  {
+    "rank": 11,
+    "title": "Claude Token Counter, now with model comparisons",
+    "url": "https://simonwillison.net/2026/Apr/20/claude-token-counts/",
+    "hn_url": "https://news.ycombinator.com/item?id=47829003",
+    "points": 49,
+    "comments": 28
+  },
+  {
+    "rank": 12,
+    "title": "Swiss AI Initiative (2023)",
+    "url": "https://www.swiss-ai.org",
+    "hn_url": "https://news.ycombinator.com/item?id=47824019",
+    "points": 42,
+    "comments": 19
+  },
+  {
+    "rank": 13,
+    "title": "Monumental ship burial beneath ancient Norwegian mound predates the Viking age",
+    "url": "https://phys.org/news/2026-04-monumental-ship-burial-beneath-ancient.html",
+    "hn_url": "https://news.ycombinator.com/item?id=47823788",
+    "points": 20,
+    "comments": 11
+  },
+  {
+    "rank": 14,
+    "title": "A cache-friendly IPv6 LPM with AVX-512 (linearized B+-tree, real BGP benchmarks)",
+    "url": "https://github.com/esutcu/planb-lpm",
+    "hn_url": "https://news.ycombinator.com/item?id=47821577",
+    "points": 11,
+    "comments": 6
+  },
+  {
+    "rank": 15,
+    "title": "Zero-copy protobuf and ConnectRPC for Rust",
+    "url": "https://medium.com/@iainmcgin/zero-copy-protobuf-and-connectrpc-for-rust-a1c2e4b3f9d7",
+    "hn_url": "https://news.ycombinator.com/item?id=47820993",
+    "points": 6,
+    "comments": 4
+  }
+]

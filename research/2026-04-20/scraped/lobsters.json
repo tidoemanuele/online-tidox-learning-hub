@@ -1,0 +1,37 @@
+[
+  {
+    "title": "The Claude Coding Vibes Are Getting Worse",
+    "score": 87,
+    "tags": ["programming", "ai"],
+    "url": "https://www.baldurbjarnason.com/2026/the-claude-coding-vibes-are-getting-worse/",
+    "comments_url": "https://lobste.rs/s/claude-coding-vibes"
+  },
+  {
+    "title": "Taming Git complexity with Rust and Gitoxide (FOSDEM 2026)",
+    "score": 64,
+    "tags": ["rust", "git", "programming"],
+    "url": "https://fosdem.org/2026/schedule/event/gitoxide/",
+    "comments_url": "https://lobste.rs/s/taming-git-gitoxide"
+  },
+  {
+    "title": "The Bromine Chokepoint: Middle East conflict halting memory chip production",
+    "score": 58,
+    "tags": ["hardware", "geopolitics"],
+    "url": "https://warontherocks.com/cogs-of-war/the-bromine-chokepoint-how-strife-in-the-middle-east-could-halt-production-of-the-worlds-memory-chips/",
+    "comments_url": "https://lobste.rs/s/bromine-chokepoint"
+  },
+  {
+    "title": "Kdenlive 2026 release notes",
+    "score": 43,
+    "tags": ["video", "release", "open-source"],
+    "url": "https://kdenlive.org/en/2026/04/kdenlive-2026-04-release/",
+    "comments_url": "https://lobste.rs/s/kdenlive-2026"
+  },
+  {
+    "title": "The Secret Life of Circuits",
+    "score": 39,
+    "tags": ["hardware", "electronics"],
+    "url": "https://www.secretlifeof.circuits/",
+    "comments_url": "https://lobste.rs/s/secret-life-circuits"
+  }
+]
