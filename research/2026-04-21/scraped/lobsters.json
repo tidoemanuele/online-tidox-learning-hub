@@ -1,0 +1,200 @@
+[
+  {
+    "title": "Forgejo v15.0 is available",
+    "score": 81,
+    "tags": [
+      "release",
+      "vcs"
+    ],
+    "url": "https://forgejo.org/2026-04-release-v15-0/",
+    "comments_url": "https://lobste.rs/s/uxkvmr/forgejo_v15_0_is_available"
+  },
+  {
+    "title": "Quantum Computers Are Not a Threat to 128-bit Symmetric Keys",
+    "score": 48,
+    "tags": [
+      "cryptography"
+    ],
+    "url": "https://words.filippo.io/128-bits/",
+    "comments_url": "https://lobste.rs/s/ea0xug/quantum_computers_are_not_threat_128_bit"
+  },
+  {
+    "title": "Claude Desktop installs undocumented browser extensions for Chrome and other browsers",
+    "score": 88,
+    "tags": [
+      "privacy",
+      "vibecoding"
+    ],
+    "url": "https://www.thatprivacyguy.com/blog/anthropic-spyware/",
+    "comments_url": "https://lobste.rs/s/pfqxak/claude_desktop_installs_undocumented"
+  },
+  {
+    "title": "Jujutsu megamerges for fun and profit",
+    "score": 23,
+    "tags": [
+      "vcs"
+    ],
+    "url": "https://isaaccorbrey.com/notes/jujutsu-megamerges-for-fun-and-profit",
+    "comments_url": "https://lobste.rs/s/etrtmp/jujutsu_megamerges_for_fun_profit"
+  },
+  {
+    "title": "Modern Frontend Complexity: essential or accidental?",
+    "score": 19,
+    "tags": [
+      "web"
+    ],
+    "url": "https://binaryigor.com/modern-frontend-complexity.html",
+    "comments_url": "https://lobste.rs/s/y5nowq/modern_frontend_complexity_essential"
+  },
+  {
+    "title": "Stalwart v0.16: A New Foundation",
+    "score": 12,
+    "tags": [
+      "release"
+    ],
+    "url": "https://stalw.art/blog/stalwart-0-16",
+    "comments_url": "https://lobste.rs/s/47iclr/stalwart_v0_16_new_foundation"
+  },
+  {
+    "title": "good-egg: Trust scoring for GitHub PR authors based on contribution history",
+    "score": 5,
+    "tags": [
+      "programming"
+    ],
+    "url": "https://github.com/2ndSetAI/good-egg",
+    "comments_url": "https://lobste.rs/s/axllpn/good_egg_trust_scoring_for_github_pr"
+  },
+  {
+    "title": "PyTexas 2026 Recap",
+    "score": 8,
+    "tags": [
+      "ai",
+      "event",
+      "python",
+      "vibecoding"
+    ],
+    "url": "https://bernat.tech/posts/pytexas-2026-recap/",
+    "comments_url": "https://lobste.rs/s/ugbrsp/pytexas_2026_recap"
+  },
+  {
+    "title": "Signal Shot: a project to verify the Signal protocol and its Rust implementation using Lean",
+    "score": 8,
+    "tags": [
+      "cryptography",
+      "formalmethods",
+      "security",
+      "vibecoding"
+    ],
+    "url": "https://leodemoura.github.io/blog/2026-4-20-signal-shot-the-platform-is-ready/",
+    "comments_url": "https://lobste.rs/s/jnl6e7/signal_shot_project_verify_signal"
+  },
+  {
+    "title": "Transpiling from Python into Lisp",
+    "score": 10,
+    "tags": [
+      "lisp",
+      "plt"
+    ],
+    "url": "https://github.com/naver/lispe/wiki/6.22-Transpiling-Python-into-LispE",
+    "comments_url": "https://lobste.rs/s/xeb6yb/transpiling_from_python_into_lisp"
+  },
+  {
+    "title": "Your engineering team looks healthy. It probably isn't",
+    "score": 17,
+    "tags": [
+      "culture",
+      "practices",
+      "vibecoding"
+    ],
+    "url": "https://dbarabashh.com/thoughts-and-experience/your-engineering-team-looks-healthy",
+    "comments_url": "https://lobste.rs/s/cjbxjv/your_engineering_team_looks_healthy_it"
+  },
+  {
+    "title": "ggsql: A grammar of graphics for SQL",
+    "score": 18,
+    "tags": [
+      "databases",
+      "visualization"
+    ],
+    "url": "https://opensource.posit.co/blog/2026-04-20_ggsql_alpha_release/",
+    "comments_url": "https://lobste.rs/s/tf7ngv/ggsql_grammar_graphics_for_sql"
+  },
+  {
+    "title": "WebUSB extension for Firefox",
+    "score": 25,
+    "tags": [
+      "browsers",
+      "web"
+    ],
+    "url": "https://github.com/ArcaneNibble/awawausb",
+    "comments_url": "https://lobste.rs/s/hagsaq/webusb_extension_for_firefox"
+  },
+  {
+    "title": "Effectful Recursion Schemes",
+    "score": 6,
+    "tags": [
+      "plt",
+      "programming"
+    ],
+    "url": "https://effekt-lang.org/blog/recursion-schemes/",
+    "comments_url": "https://lobste.rs/s/ky2eoq/effectful_recursion_schemes"
+  },
+  {
+    "title": "What are you doing this week?",
+    "score": 16,
+    "tags": [
+      "ask",
+      "programming"
+    ],
+    "url": "",
+    "comments_url": "https://lobste.rs/s/hqvxoj/what_are_you_doing_this_week"
+  },
+  {
+    "title": "256 Lines or Less: Test Case Minimization",
+    "score": 3,
+    "tags": [
+      "testing",
+      "zig"
+    ],
+    "url": "https://matklad.github.io/2026/04/20/test-case-minimization.html",
+    "comments_url": "https://lobste.rs/s/eu5n2j/256_lines_less_test_case_minimization"
+  },
+  {
+    "title": "Building an OPNsense router",
+    "score": 4,
+    "tags": [
+      "networking"
+    ],
+    "url": "https://clintonboys.com/projects/homelab/04-router/",
+    "comments_url": "https://lobste.rs/s/hqfiqi/building_opnsense_router"
+  },
+  {
+    "title": "Command Execution via Drag-and-Drop in Terminal Emulators",
+    "score": 2,
+    "tags": [
+      "security"
+    ],
+    "url": "https://sdushantha.github.io/post/drop-it-like-its-hot",
+    "comments_url": "https://lobste.rs/s/mfy7oi/command_execution_via_drag_drop_terminal"
+  },
+  {
+    "title": "Creusot 0.11.0: VerifyThis winner",
+    "score": 8,
+    "tags": [
+      "formalmethods",
+      "release",
+      "rust"
+    ],
+    "url": "https://devlog.creusot.rs/2026-04-20/",
+    "comments_url": "https://lobste.rs/s/b14yf4/creusot_0_11_0_verifythis_winner"
+  },
+  {
+    "title": "Introducing Glyph Protocol for Terminals",
+    "score": 50,
+    "tags": [
+      "unix"
+    ],
+    "url": "https://rapha.land/introducing-glyph-protocol-for-terminals/",
+    "comments_url": "https://lobste.rs/s/uevqfc/introducing_glyph_protocol_for"
+  }
+]

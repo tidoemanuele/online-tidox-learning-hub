@@ -1,0 +1,47 @@
+[
+  {
+    "fullName": "garrytan/gstack",
+    "name": "gstack",
+    "description": "Use Garry Tans exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+    "language": "Shell",
+    "stars_today": "812 stars today",
+    "total_stars": "66000",
+    "url": "https://github.com/garrytan/gstack"
+  },
+  {
+    "fullName": "posit-dev/ggsql",
+    "name": "ggsql",
+    "description": "A experimental SQL extension for declarative data visualisation based on the Grammar of Graphics",
+    "language": "SQL",
+    "stars_today": "743 stars today",
+    "total_stars": "780",
+    "url": "https://github.com/posit-dev/ggsql"
+  },
+  {
+    "fullName": "NousResearch/hermes-agent",
+    "name": "hermes-agent",
+    "description": "The agent that grows with you \u2014 self-improving AI agent with persistent skill files and multi-platform support",
+    "language": "Python",
+    "stars_today": "621 stars today",
+    "total_stars": "97200",
+    "url": "https://github.com/NousResearch/hermes-agent"
+  },
+  {
+    "fullName": "garrytan/gbrain",
+    "name": "gbrain",
+    "description": "Garry's Opinionated OpenClaw/Hermes Agent Brain \u2014 17888 pages, 4383 people, 723 companies, 21 autonomous cron jobs",
+    "language": "TypeScript",
+    "stars_today": "448 stars today",
+    "total_stars": "18200",
+    "url": "https://github.com/garrytan/gbrain"
+  },
+  {
+    "fullName": "gizmo64k/soulplayer-c64",
+    "name": "soulplayer-c64",
+    "description": "A real 25k-parameter transformer running on a 1 MHz Commodore 64",
+    "language": "C",
+    "stars_today": "356 stars today",
+    "total_stars": "1340",
+    "url": "https://github.com/gizmo64k/soulplayer-c64"
+  }
+]

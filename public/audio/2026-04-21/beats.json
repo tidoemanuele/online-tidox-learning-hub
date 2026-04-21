@@ -1,0 +1,202 @@
+[
+  {
+    "type": "intro",
+    "highlight": "April 21, 2026 — Intelligence Brief",
+    "subtext": "The biggest news day of the year"
+  },
+  {
+    "type": "number",
+    "highlight": "Tim Cook stepping down as Apple CEO",
+    "number": "1561",
+    "subtext": "HN points — highest of 2026",
+    "label": "HACKER NEWS"
+  },
+  {
+    "type": "insight",
+    "highlight": "John Ternus takes over September 1",
+    "subtext": "Hardware Engineering chief becomes CEO",
+    "label": "APPLE SUCCESSION"
+  },
+  {
+    "type": "quote",
+    "highlight": "The guy who built Apple Silicon is now running Apple",
+    "label": "WHAT THIS MEANS"
+  },
+  {
+    "type": "insight",
+    "highlight": "Silicon ownership, not supply chain orchestration",
+    "subtext": "Cook built services; Ternus built compute",
+    "label": "STRATEGIC SHIFT"
+  },
+  {
+    "type": "insight",
+    "highlight": "Two bets on where AI lives",
+    "subtext": "Hardware-native inference vs. cloud capability",
+    "label": "AI ARCHITECTURE"
+  },
+  {
+    "type": "insight",
+    "highlight": "Apple Intelligence = Ternus-era silicon",
+    "subtext": "Private Cloud Compute, on-device inference",
+    "label": "APPLE AI PLAY"
+  },
+  {
+    "type": "quote",
+    "highlight": "Apple's AI strategy just got a CEO who built it",
+    "label": "KEY INSIGHT"
+  },
+  {
+    "type": "number",
+    "highlight": "Qwen3.6-Max-Preview: #1 on six benchmarks",
+    "number": "592",
+    "subtext": "HN points — Alibaba's flagship model",
+    "label": "HACKER NEWS"
+  },
+  {
+    "type": "insight",
+    "highlight": "SWE-bench, Terminal-Bench, SkillsBench — all of them",
+    "subtext": "Not a narrow win",
+    "label": "BENCHMARKS"
+  },
+  {
+    "type": "insight",
+    "highlight": "preserve_thinking — reasoning traces persist",
+    "subtext": "Chain-of-thought lives across conversation turns",
+    "label": "NEW FEATURE"
+  },
+  {
+    "type": "quote",
+    "highlight": "The model's chain-of-thought doesn't get wiped between turns?",
+    "label": "BREAKTHROUGH"
+  },
+  {
+    "type": "insight",
+    "highlight": "Agent's reasoning state persists across the full session",
+    "subtext": "First production implementation in a frontier model",
+    "label": "PERSISTENT REASONING"
+  },
+  {
+    "type": "insight",
+    "highlight": "Agent remembers WHY it made a decision three steps ago",
+    "subtext": "Not just what it did",
+    "label": "AGENTIC CODING"
+  },
+  {
+    "type": "insight",
+    "highlight": "Apple: on-device. Alibaba: extended cloud reasoning.",
+    "subtext": "Two architectures, one market",
+    "label": "HEAD TO HEAD"
+  },
+  {
+    "type": "insight",
+    "highlight": "The market is running both experiments at once",
+    "subtext": "Hardware-native vs. cloud reasoning window",
+    "label": "2026 AI LANDSCAPE"
+  },
+  {
+    "type": "number",
+    "highlight": "ggsql: Grammar of Graphics for SQL",
+    "number": "391",
+    "subtext": "HN points — Posit alpha release",
+    "label": "HACKER NEWS"
+  },
+  {
+    "type": "quote",
+    "highlight": "ggplot2's compositional model — now a SQL extension?",
+    "label": "THE QUESTION"
+  },
+  {
+    "type": "insight",
+    "highlight": "Database-push architecture — no local copy needed",
+    "subtext": "Calculations run inside the database",
+    "label": "GGSQL"
+  },
+  {
+    "type": "quote",
+    "highlight": "10 billion rows, visualized without pandas?",
+    "label": "THE IMPLICATION"
+  },
+  {
+    "type": "insight",
+    "highlight": "0.20 comment-to-point ratio — community just agreed",
+    "subtext": "Quarto, Jupyter, VS Code integrations ship in alpha",
+    "label": "SIGNAL"
+  },
+  {
+    "type": "insight",
+    "highlight": "Quiet agreement > loud enthusiasm",
+    "subtext": "Two security stories, nearly identical scores, opposite ends",
+    "label": "DATA PATTERN"
+  },
+  {
+    "type": "number",
+    "highlight": "Brussels age-checking app — broken in 2 minutes",
+    "number": "193",
+    "subtext": "HN points — client-side validation failure",
+    "label": "SECURITY"
+  },
+  {
+    "type": "insight",
+    "highlight": "Client-side age check, no server enforcement",
+    "subtext": "Removed one JavaScript conditional",
+    "label": "HOW IT FAILED"
+  },
+  {
+    "type": "insight",
+    "highlight": "Quantum ≠ threat to 128-bit symmetric keys",
+    "subtext": "Filippo Valsorda — 190 HN points",
+    "label": "CRYPTO CALIBRATION"
+  },
+  {
+    "type": "insight",
+    "highlight": "Institutions fund the sophisticated threat, ignore the present one",
+    "subtext": "Real threat ignored. Future threat over-funded.",
+    "label": "SECURITY POSTURE"
+  },
+  {
+    "type": "action",
+    "highlight": "Validate server-side. Skip the quantum key rotation.",
+    "subtext": "Basic hygiene beats quantum prep",
+    "label": "BUILD ACCORDINGLY"
+  },
+  {
+    "type": "repo",
+    "highlight": "garrytan/gstack",
+    "subtext": "66K stars — 23 Claude Code personas",
+    "label": "GITHUB TRENDING"
+  },
+  {
+    "type": "insight",
+    "highlight": "Bottleneck is persona coordination, not model capability",
+    "subtext": "Security, UX, doc review — sequenced across one commit",
+    "label": "AGENTIC CODING"
+  },
+  {
+    "type": "repo",
+    "highlight": "gizmo64k/soulplayer-c64",
+    "subtext": "25K-parameter transformer on a 1 MHz Commodore 64",
+    "label": "SHOW HN"
+  },
+  {
+    "type": "insight",
+    "highlight": "How small can you go?",
+    "subtext": "The boundary between computer and AI computer has dissolved",
+    "label": "CREATIVE COMPUTING"
+  },
+  {
+    "type": "quote",
+    "highlight": "New Apple CEO. Model that remembers. SQL visualization. C64 transformer.",
+    "subtext": "What's the thread?",
+    "label": "THE BRIEF"
+  },
+  {
+    "type": "close",
+    "highlight": "Hardware, model, and tooling layers — all inflecting at once",
+    "subtext": "One story: where compute, inference, and data meet"
+  },
+  {
+    "type": "close",
+    "highlight": "Go build something at the intersection.",
+    "subtext": "That's the brief."
+  }
+]
