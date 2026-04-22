@@ -1,0 +1,74 @@
+[
+  {
+    "name": "FinceptTerminal",
+    "fullName": "Fincept-Corporation/FinceptTerminal",
+    "description": "Modern finance application offering advanced market analytics, investment research, and economic data tools with 37 AI agents and local LLM support",
+    "language": "Python",
+    "stars_today": "2548 stars today",
+    "total_stars": "12055",
+    "url": "https://github.com/Fincept-Corporation/FinceptTerminal"
+  },
+  {
+    "name": "RuView",
+    "fullName": "ruvnet/RuView",
+    "description": "WiFi-based human pose estimation and vital sign monitoring without video — radar-based presence detection running on commodity hardware",
+    "language": "Rust",
+    "stars_today": "824 stars today",
+    "total_stars": "49031",
+    "url": "https://github.com/ruvnet/RuView"
+  },
+  {
+    "name": "thunderbolt",
+    "fullName": "thunderbird/thunderbolt",
+    "description": "AI You Control: Choose your models. Own your data. Eliminate vendor lock-in.",
+    "language": "TypeScript",
+    "stars_today": "596 stars today",
+    "total_stars": "3576",
+    "url": "https://github.com/thunderbird/thunderbolt"
+  },
+  {
+    "name": "TrendRadar",
+    "fullName": "sansan0/TrendRadar",
+    "description": "AI-driven public opinion monitor with multi-platform aggregation and smart alerts",
+    "language": "Python",
+    "stars_today": "534 stars today",
+    "total_stars": "53927",
+    "url": "https://github.com/sansan0/TrendRadar"
+  },
+  {
+    "name": "ai-agents-for-beginners",
+    "fullName": "microsoft/ai-agents-for-beginners",
+    "description": "12 Lessons to Get Started Building AI Agents",
+    "language": "Jupyter Notebook",
+    "stars_today": "200 stars today",
+    "total_stars": "58021",
+    "url": "https://github.com/microsoft/ai-agents-for-beginners"
+  },
+  {
+    "name": "claude-context",
+    "fullName": "zilliztech/claude-context",
+    "description": "Code search MCP for Claude Code — makes entire codebase the context for any coding agent",
+    "language": "TypeScript",
+    "stars_today": "169 stars today",
+    "total_stars": "6834",
+    "url": "https://github.com/zilliztech/claude-context"
+  },
+  {
+    "name": "RAG-Anything",
+    "fullName": "HKUDS/RAG-Anything",
+    "description": "RAG-Anything: All-in-One RAG Framework supporting multimodal documents",
+    "language": "Python",
+    "stars_today": "162 stars today",
+    "total_stars": "17096",
+    "url": "https://github.com/HKUDS/RAG-Anything"
+  },
+  {
+    "name": "awesome-agent-skills",
+    "fullName": "VoltAgent/awesome-agent-skills",
+    "description": "A curated collection of 1000+ agent skills from official dev teams and the community",
+    "language": "Multiple",
+    "stars_today": "139 stars today",
+    "total_stars": "17048",
+    "url": "https://github.com/VoltAgent/awesome-agent-skills"
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "title": "The zero-days are numbered",
+    "score": 52,
+    "tags": [
+      "security",
+      "vibecoding"
+    ],
+    "url": "https://blog.mozilla.org/en/privacy-security/ai-security-zero-day-vulnerabilities/",
+    "comments_url": "https://lobste.rs/s/glpz3r/zero_days_are_numbered"
+  },
+  {
+    "title": "Framework Laptop 13 Pro: Intel Core Ultra 3 & LPCAMM2",
+    "score": 36,
+    "tags": [
+      "hardware"
+    ],
+    "url": "https://frame.work/laptop13pro",
+    "comments_url": "https://lobste.rs/s/0rzs0d/framework_laptop_13_pro_intel_core_ultra_3"
+  },
+  {
+    "title": "Is Claude Code going to cost $100/month? Probably not\u2014it\u2019s all very confusing",
+    "score": 8,
+    "tags": [
+      "vibecoding"
+    ],
+    "url": "https://simonwillison.net/2026/Apr/22/claude-code-confusion/",
+    "comments_url": "https://lobste.rs/s/0qdgc0/is_claude_code_going_cost_100_month"
+  },
+  {
+    "title": "grasp: a simple protocol for decentralized git",
+    "score": 23,
+    "tags": [
+      "distributed",
+      "vcs"
+    ],
+    "url": "https://gitgrasp.com/",
+    "comments_url": "https://lobste.rs/s/ual4t5/grasp_simple_protocol_for_decentralized"
+  },
+  {
+    "title": "I don't want your PRs anymore",
+    "score": 12,
+    "tags": [
+      "practices",
+      "vibecoding"
+    ],
+    "url": "https://dpc.pw/posts/i-dont-want-your-prs-anymore/",
+    "comments_url": "https://lobste.rs/s/p8idoc/i_don_t_want_your_prs_anymore"
+  },
+  {
+    "title": "What is your go-to project for learning a new language?",
+    "score": 49,
+    "tags": [
+      "ask",
+      "education",
+      "practices"
+    ],
+    "url": "",
+    "comments_url": "https://lobste.rs/s/xqmug2/what_is_your_go_project_for_learning_new"
+  },
+  {
+    "title": "Highlights from Git 2.54",
+    "score": 28,
+    "tags": [
+      "release",
+      "vcs"
+    ],
+    "url": "https://github.blog/open-source/git/highlights-from-git-2-54/",
+    "comments_url": "https://lobste.rs/s/ojh2aq/highlights_from_git_2_54"
+  },
+  {
+    "title": "Switching from uv to PDM",
+    "score": 20,
+    "tags": [
+      "python"
+    ],
+    "url": "https://stuartm.nz/2026/04/pdm-rocks/",
+    "comments_url": "https://lobste.rs/s/uczgez/switching_from_uv_pdm"
+  },
+  {
+    "title": "Announcing TypeScript 7.0 Beta",
+    "score": 15,
+    "tags": [
+      "javascript",
+      "release"
+    ],
+    "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-0-beta/",
+    "comments_url": "https://lobste.rs/s/48omfn/announcing_typescript_7_0_beta"
+  },
+  {
+    "title": "Performance of the Wren programming language",
+    "score": 19,
+    "tags": [
+      "plt"
+    ],
+    "url": "https://wren.io/performance.html",
+    "comments_url": "https://lobste.rs/s/fgwvua/performance_wren_programming_language"
+  },
+  {
+    "title": "How To Make a Fast Dynamic Language Interpreter",
+    "score": 37,
+    "tags": [
+      "compilers",
+      "performance",
+      "plt"
+    ],
+    "url": "https://zef-lang.dev/implementation",
+    "comments_url": "https://lobste.rs/s/vrmjge/how_make_fast_dynamic_language"
+  },
+  {
+    "title": "Emacs is my browser",
+    "score": 19,
+    "tags": [
+      "emacs"
+    ],
+    "url": "https://joshblais.com/blog/emacs-as-my-browser/",
+    "comments_url": "https://lobste.rs/s/prquts/emacs_is_my_browser"
+  },
+  {
+    "title": "Jujutsu megamerges for fun and profit",
+    "score": 78,
+    "tags": [
+      "vcs"
+    ],
+    "url": "https://isaaccorbrey.com/notes/jujutsu-megamerges-for-fun-and-profit",
+    "comments_url": "https://lobste.rs/s/etrtmp/jujutsu_megamerges_for_fun_profit"
+  },
+  {
+    "title": "Finishing Things",
+    "score": 27,
+    "tags": [
+      "practices"
+    ],
+    "url": "https://ratfactor.com/finishing-things",
+    "comments_url": "https://lobste.rs/s/p3fzyr/finishing_things"
+  },
+  {
+    "title": "Features everyone should steal from npmx",
+    "score": 17,
+    "tags": [
+      "javascript"
+    ],
+    "url": "https://nesbitt.io/2026/04/16/features-everyone-should-steal-from-npmx.html",
+    "comments_url": "https://lobste.rs/s/6vx5uy/features_everyone_should_steal_from_npmx"
+  }
+]
