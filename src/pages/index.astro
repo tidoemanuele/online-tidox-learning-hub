@@ -1,40 +1,156 @@
 ---
+import { existsSync } from 'node:fs';
+import { join } from 'node:path';
 import Base from '../layouts/Base.astro';
 import { getCollection } from 'astro:content';
+import { resolveInsightLink } from '../lib/hub-episode-utils';
 
 const episodes = await getCollection('episodes');
 const sorted = episodes.sort((a, b) => b.data.date.localeCompare(a.data.date));
 const latest = sorted[0];
+const ep = latest.data;
 
-// If only one episode, redirect to it
-if (sorted.length === 1) {
-  return Astro.redirect(`/daily/${latest.data.date}`);
+// Resolve audio — same logic as [date].astro
+const audioDir = join(process.cwd(), 'public', 'audio', ep.date);
+const localBriefNames = [
+  'brief.mp3', 'brief.m4a', 'brief.wav',
+  'narration.mp3', 'narration.m4a', 'narration.wav',
+];
+let localBriefUrl: string | undefined;
+for (const name of localBriefNames) {
+  if (existsSync(join(audioDir, name))) {
+    localBriefUrl = `/audio/${ep.date}/${name}`;
+    break;
+  }
 }
+const resolvedAudio =
+  ep.audio?.briefAudioUrl?.trim() || localBriefUrl || ep.audio?.podcastUrl?.trim() || undefined;
+
+// Check for pre-rendered video
+const mp4Path = join(process.cwd(), 'public', 'video', `${ep.date}.mp4`);
+const hasVideo = existsSync(mp4Path);
+
+// Top 3 insights for the preview
+const topInsights = ep.insights.slice(0, 3);
 ---
 
-<Base title="Archive">
-  <h1 class="text-[28px] font-bold font-[family-name:var(--font-display)] text-heading mb-6">
-    Episodes
+<Base title="Today" description={ep.subtitle}>
+  <!-- Today hero -->
+  <div class="mb-4">
+    <span class="inline-block text-[12px] font-[family-name:var(--font-mono)] text-gray bg-light-bg px-2.5 py-1 rounded">
+      EPISODE {ep.episodeNumber} · {ep.date.replace(/-/g, '.')}
+    </span>
+  </div>
+
+  <p class="text-[11px] font-[family-name:var(--font-mono)] tracking-[1.5px] uppercase text-terracotta mb-3">
+    {ep.title}
+  </p>
+
+  <h1 class="text-[28px] md:text-[32px] font-bold font-[family-name:var(--font-display)] text-heading leading-tight mb-6">
+    {ep.subtitle}
   </h1>
 
-  <div class="space-y-0">
-    {sorted.map((ep) => (
-      <a
-        href={`/daily/${ep.data.date}`}
-        class="flex items-center justify-between py-4 border-b border-divider hover:bg-light-bg/50 transition-colors -mx-3 px-3 rounded"
+  <!-- Hero stat -->
+  {ep.heroStat && (
+    <div class="bg-navy rounded-xl px-6 py-5 mb-6">
+      <p class="text-[48px] md:text-[56px] font-bold font-[family-name:var(--font-mono)] text-cream leading-none">
+        {ep.heroStat.value}
+      </p>
+      <p class="text-[14px] text-cream/70 mt-1">
+        {ep.heroStat.label}
+      </p>
+    </div>
+  )}
+
+  <!-- Video / Audio player -->
+  {hasVideo ? (
+    <div class="rounded-xl overflow-hidden mb-6 bg-void">
+      <video
+        class="w-full aspect-video bg-void"
+        controls
+        playsinline
+        preload="metadata"
+        aria-label="Daily intelligence brief"
       >
-        <div class="flex items-center gap-4">
-          <span class="text-[12px] font-[family-name:var(--font-mono)] text-gray w-24 flex-shrink-0">
-            {ep.data.date}
-          </span>
-          <span class="text-[15px] text-near-black">
-            {ep.data.subtitle}
-          </span>
+        <source src={`/video/${ep.date}.mp4`} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  ) : resolvedAudio ? (
+    <div class="bg-light-bg border border-divider rounded-lg p-4 mb-6" aria-label="Today's brief audio">
+      <div class="flex items-center gap-3 mb-3">
+        <div class="w-9 h-9 bg-terracotta rounded-full flex items-center justify-center flex-shrink-0">
+          <svg class="w-4 h-4 text-cream ml-0.5" viewBox="0 0 24 24" fill="currentColor">
+            <polygon points="5,3 19,12 5,21" />
+          </svg>
         </div>
-        <span class="text-[11px] bg-light-bg text-gray px-2 py-0.5 rounded flex-shrink-0">
-          {ep.data.insights.length} insights
-        </span>
-      </a>
-    ))}
+        <div>
+          <p class="text-[13px] font-semibold text-near-black">Today's brief</p>
+          <p class="text-[11px] text-gray">Listen to the daily intelligence brief</p>
+        </div>
+      </div>
+      <audio controls preload="metadata" class="w-full" src={resolvedAudio}>
+        Your browser does not support audio playback.
+      </audio>
+    </div>
+  ) : null}
+
+  <!-- Top insights preview -->
+  <section class="mb-8">
+    <h2 class="text-[11px] font-bold tracking-[1.5px] uppercase text-terracotta mb-4 pb-2 border-b-2 border-terracotta">
+      Top Insights
+    </h2>
+    {topInsights.map((insight) => {
+      const link = resolveInsightLink(insight);
+      return (
+        <article class="py-4 border-b border-divider last:border-b-0">
+          {link?.isDirect ? (
+            <a
+              href={link.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="block group rounded-sm focus:outline-none focus-visible:ring-2 focus-visible:ring-terracotta/50"
+            >
+              <p class="text-[15px] leading-relaxed mb-2 group-hover:text-terracotta transition-colors">{insight.text}</p>
+            </a>
+          ) : (
+            <p class="text-[15px] leading-relaxed mb-2">{insight.text}</p>
+          )}
+          {link && !link.isDirect && (
+            <p class="mb-2">
+              <a
+                href={link.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-[12px] font-semibold text-terracotta hover:underline"
+              >
+                {link.label} ↗
+              </a>
+            </p>
+          )}
+          <div class="flex gap-1.5 flex-wrap items-center">
+            {insight.tags.map((tag) => (
+              <span class="text-[11px] px-2 py-0.5 rounded bg-light-bg text-gray">{tag}</span>
+            ))}
+          </div>
+        </article>
+      );
+    })}
+  </section>
+
+  <!-- CTAs -->
+  <div class="flex flex-col sm:flex-row gap-3">
+    <a
+      href={`/daily/${ep.date}`}
+      class="inline-flex items-center justify-center gap-2 bg-terracotta text-cream text-[14px] font-semibold px-5 py-2.5 rounded-lg hover:bg-terracotta/90 transition-colors"
+    >
+      Read full episode →
+    </a>
+    <a
+      href="/archive"
+      class="inline-flex items-center justify-center gap-2 border border-divider text-gray text-[14px] px-5 py-2.5 rounded-lg hover:text-heading hover:border-gray transition-colors"
+    >
+      Browse archive ({sorted.length} episodes)
+    </a>
   </div>
 </Base>
