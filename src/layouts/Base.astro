@@ -7,6 +7,7 @@ interface Props {
 }
 
 const { title, description = 'Automated daily intelligence — built by a solo developer with AI' } = Astro.props;
+const currentPath = Astro.url.pathname;
 ---
 
 <!DOCTYPE html>
@@ -29,9 +30,9 @@ const { title, description = 'Automated daily intelligence — built by a solo d
         tidox<span class="text-terracotta">.</span>hub
       </a>
       <div class="hidden md:flex items-center gap-5 text-[13px] text-gray">
-        <a href="/" class="hover:text-heading transition-colors">Today</a>
-        <a href="/archive" class="hover:text-heading transition-colors">Archive</a>
-        <a href="/about" class="hover:text-heading transition-colors">About</a>
+        <a href="/" class={`${currentPath === '/' || currentPath.startsWith('/daily/') ? 'text-heading' : 'text-gray'} hover:text-heading transition-colors`}>Today</a>
+        <a href="/archive" class={`${currentPath === '/archive' || currentPath === '/archive/' ? 'text-heading' : 'text-gray'} hover:text-heading transition-colors`}>Archive</a>
+        <a href="/about" class={`${currentPath === '/about' || currentPath === '/about/' ? 'text-heading' : 'text-gray'} hover:text-heading transition-colors`}>About</a>
       </div>
       <!-- Mobile hamburger placeholder -->
       <button type="button" id="mobile-toggle" class="md:hidden p-2 text-gray hover:text-heading" aria-label="Menu">
