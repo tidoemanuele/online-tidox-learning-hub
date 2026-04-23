@@ -1,0 +1,92 @@
+[
+  {
+    "name": "FinceptTerminal",
+    "fullName": "Fincept-Corporation/FinceptTerminal",
+    "description": "Modern finance platform offering market analytics, investment research, and economic data tools for interactive exploration with 37 AI agents.",
+    "language": "Python",
+    "stars_today": "1,772 stars today",
+    "total_stars": "13370",
+    "url": "https://github.com/Fincept-Corporation/FinceptTerminal"
+  },
+  {
+    "name": "TrendRadar",
+    "fullName": "sansan0/TrendRadar",
+    "description": "AI-driven public opinion and trend monitor with multi-platform aggregation and smart alerts.",
+    "language": "Python",
+    "stars_today": "969 stars today",
+    "total_stars": "54636",
+    "url": "https://github.com/sansan0/TrendRadar"
+  },
+  {
+    "name": "claude-context",
+    "fullName": "zilliztech/claude-context",
+    "description": "Code search MCP for Claude Code. Make entire codebase the context for any coding agent.",
+    "language": "TypeScript",
+    "stars_today": "871 stars today",
+    "total_stars": "7799",
+    "url": "https://github.com/zilliztech/claude-context"
+  },
+  {
+    "name": "RAG-Anything",
+    "fullName": "HKUDS/RAG-Anything",
+    "description": "All-in-One RAG Framework supporting multimodal retrieval across text, images, tables, and equations.",
+    "language": "Python",
+    "stars_today": "786 stars today",
+    "total_stars": "17689",
+    "url": "https://github.com/HKUDS/RAG-Anything"
+  },
+  {
+    "name": "shannon",
+    "fullName": "KeygraphHQ/shannon",
+    "description": "Autonomous AI security tester for web apps and APIs that analyzes source code and executes real exploits to prove vulnerabilities.",
+    "language": "TypeScript",
+    "stars_today": "372 stars today",
+    "total_stars": "39751",
+    "url": "https://github.com/KeygraphHQ/shannon"
+  },
+  {
+    "name": "RuView",
+    "fullName": "ruvnet/RuView",
+    "description": "WiFi-based human pose estimation, vital sign monitoring, and presence detection without video.",
+    "language": "Rust",
+    "stars_today": "565 stars today",
+    "total_stars": "49459",
+    "url": "https://github.com/ruvnet/RuView"
+  },
+  {
+    "name": "skills",
+    "fullName": "vercel-labs/skills",
+    "description": "Open agent skills tool accessible via npx command.",
+    "language": "TypeScript",
+    "stars_today": "333 stars today",
+    "total_stars": "15632",
+    "url": "https://github.com/vercel-labs/skills"
+  },
+  {
+    "name": "OpenMetadata",
+    "fullName": "open-metadata/OpenMetadata",
+    "description": "Unified metadata platform for data discovery, observability, and governance with column-level lineage.",
+    "language": "TypeScript",
+    "stars_today": "521 stars today",
+    "total_stars": "12311",
+    "url": "https://github.com/open-metadata/OpenMetadata"
+  },
+  {
+    "name": "worldmonitor",
+    "fullName": "koala73/worldmonitor",
+    "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking.",
+    "language": "TypeScript",
+    "stars_today": "424 stars today",
+    "total_stars": "51829",
+    "url": "https://github.com/koala73/worldmonitor"
+  },
+  {
+    "name": "langfuse",
+    "fullName": "langfuse/langfuse",
+    "description": "Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management, playground, datasets.",
+    "language": "TypeScript",
+    "stars_today": "149 stars today",
+    "total_stars": "25763",
+    "url": "https://github.com/langfuse/langfuse"
+  }
+]

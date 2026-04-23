@@ -1,0 +1,149 @@
+[
+  {
+    "title": "What are your favorite Emacs packages?",
+    "score": 51,
+    "tags": [
+      "ask",
+      "emacs"
+    ],
+    "url": "",
+    "comments_url": "https://lobste.rs/s/sz3gab/what_are_your_favorite_emacs_packages"
+  },
+  {
+    "title": "wsl9x: Windows 9x subsystem for Linux",
+    "score": 114,
+    "tags": [
+      "assembly",
+      "linux",
+      "retrocomputing",
+      "windows"
+    ],
+    "url": "https://codeberg.org/hails/wsl9x",
+    "comments_url": "https://lobste.rs/s/ipyknz/wsl9x_windows_9x_subsystem_for_linux"
+  },
+  {
+    "title": "We Found a Stable Firefox Identifier Linking All Your Private Tor Identities",
+    "score": 31,
+    "tags": [
+      "browsers",
+      "privacy"
+    ],
+    "url": "https://fingerprint.com/blog/firefox-tor-indexeddb-privacy-vulnerability/",
+    "comments_url": "https://lobste.rs/s/fbwdco/we_found_stable_firefox_identifier"
+  },
+  {
+    "title": "Borrow-checking without type-checking",
+    "score": 7,
+    "tags": [
+      "plt"
+    ],
+    "url": "https://www.scattered-thoughts.net/writing/borrow-checking-without-type-checking/",
+    "comments_url": "https://lobste.rs/s/5jkwmc/borrow_checking_without_type_checking"
+  },
+  {
+    "title": "Arch Linux now has a bit-for-bit reproducible Docker image",
+    "score": 32,
+    "tags": [
+      "linux"
+    ],
+    "url": "https://antiz.fr/blog/archlinux-now-has-a-reproducible-docker-image/",
+    "comments_url": "https://lobste.rs/s/wps0js/arch_linux_now_has_bit_for_bit"
+  },
+  {
+    "title": "nondescript: a simple embedded programming language",
+    "score": 12,
+    "tags": [
+      "plt",
+      "show"
+    ],
+    "url": "https://github.com/deadpixi/nondescript",
+    "comments_url": "https://lobste.rs/s/ivj2o8/nondescript_simple_embedded"
+  },
+  {
+    "title": "The Edge of Safe Rust",
+    "score": 42,
+    "tags": [
+      "plt",
+      "rust"
+    ],
+    "url": "https://kyju.org/blog/tokioconf-2026/",
+    "comments_url": "https://lobste.rs/s/hkwyrc/edge_safe_rust"
+  },
+  {
+    "title": "Forge",
+    "score": 28,
+    "tags": [
+      "vcs"
+    ],
+    "url": "https://nesbitt.io/2026/03/13/forge.html",
+    "comments_url": "https://lobste.rs/s/guiymx/forge"
+  },
+  {
+    "title": "Is Claude Code going to cost $100/month? Probably not\u2014it\u2019s all very confusing",
+    "score": 37,
+    "tags": [
+      "vibecoding"
+    ],
+    "url": "https://simonwillison.net/2026/Apr/22/claude-code-confusion/",
+    "comments_url": "https://lobste.rs/s/0qdgc0/is_claude_code_going_cost_100_month"
+  },
+  {
+    "title": "Markdown (2004)",
+    "score": 25,
+    "tags": [
+      "programming"
+    ],
+    "url": "http://www.aaronsw.com/weblog/001189",
+    "comments_url": "https://lobste.rs/s/qetyqh/markdown_2004"
+  },
+  {
+    "title": "AI as a Fascist Artifact",
+    "score": 58,
+    "tags": [
+      "rant",
+      "vibecoding"
+    ],
+    "url": "https://tante.cc/2026/04/21/ai-as-a-fascist-artifact/",
+    "comments_url": "https://lobste.rs/s/cs4kew/ai_as_fascist_artifact"
+  },
+  {
+    "title": "The zero-days are numbered",
+    "score": 84,
+    "tags": [
+      "security",
+      "vibecoding"
+    ],
+    "url": "https://blog.mozilla.org/en/privacy-security/ai-security-zero-day-vulnerabilities/",
+    "comments_url": "https://lobste.rs/s/glpz3r/zero_days_are_numbered"
+  },
+  {
+    "title": "Olive CSS: Lisp powered vanilla CSS utility-class a la Tailwind",
+    "score": 5,
+    "tags": [
+      "css",
+      "lisp",
+      "web"
+    ],
+    "url": "https://codeberg.org/jjba23/olive-css",
+    "comments_url": "https://lobste.rs/s/unbgyx/olive_css_lisp_powered_vanilla_css"
+  },
+  {
+    "title": "How The Heck Does Shazam Work?",
+    "score": 4,
+    "tags": [
+      "math",
+      "programming"
+    ],
+    "url": "https://perthirtysix.com/how-the-heck-does-shazam-work",
+    "comments_url": "https://lobste.rs/s/t04nvc/how_heck_does_shazam_work"
+  },
+  {
+    "title": "Framework Laptop 13 Pro: Intel Core Ultra 3 & LPCAMM2",
+    "score": 75,
+    "tags": [
+      "hardware"
+    ],
+    "url": "https://frame.work/laptop13pro",
+    "comments_url": "https://lobste.rs/s/0rzs0d/framework_laptop_13_pro_intel_core_ultra_3"
+  }
+]

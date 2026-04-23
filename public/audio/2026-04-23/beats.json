@@ -1,0 +1,180 @@
+[
+  {
+    "type": "intro",
+    "highlight": "Tidox Intelligence Brief",
+    "subtext": "April 23, 2026",
+    "label": "DAILY BRIEF"
+  },
+  {
+    "type": "number",
+    "number": "1585",
+    "highlight": "HN points — no-tech tractors beat every AI release",
+    "label": "TOP STORY"
+  },
+  {
+    "type": "insight",
+    "highlight": "Half the price. Zero software. 400 farmer inquiries.",
+    "subtext": "Ursa Ag — mechanically-injected Cummins diesel, field-repairable",
+    "label": "URSA AG"
+  },
+  {
+    "type": "quote",
+    "highlight": "Why does a tractor story outscore every AI release?",
+    "subtext": "The community is asking the right question"
+  },
+  {
+    "type": "insight",
+    "highlight": "That's not a feature — that's rent extraction",
+    "subtext": "Dealer software locks, OBD dependencies, GPS subscriptions",
+    "label": "KEY SIGNAL"
+  },
+  {
+    "type": "insight",
+    "highlight": "Anti-dependency, not anti-technology",
+    "subtext": "Mechanical injection. EMP-resistant. Standard tools. A risk profile.",
+    "label": "FRAMEWORK"
+  },
+  {
+    "type": "repo",
+    "highlight": "Qwen3.6-27B",
+    "subtext": "27B dense model outperforms 397B MoE on agentic coding benchmarks",
+    "label": "OPEN WEIGHT"
+  },
+  {
+    "type": "number",
+    "number": "14.7×",
+    "highlight": "parameter efficiency — runs on a single RTX 4090",
+    "subtext": "Terminal-Bench 2.0: 59.3 — matches Claude Opus 4.7 exactly",
+    "label": "EFFICIENCY GAIN"
+  },
+  {
+    "type": "insight",
+    "highlight": "Local inference break-even is now measurable",
+    "subtext": "Hardware depreciation vs. API bill — calculate your own threshold",
+    "label": "FOR BUILDERS"
+  },
+  {
+    "type": "number",
+    "number": "574",
+    "highlight": "HN points — stable Firefox identifier links all Tor identities",
+    "label": "PRIVACY STORY"
+  },
+  {
+    "type": "insight",
+    "highlight": "IndexedDB ordering is a fingerprint that survives New Identity",
+    "subtext": "Deterministic, cross-origin, stable within a browser session",
+    "label": "ATTACK CLASS"
+  },
+  {
+    "type": "quote",
+    "highlight": "New Identity doesn't reset your fingerprint surface",
+    "subtext": "A false privacy guarantee is worse than no guarantee"
+  },
+  {
+    "type": "insight",
+    "highlight": "Every deterministic runtime property is a potential fingerprint vector",
+    "subtext": "IndexedDB insertion order. Tab ordering. Worker scheduling.",
+    "label": "RULE"
+  },
+  {
+    "type": "number",
+    "number": "507",
+    "highlight": "HN points — FBI recovered deleted Signal messages from iOS",
+    "label": "SECURITY ALERT"
+  },
+  {
+    "type": "insight",
+    "highlight": "The OS notification cache is a second store",
+    "subtext": "Signal deleted the message. iOS kept a plaintext copy independently.",
+    "label": "CVE-2026-28950"
+  },
+  {
+    "type": "action",
+    "highlight": "Audit every notification path that shows message content",
+    "subtext": "The OS owns a copy until you explicitly redact it",
+    "label": "ACTION"
+  },
+  {
+    "type": "insight",
+    "highlight": "Patched outside the normal update cycle — urgency confirmed",
+    "subtext": "iOS 26.4.2 and iOS 18.7.8 — emergency release signal",
+    "label": "TIMING"
+  },
+  {
+    "type": "number",
+    "number": "336",
+    "highlight": "HN points — over-editing and Zed parallel agents",
+    "label": "AI CODING"
+  },
+  {
+    "type": "insight",
+    "highlight": "Instructed to fix 3 lines — rewrote 40",
+    "subtext": "Training rewards comprehensive code, not minimal scoped changes",
+    "label": "OVER-EDITING"
+  },
+  {
+    "type": "repo",
+    "highlight": "Zed parallel agents",
+    "subtext": "Multiple AI agents, same window, per-thread model selection, 120fps",
+    "label": "ZED EDITOR"
+  },
+  {
+    "type": "insight",
+    "highlight": "Review complexity scales superlinearly with agent count",
+    "subtext": "Tooling is ahead of model behavior discipline",
+    "label": "THE GAP"
+  },
+  {
+    "type": "quote",
+    "highlight": "What should a builder do with this right now?",
+    "subtext": "The community asks. Here's the answer."
+  },
+  {
+    "type": "action",
+    "highlight": "Fix only this function — modify no other files",
+    "subtext": "Explicit scope constraints until models learn minimal-edit discipline",
+    "label": "ACTION NOW"
+  },
+  {
+    "type": "number",
+    "number": "1772",
+    "highlight": "stars per day — FinceptTerminal, open-source Bloomberg",
+    "subtext": "37 agents, FRED, World Bank, Polygon, Yahoo Finance — all free",
+    "label": "TRENDING"
+  },
+  {
+    "type": "repo",
+    "highlight": "KeygraphHQ/shannon",
+    "subtext": "96.15% XBOW Benchmark — autonomous AI pentester, real exploits",
+    "label": "SECURITY TOOL"
+  },
+  {
+    "type": "quote",
+    "highlight": "What is today telling us about where things are going?",
+    "subtext": "The thesis becomes visible"
+  },
+  {
+    "type": "insight",
+    "highlight": "Operator sovereignty — who controls the system at the point of failure",
+    "subtext": "Fixable tractor. Ownable model. Honest browser reset. Auditable OS.",
+    "label": "TODAY'S THESIS"
+  },
+  {
+    "type": "insight",
+    "highlight": "Same community. Owning layers, auditing everything else.",
+    "subtext": "1585 points for a tractor with no electronics tells you their values",
+    "label": "SIGNAL"
+  },
+  {
+    "type": "close",
+    "highlight": "Before you ship: who else controls this?",
+    "subtext": "And is that acceptable to your user?",
+    "label": "BUILD INSTRUCTION"
+  },
+  {
+    "type": "close",
+    "highlight": "Build something you can fix.",
+    "subtext": "See you tomorrow.",
+    "label": "TIDOX"
+  }
+]
