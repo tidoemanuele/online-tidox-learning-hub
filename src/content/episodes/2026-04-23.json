@@ -3,51 +3,53 @@
   "episodeNumber": 29,
   "locale": "en-US",
   "title": "Intelligence Brief",
-  "subtitle": "Qwen3.6-27B lands at HN #6 as a 27B-parameter Apac, The HN front page is anchored by anti-tech and dur, Zed ships Parallel Agents",
+  "subtitle": "Alberta startup sells no-tech tractors for half pr, Qwen3.6-27B: Flagship-Level Coding in a 27B Dense , We found a stable Firefox identifier linking all y",
   "heroStat": {
-    "value": "27B",
-    "label": "lands at hn"
+    "value": "1585",
+    "label": "points on \"Alberta startup sells no-tech tractors for half price\""
   },
   "insights": [
     {
-      "text": "Qwen3.6-27B lands at HN #6 (796 pts / 373 comments) as a 27B-parameter Apache-2.0 dense multimodal model — and it outperforms the prior Qwen3.5-397B-A17B flagship on SWE-bench Verified (77.2 vs 76.2), Terminal-Bench (59.3 vs 52.5), and SkillsBench (48.2 vs 30.0). Native 262K context extending to 1.01M tokens. ~18GB GGUF quant fits on consumer hardware. Simon Willison, GIGAZINE, and Efficienist all frame it the same way: 'a 27B dense model beats a 397B MoE, approaches Claude Opus 4.5 on a local PC.' 36 hours after yesterday's Max-Preview closed-API release, the open companion ships. The open-weights gap closes again.",
-      "tags": []
-    },
-    {
-      "text": "The HN front page is anchored by anti-tech and durable-substrate content. #2 is an Alberta startup selling no-tech tractors at half price (1,606 pts / 520 comments) — no DRM, no software-defined lockouts. #3 is Apple patching CVE-2026-28950 (516 pts) which let Cellebrite recover deleted Signal messages from the iOS notification database. #5 is Fingerprint disclosing a Firefox IndexedDB identifier that linked all private Tor Browser identities (598 pts). #7 is a 5×5 pixel font for tiny screens (525 pts). Two consecutive days of #1 HN stories grounded in hardware-you-own framing (Framework Laptop 13 Pro yesterday, no-tech tractors today) — the durable-substrate rotation is real.",
-      "tags": []
-    },
-    {
-      "text": "Zed ships Parallel Agents (HN #20, 206 pts) — a Threads Sidebar holding multiple concurrent agent conversations per project. Each thread can run Zed's built-in agent, Claude Agent, Gemini CLI, Codex, or any Agent Client Protocol (ACP) implementation. Same 48-hour window: OpenAI launches Codex-powered Workspace Agents in ChatGPT (HN #26, 129 pts — free until May 6, then credit-based; Slack-deployable and schedulable), and Microsoft ships Bring-your-own-Agent to Teams (HN #21, 48 pts) with Agent 365 as the governance control plane. The 'agent' becomes a cursor-shaped UX primitive — 3–5 agents running parallel the way we have 3–5 tabs open. ACP is the first serious multi-vendor coding-agent protocol.",
+      "text": "Alberta startup sells no-tech tractors for half price (1585 pts, 519 comments)",
       "tags": [
-        "agents"
-      ]
-    },
-    {
-      "text": "nrehiew publishes a study naming a new coding-model failure mode: over-editing — models modifying code beyond what's necessary, invisible to test suites but increasing review burden and quietly degrading codebase quality (HN #12, 338 pts / 188 comments). Methodology: programmatically corrupt 400 BigCodeBench problems, measure Levenshtein distance and Added Cognitive Complexity on the fix diffs. Headline result: GPT-5.4 over-edits worst (Levenshtein 0.39 reasoning / 0.33 non-reasoning; Pass@1 0.723 / 0.770). Claude Opus 4.6 over-edits least AND scores best (Levenshtein 0.06 / 0.08; Pass@1 0.912 / 0.900). One model winning both axes simultaneously — 'minimality' is the new frontier-coding virtue.",
-      "tags": []
-    },
-    {
-      "text": "Martin Fowler publishes 'Technical, cognitive, and intent debt' (HN #17, 244 pts) — the canonical taxonomy for AI-era software health. Technical debt lives in code. Cognitive debt lives in people (shared understanding erodes faster than it's replenished). Intent debt lives in artifacts (goals and constraints not captured or maintained). All three interact. The framework gives teams shipping LLM-generated code a vocabulary for what Addy Osmani, Margaret-Anne Storey, and the March DX newsletter have been describing in fragments since February. Expect 'cognitive debt' and 'intent debt' to enter standard RFP and engineering-review language within 90 days.",
-      "tags": []
-    },
-    {
-      "text": "Adrian Krebs scores 500 Show HN landing pages against 15 deterministic CSS/DOM patterns to measure AI-generated design slop (HN #23, 296 pts / 213 comments, 0.72 comment-to-point ratio). 'Heavy slop' tier = 5+ patterns matched. Show HN volume has tripled and 'mostly shares the same vibe-coded look.' No LLM-as-judge — just reproducible programmatic checks on landing pages. This is the first public corpus with a measurable slop score. Every founder-in-a-weekend now produces a statistically-detectable design signature. Expect 'slop score' to become a design-tool plugin within Q2 and a Chrome extension within 60 days.",
-      "tags": [
-        "ecosystem"
-      ]
-    },
-    {
-      "text": "GitHub Trending pivots sharply toward Claude-Code-adjacent infrastructure tooling. zilliztech/claude-context explodes from +169 stars/day yesterday to +871/day today — a 515% single-day acceleration at 7,825 total. HKUDS/RAG-Anything rockets from +162/day to +786/day (+385%, 17.7K total). sansan0/TrendRadar accelerates to +969/day (+81%, 54.7K total). Meanwhile Fincept-Corporation/FinceptTerminal decelerates 30% from +2,548 to +1,772/day (13.4K total — launch-amplification peak is over, baseline adoption curve begins). vercel-labs/skills sustains +333/day. New entrants: koala73/worldmonitor at 51.9K (AI news aggregation) and KeygraphHQ/shannon at 39.8K (autonomous AI pentester).",
-      "tags": [
-        "github-trending",
-        "claude-code"
+        "hacker-news"
       ],
-      "source": "GitHub +169/day"
+      "source": "HN 1585pts"
     },
     {
-      "text": "Apple's CVE-2026-28950 (fixed in iOS 26.4.2 / iPadOS 26.4.2 / iOS 18.7.8) patches a notification database that retained content after app-level deletion — the forensic path FBI and Cellebrite used to extract deleted Signal messages. Mitigation: 'improved data redaction.' Parallel track: OpenAI publishes the Axios npm compromise postmortem (HN #14, 60 pts) attributing to North Korea's Lazarus Group / UNC1069, requiring full macOS code-signing cert rotation, blocking old-cert notarizations with Apple's coordination, and forcing all users to update macOS apps by May 8, 2026. Two of the year's cleanest mobile-and-desktop forensic-risk stories land in the same 24 hours. 'Deleted' and 'signed' both turn out to be weaker claims than assumed.",
-      "tags": []
+      "text": "Qwen3.6-27B: Flagship-Level Coding in a 27B Dense Model (789 pts, 371 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 789pts"
+    },
+    {
+      "text": "We found a stable Firefox identifier linking all your private Tor identities (574 pts, 164 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 574pts"
+    },
+    {
+      "text": "5x5 Pixel font for tiny screens (516 pts, 118 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 516pts"
+    },
+    {
+      "text": "Apple fixes bug that cops used to extract deleted chat messages from iPhones (507 pts, 124 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 507pts"
+    },
+    {
+      "text": "Over-editing refers to a model modifying code beyond what is necessary (336 pts, 188 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 336pts"
     }
   ],
   "trending": [
@@ -100,7 +102,7 @@
     },
     {
       "label": "Insights Today",
-      "value": "8",
+      "value": "6",
       "unit": "stories"
     }
   ],
@@ -111,17 +113,17 @@
     },
     "headlines": [
       {
-        "text": "Qwen3.6-27B lands at HN #6 as a 27B-parameter Apache-2.0 dense multimodal model",
+        "text": "Alberta startup sells no-tech tractors for half price",
         "metric": "—",
         "source": "web"
       },
       {
-        "text": "The HN front page is anchored by anti-tech and durable-substrate content. #2 is an Alberta startup selling no-tech tractors at half price",
+        "text": "Qwen3.6-27B: Flagship-Level Coding in a 27B Dense Model",
         "metric": "—",
         "source": "web"
       },
       {
-        "text": "Zed ships Parallel Agents",
+        "text": "We found a stable Firefox identifier linking all your private Tor identities",
         "metric": "—",
         "source": "web"
       }
