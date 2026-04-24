@@ -1,0 +1,107 @@
+[
+  {
+    "title": "How The Heck Does Shazam Work?",
+    "score": 88,
+    "tags": ["math", "programming"],
+    "url": "https://perthirtysix.com/how-the-heck-does-shazam-work",
+    "comments_url": "https://lobste.rs/s/t04nvc/how_heck_does_shazam_work"
+  },
+  {
+    "title": "What are your favorite Emacs packages?",
+    "score": 93,
+    "tags": ["ask", "emacs"],
+    "url": "https://lobste.rs/s/sz3gab/what_are_your_favorite_emacs_packages",
+    "comments_url": "https://lobste.rs/s/sz3gab/what_are_your_favorite_emacs_packages"
+  },
+  {
+    "title": "Arch Linux now has a bit-for-bit reproducible Docker image",
+    "score": 75,
+    "tags": ["linux"],
+    "url": "https://antiz.fr/blog/archlinux-now-has-a-reproducible-docker-image/",
+    "comments_url": "https://lobste.rs/s/wps0js/arch_linux_now_has_bit_for_bit"
+  },
+  {
+    "title": "Bitwarden CLI Compromised in Ongoing Checkmarx Supply Chain",
+    "score": 74,
+    "tags": ["security"],
+    "url": "https://socket.dev/blog/bitwarden-cli-compromised",
+    "comments_url": "https://lobste.rs/s/x79usb/bitwarden_cli_compromised_ongoing"
+  },
+  {
+    "title": "We Found a Stable Firefox Identifier Linking All Your Private Tor Identities",
+    "score": 55,
+    "tags": ["browsers", "privacy"],
+    "url": "https://fingerprint.com/blog/firefox-tor-indexeddb-privacy-vulnerability/",
+    "comments_url": "https://lobste.rs/s/fbwdco/we_found_stable_firefox_identifier"
+  },
+  {
+    "title": "I am building a cloud",
+    "score": 51,
+    "tags": ["devops"],
+    "url": "https://crawshaw.io/blog/building-a-cloud",
+    "comments_url": "https://lobste.rs/s/yghhn6/i_am_building_cloud"
+  },
+  {
+    "title": "Borrow-checking without type-checking",
+    "score": 44,
+    "tags": ["plt"],
+    "url": "https://www.scattered-thoughts.net/writing/borrow-checking-without-type-checking/",
+    "comments_url": "https://lobste.rs/s/5jkwmc/borrow_checking_without_type_checking"
+  },
+  {
+    "title": "Who even uses jemalloc in 2026 anyway?",
+    "score": 43,
+    "tags": ["c", "c++", "performance", "rust"],
+    "url": "https://theconsensus.dev/p/2026/04/16/who-even-uses-jemalloc-anyway.html",
+    "comments_url": "https://lobste.rs/s/vr4rsc/who_even_uses_jemalloc_2026_anyway_many"
+  },
+  {
+    "title": "Meshcore.io - Why The Split?",
+    "score": 43,
+    "tags": ["distributed", "release"],
+    "url": "https://blog.meshcore.io/2026/04/23/the-split",
+    "comments_url": "https://lobste.rs/s/izqocw/meshcore_io_why_split"
+  },
+  {
+    "title": "raylib v6.0",
+    "score": 28,
+    "tags": ["c", "graphics", "release"],
+    "url": "https://github.com/raysan5/raylib/releases/tag/6.0",
+    "comments_url": "https://lobste.rs/s/eiwtub/raylib_v6_0"
+  },
+  {
+    "title": "Security issues found within rust-coreutils",
+    "score": 28,
+    "tags": ["rust", "security"],
+    "url": "https://discourse.ubuntu.com/t/an-update-on-rust-coreutils/80773",
+    "comments_url": "https://lobste.rs/s/9p8j3s/security_issues_found_within_rust"
+  },
+  {
+    "title": "Ubuntu 26.04 LTS Release",
+    "score": 24,
+    "tags": ["linux", "release"],
+    "url": "https://documentation.ubuntu.com/release-notes/26.04/",
+    "comments_url": "https://lobste.rs/s/2mpjlh/ubuntu_26_04_lts_release"
+  },
+  {
+    "title": "Email could have been X.400 times better",
+    "score": 24,
+    "tags": ["email"],
+    "url": "https://buttondown.com/blog/x400-vs-smtp-email",
+    "comments_url": "https://lobste.rs/s/3l5gw0/email_could_have_been_x_400_times_better"
+  },
+  {
+    "title": "Single-pass palette refinement and ordered dithering",
+    "score": 18,
+    "tags": ["graphics"],
+    "url": "https://30fps.net/pages/bayer-order-online-kmeans/",
+    "comments_url": "https://lobste.rs/s/tzws72/single_pass_palette_refinement_ordered"
+  },
+  {
+    "title": "Gecko: a fast GLR parser with automatic syntax error recovery",
+    "score": 15,
+    "tags": ["compilers"],
+    "url": "https://vnmakarov.github.io/parsing/compilers/c/open-source/2026/04/22/gecko-glr.html",
+    "comments_url": "https://lobste.rs/s/chsbgc/gecko_fast_glr_parser_with_automatic"
+  }
+]

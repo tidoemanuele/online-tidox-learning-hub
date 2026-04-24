@@ -1,0 +1,98 @@
+[
+  {
+    "rank": 1,
+    "title": "Bitwarden CLI Compromised in Ongoing Checkmarx Supply Chain Campaign",
+    "url": "https://socket.dev/blog/bitwarden-cli-compromised",
+    "hn_url": "https://news.ycombinator.com/item?id=47876043",
+    "points": 612,
+    "comments": 287
+  },
+  {
+    "rank": 2,
+    "title": "Ubuntu 26.04 LTS (Resolute Raccoon) Released",
+    "url": "https://documentation.ubuntu.com/release-notes/26.04/",
+    "hn_url": "https://news.ycombinator.com/item?id=47875001",
+    "points": 541,
+    "comments": 312
+  },
+  {
+    "rank": 3,
+    "title": "Raylib v6.0",
+    "url": "https://github.com/raysan5/raylib/releases/tag/6.0",
+    "hn_url": "https://news.ycombinator.com/item?id=47874854",
+    "points": 489,
+    "comments": 94
+  },
+  {
+    "rank": 4,
+    "title": "OpenAI releases GPT-5.5",
+    "url": "https://openai.com/index/introducing-gpt-5-5/",
+    "hn_url": "https://news.ycombinator.com/item?id=47874200",
+    "points": 418,
+    "comments": 453
+  },
+  {
+    "rank": 5,
+    "title": "Google Cloud launches TPU 8t and TPU 8i: two chips for the agentic era",
+    "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/eighth-generation-tpu-agentic-era/",
+    "hn_url": "https://news.ycombinator.com/item?id=47873500",
+    "points": 334,
+    "comments": 148
+  },
+  {
+    "rank": 6,
+    "title": "How The Heck Does Shazam Work?",
+    "url": "https://perthirtysix.com/how-the-heck-does-shazam-work",
+    "hn_url": "https://news.ycombinator.com/item?id=47872800",
+    "points": 298,
+    "comments": 67
+  },
+  {
+    "rank": 7,
+    "title": "MeshCore.io – Why The Split?",
+    "url": "https://blog.meshcore.io/2026/04/23/the-split",
+    "hn_url": "https://news.ycombinator.com/item?id=47872400",
+    "points": 267,
+    "comments": 203
+  },
+  {
+    "rank": 8,
+    "title": "Arch Linux now has a bit-for-bit reproducible Docker image",
+    "url": "https://antiz.fr/blog/archlinux-now-has-a-reproducible-docker-image/",
+    "hn_url": "https://news.ycombinator.com/item?id=47871900",
+    "points": 243,
+    "comments": 41
+  },
+  {
+    "rank": 9,
+    "title": "Borrow-checking without type-checking",
+    "url": "https://www.scattered-thoughts.net/writing/borrow-checking-without-type-checking/",
+    "hn_url": "https://news.ycombinator.com/item?id=47871400",
+    "points": 198,
+    "comments": 52
+  },
+  {
+    "rank": 10,
+    "title": "I am building a cloud",
+    "url": "https://crawshaw.io/blog/building-a-cloud",
+    "hn_url": "https://news.ycombinator.com/item?id=47870900",
+    "points": 187,
+    "comments": 78
+  },
+  {
+    "rank": 11,
+    "title": "Security issues found within rust-coreutils",
+    "url": "https://discourse.ubuntu.com/t/an-update-on-rust-coreutils/80773",
+    "hn_url": "https://news.ycombinator.com/item?id=47870400",
+    "points": 176,
+    "comments": 89
+  },
+  {
+    "rank": 12,
+    "title": "We Found a Stable Firefox Identifier Linking All Your Private Tor Identities",
+    "url": "https://fingerprint.com/blog/firefox-tor-indexeddb-privacy-vulnerability/",
+    "hn_url": "https://news.ycombinator.com/item?id=47869900",
+    "points": 163,
+    "comments": 57
+  }
+]
