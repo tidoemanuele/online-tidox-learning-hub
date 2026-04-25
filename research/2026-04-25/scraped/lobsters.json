@@ -1,0 +1,145 @@
+[
+  {
+    "title": "The people do not yearn for automation",
+    "score": 33,
+    "tags": [
+      "vibecoding"
+    ],
+    "url": "https://www.theverge.com/podcast/917029/software-brain-ai-backlash-databases-automation",
+    "comments_url": "https://lobste.rs/s/gp02rx/people_do_not_yearn_for_automation"
+  },
+  {
+    "title": "Hire based on the conversation about code, not the code itself",
+    "score": 31,
+    "tags": [
+      "practices"
+    ],
+    "url": "https://dbarabashh.com/thoughts-and-experience/hire-for-the-conversation-not-the-code",
+    "comments_url": "https://lobste.rs/s/zroip2/hire_based_on_conversation_about_code_not"
+  },
+  {
+    "title": "Do I belong in tech anymore?",
+    "score": 8,
+    "tags": [
+      "vibecoding"
+    ],
+    "url": "https://ky.fyi/posts/ai-burnout",
+    "comments_url": "https://lobste.rs/s/xgtyyu/do_i_belong_tech_anymore"
+  },
+  {
+    "title": "Gleam gets source maps, 1.16.0",
+    "score": 29,
+    "tags": [
+      "gleam"
+    ],
+    "url": "https://gleam.run/news/javascript-source-maps/",
+    "comments_url": "https://lobste.rs/s/ckacgl/gleam_gets_source_maps_1_16_0"
+  },
+  {
+    "title": "Sloppy Copies",
+    "score": 44,
+    "tags": [
+      "rant",
+      "vibecoding"
+    ],
+    "url": "https://www.markround.com/blog/2026/04/19/sloppy-copies/",
+    "comments_url": "https://lobste.rs/s/qtytfe/sloppy_copies"
+  },
+  {
+    "title": "Multiple things can be true at the same time",
+    "score": 27,
+    "tags": [
+      "rant",
+      "vibecoding"
+    ],
+    "url": "https://frederikbraun.de/feels-and-llms.html",
+    "comments_url": "https://lobste.rs/s/lawef3/multiple_things_can_be_true_at_same_time"
+  },
+  {
+    "title": "Introducing mine, a Coalton and Common Lisp IDE",
+    "score": 18,
+    "tags": [
+      "editors",
+      "lisp"
+    ],
+    "url": "https://coalton-lang.github.io/20260424-mine/",
+    "comments_url": "https://lobste.rs/s/hk4nsp/introducing_mine_coalton_common_lisp_ide"
+  },
+  {
+    "title": "The Nintendo Switch Switch (2019)",
+    "score": 26,
+    "tags": [
+      "hardware",
+      "linux"
+    ],
+    "url": "https://blog.cynthia.re/post/nintendo-switch-ethernet-switch",
+    "comments_url": "https://lobste.rs/s/83ighu/nintendo_switch_switch_2019"
+  },
+  {
+    "title": "i found an old telephone and made it control spotify",
+    "score": 28,
+    "tags": [
+      "hardware"
+    ],
+    "url": "https://natya.is-a.dev/the-beetel/",
+    "comments_url": "https://lobste.rs/s/j9rvye/i_found_old_telephone_made_it_control"
+  },
+  {
+    "title": "What are the best developer tools built around Markdown?",
+    "score": 41,
+    "tags": [
+      "ask",
+      "programming"
+    ],
+    "url": "",
+    "comments_url": "https://lobste.rs/s/g9jlyl/what_are_best_developer_tools_built"
+  },
+  {
+    "title": "Turning Git commits into changelog with Git-Cliff - YouTube",
+    "score": 5,
+    "tags": [
+      "rust",
+      "vcs",
+      "video"
+    ],
+    "url": "https://www.youtube.com/watch?v=RWh8qbiLRts",
+    "comments_url": "https://lobste.rs/s/7va7at/turning_git_commits_into_changelog_with"
+  },
+  {
+    "title": "Using the internet like its 1999",
+    "score": 9,
+    "tags": [
+      "web"
+    ],
+    "url": "https://joshblais.com/blog/using-the-internet-like-its-1999/",
+    "comments_url": "https://lobste.rs/s/i2wzkb/using_internet_like_its_1999"
+  },
+  {
+    "title": "Cloudflare Email Service is a deliverability bet dressed as an agents launch",
+    "score": 6,
+    "tags": [
+      "email"
+    ],
+    "url": "https://lord.technology/2026/04/20/cloudflare-email-service-is-a-deliverability-bet-dressed-as-an-agents-launch.html",
+    "comments_url": "https://lobste.rs/s/ytzaui/cloudflare_email_service_is"
+  },
+  {
+    "title": "Bitwarden CLI Compromised in Ongoing Checkmarx Supply Chain",
+    "score": 98,
+    "tags": [
+      "security"
+    ],
+    "url": "https://socket.dev/blog/bitwarden-cli-compromised",
+    "comments_url": "https://lobste.rs/s/x79usb/bitwarden_cli_compromised_ongoing"
+  },
+  {
+    "title": "How Hard Is It To Open a File?",
+    "score": 50,
+    "tags": [
+      "security",
+      "unix"
+    ],
+    "url": "https://blog.sebastianwick.net/posts/how-hard-is-it-to-open-a-file/",
+    "comments_url": "https://lobste.rs/s/fbfu56/how_hard_is_it_open_file"
+  }
+]

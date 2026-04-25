@@ -1,0 +1,204 @@
+[
+  {
+    "type": "intro",
+    "label": "APRIL 25, 2026",
+    "highlight": "Google invests $40B in Anthropic",
+    "subtext": "The largest AI capital commitment in history"
+  },
+  {
+    "type": "intro",
+    "label": "OPENING",
+    "highlight": "Google already owns DeepMind",
+    "subtext": "So why invest $40B in a competitor?"
+  },
+  {
+    "type": "number",
+    "number": "494",
+    "highlight": "HN points",
+    "label": "HACKER NEWS",
+    "subtext": "488 comments — 0.99:1 ratio. Active debate, not celebration."
+  },
+  {
+    "type": "insight",
+    "label": "ANALYSIS",
+    "highlight": "Hedge or regulatory arbitrage?",
+    "subtext": "Partner stake avoids antitrust scrutiny of a full acquisition"
+  },
+  {
+    "type": "insight",
+    "label": "STRUCTURE",
+    "highlight": "$40B partner stake vs. outright acquisition",
+    "subtext": "Control without the merger fight"
+  },
+  {
+    "type": "quote",
+    "label": "PATTERN",
+    "highlight": "Yesterday: Bitwarden. Today: $40B into Anthropic.",
+    "subtext": "The same AI infrastructure layer runs through both stories"
+  },
+  {
+    "type": "insight",
+    "label": "SIGNAL",
+    "highlight": "AI infrastructure concentrating into few hands",
+    "subtext": "npm packages → CI/CD pipelines → frontier model training"
+  },
+  {
+    "type": "action",
+    "label": "TAKEAWAY",
+    "highlight": "Own more of your stack",
+    "subtext": "The practitioner response to concentration is ownership"
+  },
+  {
+    "type": "repo",
+    "label": "GITHUB TRENDING #1",
+    "highlight": "alishahryar1/free-claude-code",
+    "number": "1,843",
+    "subtext": "+1,843 stars/day — routes around Anthropic billing via NVIDIA NIM"
+  },
+  {
+    "type": "quote",
+    "label": "IRONY",
+    "highlight": "Routing around billing infrastructure",
+    "subtext": "On the day of the $40B investment — the highest-velocity GitHub repo"
+  },
+  {
+    "type": "number",
+    "number": "398",
+    "label": "HN STORY #2",
+    "highlight": "Sabotaging projects by overthinking",
+    "subtext": "0.26:1 comment ratio — near-pure endorsement"
+  },
+  {
+    "type": "quote",
+    "highlight": "Everyone agrees. Which means everyone has done it.",
+    "subtext": "398 upvotes, 104 comments — no position to argue against"
+  },
+  {
+    "type": "insight",
+    "label": "DEFINITION",
+    "highlight": "Overthinking = abstract planning over concrete action",
+    "subtext": "Hits hardest in high-ability practitioners who can always find a flaw"
+  },
+  {
+    "type": "insight",
+    "label": "NUANCE",
+    "highlight": "Sometimes complexity cost is real",
+    "subtext": "Wrong architecture choices are expensive — but the confession thread wins"
+  },
+  {
+    "type": "quote",
+    "label": "COMMUNITY THREAD",
+    "highlight": "Engineers confessing to it, not defending it",
+    "subtext": "3 months of architecture. Systems built for 1M users serving 10."
+  },
+  {
+    "type": "insight",
+    "label": "TIMING",
+    "highlight": "Same front page as $40B AI investment",
+    "subtext": "The biggest capital story and the anti-complexity essay — together"
+  },
+  {
+    "type": "insight",
+    "label": "THESIS",
+    "highlight": "The enemy of software is internal",
+    "subtext": "Not compute or capital — scope creep and perfectionism"
+  },
+  {
+    "type": "insight",
+    "label": "SECURITY",
+    "highlight": "SSH enabled on a podcast microphone",
+    "subtext": "Rode RøDECaster Duo — factory firmware, default credentials, root shell"
+  },
+  {
+    "type": "number",
+    "number": "/dev/urandom",
+    "label": "QUANTUM COMPUTING",
+    "highlight": "IBM Quantum replaced with /dev/urandom",
+    "subtext": "Output statistically indistinguishable on standard benchmarks"
+  },
+  {
+    "type": "quote",
+    "highlight": "Can't distinguish quantum from random number generator?",
+    "subtext": "On the benchmarks being used to evaluate it — yes."
+  },
+  {
+    "type": "insight",
+    "label": "PATTERN",
+    "highlight": "Real attack surface vs. marketed superiority",
+    "subtext": "Default SSH on audio hardware vs. quantum supremacy claims"
+  },
+  {
+    "type": "repo",
+    "label": "GITHUB TRENDING #3",
+    "highlight": "dani-garcia/vaultwarden",
+    "number": "1,284",
+    "subtext": "+1,284 stars/day — self-hosted Bitwarden after CLI compromise"
+  },
+  {
+    "type": "repo",
+    "label": "GITHUB TRENDING #4",
+    "highlight": "google/osv-scanner",
+    "number": "987",
+    "subtext": "+987 stars/day — auditing dependency trees for preinstall-hook packages"
+  },
+  {
+    "type": "insight",
+    "label": "LOBSTERS",
+    "highlight": "Three vibecoding stories in the top five",
+    "subtext": "Sloppy Copies · People don't yearn for automation · Hire for the conversation"
+  },
+  {
+    "type": "insight",
+    "label": "AI SKEPTICISM",
+    "highlight": "AI coding tools: calibration phase",
+    "subtext": "Easy wins are past — maintenance cost of AI-generated code is now visible"
+  },
+  {
+    "type": "insight",
+    "label": "HIRING",
+    "highlight": "Code sample no longer the signal",
+    "subtext": "Any candidate can generate passing code with AI — conversation is the filter"
+  },
+  {
+    "type": "repo",
+    "label": "GITHUB TRENDING #2",
+    "highlight": "huggingface/ml-intern",
+    "number": "1,421",
+    "subtext": "+1,421 stars/day — autonomous ML engineer: reads papers, trains models"
+  },
+  {
+    "type": "insight",
+    "label": "FRAMING",
+    "highlight": "The intern framing is intentional",
+    "subtext": "Handles scoped tasks — lacks the judgment of a senior ML engineer"
+  },
+  {
+    "type": "quote",
+    "label": "HISTORY",
+    "highlight": "Iliad fragment in a Roman-era mummy",
+    "subtext": "Multispectral imaging reveals Book 14 verses invisible to the naked eye"
+  },
+  {
+    "type": "quote",
+    "highlight": "AI generates research in minutes. A poem survived 2,000 years.",
+    "subtext": "What does the coexistence of both signals say about this moment?"
+  },
+  {
+    "type": "insight",
+    "label": "REFLECTION",
+    "highlight": "Human knowledge: long timeline, fragile preservation",
+    "subtext": "The poem survived not because it was fast — because it was preserved"
+  },
+  {
+    "type": "insight",
+    "label": "TODAY'S THESIS",
+    "highlight": "Infrastructure concentration + capability acceleration",
+    "subtext": "Practitioner response: self-hosting, open tooling, conversation-based hiring"
+  },
+  {
+    "type": "close",
+    "label": "ACTION",
+    "highlight": "Own your stack. Scope your work.",
+    "subtext": "Know why your code is the way it is. Go build something you understand."
+  }
+]

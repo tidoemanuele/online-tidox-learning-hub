@@ -1,0 +1,74 @@
+[
+  {
+    "name": "free-claude-code",
+    "fullName": "alishahryar1/free-claude-code",
+    "description": "Use claude-code for free in the terminal, VSCode extension or via discord",
+    "language": "Python",
+    "stars_today": "1,843 stars today",
+    "total_stars": "9713",
+    "url": "https://github.com/alishahryar1/free-claude-code"
+  },
+  {
+    "name": "ml-intern",
+    "fullName": "huggingface/ml-intern",
+    "description": "An open-source ML engineer that reads papers, trains models, and ships ML experiments autonomously",
+    "language": "Python",
+    "stars_today": "1,421 stars today",
+    "total_stars": "5601",
+    "url": "https://github.com/huggingface/ml-intern"
+  },
+  {
+    "name": "vaultwarden",
+    "fullName": "dani-garcia/vaultwarden",
+    "description": "Unofficial Bitwarden compatible server written in Rust",
+    "language": "Rust",
+    "stars_today": "1,284 stars today",
+    "total_stars": "59211",
+    "url": "https://github.com/dani-garcia/vaultwarden"
+  },
+  {
+    "name": "osv-scanner",
+    "fullName": "google/osv-scanner",
+    "description": "Vulnerability scanner written in Go which uses the data provided by osv.dev",
+    "language": "Go",
+    "stars_today": "987 stars today",
+    "total_stars": "9602",
+    "url": "https://github.com/google/osv-scanner"
+  },
+  {
+    "name": "claude-context",
+    "fullName": "zilliztech/claude-context",
+    "description": "Code search MCP for Claude Code. Make entire codebase the context for any coding agent",
+    "language": "TypeScript",
+    "stars_today": "934 stars today",
+    "total_stars": "9109",
+    "url": "https://github.com/zilliztech/claude-context"
+  },
+  {
+    "name": "hackingtool",
+    "fullName": "Z4nzu/hackingtool",
+    "description": "ALL IN ONE Hacking Tool For Hackers",
+    "language": "Python",
+    "stars_today": "712 stars today",
+    "total_stars": "62600",
+    "url": "https://github.com/Z4nzu/hackingtool"
+  },
+  {
+    "name": "OpenMetadata",
+    "fullName": "open-metadata/OpenMetadata",
+    "description": "Unified metadata platform emphasizing discovery, observability, and governance capabilities",
+    "language": "TypeScript",
+    "stars_today": "634 stars today",
+    "total_stars": "13437",
+    "url": "https://github.com/open-metadata/OpenMetadata"
+  },
+  {
+    "name": "posthog",
+    "fullName": "PostHog/posthog",
+    "description": "All-in-one developer platform offering analytics, session replay, and feature flagging",
+    "language": "Python",
+    "stars_today": "521 stars today",
+    "total_stars": "33201",
+    "url": "https://github.com/PostHog/posthog"
+  }
+]
