@@ -1,0 +1,74 @@
+[
+  {
+    "name": "free-claude-code",
+    "fullName": "Alishahryar1/free-claude-code",
+    "description": "Use claude-code for free in the terminal, VSCode extension or via discord like openclaw",
+    "language": "Python",
+    "stars_today": "4,007 stars today",
+    "total_stars": "11812",
+    "url": "https://github.com/Alishahryar1/free-claude-code"
+  },
+  {
+    "name": "build-your-own-x",
+    "fullName": "codecrafters-io/build-your-own-x",
+    "description": "Master programming by recreating your favorite technologies from scratch.",
+    "language": "Markdown",
+    "stars_today": "1,432 stars today",
+    "total_stars": "496176",
+    "url": "https://github.com/codecrafters-io/build-your-own-x"
+  },
+  {
+    "name": "ml-intern",
+    "fullName": "huggingface/ml-intern",
+    "description": "Open-source ML engineer that reads papers, trains models, and ships ML models",
+    "language": "Python",
+    "stars_today": "1,240 stars today",
+    "total_stars": "6395",
+    "url": "https://github.com/huggingface/ml-intern"
+  },
+  {
+    "name": "hackingtool",
+    "fullName": "Z4nzu/hackingtool",
+    "description": "ALL IN ONE Hacking Tool For Hackers",
+    "language": "Python",
+    "stars_today": "1,200 stars today",
+    "total_stars": "64210",
+    "url": "https://github.com/Z4nzu/hackingtool"
+  },
+  {
+    "name": "skills",
+    "fullName": "mattpocock/skills",
+    "description": "My personal directory of skills, straight from my .claude directory.",
+    "language": "Shell",
+    "stars_today": "1,139 stars today",
+    "total_stars": "20536",
+    "url": "https://github.com/mattpocock/skills"
+  },
+  {
+    "name": "posthog",
+    "fullName": "PostHog/posthog",
+    "description": "All-in-one developer platform offering product analytics, web analytics, session replay, error tracking, feature flags, experimentation, surveys, data warehouse, CDP, and AI assistant.",
+    "language": "Python",
+    "stars_today": "471 stars today",
+    "total_stars": "33574",
+    "url": "https://github.com/PostHog/posthog"
+  },
+  {
+    "name": "DeepEP",
+    "fullName": "deepseek-ai/DeepEP",
+    "description": "DeepEP: an efficient expert-parallel communication library",
+    "language": "Cuda",
+    "stars_today": "189 stars today",
+    "total_stars": "9529",
+    "url": "https://github.com/deepseek-ai/DeepEP"
+  },
+  {
+    "name": "awesome-codex-skills",
+    "fullName": "ComposioHQ/awesome-codex-skills",
+    "description": "Curated list of practical Codex skills for automating workflows across the Codex CLI and API.",
+    "language": "Python",
+    "stars_today": "188 stars today",
+    "total_stars": "1597",
+    "url": "https://github.com/ComposioHQ/awesome-codex-skills"
+  }
+]

@@ -1,0 +1,187 @@
+[
+  {
+    "type": "intro",
+    "highlight": "NSF fired. Erdős solved. Same day.",
+    "subtext": "April 26, 2026",
+    "label": "INTELLIGENCE BRIEF"
+  },
+  {
+    "type": "intro",
+    "highlight": "Who controls the knowledge infrastructure?",
+    "subtext": "Two stories. One thesis.",
+    "label": "APRIL 26"
+  },
+  {
+    "type": "number",
+    "highlight": "NSF funds 27% of US basic research",
+    "number": "27%",
+    "subtext": "TCP/IP. The web. Public-key cryptography.",
+    "label": "NATIONAL SCIENCE FOUNDATION"
+  },
+  {
+    "type": "insight",
+    "highlight": "Institutional layer defunded as individuals gain frontier capability",
+    "subtext": "The timing is not a coincidence.",
+    "label": "TOP SIGNAL"
+  },
+  {
+    "type": "repo",
+    "highlight": "Amateur solves Erdős primitive sets conjecture",
+    "subtext": "23-year-old + ChatGPT Pro. No math degree.",
+    "label": "HACKER NEWS · 246 PTS"
+  },
+  {
+    "type": "insight",
+    "highlight": "LLMs hold a wider graph than any specialist",
+    "subtext": "Cross-domain pattern matching. Not intelligence. Scale.",
+    "label": "VIBE MATH"
+  },
+  {
+    "type": "number",
+    "highlight": "60 years of Erdős problems now tractable",
+    "number": "60yr",
+    "subtext": "Anyone with a ChatGPT subscription.",
+    "label": "MATHEMATICAL DISCOVERY"
+  },
+  {
+    "type": "repo",
+    "highlight": "openai/privacy-filter",
+    "subtext": "1.5B params, 50M active. On-device. Open-weight.",
+    "label": "GITHUB · OPEN SOURCE"
+  },
+  {
+    "type": "number",
+    "highlight": "Pure endorsement — 172 pts, 29 comments",
+    "number": "0.17",
+    "subtext": "Comment-to-point ratio. Community needed this.",
+    "label": "HN SIGNAL"
+  },
+  {
+    "type": "action",
+    "highlight": "Sanitize training data before cloud — on-device PII filter",
+    "subtext": "Enterprise barrier to fine-tuning: removed.",
+    "label": "ENTERPRISE IMPACT"
+  },
+  {
+    "type": "insight",
+    "highlight": "OpenAI removes privacy barrier to grow API adoption",
+    "subtext": "Open-sourcing the safety layer is a growth move.",
+    "label": "STRATEGIC READ"
+  },
+  {
+    "type": "insight",
+    "highlight": "Carrier MDM profile: app reinstalls daily, can't revoke",
+    "subtext": "Below the app layer. iOS permission model bypass.",
+    "label": "IPHONE SECURITY"
+  },
+  {
+    "type": "insight",
+    "highlight": "The second-store problem: OS copies data you think is gone",
+    "subtext": "Notification cache. MDM profile. Same pattern.",
+    "label": "ARCHITECTURE"
+  },
+  {
+    "type": "insight",
+    "highlight": "EU Age Control → national digital ID infrastructure",
+    "subtext": "Trojan horse. Technically accurate framing.",
+    "label": "DIGITAL IDENTITY"
+  },
+  {
+    "type": "insight",
+    "highlight": "Legitimate mechanisms deployed in ways you can't revoke",
+    "subtext": "MDM profiles. Identity registries. Same architecture.",
+    "label": "DEVICE SOVEREIGNTY"
+  },
+  {
+    "type": "number",
+    "highlight": "free-claude-code surges +4,007 stars today",
+    "number": "4,007",
+    "subtext": "3x the next repo. That number is not normal.",
+    "label": "GITHUB TRENDING"
+  },
+  {
+    "type": "repo",
+    "highlight": "Alishahryar1/free-claude-code",
+    "subtext": "Claude Code via NVIDIA NIM free tier. Zero marginal cost.",
+    "label": "PYTHON · 11.8K STARS"
+  },
+  {
+    "type": "insight",
+    "highlight": "Two Claude Code markets: enterprise teams vs. routing-around individuals",
+    "subtext": "The billing layer is already being circumvented at scale.",
+    "label": "ADOPTION SPLIT"
+  },
+  {
+    "type": "repo",
+    "highlight": "huggingface/ml-intern",
+    "subtext": "Reads papers. Runs experiments. Ships results. Unattended.",
+    "label": "PYTHON · +1,240/DAY"
+  },
+  {
+    "type": "insight",
+    "highlight": "'Do I belong in tech?' tops Lobsters at 145 pts",
+    "subtext": "Senior engineers. 15 years. Skills being routed around.",
+    "label": "LOBSTERS · VIBECODING"
+  },
+  {
+    "type": "quote",
+    "highlight": "Skills built over 15 years are being routed around",
+    "subtext": "Not a complaint. A precise psychological description.",
+    "label": "TECH IDENTITY CRISIS"
+  },
+  {
+    "type": "action",
+    "highlight": "The value shifts: execution → knowing which problems to attempt",
+    "subtext": "Liam Price chose the right open problem. That's the skill.",
+    "label": "REFRAME"
+  },
+  {
+    "type": "insight",
+    "highlight": "Expertise shifts from technique to problem selection",
+    "subtext": "Which problems are worth pointing the AI at?",
+    "label": "THE NEW SKILL"
+  },
+  {
+    "type": "repo",
+    "highlight": "deepseek-ai/DeepSeek-V4",
+    "subtext": "1.6T parameters. MIT license. Day-0 SGLang inference.",
+    "label": "OPEN SOURCE AI"
+  },
+  {
+    "type": "number",
+    "highlight": "0.09 comment ratio — specialists only read this",
+    "number": "0.09",
+    "subtext": "3 comments on 32 points. They understood immediately.",
+    "label": "HN SPECIALIST SIGNAL"
+  },
+  {
+    "type": "insight",
+    "highlight": "Open source closes frontier deployment gap to hours",
+    "subtext": "Weeks → days → hours. The pattern is accelerating.",
+    "label": "INFERENCE INFRASTRUCTURE"
+  },
+  {
+    "type": "insight",
+    "highlight": "Institutional layer defunded. Individual capability accelerating.",
+    "subtext": "The cost layer is being routed around.",
+    "label": "TODAY'S THESIS"
+  },
+  {
+    "type": "quote",
+    "highlight": "Anxiety belongs to those who built identity on institutional access",
+    "subtext": "Not to those who learned to point tools at right problems.",
+    "label": "WHO WINS"
+  },
+  {
+    "type": "action",
+    "highlight": "Develop judgment about which problems to bring to AI",
+    "subtext": "That conversation is over. This one is starting.",
+    "label": "TAKEAWAY"
+  },
+  {
+    "type": "close",
+    "highlight": "Choose the right problem. Go build something.",
+    "subtext": "April 26, 2026 · Episode 31",
+    "label": "INTELLIGENCE BRIEF"
+  }
+]

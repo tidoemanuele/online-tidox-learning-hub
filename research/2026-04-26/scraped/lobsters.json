@@ -1,0 +1,146 @@
+[
+  {
+    "title": "Do I belong in tech anymore?",
+    "score": 145,
+    "tags": [
+      "vibecoding"
+    ],
+    "url": "https://ky.fyi/posts/ai-burnout",
+    "comments_url": "https://lobste.rs/s/xgtyyu/do_i_belong_tech_anymore"
+  },
+  {
+    "title": "Linux May Drop Old Network Drivers Now That AI-Driven Bug Reports Are Causing A Burden",
+    "score": 20,
+    "tags": [
+      "linux"
+    ],
+    "url": "https://www.phoronix.com/news/Linux-Old-Network-AI",
+    "comments_url": "https://lobste.rs/s/88pksu/linux_may_drop_old_network_drivers_now_ai"
+  },
+  {
+    "title": "A breakthrough in C/C++ dependency management",
+    "score": 11,
+    "tags": [
+      "c",
+      "c++",
+      "programming",
+      "satire"
+    ],
+    "url": "https://lcamtuf.substack.com/p/a-breakthrough-in-cc-dependency-management",
+    "comments_url": "https://lobste.rs/s/cn89rt/breakthrough_c_c_dependency_management"
+  },
+  {
+    "title": "Avoid Shipping Your Org Chart",
+    "score": 22,
+    "tags": [
+      "practices"
+    ],
+    "url": "https://chronicbuildfailure.co/how-to-avoid-shipping-your-org-chart-c086effe751c",
+    "comments_url": "https://lobste.rs/s/gikmcc/avoid_shipping_your_org_chart"
+  },
+  {
+    "title": "Your CPU Has More Registers Than You'd Think",
+    "score": 37,
+    "tags": [
+      "hardware"
+    ],
+    "url": "https://fp32.org/register_renaming.html",
+    "comments_url": "https://lobste.rs/s/2jvgsq/your_cpu_has_more_registers_than_you_d"
+  },
+  {
+    "title": "The Mac App Gold Rush in the Age of Vibe Coding",
+    "score": 7,
+    "tags": [
+      "mac",
+      "security",
+      "vibecoding"
+    ],
+    "url": "https://caio.ca/blog/ai-vibe-coded-mac-apps.html",
+    "comments_url": "https://lobste.rs/s/8xd0x7/mac_app_gold_rush_age_vibe_coding"
+  },
+  {
+    "title": "It's OK to use coding assistance tools to revive the projects you never were going to finish",
+    "score": 13,
+    "tags": [
+      "vibecoding"
+    ],
+    "url": "https://blog.matthewbrunelle.com/its-ok-to-use-coding-assistance-tools-to-revive-the-projects-you-never-were-going-to-finish/",
+    "comments_url": "https://lobste.rs/s/dtkjsz/it_s_ok_use_coding_assistance_tools_revive"
+  },
+  {
+    "title": "The people do not yearn for automation",
+    "score": 83,
+    "tags": [
+      "vibecoding"
+    ],
+    "url": "https://www.theverge.com/podcast/917029/software-brain-ai-backlash-databases-automation",
+    "comments_url": "https://lobste.rs/s/gp02rx/people_do_not_yearn_for_automation"
+  },
+  {
+    "title": "My Homemade PBX",
+    "score": 10,
+    "tags": [
+      "hardware"
+    ],
+    "url": "https://wandel.ca/homepage/pbx.html",
+    "comments_url": "https://lobste.rs/s/bwg33l/my_homemade_pbx"
+  },
+  {
+    "title": "Hyper-DERP: C++/io_uring DERP relay - Same throughput as Tailscale's derper, half the cores",
+    "score": 11,
+    "tags": [
+      "performance"
+    ],
+    "url": "https://hyper-derp.dev/blog/hyper-derp-announcement/",
+    "comments_url": "https://lobste.rs/s/uiqamk/hyper_derp_c_io_uring_derp_relay_same"
+  },
+  {
+    "title": "What are you doing this weekend?",
+    "score": 10,
+    "tags": [
+      "ask",
+      "programming"
+    ],
+    "url": "",
+    "comments_url": "https://lobste.rs/s/syfxqg/what_are_you_doing_this_weekend"
+  },
+  {
+    "title": "New 10 GbE USB adapters are cooler, smaller, cheaper",
+    "score": 9,
+    "tags": [
+      "hardware",
+      "networking"
+    ],
+    "url": "https://www.jeffgeerling.com/blog/2026/new-10-gbe-usb-adapters-cooler-smaller-cheaper/",
+    "comments_url": "https://lobste.rs/s/3v9wvu/new_10_gbe_usb_adapters_are_cooler_smaller"
+  },
+  {
+    "title": "Gmail: Bringing easy end-to-end encryption to all businesses",
+    "score": 16,
+    "tags": [
+      "cryptography",
+      "email"
+    ],
+    "url": "https://workspace.google.com/blog/identity-and-security/gmail-easy-end-to-end-encryption-all-businesses",
+    "comments_url": "https://lobste.rs/s/rd9x6c/gmail_bringing_easy_end_end_encryption"
+  },
+  {
+    "title": "You don't want long-lived keys",
+    "score": 8,
+    "tags": [
+      "practices",
+      "security"
+    ],
+    "url": "https://argemma.com/blog/long-lived-keys/",
+    "comments_url": "https://lobste.rs/s/o45fm1/you_don_t_want_long_lived_keys"
+  },
+  {
+    "title": "Comparing compression tools",
+    "score": 14,
+    "tags": [
+      "performance"
+    ],
+    "url": "https://www.arp242.net/cmp-compress.html",
+    "comments_url": "https://lobste.rs/s/qqahyp/comparing_compression_tools"
+  }
+]
