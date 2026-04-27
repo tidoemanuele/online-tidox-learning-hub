@@ -1,0 +1,92 @@
+[
+  {
+    "name": "skills",
+    "fullName": "mattpocock/skills",
+    "description": "Agent Skills for real engineers. Straight from my .claude directory.",
+    "language": "Shell",
+    "stars_today": "2,519 stars today",
+    "total_stars": "25160",
+    "url": "https://github.com/mattpocock/skills"
+  },
+  {
+    "name": "hackingtool",
+    "fullName": "Z4nzu/hackingtool",
+    "description": "ALL IN ONE Hacking Tool For Hackers",
+    "language": "Python",
+    "stars_today": "1,720 stars today",
+    "total_stars": "65944",
+    "url": "https://github.com/Z4nzu/hackingtool"
+  },
+  {
+    "name": "free-claude-code",
+    "fullName": "Alishahryar1/free-claude-code",
+    "description": "Use claude-code for free in the terminal, VSCode extension or via discord like openclaw",
+    "language": "Python",
+    "stars_today": "1,701 stars today",
+    "total_stars": "14396",
+    "url": "https://github.com/Alishahryar1/free-claude-code"
+  },
+  {
+    "name": "build-your-own-x",
+    "fullName": "codecrafters-io/build-your-own-x",
+    "description": "Master programming by recreating your favorite technologies from scratch",
+    "language": "Markdown",
+    "stars_today": "1,075 stars today",
+    "total_stars": "497035",
+    "url": "https://github.com/codecrafters-io/build-your-own-x"
+  },
+  {
+    "name": "GitNexus",
+    "fullName": "abhigyanpatwari/GitNexus",
+    "description": "Client-side knowledge graph creator running entirely in your browser with interactive knowledge graph and Graph RAG Agent for code exploration",
+    "language": "TypeScript",
+    "stars_today": "700 stars today",
+    "total_stars": "30431",
+    "url": "https://github.com/abhigyanpatwari/GitNexus"
+  },
+  {
+    "name": "openclaw",
+    "fullName": "openclaw/openclaw",
+    "description": "Your own personal AI assistant. Any OS. Any Platform.",
+    "language": "TypeScript",
+    "stars_today": "627 stars today",
+    "total_stars": "364896",
+    "url": "https://github.com/openclaw/openclaw"
+  },
+  {
+    "name": "awesome-codex-skills",
+    "fullName": "ComposioHQ/awesome-codex-skills",
+    "description": "Curated list of practical Codex skills for automating workflows across the Codex CLI and API",
+    "language": "Python",
+    "stars_today": "517 stars today",
+    "total_stars": "2198",
+    "url": "https://github.com/ComposioHQ/awesome-codex-skills"
+  },
+  {
+    "name": "posthog",
+    "fullName": "PostHog/posthog",
+    "description": "All-in-one developer platform offering product analytics, web analytics, session replay, error tracking, feature flags, and more",
+    "language": "Python",
+    "stars_today": "337 stars today",
+    "total_stars": "33957",
+    "url": "https://github.com/PostHog/posthog"
+  },
+  {
+    "name": "cua",
+    "fullName": "trycua/cua",
+    "description": "Infrastructure for Computer-Use Agents with sandboxes, SDKs, and benchmarks for training and evaluating desktop control AI agents",
+    "language": "HTML",
+    "stars_today": "182 stars today",
+    "total_stars": "14535",
+    "url": "https://github.com/trycua/cua"
+  },
+  {
+    "name": "beads",
+    "fullName": "gastownhall/beads",
+    "description": "Beads - A memory upgrade for your coding agent",
+    "language": "Go",
+    "stars_today": "152 stars today",
+    "total_stars": "21817",
+    "url": "https://github.com/gastownhall/beads"
+  }
+]

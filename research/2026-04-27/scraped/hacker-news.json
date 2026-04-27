@@ -1,0 +1,82 @@
+[
+  {
+    "rank": 1,
+    "title": "Flipdiscs",
+    "url": "https://flipdisc.io",
+    "hn_url": "https://news.ycombinator.com/item?id=47875795",
+    "points": 92,
+    "comments": 17
+  },
+  {
+    "rank": 2,
+    "title": "I bought Friendster for $30k \u2013 Here's what I'm doing with it",
+    "url": "https://ca98am79.medium.com/i-bought-friendster-for-30k-heres-what-i-m-doing-with-it-d5e8ddb3991d",
+    "hn_url": "https://news.ycombinator.com/item?id=47914165",
+    "points": 633,
+    "comments": 351
+  },
+  {
+    "rank": 3,
+    "title": "TurboQuant: A first-principles walkthrough",
+    "url": "https://arkaung.github.io/interactive-turboquant/",
+    "hn_url": "https://news.ycombinator.com/item?id=47916890",
+    "points": 81,
+    "comments": 12
+  },
+  {
+    "rank": 4,
+    "title": "Self-updating screenshots",
+    "url": "https://interblah.net/self-updating-screenshots",
+    "hn_url": "https://news.ycombinator.com/item?id=47908051",
+    "points": 205,
+    "comments": 29
+  },
+  {
+    "rank": 5,
+    "title": "The Prompt API",
+    "url": "https://developer.chrome.com/docs/ai/prompt-api",
+    "hn_url": "https://news.ycombinator.com/item?id=47917026",
+    "points": 67,
+    "comments": 48
+  },
+  {
+    "rank": 6,
+    "title": "Three constraints before I build anything",
+    "url": "https://jordanlord.co.uk/blog/3-constraints/",
+    "hn_url": "https://news.ycombinator.com/item?id=47903541",
+    "points": 145,
+    "comments": 22
+  },
+  {
+    "rank": 7,
+    "title": "When Your Digital Life Vanishes",
+    "url": "https://www.newyorker.com/magazine/2026/04/27/when-your-digital-life-vanishes",
+    "hn_url": "https://news.ycombinator.com/item?id=47870162",
+    "points": 45,
+    "comments": 13
+  },
+  {
+    "rank": 8,
+    "title": "AI should elevate your thinking, not replace it",
+    "url": "https://www.koshyjohn.com/blog/ai-should-elevate-your-thinking-not-replace-it/",
+    "hn_url": "https://news.ycombinator.com/item?id=47913650",
+    "points": 394,
+    "comments": 299
+  },
+  {
+    "rank": 9,
+    "title": "A Guide to CubeSat Mission and Bus Design",
+    "url": "https://pressbooks-dev.oer.hawaii.edu/epet302/",
+    "hn_url": "https://news.ycombinator.com/item?id=47906666",
+    "points": 8,
+    "comments": 0
+  },
+  {
+    "rank": 10,
+    "title": "Running Bare-Metal Rust Alongside ESP-IDF on the ESP32-S3's Second Core",
+    "url": "https://tingouw.com/blog/embedded/esp32/run_rust_on_app_core",
+    "hn_url": "https://news.ycombinator.com/item?id=47885719",
+    "points": 59,
+    "comments": 10
+  }
+]
