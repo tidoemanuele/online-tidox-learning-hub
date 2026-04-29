@@ -3,75 +3,53 @@
   "episodeNumber": 34,
   "locale": "en-US",
   "title": "Intelligence Brief",
-  "subtitle": "Ghostty is leaving GitHub, GitHub RCE vulnerability CVE-2026-3854 disclosed a, 'Who owns the code Claude Code wrote?' reaches 348",
+  "subtitle": "Ghostty is leaving GitHub, Bugs Rust won't catch, Before GitHub",
   "heroStat": {
     "value": "2159",
     "label": "points on \"Ghostty is leaving GitHub\""
   },
   "insights": [
     {
-      "text": "Ghostty is leaving GitHub — Mitchell Hashimoto, GitHub user #1299 since 2008, announces departure at 2,294 HN pts / 681 comments, the highest-scoring platform-departure story in HN history. The Register: 'no longer a place for serious work.' Same day: HardenedBSD moves to Radicle, GitHub publishes an availability postmortem (357 pts / 228 comments). The co-founder of HashiCorp publicly declaring GitHub unfit for serious development carries institutional weight no individual complaint can match. When your most credible power users start leaving, the network effect that built you becomes the switching cost that traps everyone else.",
+      "text": "Ghostty is leaving GitHub (2159 pts, 656 comments)",
       "tags": [
-        "github-trending"
+        "hacker-news"
       ],
-      "source": "HN 294pts"
+      "source": "HN 2159pts"
     },
     {
-      "text": "GitHub RCE vulnerability CVE-2026-3854 disclosed at 317 HN pts — Wiz reveals a CVSS 8.7 flaw where any authenticated user could execute arbitrary commands on GitHub's backend via a single git push, exploiting semicolon injection in babeld's X-Stat headers. The exploitation chain bypassed sandboxing and enabled cross-tenant repo access — potentially reading millions of repositories. Patched same-day (March 4), disclosed April 28. Landing on the same front page as Ghostty's departure, the community learns that while GitHub was having daily outages, it also had a cross-tenant RCE. Two trust failures, one news cycle.",
+      "text": "Bugs Rust won't catch (118 pts, 38 comments)",
       "tags": [
-        "github-trending",
-        "rust"
+        "hacker-news"
       ],
-      "source": "HN 317pts"
+      "source": "HN 118pts"
     },
     {
-      "text": "'Who owns the code Claude Code wrote?' reaches 348 HN pts with 351 comments — a 1.01 comment-to-point ratio, the highest engagement density on today's front page. The US Supreme Court declined the Thaler appeal in March 2026: AI-generated works without meaningful human authorship aren't copyrightable. Anthropic's ToS assigns contractual ownership, but contractual rights and copyright protection are different things. Code that Claude generates and you accept unmodified may be uncopyrightable by anyone. On the same day GitHub's hosting and security are questioned, the legal foundation of code ownership is challenged — three layers of developer infrastructure trust contested simultaneously.",
+      "text": "Before GitHub (365 pts, 110 comments)",
       "tags": [
-        "security",
-        "github-trending",
-        "claude-code"
+        "hacker-news"
       ],
-      "source": "HN 348pts"
+      "source": "HN 365pts"
     },
     {
-      "text": "'Your phone is about to stop being yours' hits 1,248 HN pts / 575 comments — Google's new requirement: starting September 2026, every Android app developer must register centrally with Google before their software can be installed on any device. Not just Play Store: F-Droid, sideloaded, hobbyist apps, all of them. On a day when Ghostty leaves GitHub over platform control and a GitHub RCE exposes cross-tenant access, the #18 story is about device autonomy. Two of the top three HN stories are about developers losing control of platforms they depend on — the 'who holds the kill switch' theme from April 20-21 has escalated from question to crisis.",
+      "text": "How ChatGPT serves ads (248 pts, 152 comments)",
       "tags": [
-        "github-trending"
+        "hacker-news"
       ],
       "source": "HN 248pts"
     },
     {
-      "text": "OpenAI models land on Amazon Bedrock at 229 HN pts — GPT-5.5, GPT-5.4, Codex, and Managed Agents now available on AWS, one day after the Microsoft exclusivity deal formally ended. Usage counts toward existing AWS cloud commitments. Yesterday's H1 hypothesis (multi-cloud normalization) validated within 24 hours. Anthropic on Bedrock+Vertex, OpenAI now on Bedrock+Azure, DeepSeek everywhere open-weight — the exclusive-cloud-partner model lasted exactly as long as the exclusive-flat-rate-pricing model: 18 months. The AI distribution layer has fully decoupled from cloud lock-in.",
+      "text": "Show HN: Auto-Architecture: Karpathy's Loop, pointed at a CPU (74 pts, 16 comments)",
       "tags": [
-        "agents"
+        "hacker-news"
       ],
-      "source": "HN 229pts"
+      "source": "HN 74pts"
     },
     {
-      "text": "Warp terminal goes open-source at 234 HN pts — Apache-2.0 (UI) + AGPL v3, 26K stars within hours, with OpenAI as founding sponsor and Oz (cloud agent orchestration) as the commercial product. The development model: agents do the coding, community provides direction and verification. On the same day Ghostty leaves GitHub for platform independence, Warp enters as an agent-first, OpenAI-backed open-source terminal. Two terminal projects, two fundamentally opposite platform strategies, same news cycle. The terminal — once the most stable layer of the developer stack — is now a contested strategic surface.",
+      "text": "Withnail's Coat and I (8 pts, 0 comments)",
       "tags": [
-        "github-trending",
-        "agents",
-        "open-source"
+        "hacker-news"
       ],
-      "source": "HN 234pts"
-    },
-    {
-      "text": "Talkie — a 13B vintage language model trained on pre-1931 text — reaches 668 HN pts / 274 comments. Built by Levine, Duvenaud, and Alec Radford on 260B tokens of public-domain books, newspapers, patents, and case law. Apache 2.0. On a front page dominated by platform trust crises (Ghostty, GitHub RCE, copyright void, Android control), the third-highest-engagement story is a whimsical LLM that knows nothing after 1930. The pattern is now five consecutive weeks: the more stressed the AI/infrastructure discourse, the more the community gravitates toward creative non-competitive experiments.",
-      "tags": [
-        "github-trending",
-        "rust"
-      ],
-      "source": "HN 668pts"
-    },
-    {
-      "text": "GitHub Trending: mattpocock/skills sustains at +7,321 stars/day (39.6K total), free-claude-code at +1,741/day (17.8K), microsoft/VibeVoice at +1,483/day (45.2K total — open-source 90-minute TTS + 60-minute ASR), GitNexus at +1,607/day (32.9K). The skills-catalog category that emerged April 27 (mattpocock/skills + awesome-codex-skills) is now a sustained trend at scale, not a launch spike. VibeVoice is the first Microsoft open-source voice AI to challenge ElevenLabs and OpenAI's TTS dominance — 50+ languages, 4-speaker long-form synthesis, 7.5 Hz ultra-low frame rate tokenizer.",
-      "tags": [
-        "github-trending",
-        "claude-code",
-        "open-source"
-      ],
-      "source": "GitHub +7,321/day"
+      "source": "HN 8pts"
     }
   ],
   "trending": [
@@ -124,7 +102,7 @@
     },
     {
       "label": "Insights Today",
-      "value": "8",
+      "value": "6",
       "unit": "stories"
     }
   ],
@@ -140,12 +118,12 @@
         "source": "web"
       },
       {
-        "text": "GitHub RCE vulnerability CVE-2026-3854 disclosed at 317 HN pts",
+        "text": "Bugs Rust won't catch",
         "metric": "—",
         "source": "web"
       },
       {
-        "text": "'Who owns the code Claude Code wrote?' reaches 348 HN pts with 351 comments",
+        "text": "Before GitHub",
         "metric": "—",
         "source": "web"
       }
