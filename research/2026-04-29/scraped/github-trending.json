@@ -1,0 +1,92 @@
+[
+  {
+    "name": "skills",
+    "fullName": "mattpocock/skills",
+    "description": "Skills for Real Engineers. Straight from my .claude directory.",
+    "language": "Shell",
+    "stars_today": "7,321 stars today",
+    "total_stars": "39136",
+    "url": "https://github.com/mattpocock/skills"
+  },
+  {
+    "name": "free-claude-code",
+    "fullName": "Alishahryar1/free-claude-code",
+    "description": "Enables free Claude Code usage in terminal, VSCode extension, or Discord environments",
+    "language": "Python",
+    "stars_today": "1,741 stars today",
+    "total_stars": "17770",
+    "url": "https://github.com/Alishahryar1/free-claude-code"
+  },
+  {
+    "name": "VibeVoice",
+    "fullName": "microsoft/VibeVoice",
+    "description": "Open-Source Frontier Voice AI",
+    "language": "Python",
+    "stars_today": "1,483 stars today",
+    "total_stars": "45107",
+    "url": "https://github.com/microsoft/VibeVoice"
+  },
+  {
+    "name": "GitNexus",
+    "fullName": "abhigyanpatwari/GitNexus",
+    "description": "Client-side knowledge graph creator running entirely in browsers. Users can input GitHub repos or ZIP files to generate interactive knowledge graphs with Graph RAG Agent capabilities for code exploration.",
+    "language": "TypeScript",
+    "stars_today": "1,607 stars today",
+    "total_stars": "32818",
+    "url": "https://github.com/abhigyanpatwari/GitNexus"
+  },
+  {
+    "name": "awesome-codex-skills",
+    "fullName": "ComposioHQ/awesome-codex-skills",
+    "description": "A curated list of practical Codex skills for automating workflows across the Codex CLI and API.",
+    "language": "Python",
+    "stars_today": "953 stars today",
+    "total_stars": "4252",
+    "url": "https://github.com/ComposioHQ/awesome-codex-skills"
+  },
+  {
+    "name": "GhostTrack",
+    "fullName": "HunxByts/GhostTrack",
+    "description": "Useful tool to track location or mobile number",
+    "language": "Python",
+    "stars_today": "967 stars today",
+    "total_stars": "10864",
+    "url": "https://github.com/HunxByts/GhostTrack"
+  },
+  {
+    "name": "quarkdown",
+    "fullName": "iamgio/quarkdown",
+    "description": "Markdown with superpowers: from ideas to papers, presentations, websites, books, and knowledge bases.",
+    "language": "Kotlin",
+    "stars_today": "699 stars today",
+    "total_stars": "12284",
+    "url": "https://github.com/iamgio/quarkdown"
+  },
+  {
+    "name": "system-design-primer",
+    "fullName": "donnemartin/system-design-primer",
+    "description": "Educational resource for large-scale system design, interview preparation, and Anki flashcards",
+    "language": "Python",
+    "stars_today": "744 stars today",
+    "total_stars": "346001",
+    "url": "https://github.com/donnemartin/system-design-primer"
+  },
+  {
+    "name": "public-apis",
+    "fullName": "public-apis/public-apis",
+    "description": "A collective list of free APIs",
+    "language": "Python",
+    "stars_today": "644 stars today",
+    "total_stars": "428473",
+    "url": "https://github.com/public-apis/public-apis"
+  },
+  {
+    "name": "ds2api",
+    "fullName": "CJackHwang/ds2api",
+    "description": "Lightweight middleware converting client protocols to universal APIs. Supports multi-account rotation, compiled binaries, serverless deployment, and Docker compatibility.",
+    "language": "Go",
+    "stars_today": "417 stars today",
+    "total_stars": "2456",
+    "url": "https://github.com/CJackHwang/ds2api"
+  }
+]

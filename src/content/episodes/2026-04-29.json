@@ -1,0 +1,168 @@
+{
+  "date": "2026-04-29",
+  "episodeNumber": 34,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "Ghostty leaves GitHub, Android autonomy campaign, AI code ownership unsettled",
+  "heroStat": {
+    "value": "2159",
+    "label": "points on \"Ghostty is leaving GitHub\""
+  },
+  "insights": [
+    {
+      "text": "Ghostty is leaving GitHub tops HN at 2159 pts (656 comments, 0.30:1 comment-to-point ratio) — the day's dominant story and the clearest signal in 2026 that the post-GitHub era is not a prediction but an active migration. Mitchell Hashimoto's post at mitchellh.com/writing/ghostty-leaving-github documents the decision for Ghostty, his terminal emulator that accumulated tens of thousands of stars on GitHub before becoming one of the most-discussed developer tools of the past year. The 0.30:1 ratio is unusual for a story at this engagement level — 2159 points with only 656 comments suggests broad agreement rather than controversy, a community saying 'yes, this is right' rather than 'let's argue about it.' The structural context is that Ghostty's departure is not a protest or an experiment — it is a considered platform decision by a developer who has operated at GitHub scale and concluded that the costs now outweigh the benefits. The HN community's near-unanimous endorsement (2159 pts with minimal dissent in the ratio) is the practitioner class signaling that centralized code hosting is entering the same trust erosion cycle that centralized social platforms entered in 2018-2022. The day's broader signal: three of today's top 5 HN stories are explicitly about platform dependence — Ghostty (GitHub), Your phone is about to stop being yours (Android), and Before GitHub (historical retrospective). This is not a coincidence. The developer community is processing a coherent anxiety about what happens when the tools and platforms they depend on stop serving their interests.",
+      "tags": [
+        "open-source",
+        "ecosystem"
+      ],
+      "source": "HN 2159pts",
+      "url": "https://mitchellh.com/writing/ghostty-leaving-github"
+    },
+    {
+      "text": "Your phone is about to stop being yours scores 1192 HN pts (549 comments, 0.46:1 comment-to-point ratio) — the second-highest story today and the second consecutive day of platform ownership anxiety in the top HN rankings. The keepandroidopen.org campaign documents restrictions on Android sideloading, repair rights, and app distribution that collectively amount to a gradual handoff of device ownership from users to manufacturers and platform holders. The 0.46:1 ratio is the conversation metric for 'this is already happening to me' — the comments are not debate but documentation of personal experience with exactly these restrictions. The convergence with Ghostty's GitHub departure (2159 pts) creates today's meta-theme: the platforms practitioners depend on — code hosting, mobile operating systems, development terminals — are simultaneously undergoing ownership consolidation moves that reduce practitioner autonomy. The keepandroidopen.org framing is notable because it uses the same vocabulary as open source licensing debates but applies it to hardware and OS policy. The developer community that built Android's ecosystem is now the community most aware that Android's openness was always conditional.",
+      "tags": [
+        "open-source",
+        "ecosystem"
+      ],
+      "source": "HN 1192pts",
+      "url": "https://keepandroidopen.org/en/"
+    },
+    {
+      "text": "Before GitHub (365 HN pts, 110 comments) — Armin Ronacher's retrospective at lucumr.pocoo.org/2026/4/28/before-github/ lands on the same day as Ghostty's departure announcement and becomes a different kind of signal than it would have been in isolation. Published yesterday and cresting today alongside the migration news, the piece documents how open source collaboration worked before GitHub centralized it: mailing lists, patch submissions, IRC coordination, distributed hosting. The 365 points are the community reading a history lesson that has become a how-to guide. The structural observation is that the tools described in Ronacher's piece — distributed version control, decentralized hosting, mailing list coordination — still exist and still work. Nothing was lost when GitHub became dominant; the older infrastructure persisted. The implication practitioners are drawing from the comment thread is that the transition back is technically feasible, and that Ghostty's decision to leave is less a leap into the unknown than a return to infrastructure that predates and will outlast GitHub's period of dominance.",
+      "tags": [
+        "open-source",
+        "ecosystem"
+      ],
+      "source": "HN 365pts",
+      "url": "https://lucumr.pocoo.org/2026/4/28/before-github/"
+    },
+    {
+      "text": "Who owns the code Claude Code wrote? reaches 328 HN pts with 334 comments — a 1.02:1 comment-to-point ratio, the day's highest, which in the HN dataset reliably marks genuine legal and philosophical uncertainty. The legallayer.substack.com piece at legallayer.substack.com/p/who-owns-the-claude-code-wrote documents the unresolved question of IP ownership for AI-generated code: does the company that built the model own it, does the developer who prompted it own it, or does it fall into a public domain category that existing copyright frameworks don't cleanly handle? The 1.02:1 ratio means the community generated more comments than upvotes — every person who engaged felt compelled to add a perspective, not just endorse. The practical stakes are not hypothetical: developers are shipping production code written by Claude Code, and the ownership status of that code has direct implications for open source licensing, commercial use, and M&A due diligence. The story sits at the intersection of three forces that are all accelerating simultaneously: AI coding tool adoption, corporate IP enforcement, and the legal system's lag behind technical practice. The 334 comments represent the practitioner class attempting to resolve in a thread what courts and legislatures have not yet addressed.",
+      "tags": [
+        "claude-code",
+        "open-source"
+      ],
+      "source": "HN 328pts",
+      "url": "https://legallayer.substack.com/p/who-owns-the-claude-code-wrote"
+    },
+    {
+      "text": "GitHub RCE Vulnerability CVE-2026-3854 scores 302 HN pts (73 comments) — a critical remote code execution flaw in GitHub's core infrastructure, documented by Wiz at wiz.io/blog/github-rce-vulnerability-cve-2026-3854. The timing, on the same day Ghostty announces it is leaving GitHub, is not causal but is structurally reinforcing: a security flaw in the dominant code hosting platform, on the day the community is explicitly discussing platform dependence. The 0.24:1 comment-to-point ratio is the 'reading and sharing without debating' pattern that appears when a story's significance is unambiguous — nobody needed to argue about whether a critical RCE in GitHub was significant. The Wiz breakdown documents the vulnerability's scope and remediation. The practitioner community's response pattern — high points, relatively few comments — signals that the primary reaction was operational (checking exposure, verifying mitigations) rather than analytical.",
+      "tags": [
+        "security"
+      ],
+      "source": "HN 302pts",
+      "url": "https://www.wiz.io/blog/github-rce-vulnerability-cve-2026-3854"
+    },
+    {
+      "text": "mattpocock/skills gains +7,321 stars today on GitHub trending — the single largest star velocity of the day and the week's dominant GitHub signal. The repo is described as 'Skills for Real Engineers. Straight from my .claude directory.' — a collection of Claude Code skill configurations extracted from TypeScript educator Matt Pocock's personal workflow. The repo's URL is github.com/mattpocock/skills. The 7,321 single-day gain is structurally significant: the top trending repo on GitHub today is not a new framework, not an AI model, not a developer tool — it is a configuration file collection for an AI coding assistant. The community scaling this to 7,321 stars in a single day is telling a specific story: Claude Code's skill system has reached the threshold where community-curated configurations are more valuable than official documentation. The '.claude directory' framing is the developer version of dotfiles culture applied to AI assistants — the accumulated wisdom of a practitioner's interaction patterns with an AI tool, shared as infrastructure. On the same day that GitHub's ownership and security posture are under scrutiny (Ghostty departure, CVE-2026-3854), the most star-velocity on GitHub is accruing to a repo that is explicitly about making AI coding tools work better. The community is not deterred from the platform; it is investing in the workflows that run on top of it.",
+      "tags": [
+        "claude-code",
+        "github-trending"
+      ],
+      "source": "GitHub +7,321/day",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "text": "OpenAI models coming to Amazon Bedrock lands at 225 HN pts (78 comments) — the Stratechery interview with Sam Altman and AWS CEO Matt Garman at stratechery.com/2026/an-interview-with-openai-ceo-sam-altman-and-aws-ceo-matt-garman-about-bedrock-managed-agents/ documents the largest AI infrastructure distribution deal since OpenAI's original Microsoft partnership. The 0.35:1 comment-to-point ratio is the 'this is significant but we've been expecting it' pattern. The practical effect is that AWS developers can now access OpenAI's frontier models through Bedrock's managed infrastructure, eliminating the cloud portability barrier that previously made OpenAI adoption costly for AWS-native teams. The structural implication is that the AI model access layer is decoupling from specific cloud vendor relationships — OpenAI on Azure, OpenAI on Bedrock, Anthropic on multiple clouds. Developer productivity is no longer tied to which model provider your cloud vendor prefers. Simultaneously, Warp terminal announced it is now open source (218 HN pts, warp.dev/blog/warp-is-now-open-source) — the AI-native terminal choosing open source on the same day Ghostty leaves GitHub. Two competing trust-building strategies: Ghostty leaves centralized hosting to maintain independence; Warp opens its source to build community trust while staying on GitHub. The community engagement patterns diverge sharply: Ghostty gets 10x more engagement (2159 vs 218), suggesting practitioners weight departure from centralized control more heavily than source availability.",
+      "tags": [
+        "agents",
+        "open-source"
+      ],
+      "source": "HN 225pts",
+      "url": "https://stratechery.com/2026/an-interview-with-openai-ceo-sam-altman-and-aws-ceo-matt-garman-about-bedrock-managed-agents/"
+    },
+    {
+      "text": "How ChatGPT serves ads scores 248 HN pts (152 comments, 0.61:1 comment-to-point ratio) — the buchodi.com piece at buchodi.com/how-chatgpt-serves-ads-heres-the-full-attribution-loop/ documents the full attribution loop for ChatGPT's advertising model: how user queries generate ad signals, how those signals route to advertisers, and how click attribution works within a conversational interface. The 0.61:1 ratio marks engaged skepticism — the community is not simply reading but interrogating the mechanics. The structural significance is that ChatGPT's move to advertising-supported revenue is now concrete and documented, not rumored. The implication for AI tool economics is direct: the dominant consumer AI product is now an advertising platform, which changes the incentive alignment between the product and its users. The practitioner community's 0.61:1 engagement pattern suggests the response is 'we expected this, but seeing the attribution mechanics spelled out is different than knowing it abstractly.' The context for today's AI infrastructure signals — OpenAI on Bedrock (225 pts), ChatGPT serving ads (248 pts), Claude Code ownership questions (328 pts) — is that the economics of frontier AI are being settled in real time, and practitioners are watching each settlement carefully.",
+      "tags": [
+        "agents"
+      ],
+      "source": "HN 248pts",
+      "url": "https://www.buchodi.com/how-chatgpt-serves-ads-heres-the-full-attribution-loop/"
+    }
+  ],
+  "trending": [
+    {
+      "name": "skills",
+      "fullName": "mattpocock/skills",
+      "stars": "39.1K",
+      "language": "Shell",
+      "delta": "+7,321/d"
+    },
+    {
+      "name": "free-claude-code",
+      "fullName": "Alishahryar1/free-claude-code",
+      "stars": "17.8K",
+      "language": "Python",
+      "delta": "+1,741/d"
+    },
+    {
+      "name": "GitNexus",
+      "fullName": "abhigyanpatwari/GitNexus",
+      "stars": "32.8K",
+      "language": "TypeScript",
+      "delta": "+1,607/d"
+    },
+    {
+      "name": "VibeVoice",
+      "fullName": "microsoft/VibeVoice",
+      "stars": "45.1K",
+      "language": "Python",
+      "delta": "+1,483/d"
+    },
+    {
+      "name": "GhostTrack",
+      "fullName": "HunxByts/GhostTrack",
+      "stars": "10.9K",
+      "language": "Python",
+      "delta": "+967/d"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "2159",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "7,321",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "3",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "April 29, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Ghostty is leaving GitHub — post-GitHub era begins",
+        "metric": "2159 pts",
+        "source": "HN"
+      },
+      {
+        "text": "Your phone is about to stop being yours",
+        "metric": "1192 pts",
+        "source": "HN"
+      },
+      {
+        "text": "Who owns the code Claude Code wrote?",
+        "metric": "334 comments",
+        "source": "HN"
+      }
+    ],
+    "takeaway": {
+      "text": "Today's dominant signal is platform independence: Ghostty leaving GitHub, Android autonomy campaigns, and AI code ownership uncertainty all point to the same practitioner anxiety — the tools we depend on are being consolidated away from us. The counter-signal is mattpocock/skills at +7,321 stars: the community isn't leaving the platforms, it's building deeper workflows on top of them."
+    }
+  }
+}

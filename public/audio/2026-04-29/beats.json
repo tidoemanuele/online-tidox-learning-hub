@@ -1,0 +1,183 @@
+[
+  {
+    "type": "intro",
+    "highlight": "Intelligence Brief",
+    "subtext": "April 29, 2026",
+    "label": "DAILY"
+  },
+  {
+    "type": "number",
+    "number": "2159",
+    "highlight": "HN points — Ghostty leaves GitHub",
+    "subtext": "Top story today",
+    "label": "HACKER NEWS"
+  },
+  {
+    "type": "insight",
+    "highlight": "0.30:1 — agreement, not debate",
+    "subtext": "2159 pts, only 656 comments",
+    "label": "SIGNAL"
+  },
+  {
+    "type": "quote",
+    "highlight": "Reading, upvoting, and not arguing",
+    "subtext": "Rare consensus at this scale"
+  },
+  {
+    "type": "insight",
+    "highlight": "Yes, this is correct — no debate needed",
+    "label": "COMMUNITY SIGNAL"
+  },
+  {
+    "type": "number",
+    "number": "1192",
+    "highlight": "Your phone is about to stop being yours",
+    "subtext": "keepandroidopen.org",
+    "label": "HACKER NEWS"
+  },
+  {
+    "type": "insight",
+    "highlight": "Three platform-dependence stories in top five",
+    "subtext": "GitHub, Android, pre-GitHub history",
+    "label": "TODAY'S PATTERN"
+  },
+  {
+    "type": "quote",
+    "highlight": "Three of the top five — on the same day",
+    "subtext": "Not a coincidence"
+  },
+  {
+    "type": "insight",
+    "highlight": "Developer anxiety: platforms consolidating against us",
+    "label": "THESIS"
+  },
+  {
+    "type": "insight",
+    "highlight": "GitHub. Android. A how-to guide for reversing it.",
+    "subtext": "Ronacher's pre-GitHub retrospective"
+  },
+  {
+    "type": "insight",
+    "highlight": "Migration playbook hiding in a history lesson",
+    "subtext": "Mailing lists, distributed hosting — still work",
+    "label": "LUCUMR.POCOO.ORG"
+  },
+  {
+    "type": "repo",
+    "highlight": "mattpocock/skills",
+    "subtext": "+7,321 stars today",
+    "label": "GITHUB TRENDING"
+  },
+  {
+    "type": "quote",
+    "highlight": "Skills for Real Engineers — from .claude directory"
+  },
+  {
+    "type": "number",
+    "number": "7,321",
+    "highlight": "Stars in a single day for AI dotfiles",
+    "subtext": "mattpocock/skills",
+    "label": "GITHUB TRENDING"
+  },
+  {
+    "type": "insight",
+    "highlight": "Celebrating departure AND investing deeper — simultaneously",
+    "subtext": "The paradox of platform anxiety",
+    "label": "OBSERVATION"
+  },
+  {
+    "type": "insight",
+    "highlight": "Not leaving the platform — building deeper into it",
+    "label": "COUNTER-SIGNAL"
+  },
+  {
+    "type": "insight",
+    "highlight": "Anxiety and dependency coexist for years",
+    "subtext": "Twitter, iOS — same pattern",
+    "label": "HISTORY"
+  },
+  {
+    "type": "number",
+    "number": "1.02",
+    "highlight": "Who owns the code Claude Code wrote?",
+    "subtext": "334 comments, 328 points",
+    "label": "COMMENT RATIO"
+  },
+  {
+    "type": "insight",
+    "highlight": "More comments than upvotes — genuine uncertainty",
+    "label": "SIGNAL"
+  },
+  {
+    "type": "insight",
+    "highlight": "Production AI code — ownership unsettled",
+    "subtext": "Licensing, M&A, open source implications",
+    "label": "STAKES"
+  },
+  {
+    "type": "quote",
+    "highlight": "Resolving in a thread what institutions haven't addressed"
+  },
+  {
+    "type": "action",
+    "highlight": "What should a developer do today?",
+    "label": "PRACTICAL"
+  },
+  {
+    "type": "action",
+    "highlight": "Document your prompting process",
+    "subtext": "Paper trail of human authorship in the loop",
+    "label": "ACTION"
+  },
+  {
+    "type": "insight",
+    "highlight": "GitHub RCE — CVE-2026-3854",
+    "subtext": "302 pts, low comments: patching not debating",
+    "label": "SECURITY"
+  },
+  {
+    "type": "insight",
+    "highlight": "Security flaw + platform departure — same day",
+    "subtext": "Coincidental but structurally reinforcing",
+    "label": "OBSERVATION"
+  },
+  {
+    "type": "insight",
+    "highlight": "OpenAI on Amazon Bedrock",
+    "subtext": "Model access decouples from cloud relationships",
+    "label": "AI INFRASTRUCTURE"
+  },
+  {
+    "type": "insight",
+    "highlight": "Model wars are becoming infrastructure wars",
+    "subtext": "OpenAI on Azure, Bedrock — Anthropic multi-cloud"
+  },
+  {
+    "type": "quote",
+    "highlight": "What's the thesis — what should I go build?",
+    "label": "CLOSING"
+  },
+  {
+    "type": "insight",
+    "highlight": "Platform centralization vs developer autonomy",
+    "subtext": "The next five years belong to ownership tools",
+    "label": "THESIS"
+  },
+  {
+    "type": "action",
+    "highlight": "Build the thing that lets people own their AI assistant",
+    "subtext": "The anxiety is the product opportunity",
+    "label": "OPPORTUNITY"
+  },
+  {
+    "type": "close",
+    "highlight": "The anxiety is the product opportunity",
+    "subtext": "April 29, 2026",
+    "label": "INTELLIGENCE BRIEF"
+  },
+  {
+    "type": "close",
+    "highlight": "Go build something.",
+    "subtext": "See you tomorrow"
+  }
+]
