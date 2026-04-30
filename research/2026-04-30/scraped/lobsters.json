@@ -1,0 +1,148 @@
+[
+  {
+    "title": "Contributor Poker and Zig's AI Ban",
+    "score": 122,
+    "tags": [
+      "vibecoding",
+      "zig"
+    ],
+    "url": "https://kristoff.it/blog/contributor-poker-and-ai/",
+    "comments_url": "https://lobste.rs/s/ifcyr1/contributor_poker_zig_s_ai_ban"
+  },
+  {
+    "title": "Functional Programmers need to take a look at Zig",
+    "score": 44,
+    "tags": [
+      "haskell",
+      "zig"
+    ],
+    "url": "https://pure-systems.org/posts/2026-04-29-functional-programmers-need-to-take-a-look-at-zig.html",
+    "comments_url": "https://lobste.rs/s/b57uhm/functional_programmers_need_take_look_at"
+  },
+  {
+    "title": "Zed is 1.0",
+    "score": 82,
+    "tags": [
+      "editors",
+      "rust"
+    ],
+    "url": "https://zed.dev/blog/zed-1-0",
+    "comments_url": "https://lobste.rs/s/ddrcj1/zed_is_1_0"
+  },
+  {
+    "title": "Copy Fail \u2014 732 Bytes to Root",
+    "score": 29,
+    "tags": [
+      "linux",
+      "security"
+    ],
+    "url": "https://copy.fail/",
+    "comments_url": "https://lobste.rs/s/eeifdc/copy_fail_732_bytes_root"
+  },
+  {
+    "title": "Copy Fail: 732 Bytes to Root on Every Major Linux Distributions",
+    "score": 43,
+    "tags": [
+      "linux",
+      "security"
+    ],
+    "url": "https://xint.io/blog/copy-fail-linux-distributions",
+    "comments_url": "https://lobste.rs/s/wsmc8s/copy_fail_732_bytes_root_on_every_major"
+  },
+  {
+    "title": "Why I Still Reach for Lisp (& Scheme) Instead of Haskell",
+    "score": 52,
+    "tags": [
+      "haskell",
+      "lisp",
+      "programming"
+    ],
+    "url": "https://jointhefreeworld.org/blog/articles/lisps/why-i-still-reach-for-scheme-instead-of-haskell/index.html",
+    "comments_url": "https://lobste.rs/s/tzqafn/why_i_still_reach_for_lisp_scheme_instead"
+  },
+  {
+    "title": "GitHub is sinking",
+    "score": 19,
+    "tags": [
+      "devops",
+      "web"
+    ],
+    "url": "https://dbushell.com/2026/04/29/github-is-sinking/",
+    "comments_url": "https://lobste.rs/s/ujihmj/github_is_sinking"
+  },
+  {
+    "title": "FastCGI: 30 Years Old and Still the Better Protocol for Reverse Proxies",
+    "score": 43,
+    "tags": [
+      "networking"
+    ],
+    "url": "https://www.agwa.name/blog/post/fastcgi_is_the_better_protocol_for_reverse_proxies",
+    "comments_url": "https://lobste.rs/s/m6z3gm/fastcgi_30_years_old_still_better"
+  },
+  {
+    "title": "KDE\u2019s 30th anniversary",
+    "score": 42,
+    "tags": [
+      "linux",
+      "release"
+    ],
+    "url": "https://kde.org/anniversaries/30/",
+    "comments_url": "https://lobste.rs/s/djfjlg/kde_s_30th_anniversary"
+  },
+  {
+    "title": "in which more paths are charted towards code independence",
+    "score": 8,
+    "tags": [
+      "distributed",
+      "vcs"
+    ],
+    "url": "https://technomancy.us/204",
+    "comments_url": "https://lobste.rs/s/7smldd/which_more_paths_are_charted_towards_code"
+  },
+  {
+    "title": "Bugs Rust Won't Catch",
+    "score": 60,
+    "tags": [
+      "rust"
+    ],
+    "url": "https://corrode.dev/blog/bugs-rust-wont-catch/",
+    "comments_url": "https://lobste.rs/s/yn7tfr/bugs_rust_won_t_catch"
+  },
+  {
+    "title": "Blessed Syntax and Ergonomics",
+    "score": 19,
+    "tags": [
+      "plt",
+      "programming"
+    ],
+    "url": "https://www.gingerbill.org/article/2026/04/29/blessed-syntax-and-ergonomics/",
+    "comments_url": "https://lobste.rs/s/ejsrso/blessed_syntax_ergonomics"
+  },
+  {
+    "title": "The Day I Logged 1 In Every 2000 Public IPv4: Visualizing The AI Scraper DDoS",
+    "score": 46,
+    "tags": [
+      "web"
+    ],
+    "url": "https://vulpinecitrus.info/blog/one-in-every-2000-ipv4-visualizing-ddos-ai-web-scrapers/",
+    "comments_url": "https://lobste.rs/s/9bkq7o/day_i_logged_1_every_2000_public_ipv4"
+  },
+  {
+    "title": "Carrot disclosure: Forgejo",
+    "score": 93,
+    "tags": [
+      "security"
+    ],
+    "url": "https://dustri.org/b/carrot-disclosure-forgejo.html",
+    "comments_url": "https://lobste.rs/s/swbkcl/carrot_disclosure_forgejo"
+  },
+  {
+    "title": "Early Impressions of Chrome from a Firefox User",
+    "score": 14,
+    "tags": [
+      "browsers"
+    ],
+    "url": "https://www.abefehr.com/posts/early-impressions-of-chrome",
+    "comments_url": "https://lobste.rs/s/htkb9t/early_impressions_chrome_from_firefox"
+  }
+]

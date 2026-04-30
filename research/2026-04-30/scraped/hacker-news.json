@@ -1,0 +1,122 @@
+[
+  {
+    "rank": 1,
+    "title": "Where the goblins came from",
+    "url": "https://openai.com/index/where-the-goblins-came-from/",
+    "hn_url": "https://news.ycombinator.com/item?id=47957688",
+    "points": 354,
+    "comments": 162
+  },
+  {
+    "rank": 2,
+    "title": "Craig Venter has died",
+    "url": "https://www.jcvi.org/media-center/j-craig-venter-genomics-pioneer-and-founder-jcvi-and-diploid-genomics-inc-dies-79",
+    "hn_url": "https://news.ycombinator.com/item?id=47957101",
+    "points": 185,
+    "comments": 33
+  },
+  {
+    "rank": 3,
+    "title": "Alignment whack-a-mole: Finetuning activates recall of copyrighted books in LLMs",
+    "url": "https://github.com/cauchy221/Alignment-Whack-a-Mole-Code",
+    "hn_url": "https://news.ycombinator.com/item?id=47957627",
+    "points": 83,
+    "comments": 45
+  },
+  {
+    "rank": 4,
+    "title": "Zed 1.0",
+    "url": "https://zed.dev/blog/zed-1-0",
+    "hn_url": "https://news.ycombinator.com/item?id=47949027",
+    "points": 1715,
+    "comments": 554
+  },
+  {
+    "rank": 5,
+    "title": "Noctua releases official 3D CAD models for its cooling fans",
+    "url": "https://www.noctua.at/en/3d-cad-models",
+    "hn_url": "https://news.ycombinator.com/item?id=47927627",
+    "points": 84,
+    "comments": 16
+  },
+  {
+    "rank": 6,
+    "title": "The Zig project's rationale for their firm anti-AI contribution policy",
+    "url": "https://simonwillison.net/2026/Apr/30/zig-anti-ai/",
+    "hn_url": "https://news.ycombinator.com/item?id=47957294",
+    "points": 119,
+    "comments": 41
+  },
+  {
+    "rank": 7,
+    "title": "Functional programmers need to take a look at Zig",
+    "url": "https://pure-systems.org/posts/2026-04-29-functional-programmers-need-to-take-a-look-at-zig.html",
+    "hn_url": "https://news.ycombinator.com/item?id=47957624",
+    "points": 56,
+    "comments": 39
+  },
+  {
+    "rank": 8,
+    "title": "Biology is a Burrito: A text- and visual-based journey through a living cell",
+    "url": "https://burrito.bio/essays/biology-is-a-burrito",
+    "hn_url": "https://news.ycombinator.com/item?id=47957714",
+    "points": 56,
+    "comments": 8
+  },
+  {
+    "rank": 9,
+    "title": "Copy Fail",
+    "url": "https://copy.fail/",
+    "hn_url": "https://news.ycombinator.com/item?id=47952181",
+    "points": 815,
+    "comments": 315
+  },
+  {
+    "rank": 10,
+    "title": "London to Calcutta by Bus (2022)",
+    "url": "https://www.amusingplanet.com/2022/08/london-to-calcutta-by-bus.html",
+    "hn_url": "https://news.ycombinator.com/item?id=47941931",
+    "points": 29,
+    "comments": 6
+  },
+  {
+    "rank": 11,
+    "title": "Cursor Camp",
+    "url": "https://neal.fun/cursor-camp/",
+    "hn_url": "https://news.ycombinator.com/item?id=47949939",
+    "points": 820,
+    "comments": 135
+  },
+  {
+    "rank": 12,
+    "title": "FastCGI: 30 years old and still the better protocol for reverse proxies",
+    "url": "https://www.agwa.name/blog/post/fastcgi_is_the_better_protocol_for_reverse_proxies",
+    "hn_url": "https://news.ycombinator.com/item?id=47950510",
+    "points": 308,
+    "comments": 72
+  },
+  {
+    "rank": 13,
+    "title": "OpenTrafficMap",
+    "url": "https://opentrafficmap.org/",
+    "hn_url": "https://news.ycombinator.com/item?id=47953541",
+    "points": 203,
+    "comments": 46
+  },
+  {
+    "rank": 14,
+    "title": "Mike: open-source legal AI",
+    "url": "https://mikeoss.com/",
+    "hn_url": "https://news.ycombinator.com/item?id=47956739",
+    "points": 62,
+    "comments": 18
+  },
+  {
+    "rank": 15,
+    "title": "Monad Tutorials Timeline",
+    "url": "https://wiki.haskell.org/Monad_tutorials_timeline",
+    "hn_url": "https://news.ycombinator.com/item?id=47958106",
+    "points": 9,
+    "comments": 1
+  }
+]

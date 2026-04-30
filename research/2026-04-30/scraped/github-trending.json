@@ -1,0 +1,92 @@
+[
+  {
+    "name": "warp",
+    "fullName": "warpdotdev/warp",
+    "description": "Warp is an agentic development environment, born out of the terminal.",
+    "language": "Rust",
+    "stars_today": "12,822 stars today",
+    "total_stars": "26500",
+    "url": "https://github.com/warpdotdev/warp"
+  },
+  {
+    "name": "skills",
+    "fullName": "mattpocock/skills",
+    "description": "Skills for Real Engineers. Straight from my .claude directory.",
+    "language": "Shell",
+    "stars_today": "7,280 stars today",
+    "total_stars": "46000",
+    "url": "https://github.com/mattpocock/skills"
+  },
+  {
+    "name": "VibeVoice",
+    "fullName": "microsoft/VibeVoice",
+    "description": "Open-Source Frontier Voice AI",
+    "language": "Python",
+    "stars_today": "1,690 stars today",
+    "total_stars": "45107",
+    "url": "https://github.com/microsoft/VibeVoice"
+  },
+  {
+    "name": "superpowers",
+    "fullName": "obra/superpowers",
+    "description": "An agentic skills framework and software development methodology.",
+    "language": "Shell",
+    "stars_today": "1,653 stars today",
+    "total_stars": "173100",
+    "url": "https://github.com/obra/superpowers"
+  },
+  {
+    "name": "awesome-codex-skills",
+    "fullName": "ComposioHQ/awesome-codex-skills",
+    "description": "A curated list of practical Codex skills for automating workflows across the Codex CLI and API.",
+    "language": "Python",
+    "stars_today": "1,177 stars today",
+    "total_stars": "4300",
+    "url": "https://github.com/ComposioHQ/awesome-codex-skills"
+  },
+  {
+    "name": "GhostTrack",
+    "fullName": "HunxByts/GhostTrack",
+    "description": "Useful tool to track location or mobile number.",
+    "language": "Python",
+    "stars_today": "1,033 stars today",
+    "total_stars": "11500",
+    "url": "https://github.com/HunxByts/GhostTrack"
+  },
+  {
+    "name": "symphony",
+    "fullName": "openai/symphony",
+    "description": "Symphony turns project work into isolated, autonomous implementation runs, allowing teams to manage work instead of supervising coding agents.",
+    "language": "TypeScript",
+    "stars_today": "980 stars today",
+    "total_stars": "16300",
+    "url": "https://github.com/openai/symphony"
+  },
+  {
+    "name": "andrej-karpathy-skills",
+    "fullName": "forrestchang/andrej-karpathy-skills",
+    "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+    "language": "Shell",
+    "stars_today": "820 stars today",
+    "total_stars": "94800",
+    "url": "https://github.com/forrestchang/andrej-karpathy-skills"
+  },
+  {
+    "name": "TradingAgents",
+    "fullName": "TauricResearch/TradingAgents",
+    "description": "Multi-agent LLM financial trading framework mirroring professional trading firm structure.",
+    "language": "Python",
+    "stars_today": "680 stars today",
+    "total_stars": "55700",
+    "url": "https://github.com/TauricResearch/TradingAgents"
+  },
+  {
+    "name": "jcode",
+    "fullName": "1jehuang/jcode",
+    "description": "Coding Agent Harness",
+    "language": "Rust",
+    "stars_today": "411 stars today",
+    "total_stars": "2100",
+    "url": "https://github.com/1jehuang/jcode"
+  }
+]

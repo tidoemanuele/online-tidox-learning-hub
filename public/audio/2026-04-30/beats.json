@@ -1,0 +1,198 @@
+[
+  {
+    "type": "intro",
+    "highlight": "April 30th Intelligence Brief",
+    "subtext": "Today's top signals across the tech landscape",
+    "label": "DAILY BRIEF"
+  },
+  {
+    "type": "intro",
+    "highlight": "Zed 1.0, Copy Fail, Zig",
+    "subtext": "Three stories with one thesis",
+    "label": "APRIL 30, 2026"
+  },
+  {
+    "type": "number",
+    "highlight": "Zed 1.0 tops Hacker News",
+    "number": "1715",
+    "subtext": "points • 554 comments",
+    "label": "HN"
+  },
+  {
+    "type": "insight",
+    "highlight": "Editor ships 1.0 the day after Ghostty left GitHub",
+    "subtext": "Not a coincidence — a coherent practitioner signal",
+    "label": "ZED 1.0"
+  },
+  {
+    "type": "insight",
+    "highlight": "Developer trust now flows to tools that earned it",
+    "subtext": "Rust-native, open source, three years in public",
+    "label": "SIGNAL"
+  },
+  {
+    "type": "number",
+    "highlight": "Broad endorsement pattern",
+    "number": "0.32",
+    "subtext": "comment-to-point ratio — agreement not debate",
+    "label": "RATIO"
+  },
+  {
+    "type": "number",
+    "highlight": "Copy Fail: 732 bytes to root",
+    "number": "820",
+    "subtext": "HN points • 315 comments",
+    "label": "SECURITY"
+  },
+  {
+    "type": "number",
+    "highlight": "Root access via clipboard exploit",
+    "number": "732",
+    "subtext": "bytes — smaller than this conversation",
+    "label": "BYTES"
+  },
+  {
+    "type": "insight",
+    "highlight": "Clipboard operations are now a documented attack vector",
+    "subtext": "Affects every major Linux distribution",
+    "label": "COPY FAIL"
+  },
+  {
+    "type": "action",
+    "highlight": "Check your clipboard integration settings today",
+    "subtext": "CI runners, shared dev envs, containers with terminals",
+    "label": "ACTION ITEM"
+  },
+  {
+    "type": "action",
+    "highlight": "Operational impact — not theoretical",
+    "subtext": "Patch now, audit terminal emulator configs",
+    "label": "PRIORITY"
+  },
+  {
+    "type": "quote",
+    "highlight": "What about Zig?",
+    "label": "NEXT STORY"
+  },
+  {
+    "type": "number",
+    "highlight": "Zig anti-AI policy — dual-platform signal",
+    "number": "241",
+    "subtext": "119 HN + 122 Lobsters — simultaneous resonance",
+    "label": "ZIG"
+  },
+  {
+    "type": "insight",
+    "highlight": "Both HN and Lobsters at top-tier engagement simultaneously",
+    "subtext": "Rarest signal in the 2026 dataset",
+    "label": "SIGNAL STRENGTH"
+  },
+  {
+    "type": "insight",
+    "highlight": "Not about code quality — about accountability",
+    "subtext": "AI contributions change who is responsible for the codebase",
+    "label": "ZIG'S ARGUMENT"
+  },
+  {
+    "type": "quote",
+    "highlight": "What does authorship mean once AI is in the loop?",
+    "subtext": "The question the community is processing",
+    "label": "OPEN QUESTION"
+  },
+  {
+    "type": "insight",
+    "highlight": "241 combined points — the community is debating seriously",
+    "subtext": "No consensus yet, but the argument is being made at scale",
+    "label": "COMMUNITY SIGNAL"
+  },
+  {
+    "type": "repo",
+    "highlight": "warpdotdev/warp",
+    "subtext": "Agentic development environment, born out of the terminal",
+    "label": "GITHUB TRENDING"
+  },
+  {
+    "type": "number",
+    "highlight": "Highest single-day GitHub rate of 2026",
+    "number": "12,822",
+    "subtext": "stars today — warpdotdev/warp",
+    "label": "STARS/DAY"
+  },
+  {
+    "type": "insight",
+    "highlight": "Top 3 trending repos all agentic tooling",
+    "subtext": "warp, skills, superpowers — a unified thesis",
+    "label": "GITHUB SIGNAL"
+  },
+  {
+    "type": "insight",
+    "highlight": "Skills-as-distribution replacing documentation",
+    "subtext": "Community-curated configs beat vendor tutorials",
+    "label": "PARADIGM SHIFT"
+  },
+  {
+    "type": "insight",
+    "highlight": "The skill file is the new unit of AI tool adoption",
+    "subtext": "Matt Pocock's .claude directory > official docs",
+    "label": "SKILLS ECONOMY"
+  },
+  {
+    "type": "repo",
+    "highlight": "openai/where-the-goblins-came-from",
+    "subtext": "Post-mortem on unexpected reasoning model behaviors",
+    "label": "OPENAI"
+  },
+  {
+    "type": "insight",
+    "highlight": "OpenAI publishing what surprised them about their own models",
+    "subtext": "354 HN points for public transparency on internal failures",
+    "label": "SIGNAL"
+  },
+  {
+    "type": "quote",
+    "highlight": "The builders of these systems are still finding goblins",
+    "subtext": "162 comments processing what this means for production",
+    "label": "IMPLICATION"
+  },
+  {
+    "type": "quote",
+    "highlight": "What is today actually telling us?",
+    "label": "THE THESIS"
+  },
+  {
+    "type": "insight",
+    "highlight": "Correctness-over-time is the practitioner aesthetic",
+    "subtext": "Zed, Zig, FastCGI — all the same vote",
+    "label": "PATTERN"
+  },
+  {
+    "type": "insight",
+    "highlight": "Tools designed right once compound in value",
+    "subtext": "FastCGI at 30 years still outperforms its replacements",
+    "label": "PRINCIPLE"
+  },
+  {
+    "type": "insight",
+    "highlight": "Agentic tooling adoption at record velocity simultaneously",
+    "subtext": "Both things are true — correctness and velocity",
+    "label": "DUAL SIGNAL"
+  },
+  {
+    "type": "action",
+    "highlight": "Adopt skills-based agent workflows now",
+    "subtext": "The infrastructure is assembling in public — get in early",
+    "label": "ACTION ITEM"
+  },
+  {
+    "type": "close",
+    "highlight": "That's the brief for April 30th",
+    "subtext": "Build something that still works in 30 years",
+    "label": "INTELLIGENCE BRIEF"
+  },
+  {
+    "type": "close",
+    "highlight": "Or 30 minutes. Both are valid.",
+    "subtext": "tidox.com",
+    "label": "UNTIL TOMORROW"
+  }
+]
