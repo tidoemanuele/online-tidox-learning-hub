@@ -3,70 +3,53 @@
   "episodeNumber": 36,
   "locale": "en-US",
   "title": "Intelligence Brief",
-  "subtitle": "OpenClaw commit-string billing scandal hits 1,085 , Shai-Hulud strikes PyTorch Lightning at 377 HN pts, 'For Linux kernel vulnerabilities, there is no hea",
+  "subtitle": "How Mark Klein told the EFF about Room 641A [book , Opus 4.7 knows the real Kelsey, For Linux kernel vulnerabilities, there is no head",
   "heroStat": {
-    "value": "3M",
-    "label": "downloads affected"
+    "value": "1066",
+    "label": "points on \"Claude Code refuses requests or charges extra if your commit\""
   },
   "insights": [
     {
-      "text": "OpenClaw commit-string billing scandal hits 1,085 HN pts / 597 comments — Claude Code refuses requests or charges extra when commit history mentions 'OpenClaw,' the second string-based billing routing flaw in two days after HERMES.md (1,080 pts). Users report $0.05-$0.10 surcharges per flagged incident and 20% processing time increases. Two consecutive 1,000+ pt stories about billing strings is unprecedented for any developer tool. Anthropic's billing infrastructure is making content-dependent routing decisions — the question is whether it's a bug or architecture.",
+      "text": "How Mark Klein told the EFF about Room 641A [book excerpt] (521 pts, 175 comments)",
       "tags": [
-        "claude-code"
+        "hacker-news"
       ],
-      "source": "HN 085pts"
+      "source": "HN 521pts"
     },
     {
-      "text": "Shai-Hulud strikes PyTorch Lightning at 377 HN pts — versions 2.6.2 and 2.6.3 compromised on PyPI with credential-stealing malware targeting GitHub, npm, SSH, Kubernetes, Vault, Docker, and .env secrets. The fourth Shai-Hulud supply chain attack of 2026, and the first targeting an ML training library specifically. Socket detected the malicious builds in 18 minutes; PyPI quarantined the package. 8.3M downloads affected. The attack surface has migrated from general JavaScript (Axios, LiteLLM, Bitwarden CLI) to the AI/ML training pipeline — pip install for research is now as dangerous as npm install for production.",
+      "text": "Opus 4.7 knows the real Kelsey (267 pts, 139 comments)",
       "tags": [
-        "security",
-        "supply-chain",
-        "github-trending"
+        "hacker-news"
       ],
-      "source": "HN 377pts"
+      "source": "HN 267pts"
     },
     {
-      "text": "'For Linux kernel vulnerabilities, there is no heads-up to distributions' reaches 455 HN pts / 343 comments — the second-highest comment count on today's front page. Distros get no advance notification; patches hit mainline before vendor updates ship. This lands two days after Copy Fail (CVE-2026-31431) disclosed a 9-year 100% reliable privilege escalation with no distribution patches at disclosure time. AI-accelerated discovery plus no-advance-notice disclosure creates systematic exposure windows for every Linux deployment.",
-      "tags": [],
-      "source": "HN 455pts"
-    },
-    {
-      "text": "Belgium halts all nuclear decommissioning at 791 HN pts / 774 comments — the highest comment count on today's entire front page. PM De Wever announces nationalization talks with ENGIE for all seven reactors, associated personnel, subsidiaries, and decommissioning obligations. Electricity prices up 50%+. The 2003 phase-out law was repealed in May 2025. On a front page dominated by software trust failures, the most-discussed story is physical infrastructure sovereignty — the same 'who controls the critical systems' question applied to electrons instead of bits.",
+      "text": "For Linux kernel vulnerabilities, there is no heads-up to distributions (445 pts, 337 comments)",
       "tags": [
-        "rust"
+        "hacker-news"
       ],
-      "source": "HN 791pts"
+      "source": "HN 445pts"
     },
     {
-      "text": "'Opus 4.7 knows the real Kelsey' at 291 HN pts / 151 comments — Kelsey Piper documents that Claude Opus 4.7 identified her from 125 words of unpublished text in Incognito mode. The model succeeded on a school progress report, a movie review she'd never published, 500 words of fiction, and a 15-year-old college essay. ChatGPT and Gemini guessed wrong. Three distinct privacy erosion vectors on one front page: credential theft (PyTorch Lightning), billing surveillance (OpenClaw), and stylometric de-anonymization (Opus 4.7).",
-      "tags": [],
-      "source": "HN 291pts"
-    },
-    {
-      "text": "cPanel CVE-2026-41940 authentication bypass at 85 HN pts — CVSS 9.8, CRLF injection in login/session loading, exploited as a zero-day since February 2026, affecting ~70M domains. watchTowr published the PoC. Successful exploitation grants full control over host, configurations, databases, and all managed websites. On a day when the Linux kernel disclosure process is challenged, PyTorch Lightning is compromised, and OpenClaw billing is exposed, web hosting authentication joins the trust-failure cluster.",
+      "text": "Shai-Hulud Themed Malware Found in the PyTorch Lightning AI Training Library (370 pts, 125 comments)",
       "tags": [
-        "security",
-        "rust"
+        "hacker-news"
       ],
-      "source": "HN 85pts"
+      "source": "HN 370pts"
     },
     {
-      "text": "GitHub Trending: mattpocock/skills crosses 50K stars (+6,187/day, 50,290 total) — the first Claude Code skills repo to reach this milestone. Warp normalizes to +8,399/day (49,964 total, down from +12,822 launch spike). New signal: TauricResearch/TradingAgents surges to +2,023/day (58,215 total) — multi-agent LLM financial trading with specialized analyst, trader, and risk manager agents. soxoj/maigret trends at +730/day (20,963 total) — OSINT username search across 3,000+ sites, the same day Opus 4.7's de-anonymization capability hits 291 pts. OpenWarp (zerx.dev) at 69 HN pts — a community fork enabling BYOP (any OpenAI-compatible provider) three days after Warp went open-source.",
+      "text": "Maladaptive Frugality (63 pts, 43 comments)",
       "tags": [
-        "github-trending",
-        "claude-code",
-        "agents"
+        "hacker-news"
       ],
-      "source": "HN 69pts"
+      "source": "HN 63pts"
     },
     {
-      "text": "Rivian's 'Can I disable all data collection?' FAQ hits 593 HN pts / 235 comments — the answer is: disable eSIM via service appointment, losing navigation, lane keeping, and OTA updates. 593 pts for a corporate support page is extraordinary. On a day when Belgium nationalizes nuclear plants and Spain's parliament acts against LaLiga's 13,500+ accidental website blocks (463 pts / 186 comments), every trust boundary — billing, supply chains, kernel disclosure, energy, vehicle telemetry, internet access — is contested simultaneously.",
+      "text": "Roboticist-Turned-Teacher Built a Life-Size Replica of Eniac (14 pts, 4 comments)",
       "tags": [
-        "security",
-        "supply-chain",
-        "rust"
+        "hacker-news"
       ],
-      "source": "HN 593pts"
+      "source": "HN 14pts"
     }
   ],
   "trending": [
@@ -119,7 +102,7 @@
     },
     {
       "label": "Insights Today",
-      "value": "8",
+      "value": "6",
       "unit": "stories"
     }
   ],
@@ -130,17 +113,17 @@
     },
     "headlines": [
       {
-        "text": "OpenClaw commit-string billing scandal hits 1,085 HN pts / 597 comments",
+        "text": "How Mark Klein told the EFF about Room 641A [book excerpt]",
         "metric": "—",
         "source": "web"
       },
       {
-        "text": "Shai-Hulud strikes PyTorch Lightning at 377 HN pts",
+        "text": "Opus 4.7 knows the real Kelsey",
         "metric": "—",
         "source": "web"
       },
       {
-        "text": "'For Linux kernel vulnerabilities, there is no heads-up to distributions' reaches 455 HN pts / 343 comments",
+        "text": "For Linux kernel vulnerabilities, there is no heads-up to distributions",
         "metric": "—",
         "source": "web"
       }
