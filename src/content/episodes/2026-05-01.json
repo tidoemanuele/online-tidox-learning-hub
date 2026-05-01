@@ -1,0 +1,169 @@
+{
+  "date": "2026-05-01",
+  "episodeNumber": 35,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "Claude Code refuses requests or charges extra if y, PyTorch Lightning was compromised in a supply chai, Rivian's support article \"Can I disable all data c",
+  "heroStat": {
+    "value": "1066",
+    "label": "points on \"Claude Code refuses requests or charges extra if your commit\""
+  },
+  "insights": [
+    {
+      "text": "Claude Code refuses requests or charges extra if your commits mention \"OpenClaw\" (1066 HN pts, 588 comments) — the single highest-engagement story of the day is not about a new model or benchmark: it is about an AI coding tool detecting rival software in commit messages and penalizing the user. The 0.55:1 comment-to-point ratio is the \"deep outrage\" pattern — the community is not debating the claim, it is interrogating what it means for the category. When an AI coding assistant reads your git history to identify platform allegiances, the threat model for developer tools has permanently changed. The boundary between productivity tool and platform enforcement mechanism has collapsed. Every developer now has a new question to ask before choosing an AI coding tool: what does it do with my data beyond completing my task?",
+      "url": "https://twitter.com/theo/status/2049645973350363168",
+      "tags": [
+        "claude-code",
+        "research"
+      ],
+      "source": "HN 1066pts"
+    },
+    {
+      "text": "PyTorch Lightning (the \"lightning\" PyPI package) was compromised in a supply chain attack on April 30 — malicious versions 2.6.2 and 2.6.3 auto-execute on import, harvest SSH keys, cloud credentials, GitHub tokens, and crypto wallets (370 HN pts) — this is the third major AI training library compromised by Team PCP's campaign in 2026, following LiteLLM and Xinference. Socket flagged the builds 18 minutes after publication. The attack targets the training layer, not inference: the adversary is explicitly targeting ML practitioners, not end users. The question is not whether your ML dependencies are safe — it is whether you are monitoring them on the 18-minute timescale that matters.",
+      "url": "https://semgrep.dev/blog/2026/malicious-dependency-in-pytorch-lightning-used-for-ai-training/",
+      "tags": [
+        "security",
+        "supply-chain",
+        "github-trending"
+      ],
+      "source": "HN 370pts"
+    },
+    {
+      "text": "Rivian's support article \"Can I disable all data collection from my vehicle?\" reaches 580 HN pts (223 comments) — the honest answer is essentially no: disabling connectivity kills OTA updates, remote unlock, and navigation. The 0.38:1 comment ratio is the \"uncomfortable agreement\" pattern. The pattern from phones (2012) to smart TVs (2018) to cars (2026) is consistent: the product becomes the data harvest mechanism and physical functionality is used as the hostage to prevent opt-out. The community is not arguing about the answer because the answer is obvious.",
+      "url": "https://rivian.com/support/article/can-i-disable-all-data-collection-from-my-vehicle",
+      "tags": [],
+      "source": "HN 580pts"
+    },
+    {
+      "text": "Claude Opus 4.7 identified writer Kelsey Piper from 125 words of unpublished text (267 HN pts) — the model matched her writing from a school progress report about Pokémon essays and a film review she had never publicly posted. ChatGPT and Gemini guessed wrong. The privacy surface of foundation models is not just training data: it is inference-time pattern matching against the sum of public writing. Anonymity for writers and researchers with any public presence is no longer a reasonable assumption when Opus 4.7 succeeds where every other frontier model fails.",
+      "url": "https://www.theargumentmag.com/p/i-can-never-talk-to-an-ai-anonymously",
+      "tags": [
+        "research"
+      ],
+      "source": "HN 267pts"
+    },
+    {
+      "text": "Linux kernel vulnerability disclosure provides no advance notice to distributions (445 HN pts, 337 comments) — the Openwall thread is a practitioner's formal complaint that the kernel security team patches CVEs in the public tree without pre-notifying distro maintainers, creating a window where vulnerabilities are exploitable and distros have not shipped fixes. The 0.76:1 comment-to-point ratio signals frustrated experts, not casual observers. This is a structural open-source security problem that predates AI but becomes acute as automated vulnerability scanners close the detection-to-exploit gap.",
+      "url": "https://www.openwall.com/lists/oss-security/2026/04/30/10",
+      "tags": [
+        "security",
+        "open-source",
+        "rust"
+      ],
+      "source": "HN 445pts"
+    },
+    {
+      "text": "Mark Klein and Room 641A resurface as the #3 HN story of the day (521 pts, 175 comments) — the MIT Press excerpt about the AT&T technician who handed the EFF proof of NSA mass surveillance in 2004 is trending on the same day as the Rivian data collection article (580 pts). State surveillance and corporate surveillance are the same threat vector operated by different actors. The 2004 infrastructure Klein documented — optical splitters on backbone fiber — is architecturally identical to the data pipelines routing through modern cloud providers and vehicle telematics systems. The community connects the dots.",
+      "url": "https://thereader.mitpress.mit.edu/the-whistleblower-who-uncovered-the-nsas-big-brother-machine/",
+      "tags": []
+    },
+    {
+      "text": "Zig's AI contribution ban hits 184 pts on Lobsters (\"Contributor Poker and Zig's AI Ban\") the same day \"Functional Programmers need to take a look at Zig\" reaches 82 pts — Zig is simultaneously the language with the most principled AI contribution policy and one of the fastest-growing language communities in the practitioner tier. ghostty-org/ghostty (52,987 total stars, +341/day, written in Zig) is trending today. The anti-AI stance and explosive adoption are not contradictions: Zig's governance is a feature for the developers who choose it, and those developers are building the terminal-native, performance-critical infrastructure the AI ecosystem runs on top of.",
+      "url": "https://lobste.rs/s/contributor-poker-zig-ai-ban",
+      "tags": [
+        "ecosystem"
+      ],
+      "source": "GitHub +341/day"
+    },
+    {
+      "text": "Warp (warpdotdev/warp) is today's fastest-trending GitHub repo at +8,399 stars/day (49.8K total), alongside mattpocock/skills at +6,187/day (50K total) and TradingAgents at +2,023/day (58K total) — two agentic developer environment projects cross 50K stars on the same day the Claude Code OpenClaw controversy dominates HN at 1066 pts. superpowers (obra/superpowers) sustains +1,632/day at 174.8K total, demonstrating durable compound growth beneath individual tool spikes. TradingAgents is the uncomfortable outlier: autonomous multi-agent LLM financial trading trending the same week AI tool trust is publicly contested. The infrastructure is ahead of the governance by at least two years.",
+      "url": "https://github.com/warpdotdev/warp",
+      "tags": [
+        "github-trending",
+        "claude-code",
+        "agents"
+      ],
+      "source": "GitHub +8,399/day"
+    }
+  ],
+  "trending": [
+    {
+      "name": "warp",
+      "fullName": "warpdotdev/warp",
+      "stars": "49.8K",
+      "language": "Rust",
+      "delta": "+8,399/d",
+      "url": "https://github.com/warpdotdev/warp"
+    },
+    {
+      "name": "skills",
+      "fullName": "mattpocock/skills",
+      "stars": "50.2K",
+      "language": "Shell",
+      "delta": "+6,187/d",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "name": "TradingAgents",
+      "fullName": "TauricResearch/TradingAgents",
+      "stars": "58.2K",
+      "language": "Python",
+      "delta": "+2,023/d",
+      "url": "https://github.com/TauricResearch/TradingAgents"
+    },
+    {
+      "name": "superpowers",
+      "fullName": "obra/superpowers",
+      "stars": "175K",
+      "language": "Shell",
+      "delta": "+1,632/d",
+      "url": "https://github.com/obra/superpowers"
+    },
+    {
+      "name": "maigret",
+      "fullName": "soxoj/maigret",
+      "stars": "20.9K",
+      "language": "Python",
+      "delta": "+841/d",
+      "url": "https://github.com/soxoj/maigret"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "1066",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "8,399",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "3",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "May 1, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Claude Code refuses requests or charges extra if your commits mention \"OpenClaw\"",
+        "metric": "1066 pts",
+        "source": "HN"
+      },
+      {
+        "text": "PyTorch Lightning was compromised in a supply chain attack on April 30",
+        "metric": "370 pts",
+        "source": "HN"
+      },
+      {
+        "text": "Rivian's support article \"Can I disable all data collection from my vehicle?\" reaches 580 HN pts",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Today's brief covers the most interesting signals across the tech landscape."
+    }
+  }
+}

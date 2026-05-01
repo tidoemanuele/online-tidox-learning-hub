@@ -1,0 +1,92 @@
+[
+  {
+    "name": "warp",
+    "fullName": "warpdotdev/warp",
+    "description": "Warp is an agentic development environment, born out of the terminal.",
+    "language": "Rust",
+    "stars_today": "8,399 stars today",
+    "total_stars": "49830",
+    "url": "https://github.com/warpdotdev/warp"
+  },
+  {
+    "name": "skills",
+    "fullName": "mattpocock/skills",
+    "description": "Skills for Real Engineers. Straight from my .claude directory.",
+    "language": "Shell",
+    "stars_today": "6,187 stars today",
+    "total_stars": "50163",
+    "url": "https://github.com/mattpocock/skills"
+  },
+  {
+    "name": "TradingAgents",
+    "fullName": "TauricResearch/TradingAgents",
+    "description": "Multi-Agents LLM Financial Trading Framework",
+    "language": "Python",
+    "stars_today": "2,023 stars today",
+    "total_stars": "58152",
+    "url": "https://github.com/TauricResearch/TradingAgents"
+  },
+  {
+    "name": "superpowers",
+    "fullName": "obra/superpowers",
+    "description": "An agentic skills framework & software development methodology that works.",
+    "language": "Shell",
+    "stars_today": "1,632 stars today",
+    "total_stars": "174814",
+    "url": "https://github.com/obra/superpowers"
+  },
+  {
+    "name": "maigret",
+    "fullName": "soxoj/maigret",
+    "description": "Collect a dossier on a person by username from 3000+ sites",
+    "language": "Python",
+    "stars_today": "841 stars today",
+    "total_stars": "20945",
+    "url": "https://github.com/soxoj/maigret"
+  },
+  {
+    "name": "jcode",
+    "fullName": "1jehuang/jcode",
+    "description": "Coding Agent Harness",
+    "language": "Rust",
+    "stars_today": "675 stars today",
+    "total_stars": "1970",
+    "url": "https://github.com/1jehuang/jcode"
+  },
+  {
+    "name": "ghostty",
+    "fullName": "ghostty-org/ghostty",
+    "description": "Fast, feature-rich, and cross-platform terminal emulator using platform-native UI and GPU acceleration.",
+    "language": "Zig",
+    "stars_today": "341 stars today",
+    "total_stars": "52987",
+    "url": "https://github.com/ghostty-org/ghostty"
+  },
+  {
+    "name": "public-apis",
+    "fullName": "public-apis/public-apis",
+    "description": "A collective list of free APIs",
+    "language": "Python",
+    "stars_today": "322 stars today",
+    "total_stars": "429697",
+    "url": "https://github.com/public-apis/public-apis"
+  },
+  {
+    "name": "craft-agents-oss",
+    "fullName": "lukilabs/craft-agents-oss",
+    "description": "Open source agent crafting framework",
+    "language": "TypeScript",
+    "stars_today": "319 stars today",
+    "total_stars": "5611",
+    "url": "https://github.com/lukilabs/craft-agents-oss"
+  },
+  {
+    "name": "quarkdown",
+    "fullName": "iamgio/quarkdown",
+    "description": "Markdown with superpowers: from ideas to papers, presentations, websites, books, and knowledge bases.",
+    "language": "Kotlin",
+    "stars_today": "177 stars today",
+    "total_stars": "13213",
+    "url": "https://github.com/iamgio/quarkdown"
+  }
+]

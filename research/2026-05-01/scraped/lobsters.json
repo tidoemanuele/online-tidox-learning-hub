@@ -1,0 +1,145 @@
+[
+  {
+    "title": "GCC 16 Release Series: Changes, New Features, and Fixes",
+    "score": 40,
+    "tags": [
+      "compilers",
+      "release"
+    ],
+    "url": "https://gcc.gnu.org/gcc-16/changes.html",
+    "comments_url": "https://lobste.rs/s/zbcg79/gcc_16_release_series_changes_new"
+  },
+  {
+    "title": "You can beat the binary search",
+    "score": 38,
+    "tags": [
+      "performance"
+    ],
+    "url": "https://lemire.me/blog/2026/04/27/you-can-beat-the-binary-search/",
+    "comments_url": "https://lobste.rs/s/lvr02w/you_can_beat_binary_search"
+  },
+  {
+    "title": "Mozilla's position on the Prompt API",
+    "score": 66,
+    "tags": [
+      "web"
+    ],
+    "url": "https://mastodon.social/@firefoxwebdevs/116492853483021978",
+    "comments_url": "https://lobste.rs/s/pcymmp/mozilla_s_position_on_prompt_api"
+  },
+  {
+    "title": "Contributor Poker and Zig's AI Ban",
+    "score": 184,
+    "tags": [
+      "vibecoding",
+      "zig"
+    ],
+    "url": "https://kristoff.it/blog/contributor-poker-and-ai/",
+    "comments_url": "https://lobste.rs/s/ifcyr1/contributor_poker_zig_s_ai_ban"
+  },
+  {
+    "title": "A text editor as a user interface",
+    "score": 67,
+    "tags": [
+      "editors"
+    ],
+    "url": "https://ratfactor.com/cards/text-editor-as-ui",
+    "comments_url": "https://lobste.rs/s/b9vrje/text_editor_as_user_interface"
+  },
+  {
+    "title": "The LLM Is Not a Junior Engineer",
+    "score": 21,
+    "tags": [
+      "vibecoding"
+    ],
+    "url": "https://jacobharr.is/personal/llm-not-junior-engineer",
+    "comments_url": "https://lobste.rs/s/rhsst0/llm_is_not_junior_engineer"
+  },
+  {
+    "title": "If I Could Make My Own GitHub",
+    "score": 11,
+    "tags": [
+      "programming"
+    ],
+    "url": "https://matduggan.com/if-i-could-make-my-own-github/",
+    "comments_url": "https://lobste.rs/s/2ttor3/if_i_could_make_my_own_github"
+  },
+  {
+    "title": "Functional Programmers need to take a look at Zig",
+    "score": 82,
+    "tags": [
+      "haskell",
+      "zig"
+    ],
+    "url": "https://pure-systems.org/posts/2026-04-29-functional-programmers-need-to-take-a-look-at-zig.html",
+    "comments_url": "https://lobste.rs/s/b57uhm/functional_programmers_need_take_look_at"
+  },
+  {
+    "title": "Android VPN IP Leak Even If Always-On VPN Enabled",
+    "score": 11,
+    "tags": [
+      "android",
+      "privacy"
+    ],
+    "url": "https://lowlevel.fun/posts/tiny-udp-cannon-android-vpn-bypass/",
+    "comments_url": "https://lobste.rs/s/31gbt3/android_vpn_ip_leak_even_if_always_on_vpn"
+  },
+  {
+    "title": "Techniques for better software testing",
+    "score": 14,
+    "tags": [
+      "testing"
+    ],
+    "url": "https://antithesis.com/docs/resources/testing_techniques/",
+    "comments_url": "https://lobste.rs/s/ygpiza/techniques_for_better_software_testing"
+  },
+  {
+    "title": "CSS Zen Garden: The Beauty of CSS Design",
+    "score": 21,
+    "tags": [
+      "css"
+    ],
+    "url": "https://csszengarden.com/",
+    "comments_url": "https://lobste.rs/s/t9rqj3/css_zen_garden_beauty_css_design"
+  },
+  {
+    "title": "Amber-Lang 0.6.0 - New release, check what's new",
+    "score": 14,
+    "tags": [
+      "linux",
+      "programming",
+      "unix"
+    ],
+    "url": "https://docs.amber-lang.com/getting_started/whats_new",
+    "comments_url": "https://lobste.rs/s/heoyfd/amber_lang_0_6_0_new_release_check_what_s_new"
+  },
+  {
+    "title": "Monad tutorials timeline",
+    "score": 13,
+    "tags": [
+      "haskell"
+    ],
+    "url": "https://wiki.haskell.org/Monad_tutorials_timeline",
+    "comments_url": "https://lobste.rs/s/efm106/monad_tutorials_timeline"
+  },
+  {
+    "title": "Copy Fail \u2014 732 Bytes to Root",
+    "score": 63,
+    "tags": [
+      "linux",
+      "security"
+    ],
+    "url": "https://copy.fail/",
+    "comments_url": "https://lobste.rs/s/eeifdc/copy_fail_732_bytes_root"
+  },
+  {
+    "title": "Porting microgpt to Futhark, Part I",
+    "score": 3,
+    "tags": [
+      "ai",
+      "plt"
+    ],
+    "url": "https://www.kmjn.org/notes/microgpt_futhark.html",
+    "comments_url": "https://lobste.rs/s/uch4e0/porting_microgpt_futhark_part_i"
+  }
+]

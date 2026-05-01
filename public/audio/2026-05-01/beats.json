@@ -1,0 +1,210 @@
+[
+  {
+    "type": "intro",
+    "highlight": "May 1st Intelligence Brief",
+    "subtext": "Today's top signals across the tech landscape",
+    "label": "DAILY BRIEF"
+  },
+  {
+    "type": "intro",
+    "highlight": "OpenClaw, Supply Chain, Surveillance",
+    "subtext": "Three stories with one thesis",
+    "label": "MAY 1, 2026"
+  },
+  {
+    "type": "number",
+    "highlight": "Claude Code penalizes OpenClaw commits",
+    "number": "1066",
+    "subtext": "HN points • 588 comments",
+    "label": "HN #1"
+  },
+  {
+    "type": "insight",
+    "highlight": "AI tool reading your git history for rivals",
+    "subtext": "The threat model for developer tools has changed",
+    "label": "CLAUDE CODE"
+  },
+  {
+    "type": "number",
+    "highlight": "Deep outrage pattern",
+    "number": "0.55",
+    "subtext": "comment-to-point ratio — interrogating the category",
+    "label": "RATIO"
+  },
+  {
+    "type": "quote",
+    "highlight": "What is this tool doing with everything it can see?",
+    "subtext": "New question every developer must ask",
+    "label": "SIGNAL"
+  },
+  {
+    "type": "number",
+    "highlight": "Rivian: can't disable vehicle data collection",
+    "number": "580",
+    "subtext": "HN points • 223 comments",
+    "label": "PRIVACY"
+  },
+  {
+    "type": "insight",
+    "highlight": "Phones 2012 → TVs 2018 → Cars 2026",
+    "subtext": "Physical functionality used as hostage for data",
+    "label": "PATTERN"
+  },
+  {
+    "type": "number",
+    "highlight": "Mark Klein, Room 641A, NSA 2004",
+    "number": "521",
+    "subtext": "HN points • community-curated surveillance trio",
+    "label": "SURVEILLANCE"
+  },
+  {
+    "type": "insight",
+    "highlight": "State, corporate, AI tool surveillance — same vector",
+    "subtext": "Optical splitters on fiber = modern data pipelines",
+    "label": "CONNECT"
+  },
+  {
+    "type": "action",
+    "highlight": "Supply chain: 18-minute detection window",
+    "subtext": "PyTorch Lightning compromised April 30th",
+    "label": "ACTION NOW"
+  },
+  {
+    "type": "number",
+    "highlight": "PyTorch Lightning supply chain attack",
+    "number": "370",
+    "subtext": "HN points • malicious versions 2.6.2 and 2.6.3",
+    "label": "SECURITY"
+  },
+  {
+    "type": "insight",
+    "highlight": "Activates on import — harvests all credentials",
+    "subtext": "SSH keys, cloud tokens, GitHub, crypto wallets",
+    "label": "LIGHTNING"
+  },
+  {
+    "type": "quote",
+    "highlight": "Third major AI training library hit in 2026",
+    "subtext": "LiteLLM, Xinference, now Lightning — Team PCP campaign",
+    "label": "CAMPAIGN"
+  },
+  {
+    "type": "action",
+    "highlight": "Monitor dependencies on 18-minute timescales",
+    "subtext": "Socket flagged the build 18 minutes after publication",
+    "label": "ACTION ITEM"
+  },
+  {
+    "type": "insight",
+    "highlight": "Most teams have an 18-minute gap — that's the exposure",
+    "label": "THE GAP"
+  },
+  {
+    "type": "number",
+    "highlight": "Opus 4.7 identifies writer from 125 words",
+    "number": "267",
+    "subtext": "HN points • unpublished text identified correctly",
+    "label": "PRIVACY"
+  },
+  {
+    "type": "insight",
+    "highlight": "Unpublished text — she had never posted it",
+    "subtext": "Pokémon essay report. Unreleased film review.",
+    "label": "OPUS 4.7"
+  },
+  {
+    "type": "insight",
+    "highlight": "Inference-time pattern matching, not training data",
+    "subtext": "ChatGPT and Gemini guessed wrong",
+    "label": "HOW"
+  },
+  {
+    "type": "quote",
+    "highlight": "Anonymity is gone for public writers",
+    "subtext": "Structural change — not a model bug",
+    "label": "CONCLUSION"
+  },
+  {
+    "type": "repo",
+    "highlight": "warpdotdev/warp",
+    "subtext": "+8,399 stars/day — 49.8K total",
+    "label": "GITHUB TRENDING #1"
+  },
+  {
+    "type": "number",
+    "highlight": "Agentic dev environment crosses 50K",
+    "number": "8399",
+    "subtext": "stars today — fastest-trending repo",
+    "label": "WARP"
+  },
+  {
+    "type": "insight",
+    "highlight": "Agentic tools surge same week trust is contested",
+    "subtext": "OpenClaw controversy + Warp trending: uncomfortable timing",
+    "label": "TENSION"
+  },
+  {
+    "type": "repo",
+    "highlight": "TauricResearch/TradingAgents",
+    "subtext": "+2,023 stars/day • multi-agent LLM financial trading",
+    "label": "GITHUB TRENDING"
+  },
+  {
+    "type": "insight",
+    "highlight": "Autonomous agents trading financial instruments — now",
+    "subtext": "Infrastructure ahead of governance by two years",
+    "label": "TRADING AGENTS"
+  },
+  {
+    "type": "number",
+    "highlight": "Zig AI ban — dual platform signal",
+    "number": "184",
+    "subtext": "Lobsters points • Zig anti-AI contribution policy",
+    "label": "ZIG"
+  },
+  {
+    "type": "insight",
+    "highlight": "Correctness-first community builds the AI runtime",
+    "subtext": "ghostty-org/ghostty written in Zig, trending today",
+    "label": "ZIG SIGNAL"
+  },
+  {
+    "type": "quote",
+    "highlight": "The ban and the adoption are the same thesis",
+    "subtext": "Quality governance earns infrastructure trust",
+    "label": "ZIG / GHOSTTY"
+  },
+  {
+    "type": "insight",
+    "highlight": "Tools read more about you than they admit",
+    "label": "TODAY'S THESIS"
+  },
+  {
+    "type": "insight",
+    "highlight": "Dependencies are 18-minute attack surfaces",
+    "label": "TODAY'S THESIS"
+  },
+  {
+    "type": "insight",
+    "highlight": "Anonymity is gone for anyone who writes publicly",
+    "label": "TODAY'S THESIS"
+  },
+  {
+    "type": "action",
+    "highlight": "Audit your toolchain. Monitor your dependencies.",
+    "subtext": "Build on Zig-grade correctness principles where it matters",
+    "label": "ACTION"
+  },
+  {
+    "type": "close",
+    "highlight": "Build something you can explain every line of",
+    "subtext": "That's the May 1st brief",
+    "label": "MAY 1, 2026"
+  },
+  {
+    "type": "close",
+    "highlight": "That's the brief.",
+    "subtext": "Tidox Learning Hub — Daily Intelligence Brief",
+    "label": "FIN"
+  }
+]
