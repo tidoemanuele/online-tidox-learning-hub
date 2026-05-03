@@ -1,0 +1,202 @@
+[
+  {
+    "type": "intro",
+    "label": "MAY 3, 2026",
+    "highlight": "INTELLIGENCE BRIEF",
+    "subtext": "Daily signals from the tech frontier"
+  },
+  {
+    "type": "intro",
+    "label": "TOP STORY",
+    "highlight": "VS Code rewrites your commit history",
+    "subtext": "1028 HN pts · 490 comments"
+  },
+  {
+    "type": "number",
+    "number": "1028",
+    "highlight": "Hacker News points",
+    "subtext": "VS Code Co-Authored-by Copilot controversy",
+    "label": "HN SIGNAL"
+  },
+  {
+    "type": "quote",
+    "highlight": "Rewriting your identity in the permanent record",
+    "subtext": "Attribution in git is identity"
+  },
+  {
+    "type": "insight",
+    "label": "DOWNSTREAM EFFECTS",
+    "highlight": "Employment, copyright, open-source history",
+    "subtext": "490 comments processing what this means"
+  },
+  {
+    "type": "action",
+    "label": "ACTION",
+    "highlight": "Audit your git log — right now",
+    "subtext": "Before this becomes a legal assumption"
+  },
+  {
+    "type": "number",
+    "number": "$900B",
+    "highlight": "Anthropic valuation",
+    "subtext": "$50B funding round in negotiation",
+    "label": "FUNDING"
+  },
+  {
+    "type": "insight",
+    "label": "COMPARISON",
+    "highlight": "Surpassing OpenAI's $852B round",
+    "subtext": "More than doubling from $380B in February"
+  },
+  {
+    "type": "number",
+    "number": "$30B",
+    "highlight": "Annualized revenue run rate",
+    "subtext": "Up from $9B at end of 2025 — in 4 months",
+    "label": "REVENUE"
+  },
+  {
+    "type": "insight",
+    "label": "MARKET STRUCTURE",
+    "highlight": "Winner-take-most dynamics forming",
+    "subtext": "The valuation is a claim about market structure"
+  },
+  {
+    "type": "number",
+    "number": "7",
+    "highlight": "Pentagon AI deals signed",
+    "subtext": "Nvidia, Microsoft, AWS, OpenAI, Google, SpaceX, Reflection",
+    "label": "DEFENSE"
+  },
+  {
+    "type": "insight",
+    "label": "NOTABLE ABSENCE",
+    "highlight": "Anthropic not on the Pentagon list",
+    "subtext": "Dispute over autonomous weapons and surveillance guardrails"
+  },
+  {
+    "type": "quote",
+    "highlight": "Can you be both?",
+    "subtext": "Enterprise platform vs safety-first vendor — pick your camp"
+  },
+  {
+    "type": "insight",
+    "label": "STRUCTURAL SPLIT",
+    "highlight": "Classified use cases vs safety guardrails",
+    "subtext": "Long-term capability implications not yet analyzed"
+  },
+  {
+    "type": "action",
+    "label": "BUILDER ACTION",
+    "highlight": "If you touch government AI — pick your camp now",
+    "subtext": "The camps are separating and the window is closing"
+  },
+  {
+    "type": "repo",
+    "label": "OPEN WEIGHTS",
+    "highlight": "Kimi K2.6",
+    "subtext": "80.2% on SWE-Bench Verified · #7 of 115 models"
+  },
+  {
+    "type": "number",
+    "number": "80.2%",
+    "highlight": "SWE-Bench Verified score",
+    "subtext": "Open-weights model from Moonshot AI, China",
+    "label": "BENCHMARK"
+  },
+  {
+    "type": "insight",
+    "label": "TRAJECTORY",
+    "highlight": "Each quarter, open-weights closes one generation",
+    "subtext": "8 months behind → closing fast in coding"
+  },
+  {
+    "type": "insight",
+    "label": "COMPETITIVE TIMELINE",
+    "highlight": "Open-weights coding parity: months, not years",
+    "subtext": "Plan your AI cost structure now"
+  },
+  {
+    "type": "insight",
+    "label": "NHS ALERT",
+    "highlight": "NHS closing open-source repos over AI threats",
+    "subtext": "Mythos AI tool finds vulnerabilities faster than patches ship"
+  },
+  {
+    "type": "quote",
+    "highlight": "Removing source doesn't remove vulnerabilities",
+    "subtext": "Neither NCSC nor AI Safety Institute recommended this"
+  },
+  {
+    "type": "insight",
+    "label": "PATTERN WATCH",
+    "highlight": "AI tools as excuse to go closed-source",
+    "subtext": "Hospitals, utilities, government systems next in 2026"
+  },
+  {
+    "type": "repo",
+    "label": "GITHUB TRENDING #1",
+    "highlight": "TauricResearch/TradingAgents",
+    "subtext": "+2,225 stars today · Autonomous LLM financial trading"
+  },
+  {
+    "type": "number",
+    "number": "+2,225",
+    "highlight": "Stars per day",
+    "subtext": "Autonomous financial trading with multi-agent LLMs",
+    "label": "TRENDING"
+  },
+  {
+    "type": "quote",
+    "highlight": "Developers are accelerating agent adoption",
+    "subtext": "Not slowing down — despite trust controversies"
+  },
+  {
+    "type": "insight",
+    "label": "TODAY'S THESIS",
+    "highlight": "Infrastructure is ahead of governance",
+    "subtext": "Commit attribution, trading agents, classified AI — same story"
+  },
+  {
+    "type": "insight",
+    "label": "POWER QUESTION",
+    "highlight": "Who controls the intelligence layer?",
+    "subtext": "The rules aren't written yet — that's the opportunity"
+  },
+  {
+    "type": "action",
+    "label": "THE WINDOW",
+    "highlight": "Shape the rules now — not next year",
+    "subtext": "The window to define your tools and architecture is open"
+  },
+  {
+    "type": "insight",
+    "label": "SAME STORY",
+    "highlight": "Who controls the intelligence layer?",
+    "subtext": "VS Code, trading agents, classified AI — converging"
+  },
+  {
+    "type": "action",
+    "label": "THE WINDOW",
+    "highlight": "Rules are unwritten — build now",
+    "subtext": "Tools, commits, architecture: your decisions shape the defaults"
+  },
+  {
+    "type": "close",
+    "label": "CLOSING",
+    "highlight": "Build the infrastructure others depend on",
+    "subtext": "That's the only thing worth building toward"
+  },
+  {
+    "type": "close",
+    "label": "SIGN-OFF",
+    "highlight": "Go build something that matters",
+    "subtext": "May 3rd, 2026"
+  },
+  {
+    "type": "close",
+    "label": "MAY 3, 2026",
+    "highlight": "INTELLIGENCE BRIEF",
+    "subtext": "tidox.com · Daily signals from the tech frontier"
+  }
+]

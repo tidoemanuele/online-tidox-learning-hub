@@ -1,0 +1,74 @@
+[
+  {
+    "name": "TradingAgents",
+    "fullName": "TauricResearch/TradingAgents",
+    "description": "Multi-Agents LLM Financial Trading Framework",
+    "language": "Python",
+    "stars_today": "2,225 stars today",
+    "total_stars": "63378",
+    "url": "https://github.com/TauricResearch/TradingAgents"
+  },
+  {
+    "name": "ruflo",
+    "fullName": "ruvnet/ruflo",
+    "description": "Agent orchestration platform for Claude with multi-agent swarms and autonomous workflows",
+    "language": "TypeScript",
+    "stars_today": "1,299 stars today",
+    "total_stars": "37103",
+    "url": "https://github.com/ruvnet/ruflo"
+  },
+  {
+    "name": "maigret",
+    "fullName": "soxoj/maigret",
+    "description": "Collect information on a person by username from 3000+ sites",
+    "language": "Python",
+    "stars_today": "1,064 stars today",
+    "total_stars": "23008",
+    "url": "https://github.com/soxoj/maigret"
+  },
+  {
+    "name": "coding-interview-university",
+    "fullName": "jwasham/coding-interview-university",
+    "description": "Complete computer science study plan to become a software engineer",
+    "language": "Markdown",
+    "stars_today": "694 stars today",
+    "total_stars": "344678",
+    "url": "https://github.com/jwasham/coding-interview-university"
+  },
+  {
+    "name": "jcode",
+    "fullName": "1jehuang/jcode",
+    "description": "Coding Agent Harness",
+    "language": "Rust",
+    "stars_today": "482 stars today",
+    "total_stars": "2977",
+    "url": "https://github.com/1jehuang/jcode"
+  },
+  {
+    "name": "skills",
+    "fullName": "browserbase/skills",
+    "description": "Claude Agent SDK with a web browsing tool",
+    "language": "JavaScript",
+    "stars_today": "346 stars today",
+    "total_stars": "1581",
+    "url": "https://github.com/browserbase/skills"
+  },
+  {
+    "name": "ShareX",
+    "fullName": "ShareX/ShareX",
+    "description": "Free and open-source screen capture and file sharing application",
+    "language": "C#",
+    "stars_today": "152 stars today",
+    "total_stars": "36912",
+    "url": "https://github.com/ShareX/ShareX"
+  },
+  {
+    "name": "zapret-discord-youtube",
+    "fullName": "Flowseal/zapret-discord-youtube",
+    "description": "Network utility tool",
+    "language": "Batchfile",
+    "stars_today": "181 stars today",
+    "total_stars": "27141",
+    "url": "https://github.com/Flowseal/zapret-discord-youtube"
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "title": "What fun websites do you know?",
+    "score": 52,
+    "tags": [
+      "ask",
+      "web"
+    ],
+    "url": "",
+    "comments_url": "https://lobste.rs/s/ncngka/what_fun_websites_do_you_know"
+  },
+  {
+    "title": "PEP 661 \u2013 Sentinel Values, accepted 5 years later",
+    "score": 30,
+    "tags": [
+      "python"
+    ],
+    "url": "https://peps.python.org/pep-0661/",
+    "comments_url": "https://lobste.rs/s/mi9xrw/pep_661_sentinel_values_accepted_5_years"
+  },
+  {
+    "title": "NHS Goes To War Against Open Source",
+    "score": 57,
+    "tags": [
+      "ai",
+      "security"
+    ],
+    "url": "https://shkspr.mobi/blog/2026/05/nhs-goes-to-war-against-open-source/",
+    "comments_url": "https://lobste.rs/s/qp0vi5/nhs_goes_war_against_open_source"
+  },
+  {
+    "title": "NetHack 5.0.0",
+    "score": 17,
+    "tags": [
+      "games",
+      "release"
+    ],
+    "url": "https://nethack.org/v500/release.html",
+    "comments_url": "https://lobste.rs/s/jhuf5a/nethack_5_0_0"
+  },
+  {
+    "title": "Unsigned sizes: a five year mistake",
+    "score": 14,
+    "tags": [
+      "c",
+      "plt"
+    ],
+    "url": "https://c3-lang.org/blog/unsigned-sizes-a-five-year-mistake/",
+    "comments_url": "https://lobste.rs/s/bzltqt/unsigned_sizes_five_year_mistake"
+  },
+  {
+    "title": "Open Source Does Not Imply Open Community",
+    "score": 13,
+    "tags": [
+      "programming"
+    ],
+    "url": "https://blog.feld.me/posts/2026/04/open-source-does-not-imply-open-community/",
+    "comments_url": "https://lobste.rs/s/rp1lti/open_source_does_not_imply_open_community"
+  },
+  {
+    "title": "I Do Not Recommend Bitwarden",
+    "score": 58,
+    "tags": [
+      "security"
+    ],
+    "url": "https://\u30de\u30ea\u30a6\u30b9.com/i-do-not-recommend-bitwarden/",
+    "comments_url": "https://lobste.rs/s/miwd1w/i_do_not_recommend_bitwarden"
+  },
+  {
+    "title": "Screw you Realtek",
+    "score": 37,
+    "tags": [
+      "linux",
+      "networking",
+      "vibecoding"
+    ],
+    "url": "https://www.growse.com/2026/05/02/screw-you-realtek.html",
+    "comments_url": "https://lobste.rs/s/aunywc/screw_you_realtek"
+  },
+  {
+    "title": "Why TUIs are back",
+    "score": 20,
+    "tags": [
+      "design"
+    ],
+    "url": "https://wiki.alcidesfonseca.com/blog/why-tuis-are-back/",
+    "comments_url": "https://lobste.rs/s/quulrs/why_tuis_are_back"
+  },
+  {
+    "title": "Agentic Coding is Burning Me Out",
+    "score": 13,
+    "tags": [
+      "programming",
+      "vibecoding"
+    ],
+    "url": "https://0xsid.com/blog/agentic-coding-fatigue",
+    "comments_url": "https://lobste.rs/s/k3delj/agentic_coding_is_burning_me_out"
+  },
+  {
+    "title": "A GitHub for maintainers",
+    "score": 10,
+    "tags": [
+      "vcs"
+    ],
+    "url": "https://nesbitt.io/2026/05/02/a-github-for-maintainers.html",
+    "comments_url": "https://lobste.rs/s/bwppor/github_for_maintainers"
+  },
+  {
+    "title": "This Month in Ladybird - April 2026",
+    "score": 8,
+    "tags": [
+      "browsers"
+    ],
+    "url": "https://ladybird.org/newsletter/2026-04-30/",
+    "comments_url": "https://lobste.rs/s/ba3cac/this_month_ladybird_april_2026"
+  },
+  {
+    "title": "Inverse Sapir-Whorf and programming languages",
+    "score": 54,
+    "tags": [
+      "programming"
+    ],
+    "url": "https://lukeplant.me.uk/blog/posts/inverse-sapir-whorf-and-programming-languages/",
+    "comments_url": "https://lobste.rs/s/hb9tdr/inverse_sapir_whorf_programming"
+  },
+  {
+    "title": "NetHack 5.0.0 Released",
+    "score": 3,
+    "tags": [
+      "games",
+      "release"
+    ],
+    "url": "https://github.com/NetHack/NetHack/releases/tag/NetHack-5.0.0_Released",
+    "comments_url": "https://lobste.rs/s/jmxtiq/nethack_5_0_0_released"
+  },
+  {
+    "title": "Debian adds an SPF record to debian.org",
+    "score": 11,
+    "tags": [
+      "email",
+      "linux"
+    ],
+    "url": "https://lists.debian.org/debian-devel-announce/2026/04/msg00010.html",
+    "comments_url": "https://lobste.rs/s/s1yqiu/debian_adds_spf_record_debian_org"
+  }
+]

@@ -1,0 +1,164 @@
+{
+  "date": "2026-05-03",
+  "episodeNumber": 36,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "VS Code inserts 'Co-Authored-by: GitHub Copilot' i, Anthropic is negotiating a $50B funding round at a, The Pentagon signed AI agreements with seven compa",
+  "heroStat": {
+    "value": "$50B",
+    "label": "Anthropic funding round"
+  },
+  "insights": [
+    {
+      "text": "VS Code inserts 'Co-Authored-by: GitHub Copilot' into commits regardless of whether Copilot was used — 1028 HN pts (490 comments, 0.48:1 comment-to-point ratio) — the top story of the day is not a model release or a benchmark: it is Microsoft's developer tool silently attributing AI authorship to code the developer wrote entirely themselves. The pull request shows the behavior is toggled by a telemetry setting, not an AI usage flag. The 490 comments are not a debate about Copilot's quality: they are developers processing the discovery that their commit history is being silently edited by their editor. Attribution in git is identity. When an IDE modifies commit attribution without explicit consent, it does not just misrepresent authorship — it alters the permanent record of who built what. The downstream effects reach employment verification, open-source contribution histories, and copyright claims. This is the most structurally significant developer tool story of 2026. Source: https://github.com/microsoft/vscode/pull/310226",
+      "url": "https://github.com/microsoft/vscode/pull/310226",
+      "tags": [
+        "github-trending",
+        "research",
+        "open-source"
+      ],
+      "source": "HN 1028pts"
+    },
+    {
+      "text": "Anthropic is negotiating a $50B funding round at a $900B+ valuation — more than doubling from its $380B valuation in February 2026, and surpassing OpenAI's $852B post-money round from earlier this year (TechCrunch, Bloomberg, CNBC) — the revenue trajectory makes the number defensible: run-rate crossed $30B in April, up from $9B at end of 2025. More than 1,000 enterprise customers now spend over $1M annually on an annualized basis, doubling in roughly two months. The structural signal is the acceleration rate: $9B → $30B in four months is not linear growth, it is category dominance compounding. At $900B Anthropic would be the most valuable private company in history, above Saudi Aramco's IPO price. The valuation is not a prediction of future revenue — it is a claim that the AI platform market will be winner-take-most, and Anthropic intends to be that winner. Source: https://techcrunch.com/2026/04/30/anthropic-potential-900b-valuation-round-could-happen-within-two-weeks/",
+      "url": "https://techcrunch.com/2026/04/30/anthropic-potential-900b-valuation-round-could-happen-within-two-weeks/",
+      "tags": []
+    },
+    {
+      "text": "The Pentagon signed AI agreements with seven companies — Nvidia, Microsoft, AWS, OpenAI, Google, SpaceX, and Reflection — to deploy AI on Impact Level 6 and 7 classified networks. Anthropic was conspicuously absent after a documented dispute over guardrails against autonomous weapons and domestic surveillance. The DoD's simultaneous vendor diversification and Anthropic's absence is not a coincidence — it is a structural split in the AI industry between capability-first and safety-first vendors. The companies that signed unrestricted DoD deals will have access to classified use cases, feedback loops, and infrastructure that Anthropic will not. The long-term capability implications of that asymmetry have not been publicly analyzed. Source: https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/",
+      "url": "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/",
+      "tags": []
+    },
+    {
+      "text": "Kimi K2.6, an open-weights model from China's Moonshot AI, scores 80.2% on SWE-Bench Verified and 58.6% on SWE-Bench Pro — ranking #7 out of 115 models in coding benchmarks (153 HN pts) — the model achieves 50%+ improvement over K2.5 on the Next.js benchmark and an Elo of 1520 on GDPval-AA (vs 1309 for K2.5). NIST's CAISI evaluation this week found DeepSeek V4 Pro trails frontier by ~8 months. Kimi K2.6 erases that gap in coding specifically. The pattern is consistent: each quarter, an open-weights Chinese model closes the capability delta to the Western frontier by roughly one generation. The open-weights competitive timeline for coding AI is now measured in months, not years. Source: https://www.kimi.com/blog/kimi-k2-6",
+      "url": "https://www.kimi.com/blog/kimi-k2-6",
+      "tags": [
+        "research"
+      ],
+      "source": "HN 153pts"
+    },
+    {
+      "text": "Ladybird browser April 2026 newsletter tops HN at 247 pts (41 comments) — 63,726 new WPT subtests passed this month, including 52,045 of 53,207 JavaScript conformance tests (97.8%). The build system consolidated to CMake-only (GN eliminated, Rust now mandatory), PDFs render inline via bundled pdf.js, and BroadcastChannel routes cross-process via IPC. 333 PRs merged from 35 contributors, 7 first-timers. The architectural signal is not the feature count — it is the infrastructure consolidation. Ladybird is compressing its dependency graph at the same rate it is expanding its capabilities. A browser engine built without legacy browser codebase debt is now passing 97.8% of the JavaScript conformance suite. The delta to Chromium is still large, but it is measurably shrinking every month. Source: https://ladybird.org/newsletter/2026-04-30/",
+      "url": "https://ladybird.org/newsletter/2026-04-30/",
+      "tags": [
+        "supply-chain",
+        "rust"
+      ]
+    },
+    {
+      "text": "NHS guidance SDLC-8 directs NHS digital teams to stop making code public and remove most open-source repositories — citing Mythos, an AI tool reportedly able to find vulnerabilities in open codebases faster than they can be patched. Neither the AI Safety Institute nor the NCSC recommended this action (57 Lobsters pts) — the NHS reasoning is inverted: removing source code does not remove vulnerabilities, it removes the community's ability to find and patch them. The real question is why NHS software has exploitable vulnerabilities at all. Closed-source security by obscurity failed in every previous technology cycle. The Mythos threat is real; the response is counterproductive. The broader pattern — institutions using AI vulnerability tools as the justification for closing their codebases — will accelerate in 2026. Source: https://shkspr.mobi/blog/2026/05/nhs-goes-to-war-against-open-source/",
+      "url": "https://shkspr.mobi/blog/2026/05/nhs-goes-to-war-against-open-source/",
+      "tags": [
+        "security",
+        "open-source"
+      ]
+    },
+    {
+      "text": "Meta acquired Assured Robot Intelligence (ARI), whose co-founders Lerrel Pinto and Xiaolong Wang will join Meta Superintelligence Labs — ARI was building foundation models for humanoid robots to perform physical labor in dynamic environments. This is Meta's second robotics acquisition in 2026 and positions Superintelligence Labs as a platform for embodied AI, not just language models. Meta's stated strategy is to be the Android of robotics: open foundation infrastructure that the broader industry builds on, rather than a proprietary end-to-end robot. The acquisition follows a week in which the DoD signed AI deals with seven vendors and Anthropic's $900B round leaked. Meta is building toward a world where the intelligence layer — in software, in physical space — runs on Meta infrastructure. Source: https://techcrunch.com/2026/05/01/meta-buys-robotics-startup-to-bolster-its-humanoid-ai-ambitions/",
+      "url": "https://techcrunch.com/2026/05/01/meta-buys-robotics-startup-to-bolster-its-humanoid-ai-ambitions/",
+      "tags": [
+        "meta"
+      ]
+    },
+    {
+      "text": "TradingAgents (TauricResearch/TradingAgents) is GitHub's fastest-trending repo today at +2,225 stars/day (63K total) — a multi-agent LLM financial trading framework in Python. ruflo (ruvnet/ruflo) follows at +1,299/day: agent orchestration for Claude with swarms and autonomous workflows (37K total). The pattern two days after the Claude Code–OpenClaw controversy: developers are not slowing agent adoption — they are accelerating it. TradingAgents is the highest-stakes autonomous agent application in the trending dataset: real money, real markets, minimal human oversight. The 'infrastructure ahead of governance' thesis from May 1 is confirmed on May 3. When autonomous financial agents trend alongside autonomous coding agents, the regulatory surface area expands beyond what any single jurisdiction can cover on a months-level timeline. Source: https://github.com/TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "tags": [
+        "github-trending",
+        "claude-code",
+        "agents"
+      ],
+      "source": "GitHub +2,225/day"
+    }
+  ],
+  "trending": [
+    {
+      "name": "TradingAgents",
+      "fullName": "TauricResearch/TradingAgents",
+      "stars": "63.4K",
+      "language": "Python",
+      "delta": "+2,225/d",
+      "url": "https://github.com/TauricResearch/TradingAgents"
+    },
+    {
+      "name": "ruflo",
+      "fullName": "ruvnet/ruflo",
+      "stars": "37.1K",
+      "language": "TypeScript",
+      "delta": "+1,299/d",
+      "url": "https://github.com/ruvnet/ruflo"
+    },
+    {
+      "name": "maigret",
+      "fullName": "soxoj/maigret",
+      "stars": "23.0K",
+      "language": "Python",
+      "delta": "+1,064/d",
+      "url": "https://github.com/soxoj/maigret"
+    },
+    {
+      "name": "coding-interview-university",
+      "fullName": "jwasham/coding-interview-university",
+      "stars": "345K",
+      "language": "Markdown",
+      "delta": "+694/d",
+      "url": "https://github.com/jwasham/coding-interview-university"
+    },
+    {
+      "name": "jcode",
+      "fullName": "1jehuang/jcode",
+      "stars": "3.0K",
+      "language": "Rust",
+      "delta": "+482/d",
+      "url": "https://github.com/1jehuang/jcode"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "1028",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "2,225",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "3",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "May 3, 2026"
+    },
+    "headlines": [
+      {
+        "text": "VS Code inserts 'Co-Authored-by: GitHub Copilot' into commits regardless of whether Copilot was used",
+        "metric": "1028 pts",
+        "source": "HN"
+      },
+      {
+        "text": "Anthropic eyes $900B+ valuation in $50B funding round",
+        "metric": "$50B",
+        "source": "TechCrunch"
+      },
+      {
+        "text": "Pentagon signs classified AI deals with 7 firms — Anthropic excluded",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "The developer identity crisis deepens: VS Code silently rewrites commit attribution while Anthropic's $900B valuation race and Pentagon AI deals reshape who controls the intelligence layer. The infrastructure is ahead of the governance, and today's signals tell us by how much."
+    }
+  }
+}
