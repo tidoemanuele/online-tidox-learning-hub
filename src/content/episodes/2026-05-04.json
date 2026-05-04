@@ -1,0 +1,177 @@
+{
+  "date": "2026-05-04",
+  "episodeNumber": 37,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "DeepClaude, OpenAI's o1 correctly diagnosed 67% of ER patients, BYOMesh",
+  "heroStat": {
+    "value": "364",
+    "label": "points on \"OpenAI's o1 correctly diagnosed 67% of ER patients vs. 50-55\""
+  },
+  "insights": [
+    {
+      "text": "DeepClaude — Claude Code agent loop with DeepSeek V4 Pro, 17x cheaper — hits 362 HN pts (137 comments, 0.38:1 comment-to-point ratio) and lands at #4 on the front page. The 0.38:1 ratio is the 'broad endorsement' pattern: more people agreeing than arguing. The project swaps Claude Code's brain (Anthropic's API at $15/M output tokens) for DeepSeek V4 Pro ($0.87/M) while keeping the entire tool loop — file editing, bash, git — unchanged. DeepSeek V4 Pro scores 96.4% on LiveCodeBench and is statistically tied with Claude Opus 4.7 on SWE-bench Verified. The structural signal is not cost savings: it is that Claude Code's most defensible moat turns out to be its UX and tool loop, not the underlying model. When a community project can trivially swap the intelligence layer and retain full functionality at 17x lower cost, the premium-model pricing strategy for coding agents faces an architectural challenge — not a competitive one. Source: https://github.com/aattaran/deepclaude",
+      "tags": [
+        "github-trending",
+        "claude-code",
+        "agents"
+      ],
+      "source": "HN 362pts",
+      "url": "https://github.com/aattaran/deepclaude"
+    },
+    {
+      "text": "OpenAI's o1 correctly diagnosed 67% of ER patients versus 50–55% by triage doctors in a Harvard randomized trial — 364 HN pts (297 comments, 0.82:1 comment-to-point ratio). The 0.82:1 ratio is the highest-controversy pattern in today's dataset: the community is not celebrating, it is interrogating. The clinical trial placed o1 against emergency room triage nurses and found a 12–17 percentage point gap in diagnostic accuracy. The comments divide into three camps: practitioners questioning the trial design, engineers noting that ER triage is a specific and constrained task where LLM pattern matching has structural advantages, and ethicists asking who is liable when the AI is right and the doctor is wrong. The liability question is the one that will determine deployment timelines — not the accuracy numbers. A 67% accuracy rate at ER scale represents millions of additional correct diagnoses per year globally. The regulatory surface area for medical AI decision support has permanently shifted. Source: https://www.theguardian.com/technology/2026/apr/30/ai-outperforms-doctors-in-harvard-trial-of-emergency-triage-diagnoses",
+      "tags": [
+        "research",
+        "agents"
+      ],
+      "source": "HN 364pts",
+      "url": "https://www.theguardian.com/technology/2026/apr/30/ai-outperforms-doctors-in-harvard-trial-of-emergency-triage-diagnoses"
+    },
+    {
+      "text": "BYOMesh — a new multiband LoRa mesh radio board claiming 100x the bandwidth of Meshtastic — reaches 337 HN pts (107 comments, 0.32:1 ratio), the day's broadest endorsement signal. The board runs an ESP32-S3 with both SX1276 (137–1020 MHz) and SX1281 (2.4 GHz) LoRa chipsets in the smallest possible footprint, designed for MeshTNC and rfparty. The HN comments surface the central tension: some of the bandwidth gains come from operating outside licensed spectrum allocations. The community does not dispute the performance claims — it disputes the legal portability of them. The broader significance is not the hardware: it is the appetite. Every major off-grid communication thread in 2026 — Meshtastic, MeshCore, BYOMesh — trends in the hundreds of points. As infrastructure centralization accelerates, the practitioner class is building and stockpiling decentralized communication alternatives at a rate that outpaces any previous era. Source: https://shop.dataparty.xyz/products/byomesh",
+      "tags": [
+        "open-source",
+        "security"
+      ],
+      "source": "HN 337pts",
+      "url": "https://shop.dataparty.xyz/products/byomesh"
+    },
+    {
+      "text": "mattpocock/skills is today's fastest-trending GitHub repo at +1,696 stars/day (56.5K total) — a collection of Claude Code skills for real software engineering workflows, not vibe coding. The repo's framing is its product: 'Straight from my .claude directory.' Matt Pocock, known for his TypeScript education content, has published the operational skill library he uses daily and the community has validated it with 56.5K stars. This is the same dynamic as the May 1 peak (mattpocock/skills at +6,187/day) sustaining into week two: practitioner-authored Claude Code skills are the fastest-growing content category in developer tools. The pattern is structurally significant. Skills repositories are emerging as the new configuration layer between AI agent capability and individual workflow — not prompts, not fine-tunes, but composable skill primitives that encode decades of engineering judgment into machine-executable form. Source: https://github.com/mattpocock/skills",
+      "tags": [
+        "github-trending",
+        "claude-code",
+        "agents"
+      ],
+      "source": "GitHub +1,696/day",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "text": "nexu-io/open-design crosses 20,300 GitHub stars (+859/day) eleven days after launch — an open-source, local-first alternative to Anthropic's Claude Design that runs on Claude Code, Codex, Cursor, Gemini, OpenCode, Qwen, Copilot, and Kimi CLI simultaneously. Claude Design shipped April 17 with Opus 4.7; open-design published April 28. The eleven-day gap between a proprietary capability release and a fully open equivalent with 19 skills and 71 brand-grade design systems has compressed to the point where it is no longer a meaningful moat. The project explicitly frames itself as BYOK (bring your own key) with no telemetry and Apache-2.0 / MIT licensing. The 20K star trajectory confirms that the practitioner market prefers local-first, model-agnostic tooling when the capability gap is small. Anthropic's competitive advantage in the design tool market is not the feature set — it is the integrated distribution. Source: https://github.com/nexu-io/open-design",
+      "tags": [
+        "github-trending",
+        "claude-code",
+        "open-source"
+      ],
+      "source": "GitHub +859/day",
+      "url": "https://github.com/nexu-io/open-design"
+    },
+    {
+      "text": "Denuvo has been bypassed in every single-player game it previously protected — 292 HN pts (176 comments, 0.60:1 ratio) — with 2K Games and Denuvo reportedly retaliating by mandating 14-day online authentication checks for new releases. The comment pattern is the 'informed agreement with procedural disagreement': the community accepts the technical fact but debates the response. The structural signal is the end of a twenty-year DRM regime. Denuvo was the last commercially viable game anti-tamper system at scale. Its total defeat consolidates a thesis that has been incrementally confirmed since 2017: software copy protection at the executable layer is a delay mechanism, not a prevention mechanism. The 14-day online check retaliation is the industry's acknowledgment that technical protection is over and behavioral enforcement — requiring persistent connectivity — is the only remaining option. Source: https://www.tomshardware.com/video-games/pc-gaming/denuvo-has-been-bypassed-in-all-single-player-games-it-previously-protected-2k-games-and-denuvo-reportedly-retaliate-with-mandatory-14-day-online-checks",
+      "tags": [
+        "security"
+      ],
+      "source": "HN 292pts",
+      "url": "https://www.tomshardware.com/video-games/pc-gaming/denuvo-has-been-bypassed-in-all-single-player-games-it-previously-protected-2k-games-and-denuvo-reportedly-retaliate-with-mandatory-14-day-online-checks"
+    },
+    {
+      "text": "A desktop made for one reaches 297 HN pts (134 comments, 0.45:1 ratio) — a personal computing philosophy essay arguing that modern computing defaults to networked, multi-user, surveilled environments and that building a private, intentionally configured desktop environment is a form of resistance. The 0.45:1 ratio is the 'thoughtful agreement' pattern. The essay lands the same week as DeepClaude (17x cheaper AI, run anywhere), BYOMesh (decentralized comms), and nexu-io/open-design (local-first, BYOK). The thematic cluster is not coincidental: five independent top stories on a single day all express the same underlying desire — personal computation that does not route through or depend on a cloud provider's policy decisions. The practitioner class is not becoming less technical; it is becoming more deliberate about which systems it trusts with which workloads. Source: https://isene.org/2026/05/Audience-of-One.html",
+      "tags": [
+        "open-source"
+      ],
+      "source": "HN 297pts",
+      "url": "https://isene.org/2026/05/Audience-of-One.html"
+    },
+    {
+      "text": "ruflo (ruvnet/ruflo) sustains +1,362 stars/day (31.1K total) — Claude agent orchestration with swarms, autonomous workflows, and 314 native MCP tools in v3.6 — alongside TradingAgents (TauricResearch/TradingAgents) at 61K total stars trending again for the third consecutive day this week. The compound signal: the two fastest-growing agentic infrastructure projects in the GitHub trending dataset are both Claude-native orchestration layers (ruflo) and autonomous financial trading frameworks (TradingAgents). The infrastructure for autonomous agent swarms managing real codebases and real capital markets is now trending simultaneously. Ruflo v3.6's 314 MCP tools represent a 260% expansion from v3.5's 87 tools in a single release cycle. The governance gap identified on May 1 and confirmed on May 3 deepens on May 4: the tooling surface area for autonomous agents is expanding faster than any regulatory or oversight framework can adapt. Source: https://github.com/ruvnet/ruflo",
+      "tags": [
+        "github-trending",
+        "agents",
+        "claude-code"
+      ],
+      "source": "GitHub +1,362/day",
+      "url": "https://github.com/ruvnet/ruflo"
+    }
+  ],
+  "trending": [
+    {
+      "name": "skills",
+      "fullName": "mattpocock/skills",
+      "stars": "56.5K",
+      "language": "TypeScript",
+      "delta": "+1,696/d",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "name": "ruflo",
+      "fullName": "ruvnet/ruflo",
+      "stars": "31.1K",
+      "language": "TypeScript",
+      "delta": "+1,362/d",
+      "url": "https://github.com/ruvnet/ruflo"
+    },
+    {
+      "name": "TradingAgents",
+      "fullName": "TauricResearch/TradingAgents",
+      "stars": "61.0K",
+      "language": "Python",
+      "delta": "+1,339/d",
+      "url": "https://github.com/TauricResearch/TradingAgents"
+    },
+    {
+      "name": "open-design",
+      "fullName": "nexu-io/open-design",
+      "stars": "20.3K",
+      "language": "TypeScript",
+      "delta": "+859/d",
+      "url": "https://github.com/nexu-io/open-design"
+    },
+    {
+      "name": "deepclaude",
+      "fullName": "aattaran/deepclaude",
+      "stars": "4.8K",
+      "language": "Python",
+      "delta": "+682/d",
+      "url": "https://github.com/aattaran/deepclaude"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "364",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "1,696",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "3",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "May 4, 2026"
+    },
+    "headlines": [
+      {
+        "text": "DeepClaude runs Claude Code's agent loop on DeepSeek V4 Pro",
+        "metric": "362 pts",
+        "source": "HN"
+      },
+      {
+        "text": "OpenAI o1 diagnosed 67% of ER patients vs. 50–55% by triage doctors",
+        "metric": "364 pts",
+        "source": "HN"
+      },
+      {
+        "text": "BYOMesh: new LoRa mesh radio claims 100x the bandwidth",
+        "metric": "337 pts",
+        "source": "HN"
+      }
+    ],
+    "takeaway": {
+      "text": "Today's brief covers the most interesting signals across the tech landscape."
+    }
+  }
+}
