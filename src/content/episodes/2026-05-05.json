@@ -3,69 +3,53 @@
   "episodeNumber": 39,
   "locale": "en-US",
   "title": "Intelligence Brief",
-  "subtitle": "Microsoft launches Agent 365 as a standalone gover, GitHub Copilot formally moves to usage-based billi, Cursor ships Bugbot at 80% resolution rate with se",
+  "subtitle": "Bun is being ported from Zig to Rust, How OpenAI delivers low-latency voice AI at scale, Does Employment Slow Cognitive Decline? Evidence f",
   "heroStat": {
-    "value": "$20",
-    "label": "pro"
+    "value": "373",
+    "label": "points on \"Bun is being ported from Zig to Rust\""
   },
   "insights": [
     {
-      "text": "Microsoft launches Agent 365 as a standalone governance control plane for enterprise AI agents, bundled in the new $99/user/month E7 'Frontier Suite' (E5 + Copilot + Agent 365 + Entra). The first vendor to sell agent governance as a product category, not a feature. On the same day Cursor ships self-improving Bugbot at 80% resolution and Claude Code ships platform hooks, Microsoft's bet is that enterprises will pay a 65% premium over E5 not for the agent itself but for the controls around it. If Agent 365 gains traction, 'ungoverned agents' becomes a compliance risk category by Q4 2026.",
+      "text": "Bun is being ported from Zig to Rust (373 pts, 289 comments)",
       "tags": [
-        "claude-code",
-        "agents"
-      ]
-    },
-    {
-      "text": "GitHub Copilot formally moves to usage-based billing effective June 1, 2026 — completing the 45-day repricing cascade that killed flat-rate AI coding subscriptions. The sequence: Anthropic pulled Claude Code from $20 Pro (April 21), GitHub paused Pro sign-ups (April 22), and now metered billing becomes the default. Every major vendor independently concluded the same thing within six weeks. For solo developers, the AI coding budget has permanently moved from fixed cost to variable cost — the same shift SaaS went through from perpetual licenses to subscriptions, now applied one layer up.",
-      "tags": [
-        "github-trending",
-        "claude-code"
-      ]
-    },
-    {
-      "text": "Cursor ships Bugbot at 80% resolution rate with self-improvement and MCP support — 15 points above competitors, up from 78% on April 26. Bugbot now improves in real time from PR feedback and integrates with external tools via Model Context Protocol. Simultaneously, Cursor launches Canvases: agents that create interactive React-based visual interfaces for data reviews and PR analysis. The 'agent IDE' is no longer an IDE with an agent feature — it's an agent platform with editing capabilities.",
-      "tags": [
-        "agents"
-      ]
-    },
-    {
-      "text": "cPanel CVE-2026-41940 exploitation campaign expands to target government and military infrastructure in Southeast Asia (Philippines, Laos), MSPs, and hosting providers in Canada, South Africa, and the US — using publicly available PoCs for the CVSS 9.8 authentication bypass disclosed May 1. Same week: Canvas/Instructure breach claims 275M users and 9,000+ schools (largest EdTech breach by user count), Trellix suffers its own source code breach (a cybersecurity company breached), and Medtronic's corporate IT is compromised. Four sectors, one week.",
-      "tags": [
-        "security"
-      ]
-    },
-    {
-      "text": "Open-weight models establish independent frontiers at consumer-hardware scale: Qwen 3.6-35B-A3B (35B total, 3B active via MoE) runs frontier-tier coding benchmarks on a laptop; Gemma 4 ships under Apache 2.0 with 400M+ downloads. Combined with DeepSeek V4 Pro at $0.87/M tokens (vs Anthropic's $15/M) and Kimi K2.6's SWE-Bench Pro parity, the closed-model premium now requires justification through product features — governance, security, UX — not model quality. The competitive axis has permanently shifted.",
-      "tags": [
-        "security",
-        "research"
-      ]
-    },
-    {
-      "text": "GitHub Trending: mattpocock/skills sustains at 55,320 stars (+1,696/day), forrestchang/andrej-karpathy-skills reaches 106,827 stars (+1,372/day), NousResearch/hermes-agent at 129,961 stars, Warp at 52,872 stars. The skills-catalog category that emerged April 27 has crossed from trend to institution — sustained four-digit daily star growth two weeks after launch indicates organic adoption, not hype. The agent infrastructure layer has split into distinct subcategories: runtimes (Warp), identity (hermes-agent), and capability catalogs (skills repos).",
-      "tags": [
-        "github-trending",
-        "agents",
-        "research"
+        "hacker-news"
       ],
-      "source": "GitHub +1,696/day"
+      "source": "HN 373pts"
     },
     {
-      "text": "Claude Code ships /ultrareview (fleet of cloud bug-hunting agents), session recaps, custom themes, broadened plugin support, and PostToolUse hooks with output replacement — the most feature-dense week since the 30-release April sprint. PostToolUse hooks can now replace tool output via hookSpecificOutput.updatedToolOutput, enabling plugin authors to intercept and transform any tool's response. On a day when Microsoft sells governance and Cursor ships self-improving agents, Claude Code's competitive response is platform extensibility: the tool you extend, not just the tool you use.",
+      "text": "How OpenAI delivers low-latency voice AI at scale (364 pts, 201 comments)",
       "tags": [
-        "claude-code",
-        "agents",
-        "ecosystem"
-      ]
+        "hacker-news"
+      ],
+      "source": "HN 364pts"
     },
     {
-      "text": "The AI coding tool market splits into three distinct competitive lanes in a single news cycle: governance (Microsoft Agent 365 at $99/user/month), capability depth (Cursor Bugbot at 80% resolution with self-improvement), and platform extensibility (Claude Code hooks + plugins + ultrareview). Three vendors, three strategies, zero overlap. If the bifurcation persists, Microsoft wins enterprise by default (no competitor has a comparable governance story), while Cursor and Claude Code fight for the developer segment on fundamentally different axes.",
+      "text": "Does Employment Slow Cognitive Decline? Evidence from Labor Market Shocks (262 pts, 143 comments)",
       "tags": [
-        "claude-code",
-        "agents",
-        "ecosystem"
-      ]
+        "hacker-news"
+      ],
+      "source": "HN 262pts"
+    },
+    {
+      "text": "Agent Skills (206 pts, 87 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 206pts"
+    },
+    {
+      "text": "Securing a DoD contractor: Finding a multi-tenant authorization vulnerability (190 pts, 78 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 190pts"
+    },
+    {
+      "text": "What I'm Hearing About Cognitive Debt (So Far) (165 pts, 94 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 165pts"
     }
   ],
   "trending": [
@@ -118,7 +102,7 @@
     },
     {
       "label": "Insights Today",
-      "value": "8",
+      "value": "6",
       "unit": "stories"
     }
   ],
@@ -129,17 +113,17 @@
     },
     "headlines": [
       {
-        "text": "Microsoft launches Agent 365 as a standalone governance control plane for enterprise AI agents, bundled in the new $99/user/month E7 'Frontier Suite' . The first vendor to sell agent governance as a product category, not a feature. On the same day Cursor ships self-improving Bugbot at 80% resolution and Claude Code ships platform hooks, Microsoft's bet is that enterprises will pay a 65% premium over E5 not for the agent itself but for the controls around it. If Agent 365 gains traction, 'ungoverned agents' becomes a compliance risk category by Q4 2026.",
+        "text": "Bun is being ported from Zig to Rust",
         "metric": "—",
         "source": "web"
       },
       {
-        "text": "GitHub Copilot formally moves to usage-based billing effective June 1, 2026",
+        "text": "How OpenAI delivers low-latency voice AI at scale",
         "metric": "—",
         "source": "web"
       },
       {
-        "text": "Cursor ships Bugbot at 80% resolution rate with self-improvement and MCP support",
+        "text": "Does Employment Slow Cognitive Decline? Evidence from Labor Market Shocks",
         "metric": "—",
         "source": "web"
       }
