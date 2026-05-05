@@ -1,0 +1,122 @@
+[
+  {
+    "rank": 1,
+    "title": "Bun is being ported from Zig to Rust",
+    "url": "https://github.com/oven-sh/bun/commit/46d3bc29f270fa881dd573",
+    "hn_url": "https://news.ycombinator.com/item?id=44198473",
+    "points": 373,
+    "comments": 289
+  },
+  {
+    "rank": 2,
+    "title": "How OpenAI delivers low-latency voice AI at scale",
+    "url": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale/",
+    "hn_url": "https://news.ycombinator.com/item?id=44197812",
+    "points": 364,
+    "comments": 201
+  },
+  {
+    "rank": 3,
+    "title": "Does Employment Slow Cognitive Decline? Evidence from Labor Market Shocks",
+    "url": "https://www.nber.org/papers/w35117",
+    "hn_url": "https://news.ycombinator.com/item?id=44196501",
+    "points": 262,
+    "comments": 143
+  },
+  {
+    "rank": 4,
+    "title": "Agent Skills",
+    "url": "https://addyosmani.com/blog/agent-skills/",
+    "hn_url": "https://news.ycombinator.com/item?id=44195923",
+    "points": 206,
+    "comments": 87
+  },
+  {
+    "rank": 5,
+    "title": "Securing a DoD contractor: Finding a multi-tenant authorization vulnerability",
+    "url": "https://www.strix.ai/blog/how-strix-found-zero-auth-vulnerability",
+    "hn_url": "https://news.ycombinator.com/item?id=44196011",
+    "points": 190,
+    "comments": 78
+  },
+  {
+    "rank": 6,
+    "title": "What I'm Hearing About Cognitive Debt (So Far)",
+    "url": "https://margaretstorey.com/blog/2026/02/18/cognitive-debt-revisited/",
+    "hn_url": "https://news.ycombinator.com/item?id=44197233",
+    "points": 165,
+    "comments": 94
+  },
+  {
+    "rank": 7,
+    "title": "About 10% of AMC movie showings sell zero tickets. This site finds them",
+    "url": "https://walzr.com/empty-screenings",
+    "hn_url": "https://news.ycombinator.com/item?id=44194219",
+    "points": 90,
+    "comments": 61
+  },
+  {
+    "rank": 8,
+    "title": "CVE-2026-31431: Copy Fail vs. rootless containers",
+    "url": "https://www.dragonsreach.it/2026/05/04/cve-2026-31431-copy-fail-vs-rootless-containers/",
+    "hn_url": "https://news.ycombinator.com/item?id=44196748",
+    "points": 62,
+    "comments": 21
+  },
+  {
+    "rank": 9,
+    "title": "Train Your Own LLM from Scratch",
+    "url": "https://github.com/angelos-p/llm-from-scratch",
+    "hn_url": "https://news.ycombinator.com/item?id=44196884",
+    "points": 63,
+    "comments": 19
+  },
+  {
+    "rank": 10,
+    "title": "Pulitzer Prize Winner in International Reporting",
+    "url": "https://www.pulitzer.org/winners/dake-kang-garance-burke-byrne-and-team-ap",
+    "hn_url": "https://news.ycombinator.com/item?id=44196227",
+    "points": 68,
+    "comments": 32
+  },
+  {
+    "rank": 11,
+    "title": "The Car That Watches You Back: The Advertising Infrastructure of Modern Vehicles",
+    "url": "https://nobodyaskedforthis.lol/posts/connected-car/",
+    "hn_url": "https://news.ycombinator.com/item?id=44195541",
+    "points": 51,
+    "comments": 28
+  },
+  {
+    "rank": 12,
+    "title": "Hand Drawn QR Codes",
+    "url": "https://sethmlarson.dev/hand-drawn-qr-codes",
+    "hn_url": "https://news.ycombinator.com/item?id=44195102",
+    "points": 14,
+    "comments": 8
+  },
+  {
+    "rank": 13,
+    "title": "Gaps in national food production, worldwide",
+    "url": "https://www.nature.com/articles/s43016-025-01173-4",
+    "hn_url": "https://news.ycombinator.com/item?id=44194875",
+    "points": 37,
+    "comments": 14
+  },
+  {
+    "rank": 14,
+    "title": "When Networking Doesn't Work",
+    "url": "https://www.os2museum.com/wp/when-networking-doesnt-work/",
+    "hn_url": "https://news.ycombinator.com/item?id=44194633",
+    "points": 47,
+    "comments": 19
+  },
+  {
+    "rank": 15,
+    "title": "pgxbackup: Continuity Support for pgBackRest",
+    "url": "https://thebuild.com/blog/2026/05/01/pgxbackup-continuity-support-for-pgbackrest/",
+    "hn_url": "https://news.ycombinator.com/item?id=44195221",
+    "points": 26,
+    "comments": 7
+  }
+]
