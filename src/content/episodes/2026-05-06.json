@@ -3,65 +3,53 @@
   "episodeNumber": 40,
   "locale": "en-US",
   "title": "Intelligence Brief",
-  "subtitle": "Cloudflare and Stripe launch agent provisioning, Xbox CEO Asha Sharma kills Copilot AI for gaming, Microsoft reverses the VS Code 'Co-authored-by: Co",
+  "subtitle": "Agents can now create Cloudflare accounts, buy dom, StarFighter 16-Inch, .de TLD offline due to DNSSEC?",
   "heroStat": {
     "value": "591",
     "label": "points on \".de TLD offline due to DNSSEC?\""
   },
   "insights": [
     {
-      "text": "Cloudflare and Stripe launch agent provisioning — AI agents can now autonomously create cloud accounts, buy domains, start paid subscriptions, and deploy code end-to-end without human intervention. 178 HN pts / 85 comments. The first cloud provider to make agents first-class customers, not tools of customers. Co-designed with Stripe Projects (open beta), the protocol handles payment, identity, and deployment in a single autonomous flow. On a day when Xbox kills Copilot and VS Code reverses AI attribution defaults, Cloudflare bets the opposite direction: agents aren't assistants — they're economic actors that provision, pay, and deploy. If this gains traction, every cloud provider needs an agent onboarding flow by Q1 2027.",
+      "text": "Agents can now create Cloudflare accounts, buy domains, and deploy (155 pts, 71 comments)",
       "tags": [
-        "agents",
-        "fintech"
+        "hacker-news"
       ],
-      "source": "HN 178pts"
+      "source": "HN 155pts"
     },
     {
-      "text": "Xbox CEO Asha Sharma kills Copilot AI for gaming — winding down Copilot on mobile and halting all console development. 85 HN pts / 20 comments. The feature launched in May 2025, was planned for consoles by late 2026, and produced no measurable value in 12 months. Sharma: 'Xbox needs to move faster, deepen our connection with the community, and address friction.' The first major retreat from Microsoft's 'Copilot everywhere' strategy. The lesson: 'add AI to X' fails when X doesn't benefit from conversational interaction. Gaming needed faster matchmaking and better discovery, not a chatbot.",
-      "tags": [],
-      "source": "HN 85pts"
-    },
-    {
-      "text": "Microsoft reverses the VS Code 'Co-authored-by: Copilot' default after it falsely attributed human-written code to AI — and altered commit messages after developer review. 69 HN pts / 51 comments. In VS Code 1.117, the git.addAICoAuthor default silently changed from 'off' to 'all.' A bug then attributed non-Copilot completions to Copilot even with AI features disabled. Worse: users who deleted the AI attribution from their commit message found it reappeared in the final Git history. Penligent.ai frames it as a supply-chain trust problem — when your IDE silently modifies commit metadata, every downstream consumer (CI/CD, compliance, legal) inherits the corruption. Fix ships in VS Code 1.119.",
+      "text": "StarFighter 16-Inch (181 pts, 95 comments)",
       "tags": [
-        "rust"
+        "hacker-news"
       ],
-      "source": "HN 69pts"
+      "source": "HN 181pts"
     },
     {
-      "text": "Five major publishers and Scott Turow sue Mark Zuckerberg personally for authorizing the torrenting of 267 TB of pirated material to train Llama — Hachette, Macmillan, McGraw Hill, Elsevier, and Cengage. 146 HN pts. Key allegation: Meta's business development team was pursuing licensing deals, but after escalation to Zuckerberg received 'verbal instructions to stop licensing efforts.' 267 TB equals 'hundreds of millions of publications and many times the size of the entire print collection of the Library of Congress.' The personal-liability framing escalates AI copyright from corporate risk to CEO culpability. Same day: FFmpeg developer calls out OxideAV for 'AI license laundering' — using AI to rewrite LGPL code and relicense it. Two copyright attack vectors, one front page.",
+      "text": ".de TLD offline due to DNSSEC? (591 pts, 295 comments)",
       "tags": [
-        "meta"
+        "hacker-news"
       ],
-      "source": "HN 146pts"
+      "source": "HN 591pts"
     },
     {
-      "text": "ProgramBench launches from the SWE-bench team at 0% solved across all models — asking agents to recreate real programs (FFmpeg, SQLite, ripgrep, PHP compiler) from a binary and documentation alone, with no source code, no decompilation, and no internet. 200 tasks. This lands 10 days after SWE-bench Verified was declared invalid due to contamination. The gap between 'AI can fix a bug in existing code' (80%+ SWE-bench) and 'AI can author a program from specification' (0% ProgramBench) is not a spectrum — it's a cliff. The same team's two benchmarks produce predictions that differ by 100 percentage points.",
+      "text": "Industry-Leading 245TB Micron 6600 Ion Data Center SSD Now Shipping (29 pts, 14 comments)",
       "tags": [
-        "agents",
-        "research"
-      ]
-    },
-    {
-      "text": "Telus deploys Tomato.ai to alter offshore call center agents' accents in real-time — 'reducing accent-related friction' while 'preserving the speaker's voice.' 107 HN pts / 67 comments (0.63 comment-to-point ratio, today's third-highest engagement density). Rogers and Bell confirm no plans to adopt. Labour groups call for mandatory disclosure: 'a very clear right that Canadians should insist on is the right to not be deceived by AI.' On a day when VS Code silently credits AI for human code and publishers allege unauthorized AI training, a third identity modification: AI altering a human's voice to sound less foreign, without the caller's knowledge.",
-      "tags": [
-        "agents"
+        "hacker-news"
       ],
-      "source": "HN 107pts"
+      "source": "HN 29pts"
     },
     {
-      "text": "GitHub Trending: DeepSeek-TUI surges to +2,434 stars/day (9,483 total) — a Rust terminal coding agent for DeepSeek models, continuing the TUI renaissance and cost-arbitrage convergence from May 4's DeepClaude (325 HN pts). ruflo holds at +2,432/day (44,180 total). forrestchang/andrej-karpathy-skills sustains at +2,409/day (114,825 total). New: virattt/dexter at +659/day (23,959 — autonomous financial research agent), docusealco/docuseal at +927/day (14,173 — open-source DocuSign alternative), browserbase/skills at +311/day (2,463 — Claude Agent SDK with web browsing). The agent infrastructure layer continues maturing across finance, document signing, and browser automation.",
+      "text": "Accelerating Gemma 4: faster inference with multi-token prediction drafters (521 pts, 234 comments)",
       "tags": [
-        "github-trending",
-        "agents",
-        "research"
+        "hacker-news"
       ],
-      "source": "HN 325pts"
+      "source": "HN 521pts"
     },
     {
-      "text": "StarFighter 16-inch Linux laptop tops HN at 197 pts / 101 comments — Coreboot firmware, 4K 16:10 display, wireless kill switch, and a warranty that survives disassembly. Eighth consecutive week a physical-infrastructure or open-hardware story occupies HN's #1 position (Framework Laptop 1,199 → no-tech tractors 1,606 → Belgium nuclear 791 → BYOMesh 331 → now StarFighter 197). On a day when three separate stories involve AI modifying identity without consent (Copilot attribution, Meta training, Telus accents), the top story is hardware you own, firmware you control, and a warranty that respects your right to repair. The community's revealed preference: own your stack.",
-      "tags": []
+      "text": "YouTube, your RSS feeds are broken (52 pts, 19 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 52pts"
     }
   ],
   "trending": [
@@ -114,7 +102,7 @@
     },
     {
       "label": "Insights Today",
-      "value": "8",
+      "value": "6",
       "unit": "stories"
     }
   ],
@@ -125,17 +113,17 @@
     },
     "headlines": [
       {
-        "text": "Cloudflare and Stripe launch agent provisioning",
+        "text": "Agents can now create Cloudflare accounts, buy domains, and deploy",
         "metric": "—",
         "source": "web"
       },
       {
-        "text": "Xbox CEO Asha Sharma kills Copilot AI for gaming",
+        "text": "StarFighter 16-Inch",
         "metric": "—",
         "source": "web"
       },
       {
-        "text": "Microsoft reverses the VS Code 'Co-authored-by: Copilot' default after it falsely attributed human-written code to AI",
+        "text": ".de TLD offline due to DNSSEC?",
         "metric": "—",
         "source": "web"
       }
