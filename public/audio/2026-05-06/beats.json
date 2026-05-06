@@ -1,0 +1,168 @@
+[
+  {
+    "type": "intro",
+    "highlight": "Intelligence Brief · May 6, 2026",
+    "subtext": "Infrastructure, AI inference & agent protocols"
+  },
+  {
+    "type": "number",
+    "highlight": ".de TLD Goes Offline",
+    "number": "591",
+    "label": "HN POINTS",
+    "subtext": "DNSSEC chain failure takes German TLD offline"
+  },
+  {
+    "type": "insight",
+    "highlight": "Security model vs availability model in direct tension",
+    "subtext": "DNSSEC validation failure is a hard failure by design"
+  },
+  {
+    "type": "quote",
+    "highlight": "The thing that makes DNS secure can also take it offline",
+    "subtext": "That's the fundamental tradeoff"
+  },
+  {
+    "type": "insight",
+    "highlight": "No graceful degradation for DNSSEC failures",
+    "subtext": "Either the chain validates, or nothing resolves"
+  },
+  {
+    "type": "number",
+    "highlight": "Gemma 4 Multi-Token Prediction",
+    "number": "521",
+    "label": "HN POINTS",
+    "subtext": "Built-in speculative decoding in open-weights release"
+  },
+  {
+    "type": "number",
+    "highlight": "Faster local inference, no config",
+    "number": "2–3×",
+    "label": "INFERENCE SPEEDUP",
+    "subtext": "Prediction head trained jointly with base model"
+  },
+  {
+    "type": "quote",
+    "highlight": "Local hardware. No API. No pricing.",
+    "subtext": "That's a meaningful shift"
+  },
+  {
+    "type": "number",
+    "highlight": "Computer Use vs Structured APIs",
+    "number": "45×",
+    "label": "COST DIFFERENTIAL",
+    "subtext": "Visual model overhead vs typed JSON payload"
+  },
+  {
+    "type": "insight",
+    "highlight": "40–50× cost differential across all task categories",
+    "subtext": "Form filling, data extraction, multi-step navigation"
+  },
+  {
+    "type": "insight",
+    "highlight": "Computer use is a fallback, not a strategy",
+    "subtext": "Structured APIs are the architecture"
+  },
+  {
+    "type": "insight",
+    "highlight": "Visual model interpreting screenshots vs typed JSON",
+    "subtext": "The cost difference is architectural, not incidental"
+  },
+  {
+    "type": "insight",
+    "highlight": "Send a typed payload, receive a typed response",
+    "subtext": "The structured API is the alternative"
+  },
+  {
+    "type": "repo",
+    "highlight": "Cloudflare + Stripe Agent Protocol",
+    "subtext": "Agents can create accounts, register domains, deploy — no humans"
+  },
+  {
+    "type": "number",
+    "highlight": "Stripe payment tokens per provider",
+    "number": "$100",
+    "label": "MONTHLY SPEND CAP",
+    "subtext": "Auditable, revocable authorization layer"
+  },
+  {
+    "type": "quote",
+    "highlight": "Not agents with credit cards running wild",
+    "subtext": "A structured authorization layer with capability boundaries"
+  },
+  {
+    "type": "insight",
+    "highlight": "Computer use becomes a legacy compatibility shim",
+    "subtext": "When every cloud ships agent-native APIs"
+  },
+  {
+    "type": "number",
+    "highlight": "Three repos above +2,400 stars/day simultaneously",
+    "number": "2,400+",
+    "label": "STARS TODAY EACH",
+    "subtext": "DeepSeek-TUI · ruflo · andrej-karpathy-skills"
+  },
+  {
+    "type": "repo",
+    "highlight": "Hmbown/DeepSeek-TUI",
+    "label": "GITHUB TRENDING #1",
+    "subtext": "Rust-native, local, no network calls after download"
+  },
+  {
+    "type": "insight",
+    "highlight": "Local-first LLM tooling as infrastructure resilience",
+    "subtext": "Not just performance — independence from cloud DNS"
+  },
+  {
+    "type": "repo",
+    "highlight": "forrestchang/andrej-karpathy-skills",
+    "label": "114K STARS",
+    "subtext": "CLAUDE.md observations as machine-executable methodology"
+  },
+  {
+    "type": "number",
+    "highlight": "Three Inverse Laws of AI",
+    "number": "407",
+    "label": "HN POINTS",
+    "subtext": "More capable AI → less human understanding"
+  },
+  {
+    "type": "insight",
+    "highlight": "Third essay in the cognitive-debt cluster this week",
+    "subtext": "HN is processing what's lost in the AI speed exchange"
+  },
+  {
+    "type": "insight",
+    "highlight": "RSS outperforms Google Search; Nix/Lix privilege escalation",
+    "subtext": "Open protocols require maintenance, not just good design"
+  },
+  {
+    "type": "insight",
+    "highlight": "Open systems need continuous upkeep to stay trustworthy",
+    "subtext": "RSS resilient by design; Nix vulnerable by accumulated debt"
+  },
+  {
+    "type": "quote",
+    "highlight": "What's the thesis today?",
+    "subtext": "The builder's question"
+  },
+  {
+    "type": "insight",
+    "highlight": "Resilient systems are local-first or structured-interface-first",
+    "subtext": "Black-box visual interpretation is a liability"
+  },
+  {
+    "type": "action",
+    "highlight": "Build for the network failing. Build for the API having an interface.",
+    "subtext": "Build for the agent knowing its capability boundary."
+  },
+  {
+    "type": "close",
+    "highlight": "Go build something that works when the DNS is down.",
+    "subtext": "That's today's brief"
+  },
+  {
+    "type": "close",
+    "highlight": "May 6th · See you tomorrow",
+    "subtext": "Tidox Intelligence Brief"
+  }
+]
