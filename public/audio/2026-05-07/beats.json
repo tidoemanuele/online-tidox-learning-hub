@@ -1,0 +1,164 @@
+[
+  {
+    "type": "intro",
+    "highlight": "Intelligence Brief",
+    "subtext": "May 7, 2026",
+    "label": "TIDOX"
+  },
+  {
+    "type": "intro",
+    "highlight": "Valve Opens the Hardware Vault",
+    "subtext": "Steam Controller CAD files released",
+    "label": "OPEN HARDWARE"
+  },
+  {
+    "type": "number",
+    "number": "1,250",
+    "highlight": "HN points for Valve's open hardware release",
+    "label": "TOP STORY"
+  },
+  {
+    "type": "insight",
+    "highlight": "Six years post-discontinuation, Valve hands it to the community",
+    "label": "OPEN HARDWARE"
+  },
+  {
+    "type": "quote",
+    "highlight": "Treats discontinuation as handoff, not endpoint",
+    "subtext": "The only major gaming hardware company to do so"
+  },
+  {
+    "type": "insight",
+    "highlight": "Permacomputing in practice",
+    "subtext": "Build things designed to last \u2014 and document how",
+    "label": "THEME"
+  },
+  {
+    "type": "quote",
+    "highlight": "Build to last. Document so others can continue.",
+    "label": "TAKEAWAY"
+  },
+  {
+    "type": "number",
+    "number": "1.09:1",
+    "highlight": "Comments-to-points ratio \u2014 genuine disagreement",
+    "label": "VIBE CODING"
+  },
+  {
+    "type": "insight",
+    "highlight": "Vibe coding and agentic engineering converging",
+    "subtext": "Simon Willison \u2014 only intent distinguishes them now",
+    "label": "HOT TAKE"
+  },
+  {
+    "type": "quote",
+    "highlight": "Evaluation structure is the real distinction",
+    "subtext": "Test suites, benchmarks, verification \u2014 or just vibing"
+  },
+  {
+    "type": "insight",
+    "highlight": "As agents improve, trust threshold drops toward zero",
+    "label": "STRUCTURAL"
+  },
+  {
+    "type": "quote",
+    "highlight": "Terrifying if you're deploying agents to production",
+    "subtext": "The discipline line may be only psychological"
+  },
+  {
+    "type": "number",
+    "number": "910",
+    "highlight": "HN points for 'Appearing Productive at Work'",
+    "label": "PERFORMANCE THEATER"
+  },
+  {
+    "type": "insight",
+    "highlight": "Read by engineers being monitored on the same dashboards it critiques",
+    "label": "META"
+  },
+  {
+    "type": "insight",
+    "highlight": "Appearance management where output is hard to measure",
+    "subtext": "The measurement problem hits code too"
+  },
+  {
+    "type": "action",
+    "highlight": "Invest in evals, not in judging the workflow",
+    "subtext": "If vibing vs engineering is only the eval structure \u2014 build better evals",
+    "label": "BUILDER TAKEAWAY"
+  },
+  {
+    "type": "insight",
+    "highlight": "Val Town migrated auth three times before owning it",
+    "subtext": "Supabase \u2192 Clerk \u2192 Better Auth (self-hosted)",
+    "label": "AUTH PLATFORM"
+  },
+  {
+    "type": "quote",
+    "highlight": "Compounded switching cost taught them to own authentication",
+    "label": "LESSON"
+  },
+  {
+    "type": "insight",
+    "highlight": "Own your user schema. Own your session model.",
+    "subtext": "Better Auth \u2014 TypeScript-native, framework-agnostic",
+    "label": "BETTER AUTH"
+  },
+  {
+    "type": "repo",
+    "highlight": "nexu-io/open-design",
+    "subtext": "+2,401 stars/day \u2014 local-first Claude Design alternative",
+    "label": "GITHUB TRENDING"
+  },
+  {
+    "type": "repo",
+    "highlight": "ruvnet/ruflo",
+    "subtext": "45,100 stars \u2014 agent orchestration for Claude, up 8K this week",
+    "label": "GITHUB TRENDING"
+  },
+  {
+    "type": "number",
+    "number": "6.9M",
+    "highlight": "r/programming members \u2014 AI content now banned",
+    "label": "COMMUNITY SIGNAL"
+  },
+  {
+    "type": "insight",
+    "highlight": "Ban targets content produced by AI, not discussions about it",
+    "subtext": "Programming Still Sucks scores 257 pts on the same day",
+    "label": "AUTHENTICITY"
+  },
+  {
+    "type": "quote",
+    "highlight": "Comprehension gap: can't write authentically without understanding",
+    "label": "KEY INSIGHT"
+  },
+  {
+    "type": "insight",
+    "highlight": "Go is now FIPS 140-3 certified",
+    "subtext": "Federal government validates Go for regulated environments",
+    "label": "GO LANG"
+  },
+  {
+    "type": "action",
+    "highlight": "Own your hardware docs, auth, agents, and tooling",
+    "subtext": "The week's signal \u2014 local-first, ownership-first",
+    "label": "WEEKLY THEME"
+  },
+  {
+    "type": "insight",
+    "highlight": "Practitioners bet on ownership as cloud asks for more trust",
+    "label": "STRUCTURAL"
+  },
+  {
+    "type": "close",
+    "highlight": "Check whether your auth layer is something you actually own",
+    "subtext": "The practitioner's homework for May 7"
+  },
+  {
+    "type": "close",
+    "highlight": "Go build something that doesn't forget how to be repaired",
+    "subtext": "Intelligence Brief \u2014 May 7, 2026",
+    "label": "TIDOX"
+  }
+]

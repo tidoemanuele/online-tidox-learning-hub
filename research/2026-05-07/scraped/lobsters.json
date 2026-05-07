@@ -1,0 +1,151 @@
+[
+  {
+    "title": "Building the deployment tool I wish I had",
+    "score": 69,
+    "tags": [
+      "devops",
+      "release",
+      "vibecoding"
+    ],
+    "url": "https://ruuda.nl/2026/deptool",
+    "comments_url": "https://lobste.rs/s/ze6pao/building_deployment_tool_i_wish_i_had"
+  },
+  {
+    "title": "Open weights are quietly closing up - and that's a problem",
+    "score": 29,
+    "tags": [
+      "vibecoding"
+    ],
+    "url": "https://martinalderson.com/posts/open-weights-are-quietly-closing-up/",
+    "comments_url": "https://lobste.rs/s/jvvtif/open_weights_are_quietly_closing_up_s"
+  },
+  {
+    "title": "How an HTTP header caused time.gov to skew from UTC",
+    "score": 39,
+    "tags": [
+      "web"
+    ],
+    "url": "https://alexsci.com/blog/how-time-gov-works/",
+    "comments_url": "https://lobste.rs/s/3i1ulr/how_http_header_caused_time_gov_skew_from"
+  },
+  {
+    "title": "Multi-stroke text effect in CSS",
+    "score": 82,
+    "tags": [
+      "css",
+      "design"
+    ],
+    "url": "https://yuanchuan.dev/multi-stroke-text-effect-in-css",
+    "comments_url": "https://lobste.rs/s/9f2djs/multi_stroke_text_effect_css"
+  },
+  {
+    "title": "Principia Softwarica",
+    "score": 65,
+    "tags": [
+      "osdev"
+    ],
+    "url": "https://principia-softwarica.org/",
+    "comments_url": "https://lobste.rs/s/iswtil/principia_softwarica"
+  },
+  {
+    "title": "Go is FIPS 140-3 certified",
+    "score": 54,
+    "tags": [
+      "cryptography",
+      "go"
+    ],
+    "url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5247",
+    "comments_url": "https://lobste.rs/s/feqwqw/go_is_fips_140_3_certified"
+  },
+  {
+    "title": "cursed_browser: A web browser with no rendering engine \u2014 the VLM reads the HTML and hallucinates the page",
+    "score": 27,
+    "tags": [
+      "browsers",
+      "satire",
+      "vibecoding"
+    ],
+    "url": "https://github.com/scosman/cursed_browser",
+    "comments_url": "https://lobste.rs/s/njcvka/cursed_browser_web_browser_with_no"
+  },
+  {
+    "title": "Emacs Completion Showcase with VOMPECCC",
+    "score": 23,
+    "tags": [
+      "emacs",
+      "lisp",
+      "video"
+    ],
+    "url": "https://www.chiply.dev/post-vompeccc-showcase",
+    "comments_url": "https://lobste.rs/s/ixlzlj/emacs_completion_showcase_with_vompeccc"
+  },
+  {
+    "title": "Google\u2019s Prompt API",
+    "score": 10,
+    "tags": [
+      "ai",
+      "javascript",
+      "web"
+    ],
+    "url": "https://wil.to/posts/googles-prompt-api/",
+    "comments_url": "https://lobste.rs/s/at9lwa/google_s_prompt_api"
+  },
+  {
+    "title": "Peer Production License",
+    "score": 15,
+    "tags": [
+      "law"
+    ],
+    "url": "https://worker.informatics.coop/PPL.html",
+    "comments_url": "https://lobste.rs/s/fhcmxu/peer_production_license"
+  },
+  {
+    "title": "Vibe coding and agentic engineering are getting closer than I\u2019d like",
+    "score": 13,
+    "tags": [
+      "vibecoding"
+    ],
+    "url": "https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/",
+    "comments_url": "https://lobste.rs/s/435bmi/vibe_coding_agentic_engineering_are"
+  },
+  {
+    "title": "iPhone dumbphone",
+    "score": 34,
+    "tags": [
+      "ios"
+    ],
+    "url": "https://stopa.io/post/297",
+    "comments_url": "https://lobste.rs/s/pzx24l/iphone_dumbphone"
+  },
+  {
+    "title": "Branimir Lambov from IBM on Cassandra",
+    "score": 3,
+    "tags": [
+      "databases",
+      "java",
+      "person"
+    ],
+    "url": "https://theconsensus.dev/p/2026/04/26/branimir-lambov-from-ibm-on-cassandra.html",
+    "comments_url": "https://lobste.rs/s/bcau52/branimir_lambov_from_ibm_on_cassandra"
+  },
+  {
+    "title": "A Path Not Taken for OxCaml",
+    "score": 7,
+    "tags": [
+      "ml",
+      "plt"
+    ],
+    "url": "https://joel.place/blog/path-not-taken/",
+    "comments_url": "https://lobste.rs/s/ik5vhe/path_not_taken_for_oxcaml"
+  },
+  {
+    "title": "aube, a fast Node.js package manager",
+    "score": 4,
+    "tags": [
+      "javascript",
+      "nodejs"
+    ],
+    "url": "https://aube.en.dev/",
+    "comments_url": "https://lobste.rs/s/wgufge/aube_fast_node_js_package_manager"
+  }
+]

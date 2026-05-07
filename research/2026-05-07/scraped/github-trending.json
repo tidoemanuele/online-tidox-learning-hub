@@ -1,0 +1,47 @@
+[
+  {
+    "name": "open-design",
+    "fullName": "nexu-io/open-design",
+    "description": "Local-first, open-source alternative to Anthropic's Claude Design. 19 Skills, 71 brand-grade Design Systems. Runs on Claude Code/Codex/Cursor/Gemini/OpenCode.",
+    "language": "TypeScript",
+    "stars_today": "2401 stars today",
+    "total_stars": "30600",
+    "url": "https://github.com/nexu-io/open-design"
+  },
+  {
+    "name": "TradingAgents",
+    "fullName": "TauricResearch/TradingAgents",
+    "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework with specialized analyst roles and risk management.",
+    "language": "Python",
+    "stars_today": "1457 stars today",
+    "total_stars": "70300",
+    "url": "https://github.com/TauricResearch/TradingAgents"
+  },
+  {
+    "name": "skills",
+    "fullName": "mattpocock/skills",
+    "description": "Skills for Real Engineers. Straight from my .claude directory. Curated Claude Code skill configurations.",
+    "language": "Shell",
+    "stars_today": "1440 stars today",
+    "total_stars": "61900",
+    "url": "https://github.com/mattpocock/skills"
+  },
+  {
+    "name": "ruflo",
+    "fullName": "ruvnet/ruflo",
+    "description": "The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows.",
+    "language": "TypeScript",
+    "stars_today": "1300 stars today",
+    "total_stars": "45100",
+    "url": "https://github.com/ruvnet/ruflo"
+  },
+  {
+    "name": "DeepSeek-TUI",
+    "fullName": "Hmbown/DeepSeek-TUI",
+    "description": "A Rust-built terminal interface for running DeepSeek models as a local coding agent.",
+    "language": "Rust",
+    "stars_today": "480 stars today",
+    "total_stars": "9800",
+    "url": "https://github.com/Hmbown/DeepSeek-TUI"
+  }
+]
