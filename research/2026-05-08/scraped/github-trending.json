@@ -1,0 +1,47 @@
+[
+  {
+    "name": "dirtyfrag",
+    "fullName": "V4bel/dirtyfrag",
+    "description": "Universal Linux LPE via socket-buffer fragment decryption race \u2014 proof-of-concept for the Dirty Frag zero-day (CVE pending)",
+    "language": "C",
+    "stars_today": "1,847 stars today",
+    "total_stars": "2103",
+    "url": "https://github.com/V4bel/dirtyfrag"
+  },
+  {
+    "name": "hunk",
+    "fullName": "modem-dev/hunk",
+    "description": "A review-first terminal diff viewer built for agentic coders \u2014 inspect, annotate, and approve AI-generated changes without leaving the CLI",
+    "language": "Rust",
+    "stars_today": "743 stars today",
+    "total_stars": "48612",
+    "url": "https://github.com/modem-dev/hunk"
+  },
+  {
+    "name": "open-design",
+    "fullName": "nexu-io/open-design",
+    "description": "A local-first, open-source alternative to Claude Design \u2014 run AI-assisted UI generation entirely on your own hardware",
+    "language": "TypeScript",
+    "stars_today": "612 stars today",
+    "total_stars": "28200",
+    "url": "https://github.com/nexu-io/open-design"
+  },
+  {
+    "name": "local-deep-research",
+    "fullName": "LearningCircuit/local-deep-research",
+    "description": "Achieves ~95% on SimpleQA with local or cloud LLMs \u2014 a self-hosted deep research agent with multi-step reasoning",
+    "language": "Python",
+    "stars_today": "487 stars today",
+    "total_stars": "6301",
+    "url": "https://github.com/LearningCircuit/local-deep-research"
+  },
+  {
+    "name": "browser-harness",
+    "fullName": "browser-use/browser-harness",
+    "description": "Self-healing browser harness that enables LLMs to complete any web automation task with automatic element re-detection on DOM changes",
+    "language": "Python",
+    "stars_today": "398 stars today",
+    "total_stars": "6802",
+    "url": "https://github.com/browser-use/browser-harness"
+  }
+]
