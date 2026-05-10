@@ -1,0 +1,162 @@
+[
+  {
+    "rank": 1,
+    "title": "Show HN: Building a web server in assembly to give my life (a lack of) meaning",
+    "url": "https://github.com/imtomt/ymawky",
+    "hn_url": "https://news.ycombinator.com/item?id=48080587",
+    "points": 151,
+    "comments": 60
+  },
+  {
+    "rank": 2,
+    "title": "Bun's experimental Rust rewrite hits 99.8% test compatibility on Linux x64 glibc",
+    "url": "https://twitter.com/jarredsumner/status/2053047748191232310",
+    "hn_url": "https://news.ycombinator.com/item?id=48073680",
+    "points": 496,
+    "comments": 463
+  },
+  {
+    "rank": 3,
+    "title": "Gemini API File Search is now multimodal",
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanded-gemini-api-file-search-multimodal-rag/",
+    "hn_url": "https://news.ycombinator.com/item?id=48080702",
+    "points": 48,
+    "comments": 4
+  },
+  {
+    "rank": 4,
+    "title": "Casio S100X Japanese Lacquer Edition (JP Page Only)",
+    "url": "https://www.casio.com/jp/basic-calculators/premium/en-s100x-jc1-u/",
+    "hn_url": "https://news.ycombinator.com/item?id=48048407",
+    "points": 72,
+    "comments": 26
+  },
+  {
+    "rank": 5,
+    "title": "The One Dollar Counterfeiter",
+    "url": "https://www.amusingplanet.com/2026/05/emerich-juettner-one-dollar.html",
+    "hn_url": "https://news.ycombinator.com/item?id=48048684",
+    "points": 40,
+    "comments": 12
+  },
+  {
+    "rank": 6,
+    "title": "Internet Archive Switzerland",
+    "url": "https://blog.archive.org/2026/05/06/internet-archive-switzerland-expanding-a-global-mission-to-preserve-knowledge/",
+    "hn_url": "https://news.ycombinator.com/item?id=48074265",
+    "points": 585,
+    "comments": 88
+  },
+  {
+    "rank": 7,
+    "title": "I\u2019ve banned query strings",
+    "url": "https://chrismorgan.info/no-query-strings",
+    "hn_url": "https://news.ycombinator.com/item?id=48076173",
+    "points": 337,
+    "comments": 186
+  },
+  {
+    "rank": 8,
+    "title": "I'm writing a history of Visual Basic, Chapter 1 is up",
+    "url": "https://evilgeniuslabs.ca/blog/visual-basic-history-chapter-1-launch",
+    "hn_url": "https://news.ycombinator.com/item?id=48039249",
+    "points": 81,
+    "comments": 20
+  },
+  {
+    "rank": 9,
+    "title": "We see something that works, and then we understand it",
+    "url": "https://lemire.me/blog/2025/12/04/we-see-something-that-works-and-then-we-understand-it/",
+    "hn_url": "https://news.ycombinator.com/item?id=48037223",
+    "points": 20,
+    "comments": 4
+  },
+  {
+    "rank": 10,
+    "title": "Local privilege escalation via execve()",
+    "url": "https://www.freebsd.org/security/advisories/FreeBSD-SA-26:13.exec.asc",
+    "hn_url": "https://news.ycombinator.com/item?id=48077971",
+    "points": 122,
+    "comments": 70
+  },
+  {
+    "rank": 11,
+    "title": "Zed Editor Theme-Builder",
+    "url": "https://zed.dev/theme-builder",
+    "hn_url": "https://news.ycombinator.com/item?id=48076651",
+    "points": 190,
+    "comments": 54
+  },
+  {
+    "rank": 12,
+    "title": "The Serial TTL connector we deserve",
+    "url": "https://kohlschuetter.github.io/blog/posts/2026/05/07/serial-ttl-connector/",
+    "hn_url": "https://news.ycombinator.com/item?id=48049828",
+    "points": 76,
+    "comments": 52
+  },
+  {
+    "rank": 13,
+    "title": "Show HN: I made a Clojure-like language in Go, boots in 7ms",
+    "url": "https://github.com/nooga/let-go",
+    "hn_url": "https://news.ycombinator.com/item?id=48076815",
+    "points": 134,
+    "comments": 39
+  },
+  {
+    "rank": 14,
+    "title": "Show HN: Rust but Lisp",
+    "url": "https://github.com/ThatXliner/rust-but-lisp",
+    "hn_url": "https://news.ycombinator.com/item?id=48078575",
+    "points": 114,
+    "comments": 60
+  },
+  {
+    "rank": 15,
+    "title": "The first microcomputer: The transfluxor-powered Arma Micro Computer from 1962",
+    "url": "https://www.righto.com/2024/02/the-first-microcomputer-transfluxor.html",
+    "hn_url": "https://news.ycombinator.com/item?id=48038573",
+    "points": 49,
+    "comments": 1
+  },
+  {
+    "rank": 16,
+    "title": "Making your own programming language is easier than you think (but also harder)",
+    "url": "https://lisyarus.github.io/blog/posts/making-your-own-programming-language.html",
+    "hn_url": "https://news.ycombinator.com/item?id=48048902",
+    "points": 76,
+    "comments": 35
+  },
+  {
+    "rank": 17,
+    "title": "Distributing Mac software is increasing my cortisol levels",
+    "url": "https://blog.kronis.dev/blog/apple-is-increasing-my-cortisol-levels",
+    "hn_url": "https://news.ycombinator.com/item?id=48075366",
+    "points": 254,
+    "comments": 174
+  },
+  {
+    "rank": 18,
+    "title": "LLMs corrupt your documents when you delegate",
+    "url": "https://arxiv.org/abs/2604.15597",
+    "hn_url": "https://news.ycombinator.com/item?id=48073246",
+    "points": 385,
+    "comments": 148
+  },
+  {
+    "rank": 19,
+    "title": "A recent experience with ChatGPT 5.5 Pro",
+    "url": "https://gowers.wordpress.com/2026/05/08/a-recent-experience-with-chatgpt-5-5-pro/",
+    "hn_url": "https://news.ycombinator.com/item?id=48071262",
+    "points": 623,
+    "comments": 451
+  },
+  {
+    "rank": 20,
+    "title": "A construction of the Hat tilings by a Markov partition",
+    "url": "https://www.mathstat.dal.ca/~selinger/hat-partition/",
+    "hn_url": "https://news.ycombinator.com/item?id=48052656",
+    "points": 3,
+    "comments": 0
+  }
+]

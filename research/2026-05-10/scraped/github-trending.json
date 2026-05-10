@@ -1,0 +1,7 @@
+[
+  {"name": "agent-skills", "fullName": "addyosmani/agent-skills", "description": "Production-grade engineering skills for AI coding agents", "language": "Shell", "stars_today": "1,214 stars today", "total_stars": "22842", "url": "https://github.com/addyosmani/agent-skills"},
+  {"name": "open-design", "fullName": "nexu-io/open-design", "description": "Local-first open-source Claude Design alternative with 19 Skills and 71 brand-grade Design Systems", "language": "TypeScript", "stars_today": "1,531 stars today", "total_stars": "28104", "url": "https://github.com/nexu-io/open-design"},
+  {"name": "bun", "fullName": "oven-sh/bun", "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager — experimental Rust rewrite branch", "language": "Zig", "stars_today": "1,109 stars today", "total_stars": "89214", "url": "https://github.com/oven-sh/bun"},
+  {"name": "UI-TARS-desktop", "fullName": "bytedance/UI-TARS-desktop", "description": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra", "language": "TypeScript", "stars_today": "801 stars today", "total_stars": "29521", "url": "https://github.com/bytedance/UI-TARS-desktop"},
+  {"name": "awesome-design-md", "fullName": "VoltAgent/awesome-design-md", "description": "A collection of DESIGN.md files — drop one into your project and let coding agents generate matching UI", "language": "Markdown", "stars_today": "423 stars today", "total_stars": "73542", "url": "https://github.com/VoltAgent/awesome-design-md"}
+]

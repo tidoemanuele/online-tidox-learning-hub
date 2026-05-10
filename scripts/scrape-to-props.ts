@@ -26,10 +26,12 @@ const OUTPUT_DIR = join(import.meta.dirname!, '..', 'src', 'content', 'episodes'
 // --- Types (mirrors packages/video/src/types.ts) ---
 interface RawGithubRepo {
   name: string;
-  description: string;
+  fullName?: string;
+  description?: string;
   language: string;
   stars_today: string;
   total_stars: string;
+  url?: string;
 }
 
 interface RawHNStory {
@@ -93,6 +95,30 @@ function extractTagsFromInsight(text: string): string[] {
 
   // Cap at 3, max 20 chars
   return [...new Set(tags)].slice(0, 3).filter(t => t.length <= 20);
+}
+
+function extractUrlFromInsight(text: string): string | undefined {
+  // Try https:// URL in parentheses
+  const httpsParens = text.match(/\(https?:\/\/([^\s\)]+)\)/);
+  if (httpsParens) return `https://${httpsParens[1]}`;
+
+  // Try bare domain URL in parentheses like (domain.com/path)
+  const bareParens = text.match(/\((?!https?:\/\/)([a-z0-9-]+(?:\.[a-z]{2,6})+\/[^\s\)\]"]+)\)/i);
+  if (bareParens) return `https://${bareParens[1]}`;
+
+  // Try "at domain.com/path" pattern
+  const atUrl = text.match(/\bat\s+([a-z0-9-]+(?:\.[a-z]{2,6})+\/[^\s,\]"]+)/i);
+  if (atUrl) return `https://${atUrl[1]}`;
+
+  // Try github.com/owner/repo
+  const github = text.match(/github\.com\/([a-zA-Z0-9_-]+\/[a-zA-Z0-9_.-]+)/);
+  if (github) return `https://github.com/${github[1]}`;
+
+  // Try arxiv.org/abs/...
+  const arxiv = text.match(/arxiv\.org\/abs\/[\d.]+/);
+  if (arxiv) return `https://${arxiv[0]}`;
+
+  return undefined;
 }
 
 function extractSourceFromInsight(text: string): string | undefined {
@@ -225,9 +251,11 @@ function main() {
     .slice(0, 5)
     .map(repo => ({
       name: repo.name.split('/').pop() || repo.name,
+      fullName: repo.fullName || repo.name,
       stars: parseTotalStars(repo.total_stars),
       language: repo.language || 'Unknown',
       delta: parseStarDelta(repo.stars_today),
+      url: repo.url || (repo.fullName ? `https://github.com/${repo.fullName}` : undefined),
     }));
 
   // Insights (from editorial layer, fallback to HN titles)
@@ -236,11 +264,13 @@ function main() {
         text,
         tags: extractTagsFromInsight(text),
         source: extractSourceFromInsight(text),
+        url: extractUrlFromInsight(text),
       }))
     : hnStories.slice(0, 6).map(story => ({
         text: `${story.title} (${story.points} pts, ${story.comments} comments)`,
         tags: ['hacker-news'],
         source: `HN ${story.points}pts`,
+        url: story.url || story.hn_url,
       }));
 
   // Headlines (top 3 insights with metrics)
