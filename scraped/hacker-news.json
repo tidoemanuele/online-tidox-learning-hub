@@ -9,6 +9,118 @@
   },
   {
     "rank": 2,
+    "title": "Productivity isn't about going faster",
+    "url": "https://humanpro.co/articles/productivity-isnt-about-going-faster/",
+    "hn_url": "https://news.ycombinator.com/item?id=48103871",
+    "points": 40,
+    "comments": 15
+  },
+  {
+    "rank": 3,
+    "title": "They Live (1988) inspired Adblocker",
+    "url": "https://github.com/davmlaw/they_live_adblocker",
+    "hn_url": "https://news.ycombinator.com/item?id=48102700",
+    "points": 110,
+    "comments": 19
+  },
+  {
+    "rank": 4,
+    "title": "Claude Platform on AWS",
+    "url": "https://claude.com/blog/claude-platform-on-aws",
+    "hn_url": "https://news.ycombinator.com/item?id=48103042",
+    "points": 99,
+    "comments": 43
+  },
+  {
+    "rank": 5,
+    "title": "If AI writes your code, why use Python?",
+    "url": "https://medium.com/@NMitchem/if-ai-writes-your-code-why-use-python-bf8c4ba1a055",
+    "hn_url": "https://news.ycombinator.com/item?id=48100433",
+    "points": 348,
+    "comments": 354
+  },
+  {
+    "rank": 6,
+    "title": "UCLA discovers first stroke rehabilitation drug to repair brain damage (2025)",
+    "url": "https://stemcell.ucla.edu/news/ucla-discovers-first-stroke-rehabilitation-drug-repair-brain-damage",
+    "hn_url": "https://news.ycombinator.com/item?id=48098261",
+    "points": 290,
+    "comments": 60
+  },
+  {
+    "rank": 7,
+    "title": "Software Internals Book Club",
+    "url": "https://eatonphil.com/bookclub.html",
+    "hn_url": "https://news.ycombinator.com/item?id=48103511",
+    "points": 50,
+    "comments": 10
+  },
+  {
+    "rank": 8,
+    "title": "Show HN: A modern Music Player Daemon based on Rockbox firmware",
+    "url": "https://github.com/tsirysndr/rockbox-zig",
+    "hn_url": "https://news.ycombinator.com/item?id=48074668",
+    "points": 54,
+    "comments": 7
+  },
+  {
+    "rank": 9,
+    "title": "Boriel BASIC",
+    "url": "https://zxbasic.readthedocs.io/en/docs/",
+    "hn_url": "https://news.ycombinator.com/item?id=48074589",
+    "points": 14,
+    "comments": 1
+  },
+  {
+    "rank": 10,
+    "title": "I let AI build a tool to help me figure out what was waking me up at night",
+    "url": "https://martin.sh/i-let-ai-build-a-tool-to-help-me-figure-out-what-was-waking-me-up-at-night/",
+    "hn_url": "https://news.ycombinator.com/item?id=48100662",
+    "points": 125,
+    "comments": 138
+  },
+  {
+    "rank": 11,
+    "title": "Google says criminal hackers used AI to find a major software flaw",
+    "url": "https://www.nytimes.com/2026/05/11/us/politics/google-hackers-attack-ai.html",
+    "hn_url": "https://news.ycombinator.com/item?id=48094641",
+    "points": 151,
+    "comments": 113
+  },
+  {
+    "rank": 12,
+    "title": "A lost ancient script reveals how writing as we know it began",
+    "url": "https://www.newscientist.com/article/2524042-a-lost-ancient-script-reveals-how-writing-as-we-know-it-really-began/",
+    "hn_url": "https://news.ycombinator.com/item?id=48052710",
+    "points": 36,
+    "comments": 9
+  },
+  {
+    "rank": 13,
+    "title": "Nullsoft, 1997-2004 (2004)",
+    "url": "https://slate.com/technology/2004/11/the-death-of-the-last-maverick-tech-company.html",
+    "hn_url": "https://news.ycombinator.com/item?id=48060077",
+    "points": 259,
+    "comments": 75
+  },
+  {
+    "rank": 14,
+    "title": "Library for fast mapping of Java records to native memory",
+    "url": "https://github.com/mamba-studio/TypedMemory",
+    "hn_url": "https://news.ycombinator.com/item?id=48099616",
+    "points": 127,
+    "comments": 27
+  },
+  {
+    "rank": 15,
+    "title": "High-precision HDC reference instrument for the Sol Star System",
+    "url": "https://pypi.org/project/ephemerides-spectral/",
+    "hn_url": "https://news.ycombinator.com/item?id=48081634",
+    "points": 4,
+    "comments": 0
+  },
+  {
+    "rank": 16,
     "title": "GitLab announces workforce reduction and end of their CREDIT values",
     "url": "https://about.gitlab.com/blog/gitlab-act-2/",
     "hn_url": "https://news.ycombinator.com/item?id=48100500",
@@ -16,35 +128,35 @@
     "comments": 452
   },
   {
-    "rank": 3,
-    "title": "If AI writes your code, why use Python?",
-    "url": "https://medium.com/@NMitchem/if-ai-writes-your-code-why-use-python-bf8c4ba1a055",
-    "hn_url": "https://news.ycombinator.com/item?id=48031684",
-    "points": 348,
-    "comments": 354
+    "rank": 17,
+    "title": "Interaction Models",
+    "url": "https://thinkingmachines.ai/blog/interaction-models/",
+    "hn_url": "https://news.ycombinator.com/item?id=48100524",
+    "points": 168,
+    "comments": 21
   },
   {
-    "rank": 4,
-    "title": "UCLA discovers first stroke rehabilitation drug to repair brain damage (2025)",
-    "url": "https://stemcell.ucla.edu/news/ucla-discovers-first-stroke-rehabilitation-drug-repair-brain-damage",
-    "hn_url": "https://news.ycombinator.com/item?id=48027897",
-    "points": 290,
-    "comments": 60
+    "rank": 18,
+    "title": "Griffin PowerMate driver for modern macOS",
+    "url": "https://github.com/jameslockman/Griffin-PowerMate-Driver",
+    "hn_url": "https://news.ycombinator.com/item?id=48100970",
+    "points": 65,
+    "comments": 23
   },
   {
-    "rank": 5,
-    "title": "Google says criminal hackers used AI to find a major software flaw",
-    "url": "https://www.nytimes.com/2026/05/11/us/politics/google-hackers-attack-ai.html",
-    "hn_url": "https://news.ycombinator.com/item?id=48024540",
-    "points": 151,
-    "comments": 113
+    "rank": 19,
+    "title": "VGA Memory Access Is Complicated",
+    "url": "https://www.os2museum.com/wp/learn-something-old-every-day-part-xxi-vga-memory-access-is-complicated/",
+    "hn_url": "https://news.ycombinator.com/item?id=48076798",
+    "points": 38,
+    "comments": 5
   },
   {
-    "rank": 6,
-    "title": "Claude Platform on AWS",
-    "url": "https://claude.com/blog/claude-platform-on-aws",
-    "hn_url": "https://news.ycombinator.com/item?id=48030964",
-    "points": 99,
-    "comments": 43
+    "rank": 20,
+    "title": "Extremely Low Frequencies",
+    "url": "https://computer.rip/2026-05-09-extremely-low-frequencies.html",
+    "hn_url": "https://news.ycombinator.com/item?id=48104041",
+    "points": 7,
+    "comments": 0
   }
 ]

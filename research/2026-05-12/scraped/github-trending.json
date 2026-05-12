@@ -2,7 +2,7 @@
   {
     "name": "antirez/ds4",
     "fullName": "antirez/ds4",
-    "description": "DeepSeek 4 Flash local inference engine for Metal and CUDA",
+    "description": "DeepSeek 4 Flash local inference engine for Metal and CUDA — disk-based KV cache, 1M token context, 2-bit quant, activation steering",
     "language": "C",
     "stars_today": "892 stars today",
     "total_stars": "14300",
@@ -11,7 +11,7 @@
   {
     "name": "anomalyco/opencode",
     "fullName": "anomalyco/opencode",
-    "description": "The open source AI coding agent",
+    "description": "The open source AI coding agent — provider-agnostic, runs in terminal, IDE, or desktop",
     "language": "TypeScript",
     "stars_today": "743 stars today",
     "total_stars": "151000",
@@ -20,7 +20,7 @@
   {
     "name": "github/spec-kit",
     "fullName": "github/spec-kit",
-    "description": "Toolkit to help you get started with Spec-Driven Development",
+    "description": "Toolkit to help you get started with Spec-Driven Development for AI coding agents",
     "language": "JavaScript",
     "stars_today": "618 stars today",
     "total_stars": "91200",
@@ -29,7 +29,7 @@
   {
     "name": "forrestchang/andrej-karpathy-skills",
     "fullName": "forrestchang/andrej-karpathy-skills",
-    "description": "A single CLAUDE.md file to improve Claude Code behavior",
+    "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls",
     "language": "Markdown",
     "stars_today": "531 stars today",
     "total_stars": "117700",
@@ -38,10 +38,19 @@
   {
     "name": "simstudioai/sim",
     "fullName": "simstudioai/sim",
-    "description": "Build, deploy, and orchestrate AI agents",
+    "description": "Build, deploy, and orchestrate AI agents. Sim is the central intelligence layer for your AI workforce.",
     "language": "TypeScript",
     "stars_today": "412 stars today",
     "total_stars": "28400",
     "url": "https://github.com/simstudioai/sim"
+  },
+  {
+    "name": "TanStack/router",
+    "fullName": "TanStack/router",
+    "description": "Modern and scalable filesystem and type-safe router for React",
+    "language": "TypeScript",
+    "stars_today": "389 stars today",
+    "total_stars": "29100",
+    "url": "https://github.com/TanStack/router"
   }
 ]

@@ -2,22 +2,148 @@
   {
     "title": "Mythos finds a curl vulnerability",
     "score": 131,
-    "tags": ["security", "vibecoding"],
+    "tags": [
+      "security",
+      "vibecoding"
+    ],
     "url": "https://daniel.haxx.se/blog/2026/05/11/mythos-finds-a-curl-vulnerability/",
-    "comments_url": "https://lobste.rs/s/mythos-curl"
+    "comments_url": "https://lobste.rs/s/am7evd/mythos_finds_curl_vulnerability"
   },
   {
     "title": "Ratty: A terminal emulator with inline 3D graphics",
     "score": 47,
-    "tags": ["graphics", "rust", "show"],
+    "tags": [
+      "graphics",
+      "rust",
+      "show",
+      "vibecoding"
+    ],
     "url": "https://ratty-term.org/",
-    "comments_url": "https://lobste.rs/s/ratty"
+    "comments_url": "https://lobste.rs/s/ij94sb/ratty_terminal_emulator_with_inline_3d"
   },
   {
     "title": "Zig vs Rust in 2026",
     "score": 17,
-    "tags": ["rust", "zig"],
+    "tags": [
+      "rust",
+      "vibecoding",
+      "zig"
+    ],
     "url": "https://zackoverflow.dev/writing/zig-vs-rust-in-2026/",
-    "comments_url": "https://lobste.rs/s/zig-rust-2026"
+    "comments_url": "https://lobste.rs/s/fnhsha/zig_vs_rust_2026"
+  },
+  {
+    "title": "Gram 2.0.0 released",
+    "score": 38,
+    "tags": [
+      "editors",
+      "release"
+    ],
+    "url": "https://gram-editor.com/posts/release-2.0-0/",
+    "comments_url": "https://lobste.rs/s/5jdbwv/gram_2_0_0_released"
+  },
+  {
+    "title": "taken",
+    "score": 13,
+    "tags": [
+      "privacy",
+      "web"
+    ],
+    "url": "https://sinceyouarrived.world/taken",
+    "comments_url": "https://lobste.rs/s/b8gee9/taken"
+  },
+  {
+    "title": "Moving from lsp-mode in GNU Emacs to Eglot",
+    "score": 23,
+    "tags": [
+      "emacs"
+    ],
+    "url": "https://utcc.utoronto.ca/~cks/space/blog/programming/EmacsLspModeToEglot",
+    "comments_url": "https://lobste.rs/s/bojb9a/moving_from_lsp_mode_gnu_emacs_eglot"
+  },
+  {
+    "title": "Fully Preserving Fisher-Price Pixter",
+    "score": 46,
+    "tags": [
+      "retrocomputing",
+      "reversing"
+    ],
+    "url": "https://dmitry.gr/?r=05.Projects&proj=37.%20Pixter",
+    "comments_url": "https://lobste.rs/s/jqr0fm/fully_preserving_fisher_price_pixter"
+  },
+  {
+    "title": "Programmable Whitelist-based Configs: Embedding Rye in Go",
+    "score": 16,
+    "tags": [
+      "programming"
+    ],
+    "url": "https://ryelang.org/blog/posts/whitelist-config-with-rye/",
+    "comments_url": "https://lobste.rs/s/vxf6cq/programmable_whitelist_based_configs"
+  },
+  {
+    "title": "The anti-minimalist backlash is the bigger story behind Oxygen’s revival",
+    "score": 21,
+    "tags": [
+      "design"
+    ],
+    "url": "https://filipfila.wordpress.com/2026/05/10/the-anti-minimalist-backlash-is-the-bigger-story-behind-oxygens-revival/",
+    "comments_url": "https://lobste.rs/s/4guexz/anti_minimalist_backlash_is_bigger_story"
+  },
+  {
+    "title": "\"Respectful\" YAML patching in Rust",
+    "score": 7,
+    "tags": [
+      "rust"
+    ],
+    "url": "https://verrchu.github.io/blog/2-respectful-yaml-patching-in-rust/",
+    "comments_url": "https://lobste.rs/s/fwutce/respectful_yaml_patching_rust"
+  },
+  {
+    "title": "The Cathedral, the Bazaar and the Kitchen",
+    "score": 6,
+    "tags": [
+      "vibecoding"
+    ],
+    "url": "https://blog.vrypan.net/2026/05/11/the-cathedral-the-bazaar-and-the-kitchen/",
+    "comments_url": "https://lobste.rs/s/iaankl/cathedral_bazaar_kitchen"
+  },
+  {
+    "title": "Popular Go library fsnotify raises supply chain alarms after maintainer access changes",
+    "score": 5,
+    "tags": [
+      "go",
+      "security"
+    ],
+    "url": "https://socket.dev/blog/fsnotify-maintainer-dispute-sparks-supply-chain-concerns",
+    "comments_url": "https://lobste.rs/s/7rpqbo/popular_go_library_fsnotify_raises"
+  },
+  {
+    "title": "Local AI Needs to be the Norm",
+    "score": 22,
+    "tags": [
+      "vibecoding"
+    ],
+    "url": "https://unix.foo/posts/local-ai-needs-to-be-norm/",
+    "comments_url": "https://lobste.rs/s/jchezk/local_ai_needs_be_norm"
+  },
+  {
+    "title": "Fighting Hyrum's Law in LLVM",
+    "score": 14,
+    "tags": [
+      "compilers",
+      "practices"
+    ],
+    "url": "https://maskray.me/blog/2026-05-10-fighting-hyrums-law-in-llvm",
+    "comments_url": "https://lobste.rs/s/wugfx4/fighting_hyrum_s_law_llvm"
+  },
+  {
+    "title": "What is random generation?",
+    "score": 6,
+    "tags": [
+      "programming",
+      "testing"
+    ],
+    "url": "https://alperenkeles.com/posts/what-is-random-generation/",
+    "comments_url": "https://lobste.rs/s/wubhf9/what_is_random_generation"
   }
 ]
