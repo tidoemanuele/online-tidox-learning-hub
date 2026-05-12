@@ -3,61 +3,59 @@
   "episodeNumber": 45,
   "locale": "en-US",
   "title": "Intelligence Brief",
-  "subtitle": "TanStack npm supply-chain compromise reaches 730 H, GitLab announces workforce reduction and retires i, 'If AI writes your code, why use Python?' reaches ",
+  "subtitle": "Postmortem: TanStack NPM supply-chain compromise, Productivity isn't about going faster, They Live inspired Adblocker",
   "heroStat": {
     "value": "706",
     "label": "points on \"Postmortem: TanStack NPM supply-chain compromise\""
   },
   "insights": [
     {
-      "text": "TanStack npm supply-chain compromise reaches 730 HN pts / 269 comments — the most sophisticated npm attack ever documented. TeamPCP's Mini Shai-Hulud worm combined GitHub Actions cache poisoning, OIDC token theft, and autonomous republication to infect 401 malicious versions across 170+ packages in six minutes. @tanstack/react-router alone has 12M+ weekly downloads. This is TeamPCP's fifth supply-chain attack of 2026 (after Trivy, Bitwarden CLI, Axios, PyTorch Lightning) and the first to self-propagate — the attacker no longer needs to compromise each package individually; the worm autonomously steals npm tokens from CI environments and republishes itself under stolen maintainer identities.",
+      "text": "Postmortem: TanStack NPM supply-chain compromise (706 pts, 260 comments)",
       "tags": [
-        "github-trending"
+        "hacker-news"
       ],
-      "source": "HN 730pts"
+      "source": "HN 706pts",
+      "url": "https://tanstack.com/blog/npm-supply-chain-compromise-postmortem"
     },
     {
-      "text": "GitLab announces workforce reduction and retires its CREDIT values at 441 HN pts / 461 comments — the highest comment-to-point ratio on today's front page (1.05:1). CEO Sid Sijbrandij's memo frames the restructuring as preparation for 'the agentic era,' reducing the geographic footprint by 30%, flattening management by up to three layers, and reorganizing R&D into ~60 smaller teams. This is the third consecutive week a major tech company explicitly attributes layoffs to AI agents — Cloudflare 1,100 (May 8), Meta 8,000 (May 10), GitLab (May 12) — making AI-attributed workforce reduction a weekly cadence rather than an event.",
+      "text": "Productivity isn't about going faster (40 pts, 15 comments)",
       "tags": [
-        "agents"
+        "hacker-news"
       ],
-      "source": "HN 441pts"
+      "source": "HN 40pts",
+      "url": "https://humanpro.co/articles/productivity-isnt-about-going-faster/"
     },
     {
-      "text": "'If AI writes your code, why use Python?' reaches 371 HN pts / 381 comments — a 1.03:1 comment-to-point ratio indicating intense active debate. Noah Mitchem's thesis: AI models write better Rust than C++ because the compiler feedback loop is so tight that models self-correct in real time — every error message is a free training signal. Claude Opus 4.7, GPT-5.5, Gemini 3.1, and DeepSeek V4 all cleared 80% on SWE-bench Verified in Rust within weeks of each other. The argument inverts the historical dynamic: languages that were hardest for humans turn out to be easiest for agents, because strongly-typed compilers provide denser feedback per iteration.",
+      "text": "They Live (1988) inspired Adblocker (110 pts, 19 comments)",
       "tags": [
-        "agents",
-        "rust"
+        "hacker-news"
       ],
-      "source": "HN 371pts"
+      "source": "HN 110pts",
+      "url": "https://github.com/davmlaw/they_live_adblocker"
     },
     {
-      "text": "OpenAI launches Daybreak on May 11 — its direct answer to Anthropic's Mythos and Project Glasswing, using three GPT-5.5 variants (standard, Trusted Access for Cyber, and GPT-5.5-Cyber) for AI-powered vulnerability discovery and threat modeling. Daybreak uses Codex Security to build editable threat models from source repositories and automates monitoring for high-risk vulnerabilities. Two AI labs now offer enterprise cyber defense products within weeks of each other — Anthropic's Mythos found nearly 300 Firefox zero-days; Daybreak integrates defense into the development loop. The White House executive order on AI security now has two commercial implementations to reference or regulate.",
+      "text": "Claude Platform on AWS (99 pts, 43 comments)",
       "tags": [
-        "security",
-        "rust"
-      ]
-    },
-    {
-      "text": "Canvas/Instructure ransom saga resolves and escalates simultaneously — Instructure announced on May 11 it paid ShinyHunters for 'digital confirmation of data destruction,' but The Register confirmed on May 12 that ShinyHunters re-compromised Canvas on May 7, replacing the login page with a ransomware message despite Instructure's May 2 claim of containment. This is ShinyHunters' third Instructure breach (September 2025 Salesforce, April 2026 Canvas 275M records, May 7 second Canvas intrusion). Paying a ransom to the same group that breached you twice before, while a third breach was already underway, is the definitive case study in why ransomware payment is structural futility.",
-      "tags": [
-        "security",
-        "fintech"
-      ]
-    },
-    {
-      "text": "Claude Platform reaches general availability on AWS — native Anthropic experience through IAM auth, CloudTrail audit logging, and single-invoice billing across 18 regions (110 HN pts / 49 comments). The first AI lab to offer its complete native platform as a first-class AWS service — not an API proxy through Bedrock, but the full development experience including Managed Agents, MCP connector, Skills, and prompt caching. Anthropic now has two distinct AWS go-to-market paths, and enterprises can consolidate their Anthropic spend into existing AWS invoicing without losing any features.",
-      "tags": [
-        "agents"
+        "hacker-news"
       ],
-      "source": "HN 110pts"
+      "source": "HN 99pts",
+      "url": "https://claude.com/blog/claude-platform-on-aws"
     },
     {
-      "text": "'Training an LLM in Swift, Part 1: Taking matrix mult from Gflop/s to Tflop/s' reaches 230 HN pts with an unusual 19:1 point-to-comment ratio — the community is bookmarking, not debating. Matt Gallagher's cocoawithlove.com series walks through handwritten matrix multiplication optimizations on Apple Silicon from naive Swift to Metal compute shaders. On a front page where the Python-vs-Rust debate rages at 371 pts, a Swift-on-Metal LLM training tutorial validates the broader thesis: the language landscape for AI development is diversifying beyond Python, and the community rewards deep technical content about alternative stacks.",
+      "text": "If AI writes your code, why use Python? (348 pts, 354 comments)",
       "tags": [
-        "rust"
+        "hacker-news"
       ],
-      "source": "HN 230pts"
+      "source": "HN 348pts",
+      "url": "https://medium.com/@NMitchem/if-ai-writes-your-code-why-use-python-bf8c4ba1a055"
+    },
+    {
+      "text": "UCLA discovers first stroke rehabilitation drug to repair brain damage (2025) (290 pts, 60 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 290pts",
+      "url": "https://stemcell.ucla.edu/news/ucla-discovers-first-stroke-rehabilitation-drug-repair-brain-damage"
     }
   ],
   "trending": [
@@ -120,7 +118,7 @@
     },
     {
       "label": "Insights Today",
-      "value": "7",
+      "value": "6",
       "unit": "stories"
     }
   ],
@@ -131,17 +129,17 @@
     },
     "headlines": [
       {
-        "text": "TanStack npm supply-chain compromise reaches 730 HN pts / 269 comments",
+        "text": "Postmortem: TanStack NPM supply-chain compromise",
         "metric": "—",
         "source": "web"
       },
       {
-        "text": "GitLab announces workforce reduction and retires its CREDIT values at 441 HN pts / 461 comments",
+        "text": "Productivity isn't about going faster",
         "metric": "—",
         "source": "web"
       },
       {
-        "text": "'If AI writes your code, why use Python?' reaches 371 HN pts / 381 comments",
+        "text": "They Live inspired Adblocker",
         "metric": "—",
         "source": "web"
       }
