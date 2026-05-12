@@ -1,0 +1,82 @@
+{
+  "date": "2026-05-12",
+  "episodeNumber": 44,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "Postmortem: TanStack npm supply-chain compromise r, GitLab announces workforce reduction and end of th, If AI writes your code, why use Python? reaches 34",
+  "heroStat": {
+    "value": "706",
+    "label": "points on \"Postmortem: TanStack NPM supply-chain compromise\""
+  },
+  "insights": [
+    {
+      "text": "Postmortem: TanStack npm supply-chain compromise reaches 706 HN pts (260 comments, 0.37:1 comment-to-point ratio) — the day's top story and the most technically detailed supply chain attack analysis published by a major open-source project in 2026.",
+      "tags": ["security", "supply-chain", "github-trending"],
+      "source": "HN 706pts",
+      "url": "https://tanstack.com/blog/npm-supply-chain-compromise-postmortem"
+    },
+    {
+      "text": "GitLab announces workforce reduction and end of their CREDIT values reaches 428 HN pts (452 comments, 1.06:1 comment-to-point ratio) — more comments than upvotes, the deep-debate pattern.",
+      "tags": ["agents"],
+      "source": "HN 428pts",
+      "url": "https://about.gitlab.com/blog/gitlab-act-2/"
+    },
+    {
+      "text": "If AI writes your code, why use Python? reaches 348 HN pts (354 comments, 1.02:1 ratio) — near-perfect tie, the marker for a genuinely open question.",
+      "tags": ["agents", "research"],
+      "source": "HN 348pts",
+      "url": "https://medium.com/@NMitchem/if-ai-writes-your-code-why-use-python-bf8c4ba1a055"
+    },
+    {
+      "text": "Google says criminal hackers used AI to find a major software flaw reaches 151 HN pts — first confirmed AI-generated zero-day in the criminal ecosystem.",
+      "tags": ["security", "research"],
+      "source": "HN 151pts",
+      "url": "https://www.nytimes.com/2026/05/11/us/politics/google-hackers-attack-ai.html"
+    },
+    {
+      "text": "antirez/ds4 surges to +892 stars/day on GitHub Trending after shipping CUDA path and single-direction activation steering. Source: https://github.com/antirez/ds4",
+      "tags": ["github-trending", "claude-code", "agents"],
+      "source": "GitHub +892/day",
+      "url": "https://github.com/antirez/ds4"
+    },
+    {
+      "text": "Claude Platform on AWS reaches 99 HN pts — GA of Anthropic native platform through AWS accounts, 18 regions, no separate contracts. Source: https://claude.com/blog/claude-platform-on-aws",
+      "tags": ["agents"],
+      "source": "HN 99pts",
+      "url": "https://claude.com/blog/claude-platform-on-aws"
+    },
+    {
+      "text": "Mythos finds a curl vulnerability reaches 131 Lobsters pts — AI-powered fuzzing finds real vuln in the most audited network library on 20 billion devices. Source: https://daniel.haxx.se/blog/2026/05/11/mythos-finds-a-curl-vulnerability/",
+      "tags": ["security", "research", "open-source"],
+      "url": "https://daniel.haxx.se/blog/2026/05/11/mythos-finds-a-curl-vulnerability/"
+    },
+    {
+      "text": "UCLA discovers first stroke rehabilitation drug to repair brain damage reaches 290 HN pts (60 comments, 0.21:1 ratio) — widest endorsement, lowest debate in today's dataset. Source: https://stemcell.ucla.edu/news/ucla-discovers-first-stroke-rehabilitation-drug-repair-brain-damage",
+      "tags": ["research"],
+      "source": "HN 290pts",
+      "url": "https://stemcell.ucla.edu/news/ucla-discovers-first-stroke-rehabilitation-drug-repair-brain-damage"
+    }
+  ],
+  "trending": [
+    {"name": "ds4", "fullName": "antirez/ds4", "stars": "14.3K", "language": "C", "delta": "+892/d", "url": "https://github.com/antirez/ds4"},
+    {"name": "opencode", "fullName": "anomalyco/opencode", "stars": "151K", "language": "TypeScript", "delta": "+743/d", "url": "https://github.com/anomalyco/opencode"},
+    {"name": "spec-kit", "fullName": "github/spec-kit", "stars": "91.2K", "language": "JavaScript", "delta": "+618/d", "url": "https://github.com/github/spec-kit"},
+    {"name": "andrej-karpathy-skills", "fullName": "forrestchang/andrej-karpathy-skills", "stars": "118K", "language": "Markdown", "delta": "+531/d", "url": "https://github.com/forrestchang/andrej-karpathy-skills"},
+    {"name": "sim", "fullName": "simstudioai/sim", "stars": "28.4K", "language": "TypeScript", "delta": "+412/d", "url": "https://github.com/simstudioai/sim"}
+  ],
+  "numbers": [
+    {"label": "Top HN Story", "value": "706", "unit": "pts"},
+    {"label": "Fastest Repo", "value": "892", "unit": "stars/day"},
+    {"label": "Sources Scraped", "value": "3", "unit": "sites"},
+    {"label": "Insights Today", "value": "8", "unit": "stories"}
+  ],
+  "scenes": {
+    "masthead": {"title": "INTELLIGENCE BRIEF", "subtitle": "May 12, 2026"},
+    "headlines": [
+      {"text": "Postmortem: TanStack npm supply-chain compromise reaches 706 HN pts", "metric": "—", "source": "web"},
+      {"text": "GitLab announces workforce reduction and end of their CREDIT values reaches 428 HN pts", "metric": "—", "source": "web"},
+      {"text": "If AI writes your code, why use Python? reaches 348 HN pts", "metric": "—", "source": "web"}
+    ],
+    "takeaway": {"text": "Today's brief covers the most interesting signals across the tech landscape."}
+  }
+}
