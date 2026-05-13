@@ -1,0 +1,56 @@
+[
+  {
+    "name": "cactus-compute/needle",
+    "fullName": "cactus-compute/needle",
+    "description": "26M parameter function-call model distilled from Gemini — single-shot tool calling that runs on phones, watches, and edge devices",
+    "language": "Python",
+    "stars_today": "1247 stars today",
+    "total_stars": "3100",
+    "url": "https://github.com/cactus-compute/needle"
+  },
+  {
+    "name": "mattpocock/skills",
+    "fullName": "mattpocock/skills",
+    "description": "Skills for Real Engineers — curated Claude Code skill collection straight from Matt Pocock's .claude directory",
+    "language": "Shell",
+    "stars_today": "983 stars today",
+    "total_stars": "27400",
+    "url": "https://github.com/mattpocock/skills"
+  },
+  {
+    "name": "nexu-io/open-design",
+    "fullName": "nexu-io/open-design",
+    "description": "Local-first open-source alternative to Claude Design — 19 skills and 71 brand-grade design systems for generating web, desktop, and mobile prototypes",
+    "language": "TypeScript",
+    "stars_today": "731 stars today",
+    "total_stars": "29800",
+    "url": "https://github.com/nexu-io/open-design"
+  },
+  {
+    "name": "FULU-Foundation/OrcaSlicer-bambulab",
+    "fullName": "FULU-Foundation/OrcaSlicer-bambulab",
+    "description": "OrcaSlicer fork restoring full BambuNetwork support for Bambu Lab printers — community response to Bambu Lab locking out third-party slicers",
+    "language": "C++",
+    "stars_today": "612 stars today",
+    "total_stars": "4800",
+    "url": "https://github.com/FULU-Foundation/OrcaSlicer-bambulab"
+  },
+  {
+    "name": "forrestchang/andrej-karpathy-skills",
+    "fullName": "forrestchang/andrej-karpathy-skills",
+    "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls",
+    "language": "Markdown",
+    "stars_today": "418 stars today",
+    "total_stars": "118100",
+    "url": "https://github.com/forrestchang/andrej-karpathy-skills"
+  },
+  {
+    "name": "tracewayapp/traceway",
+    "fullName": "tracewayapp/traceway",
+    "description": "MIT-licensed observability stack you can self-host in ~90 seconds — traces, metrics, and logs with zero vendor lock-in",
+    "language": "TypeScript",
+    "stars_today": "389 stars today",
+    "total_stars": "2900",
+    "url": "https://github.com/tracewayapp/traceway"
+  }
+]
