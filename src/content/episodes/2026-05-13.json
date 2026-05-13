@@ -3,61 +3,59 @@
   "episodeNumber": 46,
   "locale": "en-US",
   "title": "Intelligence Brief",
-  "subtitle": "Bambu Lab's open-source betrayal reaches 1,190 HN , Google's Android Show reveals Googlebook at 714 HN, 'Show HN: Needle",
+  "subtitle": "Deterministic Fully-Static Whole-Binary Translatio, Restore full BambuNetwork support for Bambu Lab pr, Googlebook",
   "heroStat": {
-    "value": "26M",
-    "label": "model"
+    "value": "706",
+    "label": "points on \"Googlebook\""
   },
   "insights": [
     {
-      "text": "Bambu Lab's open-source betrayal reaches 1,190 HN pts / 380 comments — the company shipped firmware locking third-party software out of their 3D printers after building market position on open-source community contributions. A second story, 'Restore full BambuNetwork support for Bambu Lab printers,' hits 335 pts / 139 comments within hours — the community is not just debating; it's building counter-infrastructure in real time. 1,190 pts makes this the highest-scoring open-source controversy of May 2026 and follows the same pattern as Ghostty's GitHub departure (2,294 pts April 29): when platforms close what was open, the community forks rather than fights.",
+      "text": "Deterministic Fully-Static Whole-Binary Translation Without Heuristics (64 pts, 8 comments)",
       "tags": [
-        "github-trending",
-        "open-source"
+        "hacker-news"
       ],
-      "source": "HN 190pts"
+      "source": "HN 64pts",
+      "url": "https://arxiv.org/abs/2605.08419"
     },
     {
-      "text": "Google's Android Show reveals Googlebook at 714 HN pts / 1,195 comments — a 1.67:1 comment-to-point ratio, the highest engagement density on today's front page by 3x. A new laptop category designed around Gemini AI with Aluminium OS (the Android/ChromeOS merger), five OEMs launching Fall 2026, and Android 17 reframed from 'operating system' to 'intelligent system.' 1,195 comments on a hardware announcement means the community reads this as a platform control story — Google embedding AI at the OS layer on laptops raises the same autonomy concerns that drove reCAPTCHA (852 pts May 9) and 'Your phone is about to stop being yours' (1,248 pts April 29) to the top.",
-      "tags": [],
-      "source": "HN 714pts"
-    },
-    {
-      "text": "'Show HN: Needle — We Distilled Gemini Tool Calling into a 26M Model' reaches 386 HN pts / 136 comments — the smallest functional tool-calling model ever demonstrated. Six months ago, tool calling required frontier-scale models (100B+ parameters); Needle achieves it at 26M — a 4,000x compression ratio. If tool calling works at 26M parameters, the 'agent needs a cloud API' assumption is obsolete. Combined with the open-weight cost-arbitrage movement (DeepSeek V4, Kimi K2.6, Qwen 3.6-35B-A3B) and the local-first infrastructure surge (OpenClaw at 210,000+ stars), the path to fully local agent execution now covers both reasoning and tool calling.",
+      "text": "Restore full BambuNetwork support for Bambu Lab printers (318 pts, 133 comments)",
       "tags": [
-        "agents"
+        "hacker-news"
       ],
-      "source": "HN 386pts"
+      "source": "HN 318pts",
+      "url": "https://github.com/FULU-Foundation/OrcaSlicer-bambulab"
     },
     {
-      "text": "Three independent patch events resolve weeks of accumulated vulnerability exposure in a single news cycle: PAN-OS CVE-2026-0300 patches finally ship after a week-long active-exploitation window (CVSS 9.3, staggered rollout through May 28), Microsoft patches 137 vulnerabilities on Patch Tuesday (12 rated 'exploitation more likely,' two Word RCE flaws at CVSS 8.4), and CERT discloses six critical dnsmasq CVEs (284 HN pts / 130 comments) affecting DNS/DHCP for millions of embedded devices and routers. Operations teams must triage across firewall, OS, and DNS layers simultaneously — coordinated disclosure's accidental pile-up degrades rather than improves collective security posture.",
+      "text": "Googlebook (706 pts, 1183 comments)",
       "tags": [
-        "security"
+        "hacker-news"
       ],
-      "source": "HN 284pts"
+      "source": "HN 706pts",
+      "url": "https://googlebook.google/"
     },
     {
-      "text": "CERT's six dnsmasq CVEs reach 284 HN pts / 130 comments — the broadest dnsmasq disclosure since 2020, affecting DNS, DHCP, and network boot for millions of embedded devices, routers, and containers. In a 2026 context where AI agents increasingly depend on reliable DNS resolution for tool calling and API access, infrastructure-layer vulnerabilities in dnsmasq carry cascading risk beyond traditional networking: a compromised resolver can redirect agent API calls, poison tool-calling responses, and undermine the trust assumptions that agentic workflows depend on.",
+      "text": "The vi family (77 pts, 25 comments)",
       "tags": [
-        "security",
-        "agents",
-        "rust"
+        "hacker-news"
       ],
-      "source": "HN 284pts"
+      "source": "HN 77pts",
+      "url": "https://lpar.ATH0.com/posts/2026/05/the-vi-family/"
     },
     {
-      "text": "GitHub Trending: nexu-io/open-design surges to 35,500+ stars (16,804 gained in May alone) — a local-first, open-source alternative to Claude Design with 19 Skills and 71 brand-grade design systems, exporting to HTML/PDF/PPTX/MP4. Works with Claude Code, Cursor, and Gemini CLI. The design-system-as-skill category that first signaled on April 26 (huashu-design at +4,626/day) has matured from individual skills to a complete open-source platform competing directly with Anthropic's commercial design offering. Meanwhile, mattpocock/skills holds at 68,500+ total stars, and OpenClaw — the self-hosted agent platform — has surged from 9,000 to 210,000+ stars in 2026, the fastest-growing agent infrastructure project of the year.",
+      "text": "Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model (375 pts, 133 comments)",
       "tags": [
-        "github-trending",
-        "claude-code",
-        "agents"
+        "hacker-news"
       ],
-      "source": "GitHub +4,626/day"
+      "source": "HN 375pts",
+      "url": "https://github.com/cactus-compute/needle"
     },
     {
-      "text": "DeepMind's 'Reimagining the mouse pointer for the AI era' reaches 178 HN pts / 147 comments — a 0.83:1 comment-to-point ratio indicating the community is debating, not endorsing. On a front page where Bambu Lab's platform control hits 1,190 pts and Googlebook raises autonomy concerns, DeepMind proposing to redesign the most fundamental UI primitive — the cursor — reads as another front in the 'who controls the interface' debate. The sovereign-interface pattern from the past twelve weeks (Framework Laptop, StarFighter, TUIs, BYOMesh, Meshtastic) extends into the most basic interaction layer: the pointer itself.",
-      "tags": [],
-      "source": "HN 178pts"
+      "text": "Kraftwerk's radical 1976 track (110 pts, 45 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 110pts",
+      "url": "https://www.bbc.com/culture/article/20260511-kraftwerks-radical-1976-track-radioactivity-became-an-anti-nuclear-anthem"
     }
   ],
   "trending": [
@@ -120,7 +118,7 @@
     },
     {
       "label": "Insights Today",
-      "value": "7",
+      "value": "6",
       "unit": "stories"
     }
   ],
@@ -131,17 +129,17 @@
     },
     "headlines": [
       {
-        "text": "Bambu Lab's open-source betrayal reaches 1,190 HN pts / 380 comments",
+        "text": "Deterministic Fully-Static Whole-Binary Translation Without Heuristics",
         "metric": "—",
         "source": "web"
       },
       {
-        "text": "Google's Android Show reveals Googlebook at 714 HN pts / 1,195 comments",
+        "text": "Restore full BambuNetwork support for Bambu Lab printers",
         "metric": "—",
         "source": "web"
       },
       {
-        "text": "'Show HN: Needle",
+        "text": "Googlebook",
         "metric": "—",
         "source": "web"
       }
