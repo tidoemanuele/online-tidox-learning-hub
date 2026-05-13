@@ -1,0 +1,122 @@
+[
+  {
+    "rank": 1,
+    "title": "Deterministic Fully-Static Whole-Binary Translation Without Heuristics",
+    "url": "https://arxiv.org/abs/2605.08419",
+    "hn_url": "https://news.ycombinator.com/item?id=48117810",
+    "points": 64,
+    "comments": 8
+  },
+  {
+    "rank": 2,
+    "title": "Restore full BambuNetwork support for Bambu Lab printers",
+    "url": "https://github.com/FULU-Foundation/OrcaSlicer-bambulab",
+    "hn_url": "https://news.ycombinator.com/item?id=48115127",
+    "points": 318,
+    "comments": 133
+  },
+  {
+    "rank": 3,
+    "title": "Googlebook",
+    "url": "https://googlebook.google/",
+    "hn_url": "https://news.ycombinator.com/item?id=48111545",
+    "points": 706,
+    "comments": 1183
+  },
+  {
+    "rank": 4,
+    "title": "The vi family",
+    "url": "https://lpar.ATH0.com/posts/2026/05/the-vi-family/",
+    "hn_url": "https://news.ycombinator.com/item?id=48033483",
+    "points": 77,
+    "comments": 25
+  },
+  {
+    "rank": 5,
+    "title": "Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model",
+    "url": "https://github.com/cactus-compute/needle",
+    "hn_url": "https://news.ycombinator.com/item?id=48111896",
+    "points": 375,
+    "comments": 133
+  },
+  {
+    "rank": 6,
+    "title": "Kraftwerk's radical 1976 track",
+    "url": "https://www.bbc.com/culture/article/20260511-kraftwerks-radical-1976-track-radioactivity-became-an-anti-nuclear-anthem",
+    "hn_url": "https://news.ycombinator.com/item?id=48115823",
+    "points": 110,
+    "comments": 45
+  },
+  {
+    "rank": 7,
+    "title": "How to make your text look futuristic (2016)",
+    "url": "https://typesetinthefuture.com/2016/02/18/futuristic/",
+    "hn_url": "https://news.ycombinator.com/item?id=48113895",
+    "points": 286,
+    "comments": 34
+  },
+  {
+    "rank": 8,
+    "title": "My graduation cap runs Rust",
+    "url": "https://ericswpark.com/blog/2026/2026-05-12-my-graduation-cap-runs-rust/",
+    "hn_url": "https://news.ycombinator.com/item?id=48116207",
+    "points": 124,
+    "comments": 30
+  },
+  {
+    "rank": 9,
+    "title": "CERT is releasing six CVEs for serious security vulnerabilities in dnsmasq",
+    "url": "https://lists.thekelleys.org.uk/pipermail/dnsmasq-discuss/2026q2/018471.html",
+    "hn_url": "https://news.ycombinator.com/item?id=48112042",
+    "points": 281,
+    "comments": 127
+  },
+  {
+    "rank": 10,
+    "title": "Why senior developers fail to communicate their expertise",
+    "url": "https://www.nair.sh/guides-and-opinions/communicating-your-expertise/why-senior-developers-fail-to-communicate-their-expertise",
+    "hn_url": "https://news.ycombinator.com/item?id=48109460",
+    "points": 484,
+    "comments": 209
+  },
+  {
+    "rank": 11,
+    "title": "When \"idle\" isn't idle: how a Linux kernel optimization became a QUIC bug",
+    "url": "https://blog.cloudflare.com/quic-death-spiral-fix/",
+    "hn_url": "https://news.ycombinator.com/item?id=48116064",
+    "points": 61,
+    "comments": 2
+  },
+  {
+    "rank": 12,
+    "title": "Traceway: MIT-licensed observability stack you can self-host in ~90s",
+    "url": "https://github.com/tracewayapp/traceway",
+    "hn_url": "https://news.ycombinator.com/item?id=48091898",
+    "points": 51,
+    "comments": 3
+  },
+  {
+    "rank": 13,
+    "title": "Referer Reality",
+    "url": "https://www.robinsloan.com/lab/referer/",
+    "hn_url": "https://news.ycombinator.com/item?id=48087643",
+    "points": 26,
+    "comments": 6
+  },
+  {
+    "rank": 14,
+    "title": "Rendering the Sky, Sunsets, and Planets",
+    "url": "https://blog.maximeheckel.com/posts/on-rendering-the-sky-sunsets-and-planets/",
+    "hn_url": "https://news.ycombinator.com/item?id=48107997",
+    "points": 444,
+    "comments": 38
+  },
+  {
+    "rank": 15,
+    "title": "Quack: The DuckDB Client-Server Protocol",
+    "url": "https://duckdb.org/2026/05/12/quack-remote-protocol",
+    "hn_url": "https://news.ycombinator.com/item?id=48111765",
+    "points": 245,
+    "comments": 52
+  }
+]
