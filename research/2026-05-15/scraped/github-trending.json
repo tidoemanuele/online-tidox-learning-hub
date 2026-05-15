@@ -1,0 +1,92 @@
+[
+  {
+    "name": "openhuman",
+    "fullName": "tinyhumansai/openhuman",
+    "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful",
+    "language": "Rust",
+    "stars_today": "3,329 stars today",
+    "total_stars": "8071",
+    "url": "https://github.com/tinyhumansai/openhuman"
+  },
+  {
+    "name": "agentmemory",
+    "fullName": "rohitg00/agentmemory",
+    "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
+    "language": "TypeScript",
+    "stars_today": "1,879 stars today",
+    "total_stars": "9184",
+    "url": "https://github.com/rohitg00/agentmemory"
+  },
+  {
+    "name": "superpowers",
+    "fullName": "obra/superpowers",
+    "description": "Agentic skills framework & software development methodology that works",
+    "language": "Shell",
+    "stars_today": "1,780 stars today",
+    "total_stars": "191604",
+    "url": "https://github.com/obra/superpowers"
+  },
+  {
+    "name": "RuView",
+    "fullName": "ruvnet/RuView",
+    "description": "WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video",
+    "language": "Rust",
+    "stars_today": "1,715 stars today",
+    "total_stars": "56433",
+    "url": "https://github.com/ruvnet/RuView"
+  },
+  {
+    "name": "supertonic",
+    "fullName": "supertone-inc/supertonic",
+    "description": "Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX",
+    "language": "Swift",
+    "stars_today": "1,128 stars today",
+    "total_stars": "5488",
+    "url": "https://github.com/supertone-inc/supertonic"
+  },
+  {
+    "name": "scrcpy",
+    "fullName": "Genymobile/scrcpy",
+    "description": "Display and control your Android device",
+    "language": "C",
+    "stars_today": "851 stars today",
+    "total_stars": "141494",
+    "url": "https://github.com/Genymobile/scrcpy"
+  },
+  {
+    "name": "scientific-agent-skills",
+    "fullName": "K-Dense-AI/scientific-agent-skills",
+    "description": "Ready-to-use Agent Skills for research, science, engineering, analysis, finance and writing",
+    "language": "Python",
+    "stars_today": "654 stars today",
+    "total_stars": "21947",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+  },
+  {
+    "name": "Kronos",
+    "fullName": "shiyu-coder/Kronos",
+    "description": "Foundation Model for the Language of Financial Markets",
+    "language": "Python",
+    "stars_today": "363 stars today",
+    "total_stars": "24929",
+    "url": "https://github.com/shiyu-coder/Kronos"
+  },
+  {
+    "name": "telegraf",
+    "fullName": "influxdata/telegraf",
+    "description": "Agent for collecting, processing, aggregating, and writing metrics, logs, and other arbitrary data",
+    "language": "Go",
+    "stars_today": "215 stars today",
+    "total_stars": "17263",
+    "url": "https://github.com/influxdata/telegraf"
+  },
+  {
+    "name": "supervision",
+    "fullName": "roboflow/supervision",
+    "description": "Reusable computer vision tools",
+    "language": "Python",
+    "stars_today": "83 stars today",
+    "total_stars": "38993",
+    "url": "https://github.com/roboflow/supervision"
+  }
+]

@@ -1,0 +1,200 @@
+[
+  {
+    "type": "intro",
+    "highlight": "Intelligence Brief",
+    "subtext": "May 15, 2026",
+    "label": "TIDOX DAILY"
+  },
+  {
+    "type": "intro",
+    "highlight": "AI acceleration cuts both ways",
+    "subtext": "builders and attackers both benefit",
+    "label": "TODAY'S THESIS"
+  },
+  {
+    "type": "number",
+    "number": "754",
+    "highlight": "RAV4 modem removal tops HN",
+    "subtext": "407 comments · 0.54 ratio",
+    "label": "HACKER NEWS #1"
+  },
+  {
+    "type": "insight",
+    "highlight": "Hardware privacy as practitioner infrastructure",
+    "subtext": "Not activism. Reproducible surgery.",
+    "label": "SIGNAL"
+  },
+  {
+    "type": "action",
+    "highlight": "DCM removal generalizes across all major automakers",
+    "subtext": "Honda · Ford · GM · Toyota same architecture",
+    "label": "TAKEAWAY"
+  },
+  {
+    "type": "insight",
+    "highlight": "Vehicle privacy modification: community-maintained practice",
+    "subtext": "documented steps, reproducible by any practitioner",
+    "label": "SHIFT"
+  },
+  {
+    "type": "insight",
+    "highlight": "Vehicle telemetry runs without per-trip consent",
+    "subtext": "Toyota Connected Platform · always-on when modem is powered",
+    "label": "CONTEXT"
+  },
+  {
+    "type": "repo",
+    "highlight": "CVE-2026-42945 · Nginx-Rift",
+    "subtext": "18 years in the wild · CVSS 9.2",
+    "label": "CRITICAL"
+  },
+  {
+    "type": "number",
+    "number": "0.6.27",
+    "highlight": "Every nginx from 2008 to 1.30.0 affected",
+    "subtext": "patch to 1.30.1 or 1.31.0 now",
+    "label": "SCOPE"
+  },
+  {
+    "type": "action",
+    "highlight": "Audit every rewrite rule for unnamed captures",
+    "subtext": "replace $1, $2 with named captures to eliminate the path",
+    "label": "FIX"
+  },
+  {
+    "type": "insight",
+    "highlight": "Named captures eliminate the vulnerable code path",
+    "subtext": "no downtime required · config change not version bump",
+    "label": "WORKAROUND"
+  },
+  {
+    "type": "number",
+    "number": "325",
+    "highlight": "First public M5 kernel exploit",
+    "subtext": "Memory Integrity Enforcement defeated",
+    "label": "SECURITY"
+  },
+  {
+    "type": "number",
+    "number": "5",
+    "highlight": "Days from bug discovery to root shell",
+    "subtext": "Anthropic Mythos accelerated the entire path",
+    "label": "DAYS"
+  },
+  {
+    "type": "insight",
+    "highlight": "AI generalizes across memory corruption classes",
+    "subtext": "not a doc tool — an active exploit development collaborator",
+    "label": "MYTHOS"
+  },
+  {
+    "type": "insight",
+    "highlight": "Force multiplier for whoever holds it",
+    "subtext": "defenders and attackers both accelerate",
+    "label": "IMPLICATION"
+  },
+  {
+    "type": "quote",
+    "highlight": "Same force multiplier — different hands",
+    "subtext": "AI acceleration is infrastructure, not alignment",
+    "label": "THESIS"
+  },
+  {
+    "type": "repo",
+    "highlight": "tinyhumansai/openhuman",
+    "subtext": "personal AI superintelligence · private · Rust",
+    "label": "GITHUB #1"
+  },
+  {
+    "type": "number",
+    "number": "3,329",
+    "highlight": "Stars today for openhuman",
+    "subtext": "1B-token memory graph · local-only · 20min sync",
+    "label": "VELOCITY"
+  },
+  {
+    "type": "repo",
+    "highlight": "rohitg00/agentmemory",
+    "subtext": "persistent memory for AI coding agents · 1,879 stars today",
+    "label": "GITHUB #2"
+  },
+  {
+    "type": "insight",
+    "highlight": "Claude Code + Codex plugins ship simultaneously",
+    "subtext": "memory layer bridges both dominant agent platforms",
+    "label": "ECOSYSTEM"
+  },
+  {
+    "type": "number",
+    "number": "282",
+    "highlight": "Codex lands in ChatGPT mobile",
+    "subtext": "dispatch tasks at 9pm · wake up to a PR",
+    "label": "OPENAI"
+  },
+  {
+    "type": "insight",
+    "highlight": "Bottleneck shifts: specification quality on mobile",
+    "subtext": "the agent is the same — the constraint is the input",
+    "label": "ANALYSIS"
+  },
+  {
+    "type": "repo",
+    "highlight": "antirez/ds4",
+    "subtext": "DeepSeek V4 Flash · Metal + CUDA · 468 tok/s prefill",
+    "label": "DS4"
+  },
+  {
+    "type": "number",
+    "number": "253",
+    "highlight": "HN points for antirez on DS4",
+    "subtext": "Redis creator's inference engine built with GPT-5.5",
+    "label": "SIGNAL"
+  },
+  {
+    "type": "insight",
+    "highlight": "Low-level systems code is no longer immune to AI acceleration",
+    "subtext": "if antirez uses it for Metal/CUDA, the exception is gone",
+    "label": "SHIFT"
+  },
+  {
+    "type": "repo",
+    "highlight": "obra/superpowers",
+    "subtext": "191K total stars · +1,780 today · agentic methodology",
+    "label": "GITHUB #3"
+  },
+  {
+    "type": "insight",
+    "highlight": "Mullvad exit IPs: anonymity set smaller than assumed",
+    "subtext": "strong against ISP surveillance · scoped against pool enumeration",
+    "label": "PRIVACY"
+  },
+  {
+    "type": "insight",
+    "highlight": "Threat model precision over blanket recommendations",
+    "subtext": "know exactly what your VPN protects you from",
+    "label": "TAKEAWAY"
+  },
+  {
+    "type": "insight",
+    "highlight": "Local-first AI assembling repo by repo",
+    "subtext": "openhuman · agentmemory · superpowers · one layer at a time",
+    "label": "THESIS"
+  },
+  {
+    "type": "action",
+    "highlight": "Patch nginx. Review vehicle telemetry. Ship private AI.",
+    "subtext": "three actions from today's brief",
+    "label": "ACTIONS"
+  },
+  {
+    "type": "close",
+    "highlight": "That's the brief for May 15th",
+    "subtext": "Go build something that matters.",
+    "label": "TIDOX"
+  },
+  {
+    "type": "close",
+    "highlight": "And maybe unplug your car's modem.",
+    "label": "TIDOX DAILY"
+  }
+]
