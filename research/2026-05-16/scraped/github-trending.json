@@ -1,0 +1,92 @@
+[
+  {
+    "name": "RuView",
+    "fullName": "ruvnet/RuView",
+    "description": "WiFi signal transformation into real-time spatial intelligence and vital sign monitoring without video.",
+    "language": "Rust",
+    "stars_today": "1,859 stars today",
+    "total_stars": "57656",
+    "url": "https://github.com/ruvnet/RuView"
+  },
+  {
+    "name": "superpowers",
+    "fullName": "obra/superpowers",
+    "description": "An agentic skills framework & software development methodology that works.",
+    "language": "Shell",
+    "stars_today": "1,648 stars today",
+    "total_stars": "193088",
+    "url": "https://github.com/obra/superpowers"
+  },
+  {
+    "name": "openhuman",
+    "fullName": "tinyhumansai/openhuman",
+    "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
+    "language": "Rust",
+    "stars_today": "1,271 stars today",
+    "total_stars": "9315",
+    "url": "https://github.com/tinyhumansai/openhuman"
+  },
+  {
+    "name": "supertonic",
+    "fullName": "supertone-inc/supertonic",
+    "description": "Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX.",
+    "language": "Swift",
+    "stars_today": "719 stars today",
+    "total_stars": "6183",
+    "url": "https://github.com/supertone-inc/supertonic"
+  },
+  {
+    "name": "skills",
+    "fullName": "anthropics/skills",
+    "description": "Public repository for Agent Skills",
+    "language": "Python",
+    "stars_today": "689 stars today",
+    "total_stars": "135361",
+    "url": "https://github.com/anthropics/skills"
+  },
+  {
+    "name": "scientific-agent-skills",
+    "fullName": "K-Dense-AI/scientific-agent-skills",
+    "description": "Ready-to-use agent capabilities for research, scientific, engineering, analytical, financial and content creation domains.",
+    "language": "Python",
+    "stars_today": "646 stars today",
+    "total_stars": "22607",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+  },
+  {
+    "name": "bun",
+    "fullName": "oven-sh/bun",
+    "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
+    "language": "Rust",
+    "stars_today": "448 stars today",
+    "total_stars": "90672",
+    "url": "https://github.com/oven-sh/bun"
+  },
+  {
+    "name": "video-search-and-summarization",
+    "fullName": "NVIDIA-AI-Blueprints/video-search-and-summarization",
+    "description": "Reference architectures for GPU-accelerated vision agents and AI-powered video analytics.",
+    "language": "Python",
+    "stars_today": "308 stars today",
+    "total_stars": "1229",
+    "url": "https://github.com/NVIDIA-AI-Blueprints/video-search-and-summarization"
+  },
+  {
+    "name": "telegraf",
+    "fullName": "influxdata/telegraf",
+    "description": "Agent for collecting, processing, aggregating, and writing metrics, logs, and other arbitrary data.",
+    "language": "Go",
+    "stars_today": "212 stars today",
+    "total_stars": "17456",
+    "url": "https://github.com/influxdata/telegraf"
+  },
+  {
+    "name": "n8n-mcp",
+    "fullName": "czlonkowski/n8n-mcp",
+    "description": "MCP integration enabling Claude Desktop and related tools to construct n8n automation workflows.",
+    "language": "TypeScript",
+    "stars_today": "68 stars today",
+    "total_stars": "20948",
+    "url": "https://github.com/czlonkowski/n8n-mcp"
+  }
+]

@@ -1,0 +1,191 @@
+[
+  {
+    "type": "intro",
+    "highlight": "May 16, 2026 — Intelligence Brief",
+    "label": "DAILY BRIEF",
+    "subtext": "Episode 47"
+  },
+  {
+    "type": "number",
+    "highlight": "1,122 points on Hacker News",
+    "number": "1,122",
+    "label": "TOP STORY",
+    "subtext": "Mitchell Hashimoto — AI psychosis"
+  },
+  {
+    "type": "insight",
+    "highlight": "Companies abandoning working systems for AI theater",
+    "label": "AI PSYCHOSIS",
+    "subtext": "511 comments · 0.46:1 ratio"
+  },
+  {
+    "type": "quote",
+    "highlight": "Real engagement — people recognized something",
+    "subtext": "HackerNews community reaction"
+  },
+  {
+    "type": "insight",
+    "highlight": "QA teams replaced by AI that breaks production",
+    "label": "FAILURE MODES",
+    "subtext": "The psychosis variants documented"
+  },
+  {
+    "type": "insight",
+    "highlight": "Hype cycle and real engineering have split",
+    "label": "THE SIGNAL",
+    "subtext": "AI theater vs. AI infrastructure"
+  },
+  {
+    "type": "quote",
+    "highlight": "Builders not making noise — they are shipping",
+    "subtext": "Hashimoto is a builder, not a critic"
+  },
+  {
+    "type": "repo",
+    "highlight": "ruvnet/RuView",
+    "label": "GITHUB TRENDING #1",
+    "subtext": "+1,859 stars today · Rust"
+  },
+  {
+    "type": "insight",
+    "highlight": "WiFi signals → spatial intelligence — no camera needed",
+    "label": "RUVIEW",
+    "subtext": "Passive radar via commercial WiFi hardware"
+  },
+  {
+    "type": "number",
+    "highlight": "357 HN pts — Pixel 10 zero-click exploit",
+    "number": "357",
+    "label": "SECURITY",
+    "subtext": "Google Project Zero disclosure"
+  },
+  {
+    "type": "insight",
+    "highlight": "Bluetooth → kernel escalation → persistence",
+    "label": "3-STAGE CHAIN",
+    "subtext": "Zero user interaction required"
+  },
+  {
+    "type": "insight",
+    "highlight": "Titan M3 and MTE — and they still got in",
+    "label": "PIXEL 10",
+    "subtext": "Most security-hardened Android device"
+  },
+  {
+    "type": "insight",
+    "highlight": "MTE gaps create a map for attackers",
+    "label": "ROOT CAUSE",
+    "subtext": "Audio kernel driver outside MTE regions"
+  },
+  {
+    "type": "quote",
+    "highlight": "Partial deployment creates a map attackers use first",
+    "subtext": "The 2026 exploitation pattern"
+  },
+  {
+    "type": "number",
+    "highlight": "418 HN pts — California game preservation bill",
+    "number": "418",
+    "label": "POLICY",
+    "subtext": "AB 1311 clears committee"
+  },
+  {
+    "type": "insight",
+    "highlight": "Patch for offline play · self-host · or full refund",
+    "label": "AB 1311",
+    "subtext": "When online games shut down"
+  },
+  {
+    "type": "insight",
+    "highlight": "Debating implementation — not the principle",
+    "label": "0.63:1 RATIO",
+    "subtext": "Highest engagement ratio of the day"
+  },
+  {
+    "type": "insight",
+    "highlight": "California law = de-facto national law",
+    "label": "IMPACT",
+    "subtext": "Publishers can't maintain CA-specific versions"
+  },
+  {
+    "type": "insight",
+    "highlight": "First challenge to 'service not product' framing",
+    "label": "STRUCTURAL SHIFT",
+    "subtext": "Software rights legislation"
+  },
+  {
+    "type": "repo",
+    "highlight": "oven-sh/bun",
+    "label": "BUN RUST REWRITE",
+    "subtext": "94 Lobsters pts · Merged to main"
+  },
+  {
+    "type": "insight",
+    "highlight": "AI-generated translation is now production code",
+    "label": "760K LINES",
+    "subtext": "99.8% test compatibility → shipped"
+  },
+  {
+    "type": "insight",
+    "highlight": "Controversy validated adoption, not deterred it",
+    "subtext": "+448 stars today on GitHub trending"
+  },
+  {
+    "type": "insight",
+    "highlight": "Lobsters: ban LLM generated submissions",
+    "label": "183 PTS",
+    "subtext": "Platform governance inflection point"
+  },
+  {
+    "type": "insight",
+    "highlight": "Three communities, three different answers",
+    "label": "30-DAY WINDOW",
+    "subtext": "Zig bans · Bun merges · Lobsters debates"
+  },
+  {
+    "type": "insight",
+    "highlight": "Linux 0-day: ssh-keysign file descriptor leak",
+    "label": "SECURITY",
+    "subtext": "102 Lobsters pts · Third LPE in 30 days"
+  },
+  {
+    "type": "insight",
+    "highlight": "fd boundary during privilege transitions — 2026 frontier",
+    "label": "PATTERN",
+    "subtext": "Setuid binaries in production for a decade"
+  },
+  {
+    "type": "action",
+    "highlight": "Patch openssh-portable now if using host-based auth",
+    "label": "ACTION REQUIRED",
+    "subtext": "patch-now, not patch-this-cycle"
+  },
+  {
+    "type": "insight",
+    "highlight": "Practitioners in active negotiation with AI optimism",
+    "label": "THE SIGMOIDS",
+    "subtext": "184 pts · 177 comments · 0.96:1 ratio"
+  },
+  {
+    "type": "insight",
+    "highlight": "The curves continue — but do they arrive in time?",
+    "subtext": "Scott Alexander's structural argument"
+  },
+  {
+    "type": "insight",
+    "highlight": "openhuman · supertonic · anthropics/skills · RuView",
+    "label": "REAL INFRASTRUCTURE",
+    "subtext": "Local-first, on-device, community-owned"
+  },
+  {
+    "type": "close",
+    "highlight": "Know which side your work is on",
+    "label": "TODAY'S SIGNAL",
+    "subtext": "AI theater vs. AI infrastructure"
+  },
+  {
+    "type": "close",
+    "highlight": "Build something real.",
+    "subtext": "Tidox Intelligence Brief · May 16, 2026"
+  }
+]

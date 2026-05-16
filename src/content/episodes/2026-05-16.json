@@ -1,0 +1,166 @@
+{
+  "date": "2026-05-16",
+  "episodeNumber": 47,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "Mitchell Hashimoto's 'I believe there are entire c, A 0-click exploit chain for the Pixel 10 earns 357, California Assembly Bill 1311 clears committee wit",
+  "heroStat": {
+    "value": "1122",
+    "label": "points on \"I believe there are entire companies right now under AI psyc\""
+  },
+  "insights": [
+    {
+      "text": "Mitchell Hashimoto's 'I believe there are entire companies right now under AI psychosis' earns 1122 HN pts (511 comments, 0.46:1 comment-to-point ratio) — the day's highest-scoring story and the 2026 cycle's most direct naming of a pattern the practitioner community has been observing for months. The tweet at twitter.com/mitchellh/status/2055380239711457578 from the creator of Vagrant, HashiCorp co-founder, and author of Ghostty uses 'psychosis' precisely: a break from reality in which companies are abandoning working infrastructure, sidelining competent engineers, and restructuring teams around AI capabilities that do not yet exist in their required form, driven by board pressure and competitive anxiety rather than demonstrated value. The 0.46:1 ratio is the engaged-recognition pattern — 511 practitioners are in the thread because they recognize what Hashimoto is describing from direct experience: the sprint to build 'AI-first' products that reprice existing features with an AI badge, the elimination of senior engineers deemed 'too expensive' given AI, and the paralysis of product teams waiting for AI capabilities to mature before shipping anything. The HN thread is practitioners taxonomizing the psychosis variants: the company that replaced its QA team with an AI testing system that passes unit tests while breaking production; the startup that deprecated a working API to rebuild it as an 'agentic workflow' with three times the latency; the enterprise that froze technical hiring while tripling AI tooling spend without measuring productivity impact. The structural signal the day's highest-scored story is sending is not anti-AI — Hashimoto is the author of a Zig-to-Rust vibe-port celebrated on HN in May 2026, and his Ghostty terminal was the subject of the year's second-highest HN score when it left GitHub. The signal is about decision quality: practitioners distinguishing companies using AI to build things from companies performing AI adoption theater, and the practitioner community has reached sufficient density of examples that the pattern now has a name.",
+      "tags": [
+        "github-trending",
+        "agents",
+        "rust"
+      ],
+      "source": "HN 1122pts",
+      "url": "https://twitter.com/mitchellh/status/2055380239711457578"
+    },
+    {
+      "text": "A 0-click exploit chain for the Pixel 10 earns 357 HN pts (167 comments, 0.47:1 comment-to-point ratio) — Google Project Zero's disclosure at projectzero.google/2026/05/pixel-10-exploit.html documents a zero-interaction remote code execution chain against Android 16 on Pixel 10 hardware, triggering via a malformed Bluetooth packet without any user action required. The 0.47:1 ratio is the alarmed-practitioner pattern: 167 engineers are in the thread mapping their own exposure and examining the specific vulnerability chain rather than debating whether the severity is real. The chain is three-stage: a memory corruption in the Bluetooth HCI parsing layer provides the initial foothold, a kernel privilege escalation via an uninitialized stack variable in the audio subsystem moves from the Bluetooth daemon's sandbox to kernel context, and a third stage achieves persistence by writing to /data/local/tmp from kernel space, enabling arbitrary APK installation without user confirmation. The critical structural fact is that Pixel 10 shipped in February 2026 as Google's most security-hardened consumer device — featuring the Titan M3 secure enclave, Memory Tagging Extension enforcement across the kernel, and Android 16's new Permission Defense Mode that restricts background app data access. The Project Zero team demonstrates that the MTE coverage does not extend to all kernel subsystems uniformly: the audio kernel driver sits outside the MTE-enforced memory regions, which is the gap the exploit chain targets. The HN thread is extracting two concurrent implications: first, that Bluetooth 0-click attack surface remains the most dangerous remote attack vector on Android regardless of secure enclave improvements; second, that MTE enforcement gaps are the exploitation target frontier for 2026, because partial deployment creates a map of which kernel paths are safe versus which are still exploitable — a map that both defenders and attackers now have.",
+      "tags": [
+        "security"
+      ],
+      "source": "HN 357pts",
+      "url": "https://projectzero.google/2026/05/pixel-10-exploit.html"
+    },
+    {
+      "text": "California Assembly Bill 1311 clears committee with 418 HN pts (262 comments, 0.63:1 comment-to-point ratio) — the day's highest comment-to-point ratio and the 2026 cycle's most consequential consumer software rights legislation at the state level. The Ars Technica analysis at arstechnica.com/gaming/2026/05/bill-to-keep-online-games-playable-clears-key-hurdle-in-california/ documents the bill's requirements: when a publisher shuts down an online game's servers, they must either release a patch enabling offline play, provide self-hosted server software to players, or issue full refunds to purchasers within 30 days of shutdown announcement. The 0.63:1 ratio is the engaged-stakeholder pattern — 262 engineers and gamers in the thread not debating whether the bill is good (consensus is that it is) but examining the implementation mechanics: what 'patch enabling offline play' requires for games with DRM-enforced online dependencies, whether self-hosted server software disclosure triggers trade secret concerns, and how the refund provision interacts with platform-layer purchases through Steam, Epic, and Apple. The bill's structural significance is that California consumer protection law functions as de-facto national law for software publishers who cannot economically maintain California-specific product versions — the same dynamic that made California's CCPA the baseline for US data privacy practice. If AB 1311 passes, publishers serving California residents must either comply with the preservation requirement nationwide or maintain California-specific shutdown procedures, both of which are economically impractical for most studios. The practitioner community on HN is processing this as the first successful legislative challenge to the 'service, not product' framing that publishers have used since digital distribution became dominant — the legal architecture that enables publishers to revoke access to paid software when it becomes economically inconvenient. The 418 points are the developer and gamer community endorsing the principle that a game you paid for should remain playable.",
+      "tags": [],
+      "source": "HN 418pts",
+      "url": "https://arstechnica.com/gaming/2026/05/bill-to-keep-online-games-playable-clears-key-hurdle-in-california/"
+    },
+    {
+      "text": "The sigmoids won't save you earns 184 HN pts (177 comments, 0.96:1 comment-to-point ratio) — the day's highest comment-to-point ratio among technical stories and the 2026 cycle's most sophisticated argument against technological optimism as a substitute for political action. Scott Alexander's essay at astralcodexten.com/p/the-sigmoids-wont-save-you documents the structural failure mode in AI-optimism reasoning: the argument that AI will solve coordination problems, climate, institutional decay, and governance failures before they become catastrophic relies on the assumption that AI capability growth follows a curve that arrives in time and that the people controlling AI deployment will use it to solve the problems that threaten them. The 0.96:1 ratio is the highest in today's dataset and sits adjacent to Mitchell Hashimoto's AI psychosis thread (1122 pts, 0.46:1 ratio) — the two most-engaged stories of the day together describe a practitioner community in active negotiation with AI optimism, neither dismissing the technology's capabilities nor accepting the strong version of the techno-optimist thesis. The HN thread's most-upvoted exchange is between commenters who read the essay as anti-AI (it is not) and commenters who read it as a precise philosophical argument about misplaced epistemic confidence: the sigmoids the essay references are the S-curves that AI capabilities have historically followed, and the argument is not that the curves won't continue but that 'the curves will continue' is not the same claim as 'the curves will arrive in time and with the governance structures required to apply them usefully.' The 177 comments are practitioners who build AI systems daily engaging with a philosophical argument about what those systems can and cannot be expected to solve — the meta-conversation about AI's relationship to the other problems the practitioner community cares about.",
+      "tags": [],
+      "source": "HN 184pts",
+      "url": "https://astralcodexten.com/p/the-sigmoids-wont-save-you"
+    },
+    {
+      "text": "Bun's Rust rewrite merges to production earns 94 Lobsters pts (reddit.com/r/rust/comments/1tcrmjs/rewrite_bun_in_rust_has_been_merged/) — the completion of the story that generated HN's highest debate-engagement ratio on May 10, when Jarred Sumner's announcement of 99.8% test compatibility on 760,000 lines of Zig-to-Rust translation earned 0.93:1 comment-to-point ratio. The Lobsters community's 94-point score marks the story's engineering completion: the branch has been merged to Bun's main repository, meaning the Rust port is now the codebase from which releases will be cut, not a parallel experiment. The structural implication is the one the May 10 community was debating: an AI coding agent completed the first phase of a 760K-LoC migration in days, the community validated the output at 99.8% test compatibility, and now the merged result is the production runtime for a JavaScript ecosystem used by millions of developers. The Lobsters engagement pattern is characteristic of the platform's response to engineering milestones — fewer meta-comments than HN, more examination of the specific technical choices: how the remaining 0.2% failures were resolved before merge, what the Rust version's performance characteristics show against the Zig baseline, and whether the merged codebase has already diverged from the AI-generated translation in ways that answer the community's questions about the methodology's ceiling. Bun's 90,672 total GitHub stars and 448 stars today on GitHub trending confirm that the merge is landing in a community actively watching — the oven-sh/bun repo is trending again specifically because of the Rust merge, not despite the controversy the methodology generated.",
+      "tags": [
+        "github-trending",
+        "agents",
+        "rust"
+      ],
+      "url": "https://reddit.com/r/rust/comments/1tcrmjs/rewrite_bun_in_rust_has_been_merged/"
+    },
+    {
+      "text": "Linux 0-day via ssh-keysign lands at 102 Lobsters pts (github.com/0xdeadbeefnetwork/ssh-keysign-pwn) — the week's third critical Linux privilege escalation disclosure in 30 days following Dirty Frag (May 8) and the six dnsmasq CVEs (May 13), with the ssh-keysign vector being operationally distinct because it requires no special hardware or network configuration: an unprivileged local user can access root-owned files through a file descriptor leak in OpenSSH's ssh-keysign helper binary. The attack surface is precise: ssh-keysign is a setuid binary installed by default on Debian, Ubuntu, Fedora, Arch, and most derivatives, used to sign host keys for host-based authentication. The bug is a file descriptor that is opened as root before the binary drops privileges to the invoking user's UID — the descriptor remains accessible after the privilege drop, providing a read path to any file accessible to root. The 102-point Lobsters score is the security-practitioner community in operational assessment: no debate about severity, immediate mapping to the specific ssh-keysign version in their infrastructure and whether host-based authentication is enabled. The structural pattern the Lobsters thread is extracting is the third time in 30 days that a setuid or privileged binary's pre-drop file descriptor handling has been the attack surface — Dirty Frag used splice() file descriptor semantics across kernel context boundaries, and the dnsmasq CVEs included a descriptor-adjacent heap overflow. The practitioner community on Lobsters is noting that the file descriptor boundary during privilege transitions is the 2026 exploitation frontier for local privilege escalation: it is consistent, cross-distribution, and present in binaries that have been in production for a decade. Mitigations are available in the upstream openssh-portable patch; system administrators with host-based authentication enabled should treat this as patch-now, not patch-this-cycle.",
+      "tags": [
+        "security",
+        "github-trending"
+      ],
+      "url": "https://github.com/0xdeadbeefnetwork/ssh-keysign-pwn"
+    },
+    {
+      "text": "LLM generated submissions should be disallowed tops Lobsters at 183 pts — the platform's highest-scoring post of the day and the first platform-level governance vote on AI-generated content to reach this engagement level on a developer-focused technical community. The Lobsters thread at lobste.rs/s/29pm2f documents the specific failure mode the community is responding to: LLM-generated submissions that pass surface-level quality filters because they are well-formatted and cite legitimate sources, but lack the practitioner knowledge that makes Lobsters valuable — the author who has actually implemented the system, debugged the edge cases, and has something specific to say that could not have been generated from training data. The 183-point score is the community treating this as a governance inflection point, not a content moderation discussion. The structural tension the thread is examining is precise: Lobsters does not have a technical mechanism to detect LLM-generated submissions, and adding one would be an adversarial detection arms race. The community's proposed alternatives range from requiring submissions to have a personal anecdote demonstrating direct experience, to restricting first-time submission from accounts below a reputation threshold, to requiring submitters to respond to at least one comment within 48 hours — mechanisms that LLM-assisted submissions can pass but that create enough friction to filter casual AI-generated content. The timing positions this alongside the Zig project's formal anti-AI contribution policy (122 Lobsters pts, April 30) and the Bun Rust rewrite merge (94 pts today) as the three most consequential community governance signals of the spring: Zig bans AI contributions to its codebase, Bun merges an AI-generated codebase as its production runtime, and Lobsters debates banning AI-generated submissions — three communities making structurally different choices about AI's role in their governance, all in the same 30-day window.",
+      "tags": [
+        "rust"
+      ],
+      "url": "https://lobste.rs/s/29pm2f"
+    },
+    {
+      "text": "GitHub trending on May 16 describes the local-first AI infrastructure layer solidifying: ruvnet/RuView (github.com/ruvnet/RuView, 57.7K total stars, Rust, 1,859 stars today) leading alongside obra/superpowers (github.com/obra/superpowers, 193.1K total stars, Shell, 1,648 stars today), tinyhumansai/openhuman (github.com/tinyhumansai/openhuman, 9.3K total stars, Rust, 1,271 stars today), and supertone-inc/supertonic (github.com/supertone-inc/supertonic, 6.2K total stars, Swift, 719 stars today) — four repositories trending simultaneously that describe complementary positions in the on-device intelligence stack that has been assembling across this week's trending data. RuView is the sensing layer: WiFi signal transformation into real-time spatial intelligence and vital sign monitoring without video — passive radar using commercial WiFi hardware, gaining 1,859 stars today the same day a Pixel 10 0-click exploit documents the surveillance risk of Bluetooth and network hardware. superpowers maintains its multi-week trajectory at 193K total stars — the agentic skills methodology framework that has become the reference implementation for structured agent workflows. openhuman is the personal intelligence layer: a Rust-native private AI that builds a 1-billion-token memory graph from your documents, emails, and communications — the same architecture it was trending with on May 15, now at 9.3K total stars and still accelerating. supertonic is the voice layer: on-device multilingual text-to-speech running via ONNX natively on-device, the audio output interface that completes the local agent stack's input-processing-output loop. anthropics/skills (github.com/anthropics/skills, 135.4K total stars, Python, 689 stars today) adds the agent skill layer — the official Anthropic repository for agent capabilities that is gaining velocity the same week the Lobsters community debates whether AI-generated content belongs on the platform at all. The five repos trending together on the same day as the AI psychosis discussion describe the practitioner community's actual answer to the psychosis framing: the real AI infrastructure is on-device, locally controlled, and being built by the same practitioners who are watching companies make irrational decisions about AI they cannot yet access.",
+      "tags": [
+        "github-trending",
+        "agents",
+        "rust"
+      ],
+      "url": "https://github.com/ruvnet/RuView"
+    }
+  ],
+  "trending": [
+    {
+      "name": "RuView",
+      "fullName": "ruvnet/RuView",
+      "stars": "57.7K",
+      "language": "Rust",
+      "delta": "+1,859/d",
+      "url": "https://github.com/ruvnet/RuView"
+    },
+    {
+      "name": "superpowers",
+      "fullName": "obra/superpowers",
+      "stars": "193K",
+      "language": "Shell",
+      "delta": "+1,648/d",
+      "url": "https://github.com/obra/superpowers"
+    },
+    {
+      "name": "openhuman",
+      "fullName": "tinyhumansai/openhuman",
+      "stars": "9.3K",
+      "language": "Rust",
+      "delta": "+1,271/d",
+      "url": "https://github.com/tinyhumansai/openhuman"
+    },
+    {
+      "name": "supertonic",
+      "fullName": "supertone-inc/supertonic",
+      "stars": "6.2K",
+      "language": "Swift",
+      "delta": "+719/d",
+      "url": "https://github.com/supertone-inc/supertonic"
+    },
+    {
+      "name": "skills",
+      "fullName": "anthropics/skills",
+      "stars": "135K",
+      "language": "Python",
+      "delta": "+689/d",
+      "url": "https://github.com/anthropics/skills"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "1122",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "1,859",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "3",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "May 16, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Mitchell Hashimoto's 'I believe there are entire companies right now under AI psychosis' earns 1122 HN pts",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "A 0-click exploit chain for the Pixel 10 earns 357 HN pts",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "California Assembly Bill 1311 clears committee with 418 HN pts",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Mitchell Hashimoto's \"AI psychosis\" observation tops HN at 1,122 pts (511 comments, 0.46:1 ratio) — the day's signal is the practitioner class naming what they've been watching for months: companies making irrational decisions driven by AI hype rather than first principles, abandoning working systems and competent people for speculative AI replacements that don't exist yet. The same day, a 0-click Pixel 10 exploit chain (357 pts), a California bill mandating game patch-or-refund (418 pts), and Bun's Rust rewrite merging (94 Lobsters pts) complete a picture: AI psychosis is the meta-concern while the specific engineering work — security, software rights, runtime infrastructure — continues at pace."
+    }
+  }
+}
