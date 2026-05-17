@@ -1,0 +1,74 @@
+[
+  {
+    "name": "openhuman",
+    "fullName": "tinyhumansai/openhuman",
+    "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
+    "language": "Rust",
+    "stars_today": "1,549 stars today",
+    "total_stars": "11096",
+    "url": "https://github.com/tinyhumansai/openhuman"
+  },
+  {
+    "name": "superpowers",
+    "fullName": "obra/superpowers",
+    "description": "An agentic skills framework & software development methodology that works.",
+    "language": "Shell",
+    "stars_today": "1,305 stars today",
+    "total_stars": "194296",
+    "url": "https://github.com/obra/superpowers"
+  },
+  {
+    "name": "RuView",
+    "fullName": "ruvnet/RuView",
+    "description": "RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+    "language": "Rust",
+    "stars_today": "1,010 stars today",
+    "total_stars": "58529",
+    "url": "https://github.com/ruvnet/RuView"
+  },
+  {
+    "name": "supertonic",
+    "fullName": "supertone-inc/supertonic",
+    "description": "Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX.",
+    "language": "Swift",
+    "stars_today": "749 stars today",
+    "total_stars": "7042",
+    "url": "https://github.com/supertone-inc/supertonic"
+  },
+  {
+    "name": "scientific-agent-skills",
+    "fullName": "K-Dense-AI/scientific-agent-skills",
+    "description": "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
+    "language": "Python",
+    "stars_today": "673 stars today",
+    "total_stars": "23342",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+  },
+  {
+    "name": "codegraph",
+    "fullName": "colbymchenry/codegraph",
+    "description": "Pre-indexed code knowledge graph for Claude Code — fewer tokens, fewer tool calls, 100% local",
+    "language": "TypeScript",
+    "stars_today": "416 stars today",
+    "total_stars": "2710",
+    "url": "https://github.com/colbymchenry/codegraph"
+  },
+  {
+    "name": "bun",
+    "fullName": "oven-sh/bun",
+    "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
+    "language": "Rust",
+    "stars_today": "397 stars today",
+    "total_stars": "91397",
+    "url": "https://github.com/oven-sh/bun"
+  },
+  {
+    "name": "Open-Generative-AI",
+    "fullName": "Anil-matcha/Open-Generative-AI",
+    "description": "Open-source alternative to AI video platforms — Free AI image & video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.",
+    "language": "JavaScript",
+    "stars_today": "317 stars today",
+    "total_stars": "14599",
+    "url": "https://github.com/Anil-matcha/Open-Generative-AI"
+  }
+]
