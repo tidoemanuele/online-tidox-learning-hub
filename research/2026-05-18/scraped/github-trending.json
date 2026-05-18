@@ -1,0 +1,137 @@
+[
+  {
+    "name": "openhuman",
+    "fullName": "tinyhumansai/openhuman",
+    "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
+    "language": "Rust",
+    "stars_today": "1,690 stars today",
+    "total_stars": "14287",
+    "url": "https://github.com/tinyhumansai/openhuman"
+  },
+  {
+    "name": "bun",
+    "fullName": "oven-sh/bun",
+    "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
+    "language": "Rust",
+    "stars_today": "910 stars today",
+    "total_stars": "91796",
+    "url": "https://github.com/oven-sh/bun"
+  },
+  {
+    "name": "codegraph",
+    "fullName": "colbymchenry/codegraph",
+    "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, and OpenCode.",
+    "language": "TypeScript",
+    "stars_today": "857 stars today",
+    "total_stars": "3623",
+    "url": "https://github.com/colbymchenry/codegraph"
+  },
+  {
+    "name": "scientific-agent-skills",
+    "fullName": "K-Dense-AI/scientific-agent-skills",
+    "description": "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
+    "language": "Python",
+    "stars_today": "762 stars today",
+    "total_stars": "23969",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+  },
+  {
+    "name": "Open-Generative-AI",
+    "fullName": "Anil-matcha/Open-Generative-AI",
+    "description": "Open-source alternative to AI video platforms — Free AI image & video generation studio with 200+ models.",
+    "language": "JavaScript",
+    "stars_today": "703 stars today",
+    "total_stars": "15359",
+    "url": "https://github.com/Anil-matcha/Open-Generative-AI"
+  },
+  {
+    "name": "ai-agents-for-beginners",
+    "fullName": "microsoft/ai-agents-for-beginners",
+    "description": "12 Lessons to Get Started Building AI Agents",
+    "language": "Jupyter Notebook",
+    "stars_today": "485 stars today",
+    "total_stars": "62818",
+    "url": "https://github.com/microsoft/ai-agents-for-beginners"
+  },
+  {
+    "name": "cal.diy",
+    "fullName": "calcom/cal.diy",
+    "description": "Scheduling infrastructure for absolutely everyone.",
+    "language": "TypeScript",
+    "stars_today": "433 stars today",
+    "total_stars": "43419",
+    "url": "https://github.com/calcom/cal.diy"
+  },
+  {
+    "name": "Shadowbroker",
+    "fullName": "BigBodyCobain/Shadowbroker",
+    "description": "Open-source intelligence for global theater. Track corporate jets, spy satellites, seismic events in unified interface.",
+    "language": "Python",
+    "stars_today": "333 stars today",
+    "total_stars": "7282",
+    "url": "https://github.com/BigBodyCobain/Shadowbroker"
+  },
+  {
+    "name": "listmonk",
+    "fullName": "knadh/listmonk",
+    "description": "High performance, self-hosted, newsletter and mailing list manager with a modern dashboard.",
+    "language": "Go",
+    "stars_today": "242 stars today",
+    "total_stars": "20698",
+    "url": "https://github.com/knadh/listmonk"
+  },
+  {
+    "name": "CLI-Anything",
+    "fullName": "HKUDS/CLI-Anything",
+    "description": "CLI-Anything: Making ALL Software Agent-Native",
+    "language": "Python",
+    "stars_today": "238 stars today",
+    "total_stars": "35959",
+    "url": "https://github.com/HKUDS/CLI-Anything"
+  },
+  {
+    "name": "Ghost",
+    "fullName": "TryGhost/Ghost",
+    "description": "Independent technology for modern publishing, memberships, subscriptions and newsletters.",
+    "language": "JavaScript",
+    "stars_today": "231 stars today",
+    "total_stars": "53413",
+    "url": "https://github.com/TryGhost/Ghost"
+  },
+  {
+    "name": "agent-skills",
+    "fullName": "tech-leads-club/agent-skills",
+    "description": "The secure, validated skill registry for professional AI coding agents.",
+    "language": "TypeScript",
+    "stars_today": "225 stars today",
+    "total_stars": "3672",
+    "url": "https://github.com/tech-leads-club/agent-skills"
+  },
+  {
+    "name": "medusa",
+    "fullName": "medusajs/medusa",
+    "description": "The world's most flexible commerce platform.",
+    "language": "TypeScript",
+    "stars_today": "211 stars today",
+    "total_stars": "33618",
+    "url": "https://github.com/medusajs/medusa"
+  },
+  {
+    "name": "analytics",
+    "fullName": "plausible/analytics",
+    "description": "Open source, privacy-first web analytics. Lightweight, cookie-free Google Analytics alternative.",
+    "language": "Elixir",
+    "stars_today": "186 stars today",
+    "total_stars": "25579",
+    "url": "https://github.com/plausible/analytics"
+  },
+  {
+    "name": "dograh",
+    "fullName": "dograh-hq/dograh",
+    "description": "Open Source Voice Agent Platform",
+    "language": "Python",
+    "stars_today": "223 stars today",
+    "total_stars": "1856",
+    "url": "https://github.com/dograh-hq/dograh"
+  }
+]

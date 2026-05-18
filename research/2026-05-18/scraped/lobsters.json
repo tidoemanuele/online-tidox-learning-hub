@@ -1,0 +1,151 @@
+[
+  {
+    "title": "Don't answer the first question",
+    "score": 26,
+    "tags": [
+      "practices"
+    ],
+    "url": "https://lalitm.com/post/dont-answer-the-first-question/",
+    "comments_url": "https://lobste.rs/s/dt92ad/don_t_answer_first_question"
+  },
+  {
+    "title": "Native all the way, until you need text",
+    "score": 50,
+    "tags": [
+      "mac",
+      "swift"
+    ],
+    "url": "https://justsitandgrin.im/posts/native-all-the-way-until-you-need-text/",
+    "comments_url": "https://lobste.rs/s/neclbs/native_all_way_until_you_need_text"
+  },
+  {
+    "title": "New design for the FreeBSD website",
+    "score": 43,
+    "tags": [
+      "design",
+      "freebsd"
+    ],
+    "url": "https://www.freebsd.org/",
+    "comments_url": "https://lobste.rs/s/03djyt/new_design_for_freebsd_website"
+  },
+  {
+    "title": "Fits on a Floppy - A Manifesto for Small Software",
+    "score": 17,
+    "tags": [
+      "performance"
+    ],
+    "url": "https://fitsonafloppy.com",
+    "comments_url": "https://lobste.rs/s/sdylhl/fits_on_floppy_manifesto_for_small"
+  },
+  {
+    "title": "Researcher says Microsoft secretly built a backdoor into BitLocker",
+    "score": 12,
+    "tags": [
+      "programming",
+      "security",
+      "windows"
+    ],
+    "url": "https://www.techspot.com/news/112410-security-researcher-microsoft-secretly-built-backdoor-bitlocker-releases.html",
+    "comments_url": "https://lobste.rs/s/ynxkj6/researcher_says_microsoft_secretly"
+  },
+  {
+    "title": "Coding on Paper",
+    "score": 35,
+    "tags": [
+      "hardware"
+    ],
+    "url": "https://wickstrom.tech/2026-05-16-coding-on-paper.html",
+    "comments_url": "https://lobste.rs/s/huqdtj/coding_on_paper"
+  },
+  {
+    "title": "Reviewing so called Pull Requests at $dayjob",
+    "score": 18,
+    "tags": [
+      "practices",
+      "vcs"
+    ],
+    "url": "https://rkta.de/dayjob-pr-review.html",
+    "comments_url": "https://lobste.rs/s/6fc7qu/reviewing_so_called_pull_requests_at"
+  },
+  {
+    "title": "May I recommend eww for Emacs\u2019s innovative UI?",
+    "score": 9,
+    "tags": [
+      "emacs"
+    ],
+    "url": "https://www.matem.unam.mx/~omar/apropos-emacs.html#may-i-recommend-eww-for-emacs-innovative-ui",
+    "comments_url": "https://lobste.rs/s/96kz5p/may_i_recommend_eww_for_emacs_s_innovative"
+  },
+  {
+    "title": "Claude Code managed to get Adobe Lightroom working on Linux",
+    "score": 21,
+    "tags": [
+      "linux",
+      "vibecoding"
+    ],
+    "url": "https://github.com/sander110419/lightroom-cc-on-linux",
+    "comments_url": "https://lobste.rs/s/l34yuj/claude_code_managed_get_adobe_lightroom"
+  },
+  {
+    "title": "Reverse engineering Android malware with Claude Code",
+    "score": 6,
+    "tags": [
+      "android",
+      "reversing",
+      "vibecoding"
+    ],
+    "url": "https://zanestjohn.com/blog/reing-with-claude-code",
+    "comments_url": "https://lobste.rs/s/b5hrqb/reverse_engineering_android_malware"
+  },
+  {
+    "title": "Bun's problem may be developing in the open",
+    "score": 9,
+    "tags": [
+      "practices",
+      "rust",
+      "vibecoding",
+      "zig"
+    ],
+    "url": "https://00f.net/2026/05/17/developping-in-the-open/",
+    "comments_url": "https://lobste.rs/s/9hiu10/bun_s_problem_may_be_developing_open"
+  },
+  {
+    "title": "Rust async and the ARM generic timer",
+    "score": 7,
+    "tags": [
+      "hardware",
+      "rust"
+    ],
+    "url": "https://thejpster.org.uk/blog/blog-2026-05-17/",
+    "comments_url": "https://lobste.rs/s/eeqdfc/rust_async_arm_generic_timer"
+  },
+  {
+    "title": "Async I/O in Zig 0.16, today",
+    "score": 64,
+    "tags": [
+      "vibecoding",
+      "zig"
+    ],
+    "url": "https://lalinsky.com/2026/05/11/async-io-in-zig-016-today.html",
+    "comments_url": "https://lobste.rs/s/1udl0j/async_i_o_zig_0_16_today"
+  },
+  {
+    "title": "The Futility of Lava Lamps: What Random Really Means",
+    "score": 37,
+    "tags": [
+      "cryptography",
+      "security"
+    ],
+    "url": "https://loup-vaillant.fr/articles/lava-lamps-and-randomness",
+    "comments_url": "https://lobste.rs/s/obxoph/futility_lava_lamps_what_random_really"
+  },
+  {
+    "title": "Ascetic Computing",
+    "score": 161,
+    "tags": [
+      "practices"
+    ],
+    "url": "https://ratfactor.com/ascetic-computing",
+    "comments_url": "https://lobste.rs/s/4g74mw/ascetic_computing"
+  }
+]
