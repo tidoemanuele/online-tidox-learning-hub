@@ -1,0 +1,149 @@
+[
+  {
+    "title": "The Quiet Renovation at Bitwarden",
+    "score": 74,
+    "tags": [
+      "privacy"
+    ],
+    "url": "https://blog.ppb1701.com/the-quiet-renovation-at-bitwarden",
+    "comments_url": "https://lobste.rs/s/xckxda/quiet_renovation_at_bitwarden"
+  },
+  {
+    "title": "Comprehensive Response to Bambu's AGPLv3 Violations",
+    "score": 38,
+    "tags": [
+      "law"
+    ],
+    "url": "https://sfconservancy.org/news/2026/may/18/bambu-studio-3d-printer-agpl-violation-response/",
+    "comments_url": "https://lobste.rs/s/cjwt5c/comprehensive_response_bambu_s_agplv3"
+  },
+  {
+    "title": "De\u2010bloating Javascript",
+    "score": 25,
+    "tags": [
+      "java",
+      "lisp",
+      "wasm"
+    ],
+    "url": "https://github.com/naver/lispe/wiki/6.23-De%E2%80%90bloating-Javascript",
+    "comments_url": "https://lobste.rs/s/lynqdm/de_bloating_javascript"
+  },
+  {
+    "title": "Haiku OS runs on M1 Macs now",
+    "score": 47,
+    "tags": [
+      "mac",
+      "unix"
+    ],
+    "url": "https://www.osnews.com/story/144985/haiku-os-runs-on-m1-macs-now/",
+    "comments_url": "https://lobste.rs/s/0wbazw/haiku_os_runs_on_m1_macs_now"
+  },
+  {
+    "title": "Introducing Casuarina Linux: A glibc-Based Chimera Linux Derivative",
+    "score": 13,
+    "tags": [
+      "linux"
+    ],
+    "url": "https://casuarina.org/news/introducing-casuarina-linux/",
+    "comments_url": "https://lobste.rs/s/5pjoom/introducing_casuarina_linux_glibc_based"
+  },
+  {
+    "title": "Researcher says Microsoft secretly built a backdoor into BitLocker",
+    "score": 84,
+    "tags": [
+      "programming",
+      "security",
+      "windows"
+    ],
+    "url": "https://www.techspot.com/news/112410-security-researcher-microsoft-secretly-built-backdoor-bitlocker-releases.html",
+    "comments_url": "https://lobste.rs/s/ynxkj6/researcher_says_microsoft_secretly"
+  },
+  {
+    "title": "Misconceptions about the UNIX Philosophy (2024)",
+    "score": 13,
+    "tags": [
+      "unix"
+    ],
+    "url": "https://posixcafe.org/blogs/2024/01/05/0/",
+    "comments_url": "https://lobste.rs/s/dysrh2/misconceptions_about_unix_philosophy"
+  },
+  {
+    "title": "Programming as Theory Building (1985)",
+    "score": 15,
+    "tags": [
+      "pdf",
+      "practices",
+      "programming"
+    ],
+    "url": "https://gwern.net/doc/cs/algorithm/1985-naur.pdf",
+    "comments_url": "https://lobste.rs/s/ac0akx/programming_as_theory_building_1985"
+  },
+  {
+    "title": "A 16-byte x86 demo: Matrix rain with sound",
+    "score": 38,
+    "tags": [
+      "graphics",
+      "performance",
+      "retrocomputing"
+    ],
+    "url": "https://hellmood.111mb.de//wake_up_16b_writeup.html",
+    "comments_url": "https://lobste.rs/s/akooh9/16_byte_x86_demo_matrix_rain_with_sound"
+  },
+  {
+    "title": "CISA Admin Leaked AWS GovCloud Keys on Github",
+    "score": 14,
+    "tags": [
+      "security"
+    ],
+    "url": "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/",
+    "comments_url": "https://lobste.rs/s/vypafm/cisa_admin_leaked_aws_govcloud_keys_on"
+  },
+  {
+    "title": "The Fil-C Optimized Calling Convention",
+    "score": 16,
+    "tags": [
+      "plt"
+    ],
+    "url": "https://fil-c.org/calling_convention",
+    "comments_url": "https://lobste.rs/s/5mnt43/fil_c_optimized_calling_convention"
+  },
+  {
+    "title": "Git blame for code comprehension",
+    "score": 11,
+    "tags": [
+      "practices",
+      "vcs"
+    ],
+    "url": "https://matklad.github.io/2026/05/18/always-be-blaming.html",
+    "comments_url": "https://lobste.rs/s/qntbqq/git_blame_for_code_comprehension"
+  },
+  {
+    "title": "Spork: A posix_spawn you can use as a fork",
+    "score": 6,
+    "tags": [
+      "osdev",
+      "pdf"
+    ],
+    "url": "https://dl.acm.org/doi/pdf/10.1145/3713082.3730396",
+    "comments_url": "https://lobste.rs/s/q1m7cr/spork_posix_spawn_you_can_use_as_fork"
+  },
+  {
+    "title": "Find bugs in YOUR code using OpenCode, Llama.cpp and Qwen3.6",
+    "score": 25,
+    "tags": [
+      "debugging",
+      "vibecoding"
+    ],
+    "url": "http://wtarreau.blogspot.com/2026/05/find-bugs-in-your-code-using-opencode.html",
+    "comments_url": "https://lobste.rs/s/ap9dum/find_bugs_your_code_using_opencode_llama"
+  },
+  {
+    "title": "How to select a mobile OS",
+    "score": 10,
+    "tags": [
+      "mobile"
+    ],
+    "url": "https://blog.gridranger.dev/mobile-oses-featuring-fairphone-5/",
+    "comments_url": "https://lobste.rs/s/fkoh4s/how_select_mobile_os"
+  }
+]

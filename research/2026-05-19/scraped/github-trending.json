@@ -1,0 +1,137 @@
+[
+  {
+    "name": "openhuman",
+    "fullName": "tinyhumansai/openhuman",
+    "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
+    "language": "Rust",
+    "stars_today": "3,941 stars today",
+    "total_stars": "18270",
+    "url": "https://github.com/tinyhumansai/openhuman"
+  },
+  {
+    "name": "academic-research-skills",
+    "fullName": "Imbad0202/academic-research-skills",
+    "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+    "language": "Python",
+    "stars_today": "1,439 stars today",
+    "total_stars": "12537",
+    "url": "https://github.com/Imbad0202/academic-research-skills"
+  },
+  {
+    "name": "CloakBrowser",
+    "fullName": "CloakHQ/CloakBrowser",
+    "description": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
+    "language": "Python",
+    "stars_today": "1,420 stars today",
+    "total_stars": "15574",
+    "url": "https://github.com/CloakHQ/CloakBrowser"
+  },
+  {
+    "name": "agent-skills",
+    "fullName": "tech-leads-club/agent-skills",
+    "description": "The secure, validated skill registry for professional AI coding agents. Extend Antigravity, Claude Code, Cursor, Copilot and more with absolute confidence.",
+    "language": "TypeScript",
+    "stars_today": "1,244 stars today",
+    "total_stars": "4164",
+    "url": "https://github.com/tech-leads-club/agent-skills"
+  },
+  {
+    "name": "CLI-Anything",
+    "fullName": "HKUDS/CLI-Anything",
+    "description": "CLI-Anything: Making ALL Software Agent-Native -- CLI-Hub",
+    "language": "Python",
+    "stars_today": "1,049 stars today",
+    "total_stars": "36946",
+    "url": "https://github.com/HKUDS/CLI-Anything"
+  },
+  {
+    "name": "ai-agents-for-beginners",
+    "fullName": "microsoft/ai-agents-for-beginners",
+    "description": "12 Lessons to Get Started Building AI Agents",
+    "language": "Jupyter Notebook",
+    "stars_today": "1,012 stars today",
+    "total_stars": "63658",
+    "url": "https://github.com/microsoft/ai-agents-for-beginners"
+  },
+  {
+    "name": "Shadowbroker",
+    "fullName": "BigBodyCobain/Shadowbroker",
+    "description": "Open-source intelligence for the global theater. Track corporate jets, spy satellites, seismic events in one unified interface.",
+    "language": "Python",
+    "stars_today": "767 stars today",
+    "total_stars": "7875",
+    "url": "https://github.com/BigBodyCobain/Shadowbroker"
+  },
+  {
+    "name": "supertonic",
+    "fullName": "supertone-inc/supertonic",
+    "description": "Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX.",
+    "language": "Swift",
+    "stars_today": "715 stars today",
+    "total_stars": "8478",
+    "url": "https://github.com/supertone-inc/supertonic"
+  },
+  {
+    "name": "RuView",
+    "fullName": "ruvnet/RuView",
+    "description": "Turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — without video.",
+    "language": "Rust",
+    "stars_today": "700 stars today",
+    "total_stars": "60115",
+    "url": "https://github.com/ruvnet/RuView"
+  },
+  {
+    "name": "scientific-agent-skills",
+    "fullName": "K-Dense-AI/scientific-agent-skills",
+    "description": "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
+    "language": "Python",
+    "stars_today": "609 stars today",
+    "total_stars": "24555",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+  },
+  {
+    "name": "analytics",
+    "fullName": "plausible/analytics",
+    "description": "Open source, privacy-first web analytics. Lightweight, cookie-free Google Analytics alternative.",
+    "language": "Elixir",
+    "stars_today": "638 stars today",
+    "total_stars": "26059",
+    "url": "https://github.com/plausible/analytics"
+  },
+  {
+    "name": "12-factor-agents",
+    "fullName": "humanlayer/12-factor-agents",
+    "description": "What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production customers?",
+    "language": "TypeScript",
+    "stars_today": "399 stars today",
+    "total_stars": "20799",
+    "url": "https://github.com/humanlayer/12-factor-agents"
+  },
+  {
+    "name": "Sana",
+    "fullName": "NVlabs/Sana",
+    "description": "SANA: Efficient High-Resolution Image Synthesis with Linear Diffusion Transformer",
+    "language": "Python",
+    "stars_today": "387 stars today",
+    "total_stars": "6696",
+    "url": "https://github.com/NVlabs/Sana"
+  },
+  {
+    "name": "daily_stock_analysis",
+    "fullName": "ZhuLinsen/daily_stock_analysis",
+    "description": "LLM-powered stock analysis system for A/H/US markets with multi-data sources, real-time news, and multi-channel notifications.",
+    "language": "Python",
+    "stars_today": "310 stars today",
+    "total_stars": "37389",
+    "url": "https://github.com/ZhuLinsen/daily_stock_analysis"
+  },
+  {
+    "name": "llama.cpp",
+    "fullName": "ggml-org/llama.cpp",
+    "description": "LLM inference in C/C++",
+    "language": "C++",
+    "stars_today": "213 stars today",
+    "total_stars": "111179",
+    "url": "https://github.com/ggml-org/llama.cpp"
+  }
+]

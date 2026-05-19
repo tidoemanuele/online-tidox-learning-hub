@@ -1,0 +1,162 @@
+[
+  {
+    "rank": 1,
+    "title": "The last six months in LLMs in five minutes",
+    "url": "https://simonwillison.net/2026/May/19/5-minute-llms/",
+    "hn_url": "https://news.ycombinator.com/item?id=48188183",
+    "points": 195,
+    "comments": 99
+  },
+  {
+    "rank": 2,
+    "title": "Click (2016)",
+    "url": "https://clickclickclick.click/",
+    "hn_url": "https://news.ycombinator.com/item?id=48187054",
+    "points": 260,
+    "comments": 64
+  },
+  {
+    "rank": 3,
+    "title": "Codex-maxxing",
+    "url": "https://jxnl.co/writing/2026/05/10/codex-maxxing/",
+    "hn_url": "https://news.ycombinator.com/item?id=48189156",
+    "points": 27,
+    "comments": 16
+  },
+  {
+    "rank": 4,
+    "title": "Anyone on the Internet Can Ring Your Doorbell",
+    "url": "https://www.abgeo.dev/blog/anyone-can-ring-your-doorbell",
+    "hn_url": "https://news.ycombinator.com/item?id=48165944",
+    "points": 66,
+    "comments": 26
+  },
+  {
+    "rank": 5,
+    "title": "Turn your Android phone into a ham radio transceiver",
+    "url": "https://www.kv4p.com/",
+    "hn_url": "https://news.ycombinator.com/item?id=48161772",
+    "points": 28,
+    "comments": 2
+  },
+  {
+    "rank": 6,
+    "title": "PyTorch Landscape",
+    "url": "https://pytorch.landscape2.io",
+    "hn_url": "https://news.ycombinator.com/item?id=48189178",
+    "points": 15,
+    "comments": 0
+  },
+  {
+    "rank": 7,
+    "title": "Regex Chess: A 2-ply minimax chess engine in 84,688 regular expressions",
+    "url": "https://nicholas.carlini.com/writing/2025/regex-chess.html",
+    "hn_url": "https://news.ycombinator.com/item?id=48136909",
+    "points": 79,
+    "comments": 13
+  },
+  {
+    "rank": 8,
+    "title": "Anthropic acquires Stainless",
+    "url": "https://www.anthropic.com/news/anthropic-acquires-stainless",
+    "hn_url": "https://news.ycombinator.com/item?id=48182281",
+    "points": 412,
+    "comments": 286
+  },
+  {
+    "rank": 9,
+    "title": "Cursor Introduces Composer 2.5",
+    "url": "https://cursor.com/blog/composer-2-5",
+    "hn_url": "https://news.ycombinator.com/item?id=48182516",
+    "points": 93,
+    "comments": 51
+  },
+  {
+    "rank": 10,
+    "title": "Pope Leo XIV\u2019s first encyclical Magnifica humanitas to be published May 25",
+    "url": "https://www.vaticannews.va/en/pope/news/2026-05/pope-leo-xiv-first-encyclical-magnifica-humanitas.html",
+    "hn_url": "https://news.ycombinator.com/item?id=48187201",
+    "points": 178,
+    "comments": 102
+  },
+  {
+    "rank": 11,
+    "title": "1024000^2 Blocks, 2B2T Minecraft Server World Download Project, and Discoveries",
+    "url": "https://github.com/2b2tplace/1m_release",
+    "hn_url": "https://news.ycombinator.com/item?id=48180204",
+    "points": 129,
+    "comments": 77
+  },
+  {
+    "rank": 12,
+    "title": "We stopped AI bot spam in our GitHub repo using Git's \u2013author flag",
+    "url": "https://archestra.ai/blog/only-responsible-ai",
+    "hn_url": "https://news.ycombinator.com/item?id=48181125",
+    "points": 452,
+    "comments": 206
+  },
+  {
+    "rank": 13,
+    "title": "Peter Salus has died",
+    "url": "https://www.tuhs.org/pipermail/tuhs/2026-May/033750.html",
+    "hn_url": "https://news.ycombinator.com/item?id=48188665",
+    "points": 102,
+    "comments": 8
+  },
+  {
+    "rank": 14,
+    "title": "The quiet renovation at Bitwarden",
+    "url": "https://blog.ppb1701.com/the-quiet-renovation-at-bitwarden",
+    "hn_url": "https://news.ycombinator.com/item?id=48163389",
+    "points": 607,
+    "comments": 269
+  },
+  {
+    "rank": 15,
+    "title": "Hyperpolyglot Lisp: Common Lisp, Racket, Clojure, Emacs Lisp",
+    "url": "https://hyperpolyglot.org/lisp",
+    "hn_url": "https://news.ycombinator.com/item?id=48184322",
+    "points": 148,
+    "comments": 34
+  },
+  {
+    "rank": 16,
+    "title": "Show HN: Number Gacha, a gacha game distilled to its essence",
+    "url": "https://isabisabel.com/gacha/",
+    "hn_url": "https://news.ycombinator.com/item?id=48123359",
+    "points": 111,
+    "comments": 46
+  },
+  {
+    "rank": 17,
+    "title": "When can the C++ compiler devirtualize a call?",
+    "url": "https://quuxplusone.github.io/blog/2021/02/15/devirtualization/",
+    "hn_url": "https://news.ycombinator.com/item?id=48167187",
+    "points": 44,
+    "comments": 10
+  },
+  {
+    "rank": 18,
+    "title": "We let AIs run radio stations",
+    "url": "https://andonlabs.com/blog/andon-fm",
+    "hn_url": "https://news.ycombinator.com/item?id=48183301",
+    "points": 221,
+    "comments": 181
+  },
+  {
+    "rank": 19,
+    "title": "Peter Neumann has died",
+    "url": "https://www.tuhs.org/pipermail/tuhs/2026-May/033748.html",
+    "hn_url": "https://news.ycombinator.com/item?id=48188787",
+    "points": 12,
+    "comments": 1
+  },
+  {
+    "rank": 20,
+    "title": "Project Glasswing: what Mythos showed us",
+    "url": "https://blog.cloudflare.com/cyber-frontier-models/",
+    "hn_url": "https://news.ycombinator.com/item?id=48179732",
+    "points": 313,
+    "comments": 122
+  }
+]
