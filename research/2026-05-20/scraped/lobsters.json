@@ -1,0 +1,145 @@
+[
+  {
+    "title": "Type out the code",
+    "score": 97,
+    "tags": [
+      "programming"
+    ],
+    "url": "https://haskellforall.com/2026/05/type-out-the-code",
+    "comments_url": "https://lobste.rs/s/zotppg/type_out_code"
+  },
+  {
+    "title": "OpenBSD 7.9 released",
+    "score": 74,
+    "tags": [
+      "openbsd",
+      "release"
+    ],
+    "url": "https://www.openbsd.org/79.html",
+    "comments_url": "https://lobste.rs/s/wwcjoc/openbsd_7_9_released"
+  },
+  {
+    "title": "My domain got abused on Github Pages",
+    "score": 42,
+    "tags": [
+      "security"
+    ],
+    "url": "https://meertens.dev/blog/github-enables-domain-abuse/",
+    "comments_url": "https://lobste.rs/s/zsjasr/my_domain_got_abused_on_github_pages"
+  },
+  {
+    "title": "I am not a Software Engineer",
+    "score": 22,
+    "tags": [
+      "practices",
+      "vibecoding"
+    ],
+    "url": "https://huronbikes.mataroa.blog/blog/i-am-not-a-software-engineer/",
+    "comments_url": "https://lobste.rs/s/2fqahd/i_am_not_software_engineer"
+  },
+  {
+    "title": "Better generated branch names with jj",
+    "score": 37,
+    "tags": [
+      "vcs"
+    ],
+    "url": "https://ddbeck.com/notes/jj-git-push-bookmark-template/",
+    "comments_url": "https://lobste.rs/s/r4xf2n/better_generated_branch_names_with_jj"
+  },
+  {
+    "title": "What would you want from a forge?",
+    "score": 29,
+    "tags": [
+      "ask",
+      "design",
+      "vcs"
+    ],
+    "url": "",
+    "comments_url": "https://lobste.rs/s/wed6lj/what_would_you_want_from_forge"
+  },
+  {
+    "title": "Why Ruby Still Feels Like Home After All These Years",
+    "score": 5,
+    "tags": [
+      "programming",
+      "ruby"
+    ],
+    "url": "https://caio.ca/blog/why-ruby-still-feels-like-home",
+    "comments_url": "https://lobste.rs/s/n1gytv/why_ruby_still_feels_like_home_after_all"
+  },
+  {
+    "title": "The Super Tiny Compiler, but in Ada",
+    "score": 18,
+    "tags": [
+      "plt",
+      "programming"
+    ],
+    "url": "https://github.com/tomekw/stcc",
+    "comments_url": "https://lobste.rs/s/pk139i/super_tiny_compiler_ada"
+  },
+  {
+    "title": "Pokemon Gen2 compression myth",
+    "score": 24,
+    "tags": [
+      "games",
+      "performance"
+    ],
+    "url": "https://www.reddit.com/r/TruePokemon/comments/hwluk9/while_it_is_true_that_iwata_did_write_a_new/",
+    "comments_url": "https://lobste.rs/s/wefsg8/pokemon_gen2_compression_myth"
+  },
+  {
+    "title": "How we used Quint to find over 10 bugs in SQLite while hardening Turso",
+    "score": 26,
+    "tags": [
+      "databases",
+      "formalmethods"
+    ],
+    "url": "https://turso.tech/blog/how-we-used-quint-to-find-over-10-bugs-in-sqlite",
+    "comments_url": "https://lobste.rs/s/maqmo2/how_we_used_quint_find_over_10_bugs_sqlite"
+  },
+  {
+    "title": "Software's Centaur Era",
+    "score": 19,
+    "tags": [
+      "vibecoding"
+    ],
+    "url": "https://twitchard.github.io/posts/2026-05-18-softwares-centaur-era.html",
+    "comments_url": "https://lobste.rs/s/prer9l/software_s_centaur_era"
+  },
+  {
+    "title": "pgBackRest will continue",
+    "score": 15,
+    "tags": [
+      "databases"
+    ],
+    "url": "https://pgbackrest.org/news.html#will-continue",
+    "comments_url": "https://lobste.rs/s/z2pm16/pgbackrest_will_continue"
+  },
+  {
+    "title": "Comprehensive Response to Bambu's AGPLv3 Violations",
+    "score": 136,
+    "tags": [
+      "law"
+    ],
+    "url": "https://sfconservancy.org/news/2026/may/18/bambu-studio-3d-printer-agpl-violation-response/",
+    "comments_url": "https://lobste.rs/s/cjwt5c/comprehensive_response_bambu_s_agplv3"
+  },
+  {
+    "title": "The Quiet Renovation at Bitwarden",
+    "score": 122,
+    "tags": [
+      "privacy"
+    ],
+    "url": "https://blog.ppb1701.com/the-quiet-renovation-at-bitwarden",
+    "comments_url": "https://lobste.rs/s/xckxda/quiet_renovation_at_bitwarden"
+  },
+  {
+    "title": "Emacs after Magit",
+    "score": 6,
+    "tags": [
+      "emacs"
+    ],
+    "url": "https://sdf.org/~pkal/blog/emacs/sans-magit.html",
+    "comments_url": "https://lobste.rs/s/b4vpj6/emacs_after_magit"
+  }
+]

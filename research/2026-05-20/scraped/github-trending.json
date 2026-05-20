@@ -1,0 +1,47 @@
+[
+  {
+    "name": "andrej-karpathy-skills",
+    "fullName": "multica-ai/andrej-karpathy-skills",
+    "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls",
+    "language": "Markdown",
+    "stars_today": "2,847 stars today",
+    "total_stars": "137300",
+    "url": "https://github.com/multica-ai/andrej-karpathy-skills"
+  },
+  {
+    "name": "skills",
+    "fullName": "mattpocock/skills",
+    "description": "Skills for Real Engineers. Straight from my .claude directory.",
+    "language": "TypeScript",
+    "stars_today": "1,463 stars today",
+    "total_stars": "93600",
+    "url": "https://github.com/mattpocock/skills"
+  },
+  {
+    "name": "remove-ai-watermarks",
+    "fullName": "wiltodelta/remove-ai-watermarks",
+    "description": "CLI and library for removing visible (Gemini) and invisible (SynthID, C2PA, EXIF) AI watermarks from images",
+    "language": "Python",
+    "stars_today": "1,138 stars today",
+    "total_stars": "3200",
+    "url": "https://github.com/wiltodelta/remove-ai-watermarks"
+  },
+  {
+    "name": "forge",
+    "fullName": "antoinezambelli/forge",
+    "description": "Guardrails framework that takes a self-hosted 8B model from 53% to 99% on agentic tasks",
+    "language": "Python",
+    "stars_today": "934 stars today",
+    "total_stars": "4800",
+    "url": "https://github.com/antoinezambelli/forge"
+  },
+  {
+    "name": "open-design",
+    "fullName": "nexu-io/open-design",
+    "description": "Local-first, open-source alternative to Anthropic's Claude Design with real-time collaboration",
+    "language": "TypeScript",
+    "stars_today": "788 stars today",
+    "total_stars": "46300",
+    "url": "https://github.com/nexu-io/open-design"
+  }
+]
