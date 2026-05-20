@@ -3,62 +3,59 @@
   "episodeNumber": 52,
   "locale": "en-US",
   "title": "Intelligence Brief",
-  "subtitle": "Google I/O 2026 reshapes the AI coding tool market, Google kills Gemini CLI effective June 18, 2026, The $100/month AI agent tier becomes industry stan",
+  "subtitle": "Railway Blocked by Google Cloud, FiveThirtyEight articles on the Internet Archive, Gemini 3.5 Flash",
   "heroStat": {
-    "value": "$9",
-    "label": "per 1m token pricing"
+    "value": "1254",
+    "label": "points on \"I’ve joined Anthropic\""
   },
   "insights": [
     {
-      "text": "Google I/O 2026 reshapes the AI coding tool market in a single keynote — Gemini 3.5 Flash launches at 4x speed with $1.50/$9 per 1M token pricing (undercutting Claude Sonnet by ~40%), Antigravity 2.0 ships as a full agent-first desktop app + Go-rewritten CLI with subagent orchestration, terminal sandboxing, and credential masking, and Gemini Spark debuts as a 24/7 autonomous agent at the new $100/month AI Ultra tier. In an onstage demo, Google DeepMind showed Antigravity + Gemini 3.5 Flash building a functioning OS from scratch in 12 hours. Google is compressing model + runtime + agent + distribution into one vertical stack — the opposite of Anthropic's horizontal MCP strategy and Microsoft's governance-first Agent 365 approach. Three vendors, three architectures, one price point.",
+      "text": "Railway Blocked by Google Cloud (382 pts, 179 comments)",
       "tags": [
-        "agents"
-      ]
+        "hacker-news"
+      ],
+      "source": "HN 382pts",
+      "url": "https://status.railway.com/?date=20260519"
     },
     {
-      "text": "Google kills Gemini CLI effective June 18, 2026 — all free, Pro, and Ultra users must migrate to Antigravity CLI or lose access. Enterprise Gemini Code Assist licenses are unaffected. The Antigravity CLI preserves Agent Skills, Hooks, Subagents, and Extensions (now as plugins), but the rewrite from Node to Go and the new sandboxing model mean existing workflows will break. This is the second major AI coding CLI deprecated in 2026 (after GitHub Copilot CLI's absorption into the IDE), leaving Claude Code as the last major standalone CLI-first agent tool. HN discussion is active, with developers comparing migration paths to Claude Code and Cursor.",
+      "text": "FiveThirtyEight articles on the Internet Archive (122 pts, 31 comments)",
       "tags": [
-        "github-trending",
-        "claude-code",
-        "agents"
-      ]
+        "hacker-news"
+      ],
+      "source": "HN 122pts",
+      "url": "https://fivethirtyeightindex.com/"
     },
     {
-      "text": "The $100/month AI agent tier becomes industry standard — Google AI Ultra at $100/month (Gemini Spark), Anthropic Max at $100/month (Claude Code), and Microsoft Agent 365 at $99/user/month all converge on the same price point within six weeks of each other. Google restructured its entire subscription stack around this anchor: $10 AI Plus, $20 AI Pro, $100 AI Ultra (new), $200 AI Ultra top tier (down from $250). The $100 ceiling is not coincidental — it represents the market's discovered maximum for individual AI agent subscriptions before enterprise procurement kicks in.",
+      "text": "Gemini 3.5 Flash (700 pts, 505 comments)",
       "tags": [
-        "claude-code",
-        "agents"
-      ]
+        "hacker-news"
+      ],
+      "source": "HN 700pts",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/"
     },
     {
-      "text": "Code with Claude reaches London on May 19 as Anthropic's developer conference goes global — following SF (May 6) and preceding Tokyo (June 10). Key announcements from the series: Anthropic secured all capacity on SpaceX's Colossus supercluster for Claude, doubled Claude Code rate limits for Pro/Max/Enterprise, and shipped three new features — Multiagent Orchestration, Outcomes, and Dreaming. The three-city format ensures continuous developer mindshare across Google's I/O window (May 19-20). Conference counter-programming is now a competitive tactic in the AI platform wars.",
+      "text": "I’ve built a virtual museum with nearly every operating system you can think of (696 pts, 158 comments)",
       "tags": [
-        "claude-code",
-        "agents"
-      ]
+        "hacker-news"
+      ],
+      "source": "HN 696pts",
+      "url": "https://virtualosmuseum.org/"
     },
     {
-      "text": "GitHub and Microsoft formally join the MCP Steering Committee at Build (May 19), shifting the 2026 MCP roadmap from release-based planning to Working Group–driven development across transport scalability, agent communication, governance maturation, and enterprise readiness. Three cloud providers (AWS, Microsoft, Google) now participate in MCP governance — the protocol has achieved the multi-stakeholder structure of a de facto standard, mirroring HTTP/2 and GraphQL's maturation. Meanwhile, Google's Antigravity 2.0 ships its own plugin system rather than adopting MCP — the first major platform to bet against protocol convergence.",
+      "text": "Remove–AI–Watermarks – CLI and library for removing AI watermarks from images (219 pts, 115 comments)",
       "tags": [
-        "github-trending",
-        "agents",
-        "ecosystem"
-      ]
+        "hacker-news"
+      ],
+      "source": "HN 219pts",
+      "url": "https://github.com/wiltodelta/remove-ai-watermarks"
     },
     {
-      "text": "NGINX CVE-2026-42945 (CVSS 9.2) — an 18-year-old heap buffer overflow in ngx_http_rewrite_module affecting every build since 2008 — enters its second week of active exploitation, while Microsoft Exchange CVE-2026-42897 (CVSS 8.1) joins the active-exploitation list and a coordinated npm/PyPI/Docker Hub supply chain attack hits CI/CD secrets in a 48-hour window. Microsoft's MDASH AI system found 16 Windows flaws in this month's Patch Tuesday, joining Anthropic's Project Glasswing (~300 Firefox zero-days) and OpenAI Daybreak as the third AI-powered vulnerability discovery pipeline. Three AI labs now automate offense; defense remains manual and sequential.",
+      "text": "Google changes its search box (465 pts, 644 comments)",
       "tags": [
-        "security",
-        "supply-chain"
-      ]
-    },
-    {
-      "text": "The agent skills ecosystem sustains momentum through I/O week — mattpocock/skills holds the #1 GitHub trending position with ~1,600 stars/week, three Claude Code ecosystem repos (everything-claude-code, cc-switch, spec-kit) occupy top-20 spots, and the entry threshold to top-20 trending this week is +415 stars, the highest bar of 2026. Despite Google's massive I/O push promoting Antigravity, GitHub's developer community continues building overwhelmingly around Claude Code infrastructure. The revealed preference gap between conference announcements (Google) and organic tooling activity (Anthropic) is the clearest signal of where practitioners are actually investing their workflows.",
-      "tags": [
-        "github-trending",
-        "claude-code",
-        "agents"
-      ]
+        "hacker-news"
+      ],
+      "source": "HN 465pts",
+      "url": "https://blog.google/products-and-platforms/products/search/search-io-2026/"
     }
   ],
   "trending": [
@@ -121,7 +118,7 @@
     },
     {
       "label": "Insights Today",
-      "value": "7",
+      "value": "6",
       "unit": "stories"
     }
   ],
@@ -132,17 +129,17 @@
     },
     "headlines": [
       {
-        "text": "Google I/O 2026 reshapes the AI coding tool market in a single keynote",
+        "text": "Railway Blocked by Google Cloud",
         "metric": "—",
         "source": "web"
       },
       {
-        "text": "Google kills Gemini CLI effective June 18, 2026",
+        "text": "FiveThirtyEight articles on the Internet Archive",
         "metric": "—",
         "source": "web"
       },
       {
-        "text": "The $100/month AI agent tier becomes industry standard",
+        "text": "Gemini 3.5 Flash",
         "metric": "—",
         "source": "web"
       }
