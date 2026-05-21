@@ -1,0 +1,92 @@
+[
+  {
+    "name": "openhuman",
+    "fullName": "tinyhumansai/openhuman",
+    "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
+    "language": "Rust",
+    "stars_today": "3,394 stars today",
+    "total_stars": "23996",
+    "url": "https://github.com/tinyhumansai/openhuman"
+  },
+  {
+    "name": "andrej-karpathy-skills",
+    "fullName": "multica-ai/andrej-karpathy-skills",
+    "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls",
+    "language": "Markdown",
+    "stars_today": "2,679 stars today",
+    "total_stars": "141507",
+    "url": "https://github.com/multica-ai/andrej-karpathy-skills"
+  },
+  {
+    "name": "codegraph",
+    "fullName": "colbymchenry/codegraph",
+    "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, and OpenCode",
+    "language": "TypeScript",
+    "stars_today": "2,123 stars today",
+    "total_stars": "10651",
+    "url": "https://github.com/colbymchenry/codegraph"
+  },
+  {
+    "name": "superpowers",
+    "fullName": "obra/superpowers",
+    "description": "An agentic skills framework & software development methodology that works.",
+    "language": "Shell",
+    "stars_today": "1,743 stars today",
+    "total_stars": "200429",
+    "url": "https://github.com/obra/superpowers"
+  },
+  {
+    "name": "academic-research-skills",
+    "fullName": "Imbad0202/academic-research-skills",
+    "description": "Academic Research Skills for Claude Code: research write review revise finalize",
+    "language": "Python",
+    "stars_today": "1,667 stars today",
+    "total_stars": "16794",
+    "url": "https://github.com/Imbad0202/academic-research-skills"
+  },
+  {
+    "name": "agency-agents",
+    "fullName": "msitarzewski/agency-agents",
+    "description": "A complete AI agency at your fingertips with specialized expert agents, each with personality and proven deliverables.",
+    "language": "Shell",
+    "stars_today": "1,636 stars today",
+    "total_stars": "103073",
+    "url": "https://github.com/msitarzewski/agency-agents"
+  },
+  {
+    "name": "CLI-Anything",
+    "fullName": "HKUDS/CLI-Anything",
+    "description": "Making ALL Software Agent-Native",
+    "language": "Python",
+    "stars_today": "890 stars today",
+    "total_stars": "38690",
+    "url": "https://github.com/HKUDS/CLI-Anything"
+  },
+  {
+    "name": "ai-engineering-from-scratch",
+    "fullName": "rohitg00/ai-engineering-from-scratch",
+    "description": "Learn it. Build it. Ship it for others.",
+    "language": "Python",
+    "stars_today": "765 stars today",
+    "total_stars": "9914",
+    "url": "https://github.com/rohitg00/ai-engineering-from-scratch"
+  },
+  {
+    "name": "claude-plugins-official",
+    "fullName": "anthropics/claude-plugins-official",
+    "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+    "language": "Python",
+    "stars_today": "674 stars today",
+    "total_stars": "20929",
+    "url": "https://github.com/anthropics/claude-plugins-official"
+  },
+  {
+    "name": "oh-my-pi",
+    "fullName": "can1357/oh-my-pi",
+    "description": "AI Coding agent for the terminal with hash-anchored edits, optimized tool harness, LSP, Python, and more",
+    "language": "TypeScript",
+    "stars_today": "270 stars today",
+    "total_stars": "5548",
+    "url": "https://github.com/can1357/oh-my-pi"
+  }
+]

@@ -1,0 +1,141 @@
+[
+  {
+    "title": "Chromium publishes fixed exploit 4 years later, turns out it's actually unfixed",
+    "score": 46,
+    "tags": [
+      "browsers",
+      "security"
+    ],
+    "url": "https://infosec.exchange/@rebane2001/116606719764376414",
+    "comments_url": "https://lobste.rs/s/e7lsqn/chromium_publishes_fixed_exploit_4_years"
+  },
+  {
+    "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
+    "score": 20,
+    "tags": [
+      "ai",
+      "math"
+    ],
+    "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture/",
+    "comments_url": "https://lobste.rs/s/hqzkqg/openai_model_has_disproved_central"
+  },
+  {
+    "title": "Why does the arrow (->) operator in C exist?",
+    "score": 21,
+    "tags": [
+      "c",
+      "historical"
+    ],
+    "url": "https://stackoverflow.com/questions/13366083/why-does-the-arrow-operator-in-c-exist",
+    "comments_url": "https://lobste.rs/s/garq37/why_does_arrow_operator_c_exist"
+  },
+  {
+    "title": "Aggressive AI scrapers are making it kinda suck to run wikis",
+    "score": 14,
+    "tags": [
+      "web"
+    ],
+    "url": "https://weirdgloop.org/blog/clankers",
+    "comments_url": "https://lobste.rs/s/k21pdb/aggressive_ai_scrapers_are_making_it"
+  },
+  {
+    "title": "Why Ruby Still Feels Like Home After All These Years",
+    "score": 48,
+    "tags": [
+      "ruby"
+    ],
+    "url": "https://caio.ca/blog/why-ruby-still-feels-like-home",
+    "comments_url": "https://lobste.rs/s/n1gytv/why_ruby_still_feels_like_home_after_all"
+  },
+  {
+    "title": "Erasing Existentials",
+    "score": 27,
+    "tags": [
+      "rust"
+    ],
+    "url": "https://wolfgirl.dev/blog/2026-05-20-erasing-existentials/",
+    "comments_url": "https://lobste.rs/s/asu0u9/erasing_existentials"
+  },
+  {
+    "title": "GitHub Source Code Breach - TeamPCP Claims Access to Internal Source Code",
+    "score": 53,
+    "tags": [
+      "security"
+    ],
+    "url": "https://cybersecuritynews.com/github-source-code-breach/",
+    "comments_url": "https://lobste.rs/s/ges2gt/github_source_code_breach_teampcp_claims"
+  },
+  {
+    "title": "Type out the code",
+    "score": 167,
+    "tags": [
+      "vibecoding"
+    ],
+    "url": "https://haskellforall.com/2026/05/type-out-the-code",
+    "comments_url": "https://lobste.rs/s/zotppg/type_out_code"
+  },
+  {
+    "title": "Saying goodbye to asm.js",
+    "score": 36,
+    "tags": [
+      "browsers",
+      "javascript"
+    ],
+    "url": "https://spidermonkey.dev/blog/2026/05/20/saying-goodbye-to-asmjs.html",
+    "comments_url": "https://lobste.rs/s/anamgr/saying_goodbye_asm_js"
+  },
+  {
+    "title": "XSS Is Deadly for Passkeys: The Hidden Risk of Attestation None",
+    "score": 15,
+    "tags": [
+      "security"
+    ],
+    "url": "https://scotthelme.co.uk/xss-is-deadly-for-passkeys-the-hidden-risk-of-attestation-none/",
+    "comments_url": "https://lobste.rs/s/k8mkgs/xss_is_deadly_for_passkeys_hidden_risk"
+  },
+  {
+    "title": "The Mislabeled Bricks of Utopia",
+    "score": 12,
+    "tags": [
+      "philosophy"
+    ],
+    "url": "https://orib.dev/nexus.html",
+    "comments_url": "https://lobste.rs/s/rwu7ah/mislabeled_bricks_utopia"
+  },
+  {
+    "title": "Everything in C is undefined behavior",
+    "score": 27,
+    "tags": [
+      "c"
+    ],
+    "url": "https://blog.habets.se/2026/05/Everything-in-C-is-undefined-behavior.html",
+    "comments_url": "https://lobste.rs/s/dtcfd6/everything_c_is_undefined_behavior"
+  },
+  {
+    "title": "Notes on I2C",
+    "score": 13,
+    "tags": [
+      "hardware"
+    ],
+    "url": "https://rana-emaan.com/read/notes/i2c/",
+    "comments_url": "https://lobste.rs/s/akyfrt/notes_on_i2c"
+  },
+  {
+    "title": "the may 2026 fedi software vulnerability",
+    "score": 18,
+    "tags": [
+      "security"
+    ],
+    "url": "https://w.on-t.work/activitypub/may-2026-vulnerability",
+    "comments_url": "https://lobste.rs/s/2ruarm/may_2026_fedi_software_vulnerability"
+  },
+  {
+    "title": "If you're just going to sit there doing nothing, at least do nothing correctly (2024)",
+    "score": 33,
+    "tags": [
+      "api"
+    ],
+    "url": "https://devblogs.microsoft.com/oldnewthing/20240216-00/?p=109409",
+    "comments_url": "https://lobste.rs/s/2xm9a2/if_you_re_just_going_sit_there_doing"
+  }
+]
