@@ -1,0 +1,149 @@
+[
+  {
+    "title": "Flipper One \u2014 we need your help",
+    "score": 62,
+    "tags": [
+      "hardware"
+    ],
+    "url": "https://blog.flipper.net/flipper-one-we-need-your-help/",
+    "comments_url": "https://lobste.rs/s/fxqjqu/flipper_one_we_need_your_help"
+  },
+  {
+    "title": "Announcing Web Serial Support in Firefox",
+    "score": 30,
+    "tags": [
+      "browsers",
+      "web"
+    ],
+    "url": "https://hacks.mozilla.org/2026/05/web-serial-support-in-firefox/",
+    "comments_url": "https://lobste.rs/s/tbxmm1/announcing_web_serial_support_firefox"
+  },
+  {
+    "title": "Aggressive AI scrapers are making it kinda suck to run wikis",
+    "score": 135,
+    "tags": [
+      "web"
+    ],
+    "url": "https://weirdgloop.org/blog/clankers",
+    "comments_url": "https://lobste.rs/s/k21pdb/aggressive_ai_scrapers_are_making_it"
+  },
+  {
+    "title": "Gnutella: A Protocol Outliving the World That Created It",
+    "score": 10,
+    "tags": [
+      "distributed",
+      "historical",
+      "networking"
+    ],
+    "url": "https://rickcarlino.com/notes/p2p/gnutella-explanation.html",
+    "comments_url": "https://lobste.rs/s/ptvaan/gnutella_protocol_outliving_world"
+  },
+  {
+    "title": "Internships for early university / no former employment",
+    "score": 31,
+    "tags": [
+      "ask",
+      "job"
+    ],
+    "url": "",
+    "comments_url": "https://lobste.rs/s/r87zln/internships_for_early_university_no"
+  },
+  {
+    "title": "Dependency cooldowns are unfair; we should use phased rollouts instead",
+    "score": 8,
+    "tags": [
+      "practices",
+      "security"
+    ],
+    "url": "https://illegalcode.net/rfcs/phased_rollouts.html",
+    "comments_url": "https://lobste.rs/s/jyhbzg/dependency_cooldowns_are_unfair_we"
+  },
+  {
+    "title": "How to open calc.exe from S&Box",
+    "score": 15,
+    "tags": [
+      "debugging",
+      "dotnet",
+      "reversing",
+      "security"
+    ],
+    "url": "https://slugcat.systems/post/26-05-21-how-to-open-calc-exe-from-sbox/",
+    "comments_url": "https://lobste.rs/s/r6lw7v/how_open_calc_exe_from_s_box"
+  },
+  {
+    "title": "Kubernetes In Anger",
+    "score": 16,
+    "tags": [
+      "devops"
+    ],
+    "url": "https://samof76.space/kubernetes-in-anger.html",
+    "comments_url": "https://lobste.rs/s/iggblv/kubernetes_anger"
+  },
+  {
+    "title": "[RFC] LLVM Foundation statement in favor of open access to standards documents",
+    "score": 47,
+    "tags": [
+      "c",
+      "c++",
+      "compilers"
+    ],
+    "url": "https://discourse.llvm.org/t/rfc-open-access-to-standards-documents/90856",
+    "comments_url": "https://lobste.rs/s/vfxdtu/rfc_llvm_foundation_statement_favor_open"
+  },
+  {
+    "title": "Python 3.15: features that didn't make the headlines",
+    "score": 27,
+    "tags": [
+      "python"
+    ],
+    "url": "https://blog.changs.co.uk/python-315-features-that-didnt-make-the-headlines.html",
+    "comments_url": "https://lobste.rs/s/n5qtds/python_3_15_features_didn_t_make_headlines"
+  },
+  {
+    "title": "Twelve Ways to Be Wrong About AI-Assisted Coding",
+    "score": 55,
+    "tags": [
+      "practices",
+      "vibecoding"
+    ],
+    "url": "https://third-bit.com/2026/05/20/twelve-ways-to-be-wrong/",
+    "comments_url": "https://lobste.rs/s/3ltdmy/twelve_ways_be_wrong_about_ai_assisted"
+  },
+  {
+    "title": "Stop Using Pull Requests",
+    "score": 5,
+    "tags": [
+      "practices"
+    ],
+    "url": "https://a4al6a.substack.com/p/stop-using-pull-requests",
+    "comments_url": "https://lobste.rs/s/0532zk/stop_using_pull_requests"
+  },
+  {
+    "title": "Chromium publishes fixed exploit 4 years later, turns out it's actually unfixed",
+    "score": 98,
+    "tags": [
+      "browsers",
+      "security"
+    ],
+    "url": "https://infosec.exchange/@rebane2001/116606719764376414",
+    "comments_url": "https://lobste.rs/s/e7lsqn/chromium_publishes_fixed_exploit_4_years"
+  },
+  {
+    "title": "Introducing the pkg.go.dev API",
+    "score": 5,
+    "tags": [
+      "go"
+    ],
+    "url": "https://go.dev/blog/pkgsite-api",
+    "comments_url": "https://lobste.rs/s/90cyc3/introducing_pkg_go_dev_api"
+  },
+  {
+    "title": "Introducing ArkTS, Huawei\u2019s Next-Generation Development Language",
+    "score": 7,
+    "tags": [
+      "plt"
+    ],
+    "url": "https://dev.to/harmonyos/introducing-arkts-huaweis-next-generation-development-language-jg7",
+    "comments_url": "https://lobste.rs/s/ae6wd0/introducing_arkts_huawei_s_next"
+  }
+]

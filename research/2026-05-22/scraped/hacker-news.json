@@ -1,0 +1,162 @@
+[
+  {
+    "rank": 1,
+    "title": "CODA: Rewriting Transformer Blocks as GEMM-Epilogue Programs",
+    "url": "https://arxiv.org/abs/2605.19269",
+    "hn_url": "https://news.ycombinator.com/item?id=48232118",
+    "points": 12,
+    "comments": 0
+  },
+  {
+    "rank": 2,
+    "title": "Project Hail Mary \u2013 Stellar Navigation Chart",
+    "url": "https://valhovey.github.io/gaia-mary/",
+    "hn_url": "https://news.ycombinator.com/item?id=48225297",
+    "points": 772,
+    "comments": 171
+  },
+  {
+    "rank": 3,
+    "title": "The surprising story behind the first British person in space",
+    "url": "https://www.bbc.com/culture/article/20260518-helen-sharman-the-story-behind-the-first-british-person-in-space",
+    "hn_url": "https://news.ycombinator.com/item?id=48209691",
+    "points": 14,
+    "comments": 0
+  },
+  {
+    "rank": 4,
+    "title": "Blog ran on Ubuntu 16.04 for 10 years. I migrated it to FreeBSD",
+    "url": "https://crocidb.com/post/this-blog-ran-on-ubuntu-16-04-for-10-years-i-migrated-it-to-freebsd/",
+    "hn_url": "https://news.ycombinator.com/item?id=48227397",
+    "points": 230,
+    "comments": 123
+  },
+  {
+    "rank": 5,
+    "title": "Slumber a TUI HTTP Client",
+    "url": "https://slumber.lucaspickering.me",
+    "hn_url": "https://news.ycombinator.com/item?id=48231938",
+    "points": 11,
+    "comments": 0
+  },
+  {
+    "rank": 6,
+    "title": "Samsung chip workers will get an average $340k bonus as AI profits soar",
+    "url": "https://qz.com/samsung-chip-workers-bonus-ai-profits-052126",
+    "hn_url": "https://news.ycombinator.com/item?id=48230892",
+    "points": 203,
+    "comments": 139
+  },
+  {
+    "rank": 7,
+    "title": "Was my $48K GPU server worth it?",
+    "url": "https://rosmine.ai/2026/05/13/was-my-48k-gpu-worth-it/",
+    "hn_url": "https://news.ycombinator.com/item?id=48184402",
+    "points": 375,
+    "comments": 264
+  },
+  {
+    "rank": 8,
+    "title": "Using Kagi Search with Low Vision",
+    "url": "https://veroniiiica.com/using-kagi-search-with-low-vision/",
+    "hn_url": "https://news.ycombinator.com/item?id=48227860",
+    "points": 175,
+    "comments": 49
+  },
+  {
+    "rank": 9,
+    "title": "Uv is fantastic, but its package management UX is a mess",
+    "url": "https://www.loopwerk.io/articles/2026/uv-ux-mess/",
+    "hn_url": "https://news.ycombinator.com/item?id=48228788",
+    "points": 150,
+    "comments": 87
+  },
+  {
+    "rank": 10,
+    "title": "Show HN: KVBoost \u2013 chunk-level KV cache reuse for HuggingFace, 5\u201348x faster TTFT",
+    "url": "https://pythongiant.github.io/KVBoost/",
+    "hn_url": "https://news.ycombinator.com/item?id=48232060",
+    "points": 7,
+    "comments": 2
+  },
+  {
+    "rank": 11,
+    "title": "Indexing a year of video locally on a 2021 MacBook with Gemma4-31B (50GB swap)",
+    "url": "https://blog.simbastack.com/indexed-a-year-of-video-locally/",
+    "hn_url": "https://news.ycombinator.com/item?id=48222733",
+    "points": 345,
+    "comments": 101
+  },
+  {
+    "rank": 12,
+    "title": "Show HN: Freenet, a peer-to-peer platform for decentralized apps",
+    "url": "https://freenet.org/",
+    "hn_url": "https://news.ycombinator.com/item?id=48223362",
+    "points": 256,
+    "comments": 139
+  },
+  {
+    "rank": 13,
+    "title": "Tristan Davey's Punch Card Archive",
+    "url": "https://punchcards.tristandavey.com/",
+    "hn_url": "https://news.ycombinator.com/item?id=48193932",
+    "points": 21,
+    "comments": 3
+  },
+  {
+    "rank": 14,
+    "title": "Mycorrhizal Fungi, Nature's Key to Plant Survival and Success",
+    "url": "https://pacifichorticulture.org/articles/mycorrhizal-fungi-natures-key-to-plant-survival-and-success/",
+    "hn_url": "https://news.ycombinator.com/item?id=48209905",
+    "points": 71,
+    "comments": 11
+  },
+  {
+    "rank": 15,
+    "title": "Python 3.15: features that didn't make the headlines",
+    "url": "https://blog.changs.co.uk/python-315-features-that-didnt-make-the-headlines.html",
+    "hn_url": "https://news.ycombinator.com/item?id=48220696",
+    "points": 357,
+    "comments": 171
+  },
+  {
+    "rank": 16,
+    "title": "Lost Images from the 1945 Trinity Nuclear Test Restored",
+    "url": "https://spectrum.ieee.org/trinity-nuclear-test",
+    "hn_url": "https://news.ycombinator.com/item?id=48220639",
+    "points": 324,
+    "comments": 98
+  },
+  {
+    "rank": 17,
+    "title": "Cleve Moler (Matlab, MathWorks) passed away on May 20, 2026",
+    "url": "https://www.mathworks.com/company/aboutus/founders/clevemoler.html",
+    "hn_url": "https://news.ycombinator.com/item?id=48231319",
+    "points": 21,
+    "comments": 1
+  },
+  {
+    "rank": 18,
+    "title": "Flipper One \u2013 we need your help",
+    "url": "https://blog.flipper.net/flipper-one-we-need-your-help/",
+    "hn_url": "https://news.ycombinator.com/item?id=48220647",
+    "points": 1111,
+    "comments": 434
+  },
+  {
+    "rank": 19,
+    "title": "Show HN: Spec-Driven Development Workflow for Claude Code",
+    "url": "",
+    "hn_url": "https://news.ycombinator.com/item?id=48231575",
+    "points": 13,
+    "comments": 2
+  },
+  {
+    "rank": 20,
+    "title": "Launch HN: Runtime (YC P26) \u2013 Sandboxed coding agents for everyone on a team",
+    "url": "https://www.runtm.com/",
+    "hn_url": "https://news.ycombinator.com/item?id=48225040",
+    "points": 82,
+    "comments": 22
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "name": "openhuman",
+    "fullName": "tinyhumansai/openhuman",
+    "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
+    "language": "Rust",
+    "stars_today": "2,847 stars today",
+    "total_stars": "26850",
+    "url": "https://github.com/tinyhumansai/openhuman"
+  },
+  {
+    "name": "skills",
+    "fullName": "mattpocock/skills",
+    "description": "Skills for Real Engineers. Straight from my .claude directory.",
+    "language": "TypeScript",
+    "stars_today": "1,946 stars today",
+    "total_stars": "95600",
+    "url": "https://github.com/mattpocock/skills"
+  },
+  {
+    "name": "andrej-karpathy-skills",
+    "fullName": "multica-ai/andrej-karpathy-skills",
+    "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+    "language": "Markdown",
+    "stars_today": "1,843 stars today",
+    "total_stars": "144200",
+    "url": "https://github.com/multica-ai/andrej-karpathy-skills"
+  },
+  {
+    "name": "open-design",
+    "fullName": "nexu-io/open-design",
+    "description": "A local-first, open-source alternative to Anthropic's Claude Design.",
+    "language": "TypeScript",
+    "stars_today": "1,612 stars today",
+    "total_stars": "47920",
+    "url": "https://github.com/nexu-io/open-design"
+  },
+  {
+    "name": "superpowers",
+    "fullName": "obra/superpowers",
+    "description": "An agentic skills framework & software development methodology.",
+    "language": "Shell",
+    "stars_today": "1,524 stars today",
+    "total_stars": "201640",
+    "url": "https://github.com/obra/superpowers"
+  }
+]
