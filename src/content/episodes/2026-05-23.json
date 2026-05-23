@@ -3,54 +3,59 @@
   "episodeNumber": 55,
   "locale": "en-US",
   "title": "Intelligence Brief",
-  "subtitle": "OpenAI confidentially filed its S-1 IPO prospectus, Anthropic's June 15 agent billing split, Cisco patches CVE-2026-20223 in Secure Workload",
+  "subtitle": "Shipping a laptop to a refugee camp in Uganda, Sp.h is the standard library that C deserves, Why Japanese companies do so many different things",
   "heroStat": {
-    "value": "25B",
-    "label": "annualized revenue"
+    "value": "595",
+    "label": "points on \"Why Japanese companies do so many different things\""
   },
   "insights": [
     {
-      "text": "OpenAI confidentially filed its S-1 IPO prospectus with the SEC on May 22, with Goldman Sachs and Morgan Stanley leading a deal targeting $852B–$1T valuation and a Q4 2026 listing window. The math: $25B annualized revenue, 50M consumer + 9M business subscribers — but losing $1.22 for every $1 earned. The filing landed the same week Anthropic announced its June 15 agent billing split and three days after SpaceX filed its own IPO. Two of the three companies most associated with frontier AI infrastructure are simultaneously seeking public-market validation while operating at a loss; the third (Anthropic) is restructuring how it captures revenue from the developers building on its platform.",
+      "text": "Shipping a laptop to a refugee camp in Uganda (318 pts, 101 comments)",
       "tags": [
-        "agents"
-      ]
+        "hacker-news"
+      ],
+      "source": "HN 318pts",
+      "url": "https://notesbylex.com/shipping-a-laptop-to-a-refugee-camp-in-uganda"
     },
     {
-      "text": "Anthropic's June 15 agent billing split — announced May 13, now generating intense community backlash — separates programmatic Claude usage (Agent SDK, claude -p, GitHub Actions, third-party tools) from chat subscriptions into credit pools billed at standard API rates. Pro users receive $20/month in credits, Max 5x $100, Max 20x $200; credits expire monthly, are non-poolable, and do not roll over. Community analysis calculates a 12x–175x effective price increase depending on workload intensity. This completes the industry repricing cascade that began when Anthropic pulled Claude Code from $20 Pro (April 21), GitHub paused Pro sign-ups (April 22), and GitHub Copilot moved to metered billing (June 1). The unlimited AI agent subscription is now extinct across every major vendor.",
+      "text": "Sp.h is the standard library that C deserves (58 pts, 33 comments)",
       "tags": [
-        "github-trending",
-        "claude-code",
-        "agents"
-      ]
+        "hacker-news"
+      ],
+      "source": "HN 58pts",
+      "url": "https://spader.zone/sp/"
     },
     {
-      "text": "Cisco patches CVE-2026-20223 (CVSS 10.0) in Secure Workload — an unauthenticated REST API flaw that grants Site Admin privileges across tenant boundaries on both SaaS and on-prem deployments, requiring no credentials, no user interaction, and no significant attacker effort. This is Cisco's second perfect-10 vulnerability in May 2026 (after SD-WAN CVE-2026-20182, also CVSS 10.0, under active exploitation by 10+ threat groups). Two maximum-severity flaws in a single vendor's security infrastructure products within three weeks — the vendor selling you network security is simultaneously the source of your highest-severity exposures.",
+      "text": "Why Japanese companies do so many different things (595 pts, 298 comments)",
       "tags": [
-        "security"
-      ]
+        "hacker-news"
+      ],
+      "source": "HN 595pts",
+      "url": "https://davidoks.blog/p/why-japanese-companies-do-so-many"
     },
     {
-      "text": "CISA adds Trend Micro Apex One CVE-2026-34926 to the Known Exploited Vulnerabilities catalog — a directory traversal flaw under active exploitation, with federal agencies required to remediate by June 4. A security vendor's own endpoint protection product is being exploited to compromise the systems it was deployed to protect. This joins Trellix's source code breach (May 12), Cisco's twin CVSS 10.0 flaws, and the ongoing Drupal CVE-2026-9082 attacks against thousands of PostgreSQL-backed websites. May 2026 has become the month where every category of security vendor — endpoint, firewall, network segmentation, CMS — ships critical vulnerabilities in their own products.",
+      "text": "Project Glasswing: An Initial Update (390 pts, 229 comments)",
       "tags": [
-        "security"
-      ]
+        "hacker-news"
+      ],
+      "source": "HN 390pts",
+      "url": "https://www.anthropic.com/research/glasswing-initial-update"
     },
     {
-      "text": "A nine-year-old Linux kernel vulnerability (CVE-2026-46333, CVSS 5.5) surfaces — an unprivileged local user can disclose sensitive files and execute arbitrary commands as root on default installations of Debian, Fedora, and Ubuntu. This is the fourth major Linux kernel privilege escalation disclosed since May 1 (after Copy Fail CVE-2026-31431, Dirty Frag, and io_uring ZCRX). AI-accelerated vulnerability scanning is systematically excavating the kernel's historical attack surface; four root-level escalations in 23 days sets a new density record for 2026.",
-      "tags": []
+      "text": "Sleep research led to a new sleep apnea drug (122 pts, 79 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 122pts",
+      "url": "https://temertymedicine.utoronto.ca/news/how-decades-sleep-research-led-new-sleep-apnea-drug"
     },
     {
-      "text": "Google Summer of Code 2026 coding officially begins May 25 — 1,141 contributors accepted across 184 mentoring organizations, selected from a record-breaking 23,371 proposals. The community bonding period ends and actual development starts. On a week dominated by AI pricing upheaval and security infrastructure stress, GSoC represents the countervailing signal: structured, mentored, human-driven open source development at scale, operating on a cadence unchanged since 2005.",
+      "text": "Blood Pumping Mechanism of the Hoof (2020) (61 pts, 9 comments)",
       "tags": [
-        "security",
-        "open-source"
-      ]
-    },
-    {
-      "text": "Microsoft's Copilot Cowork — built in direct collaboration with Anthropic using Claude's agent architecture — reaches full operational status as the E7 Frontier Suite ($99/user/month) completes its GA rollout. Excel, Word, and PowerPoint Agents are now generally available in chat, with autonomous multi-step task execution running inside customer M365 tenants. On the same week Anthropic announces agent billing splits, Microsoft is embedding Anthropic's technology into the world's largest enterprise productivity suite — Anthropic simultaneously monetizing developer access directly and powering Microsoft's enterprise agent strategy, two distribution channels with fundamentally different economics.",
-      "tags": [
-        "agents"
-      ]
+        "hacker-news"
+      ],
+      "source": "HN 61pts",
+      "url": "https://horses.extension.org/blood-pumping-mechanism-of-the-hoof/"
     }
   ],
   "trending": [
@@ -113,7 +118,7 @@
     },
     {
       "label": "Insights Today",
-      "value": "7",
+      "value": "6",
       "unit": "stories"
     }
   ],
@@ -124,17 +129,17 @@
     },
     "headlines": [
       {
-        "text": "OpenAI confidentially filed its S-1 IPO prospectus with the SEC on May 22, with Goldman Sachs and Morgan Stanley leading a deal targeting $852B–$1T valuation and a Q4 2026 listing window. The math: $25B annualized revenue, 50M consumer + 9M business subscribers",
+        "text": "Shipping a laptop to a refugee camp in Uganda",
         "metric": "—",
         "source": "web"
       },
       {
-        "text": "Anthropic's June 15 agent billing split",
+        "text": "Sp.h is the standard library that C deserves",
         "metric": "—",
         "source": "web"
       },
       {
-        "text": "Cisco patches CVE-2026-20223 in Secure Workload",
+        "text": "Why Japanese companies do so many different things",
         "metric": "—",
         "source": "web"
       }
