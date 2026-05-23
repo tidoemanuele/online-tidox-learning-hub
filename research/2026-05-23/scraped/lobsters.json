@@ -1,0 +1,146 @@
+[
+  {
+    "title": "Gnutella: A Protocol Outliving the World That Created It",
+    "score": 85,
+    "tags": [
+      "distributed",
+      "historical",
+      "networking"
+    ],
+    "url": "https://rickcarlino.com/notes/p2p/gnutella-explanation.html",
+    "comments_url": "https://lobste.rs/s/ptvaan/gnutella_protocol_outliving_world"
+  },
+  {
+    "title": "A Forth-inspired language for writing websites",
+    "score": 39,
+    "tags": [
+      "concatenative",
+      "web"
+    ],
+    "url": "https://robida.net/entries/2026/05/21/a-forth-inspired-language-for-writing-websites",
+    "comments_url": "https://lobste.rs/s/1acyon/forth_inspired_language_for_writing"
+  },
+  {
+    "title": "The mysterious XF86AudioPlay issue",
+    "score": 14,
+    "tags": [
+      "linux"
+    ],
+    "url": "https://michael-prokop.at/blog/2026/05/20/the-mysterious-xf86audioplay-issue/",
+    "comments_url": "https://lobste.rs/s/tbizqg/mysterious_xf86audioplay_issue"
+  },
+  {
+    "title": "C Programming Language Quiz",
+    "score": 38,
+    "tags": [
+      "c"
+    ],
+    "url": "https://stefansf.de/c-quiz/",
+    "comments_url": "https://lobste.rs/s/4vhivn/c_programming_language_quiz"
+  },
+  {
+    "title": "Designing Firefox for the future",
+    "score": 29,
+    "tags": [
+      "browsers"
+    ],
+    "url": "https://blog.mozilla.org/en/firefox/new-firefox-design/",
+    "comments_url": "https://lobste.rs/s/flehm8/designing_firefox_for_future"
+  },
+  {
+    "title": "A blueprint for formal verification of Apple corecrypto",
+    "score": 15,
+    "tags": [
+      "cryptography",
+      "formalmethods"
+    ],
+    "url": "https://security.apple.com/blog/formal-verification-corecrypto/",
+    "comments_url": "https://lobste.rs/s/7crjja/blueprint_for_formal_verification_apple"
+  },
+  {
+    "title": "Flipper One \u2014 we need your help",
+    "score": 118,
+    "tags": [
+      "hardware"
+    ],
+    "url": "https://blog.flipper.net/flipper-one-we-need-your-help/",
+    "comments_url": "https://lobste.rs/s/fxqjqu/flipper_one_we_need_your_help"
+  },
+  {
+    "title": "The Maintainer's Dilemma",
+    "score": 14,
+    "tags": [
+      "go",
+      "vibecoding"
+    ],
+    "url": "https://spf13.com/p/the-maintainers-dilemma/",
+    "comments_url": "https://lobste.rs/s/gfjzwa/maintainer_s_dilemma"
+  },
+  {
+    "title": "Announcing Web Serial Support in Firefox",
+    "score": 77,
+    "tags": [
+      "browsers",
+      "web"
+    ],
+    "url": "https://hacks.mozilla.org/2026/05/web-serial-support-in-firefox/",
+    "comments_url": "https://lobste.rs/s/tbxmm1/announcing_web_serial_support_firefox"
+  },
+  {
+    "title": "CVE-2026-46529: 10-year-old RCE in Linux PDF Viewer (XReader/Evince/Atril)",
+    "score": 8,
+    "tags": [
+      "linux",
+      "security"
+    ],
+    "url": "https://medeiros.zip/posts/CVE-2026-46529-evince",
+    "comments_url": "https://lobste.rs/s/rlpzut/cve_2026_46529_10_year_old_rce_linux_pdf"
+  },
+  {
+    "title": "This blog ran on Ubuntu 16.04 for 10 years. I migrated it to FreeBSD",
+    "score": 22,
+    "tags": [
+      "freebsd"
+    ],
+    "url": "https://crocidb.com/post/this-blog-ran-on-ubuntu-16-04-for-10-years-i-migrated-it-to-freebsd/",
+    "comments_url": "https://lobste.rs/s/z1o5ru/this_blog_ran_on_ubuntu_16_04_for_10_years_i"
+  },
+  {
+    "title": "Announcing Isabelle support for SAW",
+    "score": 6,
+    "tags": [
+      "cryptography",
+      "formalmethods"
+    ],
+    "url": "https://www.galois.com/articles/announcing-isabelle-support-for-saw",
+    "comments_url": "https://lobste.rs/s/xha7ff/announcing_isabelle_support_for_saw"
+  },
+  {
+    "title": "Megalodon: Mass GitHub Repo Backdooring via CI Workflows",
+    "score": 27,
+    "tags": [
+      "security"
+    ],
+    "url": "https://safedep.io/megalodon-mass-github-repo-backdooring-ci-workflows",
+    "comments_url": "https://lobste.rs/s/k2ifb5/megalodon_mass_github_repo_backdooring"
+  },
+  {
+    "title": "FTC to Require Cox Media Group to Pay Nearly $1million to Settle Charges They Deceived Customers About \u201cActive Listening\u201d AI-Powered Marketing Service",
+    "score": 31,
+    "tags": [
+      "privacy"
+    ],
+    "url": "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-require-cox-media-group-two-other-firms-pay-nearly-1-million-settle-charges-they-deceived",
+    "comments_url": "https://lobste.rs/s/2ddikd/ftc_require_cox_media_group_pay_nearly"
+  },
+  {
+    "title": "End-to-End Procedural Generation in Caves of Qud (2019)",
+    "score": 10,
+    "tags": [
+      "games",
+      "video"
+    ],
+    "url": "https://www.youtube.com/watch?v=jV-DZqdKlnE",
+    "comments_url": "https://lobste.rs/s/zevrur/end_end_procedural_generation_caves_qud"
+  }
+]
