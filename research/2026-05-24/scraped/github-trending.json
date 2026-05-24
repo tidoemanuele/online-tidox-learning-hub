@@ -1,0 +1,47 @@
+[
+  {
+    "name": "openhuman",
+    "fullName": "tinyhumansai/openhuman",
+    "description": "Open-source personal intelligence agent for local hardware",
+    "language": "Rust",
+    "stars_today": "2,143 stars today",
+    "total_stars": "28457",
+    "url": "https://github.com/tinyhumansai/openhuman"
+  },
+  {
+    "name": "skills",
+    "fullName": "mattpocock/skills",
+    "description": "Skills for Real Engineers — official Claude Code skills directory",
+    "language": "TypeScript",
+    "stars_today": "1,936 stars today",
+    "total_stars": "101924",
+    "url": "https://github.com/mattpocock/skills"
+  },
+  {
+    "name": "andrej-karpathy-skills",
+    "fullName": "multica-ai/andrej-karpathy-skills",
+    "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls",
+    "language": "Markdown",
+    "stars_today": "1,547 stars today",
+    "total_stars": "148623",
+    "url": "https://github.com/multica-ai/andrej-karpathy-skills"
+  },
+  {
+    "name": "open-design",
+    "fullName": "nexu-io/open-design",
+    "description": "Local-first, open-source alternative to Anthropic's Claude Design",
+    "language": "TypeScript",
+    "stars_today": "1,412 stars today",
+    "total_stars": "50421",
+    "url": "https://github.com/nexu-io/open-design"
+  },
+  {
+    "name": "kanbots",
+    "fullName": "leodavinci1/kanbots",
+    "description": "Open source Kanban desktop app that runs parallel Claude Code and Codex agents on every card",
+    "language": "TypeScript",
+    "stars_today": "1,183 stars today",
+    "total_stars": "4734",
+    "url": "https://github.com/leodavinci1/kanbots"
+  }
+]
