@@ -3,65 +3,59 @@
   "episodeNumber": 56,
   "locale": "en-US",
   "title": "Intelligence Brief",
-  "subtitle": "Laravel-Lang supply chain attack hits the PHP/Comp, Code knowledge graphs emerge as the critical infra, Anthropic's claude-plugins-official trends at +2,1",
+  "subtitle": "Amazon Web Services – Four Years and Out, Microsoft open-sources \"the earliest DOS source co, Why Is Vivado 2026.1 Dropping Linux Support for Fr",
   "heroStat": {
     "value": "776",
     "label": "points on \"Green card seekers must leave U.S. to apply, Trump administr\""
   },
   "insights": [
     {
-      "text": "Laravel-Lang supply chain attack hits the PHP/Composer ecosystem on May 22–23 — attackers rewrote 233+ version tags across 700+ GitHub repos in seconds, injecting a ~5,900-line credential stealer with fifteen specialist collector modules targeting cloud keys, Kubernetes secrets, CI/CD tokens, SSH material, browser data, and crypto wallets. The attacker pointed Git tags to commits in a controlled fork, exploiting Packagist's tag resolution. This is the sixth major supply chain attack of 2026 (Trivy, Bitwarden CLI, Axios, PyTorch Lightning, TanStack, now Laravel-Lang) and the first to target PHP at scale. Six ecosystems in five months — npm, PyPI, GitHub Actions, Composer — the supply chain crisis is systematic, not episodic.",
+      "text": "Amazon Web Services – Four Years and Out (58 pts, 8 comments)",
       "tags": [
-        "security",
-        "supply-chain",
-        "github-trending"
-      ]
-    },
-    {
-      "text": "Code knowledge graphs emerge as the critical infrastructure category for making AI coding agents economically viable — codegraph surges to +2,456 stars/day (20,465 total, 'pre-indexed code knowledge graph for Claude Code, Codex, Cursor, OpenCode — fewer tokens, fewer tool calls, 100% local') alongside Understand-Anything at +2,299/day (22,863 total, 'turn any code into an interactive knowledge graph you can explore, search, and ask questions about'). Both solve the same structural problem: AI agents scanning files token-by-token is expensive and slow; pre-indexed knowledge graphs reduce token consumption by 60–90%. The economics of AI coding are shifting from 'model cost per token' to 'infrastructure cost per context load.'",
-      "tags": [
-        "github-trending",
-        "claude-code",
-        "agents"
+        "hacker-news"
       ],
-      "source": "GitHub +2,456/day"
+      "source": "HN 58pts",
+      "url": "https://www.adventuresinoss.com/aws-four-years/"
     },
     {
-      "text": "Anthropic's claude-plugins-official trends at +2,193 stars/day (26,833 total) — the first official managed plugin directory maintained by Anthropic, marking the transition from open community experimentation to platform-controlled distribution. Running concurrently: andrej-karpathy-skills holds at +3,507/day (150,370 total) and multica at +410/day (32,112 total, 'open-source managed agents platform'). Anthropic now has two distribution channels for agent capabilities — the official plugin directory (curated, first-party) and the community skills ecosystem (organic, third-party) — mirroring the App Store vs sideloading dynamic that defined mobile platforms.",
+      "text": "Microsoft open-sources \"the earliest DOS source code discovered to date\" (150 pts, 32 comments)",
       "tags": [
-        "github-trending",
-        "agents",
-        "open-source"
+        "hacker-news"
       ],
-      "source": "GitHub +2,193/day"
+      "source": "HN 150pts",
+      "url": "https://arstechnica.com/gadgets/2026/04/microsoft-open-sources-the-earliest-dos-source-code-discovered-to-date/"
     },
     {
-      "text": "Anthropic's Stainless acquisition ($300M+, announced May 18) continues reverberating — the SDK generator used by OpenAI, Google, and Cloudflare will be wound down for external customers, cutting competitors off from a key developer infrastructure tool. This is Anthropic's fourth acquisition in six months: Bun (JavaScript runtime, December 2025), Vercept (computer use agents, February 2026), Coefficient Bio (AI drug discovery, April 2026), and now Stainless. The pattern: Anthropic is not acquiring AI models — it's acquiring the developer toolchain that surrounds them. SDKs, runtimes, agent capabilities, and computer use form a vertical stack that creates switching costs no single model improvement can replicate.",
+      "text": "Why Is Vivado 2026.1 Dropping Linux Support for Free Tier? (49 pts, 8 comments)",
       "tags": [
-        "agents"
-      ]
-    },
-    {
-      "text": "LiteSpeed cPanel CVE-2026-48172 scores a perfect CVSS 10.0 — incorrect privilege assignment in the User-End cPanel Plugin, actively exploited in the wild. This joins Cisco's twin CVSS 10.0 flaws (CVE-2026-20223 Secure Workload, CVE-2026-20182 SD-WAN), Drupal CVE-2026-9082 (SQL injection attacking thousands of sites), and Langflow CVE-2025-34291 (CVSS 9.4, added to CISA KEV). May 2026 has now produced three separate CVSS 10.0 vulnerabilities across cPanel, Cisco Secure Workload, and Cisco SD-WAN — the hosting, network security, and WAN infrastructure layers are simultaneously at maximum severity.",
-      "tags": [
-        "security",
-        "ecosystem"
-      ]
-    },
-    {
-      "text": "Google I/O 2026's aftershocks continue reshaping the CLI landscape — Gemini CLI deprecated effective June 18, replaced by Antigravity CLI (Go rewrite with subagent orchestration, terminal sandboxing, credential masking, and cron-scheduled tasks). Google also shipped Agents CLI in Agent Platform, giving AI agents machine-readable access to the full Google Cloud stack. Meanwhile, Meta launched Ads CLI (April 29) for AI agents to manage ad campaigns from the terminal. The CLI is no longer a developer tool — it's becoming the primary API surface for autonomous agents, with three major platforms (Google, Meta, Anthropic) shipping agent-first CLI tools in a single month.",
-      "tags": [
-        "agents"
-      ]
-    },
-    {
-      "text": "GitHub Trending's composition on May 24 reveals the agent infrastructure market's maturation — of 16 trending repos, 5 are directly agent-related (claude-plugins-official, codegraph, andrej-karpathy-skills, multica, Anthropic-Cybersecurity-Skills), 2 are code intelligence tools (Understand-Anything, magic-trace), and the remaining span from AI engineering education (rohitg00/ai-engineering-from-scratch at +1,521/day) to long-form video generation (NVLabs/LongLive). The .NET ecosystem enters the skills race with dotnet/skills (+266/day, 2,801 total), while yt-dlp sustains at +759/day (165K total) — the CLI media tool that refuses to stop growing, now approaching the star count of major frameworks.",
-      "tags": [
-        "security",
-        "github-trending",
-        "agents"
+        "hacker-news"
       ],
-      "source": "GitHub +1,521/day"
+      "source": "HN 49pts",
+      "url": "https://adaptivesupport.amd.com/s/question/0D5Pd00001YQLdMKAX/why-is-vivado-20261-dropping-linux-support-for-free-tier-?language=en_US"
+    },
+    {
+      "text": "Scammers are abusing an internal Microsoft account to send spam links (101 pts, 23 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 101pts",
+      "url": "https://techcrunch.com/2026/05/21/scammers-are-abusing-an-internal-microsoft-account-to-send-spam/"
+    },
+    {
+      "text": "Wake up! 16b (138 pts, 9 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 138pts",
+      "url": "https://hellmood.111mb.de/wake_up_16b_writeup.html"
+    },
+    {
+      "text": "Alexander Grothendieck Revolutionized 20th-Century Mathematics (26 pts, 2 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 26pts",
+      "url": "https://www.quantamagazine.org/how-alexander-grothendieck-revolutionized-20th-century-mathematics-20260520/"
     }
   ],
   "trending": [
@@ -124,7 +118,7 @@
     },
     {
       "label": "Insights Today",
-      "value": "7",
+      "value": "6",
       "unit": "stories"
     }
   ],
@@ -135,19 +129,19 @@
     },
     "headlines": [
       {
-        "text": "Laravel-Lang supply chain attack hits the PHP/Composer ecosystem on May 22–23",
+        "text": "Amazon Web Services – Four Years and Out",
         "metric": "—",
         "source": "web"
       },
       {
-        "text": "Code knowledge graphs emerge as the critical infrastructure category for making AI coding agents economically viable",
-        "metric": "+2,456/d",
-        "source": "GitHub"
+        "text": "Microsoft open-sources \"the earliest DOS source code discovered to date\"",
+        "metric": "—",
+        "source": "web"
       },
       {
-        "text": "Anthropic's claude-plugins-official trends at +2,193 stars/day",
-        "metric": "+2,193/d",
-        "source": "GitHub"
+        "text": "Why Is Vivado 2026.1 Dropping Linux Support for Free Tier?",
+        "metric": "—",
+        "source": "web"
       }
     ],
     "takeaway": {
