@@ -1,0 +1,175 @@
+[
+  {
+    "type": "intro",
+    "highlight": "May 25th Intelligence Brief",
+    "subtext": "Agents in adoption — and the failure modes",
+    "label": "DAILY BRIEF"
+  },
+  {
+    "type": "intro",
+    "highlight": "Adoption vs. documented failure",
+    "subtext": "Two signals, one thesis",
+    "label": "TODAY'S THESIS"
+  },
+  {
+    "type": "number",
+    "highlight": "DeepSeek Reasonix tops HN",
+    "number": "510",
+    "subtext": "points — prefix-cache coding agent",
+    "label": "TOP STORY"
+  },
+  {
+    "type": "number",
+    "highlight": "99.82% cache hit rate",
+    "number": "435M",
+    "subtext": "tokens processed, $12 not $61",
+    "label": "COST ARCHITECTURE"
+  },
+  {
+    "type": "insight",
+    "highlight": "Lock-in as a moat",
+    "subtext": "DeepSeek-only = byte-stable prefix cache",
+    "label": "DESIGN BET"
+  },
+  {
+    "type": "action",
+    "highlight": "Cost architecture is the new differentiation",
+    "subtext": "Not capability — caching strategy",
+    "label": "TAKEAWAY"
+  },
+  {
+    "type": "number",
+    "highlight": "50 hours on one line graph",
+    "number": "491",
+    "subtext": "points — second-highest story today",
+    "label": "CRAFT SIGNAL"
+  },
+  {
+    "type": "quote",
+    "highlight": "Hand-tuned until the motion felt inevitable",
+    "subtext": "Every layer: easing, timing, color, type",
+    "label": "CRAFTSMANSHIP"
+  },
+  {
+    "type": "insight",
+    "highlight": "When adequate is free, excellence is the bar",
+    "subtext": "The day's thesis in one sentence",
+    "label": "PATTERN"
+  },
+  {
+    "type": "number",
+    "highlight": "Memory is 62% of AI chip cost",
+    "number": "62%",
+    "subtext": "Up from 29% in 2020 — HBM is the bottleneck",
+    "label": "EPOCH AI"
+  },
+  {
+    "type": "insight",
+    "highlight": "AI bottleneck is DRAM yield, not silicon",
+    "subtext": "SK Hynix and Samsung are rate-limiting",
+    "label": "INFRASTRUCTURE"
+  },
+  {
+    "type": "insight",
+    "highlight": "Samsung chip workers produce the 62%",
+    "subtext": "The $340K bonus story in context",
+    "label": "LABOR ECONOMICS"
+  },
+  {
+    "type": "repo",
+    "highlight": "arxiv: Constraint Decay",
+    "subtext": "LLM agents degrade across long task sequences",
+    "label": "RESEARCH"
+  },
+  {
+    "type": "insight",
+    "highlight": "Benchmarks test fresh context, not sustained",
+    "subtext": "The measurement gap is the whole paper",
+    "label": "CONSTRAINT DECAY"
+  },
+  {
+    "type": "insight",
+    "highlight": "Reasonix solves the production symptom",
+    "subtext": "Tool-call repair = addressing constraint decay",
+    "label": "FIELD RESPONSE"
+  },
+  {
+    "type": "quote",
+    "highlight": "Agents mimic the distribution of code",
+    "subtext": "George Hotz — The Eternal Sloptember",
+    "label": "198 HN PTS"
+  },
+  {
+    "type": "insight",
+    "highlight": "Agents work in constrained contexts",
+    "subtext": "The industry is building that constraint layer",
+    "label": "COUNTER-THESIS"
+  },
+  {
+    "type": "insight",
+    "highlight": "Constraint Decay = academic version of geohot",
+    "subtext": "Same day, same failure mode, different format",
+    "label": "CONVERGENCE"
+  },
+  {
+    "type": "number",
+    "highlight": "Understand-Anything leads trending",
+    "number": "+3,999",
+    "subtext": "stars today — code knowledge graphs for Claude",
+    "label": "GITHUB TRENDING"
+  },
+  {
+    "type": "repo",
+    "highlight": "Lum1104/Understand-Anything",
+    "subtext": "Interactive code knowledge graphs — TypeScript",
+    "label": "TOP REPO"
+  },
+  {
+    "type": "repo",
+    "highlight": "colbymchenry/codegraph",
+    "subtext": "+3,003 stars today — pre-indexed code graphs",
+    "label": "SECOND REPO"
+  },
+  {
+    "type": "insight",
+    "highlight": "Two knowledge graph repos in top-two velocity",
+    "subtext": "A sub-category becoming an ecosystem layer",
+    "label": "CLUSTER SIGNAL"
+  },
+  {
+    "type": "repo",
+    "highlight": "multica-ai/andrej-karpathy-skills",
+    "subtext": "+2,551/day at 152K stars — structural adoption",
+    "label": "METHODOLOGY"
+  },
+  {
+    "type": "action",
+    "highlight": "Try Understand-Anything this week",
+    "subtext": "External memory for long-context agent work",
+    "label": "FOR BUILDERS"
+  },
+  {
+    "type": "action",
+    "highlight": "Read the Constraint Decay paper",
+    "subtext": "Then audit: are your benchmarks testing sustained context?",
+    "label": "FOR TEAMS"
+  },
+  {
+    "type": "insight",
+    "highlight": "Agents are a reliability engineering problem",
+    "subtext": "Knowledge graphs, cache stability, failure modes — that's the work",
+    "label": "SYNTHESIS"
+  },
+  {
+    "type": "action",
+    "highlight": "Build something correct for 1,000 tool calls",
+    "subtext": "That's the bar",
+    "label": "THE CHALLENGE"
+  },
+  {
+    "type": "close",
+    "highlight": "That's the brief for May 25th",
+    "subtext": "See you tomorrow",
+    "label": "TIDOX INTELLIGENCE"
+  }
+]

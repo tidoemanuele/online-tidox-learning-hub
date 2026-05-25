@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Understand-Anything",
+    "fullName": "Lum1104/Understand-Anything",
+    "description": "Interactive knowledge graphs for code exploration with Claude, Cursor, Copilot support",
+    "language": "TypeScript",
+    "stars_today": "3,999 stars today",
+    "total_stars": "27488",
+    "url": "https://github.com/Lum1104/Understand-Anything"
+  },
+  {
+    "name": "codegraph",
+    "fullName": "colbymchenry/codegraph",
+    "description": "Pre-indexed code knowledge graphs reducing token usage for Claude and similar tools",
+    "language": "TypeScript",
+    "stars_today": "3,003 stars today",
+    "total_stars": "23072",
+    "url": "https://github.com/colbymchenry/codegraph"
+  },
+  {
+    "name": "andrej-karpathy-skills",
+    "fullName": "multica-ai/andrej-karpathy-skills",
+    "description": "Single configuration file improving Claude Code behavior based on LLM coding insights",
+    "language": "Markdown",
+    "stars_today": "2,551 stars today",
+    "total_stars": "152819",
+    "url": "https://github.com/multica-ai/andrej-karpathy-skills"
+  },
+  {
+    "name": "ai-engineering-from-scratch",
+    "fullName": "rohitg00/ai-engineering-from-scratch",
+    "description": "Educational resource for learning and building AI systems for deployment",
+    "language": "Python",
+    "stars_today": "1,853 stars today",
+    "total_stars": "16844",
+    "url": "https://github.com/rohitg00/ai-engineering-from-scratch"
+  },
+  {
+    "name": "claude-plugins-official",
+    "fullName": "anthropics/claude-plugins-official",
+    "description": "Curated collection of high-quality Claude Code plugins maintained by Anthropic",
+    "language": "Python",
+    "stars_today": "1,173 stars today",
+    "total_stars": "27441",
+    "url": "https://github.com/anthropics/claude-plugins-official"
+  },
+  {
+    "name": "Anthropic-Cybersecurity-Skills",
+    "fullName": "mukul975/Anthropic-Cybersecurity-Skills",
+    "description": "754 cybersecurity skills aligned with MITRE ATT&CK and NIST frameworks for agents",
+    "language": "Python",
+    "stars_today": "930 stars today",
+    "total_stars": "8575",
+    "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills"
+  },
+  {
+    "name": "cmux",
+    "fullName": "manaflow-ai/cmux",
+    "description": "macOS terminal built on Ghostty featuring vertical tabs for AI coding agents",
+    "language": "Swift",
+    "stars_today": "696 stars today",
+    "total_stars": "19145",
+    "url": "https://github.com/manaflow-ai/cmux"
+  },
+  {
+    "name": "multica",
+    "fullName": "multica-ai/multica",
+    "description": "Platform converting coding agents into collaborative team members with task tracking",
+    "language": "TypeScript",
+    "stars_today": "585 stars today",
+    "total_stars": "32679",
+    "url": "https://github.com/multica-ai/multica"
+  },
+  {
+    "name": "free-claude-code",
+    "fullName": "Alishahryar1/free-claude-code",
+    "description": "Terminal and IDE access to Claude Code with voice support across platforms",
+    "language": "Python",
+    "stars_today": "553 stars today",
+    "total_stars": "29285",
+    "url": "https://github.com/Alishahryar1/free-claude-code"
+  },
+  {
+    "name": "build-your-own-x",
+    "fullName": "codecrafters-io/build-your-own-x",
+    "description": "Educational guide teaching programming fundamentals through recreating popular tech",
+    "language": "Markdown",
+    "stars_today": "550 stars today",
+    "total_stars": "504399",
+    "url": "https://github.com/codecrafters-io/build-your-own-x"
+  }
+]
