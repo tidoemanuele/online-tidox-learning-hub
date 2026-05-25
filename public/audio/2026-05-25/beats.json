@@ -52,6 +52,12 @@
   },
   {
     "type": "insight",
+    "highlight": "Practitioners endorsing speed AND craftsmanship",
+    "subtext": "Not contradictory — complementary",
+    "label": "DUAL SIGNAL"
+  },
+  {
+    "type": "insight",
     "highlight": "When adequate is free, excellence is the bar",
     "subtext": "The day's thesis in one sentence",
     "label": "PATTERN"
@@ -68,6 +74,12 @@
     "highlight": "AI bottleneck is DRAM yield, not silicon",
     "subtext": "SK Hynix and Samsung are rate-limiting",
     "label": "INFRASTRUCTURE"
+  },
+  {
+    "type": "insight",
+    "highlight": "HBM supply constrains the entire AI stack",
+    "subtext": "Memory cost share reshapes every forecast",
+    "label": "IMPLICATION"
   },
   {
     "type": "insight",
@@ -98,6 +110,12 @@
     "highlight": "Agents mimic the distribution of code",
     "subtext": "George Hotz — The Eternal Sloptember",
     "label": "198 HN PTS"
+  },
+  {
+    "type": "insight",
+    "highlight": "Not about tools — about agents specifically",
+    "subtext": "Hotz: syntax passes, semantics rots",
+    "label": "THE ARGUMENT"
   },
   {
     "type": "insight",
@@ -143,6 +161,12 @@
     "label": "METHODOLOGY"
   },
   {
+    "type": "insight",
+    "highlight": "Skills methodology outlasted the news cycle",
+    "subtext": "Five days after the 100K threshold — still accelerating",
+    "label": "PERSISTENCE"
+  },
+  {
     "type": "action",
     "highlight": "Try Understand-Anything this week",
     "subtext": "External memory for long-context agent work",
@@ -159,6 +183,12 @@
     "highlight": "Agents are a reliability engineering problem",
     "subtext": "Knowledge graphs, cache stability, failure modes — that's the work",
     "label": "SYNTHESIS"
+  },
+  {
+    "type": "insight",
+    "highlight": "Community building the constraint infrastructure",
+    "subtext": "Neither optimistic nor skeptical — structurally pragmatic",
+    "label": "THE WORK"
   },
   {
     "type": "action",
