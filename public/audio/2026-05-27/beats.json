@@ -1,0 +1,195 @@
+[
+  {
+    "type": "intro",
+    "highlight": "Today's brief",
+    "subtext": "May 27, 2026",
+    "label": "TIDOX INTELLIGENCE"
+  },
+  {
+    "type": "number",
+    "highlight": "Spain blocks prediction markets",
+    "number": "853",
+    "subtext": "HN points \u2014 day's top story",
+    "label": "HACKER NEWS"
+  },
+  {
+    "type": "number",
+    "highlight": "Fifth country to block in 2026",
+    "number": "5",
+    "subtext": "Brazil, Indonesia, India, Portugal, Spain",
+    "label": "PREDICTION MARKETS"
+  },
+  {
+    "type": "insight",
+    "highlight": "No EU framework for prediction markets",
+    "subtext": "National regulators apply gambling law by default"
+  },
+  {
+    "type": "insight",
+    "highlight": "Suppress demand, not operators",
+    "subtext": "ISP-level DNS block for decentralized platforms",
+    "label": "ARCHITECTURE"
+  },
+  {
+    "type": "insight",
+    "highlight": "Which jurisdictions remain accessible",
+    "subtext": "Practitioners reading this as infrastructure news",
+    "label": "SIGNAL"
+  },
+  {
+    "type": "number",
+    "highlight": "Big tech playbook reaches Wikipedia",
+    "number": "437",
+    "subtext": "HN points \u2014 alarming governance story"
+  },
+  {
+    "type": "insight",
+    "highlight": "First employee, original CTO, fired in 4 months",
+    "subtext": "Most of team were union organizers"
+  },
+  {
+    "type": "number",
+    "highlight": "Wikimedia sitting on reserves",
+    "number": "$296M",
+    "subtext": "Plus new AI data licensing revenue",
+    "label": "GOVERNANCE"
+  },
+  {
+    "type": "insight",
+    "highlight": "Raised on volunteers, monetized as AI training data",
+    "subtext": "Two identities increasingly incompatible"
+  },
+  {
+    "type": "insight",
+    "highlight": "If volunteers disengage, the asset degrades",
+    "subtext": "Commons destruction as AI governance failure",
+    "label": "SECOND-ORDER"
+  },
+  {
+    "type": "quote",
+    "highlight": "The AI opportunity has higher expected value",
+    "subtext": "Drew Houston: Dropbox founder steps down after 19 years"
+  },
+  {
+    "type": "number",
+    "highlight": "Zero to $2.5B ARR \u2014 then walking away",
+    "number": "329",
+    "subtext": "HN points on Dropbox founder departure"
+  },
+  {
+    "type": "insight",
+    "highlight": "Market intelligence, not tribute",
+    "subtext": "Pricing the AI opportunity with real comparison points",
+    "label": "SIGNAL"
+  },
+  {
+    "type": "repo",
+    "highlight": "curl \u2014 28 years, billions of devices",
+    "subtext": "150 Lobsters pts \u2014 Daniel Stenberg on the pressure",
+    "label": "OPEN SOURCE"
+  },
+  {
+    "type": "number",
+    "highlight": "curl on pace for 50 CVEs this year",
+    "number": "50",
+    "subtext": "Highest annual disclosure count in project history"
+  },
+  {
+    "type": "insight",
+    "highlight": "AI dropped marginal cost of finding vulnerabilities",
+    "subtext": "Days to hours for widely deployed C code"
+  },
+  {
+    "type": "insight",
+    "highlight": "Finding easier, fixing unchanged",
+    "subtext": "The asymmetry is the structural pressure",
+    "label": "ASYMMETRY"
+  },
+  {
+    "type": "insight",
+    "highlight": "Every critical open source library faces this",
+    "subtext": "Incoming rate scaled, capacity did not"
+  },
+  {
+    "type": "quote",
+    "highlight": "AI changes rules the system wasn't designed with in mind"
+  },
+  {
+    "type": "repo",
+    "highlight": "mattpocock/skills",
+    "subtext": "+4,697 stars today \u2014 velocity event",
+    "label": "GITHUB TRENDING"
+  },
+  {
+    "type": "number",
+    "highlight": "Organizational adoption, not viral discovery",
+    "number": "+4,697",
+    "subtext": "More than twice any prior single-day peak",
+    "label": "SKILLS"
+  },
+  {
+    "type": "repo",
+    "highlight": "n8n-io/n8n",
+    "subtext": "195K total stars, +1,915 today \u2014 agent use cases",
+    "label": "WORKFLOW"
+  },
+  {
+    "type": "insight",
+    "highlight": "Five repos: what builders are actually deploying",
+    "subtext": "skills, claw-code, n8n, karpathy-skills, rosalind"
+  },
+  {
+    "type": "repo",
+    "highlight": "logannye/rosalind",
+    "subtext": "Whole-genome pipelines in 100MB RAM \u2014 Rust",
+    "label": "GENOMICS"
+  },
+  {
+    "type": "number",
+    "highlight": "Sequencing under $200 per sample",
+    "number": "$200",
+    "subtext": "Rosalind closes the analysis cost gap",
+    "label": "BIOINFORMATICS"
+  },
+  {
+    "type": "insight",
+    "highlight": "Every institution built before AI changed the cost function",
+    "subtext": "Spain, Wikimedia, curl \u2014 rules designed without AI",
+    "label": "THESIS"
+  },
+  {
+    "type": "insight",
+    "highlight": "Design with AI in the model from the start"
+  },
+  {
+    "type": "number",
+    "highlight": "+4,697 stars is the community vote",
+    "number": "+4,697",
+    "subtext": "What designing with AI in the model looks like"
+  },
+  {
+    "type": "close",
+    "highlight": "Go build something. See you tomorrow.",
+    "label": "TIDOX INTELLIGENCE BRIEF"
+  },
+  {
+    "type": "insight",
+    "highlight": "..."
+  },
+  {
+    "type": "insight",
+    "highlight": "..."
+  },
+  {
+    "type": "insight",
+    "highlight": "..."
+  },
+  {
+    "type": "insight",
+    "highlight": "..."
+  },
+  {
+    "type": "insight",
+    "highlight": "..."
+  }
+]
