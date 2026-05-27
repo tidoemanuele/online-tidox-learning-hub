@@ -3,50 +3,59 @@
   "episodeNumber": 57,
   "locale": "en-US",
   "title": "Intelligence Brief",
-  "subtitle": "Anthropic's $30B funding round closing at $900B+ v, SpaceX plans to acquire Cursor for $60B post-IPO w, CVE-2026-28952",
+  "subtitle": "Splinter Cell veteran says realistic modern lighti, Where does next-token prediction leave us?, The just-say-no engineer was a ZIRP phenomenon",
   "heroStat": {
-    "value": "30B",
-    "label": "funding round closing at"
+    "value": "853",
+    "label": "points on \"Spain blocks prediction markets Polymarket, Kalshi over lack\""
   },
   "insights": [
     {
-      "text": "Anthropic's $30B funding round closing at $900B+ valuation — led by Sequoia, Dragoneer, Altimeter, Greenoaks (~$2B each) — surpasses OpenAI's $852B IPO target, making Anthropic the most valuable private AI company. PwC simultaneously deploys Claude Code to 30,000 professionals and SAP adopts Claude as its primary reasoning engine. The capital and the enterprise distribution are now moving in lockstep — Anthropic is being valued not as a model company but as an enterprise infrastructure layer.",
+      "text": "Splinter Cell veteran says realistic modern lighting has screwed up stealth game (38 pts, 4 comments)",
       "tags": [
-        "claude-code"
-      ]
+        "hacker-news"
+      ],
+      "source": "HN 38pts",
+      "url": "https://www.rockpapershotgun.com/splinter-cell-veteran-says-realistic-modern-lighting-has-screwed-up-stealth-games-it-gets-very-hard-to-tell-whats-light-whats-shadow-whats-dark-whats-safe"
     },
     {
-      "text": "SpaceX plans to acquire Cursor for $60B post-IPO (June 12, Nasdaq 'SPCX', $75B raise at $1.75T valuation) with a $10B breakup fee — the largest AI developer tool acquisition ever proposed. An aerospace company buying a code editor at 60x+ revenue signals that AI coding tools are being absorbed into infrastructure conglomerates. The $10B breakup fee alone exceeds the total funding of most AI startups. Independent AI coding tools may have a 12-18 month window before consolidation reshapes the market.",
-      "tags": []
-    },
-    {
-      "text": "CVE-2026-28952 — Claude Mythos Preview found a macOS Tahoe 26.5 kernel memory corruption vulnerability on Apple M5 silicon in five days, reaching 147 HN pts. The first public kernel exploit on M5 hardware, extending Anthropic's Glasswing zero-day work from Firefox (~300 vulns) to Apple's core OS. AI-discovered kernel vulnerabilities in shipping production operating systems are no longer theoretical — they are CVE-numbered and vendor-patched.",
-      "tags": [],
-      "source": "HN 147pts"
-    },
-    {
-      "text": "Chinese open-weight models now account for 60% of all AI usage on OpenRouter — the first time non-US models dominate aggregate inference traffic. Kimi K2.6 is the first open-weight model to beat GPT-5.4 on SWE-Bench Pro; DeepSeek V4 runs at $0.87/M tokens vs $15/M for comparable US models; GLM-5 ships MIT-licensed and trained on Huawei Ascend chips. US AI companies must now justify 3-15x pricing premiums through product features and governance, not model quality.",
-      "tags": []
-    },
-    {
-      "text": "mattpocock/skills gained +54,658 GitHub stars in May 2026, karpathy-skills +50,341, and open-design +43,313 — all Claude Code ecosystem repos trending at velocities previously reserved for major framework launches. The agent skills category that emerged on April 27 has absorbed more developer attention in one month than most open-source projects accumulate in a year. Three of the top five trending repos in May are structured interaction patterns, not code.",
+      "text": "Where does next-token prediction leave us? (138 pts, 74 comments)",
       "tags": [
-        "github-trending",
-        "claude-code",
-        "agents"
-      ]
+        "hacker-news"
+      ],
+      "source": "HN 138pts",
+      "url": "https://pop.rdi.sh/where-does-next-token-prediction-leave-us/"
     },
     {
-      "text": "Microsoft Build 2026 declares 'AI is no longer an assistant — it is infrastructure' as Agent 365 reaches GA with registry sync across AWS Bedrock and Google Cloud. AutoGen moves to maintenance mode, replaced by the broader Microsoft Agent Framework. Meanwhile, PayPal cuts 4,760 jobs (20% workforce) under new CEO Enrique Lores to build an AI-native operating model, and California Governor Newsom signs the first US state-level executive order protecting workers from AI-related job losses. The industry is simultaneously deploying AI as infrastructure and confronting its labor displacement effects in the same news cycle.",
+      "text": "The just-say-no engineer was a ZIRP phenomenon (110 pts, 93 comments)",
       "tags": [
-        "agents"
-      ]
+        "hacker-news"
+      ],
+      "source": "HN 110pts",
+      "url": "https://www.seangoedecke.com/the-just-say-no-engineer-was-a-zirp-phenomenon/"
     },
     {
-      "text": "2026 tech layoffs reach 138,900+ (Trueup), with May more than doubling April's cuts. Projected full-year total: 370,000. $725B in AI spending is concentrated in four companies while displacing tens of thousands — a capital-to-labor substitution ratio with no historical precedent in tech. Pope Leo XIV and Anthropic co-founder Christopher Olah present encyclical 'Magnifica Humanitas' on AI ethics, the first direct collaboration between a pontiff and an AI safety researcher on the moral implications of artificial intelligence.",
+      "text": "Cloudflare Flagship (156 pts, 71 comments)",
       "tags": [
-        "research"
-      ]
+        "hacker-news"
+      ],
+      "source": "HN 156pts",
+      "url": "https://developers.cloudflare.com/flagship/"
+    },
+    {
+      "text": "Chemistry behind the Garden Grove chemical tank (297 pts, 110 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 297pts",
+      "url": "https://www.science.org/content/blog-post/methyl-methacrylate-tank"
+    },
+    {
+      "text": "The Forgotten Art of the LAN Party (2023) (98 pts, 27 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 98pts",
+      "url": "https://www.superjumpmagazine.com/the-forgotten-art-of-the-lan-party/"
     }
   ],
   "trending": [
@@ -109,7 +118,7 @@
     },
     {
       "label": "Insights Today",
-      "value": "7",
+      "value": "6",
       "unit": "stories"
     }
   ],
@@ -120,17 +129,17 @@
     },
     "headlines": [
       {
-        "text": "Anthropic's $30B funding round closing at $900B+ valuation",
+        "text": "Splinter Cell veteran says realistic modern lighting has screwed up stealth game",
         "metric": "—",
         "source": "web"
       },
       {
-        "text": "SpaceX plans to acquire Cursor for $60B post-IPO with a $10B breakup fee",
+        "text": "Where does next-token prediction leave us?",
         "metric": "—",
         "source": "web"
       },
       {
-        "text": "CVE-2026-28952",
+        "text": "The just-say-no engineer was a ZIRP phenomenon",
         "metric": "—",
         "source": "web"
       }
