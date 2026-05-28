@@ -3,57 +3,59 @@
   "episodeNumber": 58,
   "locale": "en-US",
   "title": "Intelligence Brief",
-  "subtitle": "Uber burned its entire 2026 AI budget in one quart, Simon Willison's 'I think Anthropic and OpenAI hav, Oracle launches its first-ever monthly Critical Se",
+  "subtitle": "YouTube to automatically label AI-generated videos, Hallucinate – Massively Multiplayer Online Rave, I think Anthropic and OpenAI have found product-ma",
   "heroStat": {
-    "value": "$2,000,",
-    "label": "with 95"
+    "value": "880",
+    "label": "points on \"Can we have the day off?\""
   },
   "insights": [
     {
-      "text": "Uber burned its entire 2026 AI budget in one quarter — monthly API costs per engineer running $500–$2,000, with 95% of engineers using AI tools monthly and 70% of commits involving AI, yet COO Andrew Macdonald admits 'the link to better consumer features is not there yet.' This is the first Fortune 500 company to publicly quantify the gap between AI spending and measurable product outcomes. The AI coding tool market must now answer a question it has avoided: does reduced coding time produce better software, or just more of it?",
-      "tags": []
-    },
-    {
-      "text": "Simon Willison's 'I think Anthropic and OpenAI have found product-market fit' reaches 784 pts / 935 comments — the highest comment count on HN's May 28 front page, running simultaneously with 'Can we have the day off?' at 903 pts / 544 comments. The community's top two stories are about AI's economic success and AI's labor displacement — not as separate threads, but as the same conversation viewed from two sides. 935 comments on a PMF declaration means the community is contesting the claim, not celebrating it.",
-      "tags": []
-    },
-    {
-      "text": "Oracle launches its first-ever monthly Critical Security Patch Update today — 35 patches across Database, E-Business Suite, Communications, and Hospitality — explicitly citing AI-accelerated vulnerability discovery as the reason for moving from quarterly to monthly cadence. The CVE publication rate has reached 192/day (27/hour). Oracle's response validates the structural thesis: AI is surfacing vulnerabilities faster than quarterly cycles can address, and every major vendor must compress its patch cadence or accept permanent exposure windows.",
+      "text": "YouTube to automatically label AI-generated videos (727 pts, 421 comments)",
       "tags": [
-        "security"
-      ]
+        "hacker-news"
+      ],
+      "source": "HN 727pts",
+      "url": "https://blog.youtube/news-and-events/improving-ai-labels-viewers-creators/"
     },
     {
-      "text": "Ghost CMS CVE-2026-26980 (CVSS 9.4) has compromised 700+ websites including Harvard, Oxford, and DuckDuckGo via blind SQL injection, while cPanel CVE-2026-41940 (CVSS 9.8) has reached 44,000+ compromised IPs with Mirai botnets and 'Sorry' ransomware. Both vulnerabilities had patches available for weeks before mass exploitation began. The security crisis of May 2026 is not a discovery problem — it is a deployment problem. AI finds the flaws; organizations still cannot apply the fixes fast enough.",
+      "text": "Hallucinate – Massively Multiplayer Online Rave (93 pts, 37 comments)",
       "tags": [
-        "security"
-      ]
+        "hacker-news"
+      ],
+      "source": "HN 93pts",
+      "url": "https://hallucinate.site"
     },
     {
-      "text": "Six of 17 GitHub Trending repos on May 28 are Claude Code skill/harness/plugin repos — Understand-Anything at 4,465 stars/day (#1 velocity), taste-skill at 2,715, ECC at 2,062, and anthropics/knowledge-work-plugins (695 stars, the first official Anthropic-maintained plugin directory for Claude Cowork). Anthropic is now institutionalizing the skills ecosystem with first-party open-source repos, marking the transition from community experimentation to platform-controlled distribution. The instruction layer is compounding faster than the model layer.",
+      "text": "I think Anthropic and OpenAI have found product-market fit (774 pts, 927 comments)",
       "tags": [
-        "github-trending",
-        "claude-code",
-        "open-source"
-      ]
+        "hacker-news"
+      ],
+      "source": "HN 774pts",
+      "url": "https://simonwillison.net/2026/May/27/product-market-fit/"
     },
     {
-      "text": "DuckDuckGo saw +28% visits after Google announced 'people love AI Mode' — 781 pts / 372 comments on HN, running alongside 'Google Search as you know it is over' on Tildes (47 pts, 27 comments) and a Google employee arrested for $1M Polymarket insider trading on search terms. Google's own PR for AI Mode became a catalyst for defection to the privacy-first alternative. Three simultaneous signals — user migration, community declaration of death, and internal corruption — converge on the same thesis: Google's search moat is visibly cracking.",
-      "tags": []
-    },
-    {
-      "text": "YouTube begins auto-labeling AI-generated videos at 743 pts / 432 comments, while 'stop-slop' trends as a GitHub skill repo (664 stars) and Tildes ~tech hosts 'If you let AI do your writing, I will come to your house and kill you' at 54 pts / 78 comments. Content authenticity norms are forming simultaneously at platform level (YouTube policy affecting billions), community level (Tildes/Lobsters anti-AI sentiment), and tooling level (GitHub repos enforcing quality). The norm is arriving from three directions at once — policy, culture, and code.",
+      "text": "I analysed 20 years of my chats (27 pts, 5 comments)",
       "tags": [
-        "github-trending"
-      ]
+        "hacker-news"
+      ],
+      "source": "HN 27pts",
+      "url": "https://drobinin.com/posts/am-i-a-bad-friend/"
     },
     {
-      "text": "Eclipse Foundation launches Open VSX Managed Registry — the first foundation-operated alternative to Microsoft's VS Code Marketplace — one week after the GitHub breach via a poisoned VS Code extension exfiltrated 3,800 internal repos. The timing is structural, not coincidental: IDE extension marketplaces have become a confirmed supply chain attack vector in May 2026, and the open-source community's response is institutional separation from the compromised distribution channel. Foundation-operated infrastructure for developer tools is the post-breach pattern.",
+      "text": "Qwen3.7-Max Ran for 35 Hours on Unknown Hardware and Achieved a 10× Speedup (23 pts, 8 comments)",
       "tags": [
-        "security",
-        "supply-chain",
-        "github-trending"
-      ]
+        "hacker-news"
+      ],
+      "source": "HN 23pts",
+      "url": "https://firethering.com/alibaba-qwen3-7-max-autonomous-agent/"
+    },
+    {
+      "text": "SimCity 3k in 4k (2025) (333 pts, 125 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 333pts",
+      "url": "https://www.thran.uk/writ/hdid/2025/12/simcity-3k-in-4k.html"
     }
   ],
   "trending": [
@@ -116,7 +118,7 @@
     },
     {
       "label": "Insights Today",
-      "value": "8",
+      "value": "6",
       "unit": "stories"
     }
   ],
@@ -127,17 +129,17 @@
     },
     "headlines": [
       {
-        "text": "Uber burned its entire 2026 AI budget in one quarter",
+        "text": "YouTube to automatically label AI-generated videos",
         "metric": "—",
         "source": "web"
       },
       {
-        "text": "Simon Willison's 'I think Anthropic and OpenAI have found product-market fit' reaches 784 pts / 935 comments",
+        "text": "Hallucinate – Massively Multiplayer Online Rave",
         "metric": "—",
         "source": "web"
       },
       {
-        "text": "Oracle launches its first-ever monthly Critical Security Patch Update today",
+        "text": "I think Anthropic and OpenAI have found product-market fit",
         "metric": "—",
         "source": "web"
       }
