@@ -1,0 +1,149 @@
+[
+  {
+    "title": "Garnix is shutting down",
+    "score": 45,
+    "tags": [
+      "devops",
+      "nix"
+    ],
+    "url": "https://discourse.nixos.org/t/garnix-is-shutting-down-not-oc/77895",
+    "comments_url": "https://lobste.rs/s/4msjpt/garnix_is_shutting_down"
+  },
+  {
+    "title": "Protestware for coding agents",
+    "score": 41,
+    "tags": [
+      "security",
+      "vibecoding"
+    ],
+    "url": "https://nesbitt.io/2026/05/28/protestware-for-coding-agents.html",
+    "comments_url": "https://lobste.rs/s/brusu8/protestware_for_coding_agents"
+  },
+  {
+    "title": "Announcing Rust 1.96.0",
+    "score": 38,
+    "tags": [
+      "release",
+      "rust"
+    ],
+    "url": "https://blog.rust-lang.org/2026/05/28/Rust-1.96.0/",
+    "comments_url": "https://lobste.rs/s/4jgpkn/announcing_rust_1_96_0"
+  },
+  {
+    "title": "Why Gentoo?",
+    "score": 73,
+    "tags": [
+      "linux"
+    ],
+    "url": "https://blogs.gentoo.org/mgorny/2026/05/28/why-gentoo/",
+    "comments_url": "https://lobste.rs/s/nx1xwo/why_gentoo"
+  },
+  {
+    "title": "One year of Roto, the compiled scripting language for Rust",
+    "score": 25,
+    "tags": [
+      "rust"
+    ],
+    "url": "https://blog.nlnetlabs.nl/one-year-of-roto-the-compiled-scripting-language-for-rust/",
+    "comments_url": "https://lobste.rs/s/pd8aug/one_year_roto_compiled_scripting"
+  },
+  {
+    "title": "What's cooking on SourceHut? Q2 2026",
+    "score": 66,
+    "tags": [
+      "devops"
+    ],
+    "url": "https://sourcehut.org/blog/2026-05-28-whats-cooking-q2-2026/",
+    "comments_url": "https://lobste.rs/s/jowjkj/what_s_cooking_on_sourcehut_q2_2026"
+  },
+  {
+    "title": "SQLite Does Not Accept Agentic Code",
+    "score": 12,
+    "tags": [
+      "vibecoding"
+    ],
+    "url": "https://simonwillison.net/2026/May/27/sqlite-agents/",
+    "comments_url": "https://lobste.rs/s/lc26ar/sqlite_does_not_accept_agentic_code"
+  },
+  {
+    "title": "Nitpicking the shell history scene in \u2018Tron: Legacy\u2019",
+    "score": 56,
+    "tags": [
+      "unix"
+    ],
+    "url": "https://www.chiark.greenend.org.uk/~sgtatham/quasiblog/tron-legacy/",
+    "comments_url": "https://lobste.rs/s/0zltfs/nitpicking_shell_history_scene_tron"
+  },
+  {
+    "title": "GNOME 2.20 but its Web Components",
+    "score": 33,
+    "tags": [
+      "retrocomputing",
+      "web"
+    ],
+    "url": "https://bennypowers.dev/posts/GNOME-2-web/",
+    "comments_url": "https://lobste.rs/s/n2mhi4/gnome_2_20_its_web_components"
+  },
+  {
+    "title": "tail CI logs over SSH",
+    "score": 10,
+    "tags": [
+      "vcs",
+      "web"
+    ],
+    "url": "https://blog.tangled.org/ssh/",
+    "comments_url": "https://lobste.rs/s/d9n2yd/tail_ci_logs_over_ssh"
+  },
+  {
+    "title": "A Love Letter to Neovim",
+    "score": 56,
+    "tags": [
+      "editors",
+      "education",
+      "vim"
+    ],
+    "url": "https://caio.ca/blog/a-love-letter-to-neovim",
+    "comments_url": "https://lobste.rs/s/m57z5f/love_letter_neovim"
+  },
+  {
+    "title": "jjc: Non-interactive hunk-level operations for Jujutsu",
+    "score": 20,
+    "tags": [
+      "rust",
+      "vcs"
+    ],
+    "url": "https://tangled.org/akashina.tngl.sh/jjc",
+    "comments_url": "https://lobste.rs/s/w4vsvq/jjc_non_interactive_hunk_level"
+  },
+  {
+    "title": "The Silent Critic",
+    "score": 5,
+    "tags": [
+      "practices",
+      "vibecoding"
+    ],
+    "url": "https://www.tft.io/the-silent-critic/",
+    "comments_url": "https://lobste.rs/s/jomfmw/silent_critic"
+  },
+  {
+    "title": "Lunacy - Lua 5.1 interpreter with Lazy Basic Block Versioning and JIT",
+    "score": 3,
+    "tags": [
+      "compilers",
+      "lua"
+    ],
+    "url": "https://redvice.org/2026/lunacy/",
+    "comments_url": "https://lobste.rs/s/l6egm2/lunacy_lua_5_1_interpreter_with_lazy_basic"
+  },
+  {
+    "title": "Package managers that package package managers",
+    "score": 19,
+    "tags": [
+      "compsci",
+      "linux",
+      "practices"
+    ],
+    "url": "https://nesbitt.io/2026/05/28/package-managers-that-package-package-managers.html",
+    "comments_url": "https://lobste.rs/s/re4ztm/package_managers_package_package"
+  }
+]

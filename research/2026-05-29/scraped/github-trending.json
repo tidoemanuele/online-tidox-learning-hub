@@ -1,0 +1,110 @@
+[
+  {
+    "name": "MoneyPrinterTurbo",
+    "fullName": "harry0703/MoneyPrinterTurbo",
+    "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
+    "language": "Python",
+    "stars_today": "4,698 stars today",
+    "total_stars": "67294",
+    "url": "https://github.com/harry0703/MoneyPrinterTurbo"
+  },
+  {
+    "name": "Understand-Anything",
+    "fullName": "Lum1104/Understand-Anything",
+    "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+    "language": "TypeScript",
+    "stars_today": "3,776 stars today",
+    "total_stars": "43316",
+    "url": "https://github.com/Lum1104/Understand-Anything"
+  },
+  {
+    "name": "taste-skill",
+    "fullName": "Leonxlnx/taste-skill",
+    "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
+    "language": "Shell",
+    "stars_today": "2,234 stars today",
+    "total_stars": "26947",
+    "url": "https://github.com/Leonxlnx/taste-skill"
+  },
+  {
+    "name": "English-level-up-tips",
+    "fullName": "byoungd/English-level-up-tips",
+    "description": "An advanced guide to learn English which might benefit you a lot. 离谱的英语学习指南/英语学习教程",
+    "language": null,
+    "stars_today": "2,019 stars today",
+    "total_stars": "48907",
+    "url": "https://github.com/byoungd/English-level-up-tips"
+  },
+  {
+    "name": "FreeDomain",
+    "fullName": "DigitalPlatDev/FreeDomain",
+    "description": "DigitalPlat FreeDomain: Free Domain For Everyone",
+    "language": "HTML",
+    "stars_today": "1,761 stars today",
+    "total_stars": "170997",
+    "url": "https://github.com/DigitalPlatDev/FreeDomain"
+  },
+  {
+    "name": "superpowers",
+    "fullName": "obra/superpowers",
+    "description": "An agentic skills framework & software development methodology that works.",
+    "language": "Shell",
+    "stars_today": "1,730 stars today",
+    "total_stars": "211441",
+    "url": "https://github.com/obra/superpowers"
+  },
+  {
+    "name": "markitdown",
+    "fullName": "microsoft/markitdown",
+    "description": "Python tool for converting files and office documents to Markdown.",
+    "language": "Python",
+    "stars_today": "1,410 stars today",
+    "total_stars": "128118",
+    "url": "https://github.com/microsoft/markitdown"
+  },
+  {
+    "name": "ECC",
+    "fullName": "affaan-m/ECC",
+    "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+    "language": "JavaScript",
+    "stars_today": "1,385 stars today",
+    "total_stars": "197602",
+    "url": "https://github.com/affaan-m/ECC"
+  },
+  {
+    "name": "build-your-own-x",
+    "fullName": "codecrafters-io/build-your-own-x",
+    "description": "Master programming by recreating your favorite technologies from scratch.",
+    "language": "Markdown",
+    "stars_today": "1,066 stars today",
+    "total_stars": "506746",
+    "url": "https://github.com/codecrafters-io/build-your-own-x"
+  },
+  {
+    "name": "stop-slop",
+    "fullName": "hardikpandya/stop-slop",
+    "description": "A skill file for removing AI tells from prose",
+    "language": null,
+    "stars_today": "761 stars today",
+    "total_stars": "6567",
+    "url": "https://github.com/hardikpandya/stop-slop"
+  },
+  {
+    "name": "skills",
+    "fullName": "anthropics/skills",
+    "description": "Public repository for Agent Skills",
+    "language": "Python",
+    "stars_today": "718 stars today",
+    "total_stars": "143106",
+    "url": "https://github.com/anthropics/skills"
+  },
+  {
+    "name": "twenty",
+    "fullName": "twentyhq/twenty",
+    "description": "The open alternative to Salesforce, designed for AI.",
+    "language": "TypeScript",
+    "stars_today": "493 stars today",
+    "total_stars": "47999",
+    "url": "https://github.com/twentyhq/twenty"
+  }
+]
