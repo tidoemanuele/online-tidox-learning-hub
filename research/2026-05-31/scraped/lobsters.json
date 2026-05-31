@@ -1,0 +1,148 @@
+[
+  {
+    "title": "NixOS 26.05 released",
+    "score": 72,
+    "tags": [
+      "nix",
+      "release"
+    ],
+    "url": "https://nixos.org/blog/announcements/2026/nixos-2605/",
+    "comments_url": "https://lobste.rs/s/pudkct/nixos_26_05_released"
+  },
+  {
+    "title": "ELF Linker Improvements in Zig",
+    "score": 23,
+    "tags": [
+      "zig"
+    ],
+    "url": "https://ziglang.org/devlog/2026/?2026-05-30#2026-05-30",
+    "comments_url": "https://lobste.rs/s/253fit/elf_linker_improvements_zig"
+  },
+  {
+    "title": "Ahoy, DECmate II! the little PDP-8 that could",
+    "score": 7,
+    "tags": [
+      "retrocomputing"
+    ],
+    "url": "http://oldvcr.blogspot.com/2026/05/ahoy-decmate-ii-little-pdp-8-that-could.html",
+    "comments_url": "https://lobste.rs/s/e7n06u/ahoy_decmate_ii_little_pdp_8_could"
+  },
+  {
+    "title": "A New Design for Pretty Printer Implementations in Rust",
+    "score": 17,
+    "tags": [
+      "performance",
+      "rust"
+    ],
+    "url": "https://blog.wybxc.cc/blog/pretty-printer-pye/",
+    "comments_url": "https://lobste.rs/s/wa3gxl/new_design_for_pretty_printer"
+  },
+  {
+    "title": "My Accessibility Stack and the future on Wayland",
+    "score": 7,
+    "tags": [
+      "a11y",
+      "linux"
+    ],
+    "url": "https://nocoffei.com/?p=451",
+    "comments_url": "https://lobste.rs/s/giktao/my_accessibility_stack_future_on_wayland"
+  },
+  {
+    "title": "What Is a Dickover?",
+    "score": 112,
+    "tags": [
+      "design",
+      "web"
+    ],
+    "url": "https://daringfireball.net/2026/05/what_is_a_dickover",
+    "comments_url": "https://lobste.rs/s/xsurh7/what_is_dickover"
+  },
+  {
+    "title": "I Am Retiring from Tech to Live Offline",
+    "score": 142,
+    "tags": [
+      "person"
+    ],
+    "url": "https://openpath.quest/2026/i-am-retiring-from-tech-to-live-offline/",
+    "comments_url": "https://lobste.rs/s/axg3ga/i_am_retiring_from_tech_live_offline"
+  },
+  {
+    "title": "Nix on Sailfish X (Sailfish OS for Sony Xperia)",
+    "score": 14,
+    "tags": [
+      "mobile",
+      "nix"
+    ],
+    "url": "https://toast.al/posts/techlore/2026-05-30_nix-on-sailfish-os/",
+    "comments_url": "https://lobste.rs/s/awqcgc/nix_on_sailfish_x_sailfish_os_for_sony"
+  },
+  {
+    "title": "EV Stupidity Checklist",
+    "score": 72,
+    "tags": [
+      "design",
+      "hardware"
+    ],
+    "url": "http://hypercritical.co/2026/05/29/ev-stupidity-checklist",
+    "comments_url": "https://lobste.rs/s/vyi4gp/ev_stupidity_checklist"
+  },
+  {
+    "title": "Voxel Space",
+    "score": 13,
+    "tags": [
+      "graphics",
+      "programming"
+    ],
+    "url": "https://s-macke.github.io/VoxelSpace/",
+    "comments_url": "https://lobste.rs/s/fcoley/voxel_space"
+  },
+  {
+    "title": "Am I a Bad Friend?",
+    "score": 9,
+    "tags": [
+      "visualization"
+    ],
+    "url": "https://drobinin.com/posts/am-i-a-bad-friend/",
+    "comments_url": "https://lobste.rs/s/oktynl/am_i_bad_friend"
+  },
+  {
+    "title": "On Rendering Diffs",
+    "score": 25,
+    "tags": [
+      "performance",
+      "web"
+    ],
+    "url": "https://pierre.computer/writing/on-rendering-diffs",
+    "comments_url": "https://lobste.rs/s/e1kdrn/on_rendering_diffs"
+  },
+  {
+    "title": "AV2 v1.0.0 specification",
+    "score": 5,
+    "tags": [
+      "graphics",
+      "release"
+    ],
+    "url": "https://av2.aomedia.org/",
+    "comments_url": "https://lobste.rs/s/w7sajs/av2_v1_0_0_specification"
+  },
+  {
+    "title": "Canonical takes over Flutter desktop maintenance & roadmap",
+    "score": 11,
+    "tags": [
+      "linux"
+    ],
+    "url": "https://www.omgubuntu.co.uk/2026/05/flutter-desktop-canonical-maintained",
+    "comments_url": "https://lobste.rs/s/wht0iv/canonical_takes_over_flutter_desktop"
+  },
+  {
+    "title": "Microcode inside the Intel 8087 floating-point chip: register exchange",
+    "score": 4,
+    "tags": [
+      "hardware",
+      "historical",
+      "reversing"
+    ],
+    "url": "http://www.righto.com/2026/05/microcode-inside-intel-8087-floating.html",
+    "comments_url": "https://lobste.rs/s/b1yg8b/microcode_inside_intel_8087_floating"
+  }
+]

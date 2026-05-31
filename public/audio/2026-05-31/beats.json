@@ -1,0 +1,201 @@
+[
+  {
+    "type": "intro",
+    "highlight": "Intelligence Brief",
+    "subtext": "May 31, 2026",
+    "label": "DAILY"
+  },
+  {
+    "type": "intro",
+    "highlight": "Infrastructure trust is being renegotiated",
+    "label": "TODAY'S THEME"
+  },
+  {
+    "type": "number",
+    "number": "757",
+    "highlight": "HN points",
+    "subtext": "Microsoft kills perpetual Office on Mac",
+    "label": "TOP STORY"
+  },
+  {
+    "type": "insight",
+    "highlight": "Certificate expiry, not a kill switch",
+    "subtext": "July 13, 2026 — view-only conversion",
+    "label": "MICROSOFT OFFICE"
+  },
+  {
+    "type": "quote",
+    "highlight": "The promise was retroactively erased",
+    "subtext": "\"Continue to function\" clause quietly deleted",
+    "label": "BROKEN CONTRACT"
+  },
+  {
+    "type": "insight",
+    "highlight": "757 points of measured practitioner anger",
+    "label": "SIGNAL"
+  },
+  {
+    "type": "insight",
+    "highlight": "Perpetual license = social contract, not technical guarantee",
+    "subtext": "Time-limited certs can degrade by inaction",
+    "label": "STRUCTURAL IMPLICATION"
+  },
+  {
+    "type": "insight",
+    "highlight": "What's your offline story?",
+    "label": "BUILDER QUESTION"
+  },
+  {
+    "type": "action",
+    "highlight": "Own your cert dependency. Know your degradation path.",
+    "subtext": "If you need a cert ping, you have Microsoft's problem",
+    "label": "ACTION"
+  },
+  {
+    "type": "number",
+    "number": "437",
+    "highlight": "HN points",
+    "subtext": "Domain expertise has always been the real moat",
+    "label": "#2 STORY"
+  },
+  {
+    "type": "quote",
+    "highlight": "AI severed code from domain understanding",
+    "subtext": "You can generate software without building the model",
+    "label": "BRETHORST THESIS"
+  },
+  {
+    "type": "insight",
+    "highlight": "\"Can you build it?\" → \"Can you tell if it's right?\"",
+    "label": "CONSTRAINT SHIFT"
+  },
+  {
+    "type": "insight",
+    "highlight": "The logistics dispatcher knows instantly. The engineer doesn't.",
+    "subtext": "Domain verification is the new scarce skill",
+    "label": "DOMAIN EXPERTISE"
+  },
+  {
+    "type": "insight",
+    "highlight": "Strong engineers pattern-match — but not in every domain",
+    "label": "COUNTERPOINT"
+  },
+  {
+    "type": "insight",
+    "highlight": "Plausible-looking wrong answers — undetectable without domain time",
+    "subtext": "Clinical coding, legal billing, logistics routing",
+    "label": "THE HARD PART"
+  },
+  {
+    "type": "action",
+    "highlight": "Go deep in a vertical. Verification + implementation = moat.",
+    "label": "THE BET"
+  },
+  {
+    "type": "insight",
+    "highlight": "Domain models don't expire when the next model ships",
+    "label": "DURABILITY"
+  },
+  {
+    "type": "number",
+    "number": "$113M",
+    "highlight": "Series B",
+    "subtext": "OpenRouter at $1.3B valuation",
+    "label": "FUNDING"
+  },
+  {
+    "type": "insight",
+    "highlight": "NVIDIA + Snowflake + Databricks + MongoDB co-invest",
+    "subtext": "Each believes their infrastructure is upstream of routing",
+    "label": "CAP TABLE SIGNAL"
+  },
+  {
+    "type": "number",
+    "number": "1Q",
+    "highlight": "tokens on pace for 2026",
+    "subtext": "5T → 25T weekly volume in six months",
+    "label": "OPENROUTER SCALE"
+  },
+  {
+    "type": "quote",
+    "highlight": "A quadrillion. Let that settle.",
+    "label": "SCALE"
+  },
+  {
+    "type": "insight",
+    "highlight": "Routing layer is becoming infrastructure",
+    "label": "OPENROUTER"
+  },
+  {
+    "type": "insight",
+    "highlight": "Model choice matters less than routing intelligence",
+    "subtext": "The optimization layer compounds with token volume",
+    "label": "AGENT ARCHITECTURE"
+  },
+  {
+    "type": "repo",
+    "highlight": "mattpocock/skills",
+    "subtext": "+1,847 stars today · +1,634 karpathy-skills · +1,412 open-design",
+    "label": "GITHUB TRENDING"
+  },
+  {
+    "type": "insight",
+    "highlight": "Skills layer = coordination primitive for agents",
+    "subtext": "Not which model — which process files govern decisions",
+    "label": "ARCHITECTURE"
+  },
+  {
+    "type": "repo",
+    "highlight": "NixOS 26.05 · ziglang/zig ELF linker",
+    "subtext": "72 Lobsters pts + 190 HN pts — system software day",
+    "label": "SYSTEMS LAYER"
+  },
+  {
+    "type": "insight",
+    "highlight": "Zig is replacing LLVM's linker — decade-scale project",
+    "label": "ZIG"
+  },
+  {
+    "type": "insight",
+    "highlight": "NixOS: systemd stage 1 default — irreversible architectural choice",
+    "label": "NIXOS 26.05"
+  },
+  {
+    "type": "insight",
+    "highlight": "Communities rewrite tools for correctness — not upstream permission",
+    "label": "PATTERN"
+  },
+  {
+    "type": "insight",
+    "highlight": "What is today's data telling us?",
+    "label": "SYNTHESIS"
+  },
+  {
+    "type": "quote",
+    "highlight": "Communities build the tools they need, not the ones they inherit",
+    "label": "TODAY'S THESIS"
+  },
+  {
+    "type": "insight",
+    "highlight": "The judgment layer is what AI can't automate — yet",
+    "label": "CORE SIGNAL"
+  },
+  {
+    "type": "action",
+    "highlight": "Own the judgment layer. Know your infra dependencies. Watch the skills repos.",
+    "subtext": "That's where agentic architecture is being worked out in public",
+    "label": "THIS WEEK"
+  },
+  {
+    "type": "close",
+    "highlight": "Build what domain expertise + AI enables — neither alone",
+    "subtext": "That's the edge right now",
+    "label": "CLOSING"
+  },
+  {
+    "type": "close",
+    "highlight": "See you tomorrow.",
+    "subtext": "Tidox Intelligence Brief",
+    "label": "END"
+  }
+]

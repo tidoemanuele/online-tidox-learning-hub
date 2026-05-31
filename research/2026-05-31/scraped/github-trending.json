@@ -1,0 +1,65 @@
+[
+  {
+    "name": "skills",
+    "fullName": "mattpocock/skills",
+    "description": "Skills for Real Engineers — reusable AI workflow files that encode expert knowledge as portable process specs",
+    "language": "TypeScript",
+    "stars_today": "1,847 stars today",
+    "total_stars": "93421",
+    "url": "https://github.com/mattpocock/skills"
+  },
+  {
+    "name": "andrej-karpathy-skills",
+    "fullName": "multica-ai/andrej-karpathy-skills",
+    "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls",
+    "language": "TypeScript",
+    "stars_today": "1,634 stars today",
+    "total_stars": "124085",
+    "url": "https://github.com/multica-ai/andrej-karpathy-skills"
+  },
+  {
+    "name": "open-design",
+    "fullName": "nexu-io/open-design",
+    "description": "Local-first, open-source alternative to Anthropic's Claude Design — 19 Skills, 71 brand-grade Design Systems",
+    "language": "TypeScript",
+    "stars_today": "1,412 stars today",
+    "total_stars": "47226",
+    "url": "https://github.com/nexu-io/open-design"
+  },
+  {
+    "name": "hermes-agent",
+    "fullName": "NousResearch/hermes-agent",
+    "description": "The agent that grows with you — open-source personal AI agent with persistent memory and self-improvement",
+    "language": "Python",
+    "stars_today": "1,294 stars today",
+    "total_stars": "170918",
+    "url": "https://github.com/NousResearch/hermes-agent"
+  },
+  {
+    "name": "openhuman",
+    "fullName": "tinyhumansai/openhuman",
+    "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
+    "language": "Python",
+    "stars_today": "1,008 stars today",
+    "total_stars": "29412",
+    "url": "https://github.com/tinyhumansai/openhuman"
+  },
+  {
+    "name": "superpowers",
+    "fullName": "obra/superpowers",
+    "description": "Claude Code superpowers — a collection of skills and hooks that dramatically extend Claude Code's capabilities",
+    "language": "TypeScript",
+    "stars_today": "892 stars today",
+    "total_stars": "35187",
+    "url": "https://github.com/obra/superpowers"
+  },
+  {
+    "name": "CodeWhale",
+    "fullName": "Hmbown/CodeWhale",
+    "description": "Fast Rust-native code indexing and semantic search for large codebases — built for agentic coding workflows",
+    "language": "Rust",
+    "stars_today": "743 stars today",
+    "total_stars": "38294",
+    "url": "https://github.com/Hmbown/CodeWhale"
+  }
+]
