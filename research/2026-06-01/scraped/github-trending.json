@@ -1,0 +1,65 @@
+[
+  {
+    "name": "markitdown",
+    "fullName": "microsoft/markitdown",
+    "description": "Python tool for converting files and office documents to Markdown.",
+    "language": "Python",
+    "stars_today": "2,798 stars today",
+    "total_stars": "135727",
+    "url": "https://github.com/microsoft/markitdown"
+  },
+  {
+    "name": "MoneyPrinterTurbo",
+    "fullName": "harry0703/MoneyPrinterTurbo",
+    "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
+    "language": "Python",
+    "stars_today": "1,937 stars today",
+    "total_stars": "75247",
+    "url": "https://github.com/harry0703/MoneyPrinterTurbo"
+  },
+  {
+    "name": "build-your-own-x",
+    "fullName": "codecrafters-io/build-your-own-x",
+    "description": "Master programming by recreating your favorite technologies from scratch.",
+    "language": "Markdown",
+    "stars_today": "1,158 stars today",
+    "total_stars": "509594",
+    "url": "https://github.com/codecrafters-io/build-your-own-x"
+  },
+  {
+    "name": "claude-code",
+    "fullName": "anthropics/claude-code",
+    "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows — all through natural language commands.",
+    "language": "Python",
+    "stars_today": "489 stars today",
+    "total_stars": "129083",
+    "url": "https://github.com/anthropics/claude-code"
+  },
+  {
+    "name": "VoxCPM",
+    "fullName": "OpenBMB/VoxCPM",
+    "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
+    "language": "Python",
+    "stars_today": "635 stars today",
+    "total_stars": "23745",
+    "url": "https://github.com/OpenBMB/VoxCPM"
+  },
+  {
+    "name": "Scrapling",
+    "fullName": "D4Vinci/Scrapling",
+    "description": "An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
+    "language": "Python",
+    "stars_today": "606 stars today",
+    "total_stars": "57014",
+    "url": "https://github.com/D4Vinci/Scrapling"
+  },
+  {
+    "name": "train-llm-from-scratch",
+    "fullName": "FareedKhan-dev/train-llm-from-scratch",
+    "description": "A straightforward method for training your LLM, from downloading data to generating text.",
+    "language": "Jupyter Notebook",
+    "stars_today": "626 stars today",
+    "total_stars": "3185",
+    "url": "https://github.com/FareedKhan-dev/train-llm-from-scratch"
+  }
+]

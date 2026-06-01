@@ -1,0 +1,143 @@
+[
+  {
+    "title": "My Accessibility Stack and the future on Wayland",
+    "score": 153,
+    "tags": [
+      "a11y",
+      "linux"
+    ],
+    "url": "https://nocoffei.com/?p=451",
+    "comments_url": "https://lobste.rs/s/giktao/my_accessibility_stack_future_on_wayland"
+  },
+  {
+    "title": "Unlawful by design: Exposing the human rights costs of generative AI",
+    "score": 39,
+    "tags": [
+      "vibecoding"
+    ],
+    "url": "https://www.amnesty.org/en/documents/pol40/0996/2026/en/",
+    "comments_url": "https://lobste.rs/s/2balua/unlawful_by_design_exposing_human_rights"
+  },
+  {
+    "title": "vibecoding as adhd multiplier",
+    "score": 25,
+    "tags": [
+      "vibecoding"
+    ],
+    "url": "https://thoughts.hmmz.org/2026-05-31.html",
+    "comments_url": "https://lobste.rs/s/tsgoap/vibecoding_as_adhd_multiplier"
+  },
+  {
+    "title": "You Must Fix Your Asserts",
+    "score": 47,
+    "tags": [
+      "debugging",
+      "zig"
+    ],
+    "url": "https://kristoff.it/blog/fix-your-asserts/",
+    "comments_url": "https://lobste.rs/s/ycplhh/you_must_fix_your_asserts"
+  },
+  {
+    "title": "Cloudflare Turnstile requiring fingerprintable WebGL",
+    "score": 46,
+    "tags": [
+      "privacy"
+    ],
+    "url": "https://hacktivis.me/articles/cloudflare-turnstile-webgl-fingerprinting",
+    "comments_url": "https://lobste.rs/s/ls3ris/cloudflare_turnstile_requiring"
+  },
+  {
+    "title": "I Put a Datacenter GPU in My Gaming PC for \u00a3200",
+    "score": 55,
+    "tags": [
+      "hardware"
+    ],
+    "url": "https://blog.tymscar.com/posts/v100localllm/",
+    "comments_url": "https://lobste.rs/s/2tskyy/i_put_datacenter_gpu_my_gaming_pc_for_200"
+  },
+  {
+    "title": "It's Not Just X. It's Y",
+    "score": 11,
+    "tags": [
+      "ai"
+    ],
+    "url": "https://mail.cyberneticforests.com/its-not-just-data-its-post-training/",
+    "comments_url": "https://lobste.rs/s/4xllsb/it_s_not_just_x_it_s_y"
+  },
+  {
+    "title": "I found a seashell in the middle of the desert",
+    "score": 35,
+    "tags": [
+      "programming"
+    ],
+    "url": "https://github.com/Hawzen/I-found-a-seashell-in-the-middle-of-the-desert#i-found-a-seashell-in-the-middle-of-the-desert",
+    "comments_url": "https://lobste.rs/s/qn9jdp/i_found_seashell_middle_desert"
+  },
+  {
+    "title": "The S in interoperability",
+    "score": 21,
+    "tags": [
+      "practices",
+      "security"
+    ],
+    "url": "https://frederikbraun.de/the-s-in-interoperability.html",
+    "comments_url": "https://lobste.rs/s/1xzofw/s_interoperability"
+  },
+  {
+    "title": "The software industry: annealing, but wrong",
+    "score": 4,
+    "tags": [
+      "practices",
+      "vibecoding"
+    ],
+    "url": "https://apenwarr.ca/log/20260531",
+    "comments_url": "https://lobste.rs/s/nv2cnf/software_industry_annealing_wrong"
+  },
+  {
+    "title": "A simple project switcher for Kakoune",
+    "score": 18,
+    "tags": [
+      "editors"
+    ],
+    "url": "https://bhoot.org/2026/kakoune-project-switcher/",
+    "comments_url": "https://lobste.rs/s/mem2md/simple_project_switcher_for_kakoune"
+  },
+  {
+    "title": "Adding Offline Mode and Custom Servers to an MMORPG",
+    "score": 7,
+    "tags": [
+      "c++",
+      "games"
+    ],
+    "url": "https://plantbasedgames.io/blog/posts/09-adding-offline-mode-and-custom-servers-to-an-mmorpg/",
+    "comments_url": "https://lobste.rs/s/ng3xwc/adding_offline_mode_custom_servers"
+  },
+  {
+    "title": "Why does ASTC use ISE when almost nothing else does?",
+    "score": 4,
+    "tags": [
+      "programming"
+    ],
+    "url": "https://fgiesen.wordpress.com/2026/05/29/why-does-astc-use-ise-when-almost-nothing-else-does/",
+    "comments_url": "https://lobste.rs/s/ek75hg/why_does_astc_use_ise_when_almost_nothing"
+  },
+  {
+    "title": "ELF Linker Improvements in Zig",
+    "score": 66,
+    "tags": [
+      "zig"
+    ],
+    "url": "https://ziglang.org/devlog/2026/?2026-05-30#2026-05-30",
+    "comments_url": "https://lobste.rs/s/253fit/elf_linker_improvements_zig"
+  },
+  {
+    "title": "securix: NixOS-based secure operating system. Provides a hardened environment with strong isolation, reproducibility, and policy-driven configurations",
+    "score": 19,
+    "tags": [
+      "nix",
+      "security"
+    ],
+    "url": "https://github.com/cloud-gouv/securix",
+    "comments_url": "https://lobste.rs/s/45dqvh/securix_nixos_based_secure_operating"
+  }
+]
