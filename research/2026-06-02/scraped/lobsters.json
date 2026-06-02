@@ -1,0 +1,146 @@
+[
+  {
+    "title": "You Don't Love systemd Timers Enough",
+    "score": 58,
+    "tags": [
+      "systemd"
+    ],
+    "url": "https://blog.tjll.net/you-dont-love-systemd-timers-enough/",
+    "comments_url": "https://lobste.rs/s/9vt4ng/you_don_t_love_systemd_timers_enough"
+  },
+  {
+    "title": "Announcing Zstandard in Rust",
+    "score": 80,
+    "tags": [
+      "rust"
+    ],
+    "url": "https://trifectatech.org/blog/announcing-zstandard-in-rust/",
+    "comments_url": "https://lobste.rs/s/jhbndn/announcing_zstandard_rust"
+  },
+  {
+    "title": "github and the crime against software",
+    "score": 45,
+    "tags": [
+      "devops",
+      "distributed"
+    ],
+    "url": "https://eblog.fly.dev/githubbad.html",
+    "comments_url": "https://lobste.rs/s/vkoa7r/github_crime_against_software"
+  },
+  {
+    "title": "QBE - Compiler Backend: Version 1.3",
+    "score": 82,
+    "tags": [
+      "compilers",
+      "release"
+    ],
+    "url": "https://c9x.me/compile/release/qbe-1.3.html",
+    "comments_url": "https://lobste.rs/s/aahxxs/qbe_compiler_backend_version_1_3"
+  },
+  {
+    "title": "The Newest Instagram \"Exploit\" is the Goofiest I've Seen",
+    "score": 20,
+    "tags": [
+      "security",
+      "vibecoding"
+    ],
+    "url": "https://www.0xsid.com/blog/meta-account-takeover-fiasco",
+    "comments_url": "https://lobste.rs/s/pmkmil/newest_instagram_exploit_is_goofiest_i_ve"
+  },
+  {
+    "title": "Should you normalize RGB values by 255 or 256?",
+    "score": 32,
+    "tags": [
+      "graphics",
+      "math"
+    ],
+    "url": "https://30fps.net/pages/255-vs-256-division/",
+    "comments_url": "https://lobste.rs/s/uuvuhv/should_you_normalize_rgb_values_by_255_256"
+  },
+  {
+    "title": "Why Janet? (2023)",
+    "score": 6,
+    "tags": [
+      "lisp"
+    ],
+    "url": "https://ianthehenry.com/posts/why-janet/",
+    "comments_url": "https://lobste.rs/s/y0euno/why_janet_2023"
+  },
+  {
+    "title": "The postmodern build system",
+    "score": 26,
+    "tags": [
+      "nix"
+    ],
+    "url": "https://jade.fyi/blog/the-postmodern-build-system/",
+    "comments_url": "https://lobste.rs/s/da3ffr/postmodern_build_system"
+  },
+  {
+    "title": "Hating AI is good, actually",
+    "score": 20,
+    "tags": [
+      "vibecoding"
+    ],
+    "url": "https://www.thehandbasket.co/p/hating-ai-is-good-actually",
+    "comments_url": "https://lobste.rs/s/97uskt/hating_ai_is_good_actually"
+  },
+  {
+    "title": "It's Not Just X. It's Y",
+    "score": 55,
+    "tags": [
+      "ai",
+      "vibecoding"
+    ],
+    "url": "https://mail.cyberneticforests.com/its-not-just-data-its-post-training/",
+    "comments_url": "https://lobste.rs/s/4xllsb/it_s_not_just_x_it_s_y"
+  },
+  {
+    "title": "Arch Linux: Breaking changes for all users of `varnish`, which is renamed to `vinyl-cache`",
+    "score": 20,
+    "tags": [
+      "linux"
+    ],
+    "url": "https://archlinux.org/news/breaking-changes-for-all-users-of-varnish-which-is-renamed-to-vinyl-cache/",
+    "comments_url": "https://lobste.rs/s/2wenns/arch_linux_breaking_changes_for_all_users"
+  },
+  {
+    "title": "Tracing HTTP Requests with Go's net/http/httptrace",
+    "score": 23,
+    "tags": [
+      "debugging",
+      "go"
+    ],
+    "url": "https://blainsmith.com/articles/httptrace-with-go/",
+    "comments_url": "https://lobste.rs/s/fv8ptx/tracing_http_requests_with_go_s_net_http"
+  },
+  {
+    "title": "What are you doing this week?",
+    "score": 19,
+    "tags": [
+      "ask",
+      "programming"
+    ],
+    "url": "",
+    "comments_url": "https://lobste.rs/s/degtqh/what_are_you_doing_this_week"
+  },
+  {
+    "title": "Exploring the Japanese XD FirstClass Network BBS",
+    "score": 10,
+    "tags": [
+      "historical",
+      "retrocomputing"
+    ],
+    "url": "https://cdrom.ca/games/2026/05/30/xd.html",
+    "comments_url": "https://lobste.rs/s/uroflh/exploring_japanese_xd_firstclass"
+  },
+  {
+    "title": "The art and engineering of Silpheed",
+    "score": 10,
+    "tags": [
+      "retrocomputing",
+      "reversing"
+    ],
+    "url": "https://fabiensanglard.net/silpheed/",
+    "comments_url": "https://lobste.rs/s/yohvez/art_engineering_silpheed"
+  }
+]
