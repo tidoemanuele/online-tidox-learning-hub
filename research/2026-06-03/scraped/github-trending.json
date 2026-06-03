@@ -1,0 +1,47 @@
+[
+  {
+    "name": "nbd-vram",
+    "fullName": "c0dejedi/nbd-vram",
+    "description": "Use your NVIDIA GPU's VRAM as swap space on Linux. Built for laptops with soldered memory and no upgrade path.",
+    "language": "C",
+    "stars_today": "2,341 stars today",
+    "total_stars": "3210",
+    "url": "https://github.com/c0dejedi/nbd-vram"
+  },
+  {
+    "name": "codegraph",
+    "fullName": "colbymchenry/codegraph",
+    "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Gemini, Cursor, OpenCode, and other AI coding agents — reduces API tool calls by 94%.",
+    "language": "TypeScript",
+    "stars_today": "1,842 stars today",
+    "total_stars": "35352",
+    "url": "https://github.com/colbymchenry/codegraph"
+  },
+  {
+    "name": "MoneyPrinterTurbo",
+    "fullName": "harry0703/MoneyPrinterTurbo",
+    "description": "Generate short videos with one click using AI LLM — script, TTS, video, editing pipeline for TikTok/Shorts/Reels.",
+    "language": "Python",
+    "stars_today": "1,512 stars today",
+    "total_stars": "79200",
+    "url": "https://github.com/harry0703/MoneyPrinterTurbo"
+  },
+  {
+    "name": "markitdown",
+    "fullName": "microsoft/markitdown",
+    "description": "Python tool for converting files and office documents to Markdown — the preprocessing layer for enterprise AI pipelines.",
+    "language": "Python",
+    "stars_today": "1,234 stars today",
+    "total_stars": "140500",
+    "url": "https://github.com/microsoft/markitdown"
+  },
+  {
+    "name": "agentmemory",
+    "fullName": "rohitg00/agentmemory",
+    "description": "Persistent memory for AI coding agents — store, retrieve, and manage long-term context across sessions.",
+    "language": "TypeScript",
+    "stars_today": "1,180 stars today",
+    "total_stars": "20221",
+    "url": "https://github.com/rohitg00/agentmemory"
+  }
+]
