@@ -1,0 +1,148 @@
+[
+  {
+    "title": "burntsushi discusses personal medical diagnosis",
+    "score": 186,
+    "tags": [
+      "person"
+    ],
+    "url": "https://burntsushi.net/encephalitis/",
+    "comments_url": "https://lobste.rs/s/ovbcr4/burntsushi_discusses_personal_medical"
+  },
+  {
+    "title": "My Software North Star",
+    "score": 33,
+    "tags": [
+      "philosophy"
+    ],
+    "url": "https://kristoff.it/blog/north-star/",
+    "comments_url": "https://lobste.rs/s/g6lkw1/my_software_north_star"
+  },
+  {
+    "title": "Elixir v1.20 released: now a gradually typed language",
+    "score": 60,
+    "tags": [
+      "elixir",
+      "plt"
+    ],
+    "url": "https://elixir-lang.org/blog/2026/06/03/elixir-v1-20-0-released/",
+    "comments_url": "https://lobste.rs/s/wq1csk/elixir_v1_20_released_now_gradually_typed"
+  },
+  {
+    "title": ".furry - A Top-Level Domain for furries",
+    "score": 84,
+    "tags": [
+      "web"
+    ],
+    "url": "https://www.dotfurry.org/",
+    "comments_url": "https://lobste.rs/s/1bie2j/furry_top_level_domain_for_furries"
+  },
+  {
+    "title": "rsync and outrage",
+    "score": 109,
+    "tags": [
+      "vibecoding"
+    ],
+    "url": "https://medium.com/@tridge60/rsync-and-outrage-d9849599e5a0",
+    "comments_url": "https://lobste.rs/s/k1b0za/rsync_outrage"
+  },
+  {
+    "title": "Parsing XML EXIF from .avif files (plus a rant)",
+    "score": 15,
+    "tags": [
+      "python",
+      "web"
+    ],
+    "url": "https://sheep.horse/2026/6/parsing_xml_exif_from_.avif_files_(plus_a_rant).html",
+    "comments_url": "https://lobste.rs/s/jx44nm/parsing_xml_exif_from_avif_files_plus_rant"
+  },
+  {
+    "title": "Safe Made Easy Pt.1: Single Ownership is (Not) Optional",
+    "score": 16,
+    "tags": [
+      "plt"
+    ],
+    "url": "https://ergeysay.github.io/safe-made-easy-pt1.html",
+    "comments_url": "https://lobste.rs/s/5wgmnl/safe_made_easy_pt_1_single_ownership_is_not"
+  },
+  {
+    "title": "Full Disclosure: 1-Click GitHub Token Stealing via a VSCode Bug",
+    "score": 62,
+    "tags": [
+      "security",
+      "vscode",
+      "web"
+    ],
+    "url": "https://blog.ammaraskar.com/github-token-stealing/",
+    "comments_url": "https://lobste.rs/s/fysuyw/full_disclosure_1_click_github_token"
+  },
+  {
+    "title": "Pwnd Blaster: Hacking your PC using your speaker without ever touching it",
+    "score": 38,
+    "tags": [
+      "security"
+    ],
+    "url": "https://blog.nns.ee/2026/06/03/katana-badusb/",
+    "comments_url": "https://lobste.rs/s/mth4mj/pwnd_blaster_hacking_your_pc_using_your"
+  },
+  {
+    "title": "mimalloc: A new, high-performance, scalable memory allocator for the modern era",
+    "score": 17,
+    "tags": [
+      "c",
+      "performance"
+    ],
+    "url": "https://www.microsoft.com/en-us/research/blog/mimalloc-a-high-performance-scalable-memory-allocator-for-the-modern-era/",
+    "comments_url": "https://lobste.rs/s/aduphf/mimalloc_new_high_performance_scalable"
+  },
+  {
+    "title": "Mean Hand",
+    "score": 28,
+    "tags": [
+      "design",
+      "visualization"
+    ],
+    "url": "https://portfolio.anna-zhang.com/projects/mean-hand",
+    "comments_url": "https://lobste.rs/s/ui45py/mean_hand"
+  },
+  {
+    "title": "A Post-Quantum Future for Let's Encrypt",
+    "score": 18,
+    "tags": [
+      "cryptography",
+      "security",
+      "web"
+    ],
+    "url": "https://letsencrypt.org/2026/06/03/pq-certs.html",
+    "comments_url": "https://lobste.rs/s/djguny/post_quantum_future_for_let_s_encrypt"
+  },
+  {
+    "title": "Gleam v1.17 - Single file Gleam BEAM programs with escript",
+    "score": 43,
+    "tags": [
+      "gleam",
+      "release"
+    ],
+    "url": "https://gleam.run/news/single-file-gleam-beam-programs-with-escript/",
+    "comments_url": "https://lobste.rs/s/vxveln/gleam_v1_17_single_file_gleam_beam"
+  },
+  {
+    "title": "Edsger \u2013 a handwritten Clojure REPL for the reMarkable 2",
+    "score": 63,
+    "tags": [
+      "art",
+      "clojure",
+      "show"
+    ],
+    "url": "https://handwritten.danieljanus.pl/2026-06-01-edsger.html",
+    "comments_url": "https://lobste.rs/s/4u4znq/edsger_handwritten_clojure_repl_for"
+  },
+  {
+    "title": "The Bloat",
+    "score": 3,
+    "tags": [
+      "vibecoding"
+    ],
+    "url": "https://milkandcigarettes.com/notes/devlog/the-bloat",
+    "comments_url": "https://lobste.rs/s/ejogde/bloat"
+  }
+]
