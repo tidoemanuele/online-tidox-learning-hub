@@ -1,0 +1,134 @@
+[
+  [
+    "A",
+    "Eighty percent. That's the number I need you to sit with before we say anything else."
+  ],
+  [
+    "B",
+    "Eighty percent of production code at Anthropic, merged in May 2026, written by Claude. Up from single digits sixteen months ago."
+  ],
+  [
+    "A",
+    "And here's what that actually means. It's not 'AI helps engineers write faster.' It's 'engineers are now reviewing AI output at scale.' That's a different job."
+  ],
+  [
+    "B",
+    "Wait, but they also said human oversight is becoming the bottleneck. Like, the AI is producing faster than humans can verify."
+  ],
+  [
+    "A",
+    "That's the oversight gap. And Anthropic is saying it out loud, in public, with numbers. That's either a safety-culture disclosure or a capability flex. The HN thread couldn't agree which."
+  ],
+  [
+    "B",
+    "I think it's both and that's why it's unsettling. OK so here's the connection I keep thinking about — the same day they drop this, they also open-source the vulnerability discovery harness."
+  ],
+  [
+    "A",
+    "Project Glasswing. Twenty-three thousand issues, six thousand high-or-critical severity vulnerabilities, across every major OS and browser."
+  ],
+  [
+    "B",
+    "So the AI is writing most of the code AND finding the bugs in the code. That's the loop closing."
+  ],
+  [
+    "A",
+    "And the compound read is darker than it first appears. AI-accelerated code generation expands the attack surface. AI-accelerated vulnerability discovery is the defense. They're publishing both simultaneously."
+  ],
+  [
+    "B",
+    "Which means any security team that doesn't run this harness is now operating at a structural disadvantage. It's open source. There's no excuse."
+  ],
+  [
+    "A",
+    "Right. The reference harness is now an infrastructure primitive. You either use it or you're behind someone who does."
+  ],
+  [
+    "B",
+    "OK, pivot. SpaceX, the twelve-month seasoning rule, S&P says no."
+  ],
+  [
+    "A",
+    "This is the story about the one institution that didn't change for the AI and aerospace IPO wave. Nasdaq bent. FTSE Russell bent. S&P didn't."
+  ],
+  [
+    "B",
+    "And SpaceX lost four point nine billion dollars in 2025 on eighteen billion in revenue. So the profitability bar is the wall."
+  ],
+  [
+    "A",
+    "Here's what this tells us. Market structure and technological significance are orthogonal. SpaceX can launch government satellites and still wait twelve months like everyone else."
+  ],
+  [
+    "B",
+    "Hmm. I actually think that's the right call? Like, the rule exists because hype and valuation are not the same as financial durability."
+  ],
+  [
+    "A",
+    "I don't disagree. But notice the signal for AI companies heading to IPO. The same profitability math applies to them."
+  ],
+  [
+    "B",
+    "So OpenAI, Anthropic — if they go public, the clock starts at GAAP profitability, not at cultural significance. That's a real constraint."
+  ],
+  [
+    "A",
+    "Now let's talk about the layer the builders are actually assembling. GitHub trending today: headroom, hermes-agent, ECC."
+  ],
+  [
+    "B",
+    "That's the stack between a raw model and a production system. Context compression, session memory, skill distribution."
+  ],
+  [
+    "A",
+    "Headroom is claiming sixty to ninety-five percent token reduction with equivalent output quality. Zero changes to your existing code."
+  ],
+  [
+    "B",
+    "OK so if that's true, then the Uber fifteen-hundred-dollar-a-month AI cap from yesterday becomes a different problem. You compress your context, you cut your bill by half without touching anything."
+  ],
+  [
+    "A",
+    "The infrastructure layer is crystallizing fast. These three repos describe a complete middleware stack that didn't exist as open source eighteen months ago."
+  ],
+  [
+    "B",
+    "And then Lobsters today is doing the exact opposite energy — the C++ accountability essay, 'reviewing code requires reading,' craft values."
+  ],
+  [
+    "A",
+    "Which is not a coincidence. The practitioner community is asserting what doesn't change. You can't review a diff by reading the AI summary of the diff."
+  ],
+  [
+    "B",
+    "That's the bug that lives in the gap between what code does and what its description says it does. I've shipped that bug."
+  ],
+  [
+    "A",
+    "So here's today's thesis. The recursive loop is real and it's measurable. Anthropic gave us the numbers. But the humans who stay relevant are the ones who own the layer the models can't yet own."
+  ],
+  [
+    "B",
+    "Judgment. Accountability. The decision about whether the thing being built should exist."
+  ],
+  [
+    "A",
+    "And practically: if you're not running a context compression layer, you're leaving money on the table. If you're not running vulnerability discovery at AI speed, you're exposed. These are now table stakes."
+  ],
+  [
+    "B",
+    "The task horizons from the Anthropic post are what I can't stop thinking about. Four minutes in 2024. Twelve hours now. Week-long tasks by 2027."
+  ],
+  [
+    "A",
+    "Which means the systems you design today need to assume an agent can run them end-to-end in eighteen months."
+  ],
+  [
+    "B",
+    "So go build the thing that's only possible if an AI can work on it for a week. Because that window is opening right now."
+  ],
+  [
+    "A",
+    "That's the brief. June fifth. The loop is closing. Go build inside it."
+  ]
+]
