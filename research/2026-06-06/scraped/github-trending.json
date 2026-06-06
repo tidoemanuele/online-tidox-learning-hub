@@ -1,0 +1,155 @@
+[
+  {
+    "name": "hermes-agent",
+    "fullName": "NousResearch/hermes-agent",
+    "description": "The agent that grows with you",
+    "language": "Python",
+    "stars_today": "1,845 stars today",
+    "total_stars": "172200",
+    "url": "https://github.com/NousResearch/hermes-agent"
+  },
+  {
+    "name": "headroom",
+    "fullName": "chopratejas/headroom",
+    "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
+    "language": "Python",
+    "stars_today": "2,473 stars today",
+    "total_stars": "28502",
+    "url": "https://github.com/chopratejas/headroom"
+  },
+  {
+    "name": "CopilotKit",
+    "fullName": "CopilotKit/CopilotKit",
+    "description": "The Frontend Stack for Agents &amp; Generative UI. React + Angular. Makers of the AG-UI Protocol",
+    "language": "TypeScript",
+    "stars_today": "366 stars today",
+    "total_stars": "17800",
+    "url": "https://github.com/CopilotKit/CopilotKit"
+  },
+  {
+    "name": "open-notebook",
+    "fullName": "lfnovo/open-notebook",
+    "description": "An Open Source implementation of Notebook LM with more flexibility and features",
+    "language": "TypeScript",
+    "stars_today": "1,152 stars today",
+    "total_stars": "24100",
+    "url": "https://github.com/lfnovo/open-notebook"
+  },
+  {
+    "name": "ECC",
+    "fullName": "affaan-m/ECC",
+    "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+    "language": "JavaScript",
+    "stars_today": "1,361 stars today",
+    "total_stars": "207548",
+    "url": "https://github.com/affaan-m/ECC"
+  },
+  {
+    "name": "Agent-Reach",
+    "fullName": "Panniantong/Agent-Reach",
+    "description": "Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu \u2014 one CLI, zero API fees.",
+    "language": "Python",
+    "stars_today": "148 stars today",
+    "total_stars": "21730",
+    "url": "https://github.com/Panniantong/Agent-Reach"
+  },
+  {
+    "name": "cosmos",
+    "fullName": "NVIDIA/cosmos",
+    "description": "NVIDIA Cosmos is an open platform of world models, datasets, and tools that enables developers to build Physical AI for robots, autonomous vehicles, smart infrastructure, and more.",
+    "language": "Jupyter Notebook",
+    "stars_today": "479 stars today",
+    "total_stars": "18500",
+    "url": "https://github.com/NVIDIA/cosmos"
+  },
+  {
+    "name": "MiroFish",
+    "fullName": "666ghj/MiroFish",
+    "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. \u7b80\u6d01\u901a\u7528\u7684\u7fa4\u4f53\u667a\u80fd\u5f15\u64ce\uff0c\u9884\u6d4b\u4e07\u7269",
+    "language": "Python",
+    "stars_today": "320 stars today",
+    "total_stars": "64813",
+    "url": "https://github.com/666ghj/MiroFish"
+  },
+  {
+    "name": "last30days-skill",
+    "fullName": "mvanhorn/last30days-skill",
+    "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+    "language": "Python",
+    "stars_today": "731 stars today",
+    "total_stars": "55341",
+    "url": "https://github.com/mvanhorn/last30days-skill"
+  },
+  {
+    "name": "PaddleOCR",
+    "fullName": "PaddlePaddle/PaddleOCR",
+    "description": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.",
+    "language": "Python",
+    "stars_today": "747 stars today",
+    "total_stars": "46000",
+    "url": "https://github.com/PaddlePaddle/PaddleOCR"
+  },
+  {
+    "name": "plugins",
+    "fullName": "openai/plugins",
+    "description": "OpenAI Plugins",
+    "language": "JavaScript",
+    "stars_today": "49 stars today",
+    "total_stars": "1589",
+    "url": "https://github.com/openai/plugins"
+  },
+  {
+    "name": "mempalace",
+    "fullName": "MemPalace/mempalace",
+    "description": "The best-benchmarked open-source AI memory system. And it's free.",
+    "language": "Python",
+    "stars_today": "227 stars today",
+    "total_stars": "53969",
+    "url": "https://github.com/MemPalace/mempalace"
+  },
+  {
+    "name": "flue",
+    "fullName": "withastro/flue",
+    "description": "The sandbox agent framework.",
+    "language": "TypeScript",
+    "stars_today": "126 stars today",
+    "total_stars": "4581",
+    "url": "https://github.com/withastro/flue"
+  },
+  {
+    "name": "openclaw-windows-node",
+    "fullName": "openclaw/openclaw-windows-node",
+    "description": "Windows companion suite for OpenClaw - System Tray app, Shared library, Node, and PowerToys Command Palette extension",
+    "language": "C#",
+    "stars_today": "326 stars today",
+    "total_stars": "210000",
+    "url": "https://github.com/openclaw/openclaw-windows-node"
+  },
+  {
+    "name": "trivy",
+    "fullName": "aquasecurity/trivy",
+    "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+    "language": "Go",
+    "stars_today": "207 stars today",
+    "total_stars": "35886",
+    "url": "https://github.com/aquasecurity/trivy"
+  },
+  {
+    "name": "coding-interview-university",
+    "fullName": "jwasham/coding-interview-university",
+    "description": "A complete computer science study plan to become a software engineer.",
+    "language": "Unknown",
+    "stars_today": "745 stars today",
+    "total_stars": "315000",
+    "url": "https://github.com/jwasham/coding-interview-university"
+  },
+  {
+    "name": "copilot-sdk",
+    "fullName": "github/copilot-sdk",
+    "description": "Multi-platform SDK for integrating GitHub Copilot Agent into apps and services",
+    "language": "Java",
+    "stars_today": "309 stars today",
+    "total_stars": "9298",
+    "url": "https://github.com/github/copilot-sdk"
+  }
+]

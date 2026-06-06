@@ -1,0 +1,162 @@
+[
+  {
+    "rank": 1,
+    "title": "C++: The Programming Language back cover raises questions not answered by front",
+    "url": "https://devblogs.microsoft.com/oldnewthing/20260605-01/?p=112391",
+    "hn_url": "https://news.ycombinator.com/item?id=48421079",
+    "points": 56,
+    "comments": 8
+  },
+  {
+    "rank": 2,
+    "title": "The intracies of modern camera lens repair (2024)",
+    "url": "https://salvagedcircuitry.com/sigma-45mm.html",
+    "hn_url": "https://news.ycombinator.com/item?id=48420148",
+    "points": 128,
+    "comments": 40
+  },
+  {
+    "rank": 3,
+    "title": "How LLMs work",
+    "url": "https://www.0xkato.xyz/how-llms-actually-work/",
+    "hn_url": "https://news.ycombinator.com/item?id=48389360",
+    "points": 132,
+    "comments": 26
+  },
+  {
+    "rank": 4,
+    "title": "Pre-Modern Armies for Worldbuilders, Part I: Why They Fight",
+    "url": "https://acoup.blog/2026/06/05/collections-pre-modern-armies-for-worldbuilders-part-i-why-they-fight/",
+    "hn_url": "https://news.ycombinator.com/item?id=48421171",
+    "points": 32,
+    "comments": 4
+  },
+  {
+    "rank": 5,
+    "title": "S&P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic",
+    "url": "https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/",
+    "hn_url": "https://news.ycombinator.com/item?id=48421442",
+    "points": 88,
+    "comments": 10
+  },
+  {
+    "rank": 6,
+    "title": "Lockdown Mode",
+    "url": "https://help.openai.com/en/articles/20001061-lockdown-mode",
+    "hn_url": "https://news.ycombinator.com/item?id=48421145",
+    "points": 29,
+    "comments": 13
+  },
+  {
+    "rank": 7,
+    "title": "No Let, No Rec, No Problem: A Gentler Introduction to the Y and Z Combinators",
+    "url": "https://irfanali.org/blog/zcom",
+    "hn_url": "https://news.ycombinator.com/item?id=48373954",
+    "points": 23,
+    "comments": 3
+  },
+  {
+    "rank": 8,
+    "title": "Astronauts told to return to ISS after sheltering over air leak repairs",
+    "url": "https://www.bbc.com/news/live/c4g44ew3g1kt",
+    "hn_url": "https://news.ycombinator.com/item?id=48413464",
+    "points": 376,
+    "comments": 242
+  },
+  {
+    "rank": 9,
+    "title": "pg_durable: Microsoft open sources in-database durable execution",
+    "url": "https://github.com/microsoft/pg_durable",
+    "hn_url": "https://news.ycombinator.com/item?id=48414367",
+    "points": 373,
+    "comments": 85
+  },
+  {
+    "rank": 10,
+    "title": "New method turns ocean water into drinking water, without waste",
+    "url": "https://www.rochester.edu/newscenter/what-is-desalination-definition-ocean-water-704732/",
+    "hn_url": "https://news.ycombinator.com/item?id=48413500",
+    "points": 317,
+    "comments": 138
+  },
+  {
+    "rank": 11,
+    "title": "Gemma 4 QAT models: Optimizing compression for mobile and laptop efficiency",
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/quantization-aware-training-gemma-4/",
+    "hn_url": "https://news.ycombinator.com/item?id=48414653",
+    "points": 320,
+    "comments": 98
+  },
+  {
+    "rank": 12,
+    "title": "Ask HN: What was your \"oh shit\" moment with GenAI?",
+    "url": "",
+    "hn_url": "https://news.ycombinator.com/item?id=48406174",
+    "points": 263,
+    "comments": 511
+  },
+  {
+    "rank": 13,
+    "title": "Did Claude increase bugs in rsync?",
+    "url": "https://alexispurslane.github.io/rsync-analysis/",
+    "hn_url": "https://news.ycombinator.com/item?id=48411635",
+    "points": 372,
+    "comments": 375
+  },
+  {
+    "rank": 14,
+    "title": "Mouseless \u2013 keyboard-driven control of macOS/Linux/Windows",
+    "url": "https://mouseless.click",
+    "hn_url": "https://news.ycombinator.com/item?id=48383667",
+    "points": 507,
+    "comments": 211
+  },
+  {
+    "rank": 15,
+    "title": "Ten Years of Franz",
+    "url": "https://meetfranz.com/blog/ten-years-of-franz",
+    "hn_url": "https://news.ycombinator.com/item?id=48380932",
+    "points": 4,
+    "comments": 0
+  },
+  {
+    "rank": 16,
+    "title": "My Agent Skill for Test-Driven Development",
+    "url": "https://www.saturnci.com/my-agent-skill-for-test-driven-development.html",
+    "hn_url": "https://news.ycombinator.com/item?id=48398925",
+    "points": 161,
+    "comments": 66
+  },
+  {
+    "rank": 17,
+    "title": "The perils of UUID primary keys in SQLite",
+    "url": "https://andersmurphy.com/2026/06/05/the-perils-of-uuid-primary-keys-in-sqlite.html",
+    "hn_url": "https://news.ycombinator.com/item?id=48419571",
+    "points": 58,
+    "comments": 27
+  },
+  {
+    "rank": 18,
+    "title": "Ask HN: Why is the HN crowd so anti-AI?",
+    "url": "",
+    "hn_url": "https://news.ycombinator.com/item?id=48420827",
+    "points": 81,
+    "comments": 149
+  },
+  {
+    "rank": 19,
+    "title": "Gov.uk has replaced Stripe with Dutch provider Adyen",
+    "url": "https://www.theregister.com/public-sector/2026/06/04/govuk-goes-dutch-on-payments-as-it-dumps-stripe/5250763",
+    "hn_url": "https://news.ycombinator.com/item?id=48415217",
+    "points": 401,
+    "comments": 136
+  },
+  {
+    "rank": 20,
+    "title": "Europe's largest Copper Age tomb: children's bones show ancient health crisis",
+    "url": "https://phys.org/news/2026-05-europe-largest-copper-age-tomb.html",
+    "hn_url": "https://news.ycombinator.com/item?id=48398233",
+    "points": 25,
+    "comments": 5
+  }
+]

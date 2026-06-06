@@ -1,0 +1,148 @@
+[
+  {
+    "title": "Stop Using Conventional Commits",
+    "score": 74,
+    "tags": [
+      "practices"
+    ],
+    "url": "https://sumnerevans.com/posts/software-engineering/stop-using-conventional-commits/",
+    "comments_url": "https://lobste.rs/s/oqlpna/stop_using_conventional_commits"
+  },
+  {
+    "title": "Did Claude Increase Bugs in rsync?",
+    "score": 60,
+    "tags": [
+      "security",
+      "vibecoding"
+    ],
+    "url": "https://alexispurslane.github.io/rsync-analysis/",
+    "comments_url": "https://lobste.rs/s/mf5ryi/did_claude_increase_bugs_rsync"
+  },
+  {
+    "title": "Changing How We Develop Ladybird",
+    "score": 88,
+    "tags": [
+      "browsers",
+      "vibecoding"
+    ],
+    "url": "https://ladybird.org/posts/changing-how-we-develop-ladybird/",
+    "comments_url": "https://lobste.rs/s/db2owo/changing_how_we_develop_ladybird"
+  },
+  {
+    "title": "The smallest C binary",
+    "score": 6,
+    "tags": [
+      "c",
+      "c++",
+      "linux",
+      "programming"
+    ],
+    "url": "https://blog.weineng.me/posts/smallest_c/",
+    "comments_url": "https://lobste.rs/s/eetcxi/smallest_c_binary"
+  },
+  {
+    "title": "Total Reciprocity Public License",
+    "score": 3,
+    "tags": [
+      "law"
+    ],
+    "url": "https://trplfoundation.org/",
+    "comments_url": "https://lobste.rs/s/oazsak/total_reciprocity_public_license"
+  },
+  {
+    "title": "PolyForm Licenses",
+    "score": 20,
+    "tags": [
+      "law"
+    ],
+    "url": "https://polyformproject.org/licenses",
+    "comments_url": "https://lobste.rs/s/btax6j/polyform_licenses"
+  },
+  {
+    "title": "How do you sieve/filter/manage your internet mail?",
+    "score": 27,
+    "tags": [
+      "ask",
+      "practices"
+    ],
+    "url": "",
+    "comments_url": "https://lobste.rs/s/dku5yb/how_do_you_sieve_filter_manage_your"
+  },
+  {
+    "title": "The Empty Field That Wasn't: GPS Broadcasts a Numbers Station",
+    "score": 29,
+    "tags": [
+      "security"
+    ],
+    "url": "https://lsc-pagepro.mydigitalpublication.com/publication/?i=865273&p=62&view=issueViewer",
+    "comments_url": "https://lobste.rs/s/a7v7e5/empty_field_wasn_t_gps_broadcasts_numbers"
+  },
+  {
+    "title": "A faster bump allocator for rust",
+    "score": 87,
+    "tags": [
+      "performance",
+      "rust"
+    ],
+    "url": "https://owen.cafe/posts/stumpalo/",
+    "comments_url": "https://lobste.rs/s/vta6wp/faster_bump_allocator_for_rust"
+  },
+  {
+    "title": "Using Fedora Silverblue for Compositor Development",
+    "score": 15,
+    "tags": [
+      "linux"
+    ],
+    "url": "https://bxt.rs/blog/using-fedora-silverblue-for-compositor-development/",
+    "comments_url": "https://lobste.rs/s/ehxqv9/using_fedora_silverblue_for_compositor"
+  },
+  {
+    "title": "Win16 Memory Management",
+    "score": 20,
+    "tags": [
+      "historical",
+      "programming",
+      "windows"
+    ],
+    "url": "http://www.os2museum.com/wp/win16-memory-management/",
+    "comments_url": "https://lobste.rs/s/c3xmxm/win16_memory_management"
+  },
+  {
+    "title": "An announcement from the Steering Council regarding the JIT project",
+    "score": 5,
+    "tags": [
+      "python"
+    ],
+    "url": "https://discuss.python.org/t/an-announcement-from-the-steering-council-regarding-the-jit-project/107638",
+    "comments_url": "https://lobste.rs/s/tmzmta/announcement_from_steering_council"
+  },
+  {
+    "title": "Code is Cheap(er)",
+    "score": 66,
+    "tags": [
+      "practices",
+      "vibecoding"
+    ],
+    "url": "https://htmx.org/essays/code-is-cheap/",
+    "comments_url": "https://lobste.rs/s/onbcu5/code_is_cheap_er"
+  },
+  {
+    "title": "Reviewing code requires reading",
+    "score": 72,
+    "tags": [
+      "culture"
+    ],
+    "url": "https://hauleth.dev/post/review-requires-reading/",
+    "comments_url": "https://lobste.rs/s/hb1s2k/reviewing_code_requires_reading"
+  },
+  {
+    "title": "What are you doing this weekend?",
+    "score": 13,
+    "tags": [
+      "ask",
+      "programming"
+    ],
+    "url": "",
+    "comments_url": "https://lobste.rs/s/vzutqp/what_are_you_doing_this_weekend"
+  }
+]
