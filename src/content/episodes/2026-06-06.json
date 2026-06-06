@@ -3,66 +3,59 @@
   "episodeNumber": 65,
   "locale": "en-US",
   "title": "Intelligence Brief",
-  "subtitle": "The capital gate hardened a full notch over the we, Index inclusion is the plumbing that converts a li, GitHub velocity re-accelerated rather than cooled,",
+  "subtitle": "C++: The Programming Language back cover raises qu, The intracies of modern camera lens repair, How LLMs work",
   "heroStat": {
-    "value": "965B",
-    "label": "anthropic"
+    "value": "507",
+    "label": "points on \"Mouseless – keyboard-driven control of macOS/Linux/Windows\""
   },
   "insights": [
     {
-      "text": "The capital gate hardened a full notch over the weekend. June 5 the S&P Index Committee merely declined to fast-track the mega-IPOs; June 6's top dated Hacker News item reads as a flat 'S&P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic' (128 points, top of a quiet Saturday front page). Same eligibility rules, but the framing now bundles all three frontier-capital players on the wrong side of the index door at once — a ~$1.75T SpaceX (lists June 12 as SPCX), a ~$965B Anthropic (S-1 June 1), and a ~$852B OpenAI all excluded from automatic passive-fund demand simultaneously.",
-      "tags": []
-    },
-    {
-      "text": "Index inclusion is the plumbing that converts a listing into automatic flows, and the entire trillion-dollar cohort is now locked out of it at once. That makes SpaceX's June 12 float the cleanest test of the cycle: whether a trillion-dollar listing clears without the passive index demand that normally underwrites it. The headline valuations have been running ahead of the market plumbing all week — this is the first sign the friction is structural, not a one-day procedural footnote.",
-      "tags": []
-    },
-    {
-      "text": "GitHub velocity re-accelerated rather than cooled, which is the tell on a weekend when releases pause. NousResearch/hermes-agent retook #1 at +1,845 stars today (183,624 total), and chopratejas/headroom rebounded to +2,473/day (14,764 total) after two days of deceleration — the token-compressor climbing again on its '60–95% fewer tokens, same answers' pitch. When the model layer is quiet, the layers around it still compound.",
+      "text": "C++: The Programming Language back cover raises questions not answered by front (56 pts, 8 comments)",
       "tags": [
-        "github-trending",
-        "agents",
-        "research"
+        "hacker-news"
       ],
-      "source": "GitHub +2,473/day"
+      "source": "HN 56pts",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20260605-01/?p=112391"
     },
     {
-      "text": "The composition under the top two is the same five lanes the whole quarter has run on: compression (headroom), harness (hermes-agent, affaan-m/ECC +1,361/day, github/copilot-sdk +309/day, CopilotKit +366/day), ingestion (PaddleOCR +747/day, lfnovo/open-notebook +1,152/day as an open NotebookLM), memory (MemPalace/mempalace +227/day), and skills (mvanhorn/last30days-skill +731/day). Six-plus weeks in, the instruction-and-context layer around the model still owns the velocity chart, not the weights.",
+      "text": "The intracies of modern camera lens repair (2024) (128 pts, 40 comments)",
       "tags": [
-        "github-trending",
-        "agents"
+        "hacker-news"
       ],
-      "source": "GitHub +1,361/day"
+      "source": "HN 128pts",
+      "url": "https://salvagedcircuitry.com/sigma-45mm.html"
     },
     {
-      "text": "The genuinely new note today is physical AI poking into a conversation that has been almost entirely about code-agents. Four independent signals landed on the same day: NVIDIA's cosmos — its physical-AI/robotics/autonomous-vehicle world-model platform — trended at +479/day, OpenCV 5 shipped as 'the biggest leap in years for computer vision,' an Ask HN asked whether robotics-capabilities research accelerates AGI timelines, and BYD pledged to pay for any damage caused by its autonomous-driving tech. None is a blockbuster alone; together they read as the chart's first hint that the next frontier after agents-that-write-code is agents-that-perceive-and-act.",
+      "text": "How LLMs work (132 pts, 26 comments)",
       "tags": [
-        "agents",
-        "research"
+        "hacker-news"
       ],
-      "source": "GitHub +479/day"
+      "source": "HN 132pts",
+      "url": "https://www.0xkato.xyz/how-llms-actually-work/"
     },
     {
-      "text": "OpenAI's answer to Anthropic's Claude Code lead isn't a better feature — it's distribution where enterprises already are. Codex went generally available on AWS Bedrock (June 1–2): pay-per-token, no seat licenses, usage counting against existing AWS commitments, routed through the Codex App/CLI and VS Code/JetBrains/Xcode. Codex is now past 5 million weekly users, up ~25% from 4M during the one-month preview, with Daybreak — its Codex-Security agentic cybersecurity system — named as the next capability to land. Meet developers inside the cloud they already buy rather than out-feature the rival head-on.",
+      "text": "Pre-Modern Armies for Worldbuilders, Part I: Why They Fight (32 pts, 4 comments)",
       "tags": [
-        "security",
-        "claude-code",
-        "agents"
-      ]
+        "hacker-news"
+      ],
+      "source": "HN 32pts",
+      "url": "https://acoup.blog/2026/06/05/collections-pre-modern-armies-for-worldbuilders-part-i-why-they-fight/"
     },
     {
-      "text": "Even on a soft Saturday front page the maturation layer kept its texture: PostgreSQL 19 Beta 1 and OpenCV 5 as infra/perception refreshes, 'Agentic Search for Context Engineering' and 'Sites in Codex' continuing the context-engineering thread, and yet another lightweight terminal coding assistant (Show HN: Nanocode-CLI) keeping the harness niche crowded. No single item dominates — the through-line is the same context-engineering, agent-harness, and boring-substrate infra current that ran all week.",
+      "text": "S&P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic (88 pts, 10 comments)",
       "tags": [
-        "agents"
-      ]
+        "hacker-news"
+      ],
+      "source": "HN 88pts",
+      "url": "https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/"
     },
     {
-      "text": "Worth flagging the grounding gap: this run shipped with zero scraped sources (no agent-browser scrape for the date) and the Hacker News front page returned HTTP 429 on direct fetch, so the day's HN signal was reconstructed from the Algolia API and exact front-page ranks are softer than a weekday run. GitHub stars/day came from a live trending fetch and stay high-confidence; the capital and Codex items are carried forward from earlier in the week. The timestamped scrape remains a soft dependency — when it's missing, weekend signal leans on indexed trackers that lag the live page.",
+      "text": "Lockdown Mode (29 pts, 13 comments)",
       "tags": [
-        "supply-chain",
-        "github-trending",
-        "agents"
-      ]
+        "hacker-news"
+      ],
+      "source": "HN 29pts",
+      "url": "https://help.openai.com/en/articles/20001061-lockdown-mode"
     }
   ],
   "trending": [
@@ -125,7 +118,7 @@
     },
     {
       "label": "Insights Today",
-      "value": "8",
+      "value": "6",
       "unit": "stories"
     }
   ],
@@ -136,19 +129,19 @@
     },
     "headlines": [
       {
-        "text": "The capital gate hardened a full notch over the weekend. June 5 the S&P Index Committee merely declined to fast-track the mega-IPOs; June 6's top dated Hacker News item reads as a flat 'S&P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic' . Same eligibility rules, but the framing now bundles all three frontier-capital players on the wrong side of the index door at once",
+        "text": "C++: The Programming Language back cover raises questions not answered by front",
         "metric": "—",
         "source": "web"
       },
       {
-        "text": "Index inclusion is the plumbing that converts a listing into automatic flows, and the entire trillion-dollar cohort is now locked out of it at once. That makes SpaceX's June 12 float the cleanest test of the cycle: whether a trillion-dollar listing clears without the passive index demand that normally underwrites it. The headline valuations have been running ahead of the market plumbing all week",
+        "text": "The intracies of modern camera lens repair",
         "metric": "—",
         "source": "web"
       },
       {
-        "text": "GitHub velocity re-accelerated rather than cooled, which is the tell on a weekend when releases pause. NousResearch/hermes-agent retook #1 at +1,845 stars today , and chopratejas/headroom rebounded to +2,473/day after two days of deceleration",
-        "metric": "+2,473/d",
-        "source": "GitHub"
+        "text": "How LLMs work",
+        "metric": "—",
+        "source": "web"
       }
     ],
     "takeaway": {
