@@ -1,0 +1,173 @@
+[
+  {
+    "type": "intro",
+    "highlight": "Intelligence Brief",
+    "subtext": "June 6, 2026",
+    "label": "TIDOX DAILY"
+  },
+  {
+    "type": "intro",
+    "highlight": "Mouseless — your OS, keyboard only",
+    "subtext": "Comment thread: Vimium for the whole desktop",
+    "label": "TODAY'S TOP STORY"
+  },
+  {
+    "type": "insight",
+    "highlight": "AI agents handle implementation — you handle direction",
+    "subtext": "Mouse is a bottleneck at the intent interface"
+  },
+  {
+    "type": "action",
+    "highlight": "Keyboard-native is now architecture, not just ergonomics",
+    "subtext": "Every mouse reach is a context break from agent direction"
+  },
+  {
+    "type": "number",
+    "number": "507",
+    "highlight": "HN pts — Mouseless",
+    "label": "HACKER NEWS"
+  },
+  {
+    "type": "number",
+    "number": "375",
+    "highlight": "comments on rsync/Claude debate",
+    "subtext": "372 pts — 1:1 comment-to-upvote ratio",
+    "label": "RAREST HN PATTERN"
+  },
+  {
+    "type": "insight",
+    "highlight": "Bug rate caused by change volume, not AI authorship",
+    "subtext": "Difference-in-differences analysis of rsync commit history"
+  },
+  {
+    "type": "quote",
+    "highlight": "Same volume, same pace → same regression count",
+    "subtext": "Statistical finding from the analysis"
+  },
+  {
+    "type": "repo",
+    "highlight": "rsync / Tridge",
+    "subtext": "AI-generated CVE flood forced rapid changes — Claude helped manage volume",
+    "label": "MAINTAINER CONFIRMED"
+  },
+  {
+    "type": "insight",
+    "highlight": "Regressions from AI security reports, not AI code",
+    "subtext": "AI audit volume overwhelms human maintenance capacity"
+  },
+  {
+    "type": "insight",
+    "highlight": "The self-referential loop",
+    "subtext": "AI creates audit volume → dev uses AI → critics blame AI coding"
+  },
+  {
+    "type": "quote",
+    "highlight": "The tool blamed for the wound it tried to treat",
+    "subtext": "AI coding assistance as the scapegoat"
+  },
+  {
+    "type": "number",
+    "number": "88",
+    "highlight": "Lobsters pts — Ladybird closes to outside contributions",
+    "label": "LOBSTERS"
+  },
+  {
+    "type": "insight",
+    "highlight": "Contributor trust is now a scarce resource",
+    "subtext": "A PR no longer signals intent — AI makes plausible contributions cheap"
+  },
+  {
+    "type": "quote",
+    "highlight": "Closure as a security model, not a community decision",
+    "subtext": "Ladybird: security clarity over growth"
+  },
+  {
+    "type": "action",
+    "highlight": "Write commit messages for humans, not CI parsers",
+    "subtext": "Stop Using Conventional Commits — 74 Lobsters pts"
+  },
+  {
+    "type": "insight",
+    "highlight": "Craftspeople: slow down, be deliberate",
+    "subtext": "Three hundred and seventy-five comments say otherwise"
+  },
+  {
+    "type": "repo",
+    "highlight": "microsoft/pg_durable",
+    "subtext": "Durable execution inside PostgreSQL — no Temporal, no Restate",
+    "label": "OPEN SOURCE"
+  },
+  {
+    "type": "number",
+    "number": "373",
+    "highlight": "HN pts — pg_durable",
+    "subtext": "Wide-endorsement pattern: immediately applicable",
+    "label": "HACKER NEWS"
+  },
+  {
+    "type": "insight",
+    "highlight": "An entire category of operational complexity just disappeared",
+    "subtext": "Workflow durability without a separate service"
+  },
+  {
+    "type": "insight",
+    "highlight": "Complexity migrates into the substrate — and the substrate is Postgres",
+    "subtext": "Microsoft treating PostgreSQL as AI-era platform"
+  },
+  {
+    "type": "number",
+    "number": "25.3M",
+    "highlight": "Gov.uk dumps Stripe for Adyen",
+    "subtext": "£25.3M contract — open-banking at national infrastructure scale",
+    "label": "FINTECH SIGNAL"
+  },
+  {
+    "type": "insight",
+    "highlight": "Open-banking viable at national infrastructure scale",
+    "subtext": "Pay-by-bank alongside card processing — market threshold event"
+  },
+  {
+    "type": "number",
+    "number": "2x",
+    "highlight": "Gemma 4 QAT — twice as fast on mobile NPUs",
+    "subtext": "40% smaller · frontier multimodal on your phone · day-one Ollama",
+    "label": "GOOGLE DEEPMIND"
+  },
+  {
+    "type": "insight",
+    "highlight": "Frontier-to-mobile timeline compressed by two years in one week",
+    "subtext": "From Gemma 4 12B local (June 4) to QAT mobile (June 6)"
+  },
+  {
+    "type": "insight",
+    "highlight": "AI is not a single variable — it multiplies in every direction",
+    "subtext": "CVEs, code, contributions, local inference — all at once"
+  },
+  {
+    "type": "insight",
+    "highlight": "Systems around AI are starting to respond",
+    "subtext": "Governance, infrastructure, payments, browser engines — some simplifying, some closing"
+  },
+  {
+    "type": "action",
+    "highlight": "Treat AI as infrastructure, not a magic wand",
+    "subtext": "Think about where it creates load, not just leverage"
+  },
+  {
+    "type": "action",
+    "highlight": "Build the tool that helps maintainers manage AI-generated issue floods",
+    "subtext": "Today made that gap visible"
+  },
+  {
+    "type": "close",
+    "highlight": "Gemma 4 fits in your pocket",
+    "subtext": "Go figure out what that actually unlocks",
+    "label": "THAT'S THE EPISODE"
+  },
+  {
+    "type": "close",
+    "highlight": "Tidox Intelligence Brief",
+    "subtext": "June 6, 2026",
+    "label": "DAILY"
+  }
+]
