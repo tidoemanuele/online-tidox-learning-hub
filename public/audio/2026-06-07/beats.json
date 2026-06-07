@@ -1,0 +1,206 @@
+[
+  {
+    "type": "intro",
+    "highlight": "June 7, 2026",
+    "subtext": "Three stories. One thread.",
+    "label": "INTELLIGENCE BRIEF"
+  },
+  {
+    "type": "intro",
+    "highlight": "Rust NTSC/VHS signal emulator",
+    "subtext": "Composite signal modeling — not a filter",
+    "label": "TOP STORY"
+  },
+  {
+    "type": "number",
+    "number": "316",
+    "highlight": "HN points",
+    "subtext": "0.24:1 comment ratio — wide endorsement",
+    "label": "HACKER NEWS"
+  },
+  {
+    "type": "insight",
+    "highlight": "Modeling physics vs approximating aesthetic",
+    "subtext": "luma-chroma crosstalk, scanline ringing, tape dropout",
+    "label": "NTSC-RS"
+  },
+  {
+    "type": "quote",
+    "highlight": "Precision over approximation",
+    "subtext": "The thread running through everything today",
+    "label": "THEME"
+  },
+  {
+    "type": "insight",
+    "highlight": "The real system vs the aesthetic",
+    "subtext": "Models, not filters",
+    "label": "DISTINCTION"
+  },
+  {
+    "type": "number",
+    "number": "283",
+    "highlight": "HN points on fork()+exec()",
+    "subtext": "284 comments — 1:1 ratio",
+    "label": "HACKER NEWS"
+  },
+  {
+    "type": "insight",
+    "highlight": "Everyone who upvoted also had something to say",
+    "subtext": "The most distinctive dataset pattern",
+    "label": "SIGNAL"
+  },
+  {
+    "type": "quote",
+    "highlight": "Explicit by default",
+    "subtext": "spawn() declares intent instead of inheriting and cleaning up",
+    "label": "SPAWN API"
+  },
+  {
+    "type": "repo",
+    "highlight": "LWN: Moving beyond fork() + exec()",
+    "subtext": "50 years of POSIX idiom under scrutiny",
+    "label": "LWN.NET"
+  },
+  {
+    "type": "insight",
+    "highlight": "Explicit spawn eliminates fd-leak vulnerabilities",
+    "subtext": "Security angle: descriptor leaks in privileged daemons",
+    "label": "SECURITY"
+  },
+  {
+    "type": "quote",
+    "highlight": "Specify precisely. Inherit nothing.",
+    "subtext": "Same move as the NTSC library",
+    "label": "PATTERN"
+  },
+  {
+    "type": "number",
+    "number": "205",
+    "highlight": "Lobsters points",
+    "subtext": "+131 in a single day — second wave endorsement",
+    "label": "STOP USING CONVENTIONAL COMMITS"
+  },
+  {
+    "type": "quote",
+    "highlight": "Optimized for machine parsing, not human understanding",
+    "subtext": "feat: and fix: as design tradeoffs",
+    "label": "CONVENTIONAL COMMITS"
+  },
+  {
+    "type": "insight",
+    "highlight": "'feat: fix the bug from last week'",
+    "subtext": "Satisfies the linter, describes nothing",
+    "label": "THE PROBLEM"
+  },
+  {
+    "type": "quote",
+    "highlight": "Primary communication channel to future you",
+    "subtext": "Commit messages are not changelogs",
+    "label": "COMMIT MESSAGES"
+  },
+  {
+    "type": "insight",
+    "highlight": "Designing for automation degrades human signal",
+    "subtext": "Fork-exec, Conventional Commits, agent prompts",
+    "label": "THE THREAD"
+  },
+  {
+    "type": "repo",
+    "highlight": "openai.com: Harness Engineering",
+    "subtext": "149 HN pts — Codex in an agent-first world",
+    "label": "OPENAI"
+  },
+  {
+    "type": "insight",
+    "highlight": "The harness is the primary engineering artifact",
+    "subtext": "Scoped permissions + explicit success criteria = verifiable output",
+    "label": "HARNESS DESIGN"
+  },
+  {
+    "type": "action",
+    "highlight": "Be extremely precise about what you want",
+    "subtext": "Vague harnesses produce unverifiable output",
+    "label": "AGENT-FIRST WORLD"
+  },
+  {
+    "type": "repo",
+    "highlight": "arxiv.org/abs/2601.14470 — Tokenomics",
+    "subtext": "Where tokens actually go in agentic workflows",
+    "label": "RESEARCH"
+  },
+  {
+    "type": "quote",
+    "highlight": "Where do the tokens go?",
+    "subtext": "Not where you think",
+    "label": "TOKENOMICS"
+  },
+  {
+    "type": "insight",
+    "highlight": "Context retrieval dominates — not generation",
+    "subtext": "Tool call outputs, file contents, retrieved context",
+    "label": "KEY FINDING"
+  },
+  {
+    "type": "insight",
+    "highlight": "Compress your context, not your generation",
+    "subtext": "Completely counterintuitive — but the data says so",
+    "label": "IMPLICATION"
+  },
+  {
+    "type": "quote",
+    "highlight": "Engineering the retrieval layer = cost optimization",
+    "subtext": "Good harness design is also budget design",
+    "label": "HARNESS + TOKENOMICS"
+  },
+  {
+    "type": "insight",
+    "highlight": "Today is saying: vague is expensive",
+    "subtext": "In every sense",
+    "label": "META-THEME"
+  },
+  {
+    "type": "quote",
+    "highlight": "Go",
+    "subtext": "Every story today: precision over approximation",
+    "label": "THE SYNTHESIS"
+  },
+  {
+    "type": "quote",
+    "highlight": "Precision over approximation. In every domain.",
+    "subtext": "NTSC physics. spawn() intent. commit why. harness spec. retrieval cost.",
+    "label": "TODAY'S BRIEF"
+  },
+  {
+    "type": "insight",
+    "highlight": "Ten weeks, no acknowledgment — Valve P2P",
+    "subtext": "Inherited system, broken diagnostic surface",
+    "label": "VALVE REGRESSION"
+  },
+  {
+    "type": "action",
+    "highlight": "Write one commit message explaining WHY",
+    "subtext": "Map where your tokens go. Write the harness first.",
+    "label": "TOMORROW'S ACTIONS"
+  },
+  {
+    "type": "action",
+    "highlight": "Go look at ntsc-rs",
+    "subtext": "That level of understanding — in every system you touch",
+    "label": "ntsc.rs"
+  },
+  {
+    "type": "close",
+    "highlight": "The tools that last are built by people who understand the thing they're replacing",
+    "label": "SIGN-OFF"
+  },
+  {
+    "type": "close",
+    "highlight": "Go build something real.",
+    "label": "INTELLIGENCE BRIEF"
+  },
+  {
+    "type": "close",
+    "highlight": "June 7, 2026",
+    "label": "TIDOX LEARNING HUB"
+  }
+]
