@@ -1,0 +1,74 @@
+[
+  {
+    "name": "last30days-skill",
+    "fullName": "mvanhorn/last30days-skill",
+    "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+    "language": "Python",
+    "stars_today": "1,112 stars today",
+    "total_stars": "31901",
+    "url": "https://github.com/mvanhorn/last30days-skill"
+  },
+  {
+    "name": "hermes-agent",
+    "fullName": "NousResearch/hermes-agent",
+    "description": "The agent that grows with you — session memory, skill accumulation, and persistent reasoning across workflows",
+    "language": "Python",
+    "stars_today": "1,112 stars today",
+    "total_stars": "186329",
+    "url": "https://github.com/NousResearch/hermes-agent"
+  },
+  {
+    "name": "turbovec",
+    "fullName": "RyanCodrai/turbovec",
+    "description": "A vector index built on TurboQuant, written in Rust with Python bindings — no train step, no codebook, NEON/AVX-512 kernels",
+    "language": "Rust",
+    "stars_today": "1,554 stars today",
+    "total_stars": "7528",
+    "url": "https://github.com/RyanCodrai/turbovec"
+  },
+  {
+    "name": "taste-skill",
+    "fullName": "Leonxlnx/taste-skill",
+    "description": "Taste-Skill — gives your AI good taste, stops the AI from generating boring, generic slop",
+    "language": "Shell",
+    "stars_today": "1,103 stars today",
+    "total_stars": "37266",
+    "url": "https://github.com/Leonxlnx/taste-skill"
+  },
+  {
+    "name": "goose",
+    "fullName": "aaif-goose/goose",
+    "description": "An open source, extensible AI agent that goes beyond code suggestions — install, execute, edit, and test with any LLM",
+    "language": "Rust",
+    "stars_today": "322 stars today",
+    "total_stars": "47658",
+    "url": "https://github.com/aaif-goose/goose"
+  },
+  {
+    "name": "project-nomad",
+    "fullName": "Crosstalk-Solutions/project-nomad",
+    "description": "Project N.O.M.A.D — self-contained offline survival computer with critical tools, knowledge, and AI for any environment",
+    "language": "TypeScript",
+    "stars_today": "309 stars today",
+    "total_stars": "29848",
+    "url": "https://github.com/Crosstalk-Solutions/project-nomad"
+  },
+  {
+    "name": "open-notebook",
+    "fullName": "lfnovo/open-notebook",
+    "description": "An Open Source implementation of NotebookLM with more flexibility and features — 18+ AI providers, multi-speaker podcast, vector search",
+    "language": "TypeScript",
+    "stars_today": "554 stars today",
+    "total_stars": "27516",
+    "url": "https://github.com/lfnovo/open-notebook"
+  },
+  {
+    "name": "llama.cpp",
+    "fullName": "ggml-org/llama.cpp",
+    "description": "LLM inference in C/C++ — the canonical local inference engine for quantized models",
+    "language": "C++",
+    "stars_today": "158 stars today",
+    "total_stars": "115446",
+    "url": "https://github.com/ggml-org/llama.cpp"
+  }
+]
