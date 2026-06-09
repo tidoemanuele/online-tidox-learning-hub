@@ -1,0 +1,122 @@
+[
+  [
+    "A",
+    "Today's highest-scoring story on Hacker News wasn't a new model, wasn't Apple, wasn't Xiaomi. It was a React component library. 881 points."
+  ],
+  [
+    "B",
+    "Performative-UI. I saw this. And I couldn't stop thinking about the name — it's not about animation performance, it's about performance theory. The UI performs credibility."
+  ],
+  [
+    "A",
+    "Exactly. The argument is that the chrome around an LLM output — the streaming animation, the confidence indicators, the structured display — communicates epistemic status. It tells you how much to trust what you're reading."
+  ],
+  [
+    "B",
+    "And most AI products have basically ignored that layer. You get raw text in a box and you're supposed to figure out what to do with it."
+  ],
+  [
+    "A",
+    "The 881 points tell us the practitioner community has felt this gap independently. That score is framework-release territory. For a personal component library."
+  ],
+  [
+    "B",
+    "OK but here's what's wild — this is the day after WWDC. Apple just announced Siri routes through Google Gemini. The model infrastructure question just got answered at the platform level. And the community immediately turns to: what does the interface on top of all this look like?"
+  ],
+  [
+    "A",
+    "That's the pattern I keep seeing today. Let me explain what I mean. Apple integrates Gemini. Xiaomi ships a trillion-parameter model at 1000 tokens per second on commodity hardware. xAI is renting its compute to Anthropic and Google."
+  ],
+  [
+    "B",
+    "Wait, say that last one again."
+  ],
+  [
+    "A",
+    "xAI has contracted roughly two billion dollars a month in GPU capacity to Anthropic and Google. The analysis on HN today framed it as xAI looking more like a data center REIT than a frontier lab."
+  ],
+  [
+    "B",
+    "So the company that built Colossus is now... a landlord."
+  ],
+  [
+    "A",
+    "The infrastructure economics are extraordinary. Power costs are about one percent of rental revenue. The margins on GPU leasing are better than the margins on building Grok."
+  ],
+  [
+    "B",
+    "I'm not sure that's the right read though. I think what's actually happening is that GPU scarcity created a rental market, and xAI has the supply. That's not a retreat from frontier AI, that's... vertical integration in infrastructure."
+  ],
+  [
+    "A",
+    "Fair. But notice the pattern across Apple, xAI, and MiMo today. Frontier model capability is being treated as something you contract, rent, or serve — not something you build as a moat."
+  ],
+  [
+    "B",
+    "The commodity layer shifted. OK. So if the model is commodity, what's the moat?"
+  ],
+  [
+    "A",
+    "The interface. The data layer. The trust relationship with the user. Which is exactly what Performative-UI is about."
+  ],
+  [
+    "B",
+    "That's a clean thesis. And the MiMo number makes it urgent — 1000 tokens per second on a trillion-parameter model means latency is no longer the excuse for using a smaller model."
+  ],
+  [
+    "A",
+    "The routing decision just changed. If you're building something latency-sensitive and you were using a smaller model to hit your speed targets, you now need to revisit that."
+  ],
+  [
+    "B",
+    "And Apple's Core AI Framework is the platform version of this. One Swift API that abstracts over on-device Neural Engine and server-side Gemini routing. Developers don't see the seam."
+  ],
+  [
+    "A",
+    "Which means Apple controls the interface and the data handling policy while Google provides the capability. That's a very deliberate division of leverage."
+  ],
+  [
+    "B",
+    "Gemini gets the workload. Apple keeps the relationship. Hmm. I'd want to be Apple in that deal."
+  ],
+  [
+    "A",
+    "There's also a quieter story today. Gitdot — a GitHub alternative in Rust, sub-100 millisecond first contentful paint as a hard architectural constraint."
+  ],
+  [
+    "B",
+    "The code hosting layer. Which is increasingly managing code that AI agents wrote."
+  ],
+  [
+    "A",
+    "And the Lobsters community today is arguing about whether vibecoding even means anything anymore. The word has drifted so far from its original meaning that it's useless as a diagnostic category."
+  ],
+  [
+    "B",
+    "That matters more than it sounds. If you can't describe the spectrum between thoughtful AI-augmented development and delegated-without-review, you can't have the maintenance conversation."
+  ],
+  [
+    "A",
+    "The 'cleaning up after AI rockstar developers' post captures what happens downstream. Code that deployed fine, reviewed fine, and then needs modification six months later by someone without the original context."
+  ],
+  [
+    "B",
+    "So here's what today is actually saying. The model layer is becoming infrastructure. The interface layer — Performative-UI, Core AI Framework, the design of trust signals — that's where the differentiation lives now."
+  ],
+  [
+    "A",
+    "And the practitioners who understand that the chrome around a model output is doing real epistemic work — those are the people who are going to build the products that users actually trust."
+  ],
+  [
+    "B",
+    "881 points on a component library the day Apple announces Gemini in Siri. The community is telling you exactly where to focus."
+  ],
+  [
+    "A",
+    "Build the interface layer. Design for trust. The model is not the product anymore."
+  ],
+  [
+    "B",
+    "Go build something."
+  ]
+]

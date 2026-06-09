@@ -1,0 +1,92 @@
+[
+  {
+    "name": "last30days-skill",
+    "fullName": "mvanhorn/last30days-skill",
+    "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web — synthesizes a grounded summary with citations",
+    "language": "Python",
+    "stars_today": "3,558 stars today",
+    "total_stars": "31901",
+    "url": "https://github.com/mvanhorn/last30days-skill"
+  },
+  {
+    "name": "turbovec",
+    "fullName": "RyanCodrai/turbovec",
+    "description": "A vector index built on TurboQuant — data-oblivious quantizer that hits the Shannon lower bound on distortion, written in Rust with Python bindings",
+    "language": "Rust",
+    "stars_today": "1,729 stars today",
+    "total_stars": "9257",
+    "url": "https://github.com/RyanCodrai/turbovec"
+  },
+  {
+    "name": "supervision",
+    "fullName": "roboflow/supervision",
+    "description": "We write your reusable computer vision tools. Annotators, datasets, metrics, and more.",
+    "language": "Python",
+    "stars_today": "1,288 stars today",
+    "total_stars": "28400",
+    "url": "https://github.com/roboflow/supervision"
+  },
+  {
+    "name": "goose",
+    "fullName": "aaif-goose/goose",
+    "description": "An open source, extensible AI agent that goes beyond code suggestions — install, execute, edit, and test with any LLM",
+    "language": "Rust",
+    "stars_today": "699 stars today",
+    "total_stars": "14200",
+    "url": "https://github.com/aaif-goose/goose"
+  },
+  {
+    "name": "Agent-Reach",
+    "fullName": "Panniantong/Agent-Reach",
+    "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+    "language": "Python",
+    "stars_today": "679 stars today",
+    "total_stars": "23247",
+    "url": "https://github.com/Panniantong/Agent-Reach"
+  },
+  {
+    "name": "tolaria",
+    "fullName": "refactoringhq/tolaria",
+    "description": "Desktop app to manage markdown knowledge bases",
+    "language": "TypeScript",
+    "stars_today": "651 stars today",
+    "total_stars": "4100",
+    "url": "https://github.com/refactoringhq/tolaria"
+  },
+  {
+    "name": "ChinaTextbook",
+    "fullName": "TapXWorld/ChinaTextbook",
+    "description": "All Chinese primary, middle, high school, and university PDF textbooks in one repository.",
+    "language": "Roff",
+    "stars_today": "592 stars today",
+    "total_stars": "18900",
+    "url": "https://github.com/TapXWorld/ChinaTextbook"
+  },
+  {
+    "name": "skills",
+    "fullName": "google/skills",
+    "description": "Agent Skills for Google products and technologies",
+    "language": "Python",
+    "stars_today": "461 stars today",
+    "total_stars": "5200",
+    "url": "https://github.com/google/skills"
+  },
+  {
+    "name": "CopilotKit",
+    "fullName": "CopilotKit/CopilotKit",
+    "description": "The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more. Makers of the AG-UI Protocol.",
+    "language": "TypeScript",
+    "stars_today": "378 stars today",
+    "total_stars": "33728",
+    "url": "https://github.com/CopilotKit/CopilotKit"
+  },
+  {
+    "name": "career-ops",
+    "fullName": "santifer/career-ops",
+    "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.",
+    "language": "JavaScript",
+    "stars_today": "308 stars today",
+    "total_stars": "3900",
+    "url": "https://github.com/santifer/career-ops"
+  }
+]
