@@ -1,63 +1,61 @@
 {
   "date": "2026-06-09",
-  "episodeNumber": 66,
+  "episodeNumber": 67,
   "locale": "en-US",
   "title": "Intelligence Brief",
-  "subtitle": "Show HN: Performative-UI, MiMo-v2.5-Pro-UltraSpeed: 1T model with 1000 token, Apple reveals new AI architecture built around Goo",
+  "subtitle": "Apple reveals new AI architecture built around Goo, Old'aVista – The most powerful guide to the old In, Siri AI",
   "heroStat": {
     "value": "881",
     "label": "points on \"Show HN: Performative-UI – A react component library of desi\""
   },
   "insights": [
     {
-      "text": "Show HN: Performative-UI — A react component library of design tropes earns 881 HN pts (https://vorpus.github.io/performativeUI/) and the day's highest score by a decisive margin — a Show HN that accumulates the kind of velocity typically reserved for major framework releases or contentious opinion pieces, not a personal component library. The vorpus.github.io project describes itself as a library of AI-native React components built around design patterns that recur specifically in AI-facing interfaces: streaming text renderers, confidence indicators, structured data displays optimized for model output, and UI primitives designed around the assumption that the content they display was generated rather than authored. The 881-point score on a Show HN is a structural event in the HN data: Show HNs at that point count are typically technically novel tools that fill a gap the community has felt independently, not components that perform design novelty. The practitioner reading: Performative-UI is named after performance theory rather than animation performance — its central claim is that AI interfaces perform a kind of credibility signaling, that the chrome and affordances around an LLM output communicate epistemic status to the viewer, and that this communication layer is under-designed in most current AI products. The score validates that the community agrees this is a real design problem. The compound signal: the day after WWDC 2026 introduces Apple Intelligence with a Gemini-backed Siri, the highest-scoring HN story is a library for the design layer that sits in front of model outputs — the community is already building the interfaces that will mediate between the new model infrastructure and the people using it. (881 HN pts) Source: https://vorpus.github.io/performativeUI/",
+      "text": "Apple reveals new AI architecture built around Google Gemini models (490 pts, 381 comments)",
       "tags": [
-        "github-trending"
+        "hacker-news"
+      ],
+      "source": "HN 490pts",
+      "url": "https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/"
+    },
+    {
+      "text": "Old'aVista – The most powerful guide to the old Internet (52 pts, 7 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 52pts",
+      "url": "https://oldavista.com/"
+    },
+    {
+      "text": "Siri AI (510 pts, 441 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 510pts",
+      "url": "https://www.apple.com/apple-intelligence/"
+    },
+    {
+      "text": "Show HN: Performative-UI – A react component library of design tropes (881 pts, 163 comments)",
+      "tags": [
+        "hacker-news"
       ],
       "source": "HN 881pts",
       "url": "https://vorpus.github.io/performativeUI/"
     },
     {
-      "text": "MiMo-v2.5-Pro-UltraSpeed: 1T model with 1000 tokens per second earns 535 HN pts (https://mimo.xiaomi.com/blog/mimo-tilert-1000tps) and 312 comments — the day's most consequential inference efficiency disclosure and the 2026 cycle's clearest demonstration that hardware-model codesign has pushed a trillion-parameter frontier model past 1000 tokens per second on a single standard 8-GPU commodity node. Xiaomi MiMo and TileRT publish the UltraSpeed mode of MiMo-V2.5-Pro — a 1T-parameter model that delivers up to 1200 tokens per second peak throughput through FP4 quantization and DFlash speculative decoding, available as a limited API trial from June 9 to June 23, 2026 at 3 times the standard MiMo pricing for roughly 10 times the speed. The structural significance is the threshold event: 1000 TPS on a 1T-parameter model on commodity hardware is the milestone that makes real-time interaction with a trillion-parameter model economically tractable — the compute cost per token drops to where interactive applications that previously required smaller models to hit latency targets can now route to frontier-class capability. The HN thread is organized around three readings: the speculative decoding reading (DFlash accelerates generation by using a smaller draft model to propose tokens that the main model verifies in parallel, a technique that on standard tasks achieves 3-5x speedup without quality degradation); the quantization reading (FP4 reduces memory bandwidth requirements by 50% compared to FP8, meaning more model weights fit in HBM bandwidth that limits throughput, not FLOP count); and the competitive context (15x faster than ChatGPT and Claude at comparable quality marks the announcement, which frames the speed advantage as a procurement decision for latency-sensitive applications). The compound signal with the Apple-Gemini architecture disclosure: on a day when Apple announces it is routing Siri through a partner model, Xiaomi demonstrates that commodity hardware can serve frontier-class inference at speeds that make on-premise routing competitive with cloud inference for latency-sensitive workloads. (535 HN pts) Source: https://mimo.xiaomi.com/blog/mimo-tilert-1000tps",
-      "tags": [],
-      "source": "HN 535pts",
-      "url": "https://mimo.xiaomi.com/blog/mimo-tilert-1000tps"
-    },
-    {
-      "text": "Apple reveals new AI architecture built around Google Gemini models earns 490 HN pts (https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/) and 178 comments (0.36:1 comment-to-point ratio) alongside Siri AI earning 510 HN pts (https://www.apple.com/apple-intelligence/) and Apple Core AI Framework reaching 248 HN pts (https://developer.apple.com/documentation/coreai/) — the day's three-part WWDC 2026 signal and the 2026 cycle's most significant public acknowledgment that a platform company has decided that the fastest path to frontier AI capability runs through a partner model rather than its own. Apple reveals at WWDC 2026 that the new Apple Intelligence architecture routes complex Siri requests through Google Gemini models, marking the first public confirmation of Apple integrating a competitor's frontier AI directly into its platform at operating-system level. The structural significance: Apple has historically maintained vertical integration as its architectural principle — owning silicon, OS, app platform, and developer tools — and the Gemini integration represents a deliberate exception that prioritizes capability delivery over architectural purity at the AI layer. The 510 HN points for the Apple Intelligence product page and the 490 HN points for the Gemini architecture disclosure together constitute the day's dominant story: the practitioner community is simultaneously endorsing the capability signal (Siri now routes through frontier-class models) and examining the competitive implications (the relationship between Apple and Google is now simultaneously adversarial at the browser and search layer and cooperative at the model serving layer). The Core AI Framework developer documentation at 248 HN pts is the implementation layer: Apple ships a native Swift API that abstracts over on-device model inference and server-side model routing, giving iOS and macOS developers a unified interface for AI capabilities regardless of whether the underlying model is running on Neural Engine or routing through Gemini — the developer surface that makes the Gemini integration invisible to app developers while Apple retains control of the interface and data handling policies. The compound signal: the same week xAI is described as functioning more like a GPU rental business than a frontier lab, Apple confirms that even the world's highest-margin consumer hardware company treats frontier AI model capability as a procurement decision rather than a build decision. (490 HN pts) Source: https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/",
-      "tags": [],
-      "source": "HN 490pts",
-      "url": "https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/"
-    },
-    {
-      "text": "xAI is looking more like a datacentre REIT than a frontier lab earns 496 HN pts (https://martinalderson.com/posts/xais-new-rental-business/) and 234 comments (0.47:1 comment-to-point ratio) — the day's most structurally provocative analysis and the 2026 cycle's most precise articulation of how xAI's capital allocation has shifted from compute-for-training to compute-for-rental as the organization simultaneously pursues frontier model development and infrastructure monetization at scale. The martinalderson.com post documents the specific deals: xAI has contracted $1.25 billion per month to Anthropic for 300MW of capacity representing approximately 220,000 GPUs, and $920 million per month to Google for 110,000 GPUs — combined monthly revenue that crosses the roughly $40 billion build cost of Colossus 1 within approximately 18 months of operation. The central argument is that the economics describe infrastructure rental rather than frontier AI development: with power costs representing approximately 1% of rental revenue, the operating margins on the GPU leasing business are extraordinary, and the capacity that is now generating those margins was originally designated for Grok training and inference — a substitution that the author frames as a retreat from frontier lab positioning. The 0.47:1 comment-to-point ratio is the moderately contested pattern for pieces where the community endorses the observation while debating the interpretation: 234 comments examine whether xAI is strategically positioning itself as critical AI infrastructure (a position that benefits SpaceX IPO valuation), whether the GPU scarcity argument explains the rental market without requiring a retreat narrative, and whether the infrastructure execution speed of 122 days for Colossus 1 represents a genuine competitive moat that justifies the infrastructure monetization pivot. The structural compound with today's Apple-Gemini disclosure: on a day when Apple confirms it routes Siri through Google rather than building its own frontier model, the HN community is simultaneously examining whether xAI is deploying its frontier compute to rent to competitors rather than compete with them. The pattern across both stories is the same — frontier AI capability is increasingly treated as infrastructure that can be contracted, rented, and routed rather than built and maintained as a proprietary competitive advantage. (496 HN pts) Source: https://martinalderson.com/posts/xais-new-rental-business/",
-      "tags": [],
+      "text": "xAI is looking more like a datacentre REIT than a frontier lab (496 pts, 384 comments)",
+      "tags": [
+        "hacker-news"
+      ],
       "source": "HN 496pts",
       "url": "https://martinalderson.com/posts/xais-new-rental-business/"
     },
     {
-      "text": "Show HN: Gitdot — a better GitHub, open-source, written in Rust earns 207 HN pts (https://gitdot.io/) and 89 comments (0.43:1 comment-to-point ratio) — the day's most ambitious Show HN infrastructure project and the 2026 cycle's clearest entry in the recurring practitioner effort to build a GitHub alternative that treats performance and keyboard-native interaction as first-class design constraints rather than features to add after feature parity is achieved. The gitdot.io announcement describes an open-source code hosting platform built in Rust, designed around CLI-inspired navigation patterns (fzf, broot, vim) rather than web application design conventions, targeting a First Contentful Paint under 100ms as a hard architectural requirement rather than a performance goal. The v0.2 release is scheduled for July 15, 2026, adding infrastructure and issue tracking — the announcement is an early public signal rather than a production alternative. The 0.43:1 comment-to-point ratio is the endorsement pattern for ambitious infrastructure projects where the community simultaneously validates the category need and examines the execution path: 89 comments are organized around the competitive landscape (Forgejo, Gitea, Codeberg, and Radicle each address different subsets of the GitHub-alternative problem), the Rust implementation signal (a developer choosing Rust for a production web service in 2026 is making a specific statement about performance priorities and maintenance philosophy), and the 100ms FCP target as a legible commitment to a measurably different user experience rather than a vague performance aspiration. The structural compound with today's MiMo-v2.5-Pro and Apple Core AI Framework disclosures: on a day dominated by model infrastructure and platform AI integration, the day's seventh-highest-scoring story is about an open-source code hosting platform — the infrastructure that manages the code that AI agents increasingly write — built with the same performance-first philosophy that the AI inference layer is now applying to model serving. (207 HN pts) Source: https://gitdot.io/",
+      "text": "Job: Head of Stonehenge (117 pts, 76 comments)",
       "tags": [
-        "github-trending",
-        "agents",
-        "open-source"
+        "hacker-news"
       ],
-      "source": "HN 207pts",
-      "url": "https://gitdot.io/"
-    },
-    {
-      "text": "'Can we stop tagging everything as vibecoding?' surges to 126 Lobsters pts alongside 'WWDC 2026' at 64 Lobsters pts and 'Cleaning up after AI rockstar developers' at 15 Lobsters pts — the day's three-part Lobsters signal and the 2026 cycle's most direct practitioner community assertion that the vibecoding label has reached saturation as a descriptive category and is now functioning primarily as a rhetorical device. The 126-point score for the vibecoding taxonomy critique is the platform's highest single-day score in recent weeks — a meta-discussion about how the community categorizes AI-assisted development practices outscoring all technical content on the day when WWDC 2026 produces the most significant Apple AI disclosure of the year. The Lobsters community's categorical point is structural: vibecoding originated as a precise description of a specific practice (generating code from natural language descriptions without reading or understanding the output), but has drifted to cover any AI-assisted development workflow, making it useless as a diagnostic category precisely when practitioners need precise language to discuss the spectrum between thoughtful AI-augmented development and the delegated-without-review pattern the original term described. The 'Cleaning up after AI rockstar developers' post at 15 Lobsters pts captures the specific maintenance consequence the taxonomy question is implicitly about: AI-generated code that passes initial review and deploys successfully can accumulate structural debt that becomes visible only when the original context is unavailable and the code needs modification by someone who did not generate it. The compound signal across all three Lobsters entries: on a day when Apple announces at WWDC 2026 that Siri now routes through frontier AI models, the Lobsters community is debating the vocabulary for describing AI-assisted development and its maintenance consequences — two conversations that are about the same underlying shift in how code is produced but operating at very different levels of abstraction. Source: https://lobste.rs/hottest.json",
-      "tags": []
-    },
-    {
-      "text": "mvanhorn/last30days-skill surges to +3,558 stars today on GitHub (31,901 total stars, Python) as RyanCodrai/turbovec reaches +1,729 stars today (9,257 total stars, Rust) and roboflow/supervision climbs to +1,288 stars today (28,400 total stars, Python) — the day's three-part GitHub trending signal and the 2026 pattern's clearest articulation of the multi-platform research synthesis, vector retrieval, and computer vision annotation layers as three infrastructure categories capturing simultaneous practitioner attention on the day WWDC 2026 makes AI integration the dominant platform narrative. last30days-skill at github.com/mvanhorn/last30days-skill is the multi-platform research synthesis layer: an AI agent skill at v3.3.0 with 1,012 passing tests that searches Reddit, X, YouTube, HN, Polymarket, and the web in parallel, deployable across Claude Code, Codex, Cursor, Copilot, Gemini CLI, and 50+ agent skill hosts. The +3,558 single-day star velocity on a repository already at 31,901 total stars describes a tool that has crossed the institutional-adoption threshold and is now generating secondary discovery: organizations that deployed it in prior weeks are now sharing it within their networks. turbovec at github.com/RyanCodrai/turbovec is the vector retrieval layer: a Rust implementation of Google Research's TurboQuant algorithm — a data-oblivious quantizer that achieves the Shannon lower bound on distortion without codebook training, meaning vectors index as they are added with no rebuild or retraining as the corpus grows. Hand-written NEON and AVX-512BW kernels beat FAISS IndexPQFastScan by 12-20% on ARM, with no managed service and no data leaving local infrastructure. roboflow/supervision at github.com/roboflow/supervision is the computer vision annotation and pipeline layer: a library of reusable CV tools — annotators, datasets, metrics — that operates as the standard processing layer between raw model output and application logic in detection, tracking, and segmentation workflows, now trending simultaneously with the AI platform integration announcements at WWDC. The compound: last30days-skill's research synthesis, turbovec's vector retrieval, and supervision's CV pipeline together constitute the data-in, retrieval, and annotation stack that practitioners are standardizing on as AI integration becomes platform infrastructure rather than a specialist capability. (+3,558 stars/day, GitHub trending) Source: https://github.com/mvanhorn/last30days-skill",
-      "tags": [
-        "github-trending",
-        "claude-code",
-        "agents"
-      ],
-      "source": "GitHub +3,558/day",
-      "url": "https://github.com/mvanhorn/last30days-skill"
+      "source": "HN 117pts",
+      "url": "https://www.english-heritage.org.uk/about/our-people/careers-with-us/job-search/default-job-page/?jobRef=16449"
     }
   ],
   "trending": [
@@ -120,7 +118,7 @@
     },
     {
       "label": "Insights Today",
-      "value": "7",
+      "value": "6",
       "unit": "stories"
     }
   ],
@@ -131,19 +129,19 @@
     },
     "headlines": [
       {
-        "text": "Show HN: Performative-UI",
-        "metric": "881 pts",
-        "source": "HN"
+        "text": "Apple reveals new AI architecture built around Google Gemini models",
+        "metric": "—",
+        "source": "web"
       },
       {
-        "text": "MiMo-v2.5-Pro-UltraSpeed: 1T model with 1000 tokens per second earns 535 HN pts and 312 comments",
-        "metric": "535 pts",
-        "source": "HN"
+        "text": "Old'aVista – The most powerful guide to the old Internet",
+        "metric": "—",
+        "source": "web"
       },
       {
-        "text": "Apple reveals new AI architecture built around Google Gemini models earns 490 HN pts and 178 comments alongside Siri AI earning 510 HN pts and Apple Core AI Framework reaching 248 HN pts",
-        "metric": "490 pts",
-        "source": "HN"
+        "text": "Siri AI",
+        "metric": "—",
+        "source": "web"
       }
     ],
     "takeaway": {
