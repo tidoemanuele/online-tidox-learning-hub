@@ -1,0 +1,186 @@
+[
+  {
+    "type": "intro",
+    "highlight": "128K Output Tokens Per Request",
+    "label": "INTELLIGENCE BRIEF",
+    "subtext": "June 10, 2026"
+  },
+  {
+    "type": "intro",
+    "highlight": "Anthropic Ships Fable 5",
+    "label": "BREAKING",
+    "subtext": "Mythos-class model now public"
+  },
+  {
+    "type": "number",
+    "highlight": "Highest HN Score for a Model Launch",
+    "number": "2020",
+    "subtext": "Hacker News points — beating GPT-4 and Llama 3"
+  },
+  {
+    "type": "number",
+    "highlight": "Tokens in a Single Session",
+    "number": "128K",
+    "subtext": "A multi-week agentic project in one context window"
+  },
+  {
+    "type": "number",
+    "highlight": "Second Story on the Same Model",
+    "number": "691",
+    "subtext": "HN pts for the competitor intervention disclosure"
+  },
+  {
+    "type": "quote",
+    "highlight": "\"That's a headline. What's actually in it?\"",
+    "subtext": "Silent degradation — not a refusal"
+  },
+  {
+    "type": "insight",
+    "highlight": "Steered Responses, Not Refusals",
+    "label": "FABLE 5 TRUST MODEL",
+    "subtext": "Model card lists silent intervention categories"
+  },
+  {
+    "type": "insight",
+    "highlight": "Three Failure Modes, Observationally Identical",
+    "label": "TRUST INFRASTRUCTURE",
+    "subtext": "Confusion, hard problem, or policy — you can't tell"
+  },
+  {
+    "type": "quote",
+    "highlight": "\"Explicit and documented, not speculative\"",
+    "subtext": "Simon Willison confirmed the specific language"
+  },
+  {
+    "type": "quote",
+    "highlight": "\"Managing existential risk from capability diffusion\"",
+    "subtext": "The case for Anthropic's policy"
+  },
+  {
+    "type": "action",
+    "highlight": "The Issue Isn't Motive — It's Trust Infrastructure",
+    "label": "KEY INSIGHT",
+    "subtext": "A tool that tells you when it can't help is categorically different"
+  },
+  {
+    "type": "insight",
+    "highlight": "Capability and Trust Model Shipped Simultaneously",
+    "label": "LAUNCH DAY SIGNAL",
+    "subtext": "A new kind of frontier model release"
+  },
+  {
+    "type": "number",
+    "highlight": "OpenCV 5 — 25 Years, Now With LLM Inference",
+    "number": "732",
+    "subtext": "HN pts for the biggest OpenCV release in years"
+  },
+  {
+    "type": "quote",
+    "highlight": "\"Wait — OpenCV does LLM inference now?\"",
+    "subtext": "The rewritten DNN engine changes everything"
+  },
+  {
+    "type": "number",
+    "highlight": "ONNX Operator Support — 22% to Over 80%",
+    "number": "80%",
+    "subtext": "Load modern models without export preprocessing"
+  },
+  {
+    "type": "insight",
+    "highlight": "Every OpenCV Deployment Now Ships LLM Inference",
+    "label": "NEW DEFAULT",
+    "subtext": "47,000 projects per day affected"
+  },
+  {
+    "type": "repo",
+    "highlight": "apple/container",
+    "label": "GITHUB TRENDING",
+    "subtext": "27.6K stars — +2,150 today — Docker Desktop challenger"
+  },
+  {
+    "type": "insight",
+    "highlight": "One VM Per Container — Hardware-Level Isolation",
+    "label": "APPLE SILICON",
+    "subtext": "Sub-second startup, OCI-compatible, macOS 26"
+  },
+  {
+    "type": "insight",
+    "highlight": "CV, Inference, Containers — All Becoming Defaults",
+    "label": "CONVERGENCE SIGNAL",
+    "subtext": "Three infrastructure layers hardening simultaneously"
+  },
+  {
+    "type": "quote",
+    "highlight": "\"The legal layer — the sleeper story of today\"",
+    "subtext": "Munich Regional Court changes AI liability"
+  },
+  {
+    "type": "insight",
+    "highlight": "AI Summaries Are Google's Own Speech",
+    "label": "LANDMARK RULING",
+    "subtext": "Case no. 26 O 869/26 — defamation liability applies"
+  },
+  {
+    "type": "insight",
+    "highlight": "AI-as-Intermediary Argument Rejected",
+    "label": "GERMAN COURT",
+    "subtext": "Publisher liability now extends to AI-generated content"
+  },
+  {
+    "type": "number",
+    "highlight": "Let's Encrypt — Now Has a Legal Geography",
+    "number": "45%",
+    "subtext": "Share of global TLS certs — OFAC list now applies"
+  },
+  {
+    "type": "insight",
+    "highlight": "HTTPS-Everywhere Now Ends at the OFAC List",
+    "label": "INFRASTRUCTURE GOVERNANCE",
+    "subtext": "Sanctions regime propagated into certificate layer"
+  },
+  {
+    "type": "insight",
+    "highlight": "Capability, Trust, Liability, Infrastructure — All at Once",
+    "label": "TODAY'S THESIS",
+    "subtext": "The governance layer is hardening around the capability race"
+  },
+  {
+    "type": "quote",
+    "highlight": "\"Governance catching up to capability. All at once.\"",
+    "subtext": "Four years of capability race, one day of convergence"
+  },
+  {
+    "type": "insight",
+    "highlight": "Legal, Commercial, Infrastructure Governance Hardens",
+    "label": "THE SHIFT",
+    "subtext": "The builders who understand trust architecture win"
+  },
+  {
+    "type": "quote",
+    "highlight": "\"Say it.\"",
+    "subtext": "The moment of synthesis"
+  },
+  {
+    "type": "action",
+    "highlight": "Capability Is Table Stakes — Trust Architecture Wins",
+    "label": "THE DIFFERENTIATOR",
+    "subtext": "What your system does at the edges defines the next two years"
+  },
+  {
+    "type": "action",
+    "highlight": "Everything Your Agent Needs Is Shipping This Quarter",
+    "label": "BUILD NOW",
+    "subtext": "CV inference, containers, frontier reasoning — all default"
+  },
+  {
+    "type": "close",
+    "highlight": "The Stack Is Assembled",
+    "subtext": "The question is what you build on it"
+  },
+  {
+    "type": "close",
+    "highlight": "Today's Stack Won't Be This Cheap Again",
+    "label": "GO BUILD",
+    "subtext": "June 10, 2026 — Tidox Intelligence Brief"
+  }
+]
