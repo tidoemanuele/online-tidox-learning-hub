@@ -1,0 +1,94 @@
+{
+  "date": "2026-04-12",
+  "episodeNumber": 74,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "Tell HN: Docker pull fails in Spain due to footbal, I run multiple $10K MRR companies on a $20/month t, Pro Max 5x quota exhausted in 1.5 hours despite mo",
+  "heroStat": {
+    "value": "1157",
+    "label": "points on \"Tell HN: Docker pull fails in Spain due to football Cloudfla\""
+  },
+  "insights": [
+    {
+      "text": "Tell HN: Docker pull fails in Spain due to football Cloudflare block (1157 pts, 421 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 1157pts",
+      "url": "https://news.ycombinator.com/item?id=47738883"
+    },
+    {
+      "text": "I run multiple $10K MRR companies on a $20/month tech stack (980 pts, 517 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 980pts",
+      "url": "https://stevehanov.ca/blog/how-i-run-multiple-10k-mrr-companies-on-a-20month-tech-stack"
+    },
+    {
+      "text": "Pro Max 5x quota exhausted in 1.5 hours despite moderate usage (759 pts, 660 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 759pts",
+      "url": "https://github.com/anthropics/claude-code/issues/45756"
+    },
+    {
+      "text": "DIY Soft Drinks (738 pts, 243 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 738pts",
+      "url": "https://blinry.org/diy-soft-drinks/"
+    }
+  ],
+  "trending": [],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "1157",
+      "unit": "pts"
+    },
+    {
+      "label": "Repos",
+      "value": "0",
+      "unit": "tracked"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "1",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "4",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "April 12, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Tell HN: Docker pull fails in Spain due to football Cloudflare block",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "I run multiple $10K MRR companies on a $20/month tech stack",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Pro Max 5x quota exhausted in 1.5 hours despite moderate usage",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Today's brief covers the most interesting signals across the tech landscape."
+    }
+  }
+}

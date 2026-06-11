@@ -1,0 +1,212 @@
+[
+  {
+    "rank": 1,
+    "title": "Tell HN: Docker pull fails in Spain due to football Cloudflare block",
+    "url": "https://news.ycombinator.com/item?id=47738883",
+    "points": 1157,
+    "comments": 421
+  },
+  {
+    "rank": 2,
+    "title": "I run multiple $10K MRR companies on a $20/month tech stack",
+    "url": "https://stevehanov.ca/blog/how-i-run-multiple-10k-mrr-companies-on-a-20month-tech-stack",
+    "points": 980,
+    "comments": 517
+  },
+  {
+    "rank": 3,
+    "title": "Pro Max 5x quota exhausted in 1.5 hours despite moderate usage",
+    "url": "https://github.com/anthropics/claude-code/issues/45756",
+    "points": 759,
+    "comments": 660
+  },
+  {
+    "rank": 4,
+    "title": "DIY Soft Drinks",
+    "url": "https://blinry.org/diy-soft-drinks/",
+    "points": 738,
+    "comments": 243
+  },
+  {
+    "rank": 5,
+    "title": "Bring Back Idiomatic Design (2023)",
+    "url": "https://essays.johnloeber.com/p/4-bring-back-idiomatic-design",
+    "points": 694,
+    "comments": 371
+  },
+  {
+    "rank": 6,
+    "title": "Seven countries now generate nearly all their electricity from renewables (2024)",
+    "url": "https://www.the-independent.com/tech/renewable-energy-solar-nepal-bhutan-iceland-b2533699.html",
+    "points": 669,
+    "comments": 492
+  },
+  {
+    "rank": 7,
+    "title": "Anthropic downgraded cache TTL on March 6th",
+    "url": "https://github.com/anthropics/claude-code/issues/46829",
+    "points": 552,
+    "comments": 420
+  },
+  {
+    "rank": 8,
+    "title": "Google removes \"Doki Doki Literature Club\" from Google Play",
+    "url": "https://bsky.app/profile/serenityforge.com/post/3mj3r4nbiws2t",
+    "points": 524,
+    "comments": 298
+  },
+  {
+    "rank": 9,
+    "title": "Show HN: boringBar – a taskbar-style dock replacement for macOS",
+    "url": "https://boringbar.app/",
+    "points": 520,
+    "comments": 308
+  },
+  {
+    "rank": 10,
+    "title": "The peril of laziness lost",
+    "url": "https://bcantrill.dtrace.org/2026/04/12/the-peril-of-laziness-lost/",
+    "points": 480,
+    "comments": 143
+  },
+  {
+    "rank": 11,
+    "title": "We have a 99% email reputation, but Gmail disagrees",
+    "url": "https://blogfontawesome.wpcomstaging.com/we-have-a-99-email-reputation-gmail-disagrees/",
+    "points": 364,
+    "comments": 309
+  },
+  {
+    "rank": 12,
+    "title": "Apple has removed most of the towns and villages in Lebanon from Apple maps?",
+    "url": "https://maps.apple.com/frame?center=33.723388%2C35.614698&span=1.983925%2C4.004193",
+    "points": 357,
+    "comments": 187
+  },
+  {
+    "rank": 13,
+    "title": "AI Will Be Met with Violence, and Nothing Good Will Come of It",
+    "url": "https://www.thealgorithmicbridge.com/p/ai-will-be-met-with-violence-and",
+    "points": 348,
+    "comments": 630
+  },
+  {
+    "rank": 14,
+    "title": "Ask HN: What Are You Working On? (April 2026)",
+    "url": "https://news.ycombinator.com/item?id=47741527",
+    "points": 347,
+    "comments": 1179
+  },
+  {
+    "rank": 15,
+    "title": "Apple update looks like Czech mate for locked-out iPhone user",
+    "url": "https://www.theregister.com/2026/04/12/ios_passcode_bug/",
+    "points": 337,
+    "comments": 226
+  },
+  {
+    "rank": 16,
+    "title": "I ran Gemma 4 as a local model in Codex CLI",
+    "url": "https://blog.danielvaughan.com/i-ran-gemma-4-as-a-local-model-in-codex-cli-7fda754dc0d4",
+    "points": 285,
+    "comments": 116
+  },
+  {
+    "rank": 17,
+    "title": "Taking on CUDA with ROCm: 'One Step After Another'",
+    "url": "https://www.eetimes.com/taking-on-cuda-with-rocm-one-step-after-another/",
+    "points": 264,
+    "comments": 198
+  },
+  {
+    "rank": 18,
+    "title": "Viktor Orbán concedes defeat after 'painful' election result",
+    "url": "https://apnews.com/article/hungary-election-orban-magyar-trump-1a4eb0ba6b94e0c80c3cd18bd36254ab",
+    "points": 262,
+    "comments": 94
+  },
+  {
+    "rank": 19,
+    "title": "Phyphox – Physical Experiments Using a Smartphone",
+    "url": "https://phyphox.org/",
+    "points": 256,
+    "comments": 42
+  },
+  {
+    "rank": 20,
+    "title": "US appeals court declares 158-year-old home distilling ban unconstitutional",
+    "url": "https://www.theguardian.com/law/2026/apr/11/appeals-court-ruling-home-distilling-ban-unconstitutional",
+    "points": 246,
+    "comments": 316
+  },
+  {
+    "rank": 21,
+    "title": "Show HN: Oberon System 3 runs natively on Raspberry Pi 3 (with ready SD card)",
+    "url": "https://github.com/rochus-keller/OberonSystem3Native/releases",
+    "points": 245,
+    "comments": 114
+  },
+  {
+    "rank": 22,
+    "title": "The End of Eleventy",
+    "url": "https://brennan.day/the-end-of-eleventy/",
+    "points": 229,
+    "comments": 189
+  },
+  {
+    "rank": 23,
+    "title": "JVM Options Explorer",
+    "url": "https://chriswhocodes.com/vm-options-explorer.html",
+    "points": 222,
+    "comments": 120
+  },
+  {
+    "rank": 24,
+    "title": "A perfectable programming language",
+    "url": "https://alok.github.io/lean-pages/perfectable-lean/",
+    "points": 210,
+    "comments": 143
+  },
+  {
+    "rank": 25,
+    "title": "European AI. A playbook to own it",
+    "url": "https://europe.mistral.ai/",
+    "points": 202,
+    "comments": 138
+  },
+  {
+    "rank": 26,
+    "title": "Building a SaaS in 2026 Using Only EU Infrastructure",
+    "url": "https://eualternative.eu/guides/building-saas-eu-stack/",
+    "points": 194,
+    "comments": 62
+  },
+  {
+    "rank": 27,
+    "title": "The Closing of the Frontier",
+    "url": "https://tanyaverma.sh/2026/04/10/closing-of-the-frontier.html",
+    "points": 189,
+    "comments": 135
+  },
+  {
+    "rank": 28,
+    "title": "Tell HN: OpenAI silently removed Study Mode from ChatGPT",
+    "url": "https://news.ycombinator.com/item?id=47739305",
+    "points": 189,
+    "comments": 78
+  },
+  {
+    "rank": 29,
+    "title": "Modern Microprocessors – A 90-Minute Guide",
+    "url": "https://www.lighterra.com/papers/modernmicroprocessors/",
+    "points": 188,
+    "comments": 21
+  },
+  {
+    "rank": 30,
+    "title": "The Physics of GPS",
+    "url": "https://perthirtysix.com/how-does-gps-work",
+    "points": 170,
+    "comments": 33
+  }
+]
