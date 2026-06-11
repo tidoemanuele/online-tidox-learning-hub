@@ -1,0 +1,110 @@
+{
+  "date": "2026-05-29",
+  "episodeNumber": 71,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "Claude Opus 4.8 tops HN at 1,119 pts / 898 comment, Sam Altman and Dario Amodei are both walking back , YouTube's auto-labeling of AI-generated video draw",
+  "heroStat": {
+    "value": "65B",
+    "label": "series h at a"
+  },
+  "insights": [
+    {
+      "text": "Claude Opus 4.8 tops HN at 1,119 pts / 898 comments — the day's #1 story — landing the same morning Anthropic confirms a $65B Series H at a $965B post-money valuation (216 pts / 200 comments). The round is up from the $30B / $900B+ figure reported May 27: in 48 hours the headline number more than doubled while the valuation climbed only 7%, meaning Anthropic raised far more capital for nearly the same price. A new flagship model and the largest private raise in AI history shipping in one news cycle is the clearest signal yet that model releases and capital events are now choreographed as a single market move.",
+      "tags": []
+    },
+    {
+      "text": "Sam Altman and Dario Amodei are both walking back their AI jobs apocalypse predictions (151 pts / 125 comments) on the exact day Anthropic closes $65B — the two CEOs most responsible for the displacement narrative soften it precisely when capital markets reward them most. The juxtaposition is the tell: the labor-displacement story was useful for fundraising and regulatory positioning, and it is being retired now that the capital has cleared. Watch whether enterprise automation messaging quietly cools across the sector through Q3.",
+      "tags": []
+    },
+    {
+      "text": "YouTube's auto-labeling of AI-generated video draws 1,263 pts / 757 comments — higher engagement than the Opus 4.8 launch — while Tildes ~tech runs 'If you let AI do your writing, I will come to your house and kill you' at 69 pts / 119 comments and 'stop-slop' holds on GitHub Trending (755 stars today, 6,385 total). Content-authenticity norms are crystallizing at all three layers simultaneously — platform policy, community culture, and tooling — and the HN crowd weighting a labeling policy above a frontier model release shows where elite developer attention has shifted: from capability to provenance.",
+      "tags": [
+        "github-trending"
+      ]
+    },
+    {
+      "text": "GitHub Trending on May 29 is a referendum on the skills/harness economy — Understand-Anything at 3,766 stars/day (42,661 total), Leonxlnx/taste-skill at 2,235/day (26,309), obra/superpowers at 1,726/day (211,025), hardikpandya/stop-slop at 755/day, EveryInc/compound-engineering-plugin, revfactory/harness, and anthropics/skills at 791/day (142,780 total). Seven of sixteen trending repos are agent instruction layers, not code. The pattern holds for a fifth consecutive week: the instruction layer keeps compounding faster than the model layer, and 'good taste' is now a shippable, star-accruing artifact.",
+      "tags": [
+        "github-trending",
+        "agents",
+        "ecosystem"
+      ]
+    },
+    {
+      "text": "Two HN front-page items — 'Show HN: Continue? Y/N: A 60-second game about AI agent permission fatigue' (219 pts / 100 comments) and 'Protestware for coding agents' (also on Lobsters and Tildes ~comp) — mark agent permission fatigue graduating from annoyance to recognized product and protest category. The game framing treats it as an emotional/UX problem; the protestware framing treats it as a political one. When developers build satire and sabotage about the same friction in the same week, the next product wave is autonomy budgets and pre-approved action scopes — not more Y/N prompts.",
+      "tags": [
+        "agents"
+      ]
+    },
+    {
+      "text": "Rust infrastructure density peaks on May 29: Rust 1.96 ships (76 pts; Lobsters #3), 'Bun has been rewritten in Rust' hits Tildes ~comp at 27 pts / 43 comments, and Endive (JVM-native WASM runtime), Creusot (Rust correctness proofs), jjc (Jujutsu hunk operations), and Roto (compiled scripting for Rust) all surface the same day. A TypeScript/Zig runtime migrating to Rust is the headline signal — performance expectations for developer CLIs have risen to where Rust is the default rewrite target, not a niche choice. No other systems language posts comparable production volume in today's scrape.",
+      "tags": [
+        "rust"
+      ]
+    },
+    {
+      "text": "Durable execution becomes a named category overnight — 'Building durable workflows on Postgres' (235 pts / 101 comments) and 'Durable Execution the Hard Way' appear together on HN, reframing workflow orchestration as something you build on the database you already run rather than adopting Temporal-style infrastructure. As AI agents need to survive crashes, resume mid-task, and audit their own steps, durable execution on Postgres is positioning itself as the boring, self-hosted substrate underneath the agent stack. Expect 'just use Postgres' to absorb agent state management the way it already absorbed queues and search.",
+      "tags": [
+        "agents"
+      ]
+    },
+    {
+      "text": "Regulatory and platform enforcement escalate on opposite fronts the same day: the EU fines Temu €200M for selling illegal products (288 pts / 215 comments) while GitHub bans a security researcher who posted zero-day Windows exploits (71 pts / 12 comments). One pushes a platform toward more consumer-protection liability; the other pushes a platform toward suppressing disclosure. The common thread is that platforms are being forced into enforcement roles they spent a decade avoiding — and the GitHub ban, arriving amid the ongoing 3,800-repo VSCode-extension breach fallout, risks chilling exactly the disclosure that surfaces supply-chain attacks.",
+      "tags": [
+        "security",
+        "github-trending",
+        "research"
+      ]
+    }
+  ],
+  "trending": [],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "1359",
+      "unit": "pts"
+    },
+    {
+      "label": "Repos",
+      "value": "0",
+      "unit": "tracked"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "1",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "May 29, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Claude Opus 4.8 tops HN at 1,119 pts / 898 comments",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Sam Altman and Dario Amodei are both walking back their AI jobs apocalypse predictions on the exact day Anthropic closes $65B",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "YouTube's auto-labeling of AI-generated video draws 1,263 pts / 757 comments",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Today's brief covers the most interesting signals across the tech landscape."
+    }
+  }
+}

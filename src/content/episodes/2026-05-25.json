@@ -1,0 +1,115 @@
+{
+  "date": "2026-05-25",
+  "episodeNumber": 69,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "TrapDoor crypto stealer campaign spans 34+ malicio, GitHub's own internal repositories were breached o, DeepSeek launches Reasonix",
+  "heroStat": {
+    "value": "9B",
+    "label": "q2 revenue"
+  },
+  "insights": [
+    {
+      "text": "TrapDoor crypto stealer campaign spans 34+ malicious packages and 384+ versions across npm, PyPI, and Crates.io — but its novel vector is what matters: it manipulates `.cursorrules` and `CLAUDE.md` files to poison AI coding assistants, injects zero-width Unicode characters into agent prompts, and persists via Git hooks, systemd services, and cron jobs. This is the first supply chain attack that weaponizes the agent configuration layer itself — not the packages agents consume, but the instructions agents follow. Combined with 630+ malicious npm versions published in 20 minutes (May 19, single compromised developer account) and the Laravel-Lang tag-rewriting attack (May 22-23, 233+ versions across 700+ repos), May 2026 has now produced three distinct supply chain attack innovations in seven days: identity takeover, tag poisoning, and agent configuration injection.",
+      "tags": [
+        "security",
+        "supply-chain",
+        "agents"
+      ]
+    },
+    {
+      "text": "GitHub's own internal repositories were breached on May 20 — approximately 3,800-4,000 private repos exfiltrated, including sensitive source code and organizational data. The platform that hosts the software supply chain is itself compromised. On a week where TrapDoor targets .cursorrules files, Laravel-Lang poisons Packagist tags, and 630+ npm packages are hijacked via a single developer account, the breach of the hosting platform adds a fourth attack layer: not just packages, not just registries, not just agent configs, but the version control infrastructure itself. Six supply chain attack vectors are now simultaneously active across five infrastructure layers — package (npm/PyPI/Crates.io), registry (Packagist), CI/CD (GitHub Actions), agent config (.cursorrules/CLAUDE.md), and platform (GitHub internal repos).",
+      "tags": [
+        "security",
+        "supply-chain",
+        "github-trending"
+      ]
+    },
+    {
+      "text": "DeepSeek launches Reasonix — a native coding agent with advanced caching and low-cost inference — at 507 HN pts / 211 comments, entering the coding agent race directly alongside Claude Code, Codex CLI, Cursor, and xAI's Grok Build. On the same front page, 'Constraint Decay: The Fragility of LLM Agents in Back End Code Generation' reaches 210 pts / 113 comments — the first systematic academic paper quantifying how LLM agents degrade on backend code generation tasks. The coding agent market is simultaneously expanding (DeepSeek entering, Anthropic projecting its first profitable quarter at $10.9B Q2 revenue) and facing its first empirical reliability critique. The market that grew from $5.1B (2024) to $12.8B (2026) now has both a new entrant and a named failure mode in the same news cycle.",
+      "tags": [
+        "claude-code",
+        "agents"
+      ],
+      "source": "HN 507pts"
+    },
+    {
+      "text": "'Memory has grown to nearly two-thirds of AI chip component costs' reaches 355 HN pts / 367 comments — a 1.03:1 comment-to-point ratio, the highest engagement density on today's front page, indicating the community reads memory cost dominance as a structural constraint on AI scaling, not a temporary supply issue. HBM3e pricing is up 30% year-over-year with SK Hynix and Samsung capacity-constrained through 2027. The implication: architectures that minimize memory bandwidth — quantization, sparse mixture-of-experts, knowledge distillation (Needle's 26M-parameter tool-calling model) — become more valuable than larger context windows or bigger models. The economics of AI scaling are now memory-bound, not compute-bound.",
+      "tags": [],
+      "source": "HN 355pts"
+    },
+    {
+      "text": "Google detects the first known zero-day exploit developed using AI — a cybercrime group created a 2FA bypass targeting an open-source web administration tool, intended for mass exploitation. Google's detection likely prevented deployment. This crosses a threshold: AI is no longer just accelerating vulnerability discovery (Anthropic's Project Glasswing finding ~300 Firefox zero-days, OpenAI's Daybreak) or scanning existing code (Microsoft's MDASH finding 16 Windows flaws) — it is now generating novel exploits. Three AI labs automate defense; at least one criminal group now automates offense. The AI security arms race is no longer theoretical.",
+      "tags": [
+        "security",
+        "open-source"
+      ]
+    },
+    {
+      "text": "Understand-Anything surges to +3,999 stars/day (27,444 total, up 74% from yesterday's +2,299) while codegraph accelerates to +3,003/day (23,041 total, up 22% from +2,456). Both knowledge graph repos are accelerating, not decaying — the pattern that distinguishes organic adoption from hype cycles. Combined with new entries graphify (code-to-knowledge-graph converter) and mnemosyne (low-latency agent memory system), the GitHub Trending page on May 25 has four concurrent repos solving variations of the same problem: making codebases queryable as structured knowledge rather than flat files. The code knowledge graph is consolidating as the infrastructure category for the agent era.",
+      "tags": [
+        "github-trending",
+        "agents"
+      ],
+      "source": "GitHub +3,999/day"
+    },
+    {
+      "text": "Google Summer of Code 2026 coding officially begins today — 1,141 contributors accepted across 184 mentoring organizations, selected from a record 23,371 proposals. On a front page dominated by supply chain breaches, AI-generated exploits, and coding agent reliability critiques, GSoC represents the countervailing signal: structured, mentored, human-driven open source development at scale, operating on a cadence unchanged since 2005. Microsoft simultaneously open-sources 'the earliest DOS source code discovered to date' at 455 HN pts / 156 comments — the community's Sunday revealed preference is preservation and craft alongside the AI acceleration cycle.",
+      "tags": [
+        "security",
+        "supply-chain",
+        "agents"
+      ],
+      "source": "HN 455pts"
+    }
+  ],
+  "trending": [],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "1650",
+      "unit": "pts"
+    },
+    {
+      "label": "Repos",
+      "value": "0",
+      "unit": "tracked"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "1",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "7",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "May 25, 2026"
+    },
+    "headlines": [
+      {
+        "text": "TrapDoor crypto stealer campaign spans 34+ malicious packages and 384+ versions across npm, PyPI, and Crates.io",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "GitHub's own internal repositories were breached on May 20",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "DeepSeek launches Reasonix",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Today's brief covers the most interesting signals across the tech landscape."
+    }
+  }
+}

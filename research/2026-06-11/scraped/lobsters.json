@@ -1,0 +1,241 @@
+[
+  {
+    "title": "How building an HTML-first site doubled our users overnight",
+    "score": 202,
+    "tags": [
+      "web"
+    ],
+    "url": "https://mohkohn.co.uk/writing/html-first/",
+    "comments_url": "https://lobste.rs/s/esvncd/how_building_html_first_site_doubled_our"
+  },
+  {
+    "title": "An interactive introduction to the terrific experience of rendering Arabic typography and its technical debt",
+    "score": 36,
+    "tags": [
+      "graphics"
+    ],
+    "url": "https://lr0.org/blog/p/arabic/",
+    "comments_url": "https://lobste.rs/s/ptkd7x/interactive_introduction_terrific"
+  },
+  {
+    "title": "Nontrailing separators do not spark joy",
+    "score": 51,
+    "tags": [
+      "plt"
+    ],
+    "url": "https://buttondown.com/hillelwayne/archive/nontrailing-separators-do-not-spark-joy/",
+    "comments_url": "https://lobste.rs/s/05t4zb/nontrailing_separators_do_not_spark_joy"
+  },
+  {
+    "title": "New reCaptcha requires approved phones to pass",
+    "score": 81,
+    "tags": [
+      "android",
+      "privacy"
+    ],
+    "url": "https://cybernews.com/privacy/google-qr-code-recaptcha-requires-approved-phone/",
+    "comments_url": "https://lobste.rs/s/p07gv1/new_recaptcha_requires_approved_phones"
+  },
+  {
+    "title": "German court ruling declares Google's AI Overviews are Google's own words and makes it liable for false answers",
+    "score": 12,
+    "tags": [
+      "law"
+    ],
+    "url": "https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/",
+    "comments_url": "https://lobste.rs/s/lxoosd/german_court_ruling_declares_google_s_ai"
+  },
+  {
+    "title": "Static types and shovels",
+    "score": 13,
+    "tags": [
+      "programming"
+    ],
+    "url": "https://carefully.understood.systems/blog-2026-06-10-static-type-shovel.html",
+    "comments_url": "https://lobste.rs/s/eiknm1/static_types_shovels"
+  },
+  {
+    "title": "macOS container tool v1.0.0 released",
+    "score": 45,
+    "tags": [
+      "mac",
+      "vibecoding",
+      "virtualization"
+    ],
+    "url": "https://github.com/apple/container",
+    "comments_url": "https://lobste.rs/s/vlpi8y/macos_container_tool_v1_0_0_released"
+  },
+  {
+    "title": "The Jqwik Anti-AI Affair",
+    "score": 96,
+    "tags": [
+      "culture",
+      "vibecoding"
+    ],
+    "url": "https://blog.johanneslink.net/2026/06/09/the-jqwik-anti-ai-affair/",
+    "comments_url": "https://lobste.rs/s/qgfagh/jqwik_anti_ai_affair"
+  },
+  {
+    "title": "If Claude Fable stops helping you, you'll never know",
+    "score": 103,
+    "tags": [
+      "vibecoding"
+    ],
+    "url": "https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html",
+    "comments_url": "https://lobste.rs/s/f2fwny/if_claude_fable_stops_helping_you_you_ll"
+  },
+  {
+    "title": "AI agent runs amok in Fedora and elsewhere",
+    "score": 20,
+    "tags": [
+      "linux",
+      "vibecoding"
+    ],
+    "url": "https://lwn.net/SubscriberLink/1077035/c7e7c14fbd60fae9/",
+    "comments_url": "https://lobste.rs/s/wh4ug9/ai_agent_runs_amok_fedora_elsewhere"
+  },
+  {
+    "title": "Blogging with an LLM assistant",
+    "score": 22,
+    "tags": [
+      "vibecoding",
+      "web"
+    ],
+    "url": "https://vincent.bernat.ch/en/blog/2026-blogging-llm",
+    "comments_url": "https://lobste.rs/s/tdvu7a/blogging_with_llm_assistant"
+  },
+  {
+    "title": "A human in control",
+    "score": 17,
+    "tags": [
+      "security",
+      "vibecoding"
+    ],
+    "url": "https://daniel.haxx.se/blog/2026/06/10/a-human-in-control/",
+    "comments_url": "https://lobste.rs/s/p4ey1w/human_control"
+  },
+  {
+    "title": "Trojaned OpenSSH (in 2002)",
+    "score": 27,
+    "tags": [
+      "openbsd",
+      "security"
+    ],
+    "url": "http://miod.online.fr/software/openbsd/stories/trojan.html",
+    "comments_url": "https://lobste.rs/s/ti42hu/trojaned_openssh_2002"
+  },
+  {
+    "title": "I Hate (Most) Keyboard ‘Fn’ Keys",
+    "score": 13,
+    "tags": [
+      "hardware"
+    ],
+    "url": "https://danq.me/2026/06/09/fn-keys/",
+    "comments_url": "https://lobste.rs/s/4vb0bb/i_hate_most_keyboard_fn_keys"
+  },
+  {
+    "title": "Linux latency measurements and compositor tuning",
+    "score": 7,
+    "tags": [
+      "linux"
+    ],
+    "url": "https://farnoy.dev/posts/linux-latency/",
+    "comments_url": "https://lobste.rs/s/fg2oe9/linux_latency_measurements_compositor"
+  },
+  {
+    "title": "Shrubbery syntax for Racket",
+    "score": 5,
+    "tags": [
+      "lisp"
+    ],
+    "url": "https://docs.racket-lang.org/shrubbery/index.html",
+    "comments_url": "https://lobste.rs/s/dlmkdx/shrubbery_syntax_for_racket"
+  },
+  {
+    "title": "Upcoming breaking changes for npm v12",
+    "score": 25,
+    "tags": [
+      "security"
+    ],
+    "url": "https://github.blog/changelog/2026-06-09-upcoming-breaking-changes-for-npm-v12/",
+    "comments_url": "https://lobste.rs/s/drkeug/upcoming_breaking_changes_for_npm_v12"
+  },
+  {
+    "title": "Steady Hand EEPROM Programmer",
+    "score": 6,
+    "tags": [
+      "hardware"
+    ],
+    "url": "https://codeberg.org/interrupt_tv/steadyhand",
+    "comments_url": "https://lobste.rs/s/pfbet6/steady_hand_eeprom_programmer"
+  },
+  {
+    "title": "The Tao of Datastar",
+    "score": 12,
+    "tags": [
+      "web"
+    ],
+    "url": "https://data-star.dev/guide/the_tao_of_datastar",
+    "comments_url": "https://lobste.rs/s/gdn9cc/tao_datastar"
+  },
+  {
+    "title": "A line-by-line translation of the OCaml runtime from C to Rust",
+    "score": 29,
+    "tags": [
+      "c",
+      "ml",
+      "rust",
+      "vibecoding"
+    ],
+    "url": "https://discuss.ocaml.org/t/a-line-by-line-translation-of-the-ocaml-runtime-from-c-to-rust/18247",
+    "comments_url": "https://lobste.rs/s/k85k6w/line_by_line_translation_ocaml_runtime"
+  },
+  {
+    "title": "A Brief Introduction to Icon",
+    "score": 2,
+    "tags": [
+      "plt"
+    ],
+    "url": "https://www2.cs.arizona.edu/icon/intro.htm",
+    "comments_url": "https://lobste.rs/s/qsrmdw/brief_introduction_icon"
+  },
+  {
+    "title": "Test-case Reducers Are Underappreciated Debugging Tools",
+    "score": 90,
+    "tags": [
+      "compilers",
+      "debugging"
+    ],
+    "url": "https://tratt.net/laurie/blog/2026/test_case_reducers_are_underappreciated_debugging_tools.html",
+    "comments_url": "https://lobste.rs/s/zwn4xe/test_case_reducers_are_underappreciated"
+  },
+  {
+    "title": "hax: A Rust verification tool",
+    "score": 2,
+    "tags": [
+      "formalmethods",
+      "rust"
+    ],
+    "url": "https://github.com/cryspen/hax",
+    "comments_url": "https://lobste.rs/s/rdbc5p/hax_rust_verification_tool"
+  },
+  {
+    "title": "An open letter to office suite users, just before the Euro-Office announcement",
+    "score": 69,
+    "tags": [
+      "release"
+    ],
+    "url": "https://blog.documentfoundation.org/blog/2026/06/08/an-open-letter/",
+    "comments_url": "https://lobste.rs/s/fpgqm0/open_letter_office_suite_users_just"
+  },
+  {
+    "title": "17 bugs in 10 weeks from AI security scanning",
+    "score": 10,
+    "tags": [
+      "security",
+      "vibecoding"
+    ],
+    "url": "https://lalitm.com/post/perfetto-security-bugs-ai/",
+    "comments_url": "https://lobste.rs/s/5iuaxt/17_bugs_10_weeks_from_ai_security_scanning"
+  }
+]

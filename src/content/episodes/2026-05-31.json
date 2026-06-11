@@ -1,0 +1,107 @@
+{
+  "date": "2026-05-31",
+  "episodeNumber": 72,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "OpenRouter closes a $113M Series B at a $1.3B post, Anthropic acquired Stainless, 'Anthropic surpasses OpenAI to become the most val",
+  "heroStat": {
+    "value": "$113M",
+    "label": "series b at a"
+  },
+  "insights": [
+    {
+      "text": "OpenRouter closes a $113M Series B at a $1.3B post-money valuation — led by Google's CapitalG with NVIDIA's NVentures, plus ventures arms from Snowflake, Databricks, MongoDB, and ServiceNow — having grown weekly volume from 5 trillion to 25 trillion tokens in six months across 8M+ developers and 400+ models. The valuation more than doubled from ~$547M a year ago. A multi-provider router funded by both Google and NVIDIA is the clearest sign yet that the investable layer of 2026 is the chokepoint between models, not the models themselves.",
+      "tags": []
+    },
+    {
+      "text": "Anthropic acquired Stainless — the SDK-generation startup whose software ships production client libraries for OpenAI, Google, and Cloudflare from their API specs. Owning the tool that builds your competitors' developer SDKs is a quiet distribution-layer power move, stacked on top of being the most valuable AI startup in the world after the $65B Series H. The frontier-model war is increasingly being fought through the plumbing rivals depend on, not the weights.",
+      "tags": []
+    },
+    {
+      "text": "'Anthropic surpasses OpenAI to become the most valuable AI startup' rides the HN front page into the weekend alongside the OpenRouter raise (item 48338660) — the day's two top business stories are both about value migrating away from raw model capability toward valuation supremacy and aggregation infrastructure. The signal: capital markets are now pricing position in the stack over benchmark leadership.",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "text": "'MCP is dead?' (~227 pts / 195 comments) remains the most-engaged AI tooling debate of the week and is still unresolved into May 31 — the Model Context Protocol is undergoing its first real credibility test, repricing from 'the future of AI tooling' to 'one integration pattern among several.' No verdict has formed; watch for a 'post-MCP' proposal to surface rather than an outright abandonment.",
+      "tags": []
+    },
+    {
+      "text": "'SQLite is all you need for durable workflows' (~527 pts) and Runpod's new open-source 'Flash' SDK — which turns a local Python function into an auto-scaling inference endpoint in minutes — are the same instinct from two ends of the stack: collapse it, remove the operational overhead. The 2026 solo/small-team default is boring substrate (SQLite, Postgres) over Redis+Celery+Temporal, and one-command deploy over orchestration sprawl.",
+      "tags": [
+        "open-source"
+      ]
+    },
+    {
+      "text": "Anthropic's 'Mythos' model is reportedly finding critical vulnerabilities in legacy systems while GPT-5.5 reaches parity on threat-detection tests — and Mandiant's M-Trends 2026 confirms exploits now routinely arrive before patches, with the exploit window shrinking faster than patch cadence can compress. AI is now a first-class actor on both offense and defense, and the structural problem of May 2026 stays a deployment problem: the flaws get found faster than fixes get shipped.",
+      "tags": []
+    },
+    {
+      "text": "GitHub trending velocity is still owned by the agent-skills/harness economy into late May — OpenClaw (Peter Steinberger) past 210k stars as one of the fastest-growing OSS projects ever, Hermes Agent (Nous Research) at 105k+, and at least 5 of the top 20 fastest-growing repos carrying 'skills' in the name with 3+ more from the Claude Code ecosystem. Fifth consecutive week the instruction layer compounds faster than the model layer.",
+      "tags": [
+        "github-trending",
+        "claude-code",
+        "agents"
+      ],
+      "source": "GitHub 210k stars"
+    },
+    {
+      "text": "The May 31 research run shipped with zero scraped sources — the agent-browser scraper did not produce a scraped/ directory, forcing AI-native web search only and dropping confidence on same-day HN point counts and exact GitHub stars/day. A reminder that the grounding pipeline is a soft dependency: when the timestamped scrape is missing, weekend-cadence signal leans on web-indexed trackers that lag the live front page.",
+      "tags": [
+        "supply-chain",
+        "github-trending",
+        "agents"
+      ]
+    }
+  ],
+  "trending": [],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "787",
+      "unit": "pts"
+    },
+    {
+      "label": "Repos",
+      "value": "0",
+      "unit": "tracked"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "1",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "May 31, 2026"
+    },
+    "headlines": [
+      {
+        "text": "OpenRouter closes a $113M Series B at a $1.3B post-money valuation",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Anthropic acquired Stainless",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "'Anthropic surpasses OpenAI to become the most valuable AI startup' rides the HN front page into the weekend alongside the OpenRouter raise",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Today's brief covers the most interesting signals across the tech landscape."
+    }
+  }
+}

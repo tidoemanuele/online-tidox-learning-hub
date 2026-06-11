@@ -1,0 +1,212 @@
+[
+  {
+    "rank": 1,
+    "title": "The dead economy theory",
+    "url": "https://www.owenmcgrann.com/p/the-dead-economy-theory",
+    "points": 1359,
+    "comments": 1425
+  },
+  {
+    "rank": 2,
+    "title": "I am retiring from tech to live offline",
+    "url": "https://openpath.quest/2026/i-am-retiring-from-tech-to-live-offline/",
+    "points": 876,
+    "comments": 586
+  },
+  {
+    "rank": 3,
+    "title": "Please Use AI",
+    "url": "https://shawnsmucker.substack.com/p/please-use-ai",
+    "points": 790,
+    "comments": 397
+  },
+  {
+    "rank": 4,
+    "title": "GTA 6 Developers Unionize",
+    "url": "https://rockstarintel.com/gta-6-developers-announce-rockstar-games-union/",
+    "points": 758,
+    "comments": 537
+  },
+  {
+    "rank": 5,
+    "title": "SQLite is all you need for durable workflows",
+    "url": "https://obeli.sk/blog/sqlite-is-all-you-need-for-durable-workflows/",
+    "points": 720,
+    "comments": 387
+  },
+  {
+    "rank": 6,
+    "title": "What Is a Dickover?",
+    "url": "https://daringfireball.net/2026/05/what_is_a_dickover",
+    "points": 558,
+    "comments": 204
+  },
+  {
+    "rank": 7,
+    "title": "Cars collect a startling amount of data about you",
+    "url": "https://www.bbc.com/future/article/20260513-your-car-is-spying-on-you-its-about-to-get-worse",
+    "points": 508,
+    "comments": 287
+  },
+  {
+    "rank": 8,
+    "title": "Blue Origin's New Glenn blows up during static fire test",
+    "url": "https://twitter.com/nasaspaceflight/status/2060164928472854821",
+    "points": 503,
+    "comments": 557
+  },
+  {
+    "rank": 9,
+    "title": "Notes from the Mistral AI Now Summit",
+    "url": "https://koenvangilst.nl/lab/mistral-ai-now-summit",
+    "points": 466,
+    "comments": 214
+  },
+  {
+    "rank": 10,
+    "title": "I found a seashell in the middle of the desert",
+    "url": "https://github.com/Hawzen/I-found-a-seashell-in-the-middle-of-the-desert#i-found-a-seashell-in-the-middle-of-the-desert",
+    "points": 420,
+    "comments": 110
+  },
+  {
+    "rank": 11,
+    "title": "Is AI causing a repeat of frontend’s lost decade?",
+    "url": "https://mastrojs.github.io/blog/2026-05-23-is-AI-causing-a-repeat-of-frontends-lost-decade/",
+    "points": 407,
+    "comments": 334
+  },
+  {
+    "rank": 12,
+    "title": "You can just say it",
+    "url": "https://noperator.dev/posts/you-can-just-say-it/",
+    "points": 406,
+    "comments": 221
+  },
+  {
+    "rank": 13,
+    "title": "MCP is dead?",
+    "url": "https://www.quandri.io/engineering-blog/mcp-is-dead",
+    "points": 400,
+    "comments": 410
+  },
+  {
+    "rank": 14,
+    "title": "It's hard to justify buying a Framework 12",
+    "url": "https://www.jeffgeerling.com/blog/2026/its-hard-to-justify-framework-12/",
+    "points": 398,
+    "comments": 668
+  },
+  {
+    "rank": 15,
+    "title": "Volkswagen blocks Home Assistant by requiring client assertion",
+    "url": "https://github.com/robinostlund/homeassistant-volkswagencarnet/issues/967",
+    "points": 392,
+    "comments": 190
+  },
+  {
+    "rank": 16,
+    "title": "Claude Code – Everything you can configure that the docs don't tell you",
+    "url": "https://buildingbetter.tech/p/i-read-the-claude-code-source-code",
+    "points": 326,
+    "comments": 65
+  },
+  {
+    "rank": 17,
+    "title": "Danish Pension Blacklists SpaceX over 'Catastrophic Governance'",
+    "url": "https://www.bloomberg.com/news/articles/2026-05-29/danish-pension-fund-blacklists-spacex-citing-governance-issues",
+    "points": 285,
+    "comments": 527
+  },
+  {
+    "rank": 18,
+    "title": "Microsoft 0-day feud escalates as researcher threatens another exploit dump",
+    "url": "https://www.theregister.com/security/2026/05/28/microsoft-0-day-feud-escalates-as-researcher-threatens-another-windows-exploit-dump/5248085",
+    "points": 279,
+    "comments": 97
+  },
+  {
+    "rank": 19,
+    "title": "The Last Technical Interview",
+    "url": "https://steve-yegge.medium.com/the-last-technical-interview-bc13ddcf4564",
+    "points": 271,
+    "comments": 275
+  },
+  {
+    "rank": 20,
+    "title": "The California state assembly has passed the 'Protect Our Games Act'",
+    "url": "https://www.invenglobal.com/articles/22330/stop-killing-games-movement-gains-momentum-california-assembly-passes-game-protection-bill",
+    "points": 261,
+    "comments": 282
+  },
+  {
+    "rank": 21,
+    "title": "Bijou64: A variable-length integer encoding",
+    "url": "https://www.inkandswitch.com/tangents/bijou64/",
+    "points": 261,
+    "comments": 85
+  },
+  {
+    "rank": 22,
+    "title": "What if remote working, not AI, is to blame for weak junior hiring?",
+    "url": "https://www.ft.com/content/2205e2d0-50dc-4e80-9bf7-78d0272276c0",
+    "points": 260,
+    "comments": 372
+  },
+  {
+    "rank": 23,
+    "title": "Liquid AI reveals 8B-A1B MoE trained on 38T",
+    "url": "https://www.liquid.ai/blog/lfm2-5-8b-a1b",
+    "points": 245,
+    "comments": 96
+  },
+  {
+    "rank": 24,
+    "title": "Decades of Effort Restore Steelhead and Salmon Passage on Alameda Creek",
+    "url": "https://www.fisheries.noaa.gov/feature-story/decades-effort-restore-steelhead-and-salmon-passage-californias-alameda-creek",
+    "points": 242,
+    "comments": 59
+  },
+  {
+    "rank": 25,
+    "title": "Let's compile Quake like it's 1997",
+    "url": "https://fabiensanglard.net/compile_like_1997/",
+    "points": 226,
+    "comments": 79
+  },
+  {
+    "rank": 26,
+    "title": "Real-time LLM Inference on Standard GPUs: 3k tokens/s per request",
+    "url": "https://blog.kog.ai/real-time-llm-inference-on-standard-gpus-3-000-tokens-s-per-request/",
+    "points": 219,
+    "comments": 97
+  },
+  {
+    "rank": 27,
+    "title": "On Rendering Diffs",
+    "url": "https://pierre.computer/writing/on-rendering-diffs",
+    "points": 210,
+    "comments": 69
+  },
+  {
+    "rank": 28,
+    "title": "Blue Origin’s New Glenn rocket exploded during a static fire test",
+    "url": "https://arstechnica.com/space/2026/05/blue-origins-new-glenn-rocket-just-exploded-during-a-static-fire-test/",
+    "points": 209,
+    "comments": 8
+  },
+  {
+    "rank": 29,
+    "title": "High Density Living, 2000 Years Ago: Inside the Roman Apartment Building",
+    "url": "https://commonedge.org/high-density-living-2000-years-ago-inside-the-roman-apartment-building/",
+    "points": 205,
+    "comments": 79
+  },
+  {
+    "rank": 30,
+    "title": "Show HN: Tiny-vLLM – high performance LLM inference engine in C++ and CUDA",
+    "url": "https://github.com/jmaczan/tiny-vllm",
+    "points": 205,
+    "comments": 18
+  }
+]

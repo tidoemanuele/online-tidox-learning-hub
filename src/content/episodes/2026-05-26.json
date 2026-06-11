@@ -1,0 +1,108 @@
+{
+  "date": "2026-05-26",
+  "episodeNumber": 70,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "GitHub's internal breach, The $100/month AI agent tier is now an industry-wi, GitHub Trending on May 26 is dominated by agent in",
+  "heroStat": {
+    "value": "$10,",
+    "label": "ai pro"
+  },
+  "insights": [
+    {
+      "text": "GitHub's internal breach — ~3,800 private repos exfiltrated by TeamPCP via a poisoned VS Code extension (Nx Console v18.95.0, published May 18) — reveals IDE extensions as the seventh concurrent supply chain attack vector of May 2026. The attack surface taxonomy now spans packages (npm/PyPI/Crates.io), registries (Packagist), CI/CD (GitHub Actions), agent configs (.cursorrules/CLAUDE.md), platform internals (GitHub repos), and IDE marketplace. LAPSUS$ participated; the joint data sale was listed at $95,000. GitHub Actions, Copilot, CodeQL, Codespaces, and Dependabot source code were among the exfiltrated assets — meaning the tools developers use to secure their code were themselves compromised through the marketplace that distributes developer tools.",
+      "tags": [
+        "security",
+        "supply-chain",
+        "github-trending"
+      ]
+    },
+    {
+      "text": "The $100/month AI agent tier is now an industry-wide price ceiling — Google AI Ultra ($100), Anthropic Max ($100), and Microsoft Agent 365 ($99/user) converged within six weeks, with Google restructuring its entire subscription stack around this anchor (AI Plus $10, AI Pro $20, AI Ultra $100, top tier reduced from $250 to $200). Anthropic's June 15 agent billing split generates community-calculated 12x–175x effective price increases for heavy programmatic users, while Google's Antigravity 2.0 replaces Gemini CLI (sunsetting June 18). Three vendors, three platforms, one price point — the market has discovered the maximum individual willingness-to-pay before enterprise procurement kicks in.",
+      "tags": [
+        "agents"
+      ]
+    },
+    {
+      "text": "GitHub Trending on May 26 is dominated by agent infrastructure rather than models — codegraph at +14,100 stars/week (21,035 total, '71% fewer tool calls, 57% fewer tokens'), mattpocock/skills at +5,604 stars/day (~31,000 total), cybersecurity skills at +3,161/day (24,877 total), agentmemory in top 10, and 12-factor-agents trending. Six of the top 10 trending repos solve variations of the same problem: making AI coding agents cheaper, more structured, or more persistent. The competitive axis has shifted from 'which model is best' to 'which infrastructure makes any model economically viable' — pre-indexed knowledge graphs, persistent memory, and structured skill registries are the new battleground.",
+      "tags": [
+        "security",
+        "github-trending",
+        "agents"
+      ],
+      "source": "GitHub +5,604/day"
+    },
+    {
+      "text": "Meta's 8,000-person layoff (May 20) pushes the 2026 tech layoff total to 143,985 across 342 events — an average of 993 people per day, every day, for five months. Oracle projects 30,000 total cuts, Epic cut 20% of staff, Snap 16%, Atlassian 10%. A survey of 1,000 US hiring managers found 44% cite AI as the top layoff driver and 55% expect layoffs at their company in 2026. The cadence is now weekly: Cloudflare (May 8), Meta (May 10), GitLab (May 12), Intuit (May 21). AI-attributed workforce reduction is no longer an event — it's a rate.",
+      "tags": [
+        "meta"
+      ]
+    },
+    {
+      "text": "Microsoft Defender — the security product deployed to protect endpoints — is itself under active exploitation via CVE-2026-41091 (CVSS 7.8), a local privilege escalation to SYSTEM patched in engine v1.1.26040.8. This joins Trend Micro Apex One (CISA KEV, directory traversal), Trellix (source code breach May 12), and Cisco's twin CVSS 10.0 flaws as the fifth security vendor whose own product is the attack surface in May 2026. May's Patch Tuesday addressed 130 Microsoft vulnerabilities including 30 Critical, CVE-2026-42826 (CVSS 10.0, Azure DevOps), and CVE-2026-42898 (CVSS 9.9, Dynamics 365 RCE).",
+      "tags": [
+        "security"
+      ]
+    },
+    {
+      "text": "Alibaba's Qwen 3.7 Max launches with 1M-token context, SWE-Pro 60.6, Terminal-Bench 2.0 at 69.7, and GPQA Diamond at 92.4 — competitive with frontier models at $2.50/$7.50 per 1M tokens, roughly one-third of comparable pricing. No open weights yet, but the Qwen 3.6 series (April 2026, Apache 2.0) already demonstrated Alibaba's open-weight commitment. Combined with DeepSeek Reasonix (native coding agent, 507 HN pts May 25) and Google's Gemini 3.5 Flash ($1.50/$9), the cost of frontier-quality AI inference is compressing 40-60% quarter-over-quarter — the pricing pressure that made the $100/month subscription ceiling possible.",
+      "tags": [
+        "agents"
+      ],
+      "source": "HN 507pts"
+    },
+    {
+      "text": "Three critical Linux kernel CVEs disclosed in late May form a race-free kill chain from internet-facing services to root on default installations of Debian, Fedora, and Ubuntu — the fourth major kernel privilege escalation cluster since May 1, following Copy Fail CVE-2026-31431, Dirty Frag, and io_uring ZCRX. AI-accelerated vulnerability scanning is systematically excavating the kernel's historical attack surface; the density of root-level escalations in May 2026 has no precedent in 2025. Combined with the nine-year-old CVE-2026-46333 (CVSS 5.5) disclosed May 23, the kernel's technical debt is being surfaced faster than the maintainer community can triage.",
+      "tags": []
+    }
+  ],
+  "trending": [],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "1083",
+      "unit": "pts"
+    },
+    {
+      "label": "Repos",
+      "value": "0",
+      "unit": "tracked"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "1",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "7",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "May 26, 2026"
+    },
+    "headlines": [
+      {
+        "text": "GitHub's internal breach",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "The $100/month AI agent tier is now an industry-wide price ceiling",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "GitHub Trending on May 26 is dominated by agent infrastructure rather than models",
+        "metric": "+5,604/d",
+        "source": "GitHub"
+      }
+    ],
+    "takeaway": {
+      "text": "Today's brief covers the most interesting signals across the tech landscape."
+    }
+  }
+}
