@@ -1,0 +1,148 @@
+[
+  {
+    "title": "omarchy is not a distro",
+    "score": 182,
+    "tags": [
+      "linux",
+      "rant"
+    ],
+    "url": "https://abyss.fish/your_dotfiles_are_not_a_distro",
+    "comments_url": "https://lobste.rs/s/t1spjc/omarchy_is_not_distro"
+  },
+  {
+    "title": "How my minimal, memory-safe Go rsync steers clear of vulnerabilities",
+    "score": 60,
+    "tags": [
+      "go",
+      "security"
+    ],
+    "url": "https://michael.stapelberg.ch/posts/2026-05-24-minimal-memory-safe-go-rsync-vulns/",
+    "comments_url": "https://lobste.rs/s/5y9u93/how_my_minimal_memory_safe_go_rsync_steers"
+  },
+  {
+    "title": "JS Crossword - a crossword where the clue = eval(answer)",
+    "score": 20,
+    "tags": [
+      "javascript",
+      "web"
+    ],
+    "url": "https://lyra.horse/fun/jscrossword/",
+    "comments_url": "https://lobste.rs/s/nkrgmr/js_crossword_crossword_where_clue_eval"
+  },
+  {
+    "title": "Flatpak will depend on systemd",
+    "score": 15,
+    "tags": [
+      "linux",
+      "systemd"
+    ],
+    "url": "https://www.osnews.com/story/145071/flatpak-will-depend-on-systemd/",
+    "comments_url": "https://lobste.rs/s/gfbpgq/flatpak_will_depend_on_systemd"
+  },
+  {
+    "title": "Discussion about C array type semantics",
+    "score": 9,
+    "tags": [
+      "c"
+    ],
+    "url": "https://anselmschueler.com/blogposts/2025-c-pointers/",
+    "comments_url": "https://lobste.rs/s/26wkdp/discussion_about_c_array_type_semantics"
+  },
+  {
+    "title": "The Eternal Sloptember",
+    "score": 25,
+    "tags": [
+      "culture",
+      "programming"
+    ],
+    "url": "https://geohot.github.io//blog/jekyll/update/2026/05/24/the-eternal-sloptember.html",
+    "comments_url": "https://lobste.rs/s/pwnqab/eternal_sloptember"
+  },
+  {
+    "title": "No Linux support on free version of Vivado 2026.1",
+    "score": 16,
+    "tags": [
+      "hardware"
+    ],
+    "url": "https://www.amd.com/en/products/software/adaptive-socs-and-fpgas/vivado/vivado-licensing-options.html",
+    "comments_url": "https://lobste.rs/s/5xwplk/no_linux_support_on_free_version_vivado"
+  },
+  {
+    "title": "The Soul of Maintaining a New Machine",
+    "score": 11,
+    "tags": [
+      "historical",
+      "practices"
+    ],
+    "url": "https://books.worksinprogress.co/book/maintenance-of-everything/communities-of-practice/the-soul-of-maintaining-a-new-machine/3",
+    "comments_url": "https://lobste.rs/s/ydqlgv/soul_maintaining_new_machine"
+  },
+  {
+    "title": "Scaling Akvorado BMP RIB with sharding",
+    "score": 1,
+    "tags": [
+      "go",
+      "networking"
+    ],
+    "url": "https://vincent.bernat.ch/en/blog/2026-akvorado-rib-sharding",
+    "comments_url": "https://lobste.rs/s/cwvbah/scaling_akvorado_bmp_rib_with_sharding"
+  },
+  {
+    "title": "Declarative partial updates",
+    "score": 23,
+    "tags": [
+      "api",
+      "browsers",
+      "web"
+    ],
+    "url": "https://developer.chrome.com/blog/declarative-partial-updates",
+    "comments_url": "https://lobste.rs/s/qgq6ur/declarative_partial_updates"
+  },
+  {
+    "title": "Jira is Turing-Complete",
+    "score": 97,
+    "tags": [
+      "compsci"
+    ],
+    "url": "https://seriot.ch/computation/jira.html",
+    "comments_url": "https://lobste.rs/s/6rwldo/jira_is_turing_complete"
+  },
+  {
+    "title": "It's time to talk about my writerdeck",
+    "score": 58,
+    "tags": [
+      "linux",
+      "vim"
+    ],
+    "url": "https://veronicaexplains.net/my-first-writerdeck/",
+    "comments_url": "https://lobste.rs/s/oyzqgz/it_s_time_talk_about_my_writerdeck"
+  },
+  {
+    "title": "Building Pi with Pi",
+    "score": 2,
+    "tags": [
+      "vibecoding"
+    ],
+    "url": "https://lucumr.pocoo.org/2026/5/24/pi-oss/",
+    "comments_url": "https://lobste.rs/s/c8fuwg/building_pi_with_pi"
+  },
+  {
+    "title": "EYG: Host of CLI improvements, new guides and new effects",
+    "score": 2,
+    "tags": [
+      "plt"
+    ],
+    "url": "https://eyg.run/news/editions/9",
+    "comments_url": "https://lobste.rs/s/qv4wl7/eyg_host_cli_improvements_new_guides_new"
+  },
+  {
+    "title": "On the <dl> (2021)",
+    "score": 56,
+    "tags": [
+      "a11y",
+      "web"
+    ],
+    "url": "https://benmyers.dev/blog/on-the-dl/",
+    "comments_url": "https://lobste.rs/s/dqig3h/on_dl_2021"
+  }
+]

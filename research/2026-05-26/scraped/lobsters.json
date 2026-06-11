@@ -1,0 +1,145 @@
+[
+  {
+    "title": "The social contract of writing",
+    "score": 111,
+    "tags": [
+      "philosophy"
+    ],
+    "url": "https://jola.dev/posts/the-social-contract-of-writing",
+    "comments_url": "https://lobste.rs/s/kgem4b/social_contract_writing"
+  },
+  {
+    "title": "Using AI to write better code more slowly",
+    "score": 40,
+    "tags": [
+      "practices",
+      "vibecoding"
+    ],
+    "url": "https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/",
+    "comments_url": "https://lobste.rs/s/lkv0sh/using_ai_write_better_code_more_slowly"
+  },
+  {
+    "title": "Encyclical Letter of His Holiness Leo XIV Magnifica Humanitas",
+    "score": 48,
+    "tags": [
+      "ai",
+      "philosophy"
+    ],
+    "url": "http://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html",
+    "comments_url": "https://lobste.rs/s/eedsds/encyclical_letter_his_holiness_leo_xiv"
+  },
+  {
+    "title": "On C extensions, portability, and alternative compilers",
+    "score": 31,
+    "tags": [
+      "c",
+      "compilers"
+    ],
+    "url": "https://lemon.rip/w/6-c-extensions-compilers/",
+    "comments_url": "https://lobste.rs/s/mcgtsh/on_c_extensions_portability_alternative"
+  },
+  {
+    "title": "Switching to Colemak",
+    "score": 35,
+    "tags": [
+      "a11y"
+    ],
+    "url": "https://pta2002.com/blog/colemak/",
+    "comments_url": "https://lobste.rs/s/3izfup/switching_colemak"
+  },
+  {
+    "title": "Human proof for FOSS contributions",
+    "score": 7,
+    "tags": [
+      "vibecoding"
+    ],
+    "url": "https://dillo-browser.org/lab/human-proof/",
+    "comments_url": "https://lobste.rs/s/emyyfu/human_proof_for_foss_contributions"
+  },
+  {
+    "title": "omarchy is not a distro",
+    "score": 262,
+    "tags": [
+      "linux",
+      "rant"
+    ],
+    "url": "https://abyss.fish/your_dotfiles_are_not_a_distro",
+    "comments_url": "https://lobste.rs/s/t1spjc/omarchy_is_not_distro"
+  },
+  {
+    "title": "A Simple Makefile Tutorial (2008)",
+    "score": 15,
+    "tags": [
+      "programming"
+    ],
+    "url": "https://cs.colby.edu/maxwell/courses/tutorials/maketutor/",
+    "comments_url": "https://lobste.rs/s/owa9kn/simple_makefile_tutorial_2008"
+  },
+  {
+    "title": "JS Crossword - a crossword where the clue = eval(answer)",
+    "score": 55,
+    "tags": [
+      "javascript",
+      "web"
+    ],
+    "url": "https://lyra.horse/fun/jscrossword/",
+    "comments_url": "https://lobste.rs/s/nkrgmr/js_crossword_crossword_where_clue_eval"
+  },
+  {
+    "title": "Splitting Konsole views from Helix to run tools",
+    "score": 8,
+    "tags": [
+      "editors",
+      "linux"
+    ],
+    "url": "https://akselmo.dev/posts/splitting-konsole-views-from-helix-to-run-tools/",
+    "comments_url": "https://lobste.rs/s/k7vttz/splitting_konsole_views_from_helix_run"
+  },
+  {
+    "title": "The User Is Visibly Frustrated",
+    "score": 8,
+    "tags": [
+      "vibecoding"
+    ],
+    "url": "https://pscanf.com/s/354/",
+    "comments_url": "https://lobste.rs/s/1a09ad/user_is_visibly_frustrated"
+  },
+  {
+    "title": "The Open/Closed Problem in AI",
+    "score": 7,
+    "tags": [
+      "ai"
+    ],
+    "url": "https://blog.mempko.com/the-open-closed-problem-in-ai/",
+    "comments_url": "https://lobste.rs/s/qfzcpl/open_closed_problem_ai"
+  },
+  {
+    "title": "Extremely simple internet radio controlled via IRC",
+    "score": 5,
+    "tags": [
+      "go",
+      "show"
+    ],
+    "url": "https://codeberg.org/lindenii/tunecat/",
+    "comments_url": "https://lobste.rs/s/bt76vp/extremely_simple_internet_radio"
+  },
+  {
+    "title": "Announcing BABLR",
+    "score": 5,
+    "tags": [
+      "editors",
+      "javascript"
+    ],
+    "url": "https://bablr.org/blog/announcing-bablr",
+    "comments_url": "https://lobste.rs/s/zwys2f/announcing_bablr"
+  },
+  {
+    "title": "Nix's Substituter List Is Not a Routing Table",
+    "score": 25,
+    "tags": [
+      "nix"
+    ],
+    "url": "https://notashelf.dev/posts/nix-cache-proxy",
+    "comments_url": "https://lobste.rs/s/2ibvbm/nix_s_substituter_list_is_not_routing"
+  }
+]

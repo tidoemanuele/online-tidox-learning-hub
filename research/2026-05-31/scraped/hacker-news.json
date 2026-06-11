@@ -1,0 +1,162 @@
+[
+  {
+    "rank": 1,
+    "title": "Domain expertise has always been the real moat",
+    "url": "https://www.brethorsting.com/blog/2026/05/domain-expertise-has-always-been-the-real-moat/",
+    "hn_url": "https://news.ycombinator.com/item?id=48340411",
+    "points": 437,
+    "comments": 267
+  },
+  {
+    "rank": 2,
+    "title": "A Gentle Introduction to Lattice-Based Cryptography [pdf]",
+    "url": "https://cryptography101.ca/wp-content/uploads/lattice-based-cryptography.pdf",
+    "hn_url": "https://news.ycombinator.com/item?id=48318624",
+    "points": 43,
+    "comments": 0
+  },
+  {
+    "rank": 3,
+    "title": "Ahoy, DECmate II the little PDP-8 that could",
+    "url": "http://oldvcr.blogspot.com/2026/05/ahoy-decmate-ii-little-pdp-8-that-could.html",
+    "hn_url": "https://news.ycombinator.com/item?id=48343078",
+    "points": 15,
+    "comments": 1
+  },
+  {
+    "rank": 4,
+    "title": "Shantell Sans (2023)",
+    "url": "https://shantellsans.com/process",
+    "hn_url": "https://news.ycombinator.com/item?id=48341062",
+    "points": 181,
+    "comments": 16
+  },
+  {
+    "rank": 5,
+    "title": "Racket v9.2 is now available",
+    "url": "https://blog.racket-lang.org/2026/05/racket-v9-2.html",
+    "hn_url": "https://news.ycombinator.com/item?id=48306713",
+    "points": 80,
+    "comments": 11
+  },
+  {
+    "rank": 6,
+    "title": "Microsoft Office 2019 and 2021 for Mac view-only conversion",
+    "url": "https://consumerrights.wiki/w/Microsoft_Office_2019_and_2021_for_Mac_view-only_conversion_(2026)",
+    "hn_url": "https://news.ycombinator.com/item?id=48341578",
+    "points": 757,
+    "comments": 253
+  },
+  {
+    "rank": 7,
+    "title": "I found a seashell in the middle of the desert",
+    "url": "https://github.com/Hawzen/I-found-a-seashell-in-the-middle-of-the-desert",
+    "hn_url": "https://news.ycombinator.com/item?id=48318402",
+    "points": 282,
+    "comments": 73
+  },
+  {
+    "rank": 8,
+    "title": "Accenture to acquire Ookla",
+    "url": "https://newsroom.accenture.com/news/2026/accenture-to-acquire-ookla-to-strengthen-network-intelligence-and-experience-with-data-and-ai-for-enterprises",
+    "hn_url": "https://news.ycombinator.com/item?id=48337987",
+    "points": 266,
+    "comments": 132
+  },
+  {
+    "rank": 9,
+    "title": "The AV2 Video Standard Has Released (Final v1.0 Specification)",
+    "url": "https://av2.aomedia.org",
+    "hn_url": "https://news.ycombinator.com/item?id=48340910",
+    "points": 112,
+    "comments": 19
+  },
+  {
+    "rank": 10,
+    "title": "Associative learning turns DEET from aversive to appetitive in Aedes aegypti",
+    "url": "https://journals.biologists.com/jeb/article/229/10/jeb251935/371741/Associative-learning-switches-DEET-valence-from",
+    "hn_url": "https://news.ycombinator.com/item?id=48313952",
+    "points": 4,
+    "comments": 0
+  },
+  {
+    "rank": 11,
+    "title": "Building a LangGraph pipeline for production data engineering",
+    "url": "https://labyrinthanalyticsconsulting.com/blog/building-first-langgraph-pipeline",
+    "hn_url": "https://news.ycombinator.com/item?id=48343061",
+    "points": 9,
+    "comments": 0
+  },
+  {
+    "rank": 12,
+    "title": "Voxel Space (2017)",
+    "url": "https://s-macke.github.io/VoxelSpace/",
+    "hn_url": "https://news.ycombinator.com/item?id=48336564",
+    "points": 269,
+    "comments": 58
+  },
+  {
+    "rank": 13,
+    "title": "Jef Raskin, the Visionary Behind the Mac (2013)",
+    "url": "https://lowendmac.com/2013/jef-raskin-the-visionary-behind-the-mac/",
+    "hn_url": "https://news.ycombinator.com/item?id=48339894",
+    "points": 94,
+    "comments": 41
+  },
+  {
+    "rank": 14,
+    "title": "wolfSSL releases a new product; wolfCOSE a zero alloc C embbedded COSE stack",
+    "url": "https://github.com/wolfSSL/wolfCOSE",
+    "hn_url": "https://news.ycombinator.com/item?id=48340422",
+    "points": 79,
+    "comments": 14
+  },
+  {
+    "rank": 15,
+    "title": "Zig ELF Linker Improvements Devlog",
+    "url": "https://ziglang.org/devlog/2026/#2026-05-30",
+    "hn_url": "https://news.ycombinator.com/item?id=48338673",
+    "points": 190,
+    "comments": 55
+  },
+  {
+    "rank": 16,
+    "title": "Cheese Paper: a text editor specifically designed for writing",
+    "url": "https://brie.gay/cheese-paper/",
+    "hn_url": "https://news.ycombinator.com/item?id=48341407",
+    "points": 84,
+    "comments": 17
+  },
+  {
+    "rank": 17,
+    "title": "Openrsync: An implementation of rsync, by the OpenBSD team",
+    "url": "https://github.com/kristapsdz/openrsync",
+    "hn_url": "https://news.ycombinator.com/item?id=48334854",
+    "points": 357,
+    "comments": 148
+  },
+  {
+    "rank": 18,
+    "title": "Parallel Reconstruction of Lawful TLS Wiretapping",
+    "url": "https://remyhax.xyz/posts/reproducing-lawful-tls-wiretapping/",
+    "hn_url": "https://news.ycombinator.com/item?id=48339943",
+    "points": 79,
+    "comments": 38
+  },
+  {
+    "rank": 19,
+    "title": "OpenRouter raises $113M Series B",
+    "url": "https://openrouter.ai/announcements/series-b",
+    "hn_url": "https://news.ycombinator.com/item?id=48338660",
+    "points": 396,
+    "comments": 194
+  },
+  {
+    "rank": 20,
+    "title": "Gustav Klimt and Egon Schiele in Conversation (2018)",
+    "url": "https://www.theparisreview.org/blog/2018/01/31/the-drawings-of-klimt-and-schiele/",
+    "hn_url": "https://news.ycombinator.com/item?id=48316424",
+    "points": 33,
+    "comments": 4
+  }
+]

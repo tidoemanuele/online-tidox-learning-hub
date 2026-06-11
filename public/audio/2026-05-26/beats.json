@@ -1,0 +1,210 @@
+[
+  {
+    "type": "intro",
+    "highlight": "May 26, 2026",
+    "label": "INTELLIGENCE BRIEF",
+    "subtext": "Daily tech signals from across the web"
+  },
+  {
+    "type": "intro",
+    "highlight": "Andrew & Aria",
+    "label": "YOUR HOSTS",
+    "subtext": "Reasoning out loud"
+  },
+  {
+    "type": "number",
+    "highlight": "792 Hacker News points",
+    "number": "792",
+    "label": "TOP HN STORY",
+    "subtext": "California Linux age-verification exemption"
+  },
+  {
+    "type": "insight",
+    "highlight": "Age verification for all operating systems",
+    "label": "AB 1043",
+    "subtext": "Digital Age Assurance Act — signed Oct 2025"
+  },
+  {
+    "type": "insight",
+    "highlight": "Every Linux distro in scope",
+    "label": "SCOPE CREEP",
+    "subtext": "Debian, Fedora, Ubuntu, Arch, Mint, SteamOS"
+  },
+  {
+    "type": "quote",
+    "highlight": "The law didn't model the open-source dependency graph",
+    "subtext": "AB 1043 — accidental capture of volunteer projects"
+  },
+  {
+    "type": "insight",
+    "highlight": "AB 1856 carves out open-source licenses",
+    "label": "THE FIX",
+    "subtext": "Copy, redistribute, modify — you're exempt"
+  },
+  {
+    "type": "action",
+    "highlight": "The infrastructure is still coming",
+    "subtext": "Commercial OSes must comply — just not Linux"
+  },
+  {
+    "type": "number",
+    "highlight": "415 Hacker News points",
+    "number": "415",
+    "label": "SECOND TOP STORY",
+    "subtext": "Using AI to write better code more slowly"
+  },
+  {
+    "type": "quote",
+    "highlight": "AI makes developers more deliberate, not faster",
+    "subtext": "The constraint shifts from keystrokes to specification"
+  },
+  {
+    "type": "insight",
+    "highlight": "Specification clarity is the new bottleneck",
+    "label": "THE SHIFT",
+    "subtext": "Describe what you want well enough to execute"
+  },
+  {
+    "type": "insight",
+    "highlight": "Velocity gain shows up in review, not writing",
+    "label": "EMPIRICAL RESULT",
+    "subtext": "Better coverage, lower post-ship defect rates"
+  },
+  {
+    "type": "action",
+    "highlight": "Planning phase is the productivity multiplier",
+    "subtext": "Not context window size or model capability"
+  },
+  {
+    "type": "insight",
+    "highlight": "Same signal — different form",
+    "label": "CONNECTING THE DOTS",
+    "subtext": "GitHub trending confirms it"
+  },
+  {
+    "type": "repo",
+    "highlight": "Lum1104/Understand-Anything",
+    "label": "GITHUB TRENDING #1",
+    "subtext": "+5,604 stars today — knowledge graphs for code"
+  },
+  {
+    "type": "repo",
+    "highlight": "colbymchenry/codegraph",
+    "label": "GITHUB TRENDING #2",
+    "subtext": "+3,161 stars today — 94% token reduction"
+  },
+  {
+    "type": "insight",
+    "highlight": "Better representation → better model output",
+    "label": "THE PATTERN",
+    "subtext": "Graph indexing beats raw file concatenation"
+  },
+  {
+    "type": "insight",
+    "highlight": "Code as Agent Harness — arXiv 2605.18747",
+    "label": "RESEARCH SIGNAL",
+    "subtext": "Code is operational substrate, not just output"
+  },
+  {
+    "type": "number",
+    "highlight": "77.2% SWE-bench Verified",
+    "number": "77.2%",
+    "label": "QWEN3.6-27B",
+    "subtext": "Beats 397B parameter model on coding benchmarks"
+  },
+  {
+    "type": "insight",
+    "highlight": "Frontier coding on a consumer 4090",
+    "label": "LOCAL AI",
+    "subtext": "24GB VRAM is the new production threshold"
+  },
+  {
+    "type": "insight",
+    "highlight": "Self-hosted stack genuinely competitive",
+    "label": "IMPLICATIONS",
+    "subtext": "Local model + codegraph = commercial-grade AI coding"
+  },
+  {
+    "type": "number",
+    "highlight": "2 petabytes — Norway Huawei flash",
+    "number": "2PB",
+    "label": "HN 228 PTS",
+    "subtext": "First major European AI training outside US supply chains"
+  },
+  {
+    "type": "insight",
+    "highlight": "Hardware bifurcation becoming visible",
+    "label": "GEOPOLITICS",
+    "subtext": "Procurement decisions signal infrastructure independence"
+  },
+  {
+    "type": "quote",
+    "highlight": "Intelligence shifts from model to system",
+    "subtext": "Representation, indexing, planning, harness design"
+  },
+  {
+    "type": "insight",
+    "highlight": "Builders who understand this win",
+    "label": "TODAY'S THESIS",
+    "subtext": "Stop chasing model releases — build better harnesses"
+  },
+  {
+    "type": "action",
+    "highlight": "Index your codebase",
+    "subtext": "Understand-Anything and codegraph are your starting points"
+  },
+  {
+    "type": "action",
+    "highlight": "Write the requirements doc first",
+    "subtext": "Specification clarity is the actual productivity lever"
+  },
+  {
+    "type": "action",
+    "highlight": "Build the harness, not just the feature",
+    "subtext": "The system around the model is where leverage lives"
+  },
+  {
+    "type": "insight",
+    "highlight": "Combine Qwen3.6-27B with codegraph indexing",
+    "label": "THE OPEN-SOURCE STACK",
+    "subtext": "Consumer hardware + smart representation = production AI"
+  },
+  {
+    "type": "insight",
+    "highlight": "Mullvad rotating exit IPs — 322 HN pts",
+    "label": "PRIVACY INFRASTRUCTURE",
+    "subtext": "Exit IP rotation breaks correlation-based deanonymization"
+  },
+  {
+    "type": "quote",
+    "highlight": "The system around the model is where leverage lives",
+    "subtext": "Not the model itself"
+  },
+  {
+    "type": "action",
+    "highlight": "Audit your AI coding workflow today",
+    "subtext": "Where is the representation bottleneck in your stack?"
+  },
+  {
+    "type": "action",
+    "highlight": "Try Understand-Anything on your largest repo",
+    "subtext": "See what codebase-level reasoning feels like"
+  },
+  {
+    "type": "action",
+    "highlight": "Specify before you generate",
+    "subtext": "AI as specification enforcer, not just code generator"
+  },
+  {
+    "type": "close",
+    "highlight": "Tuesday, May 26, 2026",
+    "label": "INTELLIGENCE BRIEF",
+    "subtext": "Episode 56"
+  },
+  {
+    "type": "close",
+    "highlight": "See you tomorrow",
+    "label": "TIDOX LEARNING HUB",
+    "subtext": "tidox.com"
+  }
+]
