@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Understand-Anything",
+    "fullName": "Lum1104/Understand-Anything",
+    "description": "Turn any codebase into an interactive knowledge graph with multi-agent AI pipeline",
+    "language": "Python",
+    "stars_today": "1,897 stars today",
+    "total_stars": "54376",
+    "url": "https://github.com/Lum1104/Understand-Anything"
+  },
+  {
+    "name": "bumblebee",
+    "fullName": "perplexityai/bumblebee",
+    "description": "Read-only developer endpoint scanner for supply-chain compromise exposure",
+    "language": "Go",
+    "stars_today": "634 stars today",
+    "total_stars": "4300",
+    "url": "https://github.com/perplexityai/bumblebee"
+  },
+  {
+    "name": "container",
+    "fullName": "apple/container",
+    "description": "Tool for creating and running Linux containers using lightweight VMs on Mac (v1.0.0)",
+    "language": "Swift",
+    "stars_today": "1,124 stars today",
+    "total_stars": "28700",
+    "url": "https://github.com/apple/container"
+  },
+  {
+    "name": "pifs",
+    "fullName": "philipl/pifs",
+    "description": "pifs - the data-free filesystem (stores files as positions in Pi)",
+    "language": "C",
+    "stars_today": "887 stars today",
+    "total_stars": "6450",
+    "url": "https://github.com/philipl/pifs"
+  },
+  {
+    "name": "last30days-skill",
+    "fullName": "mvanhorn/last30days-skill",
+    "description": "Multi-platform research synthesis AI agent skill",
+    "language": "Python",
+    "stars_today": "743 stars today",
+    "total_stars": "33100",
+    "url": "https://github.com/mvanhorn/last30days-skill"
+  }
+]

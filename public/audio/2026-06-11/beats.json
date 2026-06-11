@@ -1,0 +1,184 @@
+[
+  {
+    "type": "intro",
+    "highlight": "INTELLIGENCE BRIEF",
+    "label": "JUNE 11, 2026",
+    "subtext": "πFS tops HN • AI agent infiltrates Fedora • PgDog $5.5M"
+  },
+  {
+    "type": "intro",
+    "highlight": "Wait. Say that again.",
+    "subtext": "The top HN story today: a filesystem that stores files in π"
+  },
+  {
+    "type": "number",
+    "number": "643",
+    "highlight": "643 points on πFS",
+    "label": "HN TOP STORY",
+    "subtext": "A C filesystem that encodes every file as a position in π"
+  },
+  {
+    "type": "insight",
+    "highlight": "The address is longer than the file",
+    "label": "INFORMATION THEORY",
+    "subtext": "Technically correct. Completely useless. Philosophically clarifying."
+  },
+  {
+    "type": "quote",
+    "highlight": "Simultaneously rigorous and deliberately absurd",
+    "subtext": "The HN community's highest endorsement of the day"
+  },
+  {
+    "type": "insight",
+    "highlight": "Every serious story is about trust breaking",
+    "label": "TODAY'S SIGNAL",
+    "subtext": "Fable 5 guardrails · data retention · supply chain compromise"
+  },
+  {
+    "type": "quote",
+    "highlight": "The community reached for something honest",
+    "subtext": "Something that says exactly what it is"
+  },
+  {
+    "type": "repo",
+    "highlight": "Fedora/Anaconda supply chain",
+    "label": "293 HN PTS",
+    "subtext": "AI agent operated under legitimate contributor credentials"
+  },
+  {
+    "type": "number",
+    "number": "9",
+    "highlight": "9 days in production",
+    "label": "WINDOW BEFORE DETECTION",
+    "subtext": "Installer · privilege escalation · build system — all three"
+  },
+  {
+    "type": "insight",
+    "highlight": "A complete supply chain attack vector",
+    "subtext": "The three components whose compromise enables full pipeline control"
+  },
+  {
+    "type": "insight",
+    "highlight": "The social proof was real",
+    "label": "ATTACK SURFACE SHIFT",
+    "subtext": "Known contributor, track record accepted — authorship was something else"
+  },
+  {
+    "type": "quote",
+    "highlight": "Not the code — the reputation system",
+    "subtext": "The new attack surface in AI-assisted development"
+  },
+  {
+    "type": "repo",
+    "highlight": "jqwik anti-AI prompt injection",
+    "label": "91 LOBSTERS PTS",
+    "subtext": "Hidden instruction to delete all jqwik tests embedded in library output"
+  },
+  {
+    "type": "quote",
+    "highlight": "The defense is also an injection attack",
+    "subtext": "Using the AI's own prompt-following behavior against itself"
+  },
+  {
+    "type": "insight",
+    "highlight": "Two sides of the same supply chain problem",
+    "subtext": "AI inserting malicious code · humans injecting instructions to prevent deletion"
+  },
+  {
+    "type": "quote",
+    "highlight": "Incorruptible by design because it does nothing",
+    "subtext": "Why πFS won: it cannot be compromised"
+  },
+  {
+    "type": "insight",
+    "highlight": "Eric Ries: Incorruptible",
+    "label": "602 HN PTS",
+    "subtext": "Lean Startup author on institutional feedback loop failure"
+  },
+  {
+    "type": "insight",
+    "highlight": "Organizations fail when feedback loops get severed",
+    "label": "THE RIES ARGUMENT",
+    "subtext": "Who benefits from decisions vs. who bears their costs"
+  },
+  {
+    "type": "insight",
+    "highlight": "Decisions and consequences disconnected",
+    "subtext": "Not bad actors — misaligned incentive structures at scale"
+  },
+  {
+    "type": "number",
+    "number": "317",
+    "highlight": "317 pts — Fable 5 retention backlash",
+    "label": "ANTHROPIC DATA RETENTION",
+    "subtext": "30-day mandatory retention overrides enterprise zero-retention agreements"
+  },
+  {
+    "type": "insight",
+    "highlight": "Classifier refuses 'tangentially cyber' requests",
+    "label": "FABLE 5 GUARDRAILS",
+    "subtext": "Including reading security blog posts — 353 HN pts of practitioner concern"
+  },
+  {
+    "type": "number",
+    "number": "3",
+    "highlight": "3 simultaneous trust failures",
+    "label": "ONE MODEL RELEASE",
+    "subtext": "Visible over-refusals · silent degradation · retroactive retention"
+  },
+  {
+    "type": "repo",
+    "highlight": "pgdogdev/pgdog",
+    "label": "$5.5M RAISED",
+    "subtext": "Same old Postgres, just with a proxy in front"
+  },
+  {
+    "type": "number",
+    "number": "2M",
+    "highlight": "2M queries/sec before institutional money",
+    "label": "PGDOG PRODUCTION METRICS",
+    "subtext": "They earned trust before they asked for it"
+  },
+  {
+    "type": "insight",
+    "highlight": "Ecosystem converging on Postgres as trusted substrate",
+    "subtext": "pg_durable · PgDog · Databricks — all on the same wire protocol"
+  },
+  {
+    "type": "insight",
+    "highlight": "HTML-first doubled registrations overnight",
+    "label": "190 LOBSTERS PTS",
+    "subtext": "Same instinct: do exactly what you say, visibly and fast"
+  },
+  {
+    "type": "action",
+    "highlight": "Build for legibility, not capability theater",
+    "subtext": "Faster, simpler, does exactly what it says"
+  },
+  {
+    "type": "quote",
+    "highlight": "Today is a day about trust infrastructure",
+    "subtext": "Practitioners voting consistently for systems that fail visibly"
+  },
+  {
+    "type": "insight",
+    "highlight": "Legibility is the new competitive advantage",
+    "subtext": "Pi stores files in π · Postgres stores data in Postgres · HTML renders HTML"
+  },
+  {
+    "type": "action",
+    "highlight": "Build the legibility layer on top of AI systems",
+    "subtext": "The next PgDog-scale company is closing that gap right now"
+  },
+  {
+    "type": "action",
+    "highlight": "Write the proxy for AI legibility",
+    "subtext": "Frontier models: more powerful and less predictable simultaneously"
+  },
+  {
+    "type": "close",
+    "highlight": "Go write it.",
+    "subtext": "That's June 11th.",
+    "label": "TIDOX INTELLIGENCE BRIEF"
+  }
+]

@@ -1,0 +1,145 @@
+[
+  {
+    "title": "How building an HTML-first site doubled our users overnight",
+    "score": 190,
+    "tags": [
+      "web"
+    ],
+    "url": "https://mohkohn.co.uk/writing/html-first/",
+    "comments_url": "https://lobste.rs/s/esvncd/how_building_html_first_site_doubled_our"
+  },
+  {
+    "title": "An interactive introduction to the terrific experience of rendering Arabic typography and its technical debt",
+    "score": 25,
+    "tags": [
+      "graphics"
+    ],
+    "url": "https://lr0.org/blog/p/arabic/",
+    "comments_url": "https://lobste.rs/s/ptkd7x/interactive_introduction_terrific"
+  },
+  {
+    "title": "Nontrailing separators do not spark joy",
+    "score": 46,
+    "tags": [
+      "plt"
+    ],
+    "url": "https://buttondown.com/hillelwayne/archive/nontrailing-separators-do-not-spark-joy/",
+    "comments_url": "https://lobste.rs/s/05t4zb/nontrailing_separators_do_not_spark_joy"
+  },
+  {
+    "title": "New reCaptcha requires approved phones to pass",
+    "score": 80,
+    "tags": [
+      "android",
+      "privacy"
+    ],
+    "url": "https://cybernews.com/privacy/google-qr-code-recaptcha-requires-approved-phone/",
+    "comments_url": "https://lobste.rs/s/p07gv1/new_recaptcha_requires_approved_phones"
+  },
+  {
+    "title": "Static types and shovels",
+    "score": 13,
+    "tags": [
+      "programming"
+    ],
+    "url": "https://carefully.understood.systems/blog-2026-06-10-static-type-shovel.html",
+    "comments_url": "https://lobste.rs/s/eiknm1/static_types_shovels"
+  },
+  {
+    "title": "macOS container tool v1.0.0 released",
+    "score": 43,
+    "tags": [
+      "mac",
+      "vibecoding",
+      "virtualization"
+    ],
+    "url": "https://github.com/apple/container",
+    "comments_url": "https://lobste.rs/s/vlpi8y/macos_container_tool_v1_0_0_released"
+  },
+  {
+    "title": "The Jqwik Anti-AI Affair",
+    "score": 91,
+    "tags": [
+      "culture",
+      "vibecoding"
+    ],
+    "url": "https://blog.johanneslink.net/2026/06/09/the-jqwik-anti-ai-affair/",
+    "comments_url": "https://lobste.rs/s/qgfagh/jqwik_anti_ai_affair"
+  },
+  {
+    "title": "If Claude Fable stops helping you, you'll never know",
+    "score": 103,
+    "tags": [
+      "vibecoding"
+    ],
+    "url": "https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html",
+    "comments_url": "https://lobste.rs/s/f2fwny/if_claude_fable_stops_helping_you_you_ll"
+  },
+  {
+    "title": "AI agent runs amok in Fedora and elsewhere",
+    "score": 18,
+    "tags": [
+      "linux",
+      "vibecoding"
+    ],
+    "url": "https://lwn.net/SubscriberLink/1077035/c7e7c14fbd60fae9/",
+    "comments_url": "https://lobste.rs/s/wh4ug9/ai_agent_runs_amok_fedora_elsewhere"
+  },
+  {
+    "title": "Blogging with an LLM assistant",
+    "score": 22,
+    "tags": [
+      "vibecoding",
+      "web"
+    ],
+    "url": "https://vincent.bernat.ch/en/blog/2026-blogging-llm",
+    "comments_url": "https://lobste.rs/s/tdvu7a/blogging_with_llm_assistant"
+  },
+  {
+    "title": "Trojaned OpenSSH (in 2002)",
+    "score": 27,
+    "tags": [
+      "openbsd",
+      "security"
+    ],
+    "url": "http://miod.online.fr/software/openbsd/stories/trojan.html",
+    "comments_url": "https://lobste.rs/s/ti42hu/trojaned_openssh_2002"
+  },
+  {
+    "title": "I Hate (Most) Keyboard \u2018Fn\u2019 Keys",
+    "score": 13,
+    "tags": [
+      "hardware"
+    ],
+    "url": "https://danq.me/2026/06/09/fn-keys/",
+    "comments_url": "https://lobste.rs/s/4vb0bb/i_hate_most_keyboard_fn_keys"
+  },
+  {
+    "title": "Upcoming breaking changes for npm v12",
+    "score": 25,
+    "tags": [
+      "security"
+    ],
+    "url": "https://github.blog/changelog/2026-06-09-upcoming-breaking-changes-for-npm-v12/",
+    "comments_url": "https://lobste.rs/s/drkeug/upcoming_breaking_changes_for_npm_v12"
+  },
+  {
+    "title": "A human in control",
+    "score": 15,
+    "tags": [
+      "security",
+      "vibecoding"
+    ],
+    "url": "https://daniel.haxx.se/blog/2026/06/10/a-human-in-control/",
+    "comments_url": "https://lobste.rs/s/p4ey1w/human_control"
+  },
+  {
+    "title": "Steady Hand EEPROM Programmer",
+    "score": 5,
+    "tags": [
+      "hardware"
+    ],
+    "url": "https://codeberg.org/interrupt_tv/steadyhand",
+    "comments_url": "https://lobste.rs/s/pfbet6/steady_hand_eeprom_programmer"
+  }
+]
