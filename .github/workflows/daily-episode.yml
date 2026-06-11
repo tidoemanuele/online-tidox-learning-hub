@@ -43,6 +43,16 @@ jobs:
             echo "date=$(date +%Y-%m-%d)" >> "$GITHUB_OUTPUT"
           fi
 
+      - name: Fetch source data (if not already committed by local pipeline)
+        env:
+          EPISODE_DATE: ${{ steps.date.outputs.date }}
+        run: |
+          if ls "research/$EPISODE_DATE/scraped/"*.json >/dev/null 2>&1; then
+            echo "Scraped data already present for $EPISODE_DATE — skipping fetch"
+          else
+            npx tsx scripts/refresh-scraped.ts "$EPISODE_DATE"
+          fi
+
       - name: Generate episode
         env:
           EPISODE_DATE: ${{ steps.date.outputs.date }}
@@ -64,6 +74,7 @@ jobs:
             exit 0
           fi
 
-          git add src/content/episodes/
+          git add src/content/episodes/ research/
           git commit -m "episode: ${EPISODE_DATE} daily intelligence brief"
+          git pull --rebase origin master
           git push

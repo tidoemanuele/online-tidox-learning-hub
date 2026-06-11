@@ -42,6 +42,23 @@ interface RawHNStory {
   comments: number;
 }
 
+interface RawLobstersStory {
+  title: string;
+  score: number;
+  tags: string[];
+  url: string;
+  comments_url: string;
+}
+
+interface RawDevtoArticle {
+  rank: number;
+  title: string;
+  url: string;
+  reactions: number;
+  comments: number;
+  tags: string[];
+}
+
 // --- Helpers ---
 
 function parseStarDelta(starsToday: string): string {
@@ -206,6 +223,26 @@ function main() {
     console.warn('  ⚠ hacker-news.json not found');
   }
 
+  // 2b. Lobsters
+  let lobstersStories: RawLobstersStory[] = [];
+  const lobFile = join(scrapedDir, 'lobsters.json');
+  if (existsSync(lobFile)) {
+    lobstersStories = JSON.parse(readFileSync(lobFile, 'utf-8'));
+    console.log(`  Lobsters: ${lobstersStories.length} stories`);
+  } else {
+    console.warn('  ⚠ lobsters.json not found');
+  }
+
+  // 2c. Dev.to
+  let devtoArticles: RawDevtoArticle[] = [];
+  const devtoFile = join(scrapedDir, 'devto.json');
+  if (existsSync(devtoFile)) {
+    devtoArticles = JSON.parse(readFileSync(devtoFile, 'utf-8'));
+    console.log(`  Dev.to: ${devtoArticles.length} articles`);
+  } else {
+    console.warn('  ⚠ devto.json not found');
+  }
+
   // 3. Editorial insights from awesome-emerging
   let editorialInsights: string[] = [];
   if (existsSync(INSIGHTS_FILE)) {
@@ -233,9 +270,14 @@ function main() {
   }
 
   // --- Validate minimum data ---
-  const sourceCount = (githubRepos.length > 0 ? 1 : 0) + (hnStories.length > 0 ? 1 : 0) + (editorialInsights.length > 0 ? 1 : 0);
+  const sourceCount =
+    (githubRepos.length > 0 ? 1 : 0) +
+    (hnStories.length > 0 ? 1 : 0) +
+    (lobstersStories.length > 0 ? 1 : 0) +
+    (devtoArticles.length > 0 ? 1 : 0) +
+    (editorialInsights.length > 0 ? 1 : 0);
   if (sourceCount === 0) {
-    console.error(`ERROR: No data sources available for ${date}. Need at least GitHub trending, HN stories, or editorial insights.`);
+    console.error(`ERROR: No data sources available for ${date}. Need at least GitHub trending, HN, Lobsters, Dev.to, or editorial insights.`);
     process.exit(1);
   }
 
@@ -258,7 +300,28 @@ function main() {
       url: repo.url || (repo.fullName ? `https://github.com/${repo.fullName}` : undefined),
     }));
 
-  // Insights (from editorial layer, fallback to HN titles)
+  // Insights (from editorial layer, fallback to scraped stories across sources)
+  const scrapedInsightPool = [
+    ...hnStories.slice(0, 4).map(story => ({
+      text: `${story.title} (${story.points} pts, ${story.comments} comments)`,
+      tags: ['hacker-news'],
+      source: `HN ${story.points}pts`,
+      url: story.url || story.hn_url,
+    })),
+    ...lobstersStories.slice(0, 2).map(story => ({
+      text: `${story.title} (${story.score} pts on Lobsters)`,
+      tags: ['lobsters', ...story.tags.slice(0, 2)].slice(0, 3),
+      source: `Lobsters ${story.score}pts`,
+      url: story.url,
+    })),
+    ...devtoArticles.slice(0, 2).map(article => ({
+      text: `${article.title} (${article.reactions} reactions on Dev.to)`,
+      tags: ['devto', ...article.tags.slice(0, 2)].slice(0, 3),
+      source: `Dev.to ${article.reactions}❤`,
+      url: article.url,
+    })),
+  ];
+
   const insights = editorialInsights.length > 0
     ? editorialInsights.slice(0, 8).map(text => ({
         text,
@@ -266,12 +329,7 @@ function main() {
         source: extractSourceFromInsight(text),
         url: extractUrlFromInsight(text),
       }))
-    : hnStories.slice(0, 6).map(story => ({
-        text: `${story.title} (${story.points} pts, ${story.comments} comments)`,
-        tags: ['hacker-news'],
-        source: `HN ${story.points}pts`,
-        url: story.url || story.hn_url,
-      }));
+    : scrapedInsightPool.slice(0, 8);
 
   // Headlines (top 3 insights with metrics)
   const headlines = insights
@@ -302,7 +360,7 @@ function main() {
   const numbers = [
     topHN ? { label: 'Top HN Story', value: String(topHN.points), unit: 'pts' } : { label: 'Stories', value: String(hnStories.length), unit: 'items' },
     topRepo ? { label: 'Fastest Repo', value: topRepo.stars_today.replace(/\s*stars?\s*today/i, '').trim(), unit: 'stars/day' } : { label: 'Repos', value: String(githubRepos.length), unit: 'tracked' },
-    { label: 'Sources Scraped', value: String(readdirSync(scrapedDir).filter((f: string) => f.endsWith('.json')).length), unit: 'sites' },
+    { label: 'Sources Scraped', value: String(existsSync(scrapedDir) ? readdirSync(scrapedDir).filter((f: string) => f.endsWith('.json')).length : sourceCount), unit: 'sites' },
     { label: 'Insights Today', value: String(insights.length), unit: 'stories' },
   ];
 
