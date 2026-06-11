@@ -1,0 +1,111 @@
+{
+  "date": "2026-04-28",
+  "episodeNumber": 78,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "Microsoft and OpenAI end their exclusive revenue-s, GitHub Copilot announces usage-based billing, 4TB of voice samples stolen from 40,000 AI contrac",
+  "heroStat": {
+    "value": "13B",
+    "label": "investment"
+  },
+  "insights": [
+    {
+      "text": "Microsoft and OpenAI end their exclusive revenue-sharing deal (HN #1, 836 pts) — Microsoft stops sharing revenue on OpenAI products resold via Azure, and OpenAI can now serve across any cloud provider. This is the most significant structural change in AI industry partnerships since the original $13B investment. The exclusive moat is gone. Combined with Claude Code's Max-only move and GPT-5.5's doubled token pricing, the AI business model has restructured more in April 2026 than in the prior 18 months. Every vendor independently concluded that flat-rate exclusivity is unsustainable.",
+      "tags": [
+        "claude-code"
+      ]
+    },
+    {
+      "text": "GitHub Copilot announces usage-based billing (HN #2, 619 pts) — the third major AI coding tool to abandon flat-rate pricing in April 2026, after Anthropic pulled Claude Code from the $20 Pro plan (April 21) and GitHub paused Pro sign-ups (April 22). The $10-20/month all-you-can-code subscription model lasted exactly 18 months. Usage-based pricing is now the industry default. The implication for solo developers: your AI coding budget becomes variable, not fixed — power users pay 5-10x more than casual users. The market segments by usage intensity, not company size.",
+      "tags": [
+        "github-trending",
+        "claude-code"
+      ]
+    },
+    {
+      "text": "4TB of voice samples stolen from 40,000 AI contractors at Mercor (HN #4, 499 pts) — the first major breach where the stolen asset isn't user credentials or PII but AI training data itself. 4TB of production-quality voice samples is enough to fine-tune commercial TTS models. Combined with the Bitwarden CLI attack targeting AI agent credentials (April 24) and LiteLLM supply chain compromise (March 27), April 2026 establishes AI infrastructure as a named cybersecurity target class. The attack surface has migrated from 'steal the product' to 'steal the data that makes the product.'",
+      "tags": [
+        "security",
+        "supply-chain",
+        "agents"
+      ]
+    },
+    {
+      "text": "China blocks Meta's acquisition of AI startup Manus (HN #7, 358 pts) — the first public Chinese regulatory block on a US tech company acquiring an AI agent startup. The geopolitical AI control regime now operates bidirectionally: the US restricts chip exports, China restricts company exports. Manus (the AI agent platform that went viral in early 2026) is treated as strategic infrastructure, not acquirable technology. For the open-source community, this means the AI agent tooling market will fragment along geopolitical lines — two separate ecosystems, two protocol stacks, two skill catalogs.",
+      "tags": [
+        "agents",
+        "meta",
+        "open-source"
+      ]
+    },
+    {
+      "text": "Show HN: Dirac, an open-source agent, tops TerminalBench on Gemini-3-flash-preview (HN #8, 329 pts) — the first time an open-source coding agent claims #1 on a major benchmark using a cost-optimized flash model, not a frontier model. Post-SWE-bench-retirement (declared invalid April 27), TerminalBench is becoming the de facto evaluation standard, and its first #1 goes to a community-built agent. The implication: agent architecture and orchestration matter more than model size. The competitive axis has shifted permanently from 'which model scores highest' to 'which agent system is best designed.'",
+      "tags": [
+        "agents",
+        "research",
+        "open-source"
+      ]
+    },
+    {
+      "text": "pgbackrest is no longer being maintained (HN #6, 411 pts) — the most widely-used PostgreSQL backup tool announces end of active maintenance. 411 pts on a maintenance-end announcement for a backup tool is extraordinary — comparable to a major product launch. This follows NIST stopping CVE enrichment (April 18) and Cal.com going closed-source (April 16). Critical open-source infrastructure maintained by small teams is systematically underfunded, and the crisis is accelerating while record capital flows into AI agent frameworks. The PostgreSQL ecosystem now has an urgent gap in its reliability stack.",
+      "tags": [
+        "agents",
+        "open-source",
+        "ecosystem"
+      ]
+    },
+    {
+      "text": "'Men who stare at walls' reaches 523 pts (HN #3) and 'Is my blue your blue?' reaches 446 pts (HN #5) — on a Monday dominated by the Microsoft-OpenAI restructuring, AI pricing collapses, and a 4TB data breach, two contemplative non-technical pieces occupy the #3 and #5 positions. This extends the multi-week pattern to three consecutive weeks: Framework Laptop at 1,199 pts, sub-2-hour marathon at 330 pts, Friendster nostalgia at 608 pts, and now philosophical essays. The developer community's attention allocation has structurally bifurcated: AI news is evaluated critically, non-AI content is engaged with enthusiastically.",
+      "tags": []
+    }
+  ],
+  "trending": [],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "3521",
+      "unit": "pts"
+    },
+    {
+      "label": "Repos",
+      "value": "0",
+      "unit": "tracked"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "1",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "7",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "April 28, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Microsoft and OpenAI end their exclusive revenue-sharing deal",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "GitHub Copilot announces usage-based billing",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "4TB of voice samples stolen from 40,000 AI contractors at Mercor",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Today's brief covers the most interesting signals across the tech landscape."
+    }
+  }
+}

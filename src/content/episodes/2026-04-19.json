@@ -1,0 +1,119 @@
+{
+  "date": "2026-04-19",
+  "episodeNumber": 77,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "The top story on HN is not an AI launch, The Opus 4.7 hangover is now user-level empirical , EvoMap/evolver takes #4 on GitHub Trending at +1,1",
+  "heroStat": {
+    "value": "867",
+    "label": "points on \"Vercel April 2026 security incident\""
+  },
+  "insights": [
+    {
+      "text": "The top story on HN is not an AI launch — it's 'Migrating from DigitalOcean to Hetzner' at 727 pts and 372 comments. Real-world migrations going from $1,432/month to $233/month ($14,388/yr saved) dominate the discussion. Redis creator antirez's top comment explicitly frames Claude Code as the migration unlock: obsolete libraries get ported by agents, the cost of switching hosts collapses. Cloud repatriation just crossed from niche cost optimization into mainstream developer attention.",
+      "tags": [
+        "claude-code",
+        "agents"
+      ]
+    },
+    {
+      "text": "The Opus 4.7 hangover is now user-level empirical rejection at 480 HN pts / 481 comments — a 1.0 comment-to-point ratio, rare on HN. billchambers.me's 'Anonymous request-token comparisons from Opus 4.6 and Opus 4.7' catalogs that forced adaptive reasoning produces 'hand-waving' outputs, Pro/Max 5x users report weekly allowances exhausted in hours, and several explicitly say they prefer Opus 4.5 for fine-grained control. Day 3 after launch, the community is organizing evidence against Anthropic's launch narrative in public.",
+      "tags": [],
+      "source": "HN 480pts"
+    },
+    {
+      "text": "EvoMap/evolver takes #4 on GitHub Trending at +1,131 stars/day — up from +737 yesterday and +812 two days ago, a 54% acceleration. GenericAgent (+845/day yesterday) and DFlash are both off the top 10 today. The 'Genome Evolution Protocol' (GEP) framing — agents share validated capabilities through an open protocol, like git commits for AI behavior — has consolidated the self-evolving agent category around a single leader in under a week.",
+      "tags": [
+        "github-trending",
+        "agents"
+      ],
+      "source": "GitHub +1,131/day"
+    },
+    {
+      "text": "Both karpathy-skills and obra/superpowers are absent from GitHub Trending top 10 for the second consecutive day. Two days ago superpowers was #1 at +1,713/day; today the flagship slots belong to EvoMap/evolver (+1,131), BasedHardware/omi (+609), openai-agents-python (+470), and thunderbird/thunderbolt (+447). The Claude Code skill ecosystem has fully rotated past flagship dependence — multi-pole isn't a thesis anymore, it's the empirical state.",
+      "tags": [
+        "github-trending",
+        "claude-code",
+        "agents"
+      ],
+      "source": "GitHub +1,713/day"
+    },
+    {
+      "text": "BasedHardware/omi ('AI that sees your screen, listens to your conversations and tells you what to do') holds at +609 stars/day and 10.6K total — the open-source AI wearable (pendant + glasses) pairs with Flutter mobile apps for 24hr+ continuous capture. Same trending slot as yesterday. The ambient-capture thesis isn't viral, it's compounding. When open-source hardware ships the 'always-on personal memory' primitive before the big platforms do, the integration race is already lost.",
+      "tags": [
+        "github-trending",
+        "open-source"
+      ],
+      "source": "GitHub +609/day"
+    },
+    {
+      "text": "Cornell instructor Grit Matthias Phelps's 'typewriters to curb AI-written work' hits 219 HN pts / 201 comments, and 'Thoughts and feelings around Claude Design' sustains at 272 pts / 175 comments three days after launch. Two AI-skeptical stories at HN top 15 on a day with no major AI launches. The counter-narrative has gone from commentary to pedagogy — Cornell's German language courses now have 'analog days' with no screens, no dictionaries, no delete keys. Elite universities are making AI-resistance a visible pedagogical virtue.",
+      "tags": [],
+      "source": "HN 219pts"
+    },
+    {
+      "text": "Lordog/dive-into-llms (《动手学大模型》) decelerates to +547 stars/day from yesterday's +944, but total climbs to 32.1K. The Chinese-language LLM tutorial book is past peak velocity, but the overall trajectory confirms the Chinese developer community is building its own pedagogical canon in parallel with the English-language ecosystem — not downstream of it. The pattern: Karpathy writes in English, Lordog writes in Chinese, both hit 30K+ in April 2026.",
+      "tags": [
+        "github-trending",
+        "ecosystem"
+      ],
+      "source": "GitHub +547/day"
+    },
+    {
+      "text": "State of Kdenlive at 362 HN pts — the KDE community's open-source video editor received an NLnet NGI Zero Commons Fund grant for dopesheet development, with 26.04 RC shipping. Same week Adobe faces pressure from DaVinci Resolve Photo (1,082 pts Tuesday) and Blackmagic continues hardware-subsidizing its free tier. The quiet pattern: creative-tool repatriation is running parallel to cloud repatriation — developers are leaving both Adobe and AWS in the same month, for the same structural reasons.",
+      "tags": [
+        "open-source"
+      ],
+      "source": "HN 362pts"
+    }
+  ],
+  "trending": [],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "867",
+      "unit": "pts"
+    },
+    {
+      "label": "Repos",
+      "value": "0",
+      "unit": "tracked"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "1",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "April 19, 2026"
+    },
+    "headlines": [
+      {
+        "text": "The top story on HN is not an AI launch",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "The Opus 4.7 hangover is now user-level empirical rejection at 480 HN pts / 481 comments",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "EvoMap/evolver takes #4 on GitHub Trending at +1,131 stars/day",
+        "metric": "+1,131/d",
+        "source": "GitHub"
+      }
+    ],
+    "takeaway": {
+      "text": "Today's brief covers the most interesting signals across the tech landscape."
+    }
+  }
+}

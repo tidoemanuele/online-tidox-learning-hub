@@ -1,0 +1,118 @@
+{
+  "date": "2026-04-18",
+  "episodeNumber": 76,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "The Opus 4.7 tokenizer reckoning hits 594 HN pts w, Claude Design holds #2 on HN at 995 pts and 656 co, Andrej Karpathy's karpathy-skills vanishes from Gi",
+  "heroStat": {
+    "value": "$25",
+    "label": "per 1m"
+  },
+  "insights": [
+    {
+      "text": "The Opus 4.7 tokenizer reckoning hits 594 HN pts with 415 comments — claudecodecamp.com measures 1.47× token inflation on real code and non-English content, above Anthropic's disclosed 1.0–1.35× range. At unchanged sticker prices ($5/$25 per 1M), the effective cost is +35% (≈+$105/month on a realistic workload). The first mass-scale audit of a stealth price move. Unchanged headline price is no longer trust-neutral.",
+      "tags": [
+        "rust"
+      ],
+      "source": "HN 594pts"
+    },
+    {
+      "text": "Claude Design holds #2 on HN at 995 pts and 656 comments one day after launch — Figma stock closed down ~7% on Friday despite Anthropic's 'complementary, not competitive' framing. An Anthropic executive recently left Figma's board. When the second-most-discussed story on HN is about your platform and your stock drops 7%, the market has already decided which framing is true.",
+      "tags": []
+    },
+    {
+      "text": "Andrej Karpathy's karpathy-skills vanishes from GitHub Trending top 25 — confirming yesterday's Day 4 deceleration (+7,959/day, 17% drop from Day 3) as the actual inflection point. Day 5 is off-chart. Meanwhile obra/superpowers reaccelerates to +1,713 stars/day and 158K total, up from 154.8K two days ago. The flagship curve broke; the ecosystem curve didn't. Multi-pole Claude Code ecosystem is now the empirical reality.",
+      "tags": [
+        "github-trending",
+        "claude-code",
+        "ecosystem"
+      ],
+      "source": "GitHub +7,959/day"
+    },
+    {
+      "text": "The self-evolving agent meme takes the top of GitHub Trending — EvoMap/evolver sustains at +737/day, lsdefine/GenericAgent at +845/day ('grows skill tree from 3.3K-line seed'), z-lab/dflash (block diffusion speculative decoding) debuts at +287/day. Every trending agent repo this week carries 'evolve,' 'genome,' or 'self-improving' branding. Marketing convergence or genuine research direction — the community hasn't yet decided.",
+      "tags": [
+        "github-trending",
+        "agents",
+        "research"
+      ],
+      "source": "GitHub +737/day"
+    },
+    {
+      "text": "Miguel Conner's 'I'm Coding by Hand' hits 187 HN pts with 190 comments — an ex-Aily Labs AI-agent-builder takes a 3-month Recurse Center sabbatical to hand-code a single-layer perceptron in Vim. Toby Ord's 'Are the costs of AI agents also rising exponentially?' lands same-day at 181 pts, arguing 4,000× parameter growth and 100,000× token-per-task growth over seven years. Two independent counter-narratives at the HN front page within hours of the tokenizer story. The hype hangover window has collapsed to 24 hours.",
+      "tags": [
+        "agents"
+      ],
+      "source": "HN 187pts"
+    },
+    {
+      "text": "NIST officially gives up enriching most CVEs at 193 HN pts — citing a 263% surge in submissions since 2020. Going forward, only CVEs in CISA's KEV catalog, federal-used software, and EO 14028 critical software get enriched. Everything else is 'Lowest Priority — not scheduled.' The defender-of-last-resort for the open vulnerability data is officially capacity-constrained. Enterprise security posture built on NVD assumptions needs rewriting this quarter.",
+      "tags": [
+        "security"
+      ],
+      "source": "HN 193pts"
+    },
+    {
+      "text": "The iTerm2 escape-sequence RCE (164 pts) proves `cat readme.txt` is a remote code execution vector — malicious escape sequences combine with tmux integration (on by default) to inject arbitrary code. Same day: PanicLock (179 pts) reaches the front page as a MacBook Touch ID killswitch explicitly designed for 'border crossings, protests, and high-risk situations.' Fil-C (memory-safe C via capability-based pointers and concurrent GC) sustains at 159 pts. Three parallel security stories at the top — the surface is widening faster than it's hardening.",
+      "tags": [
+        "security"
+      ]
+    },
+    {
+      "text": "Smol Machines hits 310 HN pts — a YC-backed portable VM that boots in <200ms via Hypervisor.framework/libkrun, with a direct 'ship the machine, not the Electron bundle' thesis. Lordog/dive-into-llms (《动手学大模型》, a Chinese-language LLM tutorial book) surges to +944 stars/day and 31.7K total, Google's magika AI file-type detector at +956/day/15.6K. The week's secondary stories — Chinese dev pedagogy, lightweight isolation, native file classification — all point at the same trend: infrastructure beneath the AI layer is where the quiet compounding happens.",
+      "tags": [
+        "github-trending"
+      ],
+      "source": "HN 310pts"
+    }
+  ],
+  "trending": [],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "893",
+      "unit": "pts"
+    },
+    {
+      "label": "Repos",
+      "value": "0",
+      "unit": "tracked"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "1",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "April 18, 2026"
+    },
+    "headlines": [
+      {
+        "text": "The Opus 4.7 tokenizer reckoning hits 594 HN pts with 415 comments",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Claude Design holds #2 on HN at 995 pts and 656 comments one day after launch",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Andrej Karpathy's karpathy-skills vanishes from GitHub Trending top 25",
+        "metric": "+7,959/d",
+        "source": "GitHub"
+      }
+    ],
+    "takeaway": {
+      "text": "Today's brief covers the most interesting signals across the tech landscape."
+    }
+  }
+}

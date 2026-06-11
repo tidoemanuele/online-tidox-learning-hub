@@ -1,0 +1,94 @@
+{
+  "date": "2026-05-11",
+  "episodeNumber": 80,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "Postmortem: TanStack NPM supply-chain compromise, I'm going back to writing code by hand, If AI writes your code, why use Python?",
+  "heroStat": {
+    "value": "1097",
+    "label": "points on \"Postmortem: TanStack NPM supply-chain compromise\""
+  },
+  "insights": [
+    {
+      "text": "Postmortem: TanStack NPM supply-chain compromise (1097 pts, 465 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 1097pts",
+      "url": "https://tanstack.com/blog/npm-supply-chain-compromise-postmortem"
+    },
+    {
+      "text": "I'm going back to writing code by hand (1038 pts, 617 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 1038pts",
+      "url": "https://blog.k10s.dev/im-going-back-to-writing-code-by-hand/"
+    },
+    {
+      "text": "If AI writes your code, why use Python? (919 pts, 980 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 919pts",
+      "url": "https://medium.com/@NMitchem/if-ai-writes-your-code-why-use-python-bf8c4ba1a055"
+    },
+    {
+      "text": "GitLab announces workforce reduction and end of their CREDIT values (703 pts, 683 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 703pts",
+      "url": "https://about.gitlab.com/blog/gitlab-act-2/"
+    }
+  ],
+  "trending": [],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "1097",
+      "unit": "pts"
+    },
+    {
+      "label": "Repos",
+      "value": "0",
+      "unit": "tracked"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "1",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "4",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "May 11, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Postmortem: TanStack NPM supply-chain compromise",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "I'm going back to writing code by hand",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "If AI writes your code, why use Python?",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Today's brief covers the most interesting signals across the tech landscape."
+    }
+  }
+}

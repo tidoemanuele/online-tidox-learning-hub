@@ -1,0 +1,212 @@
+[
+  {
+    "rank": 1,
+    "title": "Vercel April 2026 security incident",
+    "url": "https://www.bleepingcomputer.com/news/security/vercel-confirms-breach-as-hackers-claim-to-be-selling-stolen-data/",
+    "points": 867,
+    "comments": 492
+  },
+  {
+    "rank": 2,
+    "title": "5x5 Pixel font for tiny screens",
+    "url": "https://maurycyz.com/projects/mcufont/",
+    "points": 822,
+    "comments": 162
+  },
+  {
+    "rank": 3,
+    "title": "Stop trying to engineer your way out of listening to people",
+    "url": "https://ashley.rolfmore.com/stop-trying-to-engineer-your-way-out-of-listening-to-people/",
+    "points": 438,
+    "comments": 280
+  },
+  {
+    "rank": 4,
+    "title": "Notion leaks email addresses of all editors of any public page",
+    "url": "https://twitter.com/weezerOSINT/status/2045849358462222720",
+    "points": 401,
+    "comments": 154
+  },
+  {
+    "rank": 5,
+    "title": "Vercel says internal systems hit in breach",
+    "url": "https://decipher.sc/2026/04/19/vercel-says-internal-systems-hit-in-breach/",
+    "points": 379,
+    "comments": 2
+  },
+  {
+    "rank": 6,
+    "title": "Edit store price tags using Flipper Zero",
+    "url": "https://github.com/i12bp8/TagTinker",
+    "points": 372,
+    "comments": 344
+  },
+  {
+    "rank": 7,
+    "title": "Changes in the system prompt between Claude Opus 4.6 and 4.7",
+    "url": "https://simonwillison.net/2026/Apr/18/opus-system-prompt/",
+    "points": 370,
+    "comments": 218
+  },
+  {
+    "rank": 8,
+    "title": "The RAM shortage could last years",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/914672/the-ram-shortage-could-last-years",
+    "points": 354,
+    "comments": 525
+  },
+  {
+    "rank": 9,
+    "title": "The seven programming ur-languages (2022)",
+    "url": "https://madhadron.com/programming/seven_ur_languages.html",
+    "points": 351,
+    "comments": 155
+  },
+  {
+    "rank": 10,
+    "title": "Turtle WoW classic server announces shutdown after Blizzard wins injunction",
+    "url": "https://www.pcgamer.com/games/world-of-warcraft/turtle-wow-classic-server-announces-shutdown-after-blizzard-wins-injunction/",
+    "points": 312,
+    "comments": 293
+  },
+  {
+    "rank": 11,
+    "title": "Ask HN: How did you land your first projects as a solo engineer/consultant?",
+    "url": "https://news.ycombinator.com/item?id=47822940",
+    "points": 302,
+    "comments": 144
+  },
+  {
+    "rank": 12,
+    "title": "Airline worker arrested after sharing photos of bomb damage in WhatsApp group",
+    "url": "https://www.lbc.co.uk/article/dubai-police-spied-private-whatsapp-5HjdXwr_2/",
+    "points": 287,
+    "comments": 194
+  },
+  {
+    "rank": 13,
+    "title": "The creative software industry has declared war on Adobe",
+    "url": "https://www.theverge.com/tech/913765/adobe-rivals-free-creative-software-app-updates",
+    "points": 253,
+    "comments": 189
+  },
+  {
+    "rank": 14,
+    "title": "Swiss authorities want to reduce dependency on Microsoft",
+    "url": "https://www.swissinfo.ch/eng/swiss-ai/swiss-authorities-want-to-reduce-dependency-on-microsoft/91280532",
+    "points": 237,
+    "comments": 93
+  },
+  {
+    "rank": 15,
+    "title": "2,100 Swiss municipalities showing which provider handles their official email",
+    "url": "https://mxmap.ch/",
+    "points": 237,
+    "comments": 69
+  },
+  {
+    "rank": 16,
+    "title": "A Brief History of Fish Sauce",
+    "url": "https://www.legalnomads.com/fish-sauce/",
+    "points": 234,
+    "comments": 108
+  },
+  {
+    "rank": 17,
+    "title": "The world in which IPv6 was a good design (2017)",
+    "url": "https://apenwarr.ca/log/20170810",
+    "points": 231,
+    "comments": 166
+  },
+  {
+    "rank": 18,
+    "title": "The Bromine Chokepoint",
+    "url": "https://warontherocks.com/cogs-of-war/the-bromine-chokepoint-how-strife-in-the-middle-east-could-halt-production-of-the-worlds-memory-chips/",
+    "points": 230,
+    "comments": 143
+  },
+  {
+    "rank": 19,
+    "title": "10 years ago, someone wrote a test for Servo that included an expiry in 2026",
+    "url": "https://mastodon.social/@jdm_/116429380667467307",
+    "points": 228,
+    "comments": 123
+  },
+  {
+    "rank": 20,
+    "title": "In the UK, EVs are cheaper than petrol cars, thanks to Chinese competition",
+    "url": "https://electrek.co/2026/04/18/in-the-uk-evs-are-cheaper-than-petrol-cars-thanks-to-chinese-competition/",
+    "points": 196,
+    "comments": 219
+  },
+  {
+    "rank": 21,
+    "title": "Modern Rendering Culling Techniques",
+    "url": "https://krupitskas.com/posts/modern_culling_techniques/",
+    "points": 195,
+    "comments": 43
+  },
+  {
+    "rank": 22,
+    "title": "Keep Pushing: We Get 10 More Days to Reform Section 702",
+    "url": "https://www.eff.org/deeplinks/2026/04/keep-pushing-we-get-10-more-days-reform-section-702",
+    "points": 192,
+    "comments": 41
+  },
+  {
+    "rank": 23,
+    "title": "Windows Server 2025 Runs Better on ARM",
+    "url": "https://jasoneckert.github.io/myblog/server-2025-arm64/",
+    "points": 187,
+    "comments": 150
+  },
+  {
+    "rank": 24,
+    "title": "SPEAKE(a)R: Turn Speakers to Microphones for Fun and Profit [pdf] (2017)",
+    "url": "https://www.usenix.org/system/files/conference/woot17/woot17-paper-guri.pdf",
+    "points": 187,
+    "comments": 70
+  },
+  {
+    "rank": 25,
+    "title": "Show HN: Prompt-to-Excalidraw demo with Gemma 4 E2B in the browser (3.1GB)",
+    "url": "https://teamchong.github.io/turboquant-wasm/draw.html",
+    "points": 163,
+    "comments": 62
+  },
+  {
+    "rank": 26,
+    "title": "Ex-CEO, ex-CFO of iLearningEngines charged with fraud",
+    "url": "https://www.reuters.com/legal/government/ex-ceo-ex-cfo-bankrupt-ai-company-charged-with-fraud-2026-04-17/",
+    "points": 158,
+    "comments": 68
+  },
+  {
+    "rank": 27,
+    "title": "Scientific datasets are riddled with copy-paste errors",
+    "url": "https://www.sciencedetective.org/scientific-datasets-are-riddled-with-copy-paste-errors/",
+    "points": 158,
+    "comments": 62
+  },
+  {
+    "rank": 28,
+    "title": "Clojure: Transducers",
+    "url": "https://clojure.org/reference/transducers",
+    "points": 154,
+    "comments": 85
+  },
+  {
+    "rank": 29,
+    "title": "PM Carney declares U.S. ties now a 'weakness' in address to Canadians",
+    "url": "https://www.ctvnews.ca/politics/article/pm-carney-declares-us-ties-now-a-weakness-in-address-to-canadians/",
+    "points": 143,
+    "comments": 117
+  },
+  {
+    "rank": 30,
+    "title": "Notes from the SF peptide scene",
+    "url": "https://12gramsofcarbon.com/p/notes-from-the-sf-peptide-scene",
+    "points": 141,
+    "comments": 143
+  }
+]
