@@ -1,0 +1,186 @@
+[
+  {
+    "type": "intro",
+    "highlight": "US Government Suspends Fable 5 & Mythos 5",
+    "subtext": "June 13, 2026 — Intelligence Brief"
+  },
+  {
+    "type": "intro",
+    "highlight": "Friday Evening. 5:21pm ET.",
+    "subtext": "The timing was not accidental"
+  },
+  {
+    "type": "quote",
+    "highlight": "Lacks Mythos-specific uplift",
+    "label": "ANTHROPIC'S ARGUMENT",
+    "subtext": "Other public models surface the same information"
+  },
+  {
+    "type": "insight",
+    "highlight": "A bar that disqualifies every model in existence",
+    "subtext": "Applied to the most capable first"
+  },
+  {
+    "type": "number",
+    "number": "1,726",
+    "highlight": "HN points on an AI governance story",
+    "label": "TOP HN STORY",
+    "subtext": "Highest single-day score this cycle"
+  },
+  {
+    "type": "insight",
+    "highlight": "Infrastructure pulled by legal directive. Mid-deployment.",
+    "subtext": "No warning. No transition period."
+  },
+  {
+    "type": "number",
+    "number": "617",
+    "highlight": "points — Open Source AI Must Win",
+    "label": "SAME DAY",
+    "subtext": "0.31:1 ratio — endorsed and moved on"
+  },
+  {
+    "type": "quote",
+    "highlight": "The government ran a live demonstration of the argument",
+    "subtext": "The timing IS the message"
+  },
+  {
+    "type": "quote",
+    "highlight": "Subscription economy for cognition",
+    "label": "STRUCTURAL RISK",
+    "subtext": "One directive removes access to intelligence itself"
+  },
+  {
+    "type": "action",
+    "highlight": "What do builders do today? Concretely.",
+    "subtext": "The failure mode just ran in production"
+  },
+  {
+    "type": "repo",
+    "highlight": "apple/container",
+    "label": "+3,504 STARS TODAY",
+    "subtext": "Local-first tooling is a risk response, not a philosophy"
+  },
+  {
+    "type": "insight",
+    "highlight": "CRISPR selectively shreds cancer cells",
+    "subtext": "Including previously undruggable cancers"
+  },
+  {
+    "type": "number",
+    "number": "770",
+    "highlight": "HN points — CRISPR cancer breakthrough",
+    "label": "SCIENCE SIGNAL",
+    "subtext": "Including undruggable cancers"
+  },
+  {
+    "type": "quote",
+    "highlight": "Undruggable",
+    "label": "DEFINING THE TERM",
+    "subtext": "Proteins without binding pockets for small-molecule drugs"
+  },
+  {
+    "type": "insight",
+    "highlight": "CRISPR at RNA level bypasses the protein-binding requirement",
+    "subtext": "A class of cancers now targetable with precision"
+  },
+  {
+    "type": "quote",
+    "highlight": "A door opening, not just an incremental result",
+    "subtext": "Cell culture → clinical therapy is years away"
+  },
+  {
+    "type": "number",
+    "number": "186",
+    "highlight": "comments — excitement with restraint",
+    "label": "COMMUNITY SIGNAL",
+    "subtext": "Near-pure endorsement pattern"
+  },
+  {
+    "type": "quote",
+    "highlight": "Excitement with restraint. That's the right response.",
+    "subtext": "The announcement doesn't mention the failures ahead"
+  },
+  {
+    "type": "number",
+    "number": "21",
+    "highlight": "zero-days in FFmpeg — $1,000 in agent time",
+    "label": "SECURITY",
+    "subtext": "8 received CVEs. One: zero-click network RCE."
+  },
+  {
+    "type": "insight",
+    "highlight": "FFmpeg is in browsers, phones, video conferencing",
+    "subtext": "One of the most widely deployed media libraries in existence"
+  },
+  {
+    "type": "number",
+    "number": "2010",
+    "highlight": "Some vulnerabilities introduced in 2010",
+    "label": "15–23 YEARS LATENT",
+    "subtext": "Missed by every audit until an agent ran for $1,000"
+  },
+  {
+    "type": "quote",
+    "highlight": "Terrifying. Or clarifying. Maybe both.",
+    "subtext": "The audit cost curve just collapsed"
+  },
+  {
+    "type": "insight",
+    "highlight": "Defenders or attackers reach the new cost curve first?",
+    "subtext": "The malware story today gives the answer"
+  },
+  {
+    "type": "quote",
+    "highlight": "Malware authors embedding CBRN text to blind AI analysis tools",
+    "label": "ADVERSARIAL AI",
+    "subtext": "Exploiting the refusal surface of automated scanners"
+  },
+  {
+    "type": "insight",
+    "highlight": "Analyzer halts before reaching the actual malicious code",
+    "subtext": "Nuclear, chemical, biological text surrounding the payload"
+  },
+  {
+    "type": "quote",
+    "highlight": "A jailbreak applied to security tooling",
+    "subtext": "They've mapped where the AI flinches"
+  },
+  {
+    "type": "insight",
+    "highlight": "AI agent bankrupted operator scanning DN42",
+    "label": "AGENTIC AMPLIFICATION",
+    "subtext": "Agent speed vs human speed — nobody did the math"
+  },
+  {
+    "type": "quote",
+    "highlight": "AI is in everything and nothing is ready for that",
+    "subtext": "Searching for the thesis"
+  },
+  {
+    "type": "insight",
+    "highlight": "AI is load-bearing infrastructure. Governance built second.",
+    "subtext": "Government directive, attacker exploitation, agent over-execution"
+  },
+  {
+    "type": "repo",
+    "highlight": "addyosmani/agent-skills",
+    "label": "+2,656 STARS TODAY — 57K TOTAL",
+    "subtext": "Builders not waiting for the governance layer to catch up"
+  },
+  {
+    "type": "action",
+    "highlight": "Build the layer below the API",
+    "subtext": "Local, auditable, not dependent on a Friday evening directive"
+  },
+  {
+    "type": "close",
+    "highlight": "Go build something that doesn't need a permission slip",
+    "subtext": "That's today"
+  },
+  {
+    "type": "close",
+    "highlight": "Intelligence Brief — June 13, 2026",
+    "subtext": "Tidox Learning Hub"
+  }
+]
