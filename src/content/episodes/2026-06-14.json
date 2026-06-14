@@ -3,64 +3,63 @@
   "episodeNumber": 85,
   "locale": "en-US",
   "title": "Intelligence Brief",
-  "subtitle": "The hand behind the ban has a name, and it's Anthr, The open counterweight landed on schedule, again. , The counter-narrative to the ban ran the same week",
+  "subtitle": "Honda Civics and the Evil Valet, Tribblix: The retro Illumos distribution, Noise infusion banned from statistical products pu",
   "heroStat": {
     "value": "789",
     "label": "points on \"Noise infusion banned from statistical products published by\""
   },
   "insights": [
     {
-      "text": "The hand behind the ban has a name, and it's Anthropic's biggest backer. Reporting (The Information, TechCrunch) traces yesterday's government suspension of Fable 5 and Mythos 5 to Amazon CEO Andy Jassy, who told Treasury Secretary Scott Bessent that Amazon's own researchers had prompted Fable 5 into producing cyberattack-usable information (HN 652 points/483 comments). Amazon is Anthropic's single largest investor at ~$8B — so the cloud host, the rival, and the regulatory instigator are now one actor, and Anthropic counters that the flagged vulnerabilities are 'relatively basic' and findable in other public models.",
+      "text": "Honda Civics and the Evil Valet (186 pts, 30 comments)",
       "tags": [
-        "research"
-      ]
+        "hacker-news"
+      ],
+      "source": "HN 186pts",
+      "url": "https://juniperspring.org/posts/honda-evil-valet/"
     },
     {
-      "text": "The open counterweight landed on schedule, again. Zhipu/Z.ai shipped GLM 5.2 the same 48 hours the US gated the Western frontier (HN 524 points/279 comments): a 744B-parameter MoE with a 1M-token context window, coding-first, live across every GLM Coding Plan tier, MIT-licensed weights promised 'next week.' No benchmarks at launch — but the cadence is the message. Every Western restriction this week (guardrails, retention, access ban) has been answered within days by an unrestricted Chinese open release, MiMo Code then GLM 5.2.",
+      "text": "Tribblix: The retro Illumos distribution (12 pts, 1 comments)",
       "tags": [
-        "research"
-      ]
+        "hacker-news"
+      ],
+      "source": "HN 12pts",
+      "url": "http://tribblix.org/"
     },
     {
-      "text": "The counter-narrative to the ban ran the same week, buried at 29 points. Anthropic's 'Making Claude a Chemist' shows Opus 4.7 — a prior-generation model with no chemistry fine-tuning — matching or beating dedicated NMR software (ChemDraw, MestReNova), and crucially working backwards to infer a molecule's structure from its spectrum, a task tools leave to humans. The policy tension is now explicit: the same general capability Bessent's office wants to forbid is the one that makes the model worth a drug-discovery lab's time.",
-      "tags": []
+      "text": "Noise infusion banned from statistical products published by Census Bureau (789 pts, 491 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 789pts",
+      "url": "https://desfontain.es/blog/banning-noise.html"
     },
     {
-      "text": "The skills layer owned the velocity chart a sixth straight day, and the security tier kept accelerating. addyosmani/agent-skills pulled +1,514 today (58.8K total), obra/superpowers +924 (227.2K), and NVIDIA/SkillSpector — the security scanner for agent skills — climbed +804 to 4.7K, up from +319 just two days ago. The skills supply chain now has every layer it needs: authoring, scanning, session audit (kenn-io/agentsview +190), and prompt provenance (x1xhlol's system-prompt collection at 140.4K). Skills are no longer a trend; they're an SDLC with its own attack surface.",
+      "text": "GLM 5.2 Is Out (473 pts, 260 comments)",
       "tags": [
-        "security",
-        "supply-chain",
-        "agents"
-      ]
+        "hacker-news"
+      ],
+      "source": "HN 473pts",
+      "url": "https://twitter.com/jietang/status/2065784751345287314"
     },
     {
-      "text": "AI-as-fabrication-tool crossed from the dev toolchain into the courtroom. 'Police officer investigated for using AI to create evidence in multiple cases' hit 311 points/143 comments — the same provenance failure as the Fedora rogue agent and fabricated maintainer replies, now inside a process that assumes authentic artifacts. The unifying anxiety of the week spans three institutions at once: can I trust this was produced the way it claims? in code, in law, and — via the Census Bureau noise-infusion ban (804 points, the day's biggest thread) — in official statistics.",
+      "text": "Every Frame Perfect (81 pts on Lobsters)",
       "tags": [
-        "agents",
-        "rust"
-      ]
+        "lobsters",
+        "design",
+        "graphics"
+      ],
+      "source": "Lobsters 81pts",
+      "url": "https://tonsky.me/blog/every-frame-perfect/"
     },
     {
-      "text": "Local inference keeps getting cheaper and stranger, exactly as frontier access turns conditional. A heterogeneous RTX 5080 + RTX 3090 build hit 80 tok/s on Qwen 3.6 27B Q8 (235 points) — mismatched architectures and VRAM, an 'add a card' upgrade path rather than a full rebuild — while 'a low-carbon computing platform from your retired phones' drew 279 points/150 comments. Paired with GLM 5.2's coming open weights and yesterday's 72-tok/s M1 Max tutorial, running a competent agent off the grid of the labs is now a build, not a wish.",
+      "text": "repo-slopscore: Detecting AI/LLM contributions in git repositories via commit history analysis (33 pts on Lobsters)",
       "tags": [
-        "agents"
-      ]
-    },
-    {
-      "text": "OpenAI answered Anthropic's access wobble with distribution, not features. 'Codex for Open Source' climbed to 221 points/81 comments: six months of free ChatGPT Pro plus Codex for maintainers of 1,000-plus-star projects, case-by-case Codex Security (GPT-5.4) for high-risk repos, and a $1M open-source fund. The timing is the play — buy goodwill and lock-in with the exact population most allergic to revocable access, the week a rival's models became politically conditional. Funding maintainers also quietly funds the integrity of the dependency graph.",
-      "tags": [
-        "security",
-        "supply-chain",
-        "open-source"
-      ]
-    },
-    {
-      "text": "Apple's container did the thing launch spikes don't do — for a week. +1,487 stars today (36.5K total) holds a multi-day streak above 1,000/day (+1,358 → +1,611 → +2,430 → +1,487), and the only honest read of seven days of that velocity is Docker Desktop displacement on the Mac as genuine demand. Meanwhile the ArXiv cs.AI front consolidated around orchestration — Reward Modeling for Multi-Agent Orchestration, AgentBeats agent assessment, Agents-K1 knowledge orchestration — the academic mirror of the chart's move from single skills to measuring and wiring fleets of them.",
-      "tags": [
-        "github-trending",
-        "agents",
-        "research"
-      ]
+        "lobsters",
+        "rust",
+        "show"
+      ],
+      "source": "Lobsters 33pts",
+      "url": "https://slopscan.ava.pet/"
     }
   ],
   "trending": [
@@ -123,7 +122,7 @@
     },
     {
       "label": "Insights Today",
-      "value": "8",
+      "value": "6",
       "unit": "stories"
     }
   ],
@@ -134,17 +133,17 @@
     },
     "headlines": [
       {
-        "text": "The hand behind the ban has a name, and it's Anthropic's biggest backer. Reporting traces yesterday's government suspension of Fable 5 and Mythos 5 to Amazon CEO Andy Jassy, who told Treasury Secretary Scott Bessent that Amazon's own researchers had prompted Fable 5 into producing cyberattack-usable information . Amazon is Anthropic's single largest investor at ~$8B",
+        "text": "Honda Civics and the Evil Valet",
         "metric": "—",
         "source": "web"
       },
       {
-        "text": "The open counterweight landed on schedule, again. Zhipu/Z.ai shipped GLM 5.2 the same 48 hours the US gated the Western frontier : a 744B-parameter MoE with a 1M-token context window, coding-first, live across every GLM Coding Plan tier, MIT-licensed weights promised 'next week.' No benchmarks at launch",
+        "text": "Tribblix: The retro Illumos distribution",
         "metric": "—",
         "source": "web"
       },
       {
-        "text": "The counter-narrative to the ban ran the same week, buried at 29 points. Anthropic's 'Making Claude a Chemist' shows Opus 4.7",
+        "text": "Noise infusion banned from statistical products published by Census Bureau",
         "metric": "—",
         "source": "web"
       }
