@@ -1,0 +1,122 @@
+[
+  {
+    "rank": 1,
+    "title": "Honda Civics and the Evil Valet",
+    "url": "https://juniperspring.org/posts/honda-evil-valet/",
+    "hn_url": "https://news.ycombinator.com/item?id=48523080",
+    "points": 186,
+    "comments": 30
+  },
+  {
+    "rank": 2,
+    "title": "Tribblix: The retro Illumos distribution",
+    "url": "http://tribblix.org/",
+    "hn_url": "https://news.ycombinator.com/item?id=48524434",
+    "points": 12,
+    "comments": 1
+  },
+  {
+    "rank": 3,
+    "title": "Noise infusion banned from statistical products published by Census Bureau",
+    "url": "https://desfontain.es/blog/banning-noise.html",
+    "hn_url": "https://news.ycombinator.com/item?id=48517377",
+    "points": 789,
+    "comments": 491
+  },
+  {
+    "rank": 4,
+    "title": "GLM 5.2 Is Out",
+    "url": "https://twitter.com/jietang/status/2065784751345287314",
+    "hn_url": "https://news.ycombinator.com/item?id=48518684",
+    "points": 473,
+    "comments": 260
+  },
+  {
+    "rank": 5,
+    "title": "Pac-Man, but you're the ghost",
+    "url": "https://garrit.xyz/posts/2026-06-13-pac-man-but-you-re-the-ghost",
+    "hn_url": "https://news.ycombinator.com/item?id=48524135",
+    "points": 28,
+    "comments": 16
+  },
+  {
+    "rank": 6,
+    "title": "Every Frame Perfect",
+    "url": "https://tonsky.me/blog/every-frame-perfect/",
+    "hn_url": "https://news.ycombinator.com/item?id=48516251",
+    "points": 650,
+    "comments": 211
+  },
+  {
+    "rank": 7,
+    "title": "Building a serial and VGA \"everything console\"",
+    "url": "http://oldvcr.blogspot.com/2026/06/building-serial-and-vga-everything.html",
+    "hn_url": "https://news.ycombinator.com/item?id=48523615",
+    "points": 16,
+    "comments": 0
+  },
+  {
+    "rank": 8,
+    "title": "FreeOberon \u2013 Open-Source, Cross-Platform, Free Pascal/Turbo Pascal-Like Language",
+    "url": "https://github.com/kekcleader/FreeOberon",
+    "hn_url": "https://news.ycombinator.com/item?id=48490927",
+    "points": 61,
+    "comments": 21
+  },
+  {
+    "rank": 9,
+    "title": "Python 3.14 garbage collection rigamarole",
+    "url": "https://theconsensus.dev/p/2026/06/06/python-3-14-garbage-collection-rigamarole.html",
+    "hn_url": "https://news.ycombinator.com/item?id=48503009",
+    "points": 35,
+    "comments": 16
+  },
+  {
+    "rank": 10,
+    "title": "Treating pancreatic tumours may have revealed cancer's master switch",
+    "url": "https://economist.com/science-and-technology/2026/06/12/treating-pancreatic-tumours-may-have-revealed-cancers-master-switch",
+    "hn_url": "https://news.ycombinator.com/item?id=48517199",
+    "points": 335,
+    "comments": 120
+  },
+  {
+    "rank": 11,
+    "title": "Pyodide 314.0: Python packages can now publish WebAssembly wheels to PyPI",
+    "url": "https://blog.pyodide.org/posts/314-release/",
+    "hn_url": "https://news.ycombinator.com/item?id=48462759",
+    "points": 108,
+    "comments": 26
+  },
+  {
+    "rank": 12,
+    "title": "(Re//Verse 2026) Taxonomy and Deobfuscation of a Real World Binary Obfuscator [pdf]",
+    "url": "https://github.com/AnalogCyberNuke/RE-Verse-2026-Slides/blob/main/Reverse26.pdf",
+    "hn_url": "https://news.ycombinator.com/item?id=48491376",
+    "points": 10,
+    "comments": 1
+  },
+  {
+    "rank": 13,
+    "title": "Weave: Merging based on language structure and not lines",
+    "url": "https://ataraxy-labs.github.io/weave/",
+    "hn_url": "https://news.ycombinator.com/item?id=48523705",
+    "points": 17,
+    "comments": 6
+  },
+  {
+    "rank": 14,
+    "title": "Free SQL\u2192ER diagram tool, runs in the browser, nothing uploaded",
+    "url": "https://sqltoerdiagram.com/",
+    "hn_url": "https://news.ycombinator.com/item?id=48523992",
+    "points": 22,
+    "comments": 9
+  },
+  {
+    "rank": 15,
+    "title": "Software Architecture Guide (2019)",
+    "url": "https://martinfowler.com/architecture/",
+    "hn_url": "https://news.ycombinator.com/item?id=48524084",
+    "points": 39,
+    "comments": 13
+  }
+]

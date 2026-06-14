@@ -1,0 +1,65 @@
+[
+  {
+    "name": "agent-skills",
+    "fullName": "addyosmani/agent-skills",
+    "description": "Production-grade engineering skills for AI coding agents",
+    "language": "Shell",
+    "stars_today": "1,514 stars today",
+    "total_stars": "57200",
+    "url": "https://github.com/addyosmani/agent-skills"
+  },
+  {
+    "name": "container",
+    "fullName": "apple/container",
+    "description": "Tool for creating and running Linux containers on Mac using lightweight virtual machines, optimized for Apple silicon",
+    "language": "Swift",
+    "stars_today": "1,487 stars today",
+    "total_stars": "30150",
+    "url": "https://github.com/apple/container"
+  },
+  {
+    "name": "superpowers",
+    "fullName": "obra/superpowers",
+    "description": "An agentic skills framework and software development methodology that works",
+    "language": "Shell",
+    "stars_today": "924 stars today",
+    "total_stars": "19222",
+    "url": "https://github.com/obra/superpowers"
+  },
+  {
+    "name": "iptv",
+    "fullName": "iptv-org/iptv",
+    "description": "Collection of publicly available IPTV channels from all over the world",
+    "language": "TypeScript",
+    "stars_today": "530 stars today",
+    "total_stars": "86000",
+    "url": "https://github.com/iptv-org/iptv"
+  },
+  {
+    "name": "PowerToys",
+    "fullName": "microsoft/PowerToys",
+    "description": "Windows system utilities to maximize productivity",
+    "language": "C#",
+    "stars_today": "370 stars today",
+    "total_stars": "115000",
+    "url": "https://github.com/microsoft/PowerToys"
+  },
+  {
+    "name": "LMCache",
+    "fullName": "LMCache/LMCache",
+    "description": "Supercharge your LLM with the fastest KV cache layer",
+    "language": "Python",
+    "stars_today": "238 stars today",
+    "total_stars": "8400",
+    "url": "https://github.com/LMCache/LMCache"
+  },
+  {
+    "name": "agentsview",
+    "fullName": "kenn-io/agentsview",
+    "description": "Session intelligence and analytics for coding agents, supporting multiple AI coding platforms",
+    "language": "Go",
+    "stars_today": "190 stars today",
+    "total_stars": "3200",
+    "url": "https://github.com/kenn-io/agentsview"
+  }
+]

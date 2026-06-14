@@ -1,0 +1,202 @@
+[
+  {
+    "type": "intro",
+    "highlight": "Intelligence Brief",
+    "subtext": "June 14, 2026",
+    "label": "DAILY"
+  },
+  {
+    "type": "intro",
+    "highlight": "Census Bureau Noise Ban",
+    "subtext": "Differential privacy removed from federal statistics",
+    "label": "LEAD STORY"
+  },
+  {
+    "type": "number",
+    "number": "789",
+    "highlight": "HN points on Census noise ban",
+    "subtext": "491 comments — most technically contested policy story of the year",
+    "label": "HACKER NEWS"
+  },
+  {
+    "type": "quote",
+    "highlight": "Sounds like cleaning up data. But that's exactly backwards.",
+    "subtext": "Noise was the protection — removing it destroys privacy",
+    "label": "REVERSAL"
+  },
+  {
+    "type": "insight",
+    "highlight": "Without noise infusion, the only alternative is suppression",
+    "subtext": "Minority group data erased — the populations who need it most",
+    "label": "PRIVACY"
+  },
+  {
+    "type": "action",
+    "highlight": "Civil rights data destroyed to protect redistricting flexibility",
+    "subtext": "Federal resource allocation depends on this suppressed data",
+    "label": "EQUITY SIGNAL"
+  },
+  {
+    "type": "insight",
+    "highlight": "Reconstruction attacks could enable redistricting manipulation",
+    "subtext": "Gerrymandering enablement through re-identification",
+    "label": "POLITICAL RISK"
+  },
+  {
+    "type": "insight",
+    "highlight": "Same day: Fable 5 and Mythos 5 suspended globally",
+    "subtext": "US export control directive forces Anthropic's hand",
+    "label": "AI GOVERNANCE"
+  },
+  {
+    "type": "number",
+    "number": "49",
+    "highlight": "Lobsters pts on Anthropic suspension statement",
+    "subtext": "Export control over a narrow code-vulnerability jailbreak",
+    "label": "DIRECTIVE"
+  },
+  {
+    "type": "quote",
+    "highlight": "If applied industry-wide, would halt all new model deployments",
+    "subtext": "Anthropic publicly disputes the government's security standard",
+    "label": "UNPRECEDENTED"
+  },
+  {
+    "type": "insight",
+    "highlight": "A frontier AI lab publicly disputing a government directive",
+    "subtext": "First such public disagreement in the frontier AI record",
+    "label": "PRECEDENT"
+  },
+  {
+    "type": "insight",
+    "highlight": "Two stories, same day — both technical infrastructure as policy levers",
+    "subtext": "Statistical randomness removed; frontier AI capability suspended",
+    "label": "PATTERN"
+  },
+  {
+    "type": "insight",
+    "highlight": "Technical privacy mechanisms treated as policy levers, not infrastructure",
+    "label": "SIGNAL"
+  },
+  {
+    "type": "repo",
+    "highlight": "GLM 5.2 — 1M context, MIT-licensed, no benchmarks",
+    "subtext": "Zhipu ships 1M-token coding model while Fable 5 goes dark",
+    "label": "GITHUB / Z.AI"
+  },
+  {
+    "type": "insight",
+    "highlight": "Fable 5 suspended the day a 1M-context open-weight model ships",
+    "subtext": "Two ends of the frontier model landscape in one day",
+    "label": "CONTRAST"
+  },
+  {
+    "type": "insight",
+    "highlight": "Open weights: once released, no government directive pulls them back",
+    "subtext": "The structural difference between API and open-weight AI",
+    "label": "OPEN SOURCE"
+  },
+  {
+    "type": "number",
+    "number": "1M",
+    "highlight": "Token context in GLM 5.2",
+    "subtext": "Entire codebase ingested in one shot — self-hosted, at inference cost",
+    "label": "CONTEXT WINDOW"
+  },
+  {
+    "type": "action",
+    "highlight": "The self-hosted coding assistant that knows your whole repo",
+    "subtext": "Available next week — at inference cost, not API cost",
+    "label": "BUILD THIS"
+  },
+  {
+    "type": "insight",
+    "highlight": "Every Frame Perfect — 650 HN pts, 81 Lobsters pts",
+    "subtext": "The freeze-frame test: pause any animation — does it make sense?",
+    "label": "UI PHILOSOPHY"
+  },
+  {
+    "type": "quote",
+    "highlight": "Pause your animation at any arbitrary moment — does this make sense?",
+    "subtext": "Most apps fail Prokopov's freeze-frame test",
+    "label": "EVERY FRAME PERFECT"
+  },
+  {
+    "type": "insight",
+    "highlight": "Incoherent intermediate states undermine trust subconsciously",
+    "subtext": "Users feel jarring frames even at 60fps without registering them",
+    "label": "UX SIGNAL"
+  },
+  {
+    "type": "insight",
+    "highlight": "Census noise ban and freeze-frame test — same underlying principle",
+    "subtext": "Intermediate states must be valid, not just endpoints",
+    "label": "THROUGHLINE"
+  },
+  {
+    "type": "insight",
+    "highlight": "Remove the mechanisms for valid intermediate states and something breaks",
+    "subtext": "Hard to see, easy to feel — whether statistical or visual",
+    "label": "ABSTRACTION"
+  },
+  {
+    "type": "insight",
+    "highlight": "Daraxonrasib doubled survival time for advanced pancreatic cancer",
+    "subtext": "Phase 3 trial — standing ovation at ASCO 2026",
+    "label": "BIOMEDICAL"
+  },
+  {
+    "type": "number",
+    "number": "40",
+    "highlight": "Years KRAS was considered undruggable",
+    "subtext": "13.2 months median survival — up from 6.7 months — a category shift",
+    "label": "CANCER RESEARCH"
+  },
+  {
+    "type": "insight",
+    "highlight": "GATA6 as predictive biomarker — not just a drug, a treatment protocol",
+    "subtext": "Knowing which patients it works for is the difference",
+    "label": "PRECISION MEDICINE"
+  },
+  {
+    "type": "repo",
+    "highlight": "addyosmani/agent-skills — 57K stars, +1,514 today",
+    "subtext": "apple/container +1,487 · obra/superpowers +924 stars/day",
+    "label": "GITHUB TRENDING"
+  },
+  {
+    "type": "insight",
+    "highlight": "The frontier model race just split: pullable vs. unpullable AI",
+    "subtext": "Two categories of AI infrastructure diverging rapidly",
+    "label": "DIVERGENCE"
+  },
+  {
+    "type": "insight",
+    "highlight": "Not just AI — all technical infrastructure becoming policy levers",
+    "subtext": "Statistical systems, AI capabilities, automotive firmware",
+    "label": "SYSTEMS VIEW"
+  },
+  {
+    "type": "action",
+    "highlight": "Audit your dependencies: which infrastructure could be pulled?",
+    "subtext": "Open weights, local models, self-hosted systems — know the tradeoffs",
+    "label": "BUILDER ACTION"
+  },
+  {
+    "type": "action",
+    "highlight": "Build things coherent at every intermediate state",
+    "subtext": "Not just when they work perfectly — when failing, still make sense",
+    "label": "DESIGN PRINCIPLE"
+  },
+  {
+    "type": "close",
+    "highlight": "Every frame perfect",
+    "subtext": "The master switch found after forty years. The infrastructure is shifting.",
+    "label": "CLOSING"
+  },
+  {
+    "type": "close",
+    "highlight": "Go build something that passes the freeze-frame test",
+    "label": "SIGNAL OFF"
+  }
+]
