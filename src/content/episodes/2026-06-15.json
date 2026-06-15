@@ -3,71 +3,62 @@
   "episodeNumber": 86,
   "locale": "en-US",
   "title": "Intelligence Brief",
-  "subtitle": "Firewood Splitting Simulator earns 740 HN pts and , How to Earn a Billion Dollars earns 544 HN pts and, Show HN: Kage",
+  "subtitle": "Your ePub Is fine, Even more batteries included with Emacs, Show HN: Kage – Shadow any website to a single bin",
   "heroStat": {
     "value": "740",
     "label": "points on \"Firewood Splitting Simulator\""
   },
   "insights": [
     {
-      "text": "Firewood Splitting Simulator earns 740 HN pts (https://screen.toys/firewood/) and 229 comments (0.31:1 comment-to-point ratio) — the day's highest-scoring story by a decisive margin and the 2026 cycle's clearest demonstration that a precisely executed browser toy can outperform every substantive technical, governance, and research story competing for practitioner attention on a given morning. Screen.toys/firewood delivers exactly what its name promises: an interactive browser simulation of splitting firewood with a maul, rendered with enough physical fidelity that the wood grain, the split angle, and the satisfying crack of a clean split are recognizable to anyone who has done it. There is no scoring system, no progression, no social layer, and no learning objective — it is, entirely, the experience of splitting firewood, abstracted to its most satisfying mechanical element and made available without installation, account creation, or payment. The 0.31:1 comment-to-point ratio is the wide-endorsement-with-limited-debate pattern for experiences the HN community validates unanimously but has little to say about analytically: 229 comments exist primarily as a venue for practitioners to describe the physical satisfaction of the simulation and the degree to which it captures the specific resistance and release of a real split. The structural significance of the 740-point score is what it displaces: Paul Graham's billion-dollar essay at 544 points, a Show HN for a website archival tool at 492 points, an ePub DRM investigation at 400 points, and a municipal AI fraud disclosure at 321 points all scored below a firewood toy. The HN community's revealed preference on June 15, 2026 is that the most precise interactive simulation of a satisfying physical experience is worth more practitioner attention than any single story about AI governance, software tools, or publishing infrastructure. The compound signal: on a day when the dominant substantive stories concern AI model integrity, DRM as user-hostile infrastructure, and municipal government LLM fraud, the community's collective judgment awards the day's highest score to the simulation of splitting wood — which is either the most coherent or the least coherent response to the surrounding news, depending on whether you treat the vote as endorsement or escape. (740 HN pts) Source: https://screen.toys/firewood/",
+      "text": "Your ePub Is fine (399 pts, 161 comments)",
       "tags": [
-        "research",
-        "fintech"
+        "hacker-news"
       ],
-      "source": "HN 740pts",
-      "url": "https://screen.toys/firewood/"
+      "source": "HN 399pts",
+      "url": "https://andreklein.net/your-epub-is-fine-kobo-disagrees-blame-adobe/"
     },
     {
-      "text": "How to Earn a Billion Dollars earns 544 HN pts (https://paulgraham.com/earn.html) and 1557 comments (2.86:1 comment-to-point ratio) — the day's most contested story and the 2026 cycle's clearest demonstration that Paul Graham's Oxford Union talk transcripts generate a comment-to-point ratio structure unlike any other content category on HN: 1557 comments against 544 points is a 2.86:1 ratio that represents the near-maximum-disagreement pattern, where the community endorses the topic's importance while generating substantive challenge to nearly every specific claim in the piece. Graham's central argument, adapted from his Oxford Union appearance, is that the path to a billion-dollar outcome runs through ideas that appeared ridiculous at inception — his canonical examples being Facebook's founding premise ('undergrads stalking each other') and Airbnb's ('sleeping on a stranger's airbed') — and that the evaluative heuristic for identifying billion-dollar opportunities is specifically to find ideas that seem embarrassing to take seriously at the moment of founding. The essay extends this framework to AI: the ideas most likely to produce billion-dollar AI companies are those that current practitioners dismiss as either obvious, trivial, or socially awkward to pursue, not those that appear technically sophisticated to the 2026 practitioner community's current framework of what constitutes important AI work. The 2.86:1 comment ratio is not primarily about disagreement with the embarrassing-idea thesis — the HN thread broadly accepts the historical evidence — but about the structural tension between the thesis's application and its audience: practitioners reading advice about ignoring practitioner consensus are, by definition, in the community whose consensus the advice instructs them to ignore, which makes every reader simultaneously the target audience and a counterexample to the advice. The 1557-comment thread is organized around three readings: the empirical reading (which specific current AI ideas qualify as embarrassing enough to be the next billion-dollar opportunity); the survivorship-bias reading (the selection effect that makes the embarrassing-ideas framework appear predictive because failures are not remembered); and the class-and-access reading (the ideas that appear embarrassing rather than merely bad require a specific social positioning to attempt, and the essay does not address how that positioning is acquired). The compound signal: on a day when the highest-scoring story is a firewood simulator, the second-highest is an essay arguing that founders should pursue ideas that feel frivolous — two data points suggesting the community's judgment of what deserves attention and the community's stated theory of what deserves attention are structurally uncorrelated. (544 HN pts) Source: https://paulgraham.com/earn.html",
+      "text": "Even more batteries included with Emacs (97 pts, 18 comments)",
       "tags": [
-        "meta"
+        "hacker-news"
       ],
-      "source": "HN 544pts",
-      "url": "https://paulgraham.com/earn.html"
+      "source": "HN 97pts",
+      "url": "https://karthinks.com/software/even-more-batteries-included-with-emacs/"
     },
     {
-      "text": "Show HN: Kage — Shadow any website to a single binary for offline viewing earns 492 HN pts (https://github.com/tamnd/kage) and 102 comments (0.21:1 comment-to-point ratio) — the day's most technically surprising Show HN and the 2026 cycle's most compact articulation of the offline-first archival problem: Kage takes a URL, crawls the target website, and bundles every asset — HTML, CSS, JavaScript, fonts, images, and linked documents — into a single self-executing binary that serves the website locally without a network connection, without dependencies, and without any external infrastructure. The binary self-extracts and launches a local HTTP server on first run, making the archived website available in any browser without the user interacting with filesystem layout, port configuration, or serving dependencies. The architectural choice that distinguishes Kage from existing website archival tools is the single-binary delivery: tools like httrack, wget --mirror, and Wayback Machine downloads produce directory trees of files that require a web server to serve correctly, while Kage produces a portable executable that is its own serving infrastructure. The practical consequence for the use cases the HN thread examines — archiving documentation before a product discontinues, preserving research resources against link rot, building offline-capable knowledge bases for travel or air-gapped environments — is the elimination of the serving infrastructure requirement: a Kage binary behaves like a local application rather than a downloaded website. The 0.21:1 comment-to-point ratio is the wide-endorsement pattern for Show HNs that solve a problem the community has encountered independently: 492 practitioners upvote because the problem is immediately recognizable, with 102 commenting to examine the JavaScript execution model (whether single-page applications with client-side routing are preserved correctly), the binary size characteristics for typical documentation sites, and the relationship to existing tools like SingleFile and Monolith that target the single-HTML-file format rather than the self-executing binary. The compound signal with the day's ePub DRM story: on a day when the dominant publishing infrastructure story is about DRM making valid files appear broken, the dominant Show HN is about bundling entire websites into portable binaries for offline access — both stories organized around the same underlying practitioner desire for content that is owned and accessible without ongoing infrastructure dependencies. (492 HN pts) Source: https://github.com/tamnd/kage",
+      "text": "Show HN: Kage – Shadow any website to a single binary for offline viewing (492 pts, 102 comments)",
       "tags": [
-        "github-trending",
-        "research"
+        "hacker-news"
       ],
       "source": "HN 492pts",
       "url": "https://github.com/tamnd/kage"
     },
     {
-      "text": "Your ePub Is fine earns 400 HN pts (https://andreklein.net/your-epub-is-fine-kobo-disagrees-blame-adobe/) and 161 comments (0.40:1 comment-to-point ratio) — the day's most structurally legible DRM failure disclosure and the 2026 cycle's most precise documentation of how DRM systems produce user-facing error messages that misattribute the problem to the user rather than to the DRM infrastructure: Andre Klein's andreklein.net post documents the specific failure mode where Kobo e-readers running Adobe Digital Editions reject valid ePub files with error messages indicating the file is corrupt or incompatible, when the actual source of the rejection is a validation check in Kobo's Adobe DRM integration that enforces Adobe-specific metadata requirements not present in the ePub specification. The ePub is fine — it validates against the ePub specification, opens correctly in every non-DRM-protected reader, and contains no structural errors. The Kobo device, reading it through the Adobe DRM layer, produces a rejection that presents to the user as a file quality problem rather than a compatibility problem, a design choice in the error reporting layer that systematically places responsibility on the user for a failure that originates in the DRM infrastructure. The structural argument the post makes is about error message honesty: DRM systems have a systematic incentive to produce user-facing error messages that do not reveal the DRM layer's role in the failure, because accurate error attribution would require disclosing the specific DRM compatibility requirement that the user's file fails, which would in turn reveal the gap between the ePub standard and the DRM-extended standard Kobo actually enforces. The 0.40:1 comment-to-point ratio is the contested-endorsement pattern for DRM disclosures where the community endorses that the problem is real while debating the appropriate response: 161 comments examine the practical remediations (specific metadata fields that satisfy Adobe's validator, conversion tools that normalize ePubs to Kobo-compatible formatting), the competitive context (Kindle's DRM compatibility landscape has similar undocumented requirements), and the policy framing (whether the EU's Digital Markets Act's interoperability provisions are applicable to e-reader DRM). The compound signal with the Kage offline archival tool: on a day when the leading Show HN is a tool for making websites permanently accessible without infrastructure dependencies, the dominant publishing story is about DRM infrastructure making valid files appear broken — two stories organized around who controls access to content you have legitimately acquired. (400 HN pts) Source: https://andreklein.net/your-epub-is-fine-kobo-disagrees-blame-adobe/",
-      "tags": [],
-      "source": "HN 400pts",
-      "url": "https://andreklein.net/your-epub-is-fine-kobo-disagrees-blame-adobe/"
+      "text": "Bitsy (115 pts, 3 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 115pts",
+      "url": "https://bitsy.org/"
     },
     {
-      "text": "Rio de Janeiro's 'homegrown' LLM appears to be a merge of an existing model earns 321 HN pts (https://github.com/nex-agi/Nex-N2/issues/4) and 178 comments (0.55:1 comment-to-point ratio) — the week's most structurally significant municipal AI fraud disclosure and the 2026 cycle's clearest demonstration that the institutional pressure to claim AI capability is now generating verifiable misrepresentations at the level of city government: researchers investigating Nex-N2, a model that the city of Rio de Janeiro and nex-agi publicly described as an indigenously developed large language model built by the city's technology office, document in a GitHub issues thread that the model's architecture, weight initialization patterns, and internal metadata are consistent with a merge of existing publicly released models rather than an original training run — a finding that makes the 'homegrown' framing not a matter of interpretation but of technical fact. The specific evidence the GitHub thread assembles is the kind that model provenance auditing produces: weight hash comparisons, architecture fingerprinting against known model families, and analysis of the model card's training disclosures that contain inconsistencies with the claimed compute budget and training duration. A model that required the described training compute would produce detectable differences in weight distribution from a merge of existing models — the differences are absent. The 0.55:1 comment-to-point ratio is the moderately-contested pattern for fraud disclosures where the community endorses the finding while debating its framing: 178 comments examine the distinction between a 'merge' and an 'original model' in an era where fine-tuning on existing weights is standard practice, whether the city's press releases specifically claimed original training or merely described capability, and what institutional accountability mechanisms exist for government AI procurement claims. The structural implication is the precedent the disclosure creates: municipal governments are claiming AI development credit for work that, under technical scrutiny, is either procurement of existing capability or derivative work on publicly released models — a distinction with direct implications for the public funds allocated to AI capability claims. The compound signal with today's Paul Graham billion-dollar essay: on a day when the dominant startup advice is to pursue embarrassing ideas that look trivial to the outside world, the dominant government technology story is about a city claiming credit for AI development that looks substantial from the outside but is trivial under examination — the same gap between appearance and substance, organized in opposite directions. (321 HN pts) Source: https://github.com/nex-agi/Nex-N2/issues/4",
+      "text": "Deconstructing Datalog (47 pts on Lobsters)",
       "tags": [
-        "github-trending",
-        "research"
+        "lobsters",
+        "logiclangs",
+        "plt"
       ],
-      "source": "HN 321pts",
-      "url": "https://github.com/nex-agi/Nex-N2/issues/4"
+      "source": "Lobsters 47pts",
+      "url": "https://www.rntz.net/post/my-thesis.html"
     },
     {
-      "text": "ReactOS 'Open-Source Windows' reaches the milestone of running Half-Life earns 78 Lobsters pts (https://www.phoronix.com/news/ReactOS-Running-Half-Life) alongside Extinction-Level Capitalism reaching 75 Lobsters pts (https://matthewbutterick.com/extinction-level-capitalism.html) and zinnia — a modular 64-bit Unix-like kernel written in Rust — climbing to 37 Lobsters pts (https://zinnia-os.org/) — the day's three-part Lobsters signal and the 2026 cycle's most compressed articulation of OS history's long arc, AI's legal accountability exposure, and Rust's maturation as a systems language in a single platform's top stories. ReactOS at github.com is the OS compatibility layer: after 28 years of development aimed at producing a free, open-source implementation of the Windows NT API that can run Windows software without requiring a Windows license, ReactOS reaches the milestone of running Half-Life — the 1998 first-person shooter that has become the informal certification test for OS compatibility due to its reliance on a specific combination of Win32 API calls, DirectX primitives, and hardware timing behavior that exposes OS compatibility gaps. The Phoronix report documents the specific test: Half-Life runs with acceptable frame rates and full game loop integrity on current ReactOS builds, a milestone the project has been working toward as a capability signal rather than a practical deployment target. The Lobsters community's 78-point score is the platform's engaged-nostalgia pattern for OS projects that represent sustained long-term ambition: practitioners who have followed ReactOS through multiple decades of incremental progress treat the Half-Life milestone as evidence that the project's compatibility model is technically sound even if its deployment relevance is limited. Matthew Butterick's Extinction-Level Capitalism at 75 Lobsters pts is the day's most structurally direct analysis of AI copyright risk: Butterick, who has pursued multiple class-action lawsuits against AI companies for training on copyrighted work, argues that the legal exposure accumulated by major AI companies from training data practices constitutes an existential business risk that the companies have not publicly quantified — a financial risk of the same order as the companies' market capitalizations, hidden in liability footnotes. The zinnia kernel project at 37 Lobsters pts is the Rust OSdev signal: a modular 64-bit Unix-like kernel written in Rust, demonstrating the language's viability for production kernel development beyond the Linux kernel's Rust driver subsystem. The compound: ReactOS' 28-year Windows API compatibility project, Butterick's copyright liability argument, and zinnia's Rust kernel together constitute the OS legacy, legal accountability, and systems language future layers of the same practitioner community's attention on a single afternoon. Source: https://www.phoronix.com/news/ReactOS-Running-Half-Life",
+      "text": "Even More Batteries Included With Emacs (45 pts on Lobsters)",
       "tags": [
-        "github-trending",
-        "open-source",
-        "rust"
+        "lobsters",
+        "emacs"
       ],
-      "url": "https://www.phoronix.com/news/ReactOS-Running-Half-Life"
-    },
-    {
-      "text": "iptv-org/iptv surges to +1,528 stars today on GitHub (121,564 total stars, TypeScript) as NVIDIA/SkillSpector reaches +964 stars today (5,582 total stars, Python) and andrewyng/aisuite climbs to +291 stars today (14,461 total stars, Python) — the day's three-part GitHub trending signal and the 2026 pattern's most direct articulation of the open media infrastructure, AI agent security scanning, and multi-provider AI abstraction layers as three infrastructure categories capturing simultaneous practitioner attention on a day when municipal AI fraud and DRM user-blaming dominate the practitioner news. iptv-org/iptv at github.com/iptv-org/iptv is the open media infrastructure layer: a curated, automatically updated collection of publicly available IPTV streams from broadcasters worldwide, maintained as a TypeScript project that aggregates M3U playlists, validates stream availability, and publishes the resulting index as machine-readable data. The +1,528 single-day star velocity on a repository already at 121,564 total stars — one of the largest star counts in the trending dataset — describes a project that is simultaneously a practical resource for media access and a signal of practitioner interest in open alternatives to subscription broadcasting infrastructure. NVIDIA/SkillSpector at github.com/NVIDIA/SkillSpector is the AI agent security layer: a Python-based security scanner specifically designed to analyze AI agent skill definitions — the structured capability descriptions that tell AI coding agents what tools they can use and what actions they can take — for vulnerabilities, malicious instruction patterns, and security risks before deployment. The +964 daily star velocity on a 5,582-star repository describes a tool at the early institutional-adoption phase: teams deploying AI agents through skill frameworks are evaluating SkillSpector as the pre-deployment audit layer that closes the gap between 'this skill does what the description says' and 'this skill is safe to give an autonomous agent.' The structural significance of NVIDIA releasing this as open-source infrastructure is the implicit acknowledgment that AI agent skill security is a general infrastructure problem rather than a proprietary competitive advantage — the same architectural philosophy that drove Google to release TensorFlow and Meta to release PyTorch. Andrew Ng's aisuite at github.com/andrewyng/aisuite is the multi-provider abstraction layer: a Python library providing a unified interface to multiple generative AI providers including OpenAI, Anthropic, Google, and others, allowing practitioners to switch underlying model providers without changing application code. The +291 daily velocity on a 14,461-star repository describes sustained adoption for an interface that matters specifically when organizations need to evaluate multiple providers or hedge against single-provider dependency. The compound: open media streaming, AI agent security scanning, and multi-provider AI abstraction together constitute the media access, agent safety, and provider flexibility layers that practitioners are standardizing as AI deployment becomes infrastructure rather than innovation. (+1,528 stars/day, GitHub trending) Source: https://github.com/iptv-org/iptv",
-      "tags": [
-        "security",
-        "supply-chain",
-        "github-trending"
-      ],
-      "source": "GitHub +1,528/day",
-      "url": "https://github.com/iptv-org/iptv"
+      "source": "Lobsters 45pts",
+      "url": "https://karthinks.com/software/even-more-batteries-included-with-emacs/"
     }
   ],
   "trending": [
@@ -130,7 +121,7 @@
     },
     {
       "label": "Insights Today",
-      "value": "7",
+      "value": "6",
       "unit": "stories"
     }
   ],
@@ -141,19 +132,19 @@
     },
     "headlines": [
       {
-        "text": "Firewood Splitting Simulator earns 740 HN pts and 229 comments",
-        "metric": "740 pts",
-        "source": "HN"
+        "text": "Your ePub Is fine",
+        "metric": "—",
+        "source": "web"
       },
       {
-        "text": "How to Earn a Billion Dollars earns 544 HN pts and 1557 comments",
-        "metric": "544 pts",
-        "source": "HN"
+        "text": "Even more batteries included with Emacs",
+        "metric": "—",
+        "source": "web"
       },
       {
-        "text": "Show HN: Kage",
-        "metric": "492 pts",
-        "source": "HN"
+        "text": "Show HN: Kage – Shadow any website to a single binary for offline viewing",
+        "metric": "—",
+        "source": "web"
       }
     ],
     "takeaway": {
