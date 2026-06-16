@@ -3,60 +3,61 @@
   "episodeNumber": 87,
   "locale": "en-US",
   "title": "Intelligence Brief",
-  "subtitle": "Tuesday was the day the constraint surfaced everyw, The AI-dev-economics inversion got its sharpest on, Provenance went physical. The day's top story, 'I ",
+  "subtitle": "The time the x86 emulator team found code so bad t, A backdoor in a LinkedIn job offer, Banned Book Library in a Wi-Fi Smart Light Bulb",
   "heroStat": {
     "value": "1073",
     "label": "points on \"Iroh 1.0\""
   },
   "insights": [
     {
-      "text": "Tuesday was the day the constraint surfaced everywhere at once, and it isn't capability — it's compute and capital. 'Microsoft turns to AWS as GitHub faces AI capacity crunch' (150 points/66 comments) is an admission against interest: the company that owns GitHub and Azure is renting a rival's GPUs to keep its own AI features alive. It landed the same day as 'Amazon Announces Multibillion-Dollar Data Center in Missouri' (101/88) and 'OpenAI Losses Increased Nearly 8X in 2025, Spending Hitting $34B' (58/26) — the platform, the hyperscaler, and the lab each pricing the same scarcity from a different seat.",
+      "text": "The time the x86 emulator team found code so bad they fixed it during emulation (100 pts, 13 comments)",
       "tags": [
-        "github-trending"
-      ]
+        "hacker-news"
+      ],
+      "source": "HN 100pts",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20260615-00/?p=112419"
     },
     {
-      "text": "The AI-dev-economics inversion got its sharpest one-liner yet: 'Reviews have become expensive, rewrites have become cheap' (57 points/46 comments — note the comment-heavy ratio of a lived argument, not a headline upvote). When an agent can regenerate a module in seconds, the costly step is re-reading and trusting the output. This is the demand-side statement of the skills-governance handoff the GitHub chart has telegraphed all week — and exactly why NVIDIA/SkillSpector, the security scanner for agent skills, is still trending. The bottleneck arc completes: capability → reliability → persistence → trust.",
+      "text": "A backdoor in a LinkedIn job offer (958 pts, 184 comments)",
       "tags": [
-        "security",
-        "github-trending",
-        "agents"
-      ]
+        "hacker-news"
+      ],
+      "source": "HN 958pts",
+      "url": "https://roman.pt/posts/linkedin-backdoor/"
     },
     {
-      "text": "Provenance went physical. The day's top story, 'I Could've Rickrolled the FIFA World Cup. All I Needed Was My ID' (203 points/70 comments), is a credentialing gap at a global-scale event — and it's the same question that ran through code, law, and media all week: can I trust this was authorized the way it claims? After AI-fabricated police evidence, the rogue Fedora agent, and the deepfake expert who stopped trusting his eyes, physical access is the fourth domain. The constructive response is identical everywhere — attestation and chain-of-custody over inspection.",
+      "text": "Banned Book Library in a Wi-Fi Smart Light Bulb (283 pts, 134 comments)",
       "tags": [
-        "agents",
-        "rust"
-      ]
+        "hacker-news"
+      ],
+      "source": "HN 283pts",
+      "url": "https://www.richardosgood.com/posts/banned-book-library/"
     },
     {
-      "text": "When the cycle is about money and scale, Hacker News reverts to the lone virtuoso. 'The time the x86 emulator team found code so bad they fixed it during emulation' (170 points/43 comments) and 'John Carmack on Fabrice Bellard' (128/66) — reverence for QEMU/FFmpeg/QuickJS-grade individual mastery — out-engaged the AI news, alongside a pre-ASCII pictorial-typography archive and a chili-cultivar guide. The counter-position to the industrialized frontier is the human virtuoso, and it consistently fills the vacuum whenever compute and capex dominate the headline.",
-      "tags": []
-    },
-    {
-      "text": "A fourth lab joined the race for the developer. 'Cohere's First Model for Developers' (75 points/17 comments) puts the enterprise-RAG company explicitly into the coding workload — following OpenAI's Codex-for-Open-Source maintainer play, the Fable/Mythos coding-first pitch, and GLM 5.2. That a non-frontier lab still sees room to enter via the dev niche confirms developer mindshare is the contested frontier, not a settled one.",
+      "text": "Iroh 1.0 (1073 pts, 316 comments)",
       "tags": [
-        "open-source"
-      ]
+        "hacker-news"
+      ],
+      "source": "HN 1073pts",
+      "url": "https://www.iroh.computer/blog/v1"
     },
     {
-      "text": "The trajectory debate reignited, and the shape tells the story: 'Humanity isn't ready for the coming intelligence explosion' drew 144 comments on just 66 points — pure contention, no consensus, the same fault line as June 9's 'AI is slowing down' (480/500). The tension is sharp read against the day's other stories: an intelligence-explosion narrative running the same afternoon the substrate visibly can't power current demand.",
-      "tags": []
-    },
-    {
-      "text": "Skills governance held the velocity chart. NVIDIA/SkillSpector (security scanner for agent skills, ~1,079 stars in the tracked window) stayed on GitHub trending alongside Panniantong/Agent-Reach (agent web-browsing across X/Reddit/YouTube, ~1,100) and trycua/cua (open infra for Computer-Use Agents). The authoring → scanning handoff is holding: the market is buying trust and capability infrastructure, not more raw skills — the supply-side mirror of 'reviews expensive, rewrites cheap.'",
+      "text": "curl summer of bliss (214 pts on Lobsters)",
       "tags": [
-        "security",
-        "github-trending",
-        "agents"
-      ]
+        "lobsters",
+        "security"
+      ],
+      "source": "Lobsters 214pts",
+      "url": "https://daniel.haxx.se/blog/2026/06/15/curl-summer-of-bliss/"
     },
     {
-      "text": "Data sovereignty grew a build side. Raphire/Win11Debloat and itsfatduck/optimizerDuck — Windows debloat-and-de-cloud tools pitched on 'performance, privacy, and simplicity' — both trended on GitHub, the supply-side answer to yesterday's #1 HN story (the Windows 11 forced-account revolt, 192 points). Forced accounts, forced cloud, forced telemetry now generate tooling, not just complaint — the consumer face of the same objection running at the enterprise frontier.",
+      "text": "FreeBSD 15 on a Laptop (29 pts on Lobsters)",
       "tags": [
-        "github-trending"
-      ]
+        "lobsters",
+        "freebsd"
+      ],
+      "source": "Lobsters 29pts",
+      "url": "https://www.sacredheartsc.com/blog/freebsd-15-on-a-laptop/"
     }
   ],
   "trending": [
@@ -119,7 +120,7 @@
     },
     {
       "label": "Insights Today",
-      "value": "8",
+      "value": "6",
       "unit": "stories"
     }
   ],
@@ -130,17 +131,17 @@
     },
     "headlines": [
       {
-        "text": "Tuesday was the day the constraint surfaced everywhere at once, and it isn't capability",
+        "text": "The time the x86 emulator team found code so bad they fixed it during emulation",
         "metric": "—",
         "source": "web"
       },
       {
-        "text": "The AI-dev-economics inversion got its sharpest one-liner yet: 'Reviews have become expensive, rewrites have become cheap' (57 points/46 comments",
+        "text": "A backdoor in a LinkedIn job offer",
         "metric": "—",
         "source": "web"
       },
       {
-        "text": "Provenance went physical. The day's top story, 'I Could've Rickrolled the FIFA World Cup. All I Needed Was My ID' , is a credentialing gap at a global-scale event",
+        "text": "Banned Book Library in a Wi-Fi Smart Light Bulb",
         "metric": "—",
         "source": "web"
       }
