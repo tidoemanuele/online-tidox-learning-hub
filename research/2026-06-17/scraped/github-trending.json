@@ -1,0 +1,92 @@
+[
+  {
+    "name": "iptv",
+    "fullName": "iptv-org/iptv",
+    "description": "Collection of publicly available IPTV channels from all over the world",
+    "language": "TypeScript",
+    "stars_today": "2,657 stars today",
+    "total_stars": "123187",
+    "url": "https://github.com/iptv-org/iptv"
+  },
+  {
+    "name": "Agent-Reach",
+    "fullName": "Panniantong/Agent-Reach",
+    "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu \u2014 one CLI, zero API fees.",
+    "language": "Python",
+    "stars_today": "1,100 stars today",
+    "total_stars": "30771",
+    "url": "https://github.com/Panniantong/Agent-Reach"
+  },
+  {
+    "name": "SkillSpector",
+    "fullName": "NVIDIA/SkillSpector",
+    "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.",
+    "language": "Python",
+    "stars_today": "1,079 stars today",
+    "total_stars": "6561",
+    "url": "https://github.com/NVIDIA/SkillSpector"
+  },
+  {
+    "name": "freeCodeCamp",
+    "fullName": "freeCodeCamp/freeCodeCamp",
+    "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+    "language": "TypeScript",
+    "stars_today": "736 stars today",
+    "total_stars": "448035",
+    "url": "https://github.com/freeCodeCamp/freeCodeCamp"
+  },
+  {
+    "name": "Kronos",
+    "fullName": "shiyu-coder/Kronos",
+    "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+    "language": "Python",
+    "stars_today": "396 stars today",
+    "total_stars": "30376",
+    "url": "https://github.com/shiyu-coder/Kronos"
+  },
+  {
+    "name": "Introduction-to-Autonomous-Robots",
+    "fullName": "Introduction-to-Autonomous-Robots/Introduction-to-Autonomous-Robots",
+    "description": "Introduction to Autonomous Robots",
+    "language": "TeX",
+    "stars_today": "489 stars today",
+    "total_stars": "3117",
+    "url": "https://github.com/Introduction-to-Autonomous-Robots/Introduction-to-Autonomous-Robots"
+  },
+  {
+    "name": "chatwoot",
+    "fullName": "chatwoot/chatwoot",
+    "description": "Open-source live-chat, email support, omni-channel desk.",
+    "language": "Ruby",
+    "stars_today": "431 stars today",
+    "total_stars": "31792",
+    "url": "https://github.com/chatwoot/chatwoot"
+  },
+  {
+    "name": "ai-engineering-from-scratch",
+    "fullName": "rohitg00/ai-engineering-from-scratch",
+    "description": "Learn it. Build it. Ship it for others.",
+    "language": "Python",
+    "stars_today": "562 stars today",
+    "total_stars": "33290",
+    "url": "https://github.com/rohitg00/ai-engineering-from-scratch"
+  },
+  {
+    "name": "coding-interview-university",
+    "fullName": "jwasham/coding-interview-university",
+    "description": "A complete computer science study plan to become a software engineer.",
+    "language": "Markdown",
+    "stars_today": "364 stars today",
+    "total_stars": "352438",
+    "url": "https://github.com/jwasham/coding-interview-university"
+  },
+  {
+    "name": "Win11Debloat",
+    "fullName": "Raphire/Win11Debloat",
+    "description": "Lightweight PowerShell script to remove pre-installed apps, disable telemetry, and customize Windows experience.",
+    "language": "PowerShell",
+    "stars_today": "112 stars today",
+    "total_stars": "48128",
+    "url": "https://github.com/Raphire/Win11Debloat"
+  }
+]
