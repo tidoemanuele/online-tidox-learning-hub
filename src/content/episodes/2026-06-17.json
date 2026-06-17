@@ -3,54 +3,62 @@
   "episodeNumber": 88,
   "locale": "en-US",
   "title": "Intelligence Brief",
-  "subtitle": "The compute constraint stopped being an anecdote a, The single most load-bearing figure isn't the $38., Data sovereignty jumped from the enterprise to the",
+  "subtitle": "GrapheneOS has been ported to Android 17, Running local models is good now, Humiliating IIS servers for fun and jail time",
   "heroStat": {
-    "value": "5B",
-    "label": "loss and compute burn"
+    "value": "1173",
+    "label": "points on \"Running local models is good now\""
   },
   "insights": [
     {
-      "text": "The compute constraint stopped being an anecdote and became an audited number. 'Leaked OpenAI financials show $38.5B loss and compute burn' (193 points/202 comments — the day's top story by a wide margin) puts $13.07B revenue against a $38.5B net loss, with $17.2B paid to Microsoft for compute — weeks before a confidential S-1 targeting a $1T IPO. Last week the crunch surfaced as anecdote (GitHub renting AWS, the Amazon Missouri datacenter); today it's a filing, and the filing says the cost is compute and it's hostage to one vendor.",
+      "text": "GrapheneOS has been ported to Android 17 (580 pts, 253 comments)",
       "tags": [
-        "github-trending"
-      ]
+        "hacker-news"
+      ],
+      "source": "HN 580pts",
+      "url": "https://discuss.grapheneos.org/d/36469-grapheneos-has-been-ported-to-android-17-and-official-releases-are-coming-soon"
     },
     {
-      "text": "The single most load-bearing figure isn't the $38.5B loss — it's the $17.2B Azure line. A frontier lab's economics are concentrated in one hyperscaler's pricing, and $10.59B of R&D routed to Microsoft alone, the same week it asks the public market for a trillion dollars. Payability, not capability, is the question on this page. The 06-16 'reviews expensive, rewrites cheap' bottleneck has a financial twin: the costly thing is the compute bill, and someone else owns the meter.",
-      "tags": []
-    },
-    {
-      "text": "Data sovereignty jumped from the enterprise to the nation-state. 'France to ditch Palantir's AI data tools in favour of domestic provider' (30 points) is DGSI ending a decade with Palantir for French startup ChapsVision and handing every civil servant a Mistral assistant — PM Lecornu citing the need not to 'depend on the goodwill of certain partners, who are capable of turning off the access tap.' Germany made the same ChapsVision switch last month. The Fable 5 export-restriction risk is now sovereign procurement doctrine.",
-      "tags": []
-    },
-    {
-      "text": "Power fused with compute as the real bottleneck, and it's now statecraft. 'DOJ claims xAI's gas turbines are a matter of national and energy security' (59 points/29 comments) prices the constraint one layer below the financials: the floor under the $17.2B compute bill is electricity, and electricity is now a federal-security asset. The bottleneck arc extends — capability → reliability → persistence → trust → power/sovereignty. The frontier's ceiling moved out of the model and into the grid.",
+      "text": "Running local models is good now (1173 pts, 468 comments)",
       "tags": [
-        "security",
-        "rust"
-      ]
+        "hacker-news"
+      ],
+      "source": "HN 1173pts",
+      "url": "https://vickiboykis.com/2026/06/15/running-local-models-is-good-now/"
     },
     {
-      "text": "Capacity rationing got operationalized in a one-line footnote: 'GitHub Models is no longer available to new customers' (13 points). When a platform stops onboarding for a hosted-model product, that's the downstream face of June 16's 'Microsoft turns to AWS as GitHub faces AI capacity crunch.' The same scarcity that produces a $17.2B Azure bill produces a closed door — the crunch isn't a headline anymore, it's a product decision.",
+      "text": "Humiliating IIS servers for fun and jail time (176 pts, 40 comments)",
       "tags": [
-        "github-trending"
-      ]
+        "hacker-news"
+      ],
+      "source": "HN 176pts",
+      "url": "https://mll.sh/humiliating-iis-servers-for-fun-and-jail-time/"
     },
     {
-      "text": "Attestation reached the last place that resisted it. 'Mozilla Added Google Play Integrity to Firefox for Android' (12 points) means even the privacy-positioned browser now ships hardware-backed device attestation — the 'can I trust this client?' cost is now paid universally. Its inverse ran the same day: 'Peter Thiel's Dialog network... attendance list leaked via hard-coded HTML' (63/35 points), secrecy-by-obscurity defeated by reading the page source. Attestation hardening vs. the cost of not having it, same afternoon.",
+      "text": "Wolfram Language and Mathematica Version 15, AI Assistant, Symbolic Music, More (128 pts, 43 comments)",
       "tags": [
-        "rust"
-      ]
+        "hacker-news"
+      ],
+      "source": "HN 128pts",
+      "url": "https://writings.stephenwolfram.com/2026/06/launching-version-15-of-wolfram-language-mathematica-built-in-useful-ai-lots-of-new-core-functionality/"
     },
     {
-      "text": "On a day of losses, turbines, and IPOs, Hacker News reverted to comprehensible craft for the second day running. Wolfram 15 (145 points/62 comments), 'A brief tour of the PDP-11' (68/24), a Nipkow-disk mechanical-TV simulator (38), the IBM 1130 (28), and 'Working in Glass' (20) out-engaged nearly all the AI news. After June 16's Carmack-on-Bellard and x86-emulator slots, the resting-state appetite is firm: when the cycle goes industrial, the authored, hand-made, individually-masterable artifact wins the page.",
-      "tags": []
-    },
-    {
-      "text": "The consumer face of the sovereignty fight kept losing at the policy layer. 'Stop Killing Games fails to secure EU law despite 1.3M signatures' (140 points/42 comments) — the campaign against publishers remotely disabling purchased games didn't convert into law. It's the exact grievance Lecornu raised at the state level ('turn off the access tap'), one tier down: states act decisively for themselves while citizens lose the same ownership-vs-remote-control argument. On GitHub, the build-side answer trended — universal-android-debloater (+146), iroh local-first networking (+334), VoxCPM on-device TTS (+408).",
+      "text": "Google Chrome's next update will mark the end of popular ad blockers (54 pts on Lobsters)",
       "tags": [
-        "github-trending"
-      ]
+        "lobsters",
+        "browsers"
+      ],
+      "source": "Lobsters 54pts",
+      "url": "https://9to5google.com/2026/06/15/google-chromes-next-update-will-mark-the-end-of-popular-ad-blockers/"
+    },
+    {
+      "text": "KDE Plasma 6.7 released (87 pts on Lobsters)",
+      "tags": [
+        "lobsters",
+        "linux",
+        "release"
+      ],
+      "source": "Lobsters 87pts",
+      "url": "https://kde.org/announcements/plasma/6/6.7.0/"
     }
   ],
   "trending": [
@@ -113,7 +121,7 @@
     },
     {
       "label": "Insights Today",
-      "value": "8",
+      "value": "6",
       "unit": "stories"
     }
   ],
@@ -124,17 +132,17 @@
     },
     "headlines": [
       {
-        "text": "The compute constraint stopped being an anecdote and became an audited number. 'Leaked OpenAI financials show $38.5B loss and compute burn' (193 points/202 comments",
+        "text": "GrapheneOS has been ported to Android 17",
         "metric": "—",
         "source": "web"
       },
       {
-        "text": "The single most load-bearing figure isn't the $38.5B loss",
+        "text": "Running local models is good now",
         "metric": "—",
         "source": "web"
       },
       {
-        "text": "Data sovereignty jumped from the enterprise to the nation-state. 'France to ditch Palantir's AI data tools in favour of domestic provider' is DGSI ending a decade with Palantir for French startup ChapsVision and handing every civil servant a Mistral assistant",
+        "text": "Humiliating IIS servers for fun and jail time",
         "metric": "—",
         "source": "web"
       }
