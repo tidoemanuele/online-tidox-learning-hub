@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Agent-Reach",
+    "fullName": "Panniantong/Agent-Reach",
+    "description": "CLI tool enabling AI agents to read and search Twitter, Reddit, YouTube, GitHub without API fees",
+    "language": "Python",
+    "stars_today": "1161 stars today",
+    "total_stars": "8400",
+    "url": "https://github.com/Panniantong/Agent-Reach"
+  },
+  {
+    "name": "superpowers",
+    "fullName": "obra/superpowers",
+    "description": "Agentic skills framework and software development methodology",
+    "language": "Shell",
+    "stars_today": "1129 stars today",
+    "total_stars": "226215",
+    "url": "https://github.com/obra/superpowers"
+  },
+  {
+    "name": "timesfm",
+    "fullName": "google-research/timesfm",
+    "description": "Pretrained time-series foundation model for forecasting developed by Google Research",
+    "language": "Python",
+    "stars_today": "606 stars today",
+    "total_stars": "8900",
+    "url": "https://github.com/google-research/timesfm"
+  },
+  {
+    "name": "iroh",
+    "fullName": "n0-computer/iroh",
+    "description": "Modular networking stack using dial keys instead of IP addresses",
+    "language": "Rust",
+    "stars_today": "421 stars today",
+    "total_stars": "6300",
+    "url": "https://github.com/n0-computer/iroh"
+  },
+  {
+    "name": "codebase-memory-mcp",
+    "fullName": "DeusData/codebase-memory-mcp",
+    "description": "High-performance code intelligence MCP server that indexes codebases into a persistent knowledge graph",
+    "language": "C",
+    "stars_today": "371 stars today",
+    "total_stars": "52314",
+    "url": "https://github.com/DeusData/codebase-memory-mcp"
+  },
+  {
+    "name": "lore",
+    "fullName": "EpicGames/lore",
+    "description": "Next-generation, open source revision control system designed for scalability",
+    "language": "C++",
+    "stars_today": "312 stars today",
+    "total_stars": "49216",
+    "url": "https://github.com/EpicGames/lore"
+  },
+  {
+    "name": "ponytail",
+    "fullName": "DietrichGebert/ponytail",
+    "description": "Makes your AI agent think like the laziest senior dev in the room",
+    "language": "Python",
+    "stars_today": "287 stars today",
+    "total_stars": "93643",
+    "url": "https://github.com/DietrichGebert/ponytail"
+  },
+  {
+    "name": "meshery",
+    "fullName": "meshery/meshery",
+    "description": "Cloud native manager platform",
+    "language": "TypeScript",
+    "stars_today": "196 stars today",
+    "total_stars": "7100",
+    "url": "https://github.com/meshery/meshery"
+  },
+  {
+    "name": "hello-algo",
+    "fullName": "krahets/hello-algo",
+    "description": "Animated data structures and algorithms tutorial with implementations in multiple languages",
+    "language": "Java",
+    "stars_today": "96 stars today",
+    "total_stars": "112000",
+    "url": "https://github.com/krahets/hello-algo"
+  },
+  {
+    "name": "eve",
+    "fullName": "vercel/eve",
+    "description": "The Framework for Building Agents",
+    "language": "TypeScript",
+    "stars_today": "89 stars today",
+    "total_stars": "23213",
+    "url": "https://github.com/vercel/eve"
+  }
+]
