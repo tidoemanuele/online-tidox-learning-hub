@@ -1,78 +1,138 @@
 {
   "date": "2026-06-19",
-  "episodeNumber": 89,
+  "episodeNumber": 90,
   "locale": "en-US",
   "title": "Intelligence Brief",
-  "subtitle": "The trust crisis reached the open-source supply ch, Provenance ran backwards too. 'Show HN: Are You in, The trust failure surfaced a third time, in AI sea",
+  "subtitle": "I found 10k GitHub repositories distributing Troja, .gitignore Isn't the only way to ignore files in G, I told them forced consent was unlawful. 5 years l",
+  "heroStat": {
+    "value": "798",
+    "label": "points on \"I found 10k GitHub repositories distributing Trojan malware\""
+  },
   "insights": [
     {
-      "text": "The trust crisis reached the open-source supply chain at industrial scale. 'I found 10k GitHub repositories distributing Trojan malware' (746 points/188 comments — the day's top by more than 2x) is one researcher's disclosure that 10,000 non-fork repos have distributed Trojans for over a year, evading GitHub's automated scanning with a mechanical trick: each deletes its latest commit and re-pushes an identical 'Update README.md' every few hours to look freshly maintained. That's roughly 91x the 109 repos a security firm flagged in April. The mechanism is the tell — it's engineered specifically against review, the same 'inspection is over, attestation is the only answer' lesson the skills economy learned a month ago, now forced onto repo distribution.",
+      "text": "I found 10k GitHub repositories distributing Trojan malware (798 pts, 210 comments)",
       "tags": [
-        "security",
-        "supply-chain",
-        "github-trending"
-      ]
+        "hacker-news"
+      ],
+      "source": "HN 798pts",
+      "url": "https://orchidfiles.com/github-repositories-distributing-malware/"
     },
     {
-      "text": "Provenance ran backwards too. 'Show HN: Are You in the Weights?' (301 points/163 comments) is a tool to check whether your own data is baked into a model's training weights — making an abstract legal argument into a personal, queryable fact. Where the malware story asks 'can I trust this repo?', this asks 'can I find out where my data went after it was scraped?' The 163-comment thread is the contention of a question with no clean answer: once data is in the weights there is no extraction, only disclosure.",
+      "text": ".gitignore Isn't the only way to ignore files in Git (425 pts, 132 comments)",
       "tags": [
-        "security",
-        "rust"
-      ]
+        "hacker-news"
+      ],
+      "source": "HN 425pts",
+      "url": "https://nelson.cloud/.gitignore-isnt-the-only-way-to-ignore-files-in-git/"
     },
     {
-      "text": "The trust failure surfaced a third time, in AI search and governance. 'It Is Trivially Easy to Use Reddit to Manipulate AI Search' (8 points) and 'AI Governance Cannot Be a Tool Call' (5 points), against 'White House talks with Anthropic shift to setting AI security rules' (5 points) and the carried-over 'Grok Is More Important Than Clean Air, DOJ Says' (7 points). Repos, training data, and AI-search results failed provenance on the same page — the policy layer converging on the same realization as the supply-chain layer: trust can't be bolted on after the fact, and it can't be a single guardrail.",
+      "text": "I told them forced consent was unlawful. 5 years later it cost Elkjop €1.8M (394 pts, 232 comments)",
       "tags": [
-        "security",
-        "rust"
-      ]
+        "hacker-news"
+      ],
+      "source": "HN 394pts",
+      "url": "https://www.thatprivacyguy.com/blog/elkjop-forced-consent-fine/"
     },
     {
-      "text": "Yesterday's wire item became today's front-page referendum. 'Noam Shazeer Joins OpenAI' jumped from 57 combined points across two copies on June 18 to 322 points/312 comments — the comment-heaviest story on the page. The talent-flow thesis (into OpenAI, out of Meta) is no longer reported, it's debated: what the 'Attention Is All You Need' co-author means for Meta's bleeding AI org and for OpenAI's credibility weeks before its confidential IPO filing. The comment-to-point ratio is the upgrade — the field now treats talent re-concentration as the main event.",
+      "text": "CS 6120: Advanced Compilers: The Self-Guided Online Course (2020) (374 pts, 51 comments)",
       "tags": [
-        "meta"
-      ]
+        "hacker-news"
+      ],
+      "source": "HN 374pts",
+      "url": "https://www.cs.cornell.edu/courses/cs6120/2025fa/self-guided/"
     },
     {
-      "text": "Privacy became enforceable law with a price tag. 'I told them forced consent was unlawful — 5 years later it cost Elkjop €1.8M' (320 points/162 comments) ends a five-year fight over forced-consent dark patterns with a real fine, alongside 'the theater of European digital sovereignty' (195 points/130 comments). The sovereignty thread — France ditching Palantir, the Windows forced-account revolt — crossed from procurement doctrine and consumer grievance into an enforced monetary penalty. 'Forced consent is unlawful' is Lecornu's 'don't depend on a tap they can turn off,' now with a number attached.",
-      "tags": []
+      "text": "What are your Favorite Lobste.rs Comments? (88 pts on Lobsters)",
+      "tags": [
+        "lobsters",
+        "ask",
+        "programming"
+      ],
+      "source": "Lobsters 88pts",
+      "url": "https://lobste.rs/s/crl4fj/what_are_your_favorite_lobste_rs_comments"
     },
     {
-      "text": "The agent stack kept filling in its boring, load-bearing layers. 'Zero-Touch OAuth for MCP' (167 points/63 comments) brings frictionless delegated auth to Model Context Protocol servers; 'Launch HN: TesterArmy — agents that test web and mobile apps' (112 points/49 comments) is the QA layer; DeusData/codebase-memory-mcp trended for agent memory. The contested frontier is shifting from 'can the agent do it?' to 'can I authenticate it, test it, and make it remember?' — and MCP OAuth is exactly the attestable-identity primitive a post-inspection world needs.",
+      "text": "The Future of the Con Is Already Here, It's Just Not Evenly Distributed (43 pts on Lobsters)",
       "tags": [
-        "agents"
-      ]
+        "lobsters",
+        "ai",
+        "security"
+      ],
+      "source": "Lobsters 43pts",
+      "url": "http://manishearth.github.io/blog/2026/06/17/the-future-of-the-con-is-already-here/"
     },
     {
-      "text": "The craft counter-current didn't just hold — it took the top of the page. On a day with a 746-point malware story, '.gitignore Isn't the Only Way to Ignore Files in Git' (366 points/117 comments) and 'CS 6120: Advanced Compilers self-guided course' (350 points/50 comments) claimed two of the top three slots, with 'MIT researchers built their own OS to study how chips work' (131 points), DuckDB internals (76 points), and the Modos color e-paper monitor (259 points/67 comments) underneath. When the cycle is talent wars and supply-chain malware, HN's revealed appetite is comprehensible, individually-masterable craft — and it's compounding, not shrinking.",
+      "text": "Congrats to the Gemma 4 Challenge Winners! (52 reactions on Dev.to)",
       "tags": [
-        "security",
-        "research"
-      ]
+        "devto",
+        "devchallenge",
+        "gemmachallenge"
+      ],
+      "source": "Dev.to 52❤",
+      "url": "https://dev.to/devteam/congrats-to-the-gemma-4-challenge-winners-4fgc"
     },
     {
-      "text": "The infra reality check, underneath the AI noise: 'Many Let's Encrypt renewals had errors today' (118 points/67 comments). When the automated cert-renewal system everyone stopped thinking about stumbles, a large slice of the web's TLS is at risk. It's the same trust theme from the substrate side — the day's failures clustered exactly in the automated systems we delegated and forgot: repo scanning and certificate renewal. The local/open thread stayed alive in the background with GLM-5.2 open weights (38 points) and zai-org/GLM-5 trending on GitHub.",
+      "text": "Congrats to the Hermes Agent Challenge Winners! (19 reactions on Dev.to)",
       "tags": [
-        "github-trending",
-        "rust"
-      ]
+        "devto",
+        "hermesagentchallenge",
+        "devchallenge"
+      ],
+      "source": "Dev.to 19❤",
+      "url": "https://dev.to/devteam/congrats-to-the-hermes-agent-challenge-winners-3on0"
     }
   ],
-  "trending": [],
-  "numbers": [
+  "trending": [
     {
-      "label": "Stories",
-      "value": "0",
-      "unit": "items"
+      "name": "codebase-memory-mcp",
+      "fullName": "DeusData/codebase-memory-mcp",
+      "stars": "7.4K",
+      "language": "C",
+      "delta": "+2322/d"
     },
     {
-      "label": "Repos",
-      "value": "0",
-      "unit": "tracked"
+      "name": "superpowers",
+      "fullName": "obra/superpowers",
+      "stars": "233K",
+      "language": "Shell",
+      "delta": "+1429/d"
+    },
+    {
+      "name": "kilocode",
+      "fullName": "Kilo-Org/kilocode",
+      "stars": "22.5K",
+      "language": "TypeScript",
+      "delta": "+1345/d"
+    },
+    {
+      "name": "timesfm",
+      "fullName": "google-research/timesfm",
+      "stars": "23.7K",
+      "language": "Python",
+      "delta": "+844/d"
+    },
+    {
+      "name": "plane",
+      "fullName": "makeplane/plane",
+      "stars": "52.0K",
+      "language": "TypeScript",
+      "delta": "+613/d"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "798",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "2322",
+      "unit": "stars/day"
     },
     {
       "label": "Sources Scraped",
-      "value": "1",
+      "value": "4",
       "unit": "sites"
     },
     {
@@ -88,17 +148,17 @@
     },
     "headlines": [
       {
-        "text": "The trust crisis reached the open-source supply chain at industrial scale. 'I found 10k GitHub repositories distributing Trojan malware' (746 points/188 comments",
+        "text": "I found 10k GitHub repositories distributing Trojan malware",
         "metric": "—",
         "source": "web"
       },
       {
-        "text": "Provenance ran backwards too. 'Show HN: Are You in the Weights?' is a tool to check whether your own data is baked into a model's training weights",
+        "text": ".gitignore Isn't the only way to ignore files in Git",
         "metric": "—",
         "source": "web"
       },
       {
-        "text": "The trust failure surfaced a third time, in AI search and governance. 'It Is Trivially Easy to Use Reddit to Manipulate AI Search' and 'AI Governance Cannot Be a Tool Call' , against 'White House talks with Anthropic shift to setting AI security rules' and the carried-over 'Grok Is More Important Than Clean Air, DOJ Says' . Repos, training data, and AI-search results failed provenance on the same page",
+        "text": "I told them forced consent was unlawful. 5 years later it cost Elkjop €1.8M",
         "metric": "—",
         "source": "web"
       }

@@ -1,0 +1,114 @@
+[
+  {
+    "name": "google-research/timesfm",
+    "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+    "language": "Python",
+    "stars_today": "844 stars today",
+    "total_stars": "23742"
+  },
+  {
+    "name": "n0-computer/iroh",
+    "description": "IP addresses break, dial keys instead. Modular networking stack in Rust.",
+    "language": "Rust",
+    "stars_today": "369 stars today",
+    "total_stars": "10120"
+  },
+  {
+    "name": "freeCodeCamp/freeCodeCamp",
+    "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+    "language": "TypeScript",
+    "stars_today": "417 stars today",
+    "total_stars": "449715"
+  },
+  {
+    "name": "obra/superpowers",
+    "description": "An agentic skills framework &amp; software development methodology that works.",
+    "language": "Shell",
+    "stars_today": "1429 stars today",
+    "total_stars": "232849"
+  },
+  {
+    "name": "zai-org/GLM-5",
+    "description": "GLM-5: From Vibe Coding to Agentic Engineering",
+    "language": "Unknown",
+    "stars_today": "202 stars today",
+    "total_stars": "4322"
+  },
+  {
+    "name": "DeusData/codebase-memory-mcp",
+    "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+    "language": "C",
+    "stars_today": "2322 stars today",
+    "total_stars": "7441"
+  },
+  {
+    "name": "alibaba/zvec",
+    "description": "A lightweight, lightning-fast, in-process vector database",
+    "language": "C++",
+    "stars_today": "259 stars today",
+    "total_stars": "11420"
+  },
+  {
+    "name": "withastro/flue",
+    "description": "The sandbox agent framework.",
+    "language": "TypeScript",
+    "stars_today": "162 stars today",
+    "total_stars": "5613"
+  },
+  {
+    "name": "Kilo-Org/kilocode",
+    "description": "Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source coding agent.",
+    "language": "TypeScript",
+    "stars_today": "1345 stars today",
+    "total_stars": "22537"
+  },
+  {
+    "name": "makeplane/plane",
+    "description": "🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
+    "language": "TypeScript",
+    "stars_today": "613 stars today",
+    "total_stars": "51988"
+  },
+  {
+    "name": "Kong/insomnia",
+    "description": "The open-source, cross-platform API client for GraphQL, REST, WebSockets, SSE and gRPC. With Cloud, Local and Git storage.",
+    "language": "TypeScript",
+    "stars_today": "18 stars today",
+    "total_stars": "38780"
+  },
+  {
+    "name": "Universal-Debloater-Alliance/universal-android-debloater-next-generation",
+    "description": "Cross-platform GUI written in Rust using ADB to debloat non-rooted Android devices. Improve your privacy, the security and battery life of your device.",
+    "language": "Rust",
+    "stars_today": "244 stars today",
+    "total_stars": "8017"
+  },
+  {
+    "name": "dotnet/aspnetcore",
+    "description": "ASP.NET Core is a cross-platform .NET framework for building modern cloud-based web applications on Windows, Mac, or Linux.",
+    "language": "C#",
+    "stars_today": "14 stars today",
+    "total_stars": "38128"
+  },
+  {
+    "name": "owainlewis/awesome-artificial-intelligence",
+    "description": "A curated list of Artificial Intelligence (AI) courses, books, video lectures and papers.",
+    "language": "Unknown",
+    "stars_today": "40 stars today",
+    "total_stars": "14552"
+  },
+  {
+    "name": "Lightricks/LTX-2",
+    "description": "Official Python inference and LoRA trainer package for the LTX-2 audio–video generative model.",
+    "language": "Python",
+    "stars_today": "51 stars today",
+    "total_stars": "7559"
+  },
+  {
+    "name": "LibreTranslate/LibreTranslate",
+    "description": "Free and Open Source Machine Translation API. Self-hosted, offline capable and easy to setup.",
+    "language": "Python",
+    "stars_today": "51 stars today",
+    "total_stars": "15094"
+  }
+]
