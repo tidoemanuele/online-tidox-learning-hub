@@ -1,0 +1,181 @@
+[
+  {
+    "type": "intro",
+    "highlight": "10K Repos Distributing Trojan Malware",
+    "label": "TOP STORY TODAY",
+    "subtext": "736 HN pts · almost no argument · just alarm"
+  },
+  {
+    "type": "intro",
+    "highlight": "That's not a few bad actors. That's a campaign.",
+    "label": "10,000 REPOSITORIES"
+  },
+  {
+    "type": "insight",
+    "highlight": "The attacker exploited developer trust signals",
+    "label": "SUPPLY CHAIN",
+    "subtext": "Copied READMEs, fabricated contributor histories, forged star counts"
+  },
+  {
+    "type": "quote",
+    "highlight": "They didn't attack the package. They attacked the heuristic."
+  },
+  {
+    "type": "insight",
+    "highlight": "Star counts turned from trust proxies to liabilities",
+    "subtext": "Fork activity, polished README — every signal weaponized"
+  },
+  {
+    "type": "insight",
+    "highlight": "Every developer's mental model just broke",
+    "subtext": "The heuristic we relied on is now a risk indicator"
+  },
+  {
+    "type": "number",
+    "number": "111",
+    "highlight": "Let's Encrypt mass renewal failures same day",
+    "label": "DUAL FAILURE",
+    "subtext": "HN pts — cert authority and package trust fail together"
+  },
+  {
+    "type": "quote",
+    "highlight": "Two trust systems failing on the same day."
+  },
+  {
+    "type": "insight",
+    "highlight": "Automated away the problem. Forgot to build verification.",
+    "label": "STRUCTURAL FAILURE"
+  },
+  {
+    "type": "quote",
+    "highlight": "Until it doesn't."
+  },
+  {
+    "type": "insight",
+    "highlight": "The 'solved' problem required immediate manual intervention",
+    "subtext": "Operators with cert-manager at scale hit failures in production"
+  },
+  {
+    "type": "insight",
+    "highlight": "Good engineering — until the dependency you trusted fails",
+    "label": "CERT-MANAGER"
+  },
+  {
+    "type": "quote",
+    "highlight": "The gap between 'it looked right' and 'it was verified'"
+  },
+  {
+    "type": "action",
+    "highlight": "What do we actually do? Concretely.",
+    "label": "ACTION REQUIRED"
+  },
+  {
+    "type": "action",
+    "highlight": "Verify provenance. Monitor what you've automated.",
+    "subtext": "Star counts are risk indicators, not trust signals"
+  },
+  {
+    "type": "number",
+    "number": "348",
+    "highlight": "CS 6120: Advanced Compilers resurfaces",
+    "label": "2020 COURSE · 2026 SIGNAL",
+    "subtext": "Cornell's self-guided graduate compiler course · June 2026 HN"
+  },
+  {
+    "type": "insight",
+    "highlight": "Where AI coding tools are hitting their ceiling",
+    "label": "SIGNAL FROM THE COMMUNITY"
+  },
+  {
+    "type": "insight",
+    "highlight": "Pattern matching over source text is not enough",
+    "subtext": "The next generation needs a semantic model of what code does"
+  },
+  {
+    "type": "insight",
+    "highlight": "Next generation needs compiler foundations",
+    "subtext": "Control-flow graphs, dataflow analysis, LLVM IR"
+  },
+  {
+    "type": "insight",
+    "highlight": "Building AI tools that understand code semantics",
+    "label": "IMPLICATION"
+  },
+  {
+    "type": "quote",
+    "highlight": "Compiler foundations marked as required background for 2026"
+  },
+  {
+    "type": "insight",
+    "highlight": "GitHub trending tells the same story",
+    "label": "THREE REPOS TRENDING"
+  },
+  {
+    "type": "number",
+    "number": "2,322",
+    "highlight": "codebase-memory-mcp stars today",
+    "label": "FASTEST REPO ON GITHUB",
+    "subtext": "DeusData/codebase-memory-mcp · 54.6K total · C"
+  },
+  {
+    "type": "repo",
+    "highlight": "DeusData/codebase-memory-mcp",
+    "subtext": "Intelligence + obra/superpowers + Kilo-Org/kilocode = The Full Stack"
+  },
+  {
+    "type": "insight",
+    "highlight": "Knowledge graphs: precise structural results over approximate matches",
+    "label": "COMPILER COURSE CONNECTION"
+  },
+  {
+    "type": "repo",
+    "highlight": "Zero-Touch OAuth for MCP",
+    "subtext": "Enterprise IAM integration: the checkpoint security teams required"
+  },
+  {
+    "type": "insight",
+    "highlight": "From tolerated by devs to approved for team deployment",
+    "label": "MCP ADOPTION CURVE"
+  },
+  {
+    "type": "insight",
+    "highlight": "Ubiquiti ZFS NAS: the debate isn't about ZFS",
+    "label": "310 HN PTS · 269 COMMENTS",
+    "subtext": "0.87:1 ratio — technically right, institutionally contested"
+  },
+  {
+    "type": "insight",
+    "highlight": "Same trust scrutiny: from packages to hardware",
+    "subtext": "Can you depend on this for production data long-term?"
+  },
+  {
+    "type": "quote",
+    "highlight": "Do you actually trust this, or did you just stop checking?"
+  },
+  {
+    "type": "insight",
+    "highlight": "Building faster than we're verifying",
+    "label": "TODAY'S THESIS",
+    "subtext": "The agentic stack assembles while trust infrastructure shows cracks"
+  },
+  {
+    "type": "action",
+    "highlight": "Build the verification layer alongside the stack",
+    "subtext": "Don't slow down — verify in parallel"
+  },
+  {
+    "type": "action",
+    "highlight": "Monitor automated. Verify trusted. Understand deeply.",
+    "label": "THE THREE ACTIONS"
+  },
+  {
+    "type": "close",
+    "highlight": "Rebuild your dependency audit pipeline.",
+    "label": "GO BUILD"
+  },
+  {
+    "type": "close",
+    "highlight": "The window for competitive advantage is not long.",
+    "label": "INTELLIGENCE BRIEF · JUNE 19 2026"
+  }
+]

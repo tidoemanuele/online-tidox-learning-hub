@@ -1,0 +1,142 @@
+[
+  [
+    "A",
+    "Ten thousand GitHub repositories. All distributing Trojan malware. That's the lead today — 736 points on Hacker News, almost no argument, just alarm."
+  ],
+  [
+    "B",
+    "Wait. Ten thousand? That's not a few bad actors. That's a campaign."
+  ],
+  [
+    "A",
+    "Exactly. And the design is what matters. These repos mimicked legitimate tools — copied READMEs, fabricated contributor histories, forged star counts. The attacker exploited the exact signals developers use to decide if something is trustworthy."
+  ],
+  [
+    "B",
+    "So they didn't attack the package. They attacked the heuristic."
+  ],
+  [
+    "A",
+    "That's the right frame. Star count, fork activity, polished README — those have been our rough trust proxies for years. This campaign turns every one of them into a liability."
+  ],
+  [
+    "B",
+    "OK so if that's true, then every developer who's evaluated a repo by its star count just had their mental model broken."
+  ],
+  [
+    "A",
+    "And here's what makes today's data stranger. The same day that surfaces, Let's Encrypt had widespread certificate renewal failures. Automated renewals breaking silently across production systems."
+  ],
+  [
+    "B",
+    "Two trust systems failing on the same day. That feels like more than coincidence."
+  ],
+  [
+    "A",
+    "It's not conspiracy — it's structural. We've automated away certificate management and package discovery, both correctly, and we stopped building verification layers because the automation worked."
+  ],
+  [
+    "B",
+    "Until it doesn't."
+  ],
+  [
+    "A",
+    "The HN thread on Let's Encrypt is telling: people discovered their 'solved' problem required immediate manual intervention. Some had no fallback whatsoever."
+  ],
+  [
+    "B",
+    "I keep thinking about the developers who set up cert-manager and never looked at it again. That's not negligence. That's good engineering — until the dependency you trusted fails."
+  ],
+  [
+    "A",
+    "The attack surface isn't a vulnerability in a specific package. It's the gap between 'it looked right' and 'it was verified.'"
+  ],
+  [
+    "B",
+    "So what do we actually do? Concretely."
+  ],
+  [
+    "A",
+    "Cross-reference package registry provenance against the claimed GitHub source. Treat star counts as a risk indicator, not a trust signal. Rebuild monitoring for infrastructure you've automated — because automated doesn't mean inert."
+  ],
+  [
+    "B",
+    "OK. Switching gears. The second-ranked story today is a compiler course. Cornell's CS 6120. A 2020 curriculum hitting 348 points in June 2026. Why?"
+  ],
+  [
+    "A",
+    "Because the community is telling you where AI coding tools are hitting their ceiling."
+  ],
+  [
+    "B",
+    "Say more."
+  ],
+  [
+    "A",
+    "Coding agents in 2026 do impressive things with pattern matching over source text. But the next generation needs a semantic model of what code actually *does* — control-flow graphs, dataflow analysis, compiler intermediate representations."
+  ],
+  [
+    "B",
+    "Oh. So the community's endorsing this course because they're building those tools and need the foundations."
+  ],
+  [
+    "A",
+    "A compiler course outranked an MCP OAuth announcement and a hardware launch today. That's the community marking foundational knowledge as required background."
+  ],
+  [
+    "B",
+    "Which connects directly to GitHub trending. Because this is where it gets exciting."
+  ],
+  [
+    "A",
+    "Three repos surging simultaneously. codebase-memory-mcp, superpowers, kilocode. Twenty-three hundred stars in a single day for codebase-memory-mcp alone."
+  ],
+  [
+    "B",
+    "And they're not competing — they're a stack. Knowledge graph intelligence layer, agentic methodology, open-source runtime. The community is assembling the full thing in public."
+  ],
+  [
+    "A",
+    "The knowledge graph architecture is the compiler course connection. Precise structural results instead of approximate semantic matches. You need to understand what code *does* to query it that way."
+  ],
+  [
+    "B",
+    "And the enterprise access layer just got wired in too — MCP's Zero-Touch OAuth. Enterprise identity providers, IAM integration, the thing security teams needed before they'd approve deployment."
+  ],
+  [
+    "A",
+    "Hmm. I'm not sure that's just table stakes. I think it's the checkpoint that moves MCP from 'tolerated by individual developers' to 'approved for team deployment.' That's a different adoption curve."
+  ],
+  [
+    "B",
+    "Fair. OK — and then Ubiquiti drops a ZFS-based enterprise NAS. Technically excellent. But the HN thread isn't debating the filesystem at all."
+  ],
+  [
+    "A",
+    "It's debating whether Ubiquiti's support cadence is adequate for hardware protecting production data. The community applying the same trust scrutiny to hardware that the GitHub story applied to packages."
+  ],
+  [
+    "B",
+    "That's today's thread. Everything is the same question: do you actually trust this, or did you just stop checking?"
+  ],
+  [
+    "A",
+    "We're building faster than we're verifying. The agentic stack is assembling — intelligently, layer by layer. And the trust infrastructure underneath it is showing cracks at exactly the moment the stack goes to production."
+  ],
+  [
+    "B",
+    "So the action isn't to slow down. It's to build the verification layer alongside it."
+  ],
+  [
+    "A",
+    "Monitor what you've automated. Verify what you've trusted. And if the compiler course signal means anything — understand your tools deeply enough to know when they're lying to you."
+  ],
+  [
+    "B",
+    "I want to go rebuild my dependency audit pipeline right now."
+  ],
+  [
+    "A",
+    "That's the right instinct. The window where that's a competitive advantage is not long."
+  ]
+]
