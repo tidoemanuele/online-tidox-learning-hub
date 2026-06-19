@@ -1,0 +1,122 @@
+[
+  {
+    "rank": 1,
+    "title": "Many Let's Encrypt renewals had errors today",
+    "url": "https://letsencrypt.status.io/#2026",
+    "hn_url": "https://news.ycombinator.com/item?id=48594715",
+    "points": 111,
+    "comments": 60
+  },
+  {
+    "rank": 2,
+    "title": "Ice Water Drowning Survival After 147-Minute Submersion and Hypothermic Arrest",
+    "url": "https://www.jacc.org/doi/10.1016/j.jaccas.2025.104885",
+    "hn_url": "https://news.ycombinator.com/item?id=48594592",
+    "points": 81,
+    "comments": 20
+  },
+  {
+    "rank": 3,
+    "title": "To study how chips work, MIT researchers built their own operating system",
+    "url": "https://news.mit.edu/2026/to-study-how-chips-really-work-mit-researchers-built-their-own-operating-system-0610",
+    "hn_url": "https://news.ycombinator.com/item?id=48543311",
+    "points": 121,
+    "comments": 10
+  },
+  {
+    "rank": 4,
+    "title": "DuckDB Internals: Why Is DuckDB Fast? (Part 1)",
+    "url": "https://www.greybeam.ai/blog/duckdb-internals-part-1",
+    "hn_url": "https://news.ycombinator.com/item?id=48553388",
+    "points": 65,
+    "comments": 34
+  },
+  {
+    "rank": 5,
+    "title": "Gribouille 0.3.0: A Grammar of Graphics for Typst",
+    "url": "https://mickael.canouil.fr/posts/2026-06-15-gribouille-0-3/",
+    "hn_url": "https://news.ycombinator.com/item?id=48541062",
+    "points": 28,
+    "comments": 1
+  },
+  {
+    "rank": 6,
+    "title": "Zero-Touch OAuth for MCP",
+    "url": "https://blog.modelcontextprotocol.io/posts/enterprise-managed-auth/",
+    "hn_url": "https://news.ycombinator.com/item?id=48592163",
+    "points": 165,
+    "comments": 59
+  },
+  {
+    "rank": 7,
+    "title": "I found 10k GitHub repositories distributing Trojan malware",
+    "url": "https://orchidfiles.com/github-repositories-distributing-malware/",
+    "hn_url": "https://news.ycombinator.com/item?id=48583928",
+    "points": 736,
+    "comments": 175
+  },
+  {
+    "rank": 8,
+    "title": "Building a robotics research setup that lives next to my desk",
+    "url": "https://dfdxlabs.com/research/2026/robotics-setup/",
+    "hn_url": "https://news.ycombinator.com/item?id=48586329",
+    "points": 51,
+    "comments": 14
+  },
+  {
+    "rank": 9,
+    "title": "Datasette Apps: Host custom HTML applications inside Datasette",
+    "url": "https://simonwillison.net/2026/Jun/18/datasette-apps/",
+    "hn_url": "https://news.ycombinator.com/item?id=48593731",
+    "points": 58,
+    "comments": 18
+  },
+  {
+    "rank": 10,
+    "title": "How Japan's railways stayed one while splitting apart",
+    "url": "https://arun.is/blog/jr-logo/",
+    "hn_url": "https://news.ycombinator.com/item?id=48570730",
+    "points": 78,
+    "comments": 61
+  },
+  {
+    "rank": 11,
+    "title": "Ubiquiti: Enterprise NAS, Built on ZFS",
+    "url": "https://blog.ui.com/article/introducing-enterprise-nas",
+    "hn_url": "https://news.ycombinator.com/item?id=48585866",
+    "points": 310,
+    "comments": 269
+  },
+  {
+    "rank": 12,
+    "title": "Cell-based architecture for resilient payment systems",
+    "url": "https://americanexpress.io/cell-based-architecture-for-resilient-payment-systems/",
+    "hn_url": "https://news.ycombinator.com/item?id=48547969",
+    "points": 114,
+    "comments": 45
+  },
+  {
+    "rank": 13,
+    "title": "CS 6120: Advanced Compilers: The Self-Guided Online Course (2020)",
+    "url": "https://www.cs.cornell.edu/courses/cs6120/2025fa/self-guided/",
+    "hn_url": "https://news.ycombinator.com/item?id=48583606",
+    "points": 348,
+    "comments": 49
+  },
+  {
+    "rank": 14,
+    "title": "Show HN: Talos \u2013 Open-source WASM interpreter for Lean",
+    "url": "https://github.com/cajal-technologies/talos",
+    "hn_url": "https://news.ycombinator.com/item?id=48584761",
+    "points": 33,
+    "comments": 3
+  },
+  {
+    "rank": 15,
+    "title": "Flexport (YC W14) Is Hiring in Indonesia, India, and Thailand",
+    "url": "https://www.flexport.com/company/careers/",
+    "hn_url": "https://news.ycombinator.com/item?id=48593694",
+    "points": 1,
+    "comments": 0
+  }
+]
