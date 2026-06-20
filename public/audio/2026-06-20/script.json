@@ -1,0 +1,130 @@
+[
+  [
+    "A",
+    "Hyundai just completed full ownership of Boston Dynamics. $325 million for SoftBank's remaining 9.65% stake."
+  ],
+  [
+    "B",
+    "Wait. Nine percent for $325 million. Do the math on what that implies for the whole company."
+  ],
+  [
+    "A",
+    "About $3.4 billion implied valuation. Except the Seoul Economic Daily has the actual market value at roughly $26 billion."
+  ],
+  [
+    "B",
+    "So SoftBank exercised a put option at 2021 prices and left... tens of billions on the table?"
+  ],
+  [
+    "A",
+    "That's the story within the story. But here's what matters more: Hyundai knew the real number and took the deal anyway."
+  ],
+  [
+    "B",
+    "They bought below-market rather than renegotiate upward. That's not a financial move. That's conviction."
+  ],
+  [
+    "A",
+    "Atlas humanoid robots assembling Hyundai EVs in Savannah, Georgia, by 2028. A car company buying the robot labor that will build its own cars."
+  ],
+  [
+    "B",
+    "That's vertical integration on a level I don't think we've seen before. The factory worker and the factory owner are the same asset."
+  ],
+  [
+    "A",
+    "And on the same morning — John Jumper, the Nobel laureate behind AlphaFold, announces he's leaving Google DeepMind for Anthropic."
+  ],
+  [
+    "B",
+    "Not just an AI researcher. The specific person who built EvoFormer. The architecture that made protein folding actually work."
+  ],
+  [
+    "A",
+    "His move signals where he thinks the most consequential AI science happens next. That's worth sitting with."
+  ],
+  [
+    "B",
+    "Two convergence bets, same June morning. One in silicon, one in steel. I keep coming back to that."
+  ],
+  [
+    "A",
+    "Now here's the counterpoint. Norway announces a near-ban on AI in elementary schools — grades one through seven, ages six to thirteen."
+  ],
+  [
+    "B",
+    "My first read was regulatory panic. But I don't think that's right when you actually look at the policy architecture."
+  ],
+  [
+    "A",
+    "It's not a blanket ban. Older students can use AI under supervision. Upper secondary students are expected to learn it for work."
+  ],
+  [
+    "B",
+    "So the argument is: foundational skills are cognitive dependencies. You have to build them sequentially before AI amplification does anything useful."
+  ],
+  [
+    "A",
+    "Norway has data. Test scores declined after the smartphone ban era. They're treating this as evidence, not precaution."
+  ],
+  [
+    "B",
+    "Hmm. I'm genuinely uncertain about the causation. But I respect the experiment. We'll have outcome data in a few years and so will the EU."
+  ],
+  [
+    "A",
+    "Let me shift to something that's been ten years in the making. Project Valhalla lands in JDK 28."
+  ],
+  [
+    "B",
+    "Value classes. 'Codes like a class, works like an int.' The boxing cost that appears in every Java performance profile — finally addressed."
+  ],
+  [
+    "A",
+    "197,000 lines of code across 1,800 changed files. One pull request. The OpenJDK team called it 'an extremely large change,' which is an understatement."
+  ],
+  [
+    "B",
+    "Notice how this connects to Hyundai. Decade-long technical bets landing simultaneously. Long timelines aren't a failure mode in ambitious engineering."
+  ],
+  [
+    "A",
+    "That's the pattern today is showing us. Patience at scale produces things that look inevitable in retrospect and impossible in the middle."
+  ],
+  [
+    "B",
+    "OK, I want the GitHub signal before we close because it's telling. Ponytail is at five thousand stars a day. Eight days old."
+  ],
+  [
+    "A",
+    "A YAGNI enforcement layer for AI agents. It intercepts your agent before it executes and asks: what's the simplest version of this?"
+  ],
+  [
+    "B",
+    "That's practitioners encoding months of frustration as infrastructure. AI-generated complexity, now filtered before it hits your codebase."
+  ],
+  [
+    "A",
+    "And Salvatore Sanfilippo — creator of Redis — is back, building a DeepSeek 4 inference engine in C. Metal, CUDA, ROCm."
+  ],
+  [
+    "B",
+    "When the person who built Redis decides LLM inference is an interesting systems problem, that's a signal about where the craft is going."
+  ],
+  [
+    "A",
+    "So here's what today is telling us. The decade-long bets are landing all at once. Valhalla. Boston Dynamics. AlphaFold's author moving to his next problem."
+  ],
+  [
+    "B",
+    "And builders are adapting in real time — YAGNI for agents, self-hosted workspaces, expert systems authors treating inference as a first-class problem."
+  ],
+  [
+    "A",
+    "The question isn't what's happening today. The question is: what's the decade-long bet worth making right now?"
+  ],
+  [
+    "B",
+    "Because in 2036, someone will explain why it was obvious. The window to be early is open. Go find the thing and start."
+  ]
+]

@@ -1,0 +1,148 @@
+[
+  {
+    "title": "I can haz smoller NixOS ISOs?",
+    "score": 41,
+    "tags": [
+      "nix",
+      "performance"
+    ],
+    "url": "https://natkr.com/2026-06-19-nixos-but-smol/",
+    "comments_url": "https://lobste.rs/s/nvfvjt/i_can_haz_smoller_nixos_isos"
+  },
+  {
+    "title": "Bevy 0.19",
+    "score": 26,
+    "tags": [
+      "games",
+      "release"
+    ],
+    "url": "https://bevy.org/news/bevy-0-19/",
+    "comments_url": "https://lobste.rs/s/k5raot/bevy_0_19"
+  },
+  {
+    "title": "Godot 4.7: Lights, Camera, Action",
+    "score": 68,
+    "tags": [
+      "games",
+      "release"
+    ],
+    "url": "https://godotengine.org/releases/4.7/",
+    "comments_url": "https://lobste.rs/s/heb0am/godot_4_7_lights_camera_action"
+  },
+  {
+    "title": "SMPTE Makes Its Standards Freely Accessible",
+    "score": 10,
+    "tags": [
+      "release"
+    ],
+    "url": "https://www.smpte.org/blog/smpte-makes-its-standards-freely-accessible-openingstandards-library-to-the-global-media-technology-community",
+    "comments_url": "https://lobste.rs/s/fbsqfs/smpte_makes_its_standards_freely"
+  },
+  {
+    "title": "Stop Naming Your Variables \"Flag\": The Art of Boolean Prefixes",
+    "score": 15,
+    "tags": [
+      "practices"
+    ],
+    "url": "https://thatamazingprogrammer.com/posts/stop-naming-your-variables-flag-the-art-of-boolean-prefixes/",
+    "comments_url": "https://lobste.rs/s/kjp3wi/stop_naming_your_variables_flag_art"
+  },
+  {
+    "title": "What are your Favorite Lobste.rs Comments?",
+    "score": 156,
+    "tags": [
+      "ask",
+      "programming"
+    ],
+    "url": "",
+    "comments_url": "https://lobste.rs/s/crl4fj/what_are_your_favorite_lobste_rs_comments"
+  },
+  {
+    "title": "DiffsHub",
+    "score": 21,
+    "tags": [
+      "vcs"
+    ],
+    "url": "https://diffshub.com/",
+    "comments_url": "https://lobste.rs/s/u0nv8q/diffshub"
+  },
+  {
+    "title": "Aspirational Clownmaxxing and Joey's cadillac todo list",
+    "score": 12,
+    "tags": [
+      "vibecoding"
+    ],
+    "url": "https://charlesleifer.com/blog/aspirational-clownmaxxing-and-joey-s-cadillac-todo-list/",
+    "comments_url": "https://lobste.rs/s/dsy6r3/aspirational_clownmaxxing_joey_s"
+  },
+  {
+    "title": "The Future of the Con Is Already Here, It's Just Not Evenly Distributed",
+    "score": 73,
+    "tags": [
+      "ai",
+      "security"
+    ],
+    "url": "http://manishearth.github.io/blog/2026/06/17/the-future-of-the-con-is-already-here/",
+    "comments_url": "https://lobste.rs/s/5majlp/future_con_is_already_here_it_s_just_not"
+  },
+  {
+    "title": "Shutting Down Fornjot",
+    "score": 25,
+    "tags": [
+      "rust"
+    ],
+    "url": "https://fornjot.app/blog/shutting-down-fornjot/",
+    "comments_url": "https://lobste.rs/s/ggp2ov/shutting_down_fornjot"
+  },
+  {
+    "title": "WikiSpy",
+    "score": 16,
+    "tags": [
+      "design",
+      "visualization"
+    ],
+    "url": "https://neal.fun/wiki-spy/",
+    "comments_url": "https://lobste.rs/s/9rbscj/wikispy"
+  },
+  {
+    "title": "Project Valhalla, Explained: How a Decade of Work Arrives in JDK 28",
+    "score": 9,
+    "tags": [
+      "java",
+      "vibecoding"
+    ],
+    "url": "https://www.jvm-weekly.com/p/project-valhalla-explained-how-a",
+    "comments_url": "https://lobste.rs/s/jk5k9i/project_valhalla_explained_how_decade"
+  },
+  {
+    "title": "What are you doing this weekend?",
+    "score": 11,
+    "tags": [
+      "ask",
+      "programming"
+    ],
+    "url": "",
+    "comments_url": "https://lobste.rs/s/wemk3j/what_are_you_doing_this_weekend"
+  },
+  {
+    "title": "Making Ticker-tape for the Knicks Parade",
+    "score": 11,
+    "tags": [
+      "art",
+      "culture",
+      "finance"
+    ],
+    "url": "https://joe.lothan.net/blog/ticker-tape/",
+    "comments_url": "https://lobste.rs/s/wf0kd6/making_ticker_tape_for_knicks_parade"
+  },
+  {
+    "title": "Dear researchers: help me deal with incidents",
+    "score": 10,
+    "tags": [
+      "pdf",
+      "practices"
+    ],
+    "url": "https://surfingcomplexity.blog/wp-content/uploads/2026/06/dear-researchers.pdf",
+    "comments_url": "https://lobste.rs/s/xnbxed/dear_researchers_help_me_deal_with"
+  }
+]

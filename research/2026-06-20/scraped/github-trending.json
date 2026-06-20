@@ -1,0 +1,65 @@
+[
+  {
+    "name": "odysseus",
+    "fullName": "pewdiepie-archdaemon/odysseus",
+    "description": "Self-hosted AI workspace.",
+    "language": "Python",
+    "stars_today": "3,200 stars today",
+    "total_stars": "74507",
+    "url": "https://github.com/pewdiepie-archdaemon/odysseus"
+  },
+  {
+    "name": "ponytail",
+    "fullName": "DietrichGebert/ponytail",
+    "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+    "language": "JavaScript",
+    "stars_today": "5,100 stars today",
+    "total_stars": "40455",
+    "url": "https://github.com/DietrichGebert/ponytail"
+  },
+  {
+    "name": "sglang",
+    "fullName": "sgl-project/sglang",
+    "description": "SGLang is a high-performance serving framework for large language models and multimodal models.",
+    "language": "Python",
+    "stars_today": "412 stars today",
+    "total_stars": "29342",
+    "url": "https://github.com/sgl-project/sglang"
+  },
+  {
+    "name": "ds4",
+    "fullName": "antirez/ds4",
+    "description": "DeepSeek 4 Flash and PRO local inference engine for Metal, CUDA and ROCm",
+    "language": "C",
+    "stars_today": "387 stars today",
+    "total_stars": "14688",
+    "url": "https://github.com/antirez/ds4"
+  },
+  {
+    "name": "MiMo-Code",
+    "fullName": "XiaomiMiMo/MiMo-Code",
+    "description": "MiMo Code: Where Models and Agents Co-Evolve",
+    "language": "TypeScript",
+    "stars_today": "892 stars today",
+    "total_stars": "9968",
+    "url": "https://github.com/XiaomiMiMo/MiMo-Code"
+  },
+  {
+    "name": "open-code-review",
+    "fullName": "alibaba/open-code-review",
+    "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+    "language": "Go",
+    "stars_today": "318 stars today",
+    "total_stars": "8007",
+    "url": "https://github.com/alibaba/open-code-review"
+  },
+  {
+    "name": "cocoindex",
+    "fullName": "cocoindex-io/cocoindex",
+    "description": "Incremental engine for long horizon agents",
+    "language": "Python",
+    "stars_today": "276 stars today",
+    "total_stars": "10418",
+    "url": "https://github.com/cocoindex-io/cocoindex"
+  }
+]
