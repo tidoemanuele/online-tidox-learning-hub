@@ -1,0 +1,107 @@
+[
+  {
+    "name": "DeusData/codebase-memory-mcp",
+    "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+    "language": "C",
+    "stars_today": "1058 stars today",
+    "total_stars": "8639"
+  },
+  {
+    "name": "google-research/timesfm",
+    "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+    "language": "Python",
+    "stars_today": "1510 stars today",
+    "total_stars": "24204"
+  },
+  {
+    "name": "palmier-io/palmier-pro",
+    "description": "macOS video editor built for AI",
+    "language": "Swift",
+    "stars_today": "756 stars today",
+    "total_stars": "2159"
+  },
+  {
+    "name": "koala73/worldmonitor",
+    "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+    "language": "TypeScript",
+    "stars_today": "156 stars today",
+    "total_stars": "57509"
+  },
+  {
+    "name": "aishwaryanr/awesome-generative-ai-guide",
+    "description": "A one stop repository for generative AI research updates, interview resources, notebooks and much more!",
+    "language": "HTML",
+    "stars_today": "107 stars today",
+    "total_stars": "27739"
+  },
+  {
+    "name": "BuilderIO/agent-native",
+    "description": "A framework for building agent-native applications.",
+    "language": "TypeScript",
+    "stars_today": "147 stars today",
+    "total_stars": "1155"
+  },
+  {
+    "name": "chopratejas/headroom",
+    "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
+    "language": "Python",
+    "stars_today": "4005 stars today",
+    "total_stars": "39798"
+  },
+  {
+    "name": "calesthio/OpenMontage",
+    "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
+    "language": "Python",
+    "stars_today": "156 stars today",
+    "total_stars": "6493"
+  },
+  {
+    "name": "zai-org/GLM-5",
+    "description": "GLM-5: From Vibe Coding to Agentic Engineering",
+    "language": "Unknown",
+    "stars_today": "480 stars today",
+    "total_stars": "4692"
+  },
+  {
+    "name": "withastro/flue",
+    "description": "The sandbox agent framework.",
+    "language": "TypeScript",
+    "stars_today": "309 stars today",
+    "total_stars": "5919"
+  },
+  {
+    "name": "n0-computer/iroh",
+    "description": "IP addresses break, dial keys instead. Modular networking stack in Rust.",
+    "language": "Rust",
+    "stars_today": "302 stars today",
+    "total_stars": "10290"
+  },
+  {
+    "name": "obra/superpowers",
+    "description": "An agentic skills framework &amp; software development methodology that works.",
+    "language": "Shell",
+    "stars_today": "1110 stars today",
+    "total_stars": "233672"
+  },
+  {
+    "name": "penpot/penpot",
+    "description": "Penpot: The open-source design tool for design and code collaboration",
+    "language": "Clojure",
+    "stars_today": "85 stars today",
+    "total_stars": "50720"
+  },
+  {
+    "name": "Kong/insomnia",
+    "description": "The open-source, cross-platform API client for GraphQL, REST, WebSockets, SSE and gRPC. With Cloud, Local and Git storage.",
+    "language": "TypeScript",
+    "stars_today": "292 stars today",
+    "total_stars": "39080"
+  },
+  {
+    "name": "Lightricks/LTX-2",
+    "description": "Official Python inference and LoRA trainer package for the LTX-2 audio–video generative model.",
+    "language": "Python",
+    "stars_today": "196 stars today",
+    "total_stars": "7727"
+  }
+]

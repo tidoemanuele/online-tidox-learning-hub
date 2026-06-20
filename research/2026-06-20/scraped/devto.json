@@ -1,0 +1,324 @@
+[
+  {
+    "rank": 1,
+    "title": "What Does the Windows REFRESH button really do?",
+    "url": "https://dev.to/lovestaco/what-does-the-windows-refresh-button-really-do-4kh",
+    "reactions": 28,
+    "comments": 1,
+    "tags": [
+      "webdev",
+      "programming",
+      "discuss",
+      "productivity"
+    ]
+  },
+  {
+    "rank": 2,
+    "title": "Skills over System Prompts: Building an Anki Tutor with the Antigravity SDK",
+    "url": "https://dev.to/gde/skills-over-system-prompts-building-an-anki-tutor-with-the-antigravity-sdk-2o8f",
+    "reactions": 8,
+    "comments": 0,
+    "tags": [
+      "ai",
+      "antigravity",
+      "agents",
+      "gemini"
+    ]
+  },
+  {
+    "rank": 3,
+    "title": "Internmaxxing vs. Old Man Shakes Fist at Cloud",
+    "url": "https://dev.to/jon_at_backboardio/internmaxxing-vs-old-man-shakes-fist-at-cloud-5bnd",
+    "reactions": 22,
+    "comments": 2,
+    "tags": [
+      "ai",
+      "programming",
+      "beginners",
+      "career"
+    ]
+  },
+  {
+    "rank": 4,
+    "title": "AI makes writing code easier. It doesn't make engineering easier.",
+    "url": "https://dev.to/dimitrisk_cyclopt/ai-makes-writing-code-easier-it-doesnt-make-engineering-easier-120",
+    "reactions": 15,
+    "comments": 14,
+    "tags": [
+      "programming",
+      "ai",
+      "discuss",
+      "webdev"
+    ]
+  },
+  {
+    "rank": 5,
+    "title": "Rebuilding a Divi Blog with Custom Shortcodes: A Field Report",
+    "url": "https://dev.to/highcenburg/rebuilding-a-divi-blog-with-custom-shortcodes-a-field-report-141g",
+    "reactions": 1,
+    "comments": 0,
+    "tags": [
+      "wordpress",
+      "php",
+      "css",
+      "webdev"
+    ]
+  },
+  {
+    "rank": 6,
+    "title": "Breaking Build: Kiro and Claude delivered exactly what I asked, and it wasn't what I wanted",
+    "url": "https://dev.to/earlgreyhot1701d/breaking-build-kiro-and-claude-delivered-exactly-what-i-asked-and-it-wasnt-what-i-wanted-27l5",
+    "reactions": 9,
+    "comments": 4,
+    "tags": [
+      "buildinpublic",
+      "ai",
+      "aws",
+      "webdev"
+    ]
+  },
+  {
+    "rank": 7,
+    "title": "Compile Zod (30x faster Zod validation)",
+    "url": "https://dev.to/gajus/compile-zod-30x-faster-zod-validation-3kih",
+    "reactions": 1,
+    "comments": 0,
+    "tags": [
+      "zod",
+      "webperf",
+      "performance"
+    ]
+  },
+  {
+    "rank": 8,
+    "title": "My API Responded in 4 ms, but Navigation Still Felt Slow",
+    "url": "https://dev.to/ahikmah/my-api-responded-in-4-ms-but-navigation-still-felt-slow-1hk8",
+    "reactions": 5,
+    "comments": 1,
+    "tags": [
+      "performance",
+      "webdev",
+      "svelte",
+      "backend"
+    ]
+  },
+  {
+    "rank": 9,
+    "title": "I Benchmarked 17 Image Conversions on My Production Server. Some Results Were Not What I Expected.",
+    "url": "https://dev.to/serhii_kalyna_730b636889c/i-benchmarked-17-image-conversions-on-my-production-server-some-results-were-not-what-i-expected-1j4f",
+    "reactions": 6,
+    "comments": 0,
+    "tags": [
+      "webdev",
+      "img",
+      "performance",
+      "webperf"
+    ]
+  },
+  {
+    "rank": 10,
+    "title": "Solstice Cipher: Routing Light to Crack Codes — A Puzzle Game for the June Solstice Game Jam",
+    "url": "https://dev.to/fanioz/solstice-cipher-routing-light-to-crack-codes-a-puzzle-game-for-the-june-solstice-game-jam-lcc",
+    "reactions": 1,
+    "comments": 0,
+    "tags": [
+      "godot",
+      "gamedev",
+      "webdev",
+      "hackathon"
+    ]
+  },
+  {
+    "rank": 11,
+    "title": "I automated everything except the code, and that's where Claude Code actually paid off",
+    "url": "https://dev.to/rapls/i-automated-everything-except-the-code-and-thats-where-claude-code-actually-paid-off-51oh",
+    "reactions": 2,
+    "comments": 0,
+    "tags": [
+      "ai",
+      "productivity",
+      "claudcode",
+      "webdev"
+    ]
+  },
+  {
+    "rank": 12,
+    "title": "Stop paying for the same tokens twice",
+    "url": "https://dev.to/andreagriffiths11/stop-paying-for-the-same-tokens-twice-geh",
+    "reactions": 2,
+    "comments": 0,
+    "tags": [
+      "ai",
+      "multiagent",
+      "promptcaching",
+      "codereview"
+    ]
+  },
+  {
+    "rank": 13,
+    "title": "agentic experience for Go",
+    "url": "https://dev.to/rshade/agentic-experience-for-go-36mh",
+    "reactions": 2,
+    "comments": 0,
+    "tags": [
+      "projects",
+      "agents",
+      "ai",
+      "go"
+    ]
+  },
+  {
+    "rank": 14,
+    "title": "Building a Scalable Booking System: From Manual Scheduling to 24/7 Automation",
+    "url": "https://dev.to/barberprostudio/building-a-scalable-booking-system-from-manual-scheduling-to-247-automation-4d30",
+    "reactions": 0,
+    "comments": 0,
+    "tags": [
+      "architecture",
+      "backend",
+      "laravel",
+      "performance"
+    ]
+  },
+  {
+    "rank": 15,
+    "title": "Dev Opportunity Radar #4: Anthropic Fellows, $30K for Founders, and AWS She Builds",
+    "url": "https://dev.to/devengers/dev-opportunity-radar-4-anthropic-fellows-30k-for-founders-and-aws-she-builds-2a6b",
+    "reactions": 23,
+    "comments": 10,
+    "tags": [
+      "discuss",
+      "community",
+      "resources",
+      "opportunities"
+    ]
+  },
+  {
+    "rank": 16,
+    "title": "Bletchley's Longest Day: a wartime cipher escape game for the June Solstice Game Jam",
+    "url": "https://dev.to/himanshu_748/bletchleys-longest-day-a-wartime-cipher-escape-game-for-the-june-solstice-game-jam-2821",
+    "reactions": 22,
+    "comments": 1,
+    "tags": [
+      "devchallenge",
+      "gamechallenge",
+      "gamedev",
+      "googleai"
+    ]
+  },
+  {
+    "rank": 17,
+    "title": "Last Light: The Demon Lord Awaits at Dawn",
+    "url": "https://dev.to/reet_singh_ee97da2986538e/last-light-the-demon-lord-awaits-at-dawn-44ob",
+    "reactions": 10,
+    "comments": 2,
+    "tags": [
+      "devchallenge",
+      "gamechallenge",
+      "gamedev"
+    ]
+  },
+  {
+    "rank": 18,
+    "title": "Understanding Program Derived Addresses: The Solana Address That Has No Private Key",
+    "url": "https://dev.to/100daysofsolana/understanding-program-derived-addresses-the-solana-address-that-has-no-private-key-1mcg",
+    "reactions": 1,
+    "comments": 0,
+    "tags": [
+      "100daysofsolana",
+      "web3",
+      "learning",
+      "programming"
+    ]
+  },
+  {
+    "rank": 19,
+    "title": "Nobody Knows Why It Said That",
+    "url": "https://dev.to/aditya_007/nobody-knows-why-it-said-that-3o8l",
+    "reactions": 11,
+    "comments": 1,
+    "tags": [
+      "ai",
+      "machinelearning",
+      "discuss",
+      "beginners"
+    ]
+  },
+  {
+    "rank": 20,
+    "title": "LLM Gateways: Routing, Fallbacks, And Semantic Caching",
+    "url": "https://dev.to/nazar_boyko/llm-gateways-routing-fallbacks-and-semantic-caching-1n2b",
+    "reactions": 10,
+    "comments": 0,
+    "tags": [
+      "ai",
+      "architecture",
+      "llm",
+      "gateway"
+    ]
+  },
+  {
+    "rank": 21,
+    "title": "Text adventure: Alan Turing’s Ghost Was Not Ready for a Probabilistic Afterlife",
+    "url": "https://dev.to/steampixel/text-adventure-alan-turings-ghost-was-not-ready-for-a-probabilistic-afterlife-4bbc",
+    "reactions": 5,
+    "comments": 0,
+    "tags": [
+      "devchallenge",
+      "gamechallenge",
+      "gamedev"
+    ]
+  },
+  {
+    "rank": 22,
+    "title": "Passkeys in 2026: A Practical Engineering Guide to Passwordless Auth",
+    "url": "https://dev.to/moksh/passkeys-in-2026-a-practical-engineering-guide-to-passwordless-auth-15pj",
+    "reactions": 12,
+    "comments": 1,
+    "tags": [
+      "webdev",
+      "security",
+      "javascript",
+      "node"
+    ]
+  },
+  {
+    "rank": 23,
+    "title": "The Rule Hierarchy Trap: How AI Agent Meta-Patterns Are Quietly Eating Your Team's Cognitive Budget",
+    "url": "https://dev.to/xu_xu_b2179aa8fc958d531d1/the-rule-hierarchy-trap-how-ai-agent-meta-patterns-are-quietly-eating-your-teams-cognitive-budget-1e4n",
+    "reactions": 1,
+    "comments": 0,
+    "tags": [
+      "ai",
+      "programming",
+      "devrel",
+      "agents"
+    ]
+  },
+  {
+    "rank": 24,
+    "title": "AI Agents For Release Notes And Changelog Automation",
+    "url": "https://dev.to/nazar_boyko/ai-agents-for-release-notes-and-changelog-automation-kia",
+    "reactions": 10,
+    "comments": 0,
+    "tags": [
+      "ai",
+      "devops",
+      "releasenotes",
+      "changelogautomation"
+    ]
+  },
+  {
+    "rank": 25,
+    "title": "AI Model Failover Drills: Keep Agents Useful When Providers Break",
+    "url": "https://dev.to/jackm-singularity/ai-model-failover-drills-keep-agents-useful-when-providers-break-1p5j",
+    "reactions": 1,
+    "comments": 0,
+    "tags": [
+      "agents",
+      "ai",
+      "sre",
+      "tutorial"
+    ]
+  }
+]

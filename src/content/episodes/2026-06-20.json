@@ -1,0 +1,170 @@
+{
+  "date": "2026-06-20",
+  "episodeNumber": 90,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "Hyundai buys Boston Dynamics, Norway imposes near ban on AI in elementary school, Project Valhalla, Explained: How a Decade of Work ",
+  "heroStat": {
+    "value": "807",
+    "label": "points on \"Hyundai buys Boston Dynamics\""
+  },
+  "insights": [
+    {
+      "text": "Hyundai buys Boston Dynamics (807 pts, 356 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 807pts",
+      "url": "https://startupfortune.com/hyundai-takes-full-control-of-boston-dynamics-as-softbank-exits-for-325-million/"
+    },
+    {
+      "text": "Norway imposes near ban on AI in elementary school (645 pts, 441 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 645pts",
+      "url": "https://www.reuters.com/technology/norway-imposes-near-ban-ai-elementary-school-2026-06-19/"
+    },
+    {
+      "text": "Project Valhalla, Explained: How a Decade of Work Arrives in JDK 28 (590 pts, 364 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 590pts",
+      "url": "https://www.jvm-weekly.com/p/project-valhalla-explained-how-a"
+    },
+    {
+      "text": "There are no instances in ATProto (432 pts, 225 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 432pts",
+      "url": "https://overreacted.io/there-are-no-instances-in-atproto/"
+    },
+    {
+      "text": "I can haz smoller NixOS ISOs? (47 pts on Lobsters)",
+      "tags": [
+        "lobsters",
+        "nix",
+        "performance"
+      ],
+      "source": "Lobsters 47pts",
+      "url": "https://natkr.com/2026-06-19-nixos-but-smol/"
+    },
+    {
+      "text": "Bevy 0.19 (39 pts on Lobsters)",
+      "tags": [
+        "lobsters",
+        "games",
+        "release"
+      ],
+      "source": "Lobsters 39pts",
+      "url": "https://bevy.org/news/bevy-0-19/"
+    },
+    {
+      "text": "What Does the Windows REFRESH button really do? (28 reactions on Dev.to)",
+      "tags": [
+        "devto",
+        "webdev",
+        "programming"
+      ],
+      "source": "Dev.to 28❤",
+      "url": "https://dev.to/lovestaco/what-does-the-windows-refresh-button-really-do-4kh"
+    },
+    {
+      "text": "Skills over System Prompts: Building an Anki Tutor with the Antigravity SDK (8 reactions on Dev.to)",
+      "tags": [
+        "devto",
+        "ai",
+        "antigravity"
+      ],
+      "source": "Dev.to 8❤",
+      "url": "https://dev.to/gde/skills-over-system-prompts-building-an-anki-tutor-with-the-antigravity-sdk-2o8f"
+    }
+  ],
+  "trending": [
+    {
+      "name": "headroom",
+      "fullName": "chopratejas/headroom",
+      "stars": "39.8K",
+      "language": "Python",
+      "delta": "+4005/d"
+    },
+    {
+      "name": "timesfm",
+      "fullName": "google-research/timesfm",
+      "stars": "24.2K",
+      "language": "Python",
+      "delta": "+1510/d"
+    },
+    {
+      "name": "superpowers",
+      "fullName": "obra/superpowers",
+      "stars": "234K",
+      "language": "Shell",
+      "delta": "+1110/d"
+    },
+    {
+      "name": "codebase-memory-mcp",
+      "fullName": "DeusData/codebase-memory-mcp",
+      "stars": "8.6K",
+      "language": "C",
+      "delta": "+1058/d"
+    },
+    {
+      "name": "palmier-pro",
+      "fullName": "palmier-io/palmier-pro",
+      "stars": "2.2K",
+      "language": "Swift",
+      "delta": "+756/d"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "807",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "4005",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "4",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "June 20, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Hyundai buys Boston Dynamics",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Norway imposes near ban on AI in elementary school",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Project Valhalla, Explained: How a Decade of Work Arrives in JDK 28",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Today's brief covers the most interesting signals across the tech landscape."
+    }
+  }
+}
