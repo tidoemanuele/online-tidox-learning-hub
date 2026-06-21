@@ -1,0 +1,162 @@
+[
+  {
+    "rank": 1,
+    "title": "Building Reliable Agentic AI Systems",
+    "url": "https://martinfowler.com/articles/reliable-llm-bayer.html",
+    "hn_url": "https://news.ycombinator.com/item?id=48615680",
+    "points": 27,
+    "comments": 2
+  },
+  {
+    "rank": 2,
+    "title": "Developers don't understand CORS (2019)",
+    "url": "https://fosterelli.co/developers-dont-understand-cors",
+    "hn_url": "https://news.ycombinator.com/item?id=48614844",
+    "points": 94,
+    "comments": 35
+  },
+  {
+    "rank": 3,
+    "title": "Zigzag Decoding with AVX-512",
+    "url": "https://zeux.io/2026/06/17/zigzag-decoding-avx512/",
+    "hn_url": "https://news.ycombinator.com/item?id=48573902",
+    "points": 21,
+    "comments": 0
+  },
+  {
+    "rank": 4,
+    "title": "Renting a sewing machine from the library",
+    "url": "https://www.bbc.com/future/article/20260618-the-weird-and-wonderful-libraries-of-finland",
+    "hn_url": "https://news.ycombinator.com/item?id=48613755",
+    "points": 182,
+    "comments": 92
+  },
+  {
+    "rank": 5,
+    "title": "Loupe \u2013 A iOS app that raises awareness about what native apps can see",
+    "url": "https://github.com/mysk-research/loupe",
+    "hn_url": "https://news.ycombinator.com/item?id=48608645",
+    "points": 175,
+    "comments": 45
+  },
+  {
+    "rank": 6,
+    "title": "Epoll vs. io_uring in Linux",
+    "url": "https://sibexi.co/posts/epoll-vs-io_uring/",
+    "hn_url": "https://news.ycombinator.com/item?id=48613872",
+    "points": 110,
+    "comments": 30
+  },
+  {
+    "rank": 7,
+    "title": "Show HN: TownSquare, a tiny presence layer for websites",
+    "url": "https://townsquare.cauenapier.com/",
+    "hn_url": "https://news.ycombinator.com/item?id=48608570",
+    "points": 132,
+    "comments": 63
+  },
+  {
+    "rank": 8,
+    "title": "Slow breathing modulates brain function and risk behavior",
+    "url": "https://www.cell.com/neuron/fulltext/S0896-6273(26)00339-9",
+    "hn_url": "https://news.ycombinator.com/item?id=48613555",
+    "points": 134,
+    "comments": 28
+  },
+  {
+    "rank": 9,
+    "title": "15-minute at-home Lyme disease tick test",
+    "url": "https://www.bostonglobe.com/2026/06/17/business/lyme-disease-tick-test/",
+    "hn_url": "https://news.ycombinator.com/item?id=48584261",
+    "points": 80,
+    "comments": 27
+  },
+  {
+    "rank": 10,
+    "title": "Your brain was never designed for this much bad news",
+    "url": "https://www.sciencedaily.com/releases/2026/06/260614012006.htm",
+    "hn_url": "https://news.ycombinator.com/item?id=48615569",
+    "points": 67,
+    "comments": 35
+  },
+  {
+    "rank": 11,
+    "title": "Guide to the TD4 4-bit DIY CPU",
+    "url": "https://www.philipzucker.com/td4-4bit-cpu/",
+    "hn_url": "https://news.ycombinator.com/item?id=48591276",
+    "points": 22,
+    "comments": 1
+  },
+  {
+    "rank": 12,
+    "title": "Proportion-Integral-Derivative Controllers",
+    "url": "https://en.wikipedia.org/wiki/PID_controller",
+    "hn_url": "https://news.ycombinator.com/item?id=48600311",
+    "points": 6,
+    "comments": 0
+  },
+  {
+    "rank": 13,
+    "title": "When I reject AI code even if it works",
+    "url": "https://vinibrasil.com/when-i-reject-ai-code-even-if-it-works/",
+    "hn_url": "https://news.ycombinator.com/item?id=48614631",
+    "points": 126,
+    "comments": 72
+  },
+  {
+    "rank": 14,
+    "title": "Project Fetch: Phase Two",
+    "url": "https://www.anthropic.com/research/project-fetch-phase-two",
+    "hn_url": "https://news.ycombinator.com/item?id=48614311",
+    "points": 52,
+    "comments": 18
+  },
+  {
+    "rank": 15,
+    "title": "SMPTE Makes Its Standards Freely Accessible",
+    "url": "https://www.smpte.org/blog/smpte-makes-its-standards-freely-accessible-openingstandards-library-to-the-global-media-technology-community",
+    "hn_url": "https://news.ycombinator.com/item?id=48610827",
+    "points": 243,
+    "comments": 72
+  },
+  {
+    "rank": 16,
+    "title": "UHF X11: X11 Built for VisionOS and Apple Vision Pro",
+    "url": "https://www.lispm.net/apps/uhf-x11/",
+    "hn_url": "https://news.ycombinator.com/item?id=48610853",
+    "points": 188,
+    "comments": 32
+  },
+  {
+    "rank": 17,
+    "title": "DOS Game \"F-15 Strike Eagle II\" reversing project needs DOS test pilots",
+    "url": "https://neuviemeporte.github.io/f15-se2/2026/06/20/needyou.html",
+    "hn_url": "https://news.ycombinator.com/item?id=48609766",
+    "points": 230,
+    "comments": 62
+  },
+  {
+    "rank": 18,
+    "title": "Unauthorized alert sent to cell phones across Brazil",
+    "url": "https://www.cnn.com/2026/06/20/americas/brazil-hackers-unauthorized-alert-latam",
+    "hn_url": "https://news.ycombinator.com/item?id=48612502",
+    "points": 114,
+    "comments": 82
+  },
+  {
+    "rank": 19,
+    "title": "NOLA 'Nacular: One man's crusade to preserve New Orleans's vernacular signage",
+    "url": "https://countryroadsmagazine.com/art-and-culture/people-places/nola-nacular/",
+    "hn_url": "https://news.ycombinator.com/item?id=48564763",
+    "points": 33,
+    "comments": 2
+  },
+  {
+    "rank": 20,
+    "title": "Whole cross-sectional human ultrasound tomography",
+    "url": "https://www.nature.com/articles/s41551-026-01660-4",
+    "hn_url": "https://news.ycombinator.com/item?id=48582894",
+    "points": 55,
+    "comments": 9
+  }
+]
