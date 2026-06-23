@@ -3,55 +3,62 @@
   "episodeNumber": 94,
   "locale": "en-US",
   "title": "Intelligence Brief",
-  "subtitle": "Consumer hardware and the desktop app reclaimed th, Open weights reached frontier parity on coding, an, The efficiency frontier was the day's most underra",
+  "subtitle": "Will It Mythos?, Steam Machine launches today, VibeThinker: 3B param model that beats Opus 4.5 on",
   "heroStat": {
-    "value": "$1,049",
-    "label": "living"
+    "value": "1405",
+    "label": "points on \"Steam Machine launches today\""
   },
   "insights": [
     {
-      "text": "Consumer hardware and the desktop app reclaimed the top of Hacker News from pure AI news. 'Steam Machine launches today' was the runaway #1 (1,422 points/1,274 comments — more than #2 and #3 combined), a $1,049 living-room PC on a custom Zen-4/RDNA-3 part with general launch June 30. One row of engagement down, 'Deno Desktop' (1,054 points/380 comments) ships native desktop apps from TypeScript via system webviews — not bundled Chromium — with zero-config framework detection and built-in binary-diff auto-update. A decade after the first Steam Machines flopped, mature SteamOS/Proton makes Valve's non-Windows bet credible again.",
-      "tags": []
-    },
-    {
-      "text": "Open weights reached frontier parity on coding, and the framing tells the story: 'GLM-5.2 — How to Run Locally' (301 points/140 comments), not 'API access.' Z.ai's MIT-licensed 744B-MoE (~40B active, 1M context) scores SWE-bench Pro 62.1 — beating GPT-5.5's 58.6 — and FrontierSWE 74.4%, near-tying Opus 4.8's 75.1%, at roughly 1/6th the cost. The sovereign-AI thesis from last week (Apertus, export controls on Fable 5/Mythos 5) is now benchmarked, not aspirational: frontier-class coding is a weight you can download, and the closed-lab moat narrows to top-end reasoning, safety, and managed infra.",
+      "text": "Will It Mythos? (75 pts, 41 comments)",
       "tags": [
-        "research"
-      ]
+        "hacker-news"
+      ],
+      "source": "HN 75pts",
+      "url": "https://swelljoe.com/post/will-it-mythos/"
     },
     {
-      "text": "The efficiency frontier was the day's most underrated thread: tiny models matching big ones on verifiable tasks. 'VibeThinker: 3B param model that beats Opus 4.5 on reasoning' (111 points/41 comments) — a Qwen-2.5-Coder-3B fine-tune that passed 123/128 LeetCode first-attempt (96.1%, beating Opus 4.6), though it trails badly on open-domain GPQA-Diamond (70.2 vs Opus 4.5's 87.0; WeiboAI's own card never claims Opus parity). Paired with 'Moebius: 0.2B image inpainting with 10B-level performance' (265/67), the lesson holds across text and image: on checkable domains, post-training technique substitutes for parameter count. Task routing — tiny local models for verifiable work, big models for open knowledge — is becoming standard cost architecture.",
-      "tags": []
-    },
-    {
-      "text": "Skills won as the unit of agent capability — collections, not frameworks, now dominate the GitHub chart. The #1 trending repo is calesthio/OpenMontage (+2,938 stars, 13,007 total), an 'open-source agentic video production system' with 500+ agent skills, beside mukul975/Anthropic-Cybersecurity-Skills (+956, 18,963 total — 817 structured cyber skills across 6 frameworks). And mattpocock/skills accelerated rather than decayed: +2,051 today (up from +1,441 on June 22) to 142,213 total, still the largest-total repo on the chart. The next layer is skill infrastructure — registries, security scanners, curation — because the contested ground is trust, not more raw skills.",
+      "text": "Steam Machine launches today (1405 pts, 1263 comments)",
       "tags": [
-        "security",
-        "github-trending",
-        "agents"
-      ]
+        "hacker-news"
+      ],
+      "source": "HN 1405pts",
+      "url": "https://store.steampowered.com/news/group/45479024/view/685257114654870245"
     },
     {
-      "text": "AI video production is a real, well-capitalized trending cluster, not a one-repo fluke. Four distinct repos trend simultaneously: OpenMontage (+2,938, agentic production), palmier-io/palmier-pro (+2,463, macOS native AI video editor), heygen-com/hyperframes (+395, 'Write HTML. Render video. Built for agents.'), and jamiepine/voicebox (+529, open AI voice studio). The video modality is industrializing along the same agentic-pipeline path text and code already took — expect rapid consolidation and a Continue→Cursor-style acquisition pattern within months.",
+      "text": "VibeThinker: 3B param model that beats Opus 4.5 on reasoning with novel SFT+GRPO (98 pts, 32 comments)",
       "tags": [
-        "agents"
-      ]
+        "hacker-news"
+      ],
+      "source": "HN 98pts",
+      "url": "https://arxiv.org/abs/2606.16140"
     },
     {
-      "text": "AI's binding constraint is durably the power grid, and frontier labs are now energy-procurement operators. 'Canada plans a nuclear renaissance with up to 10 reactors by 2040' (419 points/263 comments) landed the same day as 'Chevron signs a 20-year power agreement with Microsoft for a West Texas data center' (138/124). This extends the multi-week compute-bottleneck arc — OpenAI's $17.2B Azure line, xAI turbines as national security — into decade-scale infrastructure commitments. Power, not model capability, sets the ceiling, and long-dated energy contracts are a moat that favors hyperscalers with capital.",
+      "text": "GLM-5.2 – How to Run Locally (295 pts, 138 comments)",
       "tags": [
-        "security"
-      ]
+        "hacker-news"
+      ],
+      "source": "HN 295pts",
+      "url": "https://unsloth.ai/docs/models/glm-5.2"
     },
     {
-      "text": "Agent-native tooling reached the foundational layers. 'Show HN: Oak — Git alternative designed for agents' drew a contention-heavy 177 points/157 comments — a live argument over whether version control should be redesigned for the cadence and granularity at which agents commit, branch, and merge. It pairs with DeusData/codebase-memory-mcp sustaining its climb (+1,185 stars, now 11,955 total) for agent memory. Whether or not Oak wins, 'designed for agents' is now a legitimate redesign rationale for boring infrastructure — the tell that agents are the assumed primary user.",
+      "text": "Why Drawing Tablet Brands Won't Collaborate on Linux FLOSS Drivers (104 pts on Lobsters)",
       "tags": [
-        "agents"
-      ]
+        "lobsters",
+        "hardware",
+        "linux"
+      ],
+      "source": "Lobsters 104pts",
+      "url": "https://www.davidrevoy.com/article1154/why-drawing-tablet-brands-wont-collaborate-on-linux-floss-drivers"
     },
     {
-      "text": "The surveillance counter-current persisted even as product news took the page. 'Flock-Powered Police Chiefs Stalking Women Shows Why Warrants Are Needed' (472 points/195 comments) — ALPR camera networks abused by insiders — sat beside 'Polymarket has flooded social media with deceptive videos by paid creators' (170/136), a prediction market weaponizing paid synthetic video. After last week's Loupe and Claude identity verification, the 'who can see, who can deceive' anxiety is revealed as structural to this community, independent of AI-news volume. HN's craft anchor held too: a Pi Zero camera (151/37) and a runaway 'Help I accidentally a wigglegram' (522/121).",
-      "tags": []
+      "text": "Pledging Another $400,000 to the Zig Software Foundation (67 pts on Lobsters)",
+      "tags": [
+        "lobsters",
+        "zig"
+      ],
+      "source": "Lobsters 67pts",
+      "url": "https://mitchellh.com/writing/zig-donation-2026"
     }
   ],
   "trending": [
@@ -114,7 +121,7 @@
     },
     {
       "label": "Insights Today",
-      "value": "8",
+      "value": "6",
       "unit": "stories"
     }
   ],
@@ -125,17 +132,17 @@
     },
     "headlines": [
       {
-        "text": "Consumer hardware and the desktop app reclaimed the top of Hacker News from pure AI news. 'Steam Machine launches today' was the runaway #1 (1,422 points/1,274 comments",
+        "text": "Will It Mythos?",
         "metric": "—",
         "source": "web"
       },
       {
-        "text": "Open weights reached frontier parity on coding, and the framing tells the story: 'GLM-5.2",
+        "text": "Steam Machine launches today",
         "metric": "—",
         "source": "web"
       },
       {
-        "text": "The efficiency frontier was the day's most underrated thread: tiny models matching big ones on verifiable tasks. 'VibeThinker: 3B param model that beats Opus 4.5 on reasoning'",
+        "text": "VibeThinker: 3B param model that beats Opus 4.5 on reasoning with novel SFT+GRPO",
         "metric": "—",
         "source": "web"
       }
