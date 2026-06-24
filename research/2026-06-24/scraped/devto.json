@@ -1,0 +1,318 @@
+[
+  {
+    "rank": 1,
+    "title": "The 80/20 Rule of AI Code — Why the Last 20% Takes 80% of Your Time",
+    "url": "https://dev.to/harsh2644/the-8020-rule-of-ai-code-why-the-last-20-takes-80-of-your-time-3pcg",
+    "reactions": 31,
+    "comments": 14,
+    "tags": [
+      "ai",
+      "programming",
+      "productivity",
+      "softwareengineering"
+    ]
+  },
+  {
+    "rank": 2,
+    "title": "Too cheap to be good? Think again.",
+    "url": "https://dev.to/pascal_cescato_692b7a8a20/too-cheap-to-be-good-think-again-4nj0",
+    "reactions": 26,
+    "comments": 38,
+    "tags": [
+      "ai",
+      "benchmark",
+      "devops",
+      "webdev"
+    ]
+  },
+  {
+    "rank": 3,
+    "title": "The Node.js Mistake That Cost My Client $3,000 in AWS Bills",
+    "url": "https://dev.to/manolito99/the-nodejs-mistake-that-cost-my-client-3000-in-aws-bills-30a5",
+    "reactions": 21,
+    "comments": 11,
+    "tags": [
+      "node",
+      "javascript",
+      "aws",
+      "webdev"
+    ]
+  },
+  {
+    "rank": 4,
+    "title": "Solstice Protocol: A Puzzle Adventure to Save the Longest Day",
+    "url": "https://dev.to/kiranbasnal/solstice-protocol-a-puzzle-adventure-to-save-the-longest-day-1gcl",
+    "reactions": 13,
+    "comments": 0,
+    "tags": [
+      "devchallenge",
+      "gamechallenge",
+      "gamedev",
+      "programming"
+    ]
+  },
+  {
+    "rank": 5,
+    "title": "How My AI Agent Hacked Its Own Permissions (And What It Taught Me)",
+    "url": "https://dev.to/gdg/how-my-ai-agent-hacked-its-own-permissions-and-what-it-taught-me-34bm",
+    "reactions": 13,
+    "comments": 3,
+    "tags": [
+      "ai",
+      "security",
+      "agents",
+      "automation"
+    ]
+  },
+  {
+    "rank": 6,
+    "title": "An AI Feature Has No \"Tests Pass\" Moment. So I Write the Eval First.",
+    "url": "https://dev.to/mrviduus/an-ai-feature-has-no-tests-pass-moment-so-i-write-the-eval-first-1f7p",
+    "reactions": 11,
+    "comments": 13,
+    "tags": [
+      "ai",
+      "dotnet",
+      "csharp",
+      "machinelearning"
+    ]
+  },
+  {
+    "rank": 7,
+    "title": "Dev log #7 Reviving DevNotion: 10,000 Lines, Multi-LLM Support, and the Road to v2.1",
+    "url": "https://dev.to/yashksaini/dev-log-1-reviving-devnotion-10000-lines-multi-llm-support-and-the-road-to-v21-47hl",
+    "reactions": 20,
+    "comments": 0,
+    "tags": [
+      "devjournal",
+      "llm",
+      "opensource",
+      "showdev"
+    ]
+  },
+  {
+    "rank": 8,
+    "title": "Maybe It Is Not Yet Time To Bring Every AI Demo To Production",
+    "url": "https://dev.to/marcosomma/maybe-it-is-not-yet-time-to-bring-every-ai-demo-to-production-o74",
+    "reactions": 6,
+    "comments": 3,
+    "tags": [
+      "ai",
+      "programming",
+      "productivity",
+      "tutorial"
+    ]
+  },
+  {
+    "rank": 9,
+    "title": "The LLM Visibility Tools Cost $79/Month. Mine is Open Source.",
+    "url": "https://dev.to/dannwaneri/the-llm-visibility-tools-cost-79month-mine-is-open-source-29hb",
+    "reactions": 14,
+    "comments": 4,
+    "tags": [
+      "ai",
+      "seo",
+      "python",
+      "opensource"
+    ]
+  },
+  {
+    "rank": 10,
+    "title": "Why I Left Postman — The Real Cost of a Cloud-First API Client",
+    "url": "https://dev.to/flutwiz/why-i-left-postman-the-real-cost-of-a-cloud-first-api-client-3gfd",
+    "reactions": 32,
+    "comments": 2,
+    "tags": [
+      "api",
+      "postman",
+      "opensource",
+      "devtools"
+    ]
+  },
+  {
+    "rank": 11,
+    "title": "Something Changed After the Sloan Articles. I Can't Prove It.",
+    "url": "https://dev.to/dannwaneri/something-changed-after-the-sloan-articles-i-cant-prove-it-5009",
+    "reactions": 4,
+    "comments": 3,
+    "tags": [
+      "ai",
+      "meta",
+      "devto",
+      "discuss"
+    ]
+  },
+  {
+    "rank": 12,
+    "title": "Series Teaser — 6 People, 36 Stratagems, and an AI Rabbit Hole That Keeps Getting Deeper",
+    "url": "https://dev.to/xulingfeng/series-teaser-6-people-36-stratagems-and-an-ai-rabbit-hole-that-keeps-getting-deeper-3fnm",
+    "reactions": 27,
+    "comments": 6,
+    "tags": [
+      "ai",
+      "discuss",
+      "career",
+      "programming"
+    ]
+  },
+  {
+    "rank": 13,
+    "title": "Conduit: The Gateway I Built to Forget About",
+    "url": "https://dev.to/adamthedeveloper/conduit-the-gateway-i-built-to-forget-about-2ann",
+    "reactions": 1,
+    "comments": 0,
+    "tags": [
+      "programming",
+      "architecture",
+      "typescript",
+      "go"
+    ]
+  },
+  {
+    "rank": 14,
+    "title": "Every Alarm Is a Crime Scene: Meet Poirot, the Read-Only Incident Detective",
+    "url": "https://dev.to/aws-builders/every-alarm-is-a-crime-scene-meet-poirot-the-read-only-incident-detective-58pa",
+    "reactions": 2,
+    "comments": 0,
+    "tags": [
+      "ai",
+      "aws",
+      "typescript",
+      "cdk"
+    ]
+  },
+  {
+    "rank": 15,
+    "title": "Hetzner Doubled Its Prices Again. The AI Memory Crunch Is Why",
+    "url": "https://dev.to/devopsdaily/hetzner-doubled-its-prices-again-the-ai-memory-crunch-is-why-64b",
+    "reactions": 5,
+    "comments": 0,
+    "tags": [
+      "devops",
+      "linux",
+      "ai",
+      "opensource"
+    ]
+  },
+  {
+    "rank": 16,
+    "title": "Never lose a training run again: a checkpoint-and-resume playbook for ephemeral GPUs",
+    "url": "https://dev.to/tanay_joshi_04/never-lose-a-training-run-again-a-checkpoint-and-resume-playbook-for-ephemeral-gpus-2m1j",
+    "reactions": 5,
+    "comments": 1,
+    "tags": [
+      "machinelearning",
+      "python",
+      "mlops",
+      "learning"
+    ]
+  },
+  {
+    "rank": 17,
+    "title": "Building a Custom Status Line for Claude Code",
+    "url": "https://dev.to/ndrone/building-a-custom-status-line-for-claude-code-5822",
+    "reactions": 4,
+    "comments": 0,
+    "tags": [
+      "ai",
+      "productivity",
+      "tutorial",
+      "claude"
+    ]
+  },
+  {
+    "rank": 18,
+    "title": "Ways Devs Are Plugging LLMs Into Anomaly Detection",
+    "url": "https://dev.to/lovestaco/ways-devs-are-plugging-llms-into-anomaly-detection-1b3o",
+    "reactions": 11,
+    "comments": 1,
+    "tags": [
+      "ai",
+      "programming",
+      "beginners",
+      "machinelearning"
+    ]
+  },
+  {
+    "rank": 19,
+    "title": "10 Cool CodePen Demos (May 2026)",
+    "url": "https://dev.to/alvaromontoro/10-cool-codepen-demos-may-2026-42ni",
+    "reactions": 5,
+    "comments": 2,
+    "tags": [
+      "html",
+      "css",
+      "showdev",
+      "javascript"
+    ]
+  },
+  {
+    "rank": 20,
+    "title": "7 New JavaScript Features (And 2 I'm Still Waiting For)",
+    "url": "https://dev.to/sylwia-lask/7-new-javascript-features-and-2-im-still-waiting-for-2ck8",
+    "reactions": 1,
+    "comments": 0,
+    "tags": [
+      "javascript",
+      "typescript",
+      "node",
+      "webdev"
+    ]
+  },
+  {
+    "rank": 21,
+    "title": "Coding isn't flying, but...",
+    "url": "https://dev.to/canro91/coding-isnt-flying-but-4fa6",
+    "reactions": 0,
+    "comments": 0,
+    "tags": []
+  },
+  {
+    "rank": 22,
+    "title": "cuenv: one typed file for your whole project",
+    "url": "https://dev.to/peterj/cuenv-one-typed-file-for-your-whole-project-76a",
+    "reactions": 0,
+    "comments": 0,
+    "tags": [
+      "automation",
+      "cicd",
+      "devops",
+      "tooling"
+    ]
+  },
+  {
+    "rank": 23,
+    "title": "Building a Multi-VM Lab with Vagrant: Two Web Servers and a Database",
+    "url": "https://dev.to/saint_vandora/building-a-multi-vm-lab-with-vagrant-two-web-servers-and-a-database-2880",
+    "reactions": 5,
+    "comments": 0,
+    "tags": [
+      "webdev",
+      "devops",
+      "tutorial",
+      "automation"
+    ]
+  },
+  {
+    "rank": 24,
+    "title": "Supercharge Your AI Agent with Terraform: Introducing the Terraform Ops Kit for Docker Sandbox",
+    "url": "https://dev.to/docker/supercharge-your-ai-agent-with-terraform-introducing-the-terraform-ops-kit-for-docker-sandbox-31di",
+    "reactions": 3,
+    "comments": 0,
+    "tags": [
+      "docker",
+      "gde"
+    ]
+  },
+  {
+    "rank": 25,
+    "title": "Announcing spartan/ui 1.0",
+    "url": "https://dev.to/playfulprogramming-angular/announcing-spartanui-10-546o",
+    "reactions": 2,
+    "comments": 0,
+    "tags": [
+      "angular",
+      "webdev"
+    ]
+  }
+]

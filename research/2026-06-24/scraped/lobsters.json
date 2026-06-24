@@ -1,0 +1,237 @@
+[
+  {
+    "title": "Keeping the Web Open and Private in the Bot Era",
+    "score": 40,
+    "tags": [
+      "browsers",
+      "cryptography",
+      "web"
+    ],
+    "url": "https://blog.mozilla.org/en/privacy-security/keeping-the-web-open-and-private-in-the-bot-era/",
+    "comments_url": "https://lobste.rs/s/sdqqbb/keeping_web_open_private_bot_era"
+  },
+  {
+    "title": "Please keep code descriptions simple",
+    "score": 38,
+    "tags": [
+      "programming"
+    ],
+    "url": "https://akselmo.dev/posts/please-keep-code-descriptions-simple/",
+    "comments_url": "https://lobste.rs/s/y4hgjd/please_keep_code_descriptions_simple"
+  },
+  {
+    "title": "how a stray \"j\" ruined my evening",
+    "score": 18,
+    "tags": [
+      "linux"
+    ],
+    "url": "https://napkins.mtmn.name/posts/stray-jay.html",
+    "comments_url": "https://lobste.rs/s/cjnnk3/how_stray_j_ruined_my_evening"
+  },
+  {
+    "title": "Vulnerability Reports Are Not Special Anymore",
+    "score": 36,
+    "tags": [
+      "security"
+    ],
+    "url": "https://words.filippo.io/vuln-reports/",
+    "comments_url": "https://lobste.rs/s/bcjwwn/vulnerability_reports_are_not_special"
+  },
+  {
+    "title": "Record type inference for dummies",
+    "score": 33,
+    "tags": [
+      "plt"
+    ],
+    "url": "https://haskellforall.com/2026/06/record-type-inference-for-dummies",
+    "comments_url": "https://lobste.rs/s/ufml52/record_type_inference_for_dummies"
+  },
+  {
+    "title": "It’s Only When You Look Back",
+    "score": 28,
+    "tags": [
+      "historical"
+    ],
+    "url": "https://www.markround.com/blog/2026/06/17/25-its-only-when-you-look-back/",
+    "comments_url": "https://lobste.rs/s/f2ixyf/it_s_only_when_you_look_back"
+  },
+  {
+    "title": "Adversarial Communication",
+    "score": 12,
+    "tags": [
+      "practices",
+      "vibecoding"
+    ],
+    "url": "https://blog.glyph.im/2026/06/adversarial-communication.html",
+    "comments_url": "https://lobste.rs/s/gfroei/adversarial_communication"
+  },
+  {
+    "title": "maestro: Lightweight, Linux-compatible kernel, written in Rust",
+    "score": 11,
+    "tags": [
+      "osdev",
+      "rust"
+    ],
+    "url": "https://github.com/maestro-os/maestro",
+    "comments_url": "https://lobste.rs/s/yvydvs/maestro_lightweight_linux_compatible"
+  },
+  {
+    "title": "Legibility of Effort",
+    "score": 10,
+    "tags": [
+      "vibecoding"
+    ],
+    "url": "https://eieio.games/blog/legibility-of-effort/",
+    "comments_url": "https://lobste.rs/s/7q9qwr/legibility_effort"
+  },
+  {
+    "title": "How we found a bug in the hyper HTTP library",
+    "score": 9,
+    "tags": [
+      "debugging"
+    ],
+    "url": "https://blog.cloudflare.com/hyper-bug/",
+    "comments_url": "https://lobste.rs/s/pvdvww/how_we_found_bug_hyper_http_library"
+  },
+  {
+    "title": "Pledging Another $400,000 to the Zig Software Foundation",
+    "score": 156,
+    "tags": [
+      "zig"
+    ],
+    "url": "https://mitchellh.com/writing/zig-donation-2026",
+    "comments_url": "https://lobste.rs/s/lz3dbc/pledging_another_400_000_zig_software"
+  },
+  {
+    "title": "Cloudflare Collaborates With Leading Browsers to Develop a Privacy-First Protocol For the Global Internet",
+    "score": 12,
+    "tags": [
+      "privacy",
+      "web"
+    ],
+    "url": "https://cloudflare.net/news/news-details/2026/Cloudflare-Collaborates-With-Leading-Browsers-to-Develop-a-Privacy-First-Protocol-For-the-Global-Internet/default.aspx",
+    "comments_url": "https://lobste.rs/s/fdwnzt/cloudflare_collaborates_with_leading"
+  },
+  {
+    "title": "The Low-Tech AI Of Elden Ring",
+    "score": 52,
+    "tags": [
+      "games"
+    ],
+    "url": "https://nega.tv/posts/low-tech-ai-of-elden-ring.html",
+    "comments_url": "https://lobste.rs/s/fzz7pf/low_tech_ai_elden_ring"
+  },
+  {
+    "title": "Making Rust supply chain attacks harder with Cackle (2023)",
+    "score": 4,
+    "tags": [
+      "rust",
+      "security"
+    ],
+    "url": "https://davidlattimore.github.io/posts/2023/10/09/making-supply-chain-attacks-harder.html",
+    "comments_url": "https://lobste.rs/s/dl0yiv/making_rust_supply_chain_attacks_harder"
+  },
+  {
+    "title": "FEXPRs vs. vtable: how LispE interpreter works",
+    "score": 15,
+    "tags": [
+      "c++",
+      "lisp"
+    ],
+    "url": "https://github.com/naver/lispe/wiki/2.7-FEXPR-vs.-vtable",
+    "comments_url": "https://lobste.rs/s/leh6g3/fexprs_vs_vtable_how_lispe_interpreter"
+  },
+  {
+    "title": "Why Drawing Tablet Brands Won't Collaborate on Linux FLOSS Drivers",
+    "score": 160,
+    "tags": [
+      "hardware",
+      "linux"
+    ],
+    "url": "https://www.davidrevoy.com/article1154/why-drawing-tablet-brands-wont-collaborate-on-linux-floss-drivers",
+    "comments_url": "https://lobste.rs/s/rq2t8j/why_drawing_tablet_brands_won_t"
+  },
+  {
+    "title": "RRB-Trees: Efficient Immutable Vectors",
+    "score": 4,
+    "tags": [
+      "programming"
+    ],
+    "url": "https://infoscience.epfl.ch/server/api/core/bitstreams/e5d662ea-1e8d-4dda-b917-8cbb8bb40bf9/content",
+    "comments_url": "https://lobste.rs/s/ev9ruz/rrb_trees_efficient_immutable_vectors"
+  },
+  {
+    "title": "In memory of the man who put red and green squiggles under words",
+    "score": 118,
+    "tags": [
+      "historical"
+    ],
+    "url": "https://devblogs.microsoft.com/oldnewthing/20260622-00/?p=112451",
+    "comments_url": "https://lobste.rs/s/wnlece/memory_man_who_put_red_green_squiggles"
+  },
+  {
+    "title": "Swift Package Index joins Apple",
+    "score": 4,
+    "tags": [
+      "swift"
+    ],
+    "url": "https://swiftpackageindex.com/blog/swift-package-index-joins-apple",
+    "comments_url": "https://lobste.rs/s/oyi8yy/swift_package_index_joins_apple"
+  },
+  {
+    "title": "Performance of WebAssembly runtimes in 2026",
+    "score": 16,
+    "tags": [
+      "wasm"
+    ],
+    "url": "https://00f.net/2026/06/23/webassembly-runtimes-2026/",
+    "comments_url": "https://lobste.rs/s/fhmvsf/performance_webassembly_runtimes_2026"
+  },
+  {
+    "title": "ytr: YouTube radio for Emacs",
+    "score": 7,
+    "tags": [
+      "audio",
+      "emacs",
+      "lisp"
+    ],
+    "url": "https://xenodium.com/ytr-youtube-radio-for-emacs",
+    "comments_url": "https://lobste.rs/s/eobxls/ytr_youtube_radio_for_emacs"
+  },
+  {
+    "title": "One year with Codeberg",
+    "score": 92,
+    "tags": [
+      "nix"
+    ],
+    "url": "https://guix.gnu.org/en/blog/2026/one-year-with-codeberg/",
+    "comments_url": "https://lobste.rs/s/pifl3k/one_year_with_codeberg"
+  },
+  {
+    "title": "Ultra: A from-scratch kernel that aims for full ABI compatibility with the Linux userland",
+    "score": 5,
+    "tags": [
+      "osdev"
+    ],
+    "url": "https://github.com/UltraOS/Ultra",
+    "comments_url": "https://lobste.rs/s/qzw7no/ultra_from_scratch_kernel_aims_for_full"
+  },
+  {
+    "title": "Datastar – It’s Pretty Good",
+    "score": 14,
+    "tags": [
+      "web"
+    ],
+    "url": "https://data-star.dev/essays/datastar_its_pretty_good",
+    "comments_url": "https://lobste.rs/s/cdxin1/datastar_it_s_pretty_good"
+  },
+  {
+    "title": "Blobly",
+    "score": 8,
+    "tags": [
+      "games"
+    ],
+    "url": "https://blobly.medv.io/",
+    "comments_url": "https://lobste.rs/s/czrkxh/blobly"
+  }
+]

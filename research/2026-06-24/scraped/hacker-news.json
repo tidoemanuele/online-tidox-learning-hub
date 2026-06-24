@@ -1,0 +1,212 @@
+[
+  {
+    "rank": 1,
+    "title": "FUTO Swipe – A new swipe typing model",
+    "url": "https://swipe.futo.tech/",
+    "points": 534,
+    "comments": 169
+  },
+  {
+    "rank": 2,
+    "title": "Fired by Google for creating the Google workspace CLI",
+    "url": "https://twitter.com/JPoehnelt/status/2069482265953087602",
+    "points": 524,
+    "comments": 303
+  },
+  {
+    "rank": 3,
+    "title": "Jerry's Map",
+    "url": "http://www.jerrysmap.com/the-map",
+    "points": 463,
+    "comments": 54
+  },
+  {
+    "rank": 4,
+    "title": "Show HN: TikZ Editor – WYSIWYG editor for figures in LaTeX",
+    "url": "https://tikz.dev/editor/",
+    "points": 389,
+    "comments": 71
+  },
+  {
+    "rank": 5,
+    "title": "In memory of the man who put red and green squiggles under words",
+    "url": "https://devblogs.microsoft.com/oldnewthing/20260622-00/?p=112451",
+    "points": 370,
+    "comments": 62
+  },
+  {
+    "rank": 6,
+    "title": "Printing Gaussian Splats",
+    "url": "https://www.patreon.com/DanyBittel/posts/printing-splats-161333338",
+    "points": 298,
+    "comments": 32
+  },
+  {
+    "rank": 7,
+    "title": "The worthlessness of Vitamin D is mildly exaggerated",
+    "url": "https://dynomight.net/vitamin-d/",
+    "points": 292,
+    "comments": 205
+  },
+  {
+    "rank": 8,
+    "title": "Vulnerability reports are not special anymore",
+    "url": "https://words.filippo.io/vuln-reports/",
+    "points": 263,
+    "comments": 145
+  },
+  {
+    "rank": 9,
+    "title": "Meta Pauses Employee-Tracking Program Following Internal Data Leak",
+    "url": "https://www.wired.com/story/meta-pauses-employee-tracking-program-following-internal-security-breach/",
+    "points": 239,
+    "comments": 164
+  },
+  {
+    "rank": 10,
+    "title": "Swift Package Index joins Apple",
+    "url": "https://swiftpackageindex.com/blog/swift-package-index-joins-apple",
+    "points": 204,
+    "comments": 66
+  },
+  {
+    "rank": 11,
+    "title": "A man was gifted his dream car by Kevin Mitnick, who he helped put in prison",
+    "url": "https://www.thedrive.com/news/this-man-was-gifted-his-dream-car-by-the-notorious-hacker-he-put-in-prison",
+    "points": 171,
+    "comments": 105
+  },
+  {
+    "rank": 12,
+    "title": "Rhombus Language 1.0",
+    "url": "https://blog.racket-lang.org/2026/06/rhombus-v1.0.html",
+    "points": 160,
+    "comments": 42
+  },
+  {
+    "rank": 13,
+    "title": "Millimeter wave technology drills 100 meters into granite",
+    "url": "https://www.thinkgeoenergy.com/quaise-energy-achieves-100-meters-of-drilling-using-millimeter-wave-technology/",
+    "points": 154,
+    "comments": 49
+  },
+  {
+    "rank": 14,
+    "title": "The Low-Tech AI of Elden Ring",
+    "url": "https://nega.tv/posts/low-tech-ai-of-elden-ring.html",
+    "points": 147,
+    "comments": 83
+  },
+  {
+    "rank": 15,
+    "title": "Usbliter8: an A12/A13 SecureROM Exploit",
+    "url": "https://ps.tc/pages/blog-usbliter8.html",
+    "points": 139,
+    "comments": 27
+  },
+  {
+    "rank": 16,
+    "title": "Raspberry Pi Pico W as USB Wi-Fi Adapter",
+    "url": "https://gitlab.com/baiyibai/pico-usb-wifi",
+    "points": 127,
+    "comments": 36
+  },
+  {
+    "rank": 17,
+    "title": "Five monitors on a Commodore 128 [video]",
+    "url": "https://www.youtube.com/watch?v=ul5hC3PY1Yg",
+    "points": 123,
+    "comments": 22
+  },
+  {
+    "rank": 18,
+    "title": "Dirty Little Zine – a tool for making an 8 page printable Zine",
+    "url": "https://dirtylittlezine.com/",
+    "points": 122,
+    "comments": 16
+  },
+  {
+    "rank": 19,
+    "title": "Show HN: An ASCII 3D Rendering Engine",
+    "url": "https://glyphcss.com",
+    "points": 121,
+    "comments": 37
+  },
+  {
+    "rank": 20,
+    "title": "Qwen-AgentWorld: Language World Models for General Agents",
+    "url": "https://arxiv.org/abs/2606.24597",
+    "points": 100,
+    "comments": 27
+  },
+  {
+    "rank": 21,
+    "title": "Inventing the Future, One Lisp Machine at a Time",
+    "url": "https://www.patrickdomanico.com/bpm/2026/06/16/inventing-the-future-one-lisp-machine-at-a-time/",
+    "points": 100,
+    "comments": 14
+  },
+  {
+    "rank": 22,
+    "title": "\"Fix\" MacBook Neo Cursor Lag: Record 1 Pixel of the Screen Every 10 Seconds",
+    "url": "https://gist.github.com/retroplasma/ec21767d0a8380c7ea9c2fbee1c7d6bf",
+    "points": 90,
+    "comments": 32
+  },
+  {
+    "rank": 23,
+    "title": "F* file system – file search that reads SSD directly bypassing OS kernel",
+    "url": "https://github.com/dmtrKovalenko/ffs",
+    "points": 70,
+    "comments": 41
+  },
+  {
+    "rank": 24,
+    "title": "The Teensy Executable Revisited",
+    "url": "https://www.muppetlabs.com/~breadbox/software/tiny/revisit.html",
+    "points": 37,
+    "comments": 3
+  },
+  {
+    "rank": 25,
+    "title": "Remaking BBC test cards to teach you video processing",
+    "url": "https://www.youtube.com/watch?v=U_6HxPkrgcg",
+    "points": 37,
+    "comments": 1
+  },
+  {
+    "rank": 26,
+    "title": "DiffusionBench: Towards Holistic Evaluation of Generative Diffusion Transformers",
+    "url": "https://github.com/End2End-Diffusion/diffusion-bench",
+    "points": 34,
+    "comments": 1
+  },
+  {
+    "rank": 27,
+    "title": "Hunting Million-Digit Primes from My Loft",
+    "url": "https://primecrunch.com/blog/2/hunting-million-digit-primes-from-my-loft",
+    "points": 24,
+    "comments": 3
+  },
+  {
+    "rank": 28,
+    "title": "Lithp.py (~2008)",
+    "url": "https://fogus.me/fun/lithp/",
+    "points": 19,
+    "comments": 3
+  },
+  {
+    "rank": 29,
+    "title": "Why eval startups fail (2025)",
+    "url": "https://thomasliao.com/eval-startups",
+    "points": 16,
+    "comments": 11
+  },
+  {
+    "rank": 30,
+    "title": "How to organize 3 acquired companies into one coherent website",
+    "url": "https://littlelanguagemodels.com/how-to-structure-your-sites-after-a-big-acquisition/",
+    "points": 13,
+    "comments": 0
+  }
+]

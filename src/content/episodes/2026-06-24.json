@@ -1,0 +1,169 @@
+{
+  "date": "2026-06-24",
+  "episodeNumber": 94,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "FUTO Swipe – A new swipe typing model, Fired by Google for creating the Google workspace , Jerry's Map",
+  "heroStat": {
+    "value": "534",
+    "label": "points on \"FUTO Swipe – A new swipe typing model\""
+  },
+  "insights": [
+    {
+      "text": "FUTO Swipe – A new swipe typing model (534 pts, 169 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 534pts",
+      "url": "https://swipe.futo.tech/"
+    },
+    {
+      "text": "Fired by Google for creating the Google workspace CLI (524 pts, 303 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 524pts",
+      "url": "https://twitter.com/JPoehnelt/status/2069482265953087602"
+    },
+    {
+      "text": "Jerry's Map (463 pts, 54 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 463pts",
+      "url": "http://www.jerrysmap.com/the-map"
+    },
+    {
+      "text": "Show HN: TikZ Editor – WYSIWYG editor for figures in LaTeX (389 pts, 71 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 389pts",
+      "url": "https://tikz.dev/editor/"
+    },
+    {
+      "text": "Keeping the Web Open and Private in the Bot Era (40 pts on Lobsters)",
+      "tags": [
+        "lobsters",
+        "browsers",
+        "cryptography"
+      ],
+      "source": "Lobsters 40pts",
+      "url": "https://blog.mozilla.org/en/privacy-security/keeping-the-web-open-and-private-in-the-bot-era/"
+    },
+    {
+      "text": "Please keep code descriptions simple (38 pts on Lobsters)",
+      "tags": [
+        "lobsters",
+        "programming"
+      ],
+      "source": "Lobsters 38pts",
+      "url": "https://akselmo.dev/posts/please-keep-code-descriptions-simple/"
+    },
+    {
+      "text": "The 80/20 Rule of AI Code — Why the Last 20% Takes 80% of Your Time (31 reactions on Dev.to)",
+      "tags": [
+        "devto",
+        "ai",
+        "programming"
+      ],
+      "source": "Dev.to 31❤",
+      "url": "https://dev.to/harsh2644/the-8020-rule-of-ai-code-why-the-last-20-takes-80-of-your-time-3pcg"
+    },
+    {
+      "text": "Too cheap to be good? Think again. (26 reactions on Dev.to)",
+      "tags": [
+        "devto",
+        "ai",
+        "benchmark"
+      ],
+      "source": "Dev.to 26❤",
+      "url": "https://dev.to/pascal_cescato_692b7a8a20/too-cheap-to-be-good-think-again-4nj0"
+    }
+  ],
+  "trending": [
+    {
+      "name": "OpenMontage",
+      "fullName": "calesthio/OpenMontage",
+      "stars": "17.2K",
+      "language": "Python",
+      "delta": "+3592/d"
+    },
+    {
+      "name": "palmier-pro",
+      "fullName": "palmier-io/palmier-pro",
+      "stars": "8.7K",
+      "language": "Swift",
+      "delta": "+1630/d"
+    },
+    {
+      "name": "codebase-memory-mcp",
+      "fullName": "DeusData/codebase-memory-mcp",
+      "stars": "13.6K",
+      "language": "C",
+      "delta": "+1300/d"
+    },
+    {
+      "name": "daily_stock_analysis",
+      "fullName": "ZhuLinsen/daily_stock_analysis",
+      "stars": "47.8K",
+      "language": "Python",
+      "delta": "+1119/d"
+    },
+    {
+      "name": "voicebox",
+      "fullName": "jamiepine/voicebox",
+      "stars": "33.5K",
+      "language": "TypeScript",
+      "delta": "+1045/d"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "534",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "3592",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "4",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "June 24, 2026"
+    },
+    "headlines": [
+      {
+        "text": "FUTO Swipe – A new swipe typing model",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Fired by Google for creating the Google workspace CLI",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Jerry's Map",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Today's brief covers the most interesting signals across the tech landscape."
+    }
+  }
+}
