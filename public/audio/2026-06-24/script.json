@@ -1,0 +1,126 @@
+[
+  [
+    "A",
+    "FUTO Swipe hit 427 points on HN today. On-device neural swipe keyboard, Apache licensed, accuracy that FUTO claims matches Gboard."
+  ],
+  [
+    "B",
+    "Wait — matches Gboard? That was always the excuse. \"Sure, Google reads everything you type, but at least it's accurate.\""
+  ],
+  [
+    "A",
+    "Exactly. They fixed it for the hard cases — code identifiers, proper nouns, non-dictionary words. The accuracy gap that made every privacy keyboard feel like a compromise."
+  ],
+  [
+    "B",
+    "So they just removed the trade-off. That's a significant move."
+  ],
+  [
+    "A",
+    "Here's the structural point. Every word you type before hitting send passes through the model. The operator's data policy is the threat, not a hacker. FUTO's on-device model eliminates the operator from that data flow entirely."
+  ],
+  [
+    "B",
+    "So they're not just building a keyboard — they're making an argument about where inference should happen."
+  ],
+  [
+    "A",
+    "And then the second HN story: Jerry's Map. 406 points. A man building an imaginary world on playing cards since 1963."
+  ],
+  [
+    "B",
+    "1963 — that's 63 years. What does the map even look like?"
+  ],
+  [
+    "A",
+    "Thousands of panels. A fictional world that evolves by card draw — some cards develop terrain, some destroy civilizations. Jerry records what the system generates. He's the archivist, not the author."
+  ],
+  [
+    "B",
+    "That's wild. He's running a 63-year emergent simulation on cardboard."
+  ],
+  [
+    "A",
+    "On a day when GitHub trending is the full agentic stack — video production, code memory, financial analysis, voice synthesis — those are the two most upvoted HN stories."
+  ],
+  [
+    "B",
+    "I see what you're pointing at. The community is voting for something that isn't productivity."
+  ],
+  [
+    "A",
+    "Let me walk through the GitHub picture. OpenMontage: plus 3,592 stars in a single day. Agentic video production — script, assets, narration, editing, rendering. No human at each stage."
+  ],
+  [
+    "B",
+    "And alongside it: Palmier-pro for AI-native video editing on Mac, codebase-memory-mcp for persistent code intelligence across 158 languages, stock analysis with LLMs, Voicebox for open-source voice cloning."
+  ],
+  [
+    "A",
+    "Those are five layers of a complete autonomous production system. Someone could assemble that stack this week."
+  ],
+  [
+    "B",
+    "And if they build it on cloud APIs, every inference call is someone else's infrastructure. Which circles right back to FUTO."
+  ],
+  [
+    "A",
+    "There's one more story. The HN community memorialized Sriram Sankar — the engineer who built the red and green squiggly underlines in Microsoft Word. 1993."
+  ],
+  [
+    "B",
+    "Wait, one person built that? I assumed it just... existed."
+  ],
+  [
+    "A",
+    "One engineer, one decision, 33 years in every text field you've ever used. The squiggles were invisible because they worked."
+  ],
+  [
+    "B",
+    "And today we're honoring that at the same time we're building systems designed to produce output invisibly. That's a tension worth sitting with."
+  ],
+  [
+    "A",
+    "Also — TikZ Editor hit 366 points. Browser-native WYSIWYG interface for LaTeX figures. Generates clean TikZ code, no install required."
+  ],
+  [
+    "B",
+    "OK so that's the friction-dissolving tool pattern. TikZ is notoriously powerful and notoriously painful to write. You just made it accessible to every academic who doesn't want to learn the syntax."
+  ],
+  [
+    "A",
+    "Small surface, massive aggregate impact. Every paper in math, physics, CS, engineering. Practitioner hours saved at scale."
+  ],
+  [
+    "B",
+    "Hmm. Let me think about what today is actually saying. The agentic stack is being assembled in public, fast. But simultaneously, the community is building toward a version of it that the user owns."
+  ],
+  [
+    "A",
+    "FUTO Swipe is the first piece of that. On-device inference, Apache licensed, for the most intimate data surface on mobile. That's not a product. That's a position."
+  ],
+  [
+    "B",
+    "So the question for builders isn't \"should I use agents?\" It's: which layer of this stack are you going to help make local-first?"
+  ],
+  [
+    "A",
+    "Voice? Code memory? Financial analysis? The work is there. Pick one."
+  ],
+  [
+    "B",
+    "And then there's Jerry. The map doesn't ship. It just grows. Not everything has to compound into a product."
+  ],
+  [
+    "A",
+    "Today is a systems question wrapped in five GitHub repos and two HN upvotes. The stack assembles whether you participate or not. The question is who owns the weights when it's done."
+  ],
+  [
+    "B",
+    "Build the thing. Make sure it runs on your hardware."
+  ],
+  [
+    "A",
+    "June 24th. Go build something."
+  ]
+]

@@ -1,0 +1,169 @@
+{
+  "date": "2026-06-24",
+  "episodeNumber": 94,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "FUTO Swipe – A new swipe typing model earns 427 HN, Jerry's Map earns 406 HN pts and 50 comments, Show HN: TikZ Editor – WYSIWYG editor for figures ",
+  "heroStat": {
+    "value": "427",
+    "label": "points on \"FUTO Swipe – A new swipe typing model\""
+  },
+  "insights": [
+    {
+      "text": "FUTO Swipe – A new swipe typing model earns 427 HN pts (https://swipe.futo.tech/) and 129 comments (0.30:1 comment-to-point ratio) — the day's highest-scoring story and the 2026 cycle's most significant on-device ML input method release: FUTO, the user-sovereignty software nonprofit that has committed $100 million to building alternatives to subscription-locked consumer software, publishes a new neural swipe typing model for FUTO Keyboard that runs entirely on-device — no server calls, no telemetry, no cloud dependency — with accuracy FUTO claims matches or exceeds the proprietary swipe models in Gboard and SwiftKey. The 0.30:1 comment-to-point ratio is the focused-endorsement pattern for technical privacy tools the HN community validates without significant controversy: 129 comments examine the architecture (a transformer-based model trained on open datasets, quantized for mobile inference), the Apache 2.0 license, and the performance benchmarks on mid-range Android hardware where on-device model latency becomes a practical question. FUTO's positioning is architecturally specific: a swipe keyboard is a surveillance surface — every word typed before submission passes through the model, making the operator's data policy the primary privacy consideration, not just the app's permissions — and a fully on-device model eliminates the operator from that data flow entirely. The previous FUTO Keyboard used a statistical n-gram model; the new neural model handles non-dictionary words, code identifiers, and proper nouns substantially better than the statistical approach, closing the accuracy gap that has historically made privacy-preserving keyboard alternatives feel like a compromise. The compound signal with today's Lobsters top story: on a day when the platform's highest score goes to an explanation of why hardware vendors refuse to collaborate on open Linux drivers, the HN community's highest score goes to a nonprofit that has funded an open-source ML model for the most intimate data surface on a mobile device — two different articulations of the same structural question about who controls the software that mediates user input. (427 HN pts) Source: https://swipe.futo.tech/",
+      "tags": [
+        "supply-chain",
+        "research",
+        "open-source"
+      ],
+      "source": "HN 427pts",
+      "url": "https://swipe.futo.tech/"
+    },
+    {
+      "text": "Jerry's Map earns 406 HN pts (http://www.jerrysmap.com/the-map) and 50 comments (0.12:1 comment-to-point ratio) — the day's second-highest-scoring story and one of the most quietly celebrated long-horizon creative projects in the HN dataset: Jerry Gretzinger began building an imaginary world map on playing cards in 1963, expanding to connected cardboard panels, and has continued without interruption for 63 years, accumulating thousands of panels depicting a fictional world called Nowhere whose terrain, cities, and civilizations evolve according to a draw-from-the-deck chance system — certain cards show development, others show destruction, others show migration, and Jerry's role is cartographer and archivist rather than author, recording the world the card system generates rather than designing the world he intended. The 0.12:1 comment-to-point ratio is the silent-reverence pattern for projects whose primary effect is to make the viewer feel the weight of sustained commitment without productive purpose: 406 practitioners upvote because the project represents something they recognize as genuinely rare, with 50 contributing reflection on the nature of long creative labor, the value of a project maintained over a human lifetime, and whether the map's rule-governed evolution makes Jerry a discoverer rather than an inventor of his fictional geography. The compound signal with FUTO Swipe at the day's top spot: on a day when every major GitHub trending story is about agentic systems that complete in seconds what took practitioners hours, the community's two most-endorsed stories are a 63-year map that evolves by chance and a nonprofit keyboard model built to eliminate a data surveillance surface — two projects that share the property of being oriented toward something other than productivity or commercial return. (406 HN pts) Source: http://www.jerrysmap.com/the-map",
+      "tags": [
+        "github-trending",
+        "agents"
+      ],
+      "source": "HN 406pts",
+      "url": "https://www.jerrysmap.com/the-map"
+    },
+    {
+      "text": "Show HN: TikZ Editor – WYSIWYG editor for figures in LaTeX earns 366 HN pts (https://tikz.dev/editor/) and 69 comments (0.19:1 comment-to-point ratio) — the day's third-highest-scoring story and the 2026 cycle's most significant LaTeX tooling release for academic and technical writers: the tikz.dev editor is a browser-based WYSIWYG interface for creating TikZ figures — the LaTeX package that produces publication-quality vector diagrams, circuit schematics, Bayesian networks, and mathematical illustrations — translating drag-and-drop operations, shape properties, and style settings into correct TikZ source code that pastes directly into LaTeX documents without requiring the author to hand-write the TikZ syntax. The 0.19:1 ratio is the wide-endorsement pattern for developer tools that dissolve a friction point the community has experienced directly: TikZ is notoriously powerful and notoriously difficult to write by hand, requiring practitioners to iteratively modify coordinate systems, node styles, and arrow decorations through trial and error, compile, and observe — a workflow that produces correct figures through patience rather than insight. The WYSIWYG approach is not new in concept — Inkscape with the LaTeX export plugin has offered something like this — but tikz.dev/editor is the first browser-native implementation that requires no software installation and produces clean, minimal TikZ code rather than Inkscape's verbose SVG-to-TikZ output. The 69 comments examine the code quality of the generated TikZ, feature coverage across TikZ's library, and whether the editor handles the most-requested figure types (commutative diagrams, automata, circuit schematics) that dominate academic use. The structural significance is institutional: TikZ figures appear in every subfield of mathematics, physics, computer science, and engineering that publishes in LaTeX — the total potential user base is every academic researcher on Earth who writes their own papers, which makes even modest adoption of a friction-reducing tool a substantial aggregate time savings across the scientific enterprise. (366 HN pts) Source: https://tikz.dev/editor/",
+      "tags": [
+        "research",
+        "ecosystem"
+      ],
+      "source": "HN 366pts",
+      "url": "https://tikz.dev/editor/"
+    },
+    {
+      "text": "In memory of the man who put red and green squiggles under words earns 283 HN pts (https://devblogs.microsoft.com/oldnewthing/20260622-00/?p=112451) and 34 comments (0.12:1 comment-to-point ratio), simultaneously earning 114 Lobsters pts (historical tag) — the day's most emotionally resonant memorial and the 2026 cycle's most significant convergent cross-platform tribute: Raymond Chen's Old New Thing blog on the Microsoft Developer Blogs publishes an in memoriam for Sriram Sankar, the engineer who wrote the original spell-checking underlining system for Microsoft Word that gave every word processor, email client, browser text field, and operating system text input the wavy red and green lines under misspelled and grammatically incorrect text that have been invisible infrastructure for literate computing since their introduction in Word 6.0 in 1993. The 0.12:1 comment-to-point ratio is the silent-reverence pattern for tributes to engineering work that was invisible precisely because it succeeded: 283 HN practitioners upvote and 34 contribute because the squiggly underlines are among the most consequential UI conventions in the history of personal computing — appearing in every text field that every person has used for 33 years — and most people have no mental model of who built them or what the implementation looked like. The simultaneous 114 Lobsters score on the same story is the cross-platform consensus signal: for the same memorial to reach the top of both HN and Lobsters on the same day, it must speak to something both communities value — which is the principle that ubiquitous infrastructure was built by specific people, on specific days, with specific technical decisions that have persisted across three decades and billions of users. The compound: on a day when the GitHub trending is dominated by agentic systems producing output automatically, the day's most quietly significant stories honor the humans who built the infrastructure those agents depend on — the open-source keyboard model that processes their input, and the spell-check convention that has been marking human errors for 33 years. (283 HN pts) Source: https://devblogs.microsoft.com/oldnewthing/20260622-00/?p=112451",
+      "tags": [
+        "github-trending",
+        "agents",
+        "open-source"
+      ],
+      "source": "HN 283pts",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20260622-00/?p=112451"
+    },
+    {
+      "text": "The worthlessness of Vitamin D is mildly exaggerated earns 253 HN pts (https://dynomight.net/vitamin-d/) and 177 comments (0.70:1 comment-to-point ratio) — the day's fourth-highest-scoring story and the 2026 cycle's most contested nutrition science essay by comment density: the dynomight.net post argues that the scientific consensus has overcorrected in dismissing vitamin D supplementation — that the large randomized controlled trials showing no benefit (VITAL, D-HEALTH, ViDA) were adequately powered to detect population-average effects but not adequately designed to detect the subgroup effects that the biochemical mechanism predicts, and that the relevant clinical question is not 'does vitamin D work on average' but 'who is deficient, and what does correction achieve in that population.' The 0.70:1 comment-to-point ratio is the maximum-engagement-on-contested-empirical-claims pattern that the HN community generates for nutrition and health topics where the evidence is genuinely ambiguous and practitioner stakes are personal: 177 comments against 253 points describes an audience simultaneously endorsing the essay's significance and unable to reach consensus on its core empirical claim. The community's structural division is between the statistical argument (the population-average null result from large RCTs is the correct summary, and subgroup analyses without pre-registration are hypothesis-generating not confirmatory) and the mechanistic argument (vitamin D deficiency is measurable, the mechanism by which it affects immune function and bone metabolism is biochemically established, and dismissing supplementation for people with verified deficiency based on average-population RCTs conflates the question the trials answered with the clinical question practitioners actually face). Vulnerability reports are not special anymore earns 187 HN pts (https://words.filippo.io/vuln-reports/) and 94 comments alongside 35 Lobsters pts (security tag) — Filippo Valsorda's diagnosis that the vulnerability disclosure ecosystem has industrialized to the point where CVE processing, 90-day embargoes, and coordinated security advisories have become bureaucratic theater for a process too large and too routine to benefit from the original intent of those norms. The compound: a contested nutrition essay and a security governance diagnosis trending together describe a practitioner community simultaneously debating the quality of empirical evidence in medicine and the organizational norms that govern security practice — two domains where the gap between stated practice and actual practice is wide and consequential. (253 HN pts) Source: https://dynomight.net/vitamin-d/",
+      "tags": [
+        "security",
+        "ecosystem"
+      ],
+      "source": "HN 253pts",
+      "url": "https://dynomight.net/vitamin-d/"
+    },
+    {
+      "text": "calesthio/OpenMontage surges to +3,592 stars/day on GitHub (https://github.com/calesthio/OpenMontage) (16,539 total stars, Python) as palmier-io/palmier-pro reaches +1,630 stars/day (https://github.com/palmier-io/palmier-pro) (8,572 total stars, Swift) and DeusData/codebase-memory-mcp climbs to +1,300 stars/day (https://github.com/DeusData/codebase-memory-mcp) (13,345 total stars, C) alongside ZhuLinsen/daily_stock_analysis at +1,119 stars/day (https://github.com/ZhuLinsen/daily_stock_analysis) (47,480 total stars, Python) and jamiepine/voicebox earning +1,045 stars/day (https://github.com/jamiepine/voicebox) (33,388 total stars, TypeScript) — the day's five-part GitHub trending signal and the 2026 pattern's most direct articulation of agentic video production, AI-native video editing, persistent code intelligence, LLM financial analysis, and open-source voice synthesis as five simultaneous infrastructure categories capturing practitioner investment. calesthio/OpenMontage at github.com/calesthio/OpenMontage is the agentic video production layer: a Python system with 12 production pipelines, 52 tools, and 500+ agent skills for AI-powered end-to-end video creation — the +3,592 daily velocity as the day's fastest-moving repository describes a tool crossing from early-adopter into institutional evaluation phase, with practitioners building video workflows discovering that a single agentic system can handle scriptwriting, asset selection, narration generation, editing, and rendering without human intervention at each stage. palmier-io/palmier-pro at github.com/palmier-io/palmier-pro is the AI-native macOS video editing layer: a Swift desktop application where AI is the primary editing interface rather than an add-on to a traditional timeline, continuing its multi-day trending run that describes sustained institutional adoption rather than a spike. DeusData/codebase-memory-mcp at github.com/DeusData/codebase-memory-mcp is the persistent code intelligence layer: a C-implemented MCP server that indexes codebases into knowledge graphs supporting 158 languages with sub-millisecond query latency, eliminating the re-indexing overhead that makes AI coding agents slow on large repositories. ZhuLinsen/daily_stock_analysis at github.com/ZhuLinsen/daily_stock_analysis is the LLM financial analysis layer: a Python system that ingests real-time market news, applies multi-model analysis, generates decision dashboards, and sends automated notifications — 47,480 total stars on a system gaining 1,119 daily describes a mature project reaching a new wave of practitioners who have decided the LLM-for-finance use case is production-ready. jamiepine/voicebox at github.com/jamiepine/voicebox is the open-source voice synthesis layer: a TypeScript voice studio with voice cloning, real-time dictation, and creation capabilities under an open license, providing the voice interface infrastructure that agentic systems need without API dependency. The compound: video production, video editing, code intelligence, financial analysis, and voice synthesis trending simultaneously describe five layers of a fully autonomous production system — the infrastructure for agents that see, speak, code, analyze markets, and produce media. (+3,592 stars/day, GitHub trending) Source: https://github.com/calesthio/OpenMontage",
+      "tags": [
+        "supply-chain",
+        "github-trending",
+        "agents"
+      ],
+      "source": "GitHub +3,592/day",
+      "url": "https://github.com/calesthio/OpenMontage"
+    },
+    {
+      "text": "Why Drawing Tablet Brands Won't Collaborate on Linux FLOSS Drivers tops Lobsters at 157 pts (https://www.davidrevoy.com/article1154/why-drawing-tablet-brands-wont-collaborate-on-linux-floss-drivers) alongside Pledging Another $400,000 to the Zig Software Foundation earning 152 pts (https://mitchellh.com/writing/zig-donation-2026) — the day's two-part Lobsters signal and the 2026 cycle's most compressed articulation of hardware vendor obstruction and open-source investment as simultaneous structural realities: David Revoy's essay on davidrevoy.com examines why Wacom, XP-Pen, and Huion — the dominant drawing tablet manufacturers — have never collaborated on shared open-source Linux driver infrastructure despite Linux being the operating system of choice for a substantial fraction of their professional digital artist user base, with the answer being a compound of competitive paranoia (each company's driver architecture encodes hardware calibration and pressure curve data treated as trade secret, and open-sourcing would give competitors a technical baseline), market rationalization (Linux artists constitute less than 5% of the addressable market, insufficient to justify the engineering cost and IP policy exposure of collaborative driver development), and organizational inertia (the engineers who would need to do the work are not the decision-makers who would need to approve the IP policy change). The 157-point Lobsters score is the engaged-frustration pattern from a community that skews heavily toward Linux practitioners who have personally experienced the substandard tablet driver situation and read Revoy's diagnosis as accurate rather than speculative. Pledging Another $400,000 to the Zig Software Foundation on mitchellh.com is Mitchell Hashimoto's second $400,000 donation to the Zig language foundation — following his 2025 pledge — constituting an $800,000 total personal commitment to sustaining a systems language with no corporate owner, no commercial user growth target, and no path to acquisition. Swift Package Index joins Apple earns 193 HN pts (https://swiftpackageindex.com/blog/swift-package-index-joins-apple) and 61 comments as a third simultaneous story about the organizational structures that sustain or obstruct developer infrastructure: the community-built Swift package registry is absorbed by Apple, the platform owner it served, adding a third resolution path — alongside vendor obstruction and individual donation — to the question of who sustains developer infrastructure over time. The compound: hardware vendors calculating that open-source collaboration costs more than it returns, a developer committing $800,000 to sustain a language the market won't fund, and a community registry acquired by the platform it catalogued — three different answers to the same structural question, all trending on the same day. (157 Lobsters pts) Source: https://www.davidrevoy.com/article1154/why-drawing-tablet-brands-wont-collaborate-on-linux-floss-drivers",
+      "tags": [
+        "open-source",
+        "rust"
+      ],
+      "source": "HN 193pts",
+      "url": "https://www.davidrevoy.com/article1154/why-drawing-tablet-brands-wont-collaborate-on-linux-floss-drivers"
+    }
+  ],
+  "trending": [
+    {
+      "name": "OpenMontage",
+      "fullName": "calesthio/OpenMontage",
+      "stars": "16.5K",
+      "language": "Python",
+      "delta": "+3,592/d",
+      "url": "https://github.com/calesthio/OpenMontage"
+    },
+    {
+      "name": "palmier-pro",
+      "fullName": "palmier-io/palmier-pro",
+      "stars": "8.6K",
+      "language": "Swift",
+      "delta": "+1,630/d",
+      "url": "https://github.com/palmier-io/palmier-pro"
+    },
+    {
+      "name": "codebase-memory-mcp",
+      "fullName": "DeusData/codebase-memory-mcp",
+      "stars": "13.3K",
+      "language": "C",
+      "delta": "+1,300/d",
+      "url": "https://github.com/DeusData/codebase-memory-mcp"
+    },
+    {
+      "name": "daily_stock_analysis",
+      "fullName": "ZhuLinsen/daily_stock_analysis",
+      "stars": "47.5K",
+      "language": "Python",
+      "delta": "+1,119/d",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis"
+    },
+    {
+      "name": "voicebox",
+      "fullName": "jamiepine/voicebox",
+      "stars": "33.4K",
+      "language": "TypeScript",
+      "delta": "+1,045/d",
+      "url": "https://github.com/jamiepine/voicebox"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "427",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "3,592",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "3",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "7",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "June 24, 2026"
+    },
+    "headlines": [
+      {
+        "text": "FUTO Swipe – A new swipe typing model earns 427 HN pts and 129 comments",
+        "metric": "427 pts",
+        "source": "HN"
+      },
+      {
+        "text": "Jerry's Map earns 406 HN pts and 50 comments",
+        "metric": "406 pts",
+        "source": "HN"
+      },
+      {
+        "text": "Show HN: TikZ Editor – WYSIWYG editor for figures in LaTeX earns 366 HN pts and 69 comments",
+        "metric": "366 pts",
+        "source": "HN"
+      }
+    ],
+    "takeaway": {
+      "text": "Today's brief covers the most interesting signals across the tech landscape."
+    }
+  }
+}

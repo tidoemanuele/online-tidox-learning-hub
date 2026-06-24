@@ -1,0 +1,169 @@
+[
+  {
+    "type": "intro",
+    "highlight": "FUTO Swipe: 427 points",
+    "label": "TODAY'S TOP STORY",
+    "subtext": "On-device neural keyboard, Apache licensed"
+  },
+  {
+    "type": "intro",
+    "highlight": "Matches Gboard accuracy?",
+    "subtext": "Without sending your keystrokes to Google"
+  },
+  {
+    "type": "insight",
+    "highlight": "Fixed the hard cases",
+    "subtext": "Code identifiers, proper nouns, non-dictionary words"
+  },
+  {
+    "type": "quote",
+    "highlight": "They removed the trade-off",
+    "subtext": "Privacy no longer means worse accuracy"
+  },
+  {
+    "type": "insight",
+    "highlight": "Every word before send passes through the model",
+    "subtext": "The operator's data policy is the threat"
+  },
+  {
+    "type": "insight",
+    "highlight": "Where inference should happen",
+    "subtext": "On-device eliminates the operator from the data flow"
+  },
+  {
+    "type": "number",
+    "highlight": "Jerry's Map",
+    "number": "406",
+    "label": "HN POINTS",
+    "subtext": "An imaginary world built since 1963"
+  },
+  {
+    "type": "number",
+    "highlight": "63 years of building",
+    "number": "63",
+    "label": "YEARS",
+    "subtext": "Playing cards → cardboard panels → thousands of panels"
+  },
+  {
+    "type": "insight",
+    "highlight": "He's the archivist, not the author",
+    "subtext": "A fictional world that evolves by card draw"
+  },
+  {
+    "type": "quote",
+    "highlight": "63-year emergent simulation on cardboard",
+    "subtext": "Some cards develop, some destroy civilizations"
+  },
+  {
+    "type": "insight",
+    "highlight": "The full agentic stack trends today",
+    "subtext": "Video, code, finance, voice — simultaneously"
+  },
+  {
+    "type": "quote",
+    "highlight": "Voting for something that isn't productivity",
+    "subtext": "Jerry's Map + FUTO Swipe: the two top HN stories"
+  },
+  {
+    "type": "number",
+    "highlight": "OpenMontage",
+    "number": "3,592",
+    "label": "STARS TODAY",
+    "subtext": "Agentic video: script, assets, narration, editing, rendering"
+  },
+  {
+    "type": "repo",
+    "highlight": "palmier-io/palmier-pro",
+    "subtext": "AI-native video editing · +1,630/d · Swift"
+  },
+  {
+    "type": "insight",
+    "highlight": "Five layers of an autonomous production system",
+    "subtext": "Someone could assemble this stack this week"
+  },
+  {
+    "type": "insight",
+    "highlight": "Who owns the weights?",
+    "subtext": "Cloud APIs → someone else's infrastructure. Circles back to FUTO."
+  },
+  {
+    "type": "insight",
+    "highlight": "In memory: Sriram Sankar",
+    "label": "1993–2026",
+    "subtext": "The engineer who built red and green squiggles in Word"
+  },
+  {
+    "type": "quote",
+    "highlight": "One person built that?",
+    "subtext": "I assumed it just... existed."
+  },
+  {
+    "type": "number",
+    "highlight": "Invisible because it worked",
+    "number": "33",
+    "label": "YEARS IN EVERY TEXT FIELD",
+    "subtext": "One engineer, one decision, everywhere"
+  },
+  {
+    "type": "insight",
+    "highlight": "Building systems designed to produce invisibly",
+    "subtext": "A tension worth sitting with"
+  },
+  {
+    "type": "number",
+    "highlight": "TikZ Editor",
+    "number": "366",
+    "label": "HN POINTS",
+    "subtext": "Browser-native WYSIWYG for LaTeX figures"
+  },
+  {
+    "type": "insight",
+    "highlight": "The friction-dissolving tool pattern",
+    "subtext": "No install. Clean TikZ code. Every academic researcher on Earth."
+  },
+  {
+    "type": "insight",
+    "highlight": "Massive aggregate impact",
+    "subtext": "Small surface · every paper in math, physics, CS, engineering"
+  },
+  {
+    "type": "insight",
+    "highlight": "The agentic stack assembles fast",
+    "subtext": "But the community is building toward a version the user owns"
+  },
+  {
+    "type": "insight",
+    "highlight": "That's not a product. That's a position.",
+    "subtext": "On-device inference, Apache licensed, most intimate mobile surface"
+  },
+  {
+    "type": "action",
+    "highlight": "Which layer will you make local-first?",
+    "subtext": "Voice? Code memory? Financial analysis?"
+  },
+  {
+    "type": "action",
+    "highlight": "The work is there. Pick one.",
+    "subtext": "Voice · Code memory · Financial analysis"
+  },
+  {
+    "type": "quote",
+    "highlight": "The map doesn't ship. It just grows.",
+    "subtext": "Not everything has to compound into a product"
+  },
+  {
+    "type": "insight",
+    "highlight": "Five repos. Two upvotes. One question.",
+    "subtext": "Who owns the weights when the stack is done?"
+  },
+  {
+    "type": "close",
+    "highlight": "Build the thing",
+    "subtext": "Make sure it runs on your hardware"
+  },
+  {
+    "type": "close",
+    "highlight": "June 24th. Go build something.",
+    "label": "INTELLIGENCE BRIEF"
+  }
+]

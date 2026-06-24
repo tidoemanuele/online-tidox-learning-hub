@@ -1,0 +1,122 @@
+[
+  {
+    "rank": 1,
+    "title": "Vulnerability reports are not special anymore",
+    "url": "https://words.filippo.io/vuln-reports/",
+    "hn_url": "https://news.ycombinator.com/item?id=48653216",
+    "points": 187,
+    "comments": 94
+  },
+  {
+    "rank": 2,
+    "title": "Jerry's Map",
+    "url": "http://www.jerrysmap.com/the-map",
+    "hn_url": "https://news.ycombinator.com/item?id=48649435",
+    "points": 406,
+    "comments": 50
+  },
+  {
+    "rank": 3,
+    "title": "Show HN: An ASCII 3D Rendering Engine",
+    "url": "https://glyphcss.com",
+    "hn_url": "https://news.ycombinator.com/item?id=48612025",
+    "points": 43,
+    "comments": 19
+  },
+  {
+    "rank": 4,
+    "title": "Qwen-AgentWorld: Language World Models for General Agents",
+    "url": "https://arxiv.org/abs/2606.24597",
+    "hn_url": "https://news.ycombinator.com/item?id=48654351",
+    "points": 38,
+    "comments": 7
+  },
+  {
+    "rank": 5,
+    "title": "Raspberry Pi Pico W as USB Wi-Fi Adapter",
+    "url": "https://gitlab.com/baiyibai/pico-usb-wifi",
+    "hn_url": "https://news.ycombinator.com/item?id=48654676",
+    "points": 43,
+    "comments": 9
+  },
+  {
+    "rank": 6,
+    "title": "FUTO Swipe – A new swipe typing model",
+    "url": "https://swipe.futo.tech/",
+    "hn_url": "https://news.ycombinator.com/item?id=48648619",
+    "points": 427,
+    "comments": 129
+  },
+  {
+    "rank": 7,
+    "title": "In memory of the man who put red and green squiggles under words",
+    "url": "https://devblogs.microsoft.com/oldnewthing/20260622-00/?p=112451",
+    "hn_url": "https://news.ycombinator.com/item?id=48648959",
+    "points": 283,
+    "comments": 34
+  },
+  {
+    "rank": 8,
+    "title": "\"Fix\" MacBook Neo Cursor Lag: Record 1 Pixel of the Screen Every 10 Seconds",
+    "url": "https://gist.github.com/retroplasma/ec21767d0a8380c7ea9c2fbee1c7d6bf",
+    "hn_url": "https://news.ycombinator.com/item?id=48654465",
+    "points": 33,
+    "comments": 4
+  },
+  {
+    "rank": 9,
+    "title": "Printing Gaussian Splats",
+    "url": "https://www.patreon.com/DanyBittel/posts/printing-splats-161333338",
+    "hn_url": "https://news.ycombinator.com/item?id=48618481",
+    "points": 245,
+    "comments": 24
+  },
+  {
+    "rank": 10,
+    "title": "DiffusionBench: Towards Holistic Evaluation of Generative Diffusion Transformers",
+    "url": "https://github.com/End2End-Diffusion/diffusion-bench",
+    "hn_url": "https://news.ycombinator.com/item?id=48654274",
+    "points": 25,
+    "comments": 0
+  },
+  {
+    "rank": 11,
+    "title": "Rhombus Language 1.0",
+    "url": "https://blog.racket-lang.org/2026/06/rhombus-v1.0.html",
+    "hn_url": "https://news.ycombinator.com/item?id=48633473",
+    "points": 126,
+    "comments": 29
+  },
+  {
+    "rank": 12,
+    "title": "Usbliter8: an A12/A13 SecureROM Exploit",
+    "url": "https://ps.tc/pages/blog-usbliter8.html",
+    "hn_url": "https://news.ycombinator.com/item?id=48585852",
+    "points": 121,
+    "comments": 24
+  },
+  {
+    "rank": 13,
+    "title": "Swift Package Index joins Apple",
+    "url": "https://swiftpackageindex.com/blog/swift-package-index-joins-apple",
+    "hn_url": "https://news.ycombinator.com/item?id=48648779",
+    "points": 193,
+    "comments": 61
+  },
+  {
+    "rank": 14,
+    "title": "The worthlessness of Vitamin D is mildly exaggerated",
+    "url": "https://dynomight.net/vitamin-d/",
+    "hn_url": "https://news.ycombinator.com/item?id=48647486",
+    "points": 253,
+    "comments": 177
+  },
+  {
+    "rank": 15,
+    "title": "Show HN: TikZ Editor – WYSIWYG editor for figures in LaTeX",
+    "url": "https://tikz.dev/editor/",
+    "hn_url": "https://news.ycombinator.com/item?id=48645437",
+    "points": 366,
+    "comments": 69
+  }
+]
