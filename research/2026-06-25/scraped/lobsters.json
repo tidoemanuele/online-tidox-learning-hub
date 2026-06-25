@@ -1,0 +1,151 @@
+[
+  {
+    "title": "The Joy and Power of Understanding",
+    "score": 53,
+    "tags": [
+      "practices",
+      "vibecoding"
+    ],
+    "url": "https://binaryigor.com/the-joy-and-power-of-understanding.html",
+    "comments_url": "https://lobste.rs/s/6vsofh/joy_power_understanding"
+  },
+  {
+    "title": "Porting WINE to a new Hobby OS",
+    "score": 31,
+    "tags": [
+      "osdev",
+      "programming"
+    ],
+    "url": "https://astral-os.org/posts/2026/04/03/wine-on-astral.html",
+    "comments_url": "https://lobste.rs/s/aj0e9u/porting_wine_new_hobby_os"
+  },
+  {
+    "title": "UK Wikipedia Workers seek union recognition",
+    "score": 33,
+    "tags": [
+      "practices"
+    ],
+    "url": "https://utaw.tech/news/wikipedia-recognition",
+    "comments_url": "https://lobste.rs/s/j3s5og/uk_wikipedia_workers_seek_union"
+  },
+  {
+    "title": "Are We GlobalShortcuts Yet?",
+    "score": 9,
+    "tags": [
+      "a11y",
+      "linux"
+    ],
+    "url": "https://areweglobalshortcutsyet.github.io",
+    "comments_url": "https://lobste.rs/s/ebqmzl/are_we_globalshortcuts_yet"
+  },
+  {
+    "title": "AOL was down (1996) (2026)",
+    "score": 23,
+    "tags": [
+      "historical"
+    ],
+    "url": "https://ngrok.com/blog/aol-was-down-1996",
+    "comments_url": "https://lobste.rs/s/0qfxpj/aol_was_down_1996_2026"
+  },
+  {
+    "title": "How to Write an Effective Software Design Document",
+    "score": 17,
+    "tags": [
+      "practices"
+    ],
+    "url": "https://refactoringenglish.com/excerpts/write-an-effective-design-doc/",
+    "comments_url": "https://lobste.rs/s/kmx6wx/how_write_effective_software_design"
+  },
+  {
+    "title": "Ignore DNSSEC if you like MITM attacks",
+    "score": 12,
+    "tags": [
+      "networking",
+      "security"
+    ],
+    "url": "https://whynothugo.nl/journal/2026/06/24/ignore-dnssec-if-you-like-mitm-attacks/",
+    "comments_url": "https://lobste.rs/s/pcuxjt/ignore_dnssec_if_you_like_mitm_attacks"
+  },
+  {
+    "title": "I Fed the People Building the Metaverse",
+    "score": 13,
+    "tags": [
+      "person"
+    ],
+    "url": "https://yeastconfections.substack.com/p/i-fed-the-people-building-the-metaverse",
+    "comments_url": "https://lobste.rs/s/wlodc0/i_fed_people_building_metaverse"
+  },
+  {
+    "title": "Flatpak package for GIMP 0.54.1 (1996)",
+    "score": 32,
+    "tags": [
+      "graphics",
+      "retrocomputing"
+    ],
+    "url": "https://gitlab.gnome.org/balooii/gimp-0.54",
+    "comments_url": "https://lobste.rs/s/cmcklp/flatpak_package_for_gimp_0_54_1_1996"
+  },
+  {
+    "title": "Scaling Rails: 41M Req/Hour, 8 DBs, disable_joins: true",
+    "score": 5,
+    "tags": [
+      "databases",
+      "ruby",
+      "scaling"
+    ],
+    "url": "https://andyatkinson.com/how-aura-frames-scales-for-peak-load-ruby-on-rails",
+    "comments_url": "https://lobste.rs/s/zijb20/scaling_rails_41m_req_hour_8_dbs_disable"
+  },
+  {
+    "title": "The Coming Loop",
+    "score": 20,
+    "tags": [
+      "practices",
+      "vibecoding"
+    ],
+    "url": "https://lucumr.pocoo.org/2026/6/23/the-coming-loop/",
+    "comments_url": "https://lobste.rs/s/a7thxr/coming_loop"
+  },
+  {
+    "title": "Keeping the Web Open and Private in the Bot Era",
+    "score": 56,
+    "tags": [
+      "browsers",
+      "cryptography",
+      "web"
+    ],
+    "url": "https://blog.mozilla.org/en/privacy-security/keeping-the-web-open-and-private-in-the-bot-era/",
+    "comments_url": "https://lobste.rs/s/sdqqbb/keeping_web_open_private_bot_era"
+  },
+  {
+    "title": "Sacr3d: A rendering engine toolbox to do 3D graphics in Scheme",
+    "score": 9,
+    "tags": [
+      "graphics",
+      "lisp",
+      "web"
+    ],
+    "url": "https://teddd.srht.site/sacr3d/",
+    "comments_url": "https://lobste.rs/s/gkqien/sacr3d_rendering_engine_toolbox_do_3d"
+  },
+  {
+    "title": "Announcing the RubyConf VIP Raffle",
+    "score": 5,
+    "tags": [
+      "event",
+      "ruby"
+    ],
+    "url": "https://rubycentral.org/news/announcing-the-rubyconf-vip-raffle/",
+    "comments_url": "https://lobste.rs/s/a72qhh/announcing_rubyconf_vip_raffle"
+  },
+  {
+    "title": "Bl\u00e5mba",
+    "score": 11,
+    "tags": [
+      "art",
+      "historical"
+    ],
+    "url": "https://kittenlabs.de/blamba/",
+    "comments_url": "https://lobste.rs/s/uydwch/blamba"
+  }
+]
