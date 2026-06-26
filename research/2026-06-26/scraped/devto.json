@@ -1,0 +1,323 @@
+[
+  {
+    "rank": 1,
+    "title": "Thank you DEV community: the Thinking Engineer Toolkit is live",
+    "url": "https://dev.to/javz/thank-you-dev-community-the-thinking-engineer-toolkit-is-live-3762",
+    "reactions": 45,
+    "comments": 16,
+    "tags": [
+      "ai",
+      "softwareengineering",
+      "developer",
+      "productivity"
+    ]
+  },
+  {
+    "rank": 2,
+    "title": "One Agent or Many? Orchestrating AI Agents Without the Mess",
+    "url": "https://dev.to/lovestaco/one-agent-or-many-orchestrating-ai-agents-without-the-mess-1g1l",
+    "reactions": 33,
+    "comments": 3,
+    "tags": [
+      "ai",
+      "programming",
+      "webdev",
+      "beginners"
+    ]
+  },
+  {
+    "rank": 3,
+    "title": "1,200 Applications. 4 Offers. Here's What Actually Got Me the Product-Based Role",
+    "url": "https://dev.to/varshithvhegde/1200-applications-4-offers-heres-what-actually-got-me-the-product-based-role-10mp",
+    "reactions": 7,
+    "comments": 0,
+    "tags": [
+      "career",
+      "ai",
+      "programming",
+      "productivity"
+    ]
+  },
+  {
+    "rank": 4,
+    "title": "Moving to baweaver.com",
+    "url": "https://dev.to/baweaver/moving-to-baweavercom-dm",
+    "reactions": 1,
+    "comments": 0,
+    "tags": [
+      "webdev",
+      "ruby",
+      "rails"
+    ]
+  },
+  {
+    "rank": 5,
+    "title": "Do Developers Ever Really Disconnect?",
+    "url": "https://dev.to/eayurt/do-developers-ever-really-disconnect-38jc",
+    "reactions": 0,
+    "comments": 0,
+    "tags": [
+      "productivity",
+      "burnout",
+      "webdev"
+    ]
+  },
+  {
+    "rank": 6,
+    "title": "Functional doesn't mean correct. That's the biggest risk with AI-generated code.",
+    "url": "https://dev.to/cyclopt_dimitrisk/functional-doesnt-mean-correct-thats-the-biggest-risk-with-ai-generated-code-29dh",
+    "reactions": 4,
+    "comments": 7,
+    "tags": [
+      "programming",
+      "ai",
+      "discuss",
+      "webdev"
+    ]
+  },
+  {
+    "rank": 7,
+    "title": "AI is not replacing developers anytime soon",
+    "url": "https://dev.to/czmirek/ai-is-not-replacing-developers-anytime-soon-2l26",
+    "reactions": 2,
+    "comments": 0,
+    "tags": [
+      "ai",
+      "career",
+      "discuss",
+      "productivity"
+    ]
+  },
+  {
+    "rank": 8,
+    "title": "The Tracking-Link Bug That Only Breaks Signed URLs",
+    "url": "https://dev.to/nasrulhazim/the-tracking-link-bug-that-only-breaks-signed-urls-38c",
+    "reactions": 3,
+    "comments": 1,
+    "tags": [
+      "laravel",
+      "php",
+      "webdev",
+      "testing"
+    ]
+  },
+  {
+    "rank": 9,
+    "title": "How I built ZeroAudit — AI-powered SOC 2 compliance automation with AWS DynamoDB and Vercel",
+    "url": "https://dev.to/dmytro_mazurenko/how-i-built-zeroaudit-ai-powered-soc-2-compliance-automation-with-aws-dynamodb-and-vercel-3dgg",
+    "reactions": 0,
+    "comments": 0,
+    "tags": [
+      "aws",
+      "vercel",
+      "nextjs",
+      "hackathon"
+    ]
+  },
+  {
+    "rank": 10,
+    "title": "Three Loops, No Ship",
+    "url": "https://dev.to/vystartasv/three-loops-no-ship-2pg0",
+    "reactions": 0,
+    "comments": 0,
+    "tags": [
+      "ai",
+      "opensource",
+      "agents",
+      "localllms"
+    ]
+  },
+  {
+    "rank": 11,
+    "title": "Humanizing Artificial Intelligence for SRE Teams: Reducing Alert Fatigue With Smarter AI Guidance",
+    "url": "https://dev.to/jjoyneriv/humanizing-artificial-intelligence-for-sre-teams-reducing-alert-fatigue-with-smarter-ai-guidance-3411",
+    "reactions": 1,
+    "comments": 2,
+    "tags": [
+      "sre",
+      "devops",
+      "ai",
+      "observability"
+    ]
+  },
+  {
+    "rank": 12,
+    "title": "🚀 Day 4 of Learning React: What Actually Makes React... React? (Hooks, useState, and State Explained)",
+    "url": "https://dev.to/bismay-exe/day-4-of-learning-react-what-actually-makes-react-react-hooks-usestate-and-state-198g",
+    "reactions": 6,
+    "comments": 2,
+    "tags": [
+      "react",
+      "javasc",
+      "webdev",
+      "beginners"
+    ]
+  },
+  {
+    "rank": 13,
+    "title": "Why I Built nvim-starter — a Neovim Config Beginners Can Actually Understand",
+    "url": "https://dev.to/mvzundert/why-i-built-nvim-starter-a-neovim-config-beginners-can-actually-understand-19a5",
+    "reactions": 1,
+    "comments": 0,
+    "tags": [
+      "nvim",
+      "lua",
+      "learning",
+      "developerlife"
+    ]
+  },
+  {
+    "rank": 14,
+    "title": "Three dumb ways our prod got slow (and not one was a slow algorithm)",
+    "url": "https://dev.to/arvavit/three-dumb-ways-our-prod-got-slow-and-not-one-was-a-slow-algorithm-29ag",
+    "reactions": 2,
+    "comments": 0,
+    "tags": [
+      "postgres",
+      "webdev",
+      "performance",
+      "supabase"
+    ]
+  },
+  {
+    "rank": 15,
+    "title": "How to Run Out of Senior Engineers Without Firing Any",
+    "url": "https://dev.to/arthurpro/how-to-run-out-of-senior-engineers-without-firing-any-23nd",
+    "reactions": 0,
+    "comments": 0,
+    "tags": [
+      "career",
+      "devculture",
+      "aiimpact",
+      "seniors"
+    ]
+  },
+  {
+    "rank": 16,
+    "title": "Swift Closures — Accepting Functions as Parameters 🎯",
+    "url": "https://dev.to/gamya_m/swift-closures-accepting-functions-as-parameters-25jb",
+    "reactions": 7,
+    "comments": 0,
+    "tags": [
+      "ios",
+      "swift",
+      "swiftui",
+      "programming"
+    ]
+  },
+  {
+    "rank": 17,
+    "title": "hashdir: Summarizing Directories in a Cross-Platform Way",
+    "url": "https://dev.to/ozancivaner/finish-up-a-thon-hashdir-36m3",
+    "reactions": 4,
+    "comments": 0,
+    "tags": [
+      "devchallenge",
+      "githubchallenge"
+    ]
+  },
+  {
+    "rank": 18,
+    "title": "Deploying a Containerized Backend to a VPS with Docker Compose + GitHub Actions (A Beginner's Runbook)",
+    "url": "https://dev.to/saint_vandora/deploying-a-containerized-backend-to-a-vps-with-docker-compose-github-actions-a-beginners-39m5",
+    "reactions": 5,
+    "comments": 0,
+    "tags": [
+      "devops",
+      "programming",
+      "tutorial",
+      "automation"
+    ]
+  },
+  {
+    "rank": 19,
+    "title": "Next.js isn't the best framework. It's the most reliable bet.",
+    "url": "https://dev.to/fredcorr/nextjs-isnt-the-best-framework-its-the-most-reliable-bet-5e2c",
+    "reactions": 3,
+    "comments": 1,
+    "tags": [
+      "frontend",
+      "nextjs",
+      "architecture",
+      "webdev"
+    ]
+  },
+  {
+    "rank": 20,
+    "title": "I sent 419 cold B2B emails. 41% opens. 0 clicks.",
+    "url": "https://dev.to/lainagent_ai/i-sent-419-cold-b2b-emails-41-opens-0-clicks-5865",
+    "reactions": 6,
+    "comments": 1,
+    "tags": [
+      "agents",
+      "ai",
+      "buildinpublic",
+      "showdev"
+    ]
+  },
+  {
+    "rank": 21,
+    "title": "GraphQL Fragments: Let Each Component Own Its Data",
+    "url": "https://dev.to/grimicorn/graphql-fragments-let-each-component-own-its-data-5359",
+    "reactions": 2,
+    "comments": 2,
+    "tags": [
+      "javascript",
+      "graphql",
+      "typescript",
+      "react"
+    ]
+  },
+  {
+    "rank": 22,
+    "title": "Everyone's migrating to Playwright. But why, actually?",
+    "url": "https://dev.to/srinath_qa/everyones-migrating-to-playwright-but-why-actually-1l09",
+    "reactions": 2,
+    "comments": 2,
+    "tags": [
+      "javascript",
+      "playwright",
+      "selenium",
+      "automation"
+    ]
+  },
+  {
+    "rank": 23,
+    "title": "The hard part of my AI agent wasn't doing the work, it was planning it",
+    "url": "https://dev.to/abdullahsaad5/the-hard-part-of-my-ai-agent-wasnt-doing-the-work-it-was-planning-it-n0k",
+    "reactions": 2,
+    "comments": 5,
+    "tags": [
+      "ai",
+      "agents",
+      "programming",
+      "architecture"
+    ]
+  },
+  {
+    "rank": 24,
+    "title": "$lookup join strategies: understanding the trade-offs with flexible documents",
+    "url": "https://dev.to/franckpachot/lookup-join-strategies-understanding-the-trade-offs-with-flexible-documents-ncf",
+    "reactions": 1,
+    "comments": 0,
+    "tags": [
+      "postgres",
+      "documentdb",
+      "mongodb",
+      "database"
+    ]
+  },
+  {
+    "rank": 25,
+    "title": "Evaluating a C# LLM Eventparser with Promptfoo",
+    "url": "https://dev.to/bigboybamo/evaluating-a-c-llm-eventparser-with-promptfoo-4b87",
+    "reactions": 0,
+    "comments": 0,
+    "tags": [
+      "ai",
+      "dotnet",
+      "machinelearning",
+      "programming"
+    ]
+  }
+]

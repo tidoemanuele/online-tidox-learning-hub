@@ -1,0 +1,168 @@
+{
+  "date": "2026-06-26",
+  "episodeNumber": 96,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "An entire Herculaneum scroll has been read for the, Om Malik has died, Apple raises prices of MacBooks, iPads",
+  "heroStat": {
+    "value": "1292",
+    "label": "points on \"An entire Herculaneum scroll has been read for the first tim\""
+  },
+  "insights": [
+    {
+      "text": "An entire Herculaneum scroll has been read for the first time (1292 pts, 270 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 1292pts",
+      "url": "https://scrollprize.org/firstscroll"
+    },
+    {
+      "text": "Om Malik has died (874 pts, 100 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 874pts",
+      "url": "https://om.co/2026/06/24/1966-2026/"
+    },
+    {
+      "text": "Apple raises prices of MacBooks, iPads (717 pts, 1028 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 717pts",
+      "url": "https://www.reuters.com/world/asia-pacific/apple-raises-prices-macbooks-ipads-memory-costs-skyrocket-2026-06-25/"
+    },
+    {
+      "text": "The 'papers, please' era of the internet will decimate your privacy (698 pts, 331 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 698pts",
+      "url": "https://expression.fire.org/p/the-papers-please-era-of-the-internet"
+    },
+    {
+      "text": "The Exhaustion of Talking to a Tool (39 pts on Lobsters)",
+      "tags": [
+        "lobsters",
+        "vibecoding"
+      ],
+      "source": "Lobsters 39pts",
+      "url": "https://ohadravid.github.io/posts/2026-06-tool-talking/"
+    },
+    {
+      "text": "font-family recommendations (46 pts on Lobsters)",
+      "tags": [
+        "lobsters",
+        "css"
+      ],
+      "source": "Lobsters 46pts",
+      "url": "https://chrismorgan.info/font-family"
+    },
+    {
+      "text": "Thank you DEV community: the Thinking Engineer Toolkit is live (45 reactions on Dev.to)",
+      "tags": [
+        "devto",
+        "ai",
+        "softwareengineering"
+      ],
+      "source": "Dev.to 45❤",
+      "url": "https://dev.to/javz/thank-you-dev-community-the-thinking-engineer-toolkit-is-live-3762"
+    },
+    {
+      "text": "One Agent or Many? Orchestrating AI Agents Without the Mess (33 reactions on Dev.to)",
+      "tags": [
+        "devto",
+        "ai",
+        "programming"
+      ],
+      "source": "Dev.to 33❤",
+      "url": "https://dev.to/lovestaco/one-agent-or-many-orchestrating-ai-agents-without-the-mess-1g1l"
+    }
+  ],
+  "trending": [
+    {
+      "name": "OpenMontage",
+      "fullName": "calesthio/OpenMontage",
+      "stars": "22.8K",
+      "language": "Python",
+      "delta": "+3434/d"
+    },
+    {
+      "name": "design.md",
+      "fullName": "google-labs-code/design.md",
+      "stars": "20.2K",
+      "language": "TypeScript",
+      "delta": "+1475/d"
+    },
+    {
+      "name": "container",
+      "fullName": "apple/container",
+      "stars": "43.5K",
+      "language": "Swift",
+      "delta": "+1351/d"
+    },
+    {
+      "name": "ai-website-cloner-template",
+      "fullName": "JCodesMore/ai-website-cloner-template",
+      "stars": "20.9K",
+      "language": "TypeScript",
+      "delta": "+1024/d"
+    },
+    {
+      "name": "gstack",
+      "fullName": "garrytan/gstack",
+      "stars": "116K",
+      "language": "TypeScript",
+      "delta": "+767/d"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "1292",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "3434",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "4",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "June 26, 2026"
+    },
+    "headlines": [
+      {
+        "text": "An entire Herculaneum scroll has been read for the first time",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Om Malik has died",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Apple raises prices of MacBooks, iPads",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Today's brief covers the most interesting signals across the tech landscape."
+    }
+  }
+}
