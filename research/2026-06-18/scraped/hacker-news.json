@@ -1,0 +1,122 @@
+[
+  {
+    "rank": 1,
+    "title": "Midjourney Medical",
+    "url": "https://www.midjourney.com/medical/blogpost",
+    "hn_url": "https://news.ycombinator.com/item?id=48579650",
+    "points": 437,
+    "comments": 333
+  },
+  {
+    "rank": 2,
+    "title": "I Hate Compilers",
+    "url": "https://xeiaso.net/notes/2026/anubis-wasm-vendor-binary/",
+    "hn_url": "https://news.ycombinator.com/item?id=48581070",
+    "points": 23,
+    "comments": 17
+  },
+  {
+    "rank": 3,
+    "title": "Lore \u2013 Open source version control system designed for scalability",
+    "url": "https://lore.org/",
+    "hn_url": "https://news.ycombinator.com/item?id=48571081",
+    "points": 1074,
+    "comments": 571
+  },
+  {
+    "rank": 4,
+    "title": "Local Qwen isn't a worse Opus, it's a different tool",
+    "url": "https://blog.alexellis.io/local-ai-is-not-opus/",
+    "hn_url": "https://news.ycombinator.com/item?id=48580209",
+    "points": 89,
+    "comments": 28
+  },
+  {
+    "rank": 5,
+    "title": "US holds off\u00a0blacklisting DeepSeek, more than 100 firms deemed security risks",
+    "url": "https://www.reuters.com/world/china/us-holds-off-blacklisting-chinas-deepseek-more-than-100-firms-deemed-security-2026-06-17/",
+    "hn_url": "https://news.ycombinator.com/item?id=48565498",
+    "points": 424,
+    "comments": 475
+  },
+  {
+    "rank": 6,
+    "title": "Taxonomy of the Occlupanida (parasitoids on bread bag tags)",
+    "url": "https://www.horg.com/horg/?page_id=921",
+    "hn_url": "https://news.ycombinator.com/item?id=48578388",
+    "points": 120,
+    "comments": 23
+  },
+  {
+    "rank": 7,
+    "title": "Nim Conf 2026 (Online, Sat June 20)",
+    "url": "https://conf.nim-lang.org/",
+    "hn_url": "https://news.ycombinator.com/item?id=48580504",
+    "points": 20,
+    "comments": 2
+  },
+  {
+    "rank": 8,
+    "title": "Storied Colors \u2013 a catalogue of named colors",
+    "url": "https://storiedcolors.com/",
+    "hn_url": "https://news.ycombinator.com/item?id=48577374",
+    "points": 138,
+    "comments": 28
+  },
+  {
+    "rank": 9,
+    "title": "[x86] AI Compute Extensions (ACE) Specification",
+    "url": "https://x86ecosystem.org/resource/ai-compute-extensions-ace-specification/",
+    "hn_url": "https://news.ycombinator.com/item?id=48579913",
+    "points": 26,
+    "comments": 12
+  },
+  {
+    "rank": 10,
+    "title": "Clojure Hosted on Go",
+    "url": "https://github.com/glojurelang/glojure",
+    "hn_url": "https://news.ycombinator.com/item?id=48578326",
+    "points": 86,
+    "comments": 12
+  },
+  {
+    "rank": 11,
+    "title": "Apple boss Tim Cook says prices to rise due to memory chip costs",
+    "url": "https://www.bbc.com/news/articles/c3wyxvqdx1zo",
+    "hn_url": "https://news.ycombinator.com/item?id=48580466",
+    "points": 13,
+    "comments": 1
+  },
+  {
+    "rank": 12,
+    "title": "Loreline \u2013 Tools for writing interactive fiction",
+    "url": "https://loreline.app/en/",
+    "hn_url": "https://news.ycombinator.com/item?id=48576395",
+    "points": 116,
+    "comments": 15
+  },
+  {
+    "rank": 13,
+    "title": "How we run Firecracker VMs inside EC2 and start browsers in less than 1s",
+    "url": "https://browser-use.com/posts/firecracker-browser-infra",
+    "hn_url": "https://news.ycombinator.com/item?id=48556561",
+    "points": 251,
+    "comments": 163
+  },
+  {
+    "rank": 14,
+    "title": "Launch HN: Adam (YC W25) \u2013 Open-Source AI CAD",
+    "url": "https://github.com/Adam-CAD/CADAM",
+    "hn_url": "https://news.ycombinator.com/item?id=48572553",
+    "points": 174,
+    "comments": 84
+  },
+  {
+    "rank": 15,
+    "title": "Show HN: We built an 8-bit CPU as 2nd year EE students",
+    "url": "https://github.com/c0rRupT9/STEPLA-1",
+    "hn_url": "https://news.ycombinator.com/item?id=48546549",
+    "points": 58,
+    "comments": 11
+  }
+]

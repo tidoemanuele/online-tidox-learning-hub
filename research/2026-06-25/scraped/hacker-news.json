@@ -1,0 +1,162 @@
+[
+  {
+    "rank": 1,
+    "title": "Anthropic says Alibaba illicitly extracted Claude AI model capabilities",
+    "url": "https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24/",
+    "hn_url": "https://news.ycombinator.com/item?id=48664814",
+    "points": 268,
+    "comments": 458
+  },
+  {
+    "rank": 2,
+    "title": "OpenAI unveils its first custom chip, built by Broadcom",
+    "url": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/",
+    "hn_url": "https://news.ycombinator.com/item?id=48663324",
+    "points": 641,
+    "comments": 364
+  },
+  {
+    "rank": 3,
+    "title": "Cloudflare launched self-managed OAuth for all",
+    "url": "https://blog.cloudflare.com/oauth-for-all/",
+    "hn_url": "https://news.ycombinator.com/item?id=48668033",
+    "points": 91,
+    "comments": 25
+  },
+  {
+    "rank": 4,
+    "title": "LuaJIT 3.0 proposed syntax extensions",
+    "url": "https://github.com/LuaJIT/LuaJIT/issues/1475",
+    "hn_url": "https://news.ycombinator.com/item?id=48667336",
+    "points": 118,
+    "comments": 63
+  },
+  {
+    "rank": 5,
+    "title": "Blogging can just be stating the obvious",
+    "url": "https://blog.jim-nielsen.com/2026/blogging-stating-the-obvious/",
+    "hn_url": "https://news.ycombinator.com/item?id=48666927",
+    "points": 158,
+    "comments": 52
+  },
+  {
+    "rank": 6,
+    "title": "Markdy: Like Mermaid Diagrams, but for Motion",
+    "url": "https://markdy.com",
+    "hn_url": "https://news.ycombinator.com/item?id=48646077",
+    "points": 6,
+    "comments": 0
+  },
+  {
+    "rank": 7,
+    "title": "Dostoyevsky isn't difficult",
+    "url": "https://www.autodidacts.io/dostoyevsky-isnt-difficult/",
+    "hn_url": "https://news.ycombinator.com/item?id=48631366",
+    "points": 110,
+    "comments": 89
+  },
+  {
+    "rank": 8,
+    "title": "Zombie unicorns are haunting Silicon Valley",
+    "url": "https://www.economist.com/business/2026/06/21/zombie-unicorns-are-haunting-silicon-valley",
+    "hn_url": "https://news.ycombinator.com/item?id=48668020",
+    "points": 57,
+    "comments": 20
+  },
+  {
+    "rank": 9,
+    "title": "Qualcomm to Acquire Modular",
+    "url": "https://www.reuters.com/business/qualcomm-buy-ai-startup-modular-2026-06-24/",
+    "hn_url": "https://news.ycombinator.com/item?id=48659798",
+    "points": 181,
+    "comments": 48
+  },
+  {
+    "rank": 10,
+    "title": "Medical students are using popular research tool to pump out misleading studies",
+    "url": "https://www.science.org/content/article/medical-students-are-using-popular-research-tool-pump-out-misleading-studies",
+    "hn_url": "https://news.ycombinator.com/item?id=48668119",
+    "points": 17,
+    "comments": 5
+  },
+  {
+    "rank": 11,
+    "title": "Mixing Visual and Textual Code",
+    "url": "https://arxiv.org/abs/2603.15855",
+    "hn_url": "https://news.ycombinator.com/item?id=48667560",
+    "points": 34,
+    "comments": 7
+  },
+  {
+    "rank": 12,
+    "title": "45\u00b0C cooling design cuts data center water use to near zero",
+    "url": "https://blogs.nvidia.com/blog/liquid-cooling-ai-factories/",
+    "hn_url": "https://news.ycombinator.com/item?id=48660178",
+    "points": 270,
+    "comments": 175
+  },
+  {
+    "rank": 13,
+    "title": "Show HN: Write SaaS apps where users control where their data is stored",
+    "url": "https://github.com/wolfoo2931/linkedrecords/",
+    "hn_url": "https://news.ycombinator.com/item?id=48595882",
+    "points": 33,
+    "comments": 5
+  },
+  {
+    "rank": 14,
+    "title": "RubyLLM: A Ruby framework for all major AI providers",
+    "url": "https://rubyllm.com/",
+    "hn_url": "https://news.ycombinator.com/item?id=48660711",
+    "points": 372,
+    "comments": 60
+  },
+  {
+    "rank": 15,
+    "title": "GLM-5.2 is a step change for open agents",
+    "url": "https://www.interconnects.ai/p/glm-52-is-the-step-change-for-open",
+    "hn_url": "https://news.ycombinator.com/item?id=48639840",
+    "points": 185,
+    "comments": 103
+  },
+  {
+    "rank": 16,
+    "title": "PR spam today looks like email spam in the early 2000s",
+    "url": "https://www.greptile.com/blog/prs-on-openclaw",
+    "hn_url": "https://news.ycombinator.com/item?id=48660579",
+    "points": 205,
+    "comments": 120
+  },
+  {
+    "rank": 17,
+    "title": "Show HN: Brain Frog \u2013 Can you be random enough for 11 lines of JavaScript?",
+    "url": "https://brainfrog.lol",
+    "hn_url": "https://news.ycombinator.com/item?id=48598051",
+    "points": 21,
+    "comments": 19
+  },
+  {
+    "rank": 18,
+    "title": "Computer use in Gemini 3.5 Flash",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/",
+    "hn_url": "https://news.ycombinator.com/item?id=48662999",
+    "points": 197,
+    "comments": 128
+  },
+  {
+    "rank": 19,
+    "title": "Matt's Script Archive: The Scripts That Reshaped the Web",
+    "url": "https://tedium.co/2026/06/22/matts-script-archive-retrospective/",
+    "hn_url": "https://news.ycombinator.com/item?id=48639018",
+    "points": 36,
+    "comments": 10
+  },
+  {
+    "rank": 20,
+    "title": "The Xteink X4 E-Ink Reader",
+    "url": "https://blog.omgmog.net/post/xteink-x4-e-ink-reader/",
+    "hn_url": "https://news.ycombinator.com/item?id=48662381",
+    "points": 211,
+    "comments": 122
+  }
+]

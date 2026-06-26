@@ -1,0 +1,146 @@
+[
+  {
+    "title": "curl summer of bliss",
+    "score": 214,
+    "tags": [
+      "security"
+    ],
+    "url": "https://daniel.haxx.se/blog/2026/06/15/curl-summer-of-bliss/",
+    "comments_url": "https://lobste.rs/s/uqagn2/curl_summer_bliss"
+  },
+  {
+    "title": "FreeBSD 15 on a Laptop",
+    "score": 29,
+    "tags": [
+      "freebsd"
+    ],
+    "url": "https://www.sacredheartsc.com/blog/freebsd-15-on-a-laptop/",
+    "comments_url": "https://lobste.rs/s/vodqhe/freebsd_15_on_laptop"
+  },
+  {
+    "title": "Iroh 1.0 - Dial Keys, not IPs",
+    "score": 50,
+    "tags": [
+      "distributed",
+      "rust"
+    ],
+    "url": "https://www.iroh.computer/blog/v1",
+    "comments_url": "https://lobste.rs/s/cslljn/iroh_1_0_dial_keys_not_ips"
+  },
+  {
+    "title": "Typst 0.15 contains multitudes",
+    "score": 67,
+    "tags": [
+      "release"
+    ],
+    "url": "https://typst.app/blog/2026/typst-0.15/",
+    "comments_url": "https://lobste.rs/s/fkoa80/typst_0_15_contains_multitudes"
+  },
+  {
+    "title": "Removing my nix flakes vs guix post",
+    "score": 72,
+    "tags": [
+      "person"
+    ],
+    "url": "https://coopi.neocities.org/posts/taking-down-nix-flakes-vs-guix",
+    "comments_url": "https://lobste.rs/s/guyifg/removing_my_nix_flakes_vs_guix_post"
+  },
+  {
+    "title": "pyinfra \u2014 agentless infrastructure automation, in plain Python",
+    "score": 57,
+    "tags": [
+      "devops",
+      "python"
+    ],
+    "url": "https://pyinfra.com",
+    "comments_url": "https://lobste.rs/s/htfm3p/pyinfra_agentless_infrastructure"
+  },
+  {
+    "title": "NetNewsWire Status",
+    "score": 21,
+    "tags": [
+      "mac",
+      "swift"
+    ],
+    "url": "https://inessential.com/2026/06/15/netnewswire-status.html",
+    "comments_url": "https://lobste.rs/s/0mximk/netnewswire_status"
+  },
+  {
+    "title": "write for one person",
+    "score": 117,
+    "tags": [
+      "practices"
+    ],
+    "url": "https://wizardzines.com/comics/write-for-one-person/",
+    "comments_url": "https://lobste.rs/s/1xyby4/write_for_one_person"
+  },
+  {
+    "title": "Control Structures in Programming Languages",
+    "score": 49,
+    "tags": [
+      "book",
+      "plt"
+    ],
+    "url": "https://xavierleroy.org/control-structures/book/index.html",
+    "comments_url": "https://lobste.rs/s/eolbw3/control_structures_programming"
+  },
+  {
+    "title": "savearoundtrip: publish an HTTPS DNS record, skip a round trip",
+    "score": 22,
+    "tags": [
+      "networking",
+      "web"
+    ],
+    "url": "https://savearoundtrip.com/",
+    "comments_url": "https://lobste.rs/s/wlm6dv/savearoundtrip_publish_https_dns_record"
+  },
+  {
+    "title": "What job interviews taught me about Kubernetes",
+    "score": 9,
+    "tags": [
+      "devops",
+      "distributed"
+    ],
+    "url": "https://notnotp.com/notes/what-job-interviews-taught-me-about-kubernetes/",
+    "comments_url": "https://lobste.rs/s/k6qon4/what_job_interviews_taught_me_about"
+  },
+  {
+    "title": "Users cry foul after AMD stripped memory crypto from its consumer CPUs",
+    "score": 13,
+    "tags": [
+      "hardware",
+      "security"
+    ],
+    "url": "https://arstechnica.com/security/2026/06/users-cry-foul-after-amd-stripped-memory-crypto-from-its-consumer-cpus/",
+    "comments_url": "https://lobste.rs/s/i2cjew/users_cry_foul_after_amd_stripped_memory"
+  },
+  {
+    "title": "Emacs, how it all started (for me)",
+    "score": 15,
+    "tags": [
+      "editors",
+      "emacs"
+    ],
+    "url": "https://xvw.lol/en/articles/emacs-start.html",
+    "comments_url": "https://lobste.rs/s/kycuyg/emacs_how_it_all_started_for_me"
+  },
+  {
+    "title": "Boot Naked Linux",
+    "score": 20,
+    "tags": [
+      "c",
+      "linux"
+    ],
+    "url": "https://nick.zoic.org/art/boot-naked-linux/",
+    "comments_url": "https://lobste.rs/s/vp2lbq/boot_naked_linux"
+  },
+  {
+    "title": "Life: Nasty, Brutish, and Short",
+    "score": 4,
+    "tags": [
+      "apl"
+    ],
+    "url": "https://www.jsoftware.com/papers/eem/life.htm",
+    "comments_url": "https://lobste.rs/s/aq0dz1/life_nasty_brutish_short"
+  }
+]

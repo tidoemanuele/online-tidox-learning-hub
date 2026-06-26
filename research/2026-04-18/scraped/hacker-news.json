@@ -1,0 +1,212 @@
+[
+  {
+    "rank": 1,
+    "title": "Migrating from DigitalOcean to Hetzner",
+    "url": "https://isayeter.com/posts/digitalocean-to-hetzner-migration/",
+    "points": 893,
+    "comments": 430
+  },
+  {
+    "rank": 2,
+    "title": "Anonymous request-token comparisons from Opus 4.6 and Opus 4.7",
+    "url": "https://tokens.billchambers.me/leaderboard",
+    "points": 615,
+    "comments": 576
+  },
+  {
+    "rank": 3,
+    "title": "Why Japan has such good railways",
+    "url": "https://worksinprogress.co/issue/why-japan-has-such-good-railways/",
+    "points": 568,
+    "comments": 580
+  },
+  {
+    "rank": 4,
+    "title": "College instructor turns to typewriters to curb AI-written work",
+    "url": "https://sentinelcolorado.com/uncategorized/a-college-instructor-turns-to-typewriters-to-curb-ai-written-work-and-teach-life-lessons/",
+    "points": 492,
+    "comments": 431
+  },
+  {
+    "rank": 5,
+    "title": "State of Kdenlive",
+    "url": "https://kdenlive.org/news/2026/state-2026/",
+    "points": 469,
+    "comments": 152
+  },
+  {
+    "rank": 6,
+    "title": "The electromechanical angle computer inside the B-52 bomber's star tracker",
+    "url": "https://www.righto.com/2026/04/B-52-star-tracker-angle-computer.html",
+    "points": 431,
+    "comments": 113
+  },
+  {
+    "rank": 7,
+    "title": "NIST scientists create 'any wavelength' lasers",
+    "url": "https://www.nist.gov/news-events/news/2026/04/any-color-you-nist-scientists-create-any-wavelength-lasers-tiny-circuits",
+    "points": 421,
+    "comments": 193
+  },
+  {
+    "rank": 8,
+    "title": "Thoughts and feelings around Claude Design",
+    "url": "https://samhenri.gold/blog/20260418-claude-design/",
+    "points": 387,
+    "comments": 244
+  },
+  {
+    "rank": 9,
+    "title": "Traders placed over $1B in perfectly timed bets on the Iran war",
+    "url": "https://www.theguardian.com/world/2026/apr/18/iran-war-bets-ethics-concerns",
+    "points": 364,
+    "comments": 241
+  },
+  {
+    "rank": 10,
+    "title": "Show HN: I made a calculator that works over disjoint sets of intervals",
+    "url": "https://victorpoughon.github.io/interval-calculator/",
+    "points": 314,
+    "comments": 54
+  },
+  {
+    "rank": 11,
+    "title": "Amiga Graphics Archive",
+    "url": "https://amiga.lychesis.net/",
+    "points": 265,
+    "comments": 86
+  },
+  {
+    "rank": 12,
+    "title": "The quiet disappearance of the free-range childhood",
+    "url": "https://bigthink.com/mind-behavior/the-quiet-disappearance-of-the-free-range-childhood/",
+    "points": 259,
+    "comments": 282
+  },
+  {
+    "rank": 13,
+    "title": "Category Theory Illustrated – Orders",
+    "url": "https://abuseofnotation.github.io/category-theory-illustrated/04_order/",
+    "points": 252,
+    "comments": 61
+  },
+  {
+    "rank": 14,
+    "title": "Stephen's Sausage Roll remains one of the most influential puzzle games",
+    "url": "https://thinkygames.com/features/10-years-of-grilling-stephens-sausage-roll-remains-one-of-the-most-influential-puzzle-games-ever-created/",
+    "points": 248,
+    "comments": 138
+  },
+  {
+    "rank": 15,
+    "title": "Running a Minecraft Server and more on a 1960s UNIVAC Computer",
+    "url": "https://farlow.dev/2026/04/17/running-a-minecraft-server-and-more-on-a-1960s-univac-computer",
+    "points": 243,
+    "comments": 38
+  },
+  {
+    "rank": 16,
+    "title": "NASA Shuts Off Instrument on Voyager 1 to Keep Spacecraft Operating",
+    "url": "https://science.nasa.gov/blogs/voyager/2026/04/17/nasa-shuts-off-instrument-on-voyager-1-to-keep-spacecraft-operating/",
+    "points": 235,
+    "comments": 118
+  },
+  {
+    "rank": 17,
+    "title": "Ternary Bonsai: Top Intelligence at 1.58 Bits",
+    "url": "https://prismml.com/news/ternary-bonsai",
+    "points": 225,
+    "comments": 57
+  },
+  {
+    "rank": 18,
+    "title": "Bodega cats of New York",
+    "url": "https://bodegacatsofnewyork.com",
+    "points": 220,
+    "comments": 106
+  },
+  {
+    "rank": 19,
+    "title": "Air is full of DNA",
+    "url": "https://www.nature.com/articles/d41586-026-01099-2",
+    "points": 187,
+    "comments": 64
+  },
+  {
+    "rank": 20,
+    "title": "Dad brains: How fatherhood rewires the male mind",
+    "url": "https://www.bbc.com/future/article/20260417-fatherhood-how-the-male-brain-and-body-prepare-for-childcare",
+    "points": 176,
+    "comments": 192
+  },
+  {
+    "rank": 21,
+    "title": "SDF Public Access Unix System",
+    "url": "https://sdf.org/?ssh",
+    "points": 173,
+    "comments": 90
+  },
+  {
+    "rank": 22,
+    "title": "Amazon is discontinuing Kindle for PC on June 30th",
+    "url": "https://goodereader.com/blog/kindle/amazon-is-discontinuing-kindle-for-pc-on-june-30th",
+    "points": 167,
+    "comments": 142
+  },
+  {
+    "rank": 23,
+    "title": "Show HN: MDV – a Markdown superset for docs, dashboards, and slides with data",
+    "url": "https://github.com/drasimwagan/mdv",
+    "points": 152,
+    "comments": 55
+  },
+  {
+    "rank": 24,
+    "title": "PgQue: Zero-Bloat Postgres Queue",
+    "url": "https://github.com/NikolayS/pgque",
+    "points": 146,
+    "comments": 37
+  },
+  {
+    "rank": 25,
+    "title": "Optimizing Ruby Path Methods",
+    "url": "https://byroot.github.io/ruby/performance/2026/04/18/faster-paths.html",
+    "points": 134,
+    "comments": 64
+  },
+  {
+    "rank": 26,
+    "title": "Why is IPv6 so complicated?",
+    "url": "https://github.com/becarpenter/misc/blob/main/why6why.md",
+    "points": 130,
+    "comments": 261
+  },
+  {
+    "rank": 27,
+    "title": "Zero-Copy GPU Inference from WebAssembly on Apple Silicon",
+    "url": "https://abacusnoir.com/2026/04/18/zero-copy-gpu-inference-from-webassembly-on-apple-silicon/",
+    "points": 120,
+    "comments": 53
+  },
+  {
+    "rank": 28,
+    "title": "Graphs that explain the state of AI in 2026",
+    "url": "https://spectrum.ieee.org/state-of-ai-index-2026",
+    "points": 115,
+    "comments": 62
+  },
+  {
+    "rank": 29,
+    "title": "Fuzix OS",
+    "url": "https://www.fuzix.org/",
+    "points": 115,
+    "comments": 32
+  },
+  {
+    "rank": 30,
+    "title": "The FBI Director Is MIA",
+    "url": "https://www.theatlantic.com/politics/2026/04/kash-patel-fbi-director-drinking-absences/686839/",
+    "points": 100,
+    "comments": 10
+  }
+]

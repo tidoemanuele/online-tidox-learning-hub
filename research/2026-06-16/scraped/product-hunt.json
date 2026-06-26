@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Google Vids 2.0",
+    "tagline": "Create, edit and share videos at no cost w/ new AI features",
+    "upvotes": 376,
+    "category": "AI, Video"
+  },
+  {
+    "name": "Sleek Analytics",
+    "tagline": "See who's on your site. Right now.",
+    "upvotes": 248,
+    "category": "Analytics"
+  },
+  {
+    "name": "Surf Social Websites",
+    "tagline": "Bring together people and content on the social web",
+    "upvotes": 212,
+    "category": "Social"
+  },
+  {
+    "name": "Mercury Edit 2",
+    "tagline": "Ultra-fast next-edit prediction for coding",
+    "upvotes": 157,
+    "category": "Dev Tools, AI"
+  },
+  {
+    "name": "Faahh",
+    "tagline": "Slap your desk. Unplug distractions. Get back to focus.",
+    "upvotes": 145,
+    "category": "Productivity"
+  }
+]

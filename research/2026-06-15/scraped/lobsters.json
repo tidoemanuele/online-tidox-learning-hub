@@ -1,0 +1,152 @@
+[
+  {
+    "title": "Deconstructing Datalog",
+    "score": 47,
+    "tags": [
+      "logiclangs",
+      "plt"
+    ],
+    "url": "https://www.rntz.net/post/my-thesis.html",
+    "comments_url": "https://lobste.rs/s/lvodx4/deconstructing_datalog"
+  },
+  {
+    "title": "Even More Batteries Included With Emacs",
+    "score": 45,
+    "tags": [
+      "emacs"
+    ],
+    "url": "https://karthinks.com/software/even-more-batteries-included-with-emacs/",
+    "comments_url": "https://lobste.rs/s/wwbl1n/even_more_batteries_included_with_emacs"
+  },
+  {
+    "title": "zinnia: a modular 64-bit Unix-like kernel written in Rust",
+    "score": 37,
+    "tags": [
+      "osdev",
+      "programming",
+      "rust"
+    ],
+    "url": "https://zinnia-os.org/",
+    "comments_url": "https://lobste.rs/s/0ichrt/zinnia_modular_64_bit_unix_like_kernel"
+  },
+  {
+    "title": "write for one person",
+    "score": 18,
+    "tags": [
+      "practices"
+    ],
+    "url": "https://wizardzines.com/comics/write-for-one-person/",
+    "comments_url": "https://lobste.rs/s/1xyby4/write_for_one_person"
+  },
+  {
+    "title": "FFI in Miri at 8000 segfaults per second",
+    "score": 17,
+    "tags": [
+      "compilers",
+      "rust",
+      "video"
+    ],
+    "url": "https://youtu.be/9X-ngiKo_Y0",
+    "comments_url": "https://lobste.rs/s/daehjf/ffi_miri_at_8000_segfaults_per_second"
+  },
+  {
+    "title": "ReactOS \"Open-Source Windows\" Reaches The Milestone Of Being Able To Run Half-Life",
+    "score": 78,
+    "tags": [
+      "osdev"
+    ],
+    "url": "https://www.phoronix.com/news/ReactOS-Running-Half-Life",
+    "comments_url": "https://lobste.rs/s/matdjp/reactos_open_source_windows_reaches"
+  },
+  {
+    "title": "Datalog",
+    "score": 5,
+    "tags": [
+      "logiclangs",
+      "plt"
+    ],
+    "url": "https://www.philipzucker.com/notes/Languages/datalog/",
+    "comments_url": "https://lobste.rs/s/jkowsn/datalog"
+  },
+  {
+    "title": "Extinction-level capitalism",
+    "score": 75,
+    "tags": [
+      "law",
+      "vibecoding"
+    ],
+    "url": "https://matthewbutterick.com/extinction-level-capitalism.html",
+    "comments_url": "https://lobste.rs/s/rnmkrg/extinction_level_capitalism"
+  },
+  {
+    "title": "Every Frame Perfect",
+    "score": 124,
+    "tags": [
+      "design",
+      "graphics"
+    ],
+    "url": "https://tonsky.me/blog/every-frame-perfect/",
+    "comments_url": "https://lobste.rs/s/bt7rtp/every_frame_perfect"
+  },
+  {
+    "title": "The mystery of the Solar Realms Elite title screen",
+    "score": 3,
+    "tags": [
+      "games",
+      "historical"
+    ],
+    "url": "https://breakintochat.com/blog/2026/06/14/the-mystery-of-the-solar-realms-elite-title-screen/",
+    "comments_url": "https://lobste.rs/s/kgpqam/mystery_solar_realms_elite_title_screen"
+  },
+  {
+    "title": "The future of Siri, or: why private inference isn\u2019t private enough",
+    "score": 26,
+    "tags": [
+      "ai",
+      "privacy"
+    ],
+    "url": "https://blog.cryptographyengineering.com/2026/06/09/apples-siri-ai-or-more-shouting-into-the-void-about-private-agents/",
+    "comments_url": "https://lobste.rs/s/tylzdy/future_siri_why_private_inference_isn_t"
+  },
+  {
+    "title": "repo-slopscore: Detecting AI/LLM contributions in git repositories via commit history analysis",
+    "score": 48,
+    "tags": [
+      "rust",
+      "show",
+      "vcs",
+      "vibecoding"
+    ],
+    "url": "https://slopscan.ava.pet/",
+    "comments_url": "https://lobste.rs/s/7s8fwa/repo_slopscore_detecting_ai_llm"
+  },
+  {
+    "title": "Speed Matters for Google Web Search [2009]",
+    "score": 2,
+    "tags": [
+      "pdf",
+      "web"
+    ],
+    "url": "https://services.google.com/fh/files/blogs/google_delayexp.pdf",
+    "comments_url": "https://lobste.rs/s/dju5t9/speed_matters_for_google_web_search_2009"
+  },
+  {
+    "title": "The only scalable delete in Postgres is DROP TABLE",
+    "score": 1,
+    "tags": [
+      "databases",
+      "performance"
+    ],
+    "url": "https://planetscale.com/blog/the-only-scalable-delete",
+    "comments_url": "https://lobste.rs/s/zieeza/only_scalable_delete_postgres_is_drop"
+  },
+  {
+    "title": "Diplomat: Multi-language FFI for Rust Libraries",
+    "score": 1,
+    "tags": [
+      "rust"
+    ],
+    "url": "http://manishearth.github.io/blog/2026/06/14/diplomat-multi-language-ffi-for-rust-libraries/",
+    "comments_url": "https://lobste.rs/s/mgbtd6/diplomat_multi_language_ffi_for_rust"
+  }
+]

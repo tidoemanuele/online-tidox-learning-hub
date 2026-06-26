@@ -1,0 +1,47 @@
+[
+  {
+    "name": "MiMo-Code",
+    "fullName": "XiaomiMiMo/MiMo-Code",
+    "description": "Xiaomi open-source agentic AI coding assistant — beats Claude Code on SWE-Bench Pro (62% vs 57%), persistent memory, 1M-token context, MIT licensed",
+    "language": "Python",
+    "stars_today": "1,423 stars today",
+    "total_stars": "3100",
+    "url": "https://github.com/XiaomiMiMo/MiMo-Code"
+  },
+  {
+    "name": "agent-skills",
+    "fullName": "addyosmani/agent-skills",
+    "description": "Production-grade engineering skills for AI coding agents — 24 lifecycle skills for Claude Code, Cursor, Gemini CLI, Windsurf, Copilot and more, by Addy Osmani",
+    "language": "TypeScript",
+    "stars_today": "987 stars today",
+    "total_stars": "52100",
+    "url": "https://github.com/addyosmani/agent-skills"
+  },
+  {
+    "name": "container",
+    "fullName": "apple/container",
+    "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. Written in Swift, optimized for Apple silicon. Requires macOS 26.",
+    "language": "Swift",
+    "stars_today": "714 stars today",
+    "total_stars": "26400",
+    "url": "https://github.com/apple/container"
+  },
+  {
+    "name": "brew",
+    "fullName": "Homebrew/brew",
+    "description": "The missing package manager for macOS (or Linux) — just released 6.0.0 with tap trust security, macOS 27 Golden Gate support, parallel brew bundle, and new ask-mode defaults",
+    "language": "Ruby",
+    "stars_today": "831 stars today",
+    "total_stars": "43200",
+    "url": "https://github.com/Homebrew/brew"
+  },
+  {
+    "name": "bumblebee",
+    "fullName": "perplexityai/bumblebee",
+    "description": "Read-only developer endpoint scanner for supply-chain exposure checks — covers npm, pnpm, PyPI, Go modules, MCP configs, editor and browser extensions. Written in Go, zero non-stdlib deps.",
+    "language": "Go",
+    "stars_today": "234 stars today",
+    "total_stars": "1580",
+    "url": "https://github.com/perplexityai/bumblebee"
+  }
+]

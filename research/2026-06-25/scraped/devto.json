@@ -1,0 +1,42 @@
+[
+  {
+    "rank": 1,
+    "title": "7 New JavaScript Features (And 2 I'm Still Waiting For)",
+    "url": "https://dev.to/sylwia-lask/7-new-javascript-features-and-2-im-still-waiting-for-2ck8",
+    "reactions": 61,
+    "comments": 21,
+    "tags": ["javascript", "typescript", "node", "webdev"]
+  },
+  {
+    "rank": 2,
+    "title": "To The People Who Read My Weird Little Blogs",
+    "url": "https://dev.to/itsugo/to-the-people-who-read-my-weird-little-blogs-3icj",
+    "reactions": 45,
+    "comments": 7,
+    "tags": ["writing", "community", "discuss", "learning"]
+  },
+  {
+    "rank": 3,
+    "title": "Something Changed After the Sloan Articles. I Can't Prove It.",
+    "url": "https://dev.to/dannwaneri/something-changed-after-the-sloan-articles-i-cant-prove-it-5009",
+    "reactions": 23,
+    "comments": 29,
+    "tags": ["ai", "meta", "devto", "discuss"]
+  },
+  {
+    "rank": 4,
+    "title": "TypeScript Tips That Actually Matter in Real Projects",
+    "url": "https://dev.to/gavincettolo/typescript-tips-that-actually-matter-in-real-projects-including-the-satisfies-operator-2cfg",
+    "reactions": 22,
+    "comments": 9,
+    "tags": ["typescript", "javascript", "webdev", "beginners"]
+  },
+  {
+    "rank": 5,
+    "title": "Everyone's Excited About Claude Tag. Nobody's Built the Trust Layer.",
+    "url": "https://dev.to/dannwaneri/everyones-excited-about-claude-tag-nobodys-built-the-trust-layer-1ohp",
+    "reactions": 18,
+    "comments": 20,
+    "tags": ["ai", "claude", "agents", "opensource"]
+  }
+]

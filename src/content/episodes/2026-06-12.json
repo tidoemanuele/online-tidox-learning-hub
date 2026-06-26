@@ -1,0 +1,154 @@
+{
+  "date": "2026-06-12",
+  "episodeNumber": 83,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "Nobody ever gets credit for fixing problems that n, If you are asking for human attention, demonstrate, AI Agent Bankrupted Their Operator While Trying to",
+  "heroStat": {
+    "value": "1122",
+    "label": "points on \"Show HN: Homebrew 6.0.0\""
+  },
+  "insights": [
+    {
+      "text": "Nobody ever gets credit for fixing problems that never happened (2001) [pdf] (307 pts, 107 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 307pts",
+      "url": "https://web.mit.edu/nelsonr/www/Repenning=Sterman_CMR_su01_.pdf"
+    },
+    {
+      "text": "If you are asking for human attention, demonstrate human effort (491 pts, 164 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 491pts",
+      "url": "https://tombedor.dev/human-attention-and-human-effort/"
+    },
+    {
+      "text": "AI Agent Bankrupted Their Operator While Trying to Scan DN42 (47 pts, 4 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 47pts",
+      "url": "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/"
+    },
+    {
+      "text": "Show HN: Homebrew 6.0.0 (1122 pts, 260 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 1122pts",
+      "url": "https://brew.sh/2026/06/11/homebrew-6.0.0/"
+    },
+    {
+      "text": "German court ruling declares Google's AI Overviews are Google's own words and makes it liable for false answers (220 pts on Lobsters)",
+      "tags": [
+        "lobsters",
+        "law"
+      ],
+      "source": "Lobsters 220pts",
+      "url": "https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/"
+    },
+    {
+      "text": "Hundreds of AUR packages attacked by infostealer (53 pts on Lobsters)",
+      "tags": [
+        "lobsters",
+        "linux",
+        "security"
+      ],
+      "source": "Lobsters 53pts",
+      "url": "https://lists.archlinux.org/archives/list/aur-general@lists.archlinux.org/thread/FGXPCB3ZVCJIV7FX323SBAX2JHYB7ZS4/"
+    }
+  ],
+  "trending": [
+    {
+      "name": "MiMo-Code",
+      "fullName": "XiaomiMiMo/MiMo-Code",
+      "stars": "3.1K",
+      "language": "Python",
+      "delta": "+1,423/d",
+      "url": "https://github.com/XiaomiMiMo/MiMo-Code"
+    },
+    {
+      "name": "agent-skills",
+      "fullName": "addyosmani/agent-skills",
+      "stars": "52.1K",
+      "language": "TypeScript",
+      "delta": "+987/d",
+      "url": "https://github.com/addyosmani/agent-skills"
+    },
+    {
+      "name": "brew",
+      "fullName": "Homebrew/brew",
+      "stars": "43.2K",
+      "language": "Ruby",
+      "delta": "+831/d",
+      "url": "https://github.com/Homebrew/brew"
+    },
+    {
+      "name": "container",
+      "fullName": "apple/container",
+      "stars": "26.4K",
+      "language": "Swift",
+      "delta": "+714/d",
+      "url": "https://github.com/apple/container"
+    },
+    {
+      "name": "bumblebee",
+      "fullName": "perplexityai/bumblebee",
+      "stars": "1.6K",
+      "language": "Go",
+      "delta": "+234/d",
+      "url": "https://github.com/perplexityai/bumblebee"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "1122",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "1,423",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "3",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "6",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "June 12, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Nobody ever gets credit for fixing problems that never happened [pdf]",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "If you are asking for human attention, demonstrate human effort",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "AI Agent Bankrupted Their Operator While Trying to Scan DN42",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Homebrew 6.0.0 tops HN at 1,122 points — the highest-scoring Show HN in the package manager category in 2026 — shipping tap trust security, initial macOS 27 support, and parallel brew bundle on the same day that macOS 27's first beta silently broke Asahi Linux boot. The compound signal is precise: open-source infrastructure communities are simultaneously hardening supply chain security (Homebrew tap trust, Perplexity Bumblebee) and racing to maintain compatibility with Apple's accelerating platform transitions."
+    }
+  }
+}

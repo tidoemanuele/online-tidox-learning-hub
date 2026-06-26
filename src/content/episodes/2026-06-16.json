@@ -1,0 +1,153 @@
+{
+  "date": "2026-06-16",
+  "episodeNumber": 87,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "The time the x86 emulator team found code so bad t, A backdoor in a LinkedIn job offer, Banned Book Library in a Wi-Fi Smart Light Bulb",
+  "heroStat": {
+    "value": "1073",
+    "label": "points on \"Iroh 1.0\""
+  },
+  "insights": [
+    {
+      "text": "The time the x86 emulator team found code so bad they fixed it during emulation (100 pts, 13 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 100pts",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20260615-00/?p=112419"
+    },
+    {
+      "text": "A backdoor in a LinkedIn job offer (958 pts, 184 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 958pts",
+      "url": "https://roman.pt/posts/linkedin-backdoor/"
+    },
+    {
+      "text": "Banned Book Library in a Wi-Fi Smart Light Bulb (283 pts, 134 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 283pts",
+      "url": "https://www.richardosgood.com/posts/banned-book-library/"
+    },
+    {
+      "text": "Iroh 1.0 (1073 pts, 316 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 1073pts",
+      "url": "https://www.iroh.computer/blog/v1"
+    },
+    {
+      "text": "curl summer of bliss (214 pts on Lobsters)",
+      "tags": [
+        "lobsters",
+        "security"
+      ],
+      "source": "Lobsters 214pts",
+      "url": "https://daniel.haxx.se/blog/2026/06/15/curl-summer-of-bliss/"
+    },
+    {
+      "text": "FreeBSD 15 on a Laptop (29 pts on Lobsters)",
+      "tags": [
+        "lobsters",
+        "freebsd"
+      ],
+      "source": "Lobsters 29pts",
+      "url": "https://www.sacredheartsc.com/blog/freebsd-15-on-a-laptop/"
+    }
+  ],
+  "trending": [
+    {
+      "name": "iptv",
+      "fullName": "iptv-org/iptv",
+      "stars": "123K",
+      "language": "TypeScript",
+      "delta": "+2,657/d",
+      "url": "https://github.com/iptv-org/iptv"
+    },
+    {
+      "name": "Agent-Reach",
+      "fullName": "Panniantong/Agent-Reach",
+      "stars": "30.8K",
+      "language": "Python",
+      "delta": "+1,100/d",
+      "url": "https://github.com/Panniantong/Agent-Reach"
+    },
+    {
+      "name": "SkillSpector",
+      "fullName": "NVIDIA/SkillSpector",
+      "stars": "6.6K",
+      "language": "Python",
+      "delta": "+1,079/d",
+      "url": "https://github.com/NVIDIA/SkillSpector"
+    },
+    {
+      "name": "freeCodeCamp",
+      "fullName": "freeCodeCamp/freeCodeCamp",
+      "stars": "448K",
+      "language": "TypeScript",
+      "delta": "+736/d",
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp"
+    },
+    {
+      "name": "ai-engineering-from-scratch",
+      "fullName": "rohitg00/ai-engineering-from-scratch",
+      "stars": "33.3K",
+      "language": "Python",
+      "delta": "+562/d",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "1073",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "2,657",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "5",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "6",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "June 16, 2026"
+    },
+    "headlines": [
+      {
+        "text": "The time the x86 emulator team found code so bad they fixed it during emulation",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "A backdoor in a LinkedIn job offer",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Banned Book Library in a Wi-Fi Smart Light Bulb",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Today's brief covers the most interesting signals across the tech landscape."
+    }
+  }
+}

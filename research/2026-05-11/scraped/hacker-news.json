@@ -1,0 +1,212 @@
+[
+  {
+    "rank": 1,
+    "title": "Postmortem: TanStack NPM supply-chain compromise",
+    "url": "https://tanstack.com/blog/npm-supply-chain-compromise-postmortem",
+    "points": 1097,
+    "comments": 465
+  },
+  {
+    "rank": 2,
+    "title": "I'm going back to writing code by hand",
+    "url": "https://blog.k10s.dev/im-going-back-to-writing-code-by-hand/",
+    "points": 1038,
+    "comments": 617
+  },
+  {
+    "rank": 3,
+    "title": "If AI writes your code, why use Python?",
+    "url": "https://medium.com/@NMitchem/if-ai-writes-your-code-why-use-python-bf8c4ba1a055",
+    "points": 919,
+    "comments": 980
+  },
+  {
+    "rank": 4,
+    "title": "GitLab announces workforce reduction and end of their CREDIT values",
+    "url": "https://about.gitlab.com/blog/gitlab-act-2/",
+    "points": 703,
+    "comments": 683
+  },
+  {
+    "rank": 5,
+    "title": "Mythos Finds a Curl Vulnerability",
+    "url": "https://daniel.haxx.se/blog/2026/05/11/mythos-finds-a-curl-vulnerability/",
+    "points": 703,
+    "comments": 282
+  },
+  {
+    "rank": 6,
+    "title": "Ratty – A terminal emulator with inline 3D graphics",
+    "url": "https://ratty-term.org/",
+    "points": 678,
+    "comments": 245
+  },
+  {
+    "rank": 7,
+    "title": "Gmail registration now requires scanning a QR code and sending a text message",
+    "url": "https://discuss.privacyguides.net/t/google-account-registration-now-requires-sending-an-sms-via-phone-instead-of-receiving-an-sms/36082",
+    "points": 637,
+    "comments": 517
+  },
+  {
+    "rank": 8,
+    "title": "Software engineering may no longer be a lifetime career",
+    "url": "https://www.seangoedecke.com/software-engineering-may-no-longer-be-a-lifetime-career/",
+    "points": 498,
+    "comments": 764
+  },
+  {
+    "rank": 9,
+    "title": "UCLA discovers first stroke rehabilitation drug to repair brain damage (2025)",
+    "url": "https://stemcell.ucla.edu/news/ucla-discovers-first-stroke-rehabilitation-drug-repair-brain-damage",
+    "points": 448,
+    "comments": 102
+  },
+  {
+    "rank": 10,
+    "title": "CUDA-oxide: Nvidia's official Rust to CUDA compiler",
+    "url": "https://nvlabs.github.io/cuda-oxide/index.html",
+    "points": 424,
+    "comments": 118
+  },
+  {
+    "rank": 11,
+    "title": "The greatest shot in television: James Burke had one chance to nail this scene (2024)",
+    "url": "https://www.openculture.com/2024/10/the-greatest-shot-in-television.html",
+    "points": 364,
+    "comments": 193
+  },
+  {
+    "rank": 12,
+    "title": "Interaction Models",
+    "url": "https://thinkingmachines.ai/blog/interaction-models/",
+    "points": 334,
+    "comments": 53
+  },
+  {
+    "rank": 13,
+    "title": "New stainless steel can survive conditions for hydrogen production in seawater",
+    "url": "https://www.sciencedaily.com/releases/2026/05/260510030950.htm",
+    "points": 315,
+    "comments": 147
+  },
+  {
+    "rank": 14,
+    "title": "Can someone please explain whether Cloudflare blackmailed Canonical?",
+    "url": "https://www.flyingpenguin.com/can-someone-please-explain-whether-cloudflare-blackmailed-canonical/",
+    "points": 284,
+    "comments": 168
+  },
+  {
+    "rank": 15,
+    "title": "I let AI build a tool to help me figure out what was waking me up at night",
+    "url": "https://martin.sh/i-let-ai-build-a-tool-to-help-me-figure-out-what-was-waking-me-up-at-night/",
+    "points": 276,
+    "comments": 285
+  },
+  {
+    "rank": 16,
+    "title": "A.I. note takers are making lawyers nervous",
+    "url": "https://www.nytimes.com/2026/05/09/business/dealbook/ai-notetakers-legal-risk.html",
+    "points": 264,
+    "comments": 192
+  },
+  {
+    "rank": 17,
+    "title": "Google says criminal hackers used AI to find a major software flaw",
+    "url": "https://www.nytimes.com/2026/05/11/us/politics/google-hackers-attack-ai.html",
+    "points": 244,
+    "comments": 177
+  },
+  {
+    "rank": 18,
+    "title": "Preserving Fisher-Price Pixter",
+    "url": "https://dmitry.gr/?r=05.Projects&proj=37.%20Pixter",
+    "points": 238,
+    "comments": 52
+  },
+  {
+    "rank": 19,
+    "title": "Chess puzzle I found in my dad's old book",
+    "url": "https://ardoedo.it/kempelen/",
+    "points": 227,
+    "comments": 72
+  },
+  {
+    "rank": 20,
+    "title": "Show HN: TikTok but for scientific papers",
+    "url": "https://andreaturchet.github.io/website/index.html",
+    "points": 200,
+    "comments": 80
+  },
+  {
+    "rank": 21,
+    "title": "Microsoft Israel chief leaves amid ethical controversy",
+    "url": "https://en.globes.co.il/en/article-microsoft-israel-chief-leaves-amid-ethical-controversy-1001542602",
+    "points": 198,
+    "comments": 164
+  },
+  {
+    "rank": 22,
+    "title": "Students boo commencement speaker after she calls AI next industrial revolution",
+    "url": "https://www.404media.co/ucf-ai-commencement-speaker-booed/",
+    "points": 184,
+    "comments": 217
+  },
+  {
+    "rank": 23,
+    "title": "An idiot’s guide to lead optimisation for proteins",
+    "url": "https://magnusross.github.io/posts/protein-lead-optimisation-1/",
+    "points": 176,
+    "comments": 16
+  },
+  {
+    "rank": 24,
+    "title": "Traceway: MIT-licensed observability stack you can self-host in ~90s",
+    "url": "https://github.com/tracewayapp/traceway",
+    "points": 174,
+    "comments": 85
+  },
+  {
+    "rank": 25,
+    "title": "Library for fast mapping of Java records to native memory",
+    "url": "https://github.com/mamba-studio/TypedMemory",
+    "points": 166,
+    "comments": 37
+  },
+  {
+    "rank": 26,
+    "title": "Interfaze: A new model architecture built for high accuracy at scale",
+    "url": "https://interfaze.ai/blog/interfaze-a-new-model-architecture-built-for-high-accuracy-at-scale",
+    "points": 164,
+    "comments": 43
+  },
+  {
+    "rank": 27,
+    "title": "590k buyers paid $59M for Trump's gold phone, but not one has shipped",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/590-000-buyers-paid-59-223500998.html",
+    "points": 162,
+    "comments": 112
+  },
+  {
+    "rank": 28,
+    "title": "Porting 3D Movie Maker to Linux",
+    "url": "https://benstoneonline.com/posts/porting-3d-movie-maker-to-linux/",
+    "points": 161,
+    "comments": 39
+  },
+  {
+    "rank": 29,
+    "title": "How can Apple deal with the memory shortage?",
+    "url": "https://asymco.com/2026/05/11/the-great-memory-panic-of-2026/",
+    "points": 136,
+    "comments": 192
+  },
+  {
+    "rank": 30,
+    "title": "Killed by Apple",
+    "url": "https://killedbyapple.theden.sh/",
+    "points": 132,
+    "comments": 129
+  }
+]

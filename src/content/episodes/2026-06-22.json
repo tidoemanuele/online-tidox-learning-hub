@@ -1,0 +1,154 @@
+{
+  "date": "2026-06-22",
+  "episodeNumber": 93,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "Did my old job only exist because of fraud?, Help I accidentally a wigglegram, Apertus – Open Foundation Model for Sovereign AI",
+  "heroStat": {
+    "value": "675",
+    "label": "points on \"Identity verification on Claude\""
+  },
+  "insights": [
+    {
+      "text": "Did my old job only exist because of fraud? (405 pts, 179 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 405pts",
+      "url": "https://david.newgas.net/did-my-old-job-only-exist-because-of-fraud/"
+    },
+    {
+      "text": "Help I accidentally a wigglegram (101 pts, 16 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 101pts",
+      "url": "https://lmao.center/blog/wiggle-accidents/"
+    },
+    {
+      "text": "Apertus – Open Foundation Model for Sovereign AI (306 pts, 110 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 306pts",
+      "url": "https://apertvs.ai/"
+    },
+    {
+      "text": "Danish privacy activist Lars Andersen raided by police (82 pts, 44 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 82pts",
+      "url": "https://twitter.com/LarsAnders1620/status/2068208864747540516#m"
+    },
+    {
+      "text": "Is AI ruining our skills? Early results are in and they're not good (72 pts on Lobsters)",
+      "tags": [
+        "lobsters",
+        "vibecoding"
+      ],
+      "source": "Lobsters 72pts",
+      "url": "https://www.nature.com/articles/d41586-026-01947-1"
+    },
+    {
+      "text": "postmarketOS v26.06 (Alpen Avocado) released (30 pts on Lobsters)",
+      "tags": [
+        "lobsters",
+        "linux",
+        "mobile"
+      ],
+      "source": "Lobsters 30pts",
+      "url": "https://postmarketos.org/blog/2026/06/21/v26.06-release/"
+    }
+  ],
+  "trending": [
+    {
+      "name": "headroom",
+      "fullName": "chopratejas/headroom",
+      "stars": "45.1K",
+      "language": "Python",
+      "delta": "+2,624/d",
+      "url": "https://github.com/chopratejas/headroom"
+    },
+    {
+      "name": "palmier-pro",
+      "fullName": "palmier-io/palmier-pro",
+      "stars": "5.8K",
+      "language": "Swift",
+      "delta": "+1,834/d",
+      "url": "https://github.com/palmier-io/palmier-pro"
+    },
+    {
+      "name": "skills",
+      "fullName": "mattpocock/skills",
+      "stars": "140K",
+      "language": "Shell",
+      "delta": "+1,443/d",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "name": "penpot",
+      "fullName": "penpot/penpot",
+      "stars": "52.4K",
+      "language": "Clojure",
+      "delta": "+1,135/d",
+      "url": "https://github.com/penpot/penpot"
+    },
+    {
+      "name": "codebase-memory-mcp",
+      "fullName": "DeusData/codebase-memory-mcp",
+      "stars": "10.6K",
+      "language": "C",
+      "delta": "+1,032/d",
+      "url": "https://github.com/DeusData/codebase-memory-mcp"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "675",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "2,624",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "3",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "6",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "June 22, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Did my old job only exist because of fraud?",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Help I accidentally a wigglegram",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Apertus – Open Foundation Model for Sovereign AI",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Today's brief covers the most interesting signals across the tech landscape."
+    }
+  }
+}

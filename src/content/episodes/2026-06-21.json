@@ -1,0 +1,154 @@
+{
+  "date": "2026-06-21",
+  "episodeNumber": 92,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "Building Reliable Agentic AI Systems, Developers don't understand CORS, Zigzag Decoding with AVX-512",
+  "heroStat": {
+    "value": "243",
+    "label": "points on \"SMPTE Makes Its Standards Freely Accessible\""
+  },
+  "insights": [
+    {
+      "text": "Building Reliable Agentic AI Systems (27 pts, 2 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 27pts",
+      "url": "https://martinfowler.com/articles/reliable-llm-bayer.html"
+    },
+    {
+      "text": "Developers don't understand CORS (2019) (94 pts, 35 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 94pts",
+      "url": "https://fosterelli.co/developers-dont-understand-cors"
+    },
+    {
+      "text": "Zigzag Decoding with AVX-512 (21 pts, 0 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 21pts",
+      "url": "https://zeux.io/2026/06/17/zigzag-decoding-avx512/"
+    },
+    {
+      "text": "Renting a sewing machine from the library (182 pts, 92 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 182pts",
+      "url": "https://www.bbc.com/future/article/20260618-the-weird-and-wonderful-libraries-of-finland"
+    },
+    {
+      "text": "Is anyone still using Emacs? (39 pts on Lobsters)",
+      "tags": [
+        "lobsters",
+        "emacs"
+      ],
+      "source": "Lobsters 39pts",
+      "url": "https://jmmv.dev/2026/06/is-anyone-still-using-emacs.html"
+    },
+    {
+      "text": "OCaml 5.5.0 released (50 pts on Lobsters)",
+      "tags": [
+        "lobsters",
+        "compilers",
+        "ml"
+      ],
+      "source": "Lobsters 50pts",
+      "url": "https://discuss.ocaml.org/t/ocaml-5-5-0-released/18265"
+    }
+  ],
+  "trending": [
+    {
+      "name": "bevy",
+      "fullName": "bevyengine/bevy",
+      "stars": "46.8K",
+      "language": "Rust",
+      "delta": "+1924/d",
+      "url": "https://github.com/bevyengine/bevy"
+    },
+    {
+      "name": "headroom",
+      "fullName": "chopratejas/headroom",
+      "stars": "41.3K",
+      "language": "Python",
+      "delta": "+1512/d",
+      "url": "https://github.com/chopratejas/headroom"
+    },
+    {
+      "name": "timesfm",
+      "fullName": "google-research/timesfm",
+      "stars": "25.1K",
+      "language": "Python",
+      "delta": "+847/d",
+      "url": "https://github.com/google-research/timesfm"
+    },
+    {
+      "name": "GLM-5",
+      "fullName": "zai-org/GLM-5",
+      "stars": "4.8K",
+      "language": "Python",
+      "delta": "+487/d",
+      "url": "https://github.com/zai-org/GLM-5"
+    },
+    {
+      "name": "iroh",
+      "fullName": "n0-computer/iroh",
+      "stars": "10.4K",
+      "language": "Rust",
+      "delta": "+302/d",
+      "url": "https://github.com/n0-computer/iroh"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "243",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "1924",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "3",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "6",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "June 21, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Building Reliable Agentic AI Systems",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Developers don't understand CORS",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Zigzag Decoding with AVX-512",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Today's brief covers the most interesting signals across the tech landscape."
+    }
+  }
+}

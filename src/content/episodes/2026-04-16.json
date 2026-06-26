@@ -1,0 +1,113 @@
+{
+  "date": "2026-04-16",
+  "episodeNumber": 75,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "Google broke its promise to protect user data from, Cal.com goes closed source after 5 years, US v. Heppner rules AI conversations carry no atto",
+  "heroStat": {
+    "value": "1959",
+    "label": "points on \"Claude Opus 4.7\""
+  },
+  "insights": [
+    {
+      "text": "Google broke its promise to protect user data from ICE — the EFF story hits 1,309 HN pts, the highest single privacy story since the Flock surveillance cluster yesterday. Two consecutive days of 1,000+ point privacy stories. The privacy backlash isn't episodic anymore; it's a sustained drumbeat that developer communities are amplifying louder than any product launch.",
+      "tags": [],
+      "source": "HN 309pts"
+    },
+    {
+      "text": "Cal.com goes closed source after 5 years (268 HN pts) — the stated reason: Anthropic's withheld Mythos model can break into highly secure systems including OpenBSD. An open-source project closing its repo to defend against AI, not human attackers. If verified, this inverts three decades of 'open by default' security philosophy. The attack surface is no longer the code you hide; it's the code you share.",
+      "tags": [
+        "security",
+        "open-source"
+      ],
+      "source": "HN 268pts"
+    },
+    {
+      "text": "US v. Heppner (S.D.N.Y.) rules AI conversations carry no attorney-client privilege (116 HN pts) — Judge Rakoff's three-part reasoning: Claude is not an attorney, platform privacy policies negate confidentiality, and the defendant used AI on his own initiative. Every developer discussing sensitive code with an AI chatbot now has a discoverable record. The legal implications for regulated industries are immediate.",
+      "tags": [],
+      "source": "HN 116pts"
+    },
+    {
+      "text": "andrej-karpathy-skills sustains at +9,646 stars/day (Day 3, 44.7K total) — actually accelerating from Day 2's +9,263. Claude-mem holds at +2,305/day (58.2K), superpowers at +2,055/day (154.8K). Claude-Code-Game-Studios debuts at +612/day (10.8K). Four of the top 13 GitHub Trending positions belong to the Claude Code ecosystem for the third consecutive day. No developer platform has ever sustained this concentration.",
+      "tags": [
+        "github-trending",
+        "claude-code",
+        "ecosystem"
+      ],
+      "source": "GitHub +9,646/day"
+    },
+    {
+      "text": "Anthropic, Google, and OpenAI all ship major platform features in the same 48-hour window — Anthropic prepares Opus 4.7 plus an AI design tool with Figma integration, Google launches the Gemini app natively on macOS with subagents in Gemini CLI, OpenAI ships ChatGPT for Excel powered by GPT-5.4 with FactSet and Bloomberg data. Each targets a different integration surface: design, desktop OS, enterprise spreadsheets. The AI platform war shifts from benchmarks to embed depth.",
+      "tags": [
+        "agents",
+        "research"
+      ]
+    },
+    {
+      "text": "Darkbloom proposes turning idle Macs into a privacy-first AI inference network (85 HN pts) — end-to-end encrypted, node operators never see user data, OpenAI-compatible API, claims 50% cost reduction. Same week: Vitalik Buterin goes viral running Qwen3.5:35B locally at 90 tok/s on an Nvidia 5090. The local AI movement is no longer about ideology; it's shipping infrastructure.",
+      "tags": [],
+      "source": "HN 85pts"
+    },
+    {
+      "text": "ArXiv cs.AI submissions for April 16 are saturated with agent research — SciFi (autonomous science agents), WebXSkill (web agent skill learning), memory transfer across coding agent domains, 3-layer cognitive hardware architecture for agents, AI-assisted peer review at AAAI-26. Agent-related papers outnumber all other categories on today's listing. The research-to-product pipeline for agents is fully engaged.",
+      "tags": [
+        "agents",
+        "research"
+      ]
+    },
+    {
+      "text": "Anna's Archive loses a $322M default judgment to Spotify and major labels (391 HN pts) — the largest piracy judgment in years, with a permanent injunction. Collection is unlikely since operators are anonymous, but the legal precedent matters: scraping at scale now carries nine-figure liability. Every AI training data pipeline should take note.",
+      "tags": [],
+      "source": "HN 391pts"
+    }
+  ],
+  "trending": [],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "1959",
+      "unit": "pts"
+    },
+    {
+      "label": "Repos",
+      "value": "0",
+      "unit": "tracked"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "1",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "April 16, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Google broke its promise to protect user data from ICE",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Cal.com goes closed source after 5 years",
+        "metric": "268 pts",
+        "source": "HN"
+      },
+      {
+        "text": "US v. Heppner rules AI conversations carry no attorney-client privilege",
+        "metric": "116 pts",
+        "source": "HN"
+      }
+    ],
+    "takeaway": {
+      "text": "Today's brief covers the most interesting signals across the tech landscape."
+    }
+  }
+}

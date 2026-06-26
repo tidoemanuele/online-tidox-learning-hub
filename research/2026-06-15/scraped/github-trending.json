@@ -1,0 +1,92 @@
+[
+  {
+    "name": "iptv",
+    "fullName": "iptv-org/iptv",
+    "description": "Collection of publicly available IPTV channels from all over the world",
+    "language": "TypeScript",
+    "stars_today": "1,528 stars today",
+    "total_stars": "121564",
+    "url": "https://github.com/iptv-org/iptv"
+  },
+  {
+    "name": "SkillSpector",
+    "fullName": "NVIDIA/SkillSpector",
+    "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.",
+    "language": "Python",
+    "stars_today": "964 stars today",
+    "total_stars": "5582",
+    "url": "https://github.com/NVIDIA/SkillSpector"
+  },
+  {
+    "name": "chatwoot",
+    "fullName": "chatwoot/chatwoot",
+    "description": "Open-source live-chat, email support, omni-channel desk alternative to Intercom, Zendesk, Salesforce Service Cloud",
+    "language": "Ruby",
+    "stars_today": "400 stars today",
+    "total_stars": "31344",
+    "url": "https://github.com/chatwoot/chatwoot"
+  },
+  {
+    "name": "aisuite",
+    "fullName": "andrewyng/aisuite",
+    "description": "Simple, unified interface to multiple Generative AI providers",
+    "language": "Python",
+    "stars_today": "291 stars today",
+    "total_stars": "14461",
+    "url": "https://github.com/andrewyng/aisuite"
+  },
+  {
+    "name": "Introduction-to-Autonomous-Robots",
+    "fullName": "Introduction-to-Autonomous-Robots/Introduction-to-Autonomous-Robots",
+    "description": "Introduction to Autonomous Robots textbook",
+    "language": "TeX",
+    "stars_today": "293 stars today",
+    "total_stars": "2840",
+    "url": "https://github.com/Introduction-to-Autonomous-Robots/Introduction-to-Autonomous-Robots"
+  },
+  {
+    "name": "Kronos",
+    "fullName": "shiyu-coder/Kronos",
+    "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+    "language": "Python",
+    "stars_today": "244 stars today",
+    "total_stars": "30007",
+    "url": "https://github.com/shiyu-coder/Kronos"
+  },
+  {
+    "name": "Clone-Wars",
+    "fullName": "GorvGoyl/Clone-Wars",
+    "description": "100+ open-source clones of popular sites like Airbnb, Amazon, Instagram, Netflix, Tiktok, Spotify, Whatsapp, Youtube etc.",
+    "language": "Markdown",
+    "stars_today": "269 stars today",
+    "total_stars": "35630",
+    "url": "https://github.com/GorvGoyl/Clone-Wars"
+  },
+  {
+    "name": "server",
+    "fullName": "music-assistant/server",
+    "description": "Music Assistant is a free, opensource Media library manager that connects to streaming services and speakers.",
+    "language": "Python",
+    "stars_today": "197 stars today",
+    "total_stars": "2245",
+    "url": "https://github.com/music-assistant/server"
+  },
+  {
+    "name": "swc",
+    "fullName": "swc-project/swc",
+    "description": "Rust-based platform for the Web",
+    "language": "Rust",
+    "stars_today": "163 stars today",
+    "total_stars": "33819",
+    "url": "https://github.com/swc-project/swc"
+  },
+  {
+    "name": "freeCodeCamp",
+    "fullName": "freeCodeCamp/freeCodeCamp",
+    "description": "freeCodeCamp.org open-source codebase and curriculum",
+    "language": "TypeScript",
+    "stars_today": "146 stars today",
+    "total_stars": "447394",
+    "url": "https://github.com/freeCodeCamp/freeCodeCamp"
+  }
+]

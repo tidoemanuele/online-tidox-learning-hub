@@ -1,0 +1,316 @@
+[
+  {
+    "rank": 1,
+    "title": "Congrats to the Gemma 4 Challenge Winners!",
+    "url": "https://dev.to/devteam/congrats-to-the-gemma-4-challenge-winners-4fgc",
+    "reactions": 52,
+    "comments": 26,
+    "tags": [
+      "devchallenge",
+      "gemmachallenge",
+      "gemma"
+    ]
+  },
+  {
+    "rank": 2,
+    "title": "Congrats to the Hermes Agent Challenge Winners!",
+    "url": "https://dev.to/devteam/congrats-to-the-hermes-agent-challenge-winners-3on0",
+    "reactions": 19,
+    "comments": 5,
+    "tags": [
+      "hermesagentchallenge",
+      "devchallenge",
+      "agents"
+    ]
+  },
+  {
+    "rank": 3,
+    "title": "I'm not a developer, but I built a calendar app to fix my most annoying work task",
+    "url": "https://dev.to/googleai/im-not-a-developer-but-i-built-a-calendar-app-to-fix-my-most-annoying-work-task-dj4",
+    "reactions": 13,
+    "comments": 0,
+    "tags": [
+      "ai",
+      "productivity",
+      "beginners",
+      "discuss"
+    ]
+  },
+  {
+    "rank": 4,
+    "title": "The Winner of the AI-Pocalypse? The Full-Stack Generalist (But Probably Later Instead of Sooner)",
+    "url": "https://dev.to/linkbenjamin/the-winner-of-the-ai-pocalypse-the-full-stack-generalist-but-probably-later-instead-of-sooner-12n3",
+    "reactions": 5,
+    "comments": 10,
+    "tags": [
+      "careerdevelopment",
+      "beginners",
+      "devops",
+      "ai"
+    ]
+  },
+  {
+    "rank": 5,
+    "title": "Technical Writing Advice",
+    "url": "https://dev.to/pauljlucas/technical-writing-advice-28a6",
+    "reactions": 14,
+    "comments": 5,
+    "tags": [
+      "documentation",
+      "technical",
+      "writing"
+    ]
+  },
+  {
+    "rank": 6,
+    "title": "Someone was wrong on the internet, so I built a Temporal Docker extension",
+    "url": "https://dev.to/temporalio/someone-was-wrong-on-the-internet-so-i-built-a-temporal-docker-extension-55pp",
+    "reactions": 0,
+    "comments": 0,
+    "tags": [
+      "temporal",
+      "selfhosted",
+      "codesamples",
+      "durableexecution"
+    ]
+  },
+  {
+    "rank": 7,
+    "title": "AI summaries need receipts: how I built evidence-bound reports from comments",
+    "url": "https://dev.to/woshiliyana/ai-summaries-need-receipts-how-i-built-evidence-bound-reports-from-comments-1c29",
+    "reactions": 11,
+    "comments": 1,
+    "tags": [
+      "ai",
+      "webdev",
+      "productivity",
+      "data"
+    ]
+  },
+  {
+    "rank": 8,
+    "title": "Pointers and Tuning and Loops! Oh My!",
+    "url": "https://dev.to/pauljlucas/pointers-and-tuning-and-loops-oh-my-5e09",
+    "reactions": 0,
+    "comments": 0,
+    "tags": [
+      "c",
+      "cpp"
+    ]
+  },
+  {
+    "rank": 9,
+    "title": "Codewars did not teach me JavaScript. My job did.",
+    "url": "https://dev.to/shannonianthe/codewars-did-not-teach-me-javascript-my-job-did-379k",
+    "reactions": 11,
+    "comments": 4,
+    "tags": [
+      "career",
+      "codenewbie",
+      "javascript",
+      "learning"
+    ]
+  },
+  {
+    "rank": 10,
+    "title": "The Reliability Problem That Forced Us to Rethink AI Agents",
+    "url": "https://dev.to/pallavi_sharma_10c1a6f1da/the-reliability-problem-that-forced-us-to-rethink-ai-agents-53l",
+    "reactions": 6,
+    "comments": 0,
+    "tags": [
+      "ai",
+      "googleaichallenge",
+      "opensource",
+      "machinelearning"
+    ]
+  },
+  {
+    "rank": 11,
+    "title": "Building an Animated 404 Ring",
+    "url": "https://dev.to/dimonb19a/building-an-animated-404-ring-2n1h",
+    "reactions": 1,
+    "comments": 0,
+    "tags": [
+      "webdev",
+      "frontend",
+      "404"
+    ]
+  },
+  {
+    "rank": 12,
+    "title": "Write your error states for a stranger three months from now, not for yourself today",
+    "url": "https://dev.to/rapls/write-your-error-states-for-a-stranger-three-months-from-now-not-for-yourself-today-54jm",
+    "reactions": 2,
+    "comments": 0,
+    "tags": [
+      "ai",
+      "productivity",
+      "devops",
+      "llm"
+    ]
+  },
+  {
+    "rank": 13,
+    "title": "Skills over System Prompts: Building an Anki Tutor with the Antigravity SDK",
+    "url": "https://dev.to/gde/skills-over-system-prompts-building-an-anki-tutor-with-the-antigravity-sdk-2o8f",
+    "reactions": 0,
+    "comments": 0,
+    "tags": [
+      "ai",
+      "antigravity",
+      "agents",
+      "gemini"
+    ]
+  },
+  {
+    "rank": 14,
+    "title": "Open-Source Coding Agents: One Ties Sonnet, One Won't Listen",
+    "url": "https://dev.to/tessl-io/open-source-coding-agents-one-ties-sonnet-one-wont-listen-emm",
+    "reactions": 11,
+    "comments": 0,
+    "tags": [
+      "article"
+    ]
+  },
+  {
+    "rank": 15,
+    "title": "Bridging IFTTT to Your Local AI Assistant with an MCP Proxy",
+    "url": "https://dev.to/aws/bridging-ifttt-to-your-local-ai-assistant-with-an-mcp-proxy-ind",
+    "reactions": 7,
+    "comments": 0,
+    "tags": [
+      "mcp",
+      "quick",
+      "aws",
+      "ai"
+    ]
+  },
+  {
+    "rank": 16,
+    "title": "We Added React Doctor to Our UI Kit Monorepo. Here's What It Found.",
+    "url": "https://dev.to/divyesh5981/we-added-react-doctor-to-our-ui-kit-monorepo-heres-what-it-found-eef",
+    "reactions": 14,
+    "comments": 0,
+    "tags": [
+      "react",
+      "webdev",
+      "productivity",
+      "javascript"
+    ]
+  },
+  {
+    "rank": 17,
+    "title": "The Dual-Binary Deployment Stack: Managed Cloud Ergonomics on Bare Metal",
+    "url": "https://dev.to/oluwaferanmi/the-dual-binary-deployment-stack-managed-cloud-ergonomics-on-bare-metal-42ag",
+    "reactions": 1,
+    "comments": 1,
+    "tags": [
+      "cloud",
+      "infrastructure",
+      "kamal",
+      "vps"
+    ]
+  },
+  {
+    "rank": 18,
+    "title": "What Does the Windows REFRESH button really do?",
+    "url": "https://dev.to/lovestaco/what-does-the-windows-refresh-button-really-do-4kh",
+    "reactions": 6,
+    "comments": 0,
+    "tags": [
+      "webdev",
+      "programming",
+      "discuss",
+      "productivity"
+    ]
+  },
+  {
+    "rank": 19,
+    "title": "My Turing Solstice Project: A Narrative Puzzle Game Powered by Gemini AI",
+    "url": "https://dev.to/rajab_baig_a3929cefc3758b/my-turing-solstice-project-a-narrative-puzzle-game-powered-by-gemini-ai-24mi",
+    "reactions": 4,
+    "comments": 0,
+    "tags": [
+      "devchallenge",
+      "gamechallenge",
+      "gamedev"
+    ]
+  },
+  {
+    "rank": 20,
+    "title": "You Click \"Add to Story\" and Instagram Does Way More Than You Think",
+    "url": "https://dev.to/ankit_rattan/you-click-add-to-story-and-instagram-does-way-more-than-you-think-13n2",
+    "reactions": 11,
+    "comments": 0,
+    "tags": [
+      "programming",
+      "discuss",
+      "api",
+      "architecture"
+    ]
+  },
+  {
+    "rank": 21,
+    "title": "I Run AI Agents Around the Clock and My Best Productivity Tool This Year Has No Battery",
+    "url": "https://dev.to/patrity/i-run-ai-agents-around-the-clock-and-my-best-productivity-tool-this-year-has-no-battery-172b",
+    "reactions": 2,
+    "comments": 0,
+    "tags": [
+      "productivity",
+      "devjournal",
+      "notes",
+      "devlife"
+    ]
+  },
+  {
+    "rank": 22,
+    "title": "JMeter vs k6 vs Locust in 2026: Which Load Testing Tool Should You Pick?",
+    "url": "https://dev.to/qainsights/jmeter-vs-k6-vs-locust-in-2026-which-load-testing-tool-should-you-pick-366f",
+    "reactions": 0,
+    "comments": 0,
+    "tags": [
+      "resources",
+      "testing",
+      "developers",
+      "opensource"
+    ]
+  },
+  {
+    "rank": 23,
+    "title": "How do you scale a frontend application to a million users ?",
+    "url": "https://dev.to/dhiraj-shrotri/how-do-you-scale-a-frontend-application-to-a-million-users--3777",
+    "reactions": 2,
+    "comments": 0,
+    "tags": [
+      "frontend",
+      "reactjsdevelopment",
+      "webdev"
+    ]
+  },
+  {
+    "rank": 24,
+    "title": "The Playwright Playbook — Part 5: Visual Regression Testing",
+    "url": "https://dev.to/sshhfaiz/the-playwright-playbook-part-5-visual-regression-testing-1538",
+    "reactions": 1,
+    "comments": 0,
+    "tags": [
+      "playwright",
+      "testing",
+      "typescript",
+      "automation"
+    ]
+  },
+  {
+    "rank": 25,
+    "title": "I gave my AI workers a cited knowledgebase so they'd stop guessing",
+    "url": "https://dev.to/unbearablelabs/i-gave-my-ai-workers-a-cited-knowledgebase-so-theyd-stop-guessing-2ndk",
+    "reactions": 1,
+    "comments": 0,
+    "tags": [
+      "ai",
+      "productivity",
+      "buildinpublic",
+      "programming"
+    ]
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "name": "container",
+    "fullName": "apple/container",
+    "description": "Tool for creating Linux containers using lightweight VMs on Mac",
+    "language": "Swift",
+    "stars_today": "3,504 stars today",
+    "total_stars": "35380",
+    "url": "https://github.com/apple/container"
+  },
+  {
+    "name": "agent-skills",
+    "fullName": "addyosmani/agent-skills",
+    "description": "Production-grade engineering skills for AI coding agents",
+    "language": "Shell",
+    "stars_today": "2,656 stars today",
+    "total_stars": "57110",
+    "url": "https://github.com/addyosmani/agent-skills"
+  },
+  {
+    "name": "superpowers",
+    "fullName": "obra/superpowers",
+    "description": "An agentic skills framework & software development methodology",
+    "language": "Shell",
+    "stars_today": "1,275 stars today",
+    "total_stars": "226215",
+    "url": "https://github.com/obra/superpowers"
+  },
+  {
+    "name": "agency-agents",
+    "fullName": "msitarzewski/agency-agents",
+    "description": "Complete AI agency with specialized expert agents",
+    "language": "Shell",
+    "stars_today": "1,026 stars today",
+    "total_stars": "112543",
+    "url": "https://github.com/msitarzewski/agency-agents"
+  },
+  {
+    "name": "pm-skills",
+    "fullName": "phuryn/pm-skills",
+    "description": "PM Skills Marketplace with 100+ agentic skills and commands",
+    "language": "Markdown",
+    "stars_today": "827 stars today",
+    "total_stars": "17159",
+    "url": "https://github.com/phuryn/pm-skills"
+  },
+  {
+    "name": "openmed",
+    "fullName": "maziyarpanahi/openmed",
+    "description": "open-source healthcare ai",
+    "language": "Python",
+    "stars_today": "515 stars today",
+    "total_stars": "3251",
+    "url": "https://github.com/maziyarpanahi/openmed"
+  },
+  {
+    "name": "MasterDnsVPN",
+    "fullName": "masterking32/MasterDnsVPN",
+    "description": "Advanced DNS tunneling VPN for censorship bypass",
+    "language": "Go",
+    "stars_today": "400 stars today",
+    "total_stars": "6078",
+    "url": "https://github.com/masterking32/MasterDnsVPN"
+  },
+  {
+    "name": "mattermost",
+    "fullName": "mattermost/mattermost",
+    "description": "Open source platform for secure collaboration in software development",
+    "language": "TypeScript",
+    "stars_today": "388 stars today",
+    "total_stars": "37681",
+    "url": "https://github.com/mattermost/mattermost"
+  },
+  {
+    "name": "tolaria",
+    "fullName": "refactoringhq/tolaria",
+    "description": "Desktop app to manage markdown knowledge bases",
+    "language": "TypeScript",
+    "stars_today": "369 stars today",
+    "total_stars": "15890",
+    "url": "https://github.com/refactoringhq/tolaria"
+  },
+  {
+    "name": "PowerToys",
+    "fullName": "microsoft/PowerToys",
+    "description": "Collection of Windows productivity and customization utilities",
+    "language": "C",
+    "stars_today": "103 stars today",
+    "total_stars": "134406",
+    "url": "https://github.com/microsoft/PowerToys"
+  }
+]

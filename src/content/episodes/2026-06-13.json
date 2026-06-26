@@ -1,0 +1,154 @@
+{
+  "date": "2026-06-13",
+  "episodeNumber": 84,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "Statement on US government directive to suspend ac, Open source AI must win, Our response to the US ban on Fable 5 and Mythos 5",
+  "heroStat": {
+    "value": "1726",
+    "label": "points on \"Statement on US government directive to suspend access to Fa\""
+  },
+  "insights": [
+    {
+      "text": "Statement on US government directive to suspend access to Fable 5 and Mythos 5 (1726 pts, 1318 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 1726pts",
+      "url": "https://www.anthropic.com/news/fable-mythos-access"
+    },
+    {
+      "text": "Open source AI must win (617 pts, 193 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 617pts",
+      "url": "https://opensourceaimustwin.com/?share=v2"
+    },
+    {
+      "text": "Our response to the US ban on Fable 5 and Mythos 5 (68 pts, 15 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 68pts",
+      "url": "https://isaacus.com/blog/our-response-to-the-us-ban-on-fable-5-and-mythos-5"
+    },
+    {
+      "text": "Electric motors with no rare earths (352 pts, 88 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 352pts",
+      "url": "https://www.renaultgroup.com/en/magazine/energy-and-powertrains/all-about-electric-motors-with-no-rare-earths/"
+    },
+    {
+      "text": "Turn your site into a place people can bump into each other (45 pts on Lobsters)",
+      "tags": [
+        "lobsters",
+        "web"
+      ],
+      "source": "Lobsters 45pts",
+      "url": "https://cauenapier.com/blog/townsquare_release/"
+    },
+    {
+      "text": "AI Agent Bankrupted Their Operator While Trying to Scan DN42 (139 pts on Lobsters)",
+      "tags": [
+        "lobsters",
+        "devops",
+        "networking"
+      ],
+      "source": "Lobsters 139pts",
+      "url": "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/"
+    }
+  ],
+  "trending": [
+    {
+      "name": "container",
+      "fullName": "apple/container",
+      "stars": "35.4K",
+      "language": "Swift",
+      "delta": "+3,504/d",
+      "url": "https://github.com/apple/container"
+    },
+    {
+      "name": "agent-skills",
+      "fullName": "addyosmani/agent-skills",
+      "stars": "57.1K",
+      "language": "Shell",
+      "delta": "+2,656/d",
+      "url": "https://github.com/addyosmani/agent-skills"
+    },
+    {
+      "name": "superpowers",
+      "fullName": "obra/superpowers",
+      "stars": "226K",
+      "language": "Shell",
+      "delta": "+1,275/d",
+      "url": "https://github.com/obra/superpowers"
+    },
+    {
+      "name": "agency-agents",
+      "fullName": "msitarzewski/agency-agents",
+      "stars": "113K",
+      "language": "Shell",
+      "delta": "+1,026/d",
+      "url": "https://github.com/msitarzewski/agency-agents"
+    },
+    {
+      "name": "pm-skills",
+      "fullName": "phuryn/pm-skills",
+      "stars": "17.2K",
+      "language": "Markdown",
+      "delta": "+827/d",
+      "url": "https://github.com/phuryn/pm-skills"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "1726",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "3,504",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "3",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "6",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "June 13, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Statement on US government directive to suspend access to Fable 5 and Mythos 5",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Open source AI must win",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Our response to the US ban on Fable 5 and Mythos 5",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Today's brief covers the most interesting signals across the tech landscape."
+    }
+  }
+}

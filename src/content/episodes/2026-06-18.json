@@ -1,0 +1,154 @@
+{
+  "date": "2026-06-18",
+  "episodeNumber": 89,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "Midjourney Medical, I Hate Compilers, Lore – Open source version control system designed",
+  "heroStat": {
+    "value": "1074",
+    "label": "points on \"Lore – Open source version control system designed for scala\""
+  },
+  "insights": [
+    {
+      "text": "Midjourney Medical (437 pts, 333 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 437pts",
+      "url": "https://www.midjourney.com/medical/blogpost"
+    },
+    {
+      "text": "I Hate Compilers (23 pts, 17 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 23pts",
+      "url": "https://xeiaso.net/notes/2026/anubis-wasm-vendor-binary/"
+    },
+    {
+      "text": "Lore – Open source version control system designed for scalability (1074 pts, 571 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 1074pts",
+      "url": "https://lore.org/"
+    },
+    {
+      "text": "Local Qwen isn't a worse Opus, it's a different tool (89 pts, 28 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 89pts",
+      "url": "https://blog.alexellis.io/local-ai-is-not-opus/"
+    },
+    {
+      "text": "Leaving Mozilla (94 pts on Lobsters)",
+      "tags": [
+        "lobsters",
+        "browsers",
+        "person"
+      ],
+      "source": "Lobsters 94pts",
+      "url": "https://blog.unitedheroes.net/5751"
+    },
+    {
+      "text": "I Could've Rickrolled the Entire FIFA World Cup. All I Needed Was My ID (133 pts on Lobsters)",
+      "tags": [
+        "lobsters",
+        "security"
+      ],
+      "source": "Lobsters 133pts",
+      "url": "https://bobdahacker.com/blog/fifa-hack"
+    }
+  ],
+  "trending": [
+    {
+      "name": "Agent-Reach",
+      "fullName": "Panniantong/Agent-Reach",
+      "stars": "8.4K",
+      "language": "Python",
+      "delta": "+1161/d",
+      "url": "https://github.com/Panniantong/Agent-Reach"
+    },
+    {
+      "name": "superpowers",
+      "fullName": "obra/superpowers",
+      "stars": "226K",
+      "language": "Shell",
+      "delta": "+1129/d",
+      "url": "https://github.com/obra/superpowers"
+    },
+    {
+      "name": "timesfm",
+      "fullName": "google-research/timesfm",
+      "stars": "8.9K",
+      "language": "Python",
+      "delta": "+606/d",
+      "url": "https://github.com/google-research/timesfm"
+    },
+    {
+      "name": "iroh",
+      "fullName": "n0-computer/iroh",
+      "stars": "6.3K",
+      "language": "Rust",
+      "delta": "+421/d",
+      "url": "https://github.com/n0-computer/iroh"
+    },
+    {
+      "name": "codebase-memory-mcp",
+      "fullName": "DeusData/codebase-memory-mcp",
+      "stars": "52.3K",
+      "language": "C",
+      "delta": "+371/d",
+      "url": "https://github.com/DeusData/codebase-memory-mcp"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "1074",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "1161",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "3",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "6",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "June 18, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Midjourney Medical",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "I Hate Compilers",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Lore – Open source version control system designed for scalability",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Today's brief covers the most interesting signals across the tech landscape."
+    }
+  }
+}

@@ -1,0 +1,212 @@
+[
+  {
+    "rank": 1,
+    "title": "Claude Opus 4.7",
+    "url": "https://www.anthropic.com/news/claude-opus-4-7",
+    "points": 1959,
+    "comments": 1453
+  },
+  {
+    "rank": 2,
+    "title": "Qwen3.6-35B-A3B: Agentic coding power, now open to all",
+    "url": "https://qwen.ai/blog?id=qwen3.6-35b-a3b",
+    "points": 1274,
+    "comments": 532
+  },
+  {
+    "rank": 3,
+    "title": "Codex for almost everything",
+    "url": "https://openai.com/index/codex-for-almost-everything/",
+    "points": 1001,
+    "comments": 559
+  },
+  {
+    "rank": 4,
+    "title": "The future of everything is lies, I guess: Where do we go from here?",
+    "url": "https://aphyr.com/posts/420-the-future-of-everything-is-lies-i-guess-where-do-we-go-from-here",
+    "points": 745,
+    "comments": 773
+  },
+  {
+    "rank": 5,
+    "title": "The local LLM ecosystem doesn’t need Ollama",
+    "url": "https://sleepingrobots.com/dreams/stop-using-ollama/",
+    "points": 648,
+    "comments": 208
+  },
+  {
+    "rank": 6,
+    "title": "Darkbloom – Private inference on idle Macs",
+    "url": "https://darkbloom.dev",
+    "points": 501,
+    "comments": 252
+  },
+  {
+    "rank": 7,
+    "title": "Cloudflare Email Service",
+    "url": "https://blog.cloudflare.com/email-for-agents/",
+    "points": 464,
+    "comments": 205
+  },
+  {
+    "rank": 8,
+    "title": "Qwen3.6-35B-A3B on my laptop drew me a better pelican than Claude Opus 4.7",
+    "url": "https://simonwillison.net/2026/Apr/16/qwen-beats-opus/",
+    "points": 463,
+    "comments": 97
+  },
+  {
+    "rank": 9,
+    "title": "Game devs explain the tricks involved with letting you pause a game",
+    "url": "https://kotaku.com/video-game-devs-explain-how-pausing-works-and-sometimes-it-gets-weird-2000686339",
+    "points": 452,
+    "comments": 262
+  },
+  {
+    "rank": 10,
+    "title": "The \"Passive Income\" trap ate a generation of entrepreneurs",
+    "url": "https://www.joanwestenberg.com/the-passive-income-trap-ate-a-generation-of-entrepreneurs/",
+    "points": 406,
+    "comments": 282
+  },
+  {
+    "rank": 11,
+    "title": "€54k spike in 13h from unrestricted Firebase browser key accessing Gemini APIs",
+    "url": "https://discuss.ai.google.dev/t/unexpected-54k-billing-spike-in-13-hours-firebase-browser-key-without-api-restrictions-used-for-gemini-requests/140262",
+    "points": 400,
+    "comments": 297
+  },
+  {
+    "rank": 12,
+    "title": "FSF trying to contact Google about spammer sending 10k+ mails from Gmail account",
+    "url": "https://daedal.io/@thomzane/116410863009847575",
+    "points": 398,
+    "comments": 226
+  },
+  {
+    "rank": 13,
+    "title": "Mozilla Thunderbolt",
+    "url": "https://www.thunderbolt.io/",
+    "points": 370,
+    "comments": 339
+  },
+  {
+    "rank": 14,
+    "title": "Official Clojure Documentary page with Video, Shownotes, and Links",
+    "url": "https://clojure.org/about/documentary",
+    "points": 362,
+    "comments": 121
+  },
+  {
+    "rank": 15,
+    "title": "Everything we like is a psyop?",
+    "url": "https://techcrunch.com/2026/04/16/everything-we-like-is-a-psyop/",
+    "points": 348,
+    "comments": 247
+  },
+  {
+    "rank": 16,
+    "title": "Android CLI: Build Android apps 3x faster using any agent",
+    "url": "https://android-developers.googleblog.com/2026/04/build-android-apps-3x-faster-using-any-agent.html",
+    "points": 315,
+    "comments": 138
+  },
+  {
+    "rank": 17,
+    "title": "Cloudflare's AI Platform: an inference layer designed for agents",
+    "url": "https://blog.cloudflare.com/ai-platform/",
+    "points": 307,
+    "comments": 95
+  },
+  {
+    "rank": 18,
+    "title": "Playdate’s handheld changed how Duke University teaches game design",
+    "url": "https://news.play.date/news/duke-playdate-education/",
+    "points": 276,
+    "comments": 115
+  },
+  {
+    "rank": 19,
+    "title": "New unsealed records reveal Amazon's price-fixing tactics, California AG claims",
+    "url": "https://www.theguardian.com/us-news/ng-interactive/2026/apr/16/amazon-price-fixing-california-lawsuit",
+    "points": 274,
+    "comments": 75
+  },
+  {
+    "rank": 20,
+    "title": "Codex Hacked a Samsung TV",
+    "url": "https://blog.calif.io/p/codex-hacked-a-samsung-tv",
+    "points": 259,
+    "comments": 132
+  },
+  {
+    "rank": 21,
+    "title": "I Made the \"Next-Level\" Camera and I love it",
+    "url": "https://thelibre.news/i-made-the-next-level-camera-and-i-love-it/",
+    "points": 258,
+    "comments": 73
+  },
+  {
+    "rank": 22,
+    "title": "AI cybersecurity is not proof of work",
+    "url": "https://antirez.com/news/163",
+    "points": 241,
+    "comments": 88
+  },
+  {
+    "rank": 23,
+    "title": "Guy builds AI driven hardware hacker arm from duct tape, old cam and CNC machine",
+    "url": "https://github.com/gainsec/autoprober",
+    "points": 225,
+    "comments": 46
+  },
+  {
+    "rank": 24,
+    "title": "Artifacts: Versioned storage that speaks Git",
+    "url": "https://blog.cloudflare.com/artifacts-git-for-agents-beta/",
+    "points": 217,
+    "comments": 26
+  },
+  {
+    "rank": 25,
+    "title": "Laravel raised money and now injects ads directly into your agent",
+    "url": "https://techstackups.com/articles/laravel-raised-money-and-now-injects-ads-directly-into-your-agent/",
+    "points": 210,
+    "comments": 124
+  },
+  {
+    "rank": 26,
+    "title": "We gave an AI a 3 year retail lease and asked it to make a profit",
+    "url": "https://andonlabs.com/blog/andon-market-launch",
+    "points": 199,
+    "comments": 286
+  },
+  {
+    "rank": 27,
+    "title": "The beginning of scarcity in AI",
+    "url": "https://tomtunguz.com/ai-compute-crisis-2026/",
+    "points": 197,
+    "comments": 227
+  },
+  {
+    "rank": 28,
+    "title": "RedSun: System user access on Win 11/10 and Server with the April 2026 Update",
+    "url": "https://github.com/Nightmare-Eclipse/RedSun",
+    "points": 195,
+    "comments": 65
+  },
+  {
+    "rank": 29,
+    "title": "Claude Opus 4.7",
+    "url": "https://www.anthropic.com/claude/opus",
+    "points": 186,
+    "comments": 12
+  },
+  {
+    "rank": 30,
+    "title": "Hospital at centre of child HIV outbreak caught reusing syringes in Pakistan",
+    "url": "https://www.bbc.com/news/articles/clyrd818gd2o",
+    "points": 181,
+    "comments": 117
+  }
+]

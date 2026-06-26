@@ -1,0 +1,154 @@
+{
+  "date": "2026-06-17",
+  "episodeNumber": 88,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "GrapheneOS has been ported to Android 17, Running local models is good now, Humiliating IIS servers for fun and jail time",
+  "heroStat": {
+    "value": "1173",
+    "label": "points on \"Running local models is good now\""
+  },
+  "insights": [
+    {
+      "text": "GrapheneOS has been ported to Android 17 (580 pts, 253 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 580pts",
+      "url": "https://discuss.grapheneos.org/d/36469-grapheneos-has-been-ported-to-android-17-and-official-releases-are-coming-soon"
+    },
+    {
+      "text": "Running local models is good now (1173 pts, 468 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 1173pts",
+      "url": "https://vickiboykis.com/2026/06/15/running-local-models-is-good-now/"
+    },
+    {
+      "text": "Humiliating IIS servers for fun and jail time (176 pts, 40 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 176pts",
+      "url": "https://mll.sh/humiliating-iis-servers-for-fun-and-jail-time/"
+    },
+    {
+      "text": "Wolfram Language and Mathematica Version 15, AI Assistant, Symbolic Music, More (128 pts, 43 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 128pts",
+      "url": "https://writings.stephenwolfram.com/2026/06/launching-version-15-of-wolfram-language-mathematica-built-in-useful-ai-lots-of-new-core-functionality/"
+    },
+    {
+      "text": "Google Chrome's next update will mark the end of popular ad blockers (54 pts on Lobsters)",
+      "tags": [
+        "lobsters",
+        "browsers"
+      ],
+      "source": "Lobsters 54pts",
+      "url": "https://9to5google.com/2026/06/15/google-chromes-next-update-will-mark-the-end-of-popular-ad-blockers/"
+    },
+    {
+      "text": "KDE Plasma 6.7 released (87 pts on Lobsters)",
+      "tags": [
+        "lobsters",
+        "linux",
+        "release"
+      ],
+      "source": "Lobsters 87pts",
+      "url": "https://kde.org/announcements/plasma/6/6.7.0/"
+    }
+  ],
+  "trending": [
+    {
+      "name": "iptv",
+      "fullName": "iptv-org/iptv",
+      "stars": "123K",
+      "language": "TypeScript",
+      "delta": "+2,657/d",
+      "url": "https://github.com/iptv-org/iptv"
+    },
+    {
+      "name": "Agent-Reach",
+      "fullName": "Panniantong/Agent-Reach",
+      "stars": "30.8K",
+      "language": "Python",
+      "delta": "+1,100/d",
+      "url": "https://github.com/Panniantong/Agent-Reach"
+    },
+    {
+      "name": "SkillSpector",
+      "fullName": "NVIDIA/SkillSpector",
+      "stars": "6.6K",
+      "language": "Python",
+      "delta": "+1,079/d",
+      "url": "https://github.com/NVIDIA/SkillSpector"
+    },
+    {
+      "name": "freeCodeCamp",
+      "fullName": "freeCodeCamp/freeCodeCamp",
+      "stars": "448K",
+      "language": "TypeScript",
+      "delta": "+736/d",
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp"
+    },
+    {
+      "name": "ai-engineering-from-scratch",
+      "fullName": "rohitg00/ai-engineering-from-scratch",
+      "stars": "33.3K",
+      "language": "Python",
+      "delta": "+562/d",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "1173",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "2,657",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "3",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "6",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "June 17, 2026"
+    },
+    "headlines": [
+      {
+        "text": "GrapheneOS has been ported to Android 17",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Running local models is good now",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Humiliating IIS servers for fun and jail time",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Today's brief covers the most interesting signals across the tech landscape."
+    }
+  }
+}

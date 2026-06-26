@@ -1,0 +1,94 @@
+{
+  "date": "2026-05-02",
+  "episodeNumber": 79,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "VS Code inserting 'Co-Authored-by Copilot' into co, Why does it take so long to release black fan vers, Dav2d",
+  "heroStat": {
+    "value": "1513",
+    "label": "points on \"VS Code inserting 'Co-Authored-by Copilot' into commits rega\""
+  },
+  "insights": [
+    {
+      "text": "VS Code inserting 'Co-Authored-by Copilot' into commits regardless of usage (1513 pts, 850 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 1513pts",
+      "url": "https://github.com/microsoft/vscode/pull/310226"
+    },
+    {
+      "text": "Why does it take so long to release black fan versions? (778 pts, 301 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 778pts",
+      "url": "https://www.noctua.at/en/expertise/blog/how-can-it-take-so-long-to-release-black-fan-versions"
+    },
+    {
+      "text": "Dav2d (619 pts, 191 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 619pts",
+      "url": "https://code.videolan.org/videolan/dav2d"
+    },
+    {
+      "text": "Do_not_track (547 pts, 168 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 547pts",
+      "url": "https://donottrack.sh/"
+    }
+  ],
+  "trending": [],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "1513",
+      "unit": "pts"
+    },
+    {
+      "label": "Repos",
+      "value": "0",
+      "unit": "tracked"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "1",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "4",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "May 2, 2026"
+    },
+    "headlines": [
+      {
+        "text": "VS Code inserting 'Co-Authored-by Copilot' into commits regardless of usage",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Why does it take so long to release black fan versions?",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Dav2d",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Today's brief covers the most interesting signals across the tech landscape."
+    }
+  }
+}

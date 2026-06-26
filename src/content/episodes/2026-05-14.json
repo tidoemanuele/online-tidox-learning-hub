@@ -1,0 +1,113 @@
+{
+  "date": "2026-05-14",
+  "episodeNumber": 81,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "Three Shell repositories encoding software develop, 'Show HN: Needle, CloakHQ/CloakBrowser surges to 1,835 stars/day",
+  "heroStat": {
+    "value": "26M",
+    "label": "model"
+  },
+  "insights": [
+    {
+      "text": "Three Shell repositories encoding software development methodologies pulled a combined ~6,200 GitHub stars in a single day — mattpocock/skills at 3,392 stars/day (79,617 total), obra/superpowers at 1,401 stars/day (189,900 total), and K-Dense-AI/scientific-agent-skills at 99 stars/day (21,269 total). Agent skills distributed as `.claude` directory files are now being starred at rates comparable to major framework launches. This is a new category of open-source artifact — not code, but structured interaction patterns — and it has no historical precedent at this velocity. The question shifts from 'will agent skills become mainstream' to 'will platform-native skill stores (Cursor extensions, Copilot extensions) absorb this distribution, or will GitHub remain the primary channel?'",
+      "tags": [
+        "github-trending",
+        "agents",
+        "open-source"
+      ]
+    },
+    {
+      "text": "'Show HN: Needle — We Distilled Gemini Tool Calling into a 26M Model' sustains at 655 HN pts / 185 comments — the highest AI technical engagement on today's front page, still climbing from yesterday's launch. Cactus Compute distilled Gemini's tool-calling into a model running at 6,000 tokens/sec prefill that beats all sub-350M alternatives on single-shot function calls. Six months ago, tool calling required frontier-scale models (100B+ parameters); Needle demonstrates it at 26M — a 4,000x compression ratio. Combined with the open-weight cost-arbitrage movement (DeepSeek V4, Kimi K2.6) and the local-first infrastructure surge (OpenClaw at 210K+ stars, openhuman at 6,132), the path to fully local agent execution now covers both reasoning and tool calling.",
+      "tags": [
+        "agents"
+      ],
+      "source": "HN 655pts"
+    },
+    {
+      "text": "CloakHQ/CloakBrowser surges to 1,835 stars/day (9,796 total) — stealth Chromium that passes every bot detection test as a drop-in Playwright replacement. 49 source-level patches compiled into the Chromium binary (canvas, WebGL, WebRTC, CDP input mimicking), scoring 0.9 on reCAPTCHA v3 vs 0.1 for stock Playwright — a 9x improvement. On a day where privacy and evasion infrastructure trends across multiple layers (apernet/hysteria proxy at 485 stars/day for censorship resistance, CloakBrowser at 1,835/day for bot detection evasion), the arms race has moved from JavaScript injection to source-level binary patching. The demand signal is clear: developers building AI agent workflows need browsers that don't get blocked.",
+      "tags": [
+        "github-trending",
+        "agents"
+      ]
+    },
+    {
+      "text": "tinyhumansai/openhuman surges to 1,696 stars/day (6,132 total) — a Rust + Tauri local-first AI assistant that builds a Karpathy-style Obsidian wiki from your connected accounts (118+ integrations), with < 50MB memory footprint vs 100MB+ for Electron. GPL-3.0 licensed. Running concurrently: rohitg00/agentmemory at 1,379 stars/day (8,031 total — '#1 Persistent memory for AI coding agents'), supertone-inc/supertonic at 859 stars/day (on-device multilingual TTS via ONNX), and danielmiessler/Personal_AI_Infrastructure at 435 stars/day. Four independent projects assembling a coherent on-device AI stack with ONNX as the common runtime — no single vendor is driving this; it's emergent.",
+      "tags": [
+        "github-trending",
+        "agents",
+        "rust"
+      ]
+    },
+    {
+      "text": "Linux gaming crosses a structural threshold — 610 HN pts / 411 comments, the highest-engagement story on today's front page. Windows APIs (DXVK, Proton-translated DirectX) have been so extensively reverse-engineered and implemented as proper Linux kernel features that the translation layer overhead is essentially eliminated. 411 comments indicates the community reads this as an inflection point after 10+ years of Wine/Proton development, not incremental progress. Running simultaneously with 'The Emacsification of Software' (244 pts / 164 comments) and 'A History of IDEs at Google' (326 pts / 224 comments), the day's secondary theme is technology that wins by patient accumulation rather than disruptive launch.",
+      "tags": [],
+      "source": "HN 610pts"
+    },
+    {
+      "text": "Twin brothers wipe 96 government databases minutes after being fired — 368 HN pts / 268 comments. The commentary is focused on access control failure: principle of least privilege, offboarding automation, and the gap between security policy and implementation in government IT. Landing simultaneously with YellowKey BitLocker zero-day bypass (65 HN pts, confirmed on Lobsters), Fragnesia Linux privilege escalation (Lobsters, Tildes ~comp at 49 votes / 52 comments), and an NGINX 18-year-old RCE vulnerability disclosure, security infrastructure across endpoint encryption, access control, and kernel layers is under concurrent stress for the second consecutive week.",
+      "tags": [
+        "security"
+      ],
+      "source": "HN 368pts"
+    },
+    {
+      "text": "Claude for Small Business launches at 82 HN pts / 32 comments (1 hour old at scrape time, still accelerating) — Anthropic's first dedicated SMB offering, expanding from developer API to business platform. On the same day GitHub's spec-kit holds at 1,120 stars/day (98,604 total) and millionco/react-doctor debuts at 604 stars/day ('Your agent writes bad React. This catches it'), the theme is guard rails over capabilities: the community is building agent discipline infrastructure (skills, spec-driven development, validation tools) faster than agent capability infrastructure. The competitive axis for AI platforms has shifted from model quality to workflow integration and trust.",
+      "tags": [
+        "github-trending",
+        "agents",
+        "rust"
+      ],
+      "source": "HN 82pts"
+    }
+  ],
+  "trending": [],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "1091",
+      "unit": "pts"
+    },
+    {
+      "label": "Repos",
+      "value": "0",
+      "unit": "tracked"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "1",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "7",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "May 14, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Three Shell repositories encoding software development methodologies pulled a combined ~6,200 GitHub stars in a single day",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "'Show HN: Needle",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "CloakHQ/CloakBrowser surges to 1,835 stars/day",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Today's brief covers the most interesting signals across the tech landscape."
+    }
+  }
+}

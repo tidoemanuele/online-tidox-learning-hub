@@ -1,0 +1,175 @@
+{
+  "date": "2026-06-25",
+  "episodeNumber": 96,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "Anthropic says Alibaba illicitly extracted Claude , OpenAI unveils its first custom chip, built by Bro, Cloudflare launched self-managed OAuth for all",
+  "heroStat": {
+    "value": "641",
+    "label": "points on \"OpenAI unveils its first custom chip, built by Broadcom\""
+  },
+  "insights": [
+    {
+      "text": "Anthropic says Alibaba illicitly extracted Claude AI model capabilities (268 pts, 458 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 268pts",
+      "url": "https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24/"
+    },
+    {
+      "text": "OpenAI unveils its first custom chip, built by Broadcom (641 pts, 364 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 641pts",
+      "url": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/"
+    },
+    {
+      "text": "Cloudflare launched self-managed OAuth for all (91 pts, 25 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 91pts",
+      "url": "https://blog.cloudflare.com/oauth-for-all/"
+    },
+    {
+      "text": "LuaJIT 3.0 proposed syntax extensions (118 pts, 63 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 118pts",
+      "url": "https://github.com/LuaJIT/LuaJIT/issues/1475"
+    },
+    {
+      "text": "The Joy and Power of Understanding (53 pts on Lobsters)",
+      "tags": [
+        "lobsters",
+        "practices",
+        "vibecoding"
+      ],
+      "source": "Lobsters 53pts",
+      "url": "https://binaryigor.com/the-joy-and-power-of-understanding.html"
+    },
+    {
+      "text": "Porting WINE to a new Hobby OS (31 pts on Lobsters)",
+      "tags": [
+        "lobsters",
+        "osdev",
+        "programming"
+      ],
+      "source": "Lobsters 31pts",
+      "url": "https://astral-os.org/posts/2026/04/03/wine-on-astral.html"
+    },
+    {
+      "text": "7 New JavaScript Features (And 2 I'm Still Waiting For) (61 reactions on Dev.to)",
+      "tags": [
+        "devto",
+        "javascript",
+        "typescript"
+      ],
+      "source": "Dev.to 61❤",
+      "url": "https://dev.to/sylwia-lask/7-new-javascript-features-and-2-im-still-waiting-for-2ck8"
+    },
+    {
+      "text": "To The People Who Read My Weird Little Blogs (45 reactions on Dev.to)",
+      "tags": [
+        "devto",
+        "writing",
+        "community"
+      ],
+      "source": "Dev.to 45❤",
+      "url": "https://dev.to/itsugo/to-the-people-who-read-my-weird-little-blogs-3icj"
+    }
+  ],
+  "trending": [
+    {
+      "name": "OpenMontage",
+      "fullName": "calesthio/OpenMontage",
+      "stars": "20.2K",
+      "language": "Python",
+      "delta": "+3,719/d",
+      "url": "https://github.com/calesthio/OpenMontage"
+    },
+    {
+      "name": "container",
+      "fullName": "apple/container",
+      "stars": "42.5K",
+      "language": "Swift",
+      "delta": "+1,838/d",
+      "url": "https://github.com/apple/container"
+    },
+    {
+      "name": "daily_stock_analysis",
+      "fullName": "ZhuLinsen/daily_stock_analysis",
+      "stars": "48.9K",
+      "language": "Python",
+      "delta": "+1,468/d",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis"
+    },
+    {
+      "name": "hermes-agent",
+      "fullName": "NousResearch/hermes-agent",
+      "stars": "202K",
+      "language": "Python",
+      "delta": "+1,178/d",
+      "url": "https://github.com/NousResearch/hermes-agent"
+    },
+    {
+      "name": "ai-website-cloner-template",
+      "fullName": "JCodesMore/ai-website-cloner-template",
+      "stars": "19.6K",
+      "language": "TypeScript",
+      "delta": "+692/d",
+      "url": "https://github.com/JCodesMore/ai-website-cloner-template"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "641",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "3,719",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "4",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "June 25, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Anthropic says Alibaba illicitly extracted Claude AI model capabilities",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "OpenAI unveils its first custom chip, built by Broadcom",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Cloudflare launched self-managed OAuth for all",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Today's brief covers the most interesting signals across the tech landscape."
+    }
+  }
+}

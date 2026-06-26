@@ -1,0 +1,212 @@
+[
+  {
+    "rank": 1,
+    "title": "VS Code inserting 'Co-Authored-by Copilot' into commits regardless of usage",
+    "url": "https://github.com/microsoft/vscode/pull/310226",
+    "points": 1513,
+    "comments": 850
+  },
+  {
+    "rank": 2,
+    "title": "Why does it take so long to release black fan versions?",
+    "url": "https://www.noctua.at/en/expertise/blog/how-can-it-take-so-long-to-release-black-fan-versions",
+    "points": 778,
+    "comments": 301
+  },
+  {
+    "rank": 3,
+    "title": "Dav2d",
+    "url": "https://code.videolan.org/videolan/dav2d",
+    "points": 619,
+    "comments": 191
+  },
+  {
+    "rank": 4,
+    "title": "Do_not_track",
+    "url": "https://donottrack.sh/",
+    "points": 547,
+    "comments": 168
+  },
+  {
+    "rank": 5,
+    "title": "NetHack 5.0.0",
+    "url": "https://nethack.org/v500/release.html",
+    "points": 527,
+    "comments": 180
+  },
+  {
+    "rank": 6,
+    "title": "This Month in Ladybird – April 2026",
+    "url": "https://ladybird.org/newsletter/2026-04-30/",
+    "points": 507,
+    "comments": 152
+  },
+  {
+    "rank": 7,
+    "title": "Ask.com has closed",
+    "url": "https://www.ask.com/",
+    "points": 477,
+    "comments": 240
+  },
+  {
+    "rank": 8,
+    "title": "Six years perfecting maps on watchOS",
+    "url": "https://www.david-smith.org/blog/2026/04/29/maps-on-watchos/",
+    "points": 457,
+    "comments": 120
+  },
+  {
+    "rank": 9,
+    "title": "AI Self-preferencing in Algorithmic Hiring: Empirical Evidence and Insights",
+    "url": "https://arxiv.org/abs/2509.00462",
+    "points": 335,
+    "comments": 178
+  },
+  {
+    "rank": 10,
+    "title": "California to begin ticketing driverless cars that violate traffic laws",
+    "url": "https://www.bbc.com/news/articles/clypjx3rg2go",
+    "points": 326,
+    "comments": 359
+  },
+  {
+    "rank": 11,
+    "title": "Neanderthals ran 'fat factories' 125k years ago (2025)",
+    "url": "https://www.universiteitleiden.nl/en/news/2025/07/neanderthals-ran-fat-factories-125000-years-ago",
+    "points": 296,
+    "comments": 164
+  },
+  {
+    "rank": 12,
+    "title": "Tesla owner won $10k in court for Tesla's FSD lies. Tesla is still fighting him",
+    "url": "https://electrek.co/2026/05/02/this-tesla-owner-won-10k-in-court-for-teslas-fsd-lies-tesla-is-still-fighting-him/",
+    "points": 288,
+    "comments": 144
+  },
+  {
+    "rank": 13,
+    "title": "How fast is a macOS VM, and how small could it be?",
+    "url": "https://eclecticlight.co/2026/05/02/how-fast-is-a-macos-vm-and-how-small-could-it-be/",
+    "points": 280,
+    "comments": 101
+  },
+  {
+    "rank": 14,
+    "title": "America's Expanding Domestic Surveillance",
+    "url": "https://www.wsj.com/articles/americas-expanding-domestic-surveillance-08b73187",
+    "points": 279,
+    "comments": 145
+  },
+  {
+    "rank": 15,
+    "title": "Russia Poisons Wikipedia",
+    "url": "https://www.bettedangerous.com/p/russia-poisons-wikipedia",
+    "points": 266,
+    "comments": 195
+  },
+  {
+    "rank": 16,
+    "title": "Roblox shares plummet 18% as child safety measures weigh on bookings",
+    "url": "https://www.cnbc.com/2026/05/01/roblox-rblx-stock-child-safety-earnings.html",
+    "points": 255,
+    "comments": 151
+  },
+  {
+    "rank": 17,
+    "title": "Job Postings for Software Engineers Are Rapidly Rising",
+    "url": "https://www.citadelsecurities.com/news-and-insights/2026-global-intelligence-crisis/",
+    "points": 233,
+    "comments": 156
+  },
+  {
+    "rank": 18,
+    "title": "Open Design: Use Your Coding Agent as a Design Engine",
+    "url": "https://github.com/nexu-io/open-design",
+    "points": 232,
+    "comments": 92
+  },
+  {
+    "rank": 19,
+    "title": "Texico: Learn the principles of programming without even touching a computer",
+    "url": "https://www3.nhk.or.jp/nhkworld/en/shows/texico/",
+    "points": 227,
+    "comments": 19
+  },
+  {
+    "rank": 20,
+    "title": "Why are there both TMP and TEMP environment variables? (2015)",
+    "url": "https://devblogs.microsoft.com/oldnewthing/20150417-00/?p=44213",
+    "points": 216,
+    "comments": 97
+  },
+  {
+    "rank": 21,
+    "title": "The agent harness belongs outside the sandbox",
+    "url": "https://www.mendral.com/blog/agent-harness-belongs-outside-sandbox",
+    "points": 182,
+    "comments": 121
+  },
+  {
+    "rank": 22,
+    "title": "Show HN: State of the Art of Coding Models, According to Hacker News Commenters",
+    "url": "https://hnup.date/hn-sota",
+    "points": 168,
+    "comments": 87
+  },
+  {
+    "rank": 23,
+    "title": "Uber wants to turn its drivers into a sensor grid for self-driving companies",
+    "url": "https://techcrunch.com/2026/05/01/uber-wants-to-turn-its-millions-of-drivers-into-a-sensor-grid-for-self-driving-companies/",
+    "points": 145,
+    "comments": 144
+  },
+  {
+    "rank": 24,
+    "title": "Clojurists Together – Q2 2026 Open Source Funding Announcement",
+    "url": "https://www.clojuriststogether.org/news/q2-2026-funding-announcement/",
+    "points": 145,
+    "comments": 26
+  },
+  {
+    "rank": 25,
+    "title": "Why are neural networks and cryptographic ciphers so similar? (2025)",
+    "url": "https://reiner.org/neural-net-ciphers",
+    "points": 143,
+    "comments": 48
+  },
+  {
+    "rank": 26,
+    "title": "Ask HN: Is the Job Market Actually Bad?",
+    "url": "https://news.ycombinator.com/item?id=47988268",
+    "points": 138,
+    "comments": 211
+  },
+  {
+    "rank": 27,
+    "title": "Docker 29 has changed its default image store for new installs",
+    "url": "https://docs.docker.com/engine/storage/containerd",
+    "points": 132,
+    "comments": 85
+  },
+  {
+    "rank": 28,
+    "title": "Good developers learn to program. Most courses teach a language",
+    "url": "https://evilgeniuslabs.ca/blog/good-developers-learn-to-program-not-a-language",
+    "points": 131,
+    "comments": 77
+  },
+  {
+    "rank": 29,
+    "title": "A physics engine with incremental rollback for multiplayer games",
+    "url": "https://easel.games/blog/2026-rollback-physics",
+    "points": 128,
+    "comments": 41
+  },
+  {
+    "rank": 30,
+    "title": "Unsigned sizes: A five year mistake",
+    "url": "https://c3-lang.org/blog/unsigned-sizes-a-five-year-mistake/",
+    "points": 120,
+    "comments": 149
+  }
+]

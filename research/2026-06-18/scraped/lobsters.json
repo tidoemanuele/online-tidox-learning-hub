@@ -1,0 +1,147 @@
+[
+  {
+    "title": "Leaving Mozilla",
+    "score": 94,
+    "tags": [
+      "browsers",
+      "person"
+    ],
+    "url": "https://blog.unitedheroes.net/5751",
+    "comments_url": "https://lobste.rs/s/myczjs/leaving_mozilla"
+  },
+  {
+    "title": "I Could've Rickrolled the Entire FIFA World Cup. All I Needed Was My ID",
+    "score": 133,
+    "tags": [
+      "security"
+    ],
+    "url": "https://bobdahacker.com/blog/fifa-hack",
+    "comments_url": "https://lobste.rs/s/z5wfi9/i_could_ve_rickrolled_entire_fifa_world"
+  },
+  {
+    "title": "Epic Games announces Lore version control system",
+    "score": 48,
+    "tags": [
+      "release",
+      "vcs",
+      "vibecoding"
+    ],
+    "url": "https://lore.org/",
+    "comments_url": "https://lobste.rs/s/r9fmgk/epic_games_announces_lore_version"
+  },
+  {
+    "title": "Pull Requests are Free Puppies",
+    "score": 54,
+    "tags": [
+      "programming",
+      "video"
+    ],
+    "url": "https://www.youtube.com/watch?v=x8_ZZhRL3YU&t=1733s",
+    "comments_url": "https://lobste.rs/s/aqk7vl/pull_requests_are_free_puppies"
+  },
+  {
+    "title": "Color picking Oklch for mortals",
+    "score": 31,
+    "tags": [
+      "design",
+      "graphics"
+    ],
+    "url": "https://hugodaniel.com/posts/color-picking-oklch/",
+    "comments_url": "https://lobste.rs/s/hnoijy/color_picking_oklch_for_mortals"
+  },
+  {
+    "title": "Audacity 4.0 beta lets you test its new (nicer) Qt interface",
+    "score": 7,
+    "tags": [
+      "linux",
+      "release"
+    ],
+    "url": "https://www.omgubuntu.co.uk/2026/06/audacity-4-0-beta",
+    "comments_url": "https://lobste.rs/s/kfkgl2/audacity_4_0_beta_lets_you_test_its_new"
+  },
+  {
+    "title": "I hate compilers",
+    "score": 4,
+    "tags": [
+      "compilers",
+      "wasm"
+    ],
+    "url": "https://xeiaso.net/notes/2026/anubis-wasm-vendor-binary/",
+    "comments_url": "https://lobste.rs/s/azy6y2/i_hate_compilers"
+  },
+  {
+    "title": "Data Visualization from the Comfort of your Terminal",
+    "score": 13,
+    "tags": [
+      "rust",
+      "visualization"
+    ],
+    "url": "https://github.com/medialab/xan/blob/master/docs/cookbook/dataviz.md",
+    "comments_url": "https://lobste.rs/s/1shdvp/data_visualization_from_comfort_your"
+  },
+  {
+    "title": "The Impact of Google's Manifest Version 3 Update on Ad Blocker Effectiveness",
+    "score": 29,
+    "tags": [
+      "browsers",
+      "privacy"
+    ],
+    "url": "https://arxiv.org/abs/2503.01000",
+    "comments_url": "https://lobste.rs/s/fxulig/impact_google_s_manifest_version_3_update"
+  },
+  {
+    "title": "Making budget models punch above their weight with a smart Rust harness",
+    "score": 14,
+    "tags": [
+      "vibecoding"
+    ],
+    "url": "https://yogthos.net/posts/2026-06-08-dirge-code.html",
+    "comments_url": "https://lobste.rs/s/goo5sh/making_budget_models_punch_above_their"
+  },
+  {
+    "title": "Bcachefs 1.38.6 Brings Many Performance Improvements",
+    "score": 6,
+    "tags": [
+      "linux",
+      "release"
+    ],
+    "url": "https://www.phoronix.com/news/Bcachefs-Tools-1.38.6",
+    "comments_url": "https://lobste.rs/s/mgvyrc/bcachefs_1_38_6_brings_many_performance"
+  },
+  {
+    "title": "Changes in Emacs 31 I'm Already Daily Driving",
+    "score": 4,
+    "tags": [
+      "emacs"
+    ],
+    "url": "https://rahuljuliato.com/posts/emacs-31-around-the-corner",
+    "comments_url": "https://lobste.rs/s/b0mp2e/changes_emacs_31_i_m_already_daily_driving"
+  },
+  {
+    "title": "But yak shaving is fun",
+    "score": 66,
+    "tags": [
+      "programming"
+    ],
+    "url": "https://parksb.github.io/en/article/32.html",
+    "comments_url": "https://lobste.rs/s/zpjomk/yak_shaving_is_fun"
+  },
+  {
+    "title": "Google Chrome's next update will mark the end of popular ad blockers",
+    "score": 92,
+    "tags": [
+      "browsers"
+    ],
+    "url": "https://9to5google.com/2026/06/15/google-chromes-next-update-will-mark-the-end-of-popular-ad-blockers/",
+    "comments_url": "https://lobste.rs/s/mxfd45/google_chrome_s_next_update_will_mark_end"
+  },
+  {
+    "title": "Local Qwen isn't a worse Opus, it's a different tool",
+    "score": 3,
+    "tags": [
+      "vibecoding"
+    ],
+    "url": "https://blog.alexellis.io/local-ai-is-not-opus/",
+    "comments_url": "https://lobste.rs/s/sgebfp/local_qwen_isn_t_worse_opus_it_s_different"
+  }
+]

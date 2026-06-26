@@ -1,0 +1,65 @@
+[
+  {
+    "name": "bevyengine/bevy",
+    "fullName": "bevyengine/bevy",
+    "description": "A refreshingly simple data-driven game engine built in Rust",
+    "language": "Rust",
+    "stars_today": "1924 stars today",
+    "total_stars": "46754",
+    "url": "https://github.com/bevyengine/bevy"
+  },
+  {
+    "name": "chopratejas/headroom",
+    "fullName": "chopratejas/headroom",
+    "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
+    "language": "Python",
+    "stars_today": "1512 stars today",
+    "total_stars": "41310",
+    "url": "https://github.com/chopratejas/headroom"
+  },
+  {
+    "name": "google-research/timesfm",
+    "fullName": "google-research/timesfm",
+    "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+    "language": "Python",
+    "stars_today": "847 stars today",
+    "total_stars": "25051",
+    "url": "https://github.com/google-research/timesfm"
+  },
+  {
+    "name": "zai-org/GLM-5",
+    "fullName": "zai-org/GLM-5",
+    "description": "GLM-5: From Vibe Coding to Agentic Engineering",
+    "language": "Python",
+    "stars_today": "487 stars today",
+    "total_stars": "4849",
+    "url": "https://github.com/zai-org/GLM-5"
+  },
+  {
+    "name": "n0-computer/iroh",
+    "fullName": "n0-computer/iroh",
+    "description": "IP addresses break, dial keys instead. Modular networking stack in Rust.",
+    "language": "Rust",
+    "stars_today": "302 stars today",
+    "total_stars": "10379",
+    "url": "https://github.com/n0-computer/iroh"
+  },
+  {
+    "name": "withastro/flue",
+    "fullName": "withastro/flue",
+    "description": "The sandbox agent framework.",
+    "language": "TypeScript",
+    "stars_today": "211 stars today",
+    "total_stars": "6114",
+    "url": "https://github.com/withastro/flue"
+  },
+  {
+    "name": "mysk-research/loupe",
+    "fullName": "mysk-research/loupe",
+    "description": "A privacy-focused iOS app that raises awareness about what native apps can see",
+    "language": "Swift",
+    "stars_today": "187 stars today",
+    "total_stars": "771",
+    "url": "https://github.com/mysk-research/loupe"
+  }
+]

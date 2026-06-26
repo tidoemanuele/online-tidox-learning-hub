@@ -1,0 +1,154 @@
+{
+  "date": "2026-06-15",
+  "episodeNumber": 86,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "Your ePub Is fine, Even more batteries included with Emacs, Show HN: Kage – Shadow any website to a single bin",
+  "heroStat": {
+    "value": "740",
+    "label": "points on \"Firewood Splitting Simulator\""
+  },
+  "insights": [
+    {
+      "text": "Your ePub Is fine (399 pts, 161 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 399pts",
+      "url": "https://andreklein.net/your-epub-is-fine-kobo-disagrees-blame-adobe/"
+    },
+    {
+      "text": "Even more batteries included with Emacs (97 pts, 18 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 97pts",
+      "url": "https://karthinks.com/software/even-more-batteries-included-with-emacs/"
+    },
+    {
+      "text": "Show HN: Kage – Shadow any website to a single binary for offline viewing (492 pts, 102 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 492pts",
+      "url": "https://github.com/tamnd/kage"
+    },
+    {
+      "text": "Bitsy (115 pts, 3 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 115pts",
+      "url": "https://bitsy.org/"
+    },
+    {
+      "text": "Deconstructing Datalog (47 pts on Lobsters)",
+      "tags": [
+        "lobsters",
+        "logiclangs",
+        "plt"
+      ],
+      "source": "Lobsters 47pts",
+      "url": "https://www.rntz.net/post/my-thesis.html"
+    },
+    {
+      "text": "Even More Batteries Included With Emacs (45 pts on Lobsters)",
+      "tags": [
+        "lobsters",
+        "emacs"
+      ],
+      "source": "Lobsters 45pts",
+      "url": "https://karthinks.com/software/even-more-batteries-included-with-emacs/"
+    }
+  ],
+  "trending": [
+    {
+      "name": "iptv",
+      "fullName": "iptv-org/iptv",
+      "stars": "122K",
+      "language": "TypeScript",
+      "delta": "+1,528/d",
+      "url": "https://github.com/iptv-org/iptv"
+    },
+    {
+      "name": "SkillSpector",
+      "fullName": "NVIDIA/SkillSpector",
+      "stars": "5.6K",
+      "language": "Python",
+      "delta": "+964/d",
+      "url": "https://github.com/NVIDIA/SkillSpector"
+    },
+    {
+      "name": "chatwoot",
+      "fullName": "chatwoot/chatwoot",
+      "stars": "31.3K",
+      "language": "Ruby",
+      "delta": "+400/d",
+      "url": "https://github.com/chatwoot/chatwoot"
+    },
+    {
+      "name": "Introduction-to-Autonomous-Robots",
+      "fullName": "Introduction-to-Autonomous-Robots/Introduction-to-Autonomous-Robots",
+      "stars": "2.8K",
+      "language": "TeX",
+      "delta": "+293/d",
+      "url": "https://github.com/Introduction-to-Autonomous-Robots/Introduction-to-Autonomous-Robots"
+    },
+    {
+      "name": "aisuite",
+      "fullName": "andrewyng/aisuite",
+      "stars": "14.5K",
+      "language": "Python",
+      "delta": "+291/d",
+      "url": "https://github.com/andrewyng/aisuite"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "740",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "1,528",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "3",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "6",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "June 15, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Your ePub Is fine",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Even more batteries included with Emacs",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Show HN: Kage – Shadow any website to a single binary for offline viewing",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Today's brief covers the most interesting signals across the tech landscape."
+    }
+  }
+}

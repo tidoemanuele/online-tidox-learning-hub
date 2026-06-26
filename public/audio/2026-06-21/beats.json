@@ -1,0 +1,222 @@
+[
+  {
+    "type": "intro",
+    "highlight": "June 21st — Today's Signal",
+    "subtext": "Three domains, one direction",
+    "label": "INTELLIGENCE BRIEF"
+  },
+  {
+    "type": "intro",
+    "highlight": "Three gifts for builders",
+    "subtext": "From completely unrelated stories",
+    "label": "JUNE 21 2026"
+  },
+  {
+    "type": "insight",
+    "highlight": "SMPTE opens its entire standards library",
+    "subtext": "MXF, IMF, SMPTE timecode, media-over-IP — all free",
+    "label": "MEDIA STANDARDS"
+  },
+  {
+    "type": "insight",
+    "highlight": "Specs that define every professional video frame",
+    "subtext": "Previously locked behind paywalls",
+    "label": "BROADCAST & CINEMA"
+  },
+  {
+    "type": "repo",
+    "highlight": "Amazon · Apple · Disney · Google · Sony",
+    "subtext": "Incumbents funded the paywall's removal",
+    "label": "BACKED BY"
+  },
+  {
+    "type": "quote",
+    "highlight": "No adoption risk — platform holders already on board",
+    "label": "KEY SIGNAL"
+  },
+  {
+    "type": "action",
+    "highlight": "The moat disappeared — specs are now a public commons",
+    "subtext": "Build what was blocked last week",
+    "label": "FOR BUILDERS"
+  },
+  {
+    "type": "insight",
+    "highlight": "GLM-5.2 crosses the open-weights frontier",
+    "subtext": "MIT licensed, self-hostable",
+    "label": "OPEN SOURCE AI"
+  },
+  {
+    "type": "number",
+    "highlight": "80% on Terminal-Bench",
+    "number": "80%",
+    "subtext": "First open-weights model to cross this threshold",
+    "label": "TERMINAL-BENCH"
+  },
+  {
+    "type": "number",
+    "highlight": "Per-token cost: zero when self-hosted",
+    "number": "$0",
+    "subtext": "MIT license — run it yourself",
+    "label": "ECONOMICS"
+  },
+  {
+    "type": "number",
+    "highlight": "744B parameters, 1M token context",
+    "number": "744B",
+    "subtext": "40B active params, frontier-level capability",
+    "label": "ARCHITECTURE"
+  },
+  {
+    "type": "quote",
+    "highlight": "Open weights now means better AND cheaper",
+    "subtext": "Six months ago it meant almost-as-good",
+    "label": "THE SHIFT"
+  },
+  {
+    "type": "insight",
+    "highlight": "Open-weights path sidesteps data sovereignty concerns",
+    "subtext": "Self-hosted GLM-5.2 for commercial use",
+    "label": "PRACTICAL NOTE"
+  },
+  {
+    "type": "action",
+    "highlight": "Self-hosted GLM-5.2 for long-horizon coding agents",
+    "subtext": "Now you have the SMPTE specs to feed it",
+    "label": "ACTION"
+  },
+  {
+    "type": "repo",
+    "highlight": "mysk-research/loupe",
+    "subtext": "iOS privacy transparency — open source",
+    "label": "GITHUB"
+  },
+  {
+    "type": "insight",
+    "highlight": "Loupe: genuinely unsettling",
+    "subtext": "Every signal your phone silently leaks",
+    "label": "PRIVACY"
+  },
+  {
+    "type": "insight",
+    "highlight": "Passive fingerprinting via public iOS APIs",
+    "subtext": "Locale, timezone, battery, fonts — no permission needed",
+    "label": "HOW IT WORKS"
+  },
+  {
+    "type": "quote",
+    "highlight": "Individually harmless — aggregated, a fingerprint",
+    "subtext": "ATT didn't fix passive signal aggregation",
+    "label": "THE TRUTH"
+  },
+  {
+    "type": "insight",
+    "highlight": "iOS protects named sensors, not passive aggregation",
+    "subtext": "The architectural gap Loupe exposes",
+    "label": "SECURITY MODEL"
+  },
+  {
+    "type": "quote",
+    "highlight": "Any App Store app can fingerprint you legally, right now",
+    "subtext": "Using only public APIs",
+    "label": "IMPLICATION"
+  },
+  {
+    "type": "action",
+    "highlight": "Audit what your iOS app is reading",
+    "subtext": "Loupe is the spec document for privacy tooling",
+    "label": "FOR BUILDERS"
+  },
+  {
+    "type": "number",
+    "highlight": "Claude Opus 4.7: 20× faster than humans",
+    "number": "20×",
+    "subtext": "Project Fetch Phase Two — robotics coding",
+    "label": "ANTHROPIC"
+  },
+  {
+    "type": "number",
+    "highlight": "1,045 lines, first try",
+    "number": "1,045",
+    "subtext": "Humans needed 10,000+ lines with iterations",
+    "label": "CODE EFFICIENCY"
+  },
+  {
+    "type": "insight",
+    "highlight": "Still can't fetch the beach ball",
+    "subtext": "Closed-loop visual control remains the boundary",
+    "label": "THE LIMIT"
+  },
+  {
+    "type": "insight",
+    "highlight": "The failure shows the benchmark is real",
+    "subtext": "Not a leaderboard artifact — a genuine capability ceiling",
+    "label": "WHAT IT MEANS"
+  },
+  {
+    "type": "quote",
+    "highlight": "The failure is more interesting than the success",
+    "subtext": "Tells us exactly where the ceiling is",
+    "label": "SIGNAL"
+  },
+  {
+    "type": "repo",
+    "highlight": "bevyengine/bevy — 0.19 ships 2.6× faster rendering",
+    "subtext": "1.6M cubes at 53 FPS, up from 21 FPS",
+    "label": "GITHUB TRENDING"
+  },
+  {
+    "type": "insight",
+    "highlight": "Capability improvement on every front simultaneously",
+    "subtext": "Robotics, LLMs, game engines — not one front, all fronts",
+    "label": "PATTERN"
+  },
+  {
+    "type": "insight",
+    "highlight": "When I reject AI code even if it works",
+    "subtext": "Highest comment-to-point ratio today — HN is split",
+    "label": "DEBATE"
+  },
+  {
+    "type": "quote",
+    "highlight": "Correct code must also serve future maintainers",
+    "subtext": "Not just the machine that executes it",
+    "label": "THE ARGUMENT"
+  },
+  {
+    "type": "insight",
+    "highlight": "Productivity maximalists vs sustainability-first engineers",
+    "subtext": "HN splits exactly where you'd expect",
+    "label": "COMMUNITY"
+  },
+  {
+    "type": "quote",
+    "highlight": "Having rejection criteria at all is the mature position",
+    "subtext": "'It works, merge it' is naive",
+    "label": "CONCLUSION"
+  },
+  {
+    "type": "insight",
+    "highlight": "SMPTE, GLM-5.2, Loupe — three domains, same direction",
+    "subtext": "Openness as infrastructure",
+    "label": "THESIS"
+  },
+  {
+    "type": "quote",
+    "highlight": "Openness as infrastructure",
+    "subtext": "The AI capability curve isn't waiting",
+    "label": "TAKEAWAY"
+  },
+  {
+    "type": "close",
+    "highlight": "Pick one domain where the spec was paywalled",
+    "subtext": "Now it's free — go build",
+    "label": "YOUR MOVE"
+  },
+  {
+    "type": "close",
+    "highlight": "Last week's ceiling is today's floor",
+    "subtext": "June 21, 2026",
+    "label": "TIDOX INTELLIGENCE BRIEF"
+  }
+]

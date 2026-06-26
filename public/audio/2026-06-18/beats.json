@@ -1,0 +1,216 @@
+[
+  {
+    "type": "intro",
+    "highlight": "Intelligence Brief — June 18, 2026",
+    "subtext": "Three signals, one through-line",
+    "label": "TODAY'S BRIEF"
+  },
+  {
+    "type": "intro",
+    "highlight": "The infrastructure layer is being rebuilt",
+    "subtext": "VCS, agents, geopolitics — all moving at once",
+    "label": "THROUGH-LINE"
+  },
+  {
+    "type": "insight",
+    "highlight": "Today is a foundational day",
+    "subtext": "VCS, agent access, model access — all in flux",
+    "label": "SIGNAL"
+  },
+  {
+    "type": "number",
+    "highlight": "Lore VCS on HN",
+    "number": "1074",
+    "subtext": "points for Epic Games open-sourcing a new VCS",
+    "label": "HN PTS"
+  },
+  {
+    "type": "insight",
+    "highlight": "Like early Git adoption — same pain, new builder",
+    "subtext": "Community mobilizes around real problems from real builders",
+    "label": "CONTEXT"
+  },
+  {
+    "type": "quote",
+    "highlight": "Epic didn't theorize — they lived this problem",
+    "subtext": "Unreal Engine teams hit Git's binary asset limits daily",
+    "label": "CREDIBILITY"
+  },
+  {
+    "type": "insight",
+    "highlight": "Git was built for text. Lore is built for 4K textures.",
+    "subtext": "Every game studio, every film pipeline — that's not a niche",
+    "label": "LORE"
+  },
+  {
+    "type": "insight",
+    "highlight": "Tools inherited from 2005 are finally getting replaced",
+    "subtext": "ML weights, design assets, video — all benefit",
+    "label": "IMPLICATION"
+  },
+  {
+    "type": "action",
+    "highlight": "If you work with large files — watch this inflection point",
+    "subtext": "The VCS transition is starting now",
+    "label": "FOR YOU"
+  },
+  {
+    "type": "quote",
+    "highlight": "Lobsters tagged it 'vibecoding' — the community noticed",
+    "subtext": "AI-generated demo video for a systems-level tool",
+    "label": "META SIGNAL"
+  },
+  {
+    "type": "insight",
+    "highlight": "Infrastructure tools marketed with AI-generated content",
+    "subtext": "Whether critique or 2026 reality — genuinely unclear",
+    "label": "2026"
+  },
+  {
+    "type": "insight",
+    "highlight": "Midjourney goes into radiology",
+    "subtext": "437 HN points, engaged-concern pattern",
+    "label": "MIDJOURNEY MEDICAL"
+  },
+  {
+    "type": "number",
+    "highlight": "Midjourney Medical HN score",
+    "number": "437",
+    "subtext": "0.76 comment ratio — people working through what this means",
+    "label": "HN PTS"
+  },
+  {
+    "type": "insight",
+    "highlight": "FDA clearance measured in years, not launch cycles",
+    "subtext": "The regulatory gap is enormous for diagnostic AI",
+    "label": "REGULATORY"
+  },
+  {
+    "type": "insight",
+    "highlight": "Cross-domain transfer might actually work in medical imaging",
+    "subtext": "Trained on more visual data than purpose-built medical models",
+    "label": "CHARITABLE READ"
+  },
+  {
+    "type": "quote",
+    "highlight": "Planting a flag before the regulatory clock starts",
+    "subtext": "Market signal to attract clinical partnerships and talent",
+    "label": "SHARPER READ"
+  },
+  {
+    "type": "action",
+    "highlight": "If you're in healthtech AI, your landscape just expanded",
+    "subtext": "Generative image companies are not staying in entertainment",
+    "label": "FOR BUILDERS"
+  },
+  {
+    "type": "number",
+    "highlight": "Chinese firms on the Entity List",
+    "number": "100+",
+    "subtext": "DeepSeek not among them — the community is genuinely divided",
+    "label": "US POLICY"
+  },
+  {
+    "type": "insight",
+    "highlight": "Blacklisting open weights is technically meaningless",
+    "subtext": "Those weights are already globally distributed",
+    "label": "WHY DEEPSEEK"
+  },
+  {
+    "type": "quote",
+    "highlight": "You can't un-ring that bell",
+    "subtext": "The models are everywhere — restriction affects only compliant US companies",
+    "label": "OPEN WEIGHTS"
+  },
+  {
+    "type": "insight",
+    "highlight": "Policy has teeth in hardware and closed APIs — not open weights",
+    "subtext": "This distinction will define infrastructure decisions",
+    "label": "WHERE POLICY LANDS"
+  },
+  {
+    "type": "action",
+    "highlight": "Build on DeepSeek — no compliance risk right now",
+    "subtext": "Open-weight models fully accessible to US developers",
+    "label": "SIGNAL FOR DEVS"
+  },
+  {
+    "type": "number",
+    "highlight": "Agent-Reach GitHub stars today",
+    "number": "1161",
+    "subtext": "CLI giving AI agents internet access without API fees",
+    "label": "GITHUB TRENDING"
+  },
+  {
+    "type": "quote",
+    "highlight": "Web scraping as the correct default for agent internet access",
+    "subtext": "Platform API policies are unpredictable — scraping is reliable",
+    "label": "THESIS"
+  },
+  {
+    "type": "repo",
+    "highlight": "obra/superpowers",
+    "subtext": "+1129 stars today — the agent methodology layer",
+    "label": "GITHUB TRENDING"
+  },
+  {
+    "type": "insight",
+    "highlight": "Sub-one-second browser cold starts via Firecracker VMs",
+    "subtext": "Browser-use removed the last deployment bottleneck for browser agents",
+    "label": "BROWSER-USE"
+  },
+  {
+    "type": "insight",
+    "highlight": "Open weights. API-free access. <1s cold starts.",
+    "subtext": "Three constraints solved in one day's dataset",
+    "label": "CONVERGENCE"
+  },
+  {
+    "type": "quote",
+    "highlight": "The agent deployment stack is complete. Right now.",
+    "subtext": "The pieces are all there — today",
+    "label": "2026 MOMENT"
+  },
+  {
+    "type": "number",
+    "highlight": "FIFA World Cup viewers at risk",
+    "number": "1.4B",
+    "subtext": "One over-privileged credential reached the content injection point",
+    "label": "FIFA HACK"
+  },
+  {
+    "type": "insight",
+    "highlight": "Federated access: attack surface scales with partner count",
+    "subtext": "Hundreds of credentials — any one over-privileged is enough",
+    "label": "SECURITY SIGNAL"
+  },
+  {
+    "type": "action",
+    "highlight": "Capability boundaries, not just authentication gates",
+    "subtext": "Your attack surface scales with credentialed organizations",
+    "label": "FOR PLATFORM BUILDERS"
+  },
+  {
+    "type": "insight",
+    "highlight": "2026: the year infrastructure catches up to ambition",
+    "subtext": "VCS, agents, models — all moving together",
+    "label": "THESIS"
+  },
+  {
+    "type": "insight",
+    "highlight": "VCS for the real world. Agents that reach the internet. Models that can't be revoked.",
+    "subtext": "Today is the day the stack closes",
+    "label": "TODAY"
+  },
+  {
+    "type": "close",
+    "highlight": "Move now — not in six months",
+    "subtext": "Builders who act today will have working systems when others are still reading docs",
+    "label": "ACTION"
+  },
+  {
+    "type": "close",
+    "highlight": "Go build something. Today's the day.",
+    "label": "SIGN OFF"
+  }
+]

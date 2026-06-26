@@ -1,0 +1,155 @@
+{
+  "date": "2026-06-14",
+  "episodeNumber": 85,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "Honda Civics and the Evil Valet, Tribblix: The retro Illumos distribution, Noise infusion banned from statistical products pu",
+  "heroStat": {
+    "value": "789",
+    "label": "points on \"Noise infusion banned from statistical products published by\""
+  },
+  "insights": [
+    {
+      "text": "Honda Civics and the Evil Valet (186 pts, 30 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 186pts",
+      "url": "https://juniperspring.org/posts/honda-evil-valet/"
+    },
+    {
+      "text": "Tribblix: The retro Illumos distribution (12 pts, 1 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 12pts",
+      "url": "http://tribblix.org/"
+    },
+    {
+      "text": "Noise infusion banned from statistical products published by Census Bureau (789 pts, 491 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 789pts",
+      "url": "https://desfontain.es/blog/banning-noise.html"
+    },
+    {
+      "text": "GLM 5.2 Is Out (473 pts, 260 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 473pts",
+      "url": "https://twitter.com/jietang/status/2065784751345287314"
+    },
+    {
+      "text": "Every Frame Perfect (81 pts on Lobsters)",
+      "tags": [
+        "lobsters",
+        "design",
+        "graphics"
+      ],
+      "source": "Lobsters 81pts",
+      "url": "https://tonsky.me/blog/every-frame-perfect/"
+    },
+    {
+      "text": "repo-slopscore: Detecting AI/LLM contributions in git repositories via commit history analysis (33 pts on Lobsters)",
+      "tags": [
+        "lobsters",
+        "rust",
+        "show"
+      ],
+      "source": "Lobsters 33pts",
+      "url": "https://slopscan.ava.pet/"
+    }
+  ],
+  "trending": [
+    {
+      "name": "agent-skills",
+      "fullName": "addyosmani/agent-skills",
+      "stars": "57.2K",
+      "language": "Shell",
+      "delta": "+1,514/d",
+      "url": "https://github.com/addyosmani/agent-skills"
+    },
+    {
+      "name": "container",
+      "fullName": "apple/container",
+      "stars": "30.1K",
+      "language": "Swift",
+      "delta": "+1,487/d",
+      "url": "https://github.com/apple/container"
+    },
+    {
+      "name": "superpowers",
+      "fullName": "obra/superpowers",
+      "stars": "19.2K",
+      "language": "Shell",
+      "delta": "+924/d",
+      "url": "https://github.com/obra/superpowers"
+    },
+    {
+      "name": "iptv",
+      "fullName": "iptv-org/iptv",
+      "stars": "86.0K",
+      "language": "TypeScript",
+      "delta": "+530/d",
+      "url": "https://github.com/iptv-org/iptv"
+    },
+    {
+      "name": "PowerToys",
+      "fullName": "microsoft/PowerToys",
+      "stars": "115K",
+      "language": "C#",
+      "delta": "+370/d",
+      "url": "https://github.com/microsoft/PowerToys"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "789",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "1,514",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "3",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "6",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "June 14, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Honda Civics and the Evil Valet",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Tribblix: The retro Illumos distribution",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Noise infusion banned from statistical products published by Census Bureau",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Today's brief covers the most interesting signals across the tech landscape."
+    }
+  }
+}

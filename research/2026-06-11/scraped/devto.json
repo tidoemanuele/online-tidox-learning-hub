@@ -1,0 +1,322 @@
+[
+  {
+    "rank": 1,
+    "title": "The Code Works. What Could Possibly Go Wrong?",
+    "url": "https://dev.to/sylwia-lask/the-code-works-what-could-possibly-go-wrong-5hbm",
+    "reactions": 55,
+    "comments": 28,
+    "tags": [
+      "ai",
+      "webdev",
+      "discuss"
+    ]
+  },
+  {
+    "rank": 2,
+    "title": "CSS – only a Nerdy Hobby?",
+    "url": "https://dev.to/ingosteinke/css-only-a-nerdy-hobby-17hf",
+    "reactions": 24,
+    "comments": 4,
+    "tags": [
+      "ai",
+      "css",
+      "webdev",
+      "watercooler"
+    ]
+  },
+  {
+    "rank": 3,
+    "title": "How I Built a Treasure-Run Game Where Australia Saves the Sun",
+    "url": "https://dev.to/ujja/how-i-built-a-treasure-run-game-where-australia-saves-the-sun-kck",
+    "reactions": 26,
+    "comments": 2,
+    "tags": [
+      "devchallenge",
+      "gamechallenge",
+      "gamedev",
+      "unity3d"
+    ]
+  },
+  {
+    "rank": 4,
+    "title": "CLI over MCP: a small Chrome DevTools experiment in Copilot CLI",
+    "url": "https://dev.to/maximsaplin/cli-over-mcp-a-small-chrome-devtools-experiment-in-copilot-cli-5gpi",
+    "reactions": 11,
+    "comments": 2,
+    "tags": [
+      "ai",
+      "programming",
+      "mcp",
+      "agents"
+    ]
+  },
+  {
+    "rank": 5,
+    "title": "How to Make Coding Agents Remember Past Solutions",
+    "url": "https://dev.to/entire/how-to-make-coding-agents-remember-past-solutions-4a71",
+    "reactions": 3,
+    "comments": 1,
+    "tags": [
+      "ai",
+      "agents",
+      "entire",
+      "agentmemory"
+    ]
+  },
+  {
+    "rank": 6,
+    "title": "MCP Is the USB-C of AI. So Why Are You Plugging Everything In?",
+    "url": "https://dev.to/kenwalger/mcp-is-the-usb-c-of-ai-so-why-are-you-plugging-everything-in-37jn",
+    "reactions": 7,
+    "comments": 1,
+    "tags": [
+      "mcp",
+      "ai",
+      "security",
+      "systemdesign"
+    ]
+  },
+  {
+    "rank": 7,
+    "title": "When Prompt Batching Made My LLM App More Expensive",
+    "url": "https://dev.to/ahikmah/when-prompt-batching-made-my-llm-app-more-expensive-5gf5",
+    "reactions": 6,
+    "comments": 6,
+    "tags": [
+      "ai",
+      "llm",
+      "optimization",
+      "programming"
+    ]
+  },
+  {
+    "rank": 8,
+    "title": "Dynamic OG Images in Rails",
+    "url": "https://dev.to/accreditly/dynamic-og-images-in-rails-1p9m",
+    "reactions": 5,
+    "comments": 0,
+    "tags": [
+      "rails",
+      "ruby",
+      "webdev",
+      "tutorial"
+    ]
+  },
+  {
+    "rank": 9,
+    "title": "I Built a Free, Fully Local AI Resume Builder — No Subscriptions, No Cloud, No Catch",
+    "url": "https://dev.to/nithiin7/i-built-a-free-fully-local-ai-resume-builder-no-subscriptions-no-cloud-no-catch-m1h",
+    "reactions": 4,
+    "comments": 1,
+    "tags": [
+      "ai",
+      "career",
+      "opensource",
+      "productivity"
+    ]
+  },
+  {
+    "rank": 10,
+    "title": "The joy of coding a command line english dictionary program in dotnet",
+    "url": "https://dev.to/prahladyeri/the-joy-of-coding-a-command-line-english-dictionary-program-in-dotnet-2pb1",
+    "reactions": 2,
+    "comments": 0,
+    "tags": [
+      "dotnet",
+      "csharp",
+      "windows"
+    ]
+  },
+  {
+    "rank": 11,
+    "title": "Cats Disappear at Sunset. Can You Find Them in Time?",
+    "url": "https://dev.to/iyop666/cats-disappear-at-sunset-can-you-find-them-in-time-1e0k",
+    "reactions": 5,
+    "comments": 0,
+    "tags": [
+      "devchallenge",
+      "gamechallenge",
+      "gamedev"
+    ]
+  },
+  {
+    "rank": 12,
+    "title": "The Most Dangerous Bias of Your AI Assistant Is That It Agrees With You",
+    "url": "https://dev.to/ben-witt/the-most-dangerous-bias-of-your-ai-assistant-is-that-it-agrees-with-you-4fhc",
+    "reactions": 5,
+    "comments": 2,
+    "tags": [
+      "ai",
+      "llm",
+      "machinelearning",
+      "productivity"
+    ]
+  },
+  {
+    "rank": 13,
+    "title": "Permission Is Not Purpose: The Next Failure Mode in Agent Memory (CLAIM-29)",
+    "url": "https://dev.to/zep1997/permission-is-not-purpose-the-next-failure-mode-in-agent-memory-claim-29-39fk",
+    "reactions": 1,
+    "comments": 0,
+    "tags": [
+      "ai",
+      "agents",
+      "machinelearning",
+      "security"
+    ]
+  },
+  {
+    "rank": 14,
+    "title": "43 Years Later: Finishing My BBC Micro Game in Assembly",
+    "url": "https://dev.to/newellpaul/43-years-later-finishing-my-bbc-micro-game-in-assembly-4fd4",
+    "reactions": 0,
+    "comments": 0,
+    "tags": [
+      "retrocomputing",
+      "assembly",
+      "gamedev",
+      "showdev"
+    ]
+  },
+  {
+    "rank": 15,
+    "title": "Enigma's Echo — AI-Powered Cryptanalysis Console (Bletchley Park)",
+    "url": "https://dev.to/mamoor_ahmad/enigmas-echo-ai-powered-cryptanalysis-console-bletchley-park-18aa",
+    "reactions": 1,
+    "comments": 1,
+    "tags": [
+      "gamechallenge",
+      "devchallenge",
+      "devops",
+      "showdev"
+    ]
+  },
+  {
+    "rank": 16,
+    "title": "I'm so tired to code. Not even Vibe Coding... D:",
+    "url": "https://dev.to/francistrdev/im-so-tired-to-code-not-even-vibe-coding-d-1l2p",
+    "reactions": 5,
+    "comments": 0,
+    "tags": [
+      "coding",
+      "mentalhealth",
+      "vibecoding",
+      "watercooler"
+    ]
+  },
+  {
+    "rank": 17,
+    "title": "Google ADK Security: 5 Layers That Defend AI Agents From Prompt Injection",
+    "url": "https://dev.to/gde/google-adk-security-5-layers-that-defend-ai-agents-from-prompt-injection-1ped",
+    "reactions": 1,
+    "comments": 0,
+    "tags": [
+      "ai",
+      "security",
+      "llm",
+      "googlecloud"
+    ]
+  },
+  {
+    "rank": 18,
+    "title": "I created two ghosts during lunch. The AI gave one a job offer.",
+    "url": "https://dev.to/xulingfeng/i-created-two-ghosts-during-lunch-the-ai-gave-one-a-job-offer-4icf",
+    "reactions": 23,
+    "comments": 6,
+    "tags": [
+      "ai",
+      "discuss",
+      "career",
+      "programming"
+    ]
+  },
+  {
+    "rank": 19,
+    "title": "Clifford’s (aka, Claire’s) Device in C and C++",
+    "url": "https://dev.to/pauljlucas/cliffords-aka-claires-device-in-c-and-c-2p33",
+    "reactions": 1,
+    "comments": 0,
+    "tags": [
+      "c",
+      "cpp"
+    ]
+  },
+  {
+    "rank": 20,
+    "title": "Installing WGDashboard, an Open-Source Web UI for WireGuard VPN, on Ubuntu 24.04",
+    "url": "https://dev.to/vultr/installing-wgdashboard-an-open-source-web-ui-for-wireguard-vpn-on-ubuntu-2404-45dc",
+    "reactions": 1,
+    "comments": 0,
+    "tags": [
+      "vpn",
+      "docker",
+      "devops",
+      "networking"
+    ]
+  },
+  {
+    "rank": 21,
+    "title": "The Ralph Loop Is Not Enough!",
+    "url": "https://dev.to/entire/the-ralph-loop-is-not-enough-2kc9",
+    "reactions": 2,
+    "comments": 1,
+    "tags": [
+      "ai",
+      "loop",
+      "ralph",
+      "claude"
+    ]
+  },
+  {
+    "rank": 22,
+    "title": "Supervised Vibe Coding: A Manifesto",
+    "url": "https://dev.to/qainsights/supervised-vibe-coding-a-manifesto-50d4",
+    "reactions": 5,
+    "comments": 0,
+    "tags": [
+      "ai",
+      "programming",
+      "productivity",
+      "software"
+    ]
+  },
+  {
+    "rank": 23,
+    "title": "Running OpenAPI Validation in GitHub Actions and Showing Findings in Pull Requests",
+    "url": "https://dev.to/ganesh-kumar/running-openapi-validation-in-github-actions-and-showing-findings-in-pull-requests-4n8i",
+    "reactions": 5,
+    "comments": 0,
+    "tags": [
+      "api",
+      "automation",
+      "githubactions",
+      "tutorial"
+    ]
+  },
+  {
+    "rank": 24,
+    "title": "Inspect an AI Agent Run Without Paying for Logs You'll Never Read — Telemetry Shouldn't Be Your Second Biggest Bill",
+    "url": "https://dev.to/admilsoncossa/inspect-an-ai-agent-run-without-paying-for-logs-youll-never-read-telemetry-shouldnt-be-your-25ja",
+    "reactions": 5,
+    "comments": 2,
+    "tags": [
+      "agents",
+      "ai",
+      "architecture",
+      "monitoring"
+    ]
+  },
+  {
+    "rank": 25,
+    "title": "Why AI Agents Break the Secrets Manager (And the Quiet Memory Crisis We're Ignoring)",
+    "url": "https://dev.to/the_seventeen/why-ai-agents-break-the-secrets-manager-and-the-quiet-memory-crisis-were-ignoring-2hk3",
+    "reactions": 6,
+    "comments": 1,
+    "tags": [
+      "discuss",
+      "ai",
+      "security",
+      "architecture"
+    ]
+  }
+]

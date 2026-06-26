@@ -1,0 +1,134 @@
+[
+  [
+    "A",
+    "The top story today is not subtle. The US government delivered a directive to Anthropic at 5:21pm on a Friday, ordering suspension of Fable 5 and Mythos 5. 1,726 points on Hacker News. Highest single-day score for an AI governance story this cycle."
+  ],
+  [
+    "B",
+    "Wait — a Friday evening directive. That timing is not accidental."
+  ],
+  [
+    "A",
+    "Anthropic's response is worth reading carefully. They're saying the bypass technique identified 'minor vulnerabilities' that lack quote 'Mythos-specific uplift' — other public models surface the same information without requiring a bypass at all."
+  ],
+  [
+    "B",
+    "So their argument is: the bar you're applying to us would disqualify every model in existence."
+  ],
+  [
+    "A",
+    "Exactly. If 'any bypass technique exists' is the suspension threshold, it functions as a capability ceiling. The most capable models get suspended first, and the standard moves down from there."
+  ],
+  [
+    "B",
+    "OK so if that's true, then builders who deployed Fable 5 in production just had their infrastructure pulled by a legal directive. Mid-deployment. No warning."
+  ],
+  [
+    "A",
+    "And here's what makes today structurally interesting — the second-highest story, same day: 'Open source AI must win.' 617 points. 0.31 comment-to-point ratio, meaning the community endorsed the conclusion and moved on without debating it."
+  ],
+  [
+    "B",
+    "The timing IS the message. The government just ran a live demonstration of the argument."
+  ],
+  [
+    "A",
+    "The site calls it a 'subscription economy for cognition.' If the only models that matter are ones you rent from a small number of closed institutions, one legal directive removes your access to intelligence itself."
+  ],
+  [
+    "B",
+    "So what do builders do TODAY? Like, concretely?"
+  ],
+  [
+    "A",
+    "Hedge your infrastructure. If your product has a single API dependency on a frontier model, you just watched what the failure mode looks like. The apple/container repo is at 35K stars trending hard — local-first tooling is not a philosophical position anymore, it's a risk response."
+  ],
+  [
+    "B",
+    "Let's shift registers completely, because there's a CRISPR story that has completely different energy and I don't want to bury it."
+  ],
+  [
+    "A",
+    "770 points. A technique that selectively destroys cancer cells while leaving healthy tissue intact — including cancers that were previously considered undruggable."
+  ],
+  [
+    "B",
+    "Explain undruggable, because that word is doing a lot of work."
+  ],
+  [
+    "A",
+    "Certain cancers exploit proteins that don't have the binding pockets small-molecule drugs require. CRISPR working at the RNA level bypasses the protein-binding requirement entirely. A class of cancers that chemotherapy could only hit broadly is now targetable with precision."
+  ],
+  [
+    "B",
+    "That's a door opening, not just an incremental result."
+  ],
+  [
+    "A",
+    "The community's read was 770 endorsements, 186 comments. Near-pure signal. But the comments are careful — cell culture to clinical therapy is years and routinely includes failures the announcement doesn't mention."
+  ],
+  [
+    "B",
+    "Excitement with restraint. That's the right response. OK, now connect me to the security thread, because I know you've been waiting."
+  ],
+  [
+    "A",
+    "FFmpeg. 21 zero-days. $1,000 in AI agent time. Eight received CVEs. One of them — a heap buffer overflow in the AV1 depacketizer — is a zero-click network RCE triggered by a single 183-byte packet against any process running FFmpeg on an RTSP stream."
+  ],
+  [
+    "B",
+    "FFmpeg is in browsers. In phones. In video conferencing. In streaming infrastructure."
+  ],
+  [
+    "A",
+    "And some of these vulnerabilities had been sitting there for 15 to 23 years. Introduced in 2010. Missed by every audit until an agent ran for a thousand dollars."
+  ],
+  [
+    "B",
+    "Hmm, I don't know if that's terrifying or clarifying. Maybe both."
+  ],
+  [
+    "A",
+    "It's both. The audit cost curve just collapsed. The question is whether defenders or attackers get to that curve first. And the malware story today answers that — threat actors have already mapped the refusal surface of AI security tools and are exploiting it operationally."
+  ],
+  [
+    "B",
+    "Wait, say that again. Malware authors are embedding CBRN text in their payloads to blind AI analysis tools?"
+  ],
+  [
+    "A",
+    "Deliberately placed strings — nuclear, chemical, biological weapons text — not in the payload logic, but surrounding it. If the automated analyzer refuses to process dangerous content, it halts before reaching the actual malicious code."
+  ],
+  [
+    "B",
+    "That's a jailbreak applied to security tooling. They've mapped where the AI flinches."
+  ],
+  [
+    "A",
+    "And on the same day, an AI agent bankrupted an operator by scanning DN42 faster than the operator modeled. The agent's goal was valid, the permissions were granted, and the cost was unanticipated because nobody accounted for agent execution speed versus human execution speed."
+  ],
+  [
+    "B",
+    "So the thesis for today is... what? AI is in everything and nothing is ready for that?"
+  ],
+  [
+    "A",
+    "Closer to: AI is now load-bearing infrastructure, and we built the infrastructure before we built the governance for it. Today showed us what that looks like — a government directive that removes the most capable models from production, attackers exploiting AI safety enforcement, agents over-executing inside granted permissions."
+  ],
+  [
+    "B",
+    "And the community response is agent-skills at 57K stars trending, superpowers at 226K, builders not waiting for the governance layer to catch up."
+  ],
+  [
+    "A",
+    "The builders are already building the layer below the API. Local, auditable, not dependent on surviving a Friday evening directive."
+  ],
+  [
+    "B",
+    "Go build something that doesn't need a permission slip to run. That's today."
+  ],
+  [
+    "A",
+    "That's the brief for June 13th."
+  ]
+]

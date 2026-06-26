@@ -1,0 +1,217 @@
+[
+  {
+    "type": "intro",
+    "highlight": "Infrastructure Is Being Rebuilt From the Ground Up",
+    "label": "JUNE 12, 2026",
+    "subtext": "All at once"
+  },
+  {
+    "type": "number",
+    "highlight": "Top HN Score This Year",
+    "number": "1,122",
+    "label": "HOMEBREW 6.0.0",
+    "subtext": "Highest-scoring Show HN in package managers"
+  },
+  {
+    "type": "insight",
+    "highlight": "Tap Trust: Explicit Approval Before Code Runs",
+    "label": "HOMEBREW 6.0.0",
+    "subtext": "Four architectural changes shipping simultaneously"
+  },
+  {
+    "type": "insight",
+    "highlight": "Compromised Tap = Arbitrary Ruby on Your Machine",
+    "label": "SUPPLY CHAIN",
+    "subtext": "The invisible attack surface Homebrew just addressed"
+  },
+  {
+    "type": "quote",
+    "highlight": "Mac's most-used channel just added a trust layer",
+    "label": "TAP TRUST",
+    "subtext": "Third-party taps must now be explicitly trusted"
+  },
+  {
+    "type": "number",
+    "highlight": "Dev Environment Setup Time: Concurrent Now",
+    "number": "20–30min",
+    "label": "PARALLEL BREW BUNDLE",
+    "subtext": "Large Brewfiles now install in parallel by default"
+  },
+  {
+    "type": "quote",
+    "highlight": "Hardening security and improving DX in one release",
+    "label": "THE PATTERN",
+    "subtext": "That's the signal worth holding onto"
+  },
+  {
+    "type": "number",
+    "highlight": "Canada Bill C-22 HN Reaction",
+    "number": "412",
+    "label": "SURVEILLANCE LAW",
+    "subtext": "Practitioner community treating it as infrastructure"
+  },
+  {
+    "type": "repo",
+    "highlight": "Signal: We'll Leave Canada Before We Comply",
+    "label": "BILL C-22",
+    "subtext": "Windscribe would relocate headquarters"
+  },
+  {
+    "type": "quote",
+    "highlight": "Cryptographic impossibility doesn't change by renaming the law",
+    "label": "EFF ANALYSIS",
+    "subtext": "Repackaged version of last year's surveillance bill"
+  },
+  {
+    "type": "insight",
+    "highlight": "Interception mandates break the security model",
+    "label": "TECHNICAL REALITY",
+    "subtext": "A policy disagreement is also a technical specification"
+  },
+  {
+    "type": "action",
+    "highlight": "War-game Bill C-22 now, not when it passes",
+    "label": "FOR BUILDERS IN CANADA",
+    "subtext": "The community is reading surveillance law as infrastructure"
+  },
+  {
+    "type": "insight",
+    "highlight": "Silent Output Degradation on AI Research Tasks",
+    "label": "ANTHROPIC FABLE 5",
+    "subtext": "Developers noticed the pattern before disclosure"
+  },
+  {
+    "type": "quote",
+    "highlight": "Silent degradation breaks the entire trust model",
+    "label": "THE CORE PROBLEM",
+    "subtext": "The guardrail policy is debatable — the invisibility is not"
+  },
+  {
+    "type": "number",
+    "highlight": "One Comment Per Upvote — Unresolved Discomfort",
+    "number": "0.91",
+    "label": "HN RATIO",
+    "subtext": "341 comments on 375 points"
+  },
+  {
+    "type": "quote",
+    "highlight": "That ratio is the dataset screaming 'unresolved'",
+    "label": "ENGAGEMENT SIGNAL",
+    "subtext": "Near-unity comment-to-point ratio"
+  },
+  {
+    "type": "insight",
+    "highlight": "What else is Fable 5 doing we can't see?",
+    "label": "TRUST EROSION",
+    "subtext": "The community interrogates the category of decision"
+  },
+  {
+    "type": "number",
+    "highlight": "SWE-Bench Pro: MiMo Code vs Claude Code",
+    "number": "62%",
+    "label": "MIMO CODE",
+    "subtext": "Xiaomi open-source, Claude Code scores 57%"
+  },
+  {
+    "type": "repo",
+    "highlight": "Persistent Memory Across 200+ Step Tasks",
+    "label": "XIAOMIMIMO/MIMO-CODE",
+    "subtext": "Background subagent continuously compresses context"
+  },
+  {
+    "type": "insight",
+    "highlight": "Context Exhaustion at Step 47 — the Real Failure",
+    "label": "LONG-HORIZON TASKS",
+    "subtext": "The failure mode that kills every other coding agent"
+  },
+  {
+    "type": "insight",
+    "highlight": "Launched at the Moment of Maximum Reconsideration",
+    "label": "TIMING",
+    "subtext": "Visible alternative during peak Anthropic backlash"
+  },
+  {
+    "type": "insight",
+    "highlight": "Xiaomi Data Handling: Not Trivial for Enterprise",
+    "label": "COUNTERPOINT",
+    "subtext": "The HN thread raised this objection directly"
+  },
+  {
+    "type": "action",
+    "highlight": "Single Terminal Command — Try It Now",
+    "label": "FOR INDEPENDENT BUILDERS",
+    "subtext": "The adoption barrier is as low as it gets"
+  },
+  {
+    "type": "repo",
+    "highlight": "Pool Money Behind a Prompt, Fable Builds It Public",
+    "label": "FABLEPOOL.COM",
+    "subtext": "MIT license on all output, every dollar on the ledger"
+  },
+  {
+    "type": "insight",
+    "highlight": "The Accountability Layer Standard SaaS Can't Match",
+    "label": "FABLEPOOL",
+    "subtext": "Every milestone, artifact, credit — publicly verifiable"
+  },
+  {
+    "type": "quote",
+    "highlight": "Most agent output is ephemeral — context window, then gone",
+    "label": "THE GAP",
+    "subtext": "What does public, permanent agent output mean?"
+  },
+  {
+    "type": "quote",
+    "highlight": "Software is made between commits",
+    "label": "ZED DELTADB",
+    "subtext": "Most precise description of the agentic workflow gap"
+  },
+  {
+    "type": "insight",
+    "highlight": "Git Discards Everything the Agent Did Between Snapshots",
+    "label": "VERSION CONTROL GAP",
+    "subtext": "Continuous stream of operations, none of it captured"
+  },
+  {
+    "type": "repo",
+    "highlight": "Agent Conversations and File Edits as One Artifact",
+    "label": "ZED.DEV/DELTADB",
+    "subtext": "Every operation gets a stable identity"
+  },
+  {
+    "type": "insight",
+    "highlight": "Building the Accountability Infrastructure for the Agentic Era",
+    "label": "THE THREAD",
+    "subtext": "Tap trust, DeltaDB, FablePool — same pattern"
+  },
+  {
+    "type": "insight",
+    "highlight": "The Community's Demand: We Need to See What's Happening",
+    "label": "THE SIGNAL",
+    "subtext": "C-22 and Fable guardrails from the opposite direction"
+  },
+  {
+    "type": "action",
+    "highlight": "Tooling for Trust, Auditability, and Visibility Is Wide Open",
+    "label": "FOR BUILDERS",
+    "subtext": "Nobody has solved the agentic accountability layer"
+  },
+  {
+    "type": "action",
+    "highlight": "The Question Is Who Builds the Standard",
+    "label": "THE OPPORTUNITY",
+    "subtext": "The trust layer for agentic workflows is being written now"
+  },
+  {
+    "type": "close",
+    "highlight": "Build Something That Makes Agent Work Auditable",
+    "label": "TAKE ACTION",
+    "subtext": "The community is ready for it today"
+  },
+  {
+    "type": "close",
+    "highlight": "June 12th — That's the Brief",
+    "label": "INTELLIGENCE BRIEF",
+    "subtext": "Tidox Learning Hub"
+  }
+]
