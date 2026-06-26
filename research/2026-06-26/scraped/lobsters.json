@@ -1,0 +1,142 @@
+[
+  {
+    "title": "The Exhaustion of Talking to a Tool",
+    "score": 33,
+    "tags": [
+      "vibecoding"
+    ],
+    "url": "https://ohadravid.github.io/posts/2026-06-tool-talking/",
+    "comments_url": "https://lobste.rs/s/csgzki/exhaustion_talking_tool"
+  },
+  {
+    "title": "font-family recommendations",
+    "score": 39,
+    "tags": [
+      "css"
+    ],
+    "url": "https://chrismorgan.info/font-family",
+    "comments_url": "https://lobste.rs/s/madoeq/font_family_recommendations"
+  },
+  {
+    "title": "New @bitCast Semantics and LLVM Backend Improvements",
+    "score": 44,
+    "tags": [
+      "zig"
+    ],
+    "url": "https://ziglang.org/devlog/2026/?2026-06-25#2026-06-25",
+    "comments_url": "https://lobste.rs/s/uge7mm/new_bitcast_semantics_llvm_backend"
+  },
+  {
+    "title": "Om Malik, 1966-2026",
+    "score": 16,
+    "tags": [
+      "person"
+    ],
+    "url": "https://om.co/2026/06/24/1966-2026/",
+    "comments_url": "https://lobste.rs/s/48rnmd/om_malik_1966_2026"
+  },
+  {
+    "title": "The Xteink X4 E-Ink Reader",
+    "score": 59,
+    "tags": [
+      "hardware"
+    ],
+    "url": "https://blog.omgmog.net/post/xteink-x4-e-ink-reader/",
+    "comments_url": "https://lobste.rs/s/oyurwh/xteink_x4_e_ink_reader"
+  },
+  {
+    "title": "Vibecoding gets Emacs patch rejected",
+    "score": 24,
+    "tags": [
+      "emacs",
+      "vibecoding"
+    ],
+    "url": "https://xlii.space/eng/honesty-gets-emacs-patch-rejected/",
+    "comments_url": "https://lobste.rs/s/omq8rt/vibecoding_gets_emacs_patch_rejected"
+  },
+  {
+    "title": "Oxide Rack 3D Explorer",
+    "score": 14,
+    "tags": [
+      "hardware"
+    ],
+    "url": "https://explorer.oxide.computer/",
+    "comments_url": "https://lobste.rs/s/y0sy74/oxide_rack_3d_explorer"
+  },
+  {
+    "title": "OS9Map: OpenStreetMap for Mac OS 9",
+    "score": 21,
+    "tags": [
+      "retrocomputing"
+    ],
+    "url": "https://yllan.org/software/OS9Map/",
+    "comments_url": "https://lobste.rs/s/t9cawj/os9map_openstreetmap_for_mac_os_9"
+  },
+  {
+    "title": "Are We GlobalShortcuts Yet?",
+    "score": 39,
+    "tags": [
+      "a11y",
+      "linux"
+    ],
+    "url": "https://areweglobalshortcutsyet.github.io",
+    "comments_url": "https://lobste.rs/s/ebqmzl/are_we_globalshortcuts_yet"
+  },
+  {
+    "title": "Pierre Zemb from Clever Cloud on FoundationDB",
+    "score": 6,
+    "tags": [
+      "databases",
+      "person"
+    ],
+    "url": "https://theconsensus.dev/p/2026/06/18/pierre-zemb-from-clever-cloud.html",
+    "comments_url": "https://lobste.rs/s/hh1fzr/pierre_zemb_from_clever_cloud_on"
+  },
+  {
+    "title": "I've gone full Nix: Proxmox to NixOS + Incus",
+    "score": 8,
+    "tags": [
+      "nix"
+    ],
+    "url": "https://www.nijho.lt/post/proxmox-to-nixos/",
+    "comments_url": "https://lobste.rs/s/qwwdpv/i_ve_gone_full_nix_proxmox_nixos_incus"
+  },
+  {
+    "title": "Structured Primary Keys",
+    "score": 14,
+    "tags": [
+      "databases"
+    ],
+    "url": "https://modern-sql.com/blog/2026-06/structured-primary-keys",
+    "comments_url": "https://lobste.rs/s/rerqzc/structured_primary_keys"
+  },
+  {
+    "title": "tropius: detect AI tropes in prose",
+    "score": 17,
+    "tags": [
+      "rust"
+    ],
+    "url": "https://tangled.org/desertthunder.dev/tropius",
+    "comments_url": "https://lobste.rs/s/schop7/tropius_detect_ai_tropes_prose"
+  },
+  {
+    "title": "Announcing Silk: a silky smooth fiber runtime for ClickHouse",
+    "score": 6,
+    "tags": [
+      "c++",
+      "databases"
+    ],
+    "url": "https://clickhouse.com/blog/silk",
+    "comments_url": "https://lobste.rs/s/pd1ftk/announcing_silk_silky_smooth_fiber"
+  },
+  {
+    "title": "Echoes of the AI Winter",
+    "score": 5,
+    "tags": [
+      "ai",
+      "lisp"
+    ],
+    "url": "https://netzhansa.com/echoes-of-the-ai-winter/",
+    "comments_url": "https://lobste.rs/s/8soruc/echoes_ai_winter"
+  }
+]

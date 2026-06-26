@@ -1,0 +1,138 @@
+[
+  [
+    "A",
+    "Today has two stories that look unrelated but are actually the same story. Bear with me."
+  ],
+  [
+    "B",
+    "Okay, I'm ready. Hit me."
+  ],
+  [
+    "A",
+    "First: a 2,000-year-old scroll from Herculaneum — buried by Vesuvius in 79 CE — has been fully read for the first time. The Vesuvius Challenge team announced it this morning. 1,156 upvotes on Hacker News."
+  ],
+  [
+    "B",
+    "That's the highest-scoring science story I've seen in months. What's the scroll?"
+  ],
+  [
+    "A",
+    "Philodemus. 'On Gratitude.' Epicurean philosophy. But here's what matters: this wasn't one institution cracking it. It was a prize-structured open collaboration — CT scans released publicly, 8 terabytes per scroll, ML ink detection models built by the community over three years."
+  ],
+  [
+    "B",
+    "So the breakthrough was the architecture. Not one lab, not one model — a system."
+  ],
+  [
+    "A",
+    "Exactly. And there are 1,800 more scrolls in that library that no human has read since antiquity. The pipeline is now validated."
+  ],
+  [
+    "B",
+    "That's not a discovery. That's a factory coming online. Okay, what's the second story?"
+  ],
+  [
+    "A",
+    "Om Malik died. 737 points, 412 comments. That comment-to-point ratio — 0.56 — is unusually high. The community wasn't just upvoting. They were writing."
+  ],
+  [
+    "B",
+    "I saw that thread. People were recalling specific articles. Which piece first explained cloud economics to them. Which post landed at a formative moment."
+  ],
+  [
+    "A",
+    "GigaOM was the publication that framed broadband, cloud, and startup culture as one connected story — before that framing existed anywhere else. He made the present legible while people were building inside it."
+  ],
+  [
+    "B",
+    "And that's the same story as the scroll. Both are about what survives and how. One is a 2,000-year-old library. One is a career spent making sure the last twenty years don't get lost."
+  ],
+  [
+    "A",
+    "On the same day. I don't think that's a coincidence. I think it's what the community is telling us it cares about right now."
+  ],
+  [
+    "B",
+    "Okay, pivot — because GitHub is telling a very different story today. OpenMontage, +3,434 stars in a single day."
+  ],
+  [
+    "A",
+    "Agentic video production system. Twelve pipelines, fifty-two specialized tools. The key detail: it's not a generative model. It's an orchestration layer over existing models and APIs."
+  ],
+  [
+    "B",
+    "Wait. So it's like — scriptwriting agent, voiceover agent, B-roll selection agent, color grading agent — each one specialized, composable?"
+  ],
+  [
+    "A",
+    "With Claude Code as the planning layer. And alongside it, design.md from Google Labs is surging — plus 1,475 stars. That one is a format spec for giving AI coding agents persistent knowledge of your design system."
+  ],
+  [
+    "B",
+    "Oh that's solving a real problem. Every time I start a new agent session it has no idea what my color palette is. It just... invents a UI."
+  ],
+  [
+    "A",
+    "The pattern across both repos, and across Garry Tan's gstack at 116,000 total stars: the 2026 GitHub trending story is not about new raw capability. It's about structure, composition, and context specification."
+  ],
+  [
+    "B",
+    "So the builders who are winning right now are the ones who figured out how to give agents the right shape of information — not better models, better context."
+  ],
+  [
+    "A",
+    "And on the talent side: Jonas Adler, co-author of AlphaFold 3, is joining Anthropic. Alexander Pritzel too. This continues a sustained exodus from Google DeepMind."
+  ],
+  [
+    "B",
+    "Hmm. I'm not sure the story is just 'Google is losing talent.' I think the story is: where do you go if you want your research to matter at the model architecture level?"
+  ],
+  [
+    "A",
+    "That's a better read. Post-merger DeepMind is on Gemini's product timeline. Anthropic is small enough that individual researchers shape model decisions directly. The gravitational pull is agency."
+  ],
+  [
+    "B",
+    "And SignalFire data shows engineers are actually the most resilient job category in H1 2026. Despite all the AI-cited layoffs."
+  ],
+  [
+    "A",
+    "The labor market is restructuring around AI development. Not being replaced by it. Researchers moving between frontier labs, engineers holding ground — both arrows point the same direction."
+  ],
+  [
+    "B",
+    "So let me try to state the thesis for today. A 2,000-year-old scroll gets read because someone built the right open system and held it together for three years. A journalist dies and 400 people write about which article changed their thinking. The fastest-moving repos are all about giving agents structured context. Researchers go where they have direct influence."
+  ],
+  [
+    "A",
+    "Today is about composition over replacement. Systems over single shots. Persistence over convenience."
+  ],
+  [
+    "B",
+    "The thing you should go build isn't a new model. It's the structure that lets existing capability actually do what you need it to do."
+  ],
+  [
+    "A",
+    "There are 1,800 unread scrolls in that library. Somewhere in there is philosophy, mathematics, literature — things we've never seen. The pipeline that reads them already exists."
+  ],
+  [
+    "B",
+    "What's the equivalent in your domain? What's the library you haven't touched because you were waiting for the right tool?"
+  ],
+  [
+    "A",
+    "The tool exists. Build the system around it."
+  ],
+  [
+    "B",
+    "Go build something."
+  ],
+  [
+    "A",
+    "That's the brief for June 26th."
+  ],
+  [
+    "B",
+    "We'll see you tomorrow."
+  ]
+]

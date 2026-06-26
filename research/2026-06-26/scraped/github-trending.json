@@ -1,0 +1,92 @@
+[
+  {
+    "name": "OpenMontage",
+    "fullName": "calesthio/OpenMontage",
+    "description": "Open-source agentic video production system with 12 pipelines and 52 tools",
+    "language": "Python",
+    "stars_today": "3,434 stars today",
+    "total_stars": "22501",
+    "url": "https://github.com/calesthio/OpenMontage"
+  },
+  {
+    "name": "design.md",
+    "fullName": "google-labs-code/design.md",
+    "description": "Format specification for describing visual identity to coding agents",
+    "language": "TypeScript",
+    "stars_today": "1,475 stars today",
+    "total_stars": "19768",
+    "url": "https://github.com/google-labs-code/design.md"
+  },
+  {
+    "name": "container",
+    "fullName": "apple/container",
+    "description": "Tool for creating Linux containers using lightweight VMs on Mac",
+    "language": "Swift",
+    "stars_today": "1,351 stars today",
+    "total_stars": "43341",
+    "url": "https://github.com/apple/container"
+  },
+  {
+    "name": "ai-website-cloner-template",
+    "fullName": "JCodesMore/ai-website-cloner-template",
+    "description": "Clone websites using AI coding agents with a single command",
+    "language": "TypeScript",
+    "stars_today": "1,024 stars today",
+    "total_stars": "20710",
+    "url": "https://github.com/JCodesMore/ai-website-cloner-template"
+  },
+  {
+    "name": "gstack",
+    "fullName": "garrytan/gstack",
+    "description": "Garry Tan's Claude Code setup with 23 opinionated tools for development roles",
+    "language": "TypeScript",
+    "stars_today": "767 stars today",
+    "total_stars": "115994",
+    "url": "https://github.com/garrytan/gstack"
+  },
+  {
+    "name": "MinerU",
+    "fullName": "opendatalab/MinerU",
+    "description": "Transforms PDFs and Office documents into LLM-ready markdown/JSON",
+    "language": "Python",
+    "stars_today": "644 stars today",
+    "total_stars": "69798",
+    "url": "https://github.com/opendatalab/MinerU"
+  },
+  {
+    "name": "Anthropic-Cybersecurity-Skills",
+    "fullName": "mukul975/Anthropic-Cybersecurity-Skills",
+    "description": "817 structured cybersecurity skills mapped to 6 frameworks including MITRE ATT&CK",
+    "language": "Python",
+    "stars_today": "571 stars today",
+    "total_stars": "21406",
+    "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills"
+  },
+  {
+    "name": "ai-berkshire",
+    "fullName": "xbtlin/ai-berkshire",
+    "description": "Value investing research framework using Claude Code and multi-agent analysis",
+    "language": "Python",
+    "stars_today": "309 stars today",
+    "total_stars": "2304",
+    "url": "https://github.com/xbtlin/ai-berkshire"
+  },
+  {
+    "name": "claude-code-best-practice",
+    "fullName": "shanraisshan/claude-code-best-practice",
+    "description": "Guide progressing from vibe coding to agentic engineering practices",
+    "language": "HTML",
+    "stars_today": "287 stars today",
+    "total_stars": "60804",
+    "url": "https://github.com/shanraisshan/claude-code-best-practice"
+  },
+  {
+    "name": "TREK",
+    "fullName": "mauriceboe/TREK",
+    "description": "Self-hosted travel planner with real-time collaboration and interactive maps",
+    "language": "TypeScript",
+    "stars_today": "241 stars today",
+    "total_stars": "6925",
+    "url": "https://github.com/mauriceboe/TREK"
+  }
+]

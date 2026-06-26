@@ -1,0 +1,209 @@
+[
+  {
+    "type": "intro",
+    "highlight": "Two Stories That Are Actually One",
+    "subtext": "Intelligence Brief · June 26, 2026",
+    "label": "TIDOX DAILY"
+  },
+  {
+    "type": "intro",
+    "highlight": "Andrew & Aria",
+    "subtext": "Reasoning out loud",
+    "label": "HOSTS"
+  },
+  {
+    "type": "number",
+    "highlight": "Herculaneum Scroll — First Complete Read",
+    "number": "1,156",
+    "subtext": "HN points · highest science story of 2026",
+    "label": "VESUVIUS CHALLENGE"
+  },
+  {
+    "type": "insight",
+    "highlight": "Philodemus · On Gratitude",
+    "subtext": "2,000 years buried, now readable",
+    "label": "THE SCROLL"
+  },
+  {
+    "type": "insight",
+    "highlight": "Prize-structured open collaboration",
+    "subtext": "8 TB per scroll · community ML models · 3 years",
+    "label": "THE METHOD"
+  },
+  {
+    "type": "quote",
+    "highlight": "The breakthrough was the architecture, not the model",
+    "subtext": "Systems over single shots",
+    "label": "KEY INSIGHT"
+  },
+  {
+    "type": "number",
+    "highlight": "Scrolls Still Unread in the Villa",
+    "number": "1,800",
+    "subtext": "The pipeline is now validated",
+    "label": "WHAT'S NEXT"
+  },
+  {
+    "type": "insight",
+    "highlight": "Not a discovery — a factory coming online",
+    "subtext": "Ancient knowledge, modern pipeline",
+    "label": "REFRAME"
+  },
+  {
+    "type": "number",
+    "highlight": "Om Malik · HN Community Tribute",
+    "number": "737",
+    "subtext": "412 comments · 0.56:1 ratio",
+    "label": "OBITUARY"
+  },
+  {
+    "type": "insight",
+    "highlight": "Practitioners recalled specific articles",
+    "subtext": "Which piece first explained cloud economics",
+    "label": "THE THREAD"
+  },
+  {
+    "type": "quote",
+    "highlight": "GigaOM made the present legible while we built inside it",
+    "subtext": "Broadband, cloud, startups — one connected story",
+    "label": "OM MALIK"
+  },
+  {
+    "type": "insight",
+    "highlight": "Both about what survives and how",
+    "subtext": "A 2,000-year-old library. A 20-year career.",
+    "label": "THE CONNECTION"
+  },
+  {
+    "type": "quote",
+    "highlight": "What the community is telling us it cares about",
+    "subtext": "Preservation, persistence, meaning",
+    "label": "TODAY'S SIGNAL"
+  },
+  {
+    "type": "number",
+    "highlight": "OpenMontage — Agentic Video Production",
+    "number": "+3,434",
+    "subtext": "Stars today · fastest-moving GitHub repo",
+    "label": "GITHUB TRENDING"
+  },
+  {
+    "type": "repo",
+    "highlight": "calesthio/OpenMontage",
+    "subtext": "12 pipelines · 52 tools · Claude Code planning layer",
+    "label": "ARCHITECTURE"
+  },
+  {
+    "type": "insight",
+    "highlight": "Orchestration over generation",
+    "subtext": "Specialized agents, composable pipelines",
+    "label": "THE PATTERN"
+  },
+  {
+    "type": "repo",
+    "highlight": "google-labs-code/design.md",
+    "subtext": "+1,475 stars today · persistent design context for agents",
+    "label": "ALSO TRENDING"
+  },
+  {
+    "type": "insight",
+    "highlight": "Agents don't know your design system",
+    "subtext": "Every session starts context-free",
+    "label": "THE PROBLEM"
+  },
+  {
+    "type": "insight",
+    "highlight": "Structure, composition, context specification",
+    "subtext": "gstack · design.md · OpenMontage all say the same thing",
+    "label": "2026 PATTERN"
+  },
+  {
+    "type": "quote",
+    "highlight": "Not better models — better context",
+    "subtext": "Give agents the right shape of information",
+    "label": "THE THESIS"
+  },
+  {
+    "type": "insight",
+    "highlight": "AlphaFold 3 co-author joins Anthropic",
+    "subtext": "Jonas Adler + Alexander Pritzel · continued DeepMind exodus",
+    "label": "TALENT SIGNAL"
+  },
+  {
+    "type": "insight",
+    "highlight": "Where do you go to shape model architecture?",
+    "subtext": "Not just losing talent — researchers choosing agency",
+    "label": "THE REAL STORY"
+  },
+  {
+    "type": "insight",
+    "highlight": "Post-merger DeepMind on Gemini's timeline",
+    "subtext": "Anthropic: researchers shape model decisions directly",
+    "label": "THE PULL"
+  },
+  {
+    "type": "insight",
+    "highlight": "Engineers: most resilient job category H1 2026",
+    "subtext": "SignalFire data · larger share of new hires",
+    "label": "LABOR MARKET"
+  },
+  {
+    "type": "insight",
+    "highlight": "Restructuring around AI, not replaced by it",
+    "subtext": "Both arrows point the same direction",
+    "label": "THE PICTURE"
+  },
+  {
+    "type": "quote",
+    "highlight": "Composition over replacement",
+    "subtext": "Systems over single shots · persistence over convenience",
+    "label": "TODAY'S THESIS"
+  },
+  {
+    "type": "quote",
+    "highlight": "Systems over single shots",
+    "subtext": "Persistence over convenience",
+    "label": "CORE PRINCIPLE"
+  },
+  {
+    "type": "action",
+    "highlight": "Build the structure, not the model",
+    "subtext": "Let existing capability do what you need",
+    "label": "WHAT TO DO"
+  },
+  {
+    "type": "number",
+    "highlight": "Unread Scrolls — Pipeline Now Validated",
+    "number": "1,800",
+    "subtext": "Philosophy, mathematics, literature — waiting",
+    "label": "THE LIBRARY"
+  },
+  {
+    "type": "insight",
+    "highlight": "What's the library in your domain?",
+    "subtext": "What have you not touched waiting for the right tool?",
+    "label": "YOUR TURN"
+  },
+  {
+    "type": "action",
+    "highlight": "The tool exists. Build the system around it.",
+    "label": "ACTION"
+  },
+  {
+    "type": "action",
+    "highlight": "Go build something.",
+    "label": "CALL TO ACTION"
+  },
+  {
+    "type": "close",
+    "highlight": "Intelligence Brief · June 26, 2026",
+    "subtext": "Episode #96",
+    "label": "TIDOX DAILY"
+  },
+  {
+    "type": "close",
+    "highlight": "See you tomorrow.",
+    "subtext": "tidox.hub",
+    "label": "TIDOX DAILY"
+  }
+]
