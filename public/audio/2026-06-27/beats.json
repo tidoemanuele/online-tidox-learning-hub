@@ -1,0 +1,193 @@
+[
+  {
+    "type": "intro",
+    "highlight": "U.S. government became a visible layer in the AI stack",
+    "label": "JUNE 27 · INTELLIGENCE BRIEF"
+  },
+  {
+    "type": "intro",
+    "highlight": "the thesis for everything that happened today",
+    "subtext": "Government visibility across the AI stack"
+  },
+  {
+    "type": "number",
+    "number": "928",
+    "highlight": "GPT-5.6 Sol",
+    "subtext": "HN points — plus 940 on the politics of access",
+    "label": "OPENAI PREVIEW"
+  },
+  {
+    "type": "insight",
+    "highlight": "Community evaluating capability AND who decides access",
+    "subtext": "Nearly identical engagement on both angles"
+  },
+  {
+    "type": "insight",
+    "highlight": "Multi-agent reasoning in production: Sol's Ultra Mode",
+    "subtext": "Three-tier family: Sol, Terra, Luna",
+    "label": "GPT-5.6 ARCHITECTURE"
+  },
+  {
+    "type": "quote",
+    "highlight": "Inference-time scaling is now the default for frontier work",
+    "subtext": "The o1 thesis becomes standard"
+  },
+  {
+    "type": "number",
+    "number": "$5",
+    "highlight": "Sol input / $30 output per million tokens",
+    "subtext": "Terra at half cost · Luna at $1 input",
+    "label": "PRICING STRUCTURE"
+  },
+  {
+    "type": "insight",
+    "highlight": "20 companies — government sign-off required",
+    "subtext": "Commerce Department as AI access gatekeeper",
+    "label": "ACCESS CONTROL"
+  },
+  {
+    "type": "insight",
+    "highlight": "Anthropic Mythos 5 restored to ~100 US orgs",
+    "subtext": "Suspended June 12 · cleared June 27",
+    "label": "ANTHROPIC MYTHOS"
+  },
+  {
+    "type": "quote",
+    "highlight": "Both frontier labs under US government oversight — same day",
+    "label": "COMPOUND SIGNAL"
+  },
+  {
+    "type": "insight",
+    "highlight": "Government as trusted-partner certifier and access gatekeeper",
+    "subtext": "Different mechanisms, structurally similar role"
+  },
+  {
+    "type": "insight",
+    "highlight": "What does this mean for developers outside the US?",
+    "subtext": "The question the community is asking"
+  },
+  {
+    "type": "action",
+    "highlight": "Most capable models may not be available via normal API",
+    "subtext": "Capability floor diverging by geography and clearance",
+    "label": "DEVELOPER IMPLICATION"
+  },
+  {
+    "type": "action",
+    "highlight": "If you're not in the approved set, you're building on a different capability floor",
+    "label": "BUILD CALCULUS"
+  },
+  {
+    "type": "number",
+    "number": "174",
+    "highlight": "HN pts: open-weight vs closed LLM gap analysis",
+    "subtext": "DoubleWord: the gap has stabilized, not closed",
+    "label": "LLM GAP SIGNAL"
+  },
+  {
+    "type": "insight",
+    "highlight": "Leaderboards look close — production tells a different story",
+    "subtext": "Single-turn benchmarks miss tail reliability"
+  },
+  {
+    "type": "insight",
+    "highlight": "Tail reliability gap stays wide in agentic use cases",
+    "subtext": "5% of tasks where reasoning chains diverge",
+    "label": "RELIABILITY DELTA"
+  },
+  {
+    "type": "action",
+    "highlight": "Open-weight: diagnosable failures. Frontier closed: better tail reliability",
+    "subtext": "And now access is partially policy-gated"
+  },
+  {
+    "type": "number",
+    "number": "307",
+    "highlight": "AWS Lambda MicroVMs",
+    "subtext": "VM-level isolation as a Lambda primitive · 189 comments",
+    "label": "AWS INFRASTRUCTURE"
+  },
+  {
+    "type": "insight",
+    "highlight": "Each user gets their own dedicated execution environment",
+    "subtext": "VM-level isolation — no shared kernel"
+  },
+  {
+    "type": "insight",
+    "highlight": "Firecracker: 15 trillion Lambda invocations → now user-facing isolation",
+    "subtext": "16 vCPUs · 32GB memory · 8-hour state",
+    "label": "FIRECRACKER LAYER"
+  },
+  {
+    "type": "action",
+    "highlight": "AWS just commoditized the secure sandbox layer for AI agents",
+    "label": "BUILDER IMPLICATION"
+  },
+  {
+    "type": "quote",
+    "highlight": "E2B and Modal built on managed secure execution. AWS made it a Lambda feature.",
+    "subtext": "Margin compressed for single-moat sandboxing services"
+  },
+  {
+    "type": "insight",
+    "highlight": "Ecosystem, tooling, developer experience still matter",
+    "subtext": "Not a death sentence — but moat compression is real"
+  },
+  {
+    "type": "number",
+    "number": "2,407",
+    "highlight": "design.md — stars on launch day",
+    "subtext": "google-labs-code: format spec for visual identity to coding agents",
+    "label": "GITHUB TRENDING"
+  },
+  {
+    "type": "insight",
+    "highlight": "Agents can generate UI but don't know your design system",
+    "subtext": "DESIGN.md: the missing infrastructure layer"
+  },
+  {
+    "type": "insight",
+    "highlight": "Persistent structured context: typography, colors, spacing",
+    "subtext": "Velocity on day one — practitioners recognized what was missing",
+    "label": "DESIGN.MD"
+  },
+  {
+    "type": "repo",
+    "highlight": "xbtlin/ai-berkshire",
+    "subtext": "Claude Code multi-agent value investing framework",
+    "label": "GITHUB TRENDING"
+  },
+  {
+    "type": "insight",
+    "highlight": "Multi-agent architecture from frontier labs — reassembled by community",
+    "subtext": "Domain-specific applications emerging faster than expected"
+  },
+  {
+    "type": "quote",
+    "highlight": "Architectural primitives from frontier labs rebuilt at application layer",
+    "subtext": "Faster than anyone anticipated"
+  },
+  {
+    "type": "insight",
+    "highlight": "AI transitioning from product category to regulated infrastructure",
+    "subtext": "Government access controls · MicroVMs · DESIGN.md: three simultaneous layers",
+    "label": "TODAY'S THESIS"
+  },
+  {
+    "type": "action",
+    "highlight": "Understand the technical and political economy of the transition",
+    "subtext": "Not just 'what model' — but 'who has access, under what conditions'",
+    "label": "BUILDER IMPERATIVE"
+  },
+  {
+    "type": "close",
+    "highlight": "Go build something. But first, understand the new map.",
+    "label": "INTELLIGENCE BRIEF"
+  },
+  {
+    "type": "close",
+    "highlight": "See you tomorrow.",
+    "subtext": "June 27, 2026",
+    "label": "TIDOX LEARNING HUB"
+  }
+]
