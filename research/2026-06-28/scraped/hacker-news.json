@@ -1,0 +1,162 @@
+[
+  {
+    "rank": 1,
+    "title": "Marfa Public Radio Puts You to Sleep",
+    "url": "https://www.marfapublicradio.org/podcast/marfa-public-radio-puts-you-to-sleep",
+    "hn_url": "https://news.ycombinator.com/item?id=48703759",
+    "points": 128,
+    "comments": 31
+  },
+  {
+    "rank": 2,
+    "title": "Wayfinder Router: deterministic routing of queries between local and hosted LLM",
+    "url": "https://github.com/itsthelore/wayfinder-router",
+    "hn_url": "https://news.ycombinator.com/item?id=48704373",
+    "points": 24,
+    "comments": 1
+  },
+  {
+    "rank": 3,
+    "title": "Show HN: Decomp Academy \u2013 Learn to decompile GameCube games into matching C",
+    "url": "https://decomp-academy.dev",
+    "hn_url": "https://news.ycombinator.com/item?id=48703412",
+    "points": 87,
+    "comments": 29
+  },
+  {
+    "rank": 4,
+    "title": "AMD Strix Halo RDMA Cluster Setup Guide",
+    "url": "https://github.com/kyuz0/amd-strix-halo-vllm-toolboxes/blob/main/rdma_cluster/setup_guide.md",
+    "hn_url": "https://news.ycombinator.com/item?id=48703258",
+    "points": 92,
+    "comments": 15
+  },
+  {
+    "rank": 5,
+    "title": "Anonymous GitHub account mass-dropping undisclosed 0-days",
+    "url": "https://github.com/bikini/exploitarium",
+    "hn_url": "https://news.ycombinator.com/item?id=48698617",
+    "points": 748,
+    "comments": 296
+  },
+  {
+    "rank": 6,
+    "title": "OpenRA",
+    "url": "https://www.openra.net/",
+    "hn_url": "https://news.ycombinator.com/item?id=48697560",
+    "points": 641,
+    "comments": 126
+  },
+  {
+    "rank": 7,
+    "title": "Ancient Tablets Show Markets Worked 4k Years Before Economists Explained Them",
+    "url": "https://thedailyeconomy.org/article/ancient-clay-tablets-show-markets-worked-4000-years-before-economists-explained-them/",
+    "hn_url": "https://news.ycombinator.com/item?id=48648493",
+    "points": 31,
+    "comments": 18
+  },
+  {
+    "rank": 8,
+    "title": "Choosing a Public DNS Resolver",
+    "url": "https://evilbit.de/dns-resolver-guide.html",
+    "hn_url": "https://news.ycombinator.com/item?id=48702273",
+    "points": 116,
+    "comments": 34
+  },
+  {
+    "rank": 9,
+    "title": "Ford hired AI and sacked humans. It backfired badly",
+    "url": "https://www.the-independent.com/tech/ford-ai-automation-human-workers-b3003787.html",
+    "hn_url": "https://news.ycombinator.com/item?id=48703968",
+    "points": 99,
+    "comments": 52
+  },
+  {
+    "rank": 10,
+    "title": "Regular expressions that work \"everywhere\"",
+    "url": "https://www.johndcook.com/blog/2026/06/23/regex-everywhere/",
+    "hn_url": "https://news.ycombinator.com/item?id=48672232",
+    "points": 36,
+    "comments": 17
+  },
+  {
+    "rank": 11,
+    "title": "Space Shuttle Endeavour's 20-story vertical display",
+    "url": "https://californiasciencecenter.org/about-us/samuel-oschin-air-and-space-center/go-for-stack",
+    "hn_url": "https://news.ycombinator.com/item?id=48686032",
+    "points": 41,
+    "comments": 6
+  },
+  {
+    "rank": 12,
+    "title": "Fintech Engineering Handbook",
+    "url": "https://w.pitula.me/fintech-engineering-handbook/",
+    "hn_url": "https://news.ycombinator.com/item?id=48696982",
+    "points": 518,
+    "comments": 166
+  },
+  {
+    "rank": 13,
+    "title": "Enhancing X11 Application Security with LXC",
+    "url": "https://dobrowolski.dev/article/enhancing-x11-application-security-with-lxc/",
+    "hn_url": "https://news.ycombinator.com/item?id=48701936",
+    "points": 57,
+    "comments": 23
+  },
+  {
+    "rank": 14,
+    "title": "The case for physical media ownership",
+    "url": "https://dervis.de/physical/",
+    "hn_url": "https://news.ycombinator.com/item?id=48697335",
+    "points": 398,
+    "comments": 261
+  },
+  {
+    "rank": 15,
+    "title": "AI learns the \u201cdark art\u201d of RFIC design",
+    "url": "https://spectrum.ieee.org/ai-radio-chip-design",
+    "hn_url": "https://news.ycombinator.com/item?id=48660021",
+    "points": 219,
+    "comments": 144
+  },
+  {
+    "rank": 16,
+    "title": "WAL-RUS: a Rust Rewrite of WAL-G for PostgreSQL Backups",
+    "url": "https://clickhouse.com/blog/walrus-postgres-backups-in-rust",
+    "hn_url": "https://news.ycombinator.com/item?id=48702848",
+    "points": 39,
+    "comments": 3
+  },
+  {
+    "rank": 17,
+    "title": "Feds Killed Polestar and Spared Volvo. That Should Terrify You",
+    "url": "https://www.thedrive.com/news/feds-killed-polestar-and-spared-volvo-that-should-terrify-you",
+    "hn_url": "https://news.ycombinator.com/item?id=48703613",
+    "points": 101,
+    "comments": 66
+  },
+  {
+    "rank": 18,
+    "title": "Turn your site into a place people can bump into each other",
+    "url": "https://cauenapier.com/blog/townsquare_release/",
+    "hn_url": "https://news.ycombinator.com/item?id=48699928",
+    "points": 192,
+    "comments": 85
+  },
+  {
+    "rank": 19,
+    "title": "Asian AI startups launch Mythos-like models",
+    "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
+    "hn_url": "https://news.ycombinator.com/item?id=48697958",
+    "points": 202,
+    "comments": 155
+  },
+  {
+    "rank": 20,
+    "title": "Show HN: Metaspec: The DpANS3R Common Lisp Spec in S-Expr and HTML Format",
+    "url": "https://metaspec.dev/#",
+    "hn_url": "https://news.ycombinator.com/item?id=48662264",
+    "points": 4,
+    "comments": 0
+  }
+]

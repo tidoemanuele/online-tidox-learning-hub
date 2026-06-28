@@ -1,0 +1,183 @@
+[
+  {
+    "type": "intro",
+    "highlight": "Anonymous 0-Days Drop Into the Open",
+    "label": "INTELLIGENCE BRIEF · JUNE 28 2026",
+    "subtext": "748 points · no CVEs · no identity"
+  },
+  {
+    "type": "intro",
+    "highlight": "Mass-Dropping Undisclosed Vulnerabilities",
+    "label": "TODAY'S LEAD SIGNAL",
+    "subtext": "production software · no vendor notice"
+  },
+  {
+    "type": "insight",
+    "highlight": "Pure Inverse of Responsible Disclosure",
+    "subtext": "community divided: attack or corrective?"
+  },
+  {
+    "type": "quote",
+    "highlight": "Less Thesis Statement, More Fire Sale",
+    "subtext": "vulnerability markets incentivize hoarding"
+  },
+  {
+    "type": "number",
+    "number": "296",
+    "highlight": "296 comments",
+    "label": "HN THREAD",
+    "subtext": "information flows preferentially to defenders — now challenged"
+  },
+  {
+    "type": "quote",
+    "highlight": "What Does Your Security Posture Look Like?",
+    "subtext": "in a world where this is now a viable move"
+  },
+  {
+    "type": "action",
+    "highlight": "Patch Velocity Is the Only Metric That Matters",
+    "subtext": "not disclosure windows · not CVE tracking · speed"
+  },
+  {
+    "type": "number",
+    "number": "641",
+    "highlight": "641 points",
+    "label": "OPENRA · HN #2",
+    "subtext": "open-source C&C rebuild · two decades of volunteer effort"
+  },
+  {
+    "type": "insight",
+    "highlight": "Everyone Agrees This Is Admirable",
+    "subtext": "low comment-to-point ratio: no controversy, just respect"
+  },
+  {
+    "type": "insight",
+    "highlight": "Cost of AI-Assisted Development Has Collapsed",
+    "subtext": "what volunteer communities can build — a more optimistic answer"
+  },
+  {
+    "type": "quote",
+    "highlight": "Imagine What a Community Starts Today",
+    "subtext": "OpenRA predates AI coding tools"
+  },
+  {
+    "type": "number",
+    "number": "518",
+    "highlight": "518 points",
+    "label": "FINTECH ENGINEERING HANDBOOK",
+    "subtext": "PCI-DSS · SWIFT · SEPA · fraud detection · now a URL"
+  },
+  {
+    "type": "insight",
+    "highlight": "Fintech Was the Last Siloed Engineering Domain",
+    "subtext": "you learned it by working at a bank"
+  },
+  {
+    "type": "number",
+    "number": "166",
+    "highlight": "166 comments filling the gaps",
+    "label": "HN THREAD",
+    "subtext": "FIX protocol · ISO 20022 · non-US settlement rails"
+  },
+  {
+    "type": "insight",
+    "highlight": "Information Controlled by Institutions Is Going Public",
+    "subtext": "0-days · game engines · financial infrastructure"
+  },
+  {
+    "type": "quote",
+    "highlight": "That's a Real Throughline",
+    "subtext": "pattern across every story today"
+  },
+  {
+    "type": "number",
+    "number": "398",
+    "highlight": "398 points",
+    "label": "PHYSICAL MEDIA OWNERSHIP",
+    "subtext": "alongside AI designing analog radio frequency chips"
+  },
+  {
+    "type": "insight",
+    "highlight": "AI Closes the Last Hardware Domain",
+    "subtext": "human intuition for RFIC design — now matchable by RL"
+  },
+  {
+    "type": "insight",
+    "highlight": "Power · Noise · Linearity · Bandwidth",
+    "subtext": "matching expert human performance on industry benchmarks"
+  },
+  {
+    "type": "quote",
+    "highlight": "Buying Vinyl Records Is a Rational Hedge",
+    "subtext": "ownership as insurance against platform discontinuity"
+  },
+  {
+    "type": "insight",
+    "highlight": "Four Asian Startups Fill the Mythos Gap",
+    "subtext": "Anthropic export ban running since June 12th"
+  },
+  {
+    "type": "quote",
+    "highlight": "Export Controls Don't Reduce Demand",
+    "subtext": "they create market opportunities in unconstrained jurisdictions"
+  },
+  {
+    "type": "insight",
+    "highlight": "Ford's AI Backfire: Quality Regressions, Now Rehiring",
+    "subtext": "highest AI-labor comment-to-point ratio of 2026"
+  },
+  {
+    "type": "insight",
+    "highlight": "Told You So vs. One Failure Doesn't Generalize",
+    "subtext": "both camps are probably right in different ways"
+  },
+  {
+    "type": "repo",
+    "highlight": "DietrichGebert/ponytail",
+    "label": "GITHUB TRENDING · +2,188/DAY",
+    "subtext": "60K stars · YAGNI enforcement for AI coding agents"
+  },
+  {
+    "type": "action",
+    "highlight": "Encode Senior-Engineer Discipline as Infrastructure",
+    "subtext": "YAGNI as a pre-execution filter, not a post-generation rewrite"
+  },
+  {
+    "type": "repo",
+    "highlight": "design.md · Unlimited-OCR · OpenMontage · ai-berkshire",
+    "label": "GITHUB TRENDING · ALL CATEGORIES",
+    "subtext": "simplicity · design codification · OCR · video · finance"
+  },
+  {
+    "type": "insight",
+    "highlight": "Multi-Week Trending = Institutional Adoption",
+    "subtext": "these aren't experiments — people are running this in production"
+  },
+  {
+    "type": "insight",
+    "highlight": "Information Asymmetry Is Collapsing",
+    "subtext": "security · fintech · hardware design · the moat is dissolving"
+  },
+  {
+    "type": "action",
+    "highlight": "Builders Who Move Fastest on Public Infrastructure Win",
+    "subtext": "the constraint isn't knowledge anymore"
+  },
+  {
+    "type": "quote",
+    "highlight": "The Constraint Is What You Build With It",
+    "subtext": "today's thesis"
+  },
+  {
+    "type": "close",
+    "highlight": "Build Faster Than the Threat Surface Grows",
+    "label": "TAKEAWAY",
+    "subtext": "the defenders' answer to an era of open 0-days"
+  },
+  {
+    "type": "close",
+    "highlight": "That's Today. Go Build Something.",
+    "label": "INTELLIGENCE BRIEF · JUNE 28 2026",
+    "subtext": "tidox.com"
+  }
+]

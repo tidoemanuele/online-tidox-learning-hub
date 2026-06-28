@@ -1,0 +1,47 @@
+[
+  {
+    "name": "ponytail",
+    "fullName": "DietrichGebert/ponytail",
+    "description": "YAGNI enforcement layer for AI coding agents — inserts a simplicity-reasoning step before code generation to prevent over-engineering",
+    "language": "JavaScript",
+    "stars_today": "2,188 stars today",
+    "total_stars": "59900",
+    "url": "https://github.com/DietrichGebert/ponytail"
+  },
+  {
+    "name": "design.md",
+    "fullName": "google-labs-code/design.md",
+    "description": "A format specification for describing a visual identity to coding agents — typography, color, spacing, components",
+    "language": "TypeScript",
+    "stars_today": "2,141 stars today",
+    "total_stars": "21000",
+    "url": "https://github.com/google-labs-code/design.md"
+  },
+  {
+    "name": "Unlimited-OCR",
+    "fullName": "baidu/Unlimited-OCR",
+    "description": "High-accuracy OCR engine supporting 100+ languages with table, formula, and handwriting recognition",
+    "language": "Python",
+    "stars_today": "2,095 stars today",
+    "total_stars": "10300",
+    "url": "https://github.com/baidu/Unlimited-OCR"
+  },
+  {
+    "name": "OpenMontage",
+    "fullName": "calesthio/OpenMontage",
+    "description": "Agentic video production system — 12 pipelines, 52 tools, 500+ agent skills for end-to-end AI video creation",
+    "language": "Python",
+    "stars_today": "1,593 stars today",
+    "total_stars": "23400",
+    "url": "https://github.com/calesthio/OpenMontage"
+  },
+  {
+    "name": "ai-berkshire",
+    "fullName": "xbtlin/ai-berkshire",
+    "description": "Multi-agent value investing research framework using Claude Code for parallel financial analysis tasks",
+    "language": "Python",
+    "stars_today": "1,244 stars today",
+    "total_stars": "3000",
+    "url": "https://github.com/xbtlin/ai-berkshire"
+  }
+]
