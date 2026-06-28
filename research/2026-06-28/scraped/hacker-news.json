@@ -1,0 +1,212 @@
+[
+  {
+    "rank": 1,
+    "title": "Anonymous GitHub account mass-dropping undisclosed 0-days",
+    "url": "https://github.com/bikini/exploitarium",
+    "points": 791,
+    "comments": 307
+  },
+  {
+    "rank": 2,
+    "title": "DSpark: Speculative decoding accelerates LLM inference [pdf]",
+    "url": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf",
+    "points": 758,
+    "comments": 318
+  },
+  {
+    "rank": 3,
+    "title": "OpenRA",
+    "url": "https://www.openra.net/",
+    "points": 693,
+    "comments": 131
+  },
+  {
+    "rank": 4,
+    "title": "Fintech Engineering Handbook",
+    "url": "https://w.pitula.me/fintech-engineering-handbook/",
+    "points": 551,
+    "comments": 171
+  },
+  {
+    "rank": 5,
+    "title": "The case for physical media ownership",
+    "url": "https://dervis.de/physical/",
+    "points": 429,
+    "comments": 289
+  },
+  {
+    "rank": 6,
+    "title": "Suspicious Discontinuities (2020)",
+    "url": "https://danluu.com/discontinuities/",
+    "points": 234,
+    "comments": 75
+  },
+  {
+    "rank": 7,
+    "title": "AI learns the “dark art” of RFIC design",
+    "url": "https://spectrum.ieee.org/ai-radio-chip-design",
+    "points": 231,
+    "comments": 149
+  },
+  {
+    "rank": 8,
+    "title": "Turn your site into a place people can bump into each other",
+    "url": "https://cauenapier.com/blog/townsquare_release/",
+    "points": 222,
+    "comments": 90
+  },
+  {
+    "rank": 9,
+    "title": "Asian AI startups launch Mythos-like models",
+    "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
+    "points": 221,
+    "comments": 171
+  },
+  {
+    "rank": 10,
+    "title": "The best response to AI slop and online noise is from Robin Williams",
+    "url": "https://jayacunzo.com/blog/your-move-chief",
+    "points": 206,
+    "comments": 117
+  },
+  {
+    "rank": 11,
+    "title": "Marfa Public Radio Puts You to Sleep",
+    "url": "https://www.marfapublicradio.org/podcast/marfa-public-radio-puts-you-to-sleep",
+    "points": 202,
+    "comments": 54
+  },
+  {
+    "rank": 12,
+    "title": "Reducing tick density along recreational trails in Ottawa, Canada",
+    "url": "https://www.sciencedirect.com/science/article/pii/S1877959X26000476",
+    "points": 195,
+    "comments": 102
+  },
+  {
+    "rank": 13,
+    "title": "Ford hired AI and sacked humans. It backfired badly",
+    "url": "https://www.the-independent.com/tech/ford-ai-automation-human-workers-b3003787.html",
+    "points": 174,
+    "comments": 98
+  },
+  {
+    "rank": 14,
+    "title": "Choosing a Public DNS Resolver",
+    "url": "https://evilbit.de/dns-resolver-guide.html",
+    "points": 148,
+    "comments": 45
+  },
+  {
+    "rank": 15,
+    "title": "Post-Mythos Cybersecurity: Keep calm and carry on",
+    "url": "https://cephalosec.com/blog/cybersecurity-in-the-post-mythos-era-keep-calm-and-carry-on/",
+    "points": 146,
+    "comments": 54
+  },
+  {
+    "rank": 16,
+    "title": "Feds Killed Polestar and Spared Volvo",
+    "url": "https://www.thedrive.com/news/feds-killed-polestar-and-spared-volvo-that-should-terrify-you",
+    "points": 143,
+    "comments": 98
+  },
+  {
+    "rank": 17,
+    "title": "AMD Strix Halo RDMA Cluster Setup Guide",
+    "url": "https://github.com/kyuz0/amd-strix-halo-vllm-toolboxes/blob/main/rdma_cluster/setup_guide.md",
+    "points": 125,
+    "comments": 34
+  },
+  {
+    "rank": 18,
+    "title": "Show HN: Decomp Academy – Learn to decompile GameCube games into matching C",
+    "url": "https://decomp-academy.dev",
+    "points": 116,
+    "comments": 38
+  },
+  {
+    "rank": 19,
+    "title": "Enhancing X11 Application Security with LXC (2025)",
+    "url": "https://dobrowolski.dev/article/enhancing-x11-application-security-with-lxc/",
+    "points": 65,
+    "comments": 36
+  },
+  {
+    "rank": 20,
+    "title": "WAL-RUS: a Rust Rewrite of WAL-G for PostgreSQL Backups",
+    "url": "https://clickhouse.com/blog/walrus-postgres-backups-in-rust",
+    "points": 61,
+    "comments": 4
+  },
+  {
+    "rank": 21,
+    "title": "Wayfinder Router: deterministic routing of queries between local and hosted LLM",
+    "url": "https://github.com/itsthelore/wayfinder-router",
+    "points": 58,
+    "comments": 11
+  },
+  {
+    "rank": 22,
+    "title": "Space Shuttle Endeavour's 20-story vertical display",
+    "url": "https://californiasciencecenter.org/about-us/samuel-oschin-air-and-space-center/go-for-stack",
+    "points": 55,
+    "comments": 8
+  },
+  {
+    "rank": 23,
+    "title": "Regular expressions that work \"everywhere\"",
+    "url": "https://www.johndcook.com/blog/2026/06/23/regex-everywhere/",
+    "points": 51,
+    "comments": 24
+  },
+  {
+    "rank": 24,
+    "title": "How do you keep Web MIDI from crashing a 1983 synthesizer?",
+    "url": "https://knob.monster/how-do-you-keep-web-midi-from-crashing-a-1983-synthesizer",
+    "points": 43,
+    "comments": 20
+  },
+  {
+    "rank": 25,
+    "title": "Turning music into a chore is how I became a musician (2022)",
+    "url": "https://the.scapegoat.dev/turning-music-into-a-chore-is-what-made-me-an-artist/",
+    "points": 33,
+    "comments": 10
+  },
+  {
+    "rank": 26,
+    "title": "Bashblog – a single bash script to create blogs",
+    "url": "https://github.com/cfenollosa/bashblog",
+    "points": 33,
+    "comments": 4
+  },
+  {
+    "rank": 27,
+    "title": "Engineering for Bounded Cognition",
+    "url": "https://shapeofthesystem.com/posts/2026/02/03/bounded-cognition",
+    "points": 27,
+    "comments": 5
+  },
+  {
+    "rank": 28,
+    "title": "How to organize 3 acquired companies into one coherent website",
+    "url": "https://littlelanguagemodels.com/how-to-structure-your-sites-after-a-big-acquisition/",
+    "points": 13,
+    "comments": 0
+  },
+  {
+    "rank": 29,
+    "title": "Reflecting to optimise",
+    "url": "https://magnusross.github.io/posts/reflecting-to-optimise/",
+    "points": 12,
+    "comments": 1
+  },
+  {
+    "rank": 30,
+    "title": "Conway's Game of Life, in real life",
+    "url": "https://lcamtuf.coredump.cx/blog/conway/",
+    "points": 12,
+    "comments": 1
+  }
+]

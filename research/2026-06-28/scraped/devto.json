@@ -1,0 +1,325 @@
+[
+  {
+    "rank": 1,
+    "title": "Engineering a Brainrot art installation on an Orange Pi Zero 🍊",
+    "url": "https://dev.to/googleai/engineering-a-brainrot-art-installation-on-an-orange-pi-zero-4gmk",
+    "reactions": 0,
+    "comments": 0,
+    "tags": [
+      "ai",
+      "webdev",
+      "programming",
+      "javascript"
+    ]
+  },
+  {
+    "rank": 2,
+    "title": "I Got Tired of Rewriting AI API Wrappers, So I Built a Gateway",
+    "url": "https://dev.to/manolito99/i-got-tired-of-rewriting-ai-api-wrappers-so-i-built-a-gateway-58n5",
+    "reactions": 20,
+    "comments": 5,
+    "tags": [
+      "ai",
+      "api",
+      "llm",
+      "showdev"
+    ]
+  },
+  {
+    "rank": 3,
+    "title": "A Rogue Registry in My Own Backyard: Anatomy of a Two-Line Supply Chain Attack",
+    "url": "https://dev.to/sebs/a-rogue-registry-in-my-own-backyard-anatomy-of-a-two-line-supply-chain-attack-5b0h",
+    "reactions": 0,
+    "comments": 0,
+    "tags": [
+      "npm",
+      "security",
+      "supplychain"
+    ]
+  },
+  {
+    "rank": 4,
+    "title": "Choreography of validation: how to make your auth form seamless and usable",
+    "url": "https://dev.to/a-dev/choreography-of-validation-how-to-make-your-auth-form-seamless-and-usable-1dpm",
+    "reactions": 6,
+    "comments": 3,
+    "tags": [
+      "react",
+      "javascript",
+      "ux",
+      "uxdesign"
+    ]
+  },
+  {
+    "rank": 5,
+    "title": "Adding io::ErrorKind::TooManyOpenFiles to Rust",
+    "url": "https://dev.to/valentynkit/adding-ioerrorkindtoomanyopenfiles-to-rust-4h0k",
+    "reactions": 5,
+    "comments": 0,
+    "tags": [
+      "rust",
+      "systems",
+      "opensource",
+      "programming"
+    ]
+  },
+  {
+    "rank": 6,
+    "title": "What I Learned About PDAs in a Week of Building on Solana",
+    "url": "https://dev.to/lymah/what-i-learned-about-pdas-in-a-week-of-building-on-solana-4n51",
+    "reactions": 0,
+    "comments": 0,
+    "tags": [
+      "rust",
+      "solana",
+      "anchor",
+      "webdev"
+    ]
+  },
+  {
+    "rank": 7,
+    "title": "You Don't Use Linked Lists. But They're Running Half Your Software.",
+    "url": "https://dev.to/islamhafez0/you-dont-use-linked-lists-but-theyre-running-half-your-software-4b37",
+    "reactions": 3,
+    "comments": 4,
+    "tags": [
+      "datastructures",
+      "javascript",
+      "computerscience",
+      "systemdesign"
+    ]
+  },
+  {
+    "rank": 8,
+    "title": "I Built a QR Code Generator in Pure Vanilla JS — No Libraries, No Server, 202 Tests",
+    "url": "https://dev.to/dev_nestio_229945f10652e4/i-built-a-qr-code-generator-in-pure-vanilla-js-no-libraries-no-server-202-tests-7h",
+    "reactions": 1,
+    "comments": 0,
+    "tags": [
+      "javascript",
+      "webdev",
+      "devtools",
+      "opensource"
+    ]
+  },
+  {
+    "rank": 9,
+    "title": "Debugging Mobile Drag & CSS Specificity in a Real-Time PDF Diff Tool",
+    "url": "https://dev.to/bonzai2carn/debugging-mobile-drag-css-specificity-in-a-real-time-pdf-diff-tool-1509",
+    "reactions": 2,
+    "comments": 2,
+    "tags": [
+      "css",
+      "javascript",
+      "webdev",
+      "ux"
+    ]
+  },
+  {
+    "rank": 10,
+    "title": "AI Helps Us Write Code Faster. So Why Aren’t Projects Moving Faster?",
+    "url": "https://dev.to/swrzalek/ai-helps-us-write-code-faster-so-why-arent-projects-moving-faster-49jo",
+    "reactions": 0,
+    "comments": 0,
+    "tags": [
+      "ai",
+      "discuss",
+      "productivity",
+      "softwareengineering"
+    ]
+  },
+  {
+    "rank": 11,
+    "title": "I'm 33, 7 Years Into UI Development, Here's Why I Started Learning JavaScript From Scratch",
+    "url": "https://dev.to/dev_santosh_kumar/im-33-7-years-into-ui-development-heres-why-i-started-learning-javascript-from-scratch-4pch",
+    "reactions": 2,
+    "comments": 1,
+    "tags": [
+      "javascript",
+      "beginners",
+      "career",
+      "100daysofcode"
+    ]
+  },
+  {
+    "rank": 12,
+    "title": "Building a KVM Virtual Machine in Rust: Running a binary",
+    "url": "https://dev.to/stjepan86/building-a-kvm-virtual-machine-in-rust-running-a-binary-ian",
+    "reactions": 1,
+    "comments": 0,
+    "tags": [
+      "kvm",
+      "qemu",
+      "rust"
+    ]
+  },
+  {
+    "rank": 13,
+    "title": "The Agent Told Me It Was Done. The Tests Said Otherwise.",
+    "url": "https://dev.to/robert_floyddugger_6f9a4/the-agent-told-me-it-was-done-the-tests-said-otherwise-1h6m",
+    "reactions": 0,
+    "comments": 1,
+    "tags": [
+      "ai",
+      "codingagents",
+      "testing",
+      "specdrivendevelopment"
+    ]
+  },
+  {
+    "rank": 14,
+    "title": "Resurrecting Kepler: Getting Modern LLMs Running on a GTX 770 (Kernel 7.x)",
+    "url": "https://dev.to/skyne/resurrecting-kepler-getting-modern-llms-running-on-a-gtx-770-kernel-7x-4na",
+    "reactions": 1,
+    "comments": 0,
+    "tags": [
+      "cuda",
+      "linux",
+      "llm",
+      "gpu"
+    ]
+  },
+  {
+    "rank": 15,
+    "title": "I Built a Dual-Pool Adversarial Review System for AI Agents — And It Actually Works",
+    "url": "https://dev.to/yuhaolin2005/i-built-a-dual-pool-adversarial-review-system-for-ai-agents-and-it-actually-works-595j",
+    "reactions": 2,
+    "comments": 2,
+    "tags": [
+      "opensource",
+      "ai",
+      "claude",
+      "codereview"
+    ]
+  },
+  {
+    "rank": 16,
+    "title": "I Deployed 6 AI Systems Live — Here's What Actually Broke",
+    "url": "https://dev.to/danish08654/i-deployed-6-ai-systems-live-heres-what-actually-broke-4neo",
+    "reactions": 1,
+    "comments": 1,
+    "tags": [
+      "ai",
+      "productivity",
+      "opensource",
+      "product"
+    ]
+  },
+  {
+    "rank": 17,
+    "title": "I Backtested My Polymarket Bot Against Real Order Book Data. Here's What I Found.",
+    "url": "https://dev.to/casatrick/i-backtested-my-polymarket-bot-against-real-order-book-data-heres-what-i-found-52gp",
+    "reactions": 2,
+    "comments": 2,
+    "tags": [
+      "rust",
+      "trading",
+      "polymarket",
+      "backtesting"
+    ]
+  },
+  {
+    "rank": 18,
+    "title": "How I Replaced Gemini with a Self-Hosted LLM for Two Production Apps",
+    "url": "https://dev.to/smngvlkz/how-i-replaced-gemini-with-a-self-hosted-llm-for-two-production-apps-3069",
+    "reactions": 0,
+    "comments": 0,
+    "tags": [
+      "ai",
+      "selfhosted",
+      "nextjs",
+      "ollama"
+    ]
+  },
+  {
+    "rank": 19,
+    "title": "VP of Nothing: The CEO's Nephew Took Over My AI Platform. The Client Walked Within a Month.",
+    "url": "https://dev.to/xulingfeng/vp-of-nothing-the-ceos-nephew-took-over-my-ai-platform-the-client-walked-within-a-month-5dla",
+    "reactions": 21,
+    "comments": 6,
+    "tags": [
+      "ai",
+      "discuss",
+      "career",
+      "programming"
+    ]
+  },
+  {
+    "rank": 20,
+    "title": "I built CarvePHP: finding service boundaries in Laravel monoliths",
+    "url": "https://dev.to/mwaleedkhalil/i-built-carvephp-finding-service-boundaries-in-laravel-monoliths-103m",
+    "reactions": 1,
+    "comments": 0,
+    "tags": [
+      "laravel",
+      "php",
+      "opensource",
+      "microservices"
+    ]
+  },
+  {
+    "rank": 21,
+    "title": "Self-Healing SEO: a website that fixes its own broken links and rankings",
+    "url": "https://dev.to/webmeon/self-healing-seo-a-website-that-fixes-its-own-broken-links-and-rankings-1a77",
+    "reactions": 2,
+    "comments": 2,
+    "tags": [
+      "seo",
+      "nextjs",
+      "webdev",
+      "automation"
+    ]
+  },
+  {
+    "rank": 22,
+    "title": "I Tested 5 Open-Source NotebookLM Alternatives — Here's What Actually Works",
+    "url": "https://dev.to/vigoss_luke_3604c1d0e9b4a/i-tested-5-open-source-notebooklm-alternatives-heres-what-actually-works-12bc",
+    "reactions": 1,
+    "comments": 2,
+    "tags": [
+      "selfhosted",
+      "ai",
+      "notebooklm",
+      "opensource"
+    ]
+  },
+  {
+    "rank": 23,
+    "title": "useMemo vs useCallback: I Built a Tool That Makes Referential Equality Visible",
+    "url": "https://dev.to/dev48v/usememo-vs-usecallback-i-built-a-tool-that-makes-referential-equality-visible-325k",
+    "reactions": 3,
+    "comments": 2,
+    "tags": [
+      "react",
+      "javascript",
+      "webdev",
+      "beginners"
+    ]
+  },
+  {
+    "rank": 24,
+    "title": "The 60% Trap: Why E-Commerce Giants Are Laundering Discounts (And How to Protect Yourself)",
+    "url": "https://dev.to/carlos_lopez_e0907403c1b4/the-60-trap-why-e-commerce-giants-are-laundering-discounts-and-how-to-protect-yourself-40p6",
+    "reactions": 2,
+    "comments": 2,
+    "tags": [
+      "opensource",
+      "webdev",
+      "security",
+      "javascript"
+    ]
+  },
+  {
+    "rank": 25,
+    "title": "I Built an AI Agent That Gets Curious On Its Own",
+    "url": "https://dev.to/shridhar_shah2297/i-built-an-ai-agent-that-gets-curious-on-its-own-4oe1",
+    "reactions": 2,
+    "comments": 2,
+    "tags": [
+      "ai",
+      "machinelearning",
+      "llm",
+      "python"
+    ]
+  }
+]
