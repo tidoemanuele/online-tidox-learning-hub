@@ -1,0 +1,107 @@
+{
+  "date": "2026-06-28",
+  "episodeNumber": 98,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "Gating the front door doesn't close the building, The bifurcation thesis got confirmed within 24 hou, The ownership-and-privacy counter-current that tra",
+  "insights": [
+    {
+      "text": "Gating the front door doesn't close the building — the day's #1 was the supply-side answer to yesterday's government AI access controls. 'Anonymous GitHub account mass-dropping undisclosed 0-days' (746 points/293 comments) is raw, unattributed bulk disclosure that bypasses coordinated-disclosure norms entirely, pairing off-page with the Orchid Campaign — a repository-confusion attack reported to have compromised 100,000+ GitHub repos. It's the same surface as June 25's 28.8M-exchange distillation attack and June 24's 'vulnerability reports are not special,' now escalated: generating plausible attack artifacts is free, and trustworthy triage and attribution is the scarce resource the access gates can't supply.",
+      "tags": [
+        "security",
+        "github-trending",
+        "rust"
+      ]
+    },
+    {
+      "text": "The bifurcation thesis got confirmed within 24 hours. One day after the US government vetted who gets GPT-5.6 Sol and released Anthropic's Mythos only to 'trusted' organizations, 'Asian AI startups launch Mythos-like models' (200 points/155 comments) is the same capability re-derived and shipped without the gate. It continues June 23's GLM-5.2 (open weights beating GPT-5.5 on SWE-bench Pro) and June 27's DeepSeek inference optimizations — every incremental restriction on US frontier models is answered by ungated capability, increasingly from the jurisdictions the export controls targeted.",
+      "tags": [
+        "rust"
+      ]
+    },
+    {
+      "text": "The ownership-and-privacy counter-current that tracks every access restriction this month peaked across both leaderboards. On Hacker News the most-commented story was 'The case for physical media ownership' (398 points/261 comments) — owning outright versus revocable licensing — while on GitHub simplex-chat (+1,469 stars, 14,034 total), 'the first messaging network operating without user identifiers,' was again the top star-velocity repo for the second straight day, beside IceWhaleTech/CasaOS (+502, 35,863 — self-hosted personal cloud). Own your media, own your messaging, own your cloud: the structural pairing — each access restriction strengthens demand for revocation-proof alternatives — repeated for a third week.",
+      "tags": [
+        "github-trending"
+      ]
+    },
+    {
+      "text": "The silicon arc descended into its hardest physical layer: AI inside the design process itself. 'AI learns the dark art of RFIC design' (218 points/144 comments) applies AI to radio-frequency integrated-circuit layout — historically an intuition-bound, electromagnetic-effects corner of chip engineering that resists digital design rules. After June 25's Jalapeño inference ASIC (cost), June 26's IBM sub-1nm stacking (transistor) and M7 AI chip (roadmap), the compute-bottleneck story is becoming an AI-designs-the-compute story, and a durable analog/RF talent moat is the thing now under pressure.",
+      "tags": []
+    },
+    {
+      "text": "Spec-for-agents stopped being one viral repo and became a category. google-labs-code/design.md held +1,541 stars today (22,486 total) — essentially flat-high into a third trending week, not decaying — beside Fission-AI/OpenSpec (57,232, the general spec-driven-development framework design.md is one instance of) and JCodesMore/ai-website-cloner-template (+750, clone any site via AI coding agents). 'Describe intent in a spec the agent consumes' is consolidating into the default authoring model: visual-identity spec, general spec, applied edge — a convention stack alongside README.md, not a fluke.",
+      "tags": [
+        "github-trending",
+        "agents"
+      ]
+    },
+    {
+      "text": "The agent stack reached steady state — every layer trending at once, but stable rather than spiking. topoteretes/cognee (+780, 24,149) keeps agent-memory-as-infrastructure climbing (Mem0 at 52k off-page corroborates the category), garrytan/gstack (+674, 117,385) sustains the 23-tool role-cast-as-artifact pattern, xbtlin/ai-berkshire (+685, 4,468) is the domain-application layer, and anomalyco/opencode (+392, 179,879 — reportedly ~7.5M monthly active developers, model-agnostic across 75+ providers) is the reference harness. Competition has shifted from 'which layer exists' to 'which implementation wins each layer' — memory and harness being the contested fronts.",
+      "tags": [
+        "agents"
+      ]
+    },
+    {
+      "text": "The labor-displacement narrative shifted from speculative anxiety to a documented failure case. 'Ford hired AI and sacked humans. It backfired badly' (94 points/52 comments) is concrete counter-evidence to the replace-humans thesis, tempering it with the un-encodable-judgment bottleneck named by June 26's 'You can't unit test for taste.' Expect more AI-replaced-then-rehired case studies; the durable pattern for judgment-bound roles is augmentation over replacement, and trustworthy human judgment — not generation capacity — remains the scarce input.",
+      "tags": [
+        "rust"
+      ]
+    },
+    {
+      "text": "On a day of 0-day disclosure, ungated-model counters, and AI-in-silicon, the craft anchor owned the body of the page. 'OpenRA' (641 points/126 comments), the open-source re-implementation of the Command & Conquer / Red Alert RTS engine, sat beside 'Decomp Academy — Learn to decompile GameCube games into matching C' (86/29) and a 'Fintech Engineering Handbook' (518/165), with 'Wayfinder Router: deterministic routing of queries between local and hosted LLM' (24/1) making the task-routing thesis concrete. The weeks-long resting-state pattern repeated: when the cycle goes industrial, HN reverts to the authored, individually-masterable artifact, and the appetite is compounding.",
+      "tags": [
+        "open-source"
+      ]
+    }
+  ],
+  "trending": [],
+  "numbers": [
+    {
+      "label": "Stories",
+      "value": "0",
+      "unit": "items"
+    },
+    {
+      "label": "Repos",
+      "value": "0",
+      "unit": "tracked"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "1",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "June 28, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Gating the front door doesn't close the building",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "The bifurcation thesis got confirmed within 24 hours. One day after the US government vetted who gets GPT-5.6 Sol and released Anthropic's Mythos only to 'trusted' organizations, 'Asian AI startups launch Mythos-like models' is the same capability re-derived and shipped without the gate. It continues June 23's GLM-5.2 and June 27's DeepSeek inference optimizations",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "The ownership-and-privacy counter-current that tracks every access restriction this month peaked across both leaderboards. On Hacker News the most-commented story was 'The case for physical media ownership'",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Today's brief covers the most interesting signals across the tech landscape."
+    }
+  }
+}
