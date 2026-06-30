@@ -1,0 +1,241 @@
+[
+  {
+    "title": "What's wrong with EU age verification? (Nothing)",
+    "score": 25,
+    "tags": [
+      "privacy"
+    ],
+    "url": "https://blog.vrypan.net/2026/06/29/260629-whats-wrong-with-eu-age-verification/",
+    "comments_url": "https://lobste.rs/s/29laqs/what_s_wrong_with_eu_age_verification"
+  },
+  {
+    "title": "What is `std::pin::Pin` in Rust?",
+    "score": 26,
+    "tags": [
+      "rust"
+    ],
+    "url": "https://vrong.me/blog/what-is-pinning-in-rust/",
+    "comments_url": "https://lobste.rs/s/ltzfkv/what_is_std_pin_pin_rust"
+  },
+  {
+    "title": "When Impressive Performance Gains Do Not Matter",
+    "score": 62,
+    "tags": [
+      "performance"
+    ],
+    "url": "https://blog.colinbreck.com/when-impressive-performance-gains-do-not-matter/",
+    "comments_url": "https://lobste.rs/s/fok2dp/when_impressive_performance_gains_do_not"
+  },
+  {
+    "title": "The end of the AArch64 desktopexperiment",
+    "score": 16,
+    "tags": [
+      "hardware"
+    ],
+    "url": "https://marcin.juszkiewicz.com.pl/2026/06/26/the-end-of-the-aarch64-desktop-experiment/",
+    "comments_url": "https://lobste.rs/s/pjcplu/end_aarch64_desktopexperiment"
+  },
+  {
+    "title": "WATaBoy: JIT-ing Game Boy Instructions to Wasm Beats a Native Interpreter",
+    "score": 39,
+    "tags": [
+      "wasm"
+    ],
+    "url": "https://humphri.es/blog/WATaBoy/",
+    "comments_url": "https://lobste.rs/s/krqeoc/wataboy_jit_ing_game_boy_instructions"
+  },
+  {
+    "title": "Investigating Linux graphics (2025)",
+    "score": 6,
+    "tags": [
+      "graphics",
+      "linux"
+    ],
+    "url": "https://roscidus.com/blog/blog/2025/06/24/graphics/",
+    "comments_url": "https://lobste.rs/s/wenqxh/investigating_linux_graphics_2025"
+  },
+  {
+    "title": "Rheo 0.4.0",
+    "score": 1,
+    "tags": [
+      "release",
+      "rust"
+    ],
+    "url": "https://rheo.ohrg.org",
+    "comments_url": "https://lobste.rs/s/3rgtd3/rheo_0_4_0"
+  },
+  {
+    "title": "Loko Scheme 0.13.0",
+    "score": 33,
+    "tags": [
+      "lisp",
+      "release"
+    ],
+    "url": "https://weinholt.se/articles/loko-scheme-0-13-0/",
+    "comments_url": "https://lobste.rs/s/uofjjs/loko_scheme_0_13_0"
+  },
+  {
+    "title": "Spindle's new microVM engine",
+    "score": 14,
+    "tags": [
+      "devops",
+      "linux",
+      "vcs"
+    ],
+    "url": "https://blog.tangled.org/spindle-microvm/",
+    "comments_url": "https://lobste.rs/s/ybcofm/spindle_s_new_microvm_engine"
+  },
+  {
+    "title": "The AT-URI Syntax Mess",
+    "score": 13,
+    "tags": [
+      "web"
+    ],
+    "url": "https://bnewbold.leaflet.pub/3mph4hzvbdc2v",
+    "comments_url": "https://lobste.rs/s/7fjqgc/at_uri_syntax_mess"
+  },
+  {
+    "title": "Platform Support for GNU Extensions to Basic Regular Expressions",
+    "score": 2,
+    "tags": [
+      "unix"
+    ],
+    "url": "https://www.wezm.net/v2/posts/2026/bre/",
+    "comments_url": "https://lobste.rs/s/edml2s/platform_support_for_gnu_extensions"
+  },
+  {
+    "title": "Ante: New Way to Blend Borrow Checking and Reference Counting",
+    "score": 67,
+    "tags": [
+      "compsci",
+      "plt"
+    ],
+    "url": "https://verdagon.dev/blog/ante-blending-borrowing-rc",
+    "comments_url": "https://lobste.rs/s/vv4fhi/ante_new_way_blend_borrow_checking"
+  },
+  {
+    "title": "Revisiting Yliluoma’s ordered dither algorithm",
+    "score": 5,
+    "tags": [
+      "graphics"
+    ],
+    "url": "https://30fps.net/pages/revisiting-yliluoma-2/",
+    "comments_url": "https://lobste.rs/s/cxxgbt/revisiting_yliluoma_s_ordered_dither"
+  },
+  {
+    "title": "Canvas patch: we need testers",
+    "score": 25,
+    "tags": [
+      "emacs",
+      "windows"
+    ],
+    "url": "https://monadicsheep.org/blog/call-for-canvas-patch-testers.html",
+    "comments_url": "https://lobste.rs/s/dkky2i/canvas_patch_we_need_testers"
+  },
+  {
+    "title": "Type-checked non-empty strings",
+    "score": 15,
+    "tags": [
+      "haskell"
+    ],
+    "url": "https://exploring-better-ways.bellroy.com/haskell-koan-type-checked-non-empty-strings.html",
+    "comments_url": "https://lobste.rs/s/r1uxyo/type_checked_non_empty_strings"
+  },
+  {
+    "title": "Memory Safe Context Switching",
+    "score": 6,
+    "tags": [
+      "c"
+    ],
+    "url": "https://fil-c.org/context_switches",
+    "comments_url": "https://lobste.rs/s/1ggr8a/memory_safe_context_switching"
+  },
+  {
+    "title": "Evaluation order and nontermination in query languages",
+    "score": 9,
+    "tags": [
+      "databases",
+      "plt"
+    ],
+    "url": "https://www.rntz.net/post/2026-06-11-datalog-nontermination.html",
+    "comments_url": "https://lobste.rs/s/0p04p0/evaluation_order_nontermination_query"
+  },
+  {
+    "title": "Typst: Designing for Incrementality",
+    "score": 17,
+    "tags": [
+      "plt",
+      "video"
+    ],
+    "url": "https://youtu.be/yWWVhbyOWWE",
+    "comments_url": "https://lobste.rs/s/hj0exw/typst_designing_for_incrementality"
+  },
+  {
+    "title": "A native graphical shell for SSH",
+    "score": 3,
+    "tags": [
+      "browsers",
+      "unix"
+    ],
+    "url": "https://probablymarcus.com/blocks/2026/06/28/native-graphical-shell-for-SSH.html",
+    "comments_url": "https://lobste.rs/s/ewgrd8/native_graphical_shell_for_ssh"
+  },
+  {
+    "title": "Longinus: 2 Boundaries in One Bug, Piercing Chrome’s Renderer and V8 Sandbox with a Single Vulnerability, CVE-2026-6307",
+    "score": 13,
+    "tags": [
+      "security",
+      "web"
+    ],
+    "url": "https://nebusec.ai/research/v8-cve-2026-6307-writeup/",
+    "comments_url": "https://lobste.rs/s/uaoe9y/longinus_2_boundaries_one_bug_piercing"
+  },
+  {
+    "title": "“Double Threat” to Private Communications: Undemocratic Chat Control Backroom Deals and Imminent Concessions Spark Relaunch of fightchatcontrol.eu",
+    "score": 101,
+    "tags": [
+      "privacy"
+    ],
+    "url": "https://www.patrick-breyer.de/en/double-threat-to-private-communications-undemocratic-chat-control-backroom-deals-and-imminent-concessions-spark-relaunch-of-fightchatcontrol-eu/",
+    "comments_url": "https://lobste.rs/s/tw0v1d/double_threat_private_communications"
+  },
+  {
+    "title": "jj_tui: terminal user interface to jujutsu focused on speed and clarity",
+    "score": 1,
+    "tags": [
+      "ml",
+      "vcs"
+    ],
+    "url": "https://tangled.org/elidowling.com/jj_tui",
+    "comments_url": "https://lobste.rs/s/fg3sgh/jj_tui_terminal_user_interface_jujutsu"
+  },
+  {
+    "title": "Towards Understandable Software",
+    "score": 39,
+    "tags": [
+      "a11y"
+    ],
+    "url": "https://gracefulliberty.com/articles/towards-understandable-software/",
+    "comments_url": "https://lobste.rs/s/vgqcgi/towards_understandable_software"
+  },
+  {
+    "title": "ipv6_frag_escape: Linux LPE - Reliable Jail/Container Escape",
+    "score": 8,
+    "tags": [
+      "linux",
+      "security"
+    ],
+    "url": "https://github.com/sgkdev/ipv6_frag_escape",
+    "comments_url": "https://lobste.rs/s/eihlve/ipv6_frag_escape_linux_lpe_reliable_jail"
+  },
+  {
+    "title": "Unprivileged root via a use-after-free in DRM GEM change_handle (CVE-2026-46215)",
+    "score": 7,
+    "tags": [
+      "linux",
+      "security"
+    ],
+    "url": "https://cyberstan.co.uk/drm-lpe-linux/",
+    "comments_url": "https://lobste.rs/s/hh5yyq/unprivileged_root_via_use_after_free_drm"
+  }
+]

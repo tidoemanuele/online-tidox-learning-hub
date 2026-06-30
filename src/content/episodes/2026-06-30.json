@@ -1,72 +1,136 @@
 {
   "date": "2026-06-30",
-  "episodeNumber": 100,
+  "episodeNumber": 101,
   "locale": "en-US",
   "title": "Intelligence Brief",
-  "subtitle": "Open weights took the coding crown, An open model beat Claude Opus 4.7 on agentic codi, The surveillance-and-identity pendulum swung back ",
+  "subtitle": "Qwen 3.6 27B is the sweet spot for local developme, 30-year sentence for transporting zines is a five-, US Supreme Court rules geofence warrants require c",
   "heroStat": {
-    "value": "27B",
-    "label": "is the sweet spot for local de"
+    "value": "909",
+    "label": "points on \"Qwen 3.6 27B is the sweet spot for local development\""
   },
   "insights": [
     {
-      "text": "Open weights took the coding crown — the day's #1 was 'Qwen 3.6 27B is the sweet spot for local development' (820 points/576 comments). Alibaba's Qwen3.6-27B is a dense 27B Apache-2.0 model (262k context, runs on a single 24GB card at ~18GB) that reportedly beats a 397B model on coding and is now framed as the default for local dev, not the fallback. Where June 29's GLM-5.2 win was on cyber benchmarks, today's open-weights win is on the developer's daily coding loop — the bifurcation thesis moved from a security niche to the main workflow.",
+      "text": "Qwen 3.6 27B is the sweet spot for local development (909 pts, 610 comments)",
       "tags": [
-        "security",
-        "research"
-      ]
+        "hacker-news"
+      ],
+      "source": "HN 909pts",
+      "url": "https://quesma.com/blog/qwen-36-is-awesome/"
     },
     {
-      "text": "An open model beat Claude Opus 4.7 on agentic coding — and wrote its own scaffold to do it. 'Ornith-1.0: self-improving open-source models for agentic coding' (190 points/39 comments) is DeepReinforce's MIT-licensed family (9B/31B dense, 35B/397B MoE, built on Gemma 4 + Qwen 3.5) whose 397B flagship posts 82.4 on SWE-Bench Verified and 77.5 on Terminal-Bench 2.1, surpassing Opus 4.7, while the 9B matches Gemma 4-31B. Its trick is self-scaffolding: the orchestration framework is a learnable object that co-evolves with the policy during RL, so the model writes its own task plans, launches tools, and rewrites failing steps — attacking the harness moat directly, beside LongCat-2.0 (1.6T total/48B active MoE).",
+      "text": "30-year sentence for transporting zines is a five-alarm fire for free speech (564 pts, 338 comments)",
       "tags": [
-        "agents",
-        "open-source"
-      ]
+        "hacker-news"
+      ],
+      "source": "HN 564pts",
+      "url": "https://theintercept.com/2026/06/26/daniel-sanchez-estrada-zines-prairieland-free-speech/"
     },
     {
-      "text": "The surveillance-and-identity pendulum swung back the other way. The day's biggest legal story — 'US Supreme Court rules geofence warrants require constitutional protections' (506 points/240 comments) — is a 6-3 Kagan opinion holding that bulk cellphone-location sweeps implicate the Fourth Amendment, a structural counter to June 29's identity-enforcement and attribution-of-speech arc. Paired with '30-year sentence for transporting zines is a five-alarm fire for free speech' (509/314), the page reframes June's monotone widening of who-you-are enforcement as genuinely contested, with the highest court supplying a legal restoring force.",
-      "tags": []
-    },
-    {
-      "text": "The cost of the identity regime got demonstrated, not argued. 'One million passports leaked online' (227 points/125 comments) is a cannabis-club portal that left 1,082,680 member records, ~923,543 passport/national-ID numbers, and 985,841 ID photos on a passwordless server at sequential, unauthenticated URLs — full profiles returned to any basic web request. The structural lesson: a high-value credential (a passport) was used in a low-value auth system (dispensary age-checks), and the low-value system is what got breached. Every age-verification mandate multiplies exactly these honeypots.",
-      "tags": []
-    },
-    {
-      "text": "The ownership-and-privacy counter-current held its streak into a fifth week and led the GitHub chart outright. simplex-chat (+1,607 stars, 16,936 total), the identifier-free messaging network, was top velocity again, beside altic-dev/FluidVoice (+830, 4,561 — fastest offline macOS dictation, accelerating from June 29's +365). On Hacker News '.self: a new top-level domain designed to support self-hosting' (443/258), 'Free the Icons' (380/104), and VeraCrypt trending (+186) rounded out the cluster. On a day of a passport mega-leak and a Fourth Amendment ruling, own-your-messaging/dictation/domain/disk didn't just counter — it topped the velocity chart.",
+      "text": "US Supreme Court rules geofence warrants require constitutional protections (526 pts, 247 comments)",
       "tags": [
-        "github-trending"
-      ]
+        "hacker-news"
+      ],
+      "source": "HN 526pts",
+      "url": "https://www.theguardian.com/us-news/2026/jun/29/supreme-court-geofence-warrants-case-decision"
     },
     {
-      "text": "Multi-agent role-casts kept compounding — into money, councils, and browsers. msitarzewski/agency-agents (+1,425, 119,454) led the non-privacy velocity, xbtlin/ai-berkshire (+1,386, 6,969) kept accelerating its multi-week climb as a value-investing framework, beside HKUDS/Vibe-Trading (+839, 15,324), the deliberation-pattern 0xNyk/council-of-high-intelligence (+331, 2,119), and browser-use/video-use (+967, 12,132) extending browser automation into video. The role-cast-as-product-template pattern from gstack keeps finding verticals, with finance the fastest-accelerating proving ground — expect backtest-versus-live scrutiny as stars outpace track records.",
+      "text": ".self: A new top-level domain designed to support self-hosting (504 pts, 291 comments)",
       "tags": [
-        "agents"
-      ]
+        "hacker-news"
+      ],
+      "source": "HN 504pts",
+      "url": "https://hccf.onmy.cloud/2026/06/21/reclaiming-our-digital-selves-hccfs-vision-for-a-human-centered-top-level-domain/"
     },
     {
-      "text": "Compute economics stayed industrial, with the top-of-cycle debate on one page. 'South Korea to spend $1T on more memory chip production and humanoid robots' (202 points/121 comments) is a sovereign-scale bet on the HBM-scarcity constraint behind June 26's Apple price hikes, landing beside 'Popping the GPU Bubble' (67/14) — the overbuilt-capex counter — and 'Rocketlab acquires Iridium' (394/258). Memory and HBM remain the binding constraint and the geopolitical lever, and the simultaneous '$1T spend' and 'bubble' framings mark exactly the top-of-cycle argument developers should price into infra-cost assumptions.",
-      "tags": []
+      "text": "What's wrong with EU age verification? (Nothing) (25 pts on Lobsters)",
+      "tags": [
+        "lobsters",
+        "privacy"
+      ],
+      "source": "Lobsters 25pts",
+      "url": "https://blog.vrypan.net/2026/06/29/260629-whats-wrong-with-eu-age-verification/"
     },
     {
-      "text": "On a day of open-weights coding wins, a privacy ruling, and a passport mega-leak, the craft anchor owned the page body. 'WATaBoy: JIT-ing Game Boy instructions to WASM beats a native interpreter' (201/33), 'What happens when you run a CUDA kernel?' (242/29), 'Apple Neural Engine: Architecture, Programming, and Performance' (151/22), 'Exploring PDP-1 Lisp (1960)' (50/16), 'Linux for the Sega MegaDrive' (75/9), 'Alan Kay on the meaning of object-oriented programming (2003)' (45/11), and a hand-built 6-inch f/2.8 telescope held the middle. The weeks-long resting-state pattern repeated: when the cycle goes industrial, HN reverts to the authored, individually-masterable artifact.",
-      "tags": []
+      "text": "What is `std::pin::Pin` in Rust? (26 pts on Lobsters)",
+      "tags": [
+        "lobsters",
+        "rust"
+      ],
+      "source": "Lobsters 26pts",
+      "url": "https://vrong.me/blog/what-is-pinning-in-rust/"
+    },
+    {
+      "text": "Welcome to AI Engineer World’s Fair 2026 (68 reactions on Dev.to)",
+      "tags": [
+        "devto",
+        "aie",
+        "ai"
+      ],
+      "source": "Dev.to 68❤",
+      "url": "https://dev.to/dailycontext/welcome-to-ai-engineer-worlds-fair-2026-2o09"
+    },
+    {
+      "text": "Need a break? Play today's game from The Daily Context. (68 reactions on Dev.to)",
+      "tags": [
+        "devto",
+        "aie",
+        "gamedev"
+      ],
+      "source": "Dev.to 68❤",
+      "url": "https://dev.to/devteam/need-a-break-play-todays-game-from-the-daily-context-1fli"
     }
   ],
-  "trending": [],
-  "numbers": [
+  "trending": [
     {
-      "label": "Stories",
-      "value": "0",
-      "unit": "items"
+      "name": "free-for-dev",
+      "fullName": "ripienaar/free-for-dev",
+      "stars": "127K",
+      "language": "HTML",
+      "delta": "+1935/d"
     },
     {
-      "label": "Repos",
-      "value": "0",
-      "unit": "tracked"
+      "name": "simplex-chat",
+      "fullName": "simplex-chat/simplex-chat",
+      "stars": "17.1K",
+      "language": "Haskell",
+      "delta": "+1607/d"
+    },
+    {
+      "name": "agency-agents",
+      "fullName": "msitarzewski/agency-agents",
+      "stars": "120K",
+      "language": "Shell",
+      "delta": "+1425/d"
+    },
+    {
+      "name": "ai-berkshire",
+      "fullName": "xbtlin/ai-berkshire",
+      "stars": "7.2K",
+      "language": "Python",
+      "delta": "+1386/d"
+    },
+    {
+      "name": "video-use",
+      "fullName": "browser-use/video-use",
+      "stars": "12.2K",
+      "language": "Python",
+      "delta": "+967/d"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "909",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "1935",
+      "unit": "stars/day"
     },
     {
       "label": "Sources Scraped",
-      "value": "1",
+      "value": "4",
       "unit": "sites"
     },
     {
@@ -82,17 +146,17 @@
     },
     "headlines": [
       {
-        "text": "Open weights took the coding crown",
+        "text": "Qwen 3.6 27B is the sweet spot for local development",
         "metric": "—",
         "source": "web"
       },
       {
-        "text": "An open model beat Claude Opus 4.7 on agentic coding",
+        "text": "30-year sentence for transporting zines is a five-alarm fire for free speech",
         "metric": "—",
         "source": "web"
       },
       {
-        "text": "The surveillance-and-identity pendulum swung back the other way. The day's biggest legal story",
+        "text": "US Supreme Court rules geofence warrants require constitutional protections",
         "metric": "—",
         "source": "web"
       }

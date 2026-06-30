@@ -1,0 +1,212 @@
+[
+  {
+    "rank": 1,
+    "title": "Qwen 3.6 27B is the sweet spot for local development",
+    "url": "https://quesma.com/blog/qwen-36-is-awesome/",
+    "points": 909,
+    "comments": 610
+  },
+  {
+    "rank": 2,
+    "title": "30-year sentence for transporting zines is a five-alarm fire for free speech",
+    "url": "https://theintercept.com/2026/06/26/daniel-sanchez-estrada-zines-prairieland-free-speech/",
+    "points": 564,
+    "comments": 338
+  },
+  {
+    "rank": 3,
+    "title": "US Supreme Court rules geofence warrants require constitutional protections",
+    "url": "https://www.theguardian.com/us-news/2026/jun/29/supreme-court-geofence-warrants-case-decision",
+    "points": 526,
+    "comments": 247
+  },
+  {
+    "rank": 4,
+    "title": ".self: A new top-level domain designed to support self-hosting",
+    "url": "https://hccf.onmy.cloud/2026/06/21/reclaiming-our-digital-selves-hccfs-vision-for-a-human-centered-top-level-domain/",
+    "points": 504,
+    "comments": 291
+  },
+  {
+    "rank": 5,
+    "title": "Free the Icons",
+    "url": "https://weblog.rogueamoeba.com/2026/06/26/free-the-icons/",
+    "points": 456,
+    "comments": 129
+  },
+  {
+    "rank": 6,
+    "title": "Rocketlab acquires Iridium",
+    "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-acquire-iridium-historic-deal-creating-fully",
+    "points": 412,
+    "comments": 274
+  },
+  {
+    "rank": 7,
+    "title": "A native graphical shell for SSH",
+    "url": "https://probablymarcus.com/blocks/2026/06/28/native-graphical-shell-for-SSH.html",
+    "points": 306,
+    "comments": 169
+  },
+  {
+    "rank": 8,
+    "title": "One million passports leaked online",
+    "url": "https://www.theverge.com/tech/947157/passports-data-breach-cannabis-club-systems-nefos-puffpal",
+    "points": 269,
+    "comments": 155
+  },
+  {
+    "rank": 9,
+    "title": "What happens when you run a CUDA kernel?",
+    "url": "https://fergusfinn.com/blog/what-happens-when-you-run-a-gpu-kernel/",
+    "points": 256,
+    "comments": 30
+  },
+  {
+    "rank": 10,
+    "title": "South Korea to spend $1T on more memory chip production and humanoid robots",
+    "url": "https://arstechnica.com/ai/2026/06/south-korea-to-spend-1t-on-more-memory-chip-production-and-humanoid-robots/",
+    "points": 223,
+    "comments": 149
+  },
+  {
+    "rank": 11,
+    "title": "Ornith-1.0: self-improving open-source models for agentic coding",
+    "url": "https://github.com/deepreinforce-ai/Ornith-1",
+    "points": 209,
+    "comments": 39
+  },
+  {
+    "rank": 12,
+    "title": "Dark Sky Lighting",
+    "url": "https://www.savingourstars.org/darkskylighting#whatisdarkskylighting",
+    "points": 208,
+    "comments": 38
+  },
+  {
+    "rank": 13,
+    "title": "WATaBoy: JIT-Ing Game Boy Instructions to WASM Beats a Native Interpreter",
+    "url": "https://humphri.es/blog/WATaBoy/",
+    "points": 205,
+    "comments": 34
+  },
+  {
+    "rank": 14,
+    "title": "Open Source Low Tech",
+    "url": "https://opensourcelowtech.org/",
+    "points": 179,
+    "comments": 34
+  },
+  {
+    "rank": 15,
+    "title": "US Supreme Court Just Blew Up EU-US Data Transfers",
+    "url": "https://noyb.eu/en/us-supreme-court-just-blew-eu-us-data-transfers",
+    "points": 174,
+    "comments": 114
+  },
+  {
+    "rank": 16,
+    "title": "Apple Neural Engine: Architecture, Programming, and Performance",
+    "url": "https://arxiv.org/abs/2606.22283",
+    "points": 170,
+    "comments": 23
+  },
+  {
+    "rank": 17,
+    "title": "LongCat-2.0, a large-scale MoE model with 1.6T total and 48B Active",
+    "url": "https://longcat.chat/blog/longcat-2.0/",
+    "points": 142,
+    "comments": 40
+  },
+  {
+    "rank": 18,
+    "title": "Wallace the 6 inch f/2.8 telescope, building it, and hiking with it",
+    "url": "https://lucassifoni.info/blog/hiking-with-wallace/",
+    "points": 139,
+    "comments": 26
+  },
+  {
+    "rank": 19,
+    "title": "Popping the GPU Bubble",
+    "url": "https://moondream.ai/blog/popping-the-gpu-bubble",
+    "points": 128,
+    "comments": 29
+  },
+  {
+    "rank": 20,
+    "title": "Memory Safe Context Switching",
+    "url": "https://fil-c.org/context_switches",
+    "points": 126,
+    "comments": 24
+  },
+  {
+    "rank": 21,
+    "title": "Linux for the Sega MegaDrive",
+    "url": "https://github.com/LinuxMD/linuxmd",
+    "points": 107,
+    "comments": 14
+  },
+  {
+    "rank": 22,
+    "title": "Kb – Prolog Knowledge Base",
+    "url": "https://github.com/mat-mgm/kb-prolog",
+    "points": 77,
+    "comments": 8
+  },
+  {
+    "rank": 23,
+    "title": "How to corrupt an SQLite database file",
+    "url": "https://www.sqlite.org/howtocorrupt.html",
+    "points": 76,
+    "comments": 15
+  },
+  {
+    "rank": 24,
+    "title": "Exploring PDP-1 Lisp (1960)",
+    "url": "https://obsolescence.dev/pdp1-lisp-introduction.html",
+    "points": 73,
+    "comments": 17
+  },
+  {
+    "rank": 25,
+    "title": "Zig – SPIR-V Backend Progress",
+    "url": "https://ziglang.org/devlog/2026/#2026-06-26",
+    "points": 67,
+    "comments": 30
+  },
+  {
+    "rank": 26,
+    "title": "Alan Kay on the meaning of \"object-oriented programming\" (2003)",
+    "url": "https://notes.shixiangxi.com/en/docs/appendix/alan-kay-on-oop/",
+    "points": 66,
+    "comments": 26
+  },
+  {
+    "rank": 27,
+    "title": "Old Computer Challenge",
+    "url": "http://occ.sdf.org/",
+    "points": 62,
+    "comments": 24
+  },
+  {
+    "rank": 28,
+    "title": "The end of the AArch64 desktop experiment",
+    "url": "https://marcin.juszkiewicz.com.pl/2026/06/26/the-end-of-the-aarch64-desktop-experiment/",
+    "points": 38,
+    "comments": 20
+  },
+  {
+    "rank": 29,
+    "title": "British Origami: the 1955 exhibition by Akira Yoshizawa (2005)",
+    "url": "https://www.britishorigami.org/cp-lister-list/the-1955-exhibition-by-akira-yoshizawa/",
+    "points": 32,
+    "comments": 3
+  },
+  {
+    "rank": 30,
+    "title": "How to organize 3 acquired companies into one coherent website",
+    "url": "https://littlelanguagemodels.com/how-to-structure-your-sites-after-a-big-acquisition/",
+    "points": 13,
+    "comments": 0
+  }
+]
