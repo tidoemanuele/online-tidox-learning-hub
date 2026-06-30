@@ -1,0 +1,104 @@
+{
+  "date": "2026-06-30",
+  "episodeNumber": 100,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "Open weights took the coding crown, An open model beat Claude Opus 4.7 on agentic codi, The surveillance-and-identity pendulum swung back ",
+  "heroStat": {
+    "value": "27B",
+    "label": "is the sweet spot for local de"
+  },
+  "insights": [
+    {
+      "text": "Open weights took the coding crown — the day's #1 was 'Qwen 3.6 27B is the sweet spot for local development' (820 points/576 comments). Alibaba's Qwen3.6-27B is a dense 27B Apache-2.0 model (262k context, runs on a single 24GB card at ~18GB) that reportedly beats a 397B model on coding and is now framed as the default for local dev, not the fallback. Where June 29's GLM-5.2 win was on cyber benchmarks, today's open-weights win is on the developer's daily coding loop — the bifurcation thesis moved from a security niche to the main workflow.",
+      "tags": [
+        "security",
+        "research"
+      ]
+    },
+    {
+      "text": "An open model beat Claude Opus 4.7 on agentic coding — and wrote its own scaffold to do it. 'Ornith-1.0: self-improving open-source models for agentic coding' (190 points/39 comments) is DeepReinforce's MIT-licensed family (9B/31B dense, 35B/397B MoE, built on Gemma 4 + Qwen 3.5) whose 397B flagship posts 82.4 on SWE-Bench Verified and 77.5 on Terminal-Bench 2.1, surpassing Opus 4.7, while the 9B matches Gemma 4-31B. Its trick is self-scaffolding: the orchestration framework is a learnable object that co-evolves with the policy during RL, so the model writes its own task plans, launches tools, and rewrites failing steps — attacking the harness moat directly, beside LongCat-2.0 (1.6T total/48B active MoE).",
+      "tags": [
+        "agents",
+        "open-source"
+      ]
+    },
+    {
+      "text": "The surveillance-and-identity pendulum swung back the other way. The day's biggest legal story — 'US Supreme Court rules geofence warrants require constitutional protections' (506 points/240 comments) — is a 6-3 Kagan opinion holding that bulk cellphone-location sweeps implicate the Fourth Amendment, a structural counter to June 29's identity-enforcement and attribution-of-speech arc. Paired with '30-year sentence for transporting zines is a five-alarm fire for free speech' (509/314), the page reframes June's monotone widening of who-you-are enforcement as genuinely contested, with the highest court supplying a legal restoring force.",
+      "tags": []
+    },
+    {
+      "text": "The cost of the identity regime got demonstrated, not argued. 'One million passports leaked online' (227 points/125 comments) is a cannabis-club portal that left 1,082,680 member records, ~923,543 passport/national-ID numbers, and 985,841 ID photos on a passwordless server at sequential, unauthenticated URLs — full profiles returned to any basic web request. The structural lesson: a high-value credential (a passport) was used in a low-value auth system (dispensary age-checks), and the low-value system is what got breached. Every age-verification mandate multiplies exactly these honeypots.",
+      "tags": []
+    },
+    {
+      "text": "The ownership-and-privacy counter-current held its streak into a fifth week and led the GitHub chart outright. simplex-chat (+1,607 stars, 16,936 total), the identifier-free messaging network, was top velocity again, beside altic-dev/FluidVoice (+830, 4,561 — fastest offline macOS dictation, accelerating from June 29's +365). On Hacker News '.self: a new top-level domain designed to support self-hosting' (443/258), 'Free the Icons' (380/104), and VeraCrypt trending (+186) rounded out the cluster. On a day of a passport mega-leak and a Fourth Amendment ruling, own-your-messaging/dictation/domain/disk didn't just counter — it topped the velocity chart.",
+      "tags": [
+        "github-trending"
+      ]
+    },
+    {
+      "text": "Multi-agent role-casts kept compounding — into money, councils, and browsers. msitarzewski/agency-agents (+1,425, 119,454) led the non-privacy velocity, xbtlin/ai-berkshire (+1,386, 6,969) kept accelerating its multi-week climb as a value-investing framework, beside HKUDS/Vibe-Trading (+839, 15,324), the deliberation-pattern 0xNyk/council-of-high-intelligence (+331, 2,119), and browser-use/video-use (+967, 12,132) extending browser automation into video. The role-cast-as-product-template pattern from gstack keeps finding verticals, with finance the fastest-accelerating proving ground — expect backtest-versus-live scrutiny as stars outpace track records.",
+      "tags": [
+        "agents"
+      ]
+    },
+    {
+      "text": "Compute economics stayed industrial, with the top-of-cycle debate on one page. 'South Korea to spend $1T on more memory chip production and humanoid robots' (202 points/121 comments) is a sovereign-scale bet on the HBM-scarcity constraint behind June 26's Apple price hikes, landing beside 'Popping the GPU Bubble' (67/14) — the overbuilt-capex counter — and 'Rocketlab acquires Iridium' (394/258). Memory and HBM remain the binding constraint and the geopolitical lever, and the simultaneous '$1T spend' and 'bubble' framings mark exactly the top-of-cycle argument developers should price into infra-cost assumptions.",
+      "tags": []
+    },
+    {
+      "text": "On a day of open-weights coding wins, a privacy ruling, and a passport mega-leak, the craft anchor owned the page body. 'WATaBoy: JIT-ing Game Boy instructions to WASM beats a native interpreter' (201/33), 'What happens when you run a CUDA kernel?' (242/29), 'Apple Neural Engine: Architecture, Programming, and Performance' (151/22), 'Exploring PDP-1 Lisp (1960)' (50/16), 'Linux for the Sega MegaDrive' (75/9), 'Alan Kay on the meaning of object-oriented programming (2003)' (45/11), and a hand-built 6-inch f/2.8 telescope held the middle. The weeks-long resting-state pattern repeated: when the cycle goes industrial, HN reverts to the authored, individually-masterable artifact.",
+      "tags": []
+    }
+  ],
+  "trending": [],
+  "numbers": [
+    {
+      "label": "Stories",
+      "value": "0",
+      "unit": "items"
+    },
+    {
+      "label": "Repos",
+      "value": "0",
+      "unit": "tracked"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "1",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "June 30, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Open weights took the coding crown",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "An open model beat Claude Opus 4.7 on agentic coding",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "The surveillance-and-identity pendulum swung back the other way. The day's biggest legal story",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Today's brief covers the most interesting signals across the tech landscape."
+    }
+  }
+}
