@@ -1,0 +1,122 @@
+[
+  {
+    "rank": 1,
+    "title": "Qwen 3.6 27B is the sweet spot for local development",
+    "url": "https://quesma.com/blog/qwen-36-is-awesome/",
+    "hn_url": "https://news.ycombinator.com/item?id=48721903",
+    "points": 778,
+    "comments": 562
+  },
+  {
+    "rank": 2,
+    "title": ".self: A new top-level domain designed to support self-hosting",
+    "url": "https://hccf.onmy.cloud/2026/06/21/reclaiming-our-digital-selves-hccfs-vision-for-a-human-centered-top-level-domain/",
+    "hn_url": "https://news.ycombinator.com/item?id=48724230",
+    "points": 420,
+    "comments": 242
+  },
+  {
+    "rank": 3,
+    "title": "Free the Icons",
+    "url": "https://weblog.rogueamoeba.com/2026/06/26/free-the-icons/",
+    "hn_url": "https://news.ycombinator.com/item?id=48698908",
+    "points": 355,
+    "comments": 93
+  },
+  {
+    "rank": 4,
+    "title": "Memory Safe Context Switching",
+    "url": "https://fil-c.org/context_switches",
+    "hn_url": "https://news.ycombinator.com/item?id=48727177",
+    "points": 85,
+    "comments": 22
+  },
+  {
+    "rank": 5,
+    "title": "Old Computer Challenge",
+    "url": "http://occ.sdf.org/",
+    "hn_url": "https://news.ycombinator.com/item?id=48702320",
+    "points": 39,
+    "comments": 8
+  },
+  {
+    "rank": 6,
+    "title": "LongCat-2.0, a large-scale MoE model with 1.6T total and 48B Active",
+    "url": "https://longcat.chat/blog/longcat-2.0/",
+    "hn_url": "https://news.ycombinator.com/item?id=48727116",
+    "points": 81,
+    "comments": 23
+  },
+  {
+    "rank": 7,
+    "title": "Study suggests most Americans would be healthier without daylight saving time",
+    "url": "https://med.stanford.edu/news/all-news/2025/09/daylight-saving-time.html",
+    "hn_url": "https://news.ycombinator.com/item?id=48728294",
+    "points": 36,
+    "comments": 13
+  },
+  {
+    "rank": 8,
+    "title": "Exploring PDP-1 Lisp (1960)",
+    "url": "https://obsolescence.dev/pdp1-lisp-introduction.html",
+    "hn_url": "https://news.ycombinator.com/item?id=48727323",
+    "points": 47,
+    "comments": 16
+  },
+  {
+    "rank": 9,
+    "title": "Rocketlab acquires Iridium",
+    "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-acquire-iridium-historic-deal-creating-fully",
+    "hn_url": "https://news.ycombinator.com/item?id=48719485",
+    "points": 390,
+    "comments": 255
+  },
+  {
+    "rank": 10,
+    "title": "Linux for the Sega MegaDrive",
+    "url": "https://github.com/LinuxMD/linuxmd",
+    "hn_url": "https://news.ycombinator.com/item?id=48720186",
+    "points": 64,
+    "comments": 8
+  },
+  {
+    "rank": 11,
+    "title": "Ornith-1.0: self-improving open-source models for agentic coding",
+    "url": "https://github.com/deepreinforce-ai/Ornith-1",
+    "hn_url": "https://news.ycombinator.com/item?id=48722052",
+    "points": 186,
+    "comments": 37
+  },
+  {
+    "rank": 12,
+    "title": "How to corrupt an SQLite database file",
+    "url": "https://www.sqlite.org/howtocorrupt.html",
+    "hn_url": "https://news.ycombinator.com/item?id=48689885",
+    "points": 42,
+    "comments": 12
+  },
+  {
+    "rank": 13,
+    "title": "US Supreme Court rules geofence warrants require constitutional protections",
+    "url": "https://www.theguardian.com/us-news/2026/jun/29/supreme-court-geofence-warrants-case-decision",
+    "hn_url": "https://news.ycombinator.com/item?id=48720924",
+    "points": 503,
+    "comments": 233
+  },
+  {
+    "rank": 14,
+    "title": "Zig \u2013 SPIR-V Backend Progress",
+    "url": "https://ziglang.org/devlog/2026/#2026-06-26",
+    "hn_url": "https://news.ycombinator.com/item?id=48679809",
+    "points": 42,
+    "comments": 14
+  },
+  {
+    "rank": 15,
+    "title": "One million passports leaked online",
+    "url": "https://www.theverge.com/tech/947157/passports-data-breach-cannabis-club-systems-nefos-puffpal",
+    "hn_url": "https://news.ycombinator.com/item?id=48706389",
+    "points": 207,
+    "comments": 115
+  }
+]

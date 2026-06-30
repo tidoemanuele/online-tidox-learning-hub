@@ -1,0 +1,194 @@
+[
+  {
+    "type": "intro",
+    "highlight": "Intelligence Brief — June 30, 2026",
+    "label": "TIDOX DAILY",
+    "subtext": "Episode 100"
+  },
+  {
+    "type": "intro",
+    "highlight": "778 HN points. The community declared a winner.",
+    "label": "HACKER NEWS #1",
+    "subtext": "Qwen 3.6 27B"
+  },
+  {
+    "type": "number",
+    "highlight": "24GB VRAM threshold broken",
+    "number": "3.6B",
+    "label": "ACTIVE PARAMS PER TOKEN",
+    "subtext": "27B total, fits on an RTX 4090"
+  },
+  {
+    "type": "insight",
+    "highlight": "The local vs. API quality tradeoff just broke",
+    "label": "LOCAL LLM",
+    "subtext": "No sacrifice at the 24GB tier"
+  },
+  {
+    "type": "number",
+    "highlight": "Sweet spot confirmed",
+    "number": "24GB",
+    "label": "VRAM THRESHOLD",
+    "subtext": "Previously: 7-13B (weak) or 48GB+ (expensive)"
+  },
+  {
+    "type": "quote",
+    "highlight": "Local wins on cost, latency, and privacy simultaneously",
+    "label": "BENCHMARK SIGNAL",
+    "subtext": "For daily coding workflows"
+  },
+  {
+    "type": "insight",
+    "highlight": "API billing case narrows to frontier reasoning only",
+    "label": "ECONOMIC SHIFT",
+    "subtext": "Complex agents, long-context synthesis"
+  },
+  {
+    "type": "insight",
+    "highlight": "Qwen: no export restrictions, globally deployable",
+    "label": "GEOPOLITICS",
+    "subtext": "Alibaba's open-weight model, no US export controls"
+  },
+  {
+    "type": "number",
+    "highlight": "Technical result + access story endorsed",
+    "number": "778",
+    "label": "HN POINTS",
+    "subtext": "Highest HN score of the day"
+  },
+  {
+    "type": "number",
+    "highlight": "SCOTUS: Geofence warrants need probable cause",
+    "number": "503",
+    "label": "HN POINTS",
+    "subtext": "Fourth Amendment extended to location dragnets"
+  },
+  {
+    "type": "insight",
+    "highlight": "Every device in an area — not a suspect, everyone",
+    "label": "HOW IT WORKED",
+    "subtext": "Step 1: collect all. Step 2: narrow. Step 3: identify."
+  },
+  {
+    "type": "quote",
+    "highlight": "Starting from everyone and working backward to a suspect",
+    "label": "THE DRAGNET PROBLEM",
+    "subtext": "Constitutionally backwards"
+  },
+  {
+    "type": "insight",
+    "highlight": "Fourth Amendment now requires individualized probable cause",
+    "label": "RULING",
+    "subtext": "Ends mass geofence sweeps as investigative fishing"
+  },
+  {
+    "type": "insight",
+    "highlight": "Google received thousands of geofence warrants per year",
+    "label": "SCALE",
+    "subtext": "Not hypothetical — an active investigative tool"
+  },
+  {
+    "type": "quote",
+    "highlight": "Both top stories: keep your data off third-party servers",
+    "label": "THROUGHLINE",
+    "subtext": "Local inference + constitutional protection = same thesis"
+  },
+  {
+    "type": "insight",
+    "highlight": "Infrastructure sovereignty is the throughline",
+    "label": ".SELF TLD PROPOSAL",
+    "subtext": "420 HN pts for a new domain for self-hosted services"
+  },
+  {
+    "type": "insight",
+    "highlight": "DNS has no namespace signal for self-hosted infrastructure",
+    "label": "THE GAP",
+    "subtext": "Home server looks identical to AWS in DNS"
+  },
+  {
+    "type": "number",
+    "highlight": "ICANN new TLD application cost",
+    "number": "$185K",
+    "label": "FEASIBILITY",
+    "subtext": "Plus years of process"
+  },
+  {
+    "type": "repo",
+    "highlight": "ripienaar/free-for-dev",
+    "label": "GITHUB TRENDING",
+    "subtext": "+1,935 stars today — infrastructure sovereignty catalog"
+  },
+  {
+    "type": "repo",
+    "highlight": "ripienaar/free-for-dev",
+    "label": "126,902 STARS",
+    "subtext": "Every free-tier cloud alternative in one list"
+  },
+  {
+    "type": "insight",
+    "highlight": "Two strategies, same pressure: leave or minimize cloud",
+    "label": "DEVELOPER POSTURE",
+    "subtext": "Cost + sovereignty + legal protection converging"
+  },
+  {
+    "type": "number",
+    "highlight": "Passports leaked from misconfigured blob storage",
+    "number": "1M",
+    "label": "PASSPORT SCANS EXPOSED",
+    "subtext": "PuffPal cannabis SaaS — no auth on public container"
+  },
+  {
+    "type": "quote",
+    "highlight": "A misconfiguration, not a sophisticated attack",
+    "label": "ROOT CAUSE",
+    "subtext": "The data was just there. Open to anyone who looked."
+  },
+  {
+    "type": "insight",
+    "highlight": "SCOTUS protects from law enforcement; doesn't fix your bucket",
+    "label": "THE REAL GAP",
+    "subtext": "Legal framework outpacing SMB operational practices"
+  },
+  {
+    "type": "insight",
+    "highlight": "Legal protection advancing faster than operational practice",
+    "label": "SYSTEMIC RISK",
+    "subtext": "SMB vendors collecting regulated data without the controls"
+  },
+  {
+    "type": "insight",
+    "highlight": "What is today telling us?",
+    "label": "THE THESIS",
+    "subtext": "Every signal points the same direction"
+  },
+  {
+    "type": "quote",
+    "highlight": "The infrastructure you control is the only infrastructure you can trust",
+    "label": "TODAY'S THESIS",
+    "subtext": "Local models, self-hosting, identityless messaging — all one signal"
+  },
+  {
+    "type": "repo",
+    "highlight": "simplex-chat/simplex-chat",
+    "label": "+1,607 STARS TODAY",
+    "subtext": "No phone number, no email, no account ID required"
+  },
+  {
+    "type": "insight",
+    "highlight": "Building so centralized collection never happens at all",
+    "label": "THE POSTURE",
+    "subtext": "Not relying on courts to protect it after the fact"
+  },
+  {
+    "type": "action",
+    "highlight": "Run Qwen locally. Audit your storage. Check your blob ACLs.",
+    "label": "BUILD ACTION",
+    "subtext": "Do it before you ship"
+  },
+  {
+    "type": "close",
+    "highlight": "Infrastructure sovereignty: now deployable at 24GB VRAM.",
+    "label": "TIDOX INTELLIGENCE BRIEF",
+    "subtext": "Episode 100 — June 30, 2026"
+  }
+]

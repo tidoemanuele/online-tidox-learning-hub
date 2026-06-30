@@ -1,0 +1,144 @@
+[
+  {
+    "title": "When Impressive Performance Gains Do Not Matter",
+    "score": 59,
+    "tags": [
+      "performance"
+    ],
+    "url": "https://blog.colinbreck.com/when-impressive-performance-gains-do-not-matter/",
+    "comments_url": "https://lobste.rs/s/fok2dp/when_impressive_performance_gains_do_not"
+  },
+  {
+    "title": "What is `std::pin::Pin` in Rust?",
+    "score": 21,
+    "tags": [
+      "rust"
+    ],
+    "url": "https://vrong.me/blog/what-is-pinning-in-rust/",
+    "comments_url": "https://lobste.rs/s/ltzfkv/what_is_std_pin_pin_rust"
+  },
+  {
+    "title": "What's wrong with EU age verification? (Nothing)",
+    "score": 9,
+    "tags": [
+      "privacy"
+    ],
+    "url": "https://blog.vrypan.net/2026/06/29/260629-whats-wrong-with-eu-age-verification/",
+    "comments_url": "https://lobste.rs/s/29laqs/what_s_wrong_with_eu_age_verification"
+  },
+  {
+    "title": "The end of the AArch64 desktopexperiment",
+    "score": 8,
+    "tags": [
+      "hardware"
+    ],
+    "url": "https://marcin.juszkiewicz.com.pl/2026/06/26/the-end-of-the-aarch64-desktop-experiment/",
+    "comments_url": "https://lobste.rs/s/pjcplu/end_aarch64_desktopexperiment"
+  },
+  {
+    "title": "WATaBoy: JIT-ing Game Boy Instructions to Wasm Beats a Native Interpreter",
+    "score": 32,
+    "tags": [
+      "wasm"
+    ],
+    "url": "https://humphri.es/blog/WATaBoy/",
+    "comments_url": "https://lobste.rs/s/krqeoc/wataboy_jit_ing_game_boy_instructions"
+  },
+  {
+    "title": "The AT-URI Syntax Mess",
+    "score": 12,
+    "tags": [
+      "web"
+    ],
+    "url": "https://bnewbold.leaflet.pub/3mph4hzvbdc2v",
+    "comments_url": "https://lobste.rs/s/7fjqgc/at_uri_syntax_mess"
+  },
+  {
+    "title": "Loko Scheme 0.13.0",
+    "score": 29,
+    "tags": [
+      "lisp",
+      "release"
+    ],
+    "url": "https://weinholt.se/articles/loko-scheme-0-13-0/",
+    "comments_url": "https://lobste.rs/s/uofjjs/loko_scheme_0_13_0"
+  },
+  {
+    "title": "Ante: New Way to Blend Borrow Checking and Reference Counting",
+    "score": 66,
+    "tags": [
+      "compsci",
+      "plt"
+    ],
+    "url": "https://verdagon.dev/blog/ante-blending-borrowing-rc",
+    "comments_url": "https://lobste.rs/s/vv4fhi/ante_new_way_blend_borrow_checking"
+  },
+  {
+    "title": "Canvas patch: we need testers",
+    "score": 24,
+    "tags": [
+      "emacs",
+      "windows"
+    ],
+    "url": "https://monadicsheep.org/blog/call-for-canvas-patch-testers.html",
+    "comments_url": "https://lobste.rs/s/dkky2i/canvas_patch_we_need_testers"
+  },
+  {
+    "title": "Type-checked non-empty strings",
+    "score": 14,
+    "tags": [
+      "haskell"
+    ],
+    "url": "https://exploring-better-ways.bellroy.com/haskell-koan-type-checked-non-empty-strings.html",
+    "comments_url": "https://lobste.rs/s/r1uxyo/type_checked_non_empty_strings"
+  },
+  {
+    "title": "Spindle's new microVM engine",
+    "score": 8,
+    "tags": [
+      "devops",
+      "linux",
+      "vcs"
+    ],
+    "url": "https://blog.tangled.org/spindle-microvm/",
+    "comments_url": "https://lobste.rs/s/ybcofm/spindle_s_new_microvm_engine"
+  },
+  {
+    "title": "Revisiting Yliluoma\u2019s ordered dither algorithm",
+    "score": 4,
+    "tags": [
+      "graphics"
+    ],
+    "url": "https://30fps.net/pages/revisiting-yliluoma-2/",
+    "comments_url": "https://lobste.rs/s/cxxgbt/revisiting_yliluoma_s_ordered_dither"
+  },
+  {
+    "title": "Memory Safe Context Switching",
+    "score": 4,
+    "tags": [
+      "c"
+    ],
+    "url": "https://fil-c.org/context_switches",
+    "comments_url": "https://lobste.rs/s/1ggr8a/memory_safe_context_switching"
+  },
+  {
+    "title": "Evaluation order and nontermination in query languages",
+    "score": 8,
+    "tags": [
+      "databases",
+      "plt"
+    ],
+    "url": "https://www.rntz.net/post/2026-06-11-datalog-nontermination.html",
+    "comments_url": "https://lobste.rs/s/0p04p0/evaluation_order_nontermination_query"
+  },
+  {
+    "title": "Typst: Designing for Incrementality",
+    "score": 16,
+    "tags": [
+      "plt",
+      "video"
+    ],
+    "url": "https://youtu.be/yWWVhbyOWWE",
+    "comments_url": "https://lobste.rs/s/hj0exw/typst_designing_for_incrementality"
+  }
+]
