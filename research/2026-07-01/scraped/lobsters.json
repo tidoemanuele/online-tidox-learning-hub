@@ -1,0 +1,143 @@
+[
+  {
+    "title": "What happened to the fight for the internet?",
+    "score": 44,
+    "tags": [
+      "privacy"
+    ],
+    "url": "https://dustycloud.org/blog/what-happened-to-the-fight-for-the-internet/",
+    "comments_url": "https://lobste.rs/s/rfkmw3/what_happened_fight_for_internet"
+  },
+  {
+    "title": "jj jj jj jj jj",
+    "score": 25,
+    "tags": [
+      "vcs"
+    ],
+    "url": "https://caiustheory.com/jj-jj-jj-jj-jj/",
+    "comments_url": "https://lobste.rs/s/96kp1m/jj_jj_jj_jj_jj"
+  },
+  {
+    "title": "Claude Code Is Steganographically Marking Requests",
+    "score": 48,
+    "tags": [
+      "privacy",
+      "vibecoding"
+    ],
+    "url": "https://thereallo.dev/blog/claude-code-prompt-steganography",
+    "comments_url": "https://lobste.rs/s/qs2sxd/claude_code_is_steganographically"
+  },
+  {
+    "title": "The Threat of Residential Proxies",
+    "score": 24,
+    "tags": [
+      "security"
+    ],
+    "url": "https://www.feistyduck.com/newsletter/issue_138_the_threat_of_residential_proxies",
+    "comments_url": "https://lobste.rs/s/x8qug8/threat_residential_proxies"
+  },
+  {
+    "title": "May in Servo: user scripts, mp4 compat, blackboxing in DevTools, and more",
+    "score": 42,
+    "tags": [
+      "browsers"
+    ],
+    "url": "https://servo.org/blog/2026/06/30/may-in-servo/",
+    "comments_url": "https://lobste.rs/s/t2gomd/may_servo_user_scripts_mp4_compat"
+  },
+  {
+    "title": "stop asking writers about \"AI\"",
+    "score": 27,
+    "tags": [
+      "vibecoding"
+    ],
+    "url": "https://benjaminhollon.com/musings/stop-asking-writers-about-ai/",
+    "comments_url": "https://lobste.rs/s/v2cbi5/stop_asking_writers_about_ai"
+  },
+  {
+    "title": "Parse, Don't Validate \u2014 In a Language That Doesn't Want You To",
+    "score": 22,
+    "tags": [
+      "javascript",
+      "plt"
+    ],
+    "url": "https://cekrem.github.io/posts/parse-dont-validate-typescript/",
+    "comments_url": "https://lobste.rs/s/lzewut/parse_don_t_validate_language_doesn_t_want"
+  },
+  {
+    "title": "What's wrong with EU age verification? (Nothing)",
+    "score": 58,
+    "tags": [
+      "privacy"
+    ],
+    "url": "https://blog.vrypan.net/2026/06/29/260629-whats-wrong-with-eu-age-verification/",
+    "comments_url": "https://lobste.rs/s/29laqs/what_s_wrong_with_eu_age_verification"
+  },
+  {
+    "title": "Underappreciated builtin: Grand Unified Debugger",
+    "score": 14,
+    "tags": [
+      "debugging",
+      "emacs"
+    ],
+    "url": "https://tusharhero.codeberg.page/underappreciated-builtin-gud.html",
+    "comments_url": "https://lobste.rs/s/g6wquq/underappreciated_builtin_grand_unified"
+  },
+  {
+    "title": "It's not me, it's the compiler",
+    "score": 8,
+    "tags": [
+      "rust"
+    ],
+    "url": "https://parsa.wtf/cast/",
+    "comments_url": "https://lobste.rs/s/v7ghbn/it_s_not_me_it_s_compiler"
+  },
+  {
+    "title": "Local Reasoning for Global Properties",
+    "score": 20,
+    "tags": [
+      "rust",
+      "vibecoding"
+    ],
+    "url": "https://tratt.net/laurie/blog/2026/local_reasoning_for_global_properties.html",
+    "comments_url": "https://lobste.rs/s/4rfzbl/local_reasoning_for_global_properties"
+  },
+  {
+    "title": "Generating the P3 Tiling",
+    "score": 8,
+    "tags": [
+      "art"
+    ],
+    "url": "https://k-monk.org/blog/generating-the-p3-tiling/",
+    "comments_url": "https://lobste.rs/s/uaubz8/generating_p3_tiling"
+  },
+  {
+    "title": "The end of the AArch64 desktop experiment",
+    "score": 45,
+    "tags": [
+      "hardware"
+    ],
+    "url": "https://marcin.juszkiewicz.com.pl/2026/06/26/the-end-of-the-aarch64-desktop-experiment/",
+    "comments_url": "https://lobste.rs/s/pjcplu/end_aarch64_desktop_experiment"
+  },
+  {
+    "title": "Investigating Linux graphics (2025)",
+    "score": 42,
+    "tags": [
+      "graphics",
+      "linux"
+    ],
+    "url": "https://roscidus.com/blog/blog/2025/06/24/graphics/",
+    "comments_url": "https://lobste.rs/s/wenqxh/investigating_linux_graphics_2025"
+  },
+  {
+    "title": "Slint and the Node.js Event Loop",
+    "score": 10,
+    "tags": [
+      "nodejs",
+      "rust"
+    ],
+    "url": "https://slint.dev/blog/slint-and-the-nodejs-event-loop",
+    "comments_url": "https://lobste.rs/s/mml4wf/slint_node_js_event_loop"
+  }
+]

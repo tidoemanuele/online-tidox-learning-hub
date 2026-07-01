@@ -1,0 +1,92 @@
+[
+  {
+    "name": "agency-agents",
+    "fullName": "msitarzewski/agency-agents",
+    "description": "Complete AI agency framework featuring specialized expert agents with distinct personalities and proven deliverables",
+    "language": "Shell",
+    "stars_today": "1,791 stars today",
+    "total_stars": "121000",
+    "url": "https://github.com/msitarzewski/agency-agents"
+  },
+  {
+    "name": "exercises-dataset",
+    "fullName": "hasaneyldrm/exercises-dataset",
+    "description": "Comprehensive fitness dataset with 433 exercises including names, categories, muscle groups, equipment, instructions, images, and videos",
+    "language": "HTML",
+    "stars_today": "1,343 stars today",
+    "total_stars": "61157",
+    "url": "https://github.com/hasaneyldrm/exercises-dataset"
+  },
+  {
+    "name": "simplex-chat",
+    "fullName": "simplex-chat/simplex-chat",
+    "description": "SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design",
+    "language": "Haskell",
+    "stars_today": "1,235 stars today",
+    "total_stars": "18000",
+    "url": "https://github.com/simplex-chat/simplex-chat"
+  },
+  {
+    "name": "ai-berkshire",
+    "fullName": "xbtlin/ai-berkshire",
+    "description": "Value investing research framework combining Buffett-Munger methodologies with multi-agent AI analysis",
+    "language": "Python",
+    "stars_today": "969 stars today",
+    "total_stars": "8200",
+    "url": "https://github.com/xbtlin/ai-berkshire"
+  },
+  {
+    "name": "superpowers",
+    "fullName": "obra/superpowers",
+    "description": "Agentic skills framework paired with effective software development methodology",
+    "language": "Shell",
+    "stars_today": "890 stars today",
+    "total_stars": "26800",
+    "url": "https://github.com/obra/superpowers"
+  },
+  {
+    "name": "free-for-dev",
+    "fullName": "ripienaar/free-for-dev",
+    "description": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
+    "language": "HTML",
+    "stars_today": "742 stars today",
+    "total_stars": "128000",
+    "url": "https://github.com/ripienaar/free-for-dev"
+  },
+  {
+    "name": "video-use",
+    "fullName": "browser-use/video-use",
+    "description": "Video editing powered by coding agents",
+    "language": "Python",
+    "stars_today": "721 stars today",
+    "total_stars": "13200",
+    "url": "https://github.com/browser-use/video-use"
+  },
+  {
+    "name": "Vibe-Trading",
+    "fullName": "HKUDS/Vibe-Trading",
+    "description": "Personal trading agent platform leveraging LLM financial reasoning",
+    "language": "Python",
+    "stars_today": "721 stars today",
+    "total_stars": "22400",
+    "url": "https://github.com/HKUDS/Vibe-Trading"
+  },
+  {
+    "name": "FluidVoice",
+    "fullName": "altic-dev/FluidVoice",
+    "description": "macOS dictation application utilizing on-device speech recognition with AI enhancement capabilities",
+    "language": "Swift",
+    "stars_today": "588 stars today",
+    "total_stars": "590",
+    "url": "https://github.com/altic-dev/FluidVoice"
+  },
+  {
+    "name": "strix",
+    "fullName": "usestrix/strix",
+    "description": "Open-source AI penetration testing solution for identifying and resolving application vulnerabilities",
+    "language": "Python",
+    "stars_today": "515 stars today",
+    "total_stars": "2100",
+    "url": "https://github.com/usestrix/strix"
+  }
+]

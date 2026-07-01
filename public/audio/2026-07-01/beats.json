@@ -1,0 +1,173 @@
+[
+  {
+    "type": "intro",
+    "highlight": "A one-company news cycle",
+    "subtext": "Anthropic takes three of the top five HN spots"
+  },
+  {
+    "type": "intro",
+    "highlight": "That basically never happens",
+    "subtext": "What's driving it?"
+  },
+  {
+    "type": "number",
+    "number": "1660",
+    "highlight": "Invisible Unicode hidden in every prompt",
+    "label": "TOP HN STORY",
+    "subtext": "1660 points and climbing"
+  },
+  {
+    "type": "quote",
+    "highlight": "Wait, invisible how?"
+  },
+  {
+    "type": "insight",
+    "highlight": "Zero-width characters form a detectable pattern",
+    "subtext": "A silent fingerprint for the Claude Code client"
+  },
+  {
+    "type": "quote",
+    "highlight": "A fingerprint baked into every request",
+    "subtext": "Without telling you"
+  },
+  {
+    "type": "number",
+    "number": "481",
+    "highlight": "481 comments over deceptive practice and GDPR",
+    "label": "COMMUNITY BACKLASH"
+  },
+  {
+    "type": "quote",
+    "highlight": "Why would you even need this?",
+    "subtext": "A header could do the same job"
+  },
+  {
+    "type": "insight",
+    "highlight": "A steganographic mark survives sanitization",
+    "subtext": "Built to persist after copy-paste and stripping"
+  },
+  {
+    "type": "quote",
+    "highlight": "The tracking layer was the real product",
+    "subtext": "Not the coding assistant"
+  },
+  {
+    "type": "number",
+    "number": "2",
+    "highlight": "Sonnet 5 lands at $2 per million tokens",
+    "label": "NEW PRICING",
+    "subtext": "Opus-level performance, Sonnet pricing"
+  },
+  {
+    "type": "insight",
+    "highlight": "Finishes tasks the old Sonnet abandoned",
+    "subtext": "No more handoff to Opus mid-task"
+  },
+  {
+    "type": "insight",
+    "highlight": "Deliberately capped on cybersecurity capability",
+    "subtext": "A pricing move and a safety move at once"
+  },
+  {
+    "type": "insight",
+    "highlight": "A free capability upgrade, hidden strings attached",
+    "subtext": "Same client, same fingerprinting"
+  },
+  {
+    "type": "quote",
+    "highlight": "Best pricing and quiet tagging, same rollout"
+  },
+  {
+    "type": "insight",
+    "highlight": "You can't just stop using it",
+    "subtext": "The capability is too real"
+  },
+  {
+    "type": "action",
+    "highlight": "Audit what leaves your machine",
+    "subtext": "Metadata rides along that you can't strip"
+  },
+  {
+    "type": "number",
+    "number": "19",
+    "highlight": "Export ban reversed after nineteen days",
+    "label": "EXPORT CONTROLS",
+    "subtext": "Fable 5 and Mythos 5 cleared"
+  },
+  {
+    "type": "insight",
+    "highlight": "Nineteen days was enough to migrate to GLM 5.2",
+    "subtext": "Teams moved during the blackout"
+  },
+  {
+    "type": "quote",
+    "highlight": "The ban reversed, the market didn't"
+  },
+  {
+    "type": "insight",
+    "highlight": "Switching costs are already sunk elsewhere",
+    "subtext": "A policy memo doesn't undo a migration"
+  },
+  {
+    "type": "insight",
+    "highlight": "Regulatory risk is now a line item",
+    "subtext": "Multi-provider is just correct architecture"
+  },
+  {
+    "type": "quote",
+    "highlight": "Trust in the client, the pricing, the access",
+    "subtext": "All three got tested the same day"
+  },
+  {
+    "type": "repo",
+    "highlight": "simplex-chat",
+    "label": "GITHUB TRENDING",
+    "subtext": "Identityless messaging, no phone numbers, no accounts"
+  },
+  {
+    "type": "insight",
+    "highlight": "The same anxiety in two different places",
+    "subtext": "Trending the day the fingerprint story broke"
+  },
+  {
+    "type": "action",
+    "highlight": "Build systems that don't need to know who you are",
+    "subtext": "People are voting with their tools"
+  },
+  {
+    "type": "repo",
+    "highlight": "agency-agents",
+    "label": "GITHUB TRENDING",
+    "subtext": "obra's superpowers framework, more agent autonomy"
+  },
+  {
+    "type": "insight",
+    "highlight": "We want it on infrastructure we can verify",
+    "subtext": "Racing toward capability, demanding trust"
+  },
+  {
+    "type": "quote",
+    "highlight": "Capability is no longer the bottleneck",
+    "subtext": "Verifiability is"
+  },
+  {
+    "type": "quote",
+    "highlight": "Anyone can wrap an API call",
+    "subtext": "The transparency layer is what's valuable now"
+  },
+  {
+    "type": "insight",
+    "highlight": "Building is no longer the constraint",
+    "subtext": "Agentic pricing just got this cheap"
+  },
+  {
+    "type": "close",
+    "highlight": "The trust infrastructure is still wide open",
+    "subtext": "It pays to be the one who ships it"
+  },
+  {
+    "type": "close",
+    "highlight": "Go build the thing that makes the black box legible",
+    "subtext": "That's today's brief"
+  }
+]
