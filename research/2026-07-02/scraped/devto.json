@@ -1,0 +1,315 @@
+[
+  {
+    "rank": 1,
+    "title": "My First Year at DEV Recap",
+    "url": "https://dev.to/javz/my-first-year-at-dev-recap-3na2",
+    "reactions": 49,
+    "comments": 18,
+    "tags": [
+      "community",
+      "learning",
+      "productivity",
+      "writing"
+    ]
+  },
+  {
+    "rank": 2,
+    "title": "From Harness Engineering to Evals: What’s Trending at AI Engineer",
+    "url": "https://dev.to/dailycontext/from-harness-engineering-to-evals-4212",
+    "reactions": 39,
+    "comments": 8,
+    "tags": [
+      "aie",
+      "ai",
+      "agents",
+      "security"
+    ]
+  },
+  {
+    "rank": 3,
+    "title": "I Tried to Escape LeetCode for 2 Years (But Here We Are)",
+    "url": "https://dev.to/konark_13/i-tried-to-escape-leetcode-for-2-years-but-here-we-are-1k99",
+    "reactions": 32,
+    "comments": 10,
+    "tags": [
+      "webdev",
+      "beginners",
+      "dsa",
+      "coding"
+    ]
+  },
+  {
+    "rank": 4,
+    "title": "It’s Time To Put Humans Back In The Software",
+    "url": "https://dev.to/dailycontext/its-time-to-put-humans-back-in-the-software-factories-3cjh",
+    "reactions": 15,
+    "comments": 3,
+    "tags": [
+      "aie",
+      "software",
+      "ai",
+      "agents"
+    ]
+  },
+  {
+    "rank": 5,
+    "title": "DevRel in the Age of AI Is A Search for Meaning",
+    "url": "https://dev.to/dailycontext/devrel-in-the-age-of-ai-is-a-search-for-meaning-2j91",
+    "reactions": 6,
+    "comments": 1,
+    "tags": [
+      "aie",
+      "ai",
+      "devrel"
+    ]
+  },
+  {
+    "rank": 6,
+    "title": "Token Town",
+    "url": "https://dev.to/dailycontext/token-town-1c45",
+    "reactions": 8,
+    "comments": 4,
+    "tags": [
+      "aie",
+      "ai",
+      "agents"
+    ]
+  },
+  {
+    "rank": 7,
+    "title": "AI Made Code Free. So Why Are the Giants Still Winning? (And where solo devs actually beat them)",
+    "url": "https://dev.to/krlz/ai-made-code-free-so-why-are-the-giants-still-winning-and-where-solo-devs-actually-beat-them-5h27",
+    "reactions": 5,
+    "comments": 2,
+    "tags": [
+      "ai",
+      "opensource",
+      "career",
+      "productivity"
+    ]
+  },
+  {
+    "rank": 8,
+    "title": "Optimizing for Agents with llms.txt",
+    "url": "https://dev.to/dailycontext/optimizing-for-agents-with-llmstxt-14l0",
+    "reactions": 9,
+    "comments": 4,
+    "tags": [
+      "aie",
+      "agents",
+      "ai",
+      "machinelearning"
+    ]
+  },
+  {
+    "rank": 9,
+    "title": "Stratagems #4: P Walked Into an AI Monitoring POC. P Didn't Run a Single Test.",
+    "url": "https://dev.to/xulingfeng/stratagems-4-p-walked-into-an-ai-monitoring-poc-p-didnt-run-a-single-test-1ejk",
+    "reactions": 38,
+    "comments": 26,
+    "tags": [
+      "ai",
+      "discuss",
+      "career",
+      "programming"
+    ]
+  },
+  {
+    "rank": 10,
+    "title": "What Is MLIR and Why Does It Exist?",
+    "url": "https://dev.to/frodo/what-is-mlir-and-why-does-it-exist-4d78",
+    "reactions": 9,
+    "comments": 0,
+    "tags": [
+      "mlir",
+      "compilers",
+      "machinelearning",
+      "programming"
+    ]
+  },
+  {
+    "rank": 11,
+    "title": "AI is going loopy, but in a good way",
+    "url": "https://dev.to/dailycontext/ai-is-going-loopy-but-in-a-good-way-3mi",
+    "reactions": 7,
+    "comments": 2,
+    "tags": [
+      "aie",
+      "ai",
+      "security",
+      "machinelearning"
+    ]
+  },
+  {
+    "rank": 12,
+    "title": "What's Actually in My .zshrc (and Why)",
+    "url": "https://dev.to/mattstratton/whats-actually-in-my-zshrc-and-why-53oe",
+    "reactions": 2,
+    "comments": 0,
+    "tags": [
+      "shell",
+      "zsh",
+      "dotfiles",
+      "productivity"
+    ]
+  },
+  {
+    "rank": 13,
+    "title": "A Cold Root Beer and a Small System",
+    "url": "https://dev.to/kenwalger/a-cold-root-beer-and-a-small-system-29id",
+    "reactions": 0,
+    "comments": 0,
+    "tags": [
+      "systems"
+    ]
+  },
+  {
+    "rank": 14,
+    "title": "Building a Search Modal for a Membership-Gated WordPress Site",
+    "url": "https://dev.to/highcenburg/building-a-search-modal-for-a-membership-gated-wordpress-site-b92",
+    "reactions": 2,
+    "comments": 3,
+    "tags": [
+      "wordpress",
+      "webdev",
+      "php",
+      "showdev"
+    ]
+  },
+  {
+    "rank": 15,
+    "title": "How Prathyusha Ramanjaneyulu at Celonis Eliminated Dev Environment Overhead for 600 Engineers",
+    "url": "https://dev.to/metalbear/how-prathyusha-ramanjaneyulu-at-celonis-eliminated-dev-environment-overhead-for-600-engineers-5h19",
+    "reactions": 12,
+    "comments": 1,
+    "tags": [
+      "kubernetes",
+      "devops",
+      "productivity",
+      "docker"
+    ]
+  },
+  {
+    "rank": 16,
+    "title": "AI For Test Generation: Where It Helps And Where It Lies",
+    "url": "https://dev.to/nazar_boyko/ai-for-test-generation-where-it-helps-and-where-it-lies-jhm",
+    "reactions": 16,
+    "comments": 3,
+    "tags": [
+      "ai",
+      "testing",
+      "webdev",
+      "programming"
+    ]
+  },
+  {
+    "rank": 17,
+    "title": "Your Provenance Vector Dies at the Storage Boundary",
+    "url": "https://dev.to/p0rt/your-provenance-vector-dies-at-the-storage-boundary-4cc",
+    "reactions": 7,
+    "comments": 3,
+    "tags": [
+      "ai",
+      "llm",
+      "devops",
+      "machinelearning"
+    ]
+  },
+  {
+    "rank": 18,
+    "title": "Apache Data Lakehouse Weekly: June 24 to July 1, 2026",
+    "url": "https://dev.to/alexmercedcoder/apache-data-lakehouse-weekly-june-24-to-july-1-2026-2oej",
+    "reactions": 0,
+    "comments": 0,
+    "tags": [
+      "database",
+      "dataengineering",
+      "news",
+      "opensource"
+    ]
+  },
+  {
+    "rank": 19,
+    "title": "Browser strategy game backend: no tick loop",
+    "url": "https://dev.to/arjen_/browser-strategy-game-backend-no-tick-loop-28df",
+    "reactions": 5,
+    "comments": 0,
+    "tags": [
+      "gamedev",
+      "typescript",
+      "webdev",
+      "backend"
+    ]
+  },
+  {
+    "rank": 20,
+    "title": "AXE Passes, But It's Still Unusable: The Accessibility Bugs Automated Tools Can't Catch",
+    "url": "https://dev.to/duncanfaulkner/axe-passes-but-its-still-unusable-the-accessibility-bugs-automated-tools-cant-catch-26ea",
+    "reactions": 0,
+    "comments": 0,
+    "tags": [
+      "angular",
+      "a11y",
+      "webdev"
+    ]
+  },
+  {
+    "rank": 21,
+    "title": "I shipped my first npm package with AI — and it's already in production",
+    "url": "https://dev.to/tanella/i-shipped-my-first-npm-package-with-ai-and-its-already-in-production-2cl9",
+    "reactions": 3,
+    "comments": 3,
+    "tags": [
+      "ai",
+      "react",
+      "javascript",
+      "opensource"
+    ]
+  },
+  {
+    "rank": 22,
+    "title": "I Pointed My Memory Auditor At Itself. It Flagged My Own Slogan.",
+    "url": "https://dev.to/kenielzep97/i-pointed-my-memory-auditor-at-itself-it-flagged-my-own-slogan-2l1m",
+    "reactions": 3,
+    "comments": 5,
+    "tags": [
+      "ai",
+      "agents",
+      "machinelearning",
+      "career"
+    ]
+  },
+  {
+    "rank": 23,
+    "title": "Semantic Observability: Engineering Reliability for Production RAG",
+    "url": "https://dev.to/dumebii/semantic-observability-engineering-reliability-for-production-rag-20g4",
+    "reactions": 15,
+    "comments": 2,
+    "tags": [
+      "ai",
+      "webdev",
+      "python",
+      "beginners"
+    ]
+  },
+  {
+    "rank": 24,
+    "title": "A career growth hack I wish I knew earlier",
+    "url": "https://dev.to/canro91/a-career-growth-hack-i-wish-i-knew-earlier-6dk",
+    "reactions": 0,
+    "comments": 0,
+    "tags": []
+  },
+  {
+    "rank": 25,
+    "title": "Creating an internet for AI, or shall we?",
+    "url": "https://dev.to/sumitsaurabh927/creating-an-internet-for-ai-or-shall-we-826",
+    "reactions": 7,
+    "comments": 1,
+    "tags": [
+      "ai",
+      "programming",
+      "webdev"
+    ]
+  }
+]

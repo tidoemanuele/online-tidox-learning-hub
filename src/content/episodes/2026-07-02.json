@@ -1,0 +1,168 @@
+{
+  "date": "2026-07-02",
+  "episodeNumber": 102,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "For first time, a cell built from scratch grows an, ZCode – Harness for GLM-5.2, FFmpeg 9.1's new AAC encoder",
+  "heroStat": {
+    "value": "849",
+    "label": "points on \"For first time, a cell built from scratch grows and divides\""
+  },
+  "insights": [
+    {
+      "text": "For first time, a cell built from scratch grows and divides (849 pts, 276 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 849pts",
+      "url": "https://www.quantamagazine.org/for-the-first-time-a-cell-built-from-scratch-grows-and-divides-20260701/"
+    },
+    {
+      "text": "ZCode – Harness for GLM-5.2 (384 pts, 287 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 384pts",
+      "url": "https://zcode.z.ai/en"
+    },
+    {
+      "text": "FFmpeg 9.1's new AAC encoder (370 pts, 112 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 370pts",
+      "url": "https://hydrogenaudio.org/index.php/topic,129691.0.html"
+    },
+    {
+      "text": "Show HN: Searchable directory of 22k+ products from worker-owned co-ops (342 pts, 65 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 342pts",
+      "url": "https://www.workerowned.info/"
+    },
+    {
+      "text": "US Supreme Court just blew up EU-US Data Transfers (125 pts on Lobsters)",
+      "tags": [
+        "lobsters",
+        "law"
+      ],
+      "source": "Lobsters 125pts",
+      "url": "https://noyb.eu/en/us-supreme-court-just-blew-eu-us-data-transfers"
+    },
+    {
+      "text": "What happened to the fight for the internet? (146 pts on Lobsters)",
+      "tags": [
+        "lobsters",
+        "privacy"
+      ],
+      "source": "Lobsters 146pts",
+      "url": "https://dustycloud.org/blog/what-happened-to-the-fight-for-the-internet/"
+    },
+    {
+      "text": "My First Year at DEV Recap (49 reactions on Dev.to)",
+      "tags": [
+        "devto",
+        "community",
+        "learning"
+      ],
+      "source": "Dev.to 49❤",
+      "url": "https://dev.to/javz/my-first-year-at-dev-recap-3na2"
+    },
+    {
+      "text": "From Harness Engineering to Evals: What’s Trending at AI Engineer (39 reactions on Dev.to)",
+      "tags": [
+        "devto",
+        "aie",
+        "ai"
+      ],
+      "source": "Dev.to 39❤",
+      "url": "https://dev.to/dailycontext/from-harness-engineering-to-evals-4212"
+    }
+  ],
+  "trending": [
+    {
+      "name": "exercises-dataset",
+      "fullName": "hasaneyldrm/exercises-dataset",
+      "stars": "8.8K",
+      "language": "HTML",
+      "delta": "+2470/d"
+    },
+    {
+      "name": "agency-agents",
+      "fullName": "msitarzewski/agency-agents",
+      "stars": "125K",
+      "language": "Shell",
+      "delta": "+2114/d"
+    },
+    {
+      "name": "strix",
+      "fullName": "usestrix/strix",
+      "stars": "30.4K",
+      "language": "Python",
+      "delta": "+1211/d"
+    },
+    {
+      "name": "AI-For-Beginners",
+      "fullName": "microsoft/AI-For-Beginners",
+      "stars": "50.9K",
+      "language": "Jupyter Notebook",
+      "delta": "+1096/d"
+    },
+    {
+      "name": "OmniRoute",
+      "fullName": "diegosouzapw/OmniRoute",
+      "stars": "9.9K",
+      "language": "TypeScript",
+      "delta": "+1010/d"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "849",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "2470",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "4",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "July 2, 2026"
+    },
+    "headlines": [
+      {
+        "text": "For first time, a cell built from scratch grows and divides",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "ZCode – Harness for GLM-5.2",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "FFmpeg 9.1's new AAC encoder",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Today's brief covers the most interesting signals across the tech landscape."
+    }
+  }
+}
