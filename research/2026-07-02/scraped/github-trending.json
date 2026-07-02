@@ -1,0 +1,74 @@
+[
+  {
+    "name": "dao-code",
+    "fullName": "tigicion/dao-code",
+    "description": "A terminal coding agent that turns DeepSeek-V4's cache economics into capability with trustworthy memory (re-verified against your code) and robust long tasks",
+    "language": "Python",
+    "stars_today": "1,847 stars today",
+    "total_stars": "3841",
+    "url": "https://github.com/tigicion/dao-code"
+  },
+  {
+    "name": "openwiki",
+    "fullName": "langchain-ai/openwiki",
+    "description": "OpenWiki is a CLI that writes and maintains agent documentation for your codebase — generates structured context files so coding agents find the repo context they need without loading everything into one instruction file",
+    "language": "Python",
+    "stars_today": "1,204 stars today",
+    "total_stars": "2917",
+    "url": "https://github.com/langchain-ai/openwiki"
+  },
+  {
+    "name": "orca",
+    "fullName": "stablyai/orca",
+    "description": "Orca is the ADE (Agent Development Environment) for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.",
+    "language": "TypeScript",
+    "stars_today": "943 stars today",
+    "total_stars": "2156",
+    "url": "https://github.com/stablyai/orca"
+  },
+  {
+    "name": "astryx",
+    "fullName": "facebook/astryx",
+    "description": "An open source design system that's fully customizable and agent ready — built so coding agents can reason about your design tokens, component patterns, and visual constraints",
+    "language": "TypeScript",
+    "stars_today": "712 stars today",
+    "total_stars": "4203",
+    "url": "https://github.com/facebook/astryx"
+  },
+  {
+    "name": "headroom",
+    "fullName": "chopratejas/headroom",
+    "description": "Python context compression library that achieves 60-95% token reduction on tool outputs, logs, files, and RAG chunks before they reach the LLM — available as a library, proxy, or MCP server",
+    "language": "Python",
+    "stars_today": "587 stars today",
+    "total_stars": "11284",
+    "url": "https://github.com/chopratejas/headroom"
+  },
+  {
+    "name": "Senior-SWE-Bench",
+    "fullName": "snorkel-ai/Senior-SWE-Bench",
+    "description": "An open-source benchmark that assesses agents as senior engineers — 300 high-complexity GitHub issues requiring multi-file reasoning, architectural decision-making, and long-horizon planning",
+    "language": "Python",
+    "stars_today": "489 stars today",
+    "total_stars": "1872",
+    "url": "https://github.com/snorkel-ai/Senior-SWE-Bench"
+  },
+  {
+    "name": "GLM-5.2",
+    "fullName": "THUDM/GLM-5.2",
+    "description": "GLM-5.2: 744B MoE open-weights model (40B active params) with 1M context, MIT license — achieves 62.1 on SWE-bench Pro, beating GPT-5.5 (58.6) at 1/6th the API cost",
+    "language": "Python",
+    "stars_today": "432 stars today",
+    "total_stars": "9841",
+    "url": "https://github.com/THUDM/GLM-5.2"
+  },
+  {
+    "name": "box3d",
+    "fullName": "erincatto/box3d",
+    "description": "Box3D is a 3D rigid body simulation library for games, built as the natural 3D extension of Box2D's constraint-based physics with the same minimal-dependency philosophy",
+    "language": "C",
+    "stars_today": "356 stars today",
+    "total_stars": "3127",
+    "url": "https://github.com/erincatto/box3d"
+  }
+]

@@ -1,0 +1,163 @@
+[
+  {
+    "type": "intro",
+    "highlight": "A Cell Built From Scratch",
+    "subtext": "811 upvotes — highest science score in years"
+  },
+  {
+    "type": "intro",
+    "highlight": "No Host Cell At All?"
+  },
+  {
+    "type": "quote",
+    "highlight": "Synthetic membrane, synthetic genome, built from purified chemicals"
+  },
+  {
+    "type": "quote",
+    "highlight": "We went from editing life to compiling it"
+  },
+  {
+    "type": "number",
+    "number": "268",
+    "highlight": "268 comments, low controversy",
+    "label": "COMMENT PATTERN"
+  },
+  {
+    "type": "quote",
+    "highlight": "Nobody's saying it's fake"
+  },
+  {
+    "type": "insight",
+    "highlight": "Debating implications, not whether it happened"
+  },
+  {
+    "type": "quote",
+    "highlight": "That thread is NOT low-controversy"
+  },
+  {
+    "type": "number",
+    "number": "744B",
+    "highlight": "744-billion parameters, MIT licensed",
+    "label": "GLM-5.2"
+  },
+  {
+    "type": "quote",
+    "highlight": "A sixth of GPT-5.5's cost"
+  },
+  {
+    "type": "insight",
+    "highlight": "The debate isn't about the benchmark score"
+  },
+  {
+    "type": "quote",
+    "highlight": "The model might be the easy part now"
+  },
+  {
+    "type": "repo",
+    "highlight": "Dao-code, Openwiki, Orca",
+    "label": "TRENDING TODAY",
+    "subtext": "Execution, memory, and coordination layers"
+  },
+  {
+    "type": "insight",
+    "highlight": "Three separate layers, all getting built at once"
+  },
+  {
+    "type": "repo",
+    "highlight": "Dao-code",
+    "label": "EXECUTION AGENT",
+    "subtext": "Re-checks memory against the filesystem every step"
+  },
+  {
+    "type": "quote",
+    "highlight": "Does it still know what's true after six hours?"
+  },
+  {
+    "type": "insight",
+    "highlight": "The frontier is trustworthy state, not raw intelligence"
+  },
+  {
+    "type": "action",
+    "highlight": "Optimize for memory verification and fleet coordination"
+  },
+  {
+    "type": "number",
+    "number": "336",
+    "highlight": "336 points, almost no argument",
+    "label": "FFMPEG 9.1"
+  },
+  {
+    "type": "quote",
+    "highlight": "They're just going to enjoy it"
+  },
+  {
+    "type": "number",
+    "number": "40%",
+    "highlight": "40% faster encodes, zero code change"
+  },
+  {
+    "type": "insight",
+    "highlight": "Infrastructure quietly improving underneath everyone"
+  },
+  {
+    "type": "quote",
+    "highlight": "Both compound, just on different timescales"
+  },
+  {
+    "type": "number",
+    "number": "294",
+    "highlight": "294 points, a ton of pushback",
+    "label": "GRAPHICS PROGRAMMING"
+  },
+  {
+    "type": "quote",
+    "highlight": "Even the fundamentals are forking"
+  },
+  {
+    "type": "quote",
+    "highlight": "Classical pipeline vs. the AI-adjacent rendering stack"
+  },
+  {
+    "type": "insight",
+    "highlight": "The ceiling rises faster than the floor drops"
+  },
+  {
+    "type": "quote",
+    "highlight": "Gutted the legal basis for EU-US data transfers, again"
+  },
+  {
+    "type": "number",
+    "number": "3",
+    "highlight": "Third time this framework has collapsed since 2015",
+    "label": "SAFE HARBOR → PRIVACY SHIELD → DPF"
+  },
+  {
+    "type": "quote",
+    "highlight": "What happened to the open internet's defenders?"
+  },
+  {
+    "type": "quote",
+    "highlight": "Outscaled by the size of what they were fighting"
+  },
+  {
+    "type": "action",
+    "highlight": "Plan for the transfer mechanism to break again"
+  },
+  {
+    "type": "insight",
+    "highlight": "Four fixed constraints, all turning out rebuildable"
+  },
+  {
+    "type": "quote",
+    "highlight": "Fixed constraints just... aren't"
+  },
+  {
+    "type": "close",
+    "highlight": "Someone will rebuild it before you're ready"
+  },
+  {
+    "type": "close",
+    "highlight": "Impossible has a short shelf life right now",
+    "subtext": "Go build what you've been assuming is impossible"
+  }
+]

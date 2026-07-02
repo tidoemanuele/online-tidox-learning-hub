@@ -1,0 +1,149 @@
+[
+  {
+    "title": "US Supreme Court just blew up EU-US Data Transfers",
+    "score": 103,
+    "tags": [
+      "law"
+    ],
+    "url": "https://noyb.eu/en/us-supreme-court-just-blew-eu-us-data-transfers",
+    "comments_url": "https://lobste.rs/s/thkwcf/us_supreme_court_just_blew_up_eu_us_data"
+  },
+  {
+    "title": "What happened to the fight for the internet?",
+    "score": 141,
+    "tags": [
+      "privacy"
+    ],
+    "url": "https://dustycloud.org/blog/what-happened-to-the-fight-for-the-internet/",
+    "comments_url": "https://lobste.rs/s/rfkmw3/what_happened_fight_for_internet"
+  },
+  {
+    "title": "Artificial adventures",
+    "score": 12,
+    "tags": [
+      "vibecoding"
+    ],
+    "url": "https://www.scattered-thoughts.net/writing/artificial-adventures/",
+    "comments_url": "https://lobste.rs/s/khdiby/artificial_adventures"
+  },
+  {
+    "title": "Pidgin 3.0 Alpha 2 (2.96.0) has been released",
+    "score": 22,
+    "tags": [
+      "release"
+    ],
+    "url": "https://discourse.imfreedom.org/t/pidgin-3-0-alpha-2-2-96-0-has-been-released/398",
+    "comments_url": "https://lobste.rs/s/iloa3u/pidgin_3_0_alpha_2_2_96_0_has_been_released"
+  },
+  {
+    "title": "Building a passive Ethernet tap",
+    "score": 30,
+    "tags": [
+      "hardware",
+      "networking",
+      "security"
+    ],
+    "url": "https://blog.lvmbdv.dev/posts/building-a-passive-ethernet-tap/",
+    "comments_url": "https://lobste.rs/s/qwk5vn/building_passive_ethernet_tap"
+  },
+  {
+    "title": "Announcing Box3D",
+    "score": 67,
+    "tags": [
+      "c",
+      "math",
+      "vibecoding"
+    ],
+    "url": "https://box2d.org/posts/2026/06/announcing-box3d/",
+    "comments_url": "https://lobste.rs/s/jcdcit/announcing_box3d"
+  },
+  {
+    "title": "Uruky - The Paid European Search Engine",
+    "score": 35,
+    "tags": [
+      "web"
+    ],
+    "url": "https://robheghan.prose.sh/26_06_30_uruky",
+    "comments_url": "https://lobste.rs/s/ujlr19/uruky_paid_european_search_engine"
+  },
+  {
+    "title": "All Package Management Functionality Moved from Compiler to Build System",
+    "score": 56,
+    "tags": [
+      "zig"
+    ],
+    "url": "https://ziglang.org/devlog/2026/?2026-06-30#2026-06-30",
+    "comments_url": "https://lobste.rs/s/4liqdw/all_package_management_functionality"
+  },
+  {
+    "title": "Who's hiring? Q3 2026",
+    "score": 40,
+    "tags": [
+      "job"
+    ],
+    "url": "",
+    "comments_url": "https://lobste.rs/s/ivfo77/who_s_hiring_q3_2026"
+  },
+  {
+    "title": "jj jj jj jj jj",
+    "score": 63,
+    "tags": [
+      "vcs"
+    ],
+    "url": "https://caiustheory.com/jj-jj-jj-jj-jj/",
+    "comments_url": "https://lobste.rs/s/96kp1m/jj_jj_jj_jj_jj"
+  },
+  {
+    "title": "Changes to Godot Engine Contribution Policies",
+    "score": 37,
+    "tags": [
+      "practices",
+      "vibecoding"
+    ],
+    "url": "https://godotengine.org/article/contribution-policy-2026/",
+    "comments_url": "https://lobste.rs/s/knec7o/changes_godot_engine_contribution"
+  },
+  {
+    "title": "Progress Report: Linux 7.1 - Asahi Linux",
+    "score": 33,
+    "tags": [
+      "linux"
+    ],
+    "url": "https://asahilinux.org/2026/06/progress-report-7-1/",
+    "comments_url": "https://lobste.rs/s/dvhioc/progress_report_linux_7_1_asahi_linux"
+  },
+  {
+    "title": "The Physics of Memory (aka can Javascript ECS?)",
+    "score": 3,
+    "tags": [
+      "compsci",
+      "games",
+      "javascript",
+      "show",
+      "wasm",
+      "web"
+    ],
+    "url": "https://www.dmurph.com/posts/2026/06/ecs_vs_oop_benchmark/ecs_vs_oop_benchmark.html",
+    "comments_url": "https://lobste.rs/s/q8vdre/physics_memory_aka_can_javascript_ecs"
+  },
+  {
+    "title": "The Internet I Grew Up With Doesn\u2019t Exist Anymore",
+    "score": 30,
+    "tags": [
+      "historical",
+      "web"
+    ],
+    "url": "https://cleberg.net/blog/internet.html",
+    "comments_url": "https://lobste.rs/s/pth2bm/internet_i_grew_up_with_doesn_t_exist"
+  },
+  {
+    "title": "Which GitHub features are needed in a code forge before you can migrate?",
+    "score": 20,
+    "tags": [
+      "ask",
+      "vcs"
+    ],
+    "url": "",
+    "comments_url": "https://lobste.rs/s/w01x4p/which_github_features_are_needed_code"
+  }
+]
