@@ -19,7 +19,10 @@ import { readFileSync, writeFileSync, existsSync, readdirSync } from 'fs';
 import { join } from 'path';
 
 // --- Paths ---
-const RESEARCH_BASE = join(import.meta.dirname!, '..', 'research');
+const RESEARCH_BASE = process.env.RESEARCH_BASE ?? join(import.meta.dirname!, '..', 'research');
+// Learn 2026 pipeline emits a structured insights.json per day (docs/DESIGN-2026.md).
+// Preferred over the legacy awesome-emerging regex parse; both are optional fallbacks.
+const LEARN_RESEARCH_BASE = process.env.LEARN_RESEARCH_BASE ?? join(import.meta.dirname!, '..', '..', 'learn-2026', 'docs', 'research');
 const INSIGHTS_FILE = join(import.meta.dirname!, '..', '..', 'awesome-emerging', 'src', 'data', 'insights.ts');
 const OUTPUT_DIR = join(import.meta.dirname!, '..', 'src', 'content', 'episodes');
 
@@ -195,11 +198,15 @@ function main() {
   const researchDir = join(RESEARCH_BASE, date);
   const scrapedDir = join(researchDir, 'scraped');
 
-  // Count existing episodes to determine episode number
-  const existingEpisodes = existsSync(OUTPUT_DIR)
-    ? readdirSync(OUTPUT_DIR).filter((f: string) => f.endsWith('.json')).length
-    : 0;
-  const episodeNumber = existingEpisodes + 1;
+  // Episode number = position of this date in the sorted episode list (backfill-safe,
+  // and re-running the same date keeps its number stable)
+  const episodeDates = existsSync(OUTPUT_DIR)
+    ? readdirSync(OUTPUT_DIR)
+        .filter((f: string) => f.endsWith('.json'))
+        .map((f: string) => f.replace(/\.json$/, ''))
+    : [];
+  const allDates = [...new Set([...episodeDates, date])].sort();
+  const episodeNumber = allDates.indexOf(date) + 1;
 
   // --- Load sources ---
 
@@ -243,9 +250,28 @@ function main() {
     console.warn('  ⚠ devto.json not found');
   }
 
-  // 3. Editorial insights from awesome-emerging
+  // 3a. Structured insights from the Learn 2026 pipeline (preferred)
+  interface StructuredInsight { text: string; tags?: string[]; source?: string; url?: string }
+  let structuredInsights: StructuredInsight[] = [];
+  let learnHeroStat: { value: string; label: string } | undefined;
+  for (const base of [LEARN_RESEARCH_BASE, RESEARCH_BASE]) {
+    const insightsJson = join(base, date, 'insights.json');
+    if (existsSync(insightsJson)) {
+      try {
+        const parsed = JSON.parse(readFileSync(insightsJson, 'utf-8'));
+        structuredInsights = (parsed.insights ?? []).filter((i: StructuredInsight) => i?.text);
+        if (parsed.heroStat?.value && parsed.heroStat?.label) learnHeroStat = parsed.heroStat;
+        console.log(`  Learn 2026 insights.json: ${structuredInsights.length} entries (${insightsJson})`);
+        break;
+      } catch (e) {
+        console.warn(`  ⚠ Failed to parse ${insightsJson}: ${e}`);
+      }
+    }
+  }
+
+  // 3b. Legacy editorial insights from awesome-emerging (fallback)
   let editorialInsights: string[] = [];
-  if (existsSync(INSIGHTS_FILE)) {
+  if (structuredInsights.length === 0 && existsSync(INSIGHTS_FILE)) {
     const insightsSource = readFileSync(INSIGHTS_FILE, 'utf-8');
     // Parse the TS file to find the entry for this date
     const datePattern = new RegExp(`date:\\s*["']${date}["'][\\s\\S]*?entries:\\s*\\[([\\s\\S]*?)\\]`, 'm');
@@ -261,12 +287,17 @@ function main() {
     }
   }
 
-  // 4. Daily research summary
+  // 4. Daily research summary (legacy name, then Learn 2026 daily-brief.md)
   let summaryMd = '';
-  const summaryFile = join(researchDir, `daily-research-${date}.md`);
-  if (existsSync(summaryFile)) {
-    summaryMd = readFileSync(summaryFile, 'utf-8');
-    console.log(`  Research summary: loaded`);
+  for (const f of [
+    join(researchDir, `daily-research-${date}.md`),
+    join(LEARN_RESEARCH_BASE, date, 'daily-brief.md'),
+  ]) {
+    if (existsSync(f)) {
+      summaryMd = readFileSync(f, 'utf-8');
+      console.log(`  Research summary: loaded (${f})`);
+      break;
+    }
   }
 
   // --- Validate minimum data ---
@@ -275,6 +306,7 @@ function main() {
     (hnStories.length > 0 ? 1 : 0) +
     (lobstersStories.length > 0 ? 1 : 0) +
     (devtoArticles.length > 0 ? 1 : 0) +
+    (structuredInsights.length > 0 ? 1 : 0) +
     (editorialInsights.length > 0 ? 1 : 0);
   if (sourceCount === 0) {
     console.error(`ERROR: No data sources available for ${date}. Need at least GitHub trending, HN, Lobsters, Dev.to, or editorial insights.`);
@@ -322,7 +354,14 @@ function main() {
     })),
   ];
 
-  const insights = editorialInsights.length > 0
+  const insights = structuredInsights.length > 0
+    ? structuredInsights.slice(0, 8).map(i => ({
+        text: i.text,
+        tags: (i.tags && i.tags.length > 0 ? i.tags : extractTagsFromInsight(i.text)).slice(0, 3),
+        source: i.source ?? extractSourceFromInsight(i.text),
+        url: i.url ?? extractUrlFromInsight(i.text),
+      }))
+    : editorialInsights.length > 0
     ? editorialInsights.slice(0, 8).map(text => ({
         text,
         tags: extractTagsFromInsight(text),
@@ -367,8 +406,12 @@ function main() {
   // Subtitle (first 3 insights summarized)
   const subtitle = headlines.map(h => h.text.slice(0, 50)).join(', ');
 
-  // Hero stat
-  const heroStat = pickHeroStat(editorialInsights, hnStories);
+  // Hero stat (Learn 2026 bundle may supply one directly)
+  const heroStat = learnHeroStat
+    ?? pickHeroStat(
+      structuredInsights.length > 0 ? structuredInsights.map(i => i.text) : editorialInsights,
+      hnStories,
+    );
 
   // Takeaway
   const takeawayText = extractTakeaway(summaryMd);
