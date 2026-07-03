@@ -254,6 +254,7 @@ function main() {
   interface StructuredInsight { text: string; tags?: string[]; source?: string; url?: string }
   let structuredInsights: StructuredInsight[] = [];
   let learnHeroStat: { value: string; label: string } | undefined;
+  let learnTakeaway: string | undefined;
   for (const base of [LEARN_RESEARCH_BASE, RESEARCH_BASE]) {
     const insightsJson = join(base, date, 'insights.json');
     if (existsSync(insightsJson)) {
@@ -261,6 +262,7 @@ function main() {
         const parsed = JSON.parse(readFileSync(insightsJson, 'utf-8'));
         structuredInsights = (parsed.insights ?? []).filter((i: StructuredInsight) => i?.text);
         if (parsed.heroStat?.value && parsed.heroStat?.label) learnHeroStat = parsed.heroStat;
+        if (typeof parsed.takeaway === 'string' && parsed.takeaway.trim()) learnTakeaway = parsed.takeaway.trim();
         console.log(`  Learn 2026 insights.json: ${structuredInsights.length} entries (${insightsJson})`);
         break;
       } catch (e) {
@@ -414,7 +416,7 @@ function main() {
     );
 
   // Takeaway
-  const takeawayText = extractTakeaway(summaryMd);
+  const takeawayText = learnTakeaway ?? extractTakeaway(summaryMd);
 
   const episode = {
     date,
