@@ -1,0 +1,92 @@
+[
+  {
+    "fullName": "msitarzewski/agency-agents",
+    "name": "agency-agents",
+    "description": "Complete AI agency with specialized agents for various roles and expertise areas",
+    "language": "Shell",
+    "stars_today": "3,032 stars today",
+    "total_stars": "125805",
+    "url": "https://github.com/msitarzewski/agency-agents"
+  },
+  {
+    "fullName": "usestrix/strix",
+    "name": "strix",
+    "description": "Open-source AI penetration testing tool to find and fix vulnerabilities",
+    "language": "Python",
+    "stars_today": "2,137 stars today",
+    "total_stars": "32784",
+    "url": "https://github.com/usestrix/strix"
+  },
+  {
+    "fullName": "HKUDS/Vibe-Trading",
+    "name": "Vibe-Trading",
+    "description": "Personal trading agent application built on LLM reasoning",
+    "language": "Python",
+    "stars_today": "939 stars today",
+    "total_stars": "17477",
+    "url": "https://github.com/HKUDS/Vibe-Trading"
+  },
+  {
+    "fullName": "hasaneyldrm/exercises-dataset",
+    "name": "exercises-dataset",
+    "description": "Comprehensive dataset of 433 fitness exercises with instructions and multimedia",
+    "language": "HTML",
+    "stars_today": "938 stars today",
+    "total_stars": "9460",
+    "url": "https://github.com/hasaneyldrm/exercises-dataset"
+  },
+  {
+    "fullName": "JuliusBrussee/caveman",
+    "name": "caveman",
+    "description": "Claude Code skill that reduces token usage by 65% through caveman-style communication",
+    "language": "JavaScript",
+    "stars_today": "926 stars today",
+    "total_stars": "81567",
+    "url": "https://github.com/JuliusBrussee/caveman"
+  },
+  {
+    "fullName": "obra/superpowers",
+    "name": "superpowers",
+    "description": "Agentic skills framework and software development methodology",
+    "language": "Shell",
+    "stars_today": "897 stars today",
+    "total_stars": "244721",
+    "url": "https://github.com/obra/superpowers"
+  },
+  {
+    "fullName": "browser-use/video-use",
+    "name": "video-use",
+    "description": "Video editing capability for coding agents",
+    "language": "Python",
+    "stars_today": "554 stars today",
+    "total_stars": "13966",
+    "url": "https://github.com/browser-use/video-use"
+  },
+  {
+    "fullName": "affaan-m/ECC",
+    "name": "ECC",
+    "description": "Agent harness performance optimization with skills, memory, and security features",
+    "language": "JavaScript",
+    "stars_today": "486 stars today",
+    "total_stars": "225328",
+    "url": "https://github.com/affaan-m/ECC"
+  },
+  {
+    "fullName": "santifer/career-ops",
+    "name": "career-ops",
+    "description": "AI-powered job search system with 14 skill modes and batch processing capabilities",
+    "language": "JavaScript",
+    "stars_today": "372 stars today",
+    "total_stars": "58075",
+    "url": "https://github.com/santifer/career-ops"
+  },
+  {
+    "fullName": "openai/codex-plugin-cc",
+    "name": "codex-plugin-cc",
+    "description": "Codex plugin enabling code review and task delegation integration",
+    "language": "JavaScript",
+    "stars_today": "352 stars today",
+    "total_stars": "22779",
+    "url": "https://github.com/openai/codex-plugin-cc"
+  }
+]
