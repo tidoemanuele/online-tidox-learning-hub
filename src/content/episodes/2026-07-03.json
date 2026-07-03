@@ -1,86 +1,64 @@
 {
   "date": "2026-07-03",
-  "episodeNumber": 103,
+  "episodeNumber": 104,
   "locale": "en-US",
   "title": "Intelligence Brief",
-  "subtitle": "Virginia bans sale of geolocation data earns 665 H, Since Linux 6.9, LUKS suspend stopped wiping disk-, PeerTube is a free, decentralized and federated vi",
+  "subtitle": "The Free Market Lie: Why Switzerland Has 25 Gbit I, Virginia bans sale of geolocation data, CarPlay Is Additive",
   "heroStat": {
     "value": "665",
     "label": "points on \"Virginia bans sale of geolocation data\""
   },
   "insights": [
     {
-      "text": "Virginia bans sale of geolocation data earns 665 HN pts (https://www.hunton.com/privacy-and-cybersecurity-law-blog/virginia-bans-sale-of-geolocation-data) and 116 comments (0.17:1 comment-to-point ratio) — the day's highest-scoring story by a decisive margin and the most significant U.S. state privacy legislation to reach the practitioner community since California's CCPA enforcement rulings, with a pure-endorsement ratio that reflects near-unanimous practitioner agreement that the law is a meaningful step forward. The 0.17:1 ratio is the landmark-endorsement pattern for regulatory stories the HN community reads as unambiguously positive: 665 practitioners upvoted and only 116 commented because the finding is clear, the law's mechanism is well-understood, and the community response is 'this matters' rather than 'this needs interrogating.' Governor Spanberger signed S.B. 388 on April 13, 2026, amending Virginia's Consumer Data Protection Act effective July 1, 2026 — making Virginia the third state after Maryland and Oregon to specifically prohibit the sale of geolocation data, defined as the exchange of personal data for monetary consideration by a data controller to a third party. The timing is precise and the enforcement date is July 1 — the day before this story peaks on HN — meaning the law is in force as practitioners are reading about it. The specific prohibition targets the data broker model that has powered the surveillance advertising and government data-purchase economy for the past decade: location data aggregated from mobile SDKs embedded in apps, purchased from data brokers by law enforcement, insurance companies, political campaigns, and foreign intelligence contractors, all without meaningful consumer knowledge or consent. Virginia's definition of 'sale' is narrower than Maryland and Oregon — limited to direct monetary exchange rather than 'monetary or other valuable consideration' — which means arrangements where location data is exchanged for non-monetary value (API access reciprocity, data sharing agreements) may not fall under the prohibition. The HN thread's 116 comments explore this gap directly: practitioners documenting the specific broker arrangements that may evade the narrower definition, comparing Virginia's approach to the FTC's 2024 enforcement action against data brokers, and noting that the California AG's 2025 investigation into the location data industry has not yet produced equivalent legislation despite California's broader privacy framework. The compound context with Scott Aaronson's 'An American Privacy Emergency' post scoring 256 HN pts on the same day: July 3, 2026 is a day the practitioner community is processing both a concrete legislative step forward on location privacy and a broader argument that the U.S. privacy regulatory apparatus remains structurally insufficient to address surveillance at the scale it now operates. Source: https://www.hunton.com/privacy-and-cybersecurity-law-blog/virginia-bans-sale-of-geolocation-data",
+      "text": "The Free Market Lie: Why Switzerland Has 25 Gbit Internet and America Doesn't (257 pts, 150 comments)",
       "tags": [
-        "security"
+        "hacker-news"
+      ],
+      "source": "HN 257pts",
+      "url": "https://stefan.schueller.net/posts/the-free-market-lie/"
+    },
+    {
+      "text": "Virginia bans sale of geolocation data (665 pts, 116 comments)",
+      "tags": [
+        "hacker-news"
       ],
       "source": "HN 665pts",
       "url": "https://www.hunton.com/privacy-and-cybersecurity-law-blog/virginia-bans-sale-of-geolocation-data"
     },
     {
-      "text": "Since Linux 6.9, LUKS suspend stopped wiping disk-encryption keys from memory earns 436 HN pts (https://news.ycombinator.com/item?id=48763035) and 196 comments (0.45:1 comment-to-point ratio) — the day's second-highest security story and a kernel regression disclosure that generates a split endorsement-to-debate ratio characteristic of the pattern where a finding is both clearly true and practically consequential but the remediation path is unclear. The 0.45:1 ratio is the concerned-practitioner pattern for kernel security regressions: 436 practitioners endorsed and 196 contributed commentary that is structurally divided between kernel engineers documenting the technical mechanism, security practitioners assessing the real-world exploit surface, and distribution maintainers discussing whether and how patches are being backported. The technical finding, originally documented by mathematician and Lean formal-verification contributor Ingo Blechschmidt in a Mathstodon post, is precise: prior to Linux 6.9, the cryptsetup LUKS suspend mechanism wiped the disk-encryption master key from kernel memory before entering a suspend-to-RAM (S3) state, such that an attacker with physical access to a suspended laptop could not extract the key by freezing RAM and reading it — the cold boot attack defense that full-disk encryption via LUKS was designed to provide. Beginning with Linux 6.9, a kernel change broke this key-wiping behavior: the key is no longer cleared from memory during suspend, meaning a suspended LUKS-encrypted Linux laptop running kernel 6.9 or later is vulnerable to cold boot key extraction in a way that identical hardware running kernel 6.8 was not. The regression is not a new vulnerability but the removal of an existing mitigation — a distinction that matters for risk assessment because the cold boot attack it re-enables requires physical access, specialized hardware (a RAM reader operating below the memory's refresh threshold), and the ability to freeze RAM before power loss scrambles its contents, typically within 30-90 seconds. The HN thread's 196 comments break down along three lines: kernel developers tracing which specific commit introduced the regression and whether it has been patched in mainline; security researchers discussing the practical cold-border and evil-maid attack scenarios that LUKS suspend key-wiping was designed to defeat; and privacy-sensitive users — journalists, activists, practitioners in high-risk contexts — asking directly which kernel versions are safe and whether their distributions have shipped a fix. The compound reading with the Virginia geolocation ban: July 3, 2026 is a day when the practitioner community is processing a legislative step forward on data privacy and a kernel regression that undermines hardware-level data security — two threads of the same underlying concern about who controls access to personal data, one regulatory and one technical. Source: https://discuss.privacyguides.net/t/since-linux-6-9-luks-suspend-stopped-wiping-disk-encryption-keys-from-memory/38949",
+      "text": "CarPlay Is Additive (175 pts, 219 comments)",
       "tags": [
-        "security",
-        "research"
-      ],
-      "source": "HN 436pts",
-      "url": "https://news.ycombinator.com/item?id=48763035"
-    },
-    {
-      "text": "PeerTube is a free, decentralized and federated video platform earns 578 HN pts (https://github.com/Chocobozzz/PeerTube) and 267 comments (0.46:1 comment-to-point ratio) alongside Podman v6.0.0 at 458 HN pts (https://blog.podman.io/2026/07/introducing-podman-v6-0-0/) and 182 comments, and Immich 3.0 at 287 HN pts (https://github.com/immich-app/immich/discussions/29439) and 143 comments — a triple-signal on the same HN front page that collectively describes a practitioner community expressing revealed preference for self-hosted, federated, and open-source infrastructure alternatives to centralized platforms at a scale not seen since the post-Twitter-acquisition period in late 2022. The PeerTube story is not a release announcement — it is the GitHub repository page reaching HN organically at 578 points, which means the community endorsed PeerTube's existence and architecture as a signal worth amplifying, not a specific new capability. The 0.46:1 ratio for PeerTube reflects genuine engagement: 267 comments on a repository that practitioners already know about indicates that the community is using the story as a discussion anchor for the broader federated video question — what would it take for ActivityPub-federated video to reach the audience scale and discoverability of YouTube, and what are the structural impediments (storage costs, indexing, content moderation at federation boundaries) that the current architecture has not resolved. Podman v6.0.0 is a concrete major release: a complete rewrite of Podman's core networking stack, native support for the OCI Image Layout Specification without the Docker compatibility shim, and a new quadlet-based service management system that integrates rootless containers with systemd without requiring Podman to run as root. The 0.40:1 ratio for Podman reflects the practitioner community that uses it in production: engineers who switched from Docker to Podman for rootless operation and are now upgrading to v6 are the core commenters, documenting migration paths, breaking changes, and the specific quadlet-based service definitions that replace docker-compose in a systemd-native deployment. Immich 3.0 is the self-hosted Google Photos alternative crossing a maturity threshold: the 3.0 release introduces a redesigned mobile app, a machine learning pipeline that runs entirely on-device for face recognition and CLIP-based semantic search, and a new storage migration system that handles the transition from flat-file to content-addressed storage without requiring a full reimport. The compound reading of all three stories arriving on the same July 3 front page: the practitioner community's preference for infrastructure they control, federate, and run without vendor dependency is not a fringe position in mid-2026 — it is the mainstream revealed preference of 665+578+458+287-point endorsements across four consecutive privacy and self-hosting stories on a single HN day. Source: https://blog.podman.io/2026/07/introducing-podman-v6-0-0/",
-      "tags": [
-        "supply-chain",
-        "github-trending",
-        "open-source"
-      ],
-      "source": "HN 578pts",
-      "url": "https://github.com/Chocobozzz/PeerTube"
-    },
-    {
-      "text": "CarPlay Is Additive earns 175 HN pts (https://www.caseyliss.com/2026/7/2/carplay-is-additive-you-dolts) and 219 comments (1.25:1 comment-to-point ratio) — the day's highest-controversy story by a significant margin, with more comments than points in a ratio that identifies a piece that provoked genuine disagreement from the practitioner community rather than the endorsement-heavy patterns that dominate the July 3 front page. The 1.25:1 ratio is rare in the 2026 HN dataset and marks a specific kind of content: an opinion piece with a strong thesis delivered with rhetorical confidence that invites refutation from practitioners who have direct experience that complicates the argument. Casey Liss's post argues that CarPlay — Apple's system for projecting an iPhone interface onto a car's infotainment display — is additive to the driving experience rather than distracting, and that critics of CarPlay misunderstand its ergonomics: the interface is designed to be operated at a glance, the familiar iOS UI reduces cognitive load compared to learning a new car-specific system, and the alternative (car manufacturer native UIs) is empirically worse as a category. The 'you dolts' in the title is the rhetorical signal that generates the 1.25:1 ratio: the post is self-consciously combative, which invites the HN community's practitioners — who include automotive software engineers, UX researchers, safety engineers, and drivers across a wide range of CarPlay experiences — to engage with the argument's limits rather than simply endorse or dismiss it. The 219 comments break down structurally: commenters who have measured their own reaction times and attention patterns on CarPlay versus native UIs, automotive engineers documenting the regulatory environment that makes car-native UI redesign difficult, practitioners who point out that the 'additive' framing elides the distinction between CarPlay in traffic versus CarPlay on open roads, and Apple platform developers who note the irony of the framing given how aggressively Apple restricts CarPlay's capabilities in the name of driver safety. The structural signal the ratio reveals about the HN community on July 3: on a day dominated by high-endorsement privacy stories, the community's highest-engagement story is a UX opinion piece — which describes a practitioner community that is simultaneously processing legislative and security signals about data sovereignty and expressing genuine disagreement about the ergonomics of one of the most widely used human-computer interfaces in the physical world. Source: https://www.caseyliss.com/2026/7/2/carplay-is-additive-you-dolts",
-      "tags": [
-        "security",
-        "research"
+        "hacker-news"
       ],
       "source": "HN 175pts",
       "url": "https://www.caseyliss.com/2026/7/2/carplay-is-additive-you-dolts"
     },
     {
-      "text": "msitarzewski/agency-agents surges to +3,032 stars/day (125,805 total, Shell) at https://github.com/msitarzewski/agency-agents alongside JuliusBrussee/caveman at +926 stars/day (81,567 total, JavaScript) at https://github.com/JuliusBrussee/caveman — the day's two highest-velocity GitHub trending repositories and a compound signal about the practitioner community's revealed preference for agentic tooling at two distinct layers of the stack. The +3,032 velocity for agency-agents is the dataset's second-highest single-day star velocity in July 2026, exceeded only by the dao-code surge documented on July 2, and reflects the community endorsing a framework that assembles multiple specialized AI agents into a coordinated agency rather than a single general-purpose coding agent. The agency-agents architecture is structurally different from single-agent tools like Claude Code or Cursor: rather than one agent that handles all tasks, agency-agents provisions a constellation of specialized agents — a researcher, a planner, a coder, a reviewer, a documenter — each with a specific context budget and tool access profile, coordinated by an orchestrator that routes tasks based on the agent's demonstrated competency at that task type. The Shell-language repository reflects the framework's philosophy: the coordination layer is deliberately thin, using shell scripts to invoke model APIs and pass structured context between agents rather than a heavyweight orchestration library, which makes the system inspectable, debuggable, and deployable without a specialized runtime. The JuliusBrussee/caveman +926 velocity is the complementary signal: where agency-agents addresses the architecture of multi-agent coordination, caveman addresses the economics of individual agent operation. The caveman Claude Code skill reduces token consumption by approximately 65% by instructing the model to respond in a compressed, grammar-stripped register — a technique that preserves semantic content while dramatically reducing the token count of each response, directly reducing API cost for token-billed operations. The compound reading of the two velocities: on July 3, the practitioner community is simultaneously investing in making agent architectures more capable (agency-agents) and making individual agent invocations cheaper (caveman) — the two axes of the agentic software development economics problem that the community is actively working to close. Source: https://github.com/msitarzewski/agency-agents",
+      "text": "Is the iPhone birth control? Causal evidence from AT&T's 2007-2011 monopoly [pdf] (54 pts, 26 comments)",
       "tags": [
-        "github-trending",
-        "claude-code",
-        "agents"
+        "hacker-news"
       ],
-      "source": "GitHub +3,032/day",
-      "url": "https://github.com/msitarzewski/agency-agents"
+      "source": "HN 54pts",
+      "url": "https://www.nber.org/system/files/working_papers/w35310/w35310.pdf"
     },
     {
-      "text": "crustc: entirety of rustc, translated to C earns 215 HN pts (https://github.com/FractalFir/crustc) and 37 comments (0.17:1 ratio) alongside 36 Lobsters pts — a dual-community endorsement for a project that is simultaneously a technical achievement, a portability argument, and a provocation to the Rust community's assumptions about C as the target of Rust's safety guarantees. The 0.17:1 ratio on HN is the pure-endorsement pattern for a technical project the community reads as impressive and unambiguous in its achievement: 215 practitioners upvoted and only 37 commented because the project speaks for itself and the technical accomplishment is not contested. The crustc project, maintained by Jakub Beránek (FractalFir), translates the entire Rust compiler — approximately 500,000 lines of Rust code — into C source code using a transpiler that preserves Rust's ownership and borrow semantics as explicit memory management patterns in the C output. The goal is not to make rustc faster or safer in C — the C output is verbose and not intended for human maintenance — but to enable rustc to bootstrap on platforms where a Rust toolchain does not yet exist, using only a C compiler as the foundational dependency. This addresses the bootstrapping problem that has been a structural challenge for Rust adoption on embedded systems, new processor architectures, and environments where the full LLVM toolchain is unavailable or impractical: if you can compile C, you can now compile crustc's C output to get a Rust compiler, and from that Rust compiler you can build the full Rust ecosystem. The Lobsters community's 36-point endorsement is the compound signal: Lobsters' systems programming practitioners, who read C and Rust as adjacent concerns rather than adversarial ones, are endorsing crustc as a serious systems engineering project rather than a novelty, with comments that document the specific platforms (RISC-V microcontrollers, Plan 9, obscure BSDs) where bootstrappability from a C compiler is the practical constraint. The structural implication: crustc makes Rust's adoption profile look more like C's — a language that can reach any platform a C compiler can reach — rather than a language whose reach is bounded by the availability of LLVM and a pre-existing Rust toolchain. Source: https://github.com/FractalFir/crustc",
+      "text": "crustc: Entirety of rustc, translated to C (36 pts on Lobsters)",
       "tags": [
-        "supply-chain",
-        "github-trending",
+        "lobsters",
         "rust"
       ],
-      "source": "HN 215pts",
+      "source": "Lobsters 36pts",
       "url": "https://github.com/FractalFir/crustc"
     },
     {
-      "text": "jj v0.43.0 released earns 52 Lobsters pts (https://github.com/jj-vcs/jj/releases/tag/v0.43.0) alongside Wordgard Release 0.1 at 50 pts (https://marijnhaverbeke.nl/blog/wordgard-0.1.html) and the Free Market Lie: Why Switzerland Has 25 Gbit Internet and America Doesn't at 257 HN pts (https://stefan.schueller.net/posts/the-free-market-lie/) and 150 comments (0.59:1 ratio) — three stories that at first appear unrelated but together describe a practitioner community processing the gap between what infrastructure could be and what it is, across version control, writing tools, and broadband. The jj v0.43.0 release on Lobsters is the highest-scoring software release story on that platform for July 3 and reflects the sustained practitioner investment in jj as a Git-compatible version control system that surfaces the underlying commit graph that Git's branch-centric UI obscures. The v0.43.0 release introduces a new working-copy backend that enables jj to manage multiple simultaneous working copies without the overhead of full worktree clones — a capability that addresses the multi-task workflow where practitioners switch between several in-progress changes without committing half-finished work. Wordgard 0.1 from Marijn Haverbeke — the creator of CodeMirror and ProseMirror — is a new open-source word processor built on ProseMirror that targets academic and technical writers who need precise control over document structure without the complexity of LaTeX or the opacity of Microsoft Word's XML format. The 0.1 release includes a constraint-based layout engine, a citation management system integrated with BibTeX, and a collaborative editing mode built on the Automerge CRDT library. The Stefan Schüller blog post on Switzerland's 25 Gbit internet scores 257 HN points and 150 comments (0.59:1 ratio — the engaged-debate pattern) and makes a structural argument the HN community's responses validate and extend: Switzerland's fiber infrastructure density is the product of municipal network investment combined with unbundled wholesale access requirements that force ISPs to compete on service quality rather than infrastructure exclusivity, while the U.S. has consistently chosen the opposite regulatory model — private infrastructure ownership without unbundling — producing a market where incumbents have no competitive incentive to deploy or upgrade beyond what their existing customer retention requires. The compound reading: on a day when practitioners are endorsing new version control releases, new writing tools, and debating broadband infrastructure policy, the practitioner community is expressing consistent revealed preferences — for tools that expose underlying structure (jj), for tools built by known craftspeople on documented foundations (Wordgard/ProseMirror), and for infrastructure policy that treats connectivity as a public good rather than a private competitive asset. Source: https://stefan.schueller.net/posts/the-free-market-lie/",
+      "text": "No LLM code in dependencies (29 pts on Lobsters)",
       "tags": [
-        "github-trending",
-        "open-source"
+        "lobsters",
+        "practices",
+        "vibecoding"
       ],
-      "source": "HN 257pts",
-      "url": "https://github.com/jj-vcs/jj/releases/tag/v0.43.0"
-    },
-    {
-      "text": "Right to Local Intelligence earns 125 HN pts (https://righttointelligence.org/) and 48 comments (0.38:1 comment-to-point ratio) alongside Postgres transactions are a distributed systems superpower at 150 HN pts (https://www.dbos.dev/blog/co-locating-workflow-state-with-your-data) and 64 comments (0.43:1 ratio) — two stories that sit at different altitudes of the software stack but together articulate the practitioner community's consistent 2026 thesis: that the right architectural default is local, owned, and structurally comprehensible. The righttointelligence.org post is a manifesto-format argument for a legal and technical right to run AI models locally — on hardware the user owns, without network connectivity, without telemetry, and without the capability restrictions that cloud-hosted AI services impose through rate limits, content policies, and model versioning decisions outside the user's control. The 0.38:1 ratio is the considered-endorsement pattern for a normative argument the community broadly accepts but wants to qualify: 125 practitioners endorsed the premise and 48 contributed the qualifications — that local inference is computationally expensive in ways that make it inaccessible to practitioners without high-end consumer hardware, that model weights are not sufficient without the fine-tuning infrastructure needed to adapt them to specific tasks, and that the 'right' framing does not resolve the economic question of who funds the research and compute required to create the models that local users would run. The DBOS post on Postgres transactions is a technical argument with a similar underlying structure: that co-locating workflow state with application data in a single Postgres database — rather than using a separate workflow orchestration service, message queue, and application database — gives developers the ACID guarantees, queryability, and operational simplicity of a single authoritative data store. The 0.43:1 ratio is the engaged-practitioner pattern for a technical argument that experienced engineers want to stress-test: 64 comments from practitioners documenting the specific distributed systems properties (exactly-once delivery, saga pattern compensation, long-running workflow checkpointing) that the co-located Postgres approach handles well and the scenarios (cross-service workflows, workflows that outlive database transactions) where it encounters limits. The compound reading with the day's self-hosted and privacy stories: July 3, 2026 is a day when the practitioner community is articulating the same architectural preference at three levels simultaneously — local AI inference (Right to Local Intelligence), local video infrastructure (PeerTube), local photo storage (Immich 3.0), and local-first database workflows (Postgres co-location) — a coherent distributed-to-local reversal that the day's data describes as the dominant practitioner preference across the stack. Source: https://righttointelligence.org/",
-      "tags": [
-        "research"
-      ],
-      "source": "HN 125pts",
-      "url": "https://righttointelligence.org/"
+      "source": "Lobsters 29pts",
+      "url": "https://joeyh.name/blog/entry/no_LLM_code_in_dependencies/"
     }
   ],
   "trending": [
@@ -143,7 +121,7 @@
     },
     {
       "label": "Insights Today",
-      "value": "8",
+      "value": "6",
       "unit": "stories"
     }
   ],
@@ -154,17 +132,17 @@
     },
     "headlines": [
       {
-        "text": "Virginia bans sale of geolocation data earns 665 HN pts and 116 comments",
+        "text": "The Free Market Lie: Why Switzerland Has 25 Gbit Internet and America Doesn't",
         "metric": "—",
         "source": "web"
       },
       {
-        "text": "Since Linux 6.9, LUKS suspend stopped wiping disk-encryption keys from memory earns 436 HN pts and 196 comments",
+        "text": "Virginia bans sale of geolocation data",
         "metric": "—",
         "source": "web"
       },
       {
-        "text": "PeerTube is a free, decentralized and federated video platform earns 578 HN pts and 267 comments alongside Podman v6.0.0 at 458 HN pts and 182 comments, and Immich 3.0 at 287 HN pts and 143 comments",
+        "text": "CarPlay Is Additive",
         "metric": "—",
         "source": "web"
       }
