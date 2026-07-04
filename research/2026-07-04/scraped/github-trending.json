@@ -1,0 +1,92 @@
+[
+  {
+    "fullName": "JuliusBrussee/caveman",
+    "name": "caveman",
+    "description": "Claude Code skill that cuts 65% of tokens by talking like caveman — why use many token when few token do trick",
+    "language": "JavaScript",
+    "stars_today": "2,863 stars today",
+    "total_stars": "84458",
+    "url": "https://github.com/JuliusBrussee/caveman"
+  },
+  {
+    "fullName": "usestrix/strix",
+    "name": "strix",
+    "description": "Open-source AI penetration testing tool to find and fix your app's vulnerabilities",
+    "language": "Python",
+    "stars_today": "2,803 stars today",
+    "total_stars": "35587",
+    "url": "https://github.com/usestrix/strix"
+  },
+  {
+    "fullName": "obra/superpowers",
+    "name": "superpowers",
+    "description": "An agentic skills framework and software development methodology that works",
+    "language": "Shell",
+    "stars_today": "1,209 stars today",
+    "total_stars": "14312",
+    "url": "https://github.com/obra/superpowers"
+  },
+  {
+    "fullName": "msitarzewski/agency-agents",
+    "name": "agency-agents",
+    "description": "Complete AI agency with specialized agents for various roles and expertise areas",
+    "language": "Shell",
+    "stars_today": "1,208 stars today",
+    "total_stars": "127013",
+    "url": "https://github.com/msitarzewski/agency-agents"
+  },
+  {
+    "fullName": "facebook/astryx",
+    "name": "astryx",
+    "description": "An open source design system that's fully customizable and agent ready",
+    "language": "TypeScript",
+    "stars_today": "885 stars today",
+    "total_stars": "17497",
+    "url": "https://github.com/facebook/astryx"
+  },
+  {
+    "fullName": "harvard-edge/cs249r_book",
+    "name": "cs249r_book",
+    "description": "Machine Learning Systems — comprehensive textbook on ML systems design and deployment",
+    "language": "Python",
+    "stars_today": "793 stars today",
+    "total_stars": "11309",
+    "url": "https://github.com/harvard-edge/cs249r_book"
+  },
+  {
+    "fullName": "ogulcancelik/herdr",
+    "name": "herdr",
+    "description": "Agent multiplexer that lives in your terminal — route tasks across multiple AI agents",
+    "language": "Rust",
+    "stars_today": "478 stars today",
+    "total_stars": "1854",
+    "url": "https://github.com/ogulcancelik/herdr"
+  },
+  {
+    "fullName": "agentskills/agentskills",
+    "name": "agentskills",
+    "description": "Specification and documentation for Agent Skills — the emerging standard for Claude Code skills",
+    "language": "Python",
+    "stars_today": "406 stars today",
+    "total_stars": "11000",
+    "url": "https://github.com/agentskills/agentskills"
+  },
+  {
+    "fullName": "ChromeDevTools/chrome-devtools-mcp",
+    "name": "chrome-devtools-mcp",
+    "description": "Chrome DevTools for coding agents — MCP server exposing browser debugging to AI tools",
+    "language": "TypeScript",
+    "stars_today": "405 stars today",
+    "total_stars": "8700",
+    "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
+  },
+  {
+    "fullName": "anthropics/claude-code",
+    "name": "claude-code",
+    "description": "Agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster",
+    "language": "Python",
+    "stars_today": "221 stars today",
+    "total_stars": "186000",
+    "url": "https://github.com/anthropics/claude-code"
+  }
+]

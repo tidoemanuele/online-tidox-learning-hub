@@ -1,0 +1,171 @@
+[
+  {
+    "type": "intro",
+    "label": "THE DAILY BRIEF",
+    "highlight": "Running state-of-the-art AI locally on your own hardware",
+    "subtext": "No API. No cloud."
+  },
+  {
+    "type": "intro",
+    "highlight": "The highest Hacker News score of the day",
+    "subtext": "317 points"
+  },
+  {
+    "type": "repo",
+    "label": "GITHUB REPO",
+    "highlight": "jamesob's two-tier hardware guide",
+    "subtext": "$2,000 for Qwen3.6-27B, $40,000 for GLM-5.2"
+  },
+  {
+    "type": "number",
+    "label": "CONTEXT WINDOW",
+    "number": "240K",
+    "highlight": "A quarter-million token context, running locally"
+  },
+  {
+    "type": "insight",
+    "label": "SIGNAL",
+    "highlight": "Revealed preference for infrastructure sovereignty"
+  },
+  {
+    "type": "quote",
+    "highlight": "Independence Day. Not a coincidence I'm ignoring."
+  },
+  {
+    "type": "repo",
+    "label": "GITHUB REPO",
+    "highlight": "SearXNG, an open-source metasearch engine",
+    "subtext": "186 points, no new release"
+  },
+  {
+    "type": "number",
+    "label": "HN POINTS",
+    "number": "194",
+    "highlight": "Inference cost is falling fast"
+  },
+  {
+    "type": "insight",
+    "highlight": "Three factors are compounding: competition, quantization, utilization",
+    "subtext": ">10x cheaper per token than 18 months ago"
+  },
+  {
+    "type": "insight",
+    "highlight": "Local rigs and cloud costs are converging on one thesis"
+  },
+  {
+    "type": "quote",
+    "highlight": "Inference cost is falling faster than anyone predicted"
+  },
+  {
+    "type": "repo",
+    "label": "GITHUB REPO",
+    "highlight": "Caveman, an AI skill that talks like a caveman",
+    "subtext": "2,863 stars in a day, 84K total"
+  },
+  {
+    "type": "number",
+    "label": "TOKEN REDUCTION",
+    "number": "65%",
+    "highlight": "Cuts token usage without touching code"
+  },
+  {
+    "type": "quote",
+    "highlight": "A token compression layer that degrades prose on purpose"
+  },
+  {
+    "type": "insight",
+    "highlight": "Agentic economics are real, and builders are solving them"
+  },
+  {
+    "type": "repo",
+    "label": "GITHUB REPO",
+    "highlight": "Superpowers, an agentic skills framework",
+    "subtext": "1,200 stars today"
+  },
+  {
+    "type": "insight",
+    "highlight": "Two axes closing at once: cheaper calls, easier distribution"
+  },
+  {
+    "type": "number",
+    "label": "HN POINTS",
+    "number": "162",
+    "highlight": "Leanstral 1.5 lands with formal theorem proving"
+  },
+  {
+    "type": "number",
+    "label": "PUTNAMBENCH",
+    "number": "87.4%",
+    "highlight": "Solves the majority of PutnamBench problems"
+  },
+  {
+    "type": "quote",
+    "highlight": "PutnamBench: graduate-level math competition problems?"
+  },
+  {
+    "type": "insight",
+    "label": "STRATEGY",
+    "highlight": "Zero price to build the user base for training data"
+  },
+  {
+    "type": "quote",
+    "highlight": "A distribution play, not a product play"
+  },
+  {
+    "type": "insight",
+    "highlight": "The case against formal verification gets weaker every month"
+  },
+  {
+    "type": "number",
+    "label": "HN POINTS",
+    "number": "81",
+    "highlight": "A CVE severity spike around Mythos Preview",
+    "subtext": "Epoch AI's report"
+  },
+  {
+    "type": "insight",
+    "highlight": "Three hypotheses: timing, scrutiny, new attack surface"
+  },
+  {
+    "type": "insight",
+    "highlight": "AI release schedules now shift security research"
+  },
+  {
+    "type": "quote",
+    "highlight": "AI is no longer separate from infrastructure security"
+  },
+  {
+    "type": "number",
+    "label": "LOBSTERS POINTS",
+    "number": "64",
+    "highlight": "ClickHouse tops the devops charts",
+    "subtext": "Displacing TimescaleDB, VictoriaMetrics, Thanos, Loki"
+  },
+  {
+    "type": "insight",
+    "highlight": "One database replaces the specialized observability stack",
+    "subtext": "8-12x compression, SQL-native interface"
+  },
+  {
+    "type": "quote",
+    "highlight": "One database to rule the data plane"
+  },
+  {
+    "type": "insight",
+    "highlight": "Five endorsements: own hardware, cheap inference, cheap agents, free proofs, self-hosted search"
+  },
+  {
+    "type": "quote",
+    "highlight": "Infrastructure is becoming personal, ownable, auditable"
+  },
+  {
+    "type": "close",
+    "highlight": "The window to build is open right now",
+    "subtext": "The tooling exists. The applications don't yet."
+  },
+  {
+    "type": "close",
+    "label": "SIGN OFF",
+    "highlight": "Go build something. Happy Fourth."
+  }
+]
