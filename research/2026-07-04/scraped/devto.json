@@ -1,0 +1,319 @@
+[
+  {
+    "rank": 1,
+    "title": "Dev Opportunity Radar #6: Y Combinator Startup School, Open Source AI Grants, and a $60K APAC Hackathon",
+    "url": "https://dev.to/devengers/dev-opportunity-radar-6-y-combinator-startup-school-open-source-ai-grants-and-a-60k-apac-4nlp",
+    "reactions": 44,
+    "comments": 8,
+    "tags": [
+      "discuss",
+      "community",
+      "opportunities",
+      "resources"
+    ]
+  },
+  {
+    "rank": 2,
+    "title": "The Conspiracy Big Software Engineering Doesn't Want You to Know",
+    "url": "https://dev.to/dailycontext/the-conspiracy-big-software-engineering-doesnt-want-you-to-know-5299",
+    "reactions": 7,
+    "comments": 3,
+    "tags": [
+      "aie",
+      "ai",
+      "agentskills",
+      "satire"
+    ]
+  },
+  {
+    "rank": 3,
+    "title": "A Third Brain for your Second Brain",
+    "url": "https://dev.to/dailycontext/a-third-brain-for-your-second-brain-38b4",
+    "reactions": 7,
+    "comments": 1,
+    "tags": [
+      "aie",
+      "ai",
+      "techtalks",
+      "memory"
+    ]
+  },
+  {
+    "rank": 4,
+    "title": "Choosing the Right Tooling Layer for Your Agent",
+    "url": "https://dev.to/dailycontext/choosing-the-right-tooling-layer-for-your-agent-1eg2",
+    "reactions": 7,
+    "comments": 3,
+    "tags": [
+      "aie",
+      "ai",
+      "agents"
+    ]
+  },
+  {
+    "rank": 5,
+    "title": "Protect Yourself, Mesh Yourself",
+    "url": "https://dev.to/eschmechel/protect-yourself-mesh-yourself-3fkn",
+    "reactions": 7,
+    "comments": 0,
+    "tags": [
+      "tutorial",
+      "productivity",
+      "opensource",
+      "devops"
+    ]
+  },
+  {
+    "rank": 6,
+    "title": "LuciferCore: The Redemption Arc — From a Naive Prototype to a Battle-Tested .NET Framework",
+    "url": "https://dev.to/thuangf45/lucifercore-the-redemption-arc-from-a-naive-prototype-to-a-battle-tested-net-framework-4l7f",
+    "reactions": 33,
+    "comments": 10,
+    "tags": [
+      "dotnet",
+      "performance",
+      "architecture",
+      "showdev"
+    ]
+  },
+  {
+    "rank": 7,
+    "title": "Are Your GitHub Stats Worthy of a FIFA Card?",
+    "url": "https://dev.to/konark_13/are-your-github-stats-worthy-of-a-fifa-card-3p1p",
+    "reactions": 7,
+    "comments": 1,
+    "tags": [
+      "webdev",
+      "githunt",
+      "opensource",
+      "discuss"
+    ]
+  },
+  {
+    "rank": 8,
+    "title": "Account Security on Solana, Made Simple",
+    "url": "https://dev.to/100daysofsolana/account-security-on-solana-made-simple-154d",
+    "reactions": 0,
+    "comments": 0,
+    "tags": [
+      "100daysofsolana",
+      "blockchain",
+      "web3",
+      "learning"
+    ]
+  },
+  {
+    "rank": 9,
+    "title": "Another Tale of Two Threads (C or C++ vs. Python)",
+    "url": "https://dev.to/pauljlucas/another-tale-of-two-threads-c-or-c-vs-python-hhl",
+    "reactions": 0,
+    "comments": 0,
+    "tags": [
+      "c",
+      "cpp",
+      "python"
+    ]
+  },
+  {
+    "rank": 10,
+    "title": "Funding Open Source Without The Bait And Switch: Analytics, Native Maps, TV And More",
+    "url": "https://dev.to/codenameone/funding-open-source-without-the-bait-and-switch-analytics-native-maps-tv-and-more-1h1j",
+    "reactions": 0,
+    "comments": 1,
+    "tags": [
+      "java",
+      "mobile",
+      "android",
+      "ios"
+    ]
+  },
+  {
+    "rank": 11,
+    "title": "Your React Native build is done. Now your whole team can test it in the browser.",
+    "url": "https://dev.to/joduchan/your-react-native-build-is-done-now-your-whole-team-can-test-it-in-the-browser-1jpo",
+    "reactions": 8,
+    "comments": 2,
+    "tags": [
+      "reactnative",
+      "testing",
+      "opensource",
+      "webdev"
+    ]
+  },
+  {
+    "rank": 12,
+    "title": "I Built My Own Text Editor",
+    "url": "https://dev.to/m__mdy__m/i-built-my-own-text-editor-1203",
+    "reactions": 5,
+    "comments": 0,
+    "tags": [
+      "discuss",
+      "programming",
+      "opensource",
+      "career"
+    ]
+  },
+  {
+    "rank": 13,
+    "title": "The 3-Second Rule of Web Performance — And How to Beat It",
+    "url": "https://dev.to/utkarshbansal01/the-3-second-rule-of-web-performance-and-how-to-beat-it-1he1",
+    "reactions": 12,
+    "comments": 4,
+    "tags": [
+      "javascript",
+      "webdev",
+      "performance",
+      "frontend"
+    ]
+  },
+  {
+    "rank": 14,
+    "title": "HTTP finally shipped QUERY. I fired it at production and the edge called it a bot.",
+    "url": "https://dev.to/arvavit/http-finally-shipped-query-i-fired-it-at-production-and-the-edge-called-it-a-bot-7cj",
+    "reactions": 2,
+    "comments": 0,
+    "tags": [
+      "webdev",
+      "backend",
+      "http",
+      "api"
+    ]
+  },
+  {
+    "rank": 15,
+    "title": "AI For Fun! Électrique Chats for Hack the Kitty, Built with Kiro.",
+    "url": "https://dev.to/earlgreyhot1701d/ai-for-fun-electric-chats-at-hack-the-kitty-built-with-kiro-849",
+    "reactions": 0,
+    "comments": 0,
+    "tags": [
+      "webdev",
+      "kiro",
+      "aws",
+      "showdev"
+    ]
+  },
+  {
+    "rank": 16,
+    "title": "The Shop on the Corner: How I Learned System Design Without Building Clone",
+    "url": "https://dev.to/surajrkhonde/the-shop-on-the-corner-how-i-learned-system-design-without-building-clone-54pa",
+    "reactions": 3,
+    "comments": 5,
+    "tags": [
+      "systemdesign",
+      "beginners",
+      "computerscience",
+      "webdev"
+    ]
+  },
+  {
+    "rank": 17,
+    "title": "Website Down? Don't Blame Your Code Yet (How to Prove Your Host is at Fault)",
+    "url": "https://dev.to/sayista_yazdani_3c0e9f4f9/website-down-dont-blame-your-code-yet-how-to-prove-your-host-is-at-fault-1mfp",
+    "reactions": 6,
+    "comments": 2,
+    "tags": [
+      "webdev",
+      "devops",
+      "linux",
+      "programming"
+    ]
+  },
+  {
+    "rank": 18,
+    "title": "Navigating the New Grad SWE Job Hunt: System Design Interviews - Part 2",
+    "url": "https://dev.to/pidgey0403/navigating-the-new-grad-swe-job-hunt-system-design-interviews-part-2-64i",
+    "reactions": 0,
+    "comments": 0,
+    "tags": [
+      "architecture",
+      "career",
+      "interview",
+      "systemdesign"
+    ]
+  },
+  {
+    "rank": 19,
+    "title": "Vegas Amnesia: I turned Cognee's memory lifecycle into a detective game",
+    "url": "https://dev.to/himanshu_748/vegas-amnesia-i-turned-cognees-memory-lifecycle-into-a-detective-game-4nga",
+    "reactions": 1,
+    "comments": 0,
+    "tags": [
+      "ai",
+      "knowledgegraph",
+      "gamedev",
+      "hackathon"
+    ]
+  },
+  {
+    "rank": 20,
+    "title": "a width check said the string was safe to cut. it split a kanji in half.",
+    "url": "https://dev.to/greymothjp/a-width-check-said-the-string-was-safe-to-cut-it-split-a-kanji-in-half-4hjk",
+    "reactions": 2,
+    "comments": 0,
+    "tags": [
+      "javascript",
+      "unicode",
+      "i18n",
+      "webdev"
+    ]
+  },
+  {
+    "rank": 21,
+    "title": "Adversarial Testing 101: Break Your Model Before Your Users Do",
+    "url": "https://dev.to/lovestaco/adversarial-testing-101-break-your-model-before-your-users-do-2jne",
+    "reactions": 10,
+    "comments": 1,
+    "tags": [
+      "ai",
+      "webdev",
+      "programming",
+      "beginners"
+    ]
+  },
+  {
+    "rank": 22,
+    "title": "What would you add to the list?",
+    "url": "https://dev.to/canro91/what-would-you-add-to-the-list-3gp4",
+    "reactions": 0,
+    "comments": 0,
+    "tags": []
+  },
+  {
+    "rank": 23,
+    "title": "OrinIDE v1.0.8 is here and it's a whole vibe upgrade 🚀",
+    "url": "https://dev.to/nandan_das_369/orinide-v109-is-here-and-its-a-whole-vibe-upgrade-3cpf",
+    "reactions": 11,
+    "comments": 0,
+    "tags": [
+      "opensource",
+      "ai",
+      "webdev",
+      "javascript"
+    ]
+  },
+  {
+    "rank": 24,
+    "title": "The page transition you pay a library for is now free",
+    "url": "https://dev.to/parsajiravand/the-page-transition-you-pay-a-library-for-is-now-free-2e5d",
+    "reactions": 6,
+    "comments": 2,
+    "tags": [
+      "css",
+      "webdev",
+      "frontend",
+      "javascript"
+    ]
+  },
+  {
+    "rank": 25,
+    "title": "Ruby ecosystem is growing and changing. It is adapting to the AI era very quickly.",
+    "url": "https://dev.to/eayurt/ruby-ecosystem-is-growing-and-changing-it-is-adapting-to-the-ai-era-very-quickly-25m6",
+    "reactions": 0,
+    "comments": 0,
+    "tags": [
+      "ai",
+      "news",
+      "ruby"
+    ]
+  }
+]

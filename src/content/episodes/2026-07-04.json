@@ -3,103 +3,135 @@
   "episodeNumber": 104,
   "locale": "en-US",
   "title": "Intelligence Brief",
-  "subtitle": "The AI vulnerability-disclosure wave is here: ~1,5, The inference price war moved into hardware: GLM-5, Mistral's Leanstral 1.5 makes formal proof a free ",
+  "subtitle": "Costco is the anti-Amazon, Espionage Against the European Parliament, Jamesob's guide to running SOTA LLMs locally",
   "heroStat": {
-    "value": "3.5×",
-    "label": "June's high/critical CVE disclosures vs the pre-Mythos monthly record — the Glasswing wave has started"
+    "value": "394",
+    "label": "points on \"Costco is the anti-Amazon\""
   },
   "insights": [
     {
-      "text": "The AI vulnerability-disclosure wave is here: ~1,500 high/critical CVEs in June (3.5× the pre-Mythos record, per Epoch AI), Project Glasswing sitting on 10,000+ more, and strix AI-pentesting at #1 on GitHub trending for a second straight day (+2,803 stars).",
+      "text": "Costco is the anti-Amazon (394 pts, 367 comments)",
       "tags": [
-        "security",
-        "frontier-models",
-        "github"
+        "hacker-news"
       ],
-      "source": "Hacker News / Epoch AI / GitHub Trending",
-      "url": "https://epoch.ai/data-insights/cve-severity-spike"
+      "source": "HN 394pts",
+      "url": "https://phenomenalworld.org/analysis/the-anti-amazon/"
     },
     {
-      "text": "The inference price war moved into hardware: GLM-5.2 serves on AMD MI355X at 2,626 tok/s/node at over 2× lower cost than Blackwell, with MXFP4 quantization measured lossless — SemiAnalysis independently puts MI355X at $0.49/Mtok vs B300's $0.74.",
+      "text": "Espionage Against the European Parliament (356 pts, 87 comments)",
       "tags": [
-        "inference",
-        "hardware",
-        "local-llm"
+        "hacker-news"
       ],
-      "source": "Hacker News / Wafer / SemiAnalysis",
-      "url": "https://www.wafer.ai/blog/glm52-amd"
+      "source": "HN 356pts",
+      "url": "https://citizenlab.ca/research/member-of-committee-investigating-spyware-hacked-with-pegasus/"
     },
     {
-      "text": "Mistral's Leanstral 1.5 makes formal proof a free commodity: Apache-2.0, 119B MoE with only 6.5B active, solves 587 of 672 PutnamBench problems, framed by Mistral as the trust layer for vibe-coded software.",
+      "text": "Jamesob's guide to running SOTA LLMs locally (334 pts, 151 comments)",
       "tags": [
-        "formal-verification",
-        "open-weights"
+        "hacker-news"
       ],
-      "source": "Hacker News / Mistral",
-      "url": "https://mistral.ai/news/leanstral-1-5/"
-    },
-    {
-      "text": "SCOTUS ruled 6-3 in Chatrie v. US that geofence location data held by a third-party company is a Fourth Amendment search — the biggest narrowing of the third-party doctrine since Carpenter, though warrants weren't banned outright.",
-      "tags": [
-        "privacy",
-        "policy"
-      ],
-      "source": "Tildes / SCOTUS",
-      "url": "https://www.scotusblog.com/2026/06/court-rules-that-law-enforcements-use-of-geofence-warrant-was-a-search/"
-    },
-    {
-      "text": "Local SOTA is now a purchasing decision, not a research project: jamesob's local-llm guide (311 HN points) is a literal bill of materials — $2k buys Qwen3.6-27B, $40k buys a quantized GLM-5.2 594B rig with whisper STT included.",
-      "tags": [
-        "local-llm",
-        "hardware"
-      ],
-      "source": "Hacker News",
+      "source": "HN 334pts",
       "url": "https://github.com/jamesob/local-llm"
     },
     {
-      "text": "The frontier-distillation leak is now a genre: the Qwythos-9B 'Claude-Mythos-5' distill holds #1 on Hugging Face at 1.37M downloads (+112k/day), joined by versioned gemma-4 'fable5' distill product lines at 628k downloads — still zero independent benchmarks.",
+      "text": "Factories are just rooms (238 pts, 98 comments)",
       "tags": [
-        "local-llm",
-        "frontier-models"
+        "hacker-news"
       ],
-      "source": "Hugging Face Trending",
-      "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF"
+      "source": "HN 238pts",
+      "url": "https://interconnected.org/home/2026/07/03/factories"
     },
     {
-      "text": "Local-first sync reached product grade: Bramble password manager (116 HN points) syncs P2P over a self-hostable Nostr relay + WebRTC with no vault server and doubles as a passkey authenticator, while Opbox brings CRDT sync to plain files on disk.",
+      "text": "Fourteener Lobsters (260 pts on Lobsters)",
       "tags": [
-        "local-first",
-        "privacy",
-        "p2p"
+        "lobsters",
+        "announce"
       ],
-      "source": "Show HN",
-      "url": "https://github.com/flythenimbus/bramble"
+      "source": "Lobsters 260pts",
+      "url": "https://lobste.rs/s/zwz0wh/fourteener_lobsters"
     },
     {
-      "text": "Bearish counterweight from the largest deployer: Zuckerberg told Meta staff AI agents haven't progressed as quickly as expected — said the week agent harness repos dominated GitHub trending and caveman token-optimization grew +2,863 stars in a day.",
+      "text": "Why implementing ActivityPub is hard, and why it doesn't have to be (43 pts on Lobsters)",
       "tags": [
-        "agents",
-        "market"
+        "lobsters",
+        "distributed",
+        "vibecoding"
       ],
-      "source": "TechCrunch / GitHub Trending",
-      "url": "https://techcrunch.com/category/artificial-intelligence/"
+      "source": "Lobsters 43pts",
+      "url": "https://hackers.pub/@fedify/2026/why-activitypub-is-hard"
+    },
+    {
+      "text": "Dev Opportunity Radar #6: Y Combinator Startup School, Open Source AI Grants, and a $60K APAC Hackathon (44 reactions on Dev.to)",
+      "tags": [
+        "devto",
+        "discuss",
+        "community"
+      ],
+      "source": "Dev.to 44❤",
+      "url": "https://dev.to/devengers/dev-opportunity-radar-6-y-combinator-startup-school-open-source-ai-grants-and-a-60k-apac-4nlp"
+    },
+    {
+      "text": "The Conspiracy Big Software Engineering Doesn't Want You to Know (7 reactions on Dev.to)",
+      "tags": [
+        "devto",
+        "aie",
+        "ai"
+      ],
+      "source": "Dev.to 7❤",
+      "url": "https://dev.to/dailycontext/the-conspiracy-big-software-engineering-doesnt-want-you-to-know-5299"
     }
   ],
-  "trending": [],
-  "numbers": [
+  "trending": [
     {
-      "label": "Stories",
-      "value": "0",
-      "unit": "items"
+      "name": "caveman",
+      "fullName": "JuliusBrussee/caveman",
+      "stars": "83.3K",
+      "language": "JavaScript",
+      "delta": "+2863/d"
     },
     {
-      "label": "Repos",
-      "value": "0",
-      "unit": "tracked"
+      "name": "strix",
+      "fullName": "usestrix/strix",
+      "stars": "35.2K",
+      "language": "Python",
+      "delta": "+2803/d"
+    },
+    {
+      "name": "superpowers",
+      "fullName": "obra/superpowers",
+      "stars": "246K",
+      "language": "Shell",
+      "delta": "+1209/d"
+    },
+    {
+      "name": "agency-agents",
+      "fullName": "msitarzewski/agency-agents",
+      "stars": "127K",
+      "language": "Shell",
+      "delta": "+1208/d"
+    },
+    {
+      "name": "astryx",
+      "fullName": "facebook/astryx",
+      "stars": "5.0K",
+      "language": "TypeScript",
+      "delta": "+885/d"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "394",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "2863",
+      "unit": "stars/day"
     },
     {
       "label": "Sources Scraped",
-      "value": "1",
+      "value": "4",
       "unit": "sites"
     },
     {
@@ -115,23 +147,23 @@
     },
     "headlines": [
       {
-        "text": "The AI vulnerability-disclosure wave is here: ~1,500 high/critical CVEs in June , Project Glasswing sitting on 10,000+ more, and strix AI-pentesting at #1 on GitHub trending for a second straight day .",
+        "text": "Costco is the anti-Amazon",
         "metric": "—",
         "source": "web"
       },
       {
-        "text": "The inference price war moved into hardware: GLM-5.2 serves on AMD MI355X at 2,626 tok/s/node at over 2× lower cost than Blackwell, with MXFP4 quantization measured lossless",
+        "text": "Espionage Against the European Parliament",
         "metric": "—",
         "source": "web"
       },
       {
-        "text": "Mistral's Leanstral 1.5 makes formal proof a free commodity: Apache-2.0, 119B MoE with only 6.5B active, solves 587 of 672 PutnamBench problems, framed by Mistral as the trust layer for vibe-coded software.",
+        "text": "Jamesob's guide to running SOTA LLMs locally",
         "metric": "—",
         "source": "web"
       }
     ],
     "takeaway": {
-      "text": "AI found the bugs, AMD cut the serving bill, Mistral gave away the proofs, and the court gave privacy back its teeth — the stack is decentralizing faster than the frontier can gate it."
+      "text": "Today's brief covers the most interesting signals across the tech landscape."
     }
   }
 }
