@@ -1,0 +1,145 @@
+[
+  {
+    "title": "Fourteener Lobsters",
+    "score": 352,
+    "tags": [
+      "announce"
+    ],
+    "url": "",
+    "comments_url": "https://lobste.rs/s/zwz0wh/fourteener_lobsters"
+  },
+  {
+    "title": "Returning to Zig",
+    "score": 42,
+    "tags": [
+      "zig"
+    ],
+    "url": "https://gracefulliberty.com/articles/return-to-zig/",
+    "comments_url": "https://lobste.rs/s/svm2dp/returning_zig"
+  },
+  {
+    "title": "Do Wavy Walls Really Use Fewer Bricks? I Tested It in Blender",
+    "score": 40,
+    "tags": [
+      "art",
+      "culture",
+      "visualization"
+    ],
+    "url": "https://blog.tymscar.com/posts/crinklecranklewalls/",
+    "comments_url": "https://lobste.rs/s/xfjchg/do_wavy_walls_really_use_fewer_bricks_i"
+  },
+  {
+    "title": "Better Models: Worse Tools",
+    "score": 14,
+    "tags": [
+      "vibecoding"
+    ],
+    "url": "https://lucumr.pocoo.org/2026/7/4/better-models-worse-tools/",
+    "comments_url": "https://lobste.rs/s/yrmpxy/better_models_worse_tools"
+  },
+  {
+    "title": "What should a personal website be?",
+    "score": 49,
+    "tags": [
+      "philosophy"
+    ],
+    "url": "https://ratfactor.com/cards/personal-website",
+    "comments_url": "https://lobste.rs/s/4tiool/what_should_personal_website_be"
+  },
+  {
+    "title": "Bad Epoll (CVE-2026-46242)",
+    "score": 24,
+    "tags": [
+      "linux",
+      "security"
+    ],
+    "url": "https://github.com/J-jaeyoung/bad-epoll",
+    "comments_url": "https://lobste.rs/s/drf6my/bad_epoll_cve_2026_46242"
+  },
+  {
+    "title": "The Lion, The Witch, and the audacity of recruiters",
+    "score": 19,
+    "tags": [
+      "job",
+      "rant"
+    ],
+    "url": "https://hauleth.dev/post/the-lion-the-witch-and-the-aduacity-of-recruiter/",
+    "comments_url": "https://lobste.rs/s/5akjfx/lion_witch_audacity_recruiters"
+  },
+  {
+    "title": "Reducing Assumptions, Exploding Your Code",
+    "score": 16,
+    "tags": [
+      "plt"
+    ],
+    "url": "https://ryelang.org/blog/posts/reducing_assumptions_but_exploding/",
+    "comments_url": "https://lobste.rs/s/be22hc/reducing_assumptions_exploding_your"
+  },
+  {
+    "title": "Dark mode with web standards",
+    "score": 6,
+    "tags": [
+      "web"
+    ],
+    "url": "https://olliewilliams.xyz/blog/dark-mode/",
+    "comments_url": "https://lobste.rs/s/d1hevp/dark_mode_with_web_standards"
+  },
+  {
+    "title": "Immich v3.0.0 Released",
+    "score": 14,
+    "tags": [
+      "release"
+    ],
+    "url": "https://immich.app/blog/v3.0.0-release",
+    "comments_url": "https://lobste.rs/s/otepg9/immich_v3_0_0_released"
+  },
+  {
+    "title": "thundersnap v0.01: an undo button for everything",
+    "score": 12,
+    "tags": [
+      "release",
+      "vibecoding"
+    ],
+    "url": "https://github.com/tailscale/thundersnap/",
+    "comments_url": "https://lobste.rs/s/d7mfza/thundersnap_v0_01_undo_button_for"
+  },
+  {
+    "title": "EndBASIC 0.14: Are we multimedia yet?",
+    "score": 9,
+    "tags": [
+      "retrocomputing"
+    ],
+    "url": "https://www.endbasic.dev/2026/07/endbasic-0.14.html",
+    "comments_url": "https://lobste.rs/s/ctulps/endbasic_0_14_are_we_multimedia_yet"
+  },
+  {
+    "title": "Who's Hiring? - Support Edition - Q3 2026",
+    "score": 20,
+    "tags": [
+      "job"
+    ],
+    "url": "",
+    "comments_url": "https://lobste.rs/s/0zha79/who_s_hiring_support_edition_q3_2026"
+  },
+  {
+    "title": "Why don't people use git properly?",
+    "score": 24,
+    "tags": [
+      "education",
+      "practices",
+      "vcs"
+    ],
+    "url": "https://deadsimpletech.com/blog/why-dont-people-use-git-properly",
+    "comments_url": "https://lobste.rs/s/4e3g9a/why_don_t_people_use_git_properly"
+  },
+  {
+    "title": "Magit 4.6 released",
+    "score": 59,
+    "tags": [
+      "emacs",
+      "release"
+    ],
+    "url": "https://emacsair.me/2026/07/01/magit-4.6/",
+    "comments_url": "https://lobste.rs/s/wbpoiy/magit_4_6_released"
+  }
+]

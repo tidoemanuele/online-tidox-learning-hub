@@ -1,0 +1,138 @@
+[
+  [
+    "A",
+    "Let's start with the biggest story on Hacker News today, and it's not a good look for Google."
+  ],
+  [
+    "B",
+    "The YouTube one? 557 points, 314 comments — that's a big number for a security post."
+  ],
+  [
+    "A",
+    "Right. A researcher found that YouTube Studio's AI assistant summarizes creator comments, but it treats the text of those comments as instructions, not just data."
+  ],
+  [
+    "B",
+    "Wait, so someone could hide a command inside a comment and the AI just... follows it?"
+  ],
+  [
+    "A",
+    "Exactly. And because comments can be edited after posting, the payload can slip in with no re-notification. The AI then embeds a fake verification link in its summary."
+  ],
+  [
+    "B",
+    "And creators click it because it looks like it's coming from YouTube itself."
+  ],
+  [
+    "A",
+    "Right, and that leaks private video titles — unreleased content, pre-announcement stuff — straight to the attacker's server."
+  ],
+  [
+    "B",
+    "OK so here's what bugs me — Google called this social engineering, not a security bug?"
+  ],
+  [
+    "A",
+    "That's the second signal. They declined to even track it. Which tells you the industry still doesn't have a shared definition of what a 'trust boundary' means when AI reads user content."
+  ],
+  [
+    "B",
+    "So if that's true, then basically every AI feature that summarizes comments, tickets, emails — any of it — has this same hole."
+  ],
+  [
+    "A",
+    "Any interface that aggregates untrusted text and presents the output as trusted AI speech. That's the pattern, not a one-off bug."
+  ],
+  [
+    "B",
+    "Builder takeaway: if you're shipping an AI summarizer over user-generated content, you need an explicit untrusted-input boundary, not just a good prompt."
+  ],
+  [
+    "A",
+    "And that connects directly to the next story. Claude Code has a GitHub issue at 284 points about possible session leakage between workspaces."
+  ],
+  [
+    "B",
+    "Different flavor of the same worry though, right? That one's murkier — could just be prompt cache hits or shared CLAUDE.md files."
+  ],
+  [
+    "A",
+    "Could be. But notice the timing — this is the second Claude Code trust story in five days, after the steganography disclosure hit 1,660 points on July 1."
+  ],
+  [
+    "B",
+    "Two front-page trust scares in a week. That's not noise anymore, that's a pattern the community is actively hunting for."
+  ],
+  [
+    "A",
+    "And there's a third data point — GPT-5.5 Codex, 219 points, a hypothesis that reasoning tokens are getting clustered or cached in a way that produces correlated errors on similar prompts."
+  ],
+  [
+    "B",
+    "So three separate AI coding tools, three separate 'wait, is this actually safe or reliable' threads, same week."
+  ],
+  [
+    "A",
+    "Here's what it tells us: capability is outrunning the tooling's ability to prove its own boundaries. Nobody's shipped a clear technical explanation for any of these yet."
+  ],
+  [
+    "B",
+    "Which is basically the exact argument in that Armin Ronacher post — Better Models, Worse Tools."
+  ],
+  [
+    "A",
+    "Right, 140 points, and his point is that better models made tool builders lazy. They assume the model will save them, so context management and error handling get sloppy."
+  ],
+  [
+    "B",
+    "So the takeaway for anyone building on these models today: don't outsource your trust boundary to the model's good judgment. Design the boundary yourself."
+  ],
+  [
+    "A",
+    "That's the throughline for the whole day, honestly — trust is the bottleneck now, not raw capability."
+  ],
+  [
+    "B",
+    "OK, palate cleanser — tell me about the Command and Conquer port, because 478 points for a fan project is huge."
+  ],
+  [
+    "A",
+    "One developer ported Generals natively to Mac, iPhone, and iPad, using Claude Code to help with the Metal shader debugging — work that used to take a platform engineer weeks."
+  ],
+  [
+    "B",
+    "Wait, a single person did a full RTS engine port in a weekend? With touch controls tuned for RTS on a tablet?"
+  ],
+  [
+    "A",
+    "That's the claim, and the repo documents the whole methodology — GPL source, DXVK for the Metal translation layer, all of it."
+  ],
+  [
+    "B",
+    "So while one part of the ecosystem is nervous about trust boundaries, another part is discovering they can single-handedly do what used to require a whole studio."
+  ],
+  [
+    "A",
+    "Both are true at once. That's actually the thesis for today — the ceiling on what one person can build just went way up, and the floor on what you can assume is safe just went down."
+  ],
+  [
+    "B",
+    "Which means the winning move isn't 'wait for the tools to mature.' It's build ambitiously, but build your own guardrails, because nobody's shipping them for you yet."
+  ],
+  [
+    "A",
+    "And don't sleep on Anna's Archive's $200,000 bounty for the Google Books corpus either — 410 points because it's the same tension: incredible capability sitting behind walls nobody's agreed how to open."
+  ],
+  [
+    "B",
+    "So today's real signal is: the tools can do almost anything now. The judgment about what's safe and what's owed to who — that part's still entirely on us."
+  ],
+  [
+    "A",
+    "Which is exactly why you should go build something today. Just build it like you're the one responsible for the trust boundary, because you are."
+  ],
+  [
+    "B",
+    "Alright, that's the brief. Go make something — carefully."
+  ]
+]

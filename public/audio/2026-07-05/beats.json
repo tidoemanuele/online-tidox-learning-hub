@@ -1,0 +1,162 @@
+[
+  {
+    "type": "intro",
+    "highlight": "The biggest story on Hacker News today"
+  },
+  {
+    "type": "intro",
+    "highlight": "557 points, 314 comments on Hacker News",
+    "subtext": "A security post going viral"
+  },
+  {
+    "type": "insight",
+    "label": "THE VULNERABILITY",
+    "highlight": "YouTube's AI treats comments as instructions, not data"
+  },
+  {
+    "type": "quote",
+    "highlight": "Hide a command inside a comment?"
+  },
+  {
+    "type": "insight",
+    "highlight": "Edited comments slip in with no re-notification",
+    "subtext": "AI embeds a fake verification link"
+  },
+  {
+    "type": "quote",
+    "highlight": "Looks like it's coming from YouTube itself"
+  },
+  {
+    "type": "insight",
+    "highlight": "Leaks unreleased video titles to attackers"
+  },
+  {
+    "type": "quote",
+    "highlight": "Social engineering, not a security bug?"
+  },
+  {
+    "type": "insight",
+    "label": "GOOGLE'S RESPONSE",
+    "highlight": "No shared definition of a 'trust boundary'"
+  },
+  {
+    "type": "quote",
+    "highlight": "Every AI summarizer has this same hole"
+  },
+  {
+    "type": "insight",
+    "label": "THE PATTERN",
+    "highlight": "Untrusted text served up as trusted AI speech"
+  },
+  {
+    "type": "action",
+    "highlight": "Build an explicit untrusted-input boundary",
+    "subtext": "Not just a good prompt"
+  },
+  {
+    "type": "repo",
+    "highlight": "Claude Code",
+    "label": "GITHUB ISSUE · 284 POINTS",
+    "subtext": "Possible session leakage between workspaces"
+  },
+  {
+    "type": "quote",
+    "highlight": "That one's murkier",
+    "subtext": "Could be cache hits or shared CLAUDE.md files"
+  },
+  {
+    "type": "number",
+    "number": "1,660",
+    "highlight": "1,660 points for the steganography disclosure",
+    "label": "JULY 1"
+  },
+  {
+    "type": "quote",
+    "highlight": "That's not noise anymore, that's a pattern"
+  },
+  {
+    "type": "number",
+    "number": "219",
+    "highlight": "219 points for GPT-5.5 Codex",
+    "subtext": "Reasoning tokens clustered into correlated errors"
+  },
+  {
+    "type": "insight",
+    "highlight": "Three tools, three 'is this safe?' threads"
+  },
+  {
+    "type": "insight",
+    "label": "THE REAL PROBLEM",
+    "highlight": "Capability is outrunning the tooling's boundaries"
+  },
+  {
+    "type": "quote",
+    "highlight": "Better Models, Worse Tools",
+    "subtext": "Armin Ronacher's post"
+  },
+  {
+    "type": "number",
+    "number": "140",
+    "highlight": "140 points for that argument",
+    "subtext": "Better models made tool builders lazy"
+  },
+  {
+    "type": "action",
+    "highlight": "Design the trust boundary yourself",
+    "subtext": "Don't outsource it to the model"
+  },
+  {
+    "type": "quote",
+    "highlight": "Trust is the bottleneck now, not capability"
+  },
+  {
+    "type": "number",
+    "number": "478",
+    "highlight": "478 points for a fan-made C&C port"
+  },
+  {
+    "type": "insight",
+    "highlight": "One developer ported an RTS engine to three platforms"
+  },
+  {
+    "type": "quote",
+    "highlight": "A full RTS port in a weekend?"
+  },
+  {
+    "type": "repo",
+    "label": "THE REPO",
+    "highlight": "GPL source, DXVK translation layer",
+    "subtext": "The methodology, fully documented"
+  },
+  {
+    "type": "insight",
+    "highlight": "Nervous about trust, building like a studio"
+  },
+  {
+    "type": "quote",
+    "highlight": "The ceiling went up, the floor went down"
+  },
+  {
+    "type": "action",
+    "highlight": "Build ambitiously, but build your own guardrails"
+  },
+  {
+    "type": "number",
+    "number": "$200,000",
+    "highlight": "$200,000 bounty for the Google Books corpus",
+    "subtext": "Anna's Archive, 410 points"
+  },
+  {
+    "type": "quote",
+    "highlight": "That part's still entirely on us"
+  },
+  {
+    "type": "close",
+    "highlight": "Go build something today",
+    "subtext": "You're responsible for the trust boundary"
+  },
+  {
+    "type": "close",
+    "highlight": "Go make something — carefully"
+  }
+]

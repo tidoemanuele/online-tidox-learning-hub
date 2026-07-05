@@ -1,0 +1,92 @@
+[
+  {
+    "name": "strix",
+    "fullName": "usestrix/strix",
+    "description": "Open-source AI penetration testing tool to find and fix app vulnerabilities",
+    "language": "Python",
+    "stars_today": "1,904 stars today",
+    "total_stars": "36295",
+    "url": "https://github.com/usestrix/strix"
+  },
+  {
+    "name": "caveman",
+    "fullName": "JuliusBrussee/caveman",
+    "description": "Claude Code skill that cuts 65% of tokens by talking like caveman",
+    "language": "JavaScript",
+    "stars_today": "1,089 stars today",
+    "total_stars": "84178",
+    "url": "https://github.com/JuliusBrussee/caveman"
+  },
+  {
+    "name": "page-agent",
+    "fullName": "alibaba/page-agent",
+    "description": "JavaScript in-page GUI agent. Control web interfaces with natural language",
+    "language": "TypeScript",
+    "stars_today": "742 stars today",
+    "total_stars": "23282",
+    "url": "https://github.com/alibaba/page-agent"
+  },
+  {
+    "name": "codex-plugin-cc",
+    "fullName": "openai/codex-plugin-cc",
+    "description": "Use Codex from Claude Code to review code or delegate tasks",
+    "language": "JavaScript",
+    "stars_today": "718 stars today",
+    "total_stars": "24763",
+    "url": "https://github.com/openai/codex-plugin-cc"
+  },
+  {
+    "name": "meetily",
+    "fullName": "Zackriya-Solutions/meetily",
+    "description": "Privacy-focused AI meeting assistant with live transcription and summarization built on Rust",
+    "language": "Rust",
+    "stars_today": "718 stars today",
+    "total_stars": "15497",
+    "url": "https://github.com/Zackriya-Solutions/meetily"
+  },
+  {
+    "name": "herdr",
+    "fullName": "ogulcancelik/herdr",
+    "description": "Agent multiplexer that lives in your terminal",
+    "language": "Rust",
+    "stars_today": "707 stars today",
+    "total_stars": "11573",
+    "url": "https://github.com/ogulcancelik/herdr"
+  },
+  {
+    "name": "system_prompts_leaks",
+    "fullName": "asgeirtj/system_prompts_leaks",
+    "description": "Extracted system prompts from various AI platforms including Anthropic Claude and OpenAI",
+    "language": "JavaScript",
+    "stars_today": "471 stars today",
+    "total_stars": "49098",
+    "url": "https://github.com/asgeirtj/system_prompts_leaks"
+  },
+  {
+    "name": "cs249r_book",
+    "fullName": "harvard-edge/cs249r_book",
+    "description": "Machine Learning Systems resource",
+    "language": "Python",
+    "stars_today": "443 stars today",
+    "total_stars": "26632",
+    "url": "https://github.com/harvard-edge/cs249r_book"
+  },
+  {
+    "name": "romm",
+    "fullName": "rommapp/romm",
+    "description": "Self-hosted rom manager and player with beautiful interface",
+    "language": "Python",
+    "stars_today": "398 stars today",
+    "total_stars": "10278",
+    "url": "https://github.com/rommapp/romm"
+  },
+  {
+    "name": "chrome-devtools-mcp",
+    "fullName": "ChromeDevTools/chrome-devtools-mcp",
+    "description": "Chrome DevTools for coding agents",
+    "language": "TypeScript",
+    "stars_today": "304 stars today",
+    "total_stars": "45843",
+    "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "rank": 1,
+    "title": "Shadcn/UI now defaults to Base UI instead of Radix",
+    "url": "https://ui.shadcn.com/docs/changelog",
+    "hn_url": "https://news.ycombinator.com/item?id=48791328",
+    "points": 47,
+    "comments": 3
+  },
+  {
+    "rank": 2,
+    "title": "Command and Conquer Generals natively ported to macOS, iPhone, iPad using Fable",
+    "url": "https://github.com/ammaarreshi/Generals-Mac-iOS-iPad/tree/main",
+    "hn_url": "https://news.ycombinator.com/item?id=48788283",
+    "points": 478,
+    "comments": 187
+  },
+  {
+    "rank": 3,
+    "title": "If you're a button, you have one job",
+    "url": "https://unsung.aresluna.org/if-youre-a-button-you-have-one-job/",
+    "hn_url": "https://news.ycombinator.com/item?id=48790689",
+    "points": 101,
+    "comments": 29
+  },
+  {
+    "rank": 4,
+    "title": "Mouse: Precision Editing Tools for AI Coding Agents",
+    "url": "https://hic-ai.com",
+    "hn_url": "https://news.ycombinator.com/item?id=48791380",
+    "points": 10,
+    "comments": 9
+  },
+  {
+    "rank": 5,
+    "title": "GPT-5.5 Codex reasoning-token clustering may be leading to degraded performance",
+    "url": "https://github.com/openai/codex/issues/30364",
+    "hn_url": "https://news.ycombinator.com/item?id=48789428",
+    "points": 219,
+    "comments": 76
+  },
+  {
+    "rank": 6,
+    "title": "Google Books (or similar) all book scans \u2013 $200k bounty (2025)",
+    "url": "https://software.annas-archive.gl/AnnaArchivist/annas-archive/-/work_items/234",
+    "hn_url": "https://news.ycombinator.com/item?id=48786838",
+    "points": 410,
+    "comments": 222
+  },
+  {
+    "rank": 7,
+    "title": "Jellyfish can heal wounds in minutes. Scientists want their secrets",
+    "url": "https://www.mbl.edu/news/jellyfish-can-heal-wounds-minutes-scientists-want-their-secrets",
+    "hn_url": "https://news.ycombinator.com/item?id=48789712",
+    "points": 84,
+    "comments": 16
+  },
+  {
+    "rank": 8,
+    "title": "Artful Cats: Feline-Inspired Art and Artifacts",
+    "url": "https://www.si.edu/spotlight/art-cats",
+    "hn_url": "https://news.ycombinator.com/item?id=48751144",
+    "points": 20,
+    "comments": 1
+  },
+  {
+    "rank": 9,
+    "title": "Atomic Force Microscope high-speed video, stainless etching, bacteria, and more",
+    "url": "https://www.youtube.com/watch?v=DyIQkqBXhS0",
+    "hn_url": "https://news.ycombinator.com/item?id=48765920",
+    "points": 45,
+    "comments": 3
+  },
+  {
+    "rank": 10,
+    "title": "Leaking YouTube creators' private videos",
+    "url": "https://javoriuski.com/post/youtube",
+    "hn_url": "https://news.ycombinator.com/item?id=48786781",
+    "points": 557,
+    "comments": 314
+  },
+  {
+    "rank": 11,
+    "title": "My ASN Journey series (2024)",
+    "url": "https://www.animmouse.com/p/my-asn-journey/",
+    "hn_url": "https://news.ycombinator.com/item?id=48791256",
+    "points": 8,
+    "comments": 1
+  },
+  {
+    "rank": 12,
+    "title": "Better Models: Worse Tools",
+    "url": "https://lucumr.pocoo.org/2026/7/4/better-models-worse-tools/",
+    "hn_url": "https://news.ycombinator.com/item?id=48788599",
+    "points": 140,
+    "comments": 45
+  },
+  {
+    "rank": 13,
+    "title": "Return of the Nigerian Prince Redux: Beware Book Club and Book Review Scams (2025)",
+    "url": "https://writerbeware.blog/2025/09/19/return-of-the-nigerian-prince-redux-beware-book-club-and-book-review-scams/",
+    "hn_url": "https://news.ycombinator.com/item?id=48790240",
+    "points": 36,
+    "comments": 8
+  },
+  {
+    "rank": 14,
+    "title": "The Particle Box \u2013 Kinetic Molecular Theory Simulator",
+    "url": "https://prepok.com/chemistry/particle-box/",
+    "hn_url": "https://news.ycombinator.com/item?id=48746249",
+    "points": 6,
+    "comments": 0
+  },
+  {
+    "rank": 15,
+    "title": "The Log Is the Agent",
+    "url": "https://arxiv.org/abs/2605.21997",
+    "hn_url": "https://news.ycombinator.com/item?id=48790912",
+    "points": 14,
+    "comments": 0
+  },
+  {
+    "rank": 16,
+    "title": "Moby Dick Workout",
+    "url": "https://www.hogbaysoftware.com/posts/moby-dick-workout/",
+    "hn_url": "https://news.ycombinator.com/item?id=48791266",
+    "points": 10,
+    "comments": 2
+  },
+  {
+    "rank": 17,
+    "title": "Meta's Un-Stable Signature",
+    "url": "https://hackerfactor.com/blog/index.php?/archives/1098-Metas-Un-Stable-Signature.html",
+    "hn_url": "https://news.ycombinator.com/item?id=48750405",
+    "points": 55,
+    "comments": 2
+  },
+  {
+    "rank": 18,
+    "title": "Record-breaking solo rower Kelsey Pfendler arrives in Hawaii",
+    "url": "https://www.hawaiinewsnow.com/2026/07/04/record-breaking-solo-rower-kelsey-pfendler-arrives-hawaii/",
+    "hn_url": "https://news.ycombinator.com/item?id=48790512",
+    "points": 28,
+    "comments": 1
+  },
+  {
+    "rank": 19,
+    "title": "Potential session/cache leakage between workspace instances or consumer accounts",
+    "url": "https://github.com/anthropics/claude-code/issues/74066",
+    "hn_url": "https://news.ycombinator.com/item?id=48785485",
+    "points": 284,
+    "comments": 130
+  },
+  {
+    "rank": 20,
+    "title": "Zig: All Package Management Functionality Moved from Compiler to Build System",
+    "url": "https://ziglang.org/devlog/2026/#2026-06-30",
+    "hn_url": "https://news.ycombinator.com/item?id=48786638",
+    "points": 170,
+    "comments": 40
+  }
+]

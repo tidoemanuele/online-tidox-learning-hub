@@ -1,0 +1,54 @@
+[
+  {
+    "rank": 1,
+    "title": "Data structures your CS degree kind of glossed over",
+    "url": "https://dev.to/lovestaco/data-structures-your-cs-degree-kind-of-glossed-over-29dh",
+    "reactions": 16,
+    "comments": 4,
+    "tags": [
+      "ai",
+      "webdev",
+      "programming",
+      "beginners"
+    ]
+  },
+  {
+    "rank": 2,
+    "title": "GPU Survivors: Can You Survive a 1T Parameter Inference Run?",
+    "url": "https://dev.to/unitbuilds_cc/gpu-survivors-can-you-survive-a-1t-parameter-inference-run-476d",
+    "reactions": 10,
+    "comments": 6,
+    "tags": [
+      "ai",
+      "games",
+      "machinelearning",
+      "discuss"
+    ]
+  },
+  {
+    "rank": 3,
+    "title": "Why I Ditched Socket.IO for Raw WebSockets (And What I Learned)",
+    "url": "https://dev.to/nikhilsharma6/why-i-ditched-socketio-for-raw-websockets-and-what-i-learned-55i6",
+    "reactions": 7,
+    "comments": 5,
+    "tags": [
+      "beginners",
+      "react",
+      "javascript",
+      "webdev"
+    ]
+  },
+  {
+    "rank": 4,
+    "title": "My credential rule reported 842 secrets in vercel/ai. The real count was 0.",
+    "url": "https://dev.to/ofri-peretz/my-credential-rule-reported-842-secrets-in-vercelai-the-real-count-was-0-249p",
+    "reactions": 4,
+    "comments": 1,
+    "tags": [
+      "security",
+      "eslint",
+      "ai",
+      "node"
+    ]
+  }
+]
