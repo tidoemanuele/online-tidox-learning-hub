@@ -1,0 +1,146 @@
+[
+  [
+    "A",
+    "So the number one story on Hacker News today isn't an AI model release. It's a maps app."
+  ],
+  [
+    "B",
+    "Organic Maps. 883 points, 262 comments. That's the highest score of the day, higher than anything AI-related."
+  ],
+  [
+    "A",
+    "Free, open source, fully offline, zero telemetry. No account, no tracking, just OpenStreetMap data on your phone."
+  ],
+  [
+    "B",
+    "Wait, but why does a maps app hit 883 points *today* specifically? That's not a small number."
+  ],
+  [
+    "A",
+    "Context. This is the Sunday after a week where HN watched Claude Code get caught embedding steganographic markers in its requests. 1,660 points on that story alone."
+  ],
+  [
+    "B",
+    "Oh. So people are primed. They just spent a week asking 'what is my tooling secretly sending about me' and then a tool shows up that says 'nothing, verifiably, we swear on the source code.'"
+  ],
+  [
+    "A",
+    "Exactly. And it's not alone. OpenPrinter, 638 points, right behind it. A browser-based print layout tool. No cloud account, no API key."
+  ],
+  [
+    "B",
+    "A print tool beating most AI news on a day like this. That's the tell, isn't it. It's not about the category, it's about the shape."
+  ],
+  [
+    "A",
+    "Right. Both tools share one property: they do exactly one thing, and you can audit that claim yourself. That's the pattern the community is rewarding right now."
+  ],
+  [
+    "B",
+    "So if I'm building something today, the lesson isn't 'build a maps app.' It's: whatever you ship, make the scope small enough that a user could actually verify what it does."
+  ],
+  [
+    "A",
+    "That's the action item. Auditability as a feature, not a compliance checkbox."
+  ],
+  [
+    "B",
+    "OK, now the gaming ownership post. 385 points, but 286 comments — that ratio is way higher than the other two."
+  ],
+  [
+    "A",
+    "Highest engagement ratio in the whole dataset today. And the argument is sharp: it's not physical versus digital, it's ownership versus license. You're not buying the game, you're renting a revocable permission."
+  ],
+  [
+    "B",
+    "Wait — that's the same root complaint as the maps app and the print tool, just from the other direction. People want to control the thing they paid for, and know exactly what it does and doesn't let them do."
+  ],
+  [
+    "A",
+    "Say more about that connection."
+  ],
+  [
+    "B",
+    "Organic Maps and OpenPrinter are 'I know exactly what this tool does to me.' The gaming essay is 'I don't know what this license lets the seller do to me.' Same anxiety, mirrored."
+  ],
+  [
+    "A",
+    "That's a sharper read than I had. It's a trust deficit with anything mediated — software, licenses, AI tools — and today's front page is the community drawing the line on where they'll accept it and where they won't."
+  ],
+  [
+    "B",
+    "So what's the builder takeaway? Terms that are legible beat terms that are generous. People will forgive limited scope. They won't forgive hidden scope."
+  ],
+  [
+    "A",
+    "Now here's where it gets interesting. GitHub trending, same day: openai/codex-plugin-cc. Plus 1,532 stars in a single day. Number one on trending."
+  ],
+  [
+    "B",
+    "Wait, OpenAI shipping a plugin that lets Claude Code call Codex? That's Anthropic's tool routing to OpenAI's model."
+  ],
+  [
+    "A",
+    "Yes. First real interoperability at the tool-call layer between the two biggest coding assistants. And it's open source — you can read exactly what it sends to which API."
+  ],
+  [
+    "B",
+    "So even the trust-audit crowd is fine with this one, because it's transparent about the handoff."
+  ],
+  [
+    "A",
+    "Right, which is the same pattern again. Meanwhile asgeirtj's system_prompts_leaks jumped 981 stars in a day — people extracting and publishing the actual system prompts behind Claude's models."
+  ],
+  [
+    "B",
+    "Hold on. So in one day: people are auditing what Claude Code sends, auditing what its system prompt says, and building an open bridge to a competing model — all at once."
+  ],
+  [
+    "A",
+    "That's not abandonment. Codex-plugin-cc proves people aren't leaving Claude Code. It's forensics. The community is instrumenting the tool it depends on."
+  ],
+  [
+    "B",
+    "OK so if that's true, then the opportunity isn't 'build a Claude Code alternative.' It's 'build the observability layer for agentic tools people already trust but want to verify.'"
+  ],
+  [
+    "A",
+    "That's a real gap right now. Almost nobody ships that as a product."
+  ],
+  [
+    "B",
+    "Now, last one — Amazon quietly closing new signups for Mechanical Turk. That feels like a footnote next to all this."
+  ],
+  [
+    "A",
+    "It's not a footnote, it's the other end of the same story. Turk existed because AI needed humans to label data it couldn't yet judge itself. Freezing new customers means that supply-demand curve broke."
+  ],
+  [
+    "B",
+    "Wait, so the same week the community is fighting to keep humans auditing AI tools, the market for humans labeling AI training data is dying."
+  ],
+  [
+    "A",
+    "That's the tension. Models are now good enough to evaluate and annotate themselves. The human-in-the-loop role isn't gone, it's moving — from labeling data to auditing behavior."
+  ],
+  [
+    "B",
+    "So the humans didn't get removed from the loop. Their job in the loop changed."
+  ],
+  [
+    "A",
+    "That's today's thesis. Verification is becoming the actual product. Not the model, not the feature — the proof that the model or tool does only what it claims."
+  ],
+  [
+    "B",
+    "Which means if you're a developer wondering what to build next: don't just build the smart thing. Build the thing that lets someone check the smart thing's work. That's the gap nobody's filled yet."
+  ],
+  [
+    "A",
+    "And it's fillable today, with tools that already exist. That's the part that should get you moving."
+  ],
+  [
+    "B",
+    "Yeah. I'm already sketching something. Let's go build it."
+  ]
+]

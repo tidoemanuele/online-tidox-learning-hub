@@ -1,0 +1,42 @@
+[
+  {
+    "rank": 1,
+    "title": "What's Next for AI?",
+    "url": "https://dev.to/sylwia-lask/whats-next-for-ai-219i",
+    "reactions": 847,
+    "comments": 112,
+    "tags": ["ai", "machinelearning", "future"]
+  },
+  {
+    "rank": 2,
+    "title": "Reading Anthropic's 'When AI Builds Itself' Changed How I Think About AI and Software Engineering",
+    "url": "https://dev.to/hemapriya_kanagala/reading-anthropics-when-ai-builds-itself-changed-how-i-think-about-ai-and-software-engineering-3eh",
+    "reactions": 623,
+    "comments": 88,
+    "tags": ["ai", "softwaredevelopment", "anthropic"]
+  },
+  {
+    "rank": 3,
+    "title": "Someone Else Pays for Your AI Access",
+    "url": "https://dev.to/dannwaneri/someone-else-pays-for-your-ai-access-5149",
+    "reactions": 441,
+    "comments": 67,
+    "tags": ["ai", "business", "economics"]
+  },
+  {
+    "rank": 4,
+    "title": "What Actually Happens When You Call an LLM API",
+    "url": "https://dev.to/dannwaneri/what-actually-happens-when-you-call-an-llm-api-28l6",
+    "reactions": 389,
+    "comments": 54,
+    "tags": ["llm", "api", "webdev"]
+  },
+  {
+    "rank": 5,
+    "title": "My First Year at DEV Recap",
+    "url": "https://dev.to/javz/my-first-year-at-dev-recap-3na2",
+    "reactions": 312,
+    "comments": 41,
+    "tags": ["career", "community", "beginners"]
+  }
+]

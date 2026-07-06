@@ -1,0 +1,191 @@
+[
+  {
+    "type": "intro",
+    "highlight": "Today's Top Story Isn't AI",
+    "subtext": "It's a maps app."
+  },
+  {
+    "type": "intro",
+    "highlight": "Organic Maps Tops Hacker News",
+    "subtext": "883 points, 262 comments"
+  },
+  {
+    "type": "quote",
+    "highlight": "Free. Offline. Zero Telemetry.",
+    "subtext": "No account, no tracking — just OpenStreetMap data."
+  },
+  {
+    "type": "number",
+    "number": "883",
+    "highlight": "883 Points — Today, Specifically",
+    "subtext": "That's not a small number.",
+    "label": "HACKER NEWS SCORE"
+  },
+  {
+    "type": "number",
+    "number": "1660",
+    "highlight": "The Steganography Story",
+    "subtext": "Claude Code caught embedding hidden markers.",
+    "label": "LAST WEEK ON HN"
+  },
+  {
+    "type": "quote",
+    "highlight": "\"We Swear on the Source Code\"",
+    "subtext": "People are primed to distrust their tools."
+  },
+  {
+    "type": "number",
+    "number": "638",
+    "highlight": "OpenPrinter: 638 Points",
+    "subtext": "No cloud account, no API key.",
+    "label": "RIGHT BEHIND ORGANIC MAPS"
+  },
+  {
+    "type": "quote",
+    "highlight": "It's Not the Category, It's the Shape",
+    "subtext": "A print tool beating most AI news."
+  },
+  {
+    "type": "insight",
+    "highlight": "Do One Thing. Let Users Audit It.",
+    "subtext": "The pattern the community is rewarding today."
+  },
+  {
+    "type": "action",
+    "highlight": "Scope It Small Enough to Verify",
+    "subtext": "Whatever you ship, make it auditable."
+  },
+  {
+    "type": "action",
+    "highlight": "Auditability as a Feature",
+    "subtext": "Not a compliance checkbox."
+  },
+  {
+    "type": "number",
+    "number": "385",
+    "highlight": "385 Points, 286 Comments",
+    "subtext": "The highest engagement ratio of the day.",
+    "label": "GAMING OWNERSHIP POST"
+  },
+  {
+    "type": "insight",
+    "highlight": "Ownership vs. License",
+    "subtext": "You're renting a revocable permission."
+  },
+  {
+    "type": "quote",
+    "highlight": "Know What It Does — and Doesn't — Let You Do",
+    "subtext": "The same root complaint, from the other direction."
+  },
+  {
+    "type": "quote",
+    "highlight": "Say More About That Connection"
+  },
+  {
+    "type": "insight",
+    "highlight": "Same Anxiety, Mirrored",
+    "subtext": "\"I know what this tool does\" vs. \"I don't know what this license does.\""
+  },
+  {
+    "type": "quote",
+    "highlight": "A Trust Deficit With Anything Mediated",
+    "subtext": "The community is drawing a line today."
+  },
+  {
+    "type": "insight",
+    "highlight": "Legible Terms Beat Generous Terms",
+    "subtext": "People forgive limited scope, not hidden scope."
+  },
+  {
+    "type": "repo",
+    "highlight": "openai/codex-plugin-cc",
+    "subtext": "+1,532 stars in a day — #1 on GitHub trending",
+    "label": "GITHUB TRENDING"
+  },
+  {
+    "type": "quote",
+    "highlight": "OpenAI's Plugin Routes Into Claude Code",
+    "subtext": "Anthropic's tool calling into OpenAI's model."
+  },
+  {
+    "type": "insight",
+    "highlight": "Interoperability at the Tool-Call Layer",
+    "subtext": "Open source — you can read exactly what it sends."
+  },
+  {
+    "type": "quote",
+    "highlight": "Transparent About the Handoff",
+    "subtext": "Even the trust-audit crowd is fine with this one."
+  },
+  {
+    "type": "repo",
+    "highlight": "asgeirtj/system_prompts_leaks",
+    "subtext": "+981 stars in a day",
+    "label": "GITHUB TRENDING"
+  },
+  {
+    "type": "insight",
+    "highlight": "Auditing, Auditing, and Building a Bridge",
+    "subtext": "One day, three signals of the same instinct."
+  },
+  {
+    "type": "quote",
+    "highlight": "It's Forensics, Not Abandonment",
+    "subtext": "The community is instrumenting the tool it depends on."
+  },
+  {
+    "type": "action",
+    "highlight": "Build the Observability Layer",
+    "subtext": "Not a Claude Code alternative — a way to verify it."
+  },
+  {
+    "type": "insight",
+    "highlight": "Almost Nobody Ships That as a Product",
+    "subtext": "A real gap, right now."
+  },
+  {
+    "type": "quote",
+    "highlight": "Amazon Quietly Closes Turk Signups",
+    "subtext": "Feels like a footnote. It isn't."
+  },
+  {
+    "type": "insight",
+    "highlight": "The Other End of the Same Story",
+    "subtext": "AI needed humans to label what it couldn't judge."
+  },
+  {
+    "type": "quote",
+    "highlight": "Auditing AI, Replacing Labelers",
+    "subtext": "Same week, opposite motion."
+  },
+  {
+    "type": "insight",
+    "highlight": "The Human-in-the-Loop Role Is Moving",
+    "subtext": "From labeling data to auditing behavior."
+  },
+  {
+    "type": "quote",
+    "highlight": "Their Job in the Loop Changed",
+    "subtext": "Humans didn't get removed from the loop."
+  },
+  {
+    "type": "insight",
+    "highlight": "Verification Is Becoming the Product",
+    "subtext": "Not the model. Not the feature. The proof."
+  },
+  {
+    "type": "action",
+    "highlight": "Build the Thing That Checks the Smart Thing",
+    "subtext": "That's the gap nobody's filled yet."
+  },
+  {
+    "type": "close",
+    "highlight": "The Tools to Build This Already Exist",
+    "subtext": "That should get you moving."
+  },
+  {
+    "type": "close",
+    "highlight": "Let's Go Build It",
+    "subtext": "Already sketching something."
+  }
+]
