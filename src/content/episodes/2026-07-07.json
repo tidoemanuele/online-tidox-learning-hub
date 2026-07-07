@@ -3,104 +3,140 @@
   "episodeNumber": 107,
   "locale": "en-US",
   "title": "Intelligence Brief",
-  "subtitle": "Anthropic found a causal 'global workspace' inside, Anthropic trained on what Claude's internal worksp, Reddit's own policy post confirms old.reddit.com w",
+  "subtitle": "Fable turned reMarkable into Tom Riddle's diary fr, OpenWrt One – Open Hardware Router, CoMaps – FOSS Offline Maps",
+  "heroStat": {
+    "value": "552",
+    "label": "points on \"Resetting Xbox\""
+  },
   "insights": [
     {
-      "text": "Anthropic found a causal 'global workspace' (J-space) inside Claude — a small set of internal activation patterns, under 10% of total neural activity, with ~100x the connectivity of ordinary patterns. Swapping patterns changes Claude's answers mid-reasoning; ablating them kills multi-step reasoning while leaving fluent language intact.",
+      "text": "Fable turned reMarkable into Tom Riddle's diary from Harry Potter (315 pts, 176 comments)",
       "tags": [
-        "anthropic",
-        "interpretability",
-        "safety"
+        "hacker-news"
       ],
-      "source": "Anthropic Research",
-      "url": "https://www.anthropic.com/research/global-workspace"
+      "source": "HN 315pts",
+      "url": "https://github.com/MaximeRivest/Riddle"
     },
     {
-      "text": "Anthropic trained on what Claude's internal workspace would say if asked to reflect ('counterfactual reflection training') and reduced dishonest behavior — interpretability graduated from a post-hoc audit tool into a training signal.",
+      "text": "OpenWrt One – Open Hardware Router (521 pts, 209 comments)",
       "tags": [
-        "anthropic",
-        "interpretability",
-        "training"
+        "hacker-news"
       ],
-      "source": "Anthropic Research",
-      "url": "https://www.anthropic.com/research/global-workspace"
+      "source": "HN 521pts",
+      "url": "https://openwrt.org/toh/openwrt/one"
     },
     {
-      "text": "Reddit's own policy post (July 1) confirms old.reddit.com will require login 'over the next month' and admits it 'can't promise old Reddit will be around forever' — reversing a 2025 promise to keep it alive indefinitely. The text is silent on whether RSS survives, the exact gap this pipeline's scraper currently depends on.",
+      "text": "CoMaps – FOSS Offline Maps (427 pts, 83 comments)",
       "tags": [
-        "reddit",
-        "open-web",
-        "scraping"
+        "hacker-news"
       ],
-      "source": "Reddit r/modnews",
-      "url": "https://tech.slashdot.org/story/26/07/01/1743219/reddit-will-require-you-to-log-in-to-use-old-reddit"
+      "source": "HN 427pts",
+      "url": "https://www.comaps.app/"
     },
     {
-      "text": "GLM 5.2 prices at $4.40/M tokens — roughly 1/5 Opus and 1/6-1/7 GPT-5.5 — with a working developer reporting quality 'genuinely almost impossible to realise I wasn't using Opus.' Frontier labs reportedly run ~90% margin on compute cost vs. rack rate but only ~60% on revenue: the gap open-weight pricing can compress.",
+      "text": "GLM 5.2 and the coming AI margin collapse (294 pts, 188 comments)",
       "tags": [
-        "glm-5.2",
-        "open-weight",
-        "pricing"
+        "hacker-news"
       ],
-      "source": "martinalderson.com",
+      "source": "HN 294pts",
       "url": "https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/"
     },
     {
-      "text": "Kyutai's Pocket TTS: a 100M-parameter, CPU-only text-to-speech model that clones a voice from 5 seconds of audio at 6x real-time speed with ~200ms first-chunk latency, MIT-licensed. GPU acceleration gave no speed improvement over CPU — on-device speech synthesis just hit the inflection on-device LLMs hit months ago.",
+      "text": "Faster Builds with Elm 0.19.2 (82 pts on Lobsters)",
       "tags": [
-        "tts",
-        "on-device",
-        "voice-cloning"
+        "lobsters",
+        "elm",
+        "release"
       ],
-      "source": "Kyutai",
-      "url": "https://kyutai.org/blog/2026-01-13-pocket-tts/"
+      "source": "Lobsters 82pts",
+      "url": "https://elm-lang.org/news/faster-builds"
     },
     {
-      "text": "Flathub now bans apps containing any AI-generated or AI-assisted code, documentation, or content outright — not a disclosure rule, a submission-blocking one — citing 'a depressing amount of slop submissions' overwhelming reviewer capacity. Two exceptions: mature maintained projects, and apps already published.",
+      "text": "GLM 5.2 and the coming AI margin collapse (13 pts on Lobsters)",
       "tags": [
-        "vibe-coding",
-        "open-source",
-        "policy"
+        "lobsters",
+        "vibecoding"
       ],
-      "source": "OMG! Ubuntu",
-      "url": "https://www.omgubuntu.co.uk/2026/06/flathub-bans-ai-coded-apps"
+      "source": "Lobsters 13pts",
+      "url": "https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/"
     },
     {
-      "text": "meetily (privacy-first, local-transcription meeting assistant) posted a second straight day of rising GitHub velocity: +2,494 stars/day (19,661 total), up from +1,409/day the day it took #1 — not a launch spike.",
+      "text": "It's You. (58 reactions on Dev.to)",
       "tags": [
-        "github",
-        "privacy",
-        "local-first"
+        "devto",
+        "discuss",
+        "community"
       ],
-      "source": "GitHub Trending",
+      "source": "Dev.to 58❤",
+      "url": "https://dev.to/francistrdev/its-you-29k0"
+    },
+    {
+      "text": "Your Career Matters. So Does the Person Building It. (48 reactions on Dev.to)",
+      "tags": [
+        "devto",
+        "discuss",
+        "career"
+      ],
+      "source": "Dev.to 48❤",
+      "url": "https://dev.to/hemapriya_kanagala/your-career-matters-so-does-the-person-building-it-2jle"
+    }
+  ],
+  "trending": [
+    {
+      "name": "meetily",
+      "fullName": "Zackriya-Solutions/meetily",
+      "stars": "19.7K",
+      "language": "Rust",
+      "delta": "+2,494/d",
       "url": "https://github.com/Zackriya-Solutions/meetily"
     },
     {
-      "text": "The 'first' AI-run ransomware attack needed a human after all: new reporting shows a person chose the victim, built the infrastructure, and supplied stolen credentials, walking back last week's fully-autonomous-cybercrime framing.",
-      "tags": [
-        "agent-security",
-        "ransomware",
-        "correction"
-      ],
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/06/the-first-ai-run-ransomware-attack-still-needed-a-human/"
-    }
-  ],
-  "trending": [],
-  "numbers": [
-    {
-      "label": "Stories",
-      "value": "0",
-      "unit": "items"
+      "name": "taste-skill",
+      "fullName": "Leonxlnx/taste-skill",
+      "stars": "59.3K",
+      "language": "JavaScript",
+      "delta": "+1,458/d",
+      "url": "https://github.com/Leonxlnx/taste-skill"
     },
     {
-      "label": "Repos",
-      "value": "0",
-      "unit": "tracked"
+      "name": "system_prompts_leaks",
+      "fullName": "asgeirtj/system_prompts_leaks",
+      "stars": "52.0K",
+      "language": "JavaScript",
+      "delta": "+1,378/d",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks"
+    },
+    {
+      "name": "agent-skills",
+      "fullName": "addyosmani/agent-skills",
+      "stars": "71.1K",
+      "language": "JavaScript",
+      "delta": "+1,112/d",
+      "url": "https://github.com/addyosmani/agent-skills"
+    },
+    {
+      "name": "codex-plugin-cc",
+      "fullName": "openai/codex-plugin-cc",
+      "stars": "26.4K",
+      "language": "JavaScript",
+      "delta": "+906/d",
+      "url": "https://github.com/openai/codex-plugin-cc"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "552",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "2,494",
+      "unit": "stars/day"
     },
     {
       "label": "Sources Scraped",
-      "value": "1",
+      "value": "4",
       "unit": "sites"
     },
     {
@@ -116,23 +152,23 @@
     },
     "headlines": [
       {
-        "text": "Anthropic found a causal 'global workspace' inside Claude",
+        "text": "Fable turned reMarkable into Tom Riddle's diary from Harry Potter",
         "metric": "—",
         "source": "web"
       },
       {
-        "text": "Anthropic trained on what Claude's internal workspace would say if asked to reflect and reduced dishonest behavior",
+        "text": "OpenWrt One – Open Hardware Router",
         "metric": "—",
         "source": "web"
       },
       {
-        "text": "Reddit's own policy post confirms old.reddit.com will require login 'over the next month' and admits it 'can't promise old Reddit will be around forever'",
+        "text": "CoMaps – FOSS Offline Maps",
         "metric": "—",
         "source": "web"
       }
     ],
     "takeaway": {
-      "text": "Interpretability crossed from observation into behavior-shaping the same week Reddit's enclosure got a dated deadline, open-weight pricing closed the last visible gap with frontier labs, and on-device speech synthesis hit the CPU-only inflection text models hit months ago."
+      "text": "Today's brief covers the most interesting signals across the tech landscape."
     }
   }
 }
