@@ -1,0 +1,148 @@
+[
+  {
+    "type": "intro",
+    "highlight": "Resetting Xbox",
+    "subtext": "552 points, 564 comments — a 1:1 ratio",
+    "label": "TOP STORY"
+  },
+  {
+    "type": "intro",
+    "highlight": "Arguing, not just upvoting"
+  },
+  {
+    "type": "insight",
+    "highlight": "Xbox pivots from hardware to cloud and subscription"
+  },
+  {
+    "type": "quote",
+    "highlight": "The console becomes... optional?"
+  },
+  {
+    "type": "insight",
+    "highlight": "Platforms converge on subscribe, don't own"
+  },
+  {
+    "type": "quote",
+    "highlight": "Who's pulling the other way?"
+  },
+  {
+    "type": "repo",
+    "highlight": "OpenWrt One",
+    "subtext": "521 points — open firmware, no vendor lock-in",
+    "label": "GITHUB / OPENWRT"
+  },
+  {
+    "type": "quote",
+    "highlight": "Not alone today either"
+  },
+  {
+    "type": "repo",
+    "highlight": "CoMaps forks Organic Maps",
+    "subtext": "427 points, a day after Organic Maps hit 883",
+    "label": "OPEN OFFLINE MAPS"
+  },
+  {
+    "type": "quote",
+    "highlight": "Trust our cloud vs. give me the source"
+  },
+  {
+    "type": "insight",
+    "highlight": "Ownership vs. subscription, same day, unrelated categories"
+  },
+  {
+    "type": "quote",
+    "highlight": "The same anxiety showing up twice"
+  },
+  {
+    "type": "repo",
+    "highlight": "meetily",
+    "subtext": "Self-hosted AI meeting assistant, built in Rust — ~2,500 stars in a day",
+    "label": "GITHUB TRENDING"
+  },
+  {
+    "type": "insight",
+    "highlight": "Local transcription, nothing leaves the device"
+  },
+  {
+    "type": "insight",
+    "highlight": "Rust backs the privacy claim instead of asserting it"
+  },
+  {
+    "type": "quote",
+    "highlight": "What does that mean for AI specifically?"
+  },
+  {
+    "type": "number",
+    "highlight": "Open-weight, 1/6th the cost of GPT-5.5",
+    "number": "6",
+    "subtext": "294 points, near-frontier on coding and agentic tasks",
+    "label": "GLM 5.2"
+  },
+  {
+    "type": "quote",
+    "highlight": "Not just good enough for toy demos"
+  },
+  {
+    "type": "insight",
+    "highlight": "Cheap and capable — the model stops being the moat"
+  },
+  {
+    "type": "quote",
+    "highlight": "Value moves up to whoever builds on top"
+  },
+  {
+    "type": "insight",
+    "highlight": "Open models plus self-hosted appetite makes meetily possible"
+  },
+  {
+    "type": "repo",
+    "highlight": "Ollama",
+    "subtext": "meetily is built directly on that stack",
+    "label": "UNDER THE HOOD"
+  },
+  {
+    "type": "number",
+    "highlight": "Anthropic's 'Global Workspace' paper",
+    "number": "326",
+    "subtext": "Attention dynamics resembling a cognitive workspace",
+    "label": "HN POINTS"
+  },
+  {
+    "type": "quote",
+    "highlight": "Not claiming consciousness — just structure"
+  },
+  {
+    "type": "insight",
+    "highlight": "Self-hosting makes interpretability operational, not academic"
+  },
+  {
+    "type": "quote",
+    "highlight": "You can't call support if you run the model yourself"
+  },
+  {
+    "type": "insight",
+    "highlight": "Platforms consolidate to cloud; practitioners consolidate to ownership"
+  },
+  {
+    "type": "quote",
+    "highlight": "The cost curve just broke in open models' favor"
+  },
+  {
+    "type": "action",
+    "highlight": "Architect for swappable models and local-first data",
+    "label": "DO THIS"
+  },
+  {
+    "type": "quote",
+    "highlight": "The tools to own your stack are good enough today"
+  },
+  {
+    "type": "close",
+    "highlight": "A genuinely different starting position"
+  },
+  {
+    "type": "close",
+    "highlight": "Go build the self-hosted version",
+    "subtext": "The pieces are already sitting on GitHub"
+  }
+]

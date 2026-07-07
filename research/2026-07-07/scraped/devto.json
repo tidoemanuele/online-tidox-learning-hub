@@ -1,0 +1,93 @@
+[
+  {
+    "rank": 1,
+    "title": "It's You.",
+    "url": "https://dev.to/francistrdev/its-you-29k0",
+    "reactions": 58,
+    "comments": 14,
+    "tags": [
+      "discuss",
+      "community",
+      "productivity",
+      "mentalhealth"
+    ]
+  },
+  {
+    "rank": 2,
+    "title": "Your Career Matters. So Does the Person Building It.",
+    "url": "https://dev.to/hemapriya_kanagala/your-career-matters-so-does-the-person-building-it-2jle",
+    "reactions": 48,
+    "comments": 15,
+    "tags": [
+      "discuss",
+      "career",
+      "productivity",
+      "mentalhealth"
+    ]
+  },
+  {
+    "rank": 3,
+    "title": "Why AI Still Can't Write Well and Which Half of That Problem Is Actually Yours",
+    "url": "https://dev.to/dannwaneri/why-ai-still-cant-write-well-and-which-half-of-that-problem-is-actually-yours-kh4",
+    "reactions": 37,
+    "comments": 19,
+    "tags": [
+      "ai",
+      "discuss",
+      "machinelearning",
+      "writing"
+    ]
+  },
+  {
+    "rank": 4,
+    "title": "Where Do Your LLM API Keys Actually Live?",
+    "url": "https://dev.to/hadil/where-do-your-llm-api-keys-actually-live-2cjm",
+    "reactions": 35,
+    "comments": 14,
+    "tags": [
+      "ai",
+      "llm",
+      "api",
+      "python"
+    ]
+  },
+  {
+    "rank": 5,
+    "title": "6 Stories, 6 People, 1/6 of the Way \u2014 An Honest Check-In on the 36 Stratagems Series",
+    "url": "https://dev.to/xulingfeng/6-stories-6-people-16-of-the-way-an-honest-check-in-on-the-36-stratagems-series-55ci",
+    "reactions": 45,
+    "comments": 44,
+    "tags": [
+      "ai",
+      "discuss",
+      "career",
+      "programming"
+    ]
+  },
+  {
+    "rank": 6,
+    "title": "My rate limiter was doing exactly what I told it to do. That was the problem.",
+    "url": "https://dev.to/manolito99/my-rate-limiter-was-doing-exactly-what-i-told-it-to-do-that-was-the-problem-463b",
+    "reactions": 16,
+    "comments": 1,
+    "tags": [
+      "node",
+      "api",
+      "backend",
+      "webdev"
+    ]
+  },
+  {
+    "rank": 7,
+    "title": "Observability Design for the AI Era \u2014 Application / Infrastructure / CI / LLM",
+    "url": "https://dev.to/ryantsuji/observability-design-for-the-ai-era-application-infrastructure-ci-llm-each-in-its-own-56eg",
+    "reactions": 14,
+    "comments": 7,
+    "tags": [
+      "ai",
+      "mcp",
+      "observability",
+      "typescript"
+    ]
+  }
+]

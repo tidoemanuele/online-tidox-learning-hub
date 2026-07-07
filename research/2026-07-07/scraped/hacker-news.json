@@ -1,0 +1,162 @@
+[
+  {
+    "rank": 1,
+    "title": "Fable turned reMarkable into Tom Riddle's diary from Harry Potter",
+    "url": "https://github.com/MaximeRivest/Riddle",
+    "hn_url": "https://news.ycombinator.com/item?id=48811591",
+    "points": 315,
+    "comments": 176
+  },
+  {
+    "rank": 2,
+    "title": "OpenWrt One \u2013 Open Hardware Router",
+    "url": "https://openwrt.org/toh/openwrt/one",
+    "hn_url": "https://news.ycombinator.com/item?id=48808482",
+    "points": 521,
+    "comments": 209
+  },
+  {
+    "rank": 3,
+    "title": "CoMaps \u2013 FOSS Offline Maps",
+    "url": "https://www.comaps.app/",
+    "hn_url": "https://news.ycombinator.com/item?id=48808928",
+    "points": 427,
+    "comments": 83
+  },
+  {
+    "rank": 4,
+    "title": "GLM 5.2 and the coming AI margin collapse",
+    "url": "https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/",
+    "hn_url": "https://news.ycombinator.com/item?id=48809877",
+    "points": 294,
+    "comments": 188
+  },
+  {
+    "rank": 5,
+    "title": "How to sequence your own DNA at home",
+    "url": "https://bradleywoolf.com/links-1/sequencing-my-own-dna-at-home",
+    "hn_url": "https://news.ycombinator.com/item?id=48812156",
+    "points": 135,
+    "comments": 46
+  },
+  {
+    "rank": 6,
+    "title": "Small AI Models Gain Traction In places with unreliable networks",
+    "url": "https://spectrum.ieee.org/small-language-models-ai-pharmaceuticals",
+    "hn_url": "https://news.ycombinator.com/item?id=48812055",
+    "points": 80,
+    "comments": 19
+  },
+  {
+    "rank": 7,
+    "title": "Ternlight \u2013 7 MB embedding model that runs in browser (WASM)",
+    "url": "https://ternlight-demo.vercel.app/",
+    "hn_url": "https://news.ycombinator.com/item?id=48811644",
+    "points": 164,
+    "comments": 42
+  },
+  {
+    "rank": 8,
+    "title": "A global workspace in language models",
+    "url": "https://www.anthropic.com/research/global-workspace",
+    "hn_url": "https://news.ycombinator.com/item?id=48808002",
+    "points": 326,
+    "comments": 124
+  },
+  {
+    "rank": 9,
+    "title": "Pruning RAG context down to what the answer actually needs",
+    "url": "https://www.kapa.ai/blog/how-we-prune-rag-context",
+    "hn_url": "https://news.ycombinator.com/item?id=48809354",
+    "points": 82,
+    "comments": 12
+  },
+  {
+    "rank": 10,
+    "title": "Resetting Xbox",
+    "url": "https://news.xbox.com/en-us/2026/07/06/resetting-xbox/",
+    "hn_url": "https://news.ycombinator.com/item?id=48804993",
+    "points": 552,
+    "comments": 564
+  },
+  {
+    "rank": 11,
+    "title": "AMD Ryzen AI Halo \u2013 $4k AI Dev Kit",
+    "url": "https://www.lttlabs.com/articles/2026/07/06/amd-ryzen-ai-halo",
+    "hn_url": "https://news.ycombinator.com/item?id=48805624",
+    "points": 305,
+    "comments": 218
+  },
+  {
+    "rank": 12,
+    "title": "Linux on the Atari Jaguar",
+    "url": "https://cakehonolulu.github.io/linux-for-jaguar/",
+    "hn_url": "https://news.ycombinator.com/item?id=48808663",
+    "points": 128,
+    "comments": 23
+  },
+  {
+    "rank": 13,
+    "title": "Acronym Fatigue Series Introduction: why I'm wary of acronyms",
+    "url": "https://devz.cl/posts/acryonym-fatigue-series-why-i-m-wary-of-engineering-acronyms/",
+    "hn_url": "https://news.ycombinator.com/item?id=48811339",
+    "points": 46,
+    "comments": 34
+  },
+  {
+    "rank": 14,
+    "title": "OpenSSH 10.4/10.4p1 Released",
+    "url": "https://www.openssh.org/txt/release-10.4",
+    "hn_url": "https://news.ycombinator.com/item?id=48811373",
+    "points": 53,
+    "comments": 14
+  },
+  {
+    "rank": 15,
+    "title": "A 2048-spin bulk acoustic wave Ising machine for number partitioning and Sudoku",
+    "url": "https://arxiv.org/abs/2607.02112",
+    "hn_url": "https://news.ycombinator.com/item?id=48782248",
+    "points": 35,
+    "comments": 9
+  },
+  {
+    "rank": 16,
+    "title": "EndBASIC 0.14: Are we multimedia yet?",
+    "url": "https://www.endbasic.dev/2026/07/endbasic-0.14.html",
+    "hn_url": "https://news.ycombinator.com/item?id=48786970",
+    "points": 36,
+    "comments": 6
+  },
+  {
+    "rank": 17,
+    "title": "OfficeCLI: Office suite for AI agents to read and edit Microsoft Office files",
+    "url": "https://github.com/iOfficeAI/OfficeCLI",
+    "hn_url": "https://news.ycombinator.com/item?id=48807225",
+    "points": 154,
+    "comments": 42
+  },
+  {
+    "rank": 18,
+    "title": "Tiny-C Reference Manual Excerpt",
+    "url": "https://permacomputer.solarpunk.au/?p=204",
+    "hn_url": "https://news.ycombinator.com/item?id=48761319",
+    "points": 15,
+    "comments": 0
+  },
+  {
+    "rank": 19,
+    "title": "Poly/ML \u2013 A Standard ML Implementation",
+    "url": "https://github.com/polyml/polyml",
+    "hn_url": "https://news.ycombinator.com/item?id=48811317",
+    "points": 52,
+    "comments": 10
+  },
+  {
+    "rank": 20,
+    "title": "Stealth robotics startup (YC S26) is hiring principal engineers (Palo Alto)",
+    "url": "https://news.ycombinator.com/item?id=48806976",
+    "hn_url": "https://news.ycombinator.com/item?id=48806976",
+    "points": 1,
+    "comments": 0
+  }
+]

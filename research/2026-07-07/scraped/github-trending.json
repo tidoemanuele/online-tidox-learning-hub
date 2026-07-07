@@ -1,0 +1,92 @@
+[
+  {
+    "name": "meetily",
+    "fullName": "Zackriya-Solutions/meetily",
+    "description": "Privacy-first AI meeting assistant with live transcription, speaker identification, and local processing. Self-hosted, open-source alternative for macOS & Windows.",
+    "language": "Rust",
+    "stars_today": "2,494 stars today",
+    "total_stars": "19724",
+    "url": "https://github.com/Zackriya-Solutions/meetily"
+  },
+  {
+    "name": "taste-skill",
+    "fullName": "Leonxlnx/taste-skill",
+    "description": "AI enhancement tool that prevents generation of generic, uninspired content.",
+    "language": "JavaScript",
+    "stars_today": "1,458 stars today",
+    "total_stars": "59342",
+    "url": "https://github.com/Leonxlnx/taste-skill"
+  },
+  {
+    "name": "system_prompts_leaks",
+    "fullName": "asgeirtj/system_prompts_leaks",
+    "description": "Extracted system prompts from various AI models including Claude, ChatGPT, Gemini, Grok, and others. Updated regularly.",
+    "language": "JavaScript",
+    "stars_today": "1,378 stars today",
+    "total_stars": "51950",
+    "url": "https://github.com/asgeirtj/system_prompts_leaks"
+  },
+  {
+    "name": "agent-skills",
+    "fullName": "addyosmani/agent-skills",
+    "description": "Production-grade engineering skills for AI coding agents.",
+    "language": "JavaScript",
+    "stars_today": "1,112 stars today",
+    "total_stars": "71140",
+    "url": "https://github.com/addyosmani/agent-skills"
+  },
+  {
+    "name": "codex-plugin-cc",
+    "fullName": "openai/codex-plugin-cc",
+    "description": "Enables code review and task delegation using Codex from Claude Code.",
+    "language": "JavaScript",
+    "stars_today": "906 stars today",
+    "total_stars": "26402",
+    "url": "https://github.com/openai/codex-plugin-cc"
+  },
+  {
+    "name": "firecrawl",
+    "fullName": "firecrawl/firecrawl",
+    "description": "API for searching, scraping, and interacting with web content at scale.",
+    "language": "TypeScript",
+    "stars_today": "867 stars today",
+    "total_stars": "146579",
+    "url": "https://github.com/firecrawl/firecrawl"
+  },
+  {
+    "name": "herdr",
+    "fullName": "ogulcancelik/herdr",
+    "description": "Agent multiplexer operating in terminal environments.",
+    "language": "Rust",
+    "stars_today": "779 stars today",
+    "total_stars": "13018",
+    "url": "https://github.com/ogulcancelik/herdr"
+  },
+  {
+    "name": "claude-skills",
+    "fullName": "alirezarezvani/claude-skills",
+    "description": "345+ skills and agent capabilities for Claude Code, Cursor, and other coding agents.",
+    "language": "Python",
+    "stars_today": "610 stars today",
+    "total_stars": "21302",
+    "url": "https://github.com/alirezarezvani/claude-skills"
+  },
+  {
+    "name": "CodexBar",
+    "fullName": "steipete/CodexBar",
+    "description": "Display usage statistics for OpenAI Codex and Claude Code without authentication.",
+    "language": "Swift",
+    "stars_today": "598 stars today",
+    "total_stars": "16818",
+    "url": "https://github.com/steipete/CodexBar"
+  },
+  {
+    "name": "RuView",
+    "fullName": "ruvnet/RuView",
+    "description": "Converts WiFi signals into real-time spatial awareness, vital sign tracking, and presence detection without video.",
+    "language": "Rust",
+    "stars_today": "470 stars today",
+    "total_stars": "77766",
+    "url": "https://github.com/ruvnet/RuView"
+  }
+]

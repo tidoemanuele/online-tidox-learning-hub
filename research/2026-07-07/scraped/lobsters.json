@@ -1,0 +1,201 @@
+[
+  {
+    "title": "Faster Builds with Elm 0.19.2",
+    "score": 82,
+    "tags": [
+      "elm",
+      "release"
+    ],
+    "url": "https://elm-lang.org/news/faster-builds",
+    "comments_url": "https://lobste.rs/s/krej7c/faster_builds_with_elm_0_19_2"
+  },
+  {
+    "title": "GLM 5.2 and the coming AI margin collapse",
+    "score": 13,
+    "tags": [
+      "vibecoding"
+    ],
+    "url": "https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/",
+    "comments_url": "https://lobste.rs/s/ua1gxl/glm_5_2_coming_ai_margin_collapse"
+  },
+  {
+    "title": "ReactOS \"Open-Source Windows\" Project Now Capable Of Running Half-Life 2",
+    "score": 25,
+    "tags": [
+      "windows"
+    ],
+    "url": "https://www.phoronix.com/news/Half-Life-2-ReactOS",
+    "comments_url": "https://lobste.rs/s/eyojtx/reactos_open_source_windows_project_now"
+  },
+  {
+    "title": "sneakerweb",
+    "score": 71,
+    "tags": [
+      "distributed",
+      "web"
+    ],
+    "url": "https://sneakerweb.org/",
+    "comments_url": "https://lobste.rs/s/vwni9c/sneakerweb"
+  },
+  {
+    "title": "A Speed Limit for Computers",
+    "score": 77,
+    "tags": [
+      "philosophy"
+    ],
+    "url": "https://caolan.uk/notes/2026-07-02_a_speed_limit_for_computers.cm",
+    "comments_url": "https://lobste.rs/s/iztgtd/speed_limit_for_computers"
+  },
+  {
+    "title": "The (Petty) Reason We Didn't End Up Using jj",
+    "score": 20,
+    "tags": [
+      "java"
+    ],
+    "url": "https://blog.gradle.org/the-petty-reason-we-didnt-end-up-using-jj-at-gradle",
+    "comments_url": "https://lobste.rs/s/27dxjg/petty_reason_we_didn_t_end_up_using_jj"
+  },
+  {
+    "title": "Jam Programming Language",
+    "score": 30,
+    "tags": [
+      "programming",
+      "rust",
+      "zig"
+    ],
+    "url": "https://rapha.land/jam-programming-language/",
+    "comments_url": "https://lobste.rs/s/r0xrm0/jam_programming_language"
+  },
+  {
+    "title": "OpenSSH 10.4",
+    "score": 7,
+    "tags": [
+      "release"
+    ],
+    "url": "https://www.openssh.org/releasenotes.html#10.4",
+    "comments_url": "https://lobste.rs/s/caofow/openssh_10_4"
+  },
+  {
+    "title": "PREEMPT_NONE Is Dead; Your Postgres Probably Doesn\u2019t Care",
+    "score": 20,
+    "tags": [
+      "databases",
+      "linux",
+      "performance"
+    ],
+    "url": "https://thebuild.com/blog/preempt_none-is-dead-your-postgres-probably-doesnt-care/",
+    "comments_url": "https://lobste.rs/s/snysfl/preempt_none_is_dead_your_postgres"
+  },
+  {
+    "title": "Mr. Baby Paint & accidentally discovering a new cellular automata",
+    "score": 49,
+    "tags": [
+      "design",
+      "graphics"
+    ],
+    "url": "https://tekstien-marginaalien-keskus.aalto.fi/residenssi/heikki/blog/004-december-2/",
+    "comments_url": "https://lobste.rs/s/j5ovrm/mr_baby_paint_accidentally_discovering"
+  },
+  {
+    "title": "Postgres Is Enough",
+    "score": 15,
+    "tags": [
+      "databases"
+    ],
+    "url": "https://postgresisenough.dev",
+    "comments_url": "https://lobste.rs/s/rk0bl2/postgres_is_enough"
+  },
+  {
+    "title": "Radicle: P2P Git Replication with Git Native Issues and Patches",
+    "score": 6,
+    "tags": [
+      "vcs"
+    ],
+    "url": "https://radicle.dev/",
+    "comments_url": "https://lobste.rs/s/z4apqw/radicle_p2p_git_replication_with_git"
+  },
+  {
+    "title": "Caught a .git/config crawler",
+    "score": 18,
+    "tags": [
+      "networking"
+    ],
+    "url": "https://bruceediger.com/posts/git-config-spider/",
+    "comments_url": "https://lobste.rs/s/heyyj9/caught_git_config_crawler"
+  },
+  {
+    "title": "Januscape: Guest-to-Host Escape in KVM/x86",
+    "score": 12,
+    "tags": [
+      "linux",
+      "security"
+    ],
+    "url": "https://github.com/V4bel/Januscape",
+    "comments_url": "https://lobste.rs/s/jea4xl/januscape_guest_host_escape_kvm_x86"
+  },
+  {
+    "title": "Konform Browser 140.12.0-103",
+    "score": 10,
+    "tags": [
+      "browsers",
+      "linux",
+      "privacy",
+      "release",
+      "security",
+      "show"
+    ],
+    "url": "https://codeberg.org/konform-browser/source/releases/tag/140.12.0.103",
+    "comments_url": "https://lobste.rs/s/eytr4y/konform_browser_140_12_0_103"
+  },
+  {
+    "title": "Can you run every line of code in Super Mario Bros.?",
+    "score": 24,
+    "tags": [
+      "games",
+      "video"
+    ],
+    "url": "https://www.youtube.com/watch?v=o0gOALTvkcc",
+    "comments_url": "https://lobste.rs/s/qa7i6t/can_you_run_every_line_code_super_mario"
+  },
+  {
+    "title": "Web Security docs on MDN",
+    "score": 30,
+    "tags": [
+      "release",
+      "security"
+    ],
+    "url": "https://openwebdocs.org/content/posts/security-docs-sovereign-tech-agency/",
+    "comments_url": "https://lobste.rs/s/b3elwj/web_security_docs_on_mdn"
+  },
+  {
+    "title": "AT&T's very rare Security-Plus Telephone",
+    "score": 5,
+    "tags": [
+      "cryptography",
+      "historical",
+      "security"
+    ],
+    "url": "https://www.electrospaces.net/2025/10/an-interesting-advertisement-for-stu.html",
+    "comments_url": "https://lobste.rs/s/fw8e40/at_t_s_very_rare_security_plus_telephone"
+  },
+  {
+    "title": "fin: a Jellyfin & Subsonic client for the terminal",
+    "score": 22,
+    "tags": [
+      "rust",
+      "show"
+    ],
+    "url": "https://tangled.org/tsiry-sandratraina.com/fin",
+    "comments_url": "https://lobste.rs/s/nwptul/fin_jellyfin_subsonic_client_for"
+  },
+  {
+    "title": "Hacking the Kyocera KY-42C",
+    "score": 8,
+    "tags": [
+      "hardware",
+      "reversing"
+    ],
+    "url": "https://shomy.is-a.dev/blog/article/unlocking-kyocera-ky42c",
+    "comments_url": "https://lobste.rs/s/xvzbwu/hacking_kyocera_ky_42c"
+  }
+]
