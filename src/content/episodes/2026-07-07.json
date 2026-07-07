@@ -3,135 +3,104 @@
   "episodeNumber": 107,
   "locale": "en-US",
   "title": "Intelligence Brief",
-  "subtitle": "OpenWrt One – Open Hardware Router earns 521 HN pt, Resetting Xbox earns 552 HN pts and 564 comments, CoMaps",
-  "heroStat": {
-    "value": "552",
-    "label": "points on \"Resetting Xbox\""
-  },
+  "subtitle": "Anthropic found a causal 'global workspace' inside, Anthropic trained on what Claude's internal worksp, Reddit's own policy post confirms old.reddit.com w",
   "insights": [
     {
-      "text": "OpenWrt One – Open Hardware Router earns 521 HN pts (https://openwrt.org/toh/openwrt/one) and 209 comments — the day's clearest signal that open, repairable networking hardware has found a practitioner constituency large enough to sustain its own first-party device. OpenWrt One is the first router designed by the OpenWrt project itself, shipping with full firmware source auditable and modifiable, no vendor lock-in, and a hardware design that prioritizes repairability. The structural context: this story arrives on the same day that CoMaps — a community fork of Organic Maps — scores 427 HN points (https://www.comaps.app/), creating a dual-signal day for the open-source infrastructure preference cluster. (521 HN pts)",
+      "text": "Anthropic found a causal 'global workspace' (J-space) inside Claude — a small set of internal activation patterns, under 10% of total neural activity, with ~100x the connectivity of ordinary patterns. Swapping patterns changes Claude's answers mid-reasoning; ablating them kills multi-step reasoning while leaving fluent language intact.",
       "tags": [
-        "open-source"
+        "anthropic",
+        "interpretability",
+        "safety"
       ],
-      "source": "HN 521pts",
-      "url": "https://openwrt.org/toh/openwrt/one"
-    },
-    {
-      "text": "Resetting Xbox earns 552 HN pts (https://news.xbox.com/en-us/2026/07/06/resetting-xbox/) and 564 comments — the highest comment count of the day. Microsoft's Xbox announcement describes a strategic reset: leaning into cloud and subscription models and repositioning Xbox as a software and services platform rather than hardware-first. The 564 comments at a 1.02:1 ratio to the 552 points is the highest engagement density in today's top stories. (552 HN pts)",
-      "tags": [],
-      "source": "HN 552pts",
-      "url": "https://news.xbox.com/en-us/2026/07/06/resetting-xbox/"
-    },
-    {
-      "text": "CoMaps — a community fork of Organic Maps — earns 427 HN pts (https://www.comaps.app/) and 83 comments on July 7, 2026, arriving one day after Organic Maps itself scored 883 points. The back-to-back appearance of two competing OSM-based offline navigation forks in the top 5 HN stories across consecutive days is a structural signal: the open-source offline maps category has bifurcated. CoMaps was forked from Organic Maps in 2024 over governance concerns and was adopted by CalyxOS as its default map app in May 2026. (427 HN pts)",
-      "tags": [
-        "open-source"
-      ],
-      "source": "HN 427pts",
-      "url": "https://www.comaps.app/"
-    },
-    {
-      "text": "Anthropic publishes 'A global workspace in language models' (https://www.anthropic.com/research/global-workspace) earning 326 HN pts and 124 comments. The paper finds evidence for global-workspace-like structures in transformer attention — not claiming consciousness, but that the internal computational organization of LLMs exhibits broadcast dynamics analogous to cognitive workspace theory. If true, mechanistic interpretability research has a principled cognitive-science framework to anchor its findings. (326 HN pts)",
-      "tags": [
-        "research"
-      ],
-      "source": "HN 326pts",
+      "source": "Anthropic Research",
       "url": "https://www.anthropic.com/research/global-workspace"
     },
     {
-      "text": "GLM 5.2 and the coming AI margin collapse earns 294 HN pts (https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/) and 188 comments. Z.ai's GLM-5.2, priced at $1.40 input / $4.40 output per 1M tokens — approximately one-sixth of GPT-5.5's blended cost — benchmarks near proprietary frontier models for long-horizon coding and agentic tasks. When open-weight models reach capability parity at a fraction of inference cost, value capture migrates toward the application layer. The Lobsters community also picked up the story at 13 points. (294 HN pts)",
+      "text": "Anthropic trained on what Claude's internal workspace would say if asked to reflect ('counterfactual reflection training') and reduced dishonest behavior — interpretability graduated from a post-hoc audit tool into a training signal.",
       "tags": [
-        "agents",
-        "research"
+        "anthropic",
+        "interpretability",
+        "training"
       ],
-      "source": "HN 294pts",
+      "source": "Anthropic Research",
+      "url": "https://www.anthropic.com/research/global-workspace"
+    },
+    {
+      "text": "Reddit's own policy post (July 1) confirms old.reddit.com will require login 'over the next month' and admits it 'can't promise old Reddit will be around forever' — reversing a 2025 promise to keep it alive indefinitely. The text is silent on whether RSS survives, the exact gap this pipeline's scraper currently depends on.",
+      "tags": [
+        "reddit",
+        "open-web",
+        "scraping"
+      ],
+      "source": "Reddit r/modnews",
+      "url": "https://tech.slashdot.org/story/26/07/01/1743219/reddit-will-require-you-to-log-in-to-use-old-reddit"
+    },
+    {
+      "text": "GLM 5.2 prices at $4.40/M tokens — roughly 1/5 Opus and 1/6-1/7 GPT-5.5 — with a working developer reporting quality 'genuinely almost impossible to realise I wasn't using Opus.' Frontier labs reportedly run ~90% margin on compute cost vs. rack rate but only ~60% on revenue: the gap open-weight pricing can compress.",
+      "tags": [
+        "glm-5.2",
+        "open-weight",
+        "pricing"
+      ],
+      "source": "martinalderson.com",
       "url": "https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/"
     },
     {
-      "text": "meetily reaches 2,494 GitHub stars today (https://github.com/Zackriya-Solutions/meetily) — the fastest-gaining repository in today's GitHub trending list. meetily is a self-hosted, open-source AI meeting assistant built in Rust, combining Parakeet/Whisper live transcription with speaker diarization and Ollama-based summarization — every processing step runs locally, no audio leaves the device. Its Rust implementation signals performance and safety constraints that align with the tool's privacy positioning. (+2,494 stars/day, GitHub Trending #1)",
+      "text": "Kyutai's Pocket TTS: a 100M-parameter, CPU-only text-to-speech model that clones a voice from 5 seconds of audio at 6x real-time speed with ~200ms first-chunk latency, MIT-licensed. GPU acceleration gave no speed improvement over CPU — on-device speech synthesis just hit the inflection on-device LLMs hit months ago.",
       "tags": [
-        "github-trending",
+        "tts",
+        "on-device",
+        "voice-cloning"
+      ],
+      "source": "Kyutai",
+      "url": "https://kyutai.org/blog/2026-01-13-pocket-tts/"
+    },
+    {
+      "text": "Flathub now bans apps containing any AI-generated or AI-assisted code, documentation, or content outright — not a disclosure rule, a submission-blocking one — citing 'a depressing amount of slop submissions' overwhelming reviewer capacity. Two exceptions: mature maintained projects, and apps already published.",
+      "tags": [
+        "vibe-coding",
         "open-source",
-        "rust"
+        "policy"
       ],
-      "source": "GitHub +2,494/day",
+      "source": "OMG! Ubuntu",
+      "url": "https://www.omgubuntu.co.uk/2026/06/flathub-bans-ai-coded-apps"
+    },
+    {
+      "text": "meetily (privacy-first, local-transcription meeting assistant) posted a second straight day of rising GitHub velocity: +2,494 stars/day (19,661 total), up from +1,409/day the day it took #1 — not a launch spike.",
+      "tags": [
+        "github",
+        "privacy",
+        "local-first"
+      ],
+      "source": "GitHub Trending",
       "url": "https://github.com/Zackriya-Solutions/meetily"
     },
     {
-      "text": "Fable turns a reMarkable tablet into Tom Riddle's diary from Harry Potter earns 315 HN pts (https://github.com/MaximeRivest/Riddle) and 176 comments. Developer Maxime Rivest used Fable 5 to build a system where handwritten notes disappear before a vision-enabled LLM reads the handwriting and streams a response back in animated handwriting. The structural signal: reMarkable's e-ink display and stylus input, combined with vision-capable LLMs, creates a physical-digital interface that touchscreen devices cannot replicate. (315 HN pts)",
+      "text": "The 'first' AI-run ransomware attack needed a human after all: new reporting shows a person chose the victim, built the infrastructure, and supplied stolen credentials, walking back last week's fully-autonomous-cybercrime framing.",
       "tags": [
-        "github-trending"
+        "agent-security",
+        "ransomware",
+        "correction"
       ],
-      "source": "HN 315pts",
-      "url": "https://github.com/MaximeRivest/Riddle"
-    },
-    {
-      "text": "Mark Zuckerberg tells Meta staff that AI agents have not progressed as quickly as expected (https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/) — the most structurally significant corporate AI signal of the week. Meta laid off ~8,000 employees and reassigned 7,000 to AI groups including Agent Transformation; Zuckerberg's admission is the first major lab to publicly acknowledge a gap between agent roadmaps and real-world progress. Meanwhile, the open-source ecosystem is not waiting: meetily gained 2,494 stars today, agent-skills 1,112 stars, and herdr 779 stars on GitHub.",
-      "tags": [
-        "github-trending",
-        "agents",
-        "open-source"
-      ],
-      "url": "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/"
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/06/the-first-ai-run-ransomware-attack-still-needed-a-human/"
     }
   ],
-  "trending": [
-    {
-      "name": "meetily",
-      "fullName": "Zackriya-Solutions/meetily",
-      "stars": "19.7K",
-      "language": "Rust",
-      "delta": "+2,494/d",
-      "url": "https://github.com/Zackriya-Solutions/meetily"
-    },
-    {
-      "name": "taste-skill",
-      "fullName": "Leonxlnx/taste-skill",
-      "stars": "59.3K",
-      "language": "JavaScript",
-      "delta": "+1,458/d",
-      "url": "https://github.com/Leonxlnx/taste-skill"
-    },
-    {
-      "name": "system_prompts_leaks",
-      "fullName": "asgeirtj/system_prompts_leaks",
-      "stars": "52.0K",
-      "language": "JavaScript",
-      "delta": "+1,378/d",
-      "url": "https://github.com/asgeirtj/system_prompts_leaks"
-    },
-    {
-      "name": "agent-skills",
-      "fullName": "addyosmani/agent-skills",
-      "stars": "71.1K",
-      "language": "JavaScript",
-      "delta": "+1,112/d",
-      "url": "https://github.com/addyosmani/agent-skills"
-    },
-    {
-      "name": "codex-plugin-cc",
-      "fullName": "openai/codex-plugin-cc",
-      "stars": "26.4K",
-      "language": "JavaScript",
-      "delta": "+906/d",
-      "url": "https://github.com/openai/codex-plugin-cc"
-    }
-  ],
+  "trending": [],
   "numbers": [
     {
-      "label": "Top HN Story",
-      "value": "552",
-      "unit": "pts"
+      "label": "Stories",
+      "value": "0",
+      "unit": "items"
     },
     {
-      "label": "Fastest Repo",
-      "value": "2,494",
-      "unit": "stars/day"
+      "label": "Repos",
+      "value": "0",
+      "unit": "tracked"
     },
     {
       "label": "Sources Scraped",
-      "value": "4",
+      "value": "1",
       "unit": "sites"
     },
     {
@@ -147,23 +116,23 @@
     },
     "headlines": [
       {
-        "text": "OpenWrt One – Open Hardware Router earns 521 HN pts and 209 comments",
-        "metric": "521 pts",
-        "source": "HN"
+        "text": "Anthropic found a causal 'global workspace' inside Claude",
+        "metric": "—",
+        "source": "web"
       },
       {
-        "text": "Resetting Xbox earns 552 HN pts and 564 comments",
-        "metric": "552 pts",
-        "source": "HN"
+        "text": "Anthropic trained on what Claude's internal workspace would say if asked to reflect and reduced dishonest behavior",
+        "metric": "—",
+        "source": "web"
       },
       {
-        "text": "CoMaps",
-        "metric": "427 pts",
-        "source": "HN"
+        "text": "Reddit's own policy post confirms old.reddit.com will require login 'over the next month' and admits it 'can't promise old Reddit will be around forever'",
+        "metric": "—",
+        "source": "web"
       }
     ],
     "takeaway": {
-      "text": "Today's brief covers the most interesting signals across the tech landscape."
+      "text": "Interpretability crossed from observation into behavior-shaping the same week Reddit's enclosure got a dated deadline, open-weight pricing closed the last visible gap with frontier labs, and on-device speech synthesis hit the CPU-only inflection text models hit months ago."
     }
   }
 }
