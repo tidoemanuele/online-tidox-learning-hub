@@ -1,0 +1,131 @@
+[
+  {
+    "type": "intro",
+    "highlight": "Intelligence Brief",
+    "subtext": "July 8, 2026",
+    "label": "DAILY"
+  },
+  {
+    "type": "intro",
+    "highlight": "Chat Control — 543 HN Points",
+    "subtext": "EU proposes encrypted message scanning",
+    "label": "TOP STORY"
+  },
+  {
+    "type": "insight",
+    "highlight": "End of end-to-end encryption as a concept",
+    "subtext": "Scan before encryption = backdoor for all messages"
+  },
+  {
+    "type": "quote",
+    "highlight": "That's not surveillance-adjacent — that's the end of E2E",
+    "label": "ANALYSIS"
+  },
+  {
+    "type": "insight",
+    "highlight": "Technical explainer earns more than model releases",
+    "subtext": "Practitioners recognize the infrastructure threat"
+  },
+  {
+    "type": "repo",
+    "highlight": "MadsLorentzen/ai-job-search",
+    "subtext": "Claude Code-powered job application framework",
+    "label": "GITHUB TRENDING #1"
+  },
+  {
+    "type": "number",
+    "number": "2,514",
+    "highlight": "stars in a single day",
+    "subtext": "AI tool for navigating AI-driven layoffs"
+  },
+  {
+    "type": "insight",
+    "highlight": "AI eliminates jobs, AI finds the next one",
+    "subtext": "120,000+ tech cuts in 2026 citing AI"
+  },
+  {
+    "type": "number",
+    "number": "366",
+    "highlight": "HN points for Kokoro TTS",
+    "subtext": "High-quality speech on CPU — no GPU needed"
+  },
+  {
+    "type": "repo",
+    "highlight": "kyutai-labs/pocket-tts",
+    "subtext": "Voice cloning from 5s audio on CPU",
+    "label": "GITHUB TRENDING"
+  },
+  {
+    "type": "insight",
+    "highlight": "Local audio AI hits the inflection point",
+    "subtext": "Two CPU-capable TTS projects trending simultaneously"
+  },
+  {
+    "type": "action",
+    "highlight": "Ship voice products without cloud APIs",
+    "subtext": "No per-call cost. No audit trail. Any hardware."
+  },
+  {
+    "type": "insight",
+    "highlight": "Local AI is structurally Chat Control-resistant",
+    "label": "KEY CONNECTION"
+  },
+  {
+    "type": "number",
+    "number": "125",
+    "highlight": "Lobsters points for Odin 1.0",
+    "subtext": "Systems language hits production-stable milestone"
+  },
+  {
+    "type": "insight",
+    "highlight": "Ergonomic control over automated safety",
+    "subtext": "Odin: C's successor without Rust's borrow checker"
+  },
+  {
+    "type": "number",
+    "number": "449",
+    "highlight": "HN points for 30papers.com",
+    "subtext": "Ilya's 30 ML papers made beginner-friendly"
+  },
+  {
+    "type": "action",
+    "highlight": "ML foundations, now accessible without a PhD",
+    "subtext": "Curated reading path through Ilya's essential list"
+  },
+  {
+    "type": "quote",
+    "highlight": "GPT-5.6 Sol, Terra, Luna launch Thursday",
+    "label": "OPENAI ANNOUNCEMENT",
+    "subtext": "Three model variants simultaneously"
+  },
+  {
+    "type": "insight",
+    "highlight": "Every lab converging on 3-tier model architecture",
+    "subtext": "Frontier + multimodal-efficient + lightweight"
+  },
+  {
+    "type": "insight",
+    "highlight": "Differentiation is trust, pricing, ecosystem — not benchmarks",
+    "label": "STRUCTURAL READ"
+  },
+  {
+    "type": "insight",
+    "highlight": "The capability race is maturing into a trust race",
+    "label": "TODAY'S THESIS"
+  },
+  {
+    "type": "action",
+    "highlight": "Build local. Build auditable. Build trustworthy.",
+    "subtext": "What today's signals tell builders to do differently"
+  },
+  {
+    "type": "close",
+    "highlight": "Read the 30 papers. Ship something local.",
+    "subtext": "Watch Thursday's GPT-5.6 launch"
+  },
+  {
+    "type": "close",
+    "highlight": "Intelligence Brief — July 8, 2026",
+    "subtext": "See you tomorrow"
+  }
+]

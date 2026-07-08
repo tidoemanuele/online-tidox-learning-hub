@@ -1,0 +1,145 @@
+[
+  {
+    "title": "Odin 1.0 Announcement",
+    "score": 125,
+    "tags": [
+      "plt",
+      "programming",
+      "video"
+    ],
+    "url": "https://www.youtube.com/watch?v=dLPAqXi9In0",
+    "comments_url": "https://lobste.rs/s/5rvgim/odin_1_0_announcement"
+  },
+  {
+    "title": "Together for a healthier Clippy",
+    "score": 70,
+    "tags": [
+      "rust"
+    ],
+    "url": "https://blog.rust-lang.org/inside-rust/2026/07/06/unite-for-clippy/",
+    "comments_url": "https://lobste.rs/s/709awc/together_for_healthier_clippy"
+  },
+  {
+    "title": "You shouldn't trust Trusted Publishing",
+    "score": 29,
+    "tags": [
+      "python",
+      "security"
+    ],
+    "url": "https://blog.yossarian.net/2026/07/07/You-shouldnt-trust-trusted-publishing",
+    "comments_url": "https://lobste.rs/s/8d9pgd/you_shouldn_t_trust_trusted_publishing"
+  },
+  {
+    "title": "Google\u2019s exponential path to climate-wrecking digital bloat",
+    "score": 83,
+    "tags": [
+      "ai"
+    ],
+    "url": "https://ketanjoshi.co/2026/07/01/googles-exponential-path-to-climate-wrecking-digital-bloat/",
+    "comments_url": "https://lobste.rs/s/v8hk8q/google_s_exponential_path_climate"
+  },
+  {
+    "title": "Why false sharing alignment should be 128 bytes on x64",
+    "score": 31,
+    "tags": [
+      "performance"
+    ],
+    "url": "https://monoid.github.io/posts/false-sharing-alignment/",
+    "comments_url": "https://lobste.rs/s/no3kkj/why_false_sharing_alignment_should_be_128"
+  },
+  {
+    "title": "Jim's TrueType QR Code Font",
+    "score": 9,
+    "tags": [
+      "programming"
+    ],
+    "url": "https://qr.jim.sh/",
+    "comments_url": "https://lobste.rs/s/y0tvll/jim_s_truetype_qr_code_font"
+  },
+  {
+    "title": "Waterfall CAD Playground - A Haskell powered programmable-CAD environment, in the browser with WASM",
+    "score": 32,
+    "tags": [
+      "graphics",
+      "haskell"
+    ],
+    "url": "https://doscienceto.it/waterpark",
+    "comments_url": "https://lobste.rs/s/hfiihu/waterfall_cad_playground_haskell"
+  },
+  {
+    "title": "I was wrong about game development",
+    "score": 16,
+    "tags": [
+      "games",
+      "ios",
+      "mobile"
+    ],
+    "url": "https://mijndertstuij.nl/posts/i-was-wrong-about-game-development/",
+    "comments_url": "https://lobste.rs/s/n3iqxi/i_was_wrong_about_game_development"
+  },
+  {
+    "title": "Mechanized type inference for record concatenation",
+    "score": 19,
+    "tags": [
+      "plt"
+    ],
+    "url": "https://haskellforall.com/2026/07/mechanized-type-inference-for-record-concatenation",
+    "comments_url": "https://lobste.rs/s/zffug6/mechanized_type_inference_for_record"
+  },
+  {
+    "title": "Your Rust Service Isn't Leaking \u2014 It Could Be the Allocator",
+    "score": 16,
+    "tags": [
+      "rust"
+    ],
+    "url": "https://pranitha.dev/posts/rust-and-memory-allocators/",
+    "comments_url": "https://lobste.rs/s/srmkur/your_rust_service_isn_t_leaking_it_could_be"
+  },
+  {
+    "title": "OpenBSD through 7.9 has a use-after-free allowing local privilege escalation to root (CVE-2026-57589)",
+    "score": 9,
+    "tags": [
+      "openbsd",
+      "security"
+    ],
+    "url": "https://nvd.nist.gov/vuln/detail/cve-2026-57589",
+    "comments_url": "https://lobste.rs/s/7hmu0w/openbsd_through_7_9_has_use_after_free"
+  },
+  {
+    "title": "Signed Integers By Default",
+    "score": 21,
+    "tags": [
+      "plt"
+    ],
+    "url": "https://www.gingerbill.org/article/2026/05/03/signed-by-default/",
+    "comments_url": "https://lobste.rs/s/asnoqy/signed_integers_by_default"
+  },
+  {
+    "title": "Notes on software quality",
+    "score": 7,
+    "tags": [
+      "practices"
+    ],
+    "url": "https://anthonyhobday.com/blog/20260410",
+    "comments_url": "https://lobste.rs/s/swqkt0/notes_on_software_quality"
+  },
+  {
+    "title": "a software engineering interview question I like: computing the median",
+    "score": 6,
+    "tags": [
+      "programming"
+    ],
+    "url": "https://krisshamloo.com/blog/007",
+    "comments_url": "https://lobste.rs/s/8kxouk/software_engineering_interview"
+  },
+  {
+    "title": "The Popup That Says the Quiet Part Out Loud",
+    "score": 18,
+    "tags": [
+      "ios",
+      "vibecoding"
+    ],
+    "url": "https://blog.ppb1701.com/the-popup-that-says-the-quiet-part-out-loud",
+    "comments_url": "https://lobste.rs/s/hq8i1h/popup_says_quiet_part_out_loud"
+  }
+]
