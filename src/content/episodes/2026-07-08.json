@@ -3,104 +3,140 @@
   "episodeNumber": 108,
   "locale": "en-US",
   "title": "Intelligence Brief",
-  "subtitle": "Anthropic expanded Claude Cowork from desktop-only, The drafter-reviewer agent pattern that emerged in, meetily's third straight day of rising GitHub velo",
+  "subtitle": "How to Build a Minimal ZFS NAS Without Synology, Q, Tenda firmware contains hidden authentication back, GAO: DOE Is Prematurely Excluding Less Expensive O",
+  "heroStat": {
+    "value": "543",
+    "label": "points on \"Chat Control 1.0 and 2.0 Explained\""
+  },
   "insights": [
     {
-      "text": "Anthropic expanded Claude Cowork from desktop-only to mobile and web with background cloud execution (tasks continue even when device is offline), mobile approval redirects, and a unified chat/Cowork interface. Less than 9% of sessions are coding; ~50% are business operations and content creation.",
+      "text": "How to Build a Minimal ZFS NAS Without Synology, QNAP, TrueNAS (2024) (87 pts, 44 comments)",
       "tags": [
-        "anthropic",
-        "cowork",
-        "mobile"
+        "hacker-news"
       ],
-      "source": "Claude Blog / TechCrunch AI",
-      "url": "https://claude.com/blog/cowork-web-mobile"
+      "source": "HN 87pts",
+      "url": "https://neil.computer/notes/how-to-setup-minimal-zfs-nas-without-truenas/"
     },
     {
-      "text": "The drafter-reviewer agent pattern (one agent drafts, a second with fresh context critiques) that emerged in coding workflows is now appearing in non-engineering domains — ai-job-search applies it to CV + cover letter generation with structured fit evaluation.",
+      "text": "Tenda firmware (multiple versions) contains hidden authentication backdoor (126 pts, 32 comments)",
       "tags": [
-        "agents",
-        "drafter-reviewer",
-        "workflow"
+        "hacker-news"
       ],
-      "source": "GitHub / MadsLorentzen",
+      "source": "HN 126pts",
+      "url": "https://kb.cert.org/vuls/id/213560"
+    },
+    {
+      "text": "GAO: DOE Is Prematurely Excluding Less Expensive Options for Nuclear Cleanup (175 pts, 74 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 175pts",
+      "url": "https://www.gao.gov/products/gao-26-108193"
+    },
+    {
+      "text": "Copy That Floppy – Cambridge guide for preserving data from fragile floppy disks (21 pts, 5 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 21pts",
+      "url": "https://www.digipres.org/the-floppy-guide/"
+    },
+    {
+      "text": "Odin 1.0 Announcement (125 pts on Lobsters)",
+      "tags": [
+        "lobsters",
+        "plt",
+        "programming"
+      ],
+      "source": "Lobsters 125pts",
+      "url": "https://www.youtube.com/watch?v=dLPAqXi9In0"
+    },
+    {
+      "text": "Together for a healthier Clippy (70 pts on Lobsters)",
+      "tags": [
+        "lobsters",
+        "rust"
+      ],
+      "source": "Lobsters 70pts",
+      "url": "https://blog.rust-lang.org/inside-rust/2026/07/06/unite-for-clippy/"
+    },
+    {
+      "text": "Building AI job applications with Claude Code (127 reactions on Dev.to)",
+      "tags": [
+        "devto",
+        "ai",
+        "claudecode"
+      ],
+      "source": "Dev.to 127❤",
+      "url": "https://dev.to/madslorentzen/building-ai-job-applications-with-claude-code"
+    },
+    {
+      "text": "Why Chat Control is a cryptography problem, not a policy problem (89 reactions on Dev.to)",
+      "tags": [
+        "devto",
+        "security",
+        "privacy"
+      ],
+      "source": "Dev.to 89❤",
+      "url": "https://dev.to/privacy/chat-control-cryptography"
+    }
+  ],
+  "trending": [
+    {
+      "name": "ai-job-search",
+      "fullName": "MadsLorentzen/ai-job-search",
+      "stars": "12.5K",
+      "language": "TypeScript",
+      "delta": "+2514/d",
       "url": "https://github.com/MadsLorentzen/ai-job-search"
     },
     {
-      "text": "meetily's third straight day of rising GitHub velocity (+1,409 → +2,494 → +1,777/day sustained) validates privacy-first local transcription as structural adoption, not a launch spike. 20,987 total stars; Rust + local Whisper/Parakeet.",
-      "tags": [
-        "github",
-        "privacy",
-        "local-first"
-      ],
-      "source": "GitHub Trending",
+      "name": "meetily",
+      "fullName": "Zackriya-Solutions/meetily",
+      "stars": "21.5K",
+      "language": "Rust",
+      "delta": "+1777/d",
       "url": "https://github.com/Zackriya-Solutions/meetily"
     },
     {
-      "text": "TencentCloud/CubeSandbox debuts at +664/day (8,554) — fourth major-vendor sandbox implementation in one quarter (Monty/Pydantic, LiteBox/Microsoft, OpenSandbox/Alibaba, CubeSandbox/Tencent). Sandbox layer is now table-stakes.",
-      "tags": [
-        "sandbox",
-        "agents",
-        "security"
-      ],
-      "source": "GitHub Trending",
-      "url": "https://github.com/TencentCloud/CubeSandbox"
+      "name": "system_prompts_leaks",
+      "fullName": "asgeirtj/system_prompts_leaks",
+      "stars": "52.0K",
+      "language": "JavaScript",
+      "delta": "+1691/d",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks"
     },
     {
-      "text": "Rowboat (Show HN, 125 pts) is an open-source, local-first alternative to Claude Desktop — knowledge graph of your work + built-in surfaces (email, notes, browser, code, meetings). YC-backed. Directly addresses cloud-vs-local agent tension.",
-      "tags": [
-        "local-first",
-        "agents",
-        "claude-desktop"
-      ],
-      "source": "Show HN / Rowboat",
-      "url": "https://github.com/rowboatlabs/rowboat"
+      "name": "agent-skills",
+      "fullName": "addyosmani/agent-skills",
+      "stars": "72.4K",
+      "language": "JavaScript",
+      "delta": "+1317/d",
+      "url": "https://github.com/addyosmani/agent-skills"
     },
     {
-      "text": "Kokoro TTS trending on HN (#8, 351 pts) as 'local, CPU-friendly, high-quality TTS' — second CPU-only TTS option within 24 hours of Pocket TTS. On-device speech synthesis is now a multi-option category, not a single-product niche.",
-      "tags": [
-        "tts",
-        "on-device",
-        "voice"
-      ],
-      "source": "Hacker News",
-      "url": "https://news.ycombinator.com/item?id=44490123"
-    },
-    {
-      "text": "30papers.com (HN #11, 433 pts) — Ilya Sutskever's 30 essential ML papers in beginner-friendly format. A non-code, non-product resource hitting the front page signals ML-literacy demand is a standalone audience.",
-      "tags": [
-        "ml",
-        "education",
-        "literacy"
-      ],
-      "source": "Hacker News / 30papers",
-      "url": "https://30papers.com"
-    },
-    {
-      "text": "Herdr sustains trending (HN #13, 217 pts/101 comments) — 'one terminal to rule them all.' Terminal multiplexer for agents, day 7 across three tracking days. The tmux-for-agents workflow is a maturing product category.",
-      "tags": [
-        "cli",
-        "agents",
-        "terminal"
-      ],
-      "source": "Hacker News",
-      "url": "https://news.ycombinator.com/item?id=44490089"
+      "name": "RuView",
+      "fullName": "ruvnet/RuView",
+      "stars": "8.9K",
+      "language": "Rust",
+      "delta": "+1129/d",
+      "url": "https://github.com/ruvnet/RuView"
     }
   ],
-  "trending": [],
   "numbers": [
     {
-      "label": "Stories",
-      "value": "0",
-      "unit": "items"
+      "label": "Top HN Story",
+      "value": "543",
+      "unit": "pts"
     },
     {
-      "label": "Repos",
-      "value": "0",
-      "unit": "tracked"
+      "label": "Fastest Repo",
+      "value": "2514",
+      "unit": "stars/day"
     },
     {
       "label": "Sources Scraped",
-      "value": "1",
+      "value": "4",
       "unit": "sites"
     },
     {
@@ -116,23 +152,23 @@
     },
     "headlines": [
       {
-        "text": "Anthropic expanded Claude Cowork from desktop-only to mobile and web with background cloud execution , mobile approval redirects, and a unified chat/Cowork interface. Less than 9% of sessions are coding; ~50% are business operations and content creation.",
+        "text": "How to Build a Minimal ZFS NAS Without Synology, QNAP, TrueNAS",
         "metric": "—",
         "source": "web"
       },
       {
-        "text": "The drafter-reviewer agent pattern that emerged in coding workflows is now appearing in non-engineering domains",
+        "text": "Tenda firmware contains hidden authentication backdoor",
         "metric": "—",
         "source": "web"
       },
       {
-        "text": "meetily's third straight day of rising GitHub velocity validates privacy-first local transcription as structural adoption, not a launch spike. 20,987 total stars; Rust + local Whisper/Parakeet.",
-        "metric": "+1,777/d",
-        "source": "GitHub"
+        "text": "GAO: DOE Is Prematurely Excluding Less Expensive Options for Nuclear Cleanup",
+        "metric": "—",
+        "source": "web"
       }
     ],
     "takeaway": {
-      "text": "Claude Cowork broke out of the desktop into mobile/web with background cloud execution and push-notification approvals, while the drafter-reviewer agent pattern escaped engineering into job hunting and meetily proved privacy-first local transcription has structural GitHub velocity."
+      "text": "Today's brief covers the most interesting signals across the tech landscape."
     }
   }
 }
