@@ -1,0 +1,38 @@
+[
+  {
+    "rank": 1,
+    "title": "MCP hits 97M monthly SDK downloads with 1,000+ community servers",
+    "url": "https://claude-codex.fr/en/future/trends-2026/",
+    "reactions": 847,
+    "comments": 132,
+    "tags": [
+      "mcp",
+      "ai",
+      "developer-tools"
+    ]
+  },
+  {
+    "rank": 2,
+    "title": "Claude Fable 5 leads WebDev Arena at 1,653 Elo \u2014 92 points ahead of second",
+    "url": "https://blog.logrocket.com/ai-dev-tool-power-rankings/",
+    "reactions": 623,
+    "comments": 87,
+    "tags": [
+      "ai",
+      "claude",
+      "benchmarks"
+    ]
+  },
+  {
+    "rank": 3,
+    "title": "TypeScript 7.0 Announced with 10x faster compiler in Rust",
+    "url": "https://devblogs.microsoft.com/typescript/",
+    "reactions": 1204,
+    "comments": 218,
+    "tags": [
+      "typescript",
+      "javascript",
+      "rust"
+    ]
+  }
+]

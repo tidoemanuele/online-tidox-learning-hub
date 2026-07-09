@@ -1,0 +1,138 @@
+[
+  [
+    "A",
+    "So the number one story on Hacker News today isn't a model launch. It's a t-shirt."
+  ],
+  [
+    "B",
+    "Wait, a t-shirt?"
+  ],
+  [
+    "A",
+    "A Uniqlo t-shirt with a QR code. Someone scanned it, got a bash script served by Akamai, and the script was obfuscated. Eval chains, string concatenation, environment-variable conditionals designed to defeat static analysis."
+  ],
+  [
+    "B",
+    "Akamai. That's not some sketchy startup CDN, that's the biggest one on the internet."
+  ],
+  [
+    "A",
+    "Exactly why it's a 1,346-point story. This is the same class of obfuscation you'd flag in a supply-chain attack. Akamai says it's benign analytics. But the technique doesn't care what your intentions are."
+  ],
+  [
+    "B",
+    "OK so if that's true, then this is a genuinely new attack surface. No npm install, no GitHub repo, no package manager anyone's scanning."
+  ],
+  [
+    "A",
+    "Right. The delivery mechanism is a piece of clothing. You can't audit a t-shirt tag the way you'd audit a dependency."
+  ],
+  [
+    "B",
+    "212 comments of people reverse-engineering it themselves because Akamai wouldn't just explain it."
+  ],
+  [
+    "A",
+    "Which tells you something. When the platform won't answer, the practitioners answer for themselves."
+  ],
+  [
+    "B",
+    "Now here's the thing that's bugging me — didn't we also see a right-to-repair win today?"
+  ],
+  [
+    "A",
+    "We did. FTC settlement, John Deere. Farmers finally get the diagnostic software and manuals Deere had locked to dealers. 608 points."
+  ],
+  [
+    "B",
+    "Wait, so on the same day — owners are winning the right to inspect and fix their own tractors, and losing the right to know what's running on their own t-shirts."
+  ],
+  [
+    "A",
+    "That's the thesis of the whole day, honestly. Hardware transparency is advancing through regulation. Software transparency is quietly eroding at retail, one QR code at a time."
+  ],
+  [
+    "B",
+    "So what does a builder actually do with that? Don't ship obfuscated scripts to consumers and call it analytics."
+  ],
+  [
+    "A",
+    "And more specifically — if you're shipping anything via QR code or embedded link, make it inspectable by default. Assume someone will decode it, because someone always does."
+  ],
+  [
+    "B",
+    "OK, switching gears — Chatto went open source today. 879 points, that's huge for an indie app announcement."
+  ],
+  [
+    "A",
+    "Hendrik Mans built a full production AI chat app on Claude — subscription billing, model routing, the works — as a solo dev. He just gave the whole stack away."
+  ],
+  [
+    "B",
+    "Why now though? Why not keep charging for it?"
+  ],
+  [
+    "A",
+    "Because Sonnet 5 pricing makes running a multi-user chat SaaS barely worth the operational overhead. Open-sourcing it converts a marginal business into something way more valuable: a reference implementation the whole community builds on."
+  ],
+  [
+    "B",
+    "And that lands right next to addyosmani's agent-skills repo blowing up, 1,297 stars a day. Chat interfaces and agent tooling are basically the same category now."
+  ],
+  [
+    "A",
+    "That's the move. If you're building solo, stop asking 'can I keep this proprietary' and start asking 'is this more valuable as infrastructure everyone builds on top of.'"
+  ],
+  [
+    "B",
+    "Alright, and then there's the actual AI arms race. GPT-Live dropped, sub-300ms audio, continuous video context — the model just watches through your camera like it's actually present."
+  ],
+  [
+    "A",
+    "664 points, 431 comments. But notice the comment ratio — people mostly want to stress-test it. Latency outside a datacenter, cost of always-on video, session contamination risk."
+  ],
+  [
+    "B",
+    "Belief with an asterisk. Meanwhile Grok 4.5 landed a day earlier with 550 points and 752 comments — more comments than points."
+  ],
+  [
+    "A",
+    "That ratio is the tell. GPT-Live is 'novel capability, let's verify it.' Grok 4.5 is 'contested benchmark claim, let's argue about it.'"
+  ],
+  [
+    "B",
+    "And Lobsters basically ignored both. They went for TypeScript 7.0's new compiler and Odin 1.0 instead."
+  ],
+  [
+    "A",
+    "Because those claims are checkable in open source. Closed-weight benchmark claims get read as marketing by that crowd, fair or not."
+  ],
+  [
+    "B",
+    "Oh, and Bun rewriting parts of itself in Rust — away from Zig. That's wild, Zig was supposed to be the whole pitch."
+  ],
+  [
+    "A",
+    "Cargo, Tokio, toolchain maturity won out over raw performance. And here's the compounding piece — AI coding assistants are trained on way more Rust than Zig."
+  ],
+  [
+    "B",
+    "So the AI coding tools are quietly picking winners in language ecosystems just by what they're better at helping with."
+  ],
+  [
+    "A",
+    "Which is a real decision point for any team choosing a systems language right now, not just a Bun problem."
+  ],
+  [
+    "B",
+    "So pulling all of it together — the theme today is: who controls the software running on the things you own. Your tractor, your chat app, your camera, your clothes."
+  ],
+  [
+    "A",
+    "And the winning move, every single time today, was transparency. Open the stack, open the source, open the repair manual. The closed, obfuscated plays are the ones getting dragged."
+  ],
+  [
+    "B",
+    "Which honestly is the most builder-friendly version of the future I can imagine. Go build the open thing. Someone's going to trust it more than the black box anyway."
+  ]
+]

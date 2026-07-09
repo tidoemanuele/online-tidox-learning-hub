@@ -1,0 +1,203 @@
+[
+  {
+    "type": "intro",
+    "label": "JULY 9, 2026",
+    "highlight": "The day's top story isn't a model launch"
+  },
+  {
+    "type": "intro",
+    "label": "INTELLIGENCE BRIEF",
+    "highlight": "It's a t-shirt"
+  },
+  {
+    "type": "insight",
+    "label": "SUPPLY CHAIN",
+    "highlight": "Akamai serving obfuscated bash via Uniqlo QR codes",
+    "subtext": "Eval chains, string concatenation, environment-variable conditionals"
+  },
+  {
+    "type": "number",
+    "number": "1,346",
+    "label": "HN POINTS",
+    "highlight": "Uniqlo obfuscated bash script",
+    "subtext": "The biggest story of the day"
+  },
+  {
+    "type": "insight",
+    "label": "SECURITY",
+    "highlight": "Same obfuscation class as a supply-chain attack",
+    "subtext": "Akamai says it's analytics. The technique doesn't care."
+  },
+  {
+    "type": "insight",
+    "label": "NEW ATTACK SURFACE",
+    "highlight": "No npm install. No GitHub repo. A piece of clothing.",
+    "subtext": "You can't audit a t-shirt tag like a dependency"
+  },
+  {
+    "type": "quote",
+    "label": "INSIGHT",
+    "highlight": "The delivery mechanism is a piece of clothing"
+  },
+  {
+    "type": "number",
+    "number": "212",
+    "label": "COMMENTS",
+    "highlight": "Practitioners reverse-engineered it themselves",
+    "subtext": "When the platform won't answer, the community answers"
+  },
+  {
+    "type": "quote",
+    "label": "SIGNAL",
+    "highlight": "When the platform won't answer, practitioners answer for themselves"
+  },
+  {
+    "type": "insight",
+    "label": "RIGHT TO REPAIR",
+    "highlight": "FTC settlement: John Deere farmers get repair rights",
+    "subtext": "608 points"
+  },
+  {
+    "type": "number",
+    "number": "608",
+    "label": "HN POINTS",
+    "highlight": "John Deere right-to-repair win",
+    "subtext": "FTC forces diagnostic software access for farmers"
+  },
+  {
+    "type": "insight",
+    "label": "TODAY'S THESIS",
+    "highlight": "Hardware transparency advancing. Software eroding.",
+    "subtext": "One QR code at a time"
+  },
+  {
+    "type": "quote",
+    "label": "ANALYSIS",
+    "highlight": "Hardware transparency: regulation. Software transparency: quietly eroding."
+  },
+  {
+    "type": "action",
+    "label": "BUILDER ACTION",
+    "highlight": "Don't ship obfuscated scripts to consumers",
+    "subtext": "If it arrives via QR code, make it inspectable by default"
+  },
+  {
+    "type": "action",
+    "label": "RULE",
+    "highlight": "Assume someone will decode it — because someone always does"
+  },
+  {
+    "type": "number",
+    "number": "879",
+    "label": "HN POINTS",
+    "highlight": "Chatto goes open source",
+    "subtext": "Biggest indie AI app announcement of the day"
+  },
+  {
+    "type": "insight",
+    "label": "OPEN SOURCE",
+    "highlight": "Solo dev gives away full production Claude chat stack",
+    "subtext": "Subscription billing, model routing, the works"
+  },
+  {
+    "type": "insight",
+    "label": "THE QUESTION",
+    "highlight": "Why open-source it now?",
+    "subtext": "Sonnet 5 pricing makes multi-user SaaS barely worth the overhead"
+  },
+  {
+    "type": "quote",
+    "label": "STRATEGY",
+    "highlight": "A marginal business becomes a reference implementation the whole community builds on"
+  },
+  {
+    "type": "repo",
+    "label": "GITHUB TRENDING",
+    "highlight": "addyosmani/agent-skills",
+    "subtext": "+1,297 stars/day — chat and agents are the same category now"
+  },
+  {
+    "type": "action",
+    "label": "BUILDER MOVE",
+    "highlight": "Is this more valuable as infrastructure everyone builds on?",
+    "subtext": "Stop asking if you can keep it proprietary"
+  },
+  {
+    "type": "insight",
+    "label": "GPT-LIVE",
+    "highlight": "Sub-300ms audio, continuous video context",
+    "subtext": "The model watches through your camera in real time"
+  },
+  {
+    "type": "number",
+    "number": "431",
+    "label": "COMMENTS",
+    "highlight": "GPT-Live: belief with an asterisk",
+    "subtext": "Latency, cost, session contamination — all under scrutiny"
+  },
+  {
+    "type": "insight",
+    "label": "GROK 4.5",
+    "highlight": "752 comments on 550 points",
+    "subtext": "More comments than points — contested benchmark territory"
+  },
+  {
+    "type": "quote",
+    "label": "THE TELL",
+    "highlight": "Novel capability vs. contested benchmark claim",
+    "subtext": "GPT-Live vs. Grok 4.5 — the ratio tells the story"
+  },
+  {
+    "type": "insight",
+    "label": "LOBSTERS SIGNAL",
+    "highlight": "TypeScript 7.0 and Odin 1.0 — checkable in open source",
+    "subtext": "Closed-weight benchmarks read as marketing to that crowd"
+  },
+  {
+    "type": "repo",
+    "label": "SYSTEMS",
+    "highlight": "Closed-weight benchmark claims = unverifiable marketing",
+    "subtext": "Open source: every claim is checkable"
+  },
+  {
+    "type": "insight",
+    "label": "BUN IN RUST",
+    "highlight": "Bun migrates from Zig to Rust — ecosystem wins",
+    "subtext": "Cargo and Tokio beat raw performance on production engineering"
+  },
+  {
+    "type": "insight",
+    "label": "HIDDEN FORCE",
+    "highlight": "AI coding tools are trained on way more Rust than Zig",
+    "subtext": "Assistants are quietly picking language winners"
+  },
+  {
+    "type": "quote",
+    "label": "DECISION POINT",
+    "highlight": "AI coding tools are quietly picking winners in language ecosystems"
+  },
+  {
+    "type": "insight",
+    "label": "TAKEAWAY",
+    "highlight": "Who controls the software running on the things you own?",
+    "subtext": "Your tractor, your chat app, your camera, your clothes"
+  },
+  {
+    "type": "insight",
+    "label": "THE PATTERN",
+    "highlight": "Every winner today was transparent",
+    "subtext": "Open stack. Open source. Open repair manual."
+  },
+  {
+    "type": "close",
+    "label": "SIGNAL",
+    "highlight": "Go build the open thing",
+    "subtext": "Someone will trust it more than the black box anyway"
+  },
+  {
+    "type": "close",
+    "label": "TIDOX INTELLIGENCE BRIEF",
+    "highlight": "July 9, 2026",
+    "subtext": "Episode 109"
+  }
+]

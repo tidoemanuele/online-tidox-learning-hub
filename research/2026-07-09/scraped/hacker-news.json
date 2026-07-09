@@ -1,0 +1,162 @@
+[
+  {
+    "rank": 1,
+    "title": "John Deere owners will get the right to repair equipment under FTC settlement",
+    "url": "https://apnews.com/article/john-deere-right-to-repair-agriculture-equipment-cb7514ffedb95c130a976af661f2bc02",
+    "hn_url": "https://news.ycombinator.com/item?id=48838876",
+    "points": 608,
+    "comments": 119
+  },
+  {
+    "rank": 2,
+    "title": "Spider venom kills varroa mites without harming honeybees",
+    "url": "https://connectsci.au/news/news-parent/9703/Spider-venom-kills-varroa-mites-without-harming",
+    "hn_url": "https://news.ycombinator.com/item?id=48841259",
+    "points": 38,
+    "comments": 9
+  },
+  {
+    "rank": 3,
+    "title": "Chatto is now open source",
+    "url": "https://www.hmans.dev/blog/chatto-is-open-source",
+    "hn_url": "https://news.ycombinator.com/item?id=48833116",
+    "points": 879,
+    "comments": 227
+  },
+  {
+    "rank": 4,
+    "title": "Cargo-nextest: 3x faster than cargo test, per-test isolation, first-class CI",
+    "url": "https://nexte.st/",
+    "hn_url": "https://news.ycombinator.com/item?id=48800596",
+    "points": 41,
+    "comments": 8
+  },
+  {
+    "rank": 5,
+    "title": "Separating signal from noise in coding evaluations",
+    "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations/",
+    "hn_url": "https://news.ycombinator.com/item?id=48837396",
+    "points": 197,
+    "comments": 69
+  },
+  {
+    "rank": 6,
+    "title": "Remote Attestation",
+    "url": "https://www.liamcvw.com/p/remote-attestation",
+    "hn_url": "https://news.ycombinator.com/item?id=48839397",
+    "points": 63,
+    "comments": 53
+  },
+  {
+    "rank": 7,
+    "title": "Unicode's transliteration rules are Turing-complete",
+    "url": "https://seriot.ch/computation/uts35/",
+    "hn_url": "https://news.ycombinator.com/item?id=48829797",
+    "points": 75,
+    "comments": 25
+  },
+  {
+    "rank": 8,
+    "title": "Benchmarking coding agents on Databricks' multi-million line codebase",
+    "url": "https://www.databricks.com/blog/benchmarking-coding-agents-databricks-multi-million-line-codebase",
+    "hn_url": "https://news.ycombinator.com/item?id=48837696",
+    "points": 41,
+    "comments": 11
+  },
+  {
+    "rank": 9,
+    "title": "Cloudflare Drop",
+    "url": "https://www.cloudflare.com/drop/",
+    "hn_url": "https://news.ycombinator.com/item?id=48836233",
+    "points": 361,
+    "comments": 180
+  },
+  {
+    "rank": 10,
+    "title": "Show HN: Yamanote.fun \u2013 A complete soundscape for Tokyo's Yamanote line",
+    "url": "https://www.yamanote.fun/",
+    "hn_url": "https://news.ycombinator.com/item?id=48816987",
+    "points": 121,
+    "comments": 25
+  },
+  {
+    "rank": 11,
+    "title": "Show HN: Microsoft releases Flint, a visualization language for AI agents",
+    "url": "https://microsoft.github.io/flint-chart/#/",
+    "hn_url": "https://news.ycombinator.com/item?id=48834924",
+    "points": 247,
+    "comments": 99
+  },
+  {
+    "rank": 12,
+    "title": "Patching MechCommander's \"left arm bug\" for fun and profit",
+    "url": "https://mhloppy.com/2026/05/mechcommander-weapons-left-arm-bug-fix/",
+    "hn_url": "https://news.ycombinator.com/item?id=48795591",
+    "points": 48,
+    "comments": 13
+  },
+  {
+    "rank": 13,
+    "title": "What's slowing down the AI buildout",
+    "url": "https://www.worksinprogress.news/p/ai-is-bottlenecked-by-the-grid",
+    "hn_url": "https://news.ycombinator.com/item?id=48840620",
+    "points": 21,
+    "comments": 20
+  },
+  {
+    "rank": 14,
+    "title": "Rewriting Bun in Rust",
+    "url": "https://bun.com/blog/bun-in-rust",
+    "hn_url": "https://news.ycombinator.com/item?id=48837877",
+    "points": 446,
+    "comments": 230
+  },
+  {
+    "rank": 15,
+    "title": "Grok 4.5",
+    "url": "https://x.ai/news/grok-4-5",
+    "hn_url": "https://news.ycombinator.com/item?id=48835111",
+    "points": 550,
+    "comments": 752
+  },
+  {
+    "rank": 16,
+    "title": "Turning a pile of documents into a searchable useable knowledge base",
+    "url": "https://github.com/linuxrebel/DocuBrowser",
+    "hn_url": "https://news.ycombinator.com/item?id=48837110",
+    "points": 114,
+    "comments": 27
+  },
+  {
+    "rank": 17,
+    "title": "Apache Shiro security framework releases 3.0.0",
+    "url": "https://shiro.apache.org/blog/2026/06/apache-shiro-300-released.html",
+    "hn_url": "https://news.ycombinator.com/item?id=48812736",
+    "points": 19,
+    "comments": 0
+  },
+  {
+    "rank": 18,
+    "title": "GPT\u2011Live",
+    "url": "https://openai.com/index/introducing-gpt-live/",
+    "hn_url": "https://news.ycombinator.com/item?id=48834405",
+    "points": 664,
+    "comments": 431
+  },
+  {
+    "rank": 19,
+    "title": "FAANG Simulator",
+    "url": "https://www.abeyk.com/escape-the-rat-race/",
+    "hn_url": "https://news.ycombinator.com/item?id=48836778",
+    "points": 363,
+    "comments": 141
+  },
+  {
+    "rank": 20,
+    "title": "Decoding the obfuscated bash script on a Uniqlo t-shirt",
+    "url": "https://tris.sherliker.net/blog/obfuscated-self-evaluating-bash-script-by-cdn-akamai-being-supplied-to-consumers-via-retail-stores/",
+    "hn_url": "https://news.ycombinator.com/item?id=48829312",
+    "points": 1346,
+    "comments": 212
+  }
+]

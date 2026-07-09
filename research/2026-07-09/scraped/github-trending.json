@@ -1,0 +1,74 @@
+[
+  {
+    "name": "OfficeCLI",
+    "fullName": "iOfficeAI/OfficeCLI",
+    "description": "Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files \u2014 no Office installation required",
+    "language": "C#",
+    "stars_today": "1,717 stars today",
+    "total_stars": "12367",
+    "url": "https://github.com/iOfficeAI/OfficeCLI"
+  },
+  {
+    "name": "agent-skills",
+    "fullName": "addyosmani/agent-skills",
+    "description": "Production-grade engineering skills for AI coding agents",
+    "language": "JavaScript",
+    "stars_today": "1,297 stars today",
+    "total_stars": "74702",
+    "url": "https://github.com/addyosmani/agent-skills"
+  },
+  {
+    "name": "system_prompts_leaks",
+    "fullName": "asgeirtj/system_prompts_leaks",
+    "description": "Extracted system prompts from major AI providers",
+    "language": "JavaScript",
+    "stars_today": "1,218 stars today",
+    "total_stars": "54459",
+    "url": "https://github.com/asgeirtj/system_prompts_leaks"
+  },
+  {
+    "name": "superpowers",
+    "fullName": "obra/superpowers",
+    "description": "Agentic skills framework and software development methodology",
+    "language": "Shell",
+    "stars_today": "1,116 stars today",
+    "total_stars": "250116",
+    "url": "https://github.com/obra/superpowers"
+  },
+  {
+    "name": "RuView",
+    "fullName": "ruvnet/RuView",
+    "description": "Transforms WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection",
+    "language": "Rust",
+    "stars_today": "799 stars today",
+    "total_stars": "79306",
+    "url": "https://github.com/ruvnet/RuView"
+  },
+  {
+    "name": "zvec",
+    "fullName": "alibaba/zvec",
+    "description": "Lightweight, lightning-fast, in-process vector database",
+    "language": "C++",
+    "stars_today": "395 stars today",
+    "total_stars": "14520",
+    "url": "https://github.com/alibaba/zvec"
+  },
+  {
+    "name": "last30days-skill",
+    "fullName": "mvanhorn/last30days-skill",
+    "description": "AI agent skill for researching topics across Reddit, X, YouTube, Hacker News, and the web",
+    "language": "Python",
+    "stars_today": "352 stars today",
+    "total_stars": "50930",
+    "url": "https://github.com/mvanhorn/last30days-skill"
+  },
+  {
+    "name": "TencentDB-Agent-Memory",
+    "fullName": "TencentCloud/TencentDB-Agent-Memory",
+    "description": "Delivers fully local long-term memory for AI agents via progressive pipeline",
+    "language": "TypeScript",
+    "stars_today": "318 stars today",
+    "total_stars": "7806",
+    "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory"
+  }
+]
