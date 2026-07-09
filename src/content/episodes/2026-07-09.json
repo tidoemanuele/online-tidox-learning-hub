@@ -3,143 +3,113 @@
   "episodeNumber": 109,
   "locale": "en-US",
   "title": "Intelligence Brief",
-  "subtitle": "Decoding the obfuscated bash script on a Uniqlo t-, Chatto is now open source earns 879 HN pts and 227, GPT-Live earns 664 HN pts and 431 comments",
+  "subtitle": "addyosmani/agent-skills and obra/superpowers are t, Grok 4.5 launched publicly at $2/M input and $6/M , GLM-5.2 scores 81.0 on Terminal-Bench 2.1, up from",
   "heroStat": {
-    "value": "1346",
-    "label": "points on \"Decoding the obfuscated bash script on a Uniqlo t-shirt\""
+    "value": "753B",
+    "label": "moe"
   },
   "insights": [
     {
-      "text": "Decoding the obfuscated bash script on a Uniqlo t-shirt earns 1346 HN pts (https://tris.sherliker.net/blog/obfuscated-self-evaluating-bash-script-by-cdn-akamai-being-supplied-to-consumers-via-retail-stores/) and 212 comments — the day's highest-scoring story and the 2026 cycle's most structurally alarming supply-chain security disclosure to reach the HN front page since the xz-utils backdoor: the post documents that a Uniqlo t-shirt shipped with a QR code linking to a bash script served by Akamai's CDN that is obfuscated using self-evaluating techniques commonly associated with anti-analysis malware — the script uses layered eval chains, string concatenation to reconstruct command sequences, and environment-variable-based conditional execution that prevents static analysis from determining its full behavior without dynamic execution in a controlled environment. The structural significance is compounded by who is delivering the script: Akamai is not a fringe CDN but the largest content delivery network by traffic volume, serving scripts to consumers via retail QR codes is a new attack surface that bypasses the software supply chain entirely — there is no package manager, no npm dependency, no GitHub repository; the script enters user environments through the act of scanning a clothing tag — and the obfuscation techniques applied to what Akamai claims is a benign analytics script are architecturally identical to the techniques used to conceal malicious behavior in supply-chain attacks. The HN community's 1346-point endorsement — the largest single-story score on July 9 by an enormous margin — reflects a practitioner population that treats 'why is a CDN delivering obfuscated scripts through retail t-shirts' as a question that demands a public answer rather than a reassurance, and the 212 comments document the technical community's systematic reverse engineering of the script's behavior alongside Akamai's non-response to press inquiries. The simultaneous 49-point Lobsters response confirms the security engineering community treats this as a confirmed suspicious behavior rather than ambiguous implementation choice. The compound read with today's John Deere right-to-repair FTC settlement (608 HN pts): on a day when the practitioner community celebrates a regulatory win for the right to inspect and modify owned hardware, the top story concerns code arriving on owned objects — t-shirts with QR codes — that the consumer cannot read, audit, or verify, and that Akamai is serving in a deliberately analysis-resistant form. The asymmetry is the day's structural thesis: hardware repair rights advancing at the regulatory layer while software transparency erodes at the retail layer. (1346 HN pts) Source: https://tris.sherliker.net/blog/obfuscated-self-evaluating-bash-script-by-cdn-akamai-being-supplied-to-consumers-via-retail-stores/",
+      "text": "addyosmani/agent-skills (GitHub #1, 74,606 stars) and obra/superpowers (#9, 250,072 stars) are two independently-authored agent-skill frameworks that converged on nearly identical lifecycle-phase content (define/plan/build/test/review/ship) and the same distribution channel — Anthropic's official Claude plugin marketplace — without any acquisition between them.",
       "tags": [
-        "security",
-        "supply-chain",
-        "github-trending"
-      ],
-      "source": "HN 1346pts",
-      "url": "https://tris.sherliker.net/blog/obfuscated-self-evaluating-bash-script-by-cdn-akamai-being-supplied-to-consumers-via-retail-stores/"
-    },
-    {
-      "text": "Chatto is now open source earns 879 HN pts (https://www.hmans.dev/blog/chatto-is-open-source) and 227 comments — the day's second-highest-scoring story and the 2026 cycle's clearest signal that indie-developed consumer AI applications are reaching the stage where community stewardship is more strategically valuable than closed proprietary development: Hendrik Mans' Chatto is a conversational AI chat interface built on top of Anthropic's Claude API that had been operating as a paid SaaS product, and the decision to open-source the full application stack — including the backend API infrastructure, subscription management, and multi-model routing — arrives as a deliberate transition from a venture-scale product ambition to a community-maintained reference implementation. The 879-point HN score on an open-sourcing announcement is the practitioner community's most enthusiastic single-day endorsement of an indie AI app decision in 2026, and the 227 comments document the specific reasons: Chatto's architecture represents one of the most complete implementations of production AI chat infrastructure built by a solo developer, including features that commercial chat interfaces often omit — conversation branching, prompt library management, local storage export, and model-switching within a conversation thread. The structural insight is about the economics of indie AI apps in 2026: Chatto's open-sourcing arrives at the moment when Claude Sonnet 5 at $2/M tokens makes the inference cost of operating a multi-user chat SaaS commercially marginal, and the open-source transition converts a marginally-profitable SaaS into a highly-valued community resource without requiring the developer to maintain operational infrastructure. The compound signal with today's GitHub trending data: addyosmani/agent-skills at +1,297 stars/day (https://github.com/addyosmani/agent-skills) describes the practitioner community simultaneously building structured agent skill libraries — the complement to Chatto's conversational chat infrastructure, as the boundary between chat interfaces and agentic tools collapses under Sonnet 5's tool-use capability improvements. (879 HN pts) Source: https://www.hmans.dev/blog/chatto-is-open-source",
-      "tags": [
-        "github-trending",
-        "agents",
-        "open-source"
-      ],
-      "source": "HN 879pts",
-      "url": "https://www.hmans.dev/blog/chatto-is-open-source"
-    },
-    {
-      "text": "GPT-Live earns 664 HN pts (https://openai.com/index/introducing-gpt-live/) and 431 comments — the day's third-highest-scoring story and the 2026 cycle's most significant step toward real-time multimodal AI interfaces: OpenAI's GPT-Live is a persistent, low-latency audio and video conversation interface built on GPT-5.6 that reduces round-trip latency to under 300ms for audio responses and enables continuous video context awareness — the model sees what the camera sees in real time rather than processing discrete frames — a design that enables interaction patterns that discrete request-response interfaces structurally cannot support, including coaching during live tasks, real-time debugging of physical hardware, and conversational guidance through procedures where the user's hands are occupied. The 431 comments against 664 points (0.65:1 ratio) is the skeptical-excitement pattern for capability demonstrations that practitioners believe but want to stress-test: the HN thread documents immediate attempts to understand the actual latency characteristics under network conditions outside optimal datacenter proximity, the cost model for continuous video processing at scale, and whether the persistent-session architecture creates the cross-session context contamination risks that Claude Code's session isolation discussion raised earlier in the week. The structural signal is about the competitive landscape: GPT-Live arrives four days after the HN community processed Grok 4.5's launch (550 pts, same day), and the two announcements together describe the frontier AI lab race converging on the same capability frontier — persistent, low-latency, multimodal real-time interfaces — simultaneously from multiple directions. The compound with the GitHub trending data: ruvnet/RuView at +799 stars/day (https://github.com/ruvnet/RuView) is a Rust-based system that transforms WiFi signals into spatial intelligence and vital sign monitoring, a physical-world sensing layer that GPT-Live's continuous video context model could compose with for applications where camera-based context is insufficient — the same 'persistent real-time awareness' thesis expressed through different sensing modalities. (664 HN pts) Source: https://openai.com/index/introducing-gpt-live/",
-      "tags": [
-        "github-trending",
+        "agent-skills",
         "claude-code",
-        "rust"
+        "consolidation"
       ],
-      "source": "HN 664pts",
-      "url": "https://openai.com/index/introducing-gpt-live/"
-    },
-    {
-      "text": "John Deere owners will get the right to repair equipment under FTC settlement earns 608 HN pts (https://apnews.com/article/john-deere-right-to-repair-agriculture-equipment-cb7514ffedb95c130a976af661f2bc02) and 119 comments — the day's fourth-highest-scoring story and the 2026 cycle's most consequential regulatory right-to-repair victory since the California Right to Repair Act: the FTC's settlement with Deere requires the company to provide agricultural equipment owners with access to the diagnostic software, repair manuals, and genuine replacement parts that Deere had previously restricted to authorized dealer networks, ending a practice that critics documented as forcing farmers to accept dealer repair timelines — sometimes weeks for a machine needed during a harvest window measured in days — rather than performing immediate self-repair or using independent technicians. The 608-point HN score reflects the practitioner community's structural investment in the right-to-repair principle across hardware categories: the same technical values that drive open hardware router adoption (521 HN pts for OpenWrt One on July 7) and identityless messaging (1,607 stars/day for simplex-chat on June 30) animate the right-to-repair endorsement — the conviction that owners of physical objects should be able to inspect, maintain, and modify them without manufacturer permission. The 119 comments document the community's analysis of the settlement's specific scope — which equipment categories are covered, whether the software access requires a dealer intermediary or is direct-to-owner, and whether the settlement's terms create a precedent applicable to other agricultural equipment manufacturers, consumer electronics under similar repair-restriction arrangements, and HVAC and appliance manufacturers whose smart-home integrations have introduced analogous service-lock-in dynamics. The compound with today's obfuscated bash script story (1346 HN pts): on a day when the top story concerns code arriving embedded in consumer objects (t-shirts) in an analysis-resistant, obfuscated form, the fourth-highest story concerns the regulatory requirement that manufacturers provide the software tools for owners to maintain their own objects — the same underlying values conflict about who controls the software that runs on owned hardware, expressed through different modalities. The FTC's authority to mandate repair access through an antitrust settlement rather than waiting for Congressional right-to-repair legislation is the structural signal for the policy community: regulatory agencies have more agile authority to act on repair restrictions than the legislative process, and the Deere settlement establishes the enforcement template. (608 HN pts) Source: https://apnews.com/article/john-deere-right-to-repair-agriculture-equipment-cb7514ffedb95c130a976af661f2bc02",
-      "tags": [
-        "github-trending",
-        "rust"
-      ],
-      "source": "HN 608pts",
-      "url": "https://apnews.com/article/john-deere-right-to-repair-agriculture-equipment-cb7514ffedb95c130a976af661f2bc02"
-    },
-    {
-      "text": "Grok 4.5 earns 550 HN pts (https://x.ai/news/grok-4-5) and 752 comments — the day's fifth-highest-scoring story by points but the highest by comment count, a 1.37:1 comment-to-point ratio that is the day's clearest signal of contested, high-stakes discourse: xAI's Grok 4.5 announcement arrives one day after GPT-Live (which earns 431 comments), creating a 24-hour window where two major frontier model announcements generate more combined comment activity than any comparable two-day period in the dataset. The specific capability claims driving the comment volume are xAI's assertion that Grok 4.5 achieves state-of-the-art performance on long-horizon reasoning benchmarks and surpasses GPT-5.6 Sol on specific code generation and mathematical problem-solving tasks — claims that the HN community evaluates with the same empirical skepticism applied to every frontier model benchmark, supplemented by the specific credibility question of whether xAI's evaluation methodology is independent from the benchmark construction. The 752 comments document a community that is simultaneously interested in Grok 4.5's actual capabilities, skeptical of xAI's benchmark self-reporting, and structurally concerned about the deployment context: Grok 4.5 is available exclusively through X Premium subscriptions and the xAI API, a distribution channel that ties model access to platform subscription and raises the same data handling and privacy questions the HN community applied to Claude Code's steganographic marking earlier in the week. The compound reading with OpenAI's GPT-Live (664 pts, same day): on a day when two major model announcements reach the top five simultaneously, the community's engagement pattern differentiates clearly — GPT-Live earns 431 comments on a novel capability demonstration (real-time persistent multimodal conversation), while Grok 4.5 earns 752 comments on capability comparison claims that the community disputes, a distinction between 'novel capability' and 'contested benchmark' that is the clearest practitioner differentiation signal available. The Lobsters community's absence from both model announcements — neither Grok 4.5 nor GPT-Live appears in Lobsters' top stories — is the platform culture signal: Lobsters' practitioner base treats model benchmark announcements from closed-weight labs as marketing rather than technical disclosure, while routing its attention to the TypeScript 7.0 compiler announcement (62 pts) and the Odin 1.0 language release (150 pts) where the capability claims are verifiable through the open-source implementation. (550 HN pts) Source: https://x.ai/news/grok-4-5",
-      "tags": [
-        "claude-code",
-        "research",
-        "open-source"
-      ],
-      "source": "HN 550pts",
-      "url": "https://x.ai/news/grok-4-5"
-    },
-    {
-      "text": "Rewriting Bun in Rust earns 446 HN pts (https://bun.com/blog/bun-in-rust) and 230 comments alongside 40 points on Lobsters — the day's most structurally significant language ecosystem signal and the 2026 cycle's clearest evidence that Zig's position as the preferred systems programming language for high-performance JavaScript tooling is under competitive pressure from Rust's expanding ecosystem: Bun's blog post announces that the team is migrating substantial components of the Bun runtime from Zig — the language in which Bun was originally built, and whose performance and C-interop properties were cited as core to Bun's speed claims — to Rust, citing Rust's package ecosystem (Cargo and crates.io), mature async runtime infrastructure (Tokio), and toolchain stability as production-engineering advantages that outweigh Zig's raw performance characteristics for the components being migrated. The 230 HN comments against 446 points (0.52:1 ratio) and 40 simultaneous Lobsters points — a cross-platform endorsement that indicates both the general developer and the systems programming communities are invested in this decision — generate the expected debate about Zig's maturity trajectory: Zig 0.14 is stable, Odin 1.0 releases on the same day (150 Lobsters pts), and both represent systems languages positioned as simpler, more direct alternatives to Rust's borrow checker complexity, but Bun's migration decision implies that Rust's ecosystem advantages compound past a threshold that raw language design preferences cannot overcome in production engineering contexts. The structural read is about language adoption dynamics in a toolchain-standardizing AI coding environment: Claude Code, Cursor, and their equivalents are now writing substantial portions of production systems code, and AI coding assistants have materially better Rust support than Zig support in both training data density and ecosystem tooling — a compound where Rust's existing ecosystem dominance is amplified by AI coding tooling's training data bias, creating a self-reinforcing dynamic that tools teams must evaluate alongside raw performance benchmarks. The compound with Lobsters' TypeScript 7.0 announcement (62 pts, same day): TypeScript 7.0 ships a native Go-based compiler that delivers 10x faster build times by abandoning JavaScript self-compilation, and Bun is simultaneously migrating components from Zig to Rust — the day's dual signal that the systems-language-for-developer-tooling question is actively unsettled even as AI coding tooling compounds existing ecosystem advantages. (446 HN pts) Source: https://bun.com/blog/bun-in-rust",
-      "tags": [
-        "claude-code",
-        "research",
-        "rust"
-      ],
-      "source": "HN 446pts",
-      "url": "https://bun.com/blog/bun-in-rust"
-    },
-    {
-      "text": "iOfficeAI/OfficeCLI surges to +1,717 stars today (12,367 total, C#) as GitHub Trending's fastest-gaining repository (https://github.com/iOfficeAI/OfficeCLI) alongside addyosmani/agent-skills at +1,297 stars/day (74,702 total, https://github.com/addyosmani/agent-skills), obra/superpowers at +1,116 stars/day (250,116 total, https://github.com/obra/superpowers), asgeirtj/system_prompts_leaks at +1,218 stars/day (54,459 total, https://github.com/asgeirtj/system_prompts_leaks), and alibaba/zvec at +395 stars/day (14,520 total, https://github.com/alibaba/zvec) — the day's five-part GitHub trending signal and the 2026 pattern's most direct articulation of office automation for AI agents, curated coding skills, agentic methodology, system prompt transparency, and in-process vector storage as five simultaneous categories capturing practitioner investment on a day defined by supply-chain bash script obfuscation and major model launches. iOfficeAI/OfficeCLI at github.com/iOfficeAI/OfficeCLI is the agentic office automation layer: a C# library enabling AI agents to read, edit, and automate Word, Excel, and PowerPoint files without requiring Office installation, the first trending GitHub repository that explicitly positions Office document manipulation as an agent capability rather than a human-facing workflow — the +1,717 velocity reflecting demand from enterprise automation teams building agentic document processing pipelines that operate on the Office format corpus that corporate data lakes contain. addyosmani/agent-skills at github.com/addyosmani/agent-skills is the production engineering skills curation layer: Addy Osmani's curated collection of production-grade skills for AI coding agents, carrying the institutional weight of a major Google web platform engineer's endorsement, arriving as the day's second-fastest trending repository in a week when the Claude Code skills interface is actively standardizing across the practitioner ecosystem. obra/superpowers at github.com/obra/superpowers is the agentic development methodology layer: Jesse Vincent's framework pairing agentic automation skills with a documented software development practice, with 250,116 total stars indicating a community reference that predates the current AI coding wave and now functions as its methodological anchor. asgeirtj/system_prompts_leaks at github.com/asgeirtj/system_prompts_leaks maintains multi-week trending momentum as the practitioner transparency audit repository — gaining +1,218 stars on the same day that obfuscated Akamai bash scripts earn the day's top HN story, the compound signal that the practitioner community's appetite for readable, auditable code artifacts is acute. alibaba/zvec at github.com/alibaba/zvec is the infrastructure layer: a lightweight in-process vector database from Alibaba designed for embedding storage without the operational overhead of Qdrant, Chroma, or Weaviate deployments, the infrastructure signal that production AI applications are standardizing on embedded vector storage for latency-sensitive lookup paths. The compound read: agent office automation, engineering skills curation, development methodology, transparency auditing, and vector infrastructure trending simultaneously describe a practitioner community that is simultaneously extending AI agents into enterprise document workflows, standardizing the skills they use, and demanding the ability to audit what those agents are doing. (+1,717 stars/day, GitHub trending) Source: https://github.com/iOfficeAI/OfficeCLI",
-      "tags": [
-        "github-trending",
-        "claude-code",
-        "agents"
-      ],
-      "source": "GitHub +1,297/day",
-      "url": "https://github.com/iOfficeAI/OfficeCLI"
-    }
-  ],
-  "trending": [
-    {
-      "name": "OfficeCLI",
-      "fullName": "iOfficeAI/OfficeCLI",
-      "stars": "12.4K",
-      "language": "C#",
-      "delta": "+1,717/d",
-      "url": "https://github.com/iOfficeAI/OfficeCLI"
-    },
-    {
-      "name": "agent-skills",
-      "fullName": "addyosmani/agent-skills",
-      "stars": "74.7K",
-      "language": "JavaScript",
-      "delta": "+1,297/d",
+      "source": "GitHub Trending",
       "url": "https://github.com/addyosmani/agent-skills"
     },
     {
-      "name": "system_prompts_leaks",
-      "fullName": "asgeirtj/system_prompts_leaks",
-      "stars": "54.5K",
-      "language": "JavaScript",
-      "delta": "+1,218/d",
-      "url": "https://github.com/asgeirtj/system_prompts_leaks"
+      "text": "Grok 4.5 launched publicly at $2/M input and $6/M output tokens, undercutting Opus 4.7 ($5/$25) and OpenAI Sol ($5/$30) by 2.5-5x. Musk claims near-Opus capability, but an independent same-week build-off (TryAI) found Opus 4.8 and Fable 5 were the only two models to render a correct 3D cube on first try, while Grok 4.5 needed a retry.",
+      "tags": [
+        "grok",
+        "pricing",
+        "frontier-models"
+      ],
+      "source": "TechCrunch AI / TryAI",
+      "url": "https://techcrunch.com/2026/07/08/spacexai-releases-grok-4-5-which-elon-describes-as-an-opus-class-model/"
     },
     {
-      "name": "superpowers",
-      "fullName": "obra/superpowers",
-      "stars": "250K",
-      "language": "Shell",
-      "delta": "+1,116/d",
-      "url": "https://github.com/obra/superpowers"
+      "text": "GLM-5.2 (753B MoE, REAP-pruned to 469B, NVFP4-quantized) scores 81.0 on Terminal-Bench 2.1, up from GLM-5.1's 63.5 — a 17.5-point jump in one version, now within 3.6 points of GPT-5.5's 84.0. Every documented deployment requires 3-4 networked DGX Spark nodes (~$9-16k), not a single consumer machine.",
+      "tags": [
+        "glm-5.2",
+        "local-inference",
+        "benchmarks"
+      ],
+      "source": "NVIDIA Developer Forums / BenchLM",
+      "url": "https://forums.developer.nvidia.com/t/fitting-a-high-quality-reap-less-glm-5-2-onto-4x-dgx-spark/374832"
     },
     {
-      "name": "RuView",
-      "fullName": "ruvnet/RuView",
-      "stars": "79.3K",
-      "language": "Rust",
-      "delta": "+799/d",
-      "url": "https://github.com/ruvnet/RuView"
+      "text": "Fox Corp is acquiring Roku for $22B (announced June 15, closing expected H1 2027) — bundling Fox's linear/news/sports content and Tubi with Roku's CTV platform, Roku Channel, and 100M+-household first-party data. Content company buying the distribution gateway, inverted from the 2015-2020 telco-buys-content pattern.",
+      "tags": [
+        "ott",
+        "streaming",
+        "consolidation"
+      ],
+      "source": "CNBC / Fox Corporation",
+      "url": "https://www.foxcorporation.com/news/corp-press-releases/2026/fox-corporation-to-acquire-roku-inc/"
+    },
+    {
+      "text": "A new benchmark (Institutional Red-Teaming, IABench-CA, 33,924 games) shows deployment rules — not model choice — causally shift multi-agent safety outcomes by 22-58 percentage points. Simply naming the affected party in a consequence-allocation rule raised targeted elimination of less-resourced agents from 22% to 81%.",
+      "tags": [
+        "agent-safety",
+        "red-teaming",
+        "multi-agent"
+      ],
+      "source": "ArXiv",
+      "url": "https://arxiv.org/abs/2607.07695"
+    },
+    {
+      "text": "OpenAI released new voice models supporting simultaneous speak-and-listen live conversation, closing the turn-taking latency gap that has been the weak point of AI voice agents.",
+      "tags": [
+        "voice",
+        "openai",
+        "real-time"
+      ],
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com"
+    },
+    {
+      "text": "Google Play's top-30 chart is materially unchanged for a third straight day — no privacy-positioned app has entered the top 30. The Play Catalog Access opt-out deadline (third-party US store syndication) is now 13 days away (July 22, 2026).",
+      "tags": [
+        "play-store",
+        "distribution",
+        "aso"
+      ],
+      "source": "Google Play Store scrape",
+      "url": "https://support.google.com/googleplay/android-developer/answer/15582165"
+    },
+    {
+      "text": "iOfficeAI/OfficeCLI (GitHub #7, +1,717/day) packages the Office suite (docs/sheets/slides) as a CLI purpose-built for AI-agent read/write access — the CLI-as-agent-surface pattern extending from creative media into office documents.",
+      "tags": [
+        "cli",
+        "agents",
+        "office"
+      ],
+      "source": "GitHub Trending",
+      "url": "https://github.com/iOfficeAI/OfficeCLI"
     }
   ],
+  "trending": [],
   "numbers": [
     {
-      "label": "Top HN Story",
-      "value": "1346",
-      "unit": "pts"
+      "label": "Stories",
+      "value": "0",
+      "unit": "items"
     },
     {
-      "label": "Fastest Repo",
-      "value": "1,717",
-      "unit": "stars/day"
+      "label": "Repos",
+      "value": "0",
+      "unit": "tracked"
     },
     {
       "label": "Sources Scraped",
-      "value": "4",
+      "value": "1",
       "unit": "sites"
     },
     {
       "label": "Insights Today",
-      "value": "7",
+      "value": "8",
       "unit": "stories"
     }
   ],
@@ -150,23 +120,23 @@
     },
     "headlines": [
       {
-        "text": "Decoding the obfuscated bash script on a Uniqlo t-shirt earns 1346 HN pts and 212 comments",
-        "metric": "608 pts",
-        "source": "HN"
+        "text": "addyosmani/agent-skills and obra/superpowers are two independently-authored agent-skill frameworks that converged on nearly identical lifecycle-phase content and the same distribution channel",
+        "metric": "—",
+        "source": "web"
       },
       {
-        "text": "Chatto is now open source earns 879 HN pts and 227 comments",
-        "metric": "879 pts",
-        "source": "HN"
+        "text": "Grok 4.5 launched publicly at $2/M input and $6/M output tokens, undercutting Opus 4.7 and OpenAI Sol by 2.5-5x. Musk claims near-Opus capability, but an independent same-week build-off found Opus 4.8 and Fable 5 were the only two models to render a correct 3D cube on first try, while Grok 4.5 needed a retry.",
+        "metric": "—",
+        "source": "web"
       },
       {
-        "text": "GPT-Live earns 664 HN pts and 431 comments",
-        "metric": "664 pts",
-        "source": "HN"
+        "text": "GLM-5.2 scores 81.0 on Terminal-Bench 2.1, up from GLM-5.1's 63.5",
+        "metric": "—",
+        "source": "web"
       }
     ],
     "takeaway": {
-      "text": "Today's brief covers the most interesting signals across the tech landscape."
+      "text": "Two independent agent-skill frameworks converged on the same lifecycle content and distribution channel without any acquisition, Grok 4.5 undercuts Opus on price but not yet on independently-verified capability, and Fox's $22B Roku buy previews content companies acquiring the CTV distribution gateway instead of the other way around."
     }
   }
 }
