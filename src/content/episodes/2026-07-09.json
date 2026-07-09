@@ -3,108 +3,141 @@
   "episodeNumber": 109,
   "locale": "en-US",
   "title": "Intelligence Brief",
-  "subtitle": "addyosmani/agent-skills and obra/superpowers are t, Grok 4.5 launched publicly at $2/M input and $6/M , GLM-5.2 scores 81.0 on Terminal-Bench 2.1, up from",
+  "subtitle": "John Deere owners will get the right to repair equ, Spider venom kills varroa mites without harming ho, Chatto is now open source",
   "heroStat": {
-    "value": "753B",
-    "label": "moe"
+    "value": "1346",
+    "label": "points on \"Decoding the obfuscated bash script on a Uniqlo t-shirt\""
   },
   "insights": [
     {
-      "text": "addyosmani/agent-skills (GitHub #1, 74,606 stars) and obra/superpowers (#9, 250,072 stars) are two independently-authored agent-skill frameworks that converged on nearly identical lifecycle-phase content (define/plan/build/test/review/ship) and the same distribution channel — Anthropic's official Claude plugin marketplace — without any acquisition between them.",
+      "text": "John Deere owners will get the right to repair equipment under FTC settlement (608 pts, 119 comments)",
       "tags": [
-        "agent-skills",
-        "claude-code",
-        "consolidation"
+        "hacker-news"
       ],
-      "source": "GitHub Trending",
+      "source": "HN 608pts",
+      "url": "https://apnews.com/article/john-deere-right-to-repair-agriculture-equipment-cb7514ffedb95c130a976af661f2bc02"
+    },
+    {
+      "text": "Spider venom kills varroa mites without harming honeybees (38 pts, 9 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 38pts",
+      "url": "https://connectsci.au/news/news-parent/9703/Spider-venom-kills-varroa-mites-without-harming"
+    },
+    {
+      "text": "Chatto is now open source (879 pts, 227 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 879pts",
+      "url": "https://www.hmans.dev/blog/chatto-is-open-source"
+    },
+    {
+      "text": "Cargo-nextest: 3x faster than cargo test, per-test isolation, first-class CI (41 pts, 8 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 41pts",
+      "url": "https://nexte.st/"
+    },
+    {
+      "text": "Rewriting Bun in Rust (40 pts on Lobsters)",
+      "tags": [
+        "lobsters",
+        "rust",
+        "vibecoding"
+      ],
+      "source": "Lobsters 40pts",
+      "url": "https://bun.com/blog/bun-in-rust"
+    },
+    {
+      "text": "Announcing TypeScript 7.0 (62 pts on Lobsters)",
+      "tags": [
+        "lobsters",
+        "javascript",
+        "release"
+      ],
+      "source": "Lobsters 62pts",
+      "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/"
+    },
+    {
+      "text": "MCP hits 97M monthly SDK downloads with 1,000+ community servers (847 reactions on Dev.to)",
+      "tags": [
+        "devto",
+        "mcp",
+        "ai"
+      ],
+      "source": "Dev.to 847❤",
+      "url": "https://claude-codex.fr/en/future/trends-2026/"
+    },
+    {
+      "text": "Claude Fable 5 leads WebDev Arena at 1,653 Elo — 92 points ahead of second (623 reactions on Dev.to)",
+      "tags": [
+        "devto",
+        "ai",
+        "claude"
+      ],
+      "source": "Dev.to 623❤",
+      "url": "https://blog.logrocket.com/ai-dev-tool-power-rankings/"
+    }
+  ],
+  "trending": [
+    {
+      "name": "OfficeCLI",
+      "fullName": "iOfficeAI/OfficeCLI",
+      "stars": "12.4K",
+      "language": "C#",
+      "delta": "+1,717/d",
+      "url": "https://github.com/iOfficeAI/OfficeCLI"
+    },
+    {
+      "name": "agent-skills",
+      "fullName": "addyosmani/agent-skills",
+      "stars": "74.7K",
+      "language": "JavaScript",
+      "delta": "+1,297/d",
       "url": "https://github.com/addyosmani/agent-skills"
     },
     {
-      "text": "Grok 4.5 launched publicly at $2/M input and $6/M output tokens, undercutting Opus 4.7 ($5/$25) and OpenAI Sol ($5/$30) by 2.5-5x. Musk claims near-Opus capability, but an independent same-week build-off (TryAI) found Opus 4.8 and Fable 5 were the only two models to render a correct 3D cube on first try, while Grok 4.5 needed a retry.",
-      "tags": [
-        "grok",
-        "pricing",
-        "frontier-models"
-      ],
-      "source": "TechCrunch AI / TryAI",
-      "url": "https://techcrunch.com/2026/07/08/spacexai-releases-grok-4-5-which-elon-describes-as-an-opus-class-model/"
+      "name": "system_prompts_leaks",
+      "fullName": "asgeirtj/system_prompts_leaks",
+      "stars": "54.5K",
+      "language": "JavaScript",
+      "delta": "+1,218/d",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks"
     },
     {
-      "text": "GLM-5.2 (753B MoE, REAP-pruned to 469B, NVFP4-quantized) scores 81.0 on Terminal-Bench 2.1, up from GLM-5.1's 63.5 — a 17.5-point jump in one version, now within 3.6 points of GPT-5.5's 84.0. Every documented deployment requires 3-4 networked DGX Spark nodes (~$9-16k), not a single consumer machine.",
-      "tags": [
-        "glm-5.2",
-        "local-inference",
-        "benchmarks"
-      ],
-      "source": "NVIDIA Developer Forums / BenchLM",
-      "url": "https://forums.developer.nvidia.com/t/fitting-a-high-quality-reap-less-glm-5-2-onto-4x-dgx-spark/374832"
+      "name": "superpowers",
+      "fullName": "obra/superpowers",
+      "stars": "250K",
+      "language": "Shell",
+      "delta": "+1,116/d",
+      "url": "https://github.com/obra/superpowers"
     },
     {
-      "text": "Fox Corp is acquiring Roku for $22B (announced June 15, closing expected H1 2027) — bundling Fox's linear/news/sports content and Tubi with Roku's CTV platform, Roku Channel, and 100M+-household first-party data. Content company buying the distribution gateway, inverted from the 2015-2020 telco-buys-content pattern.",
-      "tags": [
-        "ott",
-        "streaming",
-        "consolidation"
-      ],
-      "source": "CNBC / Fox Corporation",
-      "url": "https://www.foxcorporation.com/news/corp-press-releases/2026/fox-corporation-to-acquire-roku-inc/"
-    },
-    {
-      "text": "A new benchmark (Institutional Red-Teaming, IABench-CA, 33,924 games) shows deployment rules — not model choice — causally shift multi-agent safety outcomes by 22-58 percentage points. Simply naming the affected party in a consequence-allocation rule raised targeted elimination of less-resourced agents from 22% to 81%.",
-      "tags": [
-        "agent-safety",
-        "red-teaming",
-        "multi-agent"
-      ],
-      "source": "ArXiv",
-      "url": "https://arxiv.org/abs/2607.07695"
-    },
-    {
-      "text": "OpenAI released new voice models supporting simultaneous speak-and-listen live conversation, closing the turn-taking latency gap that has been the weak point of AI voice agents.",
-      "tags": [
-        "voice",
-        "openai",
-        "real-time"
-      ],
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com"
-    },
-    {
-      "text": "Google Play's top-30 chart is materially unchanged for a third straight day — no privacy-positioned app has entered the top 30. The Play Catalog Access opt-out deadline (third-party US store syndication) is now 13 days away (July 22, 2026).",
-      "tags": [
-        "play-store",
-        "distribution",
-        "aso"
-      ],
-      "source": "Google Play Store scrape",
-      "url": "https://support.google.com/googleplay/android-developer/answer/15582165"
-    },
-    {
-      "text": "iOfficeAI/OfficeCLI (GitHub #7, +1,717/day) packages the Office suite (docs/sheets/slides) as a CLI purpose-built for AI-agent read/write access — the CLI-as-agent-surface pattern extending from creative media into office documents.",
-      "tags": [
-        "cli",
-        "agents",
-        "office"
-      ],
-      "source": "GitHub Trending",
-      "url": "https://github.com/iOfficeAI/OfficeCLI"
+      "name": "RuView",
+      "fullName": "ruvnet/RuView",
+      "stars": "79.3K",
+      "language": "Rust",
+      "delta": "+799/d",
+      "url": "https://github.com/ruvnet/RuView"
     }
   ],
-  "trending": [],
   "numbers": [
     {
-      "label": "Stories",
-      "value": "0",
-      "unit": "items"
+      "label": "Top HN Story",
+      "value": "1346",
+      "unit": "pts"
     },
     {
-      "label": "Repos",
-      "value": "0",
-      "unit": "tracked"
+      "label": "Fastest Repo",
+      "value": "1,717",
+      "unit": "stars/day"
     },
     {
       "label": "Sources Scraped",
-      "value": "1",
+      "value": "4",
       "unit": "sites"
     },
     {
@@ -120,23 +153,23 @@
     },
     "headlines": [
       {
-        "text": "addyosmani/agent-skills and obra/superpowers are two independently-authored agent-skill frameworks that converged on nearly identical lifecycle-phase content and the same distribution channel",
+        "text": "John Deere owners will get the right to repair equipment under FTC settlement",
         "metric": "—",
         "source": "web"
       },
       {
-        "text": "Grok 4.5 launched publicly at $2/M input and $6/M output tokens, undercutting Opus 4.7 and OpenAI Sol by 2.5-5x. Musk claims near-Opus capability, but an independent same-week build-off found Opus 4.8 and Fable 5 were the only two models to render a correct 3D cube on first try, while Grok 4.5 needed a retry.",
+        "text": "Spider venom kills varroa mites without harming honeybees",
         "metric": "—",
         "source": "web"
       },
       {
-        "text": "GLM-5.2 scores 81.0 on Terminal-Bench 2.1, up from GLM-5.1's 63.5",
+        "text": "Chatto is now open source",
         "metric": "—",
         "source": "web"
       }
     ],
     "takeaway": {
-      "text": "Two independent agent-skill frameworks converged on the same lifecycle content and distribution channel without any acquisition, Grok 4.5 undercuts Opus on price but not yet on independently-verified capability, and Fox's $22B Roku buy previews content companies acquiring the CTV distribution gateway instead of the other way around."
+      "text": "Today's brief covers the most interesting signals across the tech landscape."
     }
   }
 }
