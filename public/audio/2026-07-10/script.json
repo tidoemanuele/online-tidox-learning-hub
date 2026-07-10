@@ -1,0 +1,146 @@
+[
+  [
+    "A",
+    "Okay, let's start with the one that should actually worry you. Chat Control 1.0 just passed the EU Parliament — 1190 points on Hacker News, the highest score of the year."
+  ],
+  [
+    "B",
+    "Wait, I thought that got voted down? I remember the numbers being close."
+  ],
+  [
+    "A",
+    "It was close — 276 for, 314 against. But rejecting it needed an absolute majority, 361 votes. They didn't hit it, so the default outcome wins. It passes by procedural failure, not by consensus."
+  ],
+  [
+    "B",
+    "That's... a weird way for surveillance law to become law. What does it actually let platforms do?"
+  ],
+  [
+    "A",
+    "Scan private messages — Gmail, iMessage, Discord DMs — for known CSAM, without a warrant, without prior suspicion. It's framed as voluntary."
+  ],
+  [
+    "B",
+    "Voluntary how? If Meta doesn't scan, do they get punished for it?"
+  ],
+  [
+    "A",
+    "That's exactly the catch. Non-compliant platforms carry regulatory exposure. So 'voluntary' is doing a lot of work in that sentence."
+  ],
+  [
+    "B",
+    "OK so if you need access to plaintext to scan it, doesn't that just... break end-to-end encryption by definition?"
+  ],
+  [
+    "A",
+    "That's the read cryptographers are giving it. You can't inspect content you've already encrypted. So the practical path is scanning before encryption — which is a backdoor with better branding."
+  ],
+  [
+    "B",
+    "And this is extended to 2028, not repealed. That's a long runway for that infrastructure to get built out and normalized."
+  ],
+  [
+    "A",
+    "Right. Which makes the timing of the second story land differently. Same week, GPT-5.6 launches — 1177 points, the most commented story of the day."
+  ],
+  [
+    "B",
+    "833 comments, that's huge. What's actually in the release?"
+  ],
+  [
+    "A",
+    "Three tiers — Sol, Terra, Luna. Same shape as everyone else now: Anthropic's Fable-Sonnet-Haiku, Google's Ultra-Pro-Flash. The frontier lab structure has fully converged."
+  ],
+  [
+    "B",
+    "Wait, that's actually the interesting part. When every lab ships the same three-tier shape, the competition stops being about structure and becomes purely about who's best in each lane."
+  ],
+  [
+    "A",
+    "Exactly. And Sol's lane is specific — it just set state of the art on Terminal-Bench 2.1. Command-line planning, tool coordination, and strong cybersecurity task performance, including exploitation."
+  ],
+  [
+    "B",
+    "Hold on. A model that's really good at both agentic coding AND vulnerability exploitation, arriving the same week attackers — or scanners — get more reach into private messages? That's not a coincidence I love."
+  ],
+  [
+    "A",
+    "It's the compounding risk nobody voted on directly. Legislators expanded scanning access. Labs shipped a model that's excellent at automated exploitation. Nobody in either room was thinking about the other."
+  ],
+  [
+    "B",
+    "And it's not just the closed labs. Tencent dropped Hy3 the day before — 295 billion parameters, Apache 2.0, zero access controls."
+  ],
+  [
+    "A",
+    "Fully open weights, competitive with GLM-5.2 and DeepSeek, actually beating GPT-5.5 on scientific reasoning. No export friction, no governance layer, just download and run."
+  ],
+  [
+    "B",
+    "So the capability curve is going up everywhere at once — closed frontier, open frontier — right as the legal curve for surveillance access is also going up. Those two lines aren't supposed to be correlated, but today they both moved."
+  ],
+  [
+    "A",
+    "That's the thesis forming. Power is consolidating at the infrastructure layer — legislative access on one side, model capability on the other — faster than anyone's building the norms to handle it."
+  ],
+  [
+    "B",
+    "Okay, that's the heavy stuff. But then there's pgrust, and that one actually makes me hopeful."
+  ],
+  [
+    "A",
+    "Right — a solo developer rewrote Postgres in Rust, AI-assisted, and it now passes all 46,000-plus official regression tests. Disk-compatible with real Postgres 18.3 data."
+  ],
+  [
+    "B",
+    "One person. Not a team, not a company. That used to be a multi-year institutional project."
+  ],
+  [
+    "A",
+    "It's not production-ready — the author says so directly, no perf tuning yet. But passing the full regression suite is a real bar. The interesting question in the comments isn't 'is this done,' it's 'did AI tooling just make this kind of project tractable for individuals.'"
+  ],
+  [
+    "B",
+    "So if a single builder can now attempt a database rewrite, what's actually still out of reach for one person with the right AI setup? That list just got a lot shorter."
+  ],
+  [
+    "A",
+    "And then, almost as commentary on all of this, the third-highest story of the day is a word puzzle game. 18 Words. No ads, no tracking, no backend."
+  ],
+  [
+    "B",
+    "917 points for something that deliberately does less. On a day full of 295-billion-parameter models and continent-scale surveillance law."
+  ],
+  [
+    "A",
+    "I think that's the practitioner community voting with attention. Chat Control mandates access to your messages. Sol sets records on exploitation benchmarks. And the thing people actually praised was software that asks for nothing and takes nothing."
+  ],
+  [
+    "B",
+    "That's almost the whole day in one contrast — the tools of scale versus the discipline of restraint."
+  ],
+  [
+    "A",
+    "One more data point ties it together: the top trending repo on GitHub today is an AI tool that helps you get hired — job matching, tailored CVs, interview prep, built on Claude Code."
+  ],
+  [
+    "B",
+    "The same AI wave that's cited in layoff announcements is the tool people are using to survive the layoffs. That's a strange loop."
+  ],
+  [
+    "A",
+    "It is. But it's also the honest state of things right now: the infrastructure above you — laws, frontier models — is moving fast and mostly without your input. The tools beside you are moving just as fast, and those you can actually pick up."
+  ],
+  [
+    "B",
+    "So don't wait for the policy fight to resolve or the next model drop to settle things. Pgrust says one person with AI tooling can now take on institutional-scale problems. That's the lane that's open today."
+  ],
+  [
+    "A",
+    "The scanning laws will get argued in courts for years. The models will leapfrog each other every few weeks. The only variable you control is what you build with what's in front of you right now."
+  ],
+  [
+    "B",
+    "So go build the thing. Not the perfect thing — the one-person, does-one-thing-well thing. Today's data says that's not a small bet anymore."
+  ]
+]

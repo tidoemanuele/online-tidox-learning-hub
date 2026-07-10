@@ -1,0 +1,168 @@
+{
+  "date": "2026-07-10",
+  "episodeNumber": 110,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "EU Parliament greenlights Chat Control 1.0 earns 1, GPT-5.6 earns 1177 HN pts and 833 comments, Show HN: 18 Words earns 917 HN pts and 299 comment",
+  "heroStat": {
+    "value": "295B",
+    "label": "open"
+  },
+  "insights": [
+    {
+      "text": "EU Parliament greenlights Chat Control 1.0 earns 1190 HN pts (https://www.patrick-breyer.de/en/eu-parliament-greenlights-chat-control-1-0-breyer-our-children-lose-out/) and 568 comments — the day's highest-scoring story and the 2026 cycle's most consequential European digital-rights defeat since the GDPR: the EU Parliament allowed suspicionless mass scanning of private communications to pass through a procedural mechanism that bypassed the required absolute majority — 276 MEPs voted in favour, 314 against, but because the motion to reject did not reach the 361-vote threshold, Chat Control 1.0 is now extended until 2028. The structural significance is architectural: Chat Control 1.0 permits online platforms — Instagram DMs, Discord, Snapchat, Skype, Gmail, iCloud — to voluntarily scan private messages for known child sexual abuse material without a warrant or prior suspicion, a permission that the cryptography community treats as structurally incompatible with end-to-end encryption because it requires access to plaintext before encryption occurs. The 568 comments against 1190 points (0.48:1 ratio) is the alarmed-technical-response pattern: the HN thread documents practitioners immediately analyzing the compliance implications for E2EE services, whether Apple's CSAM scanning infrastructure from 2021 becomes the de facto implementation template, and how the 'voluntary' framing masks a structural coercion where non-compliant platforms face regulatory exposure. The timing is the day's most disturbing structural compound: Chat Control 1.0 passes on the same day that Tencent releases Hy3 (434 HN pts) — a 295B open-weight MoE model that includes no access controls or export restrictions — describing a world where surveillance infrastructure advances at the legislative layer at the same moment that capable open-weight models that can perform large-scale content analysis become freely available without any governance structure. The previous week's HN data establishes the timeline: the community scored the Chat Control explainer at 543 points on July 8 when it was still a policy debate, and now at 1190 points on July 10 when it is enacted law — the highest single legislative story score in the 2026 dataset, reflecting the community's transition from concerned analysis to direct response. (1190 HN pts) Source: https://www.patrick-breyer.de/en/eu-parliament-greenlights-chat-control-1-0-breyer-our-children-lose-out/",
+      "tags": [],
+      "source": "HN 1190pts",
+      "url": "https://www.patrick-breyer.de/en/eu-parliament-greenlights-chat-control-1-0-breyer-our-children-lose-out/"
+    },
+    {
+      "text": "GPT-5.6 earns 1177 HN pts (https://openai.com/index/gpt-5-6/) and 833 comments — the day's second-highest-scoring story and the highest comment count in today's dataset, a 0.71:1 comment-to-point ratio that describes a community intensely engaging with a major capability release that arrives with immediate competitive stakes: OpenAI's GPT-5.6 launches publicly after a limited preview period, releasing three simultaneous tiers — Sol (flagship reasoning), Terra (balanced multimodal), and Luna (fast and affordable) — in a three-tier architecture that mirrors Anthropic's Fable/Sonnet/Haiku structure and Google's Ultra/Pro/Flash family, confirming that the frontier model tier structure has converged across all major labs. GPT-5.6 Sol sets a new state of the art on Terminal-Bench 2.1, the benchmark measuring command-line workflows requiring planning, iteration, and tool coordination — the specific capability profile that describes AI coding agent deployment — and excels in cybersecurity tasks including vulnerability research and exploitation. The 833 comments — the highest comment count of any story in today's HN dataset — document the community's immediate empirical testing: practitioners sharing early results on benchmark tasks, comparing Sol's long-horizon coding performance against Claude Sonnet 5 and GLM 5.2, and evaluating Terra's multimodal integration for use cases where GPT-5.5's vision capabilities were a bottleneck. The structural context is the week's most consequential model-release compound: GPT-5.6 arrives one day after Tencent's Hy3 release earned 434 HN points for a 295B open-weight MoE model with competitive frontier performance — the simultaneous release of major closed and open-weight models on consecutive days describes the frontier AI race in its most compressed form. The competitive signal is specific: Sol's Terminal-Bench 2.1 leadership and cybersecurity capability positioning directly challenges the task profiles where Claude Code and Anthropic's Mythos 5 model have held practitioner preference, while Luna's cost efficiency competes directly with Haiku 4.5 for high-volume inference use cases. (1177 HN pts) Source: https://openai.com/index/gpt-5-6/",
+      "tags": [
+        "security",
+        "claude-code",
+        "agents"
+      ],
+      "source": "HN 1177pts",
+      "url": "https://openai.com/index/gpt-5-6/"
+    },
+    {
+      "text": "Show HN: 18 Words earns 917 HN pts (https://18words.com/) and 299 comments — the day's third-highest-scoring story and the 2026 cycle's most striking endorsement of minimalist indie game design as a software philosophy: 18 Words is a small browser-based word puzzle game built by a solo developer with a deliberately constrained UI — no ads, no newsletter prompts, no subscription flows, no tracking — that earns the HN community's third-highest score on a day dominated by AI model launches and EU surveillance legislation. The 299 comments against 917 points (0.33:1 ratio) is the wide-endorsement-focused-experience-sharing pattern: practitioners describing specific appreciation for the game's clean execution, the absence of dark patterns, and the contrast with commercial word games that monetize attention rather than deliver satisfaction. The structural read is the day's most counter-intuitive signal: on a day when GPT-5.6 earns 1177 points for frontier model capability and Chat Control earns 1190 points for surveillance legislation, 917 points go to a word puzzle with no backend, no AI integration, and no commercial ambition — a community telling itself something about what software is for when the practitioners who build sophisticated systems choose to spend attention on a game that does exactly one thing without exploiting them. The compound reading is the day's sharpest values articulation: Chat Control mandates that platforms scan private communications; 18 Words collects no data from its users. GPT-5.6 Sol sets records on cybersecurity exploitation benchmarks; 18 Words has no attack surface. The HN community's 917-point endorsement of 18 Words on a day defined by two stories about power and surveillance is the practitioner community's clearest statement that software restraint — doing one thing, doing it cleanly, and leaving the user alone — remains a high-value signal even as the surrounding ecosystem optimizes in every other direction. (917 HN pts) Source: https://18words.com/",
+      "tags": [
+        "security",
+        "research",
+        "ecosystem"
+      ],
+      "source": "HN 917pts",
+      "url": "https://18words.com/"
+    },
+    {
+      "text": "Postgres rewritten in Rust, now passing 100% of the Postgres regression tests earns 547 HN pts (https://github.com/malisper/pgrust) and 474 comments — the day's fourth-highest-scoring story and the 2026 cycle's most technically ambitious solo AI-assisted engineering achievement: pgrust is a complete rewrite of PostgreSQL in Rust built by developer malisper using AI-assisted programming, and the milestone announcement documents that pgrust now passes all 46,000+ of the official Postgres regression queries, is disk-compatible with Postgres 18.3 data directories, and also passes the isolation tests — a test coverage profile that constitutes a functional definition of 'Postgres-compatible' for the purposes of production database validation. The 474 comments against 547 points (0.87:1 ratio) is the highest comment density in today's dataset — the signal the HN community produces for technically impressive achievements that generate substantive disagreement about implications: the comments organize around whether passing regression tests constitutes production readiness (the developer explicitly says it does not, and it is not performance optimized), the specific AI-assisted programming techniques that made a solo Postgres rewrite tractable, and whether the project's existence is evidence that AI coding tools have crossed a qualitative threshold where they enable individual developers to undertake projects that previously required institutional teams. The compound signal with today's GitHub trending data: pgrust earns +1,247 stars/day as the day's fifth-fastest trending repository — placing a database infrastructure rewrite alongside ai-job-search and agent-skills in the community's active evaluation queue, an unusual cross-category day that describes practitioners simultaneously excited about application layer AI tools and foundational infrastructure engineering. The Rust ecosystem compound: Lobsters' dual signal of Rust 1.97.0 (44 pts, dropping legacy symbol mangling and stabilizing Cargo warning controls) and Rewriting Bun in Rust (115 pts) on the same day as pgrust's HN score is the clearest three-data-point evidence of Rust's 2026 consolidation moment — the language appearing simultaneously in a database rewrite, a JavaScript runtime migration, and a toolchain stability release on the same calendar day. (547 HN pts) Source: https://github.com/malisper/pgrust",
+      "tags": [
+        "github-trending",
+        "agents",
+        "rust"
+      ],
+      "source": "HN 547pts",
+      "url": "https://github.com/malisper/pgrust"
+    },
+    {
+      "text": "Tencent Hy3 earns 434 HN pts (https://hy.tencent.com/research/hy3) and 89 comments alongside Show HN: Getting GLM 5.2 running on my slow computer earning 529 HN pts (https://github.com/JustVugg/colibri) and 130 comments — the day's dual Chinese open-weight AI signal and the 2026 cycle's most direct compound evidence that frontier-class open-weight model access has become genuinely consumer-accessible: Tencent's Hy3 is a 295B-parameter Mixture-of-Experts model with only 21B active parameters per token, a 256K context window, Apache 2.0 licensing, and benchmarks comparable to GLM-5.2 and DeepSeek-V4-Pro while surpassing GPT-5.5 in FrontierScience-Olympiad scientific tasks — a capability and licensing profile that the HN community reads as the open-weight frontier for agentic applications, arriving the day after GPT-5.6's public launch. The 529-point Show HN on running GLM 5.2 on a slow computer is the practitioner accessibility complement: JustVugg's colibri repository documents an optimization pipeline for running GLM-5.2's 40B-active-parameter MoE on consumer-grade hardware with limited VRAM, achieving interactive response speeds on hardware that previously required either significant model quantization quality loss or cloud API access — the deployment gap between 'capable open model available' and 'capable open model running on my hardware' being closed by individual practitioners who optimize and document their results on HN. The 130 comments against 529 points (0.25:1 ratio) is the engaged-optimization-sharing pattern: the thread documents specific hardware configurations, quantization techniques (Q4_K_M, Q5_K_S performance profiles), and task-specific performance differences between optimized local GLM-5.2 and Hy3 inference. The structural significance is the compound of the two signals: Hy3 describes the capability frontier of open-weight models, while colibri describes the deployment frontier of making those models accessible on ordinary hardware — on the same day, the community is documenting both ends of the access pipeline. The geopolitical reading remains as it has been since the export control discussion in late June: Tencent's Apache 2.0 Hy3 and Alibaba's open-weight GLM-5.2 are available to international practitioners without any of the regulatory friction that governs Anthropic's and OpenAI's frontier models, making the Chinese open-weight ecosystem the default frontier access layer for practitioners in export-controlled contexts. (529 HN pts) Source: https://github.com/JustVugg/colibri",
+      "tags": [
+        "github-trending",
+        "agents",
+        "research"
+      ],
+      "source": "HN 434pts",
+      "url": "https://hy.tencent.com/research/hy3"
+    },
+    {
+      "text": "MadsLorentzen/ai-job-search surges to +3,728 stars today (18,398 total, TypeScript) as GitHub Trending's #1 repository (https://github.com/MadsLorentzen/ai-job-search) alongside addyosmani/agent-skills at +2,582 stars/day (75,725 total, JavaScript, https://github.com/addyosmani/agent-skills), SmartlyDressedGames/U3-SDK at +1,823 stars/day (C#, https://github.com/SmartlyDressedGames/U3-SDK), iOfficeAI/OfficeCLI at +1,435 stars/day (12,600 total, https://github.com/iOfficeAI/OfficeCLI), and malisper/pgrust at +1,247 stars/day (8,900 total, https://github.com/malisper/pgrust) — the day's five-part GitHub trending signal and the 2026 pattern's most structurally revealing articulation of AI-assisted career navigation, agent engineering skills, game source code transparency, office automation, and infrastructure reimplementation as five simultaneous categories capturing practitioner investment on a day defined by Chat Control legislation and frontier model launches. MadsLorentzen/ai-job-search at github.com/MadsLorentzen/ai-job-search is the 2026 labor market distress signal: a Claude Code-powered framework that evaluates job postings against a candidate's profile, tailors CVs, writes cover letters, and prepares interview answers — returning as the week's #1 GitHub trending repository as the Tidox dataset approaches the fourth month of tracking AI-driven tech layoffs as the category's defining backdrop, and the recursive signal remains as uncomfortable as when it first appeared: the same AI tools cited in layoff announcements are the tools developers are using to navigate those layoffs. addyosmani/agent-skills at github.com/addyosmani/agent-skills is the engineering skills curation layer maintaining its multi-week trending position, with 75,725 total stars reflecting institutional depth rather than launch-day novelty. SmartlyDressedGames/U3-SDK at github.com/SmartlyDressedGames/U3-SDK is the day's most structurally counter-intuitive trending signal: Nelson Sexton's full source code release for Unturned — a free open-world zombie survival game built by a solo developer over more than a decade — earns the day's third-fastest star velocity on the same day that the solo-creator train simulator earns 432 HN points, a dual-signal day for individual creators who built lasting software products alone. iOfficeAI/OfficeCLI is the enterprise agent automation layer continuing its multi-week trending run. malisper/pgrust's +1,247 star velocity is the infrastructure signal: a database infrastructure project trending alongside application-layer AI tools is the day's most unusual cross-category compound, describing a practitioner community simultaneously evaluating foundational systems rewrites and AI application tooling as adjacent priorities. (+3,728 stars/day, GitHub Trending #1) Source: https://github.com/MadsLorentzen/ai-job-search",
+      "tags": [
+        "github-trending",
+        "claude-code",
+        "agents"
+      ],
+      "source": "GitHub +2,582/day",
+      "url": "https://github.com/MadsLorentzen/ai-job-search"
+    },
+    {
+      "text": "Rust 1.97.0 tops Lobsters at 44 pts (https://blog.rust-lang.org/2026/07/09/Rust-1.97.0/) alongside Rewriting Bun in Rust earning 115 pts on Lobsters and Interview with Mitchell Hashimoto about Ghostty and Zig earning 190 HN pts (https://alexalejandre.com/programming/interview-with-mitchell-hashimoto/) with 78 comments and 127 Lobsters pts — the day's three-part systems programming signal and the 2026 cycle's clearest compound evidence that Rust's ecosystem consolidation is now multidimensional: a toolchain stability release, a runtime migration decision, and a practitioner interview about a competing language all trending simultaneously on the day pgrust earns 547 HN points for rewriting Postgres in Rust. Rust 1.97.0's key change is the default to the v0 symbol mangling scheme — retiring the legacy scheme that had caused debugging and profiling tool compatibility issues — alongside stabilized Cargo warning controls that prevent warnings from silently failing builds, new integer primitives (isolate_highest_one, isolate_lowest_one, bit_width), and linker message visibility improvements. The 115-point Lobsters score for Rewriting Bun in Rust documents the systems programming community's continued engagement with Bun's architectural migration away from Zig: the cross-platform endorsement from both HN (446 pts, July 9) and Lobsters (115 pts, July 10 Hottest) is the multi-platform signal that the decision is being evaluated by both the general developer community and the systems engineering practitioners who hold the strongest opinions about language selection. Mitchell Hashimoto's interview — earning 190 HN points and 127 Lobsters points simultaneously, the day's strongest cross-platform co-trending signal — covers Ghostty's Zig architecture and the specific engineering decisions that led Hashimoto to continue investing in Zig while Bun migrates away from it: the tension between two practitioners with deep systems experience reaching opposite conclusions about the same language's production viability is the day's most precise articulation of the Rust-versus-Zig debate, and the community's dual-platform 317-point combined endorsement of Hashimoto's reasoning is the signal that practitioners want to understand the disagreement rather than receive a resolved verdict. The compound with Drew DeVault's 52-point Lobsters interview on an AI-free version of Vim: the Lobsters community surfaces Hashimoto on Zig and DeVault on AI-free tools on the same day, describing a practitioner base actively seeking the perspectives of developers who are making deliberate architectural choices against the dominant momentum — Zig over Rust, AI-free tools over AI-integrated ones. (190 HN pts) Source: https://alexalejandre.com/programming/interview-with-mitchell-hashimoto/",
+      "tags": [
+        "rust",
+        "ecosystem"
+      ],
+      "source": "HN 190pts",
+      "url": "https://blog.rust-lang.org/2026/07/09/Rust-1.97.0/"
+    }
+  ],
+  "trending": [
+    {
+      "name": "ai-job-search",
+      "fullName": "MadsLorentzen/ai-job-search",
+      "stars": "18.4K",
+      "language": "TypeScript",
+      "delta": "+3728/d",
+      "url": "https://github.com/MadsLorentzen/ai-job-search"
+    },
+    {
+      "name": "agent-skills",
+      "fullName": "addyosmani/agent-skills",
+      "stars": "75.7K",
+      "language": "JavaScript",
+      "delta": "+2582/d",
+      "url": "https://github.com/addyosmani/agent-skills"
+    },
+    {
+      "name": "U3-SDK",
+      "fullName": "SmartlyDressedGames/U3-SDK",
+      "stars": "1.8K",
+      "language": "C#",
+      "delta": "+1823/d",
+      "url": "https://github.com/SmartlyDressedGames/U3-SDK"
+    },
+    {
+      "name": "OfficeCLI",
+      "fullName": "iOfficeAI/OfficeCLI",
+      "stars": "12.6K",
+      "language": "C#",
+      "delta": "+1435/d",
+      "url": "https://github.com/iOfficeAI/OfficeCLI"
+    },
+    {
+      "name": "pgrust",
+      "fullName": "malisper/pgrust",
+      "stars": "8.9K",
+      "language": "Rust",
+      "delta": "+1247/d",
+      "url": "https://github.com/malisper/pgrust"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "1190",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "3728",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "4",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "7",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "July 10, 2026"
+    },
+    "headlines": [
+      {
+        "text": "EU Parliament greenlights Chat Control 1.0 earns 1190 HN pts and 568 comments",
+        "metric": "434 pts",
+        "source": "HN"
+      },
+      {
+        "text": "GPT-5.6 earns 1177 HN pts and 833 comments",
+        "metric": "1177 pts",
+        "source": "HN"
+      },
+      {
+        "text": "Show HN: 18 Words earns 917 HN pts and 299 comments",
+        "metric": "917 pts",
+        "source": "HN"
+      }
+    ],
+    "takeaway": {
+      "text": "Today's brief covers the most interesting signals across the tech landscape."
+    }
+  }
+}

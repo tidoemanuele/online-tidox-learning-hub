@@ -1,0 +1,183 @@
+[
+  {
+    "type": "intro",
+    "highlight": "Chat Control 1.0 just passed the EU Parliament",
+    "subtext": "1190 points on Hacker News — the year's highest"
+  },
+  {
+    "type": "intro",
+    "highlight": "Didn't this get voted down?",
+    "subtext": "The numbers were closer than they looked"
+  },
+  {
+    "type": "number",
+    "number": "361",
+    "highlight": "361 votes needed — they fell short",
+    "subtext": "276 for, 314 against; rejection failed",
+    "label": "ABSOLUTE MAJORITY"
+  },
+  {
+    "type": "quote",
+    "highlight": "What does this actually let platforms do?"
+  },
+  {
+    "type": "insight",
+    "highlight": "Scan private messages without a warrant",
+    "subtext": "Gmail, iMessage, Discord DMs — framed as voluntary"
+  },
+  {
+    "type": "quote",
+    "highlight": "Voluntary how? Or just punished for refusing?"
+  },
+  {
+    "type": "insight",
+    "highlight": "'Voluntary' is doing a lot of work",
+    "subtext": "Non-compliant platforms carry regulatory exposure"
+  },
+  {
+    "type": "quote",
+    "highlight": "Doesn't that just break encryption by definition?"
+  },
+  {
+    "type": "insight",
+    "highlight": "A backdoor with better branding",
+    "subtext": "You can't scan what's already encrypted"
+  },
+  {
+    "type": "number",
+    "number": "2028",
+    "highlight": "Extended to 2028, not repealed",
+    "subtext": "A long runway to normalize this infrastructure",
+    "label": "NO SUNSET CLAUSE"
+  },
+  {
+    "type": "number",
+    "number": "1177",
+    "highlight": "GPT-5.6 launches — 1177 points",
+    "subtext": "The most commented story of the day"
+  },
+  {
+    "type": "number",
+    "number": "833",
+    "highlight": "833 comments — that's huge",
+    "subtext": "What's actually in the release?"
+  },
+  {
+    "type": "insight",
+    "highlight": "The frontier lab structure has fully converged",
+    "subtext": "Sol, Terra, Luna — same shape as everyone else"
+  },
+  {
+    "type": "quote",
+    "highlight": "Competition becomes purely about who's best in each lane"
+  },
+  {
+    "type": "insight",
+    "highlight": "Sol sets SOTA on Terminal-Bench 2.1",
+    "subtext": "Strong performance on cybersecurity exploitation tasks",
+    "label": "BENCHMARK"
+  },
+  {
+    "type": "quote",
+    "highlight": "That's not a coincidence I love"
+  },
+  {
+    "type": "insight",
+    "highlight": "The compounding risk nobody voted on directly",
+    "subtext": "Legislators expanded access; labs shipped exploitation skill"
+  },
+  {
+    "type": "number",
+    "number": "295B",
+    "highlight": "295 billion parameters, zero access controls",
+    "subtext": "Tencent's Hy3, released under Apache 2.0",
+    "label": "HY3 · TENCENT"
+  },
+  {
+    "type": "quote",
+    "highlight": "Just download and run — no governance layer"
+  },
+  {
+    "type": "insight",
+    "highlight": "Two curves that aren't supposed to correlate — both moved"
+  },
+  {
+    "type": "insight",
+    "highlight": "Power consolidating faster than norms can follow",
+    "label": "THE THESIS"
+  },
+  {
+    "type": "repo",
+    "highlight": "pgrust",
+    "subtext": "The one that actually makes me hopeful",
+    "label": "REPO"
+  },
+  {
+    "type": "number",
+    "number": "46,000+",
+    "highlight": "Passes 46,000+ official regression tests",
+    "subtext": "Disk-compatible with real Postgres 18.3 data"
+  },
+  {
+    "type": "insight",
+    "highlight": "One person. Not a team, not a company.",
+    "subtext": "Used to be a multi-year institutional project"
+  },
+  {
+    "type": "quote",
+    "highlight": "Did AI tooling make this tractable for individuals?"
+  },
+  {
+    "type": "insight",
+    "highlight": "That list just got a lot shorter"
+  },
+  {
+    "type": "repo",
+    "highlight": "18 Words",
+    "subtext": "No ads, no tracking, no backend",
+    "label": "GAME"
+  },
+  {
+    "type": "number",
+    "number": "917",
+    "highlight": "917 points for deliberately doing less",
+    "subtext": "Amid 295B-parameter models and surveillance law"
+  },
+  {
+    "type": "quote",
+    "highlight": "Software that asks for nothing, takes nothing"
+  },
+  {
+    "type": "insight",
+    "highlight": "Tools of scale vs. the discipline of restraint"
+  },
+  {
+    "type": "repo",
+    "highlight": "Top trending repo: an AI job-hunting tool",
+    "subtext": "Built on Claude Code",
+    "label": "GITHUB TRENDING"
+  },
+  {
+    "type": "quote",
+    "highlight": "The tool people use to survive the layoffs it causes"
+  },
+  {
+    "type": "insight",
+    "highlight": "The tools beside you, you can actually pick up",
+    "subtext": "The infrastructure above you moves without your input"
+  },
+  {
+    "type": "action",
+    "highlight": "Don't wait — that lane is open today",
+    "subtext": "One person with AI tooling can tackle institutional-scale problems"
+  },
+  {
+    "type": "close",
+    "highlight": "The only variable you control: what you build"
+  },
+  {
+    "type": "close",
+    "highlight": "Go build the thing",
+    "subtext": "Not the perfect thing — the one that works"
+  }
+]
