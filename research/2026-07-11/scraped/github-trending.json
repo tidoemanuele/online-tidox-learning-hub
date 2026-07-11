@@ -1,0 +1,47 @@
+[
+  {
+    "name": "skills",
+    "fullName": "mattpocock/skills",
+    "description": "Skills for Real Engineers from .claude directory — production-grade TypeScript and JavaScript skills for AI coding agents, curated by Matt Pocock.",
+    "language": "Shell",
+    "stars_today": "1712 stars today",
+    "total_stars": "164909",
+    "url": "https://github.com/mattpocock/skills"
+  },
+  {
+    "name": "OfficeCLI",
+    "fullName": "iOfficeAI/OfficeCLI",
+    "description": "The first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
+    "language": "C#",
+    "stars_today": "1224 stars today",
+    "total_stars": "14594",
+    "url": "https://github.com/iOfficeAI/OfficeCLI"
+  },
+  {
+    "name": "agent-skills",
+    "fullName": "addyosmani/agent-skills",
+    "description": "Production-grade skills for AI coding agents — a curated, community-maintained library of Claude Code skills for engineering workflows.",
+    "language": "JavaScript",
+    "stars_today": "1116 stars today",
+    "total_stars": "76968",
+    "url": "https://github.com/addyosmani/agent-skills"
+  },
+  {
+    "name": "superpowers",
+    "fullName": "obra/superpowers",
+    "description": "Agentic skills framework and software development methodology pairing agentic automation with a documented practice.",
+    "language": "Shell",
+    "stars_today": "1013 stars today",
+    "total_stars": "251950",
+    "url": "https://github.com/obra/superpowers"
+  },
+  {
+    "name": "DesktopCommanderMCP",
+    "fullName": "wonderwhy-er/DesktopCommanderMCP",
+    "description": "MCP server for Claude with terminal control, file system search and diff/patch editing capabilities — the missing desktop control layer for AI agents.",
+    "language": "TypeScript",
+    "stars_today": "328 stars today",
+    "total_stars": "7454",
+    "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP"
+  }
+]

@@ -1,0 +1,151 @@
+[
+  {
+    "title": "Hannah Montana Linux v26.0",
+    "score": 47,
+    "tags": [
+      "linux",
+      "release"
+    ],
+    "url": "https://gitlab.com/DecaCagle/hannahmontanalinux26",
+    "comments_url": "https://lobste.rs/s/w8svjr/hannah_montana_linux_v26_0"
+  },
+  {
+    "title": "An update on the scraper situation",
+    "score": 18,
+    "tags": [
+      "security",
+      "web"
+    ],
+    "url": "https://lwn.net/SubscriberLink/1080822/990a8a5e2d379085/",
+    "comments_url": "https://lobste.rs/s/kpaxih/update_on_scraper_situation"
+  },
+  {
+    "title": "Postgres rewritten in Rust, now passing 100% of the Postgres regression tests",
+    "score": 18,
+    "tags": [
+      "databases",
+      "vibecoding"
+    ],
+    "url": "https://github.com/malisper/pgrust",
+    "comments_url": "https://lobste.rs/s/le3iri/postgres_rewritten_rust_now_passing_100"
+  },
+  {
+    "title": "Lobsters Interview with mitchellh",
+    "score": 189,
+    "tags": [
+      "interview",
+      "person"
+    ],
+    "url": "https://alexalejandre.com/programming/interview-with-mitchell-hashimoto/",
+    "comments_url": "https://lobste.rs/s/0mam5k/lobsters_interview_with_mitchellh"
+  },
+  {
+    "title": "After 7 years in production, Scarf has reluctantly moved away from Haskell",
+    "score": 17,
+    "tags": [
+      "haskell",
+      "vibecoding"
+    ],
+    "url": "https://avi.press/posts/2026-07-10-after-7-years-in-production-scarf-has-reluctantly-moved-away-from-haskell.html",
+    "comments_url": "https://lobste.rs/s/t4f6jt/after_7_years_production_scarf_has"
+  },
+  {
+    "title": "I tried NetBSD as a desktop, and it felt like stepping into the '90s in a good way",
+    "score": 5,
+    "tags": [
+      "netbsd"
+    ],
+    "url": "https://www.howtogeek.com/i-tried-netbsd-as-a-desktop-and-it-felt-like-stepping-into-the-90s-in-a-good-way/",
+    "comments_url": "https://lobste.rs/s/ovbeds/i_tried_netbsd_as_desktop_it_felt_like"
+  },
+  {
+    "title": "You paid me, a long-time Linux user, to use Windows 11 exclusively for a month: here\u2019s how it went",
+    "score": 130,
+    "tags": [
+      "windows"
+    ],
+    "url": "https://www.osnews.com/story/145459/you-paid-me-a-long-time-linux-user-to-use-windows-11-exclusively-for-a-month-heres-how-it-went/",
+    "comments_url": "https://lobste.rs/s/tedi5h/you_paid_me_long_time_linux_user_use"
+  },
+  {
+    "title": "Cpp2Rust: Automatic Translation of C++ to Safe Rust",
+    "score": 31,
+    "tags": [
+      "c++",
+      "rust"
+    ],
+    "url": "https://github.com/Cpp2Rust/cpp2rust",
+    "comments_url": "https://lobste.rs/s/xyotoa/cpp2rust_automatic_translation_c_safe"
+  },
+  {
+    "title": "What are you doing this weekend?",
+    "score": 14,
+    "tags": [
+      "ask",
+      "programming"
+    ],
+    "url": "",
+    "comments_url": "https://lobste.rs/s/u9yf5l/what_are_you_doing_this_weekend"
+  },
+  {
+    "title": "Adding Go to a browser code runner",
+    "score": 4,
+    "tags": [
+      "go",
+      "programming",
+      "wasm"
+    ],
+    "url": "https://blog.lvmbdv.dev/posts/adding-go-to-a-browser-code-runner/",
+    "comments_url": "https://lobste.rs/s/qtui32/adding_go_browser_code_runner"
+  },
+  {
+    "title": "What Every Python Developer Should Know About the CPython ABI",
+    "score": 6,
+    "tags": [
+      "c",
+      "python"
+    ],
+    "url": "https://labs.quansight.org/blog/python-abi-abi3t",
+    "comments_url": "https://lobste.rs/s/fxuz6h/what_every_python_developer_should_know"
+  },
+  {
+    "title": "Running 1000 tests in 1s (2022)",
+    "score": 10,
+    "tags": [
+      "javascript",
+      "performance",
+      "testing"
+    ],
+    "url": "https://marvinh.dev/blog/running-1000-test-in-1s/",
+    "comments_url": "https://lobste.rs/s/mcrqed/running_1000_tests_1s_2022"
+  },
+  {
+    "title": "I converted an Android app to a webpage",
+    "score": 2,
+    "tags": [
+      "mobile",
+      "web"
+    ],
+    "url": "https://danq.me/2026/07/09/your-app-could-have-been-a-webpage/",
+    "comments_url": "https://lobste.rs/s/vhbvwc/i_converted_android_app_webpage"
+  },
+  {
+    "title": "Two Ways To Design",
+    "score": 16,
+    "tags": [
+      "practices",
+      "web"
+    ],
+    "url": "https://wiki.c2.com/?TwoWaysToDesign",
+    "comments_url": "https://lobste.rs/s/ey7far/two_ways_design"
+  },
+  {
+    "title": "Zeal Z80-based computer",
+    "score": 2,
+    "tags": [
+      "retrocomputing"
+    ],
+    "url": "https://zeal8bit.com/",
+    "comments_url": "https://lobste.rs/s/yabn7v/zeal_z80_based_computer"
+  }
+]

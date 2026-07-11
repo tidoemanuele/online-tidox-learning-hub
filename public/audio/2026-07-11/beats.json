@@ -1,0 +1,195 @@
+[
+  {
+    "type": "intro",
+    "label": "TODAY'S HEADLINE",
+    "highlight": "Apple versus OpenAI",
+    "subtext": "854 points — HN's top story today"
+  },
+  {
+    "type": "intro",
+    "highlight": "Trade secrets, allegedly taken in interviews",
+    "subtext": "Apple accuses OpenAI's hardware chief"
+  },
+  {
+    "type": "quote",
+    "highlight": "The one part of hiring nobody polices",
+    "subtext": "No NDA moment for 'walk me through your roadmap'"
+  },
+  {
+    "type": "quote",
+    "highlight": "The extraction vector is just... conversation",
+    "subtext": "Genuinely hard to defend against"
+  },
+  {
+    "type": "insight",
+    "highlight": "An Apple laptop, unannounced hardware specs",
+    "subtext": "The second allegation: an engineer who left for OpenAI"
+  },
+  {
+    "type": "insight",
+    "highlight": "This isn't about chatbots anymore",
+    "subtext": "Apple's own engineering, allegedly repurposed"
+  },
+  {
+    "type": "number",
+    "number": "2024",
+    "highlight": "ChatGPT built into iPhone OS",
+    "subtext": "Apple admitting OpenAI's models beat its own"
+  },
+  {
+    "type": "quote",
+    "highlight": "Software partner, now hardware defendant",
+    "subtext": "A brutal reversal"
+  },
+  {
+    "type": "insight",
+    "highlight": "Partnerships were talent and IP arbitrage",
+    "subtext": "Wearing a press release"
+  },
+  {
+    "type": "insight",
+    "highlight": "What are engineers walking away with?",
+    "subtext": "Every 'strategic integration' under new scrutiny"
+  },
+  {
+    "type": "action",
+    "label": "ACTION ITEM",
+    "highlight": "Audit interview processes on both sides",
+    "subtext": "Assume the interview itself is a leak surface"
+  },
+  {
+    "type": "number",
+    "number": "50",
+    "highlight": "GPT-5.6 Sol Ultra solves 50-year problem",
+    "subtext": "Announced the same week as the lawsuit"
+  },
+  {
+    "type": "number",
+    "label": "MATH BREAKTHROUGH",
+    "number": "64",
+    "highlight": "Sixty-four subagents, under an hour",
+    "subtext": "Cycle Double Cover Conjecture, open since 1973"
+  },
+  {
+    "type": "quote",
+    "highlight": "Not autocomplete — a research team",
+    "subtext": "Sixty-four subagents working pure math"
+  },
+  {
+    "type": "number",
+    "number": "322",
+    "highlight": "322 comments, stress-tested line by line",
+    "subtext": "Mathematicians actually checking the proof"
+  },
+  {
+    "type": "insight",
+    "highlight": "The skepticism is a good sign",
+    "subtext": "Taken seriously enough to try to break it"
+  },
+  {
+    "type": "insight",
+    "highlight": "Same orchestration pattern, new domain",
+    "subtext": "From proving conjectures to trending repos"
+  },
+  {
+    "type": "repo",
+    "label": "TRENDING REPO",
+    "highlight": "mattpocock's skills",
+    "subtext": "Up 1,700 stars in a day — addyosmani's agent-skills close behind"
+  },
+  {
+    "type": "insight",
+    "highlight": "Multi-agent is infrastructure now",
+    "subtext": "Installed into workflows this week"
+  },
+  {
+    "type": "quote",
+    "highlight": "What's stopping that swarm from hitting your codebase?",
+    "subtext": "Terrifying, in a good way"
+  },
+  {
+    "type": "quote",
+    "highlight": "'AI 2040': slow this down on purpose",
+    "subtext": "Kokotajlo's group, published today"
+  },
+  {
+    "type": "quote",
+    "highlight": "The same team that wrote AI 2027",
+    "subtext": "Now proposing mutually assured compute destruction"
+  },
+  {
+    "type": "number",
+    "number": "213",
+    "highlight": "213 points, 213 comments — exactly even",
+    "subtext": "That ratio only happens when a community splits"
+  },
+  {
+    "type": "quote",
+    "highlight": "Nobody agrees, but everybody's arguing",
+    "subtext": "The honest read of AI governance"
+  },
+  {
+    "type": "number",
+    "number": "2040",
+    "highlight": "Pushing superintelligence from 2030 to 2040",
+    "subtext": "The same week a conjecture fell in an hour"
+  },
+  {
+    "type": "quote",
+    "highlight": "The capability curve isn't waiting for policy",
+    "subtext": "The tension in one sentence"
+  },
+  {
+    "type": "number",
+    "label": "HARDWARE",
+    "number": "499",
+    "highlight": "QuadRF: $499 to see through walls",
+    "subtext": "Images WiFi and drones in real time"
+  },
+  {
+    "type": "number",
+    "number": "524",
+    "highlight": "524 points, same day as SpaceX's filing",
+    "subtext": "A hundred thousand more satellites for AI backhaul"
+  },
+  {
+    "type": "insight",
+    "highlight": "Spatial awareness for the price of a GPU",
+    "subtext": "The sky just got a lot more visible"
+  },
+  {
+    "type": "quote",
+    "highlight": "If I can build this on a weekend...",
+    "subtext": "So can anyone parked outside your house"
+  },
+  {
+    "type": "insight",
+    "highlight": "The barrier didn't lower — it disappeared",
+    "subtext": "Military-grade RF awareness, now a hobbyist project"
+  },
+  {
+    "type": "insight",
+    "highlight": "Every thread, connected",
+    "subtext": "Leaks, agent swarms, slow policy, cheap hardware"
+  },
+  {
+    "type": "quote",
+    "highlight": "Who can orchestrate agents and hardware fastest",
+    "subtext": "Safely, and legally — the real competition now"
+  },
+  {
+    "type": "insight",
+    "highlight": "Good tools are invisible",
+    "subtext": "Ginger Bill's builder's-eye view of it all"
+  },
+  {
+    "type": "close",
+    "highlight": "The capability is already here",
+    "subtext": "Agent swarms, phased arrays, trending skill libraries"
+  },
+  {
+    "type": "close",
+    "highlight": "Who builds the trustworthy version first?",
+    "subtext": "Now go open your editor"
+  }
+]
