@@ -1,0 +1,170 @@
+{
+  "date": "2026-07-12",
+  "episodeNumber": 112,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "Prefer strict tables in SQLite, Show HN: Ant – A JavaScript runtime and ecosystem, Nvidia, CoreWeave, and Nebius: Inside the Circular",
+  "heroStat": {
+    "value": "273",
+    "label": "points on \"Prefer strict tables in SQLite\""
+  },
+  "insights": [
+    {
+      "text": "Prefer strict tables in SQLite (273 pts, 130 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 273pts",
+      "url": "https://evanhahn.com/prefer-strict-tables-in-sqlite/"
+    },
+    {
+      "text": "Show HN: Ant – A JavaScript runtime and ecosystem (252 pts, 107 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 252pts",
+      "url": "https://antjs.org"
+    },
+    {
+      "text": "Nvidia, CoreWeave, and Nebius: Inside the Circular Financing of the GPU Boom (245 pts, 82 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 245pts",
+      "url": "https://io-fund.com/ai-stocks/nvidia-coreweave-nebius-circular-financing-gpu-boom"
+    },
+    {
+      "text": "Mesh LLM: distributed AI computing on iroh (226 pts, 50 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 226pts",
+      "url": "https://www.iroh.computer/blog/mesh-llm"
+    },
+    {
+      "text": "Where did my segfault go? (31 pts on Lobsters)",
+      "tags": [
+        "lobsters",
+        "c",
+        "unix"
+      ],
+      "source": "Lobsters 31pts",
+      "url": "https://rmpr.xyz/Where-did-my-segfault-go/"
+    },
+    {
+      "text": "In defense of not understanding your codebase (11 pts on Lobsters)",
+      "tags": [
+        "lobsters",
+        "practices",
+        "vibecoding"
+      ],
+      "source": "Lobsters 11pts",
+      "url": "https://www.seangoedecke.com/in-defense-of-not-understanding-your-codebase/"
+    },
+    {
+      "text": "How I Turned Slack Into an AI Teammate That Opens Pull Requests (25 reactions on Dev.to)",
+      "tags": [
+        "devto",
+        "devchallenge",
+        "weekendchallenge"
+      ],
+      "source": "Dev.to 25❤",
+      "url": "https://dev.to/marrouchi/how-i-turned-slack-into-an-ai-teammate-that-opens-pull-requests-b4p"
+    },
+    {
+      "text": "Integrating Lambda Durable Functions into a Step Functions Workflow (6 reactions on Dev.to)",
+      "tags": [
+        "devto",
+        "cdk",
+        "serverless"
+      ],
+      "source": "Dev.to 6❤",
+      "url": "https://dev.to/aws-heroes/integrating-lambda-durable-functions-into-a-step-functions-workflow-3c7o"
+    }
+  ],
+  "trending": [
+    {
+      "name": "DesktopCommanderMCP",
+      "fullName": "wonderwhy-er/DesktopCommanderMCP",
+      "stars": "7.8K",
+      "language": "TypeScript",
+      "delta": "+909/d"
+    },
+    {
+      "name": "pgrust",
+      "fullName": "malisper/pgrust",
+      "stars": "2.2K",
+      "language": "Rust",
+      "delta": "+774/d"
+    },
+    {
+      "name": "superpowers",
+      "fullName": "obra/superpowers",
+      "stars": "253K",
+      "language": "Shell",
+      "delta": "+740/d"
+    },
+    {
+      "name": "bun",
+      "fullName": "oven-sh/bun",
+      "stars": "94.6K",
+      "language": "Rust",
+      "delta": "+658/d"
+    },
+    {
+      "name": "stitch-skills",
+      "fullName": "google-labs-code/stitch-skills",
+      "stars": "7.2K",
+      "language": "TypeScript",
+      "delta": "+340/d"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "273",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "909",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "4",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "July 12, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Prefer strict tables in SQLite",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Show HN: Ant – A JavaScript runtime and ecosystem",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Nvidia, CoreWeave, and Nebius: Inside the Circular Financing of the GPU Boom",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Today's brief covers the most interesting signals across the tech landscape."
+    }
+  }
+}

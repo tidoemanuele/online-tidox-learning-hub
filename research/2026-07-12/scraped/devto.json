@@ -1,0 +1,320 @@
+[
+  {
+    "rank": 1,
+    "title": "How I Turned Slack Into an AI Teammate That Opens Pull Requests",
+    "url": "https://dev.to/marrouchi/how-i-turned-slack-into-an-ai-teammate-that-opens-pull-requests-b4p",
+    "reactions": 25,
+    "comments": 11,
+    "tags": [
+      "devchallenge",
+      "weekendchallenge",
+      "ai",
+      "webdev"
+    ]
+  },
+  {
+    "rank": 2,
+    "title": "Integrating Lambda Durable Functions into a Step Functions Workflow",
+    "url": "https://dev.to/aws-heroes/integrating-lambda-durable-functions-into-a-step-functions-workflow-3c7o",
+    "reactions": 6,
+    "comments": 0,
+    "tags": [
+      "cdk",
+      "serverless",
+      "lambda",
+      "stepfunctions"
+    ]
+  },
+  {
+    "rank": 3,
+    "title": "Simple Benchmark Review: Ollama on Jetson Nano",
+    "url": "https://dev.to/annavi11arrea1/simple-benchmark-review-ollama-on-jetson-nano-5gee",
+    "reactions": 2,
+    "comments": 1,
+    "tags": [
+      "ai",
+      "webdev",
+      "nvidia",
+      "productivity"
+    ]
+  },
+  {
+    "rank": 4,
+    "title": "THE STAND: Keep the Chant Alive!",
+    "url": "https://dev.to/asynchronope/the-stand-keep-the-chant-alive-25hb",
+    "reactions": 2,
+    "comments": 0,
+    "tags": [
+      "devchallenge",
+      "weekendchallenge"
+    ]
+  },
+  {
+    "rank": 5,
+    "title": "Race Recap Radio — I turned my 10K into a hype sports broadcast",
+    "url": "https://dev.to/imkarthikeyan/race-recap-radio-i-turned-my-10k-into-a-hype-sports-broadcast-260j",
+    "reactions": 0,
+    "comments": 0,
+    "tags": [
+      "devchallenge",
+      "weekendchallenge",
+      "ai",
+      "elevenlabs"
+    ]
+  },
+  {
+    "rank": 6,
+    "title": "MLH x DigitalOcean Hackathon: Jury Duty, Explained",
+    "url": "https://dev.to/earlgreyhot1701d/mlh-x-digitalocean-hackathon-jury-duty-explained-1e8p",
+    "reactions": 7,
+    "comments": 0,
+    "tags": [
+      "digitalocean",
+      "mlh",
+      "showdev",
+      "socialgood"
+    ]
+  },
+  {
+    "rank": 7,
+    "title": "The AI orientation tax: it's missing context, not discipline",
+    "url": "https://dev.to/idnk_2203/the-orientation-tax-its-missing-context-not-discipline-4ii9",
+    "reactions": 3,
+    "comments": 5,
+    "tags": [
+      "ai",
+      "productivity",
+      "claude",
+      "agents"
+    ]
+  },
+  {
+    "rank": 8,
+    "title": "Building LaunchPad: one product brief, 42 launch channels, and the bugs that almost sank it",
+    "url": "https://dev.to/mohanvenkatakrishnan/building-launchpad-one-product-brief-42-launch-channels-and-the-bugs-that-almost-sank-it-3ii7",
+    "reactions": 7,
+    "comments": 4,
+    "tags": [
+      "webdev",
+      "javascript",
+      "ai",
+      "showdev"
+    ]
+  },
+  {
+    "rank": 9,
+    "title": "How I Got \"Made in Afghanistan\" Added to GitHub Explore 🇦🇫",
+    "url": "https://dev.to/homayounmmdy/how-i-got-made-in-afghanistan-added-to-github-explore-43b4",
+    "reactions": 6,
+    "comments": 0,
+    "tags": [
+      "showdev",
+      "opensource"
+    ]
+  },
+  {
+    "rank": 10,
+    "title": "Claude Code, Beyond the Prompt — Part 4: Your First MCP Server (Give Claude Safe Hands on Your Own Tools)",
+    "url": "https://dev.to/gde03/claude-code-beyond-the-prompt-part-4-your-first-mcp-server-give-claude-safe-hands-on-your-own-b8p",
+    "reactions": 3,
+    "comments": 12,
+    "tags": [
+      "ai",
+      "claude",
+      "mcp",
+      "programming"
+    ]
+  },
+  {
+    "rank": 11,
+    "title": "When GitHub Goes Silent: A Security Researcher's Account Suspension Story",
+    "url": "https://dev.to/toxy4ny/when-github-goes-silent-a-security-researchers-account-suspension-story-p4f",
+    "reactions": 2,
+    "comments": 0,
+    "tags": [
+      "github",
+      "cybersecurity",
+      "redteam",
+      "gitlab"
+    ]
+  },
+  {
+    "rank": 12,
+    "title": "For the love of the game: a World Cup companion with on-chain betting and Snowflake-ready analytics",
+    "url": "https://dev.to/piwe/for-the-love-of-the-game-a-world-cup-companion-with-on-chain-betting-and-snowflake-ready-analytics-2ohj",
+    "reactions": 0,
+    "comments": 1,
+    "tags": [
+      "devchallenge",
+      "snowflake",
+      "weekendchallenge",
+      "solana"
+    ]
+  },
+  {
+    "rank": 13,
+    "title": "Beyond AI: The Solitude of the Developer and the Search for True Human Connection",
+    "url": "https://dev.to/bumbulik0/beyond-ai-the-solitude-of-the-developer-and-the-search-for-true-human-connection-22i3",
+    "reactions": 1,
+    "comments": 0,
+    "tags": [
+      "ai",
+      "development",
+      "brainstorming",
+      "collaboration"
+    ]
+  },
+  {
+    "rank": 14,
+    "title": "EL RELATOR - your life, narrated like a World Cup goal (in two languages)",
+    "url": "https://dev.to/terrizoaguimor/el-relator-your-life-narrated-like-a-world-cup-goal-in-two-languages-9b9",
+    "reactions": 0,
+    "comments": 1,
+    "tags": [
+      "weekendchallenge",
+      "googleai",
+      "elevenlabs",
+      "astro"
+    ]
+  },
+  {
+    "rank": 15,
+    "title": "the finger, the moon and the idle T4 a pre-flight linter for ML environment mismatches",
+    "url": "https://dev.to/marsonp/the-finger-the-moon-and-the-idle-t4-a-pre-flight-linter-for-ml-environment-mismatches-3jj4",
+    "reactions": 1,
+    "comments": 1,
+    "tags": [
+      "devchallenge",
+      "weekendchallenge"
+    ]
+  },
+  {
+    "rank": 16,
+    "title": "Federation and the Lakehouse: Two Roads to Unified Data Access, and How to Know Which One to Take",
+    "url": "https://dev.to/alexmercedcoder/federation-and-the-lakehouse-two-roads-to-unified-data-access-and-how-to-know-which-one-to-take-2cnl",
+    "reactions": 0,
+    "comments": 1,
+    "tags": [
+      "architecture",
+      "data",
+      "database",
+      "dataengineering"
+    ]
+  },
+  {
+    "rank": 17,
+    "title": "I Traced a Multi-Step LLM Agent With Self-Hosted SigNoz. One Feature Sold Me.",
+    "url": "https://dev.to/himanshu_748/i-traced-a-multi-step-llm-agent-with-self-hosted-signoz-one-feature-sold-me-4k71",
+    "reactions": 6,
+    "comments": 0,
+    "tags": [
+      "signoz",
+      "opentelemetry",
+      "observability",
+      "ai"
+    ]
+  },
+  {
+    "rank": 18,
+    "title": "AGENTS.md, Kept True: Stop the Rot Step by Step (and Watch Your Agent Trust It)",
+    "url": "https://dev.to/wolfejam/agentsmd-kept-true-stop-the-rot-step-by-step-and-watch-your-agent-trust-it-3mjb",
+    "reactions": 1,
+    "comments": 0,
+    "tags": [
+      "ai",
+      "agents",
+      "devtools",
+      "tutorial"
+    ]
+  },
+  {
+    "rank": 19,
+    "title": "I Built a Framework for discord.js (Meet Nexcord)",
+    "url": "https://dev.to/signor_p/new-discordjs-based-framework-3ei1",
+    "reactions": 6,
+    "comments": 1,
+    "tags": [
+      "discord",
+      "typescript",
+      "javascript",
+      "tsx"
+    ]
+  },
+  {
+    "rank": 20,
+    "title": "CI Health Check: a /ci Skill for Claude Code",
+    "url": "https://dev.to/gbti-network/ci-health-check-a-ci-skill-for-claude-code-2njg",
+    "reactions": 2,
+    "comments": 0,
+    "tags": [
+      "claudecode",
+      "githubactions",
+      "ci",
+      "devopsautomation"
+    ]
+  },
+  {
+    "rank": 21,
+    "title": "shadcn/typeset vs Tailwind Typography: Styling Markdown",
+    "url": "https://dev.to/morellodev/shadcntypeset-vs-tailwind-typography-styling-markdown-c82",
+    "reactions": 0,
+    "comments": 0,
+    "tags": [
+      "css",
+      "tailwindcss",
+      "webdev",
+      "react"
+    ]
+  },
+  {
+    "rank": 22,
+    "title": "Leetcode for the win!",
+    "url": "https://dev.to/xbill/leetcode-for-the-win-3le8",
+    "reactions": 0,
+    "comments": 0,
+    "tags": [
+      "algorithms",
+      "gamedev",
+      "showdev",
+      "sideprojects"
+    ]
+  },
+  {
+    "rank": 23,
+    "title": "Writing Evals for an LLM Security Tool: How I Know It Didn't Get Worse",
+    "url": "https://dev.to/pavelespitia/writing-evals-for-an-llm-security-tool-how-i-know-it-didnt-get-worse-53na",
+    "reactions": 1,
+    "comments": 0,
+    "tags": [
+      "ai",
+      "security",
+      "testing",
+      "typescript"
+    ]
+  },
+  {
+    "rank": 24,
+    "title": "Building Multi-Tenant SaaS Databases: Isolation, Performance, and PostgreSQL Strategies",
+    "url": "https://dev.to/uaslimcreate/building-multi-tenant-saas-databases-isolation-performance-and-postgresql-strategies-4hk",
+    "reactions": 1,
+    "comments": 1,
+    "tags": [
+      "database",
+      "saas",
+      "apidesign"
+    ]
+  },
+  {
+    "rank": 25,
+    "title": "Failure Engineering Explained by Uncle to Nephew — Episode 2: Types of Failures",
+    "url": "https://dev.to/surajrkhonde/failure-engineering-explained-by-uncle-to-nephew-episode-2-types-of-failures-35p6",
+    "reactions": 6,
+    "comments": 0,
+    "tags": [
+      "node",
+      "softwareengineering",
+      "distributedsystems",
+      "backend"
+    ]
+  }
+]
