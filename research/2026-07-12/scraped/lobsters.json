@@ -1,7 +1,7 @@
 [
   {
     "title": "Where did my segfault go?",
-    "score": 31,
+    "score": 34,
     "tags": [
       "c",
       "unix"
@@ -10,8 +10,17 @@
     "comments_url": "https://lobste.rs/s/tedtzz/where_did_my_segfault_go"
   },
   {
+    "title": "Who does Anubis actually stop?",
+    "score": 20,
+    "tags": [
+      "web"
+    ],
+    "url": "https://fzakaria.com/2026/07/09/who-does-anubis-actually-stop",
+    "comments_url": "https://lobste.rs/s/ktew3s/who_does_anubis_actually_stop"
+  },
+  {
     "title": "In defense of not understanding your codebase",
-    "score": 11,
+    "score": 16,
     "tags": [
       "practices",
       "vibecoding"
@@ -21,7 +30,7 @@
   },
   {
     "title": "Good Tools Are Invisible",
-    "score": 27,
+    "score": 28,
     "tags": [
       "editors",
       "practices",
@@ -31,17 +40,8 @@
     "comments_url": "https://lobste.rs/s/ydjxee/good_tools_are_invisible"
   },
   {
-    "title": "Who does Anubis actually stop?",
-    "score": 9,
-    "tags": [
-      "web"
-    ],
-    "url": "https://fzakaria.com/2026/07/09/who-does-anubis-actually-stop",
-    "comments_url": "https://lobste.rs/s/ktew3s/who_does_anubis_actually_stop"
-  },
-  {
     "title": "reaction: A daemon that scans program outputs for repeated patterns, and takes action",
-    "score": 10,
+    "score": 12,
     "tags": [
       "security"
     ],
@@ -49,8 +49,18 @@
     "comments_url": "https://lobste.rs/s/zzdc8x/reaction_daemon_scans_program_outputs"
   },
   {
+    "title": "The Proportional Web",
+    "score": 6,
+    "tags": [
+      "design",
+      "web"
+    ],
+    "url": "https://owickstrom.github.io/the-proportional-web/",
+    "comments_url": "https://lobste.rs/s/2vsvdm/proportional_web"
+  },
+  {
     "title": "An update on the scraper situation",
-    "score": 105,
+    "score": 107,
     "tags": [
       "security",
       "web"
@@ -60,7 +70,7 @@
   },
   {
     "title": "Today I Rescued 7,234 Old GIFs",
-    "score": 12,
+    "score": 13,
     "tags": [
       "retrocomputing",
       "web"
@@ -70,7 +80,7 @@
   },
   {
     "title": "Gamedev in Zig is actually pretty good (2025)",
-    "score": 15,
+    "score": 16,
     "tags": [
       "video",
       "zig"
@@ -80,7 +90,7 @@
   },
   {
     "title": "I converted an Android app to a webpage",
-    "score": 45,
+    "score": 47,
     "tags": [
       "mobile",
       "web"
@@ -89,17 +99,8 @@
     "comments_url": "https://lobste.rs/s/vhbvwc/i_converted_android_app_webpage"
   },
   {
-    "title": "Odyssey Linux",
-    "score": 4,
-    "tags": [
-      "linux"
-    ],
-    "url": "https://odysseylinux.org/",
-    "comments_url": "https://lobste.rs/s/q4fx6x/odyssey_linux"
-  },
-  {
     "title": "Handsum: An LQIP Image File Format",
-    "score": 14,
+    "score": 16,
     "tags": [
       "programming"
     ],
@@ -107,86 +108,17 @@
     "comments_url": "https://lobste.rs/s/gmzzeb/handsum_lqip_image_file_format"
   },
   {
-    "title": "I tried NetBSD as a desktop, and it felt like stepping into the '90s in a good way",
-    "score": 41,
-    "tags": [
-      "netbsd"
-    ],
-    "url": "https://www.howtogeek.com/i-tried-netbsd-as-a-desktop-and-it-felt-like-stepping-into-the-90s-in-a-good-way/",
-    "comments_url": "https://lobste.rs/s/ovbeds/i_tried_netbsd_as_desktop_it_felt_like"
-  },
-  {
-    "title": "The Proportional Web",
-    "score": 3,
-    "tags": [
-      "design",
-      "web"
-    ],
-    "url": "https://owickstrom.github.io/the-proportional-web/",
-    "comments_url": "https://lobste.rs/s/2vsvdm/proportional_web"
-  },
-  {
-    "title": "gap: UI text diff",
-    "score": 5,
-    "tags": [
-      "c++",
-      "vcs"
-    ],
-    "url": "https://github.com/cdacamar/gap",
-    "comments_url": "https://lobste.rs/s/mynquj/gap_ui_text_diff"
-  },
-  {
-    "title": "Madame Semver Will See You Now",
-    "score": 38,
-    "tags": [
-      "satire"
-    ],
-    "url": "https://nesbitt.io/2026/05/10/madame-semver-will-see-you-now.html",
-    "comments_url": "https://lobste.rs/s/wjr8hw/madame_semver_will_see_you_now"
-  },
-  {
-    "title": "An Agent in 100 Lines of Lisp",
-    "score": 3,
-    "tags": [
-      "ai",
-      "lisp"
-    ],
-    "url": "https://thebeach.dev/posts/lisp-agent/",
-    "comments_url": "https://lobste.rs/s/wsw7tq/agent_100_lines_lisp"
-  },
-  {
-    "title": "Working With AI: A Concrete Example",
-    "score": 16,
-    "tags": [
-      "vibecoding",
-      "web"
-    ],
-    "url": "https://htmx.org/essays/working-with-ai/",
-    "comments_url": "https://lobste.rs/s/my94an/working_with_ai_concrete_example"
-  },
-  {
-    "title": "Hannah Montana Linux v26.0",
-    "score": 77,
-    "tags": [
-      "linux",
-      "release"
-    ],
-    "url": "https://gitlab.com/DecaCagle/hannahmontanalinux26",
-    "comments_url": "https://lobste.rs/s/w8svjr/hannah_montana_linux_v26_0"
-  },
-  {
-    "title": "Computer Science Off Course - Programming as Theory Building",
+    "title": "Data-directed programming in Haskell (SICP2.4.3)",
     "score": 1,
     "tags": [
-      "audio",
-      "compsci"
+      "haskell"
     ],
-    "url": "https://rss.com/podcasts/computer-science-off-course/2968986/",
-    "comments_url": "https://lobste.rs/s/oqwjp5/computer_science_off_course_programming"
+    "url": "https://entropicthoughts.com/sicp-2-4-data-directed-programming-in-haskell",
+    "comments_url": "https://lobste.rs/s/shajxh/data_directed_programming_haskell_sicp2"
   },
   {
     "title": "Ant, a lightweight JavaScript runtime",
-    "score": 1,
+    "score": 3,
     "tags": [
       "javascript"
     ],
@@ -194,51 +126,21 @@
     "comments_url": "https://lobste.rs/s/n85thm/ant_lightweight_javascript_runtime"
   },
   {
-    "title": "The accessible contrast ratio colour grid thing",
+    "title": "I tried NetBSD as a desktop, and it felt like stepping into the '90s in a good way",
+    "score": 43,
+    "tags": [
+      "netbsd"
+    ],
+    "url": "https://www.howtogeek.com/i-tried-netbsd-as-a-desktop-and-it-felt-like-stepping-into-the-90s-in-a-good-way/",
+    "comments_url": "https://lobste.rs/s/ovbeds/i_tried_netbsd_as_desktop_it_felt_like"
+  },
+  {
+    "title": "Odyssey Linux",
     "score": 3,
     "tags": [
-      "design"
+      "linux"
     ],
-    "url": "https://beeps.website/blog/2026-07-09-accessible-contrast-ratio-colour-grid-thing/",
-    "comments_url": "https://lobste.rs/s/hlokmr/accessible_contrast_ratio_colour_grid"
-  },
-  {
-    "title": "RISCBoy RISC-V homebrew portable game console",
-    "score": 2,
-    "tags": [
-      "hardware"
-    ],
-    "url": "https://github.com/Wren6991/RISCBoy",
-    "comments_url": "https://lobste.rs/s/wsn0hl/riscboy_risc_v_homebrew_portable_game"
-  },
-  {
-    "title": "Postgres rewritten in Rust, now passing 100% of the Postgres regression tests",
-    "score": 29,
-    "tags": [
-      "databases",
-      "vibecoding"
-    ],
-    "url": "https://github.com/malisper/pgrust",
-    "comments_url": "https://lobste.rs/s/le3iri/postgres_rewritten_rust_now_passing_100"
-  },
-  {
-    "title": "Zeal Z80-based computer",
-    "score": 18,
-    "tags": [
-      "retrocomputing"
-    ],
-    "url": "https://zeal8bit.com/",
-    "comments_url": "https://lobste.rs/s/yabn7v/zeal_z80_based_computer"
-  },
-  {
-    "title": "AI Surveillance and Social Progress",
-    "score": 16,
-    "tags": [
-      "ai",
-      "culture",
-      "privacy"
-    ],
-    "url": "https://www.schneier.com/blog/archives/2026/07/ai-surveillance-and-social-progress.html",
-    "comments_url": "https://lobste.rs/s/qvu1m0/ai_surveillance_social_progress"
+    "url": "https://odysseylinux.org/",
+    "comments_url": "https://lobste.rs/s/q4fx6x/odyssey_linux"
   }
 ]

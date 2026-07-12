@@ -1,0 +1,159 @@
+[
+  {
+    "type": "intro",
+    "highlight": "The GPU financing story that reframes everything",
+    "subtext": "266 points on Hacker News"
+  },
+  {
+    "type": "intro",
+    "highlight": "Nvidia, CoreWeave, Nebius: circular financing",
+    "subtext": "A story worth stopping to re-read"
+  },
+  {
+    "type": "number",
+    "number": "11.9B",
+    "highlight": "CoreWeave's Microsoft contract, used as collateral",
+    "subtext": "Backed by a $700M Nvidia credit line",
+    "label": "THE LOOP"
+  },
+  {
+    "type": "quote",
+    "highlight": "The vendor is the bank, the customer, and the collateral"
+  },
+  {
+    "type": "insight",
+    "highlight": "One GPU inventory, multiple balance sheets",
+    "subtext": "Nebius is in the loop too"
+  },
+  {
+    "type": "quote",
+    "highlight": "One shock, every major player hit at once",
+    "subtext": "If GPU demand cools or prices drop"
+  },
+  {
+    "type": "insight",
+    "highlight": "The demand signal for GPUs isn't clean",
+    "subtext": "Partly manufactured by the seller itself"
+  },
+  {
+    "type": "quote",
+    "highlight": "A risk that isn't showing up in the advertised rate"
+  },
+  {
+    "type": "action",
+    "highlight": "Model the financing structure, not just the electricity bill",
+    "label": "ACTION"
+  },
+  {
+    "type": "number",
+    "number": "259",
+    "highlight": "Mesh LLM on iroh hits Hacker News",
+    "subtext": "Distributed AI inference across consumer hardware"
+  },
+  {
+    "type": "insight",
+    "highlight": "The counter-architecture to circular GPU credit",
+    "subtext": "Distribute inference across machines that already exist"
+  },
+  {
+    "type": "quote",
+    "highlight": "No central cloud layer required",
+    "subtext": "QUIC-based peer-to-peer coordinated inference"
+  },
+  {
+    "type": "insight",
+    "highlight": "QUIC is fast — but not RAM-bandwidth fast",
+    "subtext": "Attention needs synchronized nodes"
+  },
+  {
+    "type": "quote",
+    "highlight": "What do you learn about my prompt?",
+    "subtext": "The trust model, not latency, is the real constraint"
+  },
+  {
+    "type": "action",
+    "highlight": "Watch the iroh team's data sovereignty work",
+    "subtext": "Their IPFS lineage runs deep"
+  },
+  {
+    "type": "repo",
+    "highlight": "wonderwhy-er/DesktopCommanderMCP",
+    "subtext": "+909 stars — today's fastest-gaining repo",
+    "label": "GITHUB TRENDING"
+  },
+  {
+    "type": "insight",
+    "highlight": "The stack is converging, not coinciding",
+    "subtext": "Mesh inference and desktop agent control, same day"
+  },
+  {
+    "type": "repo",
+    "highlight": "pgrust, superpowers, bun — one story, four repos",
+    "subtext": "+774, +740, +658 stars",
+    "label": "GITHUB TRENDING"
+  },
+  {
+    "type": "number",
+    "number": "271",
+    "highlight": "Ant, a new JS runtime, tops Hacker News today",
+    "subtext": "Built-in package manager, native TypeScript"
+  },
+  {
+    "type": "number",
+    "number": "94,000",
+    "highlight": "Bun's total star count, still climbing",
+    "subtext": "+658 stars today, as Ant launches"
+  },
+  {
+    "type": "insight",
+    "highlight": "Win on ecosystem story, not benchmarks",
+    "subtext": "V8 vs JSC, API surface, community position"
+  },
+  {
+    "type": "number",
+    "number": "105",
+    "highlight": "LWN's scraper update lands hard on Lobsters",
+    "subtext": "Bot detection stops the long tail, not the giants"
+  },
+  {
+    "type": "quote",
+    "highlight": "Stops commodity crawlers, not headless browsers",
+    "subtext": "The Anubis proof-of-work analysis"
+  },
+  {
+    "type": "insight",
+    "highlight": "A structural problem with no clean solution",
+    "subtext": "Small maintainers, least defense, most exposure"
+  },
+  {
+    "type": "insight",
+    "highlight": "Centralizing money, decentralizing compute",
+    "subtext": "The two forces in today's stack"
+  },
+  {
+    "type": "quote",
+    "highlight": "The money and the compute are pulling apart",
+    "subtext": "That tension is the whole story"
+  },
+  {
+    "type": "insight",
+    "highlight": "Two futures, one needs cloud demand to never soften",
+    "subtext": "The other just needs hardware you already own"
+  },
+  {
+    "type": "action",
+    "highlight": "Build for the distributed trajectory",
+    "subtext": "The circular financing structure is the fragile one"
+  },
+  {
+    "type": "close",
+    "highlight": "Invest in desktop control, watch mesh inference",
+    "subtext": "Cloud GPU pricing may not reflect real demand",
+    "label": "SIGN OFF"
+  },
+  {
+    "type": "close",
+    "highlight": "Go build on hardware you already own",
+    "subtext": "The infrastructure for that is being built today"
+  }
+]
