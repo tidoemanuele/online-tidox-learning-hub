@@ -1,0 +1,130 @@
+[
+  [
+    "A",
+    "Let's start with the number that dominated Hacker News today: 535 points. Claude Code sends 33,000 tokens before it even reads your prompt. OpenCode does the same job in 7,000."
+  ],
+  [
+    "B",
+    "Wait, 33k tokens just to say hello? That's not a rounding error, that's basically the whole context budget gone before I've typed a word."
+  ],
+  [
+    "A",
+    "Right. And the detail that matters: it's model-conditional. Claude Code sends 27,787 characters of system instructions to Sonnet, but only 10,526 to Fable. The overhead isn't fixed, it's a function of which model you're pointed at."
+  ],
+  [
+    "B",
+    "So if I'm running agentic loops all day, I'm not just paying for my work, I'm paying a tax on every single request just for the tool to exist."
+  ],
+  [
+    "A",
+    "Exactly. Systima measured it end to end: 199,000 cumulative tokens for a task in Claude Code versus 41,000 in OpenCode. That's 4.8x the cost for comparable output."
+  ],
+  [
+    "B",
+    "OK so if that's true, then the real lesson isn't 'Claude Code bad.' It's: measure your own agent's baseline overhead before you scale it, because that overhead multiplies with volume."
+  ],
+  [
+    "A",
+    "That's the action item. If you're building an automation pipeline — and we saw ai-job-search hit +3,728 stars a few days ago — you need to know your per-request floor before you run it a million times."
+  ],
+  [
+    "B",
+    "Which connects to the other story today, doesn't it? The GPT-5.6 production migration."
+  ],
+  [
+    "A",
+    "It does. Ploy.ai migrated a live agent from GPT-5.5 to 5.6 and reported 2.2x throughput and 27% lower cost. Three days after launch. Real production numbers, not a benchmark."
+  ],
+  [
+    "B",
+    "Three days! That's wild. That's not evaluation-then-deployment anymore, that's evaluation-as-deployment. People are just running the new model in prod and reporting back in real time."
+  ],
+  [
+    "A",
+    "Which tells you something about where the market's head is. Anthropic and OpenAI are both being graded, live, on the same axis: tokens per dollar per unit of useful work."
+  ],
+  [
+    "B",
+    "So the takeaway for a builder listening right now: stop treating model choice as a one-time decision. Treat it like a cost curve you re-check every release, because a 27% swing changes your unit economics overnight."
+  ],
+  [
+    "A",
+    "Let's shift to something less about cost and more about trust. The second biggest story today: an Ask HN thread with 384 points asking for a flag for AI-generated articles."
+  ],
+  [
+    "B",
+    "Oh, I've felt this. You click a link and you just... know within two sentences. But I didn't realize it was bad enough that people want a platform-level flag."
+  ],
+  [
+    "A",
+    "There's research behind it — lcamtuf's piece on 'how much of HN is AI' found a meaningful fraction of submitted links now lead to AI-generated content. The community agrees there's a problem, they just can't agree on the fix."
+  ],
+  [
+    "B",
+    "Wait, but what does that mean for anyone building content or docs right now? If readers can smell AI-generated text, quality is about to become a real differentiator again, not just a nice-to-have."
+  ],
+  [
+    "A",
+    "That's the read. And notice the contrast — the same week, Google is rolling out mandatory AI-disclosure rules for advertising. So paid content is getting regulated transparency, and organic content is left to community norms."
+  ],
+  [
+    "B",
+    "So there's a gap. If you're a builder, that gap is actually an opportunity — tools that verify or attest human authorship, or just... write like you mean it, because it's about to be a competitive edge, not a chore."
+  ],
+  [
+    "A",
+    "Now the one that should worry everyone a bit more: GhostLock. A stack use-after-free that's been sitting in the Linux kernel since 2011."
+  ],
+  [
+    "B",
+    "Fifteen years? How did that survive that long?"
+  ],
+  [
+    "A",
+    "It came in with the rtmutex rework in 2011 and just... nobody found it until now. Unprivileged local attacker, default config, five seconds to a root shell, 97% reliability."
+  ],
+  [
+    "B",
+    "And it does container escapes too, right? That's the part that makes my stomach drop — that's every multi-tenant cloud box out there."
+  ],
+  [
+    "A",
+    "Patched in April, yes. But here's what the thread actually documents: patch availability and patch deployment are not the same event. For production infrastructure with change control, that gap is months, sometimes years."
+  ],
+  [
+    "B",
+    "So the action item is boring but real: if you run infrastructure, go check your kernel version today. Not because it's exciting, because 'boring and unpatched' is exactly how these things get exploited."
+  ],
+  [
+    "A",
+    "Now, here's the part of today's data I find genuinely hopeful. Look at GitHub trending: OpenCut, a fully open-source CapCut replacement, is the fastest-growing repo today. Plus a KiCad replica of a 1990s sound card, plus a browser-based eight-bit emulator with 203 points and only 12 comments."
+  ],
+  [
+    "B",
+    "Wait, only 12 comments on 203 points? What does that mean?"
+  ],
+  [
+    "A",
+    "It means nobody had anything to argue about. When a community agrees something is just... correct, they don't debate it, they just upvote it and move on."
+  ],
+  [
+    "B",
+    "So on a day that's mostly about token costs and AI content anxiety, the quiet counter-signal is: people are still building beautiful, un-cynical things. An open video editor with no watermarks. A sound card nobody asked for. An emulator that's just clock-accurate for its own sake."
+  ],
+  [
+    "A",
+    "That's the thesis for today, I think. The infrastructure layer is getting harder — costs are compounding, trust is eroding, old vulnerabilities are surfacing. But the response isn't paralysis. It's precision: measure your token overhead, pick your model deliberately, patch your kernel, write like a human."
+  ],
+  [
+    "B",
+    "And then go build the thing you actually care about anyway. Because the OpenCut team didn't wait for permission, and neither should you."
+  ],
+  [
+    "A",
+    "That's the brief. Small, deliberate choices compound just as fast as the costs do."
+  ],
+  [
+    "B",
+    "Go build something. We'll see you tomorrow."
+  ]
+]

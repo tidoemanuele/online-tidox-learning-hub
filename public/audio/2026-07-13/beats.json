@@ -1,0 +1,146 @@
+[
+  {
+    "type": "intro",
+    "highlight": "Today's Number: 535 Points on Hacker News"
+  },
+  {
+    "type": "intro",
+    "highlight": "33,000 Tokens Just to Say Hello"
+  },
+  {
+    "type": "number",
+    "number": "27,787",
+    "highlight": "System Prompt Size Is Model-Conditional",
+    "subtext": "27,787 chars to Sonnet vs 10,526 to Fable"
+  },
+  {
+    "type": "insight",
+    "highlight": "You Pay a Tax on Every Request"
+  },
+  {
+    "type": "number",
+    "number": "4.8x",
+    "highlight": "199K vs 41K Tokens — 4.8x the Cost"
+  },
+  {
+    "type": "insight",
+    "highlight": "Measure Your Agent's Baseline Overhead First"
+  },
+  {
+    "type": "action",
+    "highlight": "Know Your Per-Request Token Floor Before Scaling",
+    "label": "ACTION"
+  },
+  {
+    "type": "quote",
+    "highlight": "Which Connects to the Other Story Today"
+  },
+  {
+    "type": "number",
+    "number": "2.2x",
+    "highlight": "2.2x Throughput, 27% Lower Cost",
+    "subtext": "Ploy.ai's GPT-5.6 migration, three days in"
+  },
+  {
+    "type": "quote",
+    "highlight": "Evaluation-as-Deployment, Not Evaluation-Then-Deployment"
+  },
+  {
+    "type": "insight",
+    "highlight": "Both Models Graded Live on Tokens Per Dollar"
+  },
+  {
+    "type": "action",
+    "highlight": "Re-Check Your Model Choice Every Release",
+    "label": "ACTION"
+  },
+  {
+    "type": "number",
+    "number": "384",
+    "highlight": "384 Points: Flag AI-Generated Articles"
+  },
+  {
+    "type": "quote",
+    "highlight": "You Click a Link and You Just Know"
+  },
+  {
+    "type": "insight",
+    "highlight": "A Meaningful Fraction of HN Links Are AI"
+  },
+  {
+    "type": "quote",
+    "highlight": "Quality Is About to Be a Differentiator"
+  },
+  {
+    "type": "insight",
+    "highlight": "Paid Content Regulated, Organic Left to Norms"
+  },
+  {
+    "type": "action",
+    "highlight": "Write Like You Mean It — That's an Edge",
+    "label": "ACTION"
+  },
+  {
+    "type": "quote",
+    "highlight": "GhostLock: a Kernel Bug Hiding Since 2011"
+  },
+  {
+    "type": "number",
+    "number": "15",
+    "highlight": "Fifteen Years Undetected in the Linux Kernel"
+  },
+  {
+    "type": "number",
+    "number": "97%",
+    "highlight": "5 Seconds to Root, 97% Reliability",
+    "subtext": "Unprivileged local attacker, default config"
+  },
+  {
+    "type": "quote",
+    "highlight": "Every Multi-Tenant Cloud Box Out There"
+  },
+  {
+    "type": "insight",
+    "highlight": "Patched Is Not the Same as Deployed"
+  },
+  {
+    "type": "action",
+    "highlight": "Go Check Your Kernel Version Today",
+    "label": "ACTION"
+  },
+  {
+    "type": "repo",
+    "highlight": "OpenCut: the Open-Source CapCut Replacement",
+    "label": "TRENDING"
+  },
+  {
+    "type": "number",
+    "number": "12",
+    "highlight": "203 Points, Only 12 Comments"
+  },
+  {
+    "type": "insight",
+    "highlight": "Nobody Argues With Something Just Correct"
+  },
+  {
+    "type": "quote",
+    "highlight": "People Are Still Building Un-Cynical Things"
+  },
+  {
+    "type": "insight",
+    "highlight": "Precision Beats Paralysis Under Rising Costs"
+  },
+  {
+    "type": "action",
+    "highlight": "Go Build the Thing You Care About",
+    "label": "ACTION"
+  },
+  {
+    "type": "close",
+    "highlight": "Small, Deliberate Choices Compound Too"
+  },
+  {
+    "type": "close",
+    "highlight": "Go Build Something. See You Tomorrow."
+  }
+]

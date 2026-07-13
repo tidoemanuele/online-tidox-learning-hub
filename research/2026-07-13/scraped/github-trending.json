@@ -1,0 +1,47 @@
+[
+  {
+    "name": "OpenCut",
+    "fullName": "OpenCut-app/OpenCut",
+    "description": "The open-source CapCut alternative. Free video editor, no watermarks, no subscriptions, no uploads required.",
+    "language": "TypeScript",
+    "stars_today": "812 stars today",
+    "total_stars": "81883",
+    "url": "https://github.com/OpenCut-app/OpenCut"
+  },
+  {
+    "name": "agent-skills",
+    "fullName": "addyosmani/agent-skills",
+    "description": "Production-grade engineering skills for AI coding agents — curated library of Claude Code skills for engineering workflows.",
+    "language": "JavaScript",
+    "stars_today": "681 stars today",
+    "total_stars": "77649",
+    "url": "https://github.com/addyosmani/agent-skills"
+  },
+  {
+    "name": "ai-job-search",
+    "fullName": "MadsLorentzen/ai-job-search",
+    "description": "AI-powered job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, and prepare for interviews.",
+    "language": "TypeScript",
+    "stars_today": "523 stars today",
+    "total_stars": "19421",
+    "url": "https://github.com/MadsLorentzen/ai-job-search"
+  },
+  {
+    "name": "colibri",
+    "fullName": "4JustVugg/colibri",
+    "description": "Run GLM-5.2 (744B MoE) on a 25GB-RAM consumer machine — pure C, zero deps, experts streamed from disk.",
+    "language": "C",
+    "stars_today": "447 stars today",
+    "total_stars": "60471",
+    "url": "https://github.com/4JustVugg/colibri"
+  },
+  {
+    "name": "BeavisUltrasound",
+    "fullName": "schlae/BeavisUltrasound",
+    "description": "Complete replica design for the Gravis Ultrasound PnP ISA sound card — KiCad schematics, layout, and BOM for a modern hardware rebuild.",
+    "language": "KiCad",
+    "stars_today": "384 stars today",
+    "total_stars": "3847",
+    "url": "https://github.com/schlae/BeavisUltrasound"
+  }
+]
