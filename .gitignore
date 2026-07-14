@@ -6,3 +6,7 @@ dist/
 .env
 .env.*
 .vercel/
+# Generated audio artifacts — too large for git; served from CDN or local disk
+*.wav
+*.mp3
+*.webm
