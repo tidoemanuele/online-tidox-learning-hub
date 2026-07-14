@@ -1,0 +1,245 @@
+[
+  {
+    "title": "Just Let Me Write Digits",
+    "score": 89,
+    "tags": [
+      "a11y",
+      "javascript",
+      "web"
+    ],
+    "url": "https://gendignoux.com/blog/2026/07/13/input-digits.html",
+    "comments_url": "https://lobste.rs/s/yf6vbc/just_let_me_write_digits"
+  },
+  {
+    "title": "lobste.rs is now running on SQLite",
+    "score": 243,
+    "tags": [
+      "meta"
+    ],
+    "url": "https://lobste.rs/s/ko1ji1/lobste_rs_is_now_running_on_sqlite",
+    "comments_url": "https://lobste.rs/s/ko1ji1/lobste_rs_is_now_running_on_sqlite"
+  },
+  {
+    "title": "Human Emacs",
+    "score": 68,
+    "tags": [
+      "emacs"
+    ],
+    "url": "https://human-emacs.org/",
+    "comments_url": "https://lobste.rs/s/t0aqzy/human_emacs"
+  },
+  {
+    "title": "Quadrupling code performance with a \"useless\" if",
+    "score": 113,
+    "tags": [
+      "c",
+      "performance"
+    ],
+    "url": "https://purplesyringa.moe/blog/quadrupling-code-performance-with-a-useless-if/",
+    "comments_url": "https://lobste.rs/s/1an425/quadrupling_code_performance_with"
+  },
+  {
+    "title": "Estimating the heights of New Yorkers from their scuff marks",
+    "score": 14,
+    "tags": [
+      "visualization"
+    ],
+    "url": "https://blog.jse.li/posts/smith9street/",
+    "comments_url": "https://lobste.rs/s/rtegvw/estimating_heights_new_yorkers_from"
+  },
+  {
+    "title": "crates.io: development update",
+    "score": 55,
+    "tags": [
+      "rust"
+    ],
+    "url": "https://blog.rust-lang.org/2026/07/13/crates-io-development-update/",
+    "comments_url": "https://lobste.rs/s/posxmd/crates_io_development_update"
+  },
+  {
+    "title": "The git history command deserves more attention",
+    "score": 9,
+    "tags": [
+      "vcs"
+    ],
+    "url": "https://lalitm.com/post/git-history/",
+    "comments_url": "https://lobste.rs/s/tb3el5/git_history_command_deserves_more"
+  },
+  {
+    "title": "How early SunOS did diskless workstations before NFS",
+    "score": 31,
+    "tags": [
+      "historical",
+      "unix"
+    ],
+    "url": "https://utcc.utoronto.ca/~cks/space/blog/solaris/SunOSDisklessWithoutNFS",
+    "comments_url": "https://lobste.rs/s/abza3v/how_early_sunos_did_diskless"
+  },
+  {
+    "title": "Control the ideas, not the code",
+    "score": 17,
+    "tags": [
+      "vibecoding"
+    ],
+    "url": "https://antirez.com/news/169",
+    "comments_url": "https://lobste.rs/s/5t3wzn/control_ideas_not_code"
+  },
+  {
+    "title": "Job queues are deceptively tricky",
+    "score": 2,
+    "tags": [
+      "distributed",
+      "practices"
+    ],
+    "url": "https://typesanitizer.com/blog/job-queues.html",
+    "comments_url": "https://lobste.rs/s/k3frwc/job_queues_are_deceptively_tricky"
+  },
+  {
+    "title": "Engineering High-Performance Parsers with Data-Oriented Design",
+    "score": 21,
+    "tags": [
+      "performance"
+    ],
+    "url": "https://arshad.fyi/writings/engineering-high-performance-parsers",
+    "comments_url": "https://lobste.rs/s/4smkjv/engineering_high_performance_parsers"
+  },
+  {
+    "title": "Closing a three-year-old issue using Rust arenas",
+    "score": 90,
+    "tags": [
+      "performance",
+      "rust"
+    ],
+    "url": "https://giacomocavalieri.me/writing/gleam-rust-arenas",
+    "comments_url": "https://lobste.rs/s/7840ca/closing_three_year_old_issue_using_rust"
+  },
+  {
+    "title": "Should Libraries Log or Propagate Errors?",
+    "score": 5,
+    "tags": [
+      "ask",
+      "programming"
+    ],
+    "url": "https://lobste.rs/s/v3avrp/should_libraries_log_propagate_errors",
+    "comments_url": "https://lobste.rs/s/v3avrp/should_libraries_log_propagate_errors"
+  },
+  {
+    "title": "Go-flavored concurrency in C",
+    "score": 13,
+    "tags": [
+      "c",
+      "go"
+    ],
+    "url": "https://antonz.org/concurrency-in-c/",
+    "comments_url": "https://lobste.rs/s/lzls6z/go_flavored_concurrency_c"
+  },
+  {
+    "title": "fred: A text editor that uses C for everything",
+    "score": 5,
+    "tags": [
+      "c",
+      "programming",
+      "video"
+    ],
+    "url": "https://www.youtube.com/watch?v=xz5aPCRxsv4",
+    "comments_url": "https://lobste.rs/s/nszzsn/fred_text_editor_uses_c_for_everything"
+  },
+  {
+    "title": "Evan's Jujutsu Tutorial",
+    "score": 75,
+    "tags": [
+      "vcs"
+    ],
+    "url": "https://evmar.github.io/jjtut/",
+    "comments_url": "https://lobste.rs/s/beqyuc/evan_s_jujutsu_tutorial"
+  },
+  {
+    "title": "A Farewell to ARPs: IPv4 Service on IPv6-Only Networks",
+    "score": 9,
+    "tags": [
+      "networking"
+    ],
+    "url": "https://labs.ripe.net/author/remco-van-mook/a-farewell-to-arps-ipv4-service-on-ipv6-only-networks/",
+    "comments_url": "https://lobste.rs/s/shzox9/farewell_arps_ipv4_service_on_ipv6_only"
+  },
+  {
+    "title": "Collection of clock designs",
+    "score": 3,
+    "tags": [
+      "design"
+    ],
+    "url": "https://clocks.dev",
+    "comments_url": "https://lobste.rs/s/jfx8do/collection_clock_designs"
+  },
+  {
+    "title": "What are you doing this week?",
+    "score": 15,
+    "tags": [
+      "ask",
+      "programming"
+    ],
+    "url": "https://lobste.rs/s/ozcrd0/what_are_you_doing_this_week",
+    "comments_url": "https://lobste.rs/s/ozcrd0/what_are_you_doing_this_week"
+  },
+  {
+    "title": "A WWDC 26 Update on Building a Mac-assed App with SwiftUI",
+    "score": 31,
+    "tags": [
+      "swift"
+    ],
+    "url": "https://pfandrade.me/blog/swiftui-mac-assed-wwdc27-update/",
+    "comments_url": "https://lobste.rs/s/temfk6/wwdc_26_update_on_building_mac_assed_app"
+  },
+  {
+    "title": "Hacker Fables - A satirical cyberpunk novella you can read as a man page",
+    "score": 35,
+    "tags": [
+      "art",
+      "book",
+      "satire"
+    ],
+    "url": "https://hacker-fables.onrender.com",
+    "comments_url": "https://lobste.rs/s/sca1qx/hacker_fables_satirical_cyberpunk"
+  },
+  {
+    "title": "From coder to curator",
+    "score": 4,
+    "tags": [
+      "vibecoding"
+    ],
+    "url": "https://staltz.com/from-coder-to-curator",
+    "comments_url": "https://lobste.rs/s/xngweb/from_coder_curator"
+  },
+  {
+    "title": "IPv6 over drainage pipe",
+    "score": 43,
+    "tags": [
+      "culture",
+      "hardware",
+      "networking"
+    ],
+    "url": "https://chaos.social/@marble/116720125530089009",
+    "comments_url": "https://lobste.rs/s/4rbnnj/ipv6_over_drainage_pipe"
+  },
+  {
+    "title": "Don’t Use aria-label on Static Text Elements (2024)",
+    "score": 8,
+    "tags": [
+      "a11y",
+      "web"
+    ],
+    "url": "https://benmyers.dev/blog/dont-use-aria-label-on-static-text-elements/",
+    "comments_url": "https://lobste.rs/s/2q39ny/don_t_use_aria_label_on_static_text"
+  },
+  {
+    "title": "CSS-DOS — A computer made of CSS",
+    "score": 3,
+    "tags": [
+      "css",
+      "vibecoding",
+      "web"
+    ],
+    "url": "https://css-dos.ahmedamer.co.uk/",
+    "comments_url": "https://lobste.rs/s/jvvfbe/css_dos_computer_made_css"
+  }
+]

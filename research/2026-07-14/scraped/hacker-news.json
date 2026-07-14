@@ -1,0 +1,212 @@
+[
+  {
+    "rank": 1,
+    "title": "Apple's new SpeechAnalyzer API, benchmarked against Whisper and its predecessor",
+    "url": "https://get-inscribe.com/blog/apple-speech-api-benchmark.html",
+    "points": 528,
+    "comments": 211
+  },
+  {
+    "rank": 2,
+    "title": "Building and shipping Mac and iOS apps without opening Xcode",
+    "url": "https://scottwillsey.com/building-and-shipping-mac-and-ios-apps-without-ever-opening-xcode/",
+    "points": 444,
+    "comments": 193
+  },
+  {
+    "rank": 3,
+    "title": "Japan develops a method to recover up to 90% of lithium from used EV batteries",
+    "url": "https://tech.supercarblondie.com/japan-recovers-up-to-90-of-lithium-from-used-ev-batteries/",
+    "points": 373,
+    "comments": 91
+  },
+  {
+    "rank": 4,
+    "title": "The Git history command deserves more attention",
+    "url": "https://lalitm.com/post/git-history/",
+    "points": 253,
+    "comments": 144
+  },
+  {
+    "rank": 5,
+    "title": "The infinite scroll may become endangered if controversial Calif. law passes",
+    "url": "https://www.sfgate.com/politics/article/meta-social-media-teenagers-22337724.php",
+    "points": 151,
+    "comments": 264
+  },
+  {
+    "rank": 6,
+    "title": "An Englishwoman who sketched India before photography took hold",
+    "url": "https://www.bbc.com/news/articles/cm2drrv6q54o",
+    "points": 132,
+    "comments": 37
+  },
+  {
+    "rank": 7,
+    "title": "Linux on the Sega 32X. Who needs hardware synchronization primitives anyway?",
+    "url": "https://cakehonolulu.github.io/linux-on-32x/",
+    "points": 123,
+    "comments": 24
+  },
+  {
+    "rank": 8,
+    "title": "Ancient Roman Board Game",
+    "url": "https://ludus-coriovalli.web.app/",
+    "points": 120,
+    "comments": 45
+  },
+  {
+    "rank": 9,
+    "title": "Fundamentals of Wireless Communication (2005)",
+    "url": "https://web.stanford.edu/~dntse/wireless_book.html",
+    "points": 117,
+    "comments": 3
+  },
+  {
+    "rank": 10,
+    "title": "What will be left for us to work on?",
+    "url": "https://www.normaltech.ai/p/what-will-be-left-for-us-to-work",
+    "points": 116,
+    "comments": 117
+  },
+  {
+    "rank": 11,
+    "title": "YouTrackDB is a general-use object-oriented graph database",
+    "url": "https://github.com/JetBrains/youtrackdb",
+    "points": 94,
+    "comments": 25
+  },
+  {
+    "rank": 12,
+    "title": "Show HN: I implemented a neural network in SQL",
+    "url": "https://github.com/xqlsystems/xarray-sql/blob/claude/xarray-sql-mnist-demo/benchmarks/nn.py",
+    "points": 89,
+    "comments": 17
+  },
+  {
+    "rank": 13,
+    "title": "Show HN: Jacquard, a programming language for AI-written, human-reviewed code",
+    "url": "https://github.com/jbwinters/jacquard-lang",
+    "points": 84,
+    "comments": 44
+  },
+  {
+    "rank": 14,
+    "title": "The Economics of Recursive Self-Improvement [pdf]",
+    "url": "https://elasticity.institute/rsi-paper.pdf",
+    "points": 81,
+    "comments": 22
+  },
+  {
+    "rank": 15,
+    "title": "TFTP Honey Pot Results",
+    "url": "https://bruceediger.com/posts/tftp-honeypot-results/",
+    "points": 79,
+    "comments": 34
+  },
+  {
+    "rank": 16,
+    "title": "Satellite Tracker – Live Map of Starlink and 30k Satellites",
+    "url": "https://satellitemap.space/",
+    "points": 73,
+    "comments": 25
+  },
+  {
+    "rank": 17,
+    "title": "How to build a circular LCD clock",
+    "url": "https://blinry.org/lcd-clock/",
+    "points": 68,
+    "comments": 22
+  },
+  {
+    "rank": 18,
+    "title": "Is x86 ready to ACE it?",
+    "url": "https://chipsandcheese.com/p/is-x86-ready-to-ace-it",
+    "points": 64,
+    "comments": 9
+  },
+  {
+    "rank": 19,
+    "title": "MorphoHDL: A minimalistic language for growing circuits",
+    "url": "https://paradigms-of-intelligence.github.io/morpho/",
+    "points": 59,
+    "comments": 8
+  },
+  {
+    "rank": 20,
+    "title": "A Study of Microsoft's Early 2026 Rollout of Claude Code and GitHub Copilot CLI",
+    "url": "https://arxiv.org/abs/2607.01418",
+    "points": 56,
+    "comments": 35
+  },
+  {
+    "rank": 21,
+    "title": "World-First 'Super Alloy' Could Transform the Way Metals Are Made",
+    "url": "https://www.sciencealert.com/world-first-super-alloy-could-transform-the-way-metals-are-made",
+    "points": 54,
+    "comments": 26
+  },
+  {
+    "rank": 22,
+    "title": "Show HN: Hackney – Compare Uber, Lyft, Waymo, and Robotaxi Prices",
+    "url": "https://hackney.app/",
+    "points": 45,
+    "comments": 41
+  },
+  {
+    "rank": 23,
+    "title": "Our Amish Language",
+    "url": "https://www.thedial.world/articles/news/amish-pennsylvania-dutch",
+    "points": 39,
+    "comments": 16
+  },
+  {
+    "rank": 24,
+    "title": "OpenAI's Ad Business Is on Pace to Miss Its Own Forecast by 90%, Analyst Says",
+    "url": "https://www.adweek.com/media/openais-ad-business-is-on-pace-to-miss-its-own-forecast-by-90-analyst-says/",
+    "points": 38,
+    "comments": 19
+  },
+  {
+    "rank": 25,
+    "title": "Writing a bindless GPU abstraction layer",
+    "url": "https://www.kevin-gibson.com/blog/writing-a-bindless-gpu-abstraction-layer/",
+    "points": 37,
+    "comments": 1
+  },
+  {
+    "rank": 26,
+    "title": "Show HN: Sx 2.0 – Share AI skills with your team through a Dropbox folder",
+    "url": "https://sleuth-io.github.io/sx/2026/07/10/your-dropbox-is-now-a-skill-server.html",
+    "points": 34,
+    "comments": 29
+  },
+  {
+    "rank": 27,
+    "title": "Building Food Metadata with LLM Juries",
+    "url": "https://careersatdoordash.com/blog/building-food-metadata-with-llm-juries-context-optimization-multimodal-ai/",
+    "points": 32,
+    "comments": 8
+  },
+  {
+    "rank": 28,
+    "title": "How to organize 3 acquired companies into one coherent website",
+    "url": "https://littlelanguagemodels.com/how-to-structure-your-sites-after-a-big-acquisition/",
+    "points": 13,
+    "comments": 0
+  },
+  {
+    "rank": 29,
+    "title": "Conway's Game of Life, in real life",
+    "url": "https://lcamtuf.coredump.cx/blog/conway/",
+    "points": 12,
+    "comments": 1
+  },
+  {
+    "rank": 30,
+    "title": "Show HN: I rewrote my 2012 self-signed cert generator in Go – cert-depot.com",
+    "url": "https://news.ycombinator.com/item?id=47613622",
+    "points": 9,
+    "comments": 1
+  }
+]
