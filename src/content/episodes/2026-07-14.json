@@ -1,0 +1,138 @@
+{
+  "date": "2026-07-14",
+  "episodeNumber": 114,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "Apple's SpeechAnalyzer API cuts word-error-rate 3., A Microsoft-authored study of tens of thousands of, Reddit's old.reddit login-wall story resurfaces on",
+  "insights": [
+    {
+      "text": "Apple's SpeechAnalyzer API cuts word-error-rate 3.5-4x versus its own predecessor (9.02%→2.12% on clean speech, 16.25%→4.56% on noisy speech) and runs roughly 3x faster than Whisper Small — but it's a closed model covering only 9 languages versus Whisper's much broader coverage.",
+      "tags": [
+        "voice-tts",
+        "on-device",
+        "apple"
+      ],
+      "source": "Hacker News / independent SpeechAnalyzer benchmarks",
+      "url": "https://news.ycombinator.com/item?id=48894752"
+    },
+    {
+      "text": "A Microsoft-authored study of tens of thousands of engineers found Claude Code and Copilot CLI adoption spread peer-to-peer, and adopters merged roughly 24% more pull requests — published in the same window Microsoft's own June 30, 2026 deadline had already forced employees to drop Claude Code for Copilot CLI.",
+      "tags": [
+        "claude-code",
+        "harness-engineering",
+        "adoption"
+      ],
+      "source": "arXiv / Hacker News",
+      "url": "https://arxiv.org/abs/2607.01418"
+    },
+    {
+      "text": "Reddit's old.reddit login-wall story resurfaces on Tildes at 113 votes/98 comments (up from 112/98 a week ago) — 13 days into the announced one-month rollout window; this pipeline's own RSS/JSON fallback for r/LocalLLaMA and r/programming still works, unchanged.",
+      "tags": [
+        "open-web",
+        "scraping",
+        "reddit"
+      ],
+      "source": "Tildes ~tech",
+      "url": "https://tildes.net/~tech"
+    },
+    {
+      "text": "Nous Research, maker of the open-weight Hermes agent (~214K GitHub stars, ~40K forks), is finalizing a funding round at a $1.5B valuation led by Robot Ventures with USV — three months after a $50M Series A.",
+      "tags": [
+        "agent-frameworks",
+        "funding",
+        "open-weight"
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/"
+    },
+    {
+      "text": "OpenCut, an MIT-licensed, local-processing open-source CapCut alternative backed by Vercel and fal.ai, is today's #1 GitHub Trending repo at +1,229 stars/day (67,286 total) — positioned explicitly against CapCut's paywalling of basic editing features.",
+      "tags": [
+        "github-trending",
+        "open-source",
+        "video"
+      ],
+      "source": "GitHub Trending",
+      "url": "https://github.com/OpenCut-app/OpenCut"
+    },
+    {
+      "text": "HKUDS/Vibe-Trading, an AI personal-trading agent, accelerated to +1,153 stars/day (22,040 total) today from yesterday's +768/day debut (20,790 total) — the agent-does-a-full-job-function pattern continuing into personal finance.",
+      "tags": [
+        "github-trending",
+        "ai-agents",
+        "workforce"
+      ],
+      "source": "GitHub Trending",
+      "url": "https://github.com/HKUDS/Vibe-Trading"
+    },
+    {
+      "text": "Apple is reportedly designing its M7 Ultra chip (targeted 2028) to support up to 1.5TB of unified memory — triple the current M3 Ultra limit — aimed at Blackwell-class on-device AI performance, per Bloomberg's Mark Gurman.",
+      "tags": [
+        "local-inference",
+        "apple",
+        "hardware"
+      ],
+      "source": "Bloomberg / r/LocalLLaMA",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-07-12/apple-s-chip-plans-m6-m7-pro-m7-max-m7-ultra-m8-details-touch-macbook-pro"
+    },
+    {
+      "text": "Today's Google Play top-30 scrape returned 'Lite'/regional app variants (Facebook Lite #2, WhatsApp Business #3, TikTok Lite #5) not seen in the plain-named chart tracked since July 7, and the privacy tier (Firefox, Signal, Proton Mail) that held steady ranks for six straight days is absent from the visible top-30 entirely — flagged as an open data-quality question, not a confirmed trend.",
+      "tags": [
+        "play-store",
+        "aso",
+        "data-quality"
+      ],
+      "source": "Google Play Store scrape",
+      "url": "https://play.google.com/store/apps/top"
+    }
+  ],
+  "trending": [],
+  "numbers": [
+    {
+      "label": "Stories",
+      "value": "0",
+      "unit": "items"
+    },
+    {
+      "label": "Repos",
+      "value": "0",
+      "unit": "tracked"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "1",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "July 14, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Apple's SpeechAnalyzer API cuts word-error-rate 3.5-4x versus its own predecessor and runs roughly 3x faster than Whisper Small",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "A Microsoft-authored study of tens of thousands of engineers found Claude Code and Copilot CLI adoption spread peer-to-peer, and adopters merged roughly 24% more pull requests",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Reddit's old.reddit login-wall story resurfaces on Tildes at 113 votes/98 comments",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Apple's SpeechAnalyzer posts a large, independently-corroborated accuracy jump over Whisper and its own predecessor but ships closed and limited to 9 languages, landing on this cycle's Voice/TTS rotation day; a Microsoft-authored study finds Claude Code adopters merged ~24% more PRs, published in the same window the company's own June 30 deadline had already forced engineers off the tool; Reddit's login-wall story keeps quietly accumulating engagement 13 days into its announced rollout while this pipeline's fallback still works; and Nous Research's open-weight Hermes agent reaches a $1.5B funding-talks valuation three months after a $50M Series A."
+    }
+  }
+}
