@@ -1,0 +1,92 @@
+[
+  {
+    "name": "OpenCut",
+    "fullName": "OpenCut-app/OpenCut",
+    "description": "The open-source CapCut alternative",
+    "language": "TypeScript",
+    "stars_today": "4276 stars today",
+    "total_stars": "69522",
+    "url": "https://github.com/OpenCut-app/OpenCut"
+  },
+  {
+    "name": "graphify",
+    "fullName": "Graphify-Labs/graphify",
+    "description": "AI coding assistant skill to turn code, schemas, and docs into a queryable knowledge graph",
+    "language": "Python",
+    "stars_today": "1851 stars today",
+    "total_stars": "86754",
+    "url": "https://github.com/Graphify-Labs/graphify"
+  },
+  {
+    "name": "skills",
+    "fullName": "mattpocock/skills",
+    "description": "Skills for Real Engineers. Straight from my .claude directory.",
+    "language": "Shell",
+    "stars_today": "1679 stars today",
+    "total_stars": "170809",
+    "url": "https://github.com/mattpocock/skills"
+  },
+  {
+    "name": "Vibe-Trading",
+    "fullName": "HKUDS/Vibe-Trading",
+    "description": "Vibe-Trading: Your Personal Trading Agent",
+    "language": "Python",
+    "stars_today": "1256 stars today",
+    "total_stars": "23101",
+    "url": "https://github.com/HKUDS/Vibe-Trading"
+  },
+  {
+    "name": "chinese-independent-developer",
+    "fullName": "1c7/chinese-independent-developer",
+    "description": "中国独立开发者项目列表 -- 分享大家都在做什么",
+    "language": "Python",
+    "stars_today": "1196 stars today",
+    "total_stars": "54598",
+    "url": "https://github.com/1c7/chinese-independent-developer"
+  },
+  {
+    "name": "awesome-llm-apps",
+    "fullName": "Shubhamsaboo/awesome-llm-apps",
+    "description": "100+ AI Agent and RAG apps you can actually run — clone, customize, ship.",
+    "language": "Python",
+    "stars_today": "1106 stars today",
+    "total_stars": "121161",
+    "url": "https://github.com/Shubhamsaboo/awesome-llm-apps"
+  },
+  {
+    "name": "hallmark",
+    "fullName": "Nutlope/hallmark",
+    "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+    "language": "CSS",
+    "stars_today": "1015 stars today",
+    "total_stars": "6369",
+    "url": "https://github.com/Nutlope/hallmark"
+  },
+  {
+    "name": "exercises-dataset",
+    "fullName": "hasaneyldrm/exercises-dataset",
+    "description": "1,324-exercise fitness dataset with animations, thumbnails, and multi-language instructions.",
+    "language": "HTML",
+    "stars_today": "851 stars today",
+    "total_stars": "13776",
+    "url": "https://github.com/hasaneyldrm/exercises-dataset"
+  },
+  {
+    "name": "Win11Debloat",
+    "fullName": "Raphire/Win11Debloat",
+    "description": "PowerShell script to remove pre-installed apps, disable telemetry, and customize Windows.",
+    "language": "PowerShell",
+    "stars_today": "783 stars today",
+    "total_stars": "51922",
+    "url": "https://github.com/Raphire/Win11Debloat"
+  },
+  {
+    "name": "penpot",
+    "fullName": "penpot/penpot",
+    "description": "Open-source design platform for product teams needing scalable collaboration.",
+    "language": "Clojure",
+    "stars_today": "395 stars today",
+    "total_stars": "56289",
+    "url": "https://github.com/penpot/penpot"
+  }
+]

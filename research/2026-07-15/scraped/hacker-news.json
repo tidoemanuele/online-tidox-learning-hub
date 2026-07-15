@@ -1,0 +1,162 @@
+[
+  {
+    "rank": 1,
+    "title": "Jurassic Park computers in excruciating detail",
+    "url": "https://fabiensanglard.net/jurrasic_park_computers/index.html",
+    "hn_url": "https://news.ycombinator.com/item?id=48915709",
+    "points": 213,
+    "comments": 49
+  },
+  {
+    "rank": 2,
+    "title": "Vancouver PD website features Quick Escape button that wipes itself from history",
+    "url": "https://vpd.ca/",
+    "hn_url": "https://news.ycombinator.com/item?id=48914644",
+    "points": 212,
+    "comments": 77
+  },
+  {
+    "rank": 3,
+    "title": "TS-2026-009: Insecure argument handling in Tailscale SSH permitted root access",
+    "url": "https://tailscale.com/security-bulletins",
+    "hn_url": "https://news.ycombinator.com/item?id=48915004",
+    "points": 104,
+    "comments": 43
+  },
+  {
+    "rank": 4,
+    "title": "Bonsai 27B: A 27B-Class model that runs on a phone",
+    "url": "https://prismml.com/news/bonsai-27b",
+    "hn_url": "https://news.ycombinator.com/item?id=48910545",
+    "points": 524,
+    "comments": 187
+  },
+  {
+    "rank": 5,
+    "title": "Andon (manufacturing)",
+    "url": "https://en.wikipedia.org/wiki/Andon_(manufacturing)",
+    "hn_url": "https://news.ycombinator.com/item?id=48875188",
+    "points": 19,
+    "comments": 0
+  },
+  {
+    "rank": 6,
+    "title": "Dependabot version updates introduce default package cooldown",
+    "url": "https://github.blog/changelog/2026-07-14-dependabot-version-updates-introduce-default-package-cooldown/",
+    "hn_url": "https://news.ycombinator.com/item?id=48913050",
+    "points": 147,
+    "comments": 86
+  },
+  {
+    "rank": 7,
+    "title": "The Tower Keeps Rising",
+    "url": "https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/",
+    "hn_url": "https://news.ycombinator.com/item?id=48909785",
+    "points": 422,
+    "comments": 190
+  },
+  {
+    "rank": 8,
+    "title": "Cursor 0day: When Full Disclosure Becomes the Only Protection Left",
+    "url": "https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left",
+    "hn_url": "https://news.ycombinator.com/item?id=48910676",
+    "points": 313,
+    "comments": 151
+  },
+  {
+    "rank": 9,
+    "title": "Financing the AI boom: from cash flows to debt [pdf]",
+    "url": "https://www.bis.org/publ/bisbull120.pdf",
+    "hn_url": "https://news.ycombinator.com/item?id=48913443",
+    "points": 138,
+    "comments": 77
+  },
+  {
+    "rank": 10,
+    "title": "Solving 20 Erd\u0151s Problems with 20 Codex Accounts Running in Parallel",
+    "url": "https://www.starfleetmath.com/",
+    "hn_url": "https://news.ycombinator.com/item?id=48914646",
+    "points": 100,
+    "comments": 43
+  },
+  {
+    "rank": 11,
+    "title": "How I use HTMX with Go",
+    "url": "https://www.alexedwards.net/blog/how-i-use-htmx-with-go",
+    "hn_url": "https://news.ycombinator.com/item?id=48912175",
+    "points": 184,
+    "comments": 42
+  },
+  {
+    "rank": 12,
+    "title": "The bread paradox: why convenience always wins, and why SaaS isn't doomed",
+    "url": "https://www.joanwestenberg.com/p/the-bread-paradox-why-convenience",
+    "hn_url": "https://news.ycombinator.com/item?id=48896672",
+    "points": 41,
+    "comments": 19
+  },
+  {
+    "rank": 13,
+    "title": "How to stop Claude from saying load-bearing",
+    "url": "https://jola.dev/posts/how-to-stop-claude-from-saying-load-bearing",
+    "hn_url": "https://news.ycombinator.com/item?id=48905248",
+    "points": 488,
+    "comments": 529
+  },
+  {
+    "rank": 14,
+    "title": "Microsoft Patches a Record 570 Security Flaws",
+    "url": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
+    "hn_url": "https://news.ycombinator.com/item?id=48913190",
+    "points": 85,
+    "comments": 40
+  },
+  {
+    "rank": 15,
+    "title": "I'm a USB-C Maximalist",
+    "url": "https://shkspr.mobi/blog/2026/07/im-a-usb-c-maximalist/",
+    "hn_url": "https://news.ycombinator.com/item?id=48908214",
+    "points": 229,
+    "comments": 332
+  },
+  {
+    "rank": 16,
+    "title": "Data centers have hiked electricity prices on the public by $23B",
+    "url": "https://fortune.com/2026/07/14/data-centers-23-billion-electricity-bills/",
+    "hn_url": "https://news.ycombinator.com/item?id=48914683",
+    "points": 156,
+    "comments": 92
+  },
+  {
+    "rank": 17,
+    "title": "Mathematical texts from a Maya site in Guatemala identify an ancient astronomer",
+    "url": "https://www.nature.com/articles/d41586-026-02170-8",
+    "hn_url": "https://news.ycombinator.com/item?id=48905183",
+    "points": 67,
+    "comments": 18
+  },
+  {
+    "rank": 18,
+    "title": "LeMario: Training a JEPA World Model on Super Mario Bros",
+    "url": "https://www.benjamin-bai.com/projects/lemario",
+    "hn_url": "https://news.ycombinator.com/item?id=48913763",
+    "points": 75,
+    "comments": 10
+  },
+  {
+    "rank": 19,
+    "title": "The kids with phones are alright",
+    "url": "https://heatherburns.tech/2026/07/08/the-kids-with-phones-are-alright/",
+    "hn_url": "https://news.ycombinator.com/item?id=48870217",
+    "points": 177,
+    "comments": 130
+  },
+  {
+    "rank": 20,
+    "title": "The largest available Minecraft world, totalling 15 TB",
+    "url": "https://2b2t.place/1million",
+    "hn_url": "https://news.ycombinator.com/item?id=48872401",
+    "points": 192,
+    "comments": 65
+  }
+]

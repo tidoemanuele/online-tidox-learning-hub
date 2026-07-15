@@ -1,0 +1,178 @@
+[
+  {
+    "type": "intro",
+    "highlight": "Twenty-seven billion parameters, running on an iPhone",
+    "subtext": "Today's headline number in one stat"
+  },
+  {
+    "type": "intro",
+    "highlight": "Wait, an iPhone? No internet required?"
+  },
+  {
+    "type": "number",
+    "number": "90%",
+    "highlight": "90% of full-precision performance on a phone",
+    "subtext": "Bonsai 27B, 3.9GB, 11 tokens per second",
+    "label": "PRISMML BONSAI 27B"
+  },
+  {
+    "type": "insight",
+    "highlight": "The 'we need the cloud' argument just got weaker"
+  },
+  {
+    "type": "insight",
+    "highlight": "The first 27B-class model on a phone",
+    "subtext": "Where coding and agentic tasks get useful"
+  },
+  {
+    "type": "quote",
+    "highlight": "Any dev can drop this into an app today"
+  },
+  {
+    "type": "insight",
+    "highlight": "Offline AI becomes a checkbox, not a research project",
+    "label": "APACHE 2.0"
+  },
+  {
+    "type": "quote",
+    "highlight": "That's not the only local-first story today"
+  },
+  {
+    "type": "repo",
+    "highlight": "OpenCut",
+    "subtext": "4,000+ stars in a single day",
+    "label": "GITHUB"
+  },
+  {
+    "type": "insight",
+    "highlight": "No uploads — runs on your own hardware",
+    "subtext": "Same thesis as Bonsai, applied to video"
+  },
+  {
+    "type": "insight",
+    "highlight": "Capability is moving off the server, onto your device"
+  },
+  {
+    "type": "action",
+    "highlight": "Stop assuming your AI feature needs an API call",
+    "label": "ACTION"
+  },
+  {
+    "type": "quote",
+    "highlight": "Local isn't the fallback anymore — it's the default"
+  },
+  {
+    "type": "quote",
+    "highlight": "How to Stop Claude from Saying 'Load-Bearing'"
+  },
+  {
+    "type": "number",
+    "number": "529",
+    "highlight": "529 comments outnumber 488 upvotes",
+    "subtext": "More comments than points — that almost never happens"
+  },
+  {
+    "type": "quote",
+    "highlight": "Why does that ratio even matter?"
+  },
+  {
+    "type": "insight",
+    "highlight": "Everyone's got a personal list of Claude tics",
+    "subtext": "'It's worth noting,' 'certainly,' 'great question'"
+  },
+  {
+    "type": "quote",
+    "highlight": "Crowdsourced quality control for AI writing style"
+  },
+  {
+    "type": "insight",
+    "highlight": "RLHF rewarded 'sounds helpful' over 'is helpful'"
+  },
+  {
+    "type": "action",
+    "highlight": "Write style guardrails into your prompts",
+    "label": "ACTION"
+  },
+  {
+    "type": "quote",
+    "highlight": "The Tower Keeps Rising",
+    "label": "ARMIN RONACHER"
+  },
+  {
+    "type": "quote",
+    "highlight": "The Flask creator — what's his angle?"
+  },
+  {
+    "type": "insight",
+    "highlight": "Every layer raises the floor for newcomers",
+    "subtext": "The tower never stops growing"
+  },
+  {
+    "type": "quote",
+    "highlight": "Doesn't AI coding help with exactly that?"
+  },
+  {
+    "type": "insight",
+    "highlight": "Lowers the cost of climbing, not the tower's height"
+  },
+  {
+    "type": "repo",
+    "highlight": "skills",
+    "subtext": "His own Claude Code setup, made public",
+    "label": "MATT POCOCK"
+  },
+  {
+    "type": "insight",
+    "highlight": "One documents the tower, one builds the gear"
+  },
+  {
+    "type": "action",
+    "highlight": "Stop reinventing your agent setup from scratch",
+    "label": "ACTION"
+  },
+  {
+    "type": "quote",
+    "highlight": "Opening a file is the attack",
+    "label": "CURSOR ZERO-DAY"
+  },
+  {
+    "type": "quote",
+    "highlight": "Not clicking, not running anything?"
+  },
+  {
+    "type": "insight",
+    "highlight": "The vulnerability is the model doing its job",
+    "subtext": "Prompt injection isn't a bug you patch"
+  },
+  {
+    "type": "insight",
+    "highlight": "File system access means your secrets' access too"
+  },
+  {
+    "type": "insight",
+    "highlight": "Pushing intelligence onto devices, agents more autonomy"
+  },
+  {
+    "type": "insight",
+    "highlight": "Local also means nobody's watching the perimeter"
+  },
+  {
+    "type": "quote",
+    "highlight": "The tools have never been more available",
+    "subtext": "The responsibility has never been more yours"
+  },
+  {
+    "type": "action",
+    "highlight": "Go prototype something tonight",
+    "subtext": "A local model, a sandboxed agent, done right",
+    "label": "ACTION"
+  },
+  {
+    "type": "close",
+    "highlight": "Don't wait for someone else to build it"
+  },
+  {
+    "type": "close",
+    "highlight": "Build it yourself"
+  }
+]

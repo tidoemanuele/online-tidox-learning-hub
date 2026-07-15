@@ -1,0 +1,147 @@
+[
+  {
+    "title": "You should probably check on your smart appliances",
+    "score": 29,
+    "tags": [
+      "security",
+      "web"
+    ],
+    "url": "https://xeiaso.net/notes/2026/check-your-smart-tv/",
+    "comments_url": "https://lobste.rs/s/slrak5/you_should_probably_check_on_your_smart"
+  },
+  {
+    "title": "qr-swastika-avoider v0.1.0",
+    "score": 19,
+    "tags": [
+      "rust"
+    ],
+    "url": "https://crates.io/crates/qr-swastika-avoider",
+    "comments_url": "https://lobste.rs/s/h7pett/qr_swastika_avoider_v0_1_0"
+  },
+  {
+    "title": "whatcable: macOS menu bar app that tells you, in plain English, what each USB-C cable plugged into your Mac can actually do",
+    "score": 37,
+    "tags": [
+      "hardware",
+      "mac",
+      "vibecoding"
+    ],
+    "url": "https://github.com/darrylmorley/whatcable",
+    "comments_url": "https://lobste.rs/s/tzzarv/whatcable_macos_menu_bar_app_tells_you"
+  },
+  {
+    "title": "Too many words about DIDs",
+    "score": 28,
+    "tags": [
+      "distributed",
+      "web"
+    ],
+    "url": "https://steveklabnik.com/writing/too-many-words-about-dids/",
+    "comments_url": "https://lobste.rs/s/86lwsv/too_many_words_about_dids"
+  },
+  {
+    "title": "Jurassic Park computers in excruciating detail",
+    "score": 74,
+    "tags": [
+      "historical"
+    ],
+    "url": "https://fabiensanglard.net/jurrasic_park_computers/index.html",
+    "comments_url": "https://lobste.rs/s/xv8dix/jurassic_park_computers_excruciating"
+  },
+  {
+    "title": "Just Let Me Write Digits",
+    "score": 144,
+    "tags": [
+      "a11y",
+      "javascript",
+      "web"
+    ],
+    "url": "https://gendignoux.com/blog/2026/07/13/input-digits.html",
+    "comments_url": "https://lobste.rs/s/yf6vbc/just_let_me_write_digits"
+  },
+  {
+    "title": "6\u00d7 faster binary search: from compiled code to mechanical sympathy",
+    "score": 22,
+    "tags": [
+      "performance",
+      "rust"
+    ],
+    "url": "https://pythonspeed.com/articles/branchless-binary-search/",
+    "comments_url": "https://lobste.rs/s/czbhmr/6x_faster_binary_search_from_compiled"
+  },
+  {
+    "title": "Job queues are deceptively tricky",
+    "score": 21,
+    "tags": [
+      "distributed",
+      "practices"
+    ],
+    "url": "https://typesanitizer.com/blog/job-queues.html",
+    "comments_url": "https://lobste.rs/s/k3frwc/job_queues_are_deceptively_tricky"
+  },
+  {
+    "title": "git-absorb: git commit --fixup, but automatic",
+    "score": 34,
+    "tags": [
+      "vcs"
+    ],
+    "url": "https://github.com/tummychow/git-absorb",
+    "comments_url": "https://lobste.rs/s/nprldj/git_absorb_git_commit_fixup_automatic"
+  },
+  {
+    "title": "lobste.rs is now running on SQLite",
+    "score": 395,
+    "tags": [
+      "meta"
+    ],
+    "url": "",
+    "comments_url": "https://lobste.rs/s/ko1ji1/lobste_rs_is_now_running_on_sqlite"
+  },
+  {
+    "title": "How I use HTMX with Go",
+    "score": 18,
+    "tags": [
+      "go",
+      "web"
+    ],
+    "url": "https://www.alexedwards.net/blog/how-i-use-htmx-with-go",
+    "comments_url": "https://lobste.rs/s/rg1wee/how_i_use_htmx_with_go"
+  },
+  {
+    "title": "Temper Language",
+    "score": 14,
+    "tags": [
+      "plt"
+    ],
+    "url": "https://temperlang.dev/",
+    "comments_url": "https://lobste.rs/s/in1oer/temper_language"
+  },
+  {
+    "title": "Measuring input latency on Linux: X11 vs Wayland, VRR, and DXVK",
+    "score": 15,
+    "tags": [
+      "games",
+      "linux"
+    ],
+    "url": "https://marco-nett.de/blog/measuring-input-latency-on-linux-x11-vs-wayland-vrr-dxvk/",
+    "comments_url": "https://lobste.rs/s/pw5yuk/measuring_input_latency_on_linux_x11_vs"
+  },
+  {
+    "title": "How my images are dithered",
+    "score": 20,
+    "tags": [
+      "graphics"
+    ],
+    "url": "https://dead.garden/blog/how-my-images-are-dithered.html",
+    "comments_url": "https://lobste.rs/s/2gbb6l/how_my_images_are_dithered"
+  },
+  {
+    "title": "The git history command deserves more attention",
+    "score": 64,
+    "tags": [
+      "vcs"
+    ],
+    "url": "https://lalitm.com/post/git-history/",
+    "comments_url": "https://lobste.rs/s/tb3el5/git_history_command_deserves_more"
+  }
+]

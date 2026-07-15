@@ -1,0 +1,154 @@
+[
+  [
+    "A",
+    "Twenty-seven billion parameters. Running on an iPhone. That's today's headline number, and I think it's the whole episode in one stat."
+  ],
+  [
+    "B",
+    "Wait, an iPhone? Like, in your pocket, no internet required?"
+  ],
+  [
+    "A",
+    "PrismML's Bonsai 27B. One-bit quantized version of Qwen 3.6, 3.9 gigabytes of memory, eleven tokens a second on an iPhone 17 Pro. Ninety percent of full-precision performance."
+  ],
+  [
+    "B",
+    "OK so if that's true, then every 'we need the cloud for real intelligence' argument just got a lot weaker."
+  ],
+  [
+    "A",
+    "That's exactly the threshold it crosses. Not the first model on a phone — the first *27B-class* model. That's the size where coding and agentic tasks start being genuinely useful."
+  ],
+  [
+    "B",
+    "And it's Apache 2.0, right? So any dev can just... drop this into an app today."
+  ],
+  [
+    "A",
+    "No per-deployment licensing. Offline AI features become a checkbox, not a research project."
+  ],
+  [
+    "B",
+    "Here's what I keep coming back to though — that's not the only local-first thing blowing up today."
+  ],
+  [
+    "A",
+    "Right, notice the pattern. OpenCut, the local video editor, is the single fastest-growing repo on GitHub right now. Over four thousand stars in a day."
+  ],
+  [
+    "B",
+    "No uploads, runs on your own hardware. Same exact thesis as Bonsai, just for video instead of inference."
+  ],
+  [
+    "A",
+    "Two different teams, two different domains, same conclusion on the same day: capability is moving off the server and onto your device."
+  ],
+  [
+    "B",
+    "So the action item for builders is — stop assuming your AI feature needs an API call. Start asking what runs locally first."
+  ],
+  [
+    "A",
+    "That's the shift. Local isn't the fallback anymore, it's the default worth designing for."
+  ],
+  [
+    "B",
+    "OK, switching gears — the one that got me was 'How to Stop Claude from Saying Load-Bearing.'"
+  ],
+  [
+    "A",
+    "Four hundred eighty-eight points, but five hundred twenty-nine comments. More comments than points — that almost never happens."
+  ],
+  [
+    "B",
+    "Wait, why does that ratio even matter?"
+  ],
+  [
+    "A",
+    "It means people aren't just agreeing, they're each contributing their own evidence. Everyone's got a personal list of Claude tics — 'it's worth noting,' 'certainly,' 'great question.'"
+  ],
+  [
+    "B",
+    "Oh, that's kind of amazing actually. It's crowdsourced quality control for AI writing style."
+  ],
+  [
+    "A",
+    "And it tells you something structural: RLHF rewarded 'sounds helpful' over 'is helpful.' Five hundred comments is the community mapping exactly where that went wrong."
+  ],
+  [
+    "B",
+    "So if you're building on top of these models, that's your cue to write style guardrails into your prompts, not just trust the default voice."
+  ],
+  [
+    "A",
+    "Which connects to the next story — Armin Ronacher's piece, 'The Tower Keeps Rising.'"
+  ],
+  [
+    "B",
+    "The Flask guy. What's his angle?"
+  ],
+  [
+    "A",
+    "Every layer of the modern stack — frameworks, types, build tools — adds productivity but also raises the floor for anyone new walking in. The tower never stops growing."
+  ],
+  [
+    "B",
+    "Hmm, but wait — doesn't AI coding help with exactly that? Like, isn't that the whole pitch?"
+  ],
+  [
+    "A",
+    "It lowers the cost of climbing, not the height of the tower. You can build higher before it gets unbearable, but the complexity's still there underneath."
+  ],
+  [
+    "B",
+    "That's actually a little unsettling. And then Matt Pocock's 'skills' repo is trending the same day — his own Claude Code setup, public."
+  ],
+  [
+    "A",
+    "Exactly the compound. One story documents the tower's height, the other is someone literally building the climbing gear and giving it away."
+  ],
+  [
+    "B",
+    "OK, so builders — stop reinventing your agent setup from scratch, go look at what people who've already climbed this thing are sharing."
+  ],
+  [
+    "A",
+    "One more thread we can't skip — the Cursor zero-day. Attacker plants a payload in a file, Cursor's own instruction-following leaks your credentials out."
+  ],
+  [
+    "B",
+    "Wait, so opening a file is the attack? Not clicking anything, not running anything?"
+  ],
+  [
+    "A",
+    "That's the point. Prompt injection isn't a bug you patch with input validation, because the vulnerability is the model doing exactly what it's designed to do — follow instructions in the text it reads."
+  ],
+  [
+    "B",
+    "So if your coding agent has file system access, it has all your secrets' access too. That's terrifying at scale."
+  ],
+  [
+    "A",
+    "Which is the real throughline for today. We're pushing intelligence onto devices, handing agents more autonomy, and building further up the tower — all at once."
+  ],
+  [
+    "B",
+    "And every one of those moves opens a door that didn't exist before. Local inference, local video, local agents — but local also means nobody's watching the perimeter for you anymore."
+  ],
+  [
+    "A",
+    "So here's the thesis: the tools to build powerful, private, on-device software have never been more available. The responsibility to secure what you build with them has never been more yours."
+  ],
+  [
+    "B",
+    "Which honestly just makes me want to go prototype something tonight — a local model, a sandboxed agent, done right from the start."
+  ],
+  [
+    "A",
+    "That's the move. Don't wait for someone else to build the safe version of this future."
+  ],
+  [
+    "B",
+    "Build it yourself. That's the brief for today."
+  ]
+]
