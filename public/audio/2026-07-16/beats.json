@@ -1,0 +1,148 @@
+[
+  {
+    "type": "intro",
+    "highlight": "Three stories, one pattern: Inkling"
+  },
+  {
+    "type": "intro",
+    "highlight": "A Philippine lab built a frontier model",
+    "subtext": "Not US. Not China."
+  },
+  {
+    "type": "insight",
+    "highlight": "First frontier-adjacent LLM out of Southeast Asia",
+    "subtext": "Competitive with Qwen and Llama"
+  },
+  {
+    "type": "quote",
+    "highlight": "The barrier isn't geography anymore"
+  },
+  {
+    "type": "insight",
+    "highlight": "Compute and talent gatekeeping is eroding"
+  },
+  {
+    "type": "quote",
+    "highlight": "Expect more of these. Not fewer."
+  },
+  {
+    "type": "insight",
+    "highlight": "Fund open AI infrastructure like the early internet",
+    "label": "SIEGEL ENDOWMENT"
+  },
+  {
+    "type": "quote",
+    "highlight": "A real dependency risk, not an abstract one"
+  },
+  {
+    "type": "insight",
+    "highlight": "AI's center of gravity is decentralizing fast"
+  },
+  {
+    "type": "action",
+    "highlight": "Look beyond Meta and Mistral for open weights",
+    "subtext": "There's alpha in being early"
+  },
+  {
+    "type": "number",
+    "number": 53,
+    "highlight": "Stripe and Advent's joint offer for PayPal",
+    "subtext": "$53 billion+"
+  },
+  {
+    "type": "quote",
+    "highlight": "The biggest fintech acquisition ever"
+  },
+  {
+    "type": "number",
+    "number": 430,
+    "highlight": "PayPal's consumer accounts, combined with Stripe",
+    "subtext": "430 million accounts"
+  },
+  {
+    "type": "quote",
+    "highlight": "What does this mean for Stripe API builders?"
+  },
+  {
+    "type": "insight",
+    "highlight": "Your infrastructure is about to get much bigger"
+  },
+  {
+    "type": "quote",
+    "highlight": "Bigger can mean slower and more locked-down"
+  },
+  {
+    "type": "insight",
+    "highlight": "Why payments are consolidating right as agents need money"
+  },
+  {
+    "type": "quote",
+    "highlight": "Stripe just bought the scale for agentic commerce"
+  },
+  {
+    "type": "insight",
+    "highlight": "Agents initiating payments, not humans clicking checkout"
+  },
+  {
+    "type": "action",
+    "highlight": "Watch this deal if you build agent-to-agent payments",
+    "subtext": "The rails are about to shift"
+  },
+  {
+    "type": "repo",
+    "highlight": "Grok Build",
+    "subtext": "xAI open-sources its coding assistant",
+    "label": "XAI"
+  },
+  {
+    "type": "quote",
+    "highlight": "A direct shot at Cursor, Windsurf, Claude Code"
+  },
+  {
+    "type": "number",
+    "number": 369,
+    "highlight": "Recalculating the economics of the entire space",
+    "subtext": "369 points, 400 comments"
+  },
+  {
+    "type": "insight",
+    "highlight": "The moat can't be the assistant anymore"
+  },
+  {
+    "type": "quote",
+    "highlight": "The moat moves up the stack"
+  },
+  {
+    "type": "quote",
+    "highlight": "The product is becoming the commodity"
+  },
+  {
+    "type": "repo",
+    "highlight": "agent-skills",
+    "subtext": "75,000 stars, +2,500/day"
+  },
+  {
+    "type": "insight",
+    "highlight": "Open is winning at the model and tooling layers"
+  },
+  {
+    "type": "quote",
+    "highlight": "Capability distributes while infrastructure concentrates"
+  },
+  {
+    "type": "insight",
+    "highlight": "The opportunity is the agent layer in between"
+  },
+  {
+    "type": "quote",
+    "highlight": "The gap nobody's filled yet"
+  },
+  {
+    "type": "close",
+    "highlight": "Build the thing that connects it"
+  },
+  {
+    "type": "close",
+    "highlight": "Go build it."
+  }
+]

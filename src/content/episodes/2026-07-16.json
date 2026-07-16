@@ -1,0 +1,175 @@
+{
+  "date": "2026-07-16",
+  "episodeNumber": 116,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "Inkling: Our Open-Weights Model earns 857 HN pts, Stripe and Advent have made a joint offer to acqui, Grok Build is open source",
+  "heroStat": {
+    "value": "$53B",
+    "label": "Stripe + Advent offer for PayPal"
+  },
+  "insights": [
+    {
+      "text": "Inkling: Our Open-Weights Model earns 857 HN pts — Thinking Machines, a Philippine AI lab, releases Inkling, the first open-weights LLM from Southeast Asia, achieving competitive benchmark performance against Qwen and Llama-class models, signaling that frontier-adjacent AI capability is no longer the exclusive province of US, European, or Chinese labs. (857 HN pts)",
+      "tags": [
+        "open-source",
+        "research",
+        "agents"
+      ],
+      "source": "HN 857pts",
+      "url": "https://thinkingmachines.ai/news/introducing-inkling/"
+    },
+    {
+      "text": "Stripe and Advent have made a joint offer to acquire PayPal for more than $53 billion — the largest proposed fintech acquisition in history would combine Stripe's developer-centric payment infrastructure with PayPal's 430M consumer accounts, creating a payments superpower that would reshape how money moves across the internet. (412 HN pts)",
+      "tags": [
+        "fintech"
+      ],
+      "source": "HN 412pts",
+      "url": "https://www.reuters.com/business/finance/stripe-advent-offer-buy-paypal-more-than-53-billion-sources-say-2026-07-15/"
+    },
+    {
+      "text": "Grok Build is open source — xAI releases its AI coding assistant as an open-source repository on GitHub, making a direct competitive move into the AI coding tools market against Cursor, Windsurf, and Claude Code. The 369 HN points and 400 comments reflect the community's recognition that this changes the economics of the AI coding tools market. (369 HN pts)",
+      "tags": [
+        "open-source",
+        "agents",
+        "claude-code"
+      ],
+      "source": "HN 369pts",
+      "url": "https://github.com/xai-org/grok-build"
+    },
+    {
+      "text": "Running Gemma 4 26B at 5 tokens/sec on a 13-year-old Xeon with no GPU — the NeoMind Labs post documents a 26B parameter model running at practical speed on decade-old server hardware with no GPU, using CPU-only inference with aggressive quantization, pushing the frontier of what local LLM inference means for practitioners without access to modern hardware. (268 HN pts)",
+      "tags": [
+        "open-source",
+        "research"
+      ],
+      "source": "HN 268pts",
+      "url": "https://www.neomindlabs.com/2026/06/08/running-gemma-4-26b-at-5-tokens-sec-on-a-13-year-old-xeon-with-no-gpu/"
+    },
+    {
+      "text": "SQLite should have (Rust-style) editions earns 200 HN pts and 73 Lobsters pts — the mort.coffee post proposes that SQLite adopt a versioned API edition model similar to Rust's 2015/2018/2021 editions, allowing backwards-incompatible improvements while preserving the compatibility guarantees that make SQLite deployable in constrained environments. The cross-listing on both HN and Lobsters signals unusually broad practitioner consensus. (200 HN pts + 73 Lobsters pts)",
+      "tags": [
+        "open-source",
+        "rust"
+      ],
+      "source": "HN 200pts",
+      "url": "https://mort.coffee/home/sqlite-editions/"
+    },
+    {
+      "text": "Governments, companies, nonprofits should invest in free, open source AI — the Siegel Endowment policy paper argues that public investment in open-source AI infrastructure is a strategic priority comparable to the early internet, and that relying on proprietary closed-weight models creates geopolitical and economic dependencies that democratic institutions should not accept. (148 HN pts)",
+      "tags": [
+        "open-source",
+        "research"
+      ],
+      "source": "HN 148pts",
+      "url": "https://www.siegelendowment.org/wp-content/uploads/2026/07/fortune-david-siegel-open-source-ai.pdf"
+    },
+    {
+      "text": "Linus Torvalds on LLM usage in kernel development earns 34 Lobsters pts — Torvalds' message on the Linux kernel mailing list addresses LLM-generated patches directly: he is not categorically opposed to AI-assisted contributions but treats the output quality standard as unchanged, requiring the same review and correctness standards regardless of whether a human or an AI generated the initial patch. (34 Lobsters pts)",
+      "tags": [
+        "open-source",
+        "agents"
+      ],
+      "source": "Lobsters 34pts",
+      "url": "https://lore.kernel.org/linux-media/CAHk-=wi4zC+Ze8e+p3tMv8TtG_80KzsZ1syL9anBtmEh5Z40vg@mail.gmail.com/"
+    },
+    {
+      "text": "You should probably check on your smart appliances earns 73 Lobsters pts — the xeiaso.net post documents a systematic audit of smart home devices that reveals outdated firmware, abandoned vendor cloud backends, and unexpected network egress on devices purchased within the last three years, with a reproducible methodology that practitioners can apply to their own home networks. The security and web tags reflect the compound nature of the finding. (73 Lobsters pts)",
+      "tags": [
+        "security"
+      ],
+      "source": "Lobsters 73pts",
+      "url": "https://xeiaso.net/notes/2026/check-your-smart-tv/"
+    }
+  ],
+  "trending": [
+    {
+      "name": "ai-job-search",
+      "fullName": "MadsLorentzen/ai-job-search",
+      "stars": "18.4K",
+      "language": "TypeScript",
+      "delta": "+3728/d",
+      "url": "https://github.com/MadsLorentzen/ai-job-search"
+    },
+    {
+      "name": "agent-skills",
+      "fullName": "addyosmani/agent-skills",
+      "stars": "75.7K",
+      "language": "JavaScript",
+      "delta": "+2582/d",
+      "url": "https://github.com/addyosmani/agent-skills"
+    },
+    {
+      "name": "U3-SDK",
+      "fullName": "SmartlyDressedGames/U3-SDK",
+      "stars": "1.8K",
+      "language": "C#",
+      "delta": "+1823/d",
+      "url": "https://github.com/SmartlyDressedGames/U3-SDK"
+    },
+    {
+      "name": "OfficeCLI",
+      "fullName": "iOfficeAI/OfficeCLI",
+      "stars": "12.6K",
+      "language": "C#",
+      "delta": "+1435/d",
+      "url": "https://github.com/iOfficeAI/OfficeCLI"
+    },
+    {
+      "name": "pgrust",
+      "fullName": "malisper/pgrust",
+      "stars": "8.9K",
+      "language": "Rust",
+      "delta": "+1247/d",
+      "url": "https://github.com/malisper/pgrust"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "857",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "3728",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "4",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "July 16, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Inkling: Our Open-Weights Model earns 857 HN pts",
+        "metric": "857 pts",
+        "source": "HN"
+      },
+      {
+        "text": "Stripe and Advent have made a joint offer to acquire PayPal for more than $53 billion",
+        "metric": "412 pts",
+        "source": "HN"
+      },
+      {
+        "text": "Grok Build is open source",
+        "metric": "369 pts",
+        "source": "HN"
+      }
+    ],
+    "takeaway": {
+      "text": "Today's sharpest signal is the simultaneous occurrence of two structural shifts: a Philippine AI lab releasing a competitive open-weights model proves that frontier AI development has gone global, while Stripe's $53B bid for PayPal signals that the payments infrastructure layer is consolidating just as AI agents begin to need programmable money movement at scale. The practitioner implication is to watch whether Inkling's release triggers a wave of regional AI labs — Southeast Asia, Africa, Latin America — following the same open-weights strategy."
+    }
+  }
+}
