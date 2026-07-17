@@ -1,0 +1,320 @@
+[
+  {
+    "rank": 1,
+    "title": "What is an \"agentic harness,\" actually?",
+    "url": "https://dev.to/googleai/what-is-an-agentic-harness-actually-4oie",
+    "reactions": 15,
+    "comments": 2,
+    "tags": [
+      "ai",
+      "agents",
+      "discuss",
+      "llm"
+    ]
+  },
+  {
+    "rank": 2,
+    "title": "Did You Know TLDs Can Be Websites?",
+    "url": "https://dev.to/aws/did-you-know-tlds-can-be-websites-2j13",
+    "reactions": 23,
+    "comments": 5,
+    "tags": [
+      "aws",
+      "infrastructure",
+      "networking",
+      "webdev"
+    ]
+  },
+  {
+    "rank": 3,
+    "title": "Claude might be saturating your machine",
+    "url": "https://dev.to/sidhantpanda/claude-might-be-saturating-your-machine-3h07",
+    "reactions": 12,
+    "comments": 2,
+    "tags": [
+      "ai",
+      "programming",
+      "claude",
+      "llm"
+    ]
+  },
+  {
+    "rank": 4,
+    "title": "Every AI-Generated Line of Code Is a Small Loan — And Eventually, You Have to Pay It Back",
+    "url": "https://dev.to/harsh2644/every-ai-generated-line-of-code-is-a-small-loan-and-eventually-you-have-to-pay-it-back-30a6",
+    "reactions": 16,
+    "comments": 8,
+    "tags": [
+      "ai",
+      "career",
+      "discuss",
+      "productivity"
+    ]
+  },
+  {
+    "rank": 5,
+    "title": "I Failed a Promise I Made to Myself",
+    "url": "https://dev.to/konark_13/i-failed-a-promise-i-made-to-myself-4abj",
+    "reactions": 10,
+    "comments": 0,
+    "tags": [
+      "beginners",
+      "career",
+      "discuss",
+      "learning"
+    ]
+  },
+  {
+    "rank": 6,
+    "title": "I got tired of not knowing what my AI agents were doing, so I built a tiny observability tool",
+    "url": "https://dev.to/remdore/i-got-tired-of-not-knowing-what-my-ai-agents-were-doing-so-i-built-a-tiny-observability-tool-3p67",
+    "reactions": 12,
+    "comments": 5,
+    "tags": [
+      "ai",
+      "opensource",
+      "go",
+      "selfhosted"
+    ]
+  },
+  {
+    "rank": 7,
+    "title": "Want to Volunteer with me as a Full-Stack Developer? Join me at CALEC!",
+    "url": "https://dev.to/devengers/want-to-volunteer-with-me-as-a-full-stack-developer-join-me-at-calec-2hne",
+    "reactions": 23,
+    "comments": 4,
+    "tags": [
+      "discuss",
+      "community",
+      "career",
+      "hiring"
+    ]
+  },
+  {
+    "rank": 8,
+    "title": "Can a Mac Mini Handle 100 Million Rows?",
+    "url": "https://dev.to/kitarp29/can-a-mac-mini-handle-100-million-rows-3cpb",
+    "reactions": 13,
+    "comments": 4,
+    "tags": [
+      "database",
+      "performance",
+      "postgres",
+      "ai"
+    ]
+  },
+  {
+    "rank": 9,
+    "title": "Kiro CLI Gets Worse After an Hour. Here's How I Fixed It.",
+    "url": "https://dev.to/aws-builders/kiro-cli-gets-worse-after-an-hour-heres-how-i-fixed-it-1l7g",
+    "reactions": 12,
+    "comments": 0,
+    "tags": [
+      "aws",
+      "kiro",
+      "productivity",
+      "devops"
+    ]
+  },
+  {
+    "rank": 10,
+    "title": "I burned through thousands of AI tokens. Then a friend did it for free",
+    "url": "https://dev.to/phalkmin/i-burned-through-thousands-of-ai-tokens-then-a-friend-did-it-for-free-31m8",
+    "reactions": 0,
+    "comments": 2,
+    "tags": [
+      "ai",
+      "career",
+      "design"
+    ]
+  },
+  {
+    "rank": 11,
+    "title": "Agentic Development Survival Guide",
+    "url": "https://dev.to/valeriavg/agentic-development-survival-guide-3bhc",
+    "reactions": 1,
+    "comments": 0,
+    "tags": [
+      "ai",
+      "devrel",
+      "discuss"
+    ]
+  },
+  {
+    "rank": 12,
+    "title": "Founding Lead Playbook: Running Product, Architect & Engineering with AI Agents + 2 Humans",
+    "url": "https://dev.to/kheai/founding-lead-playbook-running-product-architect-engineering-with-ai-agents-2-humans-295d",
+    "reactions": 6,
+    "comments": 1,
+    "tags": [
+      "kheai",
+      "management",
+      "ai",
+      "devjournal"
+    ]
+  },
+  {
+    "rank": 13,
+    "title": "Nobody Painted That Rectangle Black",
+    "url": "https://dev.to/lovestaco/nobody-painted-that-rectangle-black-a3",
+    "reactions": 10,
+    "comments": 0,
+    "tags": [
+      "android",
+      "security",
+      "mobile",
+      "programming"
+    ]
+  },
+  {
+    "rank": 14,
+    "title": "What was your win this week!?",
+    "url": "https://dev.to/devteam/what-was-your-win-this-week-amo",
+    "reactions": 1,
+    "comments": 2,
+    "tags": [
+      "discuss",
+      "weeklyretro"
+    ]
+  },
+  {
+    "rank": 15,
+    "title": "I Didn't Memorize the Android ViewModel, I Derived It From 8 Problems( Interview Prep)",
+    "url": "https://dev.to/itsaalaa7/i-didnt-memorize-the-android-viewmodel-i-derived-it-from-8-problems-interview-prep-23el",
+    "reactions": 4,
+    "comments": 0,
+    "tags": [
+      "programming",
+      "mobile",
+      "beginners",
+      "interview"
+    ]
+  },
+  {
+    "rank": 16,
+    "title": "Preserving Resource Attributes During Span Flattening: A Trace Data Collision Story",
+    "url": "https://dev.to/rohith_matam_be6aea5caf13/preserving-resource-attributes-during-span-flattening-a-trace-data-collision-story-odf",
+    "reactions": 3,
+    "comments": 0,
+    "tags": [
+      "devchallenge",
+      "bugsmash"
+    ]
+  },
+  {
+    "rank": 17,
+    "title": "We Built an AI-Powered Semantic Release Pipeline - Here's Everything We Learned",
+    "url": "https://dev.to/smit-vaghasiya/we-built-an-ai-powered-semantic-release-pipeline-heres-everything-we-learned-123k",
+    "reactions": 6,
+    "comments": 0,
+    "tags": [
+      "devops",
+      "github",
+      "ai",
+      "cicd"
+    ]
+  },
+  {
+    "rank": 18,
+    "title": "I built a job board that scores how 'real' each listing is (A–F)",
+    "url": "https://dev.to/mohessaid/i-built-a-job-board-that-scores-how-real-each-listing-is-a-f-50gi",
+    "reactions": 2,
+    "comments": 0,
+    "tags": [
+      "webdev",
+      "ai",
+      "showdev",
+      "career"
+    ]
+  },
+  {
+    "rank": 19,
+    "title": "Your Tenth Ship Is Always Someone's First",
+    "url": "https://dev.to/vystartasv/your-tenth-ship-is-always-someones-first-129",
+    "reactions": 4,
+    "comments": 0,
+    "tags": [
+      "ai",
+      "agents",
+      "devtools",
+      "community"
+    ]
+  },
+  {
+    "rank": 20,
+    "title": "My Agent Shipped 3 PRs in an Evening. 40% of My Messages Were Corrections.",
+    "url": "https://dev.to/vystartasv/my-agent-shipped-3-prs-in-an-evening-40-of-my-messages-were-corrections-5jo",
+    "reactions": 3,
+    "comments": 0,
+    "tags": [
+      "ai",
+      "agents",
+      "devtools",
+      "productivity"
+    ]
+  },
+  {
+    "rank": 21,
+    "title": "RES, my personal safeguard against AI",
+    "url": "https://dev.to/thomasbnt/res-my-personal-safeguard-against-ai-3ja8",
+    "reactions": 6,
+    "comments": 0,
+    "tags": [
+      "ai",
+      "productivity",
+      "beginners"
+    ]
+  },
+  {
+    "rank": 22,
+    "title": "BrowserAct vs Agent Browser: A Hands-On Stealth Execution Comparison",
+    "url": "https://dev.to/hadil/browseract-vs-agent-browser-a-hands-on-stealth-execution-comparison-1m1k",
+    "reactions": 3,
+    "comments": 0,
+    "tags": [
+      "agents",
+      "ai",
+      "automation",
+      "webscraping"
+    ]
+  },
+  {
+    "rank": 23,
+    "title": "Arc 11 Catch-Up: Composing Solana Programs with CPIs",
+    "url": "https://dev.to/100daysofsolana/arc-11-catch-up-composing-solana-programs-with-cpis-406",
+    "reactions": 1,
+    "comments": 0,
+    "tags": [
+      "100daysofsolana",
+      "web3",
+      "learning",
+      "blockchain"
+    ]
+  },
+  {
+    "rank": 24,
+    "title": "Arc 10 Catch-Up: Designing Solana State with PDAs",
+    "url": "https://dev.to/100daysofsolana/arc-10-catch-up-designing-solana-state-with-pdas-44if",
+    "reactions": 1,
+    "comments": 0,
+    "tags": [
+      "100daysofsolana",
+      "learning",
+      "web3",
+      "blockchain"
+    ]
+  },
+  {
+    "rank": 25,
+    "title": "Build a Movie/TV Show Tracker with MongoDB and TanStack Start",
+    "url": "https://dev.to/didicodes/build-a-movietv-show-tracker-with-mongodb-and-tanstack-start-24hb",
+    "reactions": 7,
+    "comments": 0,
+    "tags": [
+      "mongodb",
+      "tanstack",
+      "javascript",
+      "webdev"
+    ]
+  }
+]
