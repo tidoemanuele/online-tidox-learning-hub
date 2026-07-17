@@ -1,0 +1,165 @@
+[
+  {
+    "type": "intro",
+    "label": "TODAY'S STORY",
+    "highlight": "Kimi K3 just changed the frontier",
+    "subtext": "2.8 trillion open-weight parameters, beating Claude & GPT-5.6 Sol"
+  },
+  {
+    "type": "intro",
+    "label": "THE QUESTION",
+    "highlight": "Wait — actually downloadable weights?"
+  },
+  {
+    "type": "number",
+    "number": "10",
+    "label": "COUNTDOWN",
+    "highlight": "Days until you can self-host it",
+    "subtext": "Full weights land July 27th"
+  },
+  {
+    "type": "quote",
+    "highlight": "\"Only US labs have frontier models\" — over?"
+  },
+  {
+    "type": "number",
+    "number": "2.5x",
+    "label": "EFFICIENCY GAIN",
+    "highlight": "More training-efficient than its predecessor",
+    "subtext": "The number that should worry people"
+  },
+  {
+    "type": "insight",
+    "highlight": "Efficiency compounds every generation"
+  },
+  {
+    "type": "quote",
+    "highlight": "Convergence, not a one-time catch-up"
+  },
+  {
+    "type": "repo",
+    "label": "SAME DAY, DIFFERENT WORLD",
+    "highlight": "Comic Chat",
+    "subtext": "Microsoft open-sources the 1996 IRC client"
+  },
+  {
+    "type": "insight",
+    "highlight": "A '96 chat client vs. Earth's largest open model"
+  },
+  {
+    "type": "quote",
+    "highlight": "That's not a coincidence, that's a snapshot"
+  },
+  {
+    "type": "action",
+    "highlight": "Look where the openness energy actually is",
+    "subtext": "Don't assume where the frontier is coming from"
+  },
+  {
+    "type": "insight",
+    "highlight": "A release means nothing without shipped product"
+  },
+  {
+    "type": "repo",
+    "label": "LOCAL-FIRST, CLOUD OVERFLOW",
+    "highlight": "Bionic",
+    "subtext": "LM Studio's agent app on Kimi K2.7 + GLM 5.2"
+  },
+  {
+    "type": "quote",
+    "highlight": "Frontier model and production agent — same day"
+  },
+  {
+    "type": "insight",
+    "highlight": "Model and tooling now move in lockstep"
+  },
+  {
+    "type": "quote",
+    "highlight": "Waiting for open models to be 'good enough'?"
+  },
+  {
+    "type": "action",
+    "highlight": "That excuse expired today",
+    "subtext": "Capability and tooling both showed up at once"
+  },
+  {
+    "type": "repo",
+    "label": "REBRAND OR REAL MOVE?",
+    "highlight": "Gemini Notebook",
+    "subtext": "NotebookLM renamed, now with code execution + Search"
+  },
+  {
+    "type": "insight",
+    "highlight": "The model stops being your moat"
+  },
+  {
+    "type": "number",
+    "number": "30M",
+    "label": "THE REAL MOAT",
+    "highlight": "Users already inside the notebook"
+  },
+  {
+    "type": "quote",
+    "highlight": "Competing on where you already do your thinking"
+  },
+  {
+    "type": "insight",
+    "highlight": "Code execution kills the export-to-Colab step"
+  },
+  {
+    "type": "quote",
+    "highlight": "The real product move, buried under branding"
+  },
+  {
+    "type": "number",
+    "number": "300,000",
+    "label": "THE REWRITE",
+    "highlight": "Lines of Rust — and they're starting over",
+    "subtext": "Feldman's team rewrites the compiler in Zig"
+  },
+  {
+    "type": "insight",
+    "highlight": "Rust's feedback loop was too slow for them"
+  },
+  {
+    "type": "quote",
+    "highlight": "Measure the actual cost of your toolchain"
+  },
+  {
+    "type": "insight",
+    "highlight": "Torvalds just reversed his AI skepticism"
+  },
+  {
+    "type": "quote",
+    "highlight": "Torvalds? The guy hostile to AI hype?"
+  },
+  {
+    "type": "number",
+    "number": "~50%",
+    "label": "THE EVIDENCE",
+    "highlight": "Of kernel bugs caught by Sashiko in testing",
+    "subtext": "Torvalds updated on a measured number"
+  },
+  {
+    "type": "insight",
+    "highlight": "Decide your tools by evidence, not ideology"
+  },
+  {
+    "type": "quote",
+    "highlight": "Every switch today started with a measurement"
+  },
+  {
+    "type": "action",
+    "highlight": "The stack just became free and fast",
+    "subtext": "Open model in 10 days, agent framework ready now"
+  },
+  {
+    "type": "close",
+    "highlight": "No excuse left to sit this one out"
+  },
+  {
+    "type": "close",
+    "highlight": "Go build something",
+    "subtext": "Endorsed by open source's toughest critic"
+  }
+]

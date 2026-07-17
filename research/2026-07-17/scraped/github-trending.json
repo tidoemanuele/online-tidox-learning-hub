@@ -1,0 +1,47 @@
+[
+  {
+    "name": "OpenCut",
+    "fullName": "OpenCut-app/OpenCut",
+    "description": "The open-source CapCut alternative — MIT-licensed video editor with no watermarks, no uploads, browser-native and desktop-native with a shared Rust core.",
+    "language": "TypeScript",
+    "stars_today": "3,347 stars today",
+    "total_stars": "69522",
+    "url": "https://github.com/OpenCut-app/OpenCut"
+  },
+  {
+    "name": "Vibe-Trading",
+    "fullName": "HKUDS/Vibe-Trading",
+    "description": "Vibe-Trading: Your Personal Trading Agent — open-source research workspace for turning finance questions into runnable analysis, strategy generation, backtesting, and autonomous trading.",
+    "language": "Python",
+    "stars_today": "1,162 stars today",
+    "total_stars": "23864",
+    "url": "https://github.com/HKUDS/Vibe-Trading"
+  },
+  {
+    "name": "airi",
+    "fullName": "moeru-ai/airi",
+    "description": "Self hosted, you-owned AI Companion with realtime voice chat, Minecraft and Factorio playing. Web, macOS, Windows supported. Supports 25+ LLM providers including local Ollama models.",
+    "language": "TypeScript",
+    "stars_today": "800 stars today",
+    "total_stars": "28025",
+    "url": "https://github.com/moeru-ai/airi"
+  },
+  {
+    "name": "little-book-rl",
+    "fullName": "alxndrTL/little-book-rl",
+    "description": "The Little Book of Reinforcement Learning — short introduction from the basics to applied algorithms, with PyTorch implementations from MC to PPO. CC non-commercial v1.",
+    "language": "Python",
+    "stars_today": "180 stars today",
+    "total_stars": "1076",
+    "url": "https://github.com/alxndrTL/little-book-rl"
+  },
+  {
+    "name": "meetily",
+    "fullName": "Zackriya-Solutions/meetily",
+    "description": "Privacy-first AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. Zero cloud uploads.",
+    "language": "Rust",
+    "stars_today": "420 stars today",
+    "total_stars": "8340",
+    "url": "https://github.com/Zackriya-Solutions/meetily"
+  }
+]

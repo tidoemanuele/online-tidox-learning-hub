@@ -1,0 +1,147 @@
+[
+  {
+    "title": "How Our Rust-to-Zig Rewrite is Going",
+    "score": 140,
+    "tags": [
+      "compilers",
+      "rust",
+      "zig"
+    ],
+    "url": "https://rtfeldman.com/rust-to-zig",
+    "comments_url": "https://lobste.rs/s/axdfjx/how_our_rust_zig_rewrite_is_going"
+  },
+  {
+    "title": "Linus Torvalds on LLM usage in kernel development",
+    "score": 128,
+    "tags": [
+      "linux",
+      "vibecoding"
+    ],
+    "url": "https://lore.kernel.org/linux-media/CAHk-=wi4zC+Ze8e+p3tMv8TtG_80KzsZ1syL9anBtmEh5Z40vg@mail.gmail.com/",
+    "comments_url": "https://lobste.rs/s/pb6d8m/linus_torvalds_on_llm_usage_kernel"
+  },
+  {
+    "title": "Microsoft Comic Chat is now open source",
+    "score": 31,
+    "tags": [
+      "release",
+      "retrocomputing"
+    ],
+    "url": "https://opensource.microsoft.com/blog/2026/07/16/microsoft-comic-chat-is-now-open-source/",
+    "comments_url": "https://lobste.rs/s/qbvfll/microsoft_comic_chat_is_now_open_source"
+  },
+  {
+    "title": "Guix: creating a package from a binary",
+    "score": 25,
+    "tags": [
+      "nix"
+    ],
+    "url": "https://aloysberger.com/posts/guix-packaging-a-binary-as-a-guix-beginner.html",
+    "comments_url": "https://lobste.rs/s/rvtn4v/guix_creating_package_from_binary"
+  },
+  {
+    "title": "Forgejo v16.0 is available",
+    "score": 58,
+    "tags": [
+      "release",
+      "vcs"
+    ],
+    "url": "https://forgejo.org/2026-07-release-v16-0/",
+    "comments_url": "https://lobste.rs/s/giyb8x/forgejo_v16_0_is_available"
+  },
+  {
+    "title": "README, not",
+    "score": 23,
+    "tags": [
+      "programming",
+      "vibecoding"
+    ],
+    "url": "https://blog.yossarian.net/2026/07/16/README-not",
+    "comments_url": "https://lobste.rs/s/wveduf/readme_not"
+  },
+  {
+    "title": "SQLite should have (Rust-style) editions",
+    "score": 129,
+    "tags": [
+      "databases"
+    ],
+    "url": "https://mort.coffee/home/sqlite-editions/",
+    "comments_url": "https://lobste.rs/s/2nry82/sqlite_should_have_rust_style_editions"
+  },
+  {
+    "title": "Here's how I host my own AIM server",
+    "score": 11,
+    "tags": [
+      "networking"
+    ],
+    "url": "https://veronicaexplains.net/open-oscar-server/",
+    "comments_url": "https://lobste.rs/s/4dcp6w/here_s_how_i_host_my_own_aim_server"
+  },
+  {
+    "title": "What gdb frontend do you prefer (linux)",
+    "score": 22,
+    "tags": [
+      "ask",
+      "programming"
+    ],
+    "url": "",
+    "comments_url": "https://lobste.rs/s/76tcpe/what_gdb_frontend_do_you_prefer_linux"
+  },
+  {
+    "title": "We're Going to Make Out Like Bandits",
+    "score": 36,
+    "tags": [
+      "culture",
+      "practices"
+    ],
+    "url": "https://www.rocketpoweredjetpants.com/2026/04/were-going-to-make-out-like-bandits/",
+    "comments_url": "https://lobste.rs/s/idavhk/we_re_going_make_out_like_bandits"
+  },
+  {
+    "title": "Using GCC's Nested Functions with Wide Pointers and no Trampolines II",
+    "score": 8,
+    "tags": [
+      "c"
+    ],
+    "url": "https://uecker.codeberg.page/2026-07-14.html",
+    "comments_url": "https://lobste.rs/s/fdsscq/using_gcc_s_nested_functions_with_wide"
+  },
+  {
+    "title": "The Zilog Z80 has turned 50",
+    "score": 6,
+    "tags": [
+      "assembly",
+      "hardware",
+      "retrocomputing"
+    ],
+    "url": "https://goliath32.com/blog/z80.html",
+    "comments_url": "https://lobste.rs/s/y3qqzv/zilog_z80_has_turned_50"
+  },
+  {
+    "title": "Earth Rotation Records Spur October Vote to Avert Negative Leap Second",
+    "score": 3,
+    "tags": [
+      "science"
+    ],
+    "url": "https://www.techtimes.com/articles/320185/20260711/earth-rotation-records-spur-october-vote-avert-negative-leap-second.htm",
+    "comments_url": "https://lobste.rs/s/jbw2ma/earth_rotation_records_spur_october_vote"
+  },
+  {
+    "title": "We're building Postgres in Rust. Using the LLVM of databases",
+    "score": 10,
+    "tags": [
+      "databases"
+    ],
+    "url": "https://turso.tech/blog/a-new-modern-version-of-postgres-in-rust",
+    "comments_url": "https://lobste.rs/s/1clqwe/we_re_building_postgres_rust_using_llvm"
+  },
+  {
+    "title": "Stop the GUARD Act and age verification laws worldwide",
+    "score": 5,
+    "tags": [
+      "law"
+    ],
+    "url": "https://www.fsf.org/blogs/community/stop-the-guard-act",
+    "comments_url": "https://lobste.rs/s/fftxis/stop_guard_act_age_verification_laws"
+  }
+]
