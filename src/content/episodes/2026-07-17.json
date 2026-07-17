@@ -1,0 +1,142 @@
+{
+  "date": "2026-07-17",
+  "episodeNumber": 117,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "Moonshot's Kimi K3 officially launched as a 2.8T-p, Kimi K3's official pricing is $0.30 per 1M cache-h, BenchLM's independent post-launch read says K3 is ",
+  "heroStat": {
+    "value": "1M",
+    "label": "cache"
+  },
+  "insights": [
+    {
+      "text": "Moonshot's Kimi K3 officially launched as a 2.8T-parameter MoE with 1,048,576-token context, native vision, max-reasoning-at-launch behavior, and full weights promised by July 27 — meaning the frontier-open story is real, but still API-first today.",
+      "tags": [
+        "open-models",
+        "frontier",
+        "kimi"
+      ],
+      "source": "Moonshot / Hacker News",
+      "url": "https://www.kimi.com/blog/kimi-k3"
+    },
+    {
+      "text": "Kimi K3's official pricing is $0.30 per 1M cache-hit input tokens, $3.00 cache-miss input, and $15.00 output — expensive enough to break the old 'open = cheap' reflex even before self-hosted weights land.",
+      "tags": [
+        "pricing",
+        "open-models",
+        "api"
+      ],
+      "source": "Moonshot Platform",
+      "url": "https://platform.kimi.ai/docs/pricing/chat-k3"
+    },
+    {
+      "text": "BenchLM's independent post-launch read says K3 is already #1 on LMArena's Frontend Code Arena, while Artificial Analysis measures 57.11 intelligence / 76.24 coding / 50.07 agentic and 62 output tok/s — enough third-party signal to treat the launch as substantive, not title-only hype.",
+      "tags": [
+        "benchmarks",
+        "kimi",
+        "coding"
+      ],
+      "source": "BenchLM",
+      "url": "https://benchlm.ai/blog/posts/kimi-3-release-data-coming-soon"
+    },
+    {
+      "text": "LM Studio Bionic launched as a zero-data-retention agent app for open models with local Voxtral transcription, code projects, sandboxed document workflows, and model execution split across local runtime, LM Link, or Secure Cloud — the operator layer is productizing fast.",
+      "tags": [
+        "local-ai",
+        "lm-studio",
+        "voice"
+      ],
+      "source": "LM Studio",
+      "url": "https://lmstudio.ai/blog/introducing-lm-studio-bionic"
+    },
+    {
+      "text": "Open Interpreter already ships a Kimi K3 harness and documents browser QA via agent-browser plus native-app computer use via trycua, showing ecosystem alignment around K3 before the weights are even downloadable.",
+      "tags": [
+        "openinterpreter",
+        "computer-use",
+        "kimi"
+      ],
+      "source": "Open Interpreter",
+      "url": "https://www.openinterpreter.com/docs/terminal/kimi-k3"
+    },
+    {
+      "text": "Nutlope/hallmark hit +3,372 GitHub stars/day with a portable anti-slop design skill for Claude Code, Cursor, and Codex: 20 themes, 57 slop-test gates, and optional export of a reusable design.md. Skills are now packaging taste, not just tasks.",
+      "tags": [
+        "skills",
+        "design",
+        "claude-code"
+      ],
+      "source": "GitHub Trending / Hallmark",
+      "url": "https://github.com/Nutlope/hallmark"
+    },
+    {
+      "text": "OpenCut surged to +3,537 GitHub stars/day while its rewrite promised a Rust core, headless mode, MCP server, and plugin-first architecture — the open-source video editor is being rebuilt as agent-addressable infrastructure, not merely a UI app.",
+      "tags": [
+        "video",
+        "cli-tools",
+        "opencut"
+      ],
+      "source": "GitHub Trending / OpenCut",
+      "url": "https://github.com/OpenCut-app/OpenCut"
+    },
+    {
+      "text": "Friday's browser/computer-use cluster points toward repairable supervision: Plover externalizes and edits task plans, Libretto fixes failing Playwright scripts in PR loops, and Cursor's still-unpatched zero-click git.exe RCE remains the live reminder for why computer-use agents need visible envelopes and guardrails.",
+      "tags": [
+        "browser-automation",
+        "agent-safety",
+        "playwright"
+      ],
+      "source": "arXiv / Mindgard / Hacker News",
+      "url": "https://arxiv.org/abs/2607.15193"
+    }
+  ],
+  "trending": [],
+  "numbers": [
+    {
+      "label": "Stories",
+      "value": "0",
+      "unit": "items"
+    },
+    {
+      "label": "Repos",
+      "value": "0",
+      "unit": "tracked"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "1",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "July 17, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Moonshot's Kimi K3 officially launched as a 2.8T-parameter MoE with 1,048,576-token context, native vision, max-reasoning-at-launch behavior, and full weights promised by July 27",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Kimi K3's official pricing is $0.30 per 1M cache-hit input tokens, $3.00 cache-miss input, and $15.00 output",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "BenchLM's independent post-launch read says K3 is already #1 on LMArena's Frontend Code Arena, while Artificial Analysis measures 57.11 intelligence / 76.24 coding / 50.07 agentic and 62 output tok/s",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Kimi K3 shows that the open frontier is now premium, API-first, and ecosystem-led; Hallmark and the broader skills layer show portable agent methodology graduating into taste enforcement; and Friday's browser/computer-use thread says the durable future is supervised repair loops, not blind autonomy."
+    }
+  }
+}
