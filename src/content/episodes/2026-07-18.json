@@ -3,112 +3,124 @@
   "episodeNumber": 118,
   "locale": "en-US",
   "title": "Intelligence Brief",
-  "subtitle": "An AWS billing-estimate subsystem bug showed some , Apple's trade-secrets suit against OpenAI is now f, PrismML's ternary-quantized Bonsai 27B is now conf",
+  "subtitle": "Kaiser nurses say AI, workplace surveillance are m, AWS: Inaccurate Estimated Billing Data – $1.7 bill, Reviving a 15-year-old netbook with Arch Linux",
   "heroStat": {
-    "value": "27B",
-    "label": "is now confirmed running on a"
+    "value": "1124",
+    "label": "points on \"AWS: Inaccurate Estimated Billing Data – $1.7 billion\""
   },
   "insights": [
     {
-      "text": "An AWS billing-estimate subsystem bug (bad unit-price values, not a metering fault) showed some customers projected charges in the billions or trillions of dollars starting ~7:38 PM PDT July 16; a UK charity that normally pays under £1/month saw a £5.8 billion projection. Real invoices were unaffected.",
+      "text": "Kaiser nurses say AI, workplace surveillance are making their jobs, care worse (439 pts, 288 comments)",
       "tags": [
-        "cloud-trust",
-        "aws",
-        "infrastructure"
+        "hacker-news"
       ],
-      "source": "TechCrunch / The Register",
-      "url": "https://techcrunch.com/2026/07/17/amazon-fixing-bug-that-billed-some-aws-customers-billions-of-dollars/"
+      "source": "HN 439pts",
+      "url": "https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse/"
     },
     {
-      "text": "Apple's trade-secrets suit against OpenAI (filed July 10, naming chief hardware officer Tang Tan and citing 400+ former Apple employees now at OpenAI) is now framed by Bloomberg and TechCrunch as an active threat to OpenAI's expected IPO timing, not just a hardware-poaching dispute.",
+      "text": "AWS: Inaccurate Estimated Billing Data – $1.7 billion (1124 pts, 665 comments)",
       "tags": [
-        "apple",
-        "openai",
-        "legal"
+        "hacker-news"
       ],
-      "source": "Bloomberg / TechCrunch",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-13/how-apple-s-lawsuit-threatens-to-disrupt-openai-s-bid-to-rival-the-iphone"
+      "source": "HN 1124pts",
+      "url": "https://news.ycombinator.com/item?id=48945241"
     },
     {
-      "text": "PrismML's ternary-quantized Bonsai 27B is now confirmed running on a real iPhone 17 Pro Max at ~11 tok/s via MLX Swift (3.9GB, ~90% baseline quality retained), moving from vendor benchmark claim to community-corroborated on-device deployment.",
+      "text": "Reviving a 15-year-old netbook with Arch Linux (46 pts, 25 comments)",
       "tags": [
-        "on-device-ai",
-        "quantization",
-        "local-llm"
+        "hacker-news"
       ],
-      "source": "r/LocalLLaMA / AlphaSignal",
-      "url": "https://alphasignal.ai/news/prismml-shrinks-bonsai-27b-to-3-9-gb-so-it-runs-on-an-iphone"
+      "source": "HN 46pts",
+      "url": "https://parksb.github.io/en/article/41.html"
     },
     {
-      "text": "Kimi K3 wins blind developer coding-preference votes against Claude Fable 5 and GPT-5.6 Sol on front-end code specifically, even though Moonshot's own published benchmark table shows K3 trailing both models on aggregate — a narrower, more specific win than r/LocalLLaMA's 'writing on the wall for Anthropic and OpenAI' framing suggests.",
+      "text": "Thanks HN for 15 years of support and helping me find my life's work (489 pts, 49 comments)",
       "tags": [
-        "kimi",
-        "benchmarks",
-        "coding"
+        "hacker-news"
       ],
-      "source": "Simon Willison / CNBC",
-      "url": "https://simonwillison.net/2026/Jul/16/kimi-k3/"
+      "source": "HN 489pts",
+      "url": "https://news.ycombinator.com/item?id=48949551"
     },
     {
-      "text": "TP-Link Kasa EC70/EC71 v4 cameras shipped with an unauthenticated discovery endpoint leaking GPS coordinates in cleartext (CVE-2026-13230) and a hardcoded firmware crypto key enabling MITM credential theft (CVE-2026-9770); both are now patched.",
+      "text": "Faulty Towers, vibe sickness, and the vibe bobsled (46 pts on Lobsters)",
       "tags": [
-        "privacy",
-        "iot",
-        "security"
+        "lobsters",
+        "vibecoding"
       ],
-      "source": "gbhackers",
-      "url": "https://gbhackers.com/tp-link-kasa-camera-flaws/"
+      "source": "Lobsters 46pts",
+      "url": "https://dustycloud.org/blog/faulty-towers-vibe-sickness-and-the-vibe-bobsled/"
     },
     {
-      "text": "Mozilla, Cloudflare, Chrome, Edge, and Firefox are jointly designing PACT (Private Access Control Tokens) — anonymous, unlinkable tokens that prove a human or authorized agent without identity disclosure, meant to replace CAPTCHAs and forced logins. Still proposal-stage, no origin trial yet.",
+      "text": "Learning a few things about running SQLite (40 pts on Lobsters)",
       "tags": [
-        "privacy",
-        "browser",
-        "standards"
+        "lobsters",
+        "databases"
       ],
-      "source": "Mozilla Hacks",
-      "url": "https://hacks.mozilla.org/2026/06/pact-anonymous-credentials-for-the-web/"
+      "source": "Lobsters 40pts",
+      "url": "https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/"
+    }
+  ],
+  "trending": [
+    {
+      "name": "hallmark",
+      "fullName": "Nutlope/hallmark",
+      "stars": "12.3K",
+      "language": "CSS",
+      "delta": "+1,485/d",
+      "url": "https://github.com/Nutlope/hallmark"
     },
     {
-      "text": "OpenCut's GitHub star velocity cooled from +3,537/day at launch (07-17) to +1,074/day today while its total keeps climbing (75,010) — a normal post-launch cooldown, with the promised headless mode/MCP server/Rust core rewrite still unconfirmed as shipped.",
-      "tags": [
-        "cli-tools",
-        "opencut",
-        "video"
-      ],
-      "source": "GitHub Trending",
+      "name": "OpenCut",
+      "fullName": "OpenCut-app/OpenCut",
+      "stars": "75.0K",
+      "language": "TypeScript",
+      "delta": "+1,074/d",
       "url": "https://github.com/OpenCut-app/OpenCut"
     },
     {
-      "text": "Astronomy apps Star Walk 2 Plus and Stellarium both sit in today's Play Store top 30 the same day HN's #6 story covers the first atmosphere found on an Earth-like planet in a habitable zone — a plausible but unconfirmed space-news-to-app-store-attention correlation worth re-checking on a future major astronomy story.",
-      "tags": [
-        "play-store",
-        "app-trends"
-      ],
-      "source": "Google Play Store / Hacker News",
-      "url": "https://news.ycombinator.com"
-    }
-  ],
-  "trending": [],
-  "numbers": [
-    {
-      "label": "Stories",
-      "value": "0",
-      "unit": "items"
+      "name": "build-your-own-x",
+      "fullName": "codecrafters-io/build-your-own-x",
+      "stars": "528K",
+      "language": "Markdown",
+      "delta": "+1,068/d",
+      "url": "https://github.com/codecrafters-io/build-your-own-x"
     },
     {
-      "label": "Repos",
-      "value": "0",
-      "unit": "tracked"
+      "name": "DeepTutor",
+      "fullName": "HKUDS/DeepTutor",
+      "stars": "27.5K",
+      "language": "Python",
+      "delta": "+531/d",
+      "url": "https://github.com/HKUDS/DeepTutor"
+    },
+    {
+      "name": "posthog",
+      "fullName": "PostHog/posthog",
+      "stars": "36.3K",
+      "language": "Python",
+      "delta": "+438/d",
+      "url": "https://github.com/PostHog/posthog"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "1124",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "1,485",
+      "unit": "stars/day"
     },
     {
       "label": "Sources Scraped",
-      "value": "1",
+      "value": "3",
       "unit": "sites"
     },
     {
       "label": "Insights Today",
-      "value": "8",
+      "value": "6",
       "unit": "stories"
     }
   ],
@@ -119,23 +131,23 @@
     },
     "headlines": [
       {
-        "text": "An AWS billing-estimate subsystem bug showed some customers projected charges in the billions or trillions of dollars starting ~7:38 PM PDT July 16; a UK charity that normally pays under £1/month saw a £5.8 billion projection. Real invoices were unaffected.",
+        "text": "Kaiser nurses say AI, workplace surveillance are making their jobs, care worse",
         "metric": "—",
         "source": "web"
       },
       {
-        "text": "Apple's trade-secrets suit against OpenAI is now framed by Bloomberg and TechCrunch as an active threat to OpenAI's expected IPO timing, not just a hardware-poaching dispute.",
+        "text": "AWS: Inaccurate Estimated Billing Data – $1.7 billion",
         "metric": "—",
         "source": "web"
       },
       {
-        "text": "PrismML's ternary-quantized Bonsai 27B is now confirmed running on a real iPhone 17 Pro Max at ~11 tok/s via MLX Swift , moving from vendor benchmark claim to community-corroborated on-device deployment.",
+        "text": "Reviving a 15-year-old netbook with Arch Linux",
         "metric": "—",
         "source": "web"
       }
     ],
     "takeaway": {
-      "text": "AWS's estimated-billing bug and Apple's newly IPO-threatening OpenAI suit both show trust cracking at the infrastructure and legal layers of the AI boom, while Bonsai 27B's confirmed iPhone deployment, Kimi K3's narrow-but-real coding-arena wins, and Mozilla's PACT proposal show the counter-trend: real progress on local capability and anonymous-by-design privacy infrastructure."
+      "text": "Today's brief covers the most interesting signals across the tech landscape."
     }
   }
 }
