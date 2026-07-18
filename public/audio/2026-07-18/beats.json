@@ -1,0 +1,171 @@
+[
+  {
+    "type": "intro",
+    "label": "EPISODE OPEN",
+    "highlight": "AWS had a rough day",
+    "subtext": "A billing bug goes viral"
+  },
+  {
+    "type": "intro",
+    "highlight": "Wait — billion, not million?"
+  },
+  {
+    "type": "number",
+    "number": "1.7",
+    "label": "COST EXPLORER BUG",
+    "highlight": "$1.7 billion phantom bill",
+    "subtext": "One bad unit-price value broke the estimate"
+  },
+  {
+    "type": "quote",
+    "highlight": "Actual invoices were fine"
+  },
+  {
+    "type": "insight",
+    "highlight": "What broke was everything built on the estimate"
+  },
+  {
+    "type": "quote",
+    "highlight": "Budget Actions. Anomaly Detection. All automated."
+  },
+  {
+    "type": "insight",
+    "highlight": "Real automation reacting to a phantom number"
+  },
+  {
+    "type": "quote",
+    "highlight": "It's not that AWS billing broke"
+  },
+  {
+    "type": "insight",
+    "highlight": "Estimated billing was treated as cosmetic — it's infrastructure"
+  },
+  {
+    "type": "quote",
+    "highlight": "What should you do differently Monday?"
+  },
+  {
+    "type": "action",
+    "highlight": "Add a sanity bound before automation fires",
+    "subtext": "If the delta is absurd, pause and page a human"
+  },
+  {
+    "type": "quote",
+    "highlight": "Trust but verify — for your own pipelines"
+  },
+  {
+    "type": "number",
+    "number": "42",
+    "label": "JAMES WEBB SPECTROSCOPY",
+    "highlight": "First atmosphere on an Earth-like planet",
+    "subtext": "42 light-years away"
+  },
+  {
+    "type": "insight",
+    "highlight": "One number looked plausible and was wrong"
+  },
+  {
+    "type": "quote",
+    "highlight": "Verification discipline is the whole difference"
+  },
+  {
+    "type": "number",
+    "number": "489",
+    "label": "HACKER NEWS",
+    "highlight": "489 points, almost no debate"
+  },
+  {
+    "type": "insight",
+    "highlight": "People aren't arguing, they're just upvoting"
+  },
+  {
+    "type": "quote",
+    "highlight": "A billion-dollar failure and a 15-year thank-you"
+  },
+  {
+    "type": "insight",
+    "highlight": "HN is community memory — it remembers who it helped"
+  },
+  {
+    "type": "quote",
+    "label": "KAISER NURSES",
+    "highlight": "AI monitoring is making patient care worse"
+  },
+  {
+    "type": "insight",
+    "label": "FLAG THIS",
+    "highlight": "Alert fatigue eating into direct care time"
+  },
+  {
+    "type": "quote",
+    "highlight": "The same failure mode as AWS?"
+  },
+  {
+    "type": "insight",
+    "highlight": "An alert threshold nobody tuned against real workload"
+  },
+  {
+    "type": "insight",
+    "highlight": "When the metric isn't the human's actual job"
+  },
+  {
+    "type": "quote",
+    "highlight": "Tested against things benchmarks can't fake"
+  },
+  {
+    "type": "insight",
+    "highlight": "Draw a pelican catching a fish",
+    "subtext": "No training-data contamination possible"
+  },
+  {
+    "type": "quote",
+    "highlight": "You can't game it without being better"
+  },
+  {
+    "type": "insight",
+    "highlight": "Real-world tests, harder to fake, tend to hold up"
+  },
+  {
+    "type": "quote",
+    "highlight": "Hands-on understanding of what a tool does under load"
+  },
+  {
+    "type": "insight",
+    "highlight": "Naming the cost of skipping that step"
+  },
+  {
+    "type": "quote",
+    "highlight": "The same warning, at the individual developer level"
+  },
+  {
+    "type": "repo",
+    "label": "TRENDING REPO",
+    "highlight": "hallmark",
+    "subtext": "1,485 stars a day — Nutlope"
+  },
+  {
+    "type": "quote",
+    "highlight": "Voting with repos for verification, not velocity"
+  },
+  {
+    "type": "insight",
+    "highlight": "Trust became the actual scarce resource"
+  },
+  {
+    "type": "quote",
+    "highlight": "A number standing in for ground truth"
+  },
+  {
+    "type": "insight",
+    "highlight": "Winners build verification in from day one"
+  },
+  {
+    "type": "close",
+    "highlight": "Check your assumptions before you trust the dashboard"
+  },
+  {
+    "type": "close",
+    "label": "SIGN OFF",
+    "highlight": "Go build the thing that checks if it's real"
+  }
+]

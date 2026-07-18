@@ -1,0 +1,74 @@
+[
+  {
+    "name": "hallmark",
+    "fullName": "Nutlope/hallmark",
+    "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+    "language": "CSS",
+    "stars_today": "1,485 stars today",
+    "total_stars": "12252",
+    "url": "https://github.com/Nutlope/hallmark"
+  },
+  {
+    "name": "OpenCut",
+    "fullName": "OpenCut-app/OpenCut",
+    "description": "The open-source CapCut alternative for video editing",
+    "language": "TypeScript",
+    "stars_today": "1,074 stars today",
+    "total_stars": "75042",
+    "url": "https://github.com/OpenCut-app/OpenCut"
+  },
+  {
+    "name": "build-your-own-x",
+    "fullName": "codecrafters-io/build-your-own-x",
+    "description": "Master programming by recreating your favorite technologies from scratch.",
+    "language": "Markdown",
+    "stars_today": "1,068 stars today",
+    "total_stars": "527619",
+    "url": "https://github.com/codecrafters-io/build-your-own-x"
+  },
+  {
+    "name": "DeepTutor",
+    "fullName": "HKUDS/DeepTutor",
+    "description": "DeepTutor: Lifelong Personalized AI Tutoring system",
+    "language": "Python",
+    "stars_today": "531 stars today",
+    "total_stars": "27461",
+    "url": "https://github.com/HKUDS/DeepTutor"
+  },
+  {
+    "name": "posthog",
+    "fullName": "PostHog/posthog",
+    "description": "Leading open-source platform for building self-driving products with analytics, session replay, feature flags, and more",
+    "language": "Python",
+    "stars_today": "438 stars today",
+    "total_stars": "36267",
+    "url": "https://github.com/PostHog/posthog"
+  },
+  {
+    "name": "openinterpreter",
+    "fullName": "openinterpreter/openinterpreter",
+    "description": "A coding agent for open models like Kimi K3",
+    "language": "Rust",
+    "stars_today": "431 stars today",
+    "total_stars": "66484",
+    "url": "https://github.com/openinterpreter/openinterpreter"
+  },
+  {
+    "name": "turbovec",
+    "fullName": "RyanCodrai/turbovec",
+    "description": "A high-performance vector index built on TurboQuant, written in Rust with Python bindings",
+    "language": "Rust",
+    "stars_today": "280 stars today",
+    "total_stars": "13394",
+    "url": "https://github.com/RyanCodrai/turbovec"
+  },
+  {
+    "name": "Bonsai-demo",
+    "fullName": "PrismML-Eng/Bonsai-demo",
+    "description": "Bonsai ML Demo — pruning and efficiency-first ML experiments",
+    "language": "Shell",
+    "stars_today": "278 stars today",
+    "total_stars": "1745",
+    "url": "https://github.com/PrismML-Eng/Bonsai-demo"
+  }
+]

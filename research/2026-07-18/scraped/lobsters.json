@@ -1,0 +1,151 @@
+[
+  {
+    "title": "Faulty Towers, vibe sickness, and the vibe bobsled",
+    "score": 46,
+    "tags": [
+      "vibecoding"
+    ],
+    "url": "https://dustycloud.org/blog/faulty-towers-vibe-sickness-and-the-vibe-bobsled/",
+    "comments_url": "https://lobste.rs/s/nwp3sm/faulty_towers_vibe_sickness_vibe_bobsled"
+  },
+  {
+    "title": "Learning a few things about running SQLite",
+    "score": 40,
+    "tags": [
+      "databases"
+    ],
+    "url": "https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/",
+    "comments_url": "https://lobste.rs/s/ryksor/learning_few_things_about_running_sqlite"
+  },
+  {
+    "title": "Enterprise Haskell at H-E-B",
+    "score": 21,
+    "tags": [
+      "haskell"
+    ],
+    "url": "https://blog.haskell.org/enterprise-haskell-at-h-e-b/",
+    "comments_url": "https://lobste.rs/s/zar7fc/enterprise_haskell_at_h_e_b"
+  },
+  {
+    "title": "Lobsters Interview with matheusmoreira about Lone Lisp",
+    "score": 13,
+    "tags": [
+      "interview",
+      "person"
+    ],
+    "url": "https://alexalejandre.com/interviews/interview-with-matheus-moreira/",
+    "comments_url": "https://lobste.rs/s/grutu0/lobsters_interview_with_matheusmoreira"
+  },
+  {
+    "title": "A Road to Lisp: Which Lisp",
+    "score": 7,
+    "tags": [
+      "clojure",
+      "lisp"
+    ],
+    "url": "https://scotto.me/blog/2026-07-17-which-lisp/",
+    "comments_url": "https://lobste.rs/s/ycqq4r/road_lisp_which_lisp"
+  },
+  {
+    "title": "What are you doing this weekend?",
+    "score": 20,
+    "tags": [
+      "ask",
+      "programming"
+    ],
+    "url": "",
+    "comments_url": "https://lobste.rs/s/1vplvg/what_are_you_doing_this_weekend"
+  },
+  {
+    "title": "How Our Rust-to-Zig Rewrite is Going",
+    "score": 177,
+    "tags": [
+      "compilers",
+      "rust",
+      "zig"
+    ],
+    "url": "https://rtfeldman.com/rust-to-zig",
+    "comments_url": "https://lobste.rs/s/axdfjx/how_our_rust_zig_rewrite_is_going"
+  },
+  {
+    "title": "Another Taste of Verse",
+    "score": 6,
+    "tags": [
+      "plt",
+      "video"
+    ],
+    "url": "https://www.youtube.com/watch?v=QIiU-QGzcqc&list=PLQtDWkrawhsE&index=2",
+    "comments_url": "https://lobste.rs/s/jvg8cy/another_taste_verse"
+  },
+  {
+    "title": "Here's how I host my own AIM server",
+    "score": 36,
+    "tags": [
+      "networking"
+    ],
+    "url": "https://veronicaexplains.net/open-oscar-server/",
+    "comments_url": "https://lobste.rs/s/4dcp6w/here_s_how_i_host_my_own_aim_server"
+  },
+  {
+    "title": "We are Changing our Developer Productivity Experiment Design",
+    "score": 12,
+    "tags": [
+      "vibecoding"
+    ],
+    "url": "https://metr.org/blog/2026-02-24-uplift-update/",
+    "comments_url": "https://lobste.rs/s/u9lvze/we_are_changing_our_developer"
+  },
+  {
+    "title": "Regressive JPEGs",
+    "score": 2,
+    "tags": [
+      "graphics",
+      "programming"
+    ],
+    "url": "https://maurycyz.com/projects/bad_jpeg/",
+    "comments_url": "https://lobste.rs/s/ihel7n/regressive_jpegs"
+  },
+  {
+    "title": "Freya 0.4 - Rust GUI library",
+    "score": 15,
+    "tags": [
+      "graphics",
+      "release",
+      "rust",
+      "vibecoding"
+    ],
+    "url": "https://freyaui.dev/posts/0.4",
+    "comments_url": "https://lobste.rs/s/x3xvou/freya_0_4_rust_gui_library"
+  },
+  {
+    "title": "topcoat: A batteries-included framework for building web apps",
+    "score": 4,
+    "tags": [
+      "rust",
+      "vibecoding",
+      "web"
+    ],
+    "url": "https://github.com/tokio-rs/topcoat",
+    "comments_url": "https://lobste.rs/s/zmg7ot/topcoat_batteries_included_framework"
+  },
+  {
+    "title": "The Java Story | The Official Documentary",
+    "score": 5,
+    "tags": [
+      "java",
+      "video"
+    ],
+    "url": "https://www.youtube.com/watch?v=ZqGSg4b_cZA",
+    "comments_url": "https://lobste.rs/s/31bikj/java_story_official_documentary"
+  },
+  {
+    "title": "Microsoft Comic Chat is now open source",
+    "score": 48,
+    "tags": [
+      "release",
+      "retrocomputing"
+    ],
+    "url": "https://opensource.microsoft.com/blog/2026/07/16/microsoft-comic-chat-is-now-open-source/",
+    "comments_url": "https://lobste.rs/s/qbvfll/microsoft_comic_chat_is_now_open_source"
+  }
+]
