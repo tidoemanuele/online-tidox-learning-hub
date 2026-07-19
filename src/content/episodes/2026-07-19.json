@@ -3,149 +3,102 @@
   "episodeNumber": 119,
   "locale": "en-US",
   "title": "Intelligence Brief",
-  "subtitle": "GPT-5.6 used a prompt to close a 30-year gap in co, Speech Recognition and TTS in less than 500kb, Mayor Mamdani says landlords can't use AI images t",
-  "heroStat": {
-    "value": "540",
-    "label": "points on \"GPT-5.6 used a prompt to close a 30-year gap in convex optimization\""
-  },
+  "subtitle": "LG monitors have silently installed an ad-serving , HN's #9 story claims GPT-5.6 used a prompt to clos, Kimi K3 ranks #1 on SpreadsheetBench 2 over Claude",
   "insights": [
     {
-      "text": "GPT-5.6 used a prompt to close a 30-year gap in convex optimization (540 HN pts, 344 comments) — OpenAI's GPT-5.6 was used to prove that the lower bound time complexity equals the complexity of a 30-year-old algorithm in convex optimization, requiring Ω(d²) function evaluations to solve a problem. This is a genuine mathematical result, not a benchmark trick: the model produced a proof that peer reviewers are calling valid. Combined with this week's separate announcement that 64 concurrent GPT-5.6 agents proved the 50-year-old Cycle Double Cover conjecture in graph theory in under an hour, the pattern is clear — frontier LLMs are now closing open problems in mathematics that human researchers had pursued for decades. The 344 comments against 540 points (0.64:1) signals deep engagement: practitioners debating whether this constitutes 'intelligence', what it means for the value of mathematical PhDs, and whether the proof is checkable by humans without AI assistance. The structural implication for builders: if LLMs can close gaps in foundational optimization theory, the assumption that AI is useful only for 'applied' tasks is operationally wrong. Optimization is the substrate of everything from ML training to logistics to chip design.",
+      "text": "LG monitors have silently installed an ad-serving application via Windows Update since at least 2024, with zero consent prompt, the moment a monitor is plugged in. Gamers Nexus tested 32 consecutive boots and saw a McAfee 30-day-trial promotion during 31 of them; the app requests access to all system resources and registers as a startup program.",
       "tags": [
-        "research",
+        "supply-chain",
+        "privacy",
+        "windows"
+      ],
+      "source": "Privacy Guides / Gamers Nexus",
+      "url": "https://www.privacyguides.org/news/2026/07/17/lg-monitors-caught-installing-adware-and-app-with-access-to-all-system-resources-without-asking/"
+    },
+    {
+      "text": "HN's #9 story claims GPT-5.6 used a prompt to close a 30-year gap in convex optimization (an Omega(d^2) lower bound matching a decades-old algorithm). A nine-page discovery search found no linked preprint, named author, or venue — the same unverified pattern as the separately-circulating claim that GPT-5.6 Sol Ultra proved the Cycle Double Cover Conjecture, which itself carries the caveat that no one has confirmed it's correct.",
+      "tags": [
+        "ai-research",
+        "verification",
+        "math"
+      ],
+      "source": "Hacker News",
+      "url": "https://news.ycombinator.com/item?id=48957779"
+    },
+    {
+      "text": "Kimi K3 ranks #1 on SpreadsheetBench 2 over Claude Fable 5 by a 34.8-to-34.7 margin -- a 0.1-point win the r/LocalLLaMA headline ('surpassing Claude Fable 5') doesn't mention, extending yesterday's finding that K3 wins specific narrow benchmarks while trailing Fable 5/GPT-5.6 Sol on Moonshot's own aggregate table.",
+      "tags": [
+        "kimi",
+        "benchmarks",
+        "llm"
+      ],
+      "source": "Reddit r/LocalLLaMA / Decrypt",
+      "url": "https://decrypt.co/373716/china-kimi-k3-largest-open-source-ai-model-ever-beats-claude-fable-gpt-5-6-sol"
+    },
+    {
+      "text": "OpenAI's Codex usage-limit reset saga (three full resets between June 25-29 after a faulty anti-abuse system spiked consumption 10-20x) is still generating OpenAI Developer Community complaints in mid-July, including banked resets disappearing in the new ChatGPT desktop app.",
+      "tags": [
         "openai",
-        "mathematics"
+        "codex",
+        "pricing"
       ],
-      "source": "HN 540pts",
-      "url": "https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/"
+      "source": "OpenAI Developer Community",
+      "url": "https://community.openai.com/t/banked-codex-resets-disappeared-in-the-new-chatgpt-desktop-app-windows/1386667"
     },
     {
-      "text": "Speech Recognition and TTS in less than 500kb (383 HN pts, 40 comments) — moonshine-ai/moonshine's 'micro' runtime delivers full automatic speech recognition and text-to-speech in 470KB of RAM, targeting the RP2350 microcontroller as its reference platform. This is not a quantized LLM: it's a purpose-built architecture that includes voice-activity detection, command recognition, and neural speech synthesis within the footprint of a $5 chip. The 383 HN points signal strong practitioner interest — this is the edge-AI story of the quarter. The implication: the compute floor for useful voice AI has dropped below consumer IoT hardware. Any device with a microphone and a speaker is now a potential voice interface; the constraint shifts from 'can we run inference here' to 'what latency and vocabulary tradeoffs are acceptable'. Meanwhile, Transcribe.cpp (322 HN pts) is the desktop counterpart — a C++ local transcription tool that runs entirely offline without sending audio to the cloud, gaining traction as privacy-first audio tooling matures.",
-      "tags": [
-        "edge-ai",
-        "speech",
-        "open-source"
-      ],
-      "source": "HN 383pts",
-      "url": "https://github.com/moonshine-ai/moonshine/tree/main/micro"
-    },
-    {
-      "text": "Mayor Mamdani says landlords can't use AI images to advertise NYC properties (390 HN pts, 174 comments) — New York City Mayor Zohran Mamdani announced that landlords may not use AI-generated images to advertise rental properties without disclosure, making NYC the first major US city to regulate AI-generated content in real estate listings. The policy targets a specific and verifiable deception pattern: properties photographed as dark, cramped studios being advertised with AI-rendered versions showing natural light, open floor plans, and renovated kitchens — images that have no relationship to the actual unit. The 174 comments carry the high engagement ratio expected for a policy story that touches the lived experience of city renters and the business models of listing platforms like Zillow and StreetEasy. The structural implication: municipal AI regulation is arriving before federal frameworks, and it's arriving sector-by-sector, starting with housing where the harm is concrete and verifiable. The next likely targets are job postings, used car listings, and food delivery photography.",
-      "tags": [
-        "regulation",
-        "ai",
-        "policy"
-      ],
-      "source": "HN 390pts",
-      "url": "https://petapixel.com/2026/07/16/mayor-mamdani-says-landlords-cant-secretly-use-ai-images-to-advertise-properties/"
-    },
-    {
-      "text": "If You Build It, They Will Come (345 HN pts, 125 comments) — Ben Landau-Taylor's essay argues against the prevailing 'distribution-first' advice for indie builders — the idea that you should solve for discovery before you solve for the product. The HN community's 345-point response suggests the piece struck a nerve in a cycle where distribution advice has crowded out product craft. The 125 comments include detailed breakdowns of cases where 'build first' worked and where it failed catastrophically, making this the rarest kind of HN thread: one that produces genuinely new information through discussion rather than restating prior positions. The takeaway for builders is specific — the 'they will come' thesis holds in markets where existing distribution fails users (search is broken, social algorithms suppress niche content, word-of-mouth is fast in tight communities). It fails in markets where distribution advantages are structural and durable.",
-      "tags": [
-        "indie",
-        "product",
-        "strategy"
-      ],
-      "source": "HN 345pts",
-      "url": "https://www.benlandautaylor.com/p/if-you-build-it-they-will-come"
-    },
-    {
-      "text": "AI Mania Is Eviscerating Global Decision-Making (136 HN pts, 53 comments) — The essay at ludic.mataroa.blog documents a specific and verifiable pattern: institutions that have adopted AI for decision support are increasingly unable to explain why they made the decisions they made, because the AI's reasoning is either inaccessible or post-hoc rationalized. The author argues this is qualitatively different from previous waves of automation: prior systems like spreadsheets and dashboards were legible; current LLM-based systems produce confident-sounding outputs whose reasoning cannot be audited or appealed. The 53 comments carry a high-quality practitioner signal: specific examples from healthcare, finance, and government procurement where AI recommendations were followed without verification, then failed in predictable ways that a domain expert would have caught. The structural insight: the risk isn't that AI makes bad decisions — it's that organizations are losing the institutional capacity to second-guess AI recommendations because the humans who would catch errors are being removed from the loop.",
-      "tags": [
-        "ai",
-        "governance",
-        "risk"
-      ],
-      "source": "HN 136pts",
-      "url": "https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/#fnref:3"
-    },
-    {
-      "text": "Hardcore IndieWeb: Run your own website 100% independently for only $0.01/day (124 HN pts, 83 comments) — neatnik.net's guide to operating a fully independent web presence at sub-cent daily cost arrives at a moment when platform risk has become a mainstream concern: Twitter/X API access revoked, Reddit third-party apps killed, Substack ownership questions, Tumblr in perpetual near-shutdown. The technical stack described uses static HTML, rsync, and a $3.50/month VPS — no CDN, no CMS, no analytics platform. The 83 comments include practitioners reporting actual costs lower than advertised, counter-arguments about the operational burden of self-hosting, and debate about whether 'independence' matters if nobody can find you without platform distribution. The cultural signal: the IndieWeb movement, which spent years as a principled but marginal position, is gaining mainstream practitioners as platform dependency has become visibly costly.",
+      "text": "Bubbles (bubbles.town) monitors 4,800+ independent personal blogs via RSS, auto-publishing new posts to a community-voted feed with Fediverse comments and full RSS/OPML republishing -- an aggregator built to surface the open web rather than wall it off.",
       "tags": [
         "indieweb",
-        "self-hosted",
-        "decentralized"
+        "rss",
+        "aggregation"
       ],
-      "source": "HN 124pts",
-      "url": "https://www.neatnik.net/hardcore-indieweb"
+      "source": "Tildes / Bubbles",
+      "url": "https://bubbles.town/about"
     },
     {
-      "text": "Regressive JPEGs earns 107 pts on Lobsters (graphics, programming) — maurycyz.com's exploration of 'regressive JPEGs' — a technique for encoding images as animations where each frame degrades toward the original — is the kind of deep-craft graphics programming that Lobsters surfaces better than any other tech aggregator. The 107 points make it the week's highest-scoring graphics post on the platform. The technique inverts the typical JPEG progressive encoding direction: rather than building quality up frame-by-frame, regressive JPEGs start at a rendered state and decompose backward toward the compressed artifact, making the compression artifacts themselves aesthetically expressive. The Lobsters thread contains implementation discussion, links to prior art in glitch art and datamoshing, and debate about whether this constitutes a new compression format or an art tool. Practically: a novel addition to the generative art and creative coding toolkit.",
+      "text": "OpenMarkdown is a local-first markdown editor (Tauri 2, no telemetry, files never leave disk) where a CLI/plugin/MCP-connected agent can co-edit the same file a human has open via inline @agent commands -- ranked #5 on Product Hunt's July 18 leaderboard.",
       "tags": [
-        "graphics",
-        "programming",
-        "creative"
+        "local-first",
+        "agents",
+        "tools"
       ],
-      "source": "Lobsters 107pts",
-      "url": "https://maurycyz.com/projects/bad_jpeg/"
+      "source": "Product Hunt",
+      "url": "https://openmarkdown.dev/"
     },
     {
-      "text": "build-your-own-x leads GitHub trending today with 1,126 stars — codecrafters-io/build-your-own-x remains the canonical 'learning by rebuilding' resource and its continued dominance of daily trending (528K total stars, still gaining 1K+ per day in mid-2026) is a data point about how developers learn. The second-fastest-gaining repo today, Robbyant/lingbot-map (831 stars, a 3D scene reconstruction foundation model), signals that 3D spatial understanding is the next frontier that practitioners are trying to get hands-on with after the 2D image and text eras. tirth8205/code-review-graph (355 stars) — a local-first code intelligence graph for MCP — is part of a larger pattern: coding agents are generating demand for persistent codebase representations that outlive individual context windows.",
+      "text": "'Hardcore IndieWeb: Run your own website 100% independently for only $0.01/day' (HN #14, 113 points) makes the case for fully self-hosted personal sites as a deliberate reaction to platform dependency -- a third same-day signal alongside Bubbles and OpenMarkdown.",
+      "tags": [
+        "indieweb",
+        "self-hosting"
+      ],
+      "source": "Hacker News",
+      "url": "https://news.ycombinator.com"
+    },
+    {
+      "text": "tirth8205/code-review-graph accelerated from +74/day (19,839 total) yesterday to +355/day (20,281 total) today -- a local-first code-intelligence graph for MCP and CLI whose growth is not cooling on a normal post-launch curve.",
       "tags": [
         "github-trending",
-        "learning",
-        "agents"
+        "developer-tools"
       ],
-      "source": "GitHub +1,126/day",
-      "url": "https://github.com/codecrafters-io/build-your-own-x"
-    }
-  ],
-  "trending": [
-    {
-      "name": "build-your-own-x",
-      "fullName": "codecrafters-io/build-your-own-x",
-      "stars": "528K",
-      "language": "Markdown",
-      "delta": "+1,126/d",
-      "url": "https://github.com/codecrafters-io/build-your-own-x"
-    },
-    {
-      "name": "lingbot-map",
-      "fullName": "Robbyant/lingbot-map",
-      "stars": "13.1K",
-      "language": "Python",
-      "delta": "+831/d",
-      "url": "https://github.com/Robbyant/lingbot-map"
-    },
-    {
-      "name": "code-review-graph",
-      "fullName": "tirth8205/code-review-graph",
-      "stars": "20.3K",
-      "language": "Python",
-      "delta": "+355/d",
+      "source": "GitHub Trending",
       "url": "https://github.com/tirth8205/code-review-graph"
-    },
-    {
-      "name": "posthog",
-      "fullName": "PostHog/posthog",
-      "stars": "36.7K",
-      "language": "Python",
-      "delta": "+338/d",
-      "url": "https://github.com/PostHog/posthog"
-    },
-    {
-      "name": "OpenCut",
-      "fullName": "OpenCut-app/OpenCut",
-      "stars": "75.0K",
-      "language": "TypeScript",
-      "delta": "+312/d",
-      "url": "https://github.com/OpenCut-app/OpenCut"
     }
   ],
+  "trending": [],
   "numbers": [
     {
-      "label": "Top HN Story",
-      "value": "540",
-      "unit": "pts"
+      "label": "Stories",
+      "value": "0",
+      "unit": "items"
     },
     {
-      "label": "Fastest Repo",
-      "value": "1,126",
-      "unit": "stars/day"
+      "label": "Repos",
+      "value": "0",
+      "unit": "tracked"
     },
     {
       "label": "Sources Scraped",
-      "value": "4",
+      "value": "1",
       "unit": "sites"
     },
     {
@@ -161,23 +114,23 @@
     },
     "headlines": [
       {
-        "text": "GPT-5.6 used a prompt to close a 30-year gap in convex optimization",
+        "text": "LG monitors have silently installed an ad-serving application via Windows Update since at least 2024, with zero consent prompt, the moment a monitor is plugged in. Gamers Nexus tested 32 consecutive boots and saw a McAfee 30-day-trial promotion during 31 of them; the app requests access to all system resources and registers as a startup program.",
         "metric": "—",
         "source": "web"
       },
       {
-        "text": "Speech Recognition and TTS in less than 500kb",
-        "metric": "322 pts",
-        "source": "HN"
+        "text": "HN's #9 story claims GPT-5.6 used a prompt to close a 30-year gap in convex optimization lower bound matching a decades-old algorithm). A nine-page discovery search found no linked preprint, named author, or venue",
+        "metric": "—",
+        "source": "web"
       },
       {
-        "text": "Mayor Mamdani says landlords can't use AI images to advertise NYC properties",
+        "text": "Kimi K3 ranks #1 on SpreadsheetBench 2 over Claude Fable 5 by a 34.8-to-34.7 margin -- a 0.1-point win the r/LocalLLaMA headline doesn't mention, extending yesterday's finding that K3 wins specific narrow benchmarks while trailing Fable 5/GPT-5.6 Sol on Moonshot's own aggregate table.",
         "metric": "—",
         "source": "web"
       }
     ],
     "takeaway": {
-      "text": "Today's signal is unmistakable: AI is moving from a tool that assists human reasoning to one that can extend the frontier of mathematical knowledge itself. GPT-5.6 closing a 30-year gap in convex optimization — verified, not just claimed — is the kind of result that reshapes how every builder should think about what's automatable. The parallel story in hardware compression (full ASR+TTS in 470KB) suggests the compute floor for useful AI is collapsing simultaneously. Builders who treat AI capability as static will be surprised twice: once by the research frontier, once by the edge deployment frontier."
+      "text": "A hardware OEM abusing Windows Update's own device-metadata channel to push ad software for years, and an unverifiable AI-math claim spreading faster than any paper can confirm it, both show trust eroding at layers with no easy fix — while three small-web projects (Bubbles, OpenMarkdown, a $0.01/day IndieWeb site) quietly bet the open web still has builders."
     }
   }
 }
