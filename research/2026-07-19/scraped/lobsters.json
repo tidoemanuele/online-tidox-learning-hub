@@ -1,0 +1,151 @@
+[
+  {
+    "title": "Reviewing AI Code Is Not A Viable Argument",
+    "score": 31,
+    "tags": [
+      "practices",
+      "programming",
+      "vibecoding"
+    ],
+    "url": "https://softwaremaxims.com/blog/reviewing-ai-code",
+    "comments_url": "https://lobste.rs/s/5kgenk/reviewing_ai_code_is_not_viable_argument"
+  },
+  {
+    "title": "GitRoot",
+    "score": 45,
+    "tags": [
+      "vcs"
+    ],
+    "url": "https://gitroot.dev/",
+    "comments_url": "https://lobste.rs/s/z01edy/gitroot"
+  },
+  {
+    "title": "Regressive JPEGs",
+    "score": 107,
+    "tags": [
+      "graphics",
+      "programming"
+    ],
+    "url": "https://maurycyz.com/projects/bad_jpeg/",
+    "comments_url": "https://lobste.rs/s/ihel7n/regressive_jpegs"
+  },
+  {
+    "title": "wp2shell: Pre Authentication RCE in WordPress Core",
+    "score": 12,
+    "tags": [
+      "security",
+      "web"
+    ],
+    "url": "https://wp2shell.com/",
+    "comments_url": "https://lobste.rs/s/aipvbn/wp2shell_pre_authentication_rce"
+  },
+  {
+    "title": "Gleam has mirrored its source code on tangled (an AT-protocol based forge)",
+    "score": 13,
+    "tags": [
+      "gleam",
+      "vcs"
+    ],
+    "url": "https://tangled.org/gleam.run/gleam",
+    "comments_url": "https://lobste.rs/s/n6hm1q/gleam_has_mirrored_its_source_code_on"
+  },
+  {
+    "title": "Software and AI - Plotting vs. Pantsing",
+    "score": 3,
+    "tags": [
+      "practices",
+      "programming",
+      "vibecoding"
+    ],
+    "url": "https://pyjarrett.github.io/2026/07/18/software-and-ai-plotting-versus-pantsing.html",
+    "comments_url": "https://lobste.rs/s/ba0j54/software_ai_plotting_vs_pantsing"
+  },
+  {
+    "title": "Lobsters Interview with matheusmoreira about Lone Lisp",
+    "score": 40,
+    "tags": [
+      "interview",
+      "person"
+    ],
+    "url": "https://alexalejandre.com/interviews/interview-with-matheus-moreira/",
+    "comments_url": "https://lobste.rs/s/grutu0/lobsters_interview_with_matheusmoreira"
+  },
+  {
+    "title": "neither gcc nor clang are compliant with standard c++",
+    "score": 21,
+    "tags": [
+      "c++"
+    ],
+    "url": "https://sebsite.pw/w/20260708-badstdcxx.html",
+    "comments_url": "https://lobste.rs/s/z3hzjm/neither_gcc_nor_clang_are_compliant_with"
+  },
+  {
+    "title": "Studying Linux Schedulers, and Why Metrics Matter",
+    "score": 3,
+    "tags": [
+      "hardware",
+      "linux",
+      "performance"
+    ],
+    "url": "https://pradyun.net/blog/metrics_matter.html",
+    "comments_url": "https://lobste.rs/s/i0nfve/studying_linux_schedulers_why_metrics"
+  },
+  {
+    "title": "Enterprise Haskell at H-E-B",
+    "score": 51,
+    "tags": [
+      "haskell"
+    ],
+    "url": "https://blog.haskell.org/enterprise-haskell-at-h-e-b/",
+    "comments_url": "https://lobste.rs/s/zar7fc/enterprise_haskell_at_h_e_b"
+  },
+  {
+    "title": "Goodbye, and thanks for all the Bikesheds",
+    "score": 36,
+    "tags": [
+      "culture"
+    ],
+    "url": "https://queue.acm.org/detail.cfm?id=3818307",
+    "comments_url": "https://lobste.rs/s/hvuumu/goodbye_thanks_for_all_bikesheds"
+  },
+  {
+    "title": "Learning a few things about running SQLite",
+    "score": 67,
+    "tags": [
+      "databases"
+    ],
+    "url": "https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/",
+    "comments_url": "https://lobste.rs/s/ryksor/learning_few_things_about_running_sqlite"
+  },
+  {
+    "title": "NextBSD project revived: Apple's FOSS user-space tools on the FreeBSD kernel",
+    "score": 10,
+    "tags": [
+      "freebsd",
+      "mac",
+      "osdev",
+      "vibecoding"
+    ],
+    "url": "https://nextbsd.org/",
+    "comments_url": "https://lobste.rs/s/p9ubuz/nextbsd_project_revived_apple_s_foss_user"
+  },
+  {
+    "title": "The computer at the bottom of a canal",
+    "score": 2,
+    "tags": [
+      "historical"
+    ],
+    "url": "https://negroniventurestudios.com/2026/07/18/the-computer-at-the-bottom-of-a-canal/",
+    "comments_url": "https://lobste.rs/s/0mljfd/computer_at_bottom_canal"
+  },
+  {
+    "title": "Hardcore IndieWeb: Run your own website 100% independently for only $0.01/day",
+    "score": 2,
+    "tags": [
+      "practices",
+      "web"
+    ],
+    "url": "https://www.neatnik.net/hardcore-indieweb",
+    "comments_url": "https://lobste.rs/s/l9rap5/hardcore_indieweb_run_your_own_website"
+  }
+]

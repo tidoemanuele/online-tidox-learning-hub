@@ -1,0 +1,92 @@
+[
+  {
+    "name": "build-your-own-x",
+    "fullName": "codecrafters-io/build-your-own-x",
+    "description": "Master programming by recreating your favorite technologies from scratch",
+    "language": "Markdown",
+    "stars_today": "1,126 stars today",
+    "total_stars": "528420",
+    "url": "https://github.com/codecrafters-io/build-your-own-x"
+  },
+  {
+    "name": "lingbot-map",
+    "fullName": "Robbyant/lingbot-map",
+    "description": "Feed-forward 3D foundation model for reconstructing scenes from streaming data",
+    "language": "Python",
+    "stars_today": "831 stars today",
+    "total_stars": "13108",
+    "url": "https://github.com/Robbyant/lingbot-map"
+  },
+  {
+    "name": "code-review-graph",
+    "fullName": "tirth8205/code-review-graph",
+    "description": "Local-first code intelligence graph for MCP and CLI with persistent codebase mapping",
+    "language": "Python",
+    "stars_today": "355 stars today",
+    "total_stars": "20299",
+    "url": "https://github.com/tirth8205/code-review-graph"
+  },
+  {
+    "name": "posthog",
+    "fullName": "PostHog/posthog",
+    "description": "Platform for building self-driving products with AI observability and analytics",
+    "language": "Python",
+    "stars_today": "338 stars today",
+    "total_stars": "36667",
+    "url": "https://github.com/PostHog/posthog"
+  },
+  {
+    "name": "OpenCut",
+    "fullName": "OpenCut-app/OpenCut",
+    "description": "Open-source CapCut alternative for video editing",
+    "language": "TypeScript",
+    "stars_today": "312 stars today",
+    "total_stars": "75000",
+    "url": "https://github.com/OpenCut-app/OpenCut"
+  },
+  {
+    "name": "wigolo",
+    "fullName": "KnockOutEZ/wigolo",
+    "description": "Local-first web for AI coding agents with search, fetch, and crawl capabilities",
+    "language": "TypeScript",
+    "stars_today": "203 stars today",
+    "total_stars": "1357",
+    "url": "https://github.com/KnockOutEZ/wigolo"
+  },
+  {
+    "name": "ai-engineering-from-scratch",
+    "fullName": "rohitg00/ai-engineering-from-scratch",
+    "description": "Learn it. Build it. Ship it — AI engineering curriculum from foundations to deployment",
+    "language": "Python",
+    "stars_today": "191 stars today",
+    "total_stars": "39217",
+    "url": "https://github.com/rohitg00/ai-engineering-from-scratch"
+  },
+  {
+    "name": "airllm",
+    "fullName": "lyogavin/airllm",
+    "description": "70B inference with single 4GB GPU — layer-by-layer streaming inference",
+    "language": "Jupyter Notebook",
+    "stars_today": "161 stars today",
+    "total_stars": "23410",
+    "url": "https://github.com/lyogavin/airllm"
+  },
+  {
+    "name": "moonshine",
+    "fullName": "moonshine-ai/moonshine",
+    "description": "Very low latency speech to text, intent recognition, and TTS for edge devices",
+    "language": "Python",
+    "stars_today": "148 stars today",
+    "total_stars": "1324",
+    "url": "https://github.com/moonshine-ai/moonshine"
+  },
+  {
+    "name": "kimi-cli",
+    "fullName": "MoonshotAI/kimi-cli",
+    "description": "Kimi Code CLI — agentic coding assistant from Moonshot AI",
+    "language": "Python",
+    "stars_today": "65 stars today",
+    "total_stars": "9573",
+    "url": "https://github.com/MoonshotAI/kimi-cli"
+  }
+]

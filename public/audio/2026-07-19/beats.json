@@ -1,0 +1,165 @@
+[
+  {
+    "type": "intro",
+    "label": "TODAY'S SIGNAL",
+    "highlight": "GPT-5.6 just closed a 30-year gap",
+    "subtext": "540 HN points on one headline"
+  },
+  {
+    "type": "intro",
+    "highlight": "Optimized code — or proved something new?"
+  },
+  {
+    "type": "insight",
+    "highlight": "Lower bound matches a 30-year-old algorithm",
+    "subtext": "Ω(d²) evaluations minimum — peer reviewers call it valid"
+  },
+  {
+    "type": "quote",
+    "highlight": "That's not a benchmark flex. That's a PhD thesis."
+  },
+  {
+    "type": "number",
+    "number": "64",
+    "label": "CONCURRENT AGENTS",
+    "highlight": "Proved a 50-year-old conjecture",
+    "subtext": "Cycle Double Cover, solved in under an hour"
+  },
+  {
+    "type": "quote",
+    "highlight": "Sixty-four agents just swarming a problem"
+  },
+  {
+    "type": "number",
+    "number": "344",
+    "label": "COMMENTS",
+    "highlight": "Against 540 upvotes",
+    "subtext": "People aren't just upvoting — they're arguing"
+  },
+  {
+    "type": "quote",
+    "highlight": "Is this even 'real' intelligence?"
+  },
+  {
+    "type": "insight",
+    "highlight": "Can a human check the proof without AI help?"
+  },
+  {
+    "type": "quote",
+    "highlight": "Who's the authority now?"
+  },
+  {
+    "type": "insight",
+    "highlight": "\"AI is weak at foundational theory\" — now false"
+  },
+  {
+    "type": "quote",
+    "highlight": "Optimization isn't niche. It's the substrate."
+  },
+  {
+    "type": "insight",
+    "highlight": "The frontier moves everywhere downstream, quietly"
+  },
+  {
+    "type": "number",
+    "number": "470",
+    "label": "KILOBYTES",
+    "highlight": "Full speech recognition on a $5 chip",
+    "subtext": "Same day as a novel math proof"
+  },
+  {
+    "type": "insight",
+    "highlight": "Two axes of the same trend",
+    "subtext": "Capability rising at the top, compute floor collapsing at the bottom"
+  },
+  {
+    "type": "repo",
+    "label": "GITHUB",
+    "highlight": "moonshine",
+    "subtext": "ASR + TTS + VAD, under 0.5MB, on an RP2350"
+  },
+  {
+    "type": "insight",
+    "highlight": "A purpose-built architecture, not a shrunk LLM"
+  },
+  {
+    "type": "quote",
+    "highlight": "Any microphone is now a voice interface"
+  },
+  {
+    "type": "quote",
+    "highlight": "Same year. Same week. Both ends of the curve."
+  },
+  {
+    "type": "quote",
+    "highlight": "What should builders do differently on Monday?"
+  },
+  {
+    "type": "action",
+    "highlight": "Re-test your 'AI can't do X' assumptions — quarterly"
+  },
+  {
+    "type": "quote",
+    "highlight": "NYC bans undisclosed AI images in rental listings"
+  },
+  {
+    "type": "insight",
+    "highlight": "First major US city regulating AI content, sector by sector"
+  },
+  {
+    "type": "quote",
+    "highlight": "Regulators go where the deception is provable first"
+  },
+  {
+    "type": "insight",
+    "highlight": "Job listings, used cars, food photos are next"
+  },
+  {
+    "type": "action",
+    "highlight": "Disclosure isn't optional anymore — build it in now"
+  },
+  {
+    "type": "insight",
+    "highlight": "AI is eviscerating decision-making because it isn't legible"
+  },
+  {
+    "type": "quote",
+    "highlight": "The humans who'd catch bad calls are being removed"
+  },
+  {
+    "type": "quote",
+    "highlight": "Legibility is the scarce resource. Not intelligence."
+  },
+  {
+    "type": "insight",
+    "highlight": "Winners explain what the model did, not just use it"
+  },
+  {
+    "type": "quote",
+    "highlight": "Capability is outrunning our ability to verify it"
+  },
+  {
+    "type": "number",
+    "number": "345",
+    "label": "HN POINTS",
+    "highlight": "\"If You Build It, They Will Come\"",
+    "subtext": "Self-hosting a website again, for a penny a day"
+  },
+  {
+    "type": "insight",
+    "highlight": "Builders are pulling back toward what they can own"
+  },
+  {
+    "type": "action",
+    "highlight": "Build small, legible, and yours — not just fast"
+  },
+  {
+    "type": "close",
+    "label": "TODAY'S THESIS",
+    "highlight": "Build the bridge between capability and trust"
+  },
+  {
+    "type": "close",
+    "highlight": "Go build something small, explainable, and mine"
+  }
+]

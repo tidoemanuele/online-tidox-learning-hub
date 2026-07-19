@@ -1,0 +1,162 @@
+[
+  {
+    "rank": 1,
+    "title": "Transcribe.cpp",
+    "url": "https://workshop.cjpais.com/projects/transcribe-cpp",
+    "hn_url": "https://news.ycombinator.com/item?id=48963879",
+    "points": 322,
+    "comments": 50
+  },
+  {
+    "rank": 2,
+    "title": "Speech Recognition and TTS in less than 500kb",
+    "url": "https://github.com/moonshine-ai/moonshine/tree/main/micro",
+    "hn_url": "https://news.ycombinator.com/item?id=48911793",
+    "points": 383,
+    "comments": 40
+  },
+  {
+    "rank": 3,
+    "title": "Better and Cheaper Than IPTV",
+    "url": "https://github.com/stupside/castor",
+    "hn_url": "https://news.ycombinator.com/item?id=48964015",
+    "points": 114,
+    "comments": 34
+  },
+  {
+    "rank": 4,
+    "title": "FDA approves new kind of cholesterol pill",
+    "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-oral-pcsk9-inhibitor-lower-ldl-cholesterol-adults-high-cholesterol",
+    "hn_url": "https://news.ycombinator.com/item?id=48964536",
+    "points": 54,
+    "comments": 31
+  },
+  {
+    "rank": 5,
+    "title": "Mathematicians still don't know the fastest way to multiply numbers",
+    "url": "https://www.scientificamerican.com/article/mathematicians-still-dont-know-the-fastest-way-to-multiply-numbers/",
+    "hn_url": "https://news.ycombinator.com/item?id=48895861",
+    "points": 57,
+    "comments": 32
+  },
+  {
+    "rank": 6,
+    "title": "LLM-Integrated Multivariable Calculus Course",
+    "url": "https://calculus.academa.ai/",
+    "hn_url": "https://news.ycombinator.com/item?id=48964585",
+    "points": 28,
+    "comments": 38
+  },
+  {
+    "rank": 7,
+    "title": "Classic Amiga titles, free to download",
+    "url": "https://amigafreeware.downer.tech/",
+    "hn_url": "https://news.ycombinator.com/item?id=48962838",
+    "points": 94,
+    "comments": 10
+  },
+  {
+    "rank": 8,
+    "title": "A Visual Catalog of Retro Macintosh Software",
+    "url": "https://www.marciot.com/mac68k-visual-catalog/",
+    "hn_url": "https://news.ycombinator.com/item?id=48877124",
+    "points": 25,
+    "comments": 5
+  },
+  {
+    "rank": 9,
+    "title": "GPT-5.6 used a prompt to close a 30-year gap in convex optimization",
+    "url": "https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/",
+    "hn_url": "https://news.ycombinator.com/item?id=48957779",
+    "points": 540,
+    "comments": 344
+  },
+  {
+    "rank": 10,
+    "title": "If You Build It, They Will Come",
+    "url": "https://www.benlandautaylor.com/p/if-you-build-it-they-will-come",
+    "hn_url": "https://news.ycombinator.com/item?id=48959090",
+    "points": 345,
+    "comments": 125
+  },
+  {
+    "rank": 11,
+    "title": "Making Software: How to make a font",
+    "url": "https://www.makingsoftware.com/chapters/how-to-make-a-font",
+    "hn_url": "https://news.ycombinator.com/item?id=48904269",
+    "points": 11,
+    "comments": 1
+  },
+  {
+    "rank": 12,
+    "title": "Scrying the AMD GFX1250 LLVM Tea Leaves",
+    "url": "https://chipsandcheese.com/p/scrying-the-amd-gfx1250-llvm-tea",
+    "hn_url": "https://news.ycombinator.com/item?id=48965161",
+    "points": 3,
+    "comments": 0
+  },
+  {
+    "rank": 13,
+    "title": "I'm Making Strandfall, a Solarpunk Orienteering Larp",
+    "url": "https://mssv.net/2026/04/29/im-making-strandfall-a-solarpunk-orienteering-larp/",
+    "hn_url": "https://news.ycombinator.com/item?id=48892021",
+    "points": 129,
+    "comments": 18
+  },
+  {
+    "rank": 14,
+    "title": "Mayor Mamdani Says Landlords Can't Use AI Images to Advertise",
+    "url": "https://petapixel.com/2026/07/16/mayor-mamdani-says-landlords-cant-secretly-use-ai-images-to-advertise-properties/",
+    "hn_url": "https://news.ycombinator.com/item?id=48962983",
+    "points": 390,
+    "comments": 174
+  },
+  {
+    "rank": 15,
+    "title": "Hardcore IndieWeb: Run your own website 100% independently for only $0.01/day",
+    "url": "https://www.neatnik.net/hardcore-indieweb",
+    "hn_url": "https://news.ycombinator.com/item?id=48962758",
+    "points": 124,
+    "comments": 83
+  },
+  {
+    "rank": 16,
+    "title": "AI Mania Is Eviscerating Global Decision-Making",
+    "url": "https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/#fnref:3",
+    "hn_url": "https://news.ycombinator.com/item?id=48964185",
+    "points": 136,
+    "comments": 53
+  },
+  {
+    "rank": 17,
+    "title": "Deepsec",
+    "url": "https://github.com/vercel-labs/deepsec",
+    "hn_url": "https://news.ycombinator.com/item?id=48964215",
+    "points": 14,
+    "comments": 0
+  },
+  {
+    "rank": 18,
+    "title": "I built a browser-based P2P file transfer tool using WebRTC",
+    "url": "https://airdows.com/",
+    "hn_url": "https://news.ycombinator.com/item?id=48964424",
+    "points": 11,
+    "comments": 6
+  },
+  {
+    "rank": 19,
+    "title": "Co-evolution of self-replication and function in a digital primordial soup",
+    "url": "https://arxiv.org/abs/2607.09211",
+    "hn_url": "https://news.ycombinator.com/item?id=48962429",
+    "points": 54,
+    "comments": 7
+  },
+  {
+    "rank": 20,
+    "title": "Is this the end of the once-mighty GoPro?",
+    "url": "https://amateurphotographer.com/latest/photo-news/going-going-gone-is-this-the-end-of-the-once-mighty-gopro/",
+    "hn_url": "https://news.ycombinator.com/item?id=48916044",
+    "points": 211,
+    "comments": 447
+  }
+]

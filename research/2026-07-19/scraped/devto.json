@@ -1,0 +1,50 @@
+[
+  {
+    "rank": 1,
+    "title": "Your CDN Might Be Blocking ChatGPT From Your Docs (And robots.txt Won't Show It)",
+    "url": "https://dev.to/acetrondi/your-cdn-might-be-blocking-chatgpt-from-your-docs-and-robotstxt-wont-show-it-4e8k",
+    "reactions": 5,
+    "comments": 2,
+    "tags": ["webdev", "seo", "ai", "nextjs"]
+  },
+  {
+    "rank": 2,
+    "title": "A Spend Cap That Stops Counting Is Already Fail-Open",
+    "url": "https://dev.to/alex_spinov/a-spend-cap-that-stops-counting-is-already-fail-open-4mi",
+    "reactions": 1,
+    "comments": 0,
+    "tags": ["ai", "agents", "python", "llm"]
+  },
+  {
+    "rank": 3,
+    "title": "Five Gemma-4 Models, One Accelerator: Porting E2B 31B to AWS Inferentia2",
+    "url": "https://dev.to/gde/five-gemma-4-models-one-accelerator-what-porting-e2b-31b-to-aws-inferentia2-taught-me-2gf5",
+    "reactions": 7,
+    "comments": 1,
+    "tags": ["gemma", "aws", "infrastructure", "machinelearning"]
+  },
+  {
+    "rank": 4,
+    "title": "I Built a Local, Keyless Firecrawl for Claude Code",
+    "url": "https://dev.to/wynelson94/i-built-a-local-keyless-firecrawl-for-claude-code-heres-whypublished-false-55ho",
+    "reactions": 3,
+    "comments": 0,
+    "tags": ["python", "ai", "opensource", "mcp"]
+  },
+  {
+    "rank": 5,
+    "title": "Retiring a Claude Code Model Unattended with launchd",
+    "url": "https://dev.to/bokuwalily/retiring-a-claude-code-model-unattended-with-launchd-a-self-destructing-job-that-auto-patches-4jee",
+    "reactions": 2,
+    "comments": 0,
+    "tags": ["claudecode", "launchd", "automation", "macos"]
+  },
+  {
+    "rank": 6,
+    "title": "400+ Downloads, 0 Revenue, and Why That's Actually Fine for Now",
+    "url": "https://dev.to/akhourianmolkumar/400-downloads-0-revenue-and-why-thats-actually-fine-for-now-3an3",
+    "reactions": 10,
+    "comments": 2,
+    "tags": ["showdev", "opensource", "indiedev"]
+  }
+]
