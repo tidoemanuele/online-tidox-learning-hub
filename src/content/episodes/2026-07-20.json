@@ -3,136 +3,148 @@
   "episodeNumber": 120,
   "locale": "en-US",
   "title": "Intelligence Brief",
-  "subtitle": "Show HN: I replaced a $120k bowling center system , Qwen 3.8, Claude Code uses Bun written in Rust now",
+  "subtitle": "Hugging Face disclosed an intrusion into its datas, HN's #4 story reports Claude Fable produced a coun, Alibaba's Qwen3.8-Max-Preview launched at 2.4 tril",
   "heroStat": {
-    "value": "2243",
+    "value": "1862",
     "label": "points on \"Show HN: I replaced a $120k bowling center system with $1,60\""
   },
   "insights": [
     {
-      "text": "Show HN: I replaced a $120k bowling center system with $1,600 in ESP32s (2243 pts, 238 comments)",
+      "text": "Hugging Face disclosed an intrusion into its dataset-processing pipeline 'driven, end to end, by an autonomous AI agent system,' exploiting a remote-code loader and a template-injection bug in dataset configuration. Its own forensic analysts using commercial hosted models were repeatedly blocked by those models' safety guardrails, while the attacker was bound by no usage policy -- forcing a pivot to self-hosted GLM-5.2 to both avoid lockout and keep attacker data from leaving company infrastructure.",
       "tags": [
-        "hacker-news"
+        "agent-security",
+        "supply-chain",
+        "guardrails"
       ],
-      "source": "HN 2243pts",
-      "url": "https://news.ycombinator.com/item?id=48968606"
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/security-incident-july-2026"
     },
     {
-      "text": "Qwen 3.8 (874 pts, 600 comments)",
+      "text": "HN's #4 story (162 points/79 comments) reports Claude Fable produced a counterexample to the Jacobian Conjecture, a famous open problem. Unlike this week's unverified AI-math proof claims, a counterexample is mechanically checkable -- exhibit the polynomial map and verify its properties -- but no concrete map, degree, or variable count has surfaced yet in discovery search, leaving the claim currently unverifiable.",
       "tags": [
-        "hacker-news"
+        "ai-research",
+        "verification",
+        "math"
       ],
-      "source": "HN 874pts",
-      "url": "https://twitter.com/Alibaba_Qwen/status/2078759124914098291"
+      "source": "Hacker News",
+      "url": "https://news.ycombinator.com"
     },
     {
-      "text": "Claude Code uses Bun written in Rust now (508 pts, 673 comments)",
+      "text": "Alibaba's Qwen3.8-Max-Preview launched at 2.4 trillion parameters with marketing language claiming performance 'second only to Fable 5' -- but has not disclosed how many parameters are active at inference in this sparse MoE model, and no independent or self-reported benchmark numbers exist yet, continuing a pattern of claims arriving before evidence that Kimi K3 showed twice this past week.",
       "tags": [
-        "hacker-news"
+        "local-llm",
+        "qwen",
+        "benchmarks"
       ],
-      "source": "HN 508pts",
-      "url": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/"
+      "source": "Hacker News / the-decoder",
+      "url": "https://the-decoder.com/alibabas-qwen-takes-on-kimi-k3-with-open-weight-qwen-3-8-says-model-is-second-only-to-fable-5/"
     },
     {
-      "text": "What I learned selling 2,500 MIDI recorders: Hardware is not so hard (484 pts, 219 comments)",
+      "text": "Google Play's Catalog Access opt-out deadline is 2 days out (July 22, 2026): any developer who hasn't made an active choice in Play Console will be automatically enrolled, syndicating their US app listing to third-party US stores while downloads still complete through Google Play under identical terms. Opt-out remains possible after the deadline, but default-in activates on schedule.",
       "tags": [
-        "hacker-news"
+        "play-store",
+        "aso",
+        "policy"
       ],
-      "source": "HN 484pts",
-      "url": "https://chipweinberger.com/articles/20260719-hardware-is-not-so-hard"
+      "source": "Google Play Console Help",
+      "url": "https://support.google.com/googleplay/android-developer/answer/17187609"
     },
     {
-      "text": "What is your favorite blog to read recently? (75 pts on Lobsters)",
+      "text": "tirth8205/code-review-graph accelerated a third consecutive day: +663/day (21,642 total) today, up from +355/day (20,281 total) yesterday and +74/day (19,839 total) the day before -- a local-first code-intelligence graph for MCP and CLI whose growth curve keeps steepening instead of cooling post-launch.",
       "tags": [
-        "lobsters",
-        "ask",
-        "programming"
+        "github-trending",
+        "developer-tools"
       ],
-      "source": "Lobsters 75pts",
-      "url": "https://lobste.rs/s/69mche/what_is_your_favorite_blog_read_recently"
+      "source": "GitHub Trending",
+      "url": "https://github.com/tirth8205/code-review-graph"
     },
     {
-      "text": "I wrote an API client for my water-cooled bed (7 pts on Lobsters)",
+      "text": "bojieli/ai-agent-book, a Chinese-language open-source book on AI agent design and engineering with full text, compiled PDF, and per-chapter code, posted the single largest star velocity in today's scrape at +1,734/day (6,868 total).",
       "tags": [
-        "lobsters",
-        "hardware",
-        "zig"
+        "github-trending",
+        "agents",
+        "education"
       ],
-      "source": "Lobsters 7pts",
-      "url": "https://tinkering.xyz/bedctl/"
+      "source": "GitHub Trending",
+      "url": "https://github.com/bojieli/ai-agent-book"
     },
     {
-      "text": "I Rewrote a OneNote MCP Server in TypeScript — Here's What I Learned About Microsoft Graph Auth (9 reactions on Dev.to)",
+      "text": "Hugging Face Trending's top 20 today includes several community model remixes trading on frontier-lab brand names with no vendor affiliation (e.g. a 'Claude-Opus-Fable5' MiniCPM finetune, a 'Qwen3.6-Fable-Fusion' uncensored merge) -- a naming-inflation pattern this research stream's ai-label-inflation trend has so far only tracked at the Play Store app-title layer, not the model-naming layer.",
       "tags": [
-        "devto",
-        "mcp",
-        "typescript"
+        "huggingface",
+        "ai-label-inflation",
+        "local-llm"
       ],
-      "source": "Dev.to 9❤",
-      "url": "https://dev.to/singhamandeep007/i-rewrote-a-onenote-mcp-server-in-typescript-heres-what-i-learned-about-microsoft-graph-auth-5933"
+      "source": "Hugging Face Trending",
+      "url": "https://huggingface.co/models?sort=trending"
     },
     {
-      "text": "The Hardest System I Ever Built Was for Patients Who Could Not Afford for It to Fail (14 reactions on Dev.to)",
+      "text": "Zig creator Andrew Kelley's criticism of the Bun Rust rewrite ('Anthropic blows smoke') recirculated on Tildes today -- deep-read confirms it's the same critique The Register covered July 14, not a new post, matching the recirculation-without-new-information pattern already logged for the Cursor 0day story.",
       "tags": [
-        "devto",
-        "devchallenge",
-        "bugsmash"
+        "claude-code",
+        "bun",
+        "recirculation"
       ],
-      "source": "Dev.to 14❤",
-      "url": "https://dev.to/toboreeee/the-hardest-system-i-ever-built-was-for-patients-who-could-not-afford-for-it-to-fail-nah"
+      "source": "Tildes / The Register",
+      "url": "https://www.theregister.com/devops/2026/07/14/zig-creator-calls-buns-claude-rust-rewrite-unreviewed-slop/5270743"
     }
   ],
   "trending": [
+    {
+      "name": "ai-agent-book",
+      "fullName": "bojieli/ai-agent-book",
+      "stars": "6.9K",
+      "language": "Python",
+      "delta": "+1,734/d",
+      "url": "https://github.com/bojieli/ai-agent-book"
+    },
     {
       "name": "build-your-own-x",
       "fullName": "codecrafters-io/build-your-own-x",
       "stars": "529K",
       "language": "Markdown",
-      "delta": "+754/d"
+      "delta": "+754/d",
+      "url": "https://github.com/codecrafters-io/build-your-own-x"
     },
     {
       "name": "code-review-graph",
       "fullName": "tirth8205/code-review-graph",
-      "stars": "22.0K",
+      "stars": "21.6K",
       "language": "Python",
-      "delta": "+663/d"
+      "delta": "+663/d",
+      "url": "https://github.com/tirth8205/code-review-graph"
     },
     {
       "name": "voicebox",
       "fullName": "jamiepine/voicebox",
-      "stars": "43.7K",
+      "stars": "43.5K",
       "language": "TypeScript",
-      "delta": "+610/d"
+      "delta": "+610/d",
+      "url": "https://github.com/jamiepine/voicebox"
     },
     {
       "name": "wigolo",
       "fullName": "KnockOutEZ/wigolo",
-      "stars": "2.1K",
+      "stars": "2.0K",
       "language": "TypeScript",
-      "delta": "+595/d"
-    },
-    {
-      "name": "ai-engineering-from-scratch",
-      "fullName": "rohitg00/ai-engineering-from-scratch",
-      "stars": "40.0K",
-      "language": "Python",
-      "delta": "+501/d"
+      "delta": "+595/d",
+      "url": "https://github.com/KnockOutEZ/wigolo"
     }
   ],
   "numbers": [
     {
       "label": "Top HN Story",
-      "value": "2243",
+      "value": "1862",
       "unit": "pts"
     },
     {
       "label": "Fastest Repo",
-      "value": "754",
+      "value": "1,734",
       "unit": "stars/day"
     },
     {
       "label": "Sources Scraped",
-      "value": "4",
+      "value": "14",
       "unit": "sites"
     },
     {
@@ -148,23 +160,23 @@
     },
     "headlines": [
       {
-        "text": "Show HN: I replaced a $120k bowling center system with $1,600 in ESP32s",
+        "text": "Hugging Face disclosed an intrusion into its dataset-processing pipeline 'driven, end to end, by an autonomous AI agent system,' exploiting a remote-code loader and a template-injection bug in dataset configuration. Its own forensic analysts using commercial hosted models were repeatedly blocked by those models' safety guardrails, while the attacker was bound by no usage policy -- forcing a pivot to self-hosted GLM-5.2 to both avoid lockout and keep attacker data from leaving company infrastructure.",
         "metric": "—",
         "source": "web"
       },
       {
-        "text": "Qwen 3.8",
+        "text": "HN's #4 story reports Claude Fable produced a counterexample to the Jacobian Conjecture, a famous open problem. Unlike this week's unverified AI-math proof claims, a counterexample is mechanically checkable -- exhibit the polynomial map and verify its properties -- but no concrete map, degree, or variable count has surfaced yet in discovery search, leaving the claim currently unverifiable.",
         "metric": "—",
         "source": "web"
       },
       {
-        "text": "Claude Code uses Bun written in Rust now",
+        "text": "Alibaba's Qwen3.8-Max-Preview launched at 2.4 trillion parameters with marketing language claiming performance 'second only to Fable 5' -- but has not disclosed how many parameters are active at inference in this sparse MoE model, and no independent or self-reported benchmark numbers exist yet, continuing a pattern of claims arriving before evidence that Kimi K3 showed twice this past week.",
         "metric": "—",
         "source": "web"
       }
     ],
     "takeaway": {
-      "text": "Today's brief covers the most interesting signals across the tech landscape."
+      "text": "Hugging Face's own disclosed breach turns the attacker/defender guardrail asymmetry from a hypothetical into a documented incident, a Claude Fable counterexample claim to the Jacobian Conjecture becomes math's sharper second test of whether AI capability claims can be verified as fast as they spread, and two days before Google defaults every undecided developer into Play Catalog Access, the deadline this research stream has tracked since July 6 finally arrives."
     }
   }
 }

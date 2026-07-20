@@ -1,0 +1,180 @@
+[
+  {
+    "type": "intro",
+    "label": "DAILY BRIEF",
+    "highlight": "Three stories that rhyme",
+    "subtext": "Start with Hugging Face"
+  },
+  {
+    "type": "intro",
+    "label": "STORY ONE",
+    "highlight": "The breach",
+    "subtext": "Read the disclosure twice"
+  },
+  {
+    "type": "insight",
+    "label": "HOW",
+    "highlight": "Autonomous AI agent ran the whole intrusion",
+    "subtext": "Remote-code loader plus template-injection bug"
+  },
+  {
+    "type": "quote",
+    "highlight": "Their own forensic team couldn't investigate it",
+    "label": "THE TWIST"
+  },
+  {
+    "type": "insight",
+    "highlight": "Guardrails blocked the defenders, not the attacker",
+    "subtext": "Analysts were on commercial hosted models"
+  },
+  {
+    "type": "quote",
+    "highlight": "Defender fights with one hand tied",
+    "subtext": "The whole asymmetry in one incident"
+  },
+  {
+    "type": "insight",
+    "label": "THE PIVOT",
+    "highlight": "Self-hosted to stop lockouts, keep data in-house",
+    "subtext": "GLM-5.2, run on their own infrastructure"
+  },
+  {
+    "type": "insight",
+    "highlight": "Incident response needs an ungoverned model you control"
+  },
+  {
+    "type": "quote",
+    "highlight": "Behind someone else's policy, your blue team loses by design"
+  },
+  {
+    "type": "action",
+    "label": "DO THIS",
+    "highlight": "Keep a self-hosted model in the break-glass kit",
+    "subtext": "For the day something's already inside"
+  },
+  {
+    "type": "insight",
+    "label": "STORY TWO",
+    "highlight": "The opposite problem: verification"
+  },
+  {
+    "type": "quote",
+    "highlight": "Claude Fable produced a counterexample",
+    "subtext": "The Jacobian Conjecture"
+  },
+  {
+    "type": "number",
+    "number": "4",
+    "label": "HACKER NEWS",
+    "highlight": "A counterexample is mechanically checkable",
+    "subtext": "Exhibit the map, verify, done"
+  },
+  {
+    "type": "insight",
+    "highlight": "The proof claims nobody can check fast"
+  },
+  {
+    "type": "insight",
+    "highlight": "No concrete map has surfaced — unverifiable",
+    "subtext": "No degree, no variable count"
+  },
+  {
+    "type": "quote",
+    "highlight": "Checkable is the interesting part, even if the artifact's missing"
+  },
+  {
+    "type": "insight",
+    "highlight": "Checkable with nothing to check is still a headline",
+    "subtext": "Value is zero until the map appears"
+  },
+  {
+    "type": "insight",
+    "label": "THE PATTERN",
+    "highlight": "A gap between claim and evidence"
+  },
+  {
+    "type": "number",
+    "number": "2.4T",
+    "label": "STORY THREE",
+    "highlight": "Qwen3.8-Max-Preview, 2.4 trillion parameters",
+    "subtext": "Marketing: 'second only to Fable 5'"
+  },
+  {
+    "type": "quote",
+    "highlight": "And the benchmarks are... where, exactly?"
+  },
+  {
+    "type": "insight",
+    "highlight": "Nowhere — no active-parameter count, no numbers",
+    "subtext": "Same pattern Kimi K3 pulled twice this week"
+  },
+  {
+    "type": "insight",
+    "highlight": "Three claims, all arriving before their evidence",
+    "subtext": "Security, math, benchmarks"
+  },
+  {
+    "type": "quote",
+    "label": "THE THESIS",
+    "highlight": "Claims have decoupled from verification",
+    "subtext": "Announcements are instant; proof lags"
+  },
+  {
+    "type": "insight",
+    "highlight": "The scarce skill isn't generating claims — it's checking them"
+  },
+  {
+    "type": "number",
+    "number": "+663",
+    "label": "code-review-graph",
+    "highlight": "Plus 663 stars a day, third straight day accelerating",
+    "subtext": "Local-first code intelligence"
+  },
+  {
+    "type": "insight",
+    "highlight": "A verification tool is the thing that keeps steepening",
+    "subtext": "Not a coincidence"
+  },
+  {
+    "type": "repo",
+    "highlight": "ai-agent-book",
+    "label": "TOP STAR VELOCITY",
+    "subtext": "+1,734 — racing to build agents"
+  },
+  {
+    "type": "insight",
+    "highlight": "Build the agent, and build the thing that checks it"
+  },
+  {
+    "type": "number",
+    "number": "2",
+    "label": "PLAY CATALOG ACCESS",
+    "highlight": "Default opt-in hits July 22 — two days out"
+  },
+  {
+    "type": "insight",
+    "highlight": "No active choice in Play Console, you get auto-enrolled",
+    "subtext": "US listing syndicated to third-party stores"
+  },
+  {
+    "type": "action",
+    "label": "DECIDE TODAY",
+    "highlight": "The default flips on schedule — go decide now",
+    "subtext": "You can still opt out after"
+  },
+  {
+    "type": "quote",
+    "highlight": "The edge is being the one who can verify a claim"
+  },
+  {
+    "type": "close",
+    "label": "THE TAKEAWAY",
+    "highlight": "The verifier is the product now",
+    "subtext": "Incident stack, benchmark harness, or code graph"
+  },
+  {
+    "type": "close",
+    "highlight": "Go build the thing that says 'prove it'",
+    "subtext": "That's the whole game today"
+  }
+]
