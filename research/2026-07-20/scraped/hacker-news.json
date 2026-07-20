@@ -1,0 +1,212 @@
+[
+  {
+    "rank": 1,
+    "title": "Show HN: I replaced a $120k bowling center system with $1,600 in ESP32s",
+    "url": "https://news.ycombinator.com/item?id=48968606",
+    "points": 2243,
+    "comments": 238
+  },
+  {
+    "rank": 2,
+    "title": "Qwen 3.8",
+    "url": "https://twitter.com/Alibaba_Qwen/status/2078759124914098291",
+    "points": 874,
+    "comments": 600
+  },
+  {
+    "rank": 3,
+    "title": "Claude Code uses Bun written in Rust now",
+    "url": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/",
+    "points": 508,
+    "comments": 673
+  },
+  {
+    "rank": 4,
+    "title": "What I learned selling 2,500 MIDI recorders: Hardware is not so hard",
+    "url": "https://chipweinberger.com/articles/20260719-hardware-is-not-so-hard",
+    "points": 484,
+    "comments": 219
+  },
+  {
+    "rank": 5,
+    "title": "Claude Fable produced a counterexample to the Jacobian Conjecture",
+    "url": "https://xcancel.com/__alpoge__/status/2079028340955197566",
+    "points": 371,
+    "comments": 212
+  },
+  {
+    "rank": 6,
+    "title": "Minecraft: Java Edition now uses SDL3",
+    "url": "https://www.minecraft.net/en-us/article/minecraft-26-3-snapshot-4",
+    "points": 309,
+    "comments": 202
+  },
+  {
+    "rank": 7,
+    "title": "I joined the IndieWeb, here's what I learned",
+    "url": "https://en.andros.dev/blog/0b8e451e/i-joined-the-indieweb-heres-what-i-learned/",
+    "points": 199,
+    "comments": 100
+  },
+  {
+    "rank": 8,
+    "title": "Orion Browser by Kagi",
+    "url": "https://orionbrowser.com/",
+    "points": 191,
+    "comments": 130
+  },
+  {
+    "rank": 9,
+    "title": "Xiaomi-Robotics-1",
+    "url": "https://robotics.xiaomi.com/xiaomi-robotics-1.html",
+    "points": 180,
+    "comments": 119
+  },
+  {
+    "rank": 10,
+    "title": "Moonshine: Lets you stream games from your PC to any device running Moonlight",
+    "url": "https://github.com/hgaiser/moonshine",
+    "points": 160,
+    "comments": 71
+  },
+  {
+    "rank": 11,
+    "title": "The Zen of Parallel Programming",
+    "url": "https://smolnero.com/posts/the-zen-of-parallel-programming",
+    "points": 156,
+    "comments": 19
+  },
+  {
+    "rank": 12,
+    "title": "Bananas sprout in Rayleigh Garden UK after 15 years",
+    "url": "https://www.bbc.com/news/articles/cvg8edqq5g5o",
+    "points": 155,
+    "comments": 115
+  },
+  {
+    "rank": 13,
+    "title": "I burned all my tokens researching how to save tokens",
+    "url": "https://quesma.com/blog/custom-deep-research-pipeline/",
+    "points": 131,
+    "comments": 166
+  },
+  {
+    "rank": 14,
+    "title": "HomeLab #1: MikroTik as a Home Router",
+    "url": "https://justsomebody.dev/blog/mikrotik-home-router",
+    "points": 114,
+    "comments": 95
+  },
+  {
+    "rank": 15,
+    "title": "Cagire: Live Coding in Forth",
+    "url": "https://cagire.raphaelforment.fr",
+    "points": 96,
+    "comments": 12
+  },
+  {
+    "rank": 16,
+    "title": "Dupes took over the world",
+    "url": "https://www.vox.com/podcasts/493930/dupe-culture-fender-ugg-quince-tiktok-amazon-online-shopping",
+    "points": 91,
+    "comments": 86
+  },
+  {
+    "rank": 17,
+    "title": "A new Intel Itanium (IA-64) emulator that boots Windows",
+    "url": "https://raymii.org/s/blog/Intel_Itanium_IA-64-Emulator_that_boots_Windows.html",
+    "points": 77,
+    "comments": 67
+  },
+  {
+    "rank": 18,
+    "title": "How proprietary formats have become Microsoft’s main tool for lock-in",
+    "url": "https://blog.documentfoundation.org/blog/2026/07/17/microsofts-main-tool-for-lock-in/",
+    "points": 76,
+    "comments": 39
+  },
+  {
+    "rank": 19,
+    "title": "HMD Touch 4G",
+    "url": "https://www.hmd.com/en_int/hmd-touch-4g",
+    "points": 74,
+    "comments": 75
+  },
+  {
+    "rank": 20,
+    "title": "Who Is America's Homer?",
+    "url": "https://www.plough.com/articles/who-is-americas-homer",
+    "points": 73,
+    "comments": 170
+  },
+  {
+    "rank": 21,
+    "title": "Biggest Probabilistic Computer Turns Noise into Answers",
+    "url": "https://spectrum.ieee.org/biggest-probabilistic-computer",
+    "points": 71,
+    "comments": 12
+  },
+  {
+    "rank": 22,
+    "title": "C64 Basic Dungeon Crawler: Goblin Attack (C64 Basic Part 8)",
+    "url": "https://retrogamecoders.com/c64-basic-dungeon-part8/",
+    "points": 71,
+    "comments": 6
+  },
+  {
+    "rank": 23,
+    "title": "LoRA Speedrun – a public wall-clock leaderboard for fine-tuning techniques",
+    "url": "https://github.com/Saivineeth147/lora-speedrun",
+    "points": 68,
+    "comments": 7
+  },
+  {
+    "rank": 24,
+    "title": "11,700 Free Photos from John Margolies' Archive of Americana Architecture",
+    "url": "https://www.openculture.com/2026/07/free-photos-from-john-margolies-archive-of-americana-architecture.html",
+    "points": 60,
+    "comments": 2
+  },
+  {
+    "rank": 25,
+    "title": "Korg PS-3300 is back",
+    "url": "https://www.korg.co.uk/blogs/updates/ps3300",
+    "points": 49,
+    "comments": 47
+  },
+  {
+    "rank": 26,
+    "title": "Talk: The Art of Braiding Algorithms",
+    "url": "https://pgadey.ca/notes/talk-relatorium-2026/",
+    "points": 40,
+    "comments": 0
+  },
+  {
+    "rank": 27,
+    "title": "Self-Powered Trailers Promise Leaner Freight Runs",
+    "url": "https://spectrum.ieee.org/self-powered-trailers-freight-decarbonization",
+    "points": 33,
+    "comments": 14
+  },
+  {
+    "rank": 28,
+    "title": "1-Bit LLM in the Browser",
+    "url": "https://huggingface.co/spaces/webml-community/bonsai-webgpu",
+    "points": 30,
+    "comments": 7
+  },
+  {
+    "rank": 29,
+    "title": "Sealed tomb filled with paintings and inscriptions discovered in Egypt",
+    "url": "https://www.labrujulaverde.com/en/2026/07/sealed-tomb-of-a-high-official-or-priest-filled-with-paintings-and-inscriptions-discovered-on-luxors-west-bank/",
+    "points": 26,
+    "comments": 16
+  },
+  {
+    "rank": 30,
+    "title": "EU Exempts Apple Watch and AirPods from Battery Removal Requirements",
+    "url": "https://mjtsai.com/blog/2026/07/17/eu-exempts-apple-watch-and-airpods-from-battery-removal-requirement/",
+    "points": 15,
+    "comments": 23
+  }
+]

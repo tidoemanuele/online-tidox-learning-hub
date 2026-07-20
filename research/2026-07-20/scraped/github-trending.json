@@ -1,0 +1,128 @@
+[
+  {
+    "name": "tirth8205/code-review-graph",
+    "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
+    "language": "Python",
+    "stars_today": "663 stars today",
+    "total_stars": "22034"
+  },
+  {
+    "name": "kvcache-ai/ktransformers",
+    "description": "A Flexible Framework for Experiencing Heterogeneous LLM Inference/Fine-tune Optimizations",
+    "language": "Python",
+    "stars_today": "360 stars today",
+    "total_stars": "18544"
+  },
+  {
+    "name": "rohitg00/ai-engineering-from-scratch",
+    "description": "Learn it. Build it. Ship it for others.",
+    "language": "Python",
+    "stars_today": "501 stars today",
+    "total_stars": "40037"
+  },
+  {
+    "name": "jamiepine/voicebox",
+    "description": "The open-source AI voice studio. Clone, dictate, create.",
+    "language": "TypeScript",
+    "stars_today": "610 stars today",
+    "total_stars": "43707"
+  },
+  {
+    "name": "KnockOutEZ/wigolo",
+    "description": "The go-to web for your AI coding agent — local-first search, fetch, crawl &amp; research over MCP. No API keys, no cloud, $0/query. Public beta.",
+    "language": "TypeScript",
+    "stars_today": "595 stars today",
+    "total_stars": "2137"
+  },
+  {
+    "name": "andrewrabert/jellium-desktop",
+    "description": "An unofficial desktop client for Jellyfin",
+    "language": "Rust",
+    "stars_today": "43 stars today",
+    "total_stars": "1357"
+  },
+  {
+    "name": "github/copilot-sdk",
+    "description": "Multi-platform SDK for integrating GitHub Copilot Agent into apps and services",
+    "language": "Java",
+    "stars_today": "39 stars today",
+    "total_stars": "10012"
+  },
+  {
+    "name": "PostHog/posthog",
+    "description": "🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
+    "language": "Python",
+    "stars_today": "411 stars today",
+    "total_stars": "37054"
+  },
+  {
+    "name": "microsoft/terminal",
+    "description": "The new Windows Terminal and the original Windows console host, all in the same place!",
+    "language": "C++",
+    "stars_today": "59 stars today",
+    "total_stars": "104274"
+  },
+  {
+    "name": "AstrBotDevs/AstrBot",
+    "description": "AI Agent Assistant &amp; development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
+    "language": "Python",
+    "stars_today": "83 stars today",
+    "total_stars": "36836"
+  },
+  {
+    "name": "1jehuang/jcode",
+    "description": "Coding Agent Harness",
+    "language": "Rust",
+    "stars_today": "235 stars today",
+    "total_stars": "9126"
+  },
+  {
+    "name": "trycua/cua",
+    "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
+    "language": "HTML",
+    "stars_today": "64 stars today",
+    "total_stars": "20314"
+  },
+  {
+    "name": "MoonshotAI/kimi-cli",
+    "description": "Kimi Code CLI is your next CLI agent.",
+    "language": "Python",
+    "stars_today": "410 stars today",
+    "total_stars": "10031"
+  },
+  {
+    "name": "Flowseal/zapret-discord-youtube",
+    "description": "",
+    "language": "Batchfile",
+    "stars_today": "106 stars today",
+    "total_stars": "31063"
+  },
+  {
+    "name": "codecrafters-io/build-your-own-x",
+    "description": "Master programming by recreating your favorite technologies from scratch.",
+    "language": "Markdown",
+    "stars_today": "754 stars today",
+    "total_stars": "529166"
+  },
+  {
+    "name": "lyogavin/airllm",
+    "description": "AirLLM 70B inference with single 4GB GPU",
+    "language": "Jupyter Notebook",
+    "stars_today": "358 stars today",
+    "total_stars": "23765"
+  },
+  {
+    "name": "Canner/WrenAI",
+    "description": "GenBI (Generative BI) for AI agents, an open-source, governed text-to-SQL through an open context layer that turns natural-language questions into trusted dashboards, charts, and SQL across 20+ data sources, such as BigQuery, Snowflake, PostgreSQL, ClickHouse, Amazon Redshift, Databricks and more.",
+    "language": "Python",
+    "stars_today": "121 stars today",
+    "total_stars": "16369"
+  },
+  {
+    "name": "PKUFlyingPig/cs-self-learning",
+    "description": "计算机自学指南",
+    "language": "HTML",
+    "stars_today": "134 stars today",
+    "total_stars": "74334"
+  }
+]

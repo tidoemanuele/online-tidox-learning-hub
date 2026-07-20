@@ -1,0 +1,170 @@
+{
+  "date": "2026-07-20",
+  "episodeNumber": 120,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "Show HN: I replaced a $120k bowling center system , Qwen 3.8, Claude Code uses Bun written in Rust now",
+  "heroStat": {
+    "value": "2243",
+    "label": "points on \"Show HN: I replaced a $120k bowling center system with $1,60\""
+  },
+  "insights": [
+    {
+      "text": "Show HN: I replaced a $120k bowling center system with $1,600 in ESP32s (2243 pts, 238 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 2243pts",
+      "url": "https://news.ycombinator.com/item?id=48968606"
+    },
+    {
+      "text": "Qwen 3.8 (874 pts, 600 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 874pts",
+      "url": "https://twitter.com/Alibaba_Qwen/status/2078759124914098291"
+    },
+    {
+      "text": "Claude Code uses Bun written in Rust now (508 pts, 673 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 508pts",
+      "url": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/"
+    },
+    {
+      "text": "What I learned selling 2,500 MIDI recorders: Hardware is not so hard (484 pts, 219 comments)",
+      "tags": [
+        "hacker-news"
+      ],
+      "source": "HN 484pts",
+      "url": "https://chipweinberger.com/articles/20260719-hardware-is-not-so-hard"
+    },
+    {
+      "text": "What is your favorite blog to read recently? (75 pts on Lobsters)",
+      "tags": [
+        "lobsters",
+        "ask",
+        "programming"
+      ],
+      "source": "Lobsters 75pts",
+      "url": "https://lobste.rs/s/69mche/what_is_your_favorite_blog_read_recently"
+    },
+    {
+      "text": "I wrote an API client for my water-cooled bed (7 pts on Lobsters)",
+      "tags": [
+        "lobsters",
+        "hardware",
+        "zig"
+      ],
+      "source": "Lobsters 7pts",
+      "url": "https://tinkering.xyz/bedctl/"
+    },
+    {
+      "text": "I Rewrote a OneNote MCP Server in TypeScript — Here's What I Learned About Microsoft Graph Auth (9 reactions on Dev.to)",
+      "tags": [
+        "devto",
+        "mcp",
+        "typescript"
+      ],
+      "source": "Dev.to 9❤",
+      "url": "https://dev.to/singhamandeep007/i-rewrote-a-onenote-mcp-server-in-typescript-heres-what-i-learned-about-microsoft-graph-auth-5933"
+    },
+    {
+      "text": "The Hardest System I Ever Built Was for Patients Who Could Not Afford for It to Fail (14 reactions on Dev.to)",
+      "tags": [
+        "devto",
+        "devchallenge",
+        "bugsmash"
+      ],
+      "source": "Dev.to 14❤",
+      "url": "https://dev.to/toboreeee/the-hardest-system-i-ever-built-was-for-patients-who-could-not-afford-for-it-to-fail-nah"
+    }
+  ],
+  "trending": [
+    {
+      "name": "build-your-own-x",
+      "fullName": "codecrafters-io/build-your-own-x",
+      "stars": "529K",
+      "language": "Markdown",
+      "delta": "+754/d"
+    },
+    {
+      "name": "code-review-graph",
+      "fullName": "tirth8205/code-review-graph",
+      "stars": "22.0K",
+      "language": "Python",
+      "delta": "+663/d"
+    },
+    {
+      "name": "voicebox",
+      "fullName": "jamiepine/voicebox",
+      "stars": "43.7K",
+      "language": "TypeScript",
+      "delta": "+610/d"
+    },
+    {
+      "name": "wigolo",
+      "fullName": "KnockOutEZ/wigolo",
+      "stars": "2.1K",
+      "language": "TypeScript",
+      "delta": "+595/d"
+    },
+    {
+      "name": "ai-engineering-from-scratch",
+      "fullName": "rohitg00/ai-engineering-from-scratch",
+      "stars": "40.0K",
+      "language": "Python",
+      "delta": "+501/d"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "2243",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "754",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "4",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "July 20, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Show HN: I replaced a $120k bowling center system with $1,600 in ESP32s",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Qwen 3.8",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Claude Code uses Bun written in Rust now",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Today's brief covers the most interesting signals across the tech landscape."
+    }
+  }
+}

@@ -1,0 +1,322 @@
+[
+  {
+    "rank": 1,
+    "title": "I Rewrote a OneNote MCP Server in TypeScript — Here's What I Learned About Microsoft Graph Auth",
+    "url": "https://dev.to/singhamandeep007/i-rewrote-a-onenote-mcp-server-in-typescript-heres-what-i-learned-about-microsoft-graph-auth-5933",
+    "reactions": 9,
+    "comments": 2,
+    "tags": [
+      "mcp",
+      "typescript",
+      "tutorial",
+      "ai"
+    ]
+  },
+  {
+    "rank": 2,
+    "title": "The Hardest System I Ever Built Was for Patients Who Could Not Afford for It to Fail",
+    "url": "https://dev.to/toboreeee/the-hardest-system-i-ever-built-was-for-patients-who-could-not-afford-for-it-to-fail-nah",
+    "reactions": 14,
+    "comments": 3,
+    "tags": [
+      "devchallenge",
+      "bugsmash",
+      "react",
+      "webdev"
+    ]
+  },
+  {
+    "rank": 3,
+    "title": "I've Spent 10+ Years in Software Engineering. After Sickness, Burnout, and a Layoff, I'm Rebuilding My Career. Ask Me Anything",
+    "url": "https://dev.to/canro91/ive-spent-10-years-in-software-engineering-after-sickness-burnout-and-a-layoff-im-rebuilding-efc",
+    "reactions": 2,
+    "comments": 3,
+    "tags": [
+      "discuss",
+      "watercooler",
+      "ama",
+      "coding"
+    ]
+  },
+  {
+    "rank": 4,
+    "title": "The smolagents bug that made my agent retry the same valid code three times",
+    "url": "https://dev.to/himanshu_748/the-smolagents-bug-that-made-my-agent-retry-the-same-valid-code-three-times-2aka",
+    "reactions": 7,
+    "comments": 2,
+    "tags": [
+      "devchallenge",
+      "bugsmash",
+      "python",
+      "ai"
+    ]
+  },
+  {
+    "rank": 5,
+    "title": "Browser OS Redefined: The Desktop Metaphor Doesn't Quite Fit a 5\" Screen Browser",
+    "url": "https://dev.to/edmundsparrow/browser-os-redefined-the-desktop-metaphor-doesnt-quite-fit-a-5-screen-browser-4hg1",
+    "reactions": 8,
+    "comments": 1,
+    "tags": [
+      "showdev",
+      "webdev",
+      "programming",
+      "productivity"
+    ]
+  },
+  {
+    "rank": 6,
+    "title": "I measured every millisecond of my real-time AI pipeline. The LLM was the fast part.",
+    "url": "https://dev.to/florian131313/i-measured-every-millisecond-of-my-real-time-ai-pipeline-the-llm-was-the-fast-part-dd5",
+    "reactions": 5,
+    "comments": 2,
+    "tags": [
+      "ai",
+      "llm",
+      "performance",
+      "webdev"
+    ]
+  },
+  {
+    "rank": 7,
+    "title": "My Solana Program Launch Checklist (Written the Day After I Actually Did It)",
+    "url": "https://dev.to/lymah/my-solana-program-launch-checklist-written-the-day-after-i-actually-did-it-1f2d",
+    "reactions": 1,
+    "comments": 0,
+    "tags": [
+      "solana",
+      "rust",
+      "anchor",
+      "100daysofsolana"
+    ]
+  },
+  {
+    "rank": 8,
+    "title": "I built a storefront that works with zero API keys, and it made the code better",
+    "url": "https://dev.to/rucs0/i-built-a-storefront-that-works-with-zero-api-keys-and-it-made-the-code-better-309i",
+    "reactions": 2,
+    "comments": 1,
+    "tags": [
+      "nextjs",
+      "architecture",
+      "webdev",
+      "typescript"
+    ]
+  },
+  {
+    "rank": 9,
+    "title": "How to Hunt a Bug Again (But at 10 AM ☀️)",
+    "url": "https://dev.to/codemaster_121482/how-to-hunt-a-bug-again-but-at-10-am--1k6",
+    "reactions": 9,
+    "comments": 0,
+    "tags": [
+      "debugging",
+      "devjournal",
+      "frontend",
+      "ux"
+    ]
+  },
+  {
+    "rank": 10,
+    "title": "We built an AI board of directors on Qwen. Then we asked it whether we should migrate to Qwen.",
+    "url": "https://dev.to/vincentjulijanto/we-built-an-ai-board-of-directors-on-qwen-then-we-asked-it-whether-we-should-migrate-to-qwen-207j",
+    "reactions": 3,
+    "comments": 1,
+    "tags": [
+      "ai",
+      "agents",
+      "hackathon",
+      "qwen"
+    ]
+  },
+  {
+    "rank": 11,
+    "title": "The hard part of building a dubbing extension wasn't the AI. It was the video player.",
+    "url": "https://dev.to/pheomenon/how-i-built-a-course-dubbing-extension-without-touching-speech-recognition-46ol",
+    "reactions": 2,
+    "comments": 1,
+    "tags": [
+      "ai",
+      "javascript",
+      "learning",
+      "showdev"
+    ]
+  },
+  {
+    "rank": 12,
+    "title": "Phase 4: Retrieval Quality & Grounded Answers",
+    "url": "https://dev.to/surajrkhonde/phase-4-retrieval-quality-grounded-answers-2keg",
+    "reactions": 4,
+    "comments": 1,
+    "tags": [
+      "ai",
+      "beginners",
+      "programming",
+      "rag"
+    ]
+  },
+  {
+    "rank": 13,
+    "title": "My RabbitMQ library looked production-ready. It couldn't survive a single reconnect.",
+    "url": "https://dev.to/pinceladasdaweb/my-rabbitmq-library-looked-production-ready-it-couldnt-survive-a-single-reconnect-1lp",
+    "reactions": 1,
+    "comments": 0,
+    "tags": [
+      "node",
+      "rabbitmq",
+      "testing",
+      "opensource"
+    ]
+  },
+  {
+    "rank": 14,
+    "title": "The Rubric Line That Sent Me Down a Three-Layer Debugging Rabbit Hole",
+    "url": "https://dev.to/arek_h/the-rubric-line-that-sent-me-down-a-three-layer-debugging-rabbit-hole-2p04",
+    "reactions": 0,
+    "comments": 2,
+    "tags": [
+      "ai",
+      "hackathon",
+      "langgraph",
+      "debugging"
+    ]
+  },
+  {
+    "rank": 15,
+    "title": "I Learned Go by Hacking Kubernetes RBAC Security (And Nearly Quit 5 Times)",
+    "url": "https://dev.to/le_beltagy/i-learned-go-by-hacking-kubernetes-rbac-security-and-nearly-quit-5-times-3pnp",
+    "reactions": 4,
+    "comments": 0,
+    "tags": [
+      "go",
+      "kubernetes",
+      "security",
+      "opensource"
+    ]
+  },
+  {
+    "rank": 16,
+    "title": "Google Trends will 429 you into the ground — here's how I got past it",
+    "url": "https://dev.to/votiakov/google-trends-will-429-you-into-the-ground-heres-how-i-got-past-it-50hk",
+    "reactions": 1,
+    "comments": 0,
+    "tags": [
+      "webscraping",
+      "python",
+      "javascript",
+      "seo"
+    ]
+  },
+  {
+    "rank": 17,
+    "title": "Building AI Agents for Social Media with TypeScript and Hono.js",
+    "url": "https://dev.to/mayu2008/building-ai-agents-for-social-media-with-typescript-and-honojs-4lgp",
+    "reactions": 23,
+    "comments": 4,
+    "tags": [
+      "ai",
+      "programming",
+      "aiagents",
+      "honojs"
+    ]
+  },
+  {
+    "rank": 18,
+    "title": "Streaming LLM responses in TypeScript: SSE, ReadableStream, and the React 19 useChat hook.",
+    "url": "https://dev.to/thegdsks/streaming-llm-responses-in-typescript-sse-readablestream-and-the-react-19-usechat-hook-36la",
+    "reactions": 4,
+    "comments": 1,
+    "tags": [
+      "ai",
+      "typescript",
+      "react",
+      "tutorial"
+    ]
+  },
+  {
+    "rank": 19,
+    "title": "The Certificate Wizard Is Now A Standalone App, And It Stopped Impersonating You",
+    "url": "https://dev.to/codenameone/the-certificate-wizard-is-now-a-standalone-app-and-it-stopped-impersonating-you-229n",
+    "reactions": 1,
+    "comments": 1,
+    "tags": [
+      "java",
+      "mobile",
+      "android",
+      "ios"
+    ]
+  },
+  {
+    "rank": 20,
+    "title": "Swift Classes — Initializers and the super.init() Rule 🏗️",
+    "url": "https://dev.to/gamya_m/swift-classes-initializers-and-the-superinit-rule-9hn",
+    "reactions": 7,
+    "comments": 1,
+    "tags": [
+      "swift",
+      "programming",
+      "ios",
+      "development"
+    ]
+  },
+  {
+    "rank": 21,
+    "title": "The Timeline Was Split, but the Audio Wasn't: Fixing Source Offsets in a Browser Video Editor",
+    "url": "https://dev.to/martindelophy/the-timeline-was-split-but-the-audio-wasnt-fixing-source-offsets-in-a-browser-video-editor-2m02",
+    "reactions": 4,
+    "comments": 1,
+    "tags": [
+      "devchallenge",
+      "bugsmash",
+      "javascript",
+      "webaudio"
+    ]
+  },
+  {
+    "rank": 22,
+    "title": "Automate Spotify and YouTube Playlists - Chapter 1: Understanding The Plan, Setting Up Accounts",
+    "url": "https://dev.to/towernter/automate-spotify-and-youtube-playlists-chapter-1-understanding-the-plan-setting-up-accounts-p6e",
+    "reactions": 0,
+    "comments": 0,
+    "tags": [
+      "python",
+      "automation",
+      "music",
+      "beginners"
+    ]
+  },
+  {
+    "rank": 23,
+    "title": "An HTML invoice template that survives Gmail and Outlook (free, copy-paste)",
+    "url": "https://dev.to/agentedeia/an-html-invoice-template-that-survives-gmail-and-outlook-free-copy-paste-486e",
+    "reactions": 1,
+    "comments": 0,
+    "tags": [
+      "webdev",
+      "freelance",
+      "html",
+      "tutorial"
+    ]
+  },
+  {
+    "rank": 24,
+    "title": "Avoir une apk ou aab ? Facile.",
+    "url": "https://dev.to/henock_agbo/avoir-une-apk-ou-aab-facile-2ik6",
+    "reactions": 3,
+    "comments": 0,
+    "tags": []
+  },
+  {
+    "rank": 25,
+    "title": "Building SaarDB, Part 3: Compaction",
+    "url": "https://dev.to/gagandeepahuja09/building-saardb-part-3-compaction-2fhc",
+    "reactions": 2,
+    "comments": 0,
+    "tags": [
+      "database",
+      "sql",
+      "go",
+      "opensource"
+    ]
+  }
+]
