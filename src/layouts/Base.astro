@@ -8,6 +8,10 @@ interface Props {
 
 const { title, description = 'Automated daily intelligence — built by a solo developer with AI' } = Astro.props;
 const currentPath = Astro.url.pathname;
+const isToday = currentPath === '/' || currentPath.startsWith('/daily/');
+const isArchive = currentPath === '/archive' || currentPath === '/archive/';
+const isAbout = currentPath === '/about' || currentPath === '/about/';
+const year = new Date().getFullYear();
 ---
 
 <!DOCTYPE html>
@@ -23,38 +27,128 @@ const currentPath = Astro.url.pathname;
   <meta property="og:type" content="website" />
 </head>
 <body class="min-h-screen flex flex-col">
-  <!-- Header -->
-  <header class="border-b border-divider">
-    <nav class="mx-auto max-w-[960px] px-6 flex h-14 items-center justify-between">
-      <a href="/" class="text-lg font-bold font-[family-name:var(--font-display)] text-heading">
-        tidox<span class="text-terracotta">.</span>hub
-      </a>
-      <div class="hidden md:flex items-center gap-5 text-[13px] text-gray">
-        <a href="/" class={`${currentPath === '/' || currentPath.startsWith('/daily/') ? 'text-heading' : 'text-gray'} hover:text-heading transition-colors`}>Today</a>
-        <a href="/archive" class={`${currentPath === '/archive' || currentPath === '/archive/' ? 'text-heading' : 'text-gray'} hover:text-heading transition-colors`}>Archive</a>
-        <a href="/about" class={`${currentPath === '/about' || currentPath === '/about/' ? 'text-heading' : 'text-gray'} hover:text-heading transition-colors`}>About</a>
-      </div>
-      <!-- Mobile hamburger placeholder -->
-      <button type="button" id="mobile-toggle" class="md:hidden p-2 text-gray hover:text-heading" aria-label="Menu">
-        <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
-          <line x1="3" y1="6" x2="21" y2="6" /><line x1="3" y1="12" x2="21" y2="12" /><line x1="3" y1="18" x2="21" y2="18" />
-        </svg>
-      </button>
-    </nav>
+  <!-- N6 Newspaper masthead -->
+  <header class="mast">
+    <div class="mast-inner">
+      <p class="mast-line">Automated Daily Intelligence · Est. 2026</p>
+      <a href="/" class="mast-name" aria-label="Tidox Hub — home">TIDOX<span class="mast-dot">.</span>HUB</a>
+      <nav class="mast-nav" aria-label="Primary">
+        <a href="/" class:list={["mast-link", { current: isToday }]} aria-current={isToday ? 'page' : undefined}>Today</a>
+        <span class="mast-sep" aria-hidden="true">·</span>
+        <a href="/archive" class:list={["mast-link", { current: isArchive }]} aria-current={isArchive ? 'page' : undefined}>Archive</a>
+        <span class="mast-sep" aria-hidden="true">·</span>
+        <a href="/about" class:list={["mast-link", { current: isAbout }]} aria-current={isAbout ? 'page' : undefined}>About</a>
+      </nav>
+    </div>
+    <hr class="mast-rule" aria-hidden="true" />
   </header>
 
   <!-- Content -->
   <main class="flex-1">
-    <div class="mx-auto max-w-[960px] px-6 py-8">
+    <div class="mx-auto max-w-[1040px] px-6 py-10">
       <slot />
     </div>
   </main>
 
-  <!-- Footer -->
-  <footer class="border-t border-divider py-6">
-    <div class="mx-auto max-w-[960px] px-6 text-center text-[12px] text-gray">
-      <p>Tidox Learning Hub · Automated daily intelligence · Built by a solo developer with AI</p>
-    </div>
+  <!-- Ft4 Dense typographic colophon -->
+  <footer class="colophon">
+    <p>
+      Tidox Learning Hub — automated daily intelligence, built by a solo developer with AI.
+      Research, synthesis &amp; publishing run once each morning on a single local engine.
+      Powered by learn&#8209;2026. Personal project, {year}.
+    </p>
   </footer>
+
+  <style>
+    /* ── N6 masthead ── */
+    .mast {
+      background: var(--color-paper-2);
+    }
+    .mast-inner {
+      max-width: 1040px;
+      margin: 0 auto;
+      padding: clamp(1.25rem, 4vw, 2rem) 1.5rem 0.75rem;
+      display: grid;
+      justify-items: center;
+      gap: 0.4rem;
+      text-align: center;
+    }
+    .mast-line {
+      font-family: var(--font-mono);
+      font-size: 0.6875rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--color-gray);
+      margin: 0;
+    }
+    .mast-name {
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-style: normal;
+      font-size: clamp(1.9rem, 6vw, 3rem);
+      line-height: 0.95;
+      letter-spacing: 0.02em;
+      color: var(--color-heading);
+      text-decoration: none;
+      overflow-wrap: anywhere;
+      min-width: 0;
+    }
+    .mast-dot { color: var(--color-terracotta); }
+    .mast-nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 0.5rem 0.75rem;
+      margin-top: 0.2rem;
+    }
+    .mast-link {
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--color-gray);
+      text-decoration: none;
+      padding: 0.35rem 0.15rem;
+      transition: color 0.18s ease;
+    }
+    .mast-link:hover { color: var(--color-heading); }
+    .mast-link.current { color: var(--color-terracotta); }
+    .mast-link:focus-visible {
+      outline: 2px solid var(--color-terracotta);
+      outline-offset: 3px;
+      border-radius: 2px;
+    }
+    .mast-sep { color: var(--color-rule-strong); font-size: 0.75rem; }
+    .mast-rule {
+      border: 0;
+      border-top: 1px solid var(--color-rule-strong);
+      border-bottom: 1px solid var(--color-rule-strong);
+      height: 3px;
+      margin: 0;
+    }
+
+    /* ── Ft4 colophon ── */
+    .colophon {
+      border-top: 1px solid var(--color-rule);
+      margin-top: 3rem;
+      padding: 1.75rem 1.5rem;
+    }
+    .colophon p {
+      max-width: 1040px;
+      margin: 0 auto;
+      font-family: var(--font-mono);
+      font-size: 0.6875rem;
+      line-height: 1.7;
+      letter-spacing: 0.02em;
+      color: var(--color-gray);
+    }
+
+    @media (max-width: 40rem) {
+      .mast-sep { display: none; }
+      .mast-nav { gap: 0.25rem 1rem; }
+      .mast-link { padding: 0.5rem 0.35rem; }
+    }
+  </style>
 </body>
 </html>

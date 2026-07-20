@@ -32,41 +32,41 @@ const hasVideo = existsSync(mp4Path);
 
 // Top 3 insights for the preview
 const topInsights = ep.insights.slice(0, 3);
+const editionDate = ep.date.replace(/-/g, '.');
 ---
 
 <Base title="Today" description={ep.subtitle}>
-  <!-- Today hero -->
-  <div class="mb-4">
-    <span class="inline-block text-[12px] font-[family-name:var(--font-mono)] text-gray bg-light-bg px-2.5 py-1 rounded">
-      EPISODE {ep.episodeNumber} · {ep.date.replace(/-/g, '.')}
-    </span>
-  </div>
-
-  <p class="text-[11px] font-[family-name:var(--font-mono)] tracking-[1.5px] uppercase text-terracotta mb-3">
-    {ep.title}
+  <!-- Edition line -->
+  <p class="edition">
+    <span class="edition-no">№&nbsp;{ep.episodeNumber}</span>
+    <span class="edition-sep" aria-hidden="true">/</span>
+    <time datetime={ep.date}>{editionDate}</time>
+    <span class="edition-sep" aria-hidden="true">/</span>
+    <span>Daily Brief</span>
   </p>
 
-  <h1 class="text-[28px] md:text-[32px] font-bold font-[family-name:var(--font-display)] text-heading leading-tight mb-6">
-    {ep.subtitle}
-  </h1>
+  <!-- Topic kicker -->
+  <p class="kicker">{ep.title}</p>
 
-  <!-- Hero stat -->
-  {ep.heroStat && (
-    <div class="bg-navy rounded-xl px-6 py-5 mb-6">
-      <p class="text-[48px] md:text-[56px] font-bold font-[family-name:var(--font-mono)] text-cream leading-none">
-        {ep.heroStat.value}
-      </p>
-      <p class="text-[14px] text-cream/70 mt-1">
-        {ep.heroStat.label}
-      </p>
-    </div>
+  <!-- Stat-Led hero: the figure is the spine, its meaning the headline -->
+  {ep.heroStat ? (
+    <section class="stat-hero" aria-label="Lead figure">
+      <div class="stat-figure">{ep.heroStat.value}</div>
+      <h1 class="stat-qualifier">{ep.heroStat.label}</h1>
+      <p class="dek">{ep.subtitle}</p>
+    </section>
+  ) : (
+    <section class="stat-hero" aria-label="Lead">
+      <h1 class="stat-qualifier stat-qualifier--lead">{ep.subtitle}</h1>
+    </section>
   )}
 
   <!-- Video / Audio player -->
   {hasVideo ? (
-    <div class="rounded-xl overflow-hidden mb-6 bg-void">
+    <div class="media">
       <video
-        class="w-full aspect-video bg-void"
+        class="w-full aspect-video"
+        style="background: var(--color-void);"
         controls
         playsinline
         preload="metadata"
@@ -77,16 +77,14 @@ const topInsights = ep.insights.slice(0, 3);
       </video>
     </div>
   ) : resolvedAudio ? (
-    <div class="bg-light-bg border border-divider rounded-lg p-4 mb-6" aria-label="Today's brief audio">
-      <div class="flex items-center gap-3 mb-3">
-        <div class="w-9 h-9 bg-terracotta rounded-full flex items-center justify-center flex-shrink-0">
-          <svg class="w-4 h-4 text-cream ml-0.5" viewBox="0 0 24 24" fill="currentColor">
-            <polygon points="5,3 19,12 5,21" />
-          </svg>
-        </div>
+    <div class="audio-card" aria-label="Today's brief audio">
+      <div class="audio-head">
+        <span class="audio-badge" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5,3 19,12 5,21" /></svg>
+        </span>
         <div>
-          <p class="text-[13px] font-semibold text-near-black">Today's brief</p>
-          <p class="text-[11px] text-gray">Listen to the daily intelligence brief</p>
+          <p class="audio-title">Today's brief</p>
+          <p class="audio-sub">Listen to the daily intelligence brief</p>
         </div>
       </div>
       <audio controls preload="metadata" class="w-full" src={resolvedAudio}>
@@ -95,62 +93,196 @@ const topInsights = ep.insights.slice(0, 3);
     </div>
   ) : null}
 
-  <!-- Top insights preview -->
-  <section class="mb-8">
-    <h2 class="text-[11px] font-bold tracking-[1.5px] uppercase text-terracotta mb-4 pb-2 border-b-2 border-terracotta">
-      Top Insights
-    </h2>
-    {topInsights.map((insight) => {
-      const link = resolveInsightLink(insight);
-      return (
-        <article class="py-4 border-b border-divider last:border-b-0">
-          {link?.isDirect ? (
-            <a
-              href={link.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              class="block group rounded-sm focus:outline-none focus-visible:ring-2 focus-visible:ring-terracotta/50"
-            >
-              <p class="text-[15px] leading-relaxed mb-2 group-hover:text-terracotta transition-colors">{insight.text}</p>
-            </a>
-          ) : (
-            <p class="text-[15px] leading-relaxed mb-2">{insight.text}</p>
-          )}
-          {link && !link.isDirect && (
-            <p class="mb-2">
-              <a
-                href={link.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                class="text-[12px] font-semibold text-terracotta hover:underline"
-              >
-                {link.label} ↗
-              </a>
-            </p>
-          )}
-          <div class="flex gap-1.5 flex-wrap items-center">
-            {insight.tags.map((tag) => (
-              <span class="text-[11px] px-2 py-0.5 rounded bg-light-bg text-gray">{tag}</span>
-            ))}
-          </div>
-        </article>
-      );
-    })}
+  <!-- Top insights — numbered brief -->
+  <section class="brief">
+    <div class="brief-head">
+      <h2>Top Insights</h2>
+      <span class="brief-count">{ep.insights.length} in today's edition</span>
+    </div>
+    <ol class="brief-list">
+      {topInsights.map((insight, i) => {
+        const link = resolveInsightLink(insight);
+        return (
+          <li class="brief-item">
+            <span class="brief-num" aria-hidden="true">{String(i + 1).padStart(2, '0')}</span>
+            <div class="brief-body">
+              {link?.isDirect ? (
+                <a href={link.href} target="_blank" rel="noopener noreferrer" class="brief-text-link">
+                  <p class="brief-text">{insight.text}</p>
+                </a>
+              ) : (
+                <p class="brief-text">{insight.text}</p>
+              )}
+              {link && !link.isDirect && (
+                <a href={link.href} target="_blank" rel="noopener noreferrer" class="brief-source">
+                  {link.label} ↗
+                </a>
+              )}
+              {insight.tags.length > 0 && (
+                <div class="brief-tags">
+                  {insight.tags.map((tag) => (<span class="tag">{tag}</span>))}
+                </div>
+              )}
+            </div>
+          </li>
+        );
+      })}
+    </ol>
   </section>
 
-  <!-- CTAs -->
-  <div class="flex flex-col sm:flex-row gap-3">
-    <a
-      href={`/daily/${ep.date}`}
-      class="inline-flex items-center justify-center gap-2 bg-terracotta text-cream text-[14px] font-semibold px-5 py-2.5 rounded-lg hover:bg-terracotta/90 transition-colors"
-    >
-      Read full episode →
-    </a>
-    <a
-      href="/archive"
-      class="inline-flex items-center justify-center gap-2 border border-divider text-gray text-[14px] px-5 py-2.5 rounded-lg hover:text-heading hover:border-gray transition-colors"
-    >
-      Browse archive ({sorted.length} episodes)
-    </a>
+  <!-- CTAs — outlined chips -->
+  <div class="cta-row">
+    <a href={`/daily/${ep.date}`} class="cta cta--solid">Read full episode →</a>
+    <a href="/archive" class="cta cta--outline">Browse archive ({sorted.length} episodes)</a>
   </div>
 </Base>
+
+<style>
+  /* ── Edition + kicker ── */
+  .edition {
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--color-gray);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0 0 1.5rem;
+  }
+  .edition-no { color: var(--color-near-black); }
+  .edition-sep { color: var(--color-rule-strong); }
+  .kicker {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--color-terracotta);
+    margin: 0 0 0.75rem;
+  }
+
+  /* ── Stat-Led hero ── */
+  .stat-hero {
+    border-bottom: 1px solid var(--color-rule);
+    padding-bottom: 2.25rem;
+    margin-bottom: 2.25rem;
+  }
+  .stat-figure {
+    font-family: var(--font-mono);
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+    font-size: clamp(3.25rem, 11vw, 6.5rem);
+    line-height: 0.92;
+    letter-spacing: -0.02em;
+    color: var(--color-cream);
+    overflow-wrap: anywhere;
+    min-width: 0;
+    margin-bottom: 1rem;
+  }
+  .stat-qualifier {
+    font-family: var(--font-display);
+    font-style: normal;
+    font-weight: 700;
+    font-size: clamp(1.35rem, 3.4vw, 2rem);
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    color: var(--color-heading);
+    overflow-wrap: anywhere;
+    min-width: 0;
+    margin: 0;
+  }
+  .stat-qualifier--lead { font-size: clamp(1.6rem, 4.5vw, 2.35rem); }
+  .dek {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--color-near-black);
+    max-width: 62ch;
+    margin: 1rem 0 0;
+  }
+
+  /* ── Media ── */
+  .media { border-radius: var(--radius-card); overflow: hidden; margin-bottom: 2.25rem; }
+  .media video { display: block; width: 100%; }
+  .audio-card {
+    background: var(--color-light-bg);
+    border: 1px solid var(--color-rule);
+    border-radius: var(--radius-card);
+    padding: 1.1rem;
+    margin-bottom: 2.25rem;
+  }
+  .audio-head { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.85rem; }
+  .audio-badge {
+    width: 2.25rem; height: 2.25rem; flex: none;
+    background: var(--color-terracotta); color: var(--color-cream);
+    border-radius: 999px; display: flex; align-items: center; justify-content: center;
+  }
+  .audio-badge svg { width: 0.95rem; height: 0.95rem; margin-left: 0.1rem; }
+  .audio-title { font-size: 0.8125rem; font-weight: 600; color: var(--color-heading); margin: 0; }
+  .audio-sub { font-size: 0.6875rem; color: var(--color-gray); margin: 0.1rem 0 0; }
+
+  /* ── Numbered brief ── */
+  .brief { margin-bottom: 2.5rem; }
+  .brief-head {
+    display: flex; align-items: baseline; justify-content: space-between;
+    gap: 1rem; flex-wrap: wrap;
+    border-bottom: 2px solid var(--color-terracotta);
+    padding-bottom: 0.6rem; margin-bottom: 0.5rem;
+  }
+  .brief-head h2 {
+    font-family: var(--font-mono);
+    font-size: 0.75rem; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase;
+    color: var(--color-terracotta); margin: 0;
+  }
+  .brief-count { font-family: var(--font-mono); font-size: 0.6875rem; color: var(--color-gray); }
+  .brief-list { list-style: none; margin: 0; padding: 0; }
+  .brief-item {
+    display: flex; gap: 1rem;
+    padding: 1.25rem 0;
+    border-bottom: 1px solid var(--color-rule);
+  }
+  .brief-item:last-child { border-bottom: 0; }
+  .brief-num {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+    font-size: 0.9rem; font-weight: 700;
+    color: var(--color-terracotta);
+    padding-top: 0.15rem; flex: none;
+  }
+  .brief-body { min-width: 0; }
+  .brief-text { font-size: 0.95rem; line-height: 1.65; color: var(--color-near-black); margin: 0; }
+  .brief-text-link { text-decoration: none; display: block; border-radius: 3px; }
+  .brief-text-link:hover .brief-text { color: var(--color-terracotta); }
+  .brief-text-link:focus-visible { outline: 2px solid var(--color-terracotta); outline-offset: 3px; }
+  .brief-source {
+    display: inline-block; margin-top: 0.55rem;
+    font-size: 0.75rem; font-weight: 600; color: var(--color-terracotta); text-decoration: none;
+  }
+  .brief-source:hover { text-decoration: underline; }
+  .brief-source:focus-visible { outline: 2px solid var(--color-terracotta); outline-offset: 2px; border-radius: 2px; }
+  .brief-tags { display: flex; flex-wrap: wrap; gap: 0.35rem; margin-top: 0.7rem; }
+  .tag {
+    font-family: var(--font-mono);
+    font-size: 0.625rem; letter-spacing: 0.04em;
+    padding: 0.15rem 0.45rem; border-radius: 3px;
+    background: var(--color-light-bg); color: var(--color-gray);
+  }
+
+  /* ── CTAs ── */
+  .cta-row { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+  .cta {
+    display: inline-flex; align-items: center; justify-content: center;
+    font-size: 0.875rem; font-weight: 600;
+    padding: 0.7rem 1.25rem; border-radius: 0.6rem;
+    text-decoration: none; transition: background 0.18s ease, color 0.18s ease, border-color 0.18s ease;
+  }
+  .cta--solid { background: var(--color-terracotta); color: var(--color-cream); }
+  .cta--solid:hover { background: var(--color-terracotta-deep); }
+  .cta--outline { border: 1px solid var(--color-rule-strong); color: var(--color-gray); }
+  .cta--outline:hover { color: var(--color-heading); border-color: var(--color-gray); }
+  .cta:focus-visible { outline: 2px solid var(--color-terracotta); outline-offset: 3px; }
+
+  @media (max-width: 40rem) {
+    .cta { flex: 1 1 100%; }
+  }
+</style>
