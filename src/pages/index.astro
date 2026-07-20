@@ -1,6 +1,4 @@
 ---
-import { existsSync } from 'node:fs';
-import { join } from 'node:path';
 import Base from '../layouts/Base.astro';
 import { getCollection } from 'astro:content';
 import { resolveInsightLink } from '../lib/hub-episode-utils';
@@ -10,25 +8,8 @@ const sorted = episodes.sort((a, b) => b.data.date.localeCompare(a.data.date));
 const latest = sorted[0];
 const ep = latest.data;
 
-// Resolve audio — same logic as [date].astro
-const audioDir = join(process.cwd(), 'public', 'audio', ep.date);
-const localBriefNames = [
-  'brief.mp3', 'brief.m4a', 'brief.wav',
-  'narration.mp3', 'narration.m4a', 'narration.wav',
-];
-let localBriefUrl: string | undefined;
-for (const name of localBriefNames) {
-  if (existsSync(join(audioDir, name))) {
-    localBriefUrl = `/audio/${ep.date}/${name}`;
-    break;
-  }
-}
-const resolvedAudio =
-  ep.audio?.briefAudioUrl?.trim() || localBriefUrl || ep.audio?.podcastUrl?.trim() || undefined;
-
-// Check for pre-rendered video
-const mp4Path = join(process.cwd(), 'public', 'video', `${ep.date}.mp4`);
-const hasVideo = existsSync(mp4Path);
+// Text-only hub — in-house Edge-TTS/video removed 2026-07-20. The real podcast is
+// NotebookLM, kept privately in the Obsidian vault (not surfaced on the public site).
 
 // Top 3 insights for the preview
 const topInsights = ep.insights.slice(0, 3);
@@ -60,38 +41,6 @@ const editionDate = ep.date.replace(/-/g, '.');
       <h1 class="stat-qualifier stat-qualifier--lead">{ep.subtitle}</h1>
     </section>
   )}
-
-  <!-- Video / Audio player -->
-  {hasVideo ? (
-    <div class="media">
-      <video
-        class="w-full aspect-video"
-        style="background: var(--color-void);"
-        controls
-        playsinline
-        preload="metadata"
-        aria-label="Daily intelligence brief"
-      >
-        <source src={`/video/${ep.date}.mp4`} type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
-    </div>
-  ) : resolvedAudio ? (
-    <div class="audio-card" aria-label="Today's brief audio">
-      <div class="audio-head">
-        <span class="audio-badge" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5,3 19,12 5,21" /></svg>
-        </span>
-        <div>
-          <p class="audio-title">Today's brief</p>
-          <p class="audio-sub">Listen to the daily intelligence brief</p>
-        </div>
-      </div>
-      <audio controls preload="metadata" class="w-full" src={resolvedAudio}>
-        Your browser does not support audio playback.
-      </audio>
-    </div>
-  ) : null}
 
   <!-- Top insights — numbered brief -->
   <section class="brief">
@@ -200,26 +149,6 @@ const editionDate = ep.date.replace(/-/g, '.');
     max-width: 62ch;
     margin: 1rem 0 0;
   }
-
-  /* ── Media ── */
-  .media { border-radius: var(--radius-card); overflow: hidden; margin-bottom: 2.25rem; }
-  .media video { display: block; width: 100%; }
-  .audio-card {
-    background: var(--color-light-bg);
-    border: 1px solid var(--color-rule);
-    border-radius: var(--radius-card);
-    padding: 1.1rem;
-    margin-bottom: 2.25rem;
-  }
-  .audio-head { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.85rem; }
-  .audio-badge {
-    width: 2.25rem; height: 2.25rem; flex: none;
-    background: var(--color-terracotta); color: var(--color-cream);
-    border-radius: 999px; display: flex; align-items: center; justify-content: center;
-  }
-  .audio-badge svg { width: 0.95rem; height: 0.95rem; margin-left: 0.1rem; }
-  .audio-title { font-size: 0.8125rem; font-weight: 600; color: var(--color-heading); margin: 0; }
-  .audio-sub { font-size: 0.6875rem; color: var(--color-gray); margin: 0.1rem 0 0; }
 
   /* ── Numbered brief ── */
   .brief { margin-bottom: 2.5rem; }
