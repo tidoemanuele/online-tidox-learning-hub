@@ -30,17 +30,26 @@ if [ ! -f "$EPISODE_FILE" ]; then
   exit 1
 fi
 
+# Step 1b: Podcast script + visual beats (uses the local claude CLI).
+# These were STEP 5-6 of the retired cloud routine; folded in here so learn-2026
+# is the sole engine. Non-fatal: episode + build are the critical path, so a
+# claude hiccup enriching the audio must not block publishing the episode.
+echo "  Writing podcast script..."
+npx tsx scripts/write-podcast-script.ts "$DATE" || echo "  ⚠ podcast script failed (non-fatal)"
+echo "  Generating visual beats..."
+npx tsx scripts/generate-visual-beats.ts "$DATE" || echo "  ⚠ visual beats failed (non-fatal)"
+
 # Step 2: Build (validates via Zod schema)
 echo "  Building site..."
 npm run build --silent
 
 # Step 3: Commit + push (only if there are changes)
-if git diff --quiet && git diff --cached --quiet && [ -z "$(git ls-files --others --exclude-standard src/content/episodes/)" ]; then
+if git diff --quiet && git diff --cached --quiet && [ -z "$(git ls-files --others --exclude-standard src/content/episodes/ public/audio/)" ]; then
   echo "  No new changes. Episode may already be published."
   exit 0
 fi
 
-git add src/content/episodes/
+git add src/content/episodes/ public/audio/
 git commit -m "episode: ${DATE} daily intelligence brief" --quiet
 git push --quiet
 
