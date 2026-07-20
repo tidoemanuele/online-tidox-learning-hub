@@ -1,0 +1,47 @@
+[
+  {
+    "name": "ai-job-search",
+    "fullName": "MadsLorentzen/ai-job-search",
+    "description": "AI-powered job application framework built on Claude Code. Fork it, fill in your profile, and let Claude evaluate jobs, tailor CVs, write cover letters, and prepare you for interviews.",
+    "language": "TypeScript",
+    "stars_today": "3728 stars today",
+    "total_stars": "18398",
+    "url": "https://github.com/MadsLorentzen/ai-job-search"
+  },
+  {
+    "name": "agent-skills",
+    "fullName": "addyosmani/agent-skills",
+    "description": "Production-grade skills for AI coding agents — a curated, community-maintained library of Claude Code skills for engineering workflows.",
+    "language": "JavaScript",
+    "stars_today": "2582 stars today",
+    "total_stars": "75725",
+    "url": "https://github.com/addyosmani/agent-skills"
+  },
+  {
+    "name": "U3-SDK",
+    "fullName": "SmartlyDressedGames/U3-SDK",
+    "description": "Source code for Unturned, a free open-world zombie survival sandbox game — full game source code released by solo developer Nelson Sexton.",
+    "language": "C#",
+    "stars_today": "1823 stars today",
+    "total_stars": "1823",
+    "url": "https://github.com/SmartlyDressedGames/U3-SDK"
+  },
+  {
+    "name": "OfficeCLI",
+    "fullName": "iOfficeAI/OfficeCLI",
+    "description": "The first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
+    "language": "C#",
+    "stars_today": "1435 stars today",
+    "total_stars": "12600",
+    "url": "https://github.com/iOfficeAI/OfficeCLI"
+  },
+  {
+    "name": "pgrust",
+    "fullName": "malisper/pgrust",
+    "description": "Postgres rewritten in Rust, now passing 100% of the Postgres regression tests. Disk-compatible with Postgres 18.3, built with AI-assisted programming.",
+    "language": "Rust",
+    "stars_today": "1247 stars today",
+    "total_stars": "8900",
+    "url": "https://github.com/malisper/pgrust"
+  }
+]

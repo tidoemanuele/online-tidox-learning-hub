@@ -1,0 +1,150 @@
+[
+  {
+    "title": "What is your favorite blog to read recently?",
+    "score": 66,
+    "tags": [
+      "ask",
+      "programming"
+    ],
+    "url": "",
+    "comments_url": "https://lobste.rs/s/69mche/what_is_your_favorite_blog_read_recently"
+  },
+  {
+    "title": "The death and rebirth of my home server",
+    "score": 24,
+    "tags": [
+      "linux",
+      "nix"
+    ],
+    "url": "https://sgt.hootr.club/blog/home-server-rebirth/",
+    "comments_url": "https://lobste.rs/s/k6ph7c/death_rebirth_my_home_server"
+  },
+  {
+    "title": "Mathematicians still don\u2019t know the fastest way to multiply numbers",
+    "score": 34,
+    "tags": [
+      "math"
+    ],
+    "url": "https://www.scientificamerican.com/article/mathematicians-still-dont-know-the-fastest-way-to-multiply-numbers/",
+    "comments_url": "https://lobste.rs/s/otiash/mathematicians_still_don_t_know_fastest"
+  },
+  {
+    "title": "Cagire - Forth-based live coding sequencer",
+    "score": 10,
+    "tags": [
+      "concatenative"
+    ],
+    "url": "https://cagire.raphaelforment.fr",
+    "comments_url": "https://lobste.rs/s/u93mkb/cagire_forth_based_live_coding_sequencer"
+  },
+  {
+    "title": "Dependable C",
+    "score": 9,
+    "tags": [
+      "c"
+    ],
+    "url": "https://dependablec.org/",
+    "comments_url": "https://lobste.rs/s/plztql/dependable_c"
+  },
+  {
+    "title": "More emulation goodness, an Intel Itanium (IA-64) emulator that boots Windows",
+    "score": 22,
+    "tags": [
+      "retrocomputing",
+      "virtualization"
+    ],
+    "url": "https://raymii.org/s/blog/Intel_Itanium_IA-64-Emulator_that_boots_Windows.html",
+    "comments_url": "https://lobste.rs/s/01ypky/more_emulation_goodness_intel_itanium_ia"
+  },
+  {
+    "title": "Shake Blog",
+    "score": 15,
+    "tags": [
+      "haskell",
+      "release"
+    ],
+    "url": "https://abhin4v.github.io/shake-blog/",
+    "comments_url": "https://lobste.rs/s/fq2z79/shake_blog"
+  },
+  {
+    "title": "Git email patch review addon for Thunderbird",
+    "score": 13,
+    "tags": [
+      "email",
+      "show",
+      "vcs",
+      "vibecoding"
+    ],
+    "url": "https://mccd.space/git/thunderbird-patch-review/file/README.html.html",
+    "comments_url": "https://lobste.rs/s/jdcxr0/git_email_patch_review_addon_for"
+  },
+  {
+    "title": "Running microVMs in Proxmox VE, The Easy Way",
+    "score": 9,
+    "tags": [
+      "linux",
+      "virtualization"
+    ],
+    "url": "https://taoofmac.com/space/blog/2026/06/18/1845",
+    "comments_url": "https://lobste.rs/s/fdmitg/running_microvms_proxmox_ve_easy_way"
+  },
+  {
+    "title": "The Zen of Parallel Programming",
+    "score": 8,
+    "tags": [
+      "practices"
+    ],
+    "url": "https://smolnero.com/posts/the-zen-of-parallel-programming",
+    "comments_url": "https://lobste.rs/s/m2shhj/zen_parallel_programming"
+  },
+  {
+    "title": "The notification that gave up after a minute",
+    "score": 4,
+    "tags": [
+      "browsers",
+      "elixir",
+      "web"
+    ],
+    "url": "https://jva.lol/weblog/the-notification-that-gave-up-after-a-minute/",
+    "comments_url": "https://lobste.rs/s/ectsvy/notification_gave_up_after_minute"
+  },
+  {
+    "title": "CodeSizer: Why is that binary so big?",
+    "score": 10,
+    "tags": [
+      "performance"
+    ],
+    "url": "https://github.com/Wren6991/CodeSizer",
+    "comments_url": "https://lobste.rs/s/ukyvbo/codesizer_why_is_binary_so_big"
+  },
+  {
+    "title": "Reviewing AI Code Is Not A Viable Argument (2025)",
+    "score": 45,
+    "tags": [
+      "practices",
+      "programming",
+      "vibecoding"
+    ],
+    "url": "https://softwaremaxims.com/blog/reviewing-ai-code",
+    "comments_url": "https://lobste.rs/s/5kgenk/reviewing_ai_code_is_not_viable_argument"
+  },
+  {
+    "title": "Hardcore IndieWeb: Run your own website 100% independently for only $0.01/day",
+    "score": 23,
+    "tags": [
+      "practices",
+      "web"
+    ],
+    "url": "https://www.neatnik.net/hardcore-indieweb",
+    "comments_url": "https://lobste.rs/s/l9rap5/hardcore_indieweb_run_your_own_website"
+  },
+  {
+    "title": "The computer at the bottom of a canal",
+    "score": 24,
+    "tags": [
+      "historical"
+    ],
+    "url": "https://negroniventurestudios.com/2026/07/18/the-computer-at-the-bottom-of-a-canal/",
+    "comments_url": "https://lobste.rs/s/0mljfd/computer_at_bottom_canal"
+  }
+]

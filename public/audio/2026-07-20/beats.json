@@ -1,0 +1,189 @@
+[
+  {
+    "type": "intro",
+    "label": "TODAY'S BRIEF",
+    "highlight": "A $120,000 problem. A $1,600 fix.",
+    "subtext": "Today's top story on Hacker News"
+  },
+  {
+    "type": "intro",
+    "highlight": "One of the highest-scoring stories all year",
+    "subtext": "1,970 points on Hacker News"
+  },
+  {
+    "type": "insight",
+    "label": "THE BUILD",
+    "highlight": "He built the entire scoring system himself",
+    "subtext": "MIT-licensed, fully documented, family-owned alley"
+  },
+  {
+    "type": "insight",
+    "highlight": "The $120k was never about the technology",
+    "subtext": "It was about vendor lock-in"
+  },
+  {
+    "type": "quote",
+    "highlight": "This obviously works and it's ten times cheaper",
+    "subtext": "Low comment-to-point ratio — nobody contested it"
+  },
+  {
+    "type": "repo",
+    "label": "GITHUB TRENDING",
+    "highlight": "ai-job-search",
+    "subtext": "~3,700 stars gained per day"
+  },
+  {
+    "type": "action",
+    "label": "FOR BUILDERS",
+    "highlight": "Stop asking 'can I build this'",
+    "subtext": "Start asking 'why does this cost what it costs'"
+  },
+  {
+    "type": "action",
+    "highlight": "If it's a vendor contract, that's your opening"
+  },
+  {
+    "type": "number",
+    "number": "11",
+    "label": "BUN → RUST",
+    "highlight": "Days to port half a million lines of Zig"
+  },
+  {
+    "type": "quote",
+    "highlight": "Eleven days? For a full language migration?"
+  },
+  {
+    "type": "number",
+    "number": "1,300",
+    "label": "LINES OF RUST PER MINUTE",
+    "highlight": "50 parallel Claude Fable workflows, over 1M lines"
+  },
+  {
+    "type": "insight",
+    "highlight": "A rewrite like that used to take 3 to 5 years"
+  },
+  {
+    "type": "number",
+    "number": "$165,000",
+    "label": "VS. $2–5M IN ENGINEERING TIME",
+    "highlight": "The API spend for the entire migration"
+  },
+  {
+    "type": "quote",
+    "label": "THE PUSHBACK",
+    "highlight": "\"Unreviewed slop\" — Andrew Kelley, Zig's creator"
+  },
+  {
+    "type": "quote",
+    "highlight": "A legitimate tension, not just noise"
+  },
+  {
+    "type": "quote",
+    "highlight": "What does review even mean at this volume?"
+  },
+  {
+    "type": "insight",
+    "highlight": "Claude Code itself now ships on that Rust port",
+    "subtext": "Every user already runs the AI-generated code"
+  },
+  {
+    "type": "quote",
+    "highlight": "We're past the debate stage"
+  },
+  {
+    "type": "number",
+    "number": "3",
+    "label": "DAYS APART",
+    "highlight": "Qwen 3.8 shipped days after Kimi K3",
+    "subtext": "Kimi K3: the largest open-weight model ever released"
+  },
+  {
+    "type": "number",
+    "number": "72",
+    "label": "HOUR WINDOW",
+    "highlight": "Two top open-weight labs, one tiny window"
+  },
+  {
+    "type": "insight",
+    "highlight": "The evaluation cycle just compressed to nothing"
+  },
+  {
+    "type": "quote",
+    "highlight": "You can't chase every release"
+  },
+  {
+    "type": "action",
+    "label": "FOR BUILDERS",
+    "highlight": "Optimize for swappability, not 'the best model'",
+    "subtext": "If your architecture assumes permanence, it's already wrong"
+  },
+  {
+    "type": "quote",
+    "highlight": "Build for the churn, not against it"
+  },
+  {
+    "type": "number",
+    "number": "87",
+    "label": "YEARS OPEN SINCE 1939",
+    "highlight": "A counterexample to the Jacobian Conjecture"
+  },
+  {
+    "type": "quote",
+    "highlight": "Nobody trained on that"
+  },
+  {
+    "type": "number",
+    "number": "5",
+    "label": "DAYS — 3 MATH PROBLEMS",
+    "highlight": "Three open problems touched by AI this week"
+  },
+  {
+    "type": "insight",
+    "highlight": "This is reasoning on genuinely novel territory"
+  },
+  {
+    "type": "quote",
+    "highlight": "Even the possibility is the signal"
+  },
+  {
+    "type": "number",
+    "number": "$587M",
+    "label": "NETFLIX ACQUISITION",
+    "highlight": "Paid for an AI filmmaking startup"
+  },
+  {
+    "type": "insight",
+    "highlight": "InterPositive fixes footage — it doesn't replace it",
+    "subtext": "A correction layer, not generative work"
+  },
+  {
+    "type": "quote",
+    "highlight": "The labor fight isn't over. It moved."
+  },
+  {
+    "type": "insight",
+    "label": "THE REAL CONSTRAINT",
+    "highlight": "Software got cheap. Land, power, water didn't."
+  },
+  {
+    "type": "quote",
+    "highlight": "Can we physically place it?"
+  },
+  {
+    "type": "insight",
+    "label": "THE THESIS",
+    "highlight": "The frontier isn't code — it's land and power"
+  },
+  {
+    "type": "quote",
+    "highlight": "The next advantage is the physical constraint nobody wants"
+  },
+  {
+    "type": "close",
+    "highlight": "Find the $120,000 system that's actually $1,600"
+  },
+  {
+    "type": "close",
+    "highlight": "Go build it this weekend. See you tomorrow."
+  }
+]
