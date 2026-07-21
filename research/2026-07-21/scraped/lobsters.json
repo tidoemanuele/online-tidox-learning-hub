@@ -1,0 +1,246 @@
+[
+  {
+    "title": "Human mathematicians are being outcounterexampled",
+    "score": 43,
+    "tags": [
+      "math"
+    ],
+    "url": "https://xenaproject.wordpress.com/2026/07/20/human-mathematicians-are-being-outcounterexampled/",
+    "comments_url": "https://lobste.rs/s/wfmpqr/human_mathematicians_are_being"
+  },
+  {
+    "title": "Gitolite",
+    "score": 43,
+    "tags": [
+      "practices",
+      "vcs"
+    ],
+    "url": "https://gitolite.com/gitolite/index.html",
+    "comments_url": "https://lobste.rs/s/21lrrw/gitolite"
+  },
+  {
+    "title": "432 Linux kernel CVEs published in the last 24 hours",
+    "score": 8,
+    "tags": [
+      "linux",
+      "security"
+    ],
+    "url": "https://lore.kernel.org/linux-cve-announce/",
+    "comments_url": "https://lobste.rs/s/t2jxyu/432_linux_kernel_cves_published_last_24"
+  },
+  {
+    "title": "95 reasons for having your own website",
+    "score": 15,
+    "tags": [
+      "philosophy",
+      "web"
+    ],
+    "url": "https://bellkiosk.website/blog/reasons-to-website.html",
+    "comments_url": "https://lobste.rs/s/v3xuxn/95_reasons_for_having_your_own_website"
+  },
+  {
+    "title": "I wrote an API client for my water-cooled bed",
+    "score": 47,
+    "tags": [
+      "hardware",
+      "zig"
+    ],
+    "url": "https://tinkering.xyz/bedctl/",
+    "comments_url": "https://lobste.rs/s/op1k28/i_wrote_api_client_for_my_water_cooled_bed"
+  },
+  {
+    "title": "InvisiCaps: The Fil-C Capability Model",
+    "score": 41,
+    "tags": [
+      "c",
+      "compilers"
+    ],
+    "url": "https://fil-c.org/invisicaps",
+    "comments_url": "https://lobste.rs/s/kdflhr/invisicaps_fil_c_capability_model"
+  },
+  {
+    "title": "Meta Garbage Collection: Using OCaml's GC to GC Rust",
+    "score": 40,
+    "tags": [
+      "ml",
+      "rust"
+    ],
+    "url": "https://soteria-tools.com/blog/meta-garbage-collection",
+    "comments_url": "https://lobste.rs/s/p3z0zw/meta_garbage_collection_using_ocaml_s_gc"
+  },
+  {
+    "title": "A deep dive into my Forgejo setup",
+    "score": 13,
+    "tags": [
+      "devops",
+      "show",
+      "systemd",
+      "vcs"
+    ],
+    "url": "https://a.l3x.in/blog/welcome-to-my-forge/",
+    "comments_url": "https://lobste.rs/s/jhcyuq/deep_dive_into_my_forgejo_setup"
+  },
+  {
+    "title": "How Gnutella Scaled to Handle Query Traffic",
+    "score": 9,
+    "tags": [
+      "distributed",
+      "historical",
+      "networking"
+    ],
+    "url": "https://rickcarlino.com/notes/p2p/how-gnutella-scaled-to-handle-query-traffic.html",
+    "comments_url": "https://lobste.rs/s/4kp1wg/how_gnutella_scaled_handle_query_traffic"
+  },
+  {
+    "title": "Minimal Git CI using hooks",
+    "score": 30,
+    "tags": [
+      "programming"
+    ],
+    "url": "https://mccd.space/posts/26-06-29/simple-git-ci",
+    "comments_url": "https://lobste.rs/s/jr72dt/minimal_git_ci_using_hooks"
+  },
+  {
+    "title": "An informal tutorial on Joy",
+    "score": 11,
+    "tags": [
+      "plt"
+    ],
+    "url": "https://www.kevinalbrecht.com/code/joy-mirror/j01tut.html",
+    "comments_url": "https://lobste.rs/s/93norp/informal_tutorial_on_joy"
+  },
+  {
+    "title": "KDE for Enterprise Needs a Strong PIM Infrastructure",
+    "score": 3,
+    "tags": [
+      "email"
+    ],
+    "url": "https://ervin.ipsquad.net/blog/2026/07/21/kde-for-entreprise-needs-a-strong-pim-infrastructure/",
+    "comments_url": "https://lobste.rs/s/qlg8xj/kde_for_enterprise_needs_strong_pim"
+  },
+  {
+    "title": "Opaque, Interoperable Passkey Records",
+    "score": 10,
+    "tags": [
+      "cryptography",
+      "security"
+    ],
+    "url": "https://words.filippo.io/passkey-record/",
+    "comments_url": "https://lobste.rs/s/boyu9x/opaque_interoperable_passkey_records"
+  },
+  {
+    "title": "Why l (new runtime for k and q)",
+    "score": 4,
+    "tags": [
+      "apl"
+    ],
+    "url": "https://lv1.sh/blog/why-l/",
+    "comments_url": "https://lobste.rs/s/wkm8tk/why_l_new_runtime_for_k_q"
+  },
+  {
+    "title": "7 Sandbox Escape Vulnerabilities Across 4 Coding Agent Vendors",
+    "score": 7,
+    "tags": [
+      "security",
+      "vibecoding"
+    ],
+    "url": "https://www.pillar.security/blog/the-week-of-sandbox-escapes",
+    "comments_url": "https://lobste.rs/s/bper0d/7_sandbox_escape_vulnerabilities_across"
+  },
+  {
+    "title": "Building an AmigaOS Development Environment in 2026",
+    "score": 21,
+    "tags": [
+      "retrocomputing"
+    ],
+    "url": "https://turtleware.eu/posts/Building-an-AmigaOS-Development-Environment-in-2026.html",
+    "comments_url": "https://lobste.rs/s/bz0spb/building_amigaos_development"
+  },
+  {
+    "title": "Type Safe Servant Auth Roles",
+    "score": 9,
+    "tags": [
+      "api",
+      "haskell"
+    ],
+    "url": "https://blog.cofree.coffee/2026-07-20-servant-auth-roles/",
+    "comments_url": "https://lobste.rs/s/wxq96p/type_safe_servant_auth_roles"
+  },
+  {
+    "title": "Secrets Don’t Belong in Config",
+    "score": 3,
+    "tags": [
+      "nix",
+      "security"
+    ],
+    "url": "https://secretspec.dev/blog/secrets-dont-belong-in-config/",
+    "comments_url": "https://lobste.rs/s/iypcjj/secrets_don_t_belong_config"
+  },
+  {
+    "title": "JSON5E - JSON5 for Humans",
+    "score": 9,
+    "tags": [
+      "programming"
+    ],
+    "url": "https://github.com/boris-kolpackov/libpdjson5/blob/master/JSON5E.md",
+    "comments_url": "https://lobste.rs/s/6zlnpk/json5e_json5_for_humans"
+  },
+  {
+    "title": "Using a SSH bastion, but only when I'm touching grass",
+    "score": 1,
+    "tags": [
+      "networking"
+    ],
+    "url": "https://evertpot.com/ssh-tunnel-if-unresolvable/",
+    "comments_url": "https://lobste.rs/s/s13fc0/using_ssh_bastion_only_when_i_m_touching"
+  },
+  {
+    "title": "What are you doing this week?",
+    "score": 15,
+    "tags": [
+      "ask",
+      "programming"
+    ],
+    "url": "https://lobste.rs/s/hq0he3/what_are_you_doing_this_week",
+    "comments_url": "https://lobste.rs/s/hq0he3/what_are_you_doing_this_week"
+  },
+  {
+    "title": "What is your favorite blog to read recently?",
+    "score": 113,
+    "tags": [
+      "ask",
+      "programming"
+    ],
+    "url": "https://lobste.rs/s/69mche/what_is_your_favorite_blog_read_recently",
+    "comments_url": "https://lobste.rs/s/69mche/what_is_your_favorite_blog_read_recently"
+  },
+  {
+    "title": "30 to 70 PRs a Day: How We Managed to Not Wreck Our Systems",
+    "score": 1,
+    "tags": [
+      "practices",
+      "vibecoding"
+    ],
+    "url": "https://www.honeycomb.io/blog/30-70-prs-day-how-we-managed-not-wreck-systems",
+    "comments_url": "https://lobste.rs/s/daa59s/30_70_prs_day_how_we_managed_not_wreck_our"
+  },
+  {
+    "title": "email encryption",
+    "score": 22,
+    "tags": [
+      "cryptography",
+      "email"
+    ],
+    "url": "https://computer.rip/2026-07-19-email-encryption.html",
+    "comments_url": "https://lobste.rs/s/zvoqic/email_encryption"
+  },
+  {
+    "title": "Postgres 19 Compression: from pglz to LZ4",
+    "score": 5,
+    "tags": [
+      "databases"
+    ],
+    "url": "https://www.crunchydata.com/blog/postgres-19-compression-from-pglz-to-lz4",
+    "comments_url": "https://lobste.rs/s/piabis/postgres_19_compression_from_pglz_lz4"
+  }
+]

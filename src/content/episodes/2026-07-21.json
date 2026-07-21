@@ -3,147 +3,135 @@
   "episodeNumber": 121,
   "locale": "en-US",
   "title": "Intelligence Brief",
-  "subtitle": "HN's #19 story today , 'China's open-weights AI st, r/LocalLLaMA's #5 hot post claims Kimi K3 fixed 15, PrismML's Bonsai-27B ternary and 1-bit quantized m",
+  "subtitle": "China’s open-weights AI strategy is winning, Claude Fable produced a counterexample to the Jaco, Hacker wipes Romania's land registry database",
   "heroStat": {
-    "value": "27B",
-    "label": "ternary and 1"
+    "value": "1093",
+    "label": "points on \"China’s open-weights AI strategy is winning\""
   },
   "insights": [
     {
-      "text": "HN's #19 story today (1,026 points/816 comments), 'China's open-weights AI strategy is winning,' cites a16z partner Martin Casado telling The Economist that 80% of startups now use Chinese models, arguing that low switching costs between AI models make America's closed, proprietary strategy structurally uncompetitive against open weights distributed at a fraction of the cost.",
+      "text": "China’s open-weights AI strategy is winning (1093 pts, 832 comments)",
       "tags": [
-        "local-llm",
-        "china-ai",
-        "open-weights"
+        "hacker-news"
       ],
-      "source": "Hacker News / werd.io",
+      "source": "HN 1093pts",
       "url": "https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/"
     },
     {
-      "text": "r/LocalLLaMA's #5 hot post claims Kimi K3 fixed 15 critical security bugs that OpenAI's Codex and Anthropic's Claude Fable refused due to 'cyber guardrails' -- traced to a single developer's anecdote, amplified by former White House AI/crypto czar David Sacks. The most detailed independent write-up found explicitly caveats it has not reproduced the session or validated severity labels, making this the third AI capability claim in four days (after two AI-math claims) to spread faster than anyone has verified it.",
+      "text": "Claude Fable produced a counterexample to the Jacobian Conjecture (746 pts, 471 comments)",
       "tags": [
-        "verification",
-        "kimi-k3",
-        "ai-security"
+        "hacker-news"
       ],
-      "source": "r/LocalLLaMA / explainx.ai",
-      "url": "https://explainx.ai/blog/ai-cyber-guardrails-block-us-defenders-kimi-k3-glm-july-2026"
+      "source": "HN 746pts",
+      "url": "https://xcancel.com/__alpoge__/status/2079028340955197566"
     },
     {
-      "text": "PrismML's Bonsai-27B ternary and 1-bit quantized models continue real download growth three days running (338,945 and 1,262,894 downloads today, up from 200,774 and 1,045,182 on July 18) and just received their first independent, non-vendor benchmark: MiaAI-Lab's tool-eval-bench scores Ternary Bonsai at 85/100 tool-use quality, losing to Nvidia's Qwen3.6-27B-NVFP4 by 4 points on pure tool-call accuracy but winning on latency and deployability.",
+      "text": "Hacker wipes Romania's land registry database (637 pts, 348 comments)",
       "tags": [
-        "local-llm",
-        "quantization",
-        "benchmarks"
+        "hacker-news"
       ],
-      "source": "Hugging Face Trending / GitHub",
-      "url": "https://github.com/MiaAI-Lab/Ternary-Bonsai-27B-tool-eval-bench-results"
+      "source": "HN 637pts",
+      "url": "https://news.risky.biz/risky-bulletin-hacker-wipes-romanias-entire-land-registry-database/"
     },
     {
-      "text": "Google's Play Catalog Access opt-out deadline is tomorrow, July 22, 2026 -- the mechanism confirmed July 16 has held unchanged across six days of tracking: any developer without an active Play Console choice is automatically enrolled, syndicating their US listing to third-party US stores (paying Google $5,000/year) while downloads still complete through Google Play. Opt-out remains possible even after the deadline.",
+      "text": "Who's afraid of Chinese models? (593 pts, 400 comments)",
       "tags": [
-        "play-store",
-        "aso",
-        "policy"
+        "hacker-news"
       ],
-      "source": "Google Play Console Help",
-      "url": "https://support.google.com/googleplay/android-developer/answer/17187609"
+      "source": "HN 593pts",
+      "url": "https://stratechery.com/2026/whos-afraid-of-chinese-models/"
     },
     {
-      "text": "A federal judge gave final approval to Anthropic's $1.5 billion settlement of the authors' copyright class action -- $3,000 per work across an estimated 500,000 works, the largest copyright class-action settlement in US history. TechCrunch frames it as settling one case while leaving the broader training-data-copyright question open across dozens of pending suits against OpenAI, Meta, and Google.",
+      "text": "Human mathematicians are being outcounterexampled (43 pts on Lobsters)",
       "tags": [
-        "ai-legal",
-        "anthropic",
-        "copyright"
+        "lobsters",
+        "math"
       ],
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/20/anthropics-landmark-1-5b-copyright-settlement-is-approved/"
+      "source": "Lobsters 43pts",
+      "url": "https://xenaproject.wordpress.com/2026/07/20/human-mathematicians-are-being-outcounterexampled/"
     },
     {
-      "text": "tirth8205/code-review-graph hit its strongest single-day GitHub Trending jump yet -- +1,833 stars/day (23,612 total) today, up from +663/day yesterday -- a fourth consecutive day of acceleration rather than the normal post-launch decay curve.",
+      "text": "Gitolite (43 pts on Lobsters)",
       "tags": [
-        "github-trending",
-        "developer-tools"
+        "lobsters",
+        "practices",
+        "vcs"
       ],
-      "source": "GitHub Trending",
-      "url": "https://github.com/tirth8205/code-review-graph"
+      "source": "Lobsters 43pts",
+      "url": "https://gitolite.com/gitolite/index.html"
     },
     {
-      "text": "Three independent speech-tooling signals landed the same day: handy-computer/transcribe.cpp (+395 stars/day, ggml speech-to-text for 16+ model families), moonshine-ai/moonshine (+282/day, on-device STT/TTS down to 470KB RAM for microcontrollers), and OpenMOSS-Team/MOSS-Transcribe-Diarize trending on Hugging Face (293 likes/87,533 downloads, adds speaker diarization) -- the second same-day speech-tooling cluster in three days.",
+      "text": "Context Is King: Rethinking Domain Ownership, Product, and the \"Spec Phase\" (42 reactions on Dev.to)",
       "tags": [
-        "voice-tts",
-        "on-device",
-        "github-trending"
+        "devto",
+        "discuss",
+        "management"
       ],
-      "source": "GitHub Trending / Hugging Face Trending",
-      "url": "https://github.com/moonshine-ai/moonshine"
+      "source": "Dev.to 42❤",
+      "url": "https://dev.to/ben/context-is-king-rethinking-domain-ownership-product-and-the-spec-phase-gp8"
     },
     {
-      "text": "1jehuang/jcode, a Rust 'agent harness for code' billing itself as 'the most intelligent agent harness,' debuted at #2 on GitHub Trending (+568 stars/day, 9,799 total) -- a fresh greenfield agent-framework launch, a pattern this research stream had flagged as largely absent since mid-July in favor of SDKs and supporting layers.",
+      "text": "Choose your Burden (34 reactions on Dev.to)",
       "tags": [
-        "github-trending",
-        "agent-frameworks"
+        "devto",
+        "discuss",
+        "community"
       ],
-      "source": "GitHub Trending",
-      "url": "https://github.com/1jehuang/jcode"
+      "source": "Dev.to 34❤",
+      "url": "https://dev.to/francistrdev/choose-your-burden-4dgl"
     }
   ],
   "trending": [
     {
+      "name": "ai-agent-book",
+      "fullName": "bojieli/ai-agent-book",
+      "stars": "12.3K",
+      "language": "Python",
+      "delta": "+4434/d"
+    },
+    {
       "name": "code-review-graph",
       "fullName": "tirth8205/code-review-graph",
-      "stars": "23.6K",
+      "stars": "24.0K",
       "language": "Python",
-      "delta": "+1,833/d",
-      "url": "https://github.com/tirth8205/code-review-graph"
+      "delta": "+1833/d"
     },
     {
       "name": "openship",
       "fullName": "oblien/openship",
-      "stars": "5.1K",
+      "stars": "5.3K",
       "language": "TypeScript",
-      "delta": "+1,641/d",
-      "url": "https://github.com/oblien/openship"
+      "delta": "+1641/d"
     },
     {
       "name": "OmniRoute",
       "fullName": "diegosouzapw/OmniRoute",
-      "stars": "22.2K",
+      "stars": "22.5K",
       "language": "TypeScript",
-      "delta": "+1,107/d",
-      "url": "https://github.com/diegosouzapw/OmniRoute"
+      "delta": "+1107/d"
     },
     {
       "name": "open-seo",
       "fullName": "every-app/open-seo",
-      "stars": "6.0K",
+      "stars": "6.2K",
       "language": "TypeScript",
-      "delta": "+939/d",
-      "url": "https://github.com/every-app/open-seo"
-    },
-    {
-      "name": "agency-agents",
-      "fullName": "msitarzewski/agency-agents",
-      "stars": "135K",
-      "language": "Shell",
-      "delta": "+862/d",
-      "url": "https://github.com/msitarzewski/agency-agents"
+      "delta": "+939/d"
     }
   ],
   "numbers": [
     {
       "label": "Top HN Story",
-      "value": "1026",
+      "value": "1093",
       "unit": "pts"
     },
     {
       "label": "Fastest Repo",
-      "value": "1,833",
+      "value": "4434",
       "unit": "stars/day"
     },
     {
       "label": "Sources Scraped",
-      "value": "14",
+      "value": "4",
       "unit": "sites"
     },
     {
@@ -159,23 +147,23 @@
     },
     "headlines": [
       {
-        "text": "HN's #19 story today , 'China's open-weights AI strategy is winning,' cites a16z partner Martin Casado telling The Economist that 80% of startups now use Chinese models, arguing that low switching costs between AI models make America's closed, proprietary strategy structurally uncompetitive against open weights distributed at a fraction of the cost.",
+        "text": "China’s open-weights AI strategy is winning",
         "metric": "—",
         "source": "web"
       },
       {
-        "text": "r/LocalLLaMA's #5 hot post claims Kimi K3 fixed 15 critical security bugs that OpenAI's Codex and Anthropic's Claude Fable refused due to 'cyber guardrails' -- traced to a single developer's anecdote, amplified by former White House AI/crypto czar David Sacks. The most detailed independent write-up found explicitly caveats it has not reproduced the session or validated severity labels, making this the third AI capability claim in four days to spread faster than anyone has verified it.",
+        "text": "Claude Fable produced a counterexample to the Jacobian Conjecture",
         "metric": "—",
         "source": "web"
       },
       {
-        "text": "PrismML's Bonsai-27B ternary and 1-bit quantized models continue real download growth three days running and just received their first independent, non-vendor benchmark: MiaAI-Lab's tool-eval-bench scores Ternary Bonsai at 85/100 tool-use quality, losing to Nvidia's Qwen3.6-27B-NVFP4 by 4 points on pure tool-call accuracy but winning on latency and deployability.",
+        "text": "Hacker wipes Romania's land registry database",
         "metric": "—",
         "source": "web"
       }
     ],
     "takeaway": {
-      "text": "China's open-weight AI narrative jumps from technical benchmark tables to a mainstream adoption-share claim the same day Kimi K3's own security-fix story shows how fast an unverified anecdote becomes a policy talking point, Bonsai-27B's ternary quantization gets its first independent (non-vendor) benchmark after three days of real download growth, and Google's Play Catalog Access deadline -- tracked since July 6 -- finally arrives tomorrow with its mechanism unchanged."
+      "text": "Today's brief covers the most interesting signals across the tech landscape."
     }
   }
 }
