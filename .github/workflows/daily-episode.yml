@@ -1,9 +1,9 @@
 name: Daily Episode
 
 on:
-  schedule:
-    # Run at 06:00 UTC daily (07:00 CET / 08:00 CEST)
-    - cron: '0 6 * * *'
+  # Scheduled run RETIRED 2026-07-21: learn-2026 (local, 06:15) is the sole daily
+  # engine and publishes the hub via publish.sh. This cloud Action was racing it
+  # and overwriting the richer local episode. Kept as manual-only fallback.
   workflow_dispatch:
     inputs:
       date:
