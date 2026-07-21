@@ -1,183 +1,57 @@
 {
-  "date": "2026-07-21",
-  "episodeNumber": 121,
-  "locale": "en-US",
-  "title": "Intelligence Brief",
-  "subtitle": "Ben Thompson's Stratechery piece 'Who's Afraid of , Kimi Work, Moonshot AI's new local desktop agent, , Kevin Buzzard documents in 'Human mathematicians a",
   "heroStat": {
     "value": "$1.65T",
     "label": "hidden AI debt across Big Tech"
   },
+  "takeaway": "Ben Thompson's 'Who's Afraid of Chinese Models?' frames today's central tension: open-weight Chinese models win on marginal cost while US developers distill through Chinese labs due to training-data and distillation restrictions that Chinese developers don't face — the same day AI proves it can formally disprove Erdős, Grothendieck, and the Jacobian Conjecture in Lean, and Flock Safety shows what happens when surveillance self-reporting goes unchecked.",
   "insights": [
     {
       "text": "Ben Thompson's Stratechery piece 'Who's Afraid of Chinese Models?' (490 HN pts, 337 comments) argues anxiety about Kimi K3 and Qwen3.8 Max is overblown: the AI race has shifted from 'who has the smartest model' to 'who can produce intelligence most cheaply', US frontier labs will be fine on raw quality, but US open-weight alternatives are structurally disadvantaged because they can't distill directly from frontier models — so they distill from Chinese distillations instead.",
-      "tags": [
-        "china-ai",
-        "open-weights",
-        "llm-policy"
-      ],
+      "tags": ["china-ai", "open-weights", "llm-policy"],
       "source": "Stratechery 490pts HN",
       "url": "https://stratechery.com/2026/whos-afraid-of-chinese-models/"
     },
     {
       "text": "Kimi Work, Moonshot AI's new local desktop agent, hit HN's #8 story (488 pts, 203 comments) — it runs on Kimi K2.6 (1-trillion-parameter MoE with ~32B active params per token) and orchestrates up to 300 concurrent sub-agents across a 4,000-step Cron-scheduled workflow, operating on real local files and the user's pre-authenticated browser without data leaving the machine.",
-      "tags": [
-        "agents",
-        "productivity",
-        "china-ai"
-      ],
+      "tags": ["agents", "productivity", "china-ai"],
       "source": "HN 488pts / Moonshot AI",
       "url": "https://www.kimi.com/products/kimi-work"
     },
     {
       "text": "Kevin Buzzard (Imperial College/Xena Project) documents in 'Human mathematicians are being outcounterexampled' (291 HN pts) that AI disproved three major open conjectures in 2026: Erdős' Unit Distance conjecture (AI-generated proof formalized in Lean with 1.2M lines of code), Grothendieck's 60-year-old group scheme question (found by Claude and OpenAI Sol), and the 100-year-old Jacobian Conjecture (discovered by Claude Fable during the 2026 World Cup Final) — each independently verified by the Lean proof checker.",
-      "tags": [
-        "math-ai",
-        "research",
-        "formal-proofs"
-      ],
+      "tags": ["math-ai", "research", "formal-proofs"],
       "source": "Xena Project 291pts HN",
       "url": "https://xenaproject.wordpress.com/2026/07/20/human-mathematicians-are-being-outcounterexampled/"
     },
     {
       "text": "The ACLU published 'Flock Safety Credibility Lost as It Repeatedly Lies to City Councils, Police, & Public' (296 HN pts) — documenting that Flock's ALPR surveillance cameras produce vehicle heat maps of up to a month's movement data but Flock's CISO told the Oshkosh City Council they did not, leading to the council revoking approval the very next morning. More than 55 localities cancelled contracts in the past year, and Flock even falsely claimed to have partnered with the ACLU.",
-      "tags": [
-        "surveillance",
-        "privacy",
-        "alpr"
-      ],
+      "tags": ["surveillance", "privacy", "alpr"],
       "source": "ACLU 296pts HN",
       "url": "https://www.aclu.org/news/privacy-technology/tracking-alpr-cameras/flock-safety-credibility-lost-as-it-repeatedly-lies-to-city-councils-police-departments-and-public-across-the-country"
     },
     {
       "text": "Nikkei Asia reported (138 HN pts) that five US tech giants' hidden AI-related off-balance-sheet debt has soared to $1.65 trillion — structured as opaque AI funding commitments to avoid formal balance sheet recognition, masking the true leverage that AI infrastructure buildout has created across Apple, Microsoft, Alphabet, Amazon, and Meta.",
-      "tags": [
-        "ai-finance",
-        "big-tech",
-        "infrastructure"
-      ],
+      "tags": ["ai-finance", "big-tech", "infrastructure"],
       "source": "Nikkei 138pts HN",
       "url": "https://asia.nikkei.com/business/technology/five-us-tech-giants-hidden-debts-soar-to-1.65tn-on-opaque-ai-funding"
     },
     {
       "text": "Jelly UI (422 HN pts, 144 comments) is a dependency-free WASM web component library that applies soft-body physics to native HTML form controls — buttons and inputs respond with elastic, fluid movements using Canvas API physics simulation — with dark mode, RTL support, and WCAG AA color tokens built in.",
-      "tags": [
-        "web-dev",
-        "ux",
-        "open-source"
-      ],
+      "tags": ["web-dev", "ux", "open-source"],
       "source": "HN 422pts / jelly-ui.com",
       "url": "https://jelly-ui.com/"
     },
     {
       "text": "Nativ (238 HN pts, 82 comments) is a new open-source Mac app built on Apple MLX that runs frontier open models — vision, video, code, and embedding models — locally on Apple Silicon M-series chips without wrappers or translation layers, displaying live tokens/sec, memory pressure, thermal state, and time-to-first-token metrics; it ships with voice transcription and generation and integrates with MLX-VLM.",
-      "tags": [
-        "local-llm",
-        "macos",
-        "open-source"
-      ],
+      "tags": ["local-llm", "macos", "open-source"],
       "source": "HN 238pts / blaizzy",
       "url": "https://blaizzy.github.io/nativ/"
     },
     {
       "text": "GitHub Trending today is led by tirth8205/code-review-graph (+1,833 stars/day, 23.6K total) — a local-first code intelligence graph for MCP and CLI that keeps codebase context persistent for AI tools — followed by diegosouzapw/OmniRoute (+1,107/day, TypeScript AI gateway for 268+ providers) and jamiepine/voicebox (+821/day, 42K total, open-source AI voice studio as ElevenLabs alternative).",
-      "tags": [
-        "github-trending",
-        "developer-tools",
-        "mcp"
-      ],
+      "tags": ["github-trending", "developer-tools", "mcp"],
       "source": "GitHub Trending",
       "url": "https://github.com/tirth8205/code-review-graph"
     }
-  ],
-  "trending": [
-    {
-      "name": "code-review-graph",
-      "fullName": "tirth8205/code-review-graph",
-      "stars": "23.6K",
-      "language": "Python",
-      "delta": "+1833/d",
-      "url": "https://github.com/tirth8205/code-review-graph"
-    },
-    {
-      "name": "OmniRoute",
-      "fullName": "diegosouzapw/OmniRoute",
-      "stars": "22.2K",
-      "language": "TypeScript",
-      "delta": "+1107/d",
-      "url": "https://github.com/diegosouzapw/OmniRoute"
-    },
-    {
-      "name": "open-seo",
-      "fullName": "every-app/open-seo",
-      "stars": "6.0K",
-      "language": "TypeScript",
-      "delta": "+939/d",
-      "url": "https://github.com/every-app/open-seo"
-    },
-    {
-      "name": "agency-agents",
-      "fullName": "msitarzewski/agency-agents",
-      "stars": "131K",
-      "language": "Shell",
-      "delta": "+862/d",
-      "url": "https://github.com/msitarzewski/agency-agents"
-    },
-    {
-      "name": "ai-engineering-from-scratch",
-      "fullName": "rohitg00/ai-engineering-from-scratch",
-      "stars": "4.2K",
-      "language": "Python",
-      "delta": "+823/d",
-      "url": "https://github.com/rohitg00/ai-engineering-from-scratch"
-    }
-  ],
-  "numbers": [
-    {
-      "label": "Top HN Story",
-      "value": "490",
-      "unit": "pts"
-    },
-    {
-      "label": "Fastest Repo",
-      "value": "1833",
-      "unit": "stars/day"
-    },
-    {
-      "label": "Sources Scraped",
-      "value": "4",
-      "unit": "sites"
-    },
-    {
-      "label": "Insights Today",
-      "value": "8",
-      "unit": "stories"
-    }
-  ],
-  "scenes": {
-    "masthead": {
-      "title": "INTELLIGENCE BRIEF",
-      "subtitle": "July 21, 2026"
-    },
-    "headlines": [
-      {
-        "text": "Ben Thompson's Stratechery piece 'Who's Afraid of Chinese Models?' argues anxiety about Kimi K3 and Qwen3.8 Max is overblown: the AI race has shifted from 'who has the smartest model' to 'who can produce intelligence most cheaply', US frontier labs will be fine on raw quality, but US open-weight alternatives are structurally disadvantaged because they can't distill directly from frontier models",
-        "metric": "—",
-        "source": "web"
-      },
-      {
-        "text": "Kimi Work, Moonshot AI's new local desktop agent, hit HN's #8 story",
-        "metric": "—",
-        "source": "web"
-      },
-      {
-        "text": "Kevin Buzzard documents in 'Human mathematicians are being outcounterexampled' that AI disproved three major open conjectures in 2026: Erdős' Unit Distance conjecture , Grothendieck's 60-year-old group scheme question , and the 100-year-old Jacobian Conjecture",
-        "metric": "291 pts",
-        "source": "HN"
-      }
-    ],
-    "takeaway": {
-      "text": "Ben Thompson's 'Who's Afraid of Chinese Models?' frames today's central tension: open-weight Chinese models win on marginal cost while US developers distill through Chinese labs due to training-data and distillation restrictions that Chinese developers don't face — the same day AI proves it can formally disprove Erdős, Grothendieck, and the Jacobian Conjecture in Lean, and Flock Safety shows what happens when surveillance self-reporting goes unchecked."
-    }
-  }
+  ]
 }

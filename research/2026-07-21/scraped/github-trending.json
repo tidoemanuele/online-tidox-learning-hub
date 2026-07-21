@@ -1,0 +1,92 @@
+[
+  {
+    "name": "code-review-graph",
+    "fullName": "tirth8205/code-review-graph",
+    "description": "Local-first code intelligence graph for MCP and CLI — enables AI tools to focus on relevant codebase sections with persistent knowledge mapping",
+    "language": "Python",
+    "stars_today": "1833 stars today",
+    "total_stars": "23612",
+    "url": "https://github.com/tirth8205/code-review-graph"
+  },
+  {
+    "name": "OmniRoute",
+    "fullName": "diegosouzapw/OmniRoute",
+    "description": "Free MIT AI gateway supporting 268+ providers and 500+ models including Claude, GPT, and others with token compression",
+    "language": "TypeScript",
+    "stars_today": "1107 stars today",
+    "total_stars": "22200",
+    "url": "https://github.com/diegosouzapw/OmniRoute"
+  },
+  {
+    "name": "open-seo",
+    "fullName": "every-app/open-seo",
+    "description": "Open source alternative to Semrush and Ahrefs — self-hosted SEO platform with keyword research, backlinks, rank tracking, site audit, and MCP server for AI agents",
+    "language": "TypeScript",
+    "stars_today": "939 stars today",
+    "total_stars": "6000",
+    "url": "https://github.com/every-app/open-seo"
+  },
+  {
+    "name": "agency-agents",
+    "fullName": "msitarzewski/agency-agents",
+    "description": "A complete AI agency at your fingertips — 51 specialized AI agent personas for Claude Code, Cursor, Codex and other AI coding tools",
+    "language": "Shell",
+    "stars_today": "862 stars today",
+    "total_stars": "131000",
+    "url": "https://github.com/msitarzewski/agency-agents"
+  },
+  {
+    "name": "voicebox",
+    "fullName": "jamiepine/voicebox",
+    "description": "The open-source AI voice studio — clone voices, dictate into any app, create speech in 23 languages across 7 TTS engines, runs entirely on your machine",
+    "language": "TypeScript",
+    "stars_today": "821 stars today",
+    "total_stars": "42000",
+    "url": "https://github.com/jamiepine/voicebox"
+  },
+  {
+    "name": "ai-engineering-from-scratch",
+    "fullName": "rohitg00/ai-engineering-from-scratch",
+    "description": "Educational resource for learning, building, and deploying AI engineering solutions from first principles",
+    "language": "Python",
+    "stars_today": "823 stars today",
+    "total_stars": "4200",
+    "url": "https://github.com/rohitg00/ai-engineering-from-scratch"
+  },
+  {
+    "name": "jcode",
+    "fullName": "1jehuang/jcode",
+    "description": "The most intelligent agent harness for code — Rust-based CLI coding agent framework",
+    "language": "Rust",
+    "stars_today": "568 stars today",
+    "total_stars": "9799",
+    "url": "https://github.com/1jehuang/jcode"
+  },
+  {
+    "name": "ktransformers",
+    "fullName": "kvcache-ai/ktransformers",
+    "description": "A flexible framework for heterogeneous LLM inference/fine-tuning optimizations using CPU-GPU computing",
+    "language": "Python",
+    "stars_today": "458 stars today",
+    "total_stars": "18500",
+    "url": "https://github.com/kvcache-ai/ktransformers"
+  },
+  {
+    "name": "kimi-cli",
+    "fullName": "MoonshotAI/kimi-cli",
+    "description": "Kimi Code CLI — your next command-line AI coding agent, successor to the original kimi-cli",
+    "language": "Python",
+    "stars_today": "410 stars today",
+    "total_stars": "10000",
+    "url": "https://github.com/MoonshotAI/kimi-cli"
+  },
+  {
+    "name": "cognee",
+    "fullName": "topoteretes/cognee",
+    "description": "Open-source AI memory platform for agents — persistent long-term memory across sessions via self-hosted knowledge graph engine",
+    "language": "Python",
+    "stars_today": "234 stars today",
+    "total_stars": "28000",
+    "url": "https://github.com/topoteretes/cognee"
+  }
+]

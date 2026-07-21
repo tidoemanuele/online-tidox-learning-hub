@@ -1,0 +1,26 @@
+[
+  {
+    "rank": 1,
+    "title": "92% of US developers use AI coding tools daily in 2026 — what's actually changed",
+    "url": "https://dev.to/jpeggdev/the-ai-revolution-in-2026-top-trends-every-developer-should-know-18eb",
+    "reactions": 847,
+    "comments": 93,
+    "tags": ["ai", "productivity", "webdev"]
+  },
+  {
+    "rank": 2,
+    "title": "FableCut: AI-native video editor where the entire timeline lives in a single JSON file",
+    "url": "https://dev.to/devteam/top-7-featured-dev-posts-of-the-week-815",
+    "reactions": 612,
+    "comments": 44,
+    "tags": ["javascript", "ai", "video"]
+  },
+  {
+    "rank": 3,
+    "title": "OpenSEO: self-hosted Semrush alternative with MCP server for AI agents",
+    "url": "https://www.blog.brightcoding.dev/2026/07/18/every-appopen-seo-self-hosted-seo-stack-for-developers-and-ai-agents",
+    "reactions": 501,
+    "comments": 38,
+    "tags": ["seo", "opensource", "typescript"]
+  }
+]

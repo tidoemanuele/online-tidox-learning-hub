@@ -1,0 +1,151 @@
+[
+  {
+    "title": "Human mathematicians are being outcounterexampled",
+    "score": 33,
+    "tags": [
+      "math"
+    ],
+    "url": "https://xenaproject.wordpress.com/2026/07/20/human-mathematicians-are-being-outcounterexampled/",
+    "comments_url": "https://lobste.rs/s/wfmpqr/human_mathematicians_are_being"
+  },
+  {
+    "title": "Gitolite",
+    "score": 42,
+    "tags": [
+      "practices",
+      "vcs"
+    ],
+    "url": "https://gitolite.com/gitolite/index.html",
+    "comments_url": "https://lobste.rs/s/21lrrw/gitolite"
+  },
+  {
+    "title": "I wrote an API client for my water-cooled bed",
+    "score": 47,
+    "tags": [
+      "hardware",
+      "zig"
+    ],
+    "url": "https://tinkering.xyz/bedctl/",
+    "comments_url": "https://lobste.rs/s/op1k28/i_wrote_api_client_for_my_water_cooled_bed"
+  },
+  {
+    "title": "InvisiCaps: The Fil-C Capability Model",
+    "score": 39,
+    "tags": [
+      "c",
+      "compilers"
+    ],
+    "url": "https://fil-c.org/invisicaps",
+    "comments_url": "https://lobste.rs/s/kdflhr/invisicaps_fil_c_capability_model"
+  },
+  {
+    "title": "Meta Garbage Collection: Using OCaml's GC to GC Rust",
+    "score": 38,
+    "tags": [
+      "ml",
+      "rust"
+    ],
+    "url": "https://soteria-tools.com/blog/meta-garbage-collection",
+    "comments_url": "https://lobste.rs/s/p3z0zw/meta_garbage_collection_using_ocaml_s_gc"
+  },
+  {
+    "title": "95 reasons for having your own website",
+    "score": 9,
+    "tags": [
+      "philosophy",
+      "web"
+    ],
+    "url": "https://bellkiosk.website/blog/reasons-to-website.html",
+    "comments_url": "https://lobste.rs/s/v3xuxn/95_reasons_for_having_your_own_website"
+  },
+  {
+    "title": "A deep dive into my Forgejo setup",
+    "score": 12,
+    "tags": [
+      "devops",
+      "show",
+      "systemd",
+      "vcs"
+    ],
+    "url": "https://a.l3x.in/blog/welcome-to-my-forge/",
+    "comments_url": "https://lobste.rs/s/jhcyuq/deep_dive_into_my_forgejo_setup"
+  },
+  {
+    "title": "How Gnutella Scaled to Handle Query Traffic",
+    "score": 8,
+    "tags": [
+      "distributed",
+      "historical",
+      "networking"
+    ],
+    "url": "https://rickcarlino.com/notes/p2p/how-gnutella-scaled-to-handle-query-traffic.html",
+    "comments_url": "https://lobste.rs/s/4kp1wg/how_gnutella_scaled_handle_query_traffic"
+  },
+  {
+    "title": "Minimal Git CI using hooks",
+    "score": 29,
+    "tags": [
+      "programming"
+    ],
+    "url": "https://mccd.space/posts/26-06-29/simple-git-ci",
+    "comments_url": "https://lobste.rs/s/jr72dt/minimal_git_ci_using_hooks"
+  },
+  {
+    "title": "432 Linux kernel CVEs published in the last 24 hours",
+    "score": 3,
+    "tags": [
+      "linux",
+      "security"
+    ],
+    "url": "https://lore.kernel.org/linux-cve-announce/",
+    "comments_url": "https://lobste.rs/s/t2jxyu/432_linux_kernel_cves_published_last_24"
+  },
+  {
+    "title": "Building an AmigaOS Development Environment in 2026",
+    "score": 20,
+    "tags": [
+      "retrocomputing"
+    ],
+    "url": "https://turtleware.eu/posts/Building-an-AmigaOS-Development-Environment-in-2026.html",
+    "comments_url": "https://lobste.rs/s/bz0spb/building_amigaos_development"
+  },
+  {
+    "title": "An informal tutorial on Joy",
+    "score": 8,
+    "tags": [
+      "plt"
+    ],
+    "url": "https://www.kevinalbrecht.com/code/joy-mirror/j01tut.html",
+    "comments_url": "https://lobste.rs/s/93norp/informal_tutorial_on_joy"
+  },
+  {
+    "title": "Opaque, Interoperable Passkey Records",
+    "score": 8,
+    "tags": [
+      "cryptography",
+      "security"
+    ],
+    "url": "https://words.filippo.io/passkey-record/",
+    "comments_url": "https://lobste.rs/s/boyu9x/opaque_interoperable_passkey_records"
+  },
+  {
+    "title": "Type Safe Servant Auth Roles",
+    "score": 9,
+    "tags": [
+      "api",
+      "haskell"
+    ],
+    "url": "https://blog.cofree.coffee/2026-07-20-servant-auth-roles/",
+    "comments_url": "https://lobste.rs/s/wxq96p/type_safe_servant_auth_roles"
+  },
+  {
+    "title": "Secrets Don\u2019t Belong in Config",
+    "score": 3,
+    "tags": [
+      "nix",
+      "security"
+    ],
+    "url": "https://secretspec.dev/blog/secrets-dont-belong-in-config/",
+    "comments_url": "https://lobste.rs/s/iypcjj/secrets_don_t_belong_config"
+  }
+]
