@@ -1,0 +1,136 @@
+{
+  "date": "2026-07-23",
+  "episodeNumber": 123,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "Terence Tao published a full transcript of a worki, koala73/worldmonitor debuted at #1 on GitHub Trend, GigaToken, a Rust/SIMD-optimized BPE tokenizer, cl",
+  "insights": [
+    {
+      "text": "Terence Tao published a full transcript of a working session with a 'Pro' tier GPT-5.6 model, probing an alternate construction related to the Jacobian Conjecture counterexample announced July 21 by Levent Alpoge with Anthropic's Fable 5. Tao didn't discover anything new and neither did the model -- it verified polynomial identities and Jacobian computations Tao directed it toward -- but publishing the raw prompt-by-prompt session as the primary artifact, rather than a polished paper, is a new instrument for judging AI mathematical assistance at the highest level of expertise.",
+      "tags": [
+        "ai-math",
+        "human-taste-moat",
+        "verification"
+      ],
+      "source": "Terence Tao / explainx.ai",
+      "url": "https://terrytao.wordpress.com/2026/07/21/a-digestion-of-the-jacobian-conjecture-counterexample/"
+    },
+    {
+      "text": "koala73/worldmonitor debuted at #1 on GitHub Trending with +4,139 stars/day (69,556 total) -- more than 5x the next entry and the largest single-day velocity this research stream has logged this month. It's a free, self-hostable real-time global intelligence dashboard fusing 56+ data layers (conflict events, ship/flight tracking, pipelines, markets, wildfire detection) onto a 3D globe, reportedly used by 2M+ people across 190+ countries.",
+      "tags": [
+        "github-trending",
+        "osint",
+        "dashboard"
+      ],
+      "source": "GitHub Trending",
+      "url": "https://github.com/koala73/worldmonitor"
+    },
+    {
+      "text": "GigaToken, a Rust/SIMD-optimized BPE tokenizer, claims up to 1000x faster throughput than HuggingFace's tokenizer and OpenAI's tiktoken (24+ GB/s on a 144-core EPYC, 8+ GB/s on an Apple M4 Max), by replacing regex-based pretokenization with vectorized token-boundary detection and aggressive caching. The gains are concentrated in batch/pretraining workloads and are author-benchmarked only so far.",
+      "tags": [
+        "tokenization",
+        "llm-infra",
+        "performance"
+      ],
+      "source": "GitHub / explainx.ai",
+      "url": "https://www.explainx.ai/blog/gigatoken-rust-tokenizer-1000x-faster-july-2026"
+    },
+    {
+      "text": "Cactus Hybrid adds a lightweight, calibrated confidence head to an on-device Gemma 4, cutting overconfident wrong answers by ~34% on TriviaQA (confidence averages 0.82 on correct answers, 0.29 on incorrect ones) at a 3-5ms/token cost -- enabling hybrid routing where only 15-35% of queries need escalation to a larger cloud model to match its quality.",
+      "tags": [
+        "on-device-llm",
+        "gemma",
+        "reliability"
+      ],
+      "source": "Cactus Compute",
+      "url": "https://github.com/cactus-compute/cactus-hybrid"
+    },
+    {
+      "text": "OpenAI raised its planned AI infrastructure spending to $750B through 2030, up 25% from an earlier $600B estimate, anchored by Project Camellia -- a $20B, 1,400-acre data-center campus near Savannah, Georgia contracting 3.2 GW of power from Georgia Power -- marking a shift from leasing cloud capacity toward OpenAI directly designing and operating its own facilities.",
+      "tags": [
+        "ai-financial-escape-",
+        "openai",
+        "infrastructure"
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/22/openais-ai-spending-spree-has-ballooned-to-750b/"
+    },
+    {
+      "text": "tirth8205/code-review-graph posted +882 stars/day (25,459 total) today -- its first slowdown after five consecutive days of GitHub Trending acceleration that peaked at +1,925/day (24,764 total) on July 22.",
+      "tags": [
+        "github-trending",
+        "developer-tools"
+      ],
+      "source": "GitHub Trending",
+      "url": "https://github.com/tirth8205/code-review-graph"
+    },
+    {
+      "text": "ayghri/i-have-adhd, the agent-response-structure skill that debuted July 22, held #3 on GitHub Trending for a second consecutive day (+1,699 stars/day, 8,520 total) -- closer to sustained growth than a single launch-day spike.",
+      "tags": [
+        "github-trending",
+        "agent-frameworks"
+      ],
+      "source": "GitHub Trending",
+      "url": "https://github.com/ayghri/i-have-adhd"
+    },
+    {
+      "text": "Media3/ExoPlayer's OTT stack saw only routine maintenance since July 16 (audio-session race-condition fixes, AV1-Dolby-Vision codec artifact fixes via the dav1d decoder, HLS playlist propagation bugs) -- no new consolidation, DRM, or gateway-control development to report this Thursday's streaming-tech rotation.",
+      "tags": [
+        "ott-streaming",
+        "media3",
+        "exoplayer"
+      ],
+      "source": "Android Developers Blog",
+      "url": "https://github.com/androidx/media/blob/release/RELEASENOTES.md"
+    }
+  ],
+  "trending": [],
+  "numbers": [
+    {
+      "label": "Stories",
+      "value": "0",
+      "unit": "items"
+    },
+    {
+      "label": "Repos",
+      "value": "0",
+      "unit": "tracked"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "1",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "July 23, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Terence Tao published a full transcript of a working session with a 'Pro' tier GPT-5.6 model, probing an alternate construction related to the Jacobian Conjecture counterexample announced July 21 by Levent Alpoge with Anthropic's Fable 5. Tao didn't discover anything new and neither did the model -- it verified polynomial identities and Jacobian computations Tao directed it toward -- but publishing the raw prompt-by-prompt session as the primary artifact, rather than a polished paper, is a new instrument for judging AI mathematical assistance at the highest level of expertise.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "koala73/worldmonitor debuted at #1 on GitHub Trending with +4,139 stars/day -- more than 5x the next entry and the largest single-day velocity this research stream has logged this month. It's a free, self-hostable real-time global intelligence dashboard fusing 56+ data layers onto a 3D globe, reportedly used by 2M+ people across 190+ countries.",
+        "metric": "+4,139/d",
+        "source": "GitHub"
+      },
+      {
+        "text": "GigaToken, a Rust/SIMD-optimized BPE tokenizer, claims up to 1000x faster throughput than HuggingFace's tokenizer and OpenAI's tiktoken , by replacing regex-based pretokenization with vectorized token-boundary detection and aggressive caching. The gains are concentrated in batch/pretraining workloads and are author-benchmarked only so far.",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "A Fields medalist's public AI working session, a GitHub repo posting the largest single-day velocity this stream has tracked, a claimed 1000x tokenizer speedup, an on-device model that now knows when it's wrong, and OpenAI raising its infrastructure bet to $750B all point the same direction: the AI stack is maturing on verification, efficiency, and trust rather than raw new capability today."
+    }
+  }
+}
