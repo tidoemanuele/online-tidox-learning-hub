@@ -359,7 +359,7 @@ function main() {
   const insights = structuredInsights.length > 0
     ? structuredInsights.slice(0, 8).map(i => ({
         text: i.text,
-        tags: (i.tags && i.tags.length > 0 ? i.tags : extractTagsFromInsight(i.text)).slice(0, 3),
+        tags: (i.tags && i.tags.length > 0 ? i.tags : extractTagsFromInsight(i.text)).slice(0, 3).map(t => t.slice(0, 20)),
         source: i.source ?? extractSourceFromInsight(i.text),
         url: i.url ?? extractUrlFromInsight(i.text),
       }))
