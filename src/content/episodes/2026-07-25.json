@@ -1,0 +1,178 @@
+{
+  "date": "2026-07-25",
+  "episodeNumber": 125,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "Anthropic's Claude Opus 5 launched at flat pricing, Researcher Chaofan Shou claims Kimi K3, coordinati, India's Cyber Crime Coordination Centre ordered Gi",
+  "heroStat": {
+    "value": "$25",
+    "label": "per million input"
+  },
+  "insights": [
+    {
+      "text": "Anthropic's Claude Opus 5 launched at flat pricing ($5/$25 per million input/output tokens, same as Opus 4.8), scoring three times the next-best model on ARC-AGI 3 and beating Fable 5's best OSWorld 2.0 result at just over a third of the cost. Anthropic's own page concedes Opus 5 'remains substantially behind Mythos 5' on cybersecurity exploit development, and ships cyber classifiers that intervene 'around 85% less often' than Fable 5's -- a safety posture explicitly tied to the narrower capability.",
+      "tags": [
+        "claude-code-ecosyste",
+        "frontier-tripolar-pr",
+        "opus-5"
+      ],
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/news/claude-opus-5"
+    },
+    {
+      "text": "Researcher Chaofan Shou claims Kimi K3, coordinating 32 specialized agents, found 19 Redis zero-days in about 90 minutes and built a working Redis 8.8.0 remote-code-execution exploit in 27 minutes, spanning a Streams shared-NACK use-after-free and a RedisBloom TDigest out-of-bounds write. Redis shipped seven security patches in response, but the counts, timings, and claimed autonomy remain entirely self-reported -- no independent reproduction exists yet, and Redis's own CVE record doesn't match the claimed bug classes one-to-one.",
+      "tags": [
+        "verification-stack",
+        "agent-security-sandb",
+        "kimi-k3"
+      ],
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/07/kimi-k3-agents-found-redis-zero-days.html"
+    },
+    {
+      "text": "India's Cyber Crime Coordination Centre ordered GitHub to remove three repositories of Jack Dorsey's Bitchat (a Bluetooth-mesh, no-account, no-server encrypted chat app) within three hours, arguing its offline-communication capability itself -- not any specific illegal content -- 'creates a substantial risk of misuse.' The order lands amid a student protest movement where the government has repeatedly cut mobile internet; digital-rights lawyers call the legal basis unclear for targeting an entire open-source project over its architecture.",
+      "tags": [
+        "privacy-first-app-wa",
+        "bitchat",
+        "policy"
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/24/indias-move-against-jack-dorseys-bitchat-sparks-legal-debate/"
+    },
+    {
+      "text": "block/buzz, a Rust 'hive mind communication platform,' accelerated to +3,270 GitHub stars/day (10,312 total) today -- up from its 07-24 debut of +2,162/day (7,449 total), a genuine second-day acceleration rather than the typical post-launch decay curve, and now GitHub Trending's #1 repo two days running.",
+      "tags": [
+        "agent-framework-expl",
+        "github-trending"
+      ],
+      "source": "GitHub Trending",
+      "url": "https://github.com/block/buzz"
+    },
+    {
+      "text": "Cognition acquired The Interaction Company of California (makers of Poke, a messaging-native AI assistant) for a deal valued in the low nine figures, explicitly to bring Poke's conversational style into its coding agent Devin. Separately, Midjourney acquired Co-Star, a social astrology app with 4.3 million monthly active users -- both deals target interaction style and personality rather than model capability or infrastructure, the opposite acquisition logic from typical AI-lab M&A.",
+      "tags": [
+        "human-taste-moat",
+        "acquisitions"
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage/"
+    },
+    {
+      "text": "Automattic/harper, an offline privacy-first Rust grammar checker, debuted on GitHub Trending at +876 stars/day (13,096 total) -- a systems-language substitute for cloud writing-assistance SaaS, extending the open-alternative-to-SaaS pattern this stream has tracked in dev tooling and SEO/deployment infra into a new category.",
+      "tags": [
+        "local-first-stack-re",
+        "privacy"
+      ],
+      "source": "GitHub Trending",
+      "url": "https://github.com/Automattic/harper"
+    },
+    {
+      "text": "r/LocalLLaMA reports Gemma 4 26B A4B running on an iPhone 17 Pro via model paging -- a concrete mobile-deployment data point for a 26B-parameter model on consumer hardware, though unverified beyond a single Reddit post with no published benchmark numbers.",
+      "tags": [
+        "local-model-inferenc",
+        "on-device"
+      ],
+      "source": "Reddit r/LocalLLaMA",
+      "url": "https://reddit.com/r/LocalLLaMA"
+    },
+    {
+      "text": "Two Tildes ~tech discourse threads extend the standing privacy-demand pattern without Play Store chart conversion: 'A hacker's arrest reveals Microsoft can track users via a Windows device' and 'Protect your privacy with California's DROP tool' -- both high-engagement discourse, zero effect yet on Play Store's top-30, where Signal (#27) and Proton Mail (#24) remain down-chart.",
+      "tags": [
+        "privacy-first-app-wa",
+        "play-store-trust-bif"
+      ],
+      "source": "Tildes ~tech",
+      "url": "https://tildes.net/~tech"
+    }
+  ],
+  "trending": [
+    {
+      "name": "buzz",
+      "fullName": "block/buzz",
+      "stars": "10.3K",
+      "language": "Rust",
+      "delta": "+3,270/d",
+      "url": "https://github.com/block/buzz"
+    },
+    {
+      "name": "skills",
+      "fullName": "mattpocock/skills",
+      "stars": "187K",
+      "language": "Shell",
+      "delta": "+2,251/d",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "name": "worldmonitor",
+      "fullName": "koala73/worldmonitor",
+      "stars": "73.5K",
+      "language": "TypeScript",
+      "delta": "+2,184/d",
+      "url": "https://github.com/koala73/worldmonitor"
+    },
+    {
+      "name": "OmniRoute",
+      "fullName": "diegosouzapw/OmniRoute",
+      "stars": "29.1K",
+      "language": "TypeScript",
+      "delta": "+1,841/d",
+      "url": "https://github.com/diegosouzapw/OmniRoute"
+    },
+    {
+      "name": "RuView",
+      "fullName": "ruvnet/RuView",
+      "stars": "86.0K",
+      "language": "Rust",
+      "delta": "+1,022/d",
+      "url": "https://github.com/ruvnet/RuView"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "1410",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "3,270",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "14",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "July 25, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Anthropic's Claude Opus 5 launched at flat pricing , scoring three times the next-best model on ARC-AGI 3 and beating Fable 5's best OSWorld 2.0 result at just over a third of the cost. Anthropic's own page concedes Opus 5 'remains substantially behind Mythos 5' on cybersecurity exploit development, and ships cyber classifiers that intervene 'around 85% less often' than Fable 5's -- a safety posture explicitly tied to the narrower capability.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Researcher Chaofan Shou claims Kimi K3, coordinating 32 specialized agents, found 19 Redis zero-days in about 90 minutes and built a working Redis 8.8.0 remote-code-execution exploit in 27 minutes, spanning a Streams shared-NACK use-after-free and a RedisBloom TDigest out-of-bounds write. Redis shipped seven security patches in response, but the counts, timings, and claimed autonomy remain entirely self-reported -- no independent reproduction exists yet, and Redis's own CVE record doesn't match the claimed bug classes one-to-one.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "India's Cyber Crime Coordination Centre ordered GitHub to remove three repositories of Jack Dorsey's Bitchat within three hours, arguing its offline-communication capability itself -- not any specific illegal content -- 'creates a substantial risk of misuse.' The order lands amid a student protest movement where the government has repeatedly cut mobile internet; digital-rights lawyers call the legal basis unclear for targeting an entire open-source project over its architecture.",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "A frontier model launch that openly concedes a capability gap, an open-weight competitor's unverified claim to have closed that exact gap the same day, a government ordering a privacy app's source code removed for working as designed, and two AI labs acquiring consumer apps purely for their personality layer -- capability, security, and trust are all being renegotiated in public at once today."
+    }
+  }
+}
