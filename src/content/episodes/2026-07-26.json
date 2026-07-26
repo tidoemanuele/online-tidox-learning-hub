@@ -1,0 +1,180 @@
+{
+  "date": "2026-07-26",
+  "episodeNumber": 126,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "Google/AOSP is discussing a proposal to restrict A, Anthropic published its own reversal of Claude Cod, India's Cyber Crime Coordination Centre's three-ho",
+  "heroStat": {
+    "value": "894",
+    "label": "points on \"Android May Soon Restrict On-Device ADB\""
+  },
+  "insights": [
+    {
+      "text": "Google/AOSP is discussing (not yet shipping) a proposal to restrict Android's on-device ADB daemon to WiFi-only binding, removing loopback access -- citing CVE-2026-0073, a Wireless ADB auth bypass. This would break Shizuku (the privilege-delegation framework powering rootless power-user apps) and everything built on libadb-android: App Manager, aShell, ShizuWall, ShizuCallRecorder, and Tasker/MacroDroid automation modules.",
+      "tags": [
+        "platform-gravity-vs-",
+        "android",
+        "privacy-first-app-wa"
+      ],
+      "source": "Kitsumed Blog",
+      "url": "https://kitsumed.github.io/blog/posts/android-may-soon-restrict-on-device-adb/"
+    },
+    {
+      "text": "Anthropic published its own reversal of Claude Code's prompting doctrine for Claude 5-generation models: over 80% of the system prompt deleted with no measurable eval loss. Explicit rules, tool-use examples, and front-loaded instructions -- all calibrated for weaker models -- are replaced by 'let the model use judgment,' self-describing tool interfaces, and progressive disclosure via skills. A new /doctor command audits a project's own CLAUDE.md and skills against the new guidance.",
+      "tags": [
+        "claude-code-ecosyste",
+        "harness-engineering",
+        "opus-5"
+      ],
+      "source": "Anthropic",
+      "url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models"
+    },
+    {
+      "text": "India's Cyber Crime Coordination Centre's three-hour takedown order against Jack Dorsey's Bitchat failed: as of 2026-07-25, all three GitHub repos remain live. Decentralization made the order unenforceable -- anyone who already cloned or downloaded the app can mirror or recompile it -- a structural contrast with India's earlier, successful Telegram ban, which worked precisely because Telegram is centralized. Today's scrape shows Bitchat's GitHub star velocity accelerating to +1,720/day (28,844 total), a Streisand-effect signature.",
+      "tags": [
+        "privacy-first-app-wa",
+        "bitchat",
+        "policy"
+      ],
+      "source": "The Week",
+      "url": "https://www.theweek.in/news/sci-tech/2026/07/25/bitchat-source-code-github-notice-india-notice.html"
+    },
+    {
+      "text": "\"Second Brain for AI\" shipped a desktop app for Mac and Windows (Product Hunt #4) -- a self-hosted memory layer connecting Claude, ChatGPT, Cursor, and any MCP client, recalling context by meaning rather than keywords and building 'a knowledge graph that builds itself.' The new release drops the terminal/git setup step entirely -- download, set a password, sign into Cloudflare -- targeting non-technical users for the first time.",
+      "tags": [
+        "llm-wiki-pattern",
+        "pkm",
+        "second-brain"
+      ],
+      "source": "Product Hunt",
+      "url": "https://www.producthunt.com/products/second-brain-cloudflare"
+    },
+    {
+      "text": "An essay by Tobi Knaup (Mesosphere co-founder, who built on Apache Mesos before Kubernetes disrupted that category) argues open-weight AI is having its own 'Kubernetes moment' and urges the US not to wall itself off from that ecosystem via broad restrictions on Chinese open-weight models -- extending 07-24's 'Little Tech Association' coalition-letter thread with a named-founder historical analogy (345 HN points, 276 comments). Full text was blocked (403) this pass; read via search-engine summary only.",
+      "tags": [
+        "frontier-tripolar-pr",
+        "local-model-inferenc",
+        "open-weight"
+      ],
+      "source": "Hacker News",
+      "url": "https://news.ycombinator.com/item?id=49048034"
+    },
+    {
+      "text": "block/buzz, GitHub Trending's #1 'hive mind communication platform,' decelerates to +2,491 stars/day (12,176 total) -- down from 07-25's +3,270/day, its first deceleration after two days of acceleration. Meanwhile permissionlesstech/bitchat surges to +1,720/day on the same board, driven by the takedown-order attention rather than a feature launch.",
+      "tags": [
+        "agent-framework-expl",
+        "github-trending"
+      ],
+      "source": "GitHub Trending",
+      "url": "https://github.com/block/buzz"
+    },
+    {
+      "text": "Two extreme-edge model-deployment data points landed the same day: a 28.9M-parameter LLM running on an $8 microcontroller (HN #12, 120 pts), and Inflect-Micro-v2, a complete voice model in 9.36M parameters (HN #6, 60 pts) -- both extending the on-device capability-floor-keeps-dropping pattern down to embedded-hardware scale, neither independently benchmarked this pass.",
+      "tags": [
+        "local-model-inferenc",
+        "on-device"
+      ],
+      "source": "Hacker News",
+      "url": "https://news.ycombinator.com/item?id=49051361"
+    },
+    {
+      "text": "CoreBunch/Instatic debuts on GitHub Trending (+426/day, 5,181 total) as 'the open-source alternative to Webflow, Framer and WordPress' with an agentic, self-hosted design -- extending the open-alternative-to-SaaS pattern this stream has tracked in dev tooling and writing tools into website builders specifically.",
+      "tags": [
+        "local-first-stack-re",
+        "github-trending"
+      ],
+      "source": "GitHub Trending",
+      "url": "https://github.com/CoreBunch/Instatic"
+    }
+  ],
+  "trending": [
+    {
+      "name": "buzz",
+      "fullName": "block/buzz",
+      "stars": "12.2K",
+      "language": "Rust",
+      "delta": "+2,491/d",
+      "url": "https://github.com/block/buzz"
+    },
+    {
+      "name": "skills",
+      "fullName": "mattpocock/skills",
+      "stars": "189K",
+      "language": "Shell",
+      "delta": "+1,740/d",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "name": "bitchat",
+      "fullName": "permissionlesstech/bitchat",
+      "stars": "28.8K",
+      "language": "Swift",
+      "delta": "+1,720/d",
+      "url": "https://github.com/permissionlesstech/bitchat"
+    },
+    {
+      "name": "ego-lite",
+      "fullName": "citrolabs/ego-lite",
+      "stars": "3.7K",
+      "language": "JavaScript",
+      "delta": "+986/d",
+      "url": "https://github.com/citrolabs/ego-lite"
+    },
+    {
+      "name": "awesome-claude-skills",
+      "fullName": "ComposioHQ/awesome-claude-skills",
+      "stars": "70.7K",
+      "language": "Python",
+      "delta": "+577/d",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "894",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "2,491",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "14",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "July 26, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Google/AOSP is discussing a proposal to restrict Android's on-device ADB daemon to WiFi-only binding, removing loopback access -- citing CVE-2026-0073, a Wireless ADB auth bypass. This would break Shizuku and everything built on libadb-android: App Manager, aShell, ShizuWall, ShizuCallRecorder, and Tasker/MacroDroid automation modules.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Anthropic published its own reversal of Claude Code's prompting doctrine for Claude 5-generation models: over 80% of the system prompt deleted with no measurable eval loss. Explicit rules, tool-use examples, and front-loaded instructions -- all calibrated for weaker models -- are replaced by 'let the model use judgment,' self-describing tool interfaces, and progressive disclosure via skills. A new /doctor command audits a project's own CLAUDE.md and skills against the new guidance.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "India's Cyber Crime Coordination Centre's three-hour takedown order against Jack Dorsey's Bitchat failed: as of 2026-07-25, all three GitHub repos remain live. Decentralization made the order unenforceable -- anyone who already cloned or downloaded the app can mirror or recompile it -- a structural contrast with India's earlier, successful Telegram ban, which worked precisely because Telegram is centralized. Today's scrape shows Bitchat's GitHub star velocity accelerating to +1,720/day , a Streisand-effect signature.",
+        "metric": "+1,720/d",
+        "source": "GitHub"
+      }
+    ],
+    "takeaway": {
+      "text": "A platform proposes tightening on-device developer access, a frontier lab publicly reverses its own prompting doctrine, a state's takedown order collides with decentralization and loses, and the vault's own knowledge-architecture pattern gets packaged as consumer software -- today's throughline is architecture (decentralized, self-describing, self-hosted) winning against attempts at central control."
+    }
+  }
+}
