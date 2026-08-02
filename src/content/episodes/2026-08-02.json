@@ -1,0 +1,180 @@
+{
+  "date": "2026-08-02",
+  "episodeNumber": 133,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "The EU AI Act's Article 50 transparency/labeling d, The same week the EU's AI-content-disclosure law g, Minnesota's first-of-its-kind ban on AI 'nudify' a",
+  "heroStat": {
+    "value": "15M",
+    "label": "or 3"
+  },
+  "insights": [
+    {
+      "text": "The EU AI Act's Article 50 transparency/labeling duties and the Commission's power to fine GPAI providers (up to EUR15M or 3% of global turnover) both activate today, August 2, 2026 -- while the broader high-risk AI system rules were separately deferred to December 2027 (Annex III) and August 2028 (Annex I) via the Digital Omnibus amendment adopted this June.",
+      "tags": [
+        "ai-legal-precedent-f",
+        "eu-ai-act",
+        "policy"
+      ],
+      "source": "Pebblous",
+      "url": "https://blog.pebblous.ai/report/eu-ai-act-august-2026-deadline-reality/en/"
+    },
+    {
+      "text": "The same week the EU's AI-content-disclosure law gains enforcement teeth, three unrelated incidents show why it exists: YouTuber Hank Green (3.2M subscribers) apologized after viewers caught an unedited ChatGPT response embedded in his video script; Snapchat stopped recommending fully AI-generated Spotlight videos to non-followers; and Google paused its new Earth AI feature one day after launch once users generated fake satellite imagery, including a fabricated collapsed Eiffel Tower.",
+      "tags": [
+        "ai-label-inflation",
+        "human-taste-moat",
+        "ai-legal-precedent-f"
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/01/youtuber-hank-green-says-his-ai-usage-is-not-healthy/"
+    },
+    {
+      "text": "Minnesota's first-of-its-kind ban on AI 'nudify' apps took effect August 1 after a federal judge denied xAI's request to block it -- ruling turned on timing (xAI sued nearly three months after the law was signed, three days before it took effect) rather than the law's merits; a preliminary-injunction hearing on the substantive challenge is set for August 19.",
+      "tags": [
+        "ai-legal-precedent-f",
+        "policy"
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/"
+    },
+    {
+      "text": "Kimi K3 (2.8T parameters, ~1.56TB of memory at 4-bit) gets its first dollar-denominated hardware number: AMD's MI355X runs at $2.50/GPU-hr against Nvidia's B300 at $6.00/GPU-hr -- a 2.4x cost advantage for AMD despite B300 delivering roughly 1.65x more aggregate throughput. Separately, an unverified Reddit post claims K3 was run on a single 8GB-RAM CPU.",
+      "tags": [
+        "local-model-inferenc",
+        "kimi-k3",
+        "hardware-economics"
+      ],
+      "source": "Hacker News / Wafer.ai",
+      "url": "https://www.wafer.ai/blog/kimi-k3-mi355x"
+    },
+    {
+      "text": "zhaoxuya520/reverse-skill, a reverse-engineering/pentesting 'skill router' for Claude Code, Kiro, Cursor, and Cline, hit GitHub Trending #4 today at +1,320 stars/day -- the highest velocity of any repo on the board, ahead of the #1 overall entry -- extending the packaged-skill genre into a security-research vertical for the first time. Created just 2.5 months ago (2026-05-13), now at 12,079 total stars.",
+      "tags": [
+        "agent-framework-expl",
+        "github-trending",
+        "claude-code-ecosyste"
+      ],
+      "source": "GitHub Trending",
+      "url": "https://github.com/zhaoxuya520/reverse-skill"
+    },
+    {
+      "text": "Today's single highest-voted Hacker News story (467 points/160 comments, ahead of every other story on the board) is a resurfacing 2023 essay arguing Google followed an 'Embrace, Extend, Extinguish' pattern against RSS -- acquiring FeedBurner then gutting it, silently removing Chrome's RSS button, and killing Google Reader in 2013 -- paired same-day with 'Atom is better than RSS, in ways that matter,' anchoring Sunday's Content Aggregation rotation.",
+      "tags": [
+        "open-web-enclosure",
+        "content-aggregation",
+        "rss"
+      ],
+      "source": "Hacker News / Open RSS",
+      "url": "https://openrss.org/blog/how-google-helped-destroy-adoption-of-rss-feeds"
+    },
+    {
+      "text": "TencentCloud/TencentDB-Agent-Memory debuts on GitHub Trending (#13, +227/day, 10,387 total) as 'a team-level memory hub for AI Agents,' extending the crowded agent-memory-as-infrastructure race this stream has tracked since April with a new large-vendor entrant.",
+      "tags": [
+        "agent-memory-as-infr",
+        "github-trending"
+      ],
+      "source": "GitHub Trending",
+      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory"
+    },
+    {
+      "text": "Hugging Face's own huggingface/speech-to-speech local-voice-agent toolkit decelerates on GitHub Trending to +442 stars/day (10,269 total), down from its 07-31 debut velocity of +628/day -- still growing, first deceleration logged for this entry.",
+      "tags": [
+        "on-device-voice-spee",
+        "local-model-inferenc"
+      ],
+      "source": "GitHub Trending",
+      "url": "https://github.com/huggingface/speech-to-speech"
+    }
+  ],
+  "trending": [
+    {
+      "name": "reverse-skill",
+      "fullName": "zhaoxuya520/reverse-skill",
+      "stars": "12.1K",
+      "language": "PowerShell",
+      "delta": "+1,320/d",
+      "url": "https://github.com/zhaoxuya520/reverse-skill"
+    },
+    {
+      "name": "AI-For-Beginners",
+      "fullName": "microsoft/AI-For-Beginners",
+      "stars": "57.7K",
+      "language": "Jupyter Notebook",
+      "delta": "+949/d",
+      "url": "https://github.com/microsoft/AI-For-Beginners"
+    },
+    {
+      "name": "kaneo",
+      "fullName": "usekaneo/kaneo",
+      "stars": "5.8K",
+      "language": "TypeScript",
+      "delta": "+760/d",
+      "url": "https://github.com/usekaneo/kaneo"
+    },
+    {
+      "name": "awesome-systematic-trading",
+      "fullName": "paperswithbacktest/awesome-systematic-trading",
+      "stars": "12.3K",
+      "language": "Python",
+      "delta": "+523/d",
+      "url": "https://github.com/paperswithbacktest/awesome-systematic-trading"
+    },
+    {
+      "name": "speech-to-speech",
+      "fullName": "huggingface/speech-to-speech",
+      "stars": "10.3K",
+      "language": "Python",
+      "delta": "+442/d",
+      "url": "https://github.com/huggingface/speech-to-speech"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "467",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "1,320",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "14",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "August 2, 2026"
+    },
+    "headlines": [
+      {
+        "text": "The EU AI Act's Article 50 transparency/labeling duties and the Commission's power to fine GPAI providers both activate today, August 2, 2026 -- while the broader high-risk AI system rules were separately deferred to December 2027 and August 2028 via the Digital Omnibus amendment adopted this June.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "The same week the EU's AI-content-disclosure law gains enforcement teeth, three unrelated incidents show why it exists: YouTuber Hank Green apologized after viewers caught an unedited ChatGPT response embedded in his video script; Snapchat stopped recommending fully AI-generated Spotlight videos to non-followers; and Google paused its new Earth AI feature one day after launch once users generated fake satellite imagery, including a fabricated collapsed Eiffel Tower.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Minnesota's first-of-its-kind ban on AI 'nudify' apps took effect August 1 after a federal judge denied xAI's request to block it -- ruling turned on timing rather than the law's merits; a preliminary-injunction hearing on the substantive challenge is set for August 19.",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "A regulator's enforcement power activates the same week three unrelated actors -- a creator, a platform, a frontier lab's own product team -- get caught by the disclosure problem it targets, a state nudify-app ban survives its first court test, an open-weight model gets its first real dollar-cost number against frontier silicon, a packaged-skill genre extends into security research, and Sunday's rotation is anchored by a three-year-old essay about the platform that helped kill the open web's original aggregation protocol."
+    }
+  }
+}
