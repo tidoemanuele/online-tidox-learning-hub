@@ -1,0 +1,180 @@
+{
+  "date": "2026-08-03",
+  "episodeNumber": 134,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "Alibaba announced Qwen3.8-Max's full weights will , Sonatype found ~27.8% of one leading LLM's package, zhaoxuya520/reverse-skill, yesterday's viral GitHu",
+  "heroStat": {
+    "value": "27B",
+    "label": "also going open"
+  },
+  "insights": [
+    {
+      "text": "Alibaba announced Qwen3.8-Max's full weights will ship open next week -- the first time a Max-tier (flagship) Qwen model has been open-sourced -- alongside a new Qwen3.8-27B also going open-weight. Independent tracking of Alibaba's own figures puts the model at 2.4T total / 95B active parameters, with a DeepSWE score rising from Qwen3.7's 21.6 to 56.6 (vs. DeepSeek V4 Flash's 54.4, Kimi K3's 69, GLM-5.2's 44) -- Alibaba's own benchmark table and license terms remain unpublished.",
+      "tags": [
+        "local-model-inferenc",
+        "qwen",
+        "open-weight"
+      ],
+      "source": "Hacker News / MarkTechPost",
+      "url": "https://news.ycombinator.com/item?id=49150470"
+    },
+    {
+      "text": "Sonatype found ~27.8% of one leading LLM's package-dependency recommendations were hallucinated (nonexistent packages), and 43% of those hallucinated names reappeared on every one of ten identical re-runs -- meaning attackers can identify and pre-register the highest-probability hallucinations with near-certainty. Real 'slopsquatting' incidents already exploit this, including a still-live malicious npm package with ~233 weekly downloads despite being registry-flagged.",
+      "tags": [
+        "supply-chain-attacks",
+        "ai-dev-tools",
+        "security"
+      ],
+      "source": "Cloud Security Alliance / Socket.dev",
+      "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-slopsquatting-ai-supply-chain-20260419-csa/"
+    },
+    {
+      "text": "zhaoxuya520/reverse-skill, yesterday's viral GitHub debut (a reverse-engineering/pentesting skill router), sustains a second consecutive day of real growth -- a direct GitHub API check confirms 14,080 total stars, up from 12,079 a day earlier (+1,141 stars/day today, down from +1,320/day yesterday) -- partially confirming this page's multi-day-trending falsification test for a genuine new skill-package category.",
+      "tags": [
+        "agent-framework-expl",
+        "github-trending",
+        "claude-code-ecosyste"
+      ],
+      "source": "GitHub API",
+      "url": "https://github.com/zhaoxuya520/reverse-skill"
+    },
+    {
+      "text": "India's mobile app market posted a record $345M in Q2 2026 consumer spending (+35% YoY, per Sensor Tower via TechCrunch) -- ChatGPT and Claude together take ~83% of India's AI-app revenue, non-gaming categories now make up 68% of India's H1 2026 app revenue (up from 58% three years ago), and Google One was the quarter's single highest-grossing app. Same-day, this pipeline's own (Portugal-localized) Play Store scrape shows ChatGPT jumping to #2, its highest recorded position, up from an 08-01 low of #30.",
+      "tags": [
+        "play-store-trust-bif",
+        "indie-monetization",
+        "india"
+      ],
+      "source": "TechCrunch / Sensor Tower",
+      "url": "https://techcrunch.com/2026/07/31/india-is-starting-to-pay-for-apps-not-just-download-them/"
+    },
+    {
+      "text": "A ProPublica investigation reveals Microsoft has used Anthropic's own Mythos vulnerability-hunting model (via 'Project Glasswing') to find hundreds of critical/important bugs across SharePoint, Microsoft 365, Teams, and Copilot -- 90 critical + 141 important bugs in SharePoint alone in April -- and had patched over 600 by July 14 ('the bug apocalypse has fully descended upon us,' per one Microsoft engineer). This lands four days after Microsoft CEO Satya Nadella pitched Microsoft's homegrown MAI models as an independent alternative to Anthropic and OpenAI.",
+      "tags": [
+        "verification-stack",
+        "frontier-tripolar-pr",
+        "microsoft"
+      ],
+      "source": "ProPublica",
+      "url": "https://www.propublica.org/article/anthropic-mythos-microsoft-software-vulnerabilities"
+    },
+    {
+      "text": "Karpathy's 'Pelican' SVG-benchmark thread continues (508 pts/360 comments) alongside a same-day variant asking models to draw an SVG frog with a 'Habsburg jaw' (125 pts) -- the informal SVG-drawing benchmark meme keeps recurring as a proxy for model capability discourse.",
+      "tags": [
+        "benchmark-integrity-",
+        "hacker-news"
+      ],
+      "source": "Hacker News",
+      "url": "https://news.ycombinator.com/"
+    },
+    {
+      "text": "microsoft/AI-For-Beginners, an 8-year-old educational repository, unexpectedly took #1 on GitHub Trending at +2,629 stars/day (59,550 total) -- the largest single-day velocity this pipeline has logged recently, with no clear news hook identified this pass.",
+      "tags": [
+        "github-trending",
+        "ai-dev-tools"
+      ],
+      "source": "GitHub Trending",
+      "url": "https://github.com/microsoft/AI-For-Beginners"
+    },
+    {
+      "text": "Two Product Hunt launches defined themselves explicitly relative to Claude Code today: Termexo ('a local Windows workbench for Claude Code and Codex') and Lumichats ('a Claude Code alternative for people who avoid the terminal') -- a small but notable cluster of tools positioning against the same reference point.",
+      "tags": [
+        "claude-code-ecosyste",
+        "ai-dev-tools"
+      ],
+      "source": "Product Hunt",
+      "url": "https://www.producthunt.com/"
+    }
+  ],
+  "trending": [
+    {
+      "name": "AI-For-Beginners",
+      "fullName": "microsoft/AI-For-Beginners",
+      "stars": "59.5K",
+      "language": "Jupyter Notebook",
+      "delta": "+2,629/d",
+      "url": "https://github.com/microsoft/AI-For-Beginners"
+    },
+    {
+      "name": "reverse-skill",
+      "fullName": "zhaoxuya520/reverse-skill",
+      "stars": "14.1K",
+      "language": "PowerShell",
+      "delta": "+1,141/d",
+      "url": "https://github.com/zhaoxuya520/reverse-skill"
+    },
+    {
+      "name": "airllm",
+      "fullName": "lyogavin/airllm",
+      "stars": "25.9K",
+      "language": "Jupyter Notebook",
+      "delta": "+819/d",
+      "url": "https://github.com/lyogavin/airllm"
+    },
+    {
+      "name": "build-your-own-x",
+      "fullName": "codecrafters-io/build-your-own-x",
+      "stars": "535K",
+      "language": "Markdown",
+      "delta": "+674/d",
+      "url": "https://github.com/codecrafters-io/build-your-own-x"
+    },
+    {
+      "name": "Agent-Reach",
+      "fullName": "Panniantong/Agent-Reach",
+      "stars": "65.0K",
+      "language": "Python",
+      "delta": "+659/d",
+      "url": "https://github.com/Panniantong/Agent-Reach"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "508",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "2,629",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "14",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "August 3, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Alibaba announced Qwen3.8-Max's full weights will ship open next week -- the first time a Max-tier Qwen model has been open-sourced -- alongside a new Qwen3.8-27B also going open-weight. Independent tracking of Alibaba's own figures puts the model at 2.4T total / 95B active parameters, with a DeepSWE score rising from Qwen3.7's 21.6 to 56.6 -- Alibaba's own benchmark table and license terms remain unpublished.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Sonatype found ~27.8% of one leading LLM's package-dependency recommendations were hallucinated , and 43% of those hallucinated names reappeared on every one of ten identical re-runs -- meaning attackers can identify and pre-register the highest-probability hallucinations with near-certainty. Real 'slopsquatting' incidents already exploit this, including a still-live malicious npm package with ~233 weekly downloads despite being registry-flagged.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "zhaoxuya520/reverse-skill, yesterday's viral GitHub debut , sustains a second consecutive day of real growth -- a direct GitHub API check confirms 14,080 total stars, up from 12,079 a day earlier -- partially confirming this page's multi-day-trending falsification test for a genuine new skill-package category.",
+        "metric": "+1,141/d",
+        "source": "GitHub"
+      }
+    ],
+    "takeaway": {
+      "text": "A flagship open-weight commitment, a hard number for the AI-hallucination supply-chain risk everyone already suspected, a second day of proof that a security-research skill router is a real trend and not a spike, a record emerging-market app-spending quarter with a clear non-gaming tilt, and a ProPublica investigation showing Microsoft leans on a rival lab's own model to keep its own products patched."
+    }
+  }
+}
