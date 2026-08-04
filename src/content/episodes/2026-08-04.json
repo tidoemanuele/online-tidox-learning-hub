@@ -1,0 +1,178 @@
+{
+  "date": "2026-08-04",
+  "episodeNumber": 135,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "Swiftlet streams routed Mixture-of-Experts weights, AirLLM retook #1 on GitHub Trending with a differe, A same-day voice/TTS cluster -- livekit/agents , j",
+  "heroStat": {
+    "value": "3B",
+    "label": "parameters per token regardles"
+  },
+  "insights": [
+    {
+      "text": "Swiftlet (HN Show #1) streams routed Mixture-of-Experts weights from disk, activating ~3B parameters per token regardless of total model size: Qwen3.6-35B-A3B runs at 2.6GB peak RAM (7-11 tok/s on an M5 Mac), and Qwen3-Next-80B-A3B runs at 4.3GB peak RAM (4.5-5 tok/s on an M5 Mac, ~1 tok/s at 2.5GB RAM on an iPhone 17). The developers' own caveat: these models 'chat and write like large models but recall facts like small ones.'",
+      "tags": [
+        "local-model-inferenc",
+        "on-device",
+        "quantization"
+      ],
+      "source": "GitHub / Hacker News Show",
+      "url": "https://github.com/leonickson1/Swiftlet"
+    },
+    {
+      "text": "AirLLM retook #1 on GitHub Trending (+1,085 stars/day, 27,437 total) with a different technique -- one-layer-at-a-time GPU streaming rather than expert streaming. Its newest capability (added July 2026): Kimi K3 (2.8T parameters) running under 4GB. Two independent memory-reduction architectures for on-device inference converged on the same day, independent of quantization format.",
+      "tags": [
+        "local-model-inferenc",
+        "github-trending",
+        "on-device"
+      ],
+      "source": "GitHub Trending",
+      "url": "https://github.com/lyogavin/airllm"
+    },
+    {
+      "text": "A same-day voice/TTS cluster -- livekit/agents (+148/day, 12,091 total, realtime voice-agent framework), jamiepine/voicebox (+412/day, 48,826 total, local-first voice studio), and two Hugging Face speech models -- lands exactly on this vault's own two-week falsification deadline for a 'one real signal per week' speech-tooling cadence set on 07-28, resolving it in the affirmative.",
+      "tags": [
+        "on-device-voice-spee",
+        "github-trending",
+        "huggingface"
+      ],
+      "source": "GitHub Trending / Hugging Face Trending",
+      "url": "https://github.com/livekit/agents"
+    },
+    {
+      "text": "zhaoxuya520/reverse-skill, the viral reverse-engineering/pentesting skill router, posts a third consecutive GitHub-API-verified growth day: 16,274 total stars, up from 14,080 a day earlier (~2,194 gained in 24 hours) -- sustained growth, though a second comparable skill router is still needed to confirm 'genuine vertical' status.",
+      "tags": [
+        "agent-framework-expl",
+        "github-trending",
+        "supply-chain-attacks"
+      ],
+      "source": "GitHub API",
+      "url": "https://github.com/zhaoxuya520/reverse-skill"
+    },
+    {
+      "text": "One day after ChatGPT hit its highest-ever recorded Play Store position (#2) and Perplexity made its first appearance in the captured top-10 (#9), today's 38-item capture contains zero AI-chat apps at all -- the fastest and sharpest reversal this pipeline's five-week rank-churn thread has logged, strongly supporting the standing 'tail-of-chart noise' reading over a genuine re-rank.",
+      "tags": [
+        "play-store-trust-bif",
+        "chatgpt-consumer-dom"
+      ],
+      "source": "Google Play Store (own scrape)",
+      "url": "https://play.google.com/store/apps/top"
+    },
+    {
+      "text": "Hoplite (YC S26) launched 'effortlessly deploy cloud coding agents' -- the third same-genre cloud-agent-deployment product in five days, after AgentSky (07-30, Product Hunt) and YC's own internal tool QM (08-01). Three independently-timed teams converging on 'take your existing coding-agent setup to the cloud' within a week.",
+      "tags": [
+        "agent-framework-expl",
+        "claude-code-ecosyste"
+      ],
+      "source": "Hacker News / Y Combinator",
+      "url": "https://news.ycombinator.com/item?id=49157997"
+    },
+    {
+      "text": "The OpenAI/Hugging Face and Anthropic agent-containment-breach stories recirculate on Tildes ~tech for roughly the fifteenth day running, with zero new information beyond what this vault logged 07-20 through 08-02.",
+      "tags": [
+        "agent-security-sandb"
+      ],
+      "source": "Tildes",
+      "url": "https://tildes.net/~tech"
+    },
+    {
+      "text": "Hugging Face Trending's top slots today are almost entirely Chinese-lab models (Kimi K3, DeepSeek-V4-Flash-0731, MiniMax-H3, GLM-5.2, multiple Qwen3.6/3.8 fine-tunes) with no US-frontier-lab open-weight entrant visible in the captured top 20.",
+      "tags": [
+        "frontier-tripolar-pr",
+        "local-model-inferenc"
+      ],
+      "source": "Hugging Face Trending",
+      "url": "https://huggingface.co/models?sort=trending"
+    }
+  ],
+  "trending": [
+    {
+      "name": "reverse-skill",
+      "fullName": "zhaoxuya520/reverse-skill",
+      "stars": "16.3K",
+      "language": "PowerShell",
+      "delta": "+2,446/d",
+      "url": "https://github.com/zhaoxuya520/reverse-skill"
+    },
+    {
+      "name": "AI-For-Beginners",
+      "fullName": "microsoft/AI-For-Beginners",
+      "stars": "61.0K",
+      "language": "Jupyter Notebook",
+      "delta": "+1,902/d",
+      "url": "https://github.com/microsoft/AI-For-Beginners"
+    },
+    {
+      "name": "pdf-inspector",
+      "fullName": "firecrawl/pdf-inspector",
+      "stars": "8.7K",
+      "language": "Rust",
+      "delta": "+1,699/d",
+      "url": "https://github.com/firecrawl/pdf-inspector"
+    },
+    {
+      "name": "TencentDB-Agent-Memory",
+      "fullName": "TencentCloud/TencentDB-Agent-Memory",
+      "stars": "12.4K",
+      "language": "TypeScript",
+      "delta": "+1,090/d",
+      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory"
+    },
+    {
+      "name": "airllm",
+      "fullName": "lyogavin/airllm",
+      "stars": "27.4K",
+      "language": "Jupyter Notebook",
+      "delta": "+1,085/d",
+      "url": "https://github.com/lyogavin/airllm"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "662",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "2,446",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "14",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "August 4, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Swiftlet streams routed Mixture-of-Experts weights from disk, activating ~3B parameters per token regardless of total model size: Qwen3.6-35B-A3B runs at 2.6GB peak RAM , and Qwen3-Next-80B-A3B runs at 4.3GB peak RAM . The developers' own caveat: these models 'chat and write like large models but recall facts like small ones.'",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "AirLLM retook #1 on GitHub Trending with a different technique -- one-layer-at-a-time GPU streaming rather than expert streaming. Its newest capability : Kimi K3 running under 4GB. Two independent memory-reduction architectures for on-device inference converged on the same day, independent of quantization format.",
+        "metric": "+1,085/d",
+        "source": "GitHub"
+      },
+      {
+        "text": "A same-day voice/TTS cluster -- livekit/agents , jamiepine/voicebox , and two Hugging Face speech models -- lands exactly on this vault's own two-week falsification deadline for a 'one real signal per week' speech-tooling cadence set on 07-28, resolving it in the affirmative.",
+        "metric": "+148/d",
+        "source": "GitHub"
+      }
+    ],
+    "takeaway": {
+      "text": "A new on-device-inference architecture axis opens the same day a standing voice/TTS falsification deadline resolves in the affirmative, a security-research skill router proves its growth is real for a third straight day, ChatGPT and Claude both vanish from the Play Store chart one day after ChatGPT's best-ever position, and a third cloud-agent-deployment startup launches inside a week."
+    }
+  }
+}
