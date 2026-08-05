@@ -1,0 +1,173 @@
+{
+  "date": "2026-08-05",
+  "episodeNumber": 136,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "The White House's AI model review framework requir, The video-editing-agent genre produces its third s, zhaoxuya520/reverse-skill, the viral reverse-engin",
+  "heroStat": {
+    "value": "1156",
+    "label": "points on \"In Memory of My Wife, Elise Cawley, with Thanks for 36 Wonde\""
+  },
+  "insights": [
+    {
+      "text": "The White House's AI model review framework (per Washington Post/Axios/Fortune reporting; the framework text itself is not public) requires only closed, proprietary US models demonstrating state-of-the-art cyber/hacking capability to submit for pre-release government testing. Open-weight models are exempt -- American ones explicitly, and per r/LocalLLaMA's own reading today ('China's Open-Weight Models Will Be Spared US Safety Tests'), Chinese ones as a practical consequence. This is the opposite gating structure from Anthropic's own July 27 proposal for testing 'open and closed alike.'",
+      "tags": [
+        "frontier-tripolar-pr",
+        "ai-access-gating"
+      ],
+      "source": "Washington Post / Axios / Fortune / r/LocalLLaMA",
+      "url": "https://www.axios.com/2026/08/04/trump-ai-framework-open-models"
+    },
+    {
+      "text": "The video-editing-agent genre produces its third same-day multi-entrant cluster: browser-use/video-use resurges on GitHub Trending (+320/day, 19,456 total, up from 14,023 at its 07-03 debut), VEED ships open-edit (a no-GUI, no-timeline editor driven entirely through Claude Code/Codex/Gemini, closed-source local renderer with a Chrome-render fallback), and a second independent Show HN launch claims a working MCP server for video editing.",
+      "tags": [
+        "cli-as-agent-creativ",
+        "github-trending"
+      ],
+      "source": "GitHub Trending / Hacker News Show",
+      "url": "https://github.com/veedstudio/open-edit"
+    },
+    {
+      "text": "zhaoxuya520/reverse-skill, the viral reverse-engineering/pentesting skill router, posts a fourth consecutive GitHub-API-verified growth day: 18,242 total stars, up from 16,274 a day earlier (~1,968 gained in 24 hours, continuing a gradual cooling). Still no second comparable skill router has appeared on GitHub Trending, so 'genuine vertical' status remains unconfirmed after four days.",
+      "tags": [
+        "agent-framework-expl",
+        "github-trending"
+      ],
+      "source": "GitHub API",
+      "url": "https://github.com/zhaoxuya520/reverse-skill"
+    },
+    {
+      "text": "Maple-Preview, a 20B-A1B ternary-weight reasoning model, runs at 218 tokens/second on a Mac mini M4 in a 5.31GB checkpoint, claiming 5-16x the speed of Gemma 4/Qwen3.5/gpt-oss at similar efficiency. HN commenters push back hard on accuracy: it 'hallucinates knowledge quite aggressively,' with one developer arguing small on-device models succeed by 'shrinking what you make it responsible for,' not by getting smarter.",
+      "tags": [
+        "local-model-inferenc",
+        "on-device"
+      ],
+      "source": "Hugging Face / Hacker News Show",
+      "url": "https://huggingface.co/deepgrove/maple-preview"
+    },
+    {
+      "text": "A discovery search for the ternary/1.58-bit quantization technique behind Maple-Preview surfaces a parallel entrant this vault hasn't tracked before: 'Ternary Bonsai' / Bonsai 27B, another phone-class ternary model (27 tok/s on iPhone per one secondary write-up) -- suggesting ternary quantization is forming its own on-device axis, distinct from yesterday's MoE-expert/layer-streaming axis (Swiftlet/AirLLM).",
+      "tags": [
+        "local-model-inferenc",
+        "on-device"
+      ],
+      "source": "Discovery search",
+      "url": "https://huggingface.co/deepgrove/maple-preview"
+    },
+    {
+      "text": "One day after ChatGPT and Claude both vanished from the Play Store's captured top-30, today's capture still shows both fully absent -- but Perplexity reappears at #6, a rank far outside the '#20s' range yesterday's falsification test framed as the noise-confirming outcome, and not the sustained total absence its other branch anticipated either.",
+      "tags": [
+        "play-store-trust-bif"
+      ],
+      "source": "Google Play Store (own scrape)",
+      "url": "https://play.google.com/store/apps/top"
+    },
+    {
+      "text": "'Eight Myths on Software Engineering and GenAI' (HN #3, 139 pts/92 comments) extends this vault's 'accountability phase' thread with research grounding: developers spend only ~14% of their time writing code, and historic productivity jumps (assembly line) came from systemic redesign, not individual-developer tooling -- directly building on 07-31's '2x, not 10x' recalibration essay.",
+      "tags": [
+        "vibe-coding-reckonin"
+      ],
+      "source": "Hacker News / ACM Queue",
+      "url": "https://news.ycombinator.com/item?id=49176830"
+    },
+    {
+      "text": "EveryInc/compound-engineering-plugin debuts on GitHub Trending (+40/day, 23,925 total) as an 'Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more' -- packaged multi-harness from day one, distinct from the Claude-Code-first-then-ported pattern this vault's packaged-methodology genre has shown so far (superpowers, book-to-skill, last30days-skill).",
+      "tags": [
+        "claude-code-ecosyste",
+        "solo-dev-agentic-wor"
+      ],
+      "source": "GitHub Trending",
+      "url": "https://github.com/EveryInc/compound-engineering-plugin"
+    }
+  ],
+  "trending": [
+    {
+      "name": "pdf-inspector",
+      "fullName": "firecrawl/pdf-inspector",
+      "stars": "10.3K",
+      "language": "Rust",
+      "delta": "+2,540/d",
+      "url": "https://github.com/firecrawl/pdf-inspector"
+    },
+    {
+      "name": "reverse-skill",
+      "fullName": "zhaoxuya520/reverse-skill",
+      "stars": "18.2K",
+      "language": "PowerShell",
+      "delta": "+2,297/d",
+      "url": "https://github.com/zhaoxuya520/reverse-skill"
+    },
+    {
+      "name": "airllm",
+      "fullName": "lyogavin/airllm",
+      "stars": "28.5K",
+      "language": "Jupyter Notebook",
+      "delta": "+1,711/d",
+      "url": "https://github.com/lyogavin/airllm"
+    },
+    {
+      "name": "TencentDB-Agent-Memory",
+      "fullName": "TencentCloud/TencentDB-Agent-Memory",
+      "stars": "14.0K",
+      "language": "TypeScript",
+      "delta": "+1,111/d",
+      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory"
+    },
+    {
+      "name": "DeepSeek-Reasonix",
+      "fullName": "esengine/DeepSeek-Reasonix",
+      "stars": "30.9K",
+      "language": "Go",
+      "delta": "+922/d",
+      "url": "https://github.com/esengine/DeepSeek-Reasonix"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "1156",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "2,540",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "14",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "August 5, 2026"
+    },
+    "headlines": [
+      {
+        "text": "The White House's AI model review framework requires only closed, proprietary US models demonstrating state-of-the-art cyber/hacking capability to submit for pre-release government testing. Open-weight models are exempt -- American ones explicitly, and per r/LocalLLaMA's own reading today , Chinese ones as a practical consequence. This is the opposite gating structure from Anthropic's own July 27 proposal for testing 'open and closed alike.'",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "The video-editing-agent genre produces its third same-day multi-entrant cluster: browser-use/video-use resurges on GitHub Trending , VEED ships open-edit , and a second independent Show HN launch claims a working MCP server for video editing.",
+        "metric": "+320/d",
+        "source": "GitHub"
+      },
+      {
+        "text": "zhaoxuya520/reverse-skill, the viral reverse-engineering/pentesting skill router, posts a fourth consecutive GitHub-API-verified growth day: 18,242 total stars, up from 16,274 a day earlier . Still no second comparable skill router has appeared on GitHub Trending, so 'genuine vertical' status remains unconfirmed after four days.",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "The AI review framework that could have targeted Chinese open-weight models instead exempts openness itself, the video-editing-agent genre lands its third same-day multi-launch cluster, reverse-skill's growth streak hits a fourth verified day, a ternary-quantization on-device genre opens beside yesterday's MoE-streaming one, and Perplexity's return to #6 on the Play Store lands a messier answer than yesterday's falsification test expected."
+    }
+  }
+}
