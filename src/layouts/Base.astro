@@ -10,6 +10,7 @@ const { title, description = 'Automated daily intelligence — built by a solo d
 const currentPath = Astro.url.pathname;
 const isToday = currentPath === '/' || currentPath.startsWith('/daily/');
 const isArchive = currentPath === '/archive' || currentPath === '/archive/';
+const isSearch = currentPath === '/search' || currentPath === '/search/';
 const isAbout = currentPath === '/about' || currentPath === '/about/';
 const year = new Date().getFullYear();
 ---
@@ -36,6 +37,8 @@ const year = new Date().getFullYear();
         <a href="/" class:list={["mast-link", { current: isToday }]} aria-current={isToday ? 'page' : undefined}>Today</a>
         <span class="mast-sep" aria-hidden="true">·</span>
         <a href="/archive" class:list={["mast-link", { current: isArchive }]} aria-current={isArchive ? 'page' : undefined}>Archive</a>
+        <span class="mast-sep" aria-hidden="true">·</span>
+        <a href="/search" class:list={["mast-link", { current: isSearch }]} aria-current={isSearch ? 'page' : undefined}>Search</a>
         <span class="mast-sep" aria-hidden="true">·</span>
         <a href="/about" class:list={["mast-link", { current: isAbout }]} aria-current={isAbout ? 'page' : undefined}>About</a>
       </nav>

@@ -7,9 +7,28 @@ const sorted = episodes.sort((a, b) => b.data.date.localeCompare(a.data.date));
 ---
 
 <Base title="Archive">
-  <h1 class="text-[28px] font-bold font-[family-name:var(--font-display)] text-heading mb-6">
+  <h1 class="text-[28px] font-bold font-[family-name:var(--font-display)] text-heading mb-4">
     Episodes
   </h1>
+
+  <!-- Plain GET form: works without JS, hands off to the /search island -->
+  <form action="/search" method="get" role="search" class="flex gap-2 mb-8">
+    <label for="archive-search" class="sr-only">Search every episode</label>
+    <input
+      id="archive-search"
+      type="search"
+      name="q"
+      placeholder="Remember something? Search every episode…"
+      autocomplete="off"
+      class="flex-1 min-w-0 bg-light-bg border border-divider rounded-lg px-4 py-2.5 text-[14px] text-near-black placeholder:text-gray/70 focus:outline-none focus:border-terracotta transition-colors"
+    />
+    <button
+      type="submit"
+      class="flex-shrink-0 px-4 py-2.5 rounded-lg bg-terracotta text-cream text-[14px] font-semibold hover:bg-terracotta-deep transition-colors"
+    >
+      Search
+    </button>
+  </form>
 
   <div class="space-y-0">
     {sorted.map((ep) => (

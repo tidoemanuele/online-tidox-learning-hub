@@ -6,3 +6,6 @@ dist/
 .env
 .env.*
 .vercel/
+
+# ECC agent harness (reinstall: npx -p ecc-universal ecc install --target claude-project --profile developer)
+.claude/
