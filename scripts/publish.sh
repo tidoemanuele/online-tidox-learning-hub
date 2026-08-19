@@ -21,6 +21,22 @@ cd "$PROJECT_DIR"
 
 echo "[$(date)] Publishing episode for ${DATE}..."
 
+# Step 0: Publish from master, always.
+# 2026-08-19 postmortem: the working copy was left on feat/episode-search, so the
+# commit below landed on that branch and `git push` was rejected (non-fast-forward
+# against its remote counterpart). Twelve episodes were generated daily, never
+# pushed, then erased by finisher.sh's reset --hard. Pin the branch here instead of
+# trusting whatever branch the last interactive session left checked out.
+PUBLISH_BRANCH="master"
+CURRENT_BRANCH="$(git rev-parse --abbrev-ref HEAD)"
+if [ "$CURRENT_BRANCH" != "$PUBLISH_BRANCH" ]; then
+  echo "  On branch ${CURRENT_BRANCH}; switching to ${PUBLISH_BRANCH}..."
+  if ! git checkout "$PUBLISH_BRANCH" --quiet; then
+    echo "  ✗ Cannot switch to ${PUBLISH_BRANCH} (uncommitted work on ${CURRENT_BRANCH}?). Aborting."
+    exit 1
+  fi
+fi
+
 # Step 1: Transform
 echo "  Transforming scraped data..."
 npx tsx scripts/scrape-to-props.ts "$DATE"
@@ -46,7 +62,12 @@ fi
 
 git add src/content/episodes/
 git commit -m "episode: ${DATE} daily intelligence brief" --quiet
-git push --quiet
+
+# Explicit refspec: never let the ambient push default decide where an episode lands.
+if ! git push origin "HEAD:${PUBLISH_BRANCH}" --quiet; then
+  echo "  ✗ Push to origin/${PUBLISH_BRANCH} failed. Episode is committed locally only."
+  exit 1
+fi
 
 echo "  ✓ Published. Vercel will deploy automatically."
 echo "[$(date)] Done."
