@@ -1,0 +1,170 @@
+{
+  "date": "2026-08-07",
+  "episodeNumber": 138,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "AMD acquires Taalas, a Toronto startup that etches, A browser game simulating Claude Code-style permis, ArXiv's 'Illusion of Visual Tool-Use' causally aud",
+  "heroStat": {
+    "value": "20B",
+    "label": "acquisition of groq"
+  },
+  "insights": [
+    {
+      "text": "AMD acquires Taalas, a Toronto startup that etches AI model weights permanently into silicon rather than streaming them from memory, claiming an order-of-magnitude inference speedup for a fixed model. The deal lands seven months after Nvidia's $20B acquisition of Groq's assets -- two of the industry's largest hardware vendors independently betting on inference-specialized (not training-specialized) silicon within two quarters.",
+      "tags": [
+        "frontier-tripolar-pr",
+        "on-device-llm"
+      ],
+      "source": "The Register / SiliconANGLE",
+      "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344"
+    },
+    {
+      "text": "A browser game simulating Claude Code-style permission approvals, analyzed across 40,000+ runs and 409,000 individual decisions, finds mean human accuracy of 66.3% -- players miss roughly one in three malicious commands, and 32.9% of sessions end net-negative. The named mechanism: the more approvals a user sees, the less attention they pay to each, per both the game's creator and Anthropic's own findings.",
+      "tags": [
+        "browser-computer-use",
+        "agent-security-sandb"
+      ],
+      "source": "The Register",
+      "url": "https://www.theregister.com/ai-and-ml/2026/08/06/humans-in-the-loop-miss-a-third-of-dangerous-ai-coding-agent-requests/5284236"
+    },
+    {
+      "text": "ArXiv's 'Illusion of Visual Tool-Use' causally audits multimodal models calling tools to inspect images/screenshots -- exactly how a computer-use agent perceives its environment -- and finds accuracy gains concentrate in a 'calibrated minority' of cases, naming two failure modes: 'calling without looking' (the observation has no causal effect on the answer) and 'looking without planning' (information is present but poorly used). A mechanistic complement to July's OSReward finding that VLM judges systematically overrate agent success.",
+      "tags": [
+        "browser-computer-use",
+        "harness-engineering"
+      ],
+      "source": "ArXiv (2608.06270)",
+      "url": "https://arxiv.org/abs/2608.06270"
+    },
+    {
+      "text": "ChatGPT's Play Store #1 (08-06, after two days fully absent) evaporates completely within a single cycle -- ChatGPT and Claude both vanish from today's 37-item capture, while Perplexity reappears at #9. Closes 08-06's explicit falsification test in favor of 'individual-day AI-chat rank is scrape-window noise,' the cleanest resolution yet in a six-day rank-churn thread.",
+      "tags": [
+        "play-store-trust-bif"
+      ],
+      "source": "Google Play Store (own scrape)",
+      "url": "https://play.google.com/store/apps/top"
+    },
+    {
+      "text": "Google Maps' Ask Maps assistant ships real agentic commerce: natural-language food ordering with cart population and payment handoff to Square/Toast (Uber Eats to follow), hotel-booking comparison with click-through booking, and event tickets -- plus an opt-in Personal Intelligence feature reading Gmail/Calendar for context-aware recommendations. A consumer-scale instance of an agent taking financially consequential actions through live third-party payment integration.",
+      "tags": [
+        "agent-capability-to-"
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/06/google-maps-adds-agentic-features-including-food-ordering-and-hotel-bookings/"
+    },
+    {
+      "text": "cloudflare/computer accelerates on its second day on GitHub Trending (+2,802 stars/day vs yesterday's debut +891/day, 4,969-4,972 total) -- an atypical acceleration rather than the usual post-debut cooling this vault has logged for prior Trending entrants. Meanwhile mattpocock/skills debuts at #4 despite being a six-month-old, 207,468-star repo, a mature-repo-resurfacing signal rather than a genuine new launch.",
+      "tags": [
+        "agent-framework-expl"
+      ],
+      "source": "GitHub Trending / GitHub API",
+      "url": "https://github.com/cloudflare/computer"
+    },
+    {
+      "text": "CopilotKit open-sources the Channels SDK (MIT-licensed): a library that runs any AG-UI-compatible agent (LangGraph, CrewAI, Mastra, Pydantic AI, Google ADK) natively inside Slack and Microsoft Teams from one codebase, with generative UI, MCP-server support, human-in-the-loop approvals, and cross-channel memory. Discord and Google Chat are planned next.",
+      "tags": [
+        "agent-framework-expl"
+      ],
+      "source": "MarkTechPost / GitHub",
+      "url": "https://github.com/CopilotKit/channels-sdk"
+    },
+    {
+      "text": "HarnessOpt-Bench (ArXiv 2608.06301) benchmarks LLMs acting as harness-optimizers -- iteratively improving a target agent's prompts/tools/code through evaluation-guided refinement under a fixed edit budget. Five frontier models across four tasks in 111 scored runs found optimizer models separate more than the coding harnesses they act through, and native harnesses weren't consistently superior to shared ones -- a benchmark instantiation of the harness-engineering thesis that the layer around the model is where differentiation increasingly lives.",
+      "tags": [
+        "harness-engineering"
+      ],
+      "source": "ArXiv (2608.06301)",
+      "url": "https://arxiv.org/abs/2608.06301"
+    }
+  ],
+  "trending": [
+    {
+      "name": "computer",
+      "fullName": "cloudflare/computer",
+      "stars": "5.0K",
+      "language": "TypeScript",
+      "delta": "+2,802/d",
+      "url": "https://github.com/cloudflare/computer"
+    },
+    {
+      "name": "skills",
+      "fullName": "mattpocock/skills",
+      "stars": "207K",
+      "language": "Shell",
+      "delta": "+1,873/d",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "name": "pdf-inspector",
+      "fullName": "firecrawl/pdf-inspector",
+      "stars": "12.6K",
+      "language": "Rust",
+      "delta": "+1,190/d",
+      "url": "https://github.com/firecrawl/pdf-inspector"
+    },
+    {
+      "name": "TencentDB-Agent-Memory",
+      "fullName": "TencentCloud/TencentDB-Agent-Memory",
+      "stars": "16.7K",
+      "language": "TypeScript",
+      "delta": "+1,057/d",
+      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory"
+    },
+    {
+      "name": "DeepSeek-Reasonix",
+      "fullName": "esengine/DeepSeek-Reasonix",
+      "stars": "32.6K",
+      "language": "Go",
+      "delta": "+888/d",
+      "url": "https://github.com/esengine/DeepSeek-Reasonix"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "949",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "2,802",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "14",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "August 7, 2026"
+    },
+    "headlines": [
+      {
+        "text": "AMD acquires Taalas, a Toronto startup that etches AI model weights permanently into silicon rather than streaming them from memory, claiming an order-of-magnitude inference speedup for a fixed model. The deal lands seven months after Nvidia's $20B acquisition of Groq's assets -- two of the industry's largest hardware vendors independently betting on inference-specialized silicon within two quarters.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "A browser game simulating Claude Code-style permission approvals, analyzed across 40,000+ runs and 409,000 individual decisions, finds mean human accuracy of 66.3% -- players miss roughly one in three malicious commands, and 32.9% of sessions end net-negative. The named mechanism: the more approvals a user sees, the less attention they pay to each, per both the game's creator and Anthropic's own findings.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "ArXiv's 'Illusion of Visual Tool-Use' causally audits multimodal models calling tools to inspect images/screenshots -- exactly how a computer-use agent perceives its environment -- and finds accuracy gains concentrate in a 'calibrated minority' of cases, naming two failure modes: 'calling without looking' and 'looking without planning' . A mechanistic complement to July's OSReward finding that VLM judges systematically overrate agent success.",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "The chip race shifts decisively to inference as AMD buys silicon-etching startup Taalas seven months after Nvidia's Groq deal, while three converging studies this month -- lenient AI judges, failure-relocating compute scaling, and now fatigued human reviewers -- suggest the field can't yet reliably tell when a computer-use agent has actually succeeded, even as Google Maps ships real agentic commerce and ChatGPT's Play Store #1 evaporates within a single day."
+    }
+  }
+}
