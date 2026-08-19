@@ -1,0 +1,178 @@
+{
+  "date": "2026-08-13",
+  "episodeNumber": 144,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "Alibaba released Qwen3.8-2.4T-A95B, its first Qwen, Today's largest HN discussion argues AI doesn't ra, Two days ago this vault measured six GitHub repos ",
+  "heroStat": {
+    "value": "95B",
+    "label": "active"
+  },
+  "insights": [
+    {
+      "text": "Alibaba released Qwen3.8-2.4T-A95B, its first Qwen-Max-class model as open weights: 2.4T total parameters, 95B active, 262,144-token native context extensible to 1.01M, benchmarks (GPQA Diamond 92.6, SWE-bench Pro 67.7, Terminal-Bench 2.1 86.6) placed against Claude Opus 4.8 and GPT-5.6 Sol rather than other open models. It requires NVIDIA GB300 NVL72-class serving. The smaller Qwen3.8-27B -- the version an actual homelab could run -- was promised 'next week' on August 3 and still hasn't shipped, ten days later. r/LocalLLaMA's hot list today is nine of twenty posts about the missing model, not the one that shipped.",
+      "tags": [
+        "local-model-inferenc",
+        "qwen",
+        "on-device-llm"
+      ],
+      "source": "Hugging Face model card (deep-read) + r/LocalLLaMA",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
+    },
+    {
+      "text": "Today's largest HN discussion (802 points, 738 comments) argues AI doesn't raise the floor for weak engineers, it widens the gap: generation now outpaces review capacity, so a single weekend produces PRs changing 24,506 lines from a developer who can't explain their own implementation without re-reading the AI conversation that wrote it. The economic claim: strong engineers get more valuable, mediocre ones get more expensive to employ without getting more capable. This is the labor-market translation of a recalibration arc this vault has tracked since July 31 -- '2x not 10x', 'LLMs reward expertise', the finding that developers spend only ~14% of their time writing code -- now applied as a specific, checkable hiring-and-pay prediction rather than a capability argument.",
+      "tags": [
+        "ai-workforce-restruc",
+        "vibe-coding-reckonin"
+      ],
+      "source": "Hacker News #25, 802 pts / 738 comments (deep-read of source essay)",
+      "url": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html"
+    },
+    {
+      "text": "Two days ago this vault measured six GitHub repos and concluded Trending's 'stars today' ratio sorts monotonically with how recently a repo was pushed -- fresh pushes overstated, stale pushes understated. Today's follow-up on the same anchor repo breaks that conclusion: msitarzewski/agency-agents, still pushed on the identical August 6 date as yesterday's reading, moved from understated 0.58x (958 displayed vs. true +1,650/day) to overstated 1.70x (1,873 displayed vs. true +1,100/day) with the input variable held constant. Two freshly-pushed repos measured the same day still landed inside the predicted overstatement band, so the failure is isolated to the stale-push side. The rule that survives is the underlying one -- never cite a Trending number without an API cross-check -- not the specific mechanism attached to it.",
+      "tags": [
+        "benchmark-integrity-",
+        "github-oss"
+      ],
+      "source": "GitHub REST API, 2026-08-13T05:20Z, direct re-measurement of an 08-12 anchor repo",
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents"
+    },
+    {
+      "text": "Lovable raised $400M at a $13.3B valuation, doubling from $6.6B seven months earlier, with ARR growing from $500M annualized (June) toward a projected $600M by end of August. The company owns no frontier model and sits entirely on the application layer -- renting compute via a Google Cloud partnership and optionally routing to frontier APIs. That a company with no model or chip moat commands this valuation runs directly counter to this vault's own vibe-coding-reckoning thread, which has spent August arguing the discourse is recalibrating toward AI coding's bounded, unglamorous capability. Both can be true: real revenue growth at the application layer, alongside unresolved technical-ceiling skepticism.",
+      "tags": [
+        "vibe-coding-reckonin",
+        "frontier-tripolar-pr",
+        "funding"
+      ],
+      "source": "TechCrunch, 12 Aug 2026 (deep-read)",
+      "url": "https://techcrunch.com/2026/08/12/lovable-confirms-new-13-3b-valuation-raises-another-400m/"
+    },
+    {
+      "text": "A GitHub repo trending at #1 today, cathrynlavery/diagram-design, turns out to be four months old (created April) rather than a new launch -- the fourth mature-repo-resurfacing instance this vault has logged this month. It's a genuinely useful Claude Code skill generating branded diagrams with an explicit 'progressive disclosure' design: only the specific diagram type's reference loads into the agent's context per request, not the whole skill -- a plugin author independently landing on the same context-discipline shape a research paper argued for at the prompt-file level two days ago.",
+      "tags": [
+        "claude-code-ecosyste",
+        "cli-as-agent-creativ",
+        "github-oss"
+      ],
+      "source": "GitHub REST API + repo README (deep-read)",
+      "url": "https://github.com/cathrynlavery/diagram-design"
+    },
+    {
+      "text": "The Fox-Roku $22B merger -- tracked on this vault since July for the same content-acquires-distribution-gateway pattern as the Paramount Skydance/Warner Bros. Discovery deal -- gets its first real DOJ friction since June: a premerger-notification refiling extending the review clock, with decision timing now explicitly uncertain. Far short of Paramount/WBD's August 6 outcome (contractually barred from closing until mid-2027, firm trial date set), but the first sign either side of this specific deal has faced actual regulatory delay rather than just political letters.",
+      "tags": [
+        "ott-streaming-consol",
+        "antitrust"
+      ],
+      "source": "Simply Wall St / StreamTV Insider (search-synthesis; direct fetch of StreamTV Insider blocked, HTTP 403)",
+      "url": "https://simplywall.st/stocks/us/media/nasdaq-roku/roku/news/roku-roku-extends-doj-review-of-22-billion-acquisition"
+    },
+    {
+      "text": "PrimeIntellect-ai/prime-agent -- the 'harness' side of this vault's four-day library-vs-harness thread -- drops off GitHub Trending's visible board entirely on the exact day its API-verified true velocity (+714/day, down from a peak of +2,426) first falls below the +1,000/day kill line this vault set for it on August 10. A fourth consecutive daily decline, -71% from peak.",
+      "tags": [
+        "agent-framework-expl",
+        "github-oss"
+      ],
+      "source": "GitHub REST API, 2026-08-13T05:20Z",
+      "url": "https://api.github.com/repos/PrimeIntellect-ai/prime-agent"
+    },
+    {
+      "text": "Today's #1 Play Store app by position, CapCut, carries a 2.7-star rating -- the lowest on the entire 30-app board by a wide margin, against peers clustered 4.1-4.8 stars. The sharpest single instance yet of a pattern this vault has tracked all month: chart position measures acquisition and engagement signals, rating measures retention and satisfaction after the fact, and the two increasingly diverge at the very top of the board rather than in the long tail.",
+      "tags": [
+        "play-store-trust-bif",
+        "ai-label-inflation"
+      ],
+      "source": "Google Play Store scrape, direct read",
+      "url": "https://play.google.com/store/apps/top"
+    }
+  ],
+  "trending": [
+    {
+      "name": "diagram-design",
+      "fullName": "cathrynlavery/diagram-design",
+      "stars": "11.4K",
+      "language": "HTML",
+      "delta": "+2,855/d",
+      "url": "https://github.com/cathrynlavery/diagram-design"
+    },
+    {
+      "name": "agency-agents",
+      "fullName": "msitarzewski/agency-agents",
+      "stars": "145K",
+      "language": "Shell",
+      "delta": "+1,873/d",
+      "url": "https://github.com/msitarzewski/agency-agents"
+    },
+    {
+      "name": "orca",
+      "fullName": "stablyai/orca",
+      "stars": "44.2K",
+      "language": "TypeScript",
+      "delta": "+1,235/d",
+      "url": "https://github.com/stablyai/orca"
+    },
+    {
+      "name": "semantica",
+      "fullName": "semantica-agi/semantica",
+      "stars": "5.9K",
+      "language": "Python",
+      "delta": "+845/d",
+      "url": "https://github.com/semantica-agi/semantica"
+    },
+    {
+      "name": "paperclip",
+      "fullName": "paperclipai/paperclip",
+      "stars": "77.8K",
+      "language": "TypeScript",
+      "delta": "+571/d",
+      "url": "https://github.com/paperclipai/paperclip"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "907",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "2,855",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "14",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "August 13, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Alibaba released Qwen3.8-2.4T-A95B, its first Qwen-Max-class model as open weights: 2.4T total parameters, 95B active, 262,144-token native context extensible to 1.01M, benchmarks placed against Claude Opus 4.8 and GPT-5.6 Sol rather than other open models. It requires NVIDIA GB300 NVL72-class serving. The smaller Qwen3.8-27B -- the version an actual homelab could run -- was promised 'next week' on August 3 and still hasn't shipped, ten days later. r/LocalLLaMA's hot list today is nine of twenty posts about the missing model, not the one that shipped.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Today's largest HN discussion argues AI doesn't raise the floor for weak engineers, it widens the gap: generation now outpaces review capacity, so a single weekend produces PRs changing 24,506 lines from a developer who can't explain their own implementation without re-reading the AI conversation that wrote it. The economic claim: strong engineers get more valuable, mediocre ones get more expensive to employ without getting more capable. This is the labor-market translation of a recalibration arc this vault has tracked since July 31 -- '2x not 10x', 'LLMs reward expertise', the finding that developers spend only ~14% of their time writing code -- now applied as a specific, checkable hiring-and-pay prediction rather than a capability argument.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Two days ago this vault measured six GitHub repos and concluded Trending's 'stars today' ratio sorts monotonically with how recently a repo was pushed -- fresh pushes overstated, stale pushes understated. Today's follow-up on the same anchor repo breaks that conclusion: msitarzewski/agency-agents, still pushed on the identical August 6 date as yesterday's reading, moved from understated 0.58x to overstated 1.70x with the input variable held constant. Two freshly-pushed repos measured the same day still landed inside the predicted overstatement band, so the failure is isolated to the stale-push side. The rule that survives is the underlying one -- never cite a Trending number without an API cross-check -- not the specific mechanism attached to it.",
+        "metric": "+1,650/d",
+        "source": "GitHub"
+      }
+    ],
+    "takeaway": {
+      "text": "Qwen ships a model everyone can cite and withholds the one everyone could actually run, a 738-comment thread argues AI splits engineers into more-valuable and unemployable rather than raising the floor, and this vault's own two-day-old theory about why GitHub's trending numbers lie gets disproven by the identical repo it was built from."
+    }
+  }
+}
