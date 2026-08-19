@@ -1,0 +1,173 @@
+{
+  "date": "2026-08-08",
+  "episodeNumber": 139,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "Cloudflare ships Kitesurf: a from-scratch Rust bro, OpenJDK's April 2026 policy banning AI-generated c, Three independent llama.cpp community PRs land the",
+  "heroStat": {
+    "value": "8B",
+    "label": "decode 2"
+  },
+  "insights": [
+    {
+      "text": "Cloudflare ships Kitesurf: a from-scratch Rust browser engine, compiled to WebAssembly, running entirely inside a Cloudflare Workers V8 isolate instead of a full Chromium instance per agent. Benchmarks show 3.1-3.8x less CPU and 4.7-7.0x less memory than Chromium (at ~1.7x slower wall time), already passing 215,000+ Web Platform Tests and speaking CDP for Puppeteer/Playwright/MCP compatibility. Cloudflare's second distinct agent-infrastructure product in two days, after Cloudflare OS and @cloudflare/computer.",
+      "tags": [
+        "browser-computer-use",
+        "agent-framework-expl"
+      ],
+      "source": "Cloudflare Blog / MarkTechPost",
+      "url": "https://blog.cloudflare.com/kitesurf/"
+    },
+    {
+      "text": "OpenJDK's April 2026 policy banning AI-generated contributions to a mission-critical open-source project gets sharpened by a recirculating Register piece: co-founder Larry Ellison publicly claims AI models now write Oracle's own code, while Oracle's GraalVM project (unlike OpenJDK) allows generative-AI contributions -- one company holding opposing AI-contribution policies across its two major Java-ecosystem projects.",
+      "tags": [
+        "ai-dev-tools",
+        "vibe-coding-reckonin"
+      ],
+      "source": "The Register",
+      "url": "https://www.theregister.com/ai-and-ml/2026/08/03/as-larry-ellison-bets-the-farm-oracle-says-it-loves-ai-written-code-just-not-in-openjdk/5281851"
+    },
+    {
+      "text": "Three independent llama.cpp community PRs land the same day, each targeting a distinct bottleneck DeepSeek-V4-Flash-0731's architecture exposes: Q2_0 quantization runs 3.0-3.6x faster on x86 CPUs (8B decode 2.39 to 8.20 tok/s), 300GB model loads drop from 5 minutes to 1m30s, and quantized-KV decode runs up to 169% faster at 118K context on Intel Battlemage GPUs. Reddit also logs early reliability complaints and a rumored API price increase for the same model.",
+      "tags": [
+        "on-device-llm",
+        "local-model-inferenc"
+      ],
+      "source": "r/LocalLLaMA (own scrape) / Artificial Analysis",
+      "url": "https://artificialanalysis.ai/models/deepseek-v4-flash"
+    },
+    {
+      "text": "Two more mature, multi-month-old repos resurface on GitHub Trending's daily-velocity view rather than debuting fresh: google/skills (16,331 stars, created 2026-03-31) and unclebob/swarm-forge (1,873 stars, created 2026-04-17, authored under Robert C. Martin's handle) -- repeating yesterday's mattpocock/skills pattern for a second consecutive day. Google adopting the community-originated 'agent skills' packaging format by name is the more structurally notable of the two.",
+      "tags": [
+        "agent-framework-expl"
+      ],
+      "source": "GitHub Trending / GitHub API",
+      "url": "https://github.com/google/skills"
+    },
+    {
+      "text": "DuckDuckGo sells $35 'Paso Robles' sunglasses containing no camera, microphone, AI, battery, or electronics of any kind -- explicit satire of AI-powered smart glasses (Meta's Ray-Ban Meta line named directly). A significant portion of initial inventory already sold out. The privacy-first movement's latest form: a physical product whose entire value proposition is the deliberate absence of the technology category it protests.",
+      "tags": [
+        "privacy-local-first-",
+        "privacy-first-app-wa"
+      ],
+      "source": "9to5Mac / Futurism",
+      "url": "https://9to5mac.com/2026/08/03/duckduckgo-anti-ai-glasses-offer-zero-cameras-and-notifications/"
+    },
+    {
+      "text": "Today's Play Store capture (36 items) marks a third consecutive day with ChatGPT, Claude, and Perplexity all absent -- further hardening yesterday's falsification-test conclusion that individual-day AI-chat-app rank is scrape-window noise rather than sustained demand signal. Separately, positions 31-35 cluster five privacy/security browsers back-to-back (Opera VPN, Opera GX, Firefox Focus, Tor Browser, Samsung Browser).",
+      "tags": [
+        "play-store-trends",
+        "play-store-trust-bif"
+      ],
+      "source": "Google Play Store (own scrape)",
+      "url": "https://play.google.com/store/apps/top"
+    },
+    {
+      "text": "PrimeIntellect-ai/prime-agent, a self-improving RLM agent for coding workflows first logged 08-06, continues at #1 on today's GitHub Trending board with 6,941 total stars (API-confirmed), distinct from the mature-repo-resurfacing pattern affecting google/skills and unclebob/swarm-forge on the same board.",
+      "tags": [
+        "agent-framework-expl",
+        "github-oss"
+      ],
+      "source": "GitHub Trending / GitHub API",
+      "url": "https://github.com/PrimeIntellect-ai/prime-agent"
+    },
+    {
+      "text": "The Nixpkgs core team disbands, landing at HN #2 (198 pts/86 comments) and Lobsters #2 the same day -- notable open-source governance news outside this vault's tracked topic set, named for completeness.",
+      "tags": [
+        "github-oss"
+      ],
+      "source": "Hacker News / Lobsters",
+      "url": "https://news.ycombinator.com/"
+    }
+  ],
+  "trending": [
+    {
+      "name": "prime-agent",
+      "fullName": "PrimeIntellect-ai/prime-agent",
+      "stars": "6.9K",
+      "language": "TypeScript",
+      "delta": "+2,293/d",
+      "url": "https://github.com/PrimeIntellect-ai/prime-agent"
+    },
+    {
+      "name": "skills",
+      "fullName": "mattpocock/skills",
+      "stars": "209K",
+      "language": "Shell",
+      "delta": "+2,152/d",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "name": "agent-skills",
+      "fullName": "addyosmani/agent-skills",
+      "stars": "84.0K",
+      "language": "JavaScript",
+      "delta": "+1,131/d",
+      "url": "https://github.com/addyosmani/agent-skills"
+    },
+    {
+      "name": "computer",
+      "fullName": "cloudflare/computer",
+      "stars": "5.9K",
+      "language": "TypeScript",
+      "delta": "+872/d",
+      "url": "https://github.com/cloudflare/computer"
+    },
+    {
+      "name": "superpowers",
+      "fullName": "obra/superpowers",
+      "stars": "269K",
+      "language": "Shell",
+      "delta": "+782/d",
+      "url": "https://github.com/obra/superpowers"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "745",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "2,293",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "14",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "August 8, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Cloudflare ships Kitesurf: a from-scratch Rust browser engine, compiled to WebAssembly, running entirely inside a Cloudflare Workers V8 isolate instead of a full Chromium instance per agent. Benchmarks show 3.1-3.8x less CPU and 4.7-7.0x less memory than Chromium , already passing 215,000+ Web Platform Tests and speaking CDP for Puppeteer/Playwright/MCP compatibility. Cloudflare's second distinct agent-infrastructure product in two days, after Cloudflare OS and @cloudflare/computer.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "OpenJDK's April 2026 policy banning AI-generated contributions to a mission-critical open-source project gets sharpened by a recirculating Register piece: co-founder Larry Ellison publicly claims AI models now write Oracle's own code, while Oracle's GraalVM project allows generative-AI contributions -- one company holding opposing AI-contribution policies across its two major Java-ecosystem projects.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Three independent llama.cpp community PRs land the same day, each targeting a distinct bottleneck DeepSeek-V4-Flash-0731's architecture exposes: Q2_0 quantization runs 3.0-3.6x faster on x86 CPUs , 300GB model loads drop from 5 minutes to 1m30s, and quantized-KV decode runs up to 169% faster at 118K context on Intel Battlemage GPUs. Reddit also logs early reliability complaints and a rumored API price increase for the same model.",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Agent infrastructure keeps specializing away from human-shaped tooling -- a purpose-built browser replacing Chromium, two more platform vendors packaging 'agent skills' as a format -- even as Oracle's own flagship open-source project bans the AI-generated code its co-founder claims already writes Oracle's software, and DuckDuckGo answers AI-surveillance anxiety with sunglasses that contain no technology at all."
+    }
+  }
+}
