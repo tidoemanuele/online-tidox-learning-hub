@@ -1,0 +1,180 @@
+{
+  "date": "2026-08-19",
+  "episodeNumber": 149,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "OpenAI published its first substantive safety-prac, Anthropic's annualized revenue run rate surpassed , On the same morning that run rate was reported, th",
+  "heroStat": {
+    "value": "$65",
+    "label": "billion at the end of july"
+  },
+  "insights": [
+    {
+      "text": "OpenAI published its first substantive safety-practice change since disclosing the Hugging Face incident on July 21, and the specifics are operational rather than declarative: a monitoring system that inspects tool actions, available reasoning traces and activity logs with a stated target of alerting within 30 minutes; network isolation stated as an invariant, so that 'a single compromise of a workload or supporting service does not, by itself, allow for unauthorized access to the Internet, or other internal networks'; and a price on that monitoring of roughly 20% of whatever process is being monitored. Reinforcement learning was paused for two weeks after the incident and most lower-risk models have restarted, but the largest planned frontier RL run remains on hold a month later. OpenAI says the measures are not a direct response to the breach but were provoked partly by the cyber capabilities of its forthcoming Astra model. The official postmortem is still pending.",
+      "tags": [
+        "ai-safety",
+        "agent-security",
+        "ai-dev-tools"
+      ],
+      "source": "TechCrunch (deep-read)",
+      "url": "https://techcrunch.com/2026/08/18/openai-institutes-new-safeguards-after-hugging-face-breach/"
+    },
+    {
+      "text": "Anthropic's annualized revenue run rate surpassed $65 billion at the end of July, up from $47 billion in May and just $9 billion at the end of 2025 -- $18 billion added in two months. Investors expect $100-120 billion by year end. Rival OpenAI sits at $40 billion, doubled from $20 billion at the end of 2025. Anthropic was last valued at $965 billion in late May on a $65 billion round and is reportedly seeking a public valuation above $2 trillion, possibly this autumn and ahead of OpenAI. The two companies may calculate the metric differently; what has captivated investors is the growth rate, not the level.",
+      "tags": [
+        "ai-business",
+        "ai-financial-escape-"
+      ],
+      "source": "TechCrunch / Bloomberg (deep-read)",
+      "url": "https://techcrunch.com/2026/08/17/anthropics-annualized-revenue-surges-to-65b/"
+    },
+    {
+      "text": "On the same morning that run rate was reported, the highest-engagement AI items across three independent community boards were all about non-adoption: Tildes ~tech's most-commented post was 'Why normal people aren't using AI agents' at 52 votes and 135 comments, its highest-voted AI item was 'Is AI profitable yet?' at 68 votes, and Dev.to's most-commented post was 'The AI Badge Doesn't Measure What You Think It Does' at 73 comments. The Google Play top 30 contained no AI assistant app at all -- AI appeared only as an adjective inside incumbent category apps, at Canva (#9) and Yazio (#20). The reconciliation is that the $65B is not consumer money; the token consumers are increasingly other programs.",
+      "tags": [
+        "ai-business",
+        "play-store-trends",
+        "ai-label-inflation"
+      ],
+      "source": "Tildes, Dev.to, Google Play (scrape 05:17:05Z)",
+      "url": "https://tildes.net/~tech"
+    },
+    {
+      "text": "DDR5 memory is up roughly 500% year on year: a 2x32GB DDR5-5600 kit went from $191 in August 2025 to $1,118 in August 2026 (+485%), 2x32GB DDR5-6000 from $222 to $1,272 (+473%), and 128GB of DDR5-6400 now lists at $3,399 against a lowest-ever tracked price of $329, a 10.3x multiple. DDR4 rose more modestly, around +177% at 2x32GB. The story hit Hacker News at 545 points and 447 comments and was carried on r/LocalLLaMA the same day. It lands one day after the RTX Pro 6000's MSRP moved from $16,000 to $19,999 -- two consecutive days of hardware moving against the argument that local inference is the cost escape valve from vendor API pricing.",
+      "tags": [
+        "on-device-llm",
+        "hardware",
+        "local-inference"
+      ],
+      "source": "Tom's Hardware (deep-read)",
+      "url": "https://www.tomshardware.com/pc-components/ram/memory-prices-climb-500-percent-in-12-months-up-to-10x-the-lowest-ever-tracked-prices-128gb-of-ddr5-now-usd3-399"
+    },
+    {
+      "text": "The local-inference community's answer to the memory shock is entirely on the compute axis. DFlash 2 appeared three times on r/LocalLLaMA: block-diffusion speculative decoding, where a small drafter proposes a whole 7-16 token block in one pass and the 27B target verifies it in parallel, accepting the longest correct prefix losslessly -- greedy output matches the base model exactly. Published figures reach 3.43x on GSM8K (68.9 to 236.1 tok/s on an H200) and roughly 2.1x for a 4-bit 27B on Apple Silicon (33 to 70 tok/s), with the method described in arXiv 2602.06036 and support in vLLM and SGLang. Community reports alongside it: 218 tok/s single-request on 2x RTX 3090, 124 tps on a single 3090, a proposal to compress the Qwen 3.8 KV cache to one bit per token, VRAM management improvements in Linux 7.3, and Alibaba's TSMC-5nm RISC-V XuanTie C950 running Qwen3.8-27B at 30 tok/s. Nobody is buying RAM.",
+      "tags": [
+        "on-device-llm",
+        "inference-optimizati"
+      ],
+      "source": "r/LocalLLaMA (scrape) + DFlash 2 model cards (discovery search)",
+      "url": "https://arxiv.org/abs/2602.06036"
+    },
+    {
+      "text": "Yesterday this archive reported that six of seven GitHub trending repos accumulate stars 2.3x to 6.0x faster than the board claims, measured over a 12.1-minute window, and set an explicit falsification test. The test was run today and the finding did not survive it. Direct GitHub REST reads at 2026-08-19T05:24:55Z differenced against the previous day's scrape totals give a genuine 24.1-hour window: MoneyPrinterTurbo claimed 2,304 and measured +2,341 (1.02x), Anthropic-Cybersecurity-Skills 730 vs +762 (1.04x), Motrix 609 vs +598 (0.98x), ai-memory 648 vs +624 (0.96x), omlx 370 vs +432 (1.17x). Four of five land within 4%. The board is accurate; the twelve-minute extrapolation at a low-traffic UTC hour was the artifact. The prior finding is downgraded to a measurement error.",
+      "tags": [
+        "github-oss",
+        "benchmark-integrity",
+        "verification"
+      ],
+      "source": "GitHub REST API (direct measurement)",
+      "url": "https://api.github.com/repos/harry0703/MoneyPrinterTurbo"
+    },
+    {
+      "text": "Four products shipped on the same morning that manage neither code nor repositories but agent sessions: Saggar, a Mac terminal that 'keeps sessions and your attention organized' (60 points, 56 comments); Clinch, a local-first Warp fork for agent session management where every session auto-resumes on restart and a single click transfers a session between Claude Code and Codex, with no sign-in and no telemetry; Roost, 'top for your Claude Code sessions', showing live sessions, models, context and the subagents they spawn; and Shepherd Terminal, 'a persistent terminal for Codex and Claude side by side'. The shared non-obvious feature is portability across vendors -- the same property akitaonrails/ai-memory (+648 stars/day, Rust) sells as 'handoff between different agent vendors'. The artefact a developer now loses on reboot is a conversation with state, not a file.",
+      "tags": [
+        "agentic-dev-workflow",
+        "solo-dev",
+        "ai-dev-tools"
+      ],
+      "source": "Show HN + Product Hunt (scrape), clinch.sh (deep-read)",
+      "url": "https://clinch.sh/"
+    },
+    {
+      "text": "Warp shipped the enterprise version of the same idea on the same day. Warp Factories is an infrastructure layer for the 'software factory' pattern -- an agent loop built around triage, specification, implementation, review and verification, any stage automatable -- that is model- and harness-agnostic (works with Codex or Claude Code), integrates Linear, Jira, Slack and Teams, tracks token spend, and compares agent configurations because everything runs in one environment. Stripe's 'minions' and Ramp's self-monitoring background agent are cited as the in-house precedents it productizes. CEO Zach Lloyd gave the number the category usually avoids: 'We automate like 30% of our tasks, 30 to 35% on a weekly basis.' That is an AI coding company describing itself, and it is the honest ceiling under every solo-dev agent-fleet claim.",
+      "tags": [
+        "agentic-dev-workflow",
+        "agent-frameworks"
+      ],
+      "source": "TechCrunch (deep-read)",
+      "url": "https://techcrunch.com/2026/08/18/warps-new-system-is-an-out-of-the-box-software-factory-for-ai-development/"
+    }
+  ],
+  "trending": [
+    {
+      "name": "MoneyPrinterTurbo",
+      "fullName": "harry0703/MoneyPrinterTurbo",
+      "stars": "109K",
+      "language": "Python",
+      "delta": "+2,304/d",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo"
+    },
+    {
+      "name": "public-apis",
+      "fullName": "public-apis/public-apis",
+      "stars": "465K",
+      "language": "Python",
+      "delta": "+1,005/d",
+      "url": "https://github.com/public-apis/public-apis"
+    },
+    {
+      "name": "Anthropic-Cybersecurity-Skills",
+      "fullName": "mukul975/Anthropic-Cybersecurity-Skills",
+      "stars": "29.3K",
+      "language": "Python",
+      "delta": "+730/d",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills"
+    },
+    {
+      "name": "ai-memory",
+      "fullName": "akitaonrails/ai-memory",
+      "stars": "2.9K",
+      "language": "Rust",
+      "delta": "+648/d",
+      "url": "https://github.com/akitaonrails/ai-memory"
+    },
+    {
+      "name": "Motrix",
+      "fullName": "agalwood/Motrix",
+      "stars": "53.8K",
+      "language": "TypeScript",
+      "delta": "+609/d",
+      "url": "https://github.com/agalwood/Motrix"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "1060",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "2,304",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "14",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "August 19, 2026"
+    },
+    "headlines": [
+      {
+        "text": "OpenAI published its first substantive safety-practice change since disclosing the Hugging Face incident on July 21, and the specifics are operational rather than declarative: a monitoring system that inspects tool actions, available reasoning traces and activity logs with a stated target of alerting within 30 minutes; network isolation stated as an invariant, so that 'a single compromise of a workload or supporting service does not, by itself, allow for unauthorized access to the Internet, or other internal networks'; and a price on that monitoring of roughly 20% of whatever process is being monitored. Reinforcement learning was paused for two weeks after the incident and most lower-risk models have restarted, but the largest planned frontier RL run remains on hold a month later. OpenAI says the measures are not a direct response to the breach but were provoked partly by the cyber capabilities of its forthcoming Astra model. The official postmortem is still pending.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Anthropic's annualized revenue run rate surpassed $65 billion at the end of July, up from $47 billion in May and just $9 billion at the end of 2025 -- $18 billion added in two months. Investors expect $100-120 billion by year end. Rival OpenAI sits at $40 billion, doubled from $20 billion at the end of 2025. Anthropic was last valued at $965 billion in late May on a $65 billion round and is reportedly seeking a public valuation above $2 trillion, possibly this autumn and ahead of OpenAI. The two companies may calculate the metric differently; what has captivated investors is the growth rate, not the level.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "On the same morning that run rate was reported, the highest-engagement AI items across three independent community boards were all about non-adoption: Tildes ~tech's most-commented post was 'Why normal people aren't using AI agents' at 52 votes and 135 comments, its highest-voted AI item was 'Is AI profitable yet?' at 68 votes, and Dev.to's most-commented post was 'The AI Badge Doesn't Measure What You Think It Does' at 73 comments. The Google Play top 30 contained no AI assistant app at all -- AI appeared only as an adjective inside incumbent category apps, at Canva and Yazio . The reconciliation is that the $65B is not consumer money; the token consumers are increasingly other programs.",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Containment became a metered infrastructure cost on the same day Anthropic's run rate hit $65B while the most-discussed AI threads on three separate boards were about people not using AI -- and a 24-hour re-measurement quietly falsified this archive's own finding from yesterday."
+    }
+  }
+}
