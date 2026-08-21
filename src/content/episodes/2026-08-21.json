@@ -1,0 +1,163 @@
+{
+  "date": "2026-08-21",
+  "episodeNumber": 151,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "A malicious `proc-macro1` package, typosquatting t, Modular open-sourced Mojo's compiler, tooling, bui, Two days after Stripe's $7.5 billion acquisition o",
+  "heroStat": {
+    "value": "60B",
+    "label": "cursor acquisition"
+  },
+  "insights": [
+    {
+      "text": "A malicious `proc-macro1` package, typosquatting the real maintainer identity `dtolnay`, was pulled into the `arrayref` crate (245 million lifetime downloads, underlying winit, egui, iced, blake3, and Solana/Ethereum tooling) via a compromised maintainer account on August 20, 2026. The payload lived in a build script that downloaded and executed a binary from a Hostwinds VPS at compile time -- running `cargo build` triggered it, no code needed to be called. The Rust Security Response Team yanked all affected packages within 86 to 107 minutes. Separately, Wiz's analysis found the attack's C2 endpoint pattern, one C2 IP's SSL issuer, and its hosting-provider IP range all overlap with infrastructure Microsoft and Mandiant previously attributed to North Korean state actors in unrelated npm supply-chain campaigns (Mastra, axios) -- an overlap, not a confirmed attribution.",
+      "tags": [
+        "security",
+        "supply-chain",
+        "rust"
+      ],
+      "source": "Rust Blog / Wiz (deep-read)",
+      "url": "https://blog.rust-lang.org/2026/08/20/supply-chain-attack-on-arrayref/"
+    },
+    {
+      "text": "Modular open-sourced Mojo's compiler, tooling, build system, and 450,000+ lines of Mojo-authored kernel code under Apache 2.0 with LLVM exceptions on August 18, 2026, one week after Mojo reached its 1.0 release. The repo, modular/modular, topped GitHub Trending at 28,117+ stars. Modular's own announcement states the company does not yet accept outside contributions to the compiler or tooling, targeting 'by the end of this year' -- a license-open, governance-closed split rather than a fully open project on day one.",
+      "tags": [
+        "open-source",
+        "ai-dev-tools",
+        "mojo"
+      ],
+      "source": "Modular blog (deep-read)",
+      "url": "https://www.modular.com/blog/mojo-open-source"
+    },
+    {
+      "text": "Two days after Stripe's $7.5 billion acquisition of OpenRouter priced the AI model-routing layer at a frontier multiple, Ramp launched Router.com -- an API for routing, testing, and switching between models from OpenAI, Anthropic, SpaceXAI (the renamed xAI, now under the same SpaceX ownership as its $60B Cursor acquisition), DeepSeek, Moonshot, Minimax, Nvidia, and Z.ai. Ramp commercializes three years of its own internal routing infrastructure, offers it free through the end of 2026, and frames the move explicitly as a direct challenge to OpenRouter. The same Ramp business-spend dataset also shows OpenAI closing on Anthropic in business-user share (roughly 40% to 44%) in Q3-to-date, after Anthropic took the lead in May.",
+      "tags": [
+        "ai-business",
+        "ai-dev-tools",
+        "routing"
+      ],
+      "source": "TechCrunch (deep-read)",
+      "url": "https://techcrunch.com/2026/08/20/ramp-launches-its-own-ai-model-router-called-router/"
+    },
+    {
+      "text": "At Black Hat USA 2026, Brave security engineer Artem Chaikin demoed live prompt-injection attacks that succeeded against every AI browser he tested -- Opera's AI browser, Perplexity Comet, and ChatGPT Atlas -- using three distinct hiding techniques: instructions hidden behind HTML, near-invisible text overlaid on an image, and a Reddit comment hidden behind spoiler tags. This concretizes an earlier University of Washington academic finding (4 of 7 agentic browsers vulnerable to same-origin-policy bypass via prompt injection) into a named, technique-specific vendor demonstration -- two independent methods now agree that no shipping AI browser has adequate isolation against prompt injection.",
+      "tags": [
+        "ai-security",
+        "browser-computer-use",
+        "agent-security"
+      ],
+      "source": "Dark Reading (deep-read)",
+      "url": "https://www.darkreading.com/application-security/no-perfect-fix-ai-browser-prompt-injection-flaws"
+    },
+    {
+      "text": "A direct GitHub API read of mattpocock/skills -- today's #2 Trending repo, a Claude Code skills-marketplace project this research session itself runs on via an auto-updated plugin -- shows 227,121 stars against yesterday's API-verified 224,162, a measured 24-hour delta of +2,959. The GitHub Trending board claims only +2,192 stars for the same window, a 1.35x understatement. This extends this vault's ongoing GitHub Trending velocity-integrity checks (a second repo, MoneyPrinterTurbo, measured 0.91x -- a 9% understatement -- in the opposite direction one day earlier), with two data points now showing no consistent bias direction.",
+      "tags": [
+        "github-oss",
+        "benchmark-integrity",
+        "agent-frameworks"
+      ],
+      "source": "Direct GitHub API read",
+      "url": "https://api.github.com/repos/mattpocock/skills"
+    },
+    {
+      "text": "Today's top-voted Hacker News story (1,250 points) names a direct double standard: Aaron Swartz faced 13 federal charges and up to 35 years in prison for scraping JSTOR's academic archive in 2010-2011, while Meta, OpenAI, Google DeepMind, and Anthropic have trained large language models on comparably or more aggressively scraped and, in some disclosed cases, pirated content with no criminal exposure -- 'celebrated as pioneers and showered with venture capital' instead, per the framing. A companion story on today's board: AliExpress runs silent WebAudio-based browser fingerprinting that, as a side effect, keeps a browser tab's audio path active long enough to block multipoint Bluetooth headphones from switching back to a paired phone -- invisible to the user, survives Do Not Track, discovered through a hardware symptom rather than a privacy audit.",
+      "tags": [
+        "ai-legal-precedent",
+        "open-web-enclosure",
+        "privacy"
+      ],
+      "source": "Hacker News thread synthesis",
+      "url": "https://news.ycombinator.com/item?id=49379550"
+    }
+  ],
+  "trending": [
+    {
+      "name": "MoneyPrinterTurbo",
+      "fullName": "harry0703/MoneyPrinterTurbo",
+      "stars": "113K",
+      "language": "Python",
+      "delta": "+2,761/d",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo"
+    },
+    {
+      "name": "skills",
+      "fullName": "mattpocock/skills",
+      "stars": "227K",
+      "language": "Shell",
+      "delta": "+2,192/d",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "name": "OpenLogi",
+      "fullName": "AprilNEA/OpenLogi",
+      "stars": "12.1K",
+      "language": "Rust",
+      "delta": "+1,545/d",
+      "url": "https://github.com/AprilNEA/OpenLogi"
+    },
+    {
+      "name": "OpenViking",
+      "fullName": "volcengine/OpenViking",
+      "stars": "31.2K",
+      "language": "Python",
+      "delta": "+950/d",
+      "url": "https://github.com/volcengine/OpenViking"
+    },
+    {
+      "name": "career-ops",
+      "fullName": "santifer/career-ops",
+      "stars": "66.9K",
+      "language": "JavaScript",
+      "delta": "+816/d",
+      "url": "https://github.com/santifer/career-ops"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "1250",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "2,761",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "12",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "6",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "August 21, 2026"
+    },
+    "headlines": [
+      {
+        "text": "A malicious `proc-macro1` package, typosquatting the real maintainer identity `dtolnay`, was pulled into the `arrayref` crate via a compromised maintainer account on August 20, 2026. The payload lived in a build script that downloaded and executed a binary from a Hostwinds VPS at compile time -- running `cargo build` triggered it, no code needed to be called. The Rust Security Response Team yanked all affected packages within 86 to 107 minutes. Separately, Wiz's analysis found the attack's C2 endpoint pattern, one C2 IP's SSL issuer, and its hosting-provider IP range all overlap with infrastructure Microsoft and Mandiant previously attributed to North Korean state actors in unrelated npm supply-chain campaigns -- an overlap, not a confirmed attribution.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Modular open-sourced Mojo's compiler, tooling, build system, and 450,000+ lines of Mojo-authored kernel code under Apache 2.0 with LLVM exceptions on August 18, 2026, one week after Mojo reached its 1.0 release. The repo, modular/modular, topped GitHub Trending at 28,117+ stars. Modular's own announcement states the company does not yet accept outside contributions to the compiler or tooling, targeting 'by the end of this year' -- a license-open, governance-closed split rather than a fully open project on day one.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Two days after Stripe's $7.5 billion acquisition of OpenRouter priced the AI model-routing layer at a frontier multiple, Ramp launched Router.com -- an API for routing, testing, and switching between models from OpenAI, Anthropic, SpaceXAI , DeepSeek, Moonshot, Minimax, Nvidia, and Z.ai. Ramp commercializes three years of its own internal routing infrastructure, offers it free through the end of 2026, and frames the move explicitly as a direct challenge to OpenRouter. The same Ramp business-spend dataset also shows OpenAI closing on Anthropic in business-user share in Q3-to-date, after Anthropic took the lead in May.",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "A build-time Rust payload ties to DPRK-pattern infrastructure, Mojo goes source-open but governance-closed until year-end, Ramp launched a second AI-routing product 48 hours after Stripe's $7.5B OpenRouter buy, Black Hat 2026 showed every mainstream AI browser falling to prompt injection, and a direct GitHub API check shows the Claude Code skills-marketplace leader's Trending figure undercounting real growth by over a third."
+    }
+  }
+}
