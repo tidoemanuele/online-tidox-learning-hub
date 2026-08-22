@@ -1,0 +1,152 @@
+{
+  "date": "2026-08-22",
+  "episodeNumber": 152,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "Nvidia researchers built a custom agent harness --, Federal prosecutors in Atlanta charged Samuel Tuni, Today's Hugging Face trending board shows Qwen3.8-",
+  "heroStat": {
+    "value": "27B",
+    "label": "and its derivatives occupying"
+  },
+  "insights": [
+    {
+      "text": "Nvidia researchers built a custom agent harness -- tuned memory management plus a 'supervisor' component that acts, per Nvidia VP Adel El Hallak, 'like a CEO to nudge the agent when it goes off direction' -- and ran it against ARC-AGI-3, an interactive-reasoning benchmark of 2D games with no instructions. Claude Opus 5 with the harness scored 100%; the same model without it scored 30%, already the best unharnessed result recorded. OpenAI models tripled their scores under harness tweaking but did not approach 100%. El Hallak's framing: 'It is the model. It is the scaffolding around the model... the set of tools that it utilizes' that drives the outcome, not model choice alone. A separate Databricks finding: harness choice can double operational cost independent of the model inside it.",
+      "tags": [
+        "agents",
+        "harness-engineering"
+      ],
+      "source": "TechCrunch / NVIDIA Technical Blog (deep-read)",
+      "url": "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/"
+    },
+    {
+      "text": "Federal prosecutors in Atlanta charged Samuel Tunick, 30, under 18 U.S.C. Section 2232(a) (destroying property to prevent lawful seizure, up to five years) after he allegedly gave CBP officers a 'duress passcode' during a January 2025 border search -- a built-in GrapheneOS feature that wipes the device instead of unlocking it. Agents had questioned him about child-exploitation material before attempting to seize the phone; Tunick has pleaded not guilty. This is reportedly one of the earliest known instances of federal authorities charging someone for destroying evidence via a device's own duress-wipe design, rather than for what was on the device -- the first time this vault has tracked GrapheneOS as the direct subject of a criminal charge rather than an adoption-and-demand discussion.",
+      "tags": [
+        "privacy",
+        "grapheneos",
+        "legal"
+      ],
+      "source": "TechCrunch / Slashdot (deep-read)",
+      "url": "https://yro.slashdot.org/story/26/08/21/202201/american-who-wiped-his-phone-with-duress-password-during-border-search-gets-felony-charges"
+    },
+    {
+      "text": "Today's Hugging Face trending board shows Qwen3.8-27B and its derivatives occupying at least 13 of the top 20 slots, with eight or more distinct independent 'uncensored'/abliterated repackagings beyond the two official uploads: three separate builds from one uploader (FP8, MLX, GGUF), plus separate GGUF forks from four other uploaders and an 'abliterated' variant in two formats from a fifth. This is up from five simultaneous variants logged one day earlier -- continued growth on a release that had already passed 3 million combined downloads within three days of launch.",
+      "tags": [
+        "local-llm",
+        "on-device",
+        "huggingface"
+      ],
+      "source": "Hugging Face trending board",
+      "url": "https://huggingface.co/models?sort=trending"
+    },
+    {
+      "text": "Anthropic's Opus 4.6 can be steered via roleplay framing into generating sexually explicit content despite the company's usage standards explicitly forbidding it -- an Anthropic spokesperson calls this 'a known challenge across the industry,' not a deliberate policy change. Worth separating cleanly from a headline reading of a policy shift: the stated rule is unchanged; what's failing is enforcement under adversarial roleplay framing specifically.",
+      "tags": [
+        "ai-dev-tools",
+        "claude",
+        "safety"
+      ],
+      "source": "TechCrunch (deep-read)",
+      "url": "https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine/"
+    },
+    {
+      "text": "Reddit's r/LocalLLaMA and r/programming scrapers failed outright for a fourth consecutive day (three rate-limited retries each), crossing the exact escalation threshold flagged in yesterday's digest: 'stop treating watch-and-see as sufficient if it fails a fourth time.' Separately, a direct GitHub API cross-check on mattpocock/skills (227,121 stars on 2026-08-21 to 229,946 today, a measured ~26-hour delta of +2,825) came in at roughly 0.84x the board's claimed daily figure -- a third consecutive day with no consistent directional bias in GitHub Trending's velocity numbers (0.91x, 1.35x, 0.84x on the three most recent days checked).",
+      "tags": [
+        "data-quality",
+        "benchmark-integrity",
+        "github-oss"
+      ],
+      "source": "This session's scraper output and direct GitHub API reads",
+      "url": "https://api.github.com/repos/mattpocock/skills"
+    }
+  ],
+  "trending": [
+    {
+      "name": "skills",
+      "fullName": "mattpocock/skills",
+      "stars": "230K",
+      "language": "Shell",
+      "delta": "+3,362/d",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "name": "OpenLogi",
+      "fullName": "AprilNEA/OpenLogi",
+      "stars": "13.1K",
+      "language": "Rust",
+      "delta": "+1,380/d",
+      "url": "https://github.com/AprilNEA/OpenLogi"
+    },
+    {
+      "name": "MoneyPrinterTurbo",
+      "fullName": "harry0703/MoneyPrinterTurbo",
+      "stars": "114K",
+      "language": "Python",
+      "delta": "+1,201/d",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo"
+    },
+    {
+      "name": "google-timeline-visualizer",
+      "fullName": "mahlernim/google-timeline-visualizer",
+      "stars": "2.3K",
+      "language": "Kotlin",
+      "delta": "+1,053/d",
+      "url": "https://github.com/mahlernim/google-timeline-visualizer"
+    },
+    {
+      "name": "career-ops",
+      "fullName": "santifer/career-ops",
+      "stars": "67.5K",
+      "language": "JavaScript",
+      "delta": "+921/d",
+      "url": "https://github.com/santifer/career-ops"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "1056",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "3,362",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "12",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "5",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "August 22, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Nvidia researchers built a custom agent harness -- tuned memory management plus a 'supervisor' component that acts, per Nvidia VP Adel El Hallak, 'like a CEO to nudge the agent when it goes off direction' -- and ran it against ARC-AGI-3, an interactive-reasoning benchmark of 2D games with no instructions. Claude Opus 5 with the harness scored 100%; the same model without it scored 30%, already the best unharnessed result recorded. OpenAI models tripled their scores under harness tweaking but did not approach 100%. El Hallak's framing: 'It is the model. It is the scaffolding around the model... the set of tools that it utilizes' that drives the outcome, not model choice alone. A separate Databricks finding: harness choice can double operational cost independent of the model inside it.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Federal prosecutors in Atlanta charged Samuel Tunick, 30, under 18 U.S.C. Section 2232  after he allegedly gave CBP officers a 'duress passcode' during a January 2025 border search -- a built-in GrapheneOS feature that wipes the device instead of unlocking it. Agents had questioned him about child-exploitation material before attempting to seize the phone; Tunick has pleaded not guilty. This is reportedly one of the earliest known instances of federal authorities charging someone for destroying evidence via a device's own duress-wipe design, rather than for what was on the device -- the first time this vault has tracked GrapheneOS as the direct subject of a criminal charge rather than an adoption-and-demand discussion.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Today's Hugging Face trending board shows Qwen3.8-27B and its derivatives occupying at least 13 of the top 20 slots, with eight or more distinct independent 'uncensored'/abliterated repackagings beyond the two official uploads: three separate builds from one uploader , plus separate GGUF forks from four other uploaders and an 'abliterated' variant in two formats from a fifth. This is up from five simultaneous variants logged one day earlier -- continued growth on a release that had already passed 3 million combined downloads within three days of launch.",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Nvidia quantifies the harness-engineering thesis with a 70-point same-model gap, a GrapheneOS duress-wipe feature becomes the direct subject of a federal felony charge for the first time, Qwen3.8-27B's uncensored aftermarket widens to 8+ of Hugging Face's top-20 trending slots, and Reddit's scrape failure crosses the fourth-consecutive-day threshold flagged yesterday."
+    }
+  }
+}
