@@ -1,0 +1,153 @@
+{
+  "date": "2026-08-23",
+  "episodeNumber": 153,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "Direct GitHub API reads on 2026-08-23 confirm: mat, The Model Context Protocol's own maintainers publi, A Level1Techs forum deep-dive reproduces concrete ",
+  "heroStat": {
+    "value": "563",
+    "label": "points on \"Canada will match US tariffs 'dollar for dollar' as trade ta\""
+  },
+  "insights": [
+    {
+      "text": "Direct GitHub API reads on 2026-08-23 confirm: mattpocock/skills at 232,450 stars, obra/superpowers at 276,280, and affaan-m/ECC at 242,240 -- all three individually ahead of anthropics/claude-code (142,606) and openai/codex (113,873). This is the first same-session confirmation that three independent third-party skills/plugin-marketplace repositories each hold more stars than the two coding-agent platforms they extend, not a scrape artifact. mattpocock/skills' 24-hour delta (+2,504) against the day's claimed +2,683 gives a fourth consecutive day with a fourth different accuracy ratio for GitHub Trending's daily-delta figure.",
+      "tags": [
+        "github-oss",
+        "claude-code",
+        "ecosystem"
+      ],
+      "source": "Direct GitHub API reads",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "text": "The Model Context Protocol's own maintainers published a roadmap naming five priorities, including 'progressive discovery so servers reveal tool catalogs incrementally rather than exposing entire catalogs upfront' -- the first time the protocol itself has named full-catalog-upfront exposure a design problem to fix, rather than something third-party middleware (like the 'token tax' tools this vault tracked from July) works around. The other four priorities: agentic messaging primitives (the Tasks extension, SEP-2663), HTTP-native transport unification, agent identity and enterprise security (DPoP, Workload Identity Federation), and SDK developer experience.",
+      "tags": [
+        "mcp",
+        "agents",
+        "protocol"
+      ],
+      "source": "Model Context Protocol blog (deep-read)",
+      "url": "https://blog.modelcontextprotocol.io/posts/mcp-roadmap/"
+    },
+    {
+      "text": "A Level1Techs forum deep-dive reproduces concrete inference-stack hazards behind local LLMs feeling weaker than their benchmarks suggest: different attention-kernel backends shift top-1 token selection by 0.717%-5.831% depending on quantization scheme; int4 KV-cache quantization never recovered from a tool-calling error where int8/BF16 did; NVIDIA's own NVFP4 weight quantization performed worst of five schemes tested (~50% token flips by 88k context); and the same model flipped between correct and incorrect tool calls purely by changing tensor-parallelism degree (TP1 correct, TP2 failed, TP4 correct again), attributed to GPU-to-GPU communication-order effects.",
+      "tags": [
+        "local-llm",
+        "on-device",
+        "inference"
+      ],
+      "source": "Level1Techs forum (deep-read)",
+      "url": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917"
+    },
+    {
+      "text": "OzBrain launched as a shared knowledge layer that Claude, ChatGPT, Cursor, and other MCP clients connect to via a single URL, reading and writing a conflict-checked, shared 'article' store. This is the third distinct repositioning in five months of the same underlying pattern this vault has tracked since April: a developer-targeted CLI framework (Ar9av/obsidian-wiki, April), then a no-terminal consumer GUI app ('Second Brain', July), and now an explicitly agent-to-agent product where the customer is the agent fleet itself, not a human reader.",
+      "tags": [
+        "knowledge-systems",
+        "mcp",
+        "agent-memory"
+      ],
+      "source": "Show HN / OzBrain (deep-read)",
+      "url": "https://ozbrain.com"
+    },
+    {
+      "text": "Google Play's top-20 shows three AI-labeled titles today (Canva 'AI Photo & Video Editor', Yazio 'AI Calorie Tracker', Filmora 'AI Video Editor&Maker') versus one confirmed the day before, though today's scrape again shows a chart-conflation artifact -- a browser-category list appended after the general top-20, the second such data-quality issue in two days from this source.",
+      "tags": [
+        "play-store",
+        "data-quality",
+        "android"
+      ],
+      "source": "This session's scraper output",
+      "url": "https://play.google.com/store/apps/top"
+    }
+  ],
+  "trending": [
+    {
+      "name": "skills",
+      "fullName": "mattpocock/skills",
+      "stars": "232K",
+      "language": "Shell",
+      "delta": "+2,683/d",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "name": "codex",
+      "fullName": "openai/codex",
+      "stars": "114K",
+      "language": "Rust",
+      "delta": "+1,544/d",
+      "url": "https://github.com/openai/codex"
+    },
+    {
+      "name": "OpenLogi",
+      "fullName": "AprilNEA/OpenLogi",
+      "stars": "14.1K",
+      "language": "Rust",
+      "delta": "+959/d",
+      "url": "https://github.com/AprilNEA/OpenLogi"
+    },
+    {
+      "name": "free-for-dev",
+      "fullName": "ripienaar/free-for-dev",
+      "stars": "134K",
+      "language": "HTML",
+      "delta": "+829/d",
+      "url": "https://github.com/ripienaar/free-for-dev"
+    },
+    {
+      "name": "superpowers",
+      "fullName": "obra/superpowers",
+      "stars": "276K",
+      "language": "Shell",
+      "delta": "+592/d",
+      "url": "https://github.com/obra/superpowers"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "563",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "2,683",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "12",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "5",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "August 23, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Direct GitHub API reads on 2026-08-23 confirm: mattpocock/skills at 232,450 stars, obra/superpowers at 276,280, and affaan-m/ECC at 242,240 -- all three individually ahead of anthropics/claude-code and openai/codex . This is the first same-session confirmation that three independent third-party skills/plugin-marketplace repositories each hold more stars than the two coding-agent platforms they extend, not a scrape artifact. mattpocock/skills' 24-hour delta against the day's claimed +2,683 gives a fourth consecutive day with a fourth different accuracy ratio for GitHub Trending's daily-delta figure.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "The Model Context Protocol's own maintainers published a roadmap naming five priorities, including 'progressive discovery so servers reveal tool catalogs incrementally rather than exposing entire catalogs upfront' -- the first time the protocol itself has named full-catalog-upfront exposure a design problem to fix, rather than something third-party middleware works around. The other four priorities: agentic messaging primitives , HTTP-native transport unification, agent identity and enterprise security , and SDK developer experience.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "A Level1Techs forum deep-dive reproduces concrete inference-stack hazards behind local LLMs feeling weaker than their benchmarks suggest: different attention-kernel backends shift top-1 token selection by 0.717%-5.831% depending on quantization scheme; int4 KV-cache quantization never recovered from a tool-calling error where int8/BF16 did; NVIDIA's own NVFP4 weight quantization performed worst of five schemes tested ; and the same model flipped between correct and incorrect tool calls purely by changing tensor-parallelism degree , attributed to GPU-to-GPU communication-order effects.",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "The Claude Code skills-marketplace layer has verifiably out-grown the coding-agent platforms it plugs into; MCP's own maintainers name progressive tool discovery an official roadmap priority for the first time; a reproducible forum deep-dive gives the local-LLM benchmark-vs-feel gap a concrete inference-stack mechanism; and OzBrain becomes the third distinct packaging in five months of the shared-knowledge-layer pattern, this time built for agents talking to agents rather than a human reader."
+    }
+  }
+}
