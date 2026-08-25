@@ -1,0 +1,162 @@
+{
+  "date": "2026-08-25",
+  "episodeNumber": 154,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "mattpocock/skills, obra/superpowers, and affaan-m/, A forensic analysis combining a prompt-injection s, Prime Intellect's Prime Agent -- already logged in",
+  "heroStat": {
+    "value": "1150",
+    "label": "points on \"How Europe is killing makers and micro-entrepreneurs\""
+  },
+  "insights": [
+    {
+      "text": "mattpocock/skills, obra/superpowers, and affaan-m/ECC -- every one of GitHub Trending's top marketplace slots since 08-20 -- are absent from today's full 19-repo board. Direct API reads across the 48-hour gap (no run happened 08-24) show growth falling to roughly a third to a fifth of the prior four-day pace: mattpocock/skills ~1,608 stars/day (down from 2,504-2,959), obra/superpowers ~455/day (unpushed since 08-19), affaan-m/ECC ~367/day (down from a May-cycle 1,500-2,100/day). anthropics/claude-code itself still grows slower in absolute terms (~152/day) than any of the three even now.",
+      "tags": [
+        "github-oss",
+        "claude-code",
+        "ecosystem"
+      ],
+      "source": "Direct GitHub API reads",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "text": "A forensic analysis combining a prompt-injection system-prompt extraction (which got the model to state directly 'I'm GLM, a large language model made by Z.ai') with Normalized Compression Distance stylometric classification (GLM-5.3 matched 7 of 14 sampled responses, more than double the next-closest model) identifies the mystery 'stealth model' Ox-Alpha as Zhipu's GLM-5.3.",
+      "tags": [
+        "frontier-models",
+        "benchmark-integrity"
+      ],
+      "source": "dejan.ai (deep-read)",
+      "url": "https://dejan.ai/blog/ox-alpha/"
+    },
+    {
+      "text": "Prime Intellect's Prime Agent -- already logged in this vault on 2026-08-06 scoring 95.5% on ARC-AGI-3 running Opus 5 -- gets a formal arXiv paper today stating the identical figure verbatim ('raises ARC-AGI-3 RHAE Best@1 from 30% to 95.5%'), now with a named methodology (Recursive Language Model abstraction, Continual Harness preserving memory/skills/subagent specs across trajectories) and three new benchmark domains (long-context coding, GPU-kernel generation, emulator construction, nanoGPT speedruns) the original coverage didn't include.",
+      "tags": [
+        "agent-frameworks",
+        "harness-engineering",
+        "arxiv"
+      ],
+      "source": "arXiv 2608.23552 (deep-read)",
+      "url": "https://arxiv.org/abs/2608.23552"
+    },
+    {
+      "text": "An OpenAI-backed study reported by TechCrunch quantifies the agent-adoption gap this vault first logged as community discourse in mid-August: 98% of OpenAI's own employees use its Codex agentic coding tool, versus 17% of organizational subscribers and under 1% of individual ChatGPT subscribers -- as OpenAI generalizes the tool into ChatGPT Work for non-engineers.",
+      "tags": [
+        "agent-frameworks",
+        "adoption",
+        "openai"
+      ],
+      "source": "TechCrunch (deep-read)",
+      "url": "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them/"
+    },
+    {
+      "text": "Hugging Face is reportedly fielding acquisition offers valuing it around $13B, per Business Insider via TechCrunch -- no acquirer named, no deal finalized. CEO Clem Delangue cites a 'long-term responsibility' to the community and says the company already turned down a $500M Nvidia investment in 2026 that would have valued it at $7B, preferring sustainability over a fast valuation bump.",
+      "tags": [
+        "infrastructure",
+        "open-source",
+        "acquisition"
+      ],
+      "source": "TechCrunch (deep-read)",
+      "url": "https://techcrunch.com/2026/08/24/hugging-face-reportedly-in-talks-to-be-acquired-for-13b/"
+    },
+    {
+      "text": "Google Assistant's shutdown on Android and Wear OS is now confirmed for September 4, 2026, resolving this vault's open question about whether the Gemini replacement runs on-device: even Gemini Nano v3 hardware (2026-flagship-chip, 12GB RAM) still requires a paired-phone or LTE internet connection on watches -- the transition is a cloud-to-cloud vendor handoff, not a shift toward local voice processing.",
+      "tags": [
+        "voice",
+        "on-device",
+        "google"
+      ],
+      "source": "9to5Google / Renascence (discovery search)",
+      "url": "https://9to5google.com/2026/08/04/google-assistant-september-2026-shutdown/"
+    }
+  ],
+  "trending": [
+    {
+      "name": "awesome-gpt-image-2",
+      "fullName": "freestylefly/awesome-gpt-image-2",
+      "stars": "15.9K",
+      "language": "JavaScript",
+      "delta": "+2,449/d",
+      "url": "https://github.com/freestylefly/awesome-gpt-image-2"
+    },
+    {
+      "name": "codex",
+      "fullName": "openai/codex",
+      "stars": "117K",
+      "language": "Rust",
+      "delta": "+1,994/d",
+      "url": "https://github.com/openai/codex"
+    },
+    {
+      "name": "OpenLogi",
+      "fullName": "AprilNEA/OpenLogi",
+      "stars": "16.0K",
+      "language": "Rust",
+      "delta": "+1,097/d",
+      "url": "https://github.com/AprilNEA/OpenLogi"
+    },
+    {
+      "name": "omarchy",
+      "fullName": "basecamp/omarchy",
+      "stars": "30.4K",
+      "language": "Shell",
+      "delta": "+1,056/d",
+      "url": "https://github.com/basecamp/omarchy"
+    },
+    {
+      "name": "hermes-agent",
+      "fullName": "NousResearch/hermes-agent",
+      "stars": "236K",
+      "language": "Python",
+      "delta": "+896/d",
+      "url": "https://github.com/NousResearch/hermes-agent"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "1150",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "2,449",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "12",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "6",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "August 25, 2026"
+    },
+    "headlines": [
+      {
+        "text": "mattpocock/skills, obra/superpowers, and affaan-m/ECC -- every one of GitHub Trending's top marketplace slots since 08-20 -- are absent from today's full 19-repo board. Direct API reads across the 48-hour gap show growth falling to roughly a third to a fifth of the prior four-day pace: mattpocock/skills ~1,608 stars/day , obra/superpowers ~455/day , affaan-m/ECC ~367/day . anthropics/claude-code itself still grows slower in absolute terms than any of the three even now.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "A forensic analysis combining a prompt-injection system-prompt extraction with Normalized Compression Distance stylometric classification identifies the mystery 'stealth model' Ox-Alpha as Zhipu's GLM-5.3.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Prime Intellect's Prime Agent -- already logged in this vault on 2026-08-06 scoring 95.5% on ARC-AGI-3 running Opus 5 -- gets a formal arXiv paper today stating the identical figure verbatim , now with a named methodology and three new benchmark domains the original coverage didn't include.",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "The Claude Code skills-marketplace supernova this vault tracked for a week cools sharply and simultaneously across three independent repos; a prompt-injection extraction and a compression-distance forensic method unmask the mystery 'Ox-Alpha' model as GLM-5.3; Prime Intellect's already-logged 95.5%-on-ARC-AGI-3 harness result gets a formal citable paper with three new benchmark domains; and OpenAI's own internal numbers finally put a figure on the agent-adoption gap this vault has tracked as community discourse since August."
+    }
+  }
+}
