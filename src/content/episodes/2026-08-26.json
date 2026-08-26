@@ -1,0 +1,173 @@
+{
+  "date": "2026-08-26",
+  "episodeNumber": 155,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "Direct GitHub API reads show mattpocock/skills, ob, anthropics/claude-plugins-community -- Anthropic's, Qwen3.8-27B now holds 7 of Hugging Face's top-20 t",
+  "heroStat": {
+    "value": "1M",
+    "label": "via yarn"
+  },
+  "insights": [
+    {
+      "text": "Direct GitHub API reads show mattpocock/skills, obra/superpowers, and affaan-m/ECC all still absent from today's Trending board, with a second consecutive day of collapsed velocity: mattpocock/skills +1,295 stars/day (down from 08-25's ~1,608 and under half the 08-20-23 range of 2,504-2,959), obra/superpowers +461/day (flat, unpushed since 08-19, now 7 days stale), affaan-m/ECC +276/day (down from 367). anthropics/claude-code grew +116/day over the same window -- slower than any of the three even now.",
+      "tags": [
+        "github-oss",
+        "claude-code",
+        "ecosystem"
+      ],
+      "source": "Direct GitHub API reads",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "text": "anthropics/claude-plugins-community -- Anthropic's own read-only mirror of its reviewed community plugin marketplace, where submissions route through a web form rather than GitHub PRs -- takes a GitHub Trending slot today at +351 stars, 1,867 total, the same week the unofficial marketplace repos cool for a second confirmed day.",
+      "tags": [
+        "github-oss",
+        "claude-code",
+        "ecosystem"
+      ],
+      "source": "GitHub (deep-read)",
+      "url": "https://github.com/anthropics/claude-plugins-community"
+    },
+    {
+      "text": "Qwen3.8-27B (Apache 2.0, dense 27B, natively multimodal, 262k native context extending to 1M via YaRN, configurable reasoning-effort mode) now holds 7 of Hugging Face's top-20 trending slots between its base model, an unsloth GGUF port with the single highest download count on the board, and five aftermarket forks -- the most concentrated single-model showing this vault has logged.",
+      "tags": [
+        "on-device-llm",
+        "qwen",
+        "huggingface"
+      ],
+      "source": "Hugging Face trending + deep-reads",
+      "url": "https://www.yottalabs.ai/post/qwen-3-8-27b-specs-hardware-requirements-how-to-run-2026"
+    },
+    {
+      "text": "Apple shipped its first 2nm chip (M6, in an $899 Mac mini with up to 4x prior AI performance) and its first quad-die SoC (M5 Ultra, 80-core GPU, 1.2TB/s unified memory bandwidth, in a $5,499 Mac Studio) the same week Qwen3.8-27B's 27B-dense/262k-context model dominates local-LLM trending -- raising the consumer local-inference compute ceiling exactly as demand for it peaks, though no independent benchmark yet pairs the two.",
+      "tags": [
+        "on-device-llm",
+        "apple",
+        "hardware"
+      ],
+      "source": "Apple Newsroom (deep-read)",
+      "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/"
+    },
+    {
+      "text": "OpenAI's first custom inference chip, Jalapeno, benchmarked publicly for the first time via SemiAnalysis's InferenceX framework, posts 1.5-1.9x peak work throughput per watt over benchmarked Nvidia Blackwell configurations and 54-104x token throughput per kilowatt at matched decode speed -- but SemiAnalysis itself calls the Blackwell comparison unfair, since Jalapeno's real rival is Nvidia's already-shipping Rubin chip while Jalapeno exists only as engineering samples, with production deployment not planned until late 2026.",
+      "tags": [
+        "ai-dev-tools",
+        "openai",
+        "infrastructure"
+      ],
+      "source": "SemiAnalysis (deep-read)",
+      "url": "https://newsletter.semianalysis.com/p/openai-jalapeno-better-than-nvidia"
+    },
+    {
+      "text": "A Dev.to community post reports a second, independently-sourced instance of the harness-not-model effect this vault logged 08-25 via Prime Intellect's paper: Claude Opus 5 scored 30.16% on ARC-AGI-3 under ARC Prize's official harness (07-24) versus 100.00% under an NVIDIA-run harness (08-21), same weights -- the author states four harnesses moved the public set from 13% to 100% with zero weight changes, putting the harness-effect spread at 25-70 points.",
+      "tags": [
+        "agent-frameworks",
+        "harness-engineering",
+        "benchmark-integrity"
+      ],
+      "source": "Dev.to (deep-read)",
+      "url": "https://dev.to/p0rt/the-model-scored-30-the-harness-scored-100-which-one-did-you-benchmark-3mp4"
+    },
+    {
+      "text": "Three unrelated sources converge same-day on one theme: AI-assisted development's bottleneck has moved from generation to review. Dev.to's 'AI promoted every developer to reviewer. Nobody tested the reviewer.' cites 89% of guardrails never tested for failure; a Lobsters-linked post argues human review loops often only converge due to social pressure or boredom an AI-in-the-loop process lacks; and Show HN's resurfaced runetes/maiao offers Gerrit-style stacked-diff review as a structural answer.",
+      "tags": [
+        "agentic-dev-workflow",
+        "code-review",
+        "vibecoding"
+      ],
+      "source": "Dev.to / Lobsters / Show HN (deep-reads)",
+      "url": "https://dev.to/heinrichneb/ai-promoted-every-developer-to-reviewer-nobody-tested-the-reviewer-m4h"
+    }
+  ],
+  "trending": [
+    {
+      "name": "awesome-gpt-image-2",
+      "fullName": "freestylefly/awesome-gpt-image-2",
+      "stars": "18.9K",
+      "language": "JavaScript",
+      "delta": "+1,698/d",
+      "url": "https://github.com/freestylefly/awesome-gpt-image-2"
+    },
+    {
+      "name": "ai-job-search",
+      "fullName": "MadsLorentzen/ai-job-search",
+      "stars": "35.5K",
+      "language": "Python",
+      "delta": "+1,265/d",
+      "url": "https://github.com/MadsLorentzen/ai-job-search"
+    },
+    {
+      "name": "codex",
+      "fullName": "openai/codex",
+      "stars": "118K",
+      "language": "Rust",
+      "delta": "+1,181/d",
+      "url": "https://github.com/openai/codex"
+    },
+    {
+      "name": "omarchy",
+      "fullName": "basecamp/omarchy",
+      "stars": "31.4K",
+      "language": "Shell",
+      "delta": "+1,083/d",
+      "url": "https://github.com/basecamp/omarchy"
+    },
+    {
+      "name": "ponytail",
+      "fullName": "DietrichGebert/ponytail",
+      "stars": "111K",
+      "language": "JavaScript",
+      "delta": "+982/d",
+      "url": "https://github.com/DietrichGebert/ponytail"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "1338",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "1,698",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "12",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "7",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "August 26, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Direct GitHub API reads show mattpocock/skills, obra/superpowers, and affaan-m/ECC all still absent from today's Trending board, with a second consecutive day of collapsed velocity: mattpocock/skills +1,295 stars/day , obra/superpowers +461/day , affaan-m/ECC +276/day . anthropics/claude-code grew +116/day over the same window -- slower than any of the three even now.",
+        "metric": "+1,295/d",
+        "source": "GitHub"
+      },
+      {
+        "text": "anthropics/claude-plugins-community -- Anthropic's own read-only mirror of its reviewed community plugin marketplace, where submissions route through a web form rather than GitHub PRs -- takes a GitHub Trending slot today at +351 stars, 1,867 total, the same week the unofficial marketplace repos cool for a second confirmed day.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Qwen3.8-27B now holds 7 of Hugging Face's top-20 trending slots between its base model, an unsloth GGUF port with the single highest download count on the board, and five aftermarket forks -- the most concentrated single-model showing this vault has logged.",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "The marketplace cooldown gets a second confirming day as the platform's own official channel fills the gap; Qwen3.8-27B now holds 7 of Hugging Face's top-20 trending slots the same week Apple ships its first 2nm chip and its first quad-die SoC; OpenAI's Jalapeño inference chip posts real per-watt gains over Blackwell but the honest rival is Rubin, already shipping; a second independent report finds the same 25-70-point ARC-AGI-3 harness-vs-model score spread this vault logged via a formal paper yesterday; and three unrelated communities converge same-day on the same complaint -- AI review loops, not code generation, are where things are breaking."
+    }
+  }
+}
