@@ -1,0 +1,170 @@
+{
+  "date": "2026-08-28",
+  "episodeNumber": 157,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "Today's Nvidia-Hugging Face coverage draws 1,867 H, Claude in Chrome reached general availability on 2, A new arXiv paper, WikiSkill, formalizes a framewo",
+  "heroStat": {
+    "value": "1867",
+    "label": "points on \"Nvidia agrees to acquire Hugging Face for $13B\""
+  },
+  "insights": [
+    {
+      "text": "Today's Nvidia-Hugging Face coverage draws 1,867 Hacker News points / 866 comments -- the largest single-story engagement this vault has logged this month -- but also surfaces a Business Insider detail that talks 'had not yet produced a signed agreement and could still atomize,' plus reporting that HF CEO Clem Delangue had spent much of 2026 publicly aligning with Nvidia's open-source stance before the deal. This pulls confidence in the deal's finality back from yesterday's 0.8 to 0.65.",
+      "tags": [
+        "ai-financial-escape-",
+        "huggingface",
+        "nvidia"
+      ],
+      "source": "TechCrunch / Fortune / CNBC (deep-read)",
+      "url": "https://techcrunch.com/2026/08/26/nvidia-closes-in-on-hugging-face-acquisition/"
+    },
+    {
+      "text": "Claude in Chrome reached general availability on 2026-08-26 across every paid Claude plan, with Anthropic reporting 0% attack success against Sonnet 5 and Opus 5 (0.3% against Fable 5) after a content-screening probe and action-verification classifier, down from 17.6%/3.8% pre-mitigation. This is the first vendor-published near-zero figure this vault has logged against its own standing 0.85-confidence thesis that no shipping AI browser has adequate prompt-injection isolation -- unverified by independent testing using Black Hat's own named techniques.",
+      "tags": [
+        "browser-computer-use",
+        "agent-security",
+        "anthropic"
+      ],
+      "source": "Claude by Anthropic (deep-read)",
+      "url": "https://claude.com/blog/claude-in-chrome-generally-available"
+    },
+    {
+      "text": "A new arXiv paper, WikiSkill, formalizes a framework that compiles agent execution experience into a persistent shared wiki that subsequent skill updates build from -- ablations show removing the persistent-wiki layer measurably degrades skill quality versus keeping only scattered optimization-history logs. This is independent, formally-measured validation of the wiki-compounding mechanism this vault's own daily research pipeline (scrape to OKF bundle to wiki ingest) already runs on.",
+      "tags": [
+        "agent-frameworks",
+        "llm-wiki-pattern",
+        "research"
+      ],
+      "source": "arXiv 2608.27454 (deep-read)",
+      "url": "https://arxiv.org/abs/2608.27454"
+    },
+    {
+      "text": "Google will require Play Store apps to meet new Android memory thresholds starting February 2027 -- foreground apps on 8GB-RAM devices capped at 2.25GB, background/user-perceived services at 1.5GB, bitmap memory at 200-400MB -- driven by AI-datacenter demand tightening the global memory-chip supply. Non-compliant apps face reduced visibility and publishing capability rather than an outright ban, enforced through Play's app-review process.",
+      "tags": [
+        "play-store-trends",
+        "android",
+        "google"
+      ],
+      "source": "TechCrunch / The Register (deep-read)",
+      "url": "https://techcrunch.com/2026/08/27/ais-memory-crunch-is-coming-for-android-apps/"
+    },
+    {
+      "text": "\"Small Models Have Arrived\" (Hacker News #2, 566 points/253 comments) argues small, specialized models paired with RAG and task-specific tuning have reached a 'good enough' deployment stage -- a community-sentiment complement to this vault's ongoing tracking of Qwen3.8-27B, GLM-5.3-Flash, and Ornith-1.5's unreproduced benchmark-parity claims, arguing the deployment decision no longer waits on those claims resolving.",
+      "tags": [
+        "on-device-llm",
+        "local-model-inferenc"
+      ],
+      "source": "Hacker News (deep-read)",
+      "url": "https://news.ycombinator.com/item?id=49466917"
+    },
+    {
+      "text": "SourceHut now prohibits training or fine-tuning LLMs on its hosted code without written permission and bars automated scraping for training datasets, applying to public and private repositories alike -- announced the same day a two-month-old post, 'Please stop flooding our projects with AI slop to furnish your CV,' resurfaces simultaneously on Hacker News and Lobsters, arguing AI-generated PRs and vulnerability reports optimize for contributor-profile metrics over genuine project improvement.",
+      "tags": [
+        "vibe-coding-reckonin",
+        "open-source"
+      ],
+      "source": "SourceHut blog / Hacker News / Lobsters",
+      "url": "https://sourcehut.org/blog/2026-08-27-tos-changes-and-llms/"
+    },
+    {
+      "text": "Google Play's top-30 shows com.openai.chatgpt at #3 (4.8 stars) -- the first visible AI-chat incumbent since this vault's AI-assistant-free streak logged 08-19 through 08-26. No Claude or Gemini appears today; held to this page's own standard (a second consecutive day) before reading as a resumption rather than a one-day flicker.",
+      "tags": [
+        "play-store-trends",
+        "chatgpt"
+      ],
+      "source": "Google Play Store scrape",
+      "url": "https://play.google.com/store/apps/top"
+    }
+  ],
+  "trending": [
+    {
+      "name": "archify",
+      "fullName": "tt-a1i/archify",
+      "stars": "24.4K",
+      "language": "JavaScript",
+      "delta": "+4,239/d",
+      "url": "https://github.com/tt-a1i/archify"
+    },
+    {
+      "name": "awesome-gpt-image-2",
+      "fullName": "freestylefly/awesome-gpt-image-2",
+      "stars": "23.4K",
+      "language": "JavaScript",
+      "delta": "+2,096/d",
+      "url": "https://github.com/freestylefly/awesome-gpt-image-2"
+    },
+    {
+      "name": "gods-eye-view",
+      "fullName": "bilawalsidhu/gods-eye-view",
+      "stars": "8.8K",
+      "language": "JavaScript",
+      "delta": "+1,984/d",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view"
+    },
+    {
+      "name": "ponytail",
+      "fullName": "DietrichGebert/ponytail",
+      "stars": "114K",
+      "language": "JavaScript",
+      "delta": "+1,613/d",
+      "url": "https://github.com/DietrichGebert/ponytail"
+    },
+    {
+      "name": "OpenMontage",
+      "fullName": "calesthio/OpenMontage",
+      "stars": "52.6K",
+      "language": "Python",
+      "delta": "+1,292/d",
+      "url": "https://github.com/calesthio/OpenMontage"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "1867",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "4,239",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "12",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "7",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "August 28, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Today's Nvidia-Hugging Face coverage draws 1,867 Hacker News points / 866 comments -- the largest single-story engagement this vault has logged this month -- but also surfaces a Business Insider detail that talks 'had not yet produced a signed agreement and could still atomize,' plus reporting that HF CEO Clem Delangue had spent much of 2026 publicly aligning with Nvidia's open-source stance before the deal. This pulls confidence in the deal's finality back from yesterday's 0.8 to 0.65.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Claude in Chrome reached general availability on 2026-08-26 across every paid Claude plan, with Anthropic reporting 0% attack success against Sonnet 5 and Opus 5 after a content-screening probe and action-verification classifier, down from 17.6%/3.8% pre-mitigation. This is the first vendor-published near-zero figure this vault has logged against its own standing 0.85-confidence thesis that no shipping AI browser has adequate prompt-injection isolation -- unverified by independent testing using Black Hat's own named techniques.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "A new arXiv paper, WikiSkill, formalizes a framework that compiles agent execution experience into a persistent shared wiki that subsequent skill updates build from -- ablations show removing the persistent-wiki layer measurably degrades skill quality versus keeping only scattered optimization-history logs. This is independent, formally-measured validation of the wiki-compounding mechanism this vault's own daily research pipeline already runs on.",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "The Nvidia-Hugging Face acquisition earns record engagement while a Business Insider detail reopens the question of whether it's actually done; Claude in Chrome's general-availability launch, two days after Black Hat proved every tested AI browser vulnerable to prompt injection, gives this vault its first vendor-published near-zero attack-success numbers -- still unverified independently; a WikiSkill research paper formalizes the exact wiki-compounding mechanism this vault's own daily pipeline runs on; Google's new Android memory limits land a dated compliance deadline (February 2027) directly on every Play Store app; and AI-slop community backlash resurfaces the same day SourceHut restricts LLM training on its platform."
+    }
+  }
+}
