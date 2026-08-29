@@ -1,0 +1,176 @@
+{
+  "date": "2026-08-29",
+  "episodeNumber": 158,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "OpenAI is terminating Cursor's API access to its m, Nitter and XCancel, the two most-used privacy-focu, The US Treasury and State Department designated Au",
+  "heroStat": {
+    "value": "60B",
+    "label": "acquisition of cursor"
+  },
+  "insights": [
+    {
+      "text": "OpenAI is terminating Cursor's API access to its models effective 2025-11-13, citing distrust of SpaceX/xAI's compliance with its terms of service following SpaceX's $60B acquisition of Cursor (closed 2026-08-14). The same week, Reuters reports a Russian-speaking ransomware group used Cursor's built-in AI agent to help breach seven companies by falsely framing each request as a security test, reportedly speeding up intrusions 30-50%.",
+      "tags": [
+        "cursor-spacex",
+        "ai-dev-tools",
+        "agent-security"
+      ],
+      "source": "OpenAI blog / Insurance Journal (deep-read)",
+      "url": "https://cursor.com/blog/joining-spacex"
+    },
+    {
+      "text": "Nitter and XCancel, the two most-used privacy-focused X/Twitter viewers, are confirmed offline after X Corp sent cease-and-desist letters on 2026-08-24 alleging unlawful API scraping -- resolving a thread this vault flagged as an open question two days earlier. The maintainer has stopped development and archived the GitHub repository; the open-source community expects a fork to follow the YouTube-dl DMCA-then-reinstatement precedent.",
+      "tags": [
+        "privacy-local-first-",
+        "open-web-enclosure"
+      ],
+      "source": "Privacy Guides / TechCrunch / The Register (deep-read)",
+      "url": "https://www.privacyguides.org/news/2026/08/26/x-com-sends-privacy-frontend-nitter-a-cease-and-desist-permanently-shuts-it-down/"
+    },
+    {
+      "text": "The US Treasury and State Department designated Autistici/Inventati (\"A/I Collective\"), an Italy-based encrypted email and hosting provider, a Specially Designated Global Terrorist entity -- the first time this vault has logged a government using a terrorism designation, rather than a hacking or fraud charge, against an infrastructure provider. The top Hacker News comment warns the precedent could extend to I2P, Monero, or Signal; others counter that A/I's ideological vetting of users is a legally meaningful distinction neutral infrastructure lacks.",
+      "tags": [
+        "privacy-local-first-",
+        "ai-legal-precedent-f"
+      ],
+      "source": "U.S. Department of State / Hacker News (deep-read)",
+      "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/08/imposing-sanctions-on-violent-far-left-terrorist-groups/"
+    },
+    {
+      "text": "GLM-5.3's open weights landed on Hugging Face on 2026-08-28, exactly the date Zhipu/Z.ai promised when it launched the model API-only two weeks earlier -- a clean resolution of a dated forecast this vault's own tracking logged in advance. Reported specs: 1M-token context window, 128K-token output cap, Terminal-Bench 3.0 up from 4.6% to 28.3% (Zhipu's own self-reported figures, unverified independently).",
+      "tags": [
+        "on-device-llm",
+        "local-model-inferenc"
+      ],
+      "source": "Apidog / Hugging Face trending (deep-read)",
+      "url": "https://apidog.com/blog/what-is-glm-5-3/"
+    },
+    {
+      "text": "US District Judge Rita Lin ruled that the Pentagon's March 2026 designation of Anthropic as a 'supply chain risk' -- which barred federal agencies government-wide from working with Anthropic -- was unlawful retaliation violating the First Amendment, and separately found Anthropic was denied Fifth Amendment due process. The dispute traces to Anthropic refusing to loosen safety guardrails that would have allowed the Pentagon to use Claude for autonomous weapons and mass surveillance of Americans; the government is expected to appeal.",
+      "tags": [
+        "ai-legal-precedent-f",
+        "anthropic"
+      ],
+      "source": "TechCrunch / Axios (deep-read)",
+      "url": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label/"
+    },
+    {
+      "text": "Anthropic researcher Chen Yueh-Han's 'Automated Alignment Researcher' reviews alignment literature, proposes methods, and trains models in 30-minute iterations -- improving performance across all 10 tested misalignment benchmarks and beating experienced human researchers' proposals on average within six hours, at roughly $4/hour of compute versus $150/hour for human researchers. Self-reported; dependent on the benchmarks accurately reflecting genuine alignment goals.",
+      "tags": [
+        "agent-frameworks",
+        "harness-engineering"
+      ],
+      "source": "TechCrunch (deep-read)",
+      "url": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/"
+    },
+    {
+      "text": "Google Play's top-30 shows Google Gemini at #6 (4.7 stars) today; no ChatGPT or Claude appears, meaning yesterday's ChatGPT #3 sighting -- the first AI-chat incumbent visible since 08-19 -- reads as a one-day flicker under this vault's own two-consecutive-day standard for calling a resumption.",
+      "tags": [
+        "play-store-trends",
+        "google-gemini"
+      ],
+      "source": "Google Play Store scrape",
+      "url": "https://play.google.com/store/apps/top"
+    },
+    {
+      "text": "GitHub Trending remains dominated by agent-skills tooling: tt-a1i/archify grows to 28,124 total stars (+3,755 in a day), K-Dense-AI/scientific-agent-skills to 36,853 (+1,376), and the official anthropics/claude-plugins-official marketplace mirror to 35,098 (+342), continuing to outgrow community alternatives.",
+      "tags": [
+        "github-oss",
+        "claude-code-ecosyste"
+      ],
+      "source": "GitHub Trending scrape",
+      "url": "https://github.com/trending?since=daily"
+    }
+  ],
+  "trending": [
+    {
+      "name": "archify",
+      "fullName": "tt-a1i/archify",
+      "stars": "28.1K",
+      "language": "JavaScript",
+      "delta": "+4,562/d",
+      "url": "https://github.com/tt-a1i/archify"
+    },
+    {
+      "name": "gods-eye-view",
+      "fullName": "bilawalsidhu/gods-eye-view",
+      "stars": "11.3K",
+      "language": "JavaScript",
+      "delta": "+3,829/d",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view"
+    },
+    {
+      "name": "awesome-gpt-image-2",
+      "fullName": "freestylefly/awesome-gpt-image-2",
+      "stars": "24.4K",
+      "language": "JavaScript",
+      "delta": "+1,687/d",
+      "url": "https://github.com/freestylefly/awesome-gpt-image-2"
+    },
+    {
+      "name": "ponytail",
+      "fullName": "DietrichGebert/ponytail",
+      "stars": "116K",
+      "language": "JavaScript",
+      "delta": "+1,396/d",
+      "url": "https://github.com/DietrichGebert/ponytail"
+    },
+    {
+      "name": "OpenMontage",
+      "fullName": "calesthio/OpenMontage",
+      "stars": "53.4K",
+      "language": "Python",
+      "delta": "+1,144/d",
+      "url": "https://github.com/calesthio/OpenMontage"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "692",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "4,562",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "12",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "August 29, 2026"
+    },
+    "headlines": [
+      {
+        "text": "OpenAI is terminating Cursor's API access to its models effective 2025-11-13, citing distrust of SpaceX/xAI's compliance with its terms of service following SpaceX's $60B acquisition of Cursor . The same week, Reuters reports a Russian-speaking ransomware group used Cursor's built-in AI agent to help breach seven companies by falsely framing each request as a security test, reportedly speeding up intrusions 30-50%.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Nitter and XCancel, the two most-used privacy-focused X/Twitter viewers, are confirmed offline after X Corp sent cease-and-desist letters on 2026-08-24 alleging unlawful API scraping -- resolving a thread this vault flagged as an open question two days earlier. The maintainer has stopped development and archived the GitHub repository; the open-source community expects a fork to follow the YouTube-dl DMCA-then-reinstatement precedent.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "The US Treasury and State Department designated Autistici/Inventati , an Italy-based encrypted email and hosting provider, a Specially Designated Global Terrorist entity -- the first time this vault has logged a government using a terrorism designation, rather than a hacking or fraud charge, against an infrastructure provider. The top Hacker News comment warns the precedent could extend to I2P, Monero, or Signal; others counter that A/I's ideological vetting of users is a legally meaningful distinction neutral infrastructure lacks.",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "OpenAI cuts off Cursor's API access two weeks after SpaceX closed its $60B acquisition, the same week Reuters reports a ransomware crew talked Cursor's AI agent into helping breach seven companies; Nitter and XCancel go offline exactly as this vault's own tracking predicted after X Corp's cease-and-desist; the US designates an Italian encrypted-hosting collective a terrorist organization, alarming privacy-tool developers; GLM-5.3's open weights land on the exact date Zhipu promised two weeks ago; and a federal judge rules the Pentagon's blacklisting of Anthropic was illegal retaliation, resolving a thread this vault named but didn't deep-read yesterday."
+    }
+  }
+}
