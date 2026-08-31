@@ -1,0 +1,174 @@
+{
+  "date": "2026-08-31",
+  "episodeNumber": 159,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "Sony Music Publishing and Warner Chappell Music su, Three of today's top four GitHub-trending repos ar, p-e-w/heretic automates 'directional ablation' -- ",
+  "heroStat": {
+    "value": "$150,000",
+    "label": "per infringed work plus"
+  },
+  "insights": [
+    {
+      "text": "Sony Music Publishing and Warner Chappell Music sued Anthropic, alleging a 'brazen campaign' of torrenting, scraping, and lyric-repository theft that infringed 'tens of thousands' of copyrighted compositions -- a wider scope than prior label suits. The complaint names co-founders Dario Amodei and Benjamin Mann personally and seeks up to $150,000 per infringed work plus $25,000 per instance of removed copyright management information.",
+      "tags": [
+        "ai-legal-precedent-f",
+        "anthropic"
+      ],
+      "source": "TechCrunch / Music Business Worldwide (deep-read)",
+      "url": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/"
+    },
+    {
+      "text": "Three of today's top four GitHub-trending repos are single-purpose agent skills rather than models or general frameworks: tt-a1i/archify (diagram generation, +3,722 stars today, 35.6K total -- the same skill available in this vault's own Claude Code environment), K-Dense-AI/scientific-agent-skills (163 research skills, 39.7K total, claims 190,000+ scientist users), and THU-MAIC/OpenMAIC (multi-agent classroom, 24.7K total). A distinct axis from the marketplace-collection cooldown this vault has tracked all week.",
+      "tags": [
+        "agent-frameworks",
+        "claude-code-ecosyste",
+        "github-oss"
+      ],
+      "source": "GitHub Trending / repo READMEs (deep-read)",
+      "url": "https://github.com/tt-a1i/archify"
+    },
+    {
+      "text": "p-e-w/heretic automates 'directional ablation' -- removing a model's safety-refusal behavior without retraining, via automatic parameter search -- and claims over 5,000 Heretic-processed models already published to Hugging Face. Today's Hugging Face trending board shows the result: five separately-branded uncensored/obliterated forks of one flagship release, Qwen3.8-27B, in the top 20, days after its own release.",
+      "tags": [
+        "on-device-llm",
+        "local-model-inferenc"
+      ],
+      "source": "GitHub / Hugging Face trending (deep-read)",
+      "url": "https://github.com/p-e-w/heretic"
+    },
+    {
+      "text": "The EU Commission's supervision and enforcement powers against general-purpose AI model providers activated 2026-08-02, and the AI Office has begun sending Requests for Information to verify compliance -- the first move from statutory power to practice this vault has tracked. Fines can reach €15 million or 3% of a provider's global annual turnover.",
+      "tags": [
+        "frontier-tripolar-pr",
+        "ai-legal-precedent-f"
+      ],
+      "source": "Help Net Security / EU AI Act enforcement coverage (deep-read)",
+      "url": "https://www.helpnetsecurity.com/2026/08/04/eu-ai-act-enforcement-ai-models/"
+    },
+    {
+      "text": "2026's ASO playbook adds AI-generated/natural-language discovery alongside keyword optimization, and Apple's Custom Product Page limit doubled from 35 to 70. Layered onto this, Google's incoming Play memory-footprint rule (8GB-device apps capped at 2.25GB from February 2027) ties reduced app visibility to non-compliance -- making resource-budget discipline an ASO lever for indie developers, not just a technical concern.",
+      "tags": [
+        "indie-app-monetizati",
+        "play-store-trends"
+      ],
+      "source": "AppFollow / Phiture ASO-trend synthesis (discovery search)",
+      "url": "https://appfollow.io/blog/aso-news"
+    },
+    {
+      "text": "Product Hunt's board carries three same-day agent-infrastructure launches: Superagent ('Claude Code for the rest of us'), Maritime ('dedicated computers for AI agents, starting at $1/month'), and oMLX ('Mac LLM server that cuts agent wait times from 90s to 5s').",
+      "tags": [
+        "ai-dev-tools",
+        "agent-frameworks"
+      ],
+      "source": "Product Hunt scrape",
+      "url": "https://www.producthunt.com/feed"
+    },
+    {
+      "text": "'Haiku R1/beta6 has been released,' today's HN #9 (277 pts/84 comments), is the Haiku operating system -- the BeOS-inspired hobbyist OS -- not an Anthropic model, despite the name collision. The release closes ~530 tickets, nearly halves compile time, and adds Firefox/Go support, landing one week after the project's 25th anniversary.",
+      "tags": [
+        "github-oss"
+      ],
+      "source": "Haiku Project / Hacker News",
+      "url": "https://www.haiku-os.org/news/2026-08-26_haiku_r1_beta6/"
+    },
+    {
+      "text": "Omarchy: Any User Process Can Escalate to Root topped both Hacker News (473 pts/451 comments) and Lobsters today -- the highest-comment-count security story on the board, not yet deep-read.",
+      "tags": [
+        "github-oss"
+      ],
+      "source": "Hacker News / Lobsters scrape",
+      "url": "https://news.ycombinator.com/"
+    }
+  ],
+  "trending": [
+    {
+      "name": "archify",
+      "fullName": "tt-a1i/archify",
+      "stars": "35.6K",
+      "language": "JavaScript",
+      "delta": "+3,722/d",
+      "url": "https://github.com/tt-a1i/archify"
+    },
+    {
+      "name": "OpenMAIC",
+      "fullName": "THU-MAIC/OpenMAIC",
+      "stars": "24.7K",
+      "language": "TypeScript",
+      "delta": "+1,370/d",
+      "url": "https://github.com/THU-MAIC/OpenMAIC"
+    },
+    {
+      "name": "scientific-agent-skills",
+      "fullName": "K-Dense-AI/scientific-agent-skills",
+      "stars": "39.7K",
+      "language": "Python",
+      "delta": "+1,114/d",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "name": "freellmapi",
+      "fullName": "tashfeenahmed/freellmapi",
+      "stars": "23.0K",
+      "language": "TypeScript",
+      "delta": "+504/d",
+      "url": "https://github.com/tashfeenahmed/freellmapi"
+    },
+    {
+      "name": "open-seo",
+      "fullName": "every-app/open-seo",
+      "stars": "15.3K",
+      "language": "TypeScript",
+      "delta": "+469/d",
+      "url": "https://github.com/every-app/open-seo"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "1006",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "3,722",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "12",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "August 31, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Sony Music Publishing and Warner Chappell Music sued Anthropic, alleging a 'brazen campaign' of torrenting, scraping, and lyric-repository theft that infringed 'tens of thousands' of copyrighted compositions -- a wider scope than prior label suits. The complaint names co-founders Dario Amodei and Benjamin Mann personally and seeks up to $150,000 per infringed work plus $25,000 per instance of removed copyright management information.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Three of today's top four GitHub-trending repos are single-purpose agent skills rather than models or general frameworks: tt-a1i/archify , K-Dense-AI/scientific-agent-skills , and THU-MAIC/OpenMAIC . A distinct axis from the marketplace-collection cooldown this vault has tracked all week.",
+        "metric": "35.6K",
+        "source": "GitHub"
+      },
+      {
+        "text": "p-e-w/heretic automates 'directional ablation' -- removing a model's safety-refusal behavior without retraining, via automatic parameter search -- and claims over 5,000 Heretic-processed models already published to Hugging Face. Today's Hugging Face trending board shows the result: five separately-branded uncensored/obliterated forks of one flagship release, Qwen3.8-27B, in the top 20, days after its own release.",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Sony Music and Warner Chappell sue Anthropic over a broader copyright claim than any prior label suit; three of today's top GitHub-trending repos are single-purpose agent skills rather than models or frameworks; an automated abliteration tool and five 'uncensored' Qwen3.8-27B forks show model-uncensoring has become a commodity, same-week pipeline; the EU AI Act's enforcement powers move from statute to practice with the first RFIs to GPAI providers; and Google's incoming Play memory-footprint rule turns technical resource discipline into an ASO discoverability risk for indie developers."
+    }
+  }
+}
