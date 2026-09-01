@@ -1,0 +1,175 @@
+{
+  "date": "2026-09-01",
+  "episodeNumber": 160,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "archify holds GitHub Trending #2 at +3,991 stars/d, OpenMAIC debuts at GitHub #1 : AI teachers and cla, scientific-agent-skills hits GitHub #3 with 163 pa",
+  "heroStat": {
+    "value": "62.8%",
+    "label": "Mistral's open-weight Voxtral TTS beat ElevenLabs Flash v2.5 in blind listening tests"
+  },
+  "insights": [
+    {
+      "text": "archify holds GitHub Trending #2 at +3,991 stars/day (39,583 total), accelerating rather than cooling on its second tracked day since yesterday's +3,722/day debut — a diagram-generation agent skill, not a framework.",
+      "tags": [
+        "github-trending",
+        "agents",
+        "claude-code"
+      ],
+      "source": "GitHub +3,991/day",
+      "url": "https://github.com/tt-a1i/archify"
+    },
+    {
+      "text": "OpenMAIC debuts at GitHub #1 (+2,824/day, 27,772 total): AI teachers and classmates that speak and hold real-time discussion in an auto-generated interactive classroom, built on LangGraph multi-agent orchestration.",
+      "tags": [
+        "agents",
+        "github-trending"
+      ],
+      "source": "GitHub +2,824/day",
+      "url": "https://github.com/THU-MAIC/OpenMAIC"
+    },
+    {
+      "text": "scientific-agent-skills hits GitHub #3 (+1,980/day, 40,931 total) with 163 packaged skills for scientific research — but its headline claim of 190,000+ scientist users has zero independent verification anywhere in the repo.",
+      "tags": [
+        "agents",
+        "research"
+      ],
+      "source": "GitHub +1,980/day",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "text": "Apple moved its Mac Mini and Mac Studio relaunch earlier than the usual October/November window because enterprise AI-workload demand caught the company off guard, with some configurations unavailable for months.",
+      "tags": [
+        "hardware",
+        "research"
+      ],
+      "source": "MacRumors",
+      "url": "https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/"
+    },
+    {
+      "text": "The new Mac Mini ships Apple's first dual Neural Engine (two 16-core engines), and multiple Mac Studio units can now cluster into one system to run larger local AI models.",
+      "tags": [
+        "hardware",
+        "open-source"
+      ],
+      "source": "9to5Mac",
+      "url": "https://9to5mac.com/2026/08/31/unusual-timing-of-mac-mini-and-mac-studio-updates-all-about-ai-claims-report/"
+    },
+    {
+      "text": "Mistral's Voxtral TTS is a 3.4B-parameter open-weight text-to-speech model running on 3GB RAM at 90ms first-audio latency, beating ElevenLabs Flash v2.5 in 62.8% of blind preference tests and 69.9% on voice customization.",
+      "tags": [
+        "open-source",
+        "research"
+      ],
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/orchestration/mistral-ai-just-released-a-text-to-speech-model-it-says-beats-elevenlabs-and"
+    },
+    {
+      "text": "ChatGPT (#6, 4.8 stars) and Google Gemini (#7, 4.7 stars) both appear in today's Play Store top-30 together, breaking yesterday's two-day streak of neither AI-chat app being visible; Claude remains absent.",
+      "tags": [
+        "github-trending"
+      ],
+      "source": "Google Play",
+      "url": "https://play.google.com/store/apps/details?id=com.openai.chatgpt"
+    },
+    {
+      "text": "p-e-w/heretic, an automated model-uncensoring tool, continues trending at +537/day (29,749 total) alongside Hugging Face's own uncensored Qwen3.8-27B forks — de-alignment stays a same-week commodity step after every major open-weight release.",
+      "tags": [
+        "open-source",
+        "research"
+      ],
+      "source": "GitHub +537/day",
+      "url": "https://github.com/p-e-w/heretic"
+    }
+  ],
+  "trending": [
+    {
+      "name": "archify",
+      "fullName": "tt-a1i/archify",
+      "stars": "39.6K",
+      "language": "JavaScript",
+      "delta": "+3,991/d",
+      "url": "https://github.com/tt-a1i/archify"
+    },
+    {
+      "name": "OpenMAIC",
+      "fullName": "THU-MAIC/OpenMAIC",
+      "stars": "27.8K",
+      "language": "TypeScript",
+      "delta": "+2,824/d",
+      "url": "https://github.com/THU-MAIC/OpenMAIC"
+    },
+    {
+      "name": "scientific-agent-skills",
+      "fullName": "K-Dense-AI/scientific-agent-skills",
+      "stars": "40.9K",
+      "language": "Python",
+      "delta": "+1,980/d",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "name": "reverse-skill",
+      "fullName": "zhaoxuya520/reverse-skill",
+      "stars": "33.3K",
+      "language": "PowerShell",
+      "delta": "+1,401/d",
+      "url": "https://github.com/zhaoxuya520/reverse-skill"
+    },
+    {
+      "name": "open-seo",
+      "fullName": "every-app/open-seo",
+      "stars": "15.8K",
+      "language": "TypeScript",
+      "delta": "+610/d",
+      "url": "https://github.com/every-app/open-seo"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "561",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "3,991",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "12",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "September 1, 2026"
+    },
+    "headlines": [
+      {
+        "text": "archify holds GitHub Trending #2 at +3,991 stars/day , accelerating rather than cooling on its second tracked day since yesterday's +3,722/day debut",
+        "metric": "+3,991/d",
+        "source": "GitHub"
+      },
+      {
+        "text": "OpenMAIC debuts at GitHub #1 : AI teachers and classmates that speak and hold real-time discussion in an auto-generated interactive classroom, built on LangGraph multi-agent orchestration.",
+        "metric": "+2,824/d",
+        "source": "GitHub"
+      },
+      {
+        "text": "scientific-agent-skills hits GitHub #3 with 163 packaged skills for scientific research",
+        "metric": "+1,980/d",
+        "source": "GitHub"
+      }
+    ],
+    "takeaway": {
+      "text": "The skill-not-framework distribution pattern keeps compounding (archify's second accelerating day) while the two vendors selling proprietary voice quality (ElevenLabs, Wispr) just got an open-weight competitor that beats one of them in blind tests."
+    }
+  }
+}
