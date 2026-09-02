@@ -1,0 +1,175 @@
+{
+  "date": "2026-09-02",
+  "episodeNumber": 161,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "Claude Fable 5.1 and Mythos 5.1 launch with cache , Fable 5.1 and Mythos 5.1 are the first Claude mode, Imbad0202/academic-research-skills hits GitHub #2 ",
+  "heroStat": {
+    "value": "75%",
+    "label": "Claude Fable 5.1's cache-read price cut, alongside Claude's first mandatory EU AI Act output watermark"
+  },
+  "insights": [
+    {
+      "text": "Claude Fable 5.1 and Mythos 5.1 launch with cache reads down 75% to $0.25/million tokens (up to 45% savings on agentic workloads) and Terminal-Bench-Science roughly doubling from 24.7% to 52.6%.",
+      "tags": [
+        "claude-code",
+        "ai"
+      ],
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1"
+    },
+    {
+      "text": "Fable 5.1 and Mythos 5.1 are the first Claude models to watermark their outputs, required under the EU AI Act; the invisible watermark's detection API is currently restricted to regulators, law enforcement, media, and fact-checkers.",
+      "tags": [
+        "ai",
+        "claude-code"
+      ],
+      "source": "PCWorld",
+      "url": "https://www.pcworld.com/article/3224834/claudes-updated-fable-and-mythos-models-watermark-their-replies.html"
+    },
+    {
+      "text": "Imbad0202/academic-research-skills hits GitHub #2 (45,086 total stars) with a 10-stage, multi-agent research-to-publication pipeline for Claude Code — and unlike a similar science-skills repo logged yesterday, makes no unverified adoption-number claim.",
+      "tags": [
+        "agents",
+        "github-trending"
+      ],
+      "source": "GitHub +193/day",
+      "url": "https://github.com/Imbad0202/academic-research-skills"
+    },
+    {
+      "text": "Four CLI-creative-tool signals (manim, video-use, reclip, pdf-inspector) land on GitHub Trending the same day, breaking an eight-day zero-movement streak on the deterministic, agent-composable tool list this vault tracks.",
+      "tags": [
+        "github-trending",
+        "open-source"
+      ],
+      "source": "GitHub Trending",
+      "url": "https://github.com/3b1b/manim"
+    },
+    {
+      "text": "A developer's M4 Pro Mac Mini setup runs Qwen3.6-35B and Gemma-4-E4B locally via an MLX server, handling '80% of requests that do not need GPT-5 or Claude Opus' across an agent backend, chat, coding, and Raycast tools.",
+      "tags": [
+        "on-device",
+        "hardware"
+      ],
+      "source": "lws.io",
+      "url": "https://lws.io/blog/my-local-model-setup/"
+    },
+    {
+      "text": "A Show HN project runs Hugging Face's #1 trending model, Qwen3.8-Flash-Next, at 104GB on a 48GB Mac via memory streaming at roughly 12 tokens/second.",
+      "tags": [
+        "on-device",
+        "open-source"
+      ],
+      "source": "Show HN",
+      "url": "https://github.com/carloslfu/slotstream"
+    },
+    {
+      "text": "jingyaogong/minimind (GitHub #5, 57,287 stars) packages a full LLM training pipeline that trains a 64M-parameter model from scratch in 2 hours for about $0.42 on a single RTX 3090.",
+      "tags": [
+        "on-device",
+        "github-trending"
+      ],
+      "source": "GitHub +1,005/day",
+      "url": "https://github.com/jingyaogong/minimind"
+    },
+    {
+      "text": "A blog post proposes splitting autonomous coding loops into a Development Agent and a Product Agent that tests blind to implementation details, preventing agents from grading their own repairs — the first structural (not product) answer to the solo-dev fleet review bottleneck.",
+      "tags": [
+        "agents",
+        "research"
+      ],
+      "source": "jx0.ca",
+      "url": "https://jx0.ca/building-autonomous-goal-loops-that-deliver/"
+    }
+  ],
+  "trending": [
+    {
+      "name": "OpenMAIC",
+      "fullName": "THU-MAIC/OpenMAIC",
+      "stars": "29.8K",
+      "language": "TypeScript",
+      "delta": "+3,128/d",
+      "url": "https://github.com/THU-MAIC/OpenMAIC"
+    },
+    {
+      "name": "minimind",
+      "fullName": "jingyaogong/minimind",
+      "stars": "57.3K",
+      "language": "Python",
+      "delta": "+1,005/d",
+      "url": "https://github.com/jingyaogong/minimind"
+    },
+    {
+      "name": "scientific-agent-skills",
+      "fullName": "K-Dense-AI/scientific-agent-skills",
+      "stars": "41.7K",
+      "language": "Python",
+      "delta": "+912/d",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "name": "ECC",
+      "fullName": "affaan-m/ECC",
+      "stars": "246K",
+      "language": "JavaScript",
+      "delta": "+623/d",
+      "url": "https://github.com/affaan-m/ECC"
+    },
+    {
+      "name": "invidious",
+      "fullName": "iv-org/invidious",
+      "stars": "23.8K",
+      "language": "Crystal",
+      "delta": "+577/d",
+      "url": "https://github.com/iv-org/invidious"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "1055",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "3,128",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "12",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "September 2, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Claude Fable 5.1 and Mythos 5.1 launch with cache reads down 75% to $0.25/million tokens and Terminal-Bench-Science roughly doubling from 24.7% to 52.6%.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Fable 5.1 and Mythos 5.1 are the first Claude models to watermark their outputs, required under the EU AI Act; the invisible watermark's detection API is currently restricted to regulators, law enforcement, media, and fact-checkers.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Imbad0202/academic-research-skills hits GitHub #2 with a 10-stage, multi-agent research-to-publication pipeline for Claude Code",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Anthropic ships a cheaper, faster Fable 5.1 the same day it ships Claude's first mandatory watermark — a compliance obligation, not a feature — while an eight-day drought of composable CLI creative-tool signals breaks in a single day."
+    }
+  }
+}
