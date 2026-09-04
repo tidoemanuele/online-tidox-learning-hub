@@ -1,0 +1,157 @@
+{
+  "date": "2026-09-04",
+  "episodeNumber": 162,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "OpenAI's Astra launches as its most capable and 'm, Nvidia confirms and signs its acquisition of Huggi, A 16,893-session study of Claude Code, Codex, and ",
+  "heroStat": {
+    "value": "42%",
+    "label": "how often Claude Code, Codex, and Cursor recommend the identical solution to the same coding task, across a 16,893-session study"
+  },
+  "insights": [
+    {
+      "text": "OpenAI's Astra (GPT-6) launches as its most capable and 'most aligned' model yet, but chief scientist Jakub Pachocki concedes its recurrent architecture has 'opaque recurrence' that obscures chain-of-thought, the model-monitoring process alignment depends on.",
+      "tags": [
+        "ai",
+        "agents"
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/"
+    },
+    {
+      "text": "Nvidia confirms and signs its acquisition of Hugging Face at $12.93 billion (~$11.9B to stockholders plus ~$1.0B employee retention), expected to close H1 2027 — resolving a week of 'agreed but not yet signed' uncertainty.",
+      "tags": [
+        "ai",
+        "open-source"
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/"
+    },
+    {
+      "text": "A 16,893-session study of Claude Code, Codex, and Cursor finds the three agents agree on an identical solution only 42% of the time; Codex web-searches in 94% of sessions vs. Claude Code's roughly 30%, while Claude Code builds custom in-house solutions at nearly double the other two's rate.",
+      "tags": [
+        "ai",
+        "claude-code"
+      ],
+      "source": "Armature",
+      "url": "https://armature.tech/blog/which-tools-coding-agents-install"
+    },
+    {
+      "text": "Google Antigravity's terms of service allow suspending a user's Antigravity or Gemini CLI account for routing third-party tools (like OpenClaw) through its OAuth — a governance risk for computer-use tooling distinct from prompt-injection security failures.",
+      "tags": [
+        "agents",
+        "github-trending"
+      ],
+      "source": "Hacker News",
+      "url": "https://news.ycombinator.com/item?id=49548452"
+    },
+    {
+      "text": "A three-repo marketplace-collection cooldown this vault tracked since late August reverses: mattpocock/skills, affaan-m/ECC, and obra/superpowers all reappear on GitHub Trending the same day after weeks of being outgrown by the official Anthropic plugin mirror.",
+      "tags": [
+        "github-trending",
+        "open-source"
+      ],
+      "source": "GitHub Trending",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "text": "Qwen3.8-27B is reported running on Cerebras hardware at 1,500 tokens per second, while the model itself holds #4 on Hugging Face's trending board at over 5.25 million downloads.",
+      "tags": [
+        "on-device",
+        "open-source"
+      ],
+      "source": "Hacker News",
+      "url": "https://news.ycombinator.com/item?id=49557206"
+    }
+  ],
+  "trending": [
+    {
+      "name": "ponytail",
+      "fullName": "DietrichGebert/ponytail",
+      "stars": "124K",
+      "language": "JavaScript",
+      "delta": "+2,128/d",
+      "url": "https://github.com/DietrichGebert/ponytail"
+    },
+    {
+      "name": "VoiceStudio",
+      "fullName": "debpalash/VoiceStudio",
+      "stars": "16.5K",
+      "language": "Python",
+      "delta": "+1,672/d",
+      "url": "https://github.com/debpalash/VoiceStudio"
+    },
+    {
+      "name": "timesfm",
+      "fullName": "google-research/timesfm",
+      "stars": "30.8K",
+      "language": "Python",
+      "delta": "+1,618/d",
+      "url": "https://github.com/google-research/timesfm"
+    },
+    {
+      "name": "skills",
+      "fullName": "mattpocock/skills",
+      "stars": "248K",
+      "language": "Shell",
+      "delta": "+1,601/d",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "name": "humanizer",
+      "fullName": "blader/humanizer",
+      "stars": "41.7K",
+      "language": "Python",
+      "delta": "+1,208/d",
+      "url": "https://github.com/blader/humanizer"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "1538",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "2,128",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "12",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "6",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "September 4, 2026"
+    },
+    "headlines": [
+      {
+        "text": "OpenAI's Astra launches as its most capable and 'most aligned' model yet, but chief scientist Jakub Pachocki concedes its recurrent architecture has 'opaque recurrence' that obscures chain-of-thought, the model-monitoring process alignment depends on.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Nvidia confirms and signs its acquisition of Hugging Face at $12.93 billion , expected to close H1 2027",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "A 16,893-session study of Claude Code, Codex, and Cursor finds the three agents agree on an identical solution only 42% of the time; Codex web-searches in 94% of sessions vs. Claude Code's roughly 30%, while Claude Code builds custom in-house solutions at nearly double the other two's rate.",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "OpenAI ships Astra claiming its most-aligned model yet while its own chief scientist admits the model's architecture makes it harder to monitor, the same week Nvidia's $12.9B purchase of Hugging Face — the distribution layer nearly every open model in this vault ships through — goes from agreed to signed."
+    }
+  }
+}
