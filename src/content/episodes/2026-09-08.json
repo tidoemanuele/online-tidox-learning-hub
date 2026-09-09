@@ -1,0 +1,134 @@
+{
+  "date": "2026-09-08",
+  "episodeNumber": 164,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "The first controlled eval of agent skills, Naming a test technique buys the framework, not th, The skill that did work was written quickly by som",
+  "heroStat": {
+    "value": "3 of 4",
+    "label": "packaged agent skills that underperformed giving the agent no instructions at all, in the first controlled measurement of skills — 26 conditions, 80 runs each"
+  },
+  "insights": [
+    {
+      "text": "The first controlled eval of agent skills — 26 prompt conditions, 4 skills, 80 runs each, implementing Zstd in Rust — found that 'Default (no additional instructions) does well above average' and that three of the four tested skills underperformed it, including the one from a repo with 250,000 stars.",
+      "tags": [
+        "agents",
+        "verification"
+      ],
+      "source": "Dan Luu",
+      "url": "https://danluu.com/agentic-testing/"
+    },
+    {
+      "text": "Naming a test technique buys the framework, not the technique: agents asked to use formal methods wrote vacuous A-implies-A proofs in Verus, agents asked for property-based testing hammered invalid inputs against trivial properties, and one test of a four-bitstream feature submitted four identical bitstreams.",
+      "tags": [
+        "agents",
+        "verification"
+      ],
+      "source": "Dan Luu",
+      "url": "https://danluu.com/agentic-testing/"
+    },
+    {
+      "text": "The skill that did work was written quickly by someone who says he has 'no feel for how to write a good skill' — the stated difference is that it nudges agents away from their default behaviour, while the underperformers read like tutorials. One was over 20,000 tokens.",
+      "tags": [
+        "agents",
+        "devtools"
+      ],
+      "source": "Dan Luu",
+      "url": "https://danluu.com/agentic-testing/"
+    },
+    {
+      "text": "Ken Thompson's trusting-trust attack is not a compiler problem: researchers built a complete one around GNU strip, a utility that never touches source code, and a single tampered strip in the NixOS binary seed backdoored almost every binary of a full graphical installer — surviving after the seed left the dependency closure.",
+      "tags": [
+        "security",
+        "openweb"
+      ],
+      "source": "arXiv 2607.24888",
+      "url": "https://arxiv.org/abs/2607.24888"
+    },
+    {
+      "text": "Terrastruct is shutting down and open-sourced TALA, its diagram layout algorithm, under MPL-2.0. Its standout feature exists because of a measured model weakness: you can pin node coordinates and let the engine route the edges, since 'models can draw in 2D space well, but still struggle with routing'.",
+      "tags": [
+        "devtools",
+        "agents"
+      ],
+      "source": "D2 blog",
+      "url": "https://d2lang.com/blog/tala-is-open-source/"
+    },
+    {
+      "text": "Video production now ships as twenty agent skills behind a router: HyperFrames turns HTML, CSS and seekable animations into deterministic MP4, installs with one npx command, and its own README warns that the skills registry blob can lag the repo by hours.",
+      "tags": [
+        "agents",
+        "devtools"
+      ],
+      "source": "heygen-com/hyperframes",
+      "url": "https://github.com/heygen-com/hyperframes"
+    },
+    {
+      "text": "Context Mode moves context management to the MCP protocol layer — a subprocess sandbox where raw data never enters the conversation, 315 KB becoming 5.4 KB. Its most useful number is the enforcement gap: about 98% saved via hooks versus about 60% via instruction files, because instructions guide but cannot block.",
+      "tags": [
+        "agents",
+        "devtools"
+      ],
+      "source": "mksglu/context-mode",
+      "url": "https://github.com/mksglu/context-mode"
+    },
+    {
+      "text": "Breeze TTS 2 tops the open-weight text-to-speech leaderboard at 1,215 Elo with sub-40ms time-to-first-audio and voice design from a plain-language description — but the weights are research-and-non-commercial-only and it needs a 12 GB CUDA GPU, so quality went up while deployability went backwards.",
+      "tags": [
+        "voice",
+        "local-ai"
+      ],
+      "source": "Breeze TTS 2 model card",
+      "url": "https://huggingface.co/BreezeBlue/Breeze-TTS-2"
+    }
+  ],
+  "trending": [],
+  "numbers": [
+    {
+      "label": "Stories",
+      "value": "0",
+      "unit": "items"
+    },
+    {
+      "label": "Repos",
+      "value": "0",
+      "unit": "tracked"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "1",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "September 8, 2026"
+    },
+    "headlines": [
+      {
+        "text": "The first controlled eval of agent skills",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Naming a test technique buys the framework, not the technique: agents asked to use formal methods wrote vacuous A-implies-A proofs in Verus, agents asked for property-based testing hammered invalid inputs against trivial properties, and one test of a four-bitstream feature submitted four identical bitstreams.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "The skill that did work was written quickly by someone who says he has 'no feel for how to write a good skill'",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "The ecosystem got its first controlled measurement of agent skills and the answer was that the most-starred one makes testing worse than saying nothing — on the same day that repo led GitHub Trending at +1,897 stars, which is the whole problem in one line: velocity is the only signal anyone has, and it is uncorrelated with whether the thing works."
+    }
+  }
+}

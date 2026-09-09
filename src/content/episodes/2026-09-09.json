@@ -1,0 +1,175 @@
+{
+  "date": "2026-09-09",
+  "episodeNumber": 165,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "Meta launched Muse, a personal AI agent that needs, Cognition raised $2B at a $48B valuation, nearly d, GitHub's #1 trending repo is a skill that reformat",
+  "heroStat": {
+    "value": "$48B",
+    "label": "Cognition's new valuation, up from $26B four months ago, on ARR that grew from $492M to $900M over the same window"
+  },
+  "insights": [
+    {
+      "text": "Meta launched Muse, a personal AI agent that needs access to email, calendar, payments, health and smart-home apps to function -- straight onto the terrain of Meta's own privacy history (the 2019 $5B FTC settlement, Cambridge Analytica, an $18B settlement over harms to children). The mitigation is a dedicated 'Secure VM' with a separated Sentinel agent, not a policy promise, and the version where even Meta can't see inside the workspace isn't shipping until later this year.",
+      "tags": [
+        "agents",
+        "privacy"
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it/"
+    },
+    {
+      "text": "Cognition raised $2B at a $48B valuation, nearly double its $26B round four months ago, with ARR growing from $492M to $900M over the same window and an internal projection of $4-5B by year-end. TechCrunch frames it as evidence AI coding is 'far from winner-take-all' -- this vault's own July note logged Nous Research's open-weight agent framework going from a $50M Series A to $1.5B in three months, a 30x jump against Cognition's 1.85x, same underlying capital-repricing pattern at wildly different scale.",
+      "tags": [
+        "agents",
+        "financial"
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/08/cognition-hits-48b-valuation-signaling-investors-believe-ai-coding-is-far-from-a-winner-take-all-market/"
+    },
+    {
+      "text": "GitHub's #1 trending repo is a skill that reformats agent output into ten structural rules -- lead with the action, number the steps, cap lists at five, cut the preamble -- a mechanism genuinely different from the test-technique skills a controlled eval measured yesterday to underperform giving the agent no instructions at all. Naming a technique doesn't buy the technique; constraining output format is a narrower, more checkable claim, untested but distinct.",
+      "tags": [
+        "agents",
+        "devtools"
+      ],
+      "source": "ayghri/i-have-adhd",
+      "url": "https://github.com/ayghri/i-have-adhd"
+    },
+    {
+      "text": "The repo whose rust-testing skill was measured yesterday to make testing worse than no instructions kept accelerating anyway: +1,485 to +1,897 to +1,427 stars/day across three days, direct-API confirmed at 254,491 total. Star velocity and measured correctness continue moving on completely independent axes for the same repository.",
+      "tags": [
+        "agents",
+        "verification"
+      ],
+      "source": "GitHub API / GitHub Trending",
+      "url": "https://github.com/affaan-m/ECC"
+    },
+    {
+      "text": "A quantization benchmark of Qwen3.8-27B found 4-bit holds full quality on three benchmarks while 1-bit collapses to random-chance level on graduate-level science questions -- 'compression eventually hits a cliff... longer reasoning makes it worse.' The same week, a separate project ran the full 2.8-trillion-parameter Kimi K3 on a MacBook Pro at 1 token/second, streaming its weights live from four SSDs, finding that parallel read latency per layer -- not total disk bandwidth -- sets the pace.",
+      "tags": [
+        "local-ai",
+        "devtools"
+      ],
+      "source": "Quesma / argonautlabsai/deltafin",
+      "url": "https://quesma.com/blog/qwen38-27b-quantizations-benchmarked/"
+    },
+    {
+      "text": "A pretraining researcher who joined Anthropic specifically for its safety reputation resigned and said he's leaving the AI industry entirely, calling the field's trajectory 'racing straight to self-improving superintelligence and gambling with our lives' -- while telling the Wall Street Journal Anthropic's safety work is sincere, but that competition makes trade-offs hard to avoid.",
+      "tags": [
+        "agents",
+        "safety"
+      ],
+      "source": "Hacker News / WSJ",
+      "url": "https://news.ycombinator.com/item?id=49619227"
+    },
+    {
+      "text": "Wednesday's indie-shipping rotation found a coherent cluster of solo-built agent products raising their own stakes: an 'autonomous hedge fund in minutes' framework and a stealth browser built to bypass Cloudflare and bot detection, alongside a week of dev.to posts where solo builders shipped working financial and infrastructure tools rather than coding-assistance wrappers.",
+      "tags": [
+        "agents",
+        "indie-shipping"
+      ],
+      "source": "GitHub Trending / Dev.to",
+      "url": "https://github.com/The-Swarm-Corporation/AutoHedge"
+    },
+    {
+      "text": "A diagram-generation skill vanished from GitHub Trending for exactly one day and came back with net two-day growth consistent with it never actually stopping growing -- Trending's daily board is a sampling artifact of what's visible, not a measurement of what's happening.",
+      "tags": [
+        "devtools",
+        "agents"
+      ],
+      "source": "GitHub Trending",
+      "url": "https://github.com/cathrynlavery/diagram-design"
+    }
+  ],
+  "trending": [
+    {
+      "name": "hyperframes",
+      "fullName": "heygen-com/hyperframes",
+      "stars": "47.9K",
+      "language": "TypeScript",
+      "delta": "+2,627/d",
+      "url": "https://github.com/heygen-com/hyperframes"
+    },
+    {
+      "name": "markitdown",
+      "fullName": "microsoft/markitdown",
+      "stars": "182K",
+      "language": "Python",
+      "delta": "+2,047/d",
+      "url": "https://github.com/microsoft/markitdown"
+    },
+    {
+      "name": "ECC",
+      "fullName": "affaan-m/ECC",
+      "stars": "254K",
+      "language": "JavaScript",
+      "delta": "+1,427/d",
+      "url": "https://github.com/affaan-m/ECC"
+    },
+    {
+      "name": "camofox-browser",
+      "fullName": "jo-inc/camofox-browser",
+      "stars": "10.6K",
+      "language": "JavaScript",
+      "delta": "+871/d",
+      "url": "https://github.com/jo-inc/camofox-browser"
+    },
+    {
+      "name": "diagram-design",
+      "fullName": "cathrynlavery/diagram-design",
+      "stars": "35.3K",
+      "language": "HTML",
+      "delta": "+710/d",
+      "url": "https://github.com/cathrynlavery/diagram-design"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "1454",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "2,627",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "12",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "September 9, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Meta launched Muse, a personal AI agent that needs access to email, calendar, payments, health and smart-home apps to function -- straight onto the terrain of Meta's own privacy history . The mitigation is a dedicated 'Secure VM' with a separated Sentinel agent, not a policy promise, and the version where even Meta can't see inside the workspace isn't shipping until later this year.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Cognition raised $2B at a $48B valuation, nearly double its $26B round four months ago, with ARR growing from $492M to $900M over the same window and an internal projection of $4-5B by year-end. TechCrunch frames it as evidence AI coding is 'far from winner-take-all' -- this vault's own July note logged Nous Research's open-weight agent framework going from a $50M Series A to $1.5B in three months, a 30x jump against Cognition's 1.85x, same underlying capital-repricing pattern at wildly different scale.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "GitHub's #1 trending repo is a skill that reformats agent output into ten structural rules -- lead with the action, number the steps, cap lists at five, cut the preamble -- a mechanism genuinely different from the test-technique skills a controlled eval measured yesterday to underperform giving the agent no instructions at all. Naming a technique doesn't buy the technique; constraining output format is a narrower, more checkable claim, untested but distinct.",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Meta answered 'will consumers trust a personal AI agent with their email, payments and health data' with a VM boundary instead of a promise, on the same day a repo whose test-writing skill was measured to make testing worse kept accelerating anyway -- velocity and trust are being priced on completely different axes right now, and neither one is a measurement of whether the thing works."
+    }
+  }
+}
