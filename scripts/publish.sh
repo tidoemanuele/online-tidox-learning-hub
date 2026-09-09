@@ -50,6 +50,16 @@ fi
 # NotebookLM (learn-2026 audio-sweeper). write-podcast-script.ts / generate-visual-beats.ts
 # stay in the repo but are no longer wired into the daily publish.
 
+# Step 1b: Dependency self-heal.
+# 2026-09-09 postmortem: an OS update wiped node_modules/. `npm run build` failed with
+# `sh: astro: command not found` for two consecutive days, so no episode was ever
+# committed. The research bundles were fine — only the publish step died. Reinstall
+# instead of failing.
+if [ ! -x "node_modules/.bin/astro" ]; then
+  echo "  ⚠ node_modules missing or incomplete — running npm install..."
+  npm install --no-audit --no-fund 2>&1 | tail -3
+fi
+
 # Step 2: Build (validates via Zod schema)
 echo "  Building site..."
 npm run build --silent

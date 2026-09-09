@@ -79,6 +79,12 @@ if [[ ! -f "$EPISODE" ]]; then
 fi
 
 # Step 2: Build + deploy (publish.sh already built/pushed; this guarantees a prod deploy)
+# Dependency self-heal — see the 2026-09-09 postmortem in scripts/publish.sh.
+if [[ ! -x "node_modules/.bin/astro" ]]; then
+  echo "[$(date '+%H:%M:%S')] ⚠ node_modules missing or incomplete — running npm install..."
+  npm install --no-audit --no-fund 2>&1 | tail -3
+fi
+
 echo "[$(date '+%H:%M:%S')] Building..."
 npm run build --silent 2>&1 | tail -2
 
