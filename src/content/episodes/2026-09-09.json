@@ -82,62 +82,21 @@
       "url": "https://github.com/cathrynlavery/diagram-design"
     }
   ],
-  "trending": [
-    {
-      "name": "hyperframes",
-      "fullName": "heygen-com/hyperframes",
-      "stars": "47.9K",
-      "language": "TypeScript",
-      "delta": "+2,627/d",
-      "url": "https://github.com/heygen-com/hyperframes"
-    },
-    {
-      "name": "markitdown",
-      "fullName": "microsoft/markitdown",
-      "stars": "182K",
-      "language": "Python",
-      "delta": "+2,047/d",
-      "url": "https://github.com/microsoft/markitdown"
-    },
-    {
-      "name": "ECC",
-      "fullName": "affaan-m/ECC",
-      "stars": "254K",
-      "language": "JavaScript",
-      "delta": "+1,427/d",
-      "url": "https://github.com/affaan-m/ECC"
-    },
-    {
-      "name": "camofox-browser",
-      "fullName": "jo-inc/camofox-browser",
-      "stars": "10.6K",
-      "language": "JavaScript",
-      "delta": "+871/d",
-      "url": "https://github.com/jo-inc/camofox-browser"
-    },
-    {
-      "name": "diagram-design",
-      "fullName": "cathrynlavery/diagram-design",
-      "stars": "35.3K",
-      "language": "HTML",
-      "delta": "+710/d",
-      "url": "https://github.com/cathrynlavery/diagram-design"
-    }
-  ],
+  "trending": [],
   "numbers": [
     {
-      "label": "Top HN Story",
-      "value": "1454",
-      "unit": "pts"
+      "label": "Stories",
+      "value": "0",
+      "unit": "items"
     },
     {
-      "label": "Fastest Repo",
-      "value": "2,627",
-      "unit": "stars/day"
+      "label": "Repos",
+      "value": "0",
+      "unit": "tracked"
     },
     {
       "label": "Sources Scraped",
-      "value": "12",
+      "value": "1",
       "unit": "sites"
     },
     {
