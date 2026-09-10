@@ -1,0 +1,175 @@
+{
+  "date": "2026-09-10",
+  "episodeNumber": 166,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "Fox and Roku both received a DOJ Second Request on, Desert Ant Labs launched with 18 free on-device AI, Shopify is acquiring Tailwind Labs, maker of the C",
+  "heroStat": {
+    "value": "4.7x",
+    "label": "Claimed transcription speedup of Desert Ant Labs' Voz on-device model over OpenAI's Whisper, 10 minutes of audio in 2 seconds on an iPhone"
+  },
+  "insights": [
+    {
+      "text": "Fox and Roku both received a DOJ Second Request on 2026-09-08, extending federal review of the $22B merger -- exactly the escalation this vault's tracking of the deal flagged as the test for 'real antitrust teeth' back in August. It resolves that standing question and puts Fox-Roku on the same contested footing as the separately-tracked Paramount/WBD merger, which itself hits a ticking-fee deadline in 20 days.",
+      "tags": [
+        "media",
+        "regulation"
+      ],
+      "source": "Bloomberg / TechCrunch",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-09/fox-roku-merger-gets-a-closer-look-by-us-justice-department"
+    },
+    {
+      "text": "Desert Ant Labs launched with 18 free on-device AI models and native SDKs for Swift, Kotlin, and JavaScript -- fully offline, no per-token cost. Its transcription model claims to process 10 minutes of audio in 2 seconds on an iPhone, 4.7x faster than Whisper, free up to 100,000 monthly active devices per SDK.",
+      "tags": [
+        "on-device-ai",
+        "mobile"
+      ],
+      "source": "Hacker News / Desert Ant Labs",
+      "url": "https://desertant.com/"
+    },
+    {
+      "text": "Shopify is acquiring Tailwind Labs, maker of the CSS framework installed 110 million times a week and used by ChatGPT, X, Cloudflare and Reddit -- the open-source project stays MIT-licensed under its existing maintainers. It's the second time in two weeks a platform vendor has bought foundational developer infrastructure it doesn't itself compete in, after Nvidia's $12.9B Hugging Face acquisition.",
+      "tags": [
+        "devtools",
+        "acquisitions"
+      ],
+      "source": "BetaKit / PYMNTS",
+      "url": "https://betakit.com/tailwind-finds-stable-long-term-home-with-shopify-acquisition/"
+    },
+    {
+      "text": "GPT-6 Astra reasons using 'looped transformers' -- the same block applied to a token's representation multiple times instead of adding parameters -- which lets it solve hard problems without ever writing out a readable chain of thought. That's an efficiency win, but it also means the primary way anyone has audited what a reasoning model is 'thinking' no longer necessarily exists for this model.",
+      "tags": [
+        "ai-safety",
+        "architecture"
+      ],
+      "source": "Sebastian Raschka",
+      "url": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and"
+    },
+    {
+      "text": "The repo whose rust-testing skill was measured to make testing worse than no instructions at all keeps decelerating: 1,485 to 1,897 to 1,427 to roughly 833 stars a day across four straight days, direct-API confirmed. Meanwhile an output-formatting skill with no technique claim to test keeps accelerating past 35,000 stars in two days.",
+      "tags": [
+        "agents",
+        "github"
+      ],
+      "source": "GitHub API",
+      "url": "https://github.com/affaan-m/ECC"
+    },
+    {
+      "text": "Neither Claude nor ChatGPT appears in today's Google Play top-30 -- the first day this vault's five-week tracking of the pair has found both simultaneously absent. Google Gemini is the only AI-assistant incumbent visible, at #6.",
+      "tags": [
+        "app-store",
+        "ai-assistants"
+      ],
+      "source": "Google Play Store",
+      "url": "https://play.google.com/store/apps"
+    },
+    {
+      "text": "Google Play's developer-registration deadline -- after which unregistered apps, including ones distributed outside Play entirely, become uninstallable on certified Android devices -- is 20 days away (2026-09-30).",
+      "tags": [
+        "app-store",
+        "compliance"
+      ],
+      "source": "Google Play Console",
+      "url": "https://support.google.com/googleplay/android-developer/table/12921780"
+    },
+    {
+      "text": "`mattpocock/skills` is absent from GitHub Trending for a second consecutive day, weakening (not yet confirming) the week-old thesis that the Claude skills-marketplace category was reversing a mid-August cooldown. The genre keeps rotating between individually-viral repos rather than settling into a stable leaderboard.",
+      "tags": [
+        "agents",
+        "github"
+      ],
+      "source": "GitHub Trending",
+      "url": "https://github.com/mattpocock/skills"
+    }
+  ],
+  "trending": [
+    {
+      "name": "i-have-adhd",
+      "fullName": "ayghri/i-have-adhd",
+      "stars": "35.3K",
+      "language": "Python",
+      "delta": "+4,650/d",
+      "url": "https://github.com/ayghri/i-have-adhd"
+    },
+    {
+      "name": "diagram-design",
+      "fullName": "cathrynlavery/diagram-design",
+      "stars": "36.9K",
+      "language": "HTML",
+      "delta": "+2,249/d",
+      "url": "https://github.com/cathrynlavery/diagram-design"
+    },
+    {
+      "name": "system-design-notes",
+      "fullName": "liquidslr/system-design-notes",
+      "stars": "18.2K",
+      "language": "Unknown",
+      "delta": "+1,397/d",
+      "url": "https://github.com/liquidslr/system-design-notes"
+    },
+    {
+      "name": "ECC",
+      "fullName": "affaan-m/ECC",
+      "stars": "255K",
+      "language": "JavaScript",
+      "delta": "+1,133/d",
+      "url": "https://github.com/affaan-m/ECC"
+    },
+    {
+      "name": "awesome-gpt-image-2",
+      "fullName": "freestylefly/awesome-gpt-image-2",
+      "stars": "30.3K",
+      "language": "JavaScript",
+      "delta": "+705/d",
+      "url": "https://github.com/freestylefly/awesome-gpt-image-2"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "1047",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "4,650",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "12",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "September 10, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Fox and Roku both received a DOJ Second Request on 2026-09-08, extending federal review of the $22B merger -- exactly the escalation this vault's tracking of the deal flagged as the test for 'real antitrust teeth' back in August. It resolves that standing question and puts Fox-Roku on the same contested footing as the separately-tracked Paramount/WBD merger, which itself hits a ticking-fee deadline in 20 days.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Desert Ant Labs launched with 18 free on-device AI models and native SDKs for Swift, Kotlin, and JavaScript -- fully offline, no per-token cost. Its transcription model claims to process 10 minutes of audio in 2 seconds on an iPhone, 4.7x faster than Whisper, free up to 100,000 monthly active devices per SDK.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Shopify is acquiring Tailwind Labs, maker of the CSS framework installed 110 million times a week and used by ChatGPT, X, Cloudflare and Reddit -- the open-source project stays MIT-licensed under its existing maintainers. It's the second time in two weeks a platform vendor has bought foundational developer infrastructure it doesn't itself compete in, after Nvidia's $12.9B Hugging Face acquisition.",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Two separate stories today are the same shape: a merger regulator and a model architecture both just made it structurally harder to see what's actually happening inside something powerful -- the DOJ's Second Request on Fox-Roku forces Fox to show its work, while GPT-6 Astra's looped-transformer reasoning means the model no longer has to."
+    }
+  }
+}
