@@ -1,0 +1,148 @@
+{
+  "date": "2026-09-11",
+  "episodeNumber": 167,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "Shopify announced today it is migrating every mobi, Anthropic's September Threat Intelligence Report n, ayghri/i-have-adhd -- a Claude Code skill that onl",
+  "heroStat": {
+    "value": "1425",
+    "label": "points on \"iPhone Duo\""
+  },
+  "insights": [
+    {
+      "text": "Shopify announced today it is migrating every mobile app from React Native back to native Swift and Kotlin, six years after adopting React Native specifically to cut the cost of maintaining two platform codebases. The Shop app went from proof-of-concept to a fully rebuilt native app in 12 weeks with crash rates down sharply. Shopify's own stated reason: coding agents now do enough of the implementation, translation, testing, and review work that duplicate native code is no longer more expensive than one shared codebase.",
+      "tags": [
+        "claude-code-ecosyste",
+        "mobile",
+        "harness-engineering"
+      ],
+      "source": "Shopify Engineering / Simon Willison",
+      "url": "https://shopify.engineering/back-to-native"
+    },
+    {
+      "text": "Anthropic's September Threat Intelligence Report names three distillation campaigns: Alibaba's is the largest wholesale effort Anthropic says it has observed -- 151 million Claude exchanges across 3,500 accounts, tied to one coordinated chain-of-thought-extraction prompt, feeding the Qwen model family. Moonshot AI routed some Kimi user requests to Claude for training data, including requests CNBC reports originated from Chinese military-linked queries. DeepSeek is tied to over 12 million distillation-attributable exchanges in a 14-day window.",
+      "tags": [
+        "frontier-tripolar-pr",
+        "ai-access-gating"
+      ],
+      "source": "TechCrunch / CNBC",
+      "url": "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek/"
+    },
+    {
+      "text": "ayghri/i-have-adhd -- a Claude Code skill that only reformats agent output (lead with next action, cap lists at five, no preamble) with zero capability change -- tops GitHub Trending at +3,882 stars/day, 38,917 total, up from 27,119 a week ago. A pure-formatting skill is now out-accelerating capability-adding repos, the sharpest evidence yet that the packaging format, not what a skill does, is the unit of competition on GitHub's agent-tooling board.",
+      "tags": [
+        "claude-code-ecosyste",
+        "github-trending"
+      ],
+      "source": "GitHub Trending",
+      "url": "https://github.com/ayghri/i-have-adhd"
+    },
+    {
+      "text": "Cognition launched SWE-2, claiming near-parity with GPT-6 Astra at roughly a quarter of the cost and parity with Claude Fable 5.1 / GPT-5.6 Sol at a fraction of their price. The load-bearing detail: SWE-2 is post-trained from Moonshot's 2.8-trillion-parameter Kimi K3.3, not pretrained from scratch -- a US coding-agent vendor's flagship product now built on top of a Chinese open-weight frontier release.",
+      "tags": [
+        "local-model-inferenc",
+        "agent-framework-expl"
+      ],
+      "source": "Cognition",
+      "url": "https://cognition.com/blog/swe-2"
+    },
+    {
+      "text": "OpenAI shipped an Agents API/SDK -- an orchestration framework for designing, building, and deploying agents -- landing in the same week as GPT-6 Astra's staged rollout, continuing OpenAI's push to formalize agent-building as a first-party developer surface rather than leaving it to third-party frameworks.",
+      "tags": [
+        "agent-framework-expl"
+      ],
+      "source": "Hacker News",
+      "url": "https://news.ycombinator.com/item?id=49645443"
+    }
+  ],
+  "trending": [
+    {
+      "name": "i-have-adhd",
+      "fullName": "ayghri/i-have-adhd",
+      "stars": "38.9K",
+      "language": "Python",
+      "delta": "+3,882/d",
+      "url": "https://github.com/ayghri/i-have-adhd"
+    },
+    {
+      "name": "gods-eye-view",
+      "fullName": "bilawalsidhu/gods-eye-view",
+      "stars": "24.9K",
+      "language": "JavaScript",
+      "delta": "+1,762/d",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view"
+    },
+    {
+      "name": "diagram-design",
+      "fullName": "cathrynlavery/diagram-design",
+      "stars": "38.0K",
+      "language": "HTML",
+      "delta": "+1,294/d",
+      "url": "https://github.com/cathrynlavery/diagram-design"
+    },
+    {
+      "name": "awesome-gpt-image-2",
+      "fullName": "freestylefly/awesome-gpt-image-2",
+      "stars": "31.0K",
+      "language": "JavaScript",
+      "delta": "+962/d",
+      "url": "https://github.com/freestylefly/awesome-gpt-image-2"
+    },
+    {
+      "name": "system-design-notes",
+      "fullName": "liquidslr/system-design-notes",
+      "stars": "19.0K",
+      "language": "Unknown",
+      "delta": "+900/d",
+      "url": "https://github.com/liquidslr/system-design-notes"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "1425",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "3,882",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "13",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "5",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "September 11, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Shopify announced today it is migrating every mobile app from React Native back to native Swift and Kotlin, six years after adopting React Native specifically to cut the cost of maintaining two platform codebases. The Shop app went from proof-of-concept to a fully rebuilt native app in 12 weeks with crash rates down sharply. Shopify's own stated reason: coding agents now do enough of the implementation, translation, testing, and review work that duplicate native code is no longer more expensive than one shared codebase.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Anthropic's September Threat Intelligence Report names three distillation campaigns: Alibaba's is the largest wholesale effort Anthropic says it has observed -- 151 million Claude exchanges across 3,500 accounts, tied to one coordinated chain-of-thought-extraction prompt, feeding the Qwen model family. Moonshot AI routed some Kimi user requests to Claude for training data, including requests CNBC reports originated from Chinese military-linked queries. DeepSeek is tied to over 12 million distillation-attributable exchanges in a 14-day window.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "ayghri/i-have-adhd -- a Claude Code skill that only reformats agent output with zero capability change -- tops GitHub Trending at +3,882 stars/day, 38,917 total, up from 27,119 a week ago. A pure-formatting skill is now out-accelerating capability-adding repos, the sharpest evidence yet that the packaging format, not what a skill does, is the unit of competition on GitHub's agent-tooling board.",
+        "metric": "+3,882/d",
+        "source": "GitHub"
+      }
+    ],
+    "takeaway": {
+      "text": "Coding agents are quietly rewriting which build-vs-buy tradeoffs still make sense -- from mobile cross-platform frameworks to which model a coding-agent startup trains on -- while the same week's distillation report shows the same model-reuse logic treated as an attack when it targets the reporting vendor instead."
+    }
+  }
+}
