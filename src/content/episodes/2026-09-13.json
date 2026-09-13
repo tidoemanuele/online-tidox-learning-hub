@@ -1,0 +1,146 @@
+{
+  "date": "2026-09-13",
+  "episodeNumber": 169,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "Dario Amodei published 'We Must Pace the Frontier,, asgeirtj/system_prompts_leaks now headlines extrac, Two independently-branded offensive-security agent",
+  "heroStat": {
+    "value": "603",
+    "label": "points on \"We must pace the frontier\""
+  },
+  "insights": [
+    {
+      "text": "Dario Amodei published 'We Must Pace the Frontier,' a three-step plan (embedded third-party evaluators with employee-level access, democratic-lab coordination on safety standards, global coordination with authoritarian states) arguing AI capability is outrunning alignment and interpretability work. Sam Altman endorsed it within hours ('I agree with Dario that we need to pace the frontier') and committed OpenAI to the same evaluator-access step; Elon Musk posted 'Dario is right.' The essay lands three days after Anthropic researcher Jacob Coxon resigned publicly warning both Anthropic and OpenAI are 'racing straight to self-improving superintelligence and gambling with our lives.'",
+      "tags": [
+        "agent-security-sandb",
+        "frontier-tripolar-pr"
+      ],
+      "source": "Dario Amodei",
+      "url": "https://darioamodei.com/post/we-must-pace-the-frontier"
+    },
+    {
+      "text": "asgeirtj/system_prompts_leaks (GitHub #3, +217 stars/day, 65,535 total) now headlines extracted system prompts for Claude Fable 5.1, Opus 5, and Claude Design -- the same repo that headlined Claude Fable 5's leaked prompt within days of its July release, confirming vendor system prompts now commoditize on a predictable, sub-week cadence.",
+      "tags": [
+        "claude-code-ecosyste",
+        "github-trending"
+      ],
+      "source": "GitHub Trending",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks"
+    },
+    {
+      "text": "Two independently-branded offensive-security agent tools trended the same day: SnailSploit/Claude-Red (a curated offensive-security skill library) and vxcontrol/pentagi ('fully autonomous AI Agents system capable of performing complex penetration testing'), extending the security-research-vertical skill genre this vault first tracked in August via zhaoxuya520/reverse-skill.",
+      "tags": [
+        "agent-framework-expl"
+      ],
+      "source": "GitHub Trending",
+      "url": "https://github.com/vxcontrol/pentagi"
+    },
+    {
+      "text": "DeepSeek-V4.1-Flash holds Hugging Face Trending #1 (2,033 likes/140,636 downloads, up from yesterday's 1,870/75,774) on its claimed novel encoder-decoder architecture; Qwen3.8-27B's unsloth GGUF quantization now shows more downloads (11.5M) than the base model itself.",
+      "tags": [
+        "local-model-inferenc"
+      ],
+      "source": "Hugging Face Trending",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash"
+    },
+    {
+      "text": "Yesterday's three-way convergence of independently-branded 'agent research to wiki' repos (hyperresearch, OpenResearch, llm_wiki) -- all shipping the same scrape-then-research-agent-then-wiki-compile architecture this vault's own daily pipeline runs -- doesn't recur on today's GitHub Trending board, one day into the two-week window set to test whether it was a genuine category or launch-day coincidence.",
+      "tags": [
+        "llm-wiki-pattern",
+        "agent-framework-expl"
+      ],
+      "source": "GitHub Trending",
+      "url": "https://github.com/nashsu/llm_wiki"
+    }
+  ],
+  "trending": [
+    {
+      "name": "gods-eye-view",
+      "fullName": "bilawalsidhu/gods-eye-view",
+      "stars": "30.3K",
+      "language": "JavaScript",
+      "delta": "+2,265/d",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view"
+    },
+    {
+      "name": "DeskcommCRM",
+      "fullName": "melgarafael/DeskcommCRM",
+      "stars": "1.9K",
+      "language": "TypeScript",
+      "delta": "+504/d",
+      "url": "https://github.com/melgarafael/DeskcommCRM"
+    },
+    {
+      "name": "CloddsBot",
+      "fullName": "alsk1992/CloddsBot",
+      "stars": "2.6K",
+      "language": "TypeScript",
+      "delta": "+376/d",
+      "url": "https://github.com/alsk1992/CloddsBot"
+    },
+    {
+      "name": "OpenFlux",
+      "fullName": "p1neappleXpress/OpenFlux",
+      "stars": "1.4K",
+      "language": "Go",
+      "delta": "+355/d",
+      "url": "https://github.com/p1neappleXpress/OpenFlux"
+    },
+    {
+      "name": "MathModelAgent",
+      "fullName": "jihe520/MathModelAgent",
+      "stars": "5.2K",
+      "language": "Python",
+      "delta": "+262/d",
+      "url": "https://github.com/jihe520/MathModelAgent"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "603",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "2,265",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "13",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "5",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "September 13, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Dario Amodei published 'We Must Pace the Frontier,' a three-step plan arguing AI capability is outrunning alignment and interpretability work. Sam Altman endorsed it within hours and committed OpenAI to the same evaluator-access step; Elon Musk posted 'Dario is right.' The essay lands three days after Anthropic researcher Jacob Coxon resigned publicly warning both Anthropic and OpenAI are 'racing straight to self-improving superintelligence and gambling with our lives.'",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "asgeirtj/system_prompts_leaks now headlines extracted system prompts for Claude Fable 5.1, Opus 5, and Claude Design -- the same repo that headlined Claude Fable 5's leaked prompt within days of its July release, confirming vendor system prompts now commoditize on a predictable, sub-week cadence.",
+        "metric": "+217/d",
+        "source": "GitHub"
+      },
+      {
+        "text": "Two independently-branded offensive-security agent tools trended the same day: SnailSploit/Claude-Red and vxcontrol/pentagi , extending the security-research-vertical skill genre this vault first tracked in August via zhaoxuya520/reverse-skill.",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "The same weekend Anthropic's own CEO calls for pacing AI development after a researcher's extinction warning, Claude's system prompts leak for a third straight model release, two independent teams ship offensive-security agent tools, and yesterday's three-way convergence on a research-agent-to-wiki architecture doesn't repeat."
+    }
+  }
+}
