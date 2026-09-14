@@ -150,10 +150,10 @@ const insightTextsForTrendingFallback = ep.insights.map((i) => i.text);
         <h2 class="text-[11px] font-bold tracking-[1.5px] uppercase text-terracotta mb-4 pb-2 border-b-2 border-terracotta">
           Today's Insights
         </h2>
-        {ep.insights.map((insight) => {
+        {ep.insights.map((insight, insightIndex) => {
           const link = resolveInsightLink(insight);
           return (
-          <article role="article" class="py-4 border-b border-divider last:border-b-0">
+          <article role="article" id={`insight-${insightIndex}`} class="py-4 border-b border-divider last:border-b-0 scroll-mt-24 target:bg-light-bg/60 target:rounded">
             {link?.isDirect ? (
               <a
                 href={link.href}

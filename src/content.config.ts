@@ -34,6 +34,9 @@ const episodes = defineCollection({
       stars: z.string(),
       language: z.string(),
       delta: z.string(),
+      /** The scraper records the repo URL; without it here Zod strips it and
+       *  the archive search cannot link or index a repo by its host. */
+      url: z.string().optional(),
     })),
     numbers: z.array(z.object({
       label: z.string(),

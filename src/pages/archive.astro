@@ -1,5 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
+import ArchiveSearch from '../components/ArchiveSearch';
 import { getCollection } from 'astro:content';
 
 const episodes = await getCollection('episodes');
@@ -11,7 +12,9 @@ const sorted = episodes.sort((a, b) => b.data.date.localeCompare(a.data.date));
     Episodes
   </h1>
 
-  <div class="space-y-0">
+  <ArchiveSearch client:load />
+
+  <div class="space-y-0" id="episode-list">
     {sorted.map((ep) => (
       <a
         href={`/daily/${ep.data.date}`}
