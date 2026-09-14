@@ -18,14 +18,24 @@ const TABS: Tab[] = [
   { id: 'r', label: 'Repos' },
 ];
 
+type Props = {
+  /** Path the query string is written back to. */
+  basePath?: string;
+  /** Page content to hide while results are showing. */
+  hideSelector?: string;
+};
+
 /**
  * Search across every episode, as you type.
  *
  * The index is fetched on the first interaction rather than at page load: it
- * covers the whole archive, and most visitors read the episode list without
- * searching at all.
+ * covers the whole archive, and most visitors read the page they landed on
+ * without searching at all.
  */
-export default function ArchiveSearch() {
+export default function ArchiveSearch({
+  basePath = '/archive',
+  hideSelector = '#episode-list',
+}: Props = {}) {
   const [records, setRecords] = useState<SearchEntry[] | null>(null);
   const [loading, setLoading] = useState(false);
   const [query, setQuery] = useState('');
@@ -62,9 +72,9 @@ export default function ArchiveSearch() {
     if (query) params.set('q', query);
     if (kind) params.set('k', kind);
     const qs = params.toString();
-    window.history.replaceState(null, '', qs ? `/archive?${qs}` : '/archive');
+    window.history.replaceState(null, '', qs ? `${basePath}?${qs}` : basePath);
     setLimit(PAGE);
-  }, [query, kind]);
+  }, [query, kind, basePath]);
 
   const hits: Hit[] = useMemo(() => {
     if (!records) return [];
@@ -74,12 +84,12 @@ export default function ArchiveSearch() {
   const active = Boolean(deferredQuery.trim() || kind);
   const settled = deferredQuery === query;
 
-  // The episode list is server-rendered next to this island; it would just be
-  // noise under a set of results.
+  // The page's own content is server-rendered next to this island; it would
+  // just be noise under a set of results.
   useEffect(() => {
-    const list = document.getElementById('episode-list');
-    if (list) list.hidden = active;
-  }, [active]);
+    const content = document.querySelector<HTMLElement>(hideSelector);
+    if (content) content.hidden = active;
+  }, [active, hideSelector]);
 
   return (
     <div className="mb-8">

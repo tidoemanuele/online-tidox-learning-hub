@@ -136,6 +136,30 @@ with sync_playwright() as p:
     page.wait_for_selector("div.mt-6 > article", timeout=15000)
     page.screenshot(path="/tmp/hub-search-desktop.png")
 
+    # The same search has to work from the home page, hiding today's brief
+    # rather than the episode list.
+    page.set_viewport_size({"width": 1280, "height": 900})
+    page.goto(f"{BASE}/", wait_until="domcontentloaded")
+    page.wait_for_selector("#archive-search", timeout=20000)
+    log("home page has the search field", page.locator("#archive-search").count() == 1)
+    log("today's brief visible before searching", page.locator("#today-content").is_visible())
+
+    home_box = page.locator("#archive-search")
+    home_box.click()
+    home_box.type("github", delay=25)
+    page.wait_for_selector("div.mt-6 > article", timeout=25000)
+    page.wait_for_timeout(600)
+    log("home search returns the whole archive", page.locator("div.mt-6 > article").count() > 0,
+        page.locator("span.ml-auto").inner_text())
+    log("today's brief steps aside for results", not page.locator("#today-content").is_visible())
+    log("home search writes its own path", page.url.rstrip("/").endswith("?q=github") or "?q=github" in page.url,
+        page.url.replace(BASE, "")[:24])
+    page.screenshot(path="/tmp/hub-home-search.png")
+
+    page.keyboard.press("Escape")
+    page.wait_for_timeout(500)
+    log("Escape restores today's brief", page.locator("#today-content").is_visible())
+
     log("no page errors", not page_errors, "; ".join(page_errors[:2])[:70])
     log("no same-origin request failures", not same_origin_failures, str(same_origin_failures[:2])[:70])
     browser.close()

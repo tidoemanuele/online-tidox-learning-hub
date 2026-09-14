@@ -1,5 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
+import ArchiveSearch from '../components/ArchiveSearch';
 import { getCollection } from 'astro:content';
 import { resolveInsightLink } from '../lib/hub-episode-utils';
 
@@ -17,6 +18,9 @@ const editionDate = ep.date.replace(/-/g, '.');
 ---
 
 <Base title="Today" description={ep.subtitle}>
+  <ArchiveSearch client:load basePath="/" hideSelector="#today-content" />
+
+  <div id="today-content">
   <!-- Edition line -->
   <p class="edition">
     <span class="edition-no">№&nbsp;{ep.episodeNumber}</span>
@@ -83,6 +87,7 @@ const editionDate = ep.date.replace(/-/g, '.');
   <div class="cta-row">
     <a href={`/daily/${ep.date}`} class="cta cta--solid">Read full episode →</a>
     <a href="/archive" class="cta cta--outline">Browse archive ({sorted.length} episodes)</a>
+  </div>
   </div>
 </Base>
 
