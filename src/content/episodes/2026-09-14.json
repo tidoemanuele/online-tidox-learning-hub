@@ -1,0 +1,146 @@
+{
+  "date": "2026-09-14",
+  "episodeNumber": 170,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "JustVugg/colibri streams individual MoE experts fr, Claude Fable 5.1 autonomously solved the Cyphral D, Google's own Android Developers Blog reveals the S",
+  "heroStat": {
+    "value": "697",
+    "label": "points on \"Why is Google still serving dodgy ads?\""
+  },
+  "insights": [
+    {
+      "text": "JustVugg/colibri (GitHub #1, +868 stars/day, 30,231 total) streams individual MoE experts from disk rather than loading a full model into memory, treating disk/RAM/VRAM as one hierarchy. Pure C, zero dependencies, already supporting nine model families up to 2.8T parameters (Kimi K3) and 975B (Inkling), letting consumer hardware run models normally requiring datacenter-class memory.",
+      "tags": [
+        "local-model-inferenc",
+        "github-trending"
+      ],
+      "source": "GitHub Trending",
+      "url": "https://github.com/JustVugg/colibri"
+    },
+    {
+      "text": "Claude Fable 5.1 autonomously solved the Cyphral Distich, a 370-year-old cipher ranked among cryptology's 50 most famous unsolved messages, in 44 minutes and 176,000 tokens with zero human interjections -- finding that each cipher number indexes a word in Thomas Urquhart's own 1653 text, whose first letter spells a hidden Royalist prayer.",
+      "tags": [
+        "ai-dev-tools"
+      ],
+      "source": "Vals AI",
+      "url": "https://www.vals.ai/blogs/fable-solves-cyphral-distich"
+    },
+    {
+      "text": "Google's own Android Developers Blog reveals the Sept 30, 2026 developer-verification deadline -- which this vault's 09-07 entry read as a global, binary cliff reaching sideloaded distribution -- actually covers four pilot countries (Brazil, Indonesia, Singapore, Thailand) across seven app stores, with adb sideloading preserved even there. Global rollout has no committed date.",
+      "tags": [
+        "indie-app-monetizati",
+        "play-store-trust-bif"
+      ],
+      "source": "Android Developers Blog",
+      "url": "https://android-developers.googleblog.com/2026/06/android-developer-verification.html"
+    },
+    {
+      "text": "asgeirtj/system_prompts_leaks sustains a third consecutive day of GitHub Trending (66,212 total stars, up from 65,535 yesterday), turning what looked like a one-off leak into a duration question.",
+      "tags": [
+        "claude-code-ecosyste",
+        "github-trending"
+      ],
+      "source": "GitHub Trending",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks"
+    },
+    {
+      "text": "Simon Willison shipped two separate tools in one evening -- commit-rewriter 0.1 and shot-scraper 1.12 -- while Peter Steinberger opened three PRs across two repos within two minutes and GitHub's spec-kit shipped two patch releases at an identical timestamp: a same-day cluster of high-frequency, small-unit maintainer shipping.",
+      "tags": [
+        "solo-dev-agentic-wor"
+      ],
+      "source": "AI People roster",
+      "url": "https://simonwillison.net/2026/Sep/14/commit-rewriter/"
+    }
+  ],
+  "trending": [
+    {
+      "name": "gods-eye-view",
+      "fullName": "bilawalsidhu/gods-eye-view",
+      "stars": "32.3K",
+      "language": "JavaScript",
+      "delta": "+2,680/d",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view"
+    },
+    {
+      "name": "VoiceStudio",
+      "fullName": "debpalash/VoiceStudio",
+      "stars": "27.3K",
+      "language": "Python",
+      "delta": "+2,632/d",
+      "url": "https://github.com/debpalash/VoiceStudio"
+    },
+    {
+      "name": "colibri",
+      "fullName": "JustVugg/colibri",
+      "stars": "30.2K",
+      "language": "C",
+      "delta": "+868/d",
+      "url": "https://github.com/JustVugg/colibri"
+    },
+    {
+      "name": "system_prompts_leaks",
+      "fullName": "asgeirtj/system_prompts_leaks",
+      "stars": "66.2K",
+      "language": "JavaScript",
+      "delta": "+706/d",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks"
+    },
+    {
+      "name": "pentagi",
+      "fullName": "vxcontrol/pentagi",
+      "stars": "24.1K",
+      "language": "Go",
+      "delta": "+590/d",
+      "url": "https://github.com/vxcontrol/pentagi"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "697",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "2,680",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "13",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "5",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "September 14, 2026"
+    },
+    "headlines": [
+      {
+        "text": "JustVugg/colibri streams individual MoE experts from disk rather than loading a full model into memory, treating disk/RAM/VRAM as one hierarchy. Pure C, zero dependencies, already supporting nine model families up to 2.8T parameters and 975B , letting consumer hardware run models normally requiring datacenter-class memory.",
+        "metric": "+868/d",
+        "source": "GitHub"
+      },
+      {
+        "text": "Claude Fable 5.1 autonomously solved the Cyphral Distich, a 370-year-old cipher ranked among cryptology's 50 most famous unsolved messages, in 44 minutes and 176,000 tokens with zero human interjections -- finding that each cipher number indexes a word in Thomas Urquhart's own 1653 text, whose first letter spells a hidden Royalist prayer.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Google's own Android Developers Blog reveals the Sept 30, 2026 developer-verification deadline -- which this vault's 09-07 entry read as a global, binary cliff reaching sideloaded distribution -- actually covers four pilot countries across seven app stores, with adb sideloading preserved even there. Global rollout has no committed date.",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "colibri turns disk into inference memory for trillion-parameter models the same week Google's own text quietly narrows a deadline this vault had flagged as a global cliff, while Claude Fable 5.1 cracks a cipher no human solved in 370 years."
+    }
+  }
+}
