@@ -14,6 +14,11 @@ import time
 from playwright.sync_api import sync_playwright
 
 BASE = sys.argv[1] if len(sys.argv) > 1 else "http://localhost:4325"
+
+# The index is ~850 KB. Locally it is a disk read; against production the first
+# request after a deploy is a cold CDN fetch, which needs a longer leash.
+FIRST_RESULTS_TIMEOUT = 15000 if BASE.startswith("http://localhost") else 45000
+
 results = []
 
 
@@ -48,7 +53,7 @@ with sync_playwright() as p:
     box = page.locator("#archive-search")
     box.click()
     box.type("github", delay=25)
-    page.wait_for_selector("div.mt-6 > article", timeout=15000)
+    page.wait_for_selector("div.mt-6 > article", timeout=FIRST_RESULTS_TIMEOUT)
     page.wait_for_timeout(600)
     count_text = page.locator("span.ml-auto").inner_text()
     log("github returns the whole archive's links", rows(page).count() > 0, count_text)
@@ -90,7 +95,7 @@ with sync_playwright() as p:
     log("filters are in the URL", "k=i" in page.url, page.url.split("/archive")[-1][:30])
 
     open_archive(page, "?q=anthropic&k=i")
-    page.wait_for_selector("div.mt-6 > article", timeout=15000)
+    page.wait_for_selector("div.mt-6 > article", timeout=25000)
     log("a shared link restores the search", rows(page).count() > 0,
         page.locator("span.ml-auto").inner_text())
 
@@ -112,7 +117,7 @@ with sync_playwright() as p:
         page.locator("div.mt-6 > article").first.inner_text().replace("\n", " · ")[:72])
 
     open_archive(page, "?q=rust&k=r")
-    page.wait_for_selector("div.mt-6 > article", timeout=15000)
+    page.wait_for_selector("div.mt-6 > article", timeout=25000)
     repo_link = page.locator("div.mt-6 > article a[target=_blank]").first.get_attribute("href")
     log("repo rows link to the repository", "github.com" in (repo_link or ""), repo_link or "no link")
 
@@ -136,14 +141,14 @@ with sync_playwright() as p:
 
     page.set_viewport_size({"width": 390, "height": 844})
     open_archive(page, "?q=github")
-    page.wait_for_selector("div.mt-6 > article", timeout=15000)
+    page.wait_for_selector("div.mt-6 > article", timeout=25000)
     log("no horizontal overflow on a phone",
         not page.evaluate("document.documentElement.scrollWidth > document.documentElement.clientWidth"))
     page.screenshot(path="/tmp/hub-search-mobile.png")
 
     page.set_viewport_size({"width": 1280, "height": 900})
     open_archive(page, "?q=github")
-    page.wait_for_selector("div.mt-6 > article", timeout=15000)
+    page.wait_for_selector("div.mt-6 > article", timeout=25000)
     page.screenshot(path="/tmp/hub-search-desktop.png")
 
     # The same search has to work from the home page, hiding today's brief
