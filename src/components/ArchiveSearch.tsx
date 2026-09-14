@@ -189,6 +189,7 @@ function ResultRow({ hit, query }: { hit: Hit; query: string }) {
         <span className="text-[10px] uppercase tracking-[1px] text-terracotta">
           {isRepo ? 'Repo' : 'Insight'}
         </span>
+        {isRepo && record.c > 1 && <span className="text-[11px] text-gray">latest</span>}
         {record.h && <span className="text-[11px] text-gray">{record.h}</span>}
       </div>
 
@@ -204,6 +205,11 @@ function ResultRow({ hit, query }: { hit: Hit; query: string }) {
           </a>
           {record.g && <span className="text-[12px] text-gray">{record.g}</span>}
           {record.o && <span className="text-[12px] font-[family-name:var(--font-mono)] text-gray">{record.o}</span>}
+          {record.c > 1 && (
+            <span className="text-[11px] text-gray">
+              {record.c} days trending, from {record.f}
+            </span>
+          )}
         </div>
       ) : (
         <>

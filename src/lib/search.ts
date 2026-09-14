@@ -30,6 +30,10 @@ export type SearchRecord = {
   u: string;
   /** Host of that link, indexed so "github" finds everything it points at. */
   h: string;
+  /** How many episodes this row covers: days trending for a repo, 1 for an insight. */
+  c: number;
+  /** First episode this row appeared in. */
+  f: string;
 };
 
 export type SearchEntry = {

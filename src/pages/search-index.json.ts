@@ -28,6 +28,12 @@ export const GET: APIRoute = async () => {
   const episodes = await getCollection('episodes');
   const records: SearchRecord[] = [];
 
+  // A trending repo reappears for as long as it trends — 21 days for the most
+  // persistent one — and 760 appearances collapse to 301 repos. Deduping here
+  // rather than in the browser keeps the page free of repeats at no runtime
+  // cost, and makes the payload smaller instead of larger.
+  const repos = new Map<string, SearchRecord>();
+
   for (const episode of episodes) {
     const { date, episodeNumber, subtitle, insights, trending } = episode.data;
 
@@ -43,6 +49,8 @@ export const GET: APIRoute = async () => {
         o: insight.source ?? '',
         u: insight.url ?? '',
         h: host(insight.url),
+        c: 1,
+        f: date,
       });
     });
 
@@ -56,22 +64,37 @@ export const GET: APIRoute = async () => {
         ? `https://github.com/${repo.fullName}`
         : '';
       const url = repo.url ?? derived;
+      const name = repo.fullName || repo.name;
+      const previous = repos.get(name);
 
-      records.push({
-        k: 'r',
-        d: date,
-        n: episodeNumber,
-        s: subtitle,
-        x: position,
-        t: repo.fullName || repo.name,
-        g: repo.language ?? '',
-        o: [repo.stars, repo.delta].filter(Boolean).join(' · '),
-        u: url,
-        h: host(url) || 'github.com',
-      });
+      // Keep the newest appearance's star count, and remember how long it ran.
+      if (!previous || date > previous.d) {
+        repos.set(name, {
+          k: 'r',
+          d: date,
+          n: episodeNumber,
+          s: subtitle,
+          x: position,
+          t: name,
+          g: repo.language ?? '',
+          o: [repo.stars, repo.delta].filter(Boolean).join(' · '),
+          u: url || previous?.u || '',
+          h: host(url) || 'github.com',
+          c: (previous?.c ?? 0) + 1,
+          f: previous ? previous.f : date,
+        });
+      } else {
+        repos.set(name, {
+          ...previous,
+          c: previous.c + 1,
+          f: date < previous.f ? date : previous.f,
+          u: previous.u || url,
+        });
+      }
     });
   }
 
+  records.push(...repos.values());
   records.sort((a, b) => b.d.localeCompare(a.d) || a.k.localeCompare(b.k) || a.x - b.x);
 
   return new Response(JSON.stringify(records), {

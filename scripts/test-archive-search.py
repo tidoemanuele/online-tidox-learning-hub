@@ -101,6 +101,16 @@ with sync_playwright() as p:
     anchor = href.split("#")[-1]
     log("that anchor exists on the episode page", page.locator(f"#{anchor}").count() == 1, anchor)
 
+    # A repo that trends for weeks must appear once, not once per episode.
+    open_archive(page, "?k=r&q=mattpocock")
+    page.wait_for_selector("div.mt-6 > article", timeout=25000)
+    page.wait_for_timeout(400)
+    titles = page.locator("div.mt-6 > article a").all_inner_texts()
+    repeated = [t for t in titles if "mattpocock/skills" in t]
+    log("a long-running repo appears once", len(repeated) == 1, f"{len(repeated)} row(s)")
+    log("the row says how long it trended", "days trending" in page.content(),
+        page.locator("div.mt-6 > article").first.inner_text().replace("\n", " · ")[:72])
+
     open_archive(page, "?q=rust&k=r")
     page.wait_for_selector("div.mt-6 > article", timeout=15000)
     repo_link = page.locator("div.mt-6 > article a[target=_blank]").first.get_attribute("href")
