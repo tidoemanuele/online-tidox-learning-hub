@@ -1,0 +1,176 @@
+{
+  "date": "2026-09-17",
+  "episodeNumber": 173,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "HarnessTax tested three coding-agent harnesses on , Alibaba's open-code-review, the internal code revi, Anthropic is merging Claude Cowork and Claude chat",
+  "heroStat": {
+    "value": "2121",
+    "label": "points on \"Show HN: An e-ink frame that hears birds and draws them as 1\""
+  },
+  "insights": [
+    {
+      "text": "HarnessTax tested three coding-agent harnesses on 64 SWE-Bench Pro tasks and measured the same trivial task costing 2,600 tokens in a minimal harness versus 27,000 in Claude Code, purely in framework overhead before the model does any task work. A 40-turn session burns 1.12 million input tokens, roughly half of it harness plumbing. The finding that complicates the standing narrative: harness choice barely moved how often tasks got solved on this benchmark, even though it doubled the cost -- in tension with an earlier controlled study where harness alone took a model from 30% to 100% on a different, game-shaped benchmark.",
+      "tags": [
+        "harness-engineering",
+        "agent-frameworks",
+        "verification-stack"
+      ],
+      "source": "HarnessTax",
+      "url": "https://harnesstax.github.io/"
+    },
+    {
+      "text": "Alibaba's open-code-review, the internal code reviewer the company open-sourced this week, held GitHub's #1 trending slot for a third consecutive day (29,176 to 32,534 stars). No new claim -- the persistence itself is the story, extending a deterministic-engineering-beats-general-agent argument that's now three days into sustained community attention rather than a launch-week spike.",
+      "tags": [
+        "github-oss",
+        "ai-code-review",
+        "harness-engineering"
+      ],
+      "source": "GitHub - alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review"
+    },
+    {
+      "text": "Anthropic is merging Claude Cowork and Claude chat into one interface for Pro and Max subscribers, with work continuing after logout -- the same week Google opened early access to a Home MCP server letting any MCP-compatible agent (Claude, ChatGPT, Hermes) control Nest devices, review camera summaries, and operate thermostats and smart bulbs for $20/month subscribers. One lab is consolidating surfaces into a single agent; the other is expanding the same protocol's reach into physical space, in the same 24 hours.",
+      "tags": [
+        "ai-dev-tools",
+        "mcp-protocol-arc"
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices/"
+    },
+    {
+      "text": "One person trained a 4-billion-parameter model for about $1,200 that generates hints steering Postgres's own query planner toward faster execution paths, reaching an 81% average speedup with zero regressions on a standard 113-query benchmark. The model only works on the one database schema it trained on by design -- the author frames it as a technique for queries that run thousands of times, not a general database upgrade -- but it's an independently checkable, open-code instance of a pattern this project has otherwise only seen as vendor marketing claims.",
+      "tags": [
+        "ai-dev-tools",
+        "on-device-llm"
+      ],
+      "source": "Rohan Bansal",
+      "url": "https://rohanbansal.com/qorl"
+    },
+    {
+      "text": "Anthropic and OpenAI's proposal to embed independent safety evaluators inside frontier labs -- floated four days ago, rejected by Nvidia's Jensen Huang two days ago -- now has a stated shape: physical access, company badges, and publishing rights for evaluators who'd watch development happen rather than audit finished models. Still no named evaluator, no start date, no disclosed access scope. Forward motion in specificity, not in verification.",
+      "tags": [
+        "agent-security-sandb",
+        "verification-stack"
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/"
+    },
+    {
+      "text": "colibri, the pure-C engine that streams frontier-scale mixture-of-experts models from disk instead of requiring them fully in memory, extended to a fourth consecutive GitHub Trending day (30,231 flat for seven weeks, then 32,412, 34,098, 35,163 across three days) with no changelog entry or announcement found that explains the sustained growth. Persistence across four days is the strongest evidence yet this isn't a Trending-algorithm artifact, even without a known cause.",
+      "tags": [
+        "on-device-llm",
+        "local-inference"
+      ],
+      "source": "GitHub",
+      "url": "https://github.com/JustVugg/colibri"
+    },
+    {
+      "text": "The Thursday OTT and streaming rotation found nothing dated to this week across three targeted searches -- only evergreen explainer content and viewing guides. The one technical detail worth carrying forward, at reduced confidence since it wasn't confirmed against a primary source: Samsung's own developer documentation now marks PlayReady deprecated on new Tizen TVs, steering toward Widevine as the sole DRM path on that platform.",
+      "tags": [
+        "ott-streaming"
+      ],
+      "source": "Samsung Developer (via search)",
+      "url": "https://developer.samsung.com/smarttv/develop/specifications/media-specifications.html"
+    },
+    {
+      "text": "affaan-m/ECC, the agent-harness performance-optimization repo this project's own tooling is built on, reappeared on GitHub Trending today (+1,057 stars/day, 260,487 total) after roughly a week's absence from the captured board -- no stated cause, logged for continuity against a repo this vault has tracked losing and regaining trending visibility repeatedly since early September.",
+      "tags": [
+        "github-oss",
+        "claude-code-ecosyste"
+      ],
+      "source": "GitHub",
+      "url": "https://github.com/affaan-m/ECC"
+    }
+  ],
+  "trending": [
+    {
+      "name": "open-code-review",
+      "fullName": "alibaba/open-code-review",
+      "stars": "32.5K",
+      "language": "Go",
+      "delta": "+3,231/d",
+      "url": "https://github.com/alibaba/open-code-review"
+    },
+    {
+      "name": "colibri",
+      "fullName": "JustVugg/colibri",
+      "stars": "35.2K",
+      "language": "C",
+      "delta": "+1,546/d",
+      "url": "https://github.com/JustVugg/colibri"
+    },
+    {
+      "name": "WeKnora",
+      "fullName": "Tencent/WeKnora",
+      "stars": "25.6K",
+      "language": "Go",
+      "delta": "+1,197/d",
+      "url": "https://github.com/Tencent/WeKnora"
+    },
+    {
+      "name": "tinycast",
+      "fullName": "abue-ammar/tinycast",
+      "stars": "5.7K",
+      "language": "Swift",
+      "delta": "+1,179/d",
+      "url": "https://github.com/abue-ammar/tinycast"
+    },
+    {
+      "name": "ghidra",
+      "fullName": "NationalSecurityAgency/ghidra",
+      "stars": "78.0K",
+      "language": "Java",
+      "delta": "+1,059/d",
+      "url": "https://github.com/NationalSecurityAgency/ghidra"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "2121",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "3,231",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "13",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "September 17, 2026"
+    },
+    "headlines": [
+      {
+        "text": "HarnessTax tested three coding-agent harnesses on 64 SWE-Bench Pro tasks and measured the same trivial task costing 2,600 tokens in a minimal harness versus 27,000 in Claude Code, purely in framework overhead before the model does any task work. A 40-turn session burns 1.12 million input tokens, roughly half of it harness plumbing. The finding that complicates the standing narrative: harness choice barely moved how often tasks got solved on this benchmark, even though it doubled the cost -- in tension with an earlier controlled study where harness alone took a model from 30% to 100% on a different, game-shaped benchmark.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Alibaba's open-code-review, the internal code reviewer the company open-sourced this week, held GitHub's #1 trending slot for a third consecutive day . No new claim -- the persistence itself is the story, extending a deterministic-engineering-beats-general-agent argument that's now three days into sustained community attention rather than a launch-week spike.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Anthropic is merging Claude Cowork and Claude chat into one interface for Pro and Max subscribers, with work continuing after logout -- the same week Google opened early access to a Home MCP server letting any MCP-compatible agent control Nest devices, review camera summaries, and operate thermostats and smart bulbs for $20/month subscribers. One lab is consolidating surfaces into a single agent; the other is expanding the same protocol's reach into physical space, in the same 24 hours.",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Today's evidence pulls the harness-matters thesis in two directions at once: real, measured token overhead as high as 27,000 tokens before useful work starts, but a resolve-rate gap too small to confirm the capability story this vault has been building since July."
+    }
+  }
+}
