@@ -5,7 +5,7 @@ import tailwindcss from '@tailwindcss/vite';
 import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
-  site: 'https://tidox.hub',
+  site: 'https://learning.tidox.online',
   output: 'static',
   integrations: [react(), sitemap()],
   vite: {

@@ -25,6 +25,10 @@ const year = new Date().getFullYear();
   <meta property="og:title" content={`${title} — Tidox Learning Hub`} />
   <meta property="og:description" content={description} />
   <meta property="og:type" content="website" />
+  <meta property="og:image" content={new URL('/og-image.jpg', Astro.site)} />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 </head>
 <body class="min-h-screen flex flex-col">
   <!-- N6 Newspaper masthead -->
