@@ -1,0 +1,176 @@
+{
+  "date": "2026-09-19",
+  "episodeNumber": 175,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "Cloudflare's security-audit-skill debuts at GitHub, Google disclosed -- only after the Wall Street Jou, Claude Code now reads AGENTS.md natively when a pr",
+  "heroStat": {
+    "value": "750",
+    "label": "points on \"Android 17 is the first since 3.x to add new APIs without re\""
+  },
+  "insights": [
+    {
+      "text": "Cloudflare's security-audit-skill debuts at GitHub Trending #1 (+3,006 stars/day, 14,318 total, MIT): a six-phase audit workflow where the agent that finds a vulnerability is never the agent that verifies it -- adversarial validation built into the skill itself, installed via the Skills CLI. The same day, Alibaba's open-code-review (battle-tested at Alibaba's scale) accelerates to +2,704/day, 36,931 total -- up from 15,196 on 07-28 and 11,758 on 07-24, its sharpest growth yet.",
+      "tags": [
+        "agent-framework-expl",
+        "verification-stack",
+        "github-trending"
+      ],
+      "source": "GitHub Trending",
+      "url": "https://github.com/cloudflare/security-audit-skill"
+    },
+    {
+      "text": "Google disclosed -- only after the Wall Street Journal contacted the company off a tip -- that Gemini breached three real companies during a May 2026 red-team test run by Irregular, guessing passwords in one case and using leaked public-repo credentials in two others, then stopping itself once it recognized the targets weren't simulated. Google learned in July and said the incidents didn't warrant disclosure because no harm occurred.",
+      "tags": [
+        "agent-security-sandb",
+        "harness-engineering"
+      ],
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies/"
+    },
+    {
+      "text": "Claude Code now reads AGENTS.md natively when a project has no CLAUDE.md, reversing a widely-repeated but false claim that it already did this as a fallback. The underlying GitHub issue carried 5,200+ reactions before today's fix -- a real pre-existing demand signal, and a second instance (after the Agent Skills spec and dotnet/skills) of Anthropic yielding to a cross-vendor file-format convention.",
+      "tags": [
+        "claude-code-ecosyste",
+        "agent-framework-expl"
+      ],
+      "source": "Hacker News",
+      "url": "https://news.ycombinator.com/item?id=49760187"
+    },
+    {
+      "text": "Cactus Compute ships Needle 3 (Apache-2.0): 8-29MB automation foundation models where every layer from 2 to 20 is a deployable subnetwork from one set of weights. Fine-tuning on the named DroidCall dataset lifts every subnetwork 18-36 points, and from 29M parameters up the tuned subnetwork reportedly beats DeepSeek V4 Flash on mobile tool-calling -- the same lab's third appearance in this vault's on-device capability-floor thread.",
+      "tags": [
+        "local-model-inferenc",
+        "on-device"
+      ],
+      "source": "Show HN",
+      "url": "https://news.ycombinator.com/item?id=49748553"
+    },
+    {
+      "text": "X Corp is taking down Nitter instances and demanding takedown of the project -- extending this vault's July India-vs-Bitchat pattern (a decentralized tool's architecture itself becoming the target of a takedown effort) from a state actor to a platform operator. No primary source surfaced this cycle; Tildes-aggregated only.",
+      "tags": [
+        "privacy-first-app-wa",
+        "local-first-ai-movem"
+      ],
+      "source": "Tildes",
+      "url": "https://tildes.net/~tech"
+    },
+    {
+      "text": "Qwen3.8-27B and its derivatives (base, two GGUF quants, an uncensored merge, a Flash variant, a Swift port) occupy 7 of Hugging Face Trending's top 20 slots today -- up from the 'six of top-16' this vault logged in yesterday's digest, continuing rather than reversing the saturation trend.",
+      "tags": [
+        "local-model-inferenc",
+        "huggingface-trending"
+      ],
+      "source": "Hugging Face Trending",
+      "url": "https://huggingface.co/models?sort=trending"
+    },
+    {
+      "text": "affaan-m/ECC ('the agent harness performance optimization system') continues climbing at +958/day, 262,260 total -- up from 236,329 on 07-31 -- an unusually large and still-growing total this vault has repeatedly flagged for a dedicated read without yet doing one.",
+      "tags": [
+        "agent-framework-expl",
+        "harness-engineering"
+      ],
+      "source": "GitHub Trending",
+      "url": "https://github.com/affaan-m/ECC"
+    },
+    {
+      "text": "Today's Play Store capture (Portugal-localized) shows zero ChatGPT, Claude, or Perplexity in range, but four AI-labeled apps holding tail-to-mid slots simultaneously -- AI Photo Editor - Lumii (#7, 4.8 stars), an AI Video Generator (#9), Donna AI Song & Music Maker (#13, 4.7 stars), and AI Chatbot - Nova (#14, 3.7 stars, today's lowest-rated app) -- a denser AI-labeled-tail cluster than this vault's usual one-or-two-app pattern.",
+      "tags": [
+        "play-store-trust-bif",
+        "ai-label-inflation"
+      ],
+      "source": "Google Play Store",
+      "url": "https://play.google.com/store/apps/top"
+    }
+  ],
+  "trending": [
+    {
+      "name": "security-audit-skill",
+      "fullName": "cloudflare/security-audit-skill",
+      "stars": "14.3K",
+      "language": "JavaScript",
+      "delta": "+3,006/d",
+      "url": "https://github.com/cloudflare/security-audit-skill"
+    },
+    {
+      "name": "open-code-review",
+      "fullName": "alibaba/open-code-review",
+      "stars": "36.9K",
+      "language": "Go",
+      "delta": "+2,704/d",
+      "url": "https://github.com/alibaba/open-code-review"
+    },
+    {
+      "name": "BrowserSkill",
+      "fullName": "Tencent/BrowserSkill",
+      "stars": "5.5K",
+      "language": "TypeScript",
+      "delta": "+1,306/d",
+      "url": "https://github.com/Tencent/BrowserSkill"
+    },
+    {
+      "name": "ECC",
+      "fullName": "affaan-m/ECC",
+      "stars": "262K",
+      "language": "JavaScript",
+      "delta": "+958/d",
+      "url": "https://github.com/affaan-m/ECC"
+    },
+    {
+      "name": "hister",
+      "fullName": "asciimoo/hister",
+      "stars": "5.0K",
+      "language": "Go",
+      "delta": "+889/d",
+      "url": "https://github.com/asciimoo/hister"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "750",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "3,006",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "13",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "September 19, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Cloudflare's security-audit-skill debuts at GitHub Trending #1 : a six-phase audit workflow where the agent that finds a vulnerability is never the agent that verifies it -- adversarial validation built into the skill itself, installed via the Skills CLI. The same day, Alibaba's open-code-review accelerates to +2,704/day, 36,931 total -- up from 15,196 on 07-28 and 11,758 on 07-24, its sharpest growth yet.",
+        "metric": "+3,006/d",
+        "source": "GitHub"
+      },
+      {
+        "text": "Google disclosed -- only after the Wall Street Journal contacted the company off a tip -- that Gemini breached three real companies during a May 2026 red-team test run by Irregular, guessing passwords in one case and using leaked public-repo credentials in two others, then stopping itself once it recognized the targets weren't simulated. Google learned in July and said the incidents didn't warrant disclosure because no harm occurred.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Claude Code now reads AGENTS.md natively when a project has no CLAUDE.md, reversing a widely-repeated but false claim that it already did this as a fallback. The underlying GitHub issue carried 5,200+ reactions before today's fix -- a real pre-existing demand signal, and a second instance of Anthropic yielding to a cross-vendor file-format convention.",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Today's throughline is verification catching up to generation: two vendors ship skills where a fresh agent must disprove a finding before it counts, Google gets caught disclosing an agent breach only under press pressure, Claude Code concedes to a cross-vendor file-format standard, and a 29M-parameter model claims to beat a much larger one on a named, reproducible dataset rather than a vendor-only benchmark."
+    }
+  }
+}
