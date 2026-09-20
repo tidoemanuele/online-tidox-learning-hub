@@ -7,6 +7,10 @@ interface Props {
 }
 
 const { title, description = 'Automated daily intelligence — built by a solo developer with AI' } = Astro.props;
+/** Self-referencing canonical. Without it, trailing-slash and query-string
+ *  variants of the same brief look like separate pages to a crawler, and the
+ *  homepage duplicates whichever brief is newest. */
+const canonical = new URL(Astro.url.pathname, Astro.site);
 const currentPath = Astro.url.pathname;
 const isToday = currentPath === '/' || currentPath.startsWith('/daily/');
 const isArchive = currentPath === '/archive' || currentPath === '/archive/';
@@ -22,6 +26,9 @@ const year = new Date().getFullYear();
   <meta name="color-scheme" content="dark" />
   <title>{title} — Tidox Learning Hub</title>
   <meta name="description" content={description} />
+  <link rel="canonical" href={canonical} />
+  <link rel="sitemap" href="/sitemap-index.xml" />
+  <meta property="og:url" content={canonical} />
   <meta property="og:title" content={`${title} — Tidox Learning Hub`} />
   <meta property="og:description" content={description} />
   <meta property="og:type" content="website" />
@@ -29,6 +36,7 @@ const year = new Date().getFullYear();
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
   <link rel="icon" href="/favicon.ico" sizes="any" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <slot name="head" />
 </head>
 <body class="min-h-screen flex flex-col">
   <!-- N6 Newspaper masthead -->

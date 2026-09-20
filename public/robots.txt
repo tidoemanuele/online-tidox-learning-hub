@@ -1,0 +1,6 @@
+# robots.txt for learning.tidox.online
+
+User-agent: *
+Allow: /
+
+Sitemap: https://learning.tidox.online/sitemap-index.xml

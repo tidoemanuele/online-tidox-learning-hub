@@ -57,9 +57,30 @@ const prev = currentIndex > 0 ? sorted[currentIndex - 1] : null;
 const next = currentIndex < sorted.length - 1 ? sorted[currentIndex + 1] : null;
 
 const insightTextsForTrendingFallback = ep.insights.map((i) => i.text);
+/** Article JSON-LD. 176 dated technical briefs with no structured data is the
+ *  largest schema gap on the domain, and dated briefs are exactly what
+ *  generative engines cite. Author and publisher are the Tidox organisation. */
+const articleSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: `${ep.title} — ${ep.date}`,
+  description: ep.subtitle,
+  datePublished: ep.date,
+  dateModified: ep.date,
+  inLanguage: ep.locale,
+  isAccessibleForFree: true,
+  mainEntityOfPage: {
+    '@type': 'WebPage',
+    '@id': new URL(Astro.url.pathname, Astro.site).href,
+  },
+  author: { '@type': 'Organization', name: 'Tidox', url: 'https://tidox.online/' },
+  publisher: { '@type': 'Organization', name: 'Tidox', url: 'https://tidox.online/' },
+};
 ---
 
+
 <Base title={`Episode ${ep.episodeNumber} · ${ep.date}`} description={ep.subtitle}>
+  <script type="application/ld+json" slot="head" set:html={JSON.stringify(articleSchema)} is:inline />
   <article>
     <!-- Episode meta -->
     <div class="mb-2">
