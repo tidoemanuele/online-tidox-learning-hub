@@ -4,9 +4,14 @@ import '../styles/global.css';
 interface Props {
   title: string;
   description?: string;
+  /** Skip the " — Tidox Learning Hub" suffix. A daily brief's own headline
+   *  already fills the ~60 characters a SERP shows, and Google renders the site
+   *  name separately, so the suffix only bought truncation. */
+  bareTitle?: boolean;
 }
 
-const { title, description = 'Automated daily intelligence — built by a solo developer with AI' } = Astro.props;
+const { title, description = 'Automated daily intelligence — built by a solo developer with AI', bareTitle = false } = Astro.props;
+const fullTitle = bareTitle ? title : `${title} — Tidox Learning Hub`;
 /** Self-referencing canonical. Without it, trailing-slash and query-string
  *  variants of the same brief look like separate pages to a crawler, and the
  *  homepage duplicates whichever brief is newest. */
@@ -24,12 +29,12 @@ const year = new Date().getFullYear();
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="color-scheme" content="dark" />
-  <title>{title} — Tidox Learning Hub</title>
+  <title>{fullTitle}</title>
   <meta name="description" content={description} />
   <link rel="canonical" href={canonical} />
   <link rel="sitemap" href="/sitemap-index.xml" />
   <meta property="og:url" content={canonical} />
-  <meta property="og:title" content={`${title} — Tidox Learning Hub`} />
+  <meta property="og:title" content={fullTitle} />
   <meta property="og:description" content={description} />
   <meta property="og:type" content="website" />
   <meta property="og:image" content={new URL('/og-image.jpg', Astro.site)} />

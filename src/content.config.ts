@@ -22,6 +22,9 @@ const episodes = defineCollection({
     episodeNumber: z.number().int().positive(),
     locale: z.string().default('en-US'),
     title: z.string(),
+    /** Real per-day heading. Optional: older records predate it and the site
+     *  derives one from the top insight when it is absent. */
+    headline: z.string().optional(),
     subtitle: z.string(),
     heroStat: z.object({
       value: z.string(),

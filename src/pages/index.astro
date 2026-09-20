@@ -2,7 +2,7 @@
 import Base from '../layouts/Base.astro';
 import ArchiveSearch from '../components/ArchiveSearch';
 import { getCollection } from 'astro:content';
-import { resolveInsightLink } from '../lib/hub-episode-utils';
+import { episodeDescription, episodeHeadline, resolveInsightLink } from '../lib/hub-episode-utils';
 
 const episodes = await getCollection('episodes');
 const sorted = episodes.sort((a, b) => b.data.date.localeCompare(a.data.date));
@@ -15,9 +15,11 @@ const ep = latest.data;
 // Top 3 insights for the preview
 const topInsights = ep.insights.slice(0, 3);
 const editionDate = ep.date.replace(/-/g, '.');
+const headline = episodeHeadline(ep);
+const description = episodeDescription(ep);
 ---
 
-<Base title="Today" description={ep.subtitle}>
+<Base title="Today" description={description}>
   <ArchiveSearch client:load basePath="/" hideSelector="#today-content" />
 
   <div id="today-content">
@@ -34,15 +36,19 @@ const editionDate = ep.date.replace(/-/g, '.');
   <p class="kicker">{ep.title}</p>
 
   <!-- Stat-Led hero: the figure is the spine, its meaning the headline -->
+  <!-- The heading is the day's lead story. The hero figure keeps its visual
+       weight but is a caption, not the page heading: its label is a truncated
+       stat qualifier and read as gibberish when a crawler took it as the h1. -->
+  <h1 class="stat-qualifier stat-qualifier--lead">{headline}</h1>
   {ep.heroStat ? (
     <section class="stat-hero" aria-label="Lead figure">
       <div class="stat-figure">{ep.heroStat.value}</div>
-      <h1 class="stat-qualifier">{ep.heroStat.label}</h1>
-      <p class="dek">{ep.subtitle}</p>
+      <p class="stat-qualifier">{ep.heroStat.label}</p>
+      <p class="dek">{description}</p>
     </section>
   ) : (
     <section class="stat-hero" aria-label="Lead">
-      <h1 class="stat-qualifier stat-qualifier--lead">{ep.subtitle}</h1>
+      <p class="dek">{description}</p>
     </section>
   )}
 

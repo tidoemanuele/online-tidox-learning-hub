@@ -146,3 +146,110 @@ export function resolveInsightLink(insight: {
 
   return null;
 }
+
+/* ── Episode headline ─────────────────────────────────────────────────────── */
+
+export const HEADLINE_MAX = 100;
+/** Google truncates a title around 60 characters, and the layout appends
+ *  daily pages pass bareTitle so nothing is appended. */
+export const HEADLINE_TITLE_MAX = 62;
+const HEADLINE_MIN = 25;
+
+/** Words that read as a dangling fragment when a clip lands on them. */
+const TRAILING_STOPWORDS = new Set(
+  ['a', 'an', 'and', 'as', 'at', 'but', 'by', 'for', 'from', 'in', 'into', 'of', 'on', 'onto',
+   'or', 'over', 'per', 'than', 'that', 'the', 'to', 'up', 'via', 'with', 'without'],
+);
+
+const squash = (text: string) => (text ?? '').replace(/\s+/g, ' ').trim();
+
+/** Everything up to the first sentence break, so a headline is never two thoughts. */
+function firstSentence(text: string): string {
+  const line = squash(text);
+  const end = line.search(/(?<=[a-z0-9)\]"'])\.\s+(?=[A-Z(])/);
+  return end === -1 ? line.replace(/\.$/, '') : line.slice(0, end);
+}
+
+/** Clip at a clause break when there is one, else at a word break — never mid-word. */
+function clip(text: string, max = HEADLINE_MAX): string {
+  const line = squash(text);
+  if (line.length <= max) return tidy(line);
+  const window = line.slice(0, max + 1);
+  for (const separator of [', ', ' -- ', ' — ', '; ', ' – ']) {
+    const at = window.lastIndexOf(separator);
+    if (at > 40) return tidy(window.slice(0, at));
+  }
+  const space = window.lastIndexOf(' ');
+  return tidy(space > 40 ? window.slice(0, space) : line.slice(0, max));
+}
+
+/** Drop trailing punctuation, an unbalanced quote, and a dangling stopword. */
+function tidy(text: string): string {
+  let out = squash(text).replace(/[\s,;:–—-]+$/, '');
+  for (const quote of ["'", '"', '“', '‘']) {
+    const opens = out.split(quote).length - 1;
+    if (opens % 2 === 1 && out.endsWith(quote)) out = out.slice(0, -1).trimEnd();
+  }
+  const words = out.split(' ');
+  while (words.length > 4 && TRAILING_STOPWORDS.has(words[words.length - 1].toLowerCase())) {
+    words.pop();
+  }
+  return words.join(' ').replace(/[\s,;:–—-]+$/, '');
+}
+
+type HeadlineSource = {
+  headline?: string;
+  date: string;
+  scenes?: { headlines?: { text: string }[] };
+  insights?: { text: string }[];
+};
+
+/**
+ * The real heading for a brief.
+ *
+ * `episode.title` is the literal constant "Intelligence Brief" on every record,
+ * and `episode.subtitle` is three insight texts each cut at 50 characters and
+ * joined with commas, so it breaks mid-word. Neither can be a heading. The top
+ * insight of the day is written prose and is unique per edition, so derive from
+ * that and let the generator override it with an explicit `headline`.
+ */
+export function episodeHeadline(episode: HeadlineSource): string {
+  const explicit = squash(episode.headline ?? '');
+  if (explicit) return explicit;
+
+  const candidates = [
+    episode.scenes?.headlines?.[0]?.text,
+    episode.insights?.[0]?.text,
+  ];
+  for (const candidate of candidates) {
+    const text = clip(firstSentence(squash(candidate ?? '').replace(/^\*\*|\*\*$/g, '')));
+    if (text.length >= HEADLINE_MIN) return text;
+  }
+  return `Intelligence Brief — ${episode.date}`;
+}
+
+/** The same headline, cut short enough to survive a SERP title. */
+export function episodeTitle(episode: HeadlineSource): string {
+  return clip(episodeHeadline(episode), HEADLINE_TITLE_MAX);
+}
+
+export const DESCRIPTION_MAX = 155;
+
+/**
+ * Meta description for a brief.
+ *
+ * `episode.subtitle` is three insight texts each cut at exactly 50 characters
+ * and joined with commas, so stored records end clauses mid-word
+ * ("...security-audit-skil,"). Rebuild from the same source with word-safe
+ * clipping instead of shipping that into a SERP snippet.
+ */
+export function episodeDescription(episode: HeadlineSource & { subtitle?: string }): string {
+  const parts = (episode.scenes?.headlines ?? episode.insights ?? [])
+    .slice(0, 3)
+    .map((item) => clip(firstSentence(squash(item.text ?? '')), 60))
+    .filter((part) => part.length >= 15);
+
+  const rebuilt = parts.join(' · ');
+  if (rebuilt.length >= 60) return clip(rebuilt, DESCRIPTION_MAX);
+  return clip(squash(episode.subtitle ?? ''), DESCRIPTION_MAX) || episodeHeadline(episode);
+}

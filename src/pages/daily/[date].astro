@@ -5,7 +5,7 @@ import Base from '../../layouts/Base.astro';
 import { VideoPlayer } from '../../components/VideoPlayer';
 import { TrendingReposList } from '../../components/TrendingReposList';
 import { getCollection } from 'astro:content';
-import { resolveInsightLink } from '../../lib/hub-episode-utils';
+import { episodeDescription, episodeHeadline, episodeTitle, resolveInsightLink } from '../../lib/hub-episode-utils';
 
 export async function getStaticPaths() {
   const episodes = await getCollection('episodes');
@@ -17,6 +17,11 @@ export async function getStaticPaths() {
 
 const { episode } = Astro.props;
 const ep = episode.data;
+const headline = episodeHeadline(ep);
+/** The h1 carries the full headline; the <title> gets a shorter cut so the
+ *  SERP does not truncate it. */
+const pageTitle = episodeTitle(ep);
+const description = episodeDescription(ep);
 
 /** Pre-rendered MP4 must live at public/video/{date}.mp4 to be deployed with the site. */
 const mp4Path = join(process.cwd(), 'public', 'video', `${ep.date}.mp4`);
@@ -63,8 +68,8 @@ const insightTextsForTrendingFallback = ep.insights.map((i) => i.text);
 const articleSchema = {
   '@context': 'https://schema.org',
   '@type': 'Article',
-  headline: `${ep.title} — ${ep.date}`,
-  description: ep.subtitle,
+  headline,
+  description,
   datePublished: ep.date,
   dateModified: ep.date,
   inLanguage: ep.locale,
@@ -79,7 +84,7 @@ const articleSchema = {
 ---
 
 
-<Base title={`Episode ${ep.episodeNumber} · ${ep.date}`} description={ep.subtitle}>
+<Base title={pageTitle} description={description} bareTitle>
   <script type="application/ld+json" slot="head" set:html={JSON.stringify(articleSchema)} is:inline />
   <article>
     <!-- Episode meta -->
@@ -95,9 +100,10 @@ const articleSchema = {
     </p>
 
     <!-- Daily editorial headline (the hero text) -->
-    <h1 class="text-[28px] md:text-[32px] font-bold font-[family-name:var(--font-display)] text-heading leading-tight mb-6">
-      {ep.subtitle}
+    <h1 class="text-[28px] md:text-[32px] font-bold font-[family-name:var(--font-display)] text-heading leading-tight mb-3">
+      {headline}
     </h1>
+    <p class="text-[15px] leading-relaxed text-gray mb-6">{description}</p>
 
     <!-- Hero stat -->
     {ep.heroStat && (

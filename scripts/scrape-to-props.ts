@@ -17,6 +17,7 @@
 
 import { readFileSync, writeFileSync, existsSync, readdirSync } from 'fs';
 import { join } from 'path';
+import { episodeHeadline } from '../src/lib/hub-episode-utils';
 
 // --- Paths ---
 const RESEARCH_BASE = process.env.RESEARCH_BASE ?? join(import.meta.dirname!, '..', 'research');
@@ -154,6 +155,16 @@ function extractSourceFromInsight(text: string): string | undefined {
   return undefined;
 }
 
+/** Cut at a word break, never mid-word. Both call sites used a bare slice(),
+ *  which produced strings like "cloudflare/security-audit-skil,". */
+function clipWords(text: string, max: number): string {
+  const line = (text ?? '').replace(/\s+/g, ' ').trim();
+  if (line.length <= max) return line;
+  const window = line.slice(0, max + 1);
+  const space = window.lastIndexOf(' ');
+  return (space > max * 0.5 ? window.slice(0, space) : line.slice(0, max)).replace(/[\s,;:–—-]+$/, '');
+}
+
 function pickHeroStat(insights: string[], hnStories: RawHNStory[]): { value: string; label: string } | undefined {
   // Look for a dramatic number in the top insight
   for (const text of insights.slice(0, 3)) {
@@ -167,7 +178,7 @@ function pickHeroStat(insights: string[], hnStories: RawHNStory[]): { value: str
   // Fallback: highest HN points
   if (hnStories.length > 0) {
     const top = hnStories.reduce((a, b) => a.points > b.points ? a : b);
-    return { value: String(top.points), label: `points on "${top.title.slice(0, 60)}"` };
+    return { value: String(top.points), label: `points on "${clipWords(top.title, 60)}"` };
   }
 
   return undefined;
@@ -406,7 +417,7 @@ function main() {
   ];
 
   // Subtitle (first 3 insights summarized)
-  const subtitle = headlines.map(h => h.text.slice(0, 50)).join(', ');
+  const subtitle = headlines.map(h => clipWords(h.text, 50)).join(', ');
 
   // Hero stat (Learn 2026 bundle may supply one directly)
   const heroStat = learnHeroStat
@@ -423,6 +434,7 @@ function main() {
     episodeNumber,
     locale: 'en-US',
     title: 'Intelligence Brief',
+    headline: episodeHeadline({ date, scenes: { headlines }, insights }),
     subtitle,
     ...(heroStat && { heroStat }),
     insights,
