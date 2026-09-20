@@ -1,0 +1,174 @@
+{
+  "date": "2026-09-20",
+  "episodeNumber": 176,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "subtitle": "GitHub issue #20 on cloudflare/security-audit-skil, The same evaluation names six class-level gaps: CV, cloudflare/security-audit-skill itself keeps compo",
+  "heroStat": {
+    "value": "1472",
+    "label": "points on \"AI-generated posters don’t have to be horrible\""
+  },
+  "insights": [
+    {
+      "text": "GitHub issue #20 on cloudflare/security-audit-skill is a pre-registered, blind, n=3-per-arm comparison against a rival multi-lens review pipeline and a plain single-agent control. The skill held median 90% precision with zero hits on either deliberate decoy across three rounds, but cost a median $29.95 per run against $7.66 for the pipeline and $2.06 for the single-agent control -- 3.9x and 14.5x respectively -- while its recall (0.467) tied the cheap control exactly and sat 0.40 points below the pricier pipeline.",
+      "tags": [
+        "agent-tooling-consol",
+        "verification-stack",
+        "github-trending"
+      ],
+      "source": "GitHub (issue)",
+      "url": "https://github.com/cloudflare/security-audit-skill/issues/20"
+    },
+    {
+      "text": "The same evaluation names six class-level gaps: CVE/advisory grounding is 0% by design and undisclosed as a boundary; locale-specific and non-English-library defects never enter the coverage ledger; the quick profile has no recovery path when one hunter's return is malformed; and a re-run at the weakest model tier held precision but lost 20 recall points and twice wrote its report to scratch space because its own permission grant didn't cover the requested output directory.",
+      "tags": [
+        "harness-engineering",
+        "agent-tooling-consol"
+      ],
+      "source": "GitHub (issue)",
+      "url": "https://github.com/cloudflare/security-audit-skill/issues/20"
+    },
+    {
+      "text": "cloudflare/security-audit-skill itself keeps compounding regardless of the mixed evaluation: +3,155 stars/day, 16,726 total, up from 14,318 yesterday and 11,046 the day before -- three consecutive tracked days of growth.",
+      "tags": [
+        "github-trending",
+        "agent-tooling-consol"
+      ],
+      "source": "GitHub Trending",
+      "url": "https://github.com/cloudflare/security-audit-skill"
+    },
+    {
+      "text": "TechCrunch's coverage of Google's Gemini breach (three companies, May 2026, disclosed only after WSJ pressure) adds security researcher Jack Cable on record: Google is \"trying to hide behind the norms that have been created for vulnerability disclosure.\" TechCrunch also explicitly names this as mirroring OpenAI's earlier 2026 breach of Hugging Face -- the first mainstream-press naming of the pattern this vault had already drawn internally.",
+      "tags": [
+        "agent-security-sandb"
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies/"
+    },
+    {
+      "text": "A 176-setting controlled ablation (arXiv 2609.20804) across five context-management strategies, four context-window budgets, and four models finds planning shifts from an accuracy lever for weaker models to a pure cost lever for stronger ones, and staged rule-based elision before LLM summarization is the strongest context-management strategy for efficiency -- the same paper this vault flagged 09-18 as a candidate mechanism behind HarnessTax's null resolve-rate result.",
+      "tags": [
+        "harness-engineering"
+      ],
+      "source": "ArXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.20804"
+    },
+    {
+      "text": "Google Play Store's AI-app count flips from zero yesterday to five today (ChatGPT, AI Chatbot - Nova, Chat AI, Donna AI Song Maker, Suno) in the same top-30 -- and the same app, AI Chatbot - Nova, shows a 4.1-star rating today versus 3.7 yesterday, a same-app one-day swing that reads as capture noise rather than a real quality change.",
+      "tags": [
+        "play-store-trust-bif",
+        "ai-label-inflation"
+      ],
+      "source": "Google Play Store",
+      "url": "https://play.google.com/store/apps/top"
+    },
+    {
+      "text": "asciimoo/hister debuts on GitHub Trending (#10, +420/day, 5,300 total): a private, full-text search index over browsing history, bookmarks, and local files, queryable from a web UI, terminal, or an AI assistant connected via MCP -- a related but architecturally distinct signal from this vault's tracked scrape-to-wiki convergence test, which remains unresolved (three tracked repos still absent from Trending one week into the falsification window).",
+      "tags": [
+        "llm-wiki-pattern",
+        "github-trending"
+      ],
+      "source": "GitHub Trending",
+      "url": "https://github.com/asciimoo/hister"
+    },
+    {
+      "text": "Qwen3.8-27B and its derivatives occupy 6 of Hugging Face Trending's top 15 today, while DeepSeek-V4.1-Flash appears both as the official release (#2) and as a same-day community-uncensored FP8 remix (#20) -- the flagship-chased-by-uncensored-remix pattern this vault has logged for Qwen now also visible on a second model family.",
+      "tags": [
+        "local-model-inferenc",
+        "huggingface-trending"
+      ],
+      "source": "Hugging Face Trending",
+      "url": "https://huggingface.co/models?sort=trending"
+    }
+  ],
+  "trending": [
+    {
+      "name": "security-audit-skill",
+      "fullName": "cloudflare/security-audit-skill",
+      "stars": "16.7K",
+      "language": "JavaScript",
+      "delta": "+3,155/d",
+      "url": "https://github.com/cloudflare/security-audit-skill"
+    },
+    {
+      "name": "cua",
+      "fullName": "trycua/cua",
+      "stars": "24.6K",
+      "language": "HTML",
+      "delta": "+859/d",
+      "url": "https://github.com/trycua/cua"
+    },
+    {
+      "name": "agent-skills",
+      "fullName": "addyosmani/agent-skills",
+      "stars": "97.2K",
+      "language": "JavaScript",
+      "delta": "+556/d",
+      "url": "https://github.com/addyosmani/agent-skills"
+    },
+    {
+      "name": "claude-code",
+      "fullName": "anthropics/claude-code",
+      "stars": "147K",
+      "language": "TypeScript",
+      "delta": "+483/d",
+      "url": "https://github.com/anthropics/claude-code"
+    },
+    {
+      "name": "OpenStock",
+      "fullName": "Open-Dev-Society/OpenStock",
+      "stars": "16.2K",
+      "language": "TypeScript",
+      "delta": "+472/d",
+      "url": "https://github.com/Open-Dev-Society/OpenStock"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "1472",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "3,155",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "13",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "September 20, 2026"
+    },
+    "headlines": [
+      {
+        "text": "GitHub issue #20 on cloudflare/security-audit-skill is a pre-registered, blind, n=3-per-arm comparison against a rival multi-lens review pipeline and a plain single-agent control. The skill held median 90% precision with zero hits on either deliberate decoy across three rounds, but cost a median $29.95 per run against $7.66 for the pipeline and $2.06 for the single-agent control -- 3.9x and 14.5x respectively -- while its recall tied the cheap control exactly and sat 0.40 points below the pricier pipeline.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "The same evaluation names six class-level gaps: CVE/advisory grounding is 0% by design and undisclosed as a boundary; locale-specific and non-English-library defects never enter the coverage ledger; the quick profile has no recovery path when one hunter's return is malformed; and a re-run at the weakest model tier held precision but lost 20 recall points and twice wrote its report to scratch space because its own permission grant didn't cover the requested output directory.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "cloudflare/security-audit-skill itself keeps compounding regardless of the mixed evaluation: +3,155 stars/day, 16,726 total, up from 14,318 yesterday and 11,046 the day before -- three consecutive tracked days of growth.",
+        "metric": "+3,155/d",
+        "source": "GitHub"
+      }
+    ],
+    "takeaway": {
+      "text": "Today's throughline is measurement catching up to launch-day hype: a security-audit skill that debuted at #1 gets its first real independent numbers and they're mixed, a controlled 176-setting study gives harness design its first cross-model mechanism, TechCrunch puts an on-record critic's name on Google's disclosure delay, and a single day flips Play Store's AI-app count from zero to five -- a reminder that this pipeline's own single-day snapshots need a second data point before they mean anything."
+    }
+  }
+}
