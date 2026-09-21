@@ -1,0 +1,178 @@
+{
+  "date": "2026-09-21",
+  "episodeNumber": 177,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "headline": "On 09-16 this vault set a falsification test for TypeSafe's Jev: 'a second lab shipping",
+  "subtitle": "On 09-16 this vault set a falsification test for, The open System One cluster is three models, not, Fifteen Jev-derived artifacts appear across six",
+  "heroStat": {
+    "value": "626",
+    "label": "points on \"Exfiltrate Your Weights\""
+  },
+  "insights": [
+    {
+      "text": "On 09-16 this vault set a falsification test for TypeSafe's Jev: 'a second lab shipping a non-generative typed-decision model within the quarter makes it a category.' It was met in five days by something stronger than a second lab. convaiinnovations/laya trends at #2 on Hugging Face with 1,223 likes, created 2026-09-18, Apache-2.0, tagged with the exact vocabulary Jev introduced -- system-one, rlcd, calibrated-decisions -- and claims 32.8ms per typed question across 100+ languages from a non-autoregressive encoder-only architecture, with open weights, training notebooks and benchmarks.",
+      "tags": [
+        "verification-stack",
+        "local-model-inferenc",
+        "huggingface"
+      ],
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/convaiinnovations/laya"
+    },
+    {
+      "text": "The open System One cluster is three models, not one: AlexWortega/openjev (HF #13, 327 likes, MIT, an NLI cross-encoder finetune of Qwen3.5-4B) was created 2026-09-16 -- the day Jev launched -- and harshatheg/Qwen-2.5-1B-RLCD (#9, 482 likes) was created hours earlier, built on MLX and tagged apple-silicon, constrained-decoding, parallel-decoding. All three carry zero downloads against 327-1,223 likes, which is the honest read: attention, not deployment.",
+      "tags": [
+        "verification-stack",
+        "local-model-inferenc"
+      ],
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/AlexWortega/openjev"
+    },
+    {
+      "text": "Fifteen Jev-derived artifacts appear across six unrelated sources in a single 24-hour capture: jevals, jevlang, jevc, Judge Jev and two more on HN Show; 'I turned Jev into a (lousy) chatbot' at 109 points on the HN front page; a Lobsters post claiming non-autoregressive decision models were built a year before the frontier lab shipped one; a Tildes ~tech thread; three Hugging Face models; plus langchain-typesafe==0.0.1a3, browser-use/jev-ultrafast and davila7/jev-explained. Five days after launch.",
+      "tags": [
+        "verification-stack",
+        "agent-tooling-consol"
+      ],
+      "source": "Hacker News / Lobsters / Tildes / Hugging Face",
+      "url": "https://github.com/openlayer-ai/jevals"
+    },
+    {
+      "text": "The tooling layer is being built before the primitive is measured. openlayer-ai/jevals -- created 2026-09-20T19:56Z, 8 stars -- describes itself as 'agent evals and guardrails in one request, built on Jev, Kev and Laya': an evaluation harness resting on three decision models, at least two of which have no independent evaluation. jevc compiles policy prompts into deterministic verdict programs; langchain-typesafe does the same at the framework layer. Every speed and cost multiplier the whole stack presumes is vendor-published.",
+      "tags": [
+        "agent-tooling-consol",
+        "harness-engineering"
+      ],
+      "source": "GitHub",
+      "url": "https://github.com/openlayer-ai/jevals"
+    },
+    {
+      "text": "Google's AX takes Hacker News #1 (342 points, 132 comments in six hours) by arguing the agent bottleneck has moved below the framework layer entirely. Its own framing: agentic workloads are 'stateful, bursty, long-running actors that compute intensely for a minute and then wait,' and traditional orchestrators 'become cost-prohibitive when keeping idle sandboxes running, yet lack native support for sub-second suspend and resume.' Built on Agent Substrate, which multiplexes agent sessions onto a small Kubernetes pod pool -- the circulating figure is 250 agents on 8 pods -- with gVisor isolation and durable checkpointing.",
+      "tags": [
+        "agent-framework-expl",
+        "harness-engineering"
+      ],
+      "source": "Hacker News",
+      "url": "https://agentexecutor.io/"
+    },
+    {
+      "text": "Pirate Face (HN #7, 495 points, 143 comments) turns open Hugging Face models into checksum-verified torrents with the HF web-seed built in: while a model is live you pull bytes from HF at HF speed, and the day HF removes it the web-seed dies, the download falls back to the peer-to-peer swarm, and the model is marked 'Rescued.' Every file carries its official HF SHA-256 -- byte-identity to the original is the trust model, not trust in the mirror. Licensing is gated to MIT and Apache-2.0 only. The project concedes its own remaining centralization: submitting a model still requires it to already be on Hugging Face.",
+      "tags": [
+        "local-first-ai-movem",
+        "open-web-enclosure"
+      ],
+      "source": "Hacker News",
+      "url": "https://pirateface.co/"
+    },
+    {
+      "text": "Short-form drama returns to the Play Store top 30 after a five-month gap -- three apps today (BlinkDrama #21, StoryReel #22, DramaWave #24) against zero on both 09-19 and 09-20 -- answering the archive-or-keep question raised about a wiki trend page untouched since April. The ASO pattern is uniform: an invented compound brand with the category noun baked in, plus a dash/colon suffix repeating it with a synonym. DramaWave's publisher, SKYWORK AI PTE, is the first short-drama app this pipeline has captured whose developer name is explicitly an AI company.",
+      "tags": [
+        "short-form-drama-exp",
+        "indie-app-aso-moneti",
+        "play-store-trust-bif"
+      ],
+      "source": "Google Play Store",
+      "url": "https://play.google.com/store/apps/top"
+    },
+    {
+      "text": "Yesterday's open question about sutando is resolved, and the answer is no. Three days of concentrated activity by AutoGen's original authors, Chi Wang and Qingyun Wu, prompted the question of whether sonichi/sutando is a renamed or successor AutoGen line. It is not: created 2026-03-28, 396 stars, Python, described as 'My AI Stand. Realtime by day, rewriting itself by night' with topics personal-ai, self-improving, voice-agent, self-hosted. The detail worth carrying is 735 open issues against 396 stars -- a near-2:1 ratio consistent with a system filing issues about itself.",
+      "tags": [
+        "agent-framework-expl",
+        "ai-people"
+      ],
+      "source": "GitHub",
+      "url": "https://github.com/sonichi/sutando"
+    }
+  ],
+  "trending": [
+    {
+      "name": "security-audit-skill",
+      "fullName": "cloudflare/security-audit-skill",
+      "stars": "18.2K",
+      "language": "JavaScript",
+      "delta": "+2,428/d",
+      "url": "https://github.com/cloudflare/security-audit-skill"
+    },
+    {
+      "name": "cua",
+      "fullName": "trycua/cua",
+      "stars": "25.3K",
+      "language": "HTML",
+      "delta": "+1,018/d",
+      "url": "https://github.com/trycua/cua"
+    },
+    {
+      "name": "ECC",
+      "fullName": "affaan-m/ECC",
+      "stars": "264K",
+      "language": "JavaScript",
+      "delta": "+826/d",
+      "url": "https://github.com/affaan-m/ECC"
+    },
+    {
+      "name": "OpenStock",
+      "fullName": "Open-Dev-Society/OpenStock",
+      "stars": "17.0K",
+      "language": "TypeScript",
+      "delta": "+755/d",
+      "url": "https://github.com/Open-Dev-Society/OpenStock"
+    },
+    {
+      "name": "agent-skills",
+      "fullName": "addyosmani/agent-skills",
+      "stars": "97.8K",
+      "language": "JavaScript",
+      "delta": "+736/d",
+      "url": "https://github.com/addyosmani/agent-skills"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "626",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "2,428",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "13",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "September 21, 2026"
+    },
+    "headlines": [
+      {
+        "text": "On 09-16 this vault set a falsification test for TypeSafe's Jev: 'a second lab shipping a non-generative typed-decision model within the quarter makes it a category.' It was met in five days by something stronger than a second lab. convaiinnovations/laya trends at #2 on Hugging Face with 1,223 likes, created 2026-09-18, Apache-2.0, tagged with the exact vocabulary Jev introduced -- system-one, rlcd, calibrated-decisions -- and claims 32.8ms per typed question across 100+ languages from a non-autoregressive encoder-only architecture, with open weights, training notebooks and benchmarks.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "The open System One cluster is three models, not one: AlexWortega/openjev was created 2026-09-16 -- the day Jev launched -- and harshatheg/Qwen-2.5-1B-RLCD was created hours earlier, built on MLX and tagged apple-silicon, constrained-decoding, parallel-decoding. All three carry zero downloads against 327-1,223 likes, which is the honest read: attention, not deployment.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Fifteen Jev-derived artifacts appear across six unrelated sources in a single 24-hour capture: jevals, jevlang, jevc, Judge Jev and two more on HN Show; 'I turned Jev into a chatbot' at 109 points on the HN front page; a Lobsters post claiming non-autoregressive decision models were built a year before the frontier lab shipped one; a Tildes ~tech thread; three Hugging Face models; plus langchain-typesafe==0.0.1a3, browser-use/jev-ultrafast and davila7/jev-explained. Five days after launch.",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Today's throughline is a category forming faster than anyone can measure it: a closed decision-model launch from five days ago now has three open replications, fifteen derivative projects across six unrelated sources, and an evaluation harness built on top of it -- while not one neutral benchmark of the core claim exists anywhere in this pipeline's capture."
+    }
+  }
+}
