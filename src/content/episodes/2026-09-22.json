@@ -1,0 +1,176 @@
+{
+  "date": "2026-09-22",
+  "episodeNumber": 178,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "headline": "JevBench v1.3.0 -- built and run by one person",
+  "subtitle": "JevBench v1.3.0 -- built and run by one person, Kev gets its first neutral placement in the same, Xiaomi's MiMo-V2.6-Pro is MIT-licensed",
+  "heroStat": {
+    "value": "6B",
+    "label": "variant"
+  },
+  "insights": [
+    {
+      "text": "JevBench v1.3.0 -- built and run by one person, not a lab -- is the first neutral measurement of the Jev/Kev/Laya 'System One' decision-model class this vault has tracked since 09-16. Jev leads its own composite score at 74.4. Laya, flagged 09-21 as the strongest open-weights entrant on likes alone, scores 34.1% accuracy on the benchmark's hard-decision tier against Jev's 74.1% on the same tier -- attributable, per the benchmark's own methodology, to Laya's 512-token-per-question context budget truncating long inputs.",
+      "tags": [
+        "verification-stack",
+        "agent-tooling-consol"
+      ],
+      "source": "GitHub",
+      "url": "https://github.com/fstandhartinger/jevbench"
+    },
+    {
+      "text": "Kev gets its first neutral placement in the same benchmark: 66.7 for the 0.6B variant, inside the same competitive band as Jev, roughly consistent with Kev's own self-reported numbers (0.852 accuracy at 9B against a self-reported 0.857 for Jev) -- the closest thing to convergent evidence this model class has produced.",
+      "tags": [
+        "verification-stack",
+        "on-device-llm"
+      ],
+      "source": "GitHub",
+      "url": "https://github.com/jaredpalmer/kev"
+    },
+    {
+      "text": "Xiaomi's MiMo-V2.6-Pro is MIT-licensed, 1M-context, and scores 46 on the Artificial Analysis Intelligence Index -- #1 of 114 tracked open-weight models -- performing on par with Claude Opus 5 and GPT-5.6 Sol on most agent benchmarks, ahead of Kimi K3 and Qwen3.8 Max. Its 'full modality' claim covers audio understanding per Xiaomi's own docs; this pass could not confirm speech generation, and at trillion-parameter scale it is not an on-device artifact regardless of license.",
+      "tags": [
+        "on-device-llm",
+        "on-device-voice-spee"
+      ],
+      "source": "Hacker News / Artificial Analysis",
+      "url": "https://artificialanalysis.ai/models/mimo-v2-6-pro"
+    },
+    {
+      "text": "A three-person startup, Hacktron AI, used Claude Opus 5 inside OpenAI's own bug-bounty program to chain a libheif memory bug -- reached via a crafted image upload to OpenAI's Discourse forum -- into takeover of OpenAI employee ChatGPT and Codex accounts, reaching OpenAI's GitHub organization. $6,500 bounty paid, root bug patched July 27. Opus 4.8 could not produce a working exploit for the same chain; Opus 5 did, within hours of its own release.",
+      "tags": [
+        "verification-stack",
+        "agent-security-sandb",
+        "claude-code-ecosyste"
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/18/researchers-used-anthropics-claude-to-hack-into-openai/"
+    },
+    {
+      "text": "Tim Dettmers (QLoRA/bitsandbytes) publishes specific consumer-hardware pairings for frontier-class open models: Qwen 3.8 Flash Next (125B) on a single 24GB GPU, DeepSeek V4.1 (550B) on a 128GB-memory MacBook or AMD Strix, and a 1.5-bit-quantized Qwen 3.6 running at 450 tokens/second -- a named, credentialed source making a checkable infrastructure claim rather than a benchmark-leaderboard placement.",
+      "tags": [
+        "on-device-llm"
+      ],
+      "source": "Hacker News",
+      "url": "https://timdettmers.com/2026/09/21/dlab-open-source-week/"
+    },
+    {
+      "text": "13 of today's top-30 Google Play apps are web browsers -- a first for this pipeline's tracking, and not yet distinguishable from a scrape-window artifact. Separately, explicitly AI-named apps in the top 30 moved to 6 today (from 5/5/4 the prior three days), with only ChatGPT and Chatbot AI - Search Assistant recurring from yesterday's list -- the count keeps bouncing while the set keeps churning.",
+      "tags": [
+        "play-store-trust-bif",
+        "ai-label-inflation"
+      ],
+      "source": "Google Play Store",
+      "url": "https://play.google.com/store/apps/top"
+    },
+    {
+      "text": "trycua/cua, logged 09-21 as 'the only tracked repo accelerating' on GitHub Trending, decelerates today from +1,018/day to +609/day -- a one-day superlative that didn't hold a second day, the kind of rolling-window noise this vault's benchmark-integrity thread has repeatedly flagged in GitHub's own star-velocity figures.",
+      "tags": [
+        "benchmark-integrity-",
+        "agent-tooling-consol"
+      ],
+      "source": "GitHub Trending",
+      "url": "https://github.com/trycua/cua"
+    },
+    {
+      "text": "Simon Willison published the week's clearest independent explainer of the Jev/System One decision-model category the evening before this benchmark landed, naming Kev and JevBench without independently verifying either -- his read and today's neutral JevBench numbers converge on treating the class as real but still under-measured.",
+      "tags": [
+        "verification-stack",
+        "ai-people"
+      ],
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Sep/21/jev/"
+    }
+  ],
+  "trending": [
+    {
+      "name": "OpenStock",
+      "fullName": "Open-Dev-Society/OpenStock",
+      "stars": "18.0K",
+      "language": "TypeScript",
+      "delta": "+844/d",
+      "url": "https://github.com/Open-Dev-Society/OpenStock"
+    },
+    {
+      "name": "cua",
+      "fullName": "trycua/cua",
+      "stars": "25.8K",
+      "language": "HTML",
+      "delta": "+609/d",
+      "url": "https://github.com/trycua/cua"
+    },
+    {
+      "name": "agent-native",
+      "fullName": "BuilderIO/agent-native",
+      "stars": "6.1K",
+      "language": "TypeScript",
+      "delta": "+607/d",
+      "url": "https://github.com/BuilderIO/agent-native"
+    },
+    {
+      "name": "coder",
+      "fullName": "coder/coder",
+      "stars": "16.5K",
+      "language": "Go",
+      "delta": "+460/d",
+      "url": "https://github.com/coder/coder"
+    },
+    {
+      "name": "financial-services",
+      "fullName": "anthropics/financial-services",
+      "stars": "35.9K",
+      "language": "Python",
+      "delta": "+424/d",
+      "url": "https://github.com/anthropics/financial-services"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "694",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "844",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "13",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "September 22, 2026"
+    },
+    "headlines": [
+      {
+        "text": "JevBench v1.3.0 -- built and run by one person, not a lab -- is the first neutral measurement of the Jev/Kev/Laya 'System One' decision-model class this vault has tracked since 09-16. Jev leads its own composite score at 74.4. Laya, flagged 09-21 as the strongest open-weights entrant on likes alone, scores 34.1% accuracy on the benchmark's hard-decision tier against Jev's 74.1% on the same tier -- attributable, per the benchmark's own methodology, to Laya's 512-token-per-question context budget truncating long inputs.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Kev gets its first neutral placement in the same benchmark: 66.7 for the 0.6B variant, inside the same competitive band as Jev, roughly consistent with Kev's own self-reported numbers -- the closest thing to convergent evidence this model class has produced.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Xiaomi's MiMo-V2.6-Pro is MIT-licensed, 1M-context, and scores 46 on the Artificial Analysis Intelligence Index -- #1 of 114 tracked open-weight models -- performing on par with Claude Opus 5 and GPT-5.6 Sol on most agent benchmarks, ahead of Kimi K3 and Qwen3.8 Max. Its 'full modality' claim covers audio understanding per Xiaomi's own docs; this pass could not confirm speech generation, and at trillion-parameter scale it is not an on-device artifact regardless of license.",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Today's throughline is measurement catching up to hype in two unrelated domains at once: a solo developer's benchmark is the first neutral read on a week-old AI category, and a three-person startup's paid, patched bug bounty is a rare capability claim anchored to a checkable artifact instead of a vendor's word."
+    }
+  }
+}
