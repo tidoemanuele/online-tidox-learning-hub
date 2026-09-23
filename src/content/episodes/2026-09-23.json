@@ -1,0 +1,157 @@
+{
+  "date": "2026-09-23",
+  "episodeNumber": 179,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "headline": "Claude Opus 5.5 and GPT-6 Sol/Luna launched the same day . Opus 5.5: $4/$0.20/$20 per million tokens",
+  "subtitle": "Claude Opus 5.5 and GPT-6 Sol/Luna launched the, GPT-6 Astra decrypted a German Army Enigma message, Google open-sourced AX, a Kubernetes-native",
+  "heroStat": {
+    "value": "$20",
+    "label": "per million tokens"
+  },
+  "insights": [
+    {
+      "text": "Claude Opus 5.5 and GPT-6 Sol/Luna launched the same day (2026-09-22). Opus 5.5: $4/$0.20/$20 per million tokens (input/cached/output), 20% cheaper than Opus 5 with 60% cheaper cache reads, Anthropic framing it as 'the intelligence of Fable 5.1' at lower cost. GPT-6 Luna at $0.10/$0.50 is one of OpenAI's cheapest models ever; GPT-6 Sol at $2/$10. Anthropic also disclosed Opus 5.5 has 'extremely strong cyber capabilities' triggering new safeguards and a Cyber Verification Program -- but Simon Willison's own pelican-SVG test found Opus 5.5's maximum thinking level failing twice, $2.56 and 20 minutes per attempt, no output returned.",
+      "tags": [
+        "ai-dev-tools",
+        "frontier-models"
+      ],
+      "source": "Anthropic / Simon Willison",
+      "url": "https://www.anthropic.com/news/claude-opus-5-5"
+    },
+    {
+      "text": "GPT-6 Astra decrypted a German Army Enigma message dated 10 July 1941 that had resisted solution since a crowd-cryptanalysis project began working it in 2005. A researcher supplied a known place-name crib from a related solved message; GPT-6 Astra built its own Enigma simulator and Bombe-equivalent search code and ran ~14.8 million key checks over ~10 hours. The cryptanalyst who verified the plaintext, Frode Weierud, says he is still analysing the logs to determine exactly how the model executed the break -- the result is corroborated, the autonomous-execution claim is not yet independently reconstructed.",
+      "tags": [
+        "agent-frameworks",
+        "verification-stack"
+      ],
+      "source": "Schneier on Security",
+      "url": "https://www.schneier.com/blog/archives/2026/09/gpt-6-astra-breaks-an-old-enigma-message.html"
+    },
+    {
+      "text": "Google open-sourced AX, a Kubernetes-native declarative orchestrator for 'billions of autonomous agent workloads' -- Task/Workspace/Gateway/Model primitives, checkpoint/resume, Apache 2.0. It debuted on GitHub Trending at +2,305 stars/day. This is the third distinct organization (after Cloudflare's computer/OS and Y Combinator's open-sourced QM) to independently ship the same architectural answer: cluster-scheduled, ops-layer infrastructure for agent fleets, rather than a new agent-building framework.",
+      "tags": [
+        "agent-frameworks",
+        "github-oss"
+      ],
+      "source": "GitHub Trending",
+      "url": "https://github.com/google/ax"
+    },
+    {
+      "text": "Foremerge, a Wednesday-rotation Show HN launch, detects when two coding agents working in isolated Git worktrees have silently undone each other's work -- a conflict of intent invisible to Git's own text-diff comparison. It is deliberately advisory-only (never locks a file, so one crashed agent can't stall the fleet) and deliberately keeps an LLM out of its own detection path (so identical inputs always produce identical findings) -- the same 'engineering code owns the steps that must not fail' argument this vault logged for Alibaba's open-code-review one week earlier, now applied to fleet coordination instead of code review.",
+      "tags": [
+        "agentic-dev-workflow",
+        "solo-dev"
+      ],
+      "source": "GitHub - naw103/foremerge",
+      "url": "https://github.com/naw103/foremerge"
+    },
+    {
+      "text": "Xiaomi open-sourced MiMo-V2.6-Pro and MiMo-V2.6-Flash under MIT license. Pro (1.02T total/42B active parameters, omnimodal, 1M context) scores 46 on Artificial Analysis' Intelligence Index -- tied for the top open-weight score in the world with Grok 4.7, ahead of DeepSeek V4.1 Flash (39) and Pro (36). Xiaomi disclosed its RL training cost: 30 RL steps over ~750,000 trajectories in under six days, for roughly $2.62M (Pro) and $0.85M (Flash) -- a rare vendor-published training-cost figure for a model landing at the top of an independent leaderboard.",
+      "tags": [
+        "on-device-llm",
+        "local-inference"
+      ],
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/technology/better-than-deepseek-xiaomis-mimo-v2-6-pro-debuts-as-the-top-open-weights-model-in-the-world-alongside-cheaper-v2-6-flash"
+    },
+    {
+      "text": "14 of today's top 30 Google Play apps are browsers (Opera, Chrome + Dev/Beta, Edge, Firefox, Opera Mini/GX, Tor, Samsung, Brave, Phoenix, Comet AI, Proxy Browser) -- up from 13/30 the previous day, a second consecutive elevated reading that starts to weigh against a single-day-noise explanation.",
+      "tags": [
+        "play-store-trends"
+      ],
+      "source": "Google Play Store scrape",
+      "url": ""
+    }
+  ],
+  "trending": [
+    {
+      "name": "ax",
+      "fullName": "google/ax",
+      "stars": "7.9K",
+      "language": "Go",
+      "delta": "+2,305/d",
+      "url": "https://github.com/google/ax"
+    },
+    {
+      "name": "mvt",
+      "fullName": "mvt-project/mvt",
+      "stars": "14.2K",
+      "language": "Python",
+      "delta": "+441/d",
+      "url": "https://github.com/mvt-project/mvt"
+    },
+    {
+      "name": "financial-services",
+      "fullName": "anthropics/financial-services",
+      "stars": "36.5K",
+      "language": "Python",
+      "delta": "+438/d",
+      "url": "https://github.com/anthropics/financial-services"
+    },
+    {
+      "name": "univer",
+      "fullName": "dream-num/univer",
+      "stars": "15.7K",
+      "language": "TypeScript",
+      "delta": "+255/d",
+      "url": "https://github.com/dream-num/univer"
+    },
+    {
+      "name": "substrate",
+      "fullName": "agent-substrate/substrate",
+      "stars": "3.1K",
+      "language": "Go",
+      "delta": "+245/d",
+      "url": "https://github.com/agent-substrate/substrate"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "1363",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "2,305",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "13",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "6",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "September 23, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Claude Opus 5.5 and GPT-6 Sol/Luna launched the same day . Opus 5.5: $4/$0.20/$20 per million tokens , 20% cheaper than Opus 5 with 60% cheaper cache reads, Anthropic framing it as 'the intelligence of Fable 5.1' at lower cost. GPT-6 Luna at $0.10/$0.50 is one of OpenAI's cheapest models ever; GPT-6 Sol at $2/$10. Anthropic also disclosed Opus 5.5 has 'extremely strong cyber capabilities' triggering new safeguards and a Cyber Verification Program -- but Simon Willison's own pelican-SVG test found Opus 5.5's maximum thinking level failing twice, $2.56 and 20 minutes per attempt, no output returned.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "GPT-6 Astra decrypted a German Army Enigma message dated 10 July 1941 that had resisted solution since a crowd-cryptanalysis project began working it in 2005. A researcher supplied a known place-name crib from a related solved message; GPT-6 Astra built its own Enigma simulator and Bombe-equivalent search code and ran ~14.8 million key checks over ~10 hours. The cryptanalyst who verified the plaintext, Frode Weierud, says he is still analysing the logs to determine exactly how the model executed the break -- the result is corroborated, the autonomous-execution claim is not yet independently reconstructed.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Google open-sourced AX, a Kubernetes-native declarative orchestrator for 'billions of autonomous agent workloads' -- Task/Workspace/Gateway/Model primitives, checkpoint/resume, Apache 2.0. It debuted on GitHub Trending at +2,305 stars/day. This is the third distinct organization to independently ship the same architectural answer: cluster-scheduled, ops-layer infrastructure for agent fleets, rather than a new agent-building framework.",
+        "metric": "+2,305/d",
+        "source": "GitHub"
+      }
+    ],
+    "takeaway": {
+      "text": "Frontier pricing keeps compressing and safety disclosure keeps pace with capability, but the same-day independent reliability check found a real crack in the new flagship."
+    }
+  }
+}
