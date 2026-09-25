@@ -1,0 +1,184 @@
+{
+  "date": "2026-09-25",
+  "episodeNumber": 181,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "headline": "F-Droid 2.0 shipped 2026-09-25 after over a year of development and 14 test releases",
+  "subtitle": "F-Droid 2.0 shipped 2026-09-25 after over a year, F-Droid 2.0 also removed two security features, Browser-use's own co-founders, Gregor Žunič and",
+  "heroStat": {
+    "value": "1067",
+    "label": "points on \"F-Droid 2.0\""
+  },
+  "insights": [
+    {
+      "text": "F-Droid 2.0 shipped 2026-09-25 after over a year of development and 14 test releases — a full Kotlin Compose rewrite, its biggest change in a decade — landing six days before Google's 30 September deadline extending mandatory developer-identity verification to sideloaded APKs on certified devices.",
+      "tags": [
+        "play-store",
+        "local-first",
+        "android"
+      ],
+      "source": "Hacker News #1 (1,067 pts/283 comments), F-Droid release notes (deep-read)",
+      "url": "https://f-droid.org/en/2026/09/24/f-droid-2.0-a-new-chapter-for-android-freedom.html"
+    },
+    {
+      "text": "F-Droid 2.0 also removed two security features rather than adding them: Tor auto-detection (replaced by a Tor-VPN recommendation) and the app-wiping panic response — a maintainability trade-off, not a hardening move, the same release cycle as the Play verification deadline.",
+      "tags": [
+        "play-store",
+        "security",
+        "android"
+      ],
+      "source": "F-Droid release notes (deep-read)",
+      "url": "https://f-droid.org/en/2026/09/24/f-droid-2.0-a-new-chapter-for-android-freedom.html"
+    },
+    {
+      "text": "Browser-use's own co-founders, Gregor Žunič and Magnus Müller, were both actively engineering the org's benchmark repo today — three weeks after BrowserCode v2 reported GPT-6 Astra at 77.3% versus Claude Opus 5 at 50.5% on browser-agent tasks, a gap still unreplicated by any independent lab.",
+      "tags": [
+        "browser-automation",
+        "benchmarks",
+        "agents"
+      ],
+      "source": "AI People roster (github, 2026-09-25 04:24-05:06Z)",
+      "url": "https://github.com/browser-use/benchmark"
+    },
+    {
+      "text": "Georgi Gerganov's llama.cpp shipped three tagged releases in 30 minutes today, one adding q5_k quantization for Qualcomm's Hexagon NPU backend — extending on-device inference's quantized-release cadence past CPU/GPU into dedicated mobile silicon.",
+      "tags": [
+        "on-device",
+        "llama.cpp",
+        "quantization"
+      ],
+      "source": "llama.cpp releases b11174-b11176",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11175"
+    },
+    {
+      "text": "Google confirmed a Project Suncatcher prototype satellite carrying its own TPUs launches October 1 on a SpaceX Falcon 9 — the first in-orbit test of whether AI chips survive space radiation, vibration, and vacuum cooling for future space-based compute.",
+      "tags": [
+        "infrastructure",
+        "compute",
+        "google"
+      ],
+      "source": "Hacker News #11 (148 pts/274 comments), Google Research blog (deep-read)",
+      "url": "https://research.google/blog/exploring-a-space-based-scalable-ai-infrastructure-system-design/"
+    },
+    {
+      "text": "Simon Willison shipped commit-rewriter 0.2 (non-default-branch support) and datasette 1.0a41 (OpenTelemetry, unified modal Web Component) within about 90 minutes of each other on 2026-09-24 evening — a second dated instance of the same-day multi-ship cadence this vault flagged 2026-09-14 as a falsification test.",
+      "tags": [
+        "solo-dev",
+        "cli-tools",
+        "shipping-cadence"
+      ],
+      "source": "Simon Willison's blog, deep-read",
+      "url": "https://simonwillison.net/2026/Sep/24/commit-rewriter/"
+    },
+    {
+      "text": "Today's Google Play top-30 (Portugal-localized capture) shows no ChatGPT, Claude, or Perplexity — continuing the AI-chat-app absence pattern this vault has treated as scrape-window noise since early August rather than a genuine demand signal.",
+      "tags": [
+        "play-store",
+        "ai-chat-apps",
+        "rank-churn"
+      ],
+      "source": "google-play-store.json, scraped 2026-09-25T05:19:09Z",
+      "url": ""
+    },
+    {
+      "text": "Original agent-framework authors remain active maintainers rather than having moved on: Chi Wang, Qingyun Wu (AutoGen), Toran Bruce Richards (AutoGPT), and Dify's maintainers all pushed or closed issues on their own frameworks in the last 24 hours — a durability signal for a category this vault has tracked since January.",
+      "tags": [
+        "agent-frameworks",
+        "maintainers",
+        "durability"
+      ],
+      "source": "AI People roster, Agent Frameworks category",
+      "url": ""
+    }
+  ],
+  "trending": [
+    {
+      "name": "hindsight",
+      "fullName": "vectorize-io/hindsight",
+      "stars": "28.1K",
+      "language": "Python",
+      "delta": "+1,668/d",
+      "url": "https://github.com/vectorize-io/hindsight"
+    },
+    {
+      "name": "ax",
+      "fullName": "google/ax",
+      "stars": "10.7K",
+      "language": "Go",
+      "delta": "+1,373/d",
+      "url": "https://github.com/google/ax"
+    },
+    {
+      "name": "univer",
+      "fullName": "dream-num/univer",
+      "stars": "17.9K",
+      "language": "TypeScript",
+      "delta": "+1,082/d",
+      "url": "https://github.com/dream-num/univer"
+    },
+    {
+      "name": "superpowers",
+      "fullName": "obra/superpowers",
+      "stars": "291K",
+      "language": "Shell",
+      "delta": "+611/d",
+      "url": "https://github.com/obra/superpowers"
+    },
+    {
+      "name": "financial-services",
+      "fullName": "anthropics/financial-services",
+      "stars": "37.4K",
+      "language": "Python",
+      "delta": "+509/d",
+      "url": "https://github.com/anthropics/financial-services"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "1067",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "1,668",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "13",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "September 25, 2026"
+    },
+    "headlines": [
+      {
+        "text": "F-Droid 2.0 shipped 2026-09-25 after over a year of development and 14 test releases",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "F-Droid 2.0 also removed two security features rather than adding them: Tor auto-detection and the app-wiping panic response",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Browser-use's own co-founders, Gregor Žunič and Magnus Müller, were both actively engineering the org's benchmark repo today",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Today's strongest signals are all about who verifies the machine, not who builds it — F-Droid's rewrite lands ahead of Play's verification deadline, browser-use scales its own benchmark rather than letting anyone else re-check the Astra/Opus gap it found, and a TPU heads to orbit to test whether chips even survive somewhere no one can inspect them."
+    }
+  }
+}
