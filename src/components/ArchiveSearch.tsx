@@ -128,7 +128,7 @@ export default function ArchiveSearch({
             aria-pressed={kind === tab.id}
             className={`text-[12px] px-3 py-1 rounded-full border transition-colors ${
               kind === tab.id
-                ? 'bg-terracotta text-white border-terracotta'
+                ? 'bg-terracotta-fill text-white border-terracotta-fill'
                 : 'border-divider text-gray hover:text-near-black'
             }`}
           >

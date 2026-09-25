@@ -15,6 +15,9 @@
   --color-heading: #E8E6E1;
   --color-terracotta: #D97254;
   --color-terracotta-deep: #C4623F;
+  /* Fill behind light text: #D97254 with cream text is 3.09:1, under WCAG AA 4.5:1. */
+  --color-terracotta-fill: #B0553A;
+  --color-terracotta-fill-hover: #9C4A32;
   --color-near-black: #D4D1CA;
   --color-gray: #8F8A82;
   --color-divider: #2A3139;
