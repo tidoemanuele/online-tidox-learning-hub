@@ -1,0 +1,174 @@
+{
+  "date": "2026-10-01",
+  "episodeNumber": 187,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "headline": "Google shipped Gemini 4 Argon with a 1M-token output ceiling at $2/M input, $10/M output pricing",
+  "subtitle": "Google shipped Gemini 4 Argon with a 1M-token, NVIDIA/OpenShell, the open-source Linux, OpenAI's DevDay shipped a Decisions API -- a",
+  "heroStat": {
+    "value": "1165",
+    "label": "points on \"Gemini 4 Argon\""
+  },
+  "insights": [
+    {
+      "text": "Google shipped Gemini 4 Argon with a 1M-token output ceiling (up from 64K) at $2/M input, $10/M output pricing, replacing Gemini 3.5 Pro. It's rolling a version without cyber guardrails out only to vetted cyber-defense partners through its Fairwind Program plus internal teams, because Argon can locate, validate, and patch critical software vulnerabilities without human help -- gating general release specifically over that capability rather than cost or capacity.",
+      "tags": [
+        "ai-dev-tools",
+        "agent-frameworks"
+      ],
+      "source": "Help Net Security / VentureBeat",
+      "url": "https://www.helpnetsecurity.com/2026/10/01/google-gemini-4-argon/"
+    },
+    {
+      "text": "NVIDIA/OpenShell, the open-source Linux Landlock/seccomp-BPF sandbox runtime for AI agents, jumped from GitHub Trending #2 (10,827 stars, 09-30) to #1 today (13,034 total, +1,281/day) -- a rank improvement rather than the usual second-day cooldown, the first trending-board evidence of sustained developer adoption beyond press coverage of its origin as NVIDIA's Open Agent Safety Platform sandbox component.",
+      "tags": [
+        "agent-frameworks",
+        "github-oss"
+      ],
+      "source": "GitHub Trending",
+      "url": "https://github.com/NVIDIA/openshell"
+    },
+    {
+      "text": "OpenAI's DevDay (Sept 29) shipped a Decisions API -- a constrained GPT-6 Luna router for classification, routing, and agent next-action decisions -- and extended the Agents API with Computer Use (an OpenAI-hosted browser agents can operate) plus a managed Codex harness where OpenAI handles sessions, orchestration, context compaction, and recovery. It's the first instance this vault has logged of a frontier lab offering the orchestration layer itself rather than leaving fleet management to third-party harnesses.",
+      "tags": [
+        "ai-dev-tools",
+        "agent-frameworks"
+      ],
+      "source": "the-decoder.com / Apidog",
+      "url": "https://the-decoder.com/openai-expands-codex-and-its-api-at-devday-with-security-scans-a-decisions-api-and-ultrafast/"
+    },
+    {
+      "text": "debpalash/VoiceStudio, the fully-local open-source ElevenLabs alternative, held a top-2 GitHub Trending slot for a third consecutive day (#2 today, 50,668 total stars) the same day TechCrunch reported ElevenLabs -- the closed, cloud-billed incumbent VoiceStudio brands itself against -- doubled its own valuation to $22B via a $300M employee tender led by existing backers Wellington and T. Rowe Price, not new capital. Read together: evidence for coexistence in different markets (self-hosted/no-cap vs. managed/enterprise) rather than open-source disruption already in progress.",
+      "tags": [
+        "on-device-llm",
+        "cli-creative-tools"
+      ],
+      "source": "GitHub Trending / TechCrunch",
+      "url": "https://github.com/debpalash/VoiceStudio"
+    },
+    {
+      "text": "mvschwarz/openrig, the YAML-defined Claude-Code-plus-Codex fleet harness, held GitHub Trending #3 today (3,141 total, up from #6/2,547 total yesterday) -- a net gain of roughly 594 stars confirming genuine second-day interest rather than debut-day noise in a tool that gives agent teams persistent, declaratively-specified tmux 'seats.'",
+      "tags": [
+        "agent-frameworks",
+        "github-oss"
+      ],
+      "source": "GitHub Trending",
+      "url": "https://github.com/mvschwarz/openrig"
+    },
+    {
+      "text": "Thursday's OTT/Streaming rotation found no new movement on either tracked merger: Fox-Roku's $22B deal remains under the DOJ's September 8 Second Request (waiting period extends 30 days past substantial compliance, H1 2027 close still expected per Roku's own SEC filings); Paramount/WBD's $111B merger stays resolved at its 09-24 antitrust settlement (behavioral film-release quota, no divestiture).",
+      "tags": [
+        "ott-streaming-tech"
+      ],
+      "source": "Variety / Roku SEC filings",
+      "url": "https://variety.com/2026/tv/news/fox-roku-deal-doj-merger-review-1236855878/"
+    },
+    {
+      "text": "September 2026 shipped five Google Play platform release waves bringing a redesigned Contribution Hub (ratings/reviews with social-impact tracking), real-time Wallet-based cart price adjustments at checkout, and a new Apps Experience program alongside an updated Games Level Up program offering lower service-fee rate cards to compliant developers starting 2026-09-30 -- extending this vault's fee/trust-bifurcation thread from trust signals into fee structure itself.",
+      "tags": [
+        "play-store-trends"
+      ],
+      "source": "9to5Google / ASO World",
+      "url": "https://9to5google.com/2026/09/21/september-2026-google-system-updates/"
+    },
+    {
+      "text": "heygen-com/hyperframes entered GitHub Trending (#10, 54,845 total) pitched as 'Write HTML. Render video. Built for agents' -- a new agent-targeted creative-CLI candidate rendering declarative markup to video rather than a timeline or script, alongside VoiceStudio's continued lead in the same category.",
+      "tags": [
+        "cli-creative-tools",
+        "github-oss"
+      ],
+      "source": "GitHub Trending",
+      "url": "https://github.com/heygen-com/hyperframes"
+    }
+  ],
+  "trending": [
+    {
+      "name": "VoiceStudio",
+      "fullName": "debpalash/VoiceStudio",
+      "stars": "50.7K",
+      "language": "Python",
+      "delta": "+3,483/d",
+      "url": "https://github.com/debpalash/VoiceStudio"
+    },
+    {
+      "name": "OpenShell",
+      "fullName": "NVIDIA/OpenShell",
+      "stars": "13.0K",
+      "language": "Rust",
+      "delta": "+1,281/d",
+      "url": "https://github.com/NVIDIA/OpenShell"
+    },
+    {
+      "name": "dbx",
+      "fullName": "t8y2/dbx",
+      "stars": "23.4K",
+      "language": "Rust",
+      "delta": "+1,138/d",
+      "url": "https://github.com/t8y2/dbx"
+    },
+    {
+      "name": "PageIndex",
+      "fullName": "VectifyAI/PageIndex",
+      "stars": "38.2K",
+      "language": "Python",
+      "delta": "+1,097/d",
+      "url": "https://github.com/VectifyAI/PageIndex"
+    },
+    {
+      "name": "skills",
+      "fullName": "mattpocock/skills",
+      "stars": "273K",
+      "language": "Shell",
+      "delta": "+876/d",
+      "url": "https://github.com/mattpocock/skills"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "1165",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "3,483",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "13",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "October 1, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Google shipped Gemini 4 Argon with a 1M-token output ceiling at $2/M input, $10/M output pricing, replacing Gemini 3.5 Pro. It's rolling a version without cyber guardrails out only to vetted cyber-defense partners through its Fairwind Program plus internal teams, because Argon can locate, validate, and patch critical software vulnerabilities without human help -- gating general release specifically over that capability rather than cost or capacity.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "NVIDIA/OpenShell, the open-source Linux Landlock/seccomp-BPF sandbox runtime for AI agents, jumped from GitHub Trending #2 to #1 today -- a rank improvement rather than the usual second-day cooldown, the first trending-board evidence of sustained developer adoption beyond press coverage of its origin as NVIDIA's Open Agent Safety Platform sandbox component.",
+        "metric": "+1,281/d",
+        "source": "GitHub"
+      },
+      {
+        "text": "OpenAI's DevDay shipped a Decisions API -- a constrained GPT-6 Luna router for classification, routing, and agent next-action decisions -- and extended the Agents API with Computer Use plus a managed Codex harness where OpenAI handles sessions, orchestration, context compaction, and recovery. It's the first instance this vault has logged of a frontier lab offering the orchestration layer itself rather than leaving fleet management to third-party harnesses.",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Agent infrastructure keeps consolidating at the platform layer -- NVIDIA's sandbox runtime and OpenAI's managed harness both shipped real adoption evidence this week -- while the open-source alternative to a $22B incumbent keeps growing anyway, the clearest sign yet that this market has room for both."
+    }
+  }
+}
