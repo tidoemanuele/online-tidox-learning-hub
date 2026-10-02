@@ -1,0 +1,156 @@
+{
+  "date": "2026-10-02",
+  "episodeNumber": 188,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "headline": "Earendil shipped Pi 1.0, the first stable release of its terminal coding-agent harness",
+  "subtitle": "Earendil shipped Pi 1.0, the first stable release, Cloudflare open-sourced Clef and Clef-flash, NVIDIA/OpenShell fell to GitHub Trending #3 but",
+  "heroStat": {
+    "value": "964",
+    "label": "points on \"Pi 1.0\""
+  },
+  "insights": [
+    {
+      "text": "Earendil shipped Pi 1.0, the first stable release of its terminal coding-agent harness -- 'a hardened, minimal, extensible agent harness you can make your own,' MIT-licensed, claiming hundreds of thousands of weekly users. The release adds native Codemode/MCP support, deferred tool loading, and a full-screen TUI default cutting codemode prompt tokens by roughly 40%. An experimental Pi Durable package ships alongside it for longer-running agents.",
+      "tags": [
+        "ai-dev-tools",
+        "agent-frameworks"
+      ],
+      "source": "Earendil / hyper.ai",
+      "url": "https://earendil.com/posts/pi-1-0/"
+    },
+    {
+      "text": "Cloudflare open-sourced Clef (27B) and Clef-flash (9B), non-autoregressive decision models on frozen Qwen backbones, reporting wins over OpenAI's Jev on median latency (38.8ms vs 524.1ms), BFCL accuracy (98.76% vs 95.75%), ToolRet ranking, and BANKING77 classification. Apache 2.0 on Hugging Face, hosted on Workers AI, with a two-phase RL fine-tuning platform (hands-on now, self-serve later).",
+      "tags": [
+        "ai-dev-tools",
+        "on-device-llm"
+      ],
+      "source": "Cloudflare",
+      "url": "https://blog.cloudflare.com/clef-decision-models/"
+    },
+    {
+      "text": "NVIDIA/OpenShell fell to GitHub Trending #3 (14,106 total, down from #1's 13,034) but its scraped daily-star velocity nearly doubled (+2,456 vs yesterday's +1,281) -- a split result that satisfies only half of this vault's own stated falsification test (rank drop AND velocity collapse), leaving the sandbox runtime's trajectory genuinely ambiguous rather than confirmed or refuted.",
+      "tags": [
+        "agent-frameworks",
+        "github-oss"
+      ],
+      "source": "GitHub Trending",
+      "url": "https://github.com/NVIDIA/OpenShell"
+    },
+    {
+      "text": "A browser-use co-founder's pull request trimmed the Anthropic-integration quickstart's system prompt for brevity; a reviewer caught that the cut removed explicit language instructing the model to ignore instructions embedded in webpage content -- a live near-miss of the exact prompt-injection failure class documented in prior University of Washington and Black Hat research on agentic browsers, caught by review before merge.",
+      "tags": [
+        "browser-computer-use"
+      ],
+      "source": "GitHub",
+      "url": "https://github.com/browser-use/browser-use/pull/5968"
+    },
+    {
+      "text": "DietrichGebert/ponytail debuted at GitHub Trending #1 (+1,194/day, 150,760 total), a plugin that enforces a 'laziest senior dev' shortcut-ladder discipline across 20+ agent hosts, reporting -54% lines of code, -22% tokens, -20% cost, and -27% time with 100% safety preserved on its own benchmark. Its /ponytail-debt command collects deliberate shortcuts into a ledger -- a naming and mechanism match to this very research pipeline's own CLAUDE.md convention of tagging shortcuts as `// ponytail: <ceiling>, <upgrade path>`.",
+      "tags": [
+        "github-oss",
+        "agent-frameworks"
+      ],
+      "source": "GitHub Trending",
+      "url": "https://github.com/DietrichGebert/ponytail"
+    },
+    {
+      "text": "mattpocock/skills climbed to GitHub Trending #2 (+883/day, 274,067 total) from #9 yesterday (+876/day, 273,147 total) -- a rank improvement on essentially flat daily velocity, meaning relative rather than accelerating growth against yesterday's board.",
+      "tags": [
+        "github-oss"
+      ],
+      "source": "GitHub Trending",
+      "url": "https://github.com/mattpocock/skills"
+    }
+  ],
+  "trending": [
+    {
+      "name": "OpenShell",
+      "fullName": "NVIDIA/OpenShell",
+      "stars": "14.1K",
+      "language": "Rust",
+      "delta": "+2,456/d",
+      "url": "https://github.com/NVIDIA/OpenShell"
+    },
+    {
+      "name": "ponytail",
+      "fullName": "DietrichGebert/ponytail",
+      "stars": "151K",
+      "language": "JavaScript",
+      "delta": "+1,194/d",
+      "url": "https://github.com/DietrichGebert/ponytail"
+    },
+    {
+      "name": "skills",
+      "fullName": "mattpocock/skills",
+      "stars": "274K",
+      "language": "Shell",
+      "delta": "+883/d",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "name": "openrig",
+      "fullName": "mvschwarz/openrig",
+      "stars": "3.8K",
+      "language": "TypeScript",
+      "delta": "+642/d",
+      "url": "https://github.com/mvschwarz/openrig"
+    },
+    {
+      "name": "hyperframes",
+      "fullName": "heygen-com/hyperframes",
+      "stars": "55.4K",
+      "language": "TypeScript",
+      "delta": "+627/d",
+      "url": "https://github.com/heygen-com/hyperframes"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "964",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "2,456",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "13",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "6",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "October 2, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Earendil shipped Pi 1.0, the first stable release of its terminal coding-agent harness -- 'a hardened, minimal, extensible agent harness you can make your own,' MIT-licensed, claiming hundreds of thousands of weekly users. The release adds native Codemode/MCP support, deferred tool loading, and a full-screen TUI default cutting codemode prompt tokens by roughly 40%. An experimental Pi Durable package ships alongside it for longer-running agents.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Cloudflare open-sourced Clef and Clef-flash , non-autoregressive decision models on frozen Qwen backbones, reporting wins over OpenAI's Jev on median latency , BFCL accuracy , ToolRet ranking, and BANKING77 classification. Apache 2.0 on Hugging Face, hosted on Workers AI, with a two-phase RL fine-tuning platform .",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "NVIDIA/OpenShell fell to GitHub Trending #3 but its scraped daily-star velocity nearly doubled -- a split result that satisfies only half of this vault's own stated falsification test , leaving the sandbox runtime's trajectory genuinely ambiguous rather than confirmed or refuted.",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Three distinct agent-harness philosophies trended in the same week -- Pi 1.0's minimal bet, OpenShell's sandboxed runtime, openrig's fleet orchestration -- while a repo named ponytail took GitHub's #1 spot enforcing the exact deliberate-shortcut convention this very pipeline's own CLAUDE.md already uses."
+    }
+  }
+}
