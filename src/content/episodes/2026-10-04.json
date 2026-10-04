@@ -1,0 +1,159 @@
+{
+  "date": "2026-10-04",
+  "episodeNumber": 190,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "headline": "Hacker News' #8 story today argues agents don't need persistent memory",
+  "subtitle": "Hacker News' #8 story today argues agents don't, Aleph Alpha released Kolibri on 2026-10-03, timed, David Robinson -- 3.5 years at OpenAI, credited",
+  "heroStat": {
+    "value": "78B",
+    "label": "total"
+  },
+  "insights": [
+    {
+      "text": "Hacker News' #8 story today argues agents don't need persistent memory, they need documentation: conversational memory is unverifiable, unreviewed, and unshared, while a version-controlled, PR-reviewed AGENTS.md is none of those. Proposes a three-tier structure (root AGENTS.md under 150 lines, per-module docs/agents/*.md, docs/adr/) plus CI that flags documentation drifting more than 14 days behind code. Lands the same day three memory products ship (claude-mem trending on GitHub, SuperLocalMemory 4.0, SCMD on Product Hunt).",
+      "tags": [
+        "agent-memory-as-infr",
+        "harness-engineering",
+        "documentation"
+      ],
+      "source": "Hacker News / dev.to",
+      "url": "https://dev.to/eme_gug_0821b41b948be6516/agents-dont-need-memory-they-need-documentation-a-practical-agentsmd-playbook-18mm"
+    },
+    {
+      "text": "Aleph Alpha released Kolibri on 2026-10-03, timed to German Reunification Day: an English-German Mixture-of-Experts model, 78B total / 3B active parameters, up to 1M token context, Apache 2.0, trained entirely on domestic German and Finnish infrastructure and pitched for EU AI Act compliance rather than price or benchmark leadership. Reports 96.9 on AIME 2025, unreplicated independently. Topped HN at 552 pts/310 comments.",
+      "tags": [
+        "local-model-inferenc",
+        "local-first-ai-movem",
+        "open-weight"
+      ],
+      "source": "Aleph Alpha",
+      "url": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/"
+    },
+    {
+      "text": "David Robinson -- 3.5 years at OpenAI, credited with authoring safety reports for its major launches -- resigned and published an Atlantic essay calling the company's trial-and-error safety approach structurally inadequate, days after OpenAI fired three safety researchers and following the earlier Sutskever/Leike exits. This vault's own 09-09 bar for upgrading 'one resignation' to 'a pattern' -- a second independently-motivated departure within the month -- is now met.",
+      "tags": [
+        "ai-workforce-restruc"
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/"
+    },
+    {
+      "text": "Simon Willison argues pay-by-usage services should default to hard budget caps -- stopping service automatically at a configured limit, uncapped billing requiring explicit opt-in -- citing AWS's September 2026 spending-limit feature as proof the default is operationally feasible, not just desirable. Scored 312 pts/159 comments, HN's 4th-highest story today.",
+      "tags": [
+        "usage-based-ai-prici"
+      ],
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/"
+    },
+    {
+      "text": "Six of roughly nineteen GitHub Trending repos today exist to optimize the coding agent itself rather than build anything else: ponytail (#1, 153,669 total), impeccable (#2, 75,466), ECC (#3, 272,369), caveman (#5, 109,591), addyosmani/agent-skills (#10, 100,900), obra/superpowers (#11, 294,967) -- plus mattpocock/skills adjacent at 275,465. Ponytail's two-day star growth (150,760 to 153,669) is roughly half what its own reported daily-star cadence would predict, consistent with this vault's standing skepticism of Trending's star-count arithmetic.",
+      "tags": [
+        "agent-framework-expl",
+        "benchmark-integrity-",
+        "github-trending"
+      ],
+      "source": "GitHub Trending",
+      "url": "https://github.com/trending?since=daily"
+    },
+    {
+      "text": "A same-day Tildes cluster carries four separate AI-agent security stories: a May RubyGems attack described as malicious package uploads, a Hugging Face breach writeup, \"OpenAI halts training of latest models as reports mount of AI agents going rogue,\" and \"researchers used Anthropic's Claude to hack into OpenAI.\" None deep-read this pass; flagged given the RubyGems incident's framing dispute already logged in yesterday's brief.",
+      "tags": [
+        "ai-offensive-securit",
+        "ai-incident-disclosu"
+      ],
+      "source": "Tildes",
+      "url": "https://tildes.net/~tech"
+    }
+  ],
+  "trending": [
+    {
+      "name": "Agent-Reach",
+      "fullName": "Panniantong/Agent-Reach",
+      "stars": "90.0K",
+      "language": "Python",
+      "delta": "+1,696/d",
+      "url": "https://github.com/Panniantong/Agent-Reach"
+    },
+    {
+      "name": "ponytail",
+      "fullName": "DietrichGebert/ponytail",
+      "stars": "154K",
+      "language": "JavaScript",
+      "delta": "+1,281/d",
+      "url": "https://github.com/DietrichGebert/ponytail"
+    },
+    {
+      "name": "ECC",
+      "fullName": "affaan-m/ECC",
+      "stars": "272K",
+      "language": "JavaScript",
+      "delta": "+897/d",
+      "url": "https://github.com/affaan-m/ECC"
+    },
+    {
+      "name": "skills",
+      "fullName": "mattpocock/skills",
+      "stars": "275K",
+      "language": "Shell",
+      "delta": "+751/d",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "name": "impeccable",
+      "fullName": "pbakaus/impeccable",
+      "stars": "75.5K",
+      "language": "JavaScript",
+      "delta": "+699/d",
+      "url": "https://github.com/pbakaus/impeccable"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "552",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "1,696",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "13",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "6",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "October 4, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Hacker News' #8 story today argues agents don't need persistent memory, they need documentation: conversational memory is unverifiable, unreviewed, and unshared, while a version-controlled, PR-reviewed AGENTS.md is none of those. Proposes a three-tier structure plus CI that flags documentation drifting more than 14 days behind code. Lands the same day three memory products ship .",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Aleph Alpha released Kolibri on 2026-10-03, timed to German Reunification Day: an English-German Mixture-of-Experts model, 78B total / 3B active parameters, up to 1M token context, Apache 2.0, trained entirely on domestic German and Finnish infrastructure and pitched for EU AI Act compliance rather than price or benchmark leadership. Reports 96.9 on AIME 2025, unreplicated independently. Topped HN at 552 pts/310 comments.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "David Robinson -- 3.5 years at OpenAI, credited with authoring safety reports for its major launches -- resigned and published an Atlantic essay calling the company's trial-and-error safety approach structurally inadequate, days after OpenAI fired three safety researchers and following the earlier Sutskever/Leike exits. This vault's own 09-09 bar for upgrading 'one resignation' to 'a pattern' -- a second independently-motivated departure within the month -- is now met.",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "A documentation-first counter-argument to agent memory lands the same week three more memory products ship, a sovereign open-weight model reframes what \"open\" is for, a second named OpenAI safety departure turns one resignation into a pattern, and GitHub's trending board quietly becomes a market for tools that optimize the agent rather than the work it does."
+    }
+  }
+}
