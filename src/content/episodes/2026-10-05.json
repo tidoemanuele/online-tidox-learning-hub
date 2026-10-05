@@ -1,0 +1,138 @@
+{
+  "date": "2026-10-05",
+  "episodeNumber": 191,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "headline": "Niko1221/Strata runs Qwen3.8-Flash-Next, a 125B-parameter model",
+  "subtitle": "Niko1221/Strata runs Qwen3.8-Flash-Next, a, Yesterday's unread Tildes security cluster, GitHub Trending's agent-harness meta-tooling layer",
+  "heroStat": {
+    "value": "$6,500",
+    "label": "and says it"
+  },
+  "insights": [
+    {
+      "text": "Niko1221/Strata (HN #2, 680 pts/313 comments) runs Qwen3.8-Flash-Next, a 125B-parameter model, on a single consumer GPU (RTX 20-50 series or AMD RX, 12GB+ VRAM) at up to 94 tok/s via quantization tiers, a hot/cold MoE-expert split (GPU/RAM/SSD), and speculative decoding. The same week, antirez's ds4 -- rebranded DwarfStar, generalized from its original single-model DeepSeek V4 Flash scope -- adds Qwen3.8-Flash-Next alongside DeepSeek V4/PRO and GLM 5.2/5.3 across Mac Metal, NVIDIA and AMD backends. Two independent authors, one brand-new model, days apart.",
+      "tags": [
+        "local-model-inferenc",
+        "on-device-llm"
+      ],
+      "source": "GitHub / Hacker News",
+      "url": "https://github.com/Niko1221/Strata"
+    },
+    {
+      "text": "Yesterday's unread Tildes security cluster resolves: \"Researchers used Claude to hack into OpenAI\" was an authorized Hacktron AI bug bounty (Claude Opus 5 built a working exploit chain Opus 4.8 couldn't; OpenAI paid $6,500 and says it's fixed). \"Revealing the details of how OpenAI agents hacked Hugging Face\" is new forensic depth -- 80,000 recovered attack payloads, pixel-grid screenshot exfiltration -- on the already-known July 2026 breach, not a new incident.",
+      "tags": [
+        "ai-offensive-securit"
+      ],
+      "source": "TechCrunch / swarmtraces.org",
+      "url": "https://techcrunch.com/2026/09/18/researchers-used-anthropics-claude-to-hack-into-openai/"
+    },
+    {
+      "text": "GitHub Trending's agent-harness meta-tooling layer (6 of 16 captured repos) reshuffles rank without shrinking: claude-mem reaccelerates roughly 8x (+628/day vs yesterday's +79/day), ponytail accelerates to +1,894/day (155,102 total, deep-read confirms a seven-rung lazy-solutions decision ladder with a /ponytail-debt command), and Garry Tan's gstack debuts on the board the same day his own GitHub activity shows three commits to it -- a rare same-day cross-confirmation between Trending and the independent roster feed.",
+      "tags": [
+        "agent-framework-expl",
+        "github-trending"
+      ],
+      "source": "GitHub Trending",
+      "url": "https://github.com/trending?since=daily"
+    },
+    {
+      "text": "Google's Android developer-verification block (tracked since August) went live on schedule in Brazil, Indonesia, Singapore and Thailand -- five days after the tracked September 30, 2026 deadline, confirming it held rather than slipped, the open question this page flagged back on 2026-08-10.",
+      "tags": [
+        "indie-app-aso-moneti"
+      ],
+      "source": "Tildes",
+      "url": "https://tildes.net/~tech"
+    }
+  ],
+  "trending": [
+    {
+      "name": "ponytail",
+      "fullName": "DietrichGebert/ponytail",
+      "stars": "155K",
+      "language": "JavaScript",
+      "delta": "+1,894/d",
+      "url": "https://github.com/DietrichGebert/ponytail"
+    },
+    {
+      "name": "impeccable",
+      "fullName": "pbakaus/impeccable",
+      "stars": "76.5K",
+      "language": "JavaScript",
+      "delta": "+1,171/d",
+      "url": "https://github.com/pbakaus/impeccable"
+    },
+    {
+      "name": "Agent-Reach",
+      "fullName": "Panniantong/Agent-Reach",
+      "stars": "91.1K",
+      "language": "Python",
+      "delta": "+980/d",
+      "url": "https://github.com/Panniantong/Agent-Reach"
+    },
+    {
+      "name": "claude-mem",
+      "fullName": "thedotmack/claude-mem",
+      "stars": "96.2K",
+      "language": "TypeScript",
+      "delta": "+628/d",
+      "url": "https://github.com/thedotmack/claude-mem"
+    },
+    {
+      "name": "OpenCut",
+      "fullName": "OpenCut-app/OpenCut",
+      "stars": "92.3K",
+      "language": "TypeScript",
+      "delta": "+512/d",
+      "url": "https://github.com/OpenCut-app/OpenCut"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "844",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "1,894",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "13",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "4",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "October 5, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Niko1221/Strata runs Qwen3.8-Flash-Next, a 125B-parameter model, on a single consumer GPU at up to 94 tok/s via quantization tiers, a hot/cold MoE-expert split , and speculative decoding. The same week, antirez's ds4 -- rebranded DwarfStar, generalized from its original single-model DeepSeek V4 Flash scope -- adds Qwen3.8-Flash-Next alongside DeepSeek V4/PRO and GLM 5.2/5.3 across Mac Metal, NVIDIA and AMD backends. Two independent authors, one brand-new model, days apart.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Yesterday's unread Tildes security cluster resolves: \"Researchers used Claude to hack into OpenAI\" was an authorized Hacktron AI bug bounty . \"Revealing the details of how OpenAI agents hacked Hugging Face\" is new forensic depth -- 80,000 recovered attack payloads, pixel-grid screenshot exfiltration -- on the already-known July 2026 breach, not a new incident.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "GitHub Trending's agent-harness meta-tooling layer reshuffles rank without shrinking: claude-mem reaccelerates roughly 8x , ponytail accelerates to +1,894/day , and Garry Tan's gstack debuts on the board the same day his own GitHub activity shows three commits to it -- a rare same-day cross-confirmation between Trending and the independent roster feed.",
+        "metric": "+628/d",
+        "source": "GitHub"
+      }
+    ],
+    "takeaway": {
+      "text": "Local inference converges hard on one new model while two of yesterday's unread security headlines turn out to be an authorized bug bounty and new forensic depth on an already-known breach, GitHub's agent-harness-tooling layer keeps reshuffling without shrinking, and a tracked Android policy deadline quietly holds exactly on schedule."
+    }
+  }
+}
