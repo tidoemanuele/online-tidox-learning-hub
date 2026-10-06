@@ -1,0 +1,175 @@
+{
+  "date": "2026-10-06",
+  "episodeNumber": 192,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "headline": "Of the six GitHub Trending agent-harness meta-tooling repos logged on 10-04/10-05",
+  "subtitle": "Of the six GitHub Trending agent-harness, Reflection AI shipped Beam, a, Claude Opus 5.5 agents ran DFT simulations and",
+  "heroStat": {
+    "value": "2B",
+    "label": "at an"
+  },
+  "insights": [
+    {
+      "text": "Of the six GitHub Trending agent-harness meta-tooling repos logged on 10-04/10-05 (ponytail, impeccable, marketingskills, agent-skills, gstack, claude-mem), only claude-mem remains on today's board, and it's declining (628 to 534 stars/day). Filling the gap: msitarzewski/agency-agents debuts with 230+ specialized agent-persona files across 20+ divisions, extending the agent-count-as-vanity-axis pattern this page has tracked since April by roughly 5x over the prior high of 49 agents.",
+      "tags": [
+        "agent-framework-expl",
+        "github-trending"
+      ],
+      "source": "GitHub Trending",
+      "url": "https://github.com/trending?since=daily"
+    },
+    {
+      "text": "Reflection AI shipped Beam, a 501B-total/23B-active sparse MoE open-weight model (Apache 2.0, weights promised later this month), explicitly positioned to 'advance the Western open-weight frontier' against GLM 5.2, Qwen 3.8-Max and Kimi K3 -- the first flagship model Reflection has actually shipped after raising $2B at an $8B valuation without releasing a single checkpoint.",
+      "tags": [
+        "frontier-tripolar-pr",
+        "open-weight-models"
+      ],
+      "source": "Reflection AI",
+      "url": "https://reflection.ai/blog/introducing-beam"
+    },
+    {
+      "text": "Claude Opus 5.5 agents ran DFT simulations (PBE+U and HSE06) and identified two room-temperature magnetic-semiconductor candidates (YBaMnFeO5, newly designed; KV[Cr(CN)6], existing since 1999) predicted to separate electrons by spin at room temperature -- useful for spintronics. The write-up states its own limits plainly: both are purely computational predictions, neither experimentally confirmed, and the two DFT approximation levels used disagree with each other on key effects.",
+      "tags": [
+        "agent-framework-expl",
+        "ai-capability"
+      ],
+      "source": "vals.ai",
+      "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors"
+    },
+    {
+      "text": "The Voice, TTS and Speech Tech rotation logs an eighth consecutive suspended week since the 08-11 full-duplex speech-to-speech un-suspension test was defined. Today's two closest candidates, FermionResearch/Phonon-2 (164MB ASR model, 5.21% WER) and nvidia/Nemotron-3-Diarization (speaker diarization, DER 12.73%), are both recognition models, not generation -- the same axis that has disqualified every prior week's candidate.",
+      "tags": [
+        "on-device-voice-spee"
+      ],
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/FermionResearch/Phonon-2"
+    },
+    {
+      "text": "Peter Steinberger is today's most roster-active named contributor, with three feed-captured activities across openclaw/crabbox, openclaw, and his openclaw/WebKit fork from 04:58 to 05:12Z. Attribute the activity to Steinberger; lab leaders outside the tracked feeds remain unmeasured, not quiet.",
+      "tags": [
+        "ai-people",
+        "agent-framework-expl"
+      ],
+      "source": "AI People roster",
+      "url": "https://github.com/psteinberger"
+    },
+    {
+      "text": "Claude by Anthropic holds #15 at 4.7 stars in the captured Google Play top 30 for a second consecutive day. This repeat is weak rank-stability evidence only; it does not establish downloads, retention, or a broader market shift.",
+      "tags": [
+        "google-play",
+        "consumer-ai"
+      ],
+      "source": "Google Play Store",
+      "url": "https://play.google.com/store/apps/top"
+    },
+    {
+      "text": "FermionResearch's Phonon-2 model card reports 164MB weights at about 2.1 bits per parameter and 5.21% mean WER across seven English ASR sets. It transcribes an hour of audio in about 20 seconds on an M5 MacBook Air, but remains speech recognition rather than generation.",
+      "tags": [
+        "on-device-voice-spee",
+        "local-inference"
+      ],
+      "source": "Fermion Research",
+      "url": "https://huggingface.co/FermionResearch/Phonon-2"
+    },
+    {
+      "text": "Qwen/Qwen3.8-27B leads today's Hugging Face Trending download totals at 6.76M, versus 1.64M for Lightricks/LTX-2.5. These are leaderboard download totals, not a daily install-velocity measure.",
+      "tags": [
+        "local-model-inferenc",
+        "open-weight-models"
+      ],
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B"
+    }
+  ],
+  "trending": [
+    {
+      "name": "openGym",
+      "fullName": "DuarteSantos8/openGym",
+      "stars": "4.4K",
+      "language": "JavaScript",
+      "delta": "+1,433/d",
+      "url": "https://github.com/DuarteSantos8/openGym"
+    },
+    {
+      "name": "e2e",
+      "fullName": "tester-army/e2e",
+      "stars": "5.1K",
+      "language": "TypeScript",
+      "delta": "+1,398/d",
+      "url": "https://github.com/tester-army/e2e"
+    },
+    {
+      "name": "Agent-Reach",
+      "fullName": "Panniantong/Agent-Reach",
+      "stars": "92.1K",
+      "language": "Python",
+      "delta": "+1,155/d",
+      "url": "https://github.com/Panniantong/Agent-Reach"
+    },
+    {
+      "name": "AnyPS5",
+      "fullName": "boykopovar/AnyPS5",
+      "stars": "5.1K",
+      "language": "C++",
+      "delta": "+997/d",
+      "url": "https://github.com/boykopovar/AnyPS5"
+    },
+    {
+      "name": "agency-agents",
+      "fullName": "msitarzewski/agency-agents",
+      "stars": "157K",
+      "language": "Shell",
+      "delta": "+744/d",
+      "url": "https://github.com/msitarzewski/agency-agents"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "636",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "1,433",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "13",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "October 6, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Of the six GitHub Trending agent-harness meta-tooling repos logged on 10-04/10-05 , only claude-mem remains on today's board, and it's declining . Filling the gap: msitarzewski/agency-agents debuts with 230+ specialized agent-persona files across 20+ divisions, extending the agent-count-as-vanity-axis pattern this page has tracked since April by roughly 5x over the prior high of 49 agents.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Reflection AI shipped Beam, a 501B-total/23B-active sparse MoE open-weight model , explicitly positioned to 'advance the Western open-weight frontier' against GLM 5.2, Qwen 3.8-Max and Kimi K3 -- the first flagship model Reflection has actually shipped after raising $2B at an $8B valuation without releasing a single checkpoint.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Claude Opus 5.5 agents ran DFT simulations and identified two room-temperature magnetic-semiconductor candidates 6], existing since 1999) predicted to separate electrons by spin at room temperature -- useful for spintronics. The write-up states its own limits plainly: both are purely computational predictions, neither experimentally confirmed, and the two DFT approximation levels used disagree with each other on key effects.",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "The agent-harness meta-tooling category that looked durable on 10-04/10-05 falls apart within two days, Reflection finally ships its first flagship open-weight model after raising billions without one, Opus 5.5 agents demonstrate real (if unvalidated) scientific-discovery capability with the caveats stated upfront, and the Voice/TTS rotation stays suspended for an eighth straight week."
+    }
+  }
+}
