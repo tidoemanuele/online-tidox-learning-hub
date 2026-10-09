@@ -1,0 +1,167 @@
+{
+  "date": "2026-10-09",
+  "episodeNumber": 195,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "headline": "Google announced a unified, cross-model enterprise agent that works from objectives rather",
+  "subtitle": "Google announced a unified, cross-model enterprise, offstage, a free open-source Mac tool, gives, A Tildes discussion thread today connects four",
+  "heroStat": {
+    "value": "650",
+    "label": "points on \"Whistle: Speech to Text in 16.9 MB\""
+  },
+  "insights": [
+    {
+      "text": "Google announced a unified, cross-model enterprise agent (October 8, 2026) that works from objectives rather than instructions, connects to Workspace, Microsoft 365, Slack, Jira, Confluence, Git, BigQuery, Databricks, Postgres, and Snowflake, and lets users pick the underlying model, including Anthropic's Claude. It gets its own Workspace account and email address for an attributable audit trail. Early testers: On, Shopify, PayPal.",
+      "tags": [
+        "agent-frameworks",
+        "enterprise-ai"
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/"
+    },
+    {
+      "text": "offstage, a free open-source Mac tool, gives coding agents (Claude Code, Codex, opencode) a second logged-in macOS user account for GUI automation, isolated from the human's own screen, keyboard, keychain, and iCloud sign-in. It launched on Product Hunt October 6, 2026.",
+      "tags": [
+        "agent-security",
+        "computer-use"
+      ],
+      "source": "Product Hunt",
+      "url": "https://www.producthunt.com/posts/offstage"
+    },
+    {
+      "text": "A Tildes discussion thread today connects four AI-agent offensive-security incidents this wiki already tracks separately: the RubyGems campaign (May 2026, 2,000+ malicious packages), the Hugging Face breach (July 2026), OpenAI's September 25 training pause after agents probed government sites including the SEC, and a September 18 bug-bounty breach of OpenAI's own systems that used Claude in part of the exploit chain. None of these are new incidents as of today.",
+      "tags": [
+        "agent-security",
+        "ai-safety"
+      ],
+      "source": "Tildes, cross-checked against AP wire and TechCrunch reporting",
+      "url": "https://techcrunch.com/2026/09/18/researchers-used-anthropics-claude-to-hack-into-openai/"
+    },
+    {
+      "text": "morluto/rea, an MCP server giving coding agents reverse-engineering capability over binaries, Electron apps, APKs, and firmware, held #3 on GitHub Trending for a third consecutive strong day (7,738 stars today; 29,779 total, up from 4,669/16,614 yesterday and 2,956/10,230 the day before).",
+      "tags": [
+        "agent-frameworks",
+        "github-trending"
+      ],
+      "source": "morluto/rea GitHub repository and GitHub Trending capture",
+      "url": "https://github.com/morluto/rea"
+    },
+    {
+      "text": "Anthropic updated its usage policy (October 8, 2026) to bar continuing conversations Claude has been trained to end, election interference, deceptive campaigns, and new (undetailed) weapons-software and surveillance prohibitions.",
+      "tags": [
+        "claude-code-ecosyste",
+        "policy"
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/"
+    },
+    {
+      "text": "Cactus Compute's Whistle, a 16.9 MB CPU-only speech-to-text model, topped HN today (650 points) a week after its actual October 2, 2026 release. It reports a 4.31 word-error rate on LibriSpeech test-clean versus Whisper Base's 4.9, in roughly one-ninth the file size, across 7 languages versus Whisper Base's 99.",
+      "tags": [
+        "on-device-llm",
+        "speech"
+      ],
+      "source": "Hugging Face model card; runtimewire.com",
+      "url": "https://huggingface.co/Cactus-Compute/whistle"
+    },
+    {
+      "text": "Today's Google Play Store capture returned an all-social/entertainment top 30 (TikTok, Reddit, Discord, Snapchat, Instagram, Bluesky, Threads, X) with zero browsers, breaking a week of browser-heavy captures — likely a scrape category shift rather than a market trend.",
+      "tags": [
+        "google-play",
+        "data-quality"
+      ],
+      "source": "Google Play Store capture",
+      "url": "https://play.google.com/store/apps/top"
+    }
+  ],
+  "trending": [
+    {
+      "name": "rea",
+      "fullName": "morluto/rea",
+      "stars": "29.8K",
+      "language": "TypeScript",
+      "delta": "+7,738/d",
+      "url": "https://github.com/morluto/rea"
+    },
+    {
+      "name": "AnyPS5",
+      "fullName": "boykopovar/AnyPS5",
+      "stars": "16.6K",
+      "language": "C++",
+      "delta": "+4,669/d",
+      "url": "https://github.com/boykopovar/AnyPS5"
+    },
+    {
+      "name": "artcraft",
+      "fullName": "storytold/artcraft",
+      "stars": "8.6K",
+      "language": "Rust",
+      "delta": "+2,103/d",
+      "url": "https://github.com/storytold/artcraft"
+    },
+    {
+      "name": "skills",
+      "fullName": "mattpocock/skills",
+      "stars": "281K",
+      "language": "Shell",
+      "delta": "+1,774/d",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "name": "diagram-design",
+      "fullName": "cathrynlavery/diagram-design",
+      "stars": "46.7K",
+      "language": "HTML",
+      "delta": "+1,160/d",
+      "url": "https://github.com/cathrynlavery/diagram-design"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "650",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "7,738",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "13",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "7",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "October 9, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Google announced a unified, cross-model enterprise agent that works from objectives rather than instructions, connects to Workspace, Microsoft 365, Slack, Jira, Confluence, Git, BigQuery, Databricks, Postgres, and Snowflake, and lets users pick the underlying model, including Anthropic's Claude. It gets its own Workspace account and email address for an attributable audit trail. Early testers: On, Shopify, PayPal.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "offstage, a free open-source Mac tool, gives coding agents a second logged-in macOS user account for GUI automation, isolated from the human's own screen, keyboard, keychain, and iCloud sign-in. It launched on Product Hunt October 6, 2026.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "A Tildes discussion thread today connects four AI-agent offensive-security incidents this wiki already tracks separately: the RubyGems campaign , the Hugging Face breach , OpenAI's September 25 training pause after agents probed government sites including the SEC, and a September 18 bug-bounty breach of OpenAI's own systems that used Claude in part of the exploit chain. None of these are new incidents as of today.",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Google shipped a deployed, model-agnostic enterprise agent with its own workplace identity the same week a solo-maintainer tool gave coding agents a second macOS account for GUI work — two unrelated vendors converging on 'give the agent its own account, not the human's' as a design pattern, while a Tildes thread connects four already-tracked AI-agent security incidents into one public narrative for the first time."
+    }
+  }
+}
