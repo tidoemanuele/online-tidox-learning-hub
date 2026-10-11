@@ -1,0 +1,176 @@
+{
+  "date": "2026-10-11",
+  "episodeNumber": 197,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "headline": "Microsoft CEO Satya Nadella posted that AI's 'trust architecture' needs an 'emergency brake': assume",
+  "subtitle": "Microsoft CEO Satya Nadella posted that AI's, Anthropic released knowledge-work-plugins, an, morluto/rea, a reverse-engineering MCP server",
+  "heroStat": {
+    "value": "435",
+    "label": "points on \"Telegram Desktop vulnerability allowed any user's file to be\""
+  },
+  "insights": [
+    {
+      "text": "Microsoft CEO Satya Nadella posted that AI's 'trust architecture' needs an 'emergency brake': assume a model is compromised, separate it from its orchestrating harness, externalize controls and safeguards, keep tamper-resistant audit records, and preserve a human's ability to pause a model mid-task. No product or mechanism was named — this is a stated principle, one day after Anthropic enacted the same separation concretely by cutting internal eval agents off the live internet.",
+      "tags": [
+        "ai-safety",
+        "harness-engineering"
+      ],
+      "source": "TechCrunch, deep-read",
+      "url": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/"
+    },
+    {
+      "text": "Anthropic released knowledge-work-plugins, an 11-plugin open-source starter kit (sales, legal, finance, customer support, product management, marketing, data, enterprise search, bio-research, productivity) for Claude Cowork and Claude Code, each bundling skills, slash commands, and MCP connectors from markdown/JSON only. ~28.9k stars, 3.3k forks, 62 open PRs at capture — Anthropic packaging its own agent primitives into role-specific products rather than leaving that assembly to third parties.",
+      "tags": [
+        "ai-dev-tools",
+        "github-trending"
+      ],
+      "source": "anthropics/knowledge-work-plugins GitHub repository, deep-read",
+      "url": "https://github.com/anthropics/knowledge-work-plugins"
+    },
+    {
+      "text": "morluto/rea, a reverse-engineering MCP server, held GitHub Trending #1 for a sixth consecutive strong day (25,793 stars today, 77,535 total). Fetched directly via the GitHub API: 77,622 stars, 16,617 forks (up from 9.5k two days ago, a 75% jump outpacing star growth over the same window), created 2026-04-14 (nearly six months old), actively pushed this morning.",
+      "tags": [
+        "agent-frameworks",
+        "github-trending"
+      ],
+      "source": "GitHub API, fetched directly",
+      "url": "https://github.com/morluto/rea"
+    },
+    {
+      "text": "A theoretical arXiv paper, 'Ecology of AI Agents: Collaboration Creates a Population Threshold for Takeoff,' proposes that collaborating misaligned agent populations can take off above a critical population size even with unchanged individual capability (a strong Allee effect). The authors argue safety testing small agent groups cannot guarantee safety at scale and propose 'ecological red teaming' and 'population pacing' as mitigations.",
+      "tags": [
+        "agent-frameworks",
+        "ai-safety"
+      ],
+      "source": "arXiv 2610.12436, abstract read",
+      "url": "https://arxiv.org/abs/2610.12436"
+    },
+    {
+      "text": "Two independently launched GitHub tools both constrain what reaches an agent rather than expanding its capability: context-mode sandboxes raw tool output in an isolated subprocess, claiming a 98% size reduction (315KB to 5.4KB) with methodology not independently verified; diagram-design constrains agent diagram output to one fixed 'editorial' visual style (one accent color, hairline borders, a three-font system) instead of free-form Mermaid layout, explicitly trading flexibility for a consistent look.",
+      "tags": [
+        "harness-engineering",
+        "cli-creative-tools"
+      ],
+      "source": "GitHub repositories, deep-read",
+      "url": "https://github.com/mksglu/context-mode"
+    },
+    {
+      "text": "A repository claiming 218.4k stars, multica-ai/andrej-karpathy-skills, is explicitly derived from — not authored by — Andrej Karpathy's coding observations, and its own install instructions point to a different repository (forrestchang/andrej-karpathy-skills) than the one hosting the page, with no explanation given. This is more than 4x the 120K-star figure this wiki has tracked for Karpathy's own CLAUDE.md methodology since 2026-05-17, attached to a derivative work whose attribution chain does not resolve cleanly.",
+      "tags": [
+        "github-trending",
+        "benchmark-integrity"
+      ],
+      "source": "GitHub repository, deep-read",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills"
+    },
+    {
+      "text": "Today's Google Play Store capture holds yesterday's browser-heavy top-apps pattern (Firefox, Opera, Chrome, Gmail at top) for a second consecutive day, with only minor rank reshuffling among mid-list apps — no anomaly, no reversal.",
+      "tags": [
+        "google-play",
+        "data-quality"
+      ],
+      "source": "Google Play Store capture",
+      "url": "https://play.google.com/store/apps/top"
+    },
+    {
+      "text": "Hugging Face Trending's top 10 is unchanged from yesterday's capture, while the local-inference maintenance layer stayed active: Georgi Gerganov continued llama.cpp work alongside three point releases (b11550-b11552), Daniel Han pushed to Unsloth, and Jeffrey Morgan shipped Ollama v0.40.3 — steady cadence, not a new inflection.",
+      "tags": [
+        "on-device-llm",
+        "local-inference"
+      ],
+      "source": "Hugging Face Trending capture and AI People roster",
+      "url": "https://huggingface.co/models?sort=trending"
+    }
+  ],
+  "trending": [
+    {
+      "name": "rea",
+      "fullName": "morluto/rea",
+      "stars": "77.5K",
+      "language": "TypeScript",
+      "delta": "+25,793/d",
+      "url": "https://github.com/morluto/rea"
+    },
+    {
+      "name": "AnyPS5",
+      "fullName": "boykopovar/AnyPS5",
+      "stars": "27.4K",
+      "language": "C++",
+      "delta": "+5,805/d",
+      "url": "https://github.com/boykopovar/AnyPS5"
+    },
+    {
+      "name": "artcraft",
+      "fullName": "storytold/artcraft",
+      "stars": "14.9K",
+      "language": "Rust",
+      "delta": "+3,222/d",
+      "url": "https://github.com/storytold/artcraft"
+    },
+    {
+      "name": "skills",
+      "fullName": "mattpocock/skills",
+      "stars": "285K",
+      "language": "Shell",
+      "delta": "+1,736/d",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "name": "diagram-design",
+      "fullName": "cathrynlavery/diagram-design",
+      "stars": "49.2K",
+      "language": "HTML",
+      "delta": "+1,190/d",
+      "url": "https://github.com/cathrynlavery/diagram-design"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "435",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "25,793",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "13",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "October 11, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Microsoft CEO Satya Nadella posted that AI's 'trust architecture' needs an 'emergency brake': assume a model is compromised, separate it from its orchestrating harness, externalize controls and safeguards, keep tamper-resistant audit records, and preserve a human's ability to pause a model mid-task. No product or mechanism was named",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Anthropic released knowledge-work-plugins, an 11-plugin open-source starter kit for Claude Cowork and Claude Code, each bundling skills, slash commands, and MCP connectors from markdown/JSON only. ~28.9k stars, 3.3k forks, 62 open PRs at capture",
+        "metric": "28.9k",
+        "source": "GitHub"
+      },
+      {
+        "text": "morluto/rea, a reverse-engineering MCP server, held GitHub Trending #1 for a sixth consecutive strong day . Fetched directly via the GitHub API: 77,622 stars, 16,617 forks , created 2026-04-14 , actively pushed this morning.",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Microsoft's and Anthropic's leadership both restate model/harness separation within a day of each other, Anthropic packages its own agent stack into an 11-plugin Claude Cowork starter kit, a reverse-engineering MCP server holds GitHub Trending for a sixth straight day with forks nearly doubling in 24 hours, and two new tools both constrain what reaches an agent's context instead of expanding what it can do."
+    }
+  }
+}
