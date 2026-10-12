@@ -1,0 +1,175 @@
+{
+  "date": "2026-10-12",
+  "episodeNumber": 198,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "headline": "morluto/rea, a reverse-engineering MCP server",
+  "subtitle": "morluto/rea, a reverse-engineering MCP server, A paper surfaced today via Lobsters, 'When LLM, Today's highest-engagement story relays Andrej",
+  "heroStat": {
+    "value": "427",
+    "label": "points on \"Total Annihilation, rebuilt for modern computers\""
+  },
+  "insights": [
+    {
+      "text": "morluto/rea, a reverse-engineering MCP server, holds GitHub Trending #1 for a seventh consecutive strong day (25,599 stars today / 115,075 total per the Trending capture). The GitHub API fetched directly shows 115,381 stars, 25,858 forks, 174 open issues, created 2026-04-14 and pushed 11 minutes before today's scrape. Forks grew 55.6% against 48.6% star growth over 24 hours — the third capture running where forks outpace stars, strengthening the durable-adoption reading over a star-farmed spike.",
+      "tags": [
+        "agent-frameworks",
+        "github-trending"
+      ],
+      "source": "GitHub API, fetched directly",
+      "url": "https://github.com/morluto/rea"
+    },
+    {
+      "text": "A paper surfaced today via Lobsters, 'When LLM Decompilers Recompile More and Preserve Less' (arXiv 2609.05370), shows that judging LLM-based decompilers by whether output compiles and passes shipped tests can reward the wrong behavior: a refinement model lifted Ghidra's build rate from 75% to 90% while its actual behavioral-match rate fell from 74% to 62%, and up to one tenth of disclosed vulnerabilities silently vanished from the recompiled code without being fixed or flagged. The paper doesn't test morluto/rea directly, but gives the broader LLM-reverse-engineering category's self-reported accuracy claims a concrete reason for skepticism.",
+      "tags": [
+        "agent-frameworks",
+        "benchmark-integrity"
+      ],
+      "source": "arXiv 2609.05370, read directly",
+      "url": "https://arxiv.org/abs/2609.05370"
+    },
+    {
+      "text": "Today's highest-engagement story (Hacker News #10, 351 points / 518 comments) relays Andrej Karpathy's October 11 taxonomy of the AI capability gap into four population tiers: roughly 6 billion people (~75%) with almost no LLM exposure, 1-2 billion (~20%) using free consumer chat tools as enhanced search, roughly 20 million (~0.2%) professionals using frontier coding/math models, and roughly 5,000 (~0.00006%) with internal frontier-lab access. The HN discussion itself was sharply split on whether the framing matches real-world experience.",
+      "tags": [
+        "ai-dev-tools",
+        "agent-frameworks"
+      ],
+      "source": "Hacker News, fetched directly",
+      "url": "https://news.ycombinator.com/item?id=50047422"
+    },
+    {
+      "text": "Karpathy's post reaches this research pipeline only because Hacker News relayed it — X/Twitter is structurally uncollectable by this pipeline's people-tracking roster, and Karpathy's own YouTube feed is currently dead. The day's single highest-engagement AI-commentary story came from exactly the person this pipeline's own coverage gaps have warned about since July.",
+      "tags": [
+        "ai-dev-tools",
+        "methodology"
+      ],
+      "source": "AI People roster, provenance note",
+      "url": "https://news.ycombinator.com/item?id=50047422"
+    },
+    {
+      "text": "Today's Google Play Store capture turns up the sharpest suffix-keyword-stacking ASO examples yet tracked: 'Lose Weight App for Men' ranks #3 with no brand token at all — the entire title is the category descriptor. 'AI Video - AI Video Generator' at #5 repeats the identical phrase 'AI Video' in its own subtitle, a literal duplication rather than a brand-plus-synonym pairing.",
+      "tags": [
+        "play-store-trends",
+        "aso"
+      ],
+      "source": "Google Play Store, scraped",
+      "url": "https://play.google.com/store/apps/top"
+    },
+    {
+      "text": "Claude by Anthropic moved from #17 (2026-10-11 capture) to #22 today in the Google Play Store top apps list, still rated 4.7 stars — within the range of ordinary day-to-day capture noise.",
+      "tags": [
+        "play-store-trends"
+      ],
+      "source": "Google Play Store, scraped",
+      "url": "https://play.google.com/store/apps/top"
+    },
+    {
+      "text": "lyogavin/airllm entered today's GitHub Trending capture (548 stars today / 36,679 total) — 70B-parameter model inference on a single 4GB GPU. Hugging Face Trending's top entries otherwise held steady from yesterday, and the AI People roster showed the usual llama.cpp (three point releases within an hour), Ollama, Unsloth, and vLLM maintenance cadence.",
+      "tags": [
+        "on-device-llm",
+        "local-inference"
+      ],
+      "source": "GitHub Trending and Hugging Face Trending, scraped",
+      "url": "https://github.com/lyogavin/airllm"
+    },
+    {
+      "text": "cathrynlavery/diagram-design continued its multi-day GitHub Trending climb (#4, 1,083 stars today / 50,778 total, a sixth-plus consecutive growth day) with no new capability to log — fully deep-read and resolved in yesterday's brief.",
+      "tags": [
+        "cli-creative-tools",
+        "github-trending"
+      ],
+      "source": "GitHub Trending, scraped",
+      "url": "https://github.com/cathrynlavery/diagram-design"
+    }
+  ],
+  "trending": [
+    {
+      "name": "rea",
+      "fullName": "morluto/rea",
+      "stars": "115K",
+      "language": "TypeScript",
+      "delta": "+25,599/d",
+      "url": "https://github.com/morluto/rea"
+    },
+    {
+      "name": "AnyPS5",
+      "fullName": "boykopovar/AnyPS5",
+      "stars": "30.7K",
+      "language": "C++",
+      "delta": "+3,952/d",
+      "url": "https://github.com/boykopovar/AnyPS5"
+    },
+    {
+      "name": "artcraft",
+      "fullName": "storytold/artcraft",
+      "stars": "18.7K",
+      "language": "Rust",
+      "delta": "+2,957/d",
+      "url": "https://github.com/storytold/artcraft"
+    },
+    {
+      "name": "diagram-design",
+      "fullName": "cathrynlavery/diagram-design",
+      "stars": "50.8K",
+      "language": "HTML",
+      "delta": "+1,083/d",
+      "url": "https://github.com/cathrynlavery/diagram-design"
+    },
+    {
+      "name": "gods-eye-view",
+      "fullName": "bilawalsidhu/gods-eye-view",
+      "stars": "52.0K",
+      "language": "JavaScript",
+      "delta": "+886/d",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "427",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "25,599",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "13",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "October 12, 2026"
+    },
+    "headlines": [
+      {
+        "text": "morluto/rea, a reverse-engineering MCP server, holds GitHub Trending #1 for a seventh consecutive strong day . The GitHub API fetched directly shows 115,381 stars, 25,858 forks, 174 open issues, created 2026-04-14 and pushed 11 minutes before today's scrape. Forks grew 55.6% against 48.6% star growth over 24 hours",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "A paper surfaced today via Lobsters, 'When LLM Decompilers Recompile More and Preserve Less' , shows that judging LLM-based decompilers by whether output compiles and passes shipped tests can reward the wrong behavior: a refinement model lifted Ghidra's build rate from 75% to 90% while its actual behavioral-match rate fell from 74% to 62%, and up to one tenth of disclosed vulnerabilities silently vanished from the recompiled code without being fixed or flagged. The paper doesn't test morluto/rea directly, but gives the broader LLM-reverse-engineering category's self-reported accuracy claims a concrete reason for skepticism.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Today's highest-engagement story relays Andrej Karpathy's October 11 taxonomy of the AI capability gap into four population tiers: roughly 6 billion people with almost no LLM exposure, 1-2 billion using free consumer chat tools as enhanced search, roughly 20 million professionals using frontier coding/math models, and roughly 5,000 with internal frontier-lab access. The HN discussion itself was sharply split on whether the framing matches real-world experience.",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "A newly-surfaced paper gives the first concrete mechanism for skepticism toward LLM reverse-engineering accuracy claims, Karpathy's capability-gap taxonomy becomes the day's top story only via a secondhand relay of an uncollectable X post, and Monday's Play Store capture turns up the sharpest suffix-keyword-stacking ASO patterns yet."
+    }
+  }
+}
