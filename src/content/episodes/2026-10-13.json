@@ -1,0 +1,174 @@
+{
+  "date": "2026-10-13",
+  "episodeNumber": 199,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "headline": "morluto/rea, a reverse-engineering MCP server",
+  "subtitle": "morluto/rea, a reverse-engineering MCP server, Meta shipped Muse Wonder and Muse Wonder Full on, Anthropic's new Dynamic Workflows let a lead",
+  "heroStat": {
+    "value": "$20",
+    "label": "per million tokens via the met"
+  },
+  "insights": [
+    {
+      "text": "morluto/rea, a reverse-engineering MCP server, holds GitHub Trending #1 for an eighth consecutive strong day. The GitHub API fetched directly shows 169,567 stars, 40,399 forks, 410 open issues, pushed 5 minutes before today's scrape. Stars grew 47.0% and forks grew 56.3% over 24 hours — forks outpacing stars is now a four-capture pattern. New today: Thomas Wolf, co-founder of Hugging Face, starred the repo directly — the first named-individual corroboration this research has logged beyond raw star/fork counts.",
+      "tags": [
+        "agent-frameworks",
+        "github-trending"
+      ],
+      "source": "GitHub API, fetched directly",
+      "url": "https://github.com/morluto/rea"
+    },
+    {
+      "text": "Meta shipped Muse Wonder and Muse Wonder Full on 2026-10-12, its first frontier-class AI models. Per Artificial Analysis benchmarks, Muse Wonder Full scores 56 and Muse Wonder scores 52 on the Intelligence Index, trailing Claude Opus 5.5 (58) and roughly level with Claude Sonnet 5.5 (56). Muse Wonder is priced at $4/$20 per million tokens via the Meta Model API; Muse Wonder Full requires a $50/month Muse Code subscription and is withheld from the API.",
+      "tags": [
+        "ai-dev-tools",
+        "frontier-models"
+      ],
+      "source": "TechCrunch and third-party aggregation",
+      "url": "https://news.ycombinator.com/item?id=50047422"
+    },
+    {
+      "text": "Anthropic's new Dynamic Workflows let a lead Claude agent self-orchestrate a multi-agent topology — planning, launching sub-agents, and managing information flow — without a developer pre-configuring a coordinator. The same week, a GitHub issue on OpenAI's Codex CLI reached Hacker News at 507 points: starting with version 0.157.0, opening a session silently installs a persistent, self-updating background daemon that survives window close and can restart mid-task. One widely-quoted comment compared it to 'a rootkit.'",
+      "tags": [
+        "agent-frameworks",
+        "harness-engineering"
+      ],
+      "source": "Latent Space and Hacker News",
+      "url": "https://www.latent.space/p/claude-dynamic-workflows"
+    },
+    {
+      "text": "A NeurIPS 2026 paper, 'AI Models Can Provably Hide Arbitrary Capabilities,' proves that cryptographic backdoors can embed hidden model capabilities that remain provably unelicitable even under full white-box weight access — resisting fine-tuning, weight noising, gradient-based trigger search, and latent adversarial training in the authors' proof-of-concept tests. The threat model is a malicious insider or compromised supply chain modifying weights before deployment.",
+      "tags": [
+        "agent-frameworks",
+        "benchmark-integrity"
+      ],
+      "source": "arXiv:2610.13928, NeurIPS 2026",
+      "url": "https://arxiv.org/abs/2610.13928"
+    },
+    {
+      "text": "Today's Google Play Store capture shows Claude by Anthropic jumping from #22 (10-12 capture) to #13 today, still 4.7 stars — a 9-rank move, the sharpest single-day shift logged against this research's own baseline that rank churn usually stays within a handful of positions.",
+      "tags": [
+        "play-store-trends"
+      ],
+      "source": "Google Play Store, scraped",
+      "url": "https://play.google.com/store/apps/top"
+    },
+    {
+      "text": "Adobe Scan now carries 'AI PDF Scanner, OCR' explicitly in its Play Store title — the first time this research has logged the AI-label-inflation pattern (previously tracked on indie apps) applied to an established, major-brand incumbent.",
+      "tags": [
+        "play-store-trends",
+        "aso"
+      ],
+      "source": "Google Play Store, scraped",
+      "url": "https://play.google.com/store/apps/details?id=com.adobe.scan.android"
+    },
+    {
+      "text": "'Show HN: Atticus' is a hold-to-talk macOS voice assistant that bundles no model of its own: simple tasks run locally via macOS 26's own speech APIs in about 0.08 seconds, and complex tasks route to claude -p, so it needs no API key and runs entirely on the user's existing Claude Pro or Max subscription — extending a 'claude -p as headless primitive' pattern into voice I/O specifically.",
+      "tags": [
+        "cli-creative-tools",
+        "voice-tts-speech"
+      ],
+      "source": "Hacker News Show HN",
+      "url": "https://news.ycombinator.com/item?id=50049588"
+    },
+    {
+      "text": "LiquidAI/d1-3B debuted on today's Hugging Face Trending (#9, 354 likes, 11,866 downloads) — a new on-device model candidate not yet deep-read. Qwen/Qwen3.8-27B remains the download-count leader at 6,895,303, incrementing steadily rather than spiking.",
+      "tags": [
+        "on-device-llm"
+      ],
+      "source": "Hugging Face Trending, scraped",
+      "url": "https://huggingface.co/LiquidAI/d1-3B"
+    }
+  ],
+  "trending": [
+    {
+      "name": "rea",
+      "fullName": "morluto/rea",
+      "stars": "169K",
+      "language": "TypeScript",
+      "delta": "+45,327/d",
+      "url": "https://github.com/morluto/rea"
+    },
+    {
+      "name": "artcraft",
+      "fullName": "storytold/artcraft",
+      "stars": "22.8K",
+      "language": "Rust",
+      "delta": "+4,095/d",
+      "url": "https://github.com/storytold/artcraft"
+    },
+    {
+      "name": "diagram-design",
+      "fullName": "cathrynlavery/diagram-design",
+      "stars": "53.0K",
+      "language": "HTML",
+      "delta": "+2,081/d",
+      "url": "https://github.com/cathrynlavery/diagram-design"
+    },
+    {
+      "name": "gods-eye-view",
+      "fullName": "bilawalsidhu/gods-eye-view",
+      "stars": "54.0K",
+      "language": "JavaScript",
+      "delta": "+1,895/d",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view"
+    },
+    {
+      "name": "airllm",
+      "fullName": "lyogavin/airllm",
+      "stars": "37.7K",
+      "language": "Jupyter Notebook",
+      "delta": "+879/d",
+      "url": "https://github.com/lyogavin/airllm"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "574",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "45,327",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "13",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "October 13, 2026"
+    },
+    "headlines": [
+      {
+        "text": "morluto/rea, a reverse-engineering MCP server, holds GitHub Trending #1 for an eighth consecutive strong day. The GitHub API fetched directly shows 169,567 stars, 40,399 forks, 410 open issues, pushed 5 minutes before today's scrape. Stars grew 47.0% and forks grew 56.3% over 24 hours",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Meta shipped Muse Wonder and Muse Wonder Full on 2026-10-12, its first frontier-class AI models. Per Artificial Analysis benchmarks, Muse Wonder Full scores 56 and Muse Wonder scores 52 on the Intelligence Index, trailing Claude Opus 5.5 and roughly level with Claude Sonnet 5.5 . Muse Wonder is priced at $4/$20 per million tokens via the Meta Model API; Muse Wonder Full requires a $50/month Muse Code subscription and is withheld from the API.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Anthropic's new Dynamic Workflows let a lead Claude agent self-orchestrate a multi-agent topology",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Anthropic ships self-orchestrating Dynamic Workflows the same week OpenAI's Codex CLI draws backlash for a daemon installed by default, a NeurIPS paper proves AI models can provably hide capabilities from white-box audits, and Meta's first frontier model tests whether the AI market stays a three-horse race."
+    }
+  }
+}
