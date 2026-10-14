@@ -1,0 +1,177 @@
+{
+  "date": "2026-10-14",
+  "episodeNumber": 200,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "headline": "Anthropic reports average daily merges rose from about 2,500 in May to over 30,000 in September",
+  "subtitle": "Anthropic reports average daily merges rose from, Google says Android users can create a personal, morluto/rea led GitHub Trending at 54,679 stars",
+  "heroStat": {
+    "value": ">12x",
+    "label": "Anthropic-reported rise in daily merges, May to September"
+  },
+  "insights": [
+    {
+      "text": "Anthropic reports average daily merges rose from about 2,500 in May to over 30,000 in September. Its seven-person team built Scion, a server-centric source-control system, and related systems in five months; performance claims remain company-reported.",
+      "tags": [
+        "harness-engineering",
+        "source-control"
+      ],
+      "source": "Anthropic Engineering",
+      "url": "https://www.anthropic.com/engineering/redesigning-source-control"
+    },
+    {
+      "text": "Google says Android users can create a personal app in Google AI Studio and launch it on their device through Google Play without a developer account or public catalog listing. Rollout starts in select markets, including the US, for users 18+; adoption is not yet reported.",
+      "tags": [
+        "android",
+        "vibe-coding",
+        "distribution"
+      ],
+      "source": "Google Play, October 2026 update",
+      "url": "https://blog.google/products-and-platforms/platforms/google-play/google-play-updates-october-2026/"
+    },
+    {
+      "text": "morluto/rea led GitHub Trending at 54,679 stars today. A separate GitHub API read at 05:36:56Z returned 216,031 stars, 53,297 forks, and 596 open issues; this confirms the snapshot counters, not reverse-engineering accuracy or long-term adoption.",
+      "tags": [
+        "github-trending",
+        "agent-frameworks"
+      ],
+      "source": "GitHub Trending and GitHub repository API",
+      "url": "https://github.com/morluto/rea"
+    },
+    {
+      "text": "Vercel's skills CLI installs Agent Skills across coding agents. Matt Pocock's similarly named repository supplies skill content and documents installation through that CLI, making them complementary installer and content layers rather than competing products.",
+      "tags": [
+        "agent-skills",
+        "developer-tools"
+      ],
+      "source": "Vercel skills README and Matt Pocock skills README",
+      "url": "https://github.com/vercel-labs/skills"
+    },
+    {
+      "text": "Liquid AI describes LFM2.5-24B-A2B as a local-agent model with 24B total and 2B active parameters, reporting a 131K context window and results across 16 benchmarks. Those are vendor-reported evaluations; the post also describes reward-hacking observed during teacher specialization.",
+      "tags": [
+        "on-device-llm",
+        "local-agents"
+      ],
+      "source": "Liquid AI",
+      "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b"
+    },
+    {
+      "text": "NVIDIA's Personal AI Router routes independent local-inference requests across compatible computers on one network; it does not pool GPU memory or shard a model across machines.",
+      "tags": [
+        "local-inference",
+        "routing"
+      ],
+      "source": "NVIDIA Personal AI Router README",
+      "url": "https://github.com/NVIDIA/Personal-AI-Router"
+    },
+    {
+      "text": "Stacklok Mecatl is a provider-agnostic agent harness with permissions, hooks, delegation, durable sessions, and local-to-Kubernetes runtime options. Its README warns the default unauthenticated loopback setup and audit features are not a tenant-isolation boundary.",
+      "tags": [
+        "agent-frameworks",
+        "harness-engineering"
+      ],
+      "source": "Stacklok Mecatl README",
+      "url": "https://github.com/stacklok/mecatl"
+    },
+    {
+      "text": "The scrape captured 12 successful sources and recorded failures for Reddit r/LocalLLaMA and r/programming. Neither failed feed is evidence of no activity, and neither is cited in this brief.",
+      "tags": [
+        "research-method",
+        "source-quality"
+      ],
+      "source": "Learn 2026 scrape, 2026-10-14T05:19:06Z",
+      "url": "https://github.com/tidoemanuele/learn-2026/tree/main/docs/research/2026-10-14/scraped"
+    }
+  ],
+  "trending": [
+    {
+      "name": "rea",
+      "fullName": "morluto/rea",
+      "stars": "216K",
+      "language": "TypeScript",
+      "delta": "+54,679/d",
+      "url": "https://github.com/morluto/rea"
+    },
+    {
+      "name": "artcraft",
+      "fullName": "storytold/artcraft",
+      "stars": "26.2K",
+      "language": "Rust",
+      "delta": "+4,081/d",
+      "url": "https://github.com/storytold/artcraft"
+    },
+    {
+      "name": "gods-eye-view",
+      "fullName": "bilawalsidhu/gods-eye-view",
+      "stars": "55.7K",
+      "language": "JavaScript",
+      "delta": "+1,961/d",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view"
+    },
+    {
+      "name": "diagram-design",
+      "fullName": "cathrynlavery/diagram-design",
+      "stars": "54.5K",
+      "language": "HTML",
+      "delta": "+1,815/d",
+      "url": "https://github.com/cathrynlavery/diagram-design"
+    },
+    {
+      "name": "VoiceStudio",
+      "fullName": "debpalash/VoiceStudio",
+      "stars": "64.0K",
+      "language": "Python",
+      "delta": "+1,748/d",
+      "url": "https://github.com/debpalash/VoiceStudio"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "1145",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "54,679",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "13",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "October 14, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Anthropic reports average daily merges rose from about 2,500 in May to over 30,000 in September. Its seven-person team built Scion, a server-centric source-control system, and related systems in five months; performance claims remain company-reported.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Google says Android users can create a personal app in Google AI Studio and launch it on their device through Google Play without a developer account or public catalog listing. Rollout starts in select markets, including the US, for users 18+; adoption is not yet reported.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "morluto/rea led GitHub Trending at 54,679 stars today. A separate GitHub API read at 05:36:56Z returned 216,031 stars, 53,297 forks, and 596 open issues; this confirms the snapshot counters, not reverse-engineering accuracy or long-term adoption.",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Anthropic's reported merge growth is already reshaping its source-control infrastructure, while Google removes public-store distribution as a prerequisite for personal Android apps."
+    }
+  }
+}
