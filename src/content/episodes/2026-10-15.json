@@ -1,0 +1,176 @@
+{
+  "date": "2026-10-15",
+  "episodeNumber": 201,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "headline": "A day after Anthropic disclosed Scion, Facebook Mononoke's creator argues Scion reuses Mononoke's",
+  "subtitle": "A day after Anthropic disclosed Scion, Facebook, Paramount Skydance completed its $110.9 billion, Cybersecurity experts interviewed by CSO Online",
+  "heroStat": {
+    "value": "$110.9B",
+    "label": "Paramount Skydance's Warner Bros. Discovery acquisition, closed Oct 6 — missed by two prior weekly discovery passes"
+  },
+  "insights": [
+    {
+      "text": "A day after Anthropic disclosed Scion, Facebook Mononoke's creator argues Scion reuses Mononoke's 2017-18 \"derived data\" technique and that Anthropic credited Sapling instead of the closer precedent. No dispute that Scion solves a real problem at Anthropic's scale — the claim is that the underlying technique predates the agent-coding wave by about a decade.",
+      "tags": [
+        "harness-engineering",
+        "source-control"
+      ],
+      "source": "daily.dev (via search)",
+      "url": "https://daily.dev/posts/anthropic-s-scion-is-heavily-inspired-by-mononoke-cjgzwv5qx"
+    },
+    {
+      "text": "Paramount Skydance completed its $110.9 billion acquisition of Warner Bros. Discovery on October 6, 2026, at $31/share; the combined company was renamed Skydance Corporation. This research's own Thursday OTT discovery searches on Oct 1 and Oct 8 both reported no October news on either tracked merger, missing the close entirely.",
+      "tags": [
+        "ott",
+        "media-consolidation"
+      ],
+      "source": "Bloomberg, Deadline",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-06/paramount-closes-warner-bros-merger-in-historic-hollywood-deal"
+    },
+    {
+      "text": "Cybersecurity experts interviewed by CSO Online reject the \"rogue AI\" framing for 2026's agent-hacking incidents, naming skipped containment basics (sandboxing, egress controls) at OpenAI and Anthropic as the real cause. The same day, three pre-existing GitHub repos for auditing or pentesting AI agents (K-Dense-AI/scientific-agent-skills, ifixai-ai/iFixAi, vxcontrol/pentagi) all climbed GitHub Trending.",
+      "tags": [
+        "ai-security",
+        "agent-frameworks"
+      ],
+      "source": "CSO Online (via search)",
+      "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html"
+    },
+    {
+      "text": "Figma announced Specs, a markdown editor for design-language rules agents read while working, and took Code Layers (canvas-embedded code) into public beta. Figma's Chief Design Officer reports 17x more generated code against only 1.3x more releases since opening agent access — mostly exploration code, by the company's own framing.",
+      "tags": [
+        "ai-dev-tools",
+        "agent-tooling"
+      ],
+      "source": "TechCrunch (via search)",
+      "url": "https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform/"
+    },
+    {
+      "text": "morluto/rea leads GitHub Trending for a tenth consecutive day. Direct API fetch shows 248,932 stars, 62,487 forks, 815 open issues; forks outpacing stars extends to a sixth consecutive capture even as the raw growth rate keeps decelerating (+15.2% stars today vs. +27.2% yesterday).",
+      "tags": [
+        "github-trending",
+        "agent-frameworks"
+      ],
+      "source": "GitHub repository API",
+      "url": "https://github.com/morluto/rea"
+    },
+    {
+      "text": "Claude by Anthropic climbs to #7 in today's Play Store capture, a fourth consecutive capture in the same direction (#22 to #13 to #9 to #7) — the longest same-direction run this research has logged for one app, though the single-snapshot chart method still cannot rule out noise.",
+      "tags": [
+        "play-store",
+        "android"
+      ],
+      "source": "Learn 2026 scrape, 2026-10-15T05:19:02Z",
+      "url": "https://github.com/tidoemanuele/learn-2026/tree/main/docs/research/2026-10-15/scraped"
+    },
+    {
+      "text": "debpalash/VoiceStudio, a fully-local open-source ElevenLabs alternative for voice cloning, climbs from #3 to #2 on GitHub Trending (66,971 total stars, up from 63,955) on its second consecutive strong trending day.",
+      "tags": [
+        "on-device-llm",
+        "voice"
+      ],
+      "source": "GitHub Trending",
+      "url": "https://github.com/debpalash/VoiceStudio"
+    },
+    {
+      "text": "browser-use shipped macos-harness v0.2.1, a dedicated macOS agent-isolation product — a second concrete instance of the \"give the agent its own OS account\" pattern this research flagged on Oct 9 via the solo-maintainer tool offstage.",
+      "tags": [
+        "browser-automation",
+        "agent-security"
+      ],
+      "source": "GitHub Releases (via AI People roster)",
+      "url": "https://github.com/browser-use/macos-harness/releases/tag/v0.2.1"
+    }
+  ],
+  "trending": [
+    {
+      "name": "rea",
+      "fullName": "morluto/rea",
+      "stars": "249K",
+      "language": "TypeScript",
+      "delta": "+41,034/d",
+      "url": "https://github.com/morluto/rea"
+    },
+    {
+      "name": "VoiceStudio",
+      "fullName": "debpalash/VoiceStudio",
+      "stars": "67.0K",
+      "language": "Python",
+      "delta": "+3,538/d",
+      "url": "https://github.com/debpalash/VoiceStudio"
+    },
+    {
+      "name": "iFixAi",
+      "fullName": "ifixai-ai/iFixAi",
+      "stars": "27.7K",
+      "language": "Python",
+      "delta": "+2,109/d",
+      "url": "https://github.com/ifixai-ai/iFixAi"
+    },
+    {
+      "name": "xtool",
+      "fullName": "xtool-org/xtool",
+      "stars": "11.1K",
+      "language": "Swift",
+      "delta": "+1,502/d",
+      "url": "https://github.com/xtool-org/xtool"
+    },
+    {
+      "name": "pentagi",
+      "fullName": "vxcontrol/pentagi",
+      "stars": "29.8K",
+      "language": "Go",
+      "delta": "+1,025/d",
+      "url": "https://github.com/vxcontrol/pentagi"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "1028",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "41,034",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "13",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "October 15, 2026"
+    },
+    "headlines": [
+      {
+        "text": "A day after Anthropic disclosed Scion, Facebook Mononoke's creator argues Scion reuses Mononoke's 2017-18 \"derived data\" technique and that Anthropic credited Sapling instead of the closer precedent. No dispute that Scion solves a real problem at Anthropic's scale",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Paramount Skydance completed its $110.9 billion acquisition of Warner Bros. Discovery on October 6, 2026, at $31/share; the combined company was renamed Skydance Corporation. This research's own Thursday OTT discovery searches on Oct 1 and Oct 8 both reported no October news on either tracked merger, missing the close entirely.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Cybersecurity experts interviewed by CSO Online reject the \"rogue AI\" framing for 2026's agent-hacking incidents, naming skipped containment basics at OpenAI and Anthropic as the real cause. The same day, three pre-existing GitHub repos for auditing or pentesting AI agents all climbed GitHub Trending.",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "A credit dispute over Anthropic's new source-control system and a merger that already closed without this research noticing both argue for the same lesson: verify dated claims against primary sources, not just the news cycle that surfaced them."
+    }
+  }
+}
