@@ -1,0 +1,176 @@
+{
+  "date": "2026-10-16",
+  "episodeNumber": 202,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "headline": "Anthropic's Q3 revenue reportedly hit $16.8B",
+  "subtitle": "Anthropic's Q3 revenue reportedly hit $16.8B, up, Simon Willison flags that distillation reportedly, A Netflix documentary on July's OpenAI-agent",
+  "heroStat": {
+    "value": "$16.8B",
+    "label": "Anthropic's reported Q3 revenue ahead of a planned November IPO, up 45% QoQ but down from Q2's 140% surge"
+  },
+  "insights": [
+    {
+      "text": "Anthropic's Q3 revenue reportedly hit $16.8B, up 45% quarter-over-quarter but a sharp deceleration from Q2's roughly 140% surge, with adjusted gross margin at 85% and a second straight quarter of adjusted profitability, ahead of a planned November IPO.",
+      "tags": [
+        "frontier-labs",
+        "ipo"
+      ],
+      "source": "CNBC, Bloomberg, Axios (via search)",
+      "url": "https://www.cnbc.com/2026/10/15/anthropics-third-quarter-revenue-hits-16point8-billion-ipo.html"
+    },
+    {
+      "text": "Simon Willison flags that distillation reportedly accounts for 5-7% of Anthropic's disclosed revenue — the first time a frontier lab has put a number on distillation as a revenue line, echoing Elon Musk's April court admission of distillation use at xAI.",
+      "tags": [
+        "frontier-labs",
+        "distillation"
+      ],
+      "source": "Simon Willison (via search and AI People roster)",
+      "url": "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/"
+    },
+    {
+      "text": "A Netflix documentary on July's OpenAI-agent Hugging Face breach, released Oct 12, appears to have driven today's Tildes resurfacing of three separate, already-resolved AI-agent-hacking stories (the Hugging Face breach, a Claude-assisted OpenAI breach from September, and OpenAI's September training halt) as if concurrent — none is a new incident.",
+      "tags": [
+        "ai-security",
+        "agent-frameworks"
+      ],
+      "source": "Netflix, TechCrunch, Decrypt (via search)",
+      "url": "https://www.memorabletv.com/news/netflixs-instadocs-ai-gone-wild-tells-story-hugging-face/"
+    },
+    {
+      "text": "Of the three agent-auditing/pentesting GitHub repos flagged yesterday, only K-Dense-AI/scientific-agent-skills kept climbing (#5 to #3); ifixai-ai/iFixAi and vxcontrol/pentagi both dropped off today's Trending board — a partial fade toward \"one-day coincidence\" for two of three.",
+      "tags": [
+        "github-trending",
+        "ai-security"
+      ],
+      "source": "GitHub Trending",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "text": "browser-use shipped two releases in one night, adding an OpenAI-compatible browser-tool driver (18 default tools, 6 optional actions) usable with local browsers, Browser Use Cloud, or externally supplied sessions — directly feeding today's Browser and Computer-Use Automation rotation.",
+      "tags": [
+        "browser-automation",
+        "agent-frameworks"
+      ],
+      "source": "GitHub Releases (deep-read)",
+      "url": "https://github.com/browser-use/browser-use/releases/tag/0.13.13"
+    },
+    {
+      "text": "Meta and Apple co-engineered Muse Spark Open, an 816B-parameter (42B active) open-weight model tuned to run across two to four Apple M5 Ultra Mac Studios via an Apple-modified MLX framework — a different procurement axis than Meta's cloud-API Muse Wonder launch three days earlier.",
+      "tags": [
+        "on-device-llm",
+        "frontier-labs"
+      ],
+      "source": "TechCrunch, Meta (via search)",
+      "url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/"
+    },
+    {
+      "text": "morluto/rea leads GitHub Trending for an eleventh consecutive day. Direct API fetch shows 275,702 stars, 69,450 forks, 1,024 open issues; forks outpacing stars extends to a seventh consecutive capture, while raw growth keeps decelerating (+10.75% stars today vs. +15.2% yesterday).",
+      "tags": [
+        "github-trending",
+        "agent-frameworks"
+      ],
+      "source": "GitHub repository API",
+      "url": "https://github.com/morluto/rea"
+    },
+    {
+      "text": "Claude by Anthropic's four-capture Play Store climb (#22 to #7 over four days) reverses today to #19 — the first break in the run, though a single reversal does not by itself disprove the trend.",
+      "tags": [
+        "play-store",
+        "android"
+      ],
+      "source": "Learn 2026 scrape, 2026-10-16T05:19:08Z",
+      "url": "https://github.com/tidoemanuele/learn-2026/tree/main/docs/research/2026-10-16/scraped"
+    }
+  ],
+  "trending": [
+    {
+      "name": "rea",
+      "fullName": "morluto/rea",
+      "stars": "276K",
+      "language": "TypeScript",
+      "delta": "+32,314/d",
+      "url": "https://github.com/morluto/rea"
+    },
+    {
+      "name": "VoiceStudio",
+      "fullName": "debpalash/VoiceStudio",
+      "stars": "69.5K",
+      "language": "Python",
+      "delta": "+3,024/d",
+      "url": "https://github.com/debpalash/VoiceStudio"
+    },
+    {
+      "name": "ghidra",
+      "fullName": "NationalSecurityAgency/ghidra",
+      "stars": "89.0K",
+      "language": "Java",
+      "delta": "+1,369/d",
+      "url": "https://github.com/NationalSecurityAgency/ghidra"
+    },
+    {
+      "name": "scientific-agent-skills",
+      "fullName": "K-Dense-AI/scientific-agent-skills",
+      "stars": "50.7K",
+      "language": "Python",
+      "delta": "+1,091/d",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "name": "ECC",
+      "fullName": "affaan-m/ECC",
+      "stars": "281K",
+      "language": "JavaScript",
+      "delta": "+1,013/d",
+      "url": "https://github.com/affaan-m/ECC"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "713",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "32,314",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "13",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "October 16, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Anthropic's Q3 revenue reportedly hit $16.8B, up 45% quarter-over-quarter but a sharp deceleration from Q2's roughly 140% surge, with adjusted gross margin at 85% and a second straight quarter of adjusted profitability, ahead of a planned November IPO.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Simon Willison flags that distillation reportedly accounts for 5-7% of Anthropic's disclosed revenue",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "A Netflix documentary on July's OpenAI-agent Hugging Face breach, released Oct 12, appears to have driven today's Tildes resurfacing of three separate, already-resolved AI-agent-hacking stories as if concurrent",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "A pre-IPO revenue disclosure and a Netflix documentary both argue for the same lesson: check whether a number or an incident is new before treating it as news."
+    }
+  }
+}
