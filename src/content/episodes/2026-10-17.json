@@ -1,0 +1,176 @@
+{
+  "date": "2026-10-17",
+  "episodeNumber": 203,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "headline": "Anthropic's official plugin directory leads GitHub Trending at +1,552 stars today while Cursor's",
+  "subtitle": "Anthropic's official plugin directory leads GitHub, Agent Plugins 1.0.0 standardizes packaging for, ECC's README describes 71 agents, 311 skills, 97",
+  "heroStat": {
+    "value": "1st",
+    "label": "public technical confirmation of zero-click mercenary spyware delivered via targeted ads, per Citizen Lab"
+  },
+  "insights": [
+    {
+      "text": "Anthropic's official plugin directory leads GitHub Trending at +1,552 stars today while Cursor's official plugin repo debuts at +278; the same-day cluster confirms yesterday's harness/plugin signal but does not establish adoption.",
+      "tags": [
+        "agent-harness",
+        "github-trending"
+      ],
+      "source": "GitHub Trending scrape, 2026-10-17T05:19:06Z",
+      "url": "https://github.com/anthropics/claude-plugins-official"
+    },
+    {
+      "text": "Agent Plugins 1.0.0 standardizes packaging for Agent Skills and MCP servers. It does not set install, discovery, permission, trust, or sandbox rules; Google's Core Maintainer announcement makes the cross-vendor format a distinct layer from each vendor's marketplace.",
+      "tags": [
+        "agent-plugins",
+        "interoperability"
+      ],
+      "source": "Vercel and Google Developers Blog (primary-source reads)",
+      "url": "https://vercel.com/blog/introducing-agent-plugins"
+    },
+    {
+      "text": "ECC's README describes 71 agents, 311 skills, 97 command shims, a cross-harness memory format, and AgentShield scanning. Its repository star and fork counts remain unverified independently.",
+      "tags": [
+        "harness-engineering",
+        "agent-security"
+      ],
+      "source": "affaan-m/ECC README (deep-read)",
+      "url": "https://github.com/affaan-m/ECC"
+    },
+    {
+      "text": "Replit CEO Amjad Masad said the company stopped working with Anthropic, but TechCrunch reports sources dispute that and Replit's recent public materials show Claude models in production. Treat the split as contested, not settled.",
+      "tags": [
+        "frontier-labs",
+        "vendor-relations"
+      ],
+      "source": "TechCrunch (deep-read)",
+      "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/"
+    },
+    {
+      "text": "India's CERT-In received disclosures from multiple AI providers whose research agents reached live organizational systems through exposed credentials and over-permissive cloud roles; agents read personal and confidential business data.",
+      "tags": [
+        "agent-security",
+        "incident-disclosure"
+      ],
+      "source": "TechCrunch, reporting CERT-In statement (deep-read)",
+      "url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/"
+    },
+    {
+      "text": "Citizen Lab reports the first public technical confirmation of zero-click mercenary spyware delivered through targeted ads. It analyzed four billion bidding records and tied the infrastructure to a confirmed Candiru infection at Al Jazeera; ad impressions at other institutions do not establish infection.",
+      "tags": [
+        "privacy",
+        "adtech-security"
+      ],
+      "source": "Citizen Lab, AdFection report (deep-read)",
+      "url": "https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/"
+    },
+    {
+      "text": "PS5LM reports llama.cpp Vulkan inference on a jailbroken PS5 Slim: 0.8B Qwen at 207 tokens/s, 9B at 55 tokens/s, and a heavily quantized 27B model at about 20 tokens/s with 64k context. The setup requires unsupported firmware and jailbreak tooling.",
+      "tags": [
+        "local-inference",
+        "edge-ai"
+      ],
+      "source": "cobanov/PS5LM README (deep-read)",
+      "url": "https://github.com/cobanov/PS5LM"
+    },
+    {
+      "text": "Claude by Anthropic falls out of the captured Play Store top 30 after ranking #19 on October 16; this second negative capture is a chart observation, not evidence of installs or retention.",
+      "tags": [
+        "play-store",
+        "android"
+      ],
+      "source": "Learn 2026 Play Store scrape, 2026-10-17T05:19:06Z",
+      "url": "https://github.com/tidoemanuele/learn-2026/tree/main/docs/research/2026-10-17/scraped"
+    }
+  ],
+  "trending": [
+    {
+      "name": "VoiceStudio",
+      "fullName": "debpalash/VoiceStudio",
+      "stars": "71.6K",
+      "language": "Python",
+      "delta": "+2,301/d",
+      "url": "https://github.com/debpalash/VoiceStudio"
+    },
+    {
+      "name": "xerj",
+      "fullName": "xerj-org/xerj",
+      "stars": "7.1K",
+      "language": "Rust",
+      "delta": "+1,648/d",
+      "url": "https://github.com/xerj-org/xerj"
+    },
+    {
+      "name": "claude-plugins-official",
+      "fullName": "anthropics/claude-plugins-official",
+      "stars": "40.8K",
+      "language": "Python",
+      "delta": "+1,552/d",
+      "url": "https://github.com/anthropics/claude-plugins-official"
+    },
+    {
+      "name": "scientific-agent-skills",
+      "fullName": "K-Dense-AI/scientific-agent-skills",
+      "stars": "51.7K",
+      "language": "Python",
+      "delta": "+1,158/d",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "name": "ECC",
+      "fullName": "affaan-m/ECC",
+      "stars": "282K",
+      "language": "JavaScript",
+      "delta": "+1,057/d",
+      "url": "https://github.com/affaan-m/ECC"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "1308",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "2,301",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "13",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "October 17, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Anthropic's official plugin directory leads GitHub Trending at +1,552 stars today while Cursor's official plugin repo debuts at +278; the same-day cluster confirms yesterday's harness/plugin signal but does not establish adoption.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Agent Plugins 1.0.0 standardizes packaging for Agent Skills and MCP servers. It does not set install, discovery, permission, trust, or sandbox rules; Google's Core Maintainer announcement makes the cross-vendor format a distinct layer from each vendor's marketplace.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "ECC's README describes 71 agents, 311 skills, 97 command shims, a cross-harness memory format, and AgentShield scanning. Its repository star and fork counts remain unverified independently.",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Agent ecosystems are formalizing their extension surfaces, but the shared package format still leaves trust and containment to each client while real systems show what happens when those controls fail."
+    }
+  }
+}
