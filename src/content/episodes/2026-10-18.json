@@ -1,0 +1,176 @@
+{
+  "date": "2026-10-18",
+  "episodeNumber": 204,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "headline": "Anthropic's official Claude Code plugin directory leads GitHub Trending for a second consecutive",
+  "subtitle": "Anthropic's official Claude Code plugin directory, ECC holds GitHub Trending #3 for a third capture ., Anthropic's self-authored employment report says",
+  "heroStat": {
+    "value": "27% → 9%",
+    "label": "share of Anthropic's technical hires who were junior, per the company's own report"
+  },
+  "insights": [
+    {
+      "text": "Anthropic's official Claude Code plugin directory leads GitHub Trending for a second consecutive capture at +1,397 stars today (41,953 total); its README separates internal and external plugins, fixes published slugs, and warns that Anthropic does not control all included software.",
+      "tags": [
+        "agent-plugins",
+        "github-trending"
+      ],
+      "source": "GitHub Trending scrape, 2026-10-18T05:19:32Z; repository README",
+      "url": "https://github.com/anthropics/claude-plugins-official"
+    },
+    {
+      "text": "ECC holds GitHub Trending #3 for a third capture (+1,145 stars today; 282,676 total in the scrape). Its README bundles cross-harness agents, skills, memory, commands, and security tooling; the snapshot does not independently validate its reported scale.",
+      "tags": [
+        "harness-engineering",
+        "github-trending"
+      ],
+      "source": "GitHub Trending scrape, 2026-10-18T05:19:32Z; ECC README",
+      "url": "https://github.com/affaan-m/ECC"
+    },
+    {
+      "text": "Anthropic's self-authored employment report says junior technical hires fell from 27% to 9% since early 2025, while meeting time per employee rose 20% year over year. These are company-specific, self-reported figures, not an economy-wide causal estimate.",
+      "tags": [
+        "ai-workforce",
+        "labor"
+      ],
+      "source": "TechCrunch report linking Anthropic's Employment at Anthropic report",
+      "url": "https://www.anthropic.com/research/employment-at-anthropic"
+    },
+    {
+      "text": "DeepSeek's V4.1-Flash-1017 model card reports Terminal-Bench 4.0 of 42.3 vs. 31.2 and DeepSWE v1.1 of 77.0 vs. 74.2 for its prior checkpoint. These are vendor results; local inference documentation includes a custom encoding stack and no Jinja chat template.",
+      "tags": [
+        "local-inference",
+        "model-evaluation"
+      ],
+      "source": "DeepSeek release announcement and Hugging Face model card",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
+    },
+    {
+      "text": "HKUDS/CLI-Anything ranks #4 on GitHub Trending (+574 stars today; 54,165 total). Its project README describes a CLI Hub and demos that generate interfaces for GUI software, including CAD, 3D, diagrams, gameplay, and subtitles; demos are not independent reliability evidence.",
+      "tags": [
+        "agent-tools",
+        "creative-tools"
+      ],
+      "source": "GitHub Trending scrape, 2026-10-18T05:19:32Z; project README",
+      "url": "https://github.com/HKUDS/CLI-Anything"
+    },
+    {
+      "text": "Sphinx appeared in Show HN at 6 points and 0 comments 41 minutes after posting. Its Git hook asks developers to explain a committed change before configured pushes proceed, but the project says this is practice rather than a security gate and notes that checks are bypassable.",
+      "tags": [
+        "code-review",
+        "human-oversight"
+      ],
+      "source": "HN Show scrape, 2026-10-18T05:19:32Z; Sphinx README",
+      "url": "https://github.com/parthh01/sphinx"
+    },
+    {
+      "text": "Caldera appears in today's Product Hunt capture, but the listing is dated October 12. Its Obsidian plugin describes selective profile/garden publishing and on-device identity keys; privacy and contact-filter behavior remain project claims rather than independently audited properties.",
+      "tags": [
+        "knowledge-management",
+        "privacy"
+      ],
+      "source": "Product Hunt capture, 2026-10-18; Caldera project README",
+      "url": "https://github.com/schoettle-cmd/caldera"
+    },
+    {
+      "text": "Claude by Anthropic is absent from the captured Google Play top 30 for a second consecutive day. This is a chart observation only; it does not establish installs, retention, or a causal change in demand.",
+      "tags": [
+        "google-play",
+        "android"
+      ],
+      "source": "Google Play Store scrape, 2026-10-18T05:19:32Z",
+      "url": "https://play.google.com/store/apps/details?id=com.anthropic.claude"
+    }
+  ],
+  "trending": [
+    {
+      "name": "VoiceStudio",
+      "fullName": "debpalash/VoiceStudio",
+      "stars": "73.7K",
+      "language": "Python",
+      "delta": "+2,125/d",
+      "url": "https://github.com/debpalash/VoiceStudio"
+    },
+    {
+      "name": "claude-plugins-official",
+      "fullName": "anthropics/claude-plugins-official",
+      "stars": "42.0K",
+      "language": "Python",
+      "delta": "+1,397/d",
+      "url": "https://github.com/anthropics/claude-plugins-official"
+    },
+    {
+      "name": "ai-job-search",
+      "fullName": "MadsLorentzen/ai-job-search",
+      "stars": "50.8K",
+      "language": "Python",
+      "delta": "+1,365/d",
+      "url": "https://github.com/MadsLorentzen/ai-job-search"
+    },
+    {
+      "name": "xerj",
+      "fullName": "xerj-org/xerj",
+      "stars": "8.0K",
+      "language": "Rust",
+      "delta": "+1,160/d",
+      "url": "https://github.com/xerj-org/xerj"
+    },
+    {
+      "name": "ECC",
+      "fullName": "affaan-m/ECC",
+      "stars": "283K",
+      "language": "JavaScript",
+      "delta": "+1,145/d",
+      "url": "https://github.com/affaan-m/ECC"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "775",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "2,125",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "13",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "October 18, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Anthropic's official Claude Code plugin directory leads GitHub Trending for a second consecutive capture at +1,397 stars today ; its README separates internal and external plugins, fixes published slugs, and warns that Anthropic does not control all included software.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "ECC holds GitHub Trending #3 for a third capture . Its README bundles cross-harness agents, skills, memory, commands, and security tooling; the snapshot does not independently validate its reported scale.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Anthropic's self-authored employment report says junior technical hires fell from 27% to 9% since early 2025, while meeting time per employee rose 20% year over year. These are company-specific, self-reported figures, not an economy-wide causal estimate.",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Agent tooling is adding both capability surfaces and human checkpoints, but popularity, vendor benchmarks, and product privacy claims still need independent validation."
+    }
+  }
+}
