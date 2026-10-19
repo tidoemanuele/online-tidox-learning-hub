@@ -1,0 +1,176 @@
+{
+  "date": "2026-10-19",
+  "episodeNumber": 205,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "headline": "Google's Android team publishes an official Agent Skills repository",
+  "subtitle": "Google's Android team publishes an official Agent, MadsLorentzen/ai-job-search leads GitHub Trending, cursor/plugins reappears on GitHub Trending after",
+  "heroStat": {
+    "value": "69 → 20 → 1",
+    "label": "applications, first interviews, and signed contracts the creator of today's #1 GitHub Trending repo reports from his own Claude Code job-search pipeline"
+  },
+  "insights": [
+    {
+      "text": "Google's Android team publishes an official Agent Skills repository (android/skills), deliberately scoped to 'use cases and workflows where evaluations show LLMs underperform' rather than well-covered basics, installed via a dedicated Android CLI following the open agentskills.io SKILL.md standard.",
+      "tags": [
+        "android",
+        "agent-skills"
+      ],
+      "source": "GitHub Trending scrape, 2026-10-19T05:19:07Z; repository README, deep-read",
+      "url": "https://github.com/android/skills"
+    },
+    {
+      "text": "MadsLorentzen/ai-job-search leads GitHub Trending (2,232 stars today; 53,971 total). It is a job-application pipeline built entirely on Claude Code, billed through a Pro/Max/Team subscription or API credits, with no bundled model. The creator's own linked account: 69 tailored applications, 20 first interviews, 1 signed contract.",
+      "tags": [
+        "claude-code",
+        "ai-dev-tools"
+      ],
+      "source": "GitHub Trending scrape, 2026-10-19T05:19:07Z; repository README, deep-read",
+      "url": "https://github.com/MadsLorentzen/ai-job-search"
+    },
+    {
+      "text": "cursor/plugins reappears on GitHub Trending (#4) after yesterday's absence, confirming that absence was a capture-depth artifact. affaan-m/ECC, which had held its own Trending slot for three straight days, is itself absent today despite a direct API pull showing continued (if marginal) growth.",
+      "tags": [
+        "github-trending",
+        "harness-engineering"
+      ],
+      "source": "GitHub Trending scrape, 2026-10-19T05:19:07Z; GitHub API, fetched directly",
+      "url": "https://github.com/affaan-m/ECC"
+    },
+    {
+      "text": "A new arXiv paper, 'Hybrid Reasoning Agents,' reports a 10.4% performance gain across 11 benchmarks alongside 35.5-54.7% token reduction and 2.7-3.7x cost savings, by letting a model switch between latent-space and text-based reasoning within one generation stream. All figures are author-reported, not independently replicated.",
+      "tags": [
+        "agent-frameworks",
+        "benchmark-integrity"
+      ],
+      "source": "Hacker News #2 (297 pts); arXiv 2610.18861, read directly",
+      "url": "https://arxiv.org/abs/2610.18861"
+    },
+    {
+      "text": "Anthropic commits 5% of its shares to a new, wholly-owned 'Public Benefit Fund,' growable by about 2% more per 50% rise in company value, ahead of a planned November IPO.",
+      "tags": [
+        "ai-dev-tools",
+        "anthropic"
+      ],
+      "source": "TechCrunch and Anthropic's own announcement, deep-read via search",
+      "url": "https://www.anthropic.com/news/public-benefit-fund"
+    },
+    {
+      "text": "Claude by Anthropic is absent from the captured Google Play top 30 for a third consecutive day, extending the reversal first logged 2026-10-17 and approaching this page's own week-long bar for confirming a genuine, sustained drop.",
+      "tags": [
+        "google-play",
+        "android"
+      ],
+      "source": "Google Play Store scrape, 2026-10-19T05:19:07Z",
+      "url": "https://play.google.com/store/apps/details?id=com.anthropic.claude"
+    },
+    {
+      "text": "Music Player & MP3 - DDMusic holds #3 in today's Play Store capture, repeating a suffix-keyword-stacking ASO pattern first logged in September: an invented compound brand wrapped inside a generic category phrase.",
+      "tags": [
+        "play-store-trends",
+        "aso"
+      ],
+      "source": "Google Play Store scrape, 2026-10-19T05:19:07Z",
+      "url": "https://play.google.com/store/apps/top"
+    },
+    {
+      "text": "morluto/rea is absent from GitHub Trending for a third straight capture, but a direct API pull shows continued growth (325,462 stars, up from 293,860 two days earlier) at a decelerating rate consistent with the page's standing pattern.",
+      "tags": [
+        "github-trending",
+        "agent-frameworks"
+      ],
+      "source": "GitHub API, fetched directly, 2026-10-19",
+      "url": "https://github.com/morluto/rea"
+    }
+  ],
+  "trending": [
+    {
+      "name": "ai-job-search",
+      "fullName": "MadsLorentzen/ai-job-search",
+      "stars": "54.0K",
+      "language": "Python",
+      "delta": "+2,232/d",
+      "url": "https://github.com/MadsLorentzen/ai-job-search"
+    },
+    {
+      "name": "VoiceStudio",
+      "fullName": "debpalash/VoiceStudio",
+      "stars": "75.9K",
+      "language": "Python",
+      "delta": "+2,082/d",
+      "url": "https://github.com/debpalash/VoiceStudio"
+    },
+    {
+      "name": "opencode",
+      "fullName": "anomalyco/opencode",
+      "stars": "217K",
+      "language": "TypeScript",
+      "delta": "+1,414/d",
+      "url": "https://github.com/anomalyco/opencode"
+    },
+    {
+      "name": "claude-plugins-official",
+      "fullName": "anthropics/claude-plugins-official",
+      "stars": "42.8K",
+      "language": "Python",
+      "delta": "+1,175/d",
+      "url": "https://github.com/anthropics/claude-plugins-official"
+    },
+    {
+      "name": "orca",
+      "fullName": "stablyai/orca",
+      "stars": "97.0K",
+      "language": "TypeScript",
+      "delta": "+1,146/d",
+      "url": "https://github.com/stablyai/orca"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "511",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "2,232",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "13",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "October 19, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Google's Android team publishes an official Agent Skills repository , deliberately scoped to 'use cases and workflows where evaluations show LLMs underperform' rather than well-covered basics, installed via a dedicated Android CLI following the open agentskills.io SKILL.md standard.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "MadsLorentzen/ai-job-search leads GitHub Trending . It is a job-application pipeline built entirely on Claude Code, billed through a Pro/Max/Team subscription or API credits, with no bundled model. The creator's own linked account: 69 tailored applications, 20 first interviews, 1 signed contract.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "cursor/plugins reappears on GitHub Trending after yesterday's absence, confirming that absence was a capture-depth artifact. affaan-m/ECC, which had held its own Trending slot for three straight days, is itself absent today despite a direct API pull showing continued growth.",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Google joins the cross-harness skills land grab with an official Android Agent Skills repo, a job-search pipeline built entirely on Claude Code tops GitHub Trending, and last week's plugin-directory falsification test resolves in a mixed way — one repo's absence was noise, another's may not be."
+    }
+  }
+}
