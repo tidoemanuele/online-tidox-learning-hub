@@ -1,0 +1,176 @@
+{
+  "date": "2026-10-20",
+  "episodeNumber": 206,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "headline": "OpenCode disclosed a breach of its older Console system affecting 1.4% of users",
+  "subtitle": "OpenCode disclosed a breach of its older Console, Nscale and Anthropic are reportedly in talks for a, Microsoft expanded Guardian Agents under Project",
+  "heroStat": {
+    "value": "$45B → $90B",
+    "label": "Nscale and Anthropic reportedly in talks for a second $45B compute deal, barely a month after their first, potentially doubling their combined commitment"
+  },
+  "insights": [
+    {
+      "text": "OpenCode disclosed a breach of its older Console system affecting 1.4% of users, calling it a 'large-scale distillation attack.' Some individual accounts saw unauthorized AI-provider charges exceeding $1,000. OpenCode's own AI models refused to analyze the attack code on safety grounds during the 48-hour incident, echoing a July 2026 Hugging Face guardrail-asymmetry problem.",
+      "tags": [
+        "security",
+        "ai-dev-tools"
+      ],
+      "source": "TechCrunch, deep-read, 2026-10-19",
+      "url": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/"
+    },
+    {
+      "text": "Nscale and Anthropic are reportedly in talks for a second ~$45B compute deal for a new West Virginia data center, barely a month after their first $45B/six-year deal (August 2026) — a potential ~$90B combined commitment, pending signature.",
+      "tags": [
+        "anthropic",
+        "infrastructure"
+      ],
+      "source": "Bloomberg and TechCrunch, via search, 2026-10-19",
+      "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/"
+    },
+    {
+      "text": "Microsoft expanded Guardian Agents under Project Perception, extending its 'AI agents are insider threats' framing to 60 monitored local-agent types and separate Entra Agent identities — while remaining an investor in and cloud provider to the same vendors (OpenAI, Anthropic) it is selling agent-security products against.",
+      "tags": [
+        "harness-engineering",
+        "security"
+      ],
+      "source": "TechCrunch, via search, 2026-10-19",
+      "url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/"
+    },
+    {
+      "text": "A Microsoft-authored paper finds an agent harness's context-management choices, not the model, can decide task success: dropping an irretrievable fact costs a 92.5-percentage-point penalty versus a re-fetchable one, and summarizing old turns recovers 86% of a 63-point ARC-AGI-3 harness-design gap.",
+      "tags": [
+        "harness-engineering",
+        "agent-frameworks"
+      ],
+      "source": "arXiv 2610.26632, deep-read",
+      "url": "https://arxiv.org/abs/2610.26632"
+    },
+    {
+      "text": "An independent paper proposes honeypots — decoy harmful-action opportunities planted in live production — as an AI-agent insider-threat control that deters misbehavior through uncertainty alone, separate from detection, and stays useful even as agent reasoning grows less interpretable.",
+      "tags": [
+        "agent-frameworks",
+        "security"
+      ],
+      "source": "arXiv 2610.26664, deep-read",
+      "url": "https://arxiv.org/abs/2610.26664"
+    },
+    {
+      "text": "akitaonrails/ai-memory climbed to #3 on GitHub Trending and got its first deep-read: a Rust MCP/HTTP server giving 20+ agent CLIs (Claude Code, Codex, Cursor, Gemini CLI) one shared, git-versioned memory store via a typed handoff protocol, MIT-licensed, with a 'zero LLM calls' default capture path.",
+      "tags": [
+        "agent-frameworks",
+        "github-trending"
+      ],
+      "source": "GitHub Trending scrape and README, deep-read, 2026-10-20T05:19:05Z",
+      "url": "https://github.com/akitaonrails/ai-memory"
+    },
+    {
+      "text": "Claude by Anthropic is absent from the captured Google Play top 30 for a fourth consecutive day, extending the reversal first logged 2026-10-17 toward the page's own week-long bar for confirming a genuine, sustained drop.",
+      "tags": [
+        "google-play",
+        "android"
+      ],
+      "source": "Google Play Store scrape, 2026-10-20T05:19:05Z",
+      "url": "https://play.google.com/store/apps/top"
+    },
+    {
+      "text": "Fish Audio's drama-3 (35B-parameter MoE, 3B active, 16-speaker voice cloning, sub-100ms serving latency) is the strongest synthesis-only TTS artifact logged in weeks, but its research-only license and lack of full-duplex speech-to-speech leave a standing voice-tech suspension test unmet for a tenth consecutive rotation.",
+      "tags": [
+        "voice-tts-speech",
+        "on-device-llm"
+      ],
+      "source": "Hugging Face Trending scrape and model card, deep-read, 2026-10-20T05:19:05Z",
+      "url": "https://huggingface.co/fishaudio/drama-3"
+    }
+  ],
+  "trending": [
+    {
+      "name": "ai-job-search",
+      "fullName": "MadsLorentzen/ai-job-search",
+      "stars": "57.9K",
+      "language": "Python",
+      "delta": "+3,856/d",
+      "url": "https://github.com/MadsLorentzen/ai-job-search"
+    },
+    {
+      "name": "orca",
+      "fullName": "stablyai/orca",
+      "stars": "98.6K",
+      "language": "TypeScript",
+      "delta": "+1,590/d",
+      "url": "https://github.com/stablyai/orca"
+    },
+    {
+      "name": "opencode",
+      "fullName": "anomalyco/opencode",
+      "stars": "218K",
+      "language": "TypeScript",
+      "delta": "+1,311/d",
+      "url": "https://github.com/anomalyco/opencode"
+    },
+    {
+      "name": "ComfyUI",
+      "fullName": "Comfy-Org/ComfyUI",
+      "stars": "140K",
+      "language": "Python",
+      "delta": "+1,011/d",
+      "url": "https://github.com/Comfy-Org/ComfyUI"
+    },
+    {
+      "name": "ai-memory",
+      "fullName": "akitaonrails/ai-memory",
+      "stars": "11.5K",
+      "language": "Rust",
+      "delta": "+666/d",
+      "url": "https://github.com/akitaonrails/ai-memory"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "535",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "3,856",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "13",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "October 20, 2026"
+    },
+    "headlines": [
+      {
+        "text": "OpenCode disclosed a breach of its older Console system affecting 1.4% of users, calling it a 'large-scale distillation attack.' Some individual accounts saw unauthorized AI-provider charges exceeding $1,000. OpenCode's own AI models refused to analyze the attack code on safety grounds during the 48-hour incident, echoing a July 2026 Hugging Face guardrail-asymmetry problem.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Nscale and Anthropic are reportedly in talks for a second ~$45B compute deal for a new West Virginia data center, barely a month after their first $45B/six-year deal",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Microsoft expanded Guardian Agents under Project Perception, extending its 'AI agents are insider threats' framing to 60 monitored local-agent types and separate Entra Agent identities",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "OpenCode discloses a breach where its own AI defenders got blocked by safety filters, Microsoft's new agent-insider-threat monitoring lands beside two academic papers on the same theme, and Tuesday's voice rotation logs its strongest synthesis-only model in weeks — still missing the license and capability bar that would end a ten-rotation suspension."
+    }
+  }
+}
