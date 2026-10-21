@@ -1,0 +1,176 @@
+{
+  "date": "2026-10-21",
+  "episodeNumber": 207,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "headline": "DeepSeek open-sourced DeepInfer, the inference framework it says 'powers DeepSeek's large-scale",
+  "subtitle": "DeepSeek open-sourced DeepInfer, the inference, SlopCodeBench's October update ran five frontier, Cloudflare open-sourced security-audit-skill, the",
+  "heroStat": {
+    "value": "2,189 points",
+    "label": "DeepSeek open-sources DeepInfer, its own production inference framework, to the loudest Hacker News reception of the day"
+  },
+  "insights": [
+    {
+      "text": "DeepSeek open-sourced DeepInfer, the inference framework it says 'powers DeepSeek's large-scale production services' — supporting DeepSeek-V4.1-Flash with optimized kernels and speculative decoding, reaching 14,601 stars in five days and the loudest Hacker News story of the day (2,189 points). The README flags the release as incomplete: no KV cache system or full prefill/decode disaggregation yet.",
+      "tags": [
+        "on-device-llm",
+        "github-trending"
+      ],
+      "source": "deepseek-ai/DeepInfer README, deep-read, and GitHub API, 2026-10-21",
+      "url": "https://github.com/deepseek-ai/DeepInfer"
+    },
+    {
+      "text": "SlopCodeBench's October update ran five frontier models across 36 problems and 196 checkpoints: paying 2.11-4.22x more for 'XHigh' reasoning effort cost two of three tested models strict-pass accuracy rather than buying it, and no model reached a single final checkpoint of any challenge with all tests passing.",
+      "tags": [
+        "ai-dev-tools",
+        "benchmark-integrity"
+      ],
+      "source": "SlopCodeBench October 2026 update, deep-read",
+      "url": "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/benchmarking-new-models-on-slop-code-bench.md"
+    },
+    {
+      "text": "Cloudflare open-sourced security-audit-skill, the single-repo coding-agent skill it says seeded its internal, fleet-wide vulnerability-hunting harness — a six-phase hunter/verifier/reporter workflow now installable by any developer via the Skills CLI.",
+      "tags": [
+        "agent-frameworks",
+        "harness-engineering"
+      ],
+      "source": "cloudflare/security-audit-skill README, deep-read, and GitHub API, 2026-10-21",
+      "url": "https://github.com/cloudflare/security-audit-skill"
+    },
+    {
+      "text": "Claude by Anthropic is absent from the captured Google Play top 30 for a fifth consecutive day, one short of this page's own week-long bar for confirming a genuine, sustained drop rather than chart noise.",
+      "tags": [
+        "google-play",
+        "android"
+      ],
+      "source": "Google Play Store scrape, 2026-10-21T05:19:09Z",
+      "url": "https://play.google.com/store/apps/top"
+    },
+    {
+      "text": "ruvnet/ruflo, a rebrand of claude-flow marketed as an 'agent meta-harness,' ships a README download-counter badge whose own alt-text discloses the animated number as illustrative, not real — a labeled fiction sitting beside a separately stated, genuine figure.",
+      "tags": [
+        "agent-frameworks",
+        "indie-shipping"
+      ],
+      "source": "ruvnet/ruflo README, deep-read, and GitHub API, 2026-10-21",
+      "url": "https://github.com/ruvnet/ruflo"
+    },
+    {
+      "text": "DietrichGebert/ponytail, a Claude Code skill for minimal, 'laziest senior dev' code generation, entered GitHub Trending at 170,113 stars, citing its own vendor-run benchmark claiming -53% code, -41% time, -26% cost, and -45% tokens versus default Claude Code usage.",
+      "tags": [
+        "github-trending",
+        "ai-dev-tools"
+      ],
+      "source": "GitHub Trending scrape and README, deep-read, 2026-10-21T05:19:09Z",
+      "url": "https://github.com/DietrichGebert/ponytail"
+    },
+    {
+      "text": "MadsLorentzen/ai-job-search held #1 on GitHub Trending for a third consecutive day (61,188 total stars), with growth decelerating to roughly +5.5% day-over-day from the prior day's +73% spike — a settling curve consistent with this page's pattern for early-trending repos.",
+      "tags": [
+        "github-trending",
+        "agent-frameworks"
+      ],
+      "source": "GitHub Trending scrape and GitHub API, 2026-10-21T05:19:09Z",
+      "url": "https://github.com/MadsLorentzen/ai-job-search"
+    },
+    {
+      "text": "headroomlabs-ai/headroom, a tool that compresses tool outputs, logs, files, and RAG chunks before they reach the LLM, held a second consecutive day on GitHub Trending (76,856 total stars, up from 76,353) without a deep-read yet.",
+      "tags": [
+        "agent-frameworks",
+        "on-device-llm"
+      ],
+      "source": "GitHub Trending scrape, 2026-10-21T05:19:09Z",
+      "url": "https://github.com/headroomlabs-ai/headroom"
+    }
+  ],
+  "trending": [
+    {
+      "name": "ai-job-search",
+      "fullName": "MadsLorentzen/ai-job-search",
+      "stars": "61.2K",
+      "language": "Python",
+      "delta": "+3,861/d",
+      "url": "https://github.com/MadsLorentzen/ai-job-search"
+    },
+    {
+      "name": "security-audit-skill",
+      "fullName": "cloudflare/security-audit-skill",
+      "stars": "34.6K",
+      "language": "JavaScript",
+      "delta": "+1,712/d",
+      "url": "https://github.com/cloudflare/security-audit-skill"
+    },
+    {
+      "name": "orca",
+      "fullName": "stablyai/orca",
+      "stars": "100K",
+      "language": "TypeScript",
+      "delta": "+1,565/d",
+      "url": "https://github.com/stablyai/orca"
+    },
+    {
+      "name": "opencode",
+      "fullName": "anomalyco/opencode",
+      "stars": "219K",
+      "language": "TypeScript",
+      "delta": "+1,240/d",
+      "url": "https://github.com/anomalyco/opencode"
+    },
+    {
+      "name": "ponytail",
+      "fullName": "DietrichGebert/ponytail",
+      "stars": "170K",
+      "language": "JavaScript",
+      "delta": "+1,208/d",
+      "url": "https://github.com/DietrichGebert/ponytail"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "2189",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "3,861",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "13",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "October 21, 2026"
+    },
+    "headlines": [
+      {
+        "text": "DeepSeek open-sourced DeepInfer, the inference framework it says 'powers DeepSeek's large-scale production services'",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "SlopCodeBench's October update ran five frontier models across 36 problems and 196 checkpoints: paying 2.11-4.22x more for 'XHigh' reasoning effort cost two of three tested models strict-pass accuracy rather than buying it, and no model reached a single final checkpoint of any challenge with all tests passing.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Cloudflare open-sourced security-audit-skill, the single-repo coding-agent skill it says seeded its internal, fleet-wide vulnerability-hunting harness",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "DeepSeek proved it can open-source the engine behind its own production service, while SlopCodeBench proved that paying more for reasoning doesn't reliably buy correctness."
+    }
+  }
+}
