@@ -1,0 +1,176 @@
+{
+  "date": "2026-10-22",
+  "episodeNumber": 208,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "headline": "LiteLLM 1.107.0, uploaded to PyPI on 2026-10-21",
+  "subtitle": "LiteLLM 1.107.0, uploaded to PyPI on 2026-10-21, Mozilla disclosed that private keys for eight, Wiz Research used three named AI tools to find a",
+  "heroStat": {
+    "value": "6 consecutive days",
+    "label": "Claude by Anthropic's absence from the Google Play top 30, completing the page's own week-long falsification bar for a genuine, sustained drop"
+  },
+  "insights": [
+    {
+      "text": "LiteLLM 1.107.0, uploaded to PyPI on 2026-10-21, shipped a credential stealer that runs on every Python process start and names Claude Code, Cursor, Copilot, and Codex tokens specifically as theft targets, alongside SSH keys, cloud credentials, and CI/CD secrets. Four independent security vendors trace the injection to the wheel/build-artifact level, not the git tag itself.",
+      "tags": [
+        "supply-chain",
+        "ai-dev-tools"
+      ],
+      "source": "StepSecurity, Socket.dev, JFrog analyses, via search, 2026-10-22",
+      "url": "https://socket.dev/blog/litellm-compromise"
+    },
+    {
+      "text": "Mozilla disclosed that private keys for eight eMudhra intermediate CA certificates were compromised, one reportedly as trivial as the number \"4\". Chrome, Firefox, Apple, and Microsoft all blocked the certificates within days, and Mozilla removed the issuing root from NSS outright rather than only blocklisting leaf certificates.",
+      "tags": [
+        "supply-chain",
+        "security"
+      ],
+      "source": "Mozilla Security Blog, deep-read, 2026-10-22",
+      "url": "https://blog.mozilla.org/security/2026/10/20/protecting-firefox-users-following-the-compromise-of-emudhra-intermediate-certificates/"
+    },
+    {
+      "text": "Wiz Research used three named AI tools (Wiz Atlas, Gemini 4 Argon, GPT-5.6 Sol) to find a PHP 8.x-wide RCE on 19 August, confirming unauthenticated exploitation against Drupal and WordPress within two days, then reported privately. A leaked proof-of-concept video on 20 October forced PHP to move its own public disclosure a full day earlier.",
+      "tags": [
+        "ai-offensive-securit",
+        "security"
+      ],
+      "source": "Simon Willison, deep-read, 2026-10-22",
+      "url": "https://simonwillison.net/2026/Oct/21/php-security-release/"
+    },
+    {
+      "text": "Claude by Anthropic does not appear in the 2026-10-22 Google Play top-30 capture, extending its absence to six consecutive days and meeting the project's own week-long bar for treating the drop as genuine rather than chart noise.",
+      "tags": [
+        "play-store",
+        "android"
+      ],
+      "source": "Google Play Store scrape, 2026-10-22T05:19:06Z",
+      "url": "https://play.google.com/store/apps/top"
+    },
+    {
+      "text": "Anthropic is circulating a draft federal AI safety bill that would block a model's release if an independent evaluator finds a \"foreseeable, imminent risk\" of 50+ deaths or $1B+ in property damage from a bio-weapon, loss-of-control, or cyberattack scenario — thresholds mirroring California's SB 53. TechCrunch notes the bill doesn't obviously cover the rogue-agent incident pattern actually driving 2026's AI-safety coverage.",
+      "tags": [
+        "ai-policy",
+        "claude-code-ecosyste"
+      ],
+      "source": "TechCrunch, deep-read, 2026-10-22",
+      "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/"
+    },
+    {
+      "text": "OpenAI's GPT-6 Astra, GPT-6.1 Sol, and GPT-6 Luna entered private preview on Google Cloud's Model Garden, making Google Cloud the only major US hyperscaler reselling all three leading closed-source model families natively in one platform, alongside Azure and AWS distribution OpenAI already had.",
+      "tags": [
+        "frontier-procurement",
+        "agent-frameworks"
+      ],
+      "source": "OpenAI announcement, via search, 2026-10-22",
+      "url": "https://openai.com/index/openai-models-google-cloud/"
+    },
+    {
+      "text": "stablyai/orca debuted on GitHub Trending at #3 (101,641 stars) — a desktop app that fans one prompt across a fleet of coding agents (Claude Code, OpenCode, and others), each in its own isolated git worktree, for the user to compare and merge results.",
+      "tags": [
+        "agent-orchestration",
+        "github-trending"
+      ],
+      "source": "stablyai/orca README, deep-read, and GitHub API, 2026-10-22",
+      "url": "https://github.com/stablyai/orca"
+    },
+    {
+      "text": "cloudflare/security-audit-skill held its GitHub Trending #1 slot a second day (37,119 stars, up from 34,589), while DietrichGebert/ponytail (172,009) and headroomlabs-ai/headroom (77,359) both continued climbing — four of today's top GitHub entrants are agent-harness or fleet tooling rather than models.",
+      "tags": [
+        "agent-frameworks",
+        "harness-engineering"
+      ],
+      "source": "GitHub Trending scrape and GitHub API, 2026-10-22T05:19:06Z",
+      "url": "https://github.com/cloudflare/security-audit-skill"
+    }
+  ],
+  "trending": [
+    {
+      "name": "ponytail",
+      "fullName": "DietrichGebert/ponytail",
+      "stars": "172K",
+      "language": "JavaScript",
+      "delta": "+2,079/d",
+      "url": "https://github.com/DietrichGebert/ponytail"
+    },
+    {
+      "name": "security-audit-skill",
+      "fullName": "cloudflare/security-audit-skill",
+      "stars": "37.1K",
+      "language": "JavaScript",
+      "delta": "+2,012/d",
+      "url": "https://github.com/cloudflare/security-audit-skill"
+    },
+    {
+      "name": "orca",
+      "fullName": "stablyai/orca",
+      "stars": "102K",
+      "language": "TypeScript",
+      "delta": "+1,541/d",
+      "url": "https://github.com/stablyai/orca"
+    },
+    {
+      "name": "graphify",
+      "fullName": "Graphify-Labs/graphify",
+      "stars": "132K",
+      "language": "Python",
+      "delta": "+1,433/d",
+      "url": "https://github.com/Graphify-Labs/graphify"
+    },
+    {
+      "name": "ComfyUI",
+      "fullName": "Comfy-Org/ComfyUI",
+      "stars": "142K",
+      "language": "Python",
+      "delta": "+939/d",
+      "url": "https://github.com/Comfy-Org/ComfyUI"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "990",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "2,079",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "13",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "October 22, 2026"
+    },
+    "headlines": [
+      {
+        "text": "LiteLLM 1.107.0, uploaded to PyPI on 2026-10-21, shipped a credential stealer that runs on every Python process start and names Claude Code, Cursor, Copilot, and Codex tokens specifically as theft targets, alongside SSH keys, cloud credentials, and CI/CD secrets. Four independent security vendors trace the injection to the wheel/build-artifact level, not the git tag itself.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Mozilla disclosed that private keys for eight eMudhra intermediate CA certificates were compromised, one reportedly as trivial as the number \"4\". Chrome, Firefox, Apple, and Microsoft all blocked the certificates within days, and Mozilla removed the issuing root from NSS outright rather than only blocklisting leaf certificates.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Wiz Research used three named AI tools to find a PHP 8.x-wide RCE on 19 August, confirming unauthenticated exploitation against Drupal and WordPress within two days, then reported privately. A leaked proof-of-concept video on 20 October forced PHP to move its own public disclosure a full day earlier.",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Two platform-layer compromises and an AI-discovered PHP flaw made this the heaviest supply-chain-security day in weeks, while Claude's Play Store absence quietly crossed from 'noise' to 'confirmed' on the project's own terms."
+    }
+  }
+}
