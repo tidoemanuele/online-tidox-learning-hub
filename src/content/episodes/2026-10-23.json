@@ -1,0 +1,176 @@
+{
+  "date": "2026-10-23",
+  "episodeNumber": 209,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "headline": "NVIDIA's OpenShell enforces kernel-level policy on every file access, syscall",
+  "subtitle": "NVIDIA's OpenShell enforces kernel-level policy on, 1Password for Agents, launched 2026-10-22, lets a, Anthropic's Frontier Red Team and startup Theorem",
+  "heroStat": {
+    "value": "123 libraries, 239 entry points",
+    "label": "Open-source libraries Anthropic and Theorem formally verified crash-free at RISC-V assembly level, rediscovering a live CVE along the way"
+  },
+  "insights": [
+    {
+      "text": "NVIDIA's OpenShell enforces kernel-level policy on every file access, syscall, and network connection an AI agent makes, injecting real credentials only into pre-approved outbound requests so the agent process never holds the secret. Labeled alpha, single-player mode.",
+      "tags": [
+        "agent-security",
+        "sandboxing"
+      ],
+      "source": "NVIDIA/OpenShell, via search, 2026-10-23",
+      "url": "https://github.com/NVIDIA/OpenShell"
+    },
+    {
+      "text": "1Password for Agents, launched 2026-10-22, lets a user delegate a login to an AI agent (Claude Duet, ChatGPT Work, Grok Bot, Meta's Muse) without the agent ever receiving the password — the user approves a push alert and 1Password fills the credential server-side. The company's own disclosure: once approved, the agent can still act beyond what the user intended if misled.",
+      "tags": [
+        "agent-security",
+        "credentials"
+      ],
+      "source": "TechCrunch, via search, 2026-10-23",
+      "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/"
+    },
+    {
+      "text": "Anthropic's Frontier Red Team and startup Theorem used Claude to produce machine-checked proofs (180 million lines of Rocq) that 239 entry points across 123 OSS-Fuzz libraries never crash on inputs under 64MB, rediscovering CVE-2026-56132 in libexpat along the way.",
+      "tags": [
+        "ai-verification",
+        "security"
+      ],
+      "source": "Anthropic research, direct fetch, 2026-10-23",
+      "url": "https://www.anthropic.com/research/formal-verification"
+    },
+    {
+      "text": "PHP's out-of-band patches for PHP2Shell (CVE-2026-109618, CVE-2026-109619) landed 2026-10-21 after a leaked proof-of-concept forced the schedule a day earlier — then Chainguard, per the PHP Foundation, published built images containing the fix over six hours before the already-moved-up release, letting attackers study the compiled fix early.",
+      "tags": [
+        "security",
+        "disclosure"
+      ],
+      "source": "SecureLayer7, Socket.dev, via search, 2026-10-23",
+      "url": "https://blog.securelayer7.net/php-rce-cve-2026-109618-109619/"
+    },
+    {
+      "text": "anthropics/knowledge-work-plugins debuted at #2 on GitHub Trending (31,733 stars) — Anthropic's second first-party plugin-directory repo, the first aimed at non-coding roles: 11 plugins for sales, legal, finance, HR, and more, bundling MCP connectors and slash commands for Claude Cowork.",
+      "tags": [
+        "claude-code-ecosyste",
+        "github-trending"
+      ],
+      "source": "GitHub, direct fetch, 2026-10-23",
+      "url": "https://github.com/anthropics/knowledge-work-plugins"
+    },
+    {
+      "text": "Claude by Anthropic's absence from Google Play's top-30 chart reaches a seventh consecutive day, a week past the page's own falsification bar met on 2026-10-22, while ChatGPT and Google Gemini continue to hold AI-native slots.",
+      "tags": [
+        "play-store",
+        "android"
+      ],
+      "source": "Google Play Store scrape, 2026-10-23T05:19:07Z",
+      "url": "https://play.google.com/store/apps/top"
+    },
+    {
+      "text": "php/php-src led today's GitHub Trending board (287 stars today, 41,271 total) directly off this week's emergency patch release, while cloudflare/security-audit-skill (39,960 total) and DietrichGebert/ponytail (173,804 total) both extended multi-day Trending runs.",
+      "tags": [
+        "github-trending",
+        "agent-frameworks"
+      ],
+      "source": "GitHub Trending scrape, 2026-10-23T05:19:07Z",
+      "url": "https://github.com/php/php-src"
+    },
+    {
+      "text": "Per the AI People roster, browser-use maintainers Gregor Žunič and Magnus Müller both shipped PRs into browser-use/sdk within the same roughly 24-hour window, continuing a maintainer-velocity pattern tracked since 2026-10-08.",
+      "tags": [
+        "browser-automation",
+        "ai-people"
+      ],
+      "source": "AI People roster, scraped-summary.md, 2026-10-23T05:19:07Z",
+      "url": "https://github.com/browser-use/sdk"
+    }
+  ],
+  "trending": [
+    {
+      "name": "security-audit-skill",
+      "fullName": "cloudflare/security-audit-skill",
+      "stars": "40.0K",
+      "language": "JavaScript",
+      "delta": "+2,979/d",
+      "url": "https://github.com/cloudflare/security-audit-skill"
+    },
+    {
+      "name": "ponytail",
+      "fullName": "DietrichGebert/ponytail",
+      "stars": "174K",
+      "language": "JavaScript",
+      "delta": "+1,948/d",
+      "url": "https://github.com/DietrichGebert/ponytail"
+    },
+    {
+      "name": "graphify",
+      "fullName": "Graphify-Labs/graphify",
+      "stars": "133K",
+      "language": "Python",
+      "delta": "+1,408/d",
+      "url": "https://github.com/Graphify-Labs/graphify"
+    },
+    {
+      "name": "supabase",
+      "fullName": "supabase/supabase",
+      "stars": "114K",
+      "language": "TypeScript",
+      "delta": "+693/d",
+      "url": "https://github.com/supabase/supabase"
+    },
+    {
+      "name": "knowledge-work-plugins",
+      "fullName": "anthropics/knowledge-work-plugins",
+      "stars": "31.7K",
+      "language": "Python",
+      "delta": "+303/d",
+      "url": "https://github.com/anthropics/knowledge-work-plugins"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "1079",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "2,979",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "13",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "October 23, 2026"
+    },
+    "headlines": [
+      {
+        "text": "NVIDIA's OpenShell enforces kernel-level policy on every file access, syscall, and network connection an AI agent makes, injecting real credentials only into pre-approved outbound requests so the agent process never holds the secret. Labeled alpha, single-player mode.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "1Password for Agents, launched 2026-10-22, lets a user delegate a login to an AI agent without the agent ever receiving the password",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Anthropic's Frontier Red Team and startup Theorem used Claude to produce machine-checked proofs that 239 entry points across 123 OSS-Fuzz libraries never crash on inputs under 64MB, rediscovering CVE-2026-56132 in libexpat along the way.",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Two vendors at opposite ends of the stack independently shipped the same idea this week — let the agent act without ever handing it the credential — while Anthropic proved formal verification now scales to production software, not just research demos."
+    }
+  }
+}
