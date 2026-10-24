@@ -1,0 +1,176 @@
+{
+  "date": "2026-10-24",
+  "episodeNumber": 210,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "headline": "OpenAI will now train frontier models with no live internet access at all",
+  "subtitle": "OpenAI will now train frontier models with no live, Cloudflare's security-audit-skill tops GitHub, SnailSploit/Claude-Red, a library of roughly 78",
+  "heroStat": {
+    "value": "2 labs, 15 days",
+    "label": "Frontier labs (Anthropic, then OpenAI) that independently cut live internet access from AI training/evals within a two-week span"
+  },
+  "insights": [
+    {
+      "text": "OpenAI will now train frontier models with no live internet access at all, replacing it with cached/indexed web content — the same structural change Anthropic made to internal eval agents on 2026-10-09, now applied by a second lab to training itself, after OpenAI's own 2026-09-20 incident paused training for the rest of that month.",
+      "tags": [
+        "agent-security",
+        "ai-safety"
+      ],
+      "source": "TechCrunch, via search, 2026-10-24",
+      "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/"
+    },
+    {
+      "text": "Cloudflare's security-audit-skill tops GitHub Trending outright (42,535 stars); its own README states the public repo 'seeded' an internal vulnerability-discovery harness that 'grew into a multi-stage, fleet-wide system' — a six-phase, verification-gated multi-agent audit workflow that admits a single run catches only about half of what repeated runs find.",
+      "tags": [
+        "ai-verification",
+        "github-trending"
+      ],
+      "source": "GitHub, direct fetch, 2026-10-24",
+      "url": "https://github.com/cloudflare/security-audit-skill"
+    },
+    {
+      "text": "SnailSploit/Claude-Red, a library of roughly 78 offensive-security skills for Claude's skills system, trends the same day as Cloudflare's defense-side audit tool — the offense-side counterpart, with no comparable verification gate or technical authorization enforcement described in its README.",
+      "tags": [
+        "ai-security",
+        "github-trending"
+      ],
+      "source": "GitHub, direct fetch, 2026-10-24",
+      "url": "https://github.com/SnailSploit/Claude-Red"
+    },
+    {
+      "text": "Kimi K3.1 Pro scores 55 on Artificial Analysis's independent benchmark, two points behind Claude Opus 5.5 (58) — per Simon Willison, the first time a model committed to open-weight release (full weights due 2026-11-04) has scored this close to the proprietary frontier.",
+      "tags": [
+        "open-weight",
+        "on-device-llm"
+      ],
+      "source": "Simon Willison, direct fetch, 2026-10-24",
+      "url": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/"
+    },
+    {
+      "text": "A New Mexico court ordered Meta to pay $25 billion over Cambridge Analytica — the largest privacy penalty in Meta's history, on top of (not instead of) the $18B nationwide settlement reached in August 2026, for 43.9 million found violations of the state's consumer-protection law.",
+      "tags": [
+        "privacy",
+        "regulation"
+      ],
+      "source": "CNBC/Axios/CNN, via search, 2026-10-24",
+      "url": "https://www.cnbc.com/2026/10/21/meta-new-mexico-cambridge-analytica-penalty.html"
+    },
+    {
+      "text": "Anthropic's reported $80.7B net loss for H1 2026 is 90% a non-cash accounting charge (a convertible-note fair-value markup tied to its rising valuation); the underlying operating loss was about $8.1B on $4.6B of 2025 revenue, against nearly $9B spent on compute infrastructure.",
+      "tags": [
+        "ai-financial",
+        "anthropic"
+      ],
+      "source": "WSJ via Reuters wire pickups, via search, 2026-10-24",
+      "url": "https://www.bnnbloomberg.ca/business/artificial-intelligence/2026/10/21/anthropic-logged-net-loss-of-over-us80-billion-in-first-half-of-2026/"
+    },
+    {
+      "text": "NVIDIA's OpenShell, logged 2026-10-23 via Hacker News discussion alone, reaches GitHub Trending proper today (#4, 18,934 total stars) — its first measured star-velocity data point for the kernel-level agent-containment runtime.",
+      "tags": [
+        "agent-security",
+        "github-trending"
+      ],
+      "source": "GitHub Trending scrape, 2026-10-24T06:03:50Z",
+      "url": "https://github.com/NVIDIA/OpenShell"
+    },
+    {
+      "text": "Claude by Anthropic's absence from Google Play's top-30 chart reaches an eighth consecutive day, while ChatGPT (#6) and Google Gemini (#11) continue to hold the AI-native slots in the Portugal-localized capture.",
+      "tags": [
+        "play-store",
+        "android"
+      ],
+      "source": "Google Play Store scrape, 2026-10-24T06:03:50Z",
+      "url": "https://play.google.com/store/apps/top"
+    }
+  ],
+  "trending": [
+    {
+      "name": "security-audit-skill",
+      "fullName": "cloudflare/security-audit-skill",
+      "stars": "42.5K",
+      "language": "JavaScript",
+      "delta": "+2,716/d",
+      "url": "https://github.com/cloudflare/security-audit-skill"
+    },
+    {
+      "name": "OpenShell",
+      "fullName": "NVIDIA/OpenShell",
+      "stars": "18.9K",
+      "language": "Rust",
+      "delta": "+1,119/d",
+      "url": "https://github.com/NVIDIA/OpenShell"
+    },
+    {
+      "name": "php-src",
+      "fullName": "php/php-src",
+      "stars": "41.6K",
+      "language": "C",
+      "delta": "+716/d",
+      "url": "https://github.com/php/php-src"
+    },
+    {
+      "name": "knowledge-work-plugins",
+      "fullName": "anthropics/knowledge-work-plugins",
+      "stars": "32.3K",
+      "language": "Python",
+      "delta": "+635/d",
+      "url": "https://github.com/anthropics/knowledge-work-plugins"
+    },
+    {
+      "name": "ziwei-doushu",
+      "fullName": "Renhuai123/ziwei-doushu",
+      "stars": "7.0K",
+      "language": "TypeScript",
+      "delta": "+546/d",
+      "url": "https://github.com/Renhuai123/ziwei-doushu"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "1332",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "2,716",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "13",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "October 24, 2026"
+    },
+    "headlines": [
+      {
+        "text": "OpenAI will now train frontier models with no live internet access at all, replacing it with cached/indexed web content",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Cloudflare's security-audit-skill tops GitHub Trending outright ; its own README states the public repo 'seeded' an internal vulnerability-discovery harness that 'grew into a multi-stage, fleet-wide system'",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "SnailSploit/Claude-Red, a library of roughly 78 offensive-security skills for Claude's skills system, trends the same day as Cloudflare's defense-side audit tool",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Two frontier labs converged on the same training-time containment design within two weeks, while verification and audit automation kept scaling from research demo to claimed fleet-wide production use on both the defense and offense sides of security tooling."
+    }
+  }
+}
