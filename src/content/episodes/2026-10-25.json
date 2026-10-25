@@ -1,0 +1,177 @@
+{
+  "date": "2026-10-25",
+  "episodeNumber": 211,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "headline": "A training-free multi-agent harness lifts open-weight Qwen3.8-27B from 66.8% to 92.4% pass@1 on 100",
+  "subtitle": "A training-free multi-agent harness lifts, Cloudflare's security-audit-skill leads GitHub, Claude and ChatGPT are both absent from Google",
+  "heroStat": {
+    "value": "27B",
+    "label": "from 66"
+  },
+  "insights": [
+    {
+      "text": "A training-free multi-agent harness (GVS5H) lifts open-weight Qwen3.8-27B from 66.8% to 92.4% pass@1 on 100 hard LiveCodeBench problems by coordinating five model instances through a shared-filesystem ledger — no fine-tuning, pure orchestration effect. A larger orchestrated variant reportedly reaches 93.0% against Claude Fable 5's 90.4%, at 9% of the cost, though the authors themselves disclose the comparison baseline wasn't run under equivalent conditions.",
+      "tags": [
+        "open-weight",
+        "agent-frameworks",
+        "harness-engineering"
+      ],
+      "source": "GitHub, direct fetch, 2026-10-25",
+      "url": "https://github.com/slee-persis/GVS5H"
+    },
+    {
+      "text": "Cloudflare's security-audit-skill leads GitHub Trending for a third consecutive day (45,122 total stars, up from 39,960 on 10-23), and NVIDIA's OpenShell holds #2 for a second straight day on the board (19,611 total) — the 'single-repo skill seeds a fleet-wide internal system' pattern now has a measured multi-day growth curve, not just a launch-day spike.",
+      "tags": [
+        "github-trending",
+        "ai-verification",
+        "agent-security"
+      ],
+      "source": "GitHub Trending scrape, 2026-10-25T06:19:08Z",
+      "url": "https://github.com/cloudflare/security-audit-skill"
+    },
+    {
+      "text": "Claude and ChatGPT are both absent from Google Play's top-30 chart on the same day for the first time in this project's nine-day tracking window — Claude's absence has run since 10-17, but ChatGPT had held a stable top-10 slot throughout until today, leaving Google Gemini as the only frontier-lab AI app left in the capture.",
+      "tags": [
+        "play-store",
+        "android"
+      ],
+      "source": "Google Play Store scrape, 2026-10-25T06:19:08Z",
+      "url": "https://play.google.com/store/apps/top"
+    },
+    {
+      "text": "A new arXiv paper formalizes the exact skill-granularity routing problem this project's own research has flagged qualitatively since August: once an agent's skill library outgrows its context budget, deciding what to load and at what granularity becomes the bottleneck. The paper adds a 'macro-to-micro recovery' mechanism that falls back to raw tool calls when a packaged skill fails mid-task.",
+      "tags": [
+        "skills",
+        "agent-frameworks"
+      ],
+      "source": "arXiv, direct fetch, 2026-10-25",
+      "url": "https://arxiv.org/abs/2610.31461"
+    },
+    {
+      "text": "Block (Jack Dorsey's company) shipped Dessa, a full-duplex voice model that runs locally on a MacBook M4 Max, trained entirely on a single NVIDIA GPU rack. Unlike competitors that use voice tags to steer emotion, Block says emotion is built into the model itself — no public access yet, pending safety review.",
+      "tags": [
+        "on-device-llm",
+        "voice"
+      ],
+      "source": "TechCrunch, direct fetch, 2026-10-25",
+      "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/"
+    },
+    {
+      "text": "Dan Luu's essay arguing AI coding tools justify far more ambitious 'just for fun' software projects trends simultaneously on Hacker News (#2, 304 points) and Lobsters (#6) — a rare same-day cross-platform double, with a dissenting appendix arguing most people should actually build less ambitiously given the lack of clear pass/fail criteria in most real work.",
+      "tags": [
+        "ai-dev-tools"
+      ],
+      "source": "Hacker News / Lobsters scrape, 2026-10-25T06:19:08Z",
+      "url": "https://danluu.com/ambitious/"
+    },
+    {
+      "text": "Qwen3.8-27B continues steady download growth on Hugging Face (7,851,161 downloads, up from 7,710,011 the day before) — the same model powering today's multi-agent orchestration benchmark, independently confirming real developer interest beyond one repo's framing.",
+      "tags": [
+        "open-weight",
+        "on-device-llm"
+      ],
+      "source": "Hugging Face Trending scrape, 2026-10-25T06:19:08Z",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B"
+    },
+    {
+      "text": "Two design skills this project already runs (hallmark, for anti-AI-slop design; impeccable, for AI-driven design judgment) are independently trending on GitHub the same day — a coincidental but concrete sign that the design-skill category is now part of the broader agent-tooling wave dominating GitHub Trending (roughly 8 of today's top 10 repos are agent/harness/skill tools).",
+      "tags": [
+        "agent-frameworks",
+        "github-trending"
+      ],
+      "source": "GitHub Trending scrape, 2026-10-25T06:19:08Z",
+      "url": "https://github.com/Nutlope/hallmark"
+    }
+  ],
+  "trending": [
+    {
+      "name": "security-audit-skill",
+      "fullName": "cloudflare/security-audit-skill",
+      "stars": "45.1K",
+      "language": "JavaScript",
+      "delta": "+2,264/d",
+      "url": "https://github.com/cloudflare/security-audit-skill"
+    },
+    {
+      "name": "OpenShell",
+      "fullName": "NVIDIA/OpenShell",
+      "stars": "19.6K",
+      "language": "Rust",
+      "delta": "+896/d",
+      "url": "https://github.com/NVIDIA/OpenShell"
+    },
+    {
+      "name": "impeccable",
+      "fullName": "pbakaus/impeccable",
+      "stars": "86.6K",
+      "language": "Rust",
+      "delta": "+619/d",
+      "url": "https://github.com/pbakaus/impeccable"
+    },
+    {
+      "name": "cindy",
+      "fullName": "makecindy/cindy",
+      "stars": "4.2K",
+      "language": "TypeScript",
+      "delta": "+477/d",
+      "url": "https://github.com/makecindy/cindy"
+    },
+    {
+      "name": "hallmark",
+      "fullName": "Nutlope/hallmark",
+      "stars": "32.5K",
+      "language": "CSS",
+      "delta": "+455/d",
+      "url": "https://github.com/Nutlope/hallmark"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "1565",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "2,264",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "13",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "October 25, 2026"
+    },
+    "headlines": [
+      {
+        "text": "A training-free multi-agent harness lifts open-weight Qwen3.8-27B from 66.8% to 92.4% pass@1 on 100 hard LiveCodeBench problems by coordinating five model instances through a shared-filesystem ledger",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Cloudflare's security-audit-skill leads GitHub Trending for a third consecutive day , and NVIDIA's OpenShell holds #2 for a second straight day on the board",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Claude and ChatGPT are both absent from Google Play's top-30 chart on the same day for the first time in this project's nine-day tracking window",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "A training-free multi-agent harness just pushed open-weight Qwen3.8-27B from 66.8% to 92.4% on hard coding benchmarks with no fine-tuning at all — the harness, not the model, is still the biggest lever in AI right now."
+    }
+  }
+}
