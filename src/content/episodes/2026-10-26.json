@@ -1,0 +1,176 @@
+{
+  "date": "2026-10-26",
+  "episodeNumber": 212,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "headline": "Cloudflare's security-audit-skill shows its highest single-day star badge yet but falls",
+  "subtitle": "Cloudflare's security-audit-skill shows its, debpalash/VoiceStudio debuts at #3 on GitHub, ChatGPT's absence from Google Play's top-30, first",
+  "heroStat": {
+    "value": "776",
+    "label": "points on \"We should be more ambitious with the software we build\""
+  },
+  "insights": [
+    {
+      "text": "Cloudflare's security-audit-skill shows its highest single-day star badge yet (2,878, total 47,330) but falls from a three-day #1 streak to #10 on GitHub Trending — the first time this page's five-day tracked run has seen rank and star velocity diverge this sharply.",
+      "tags": [
+        "github-trending",
+        "harness-engineering"
+      ],
+      "source": "GitHub Trending scrape, 2026-10-26T06:19:27Z",
+      "url": "https://github.com/cloudflare/security-audit-skill"
+    },
+    {
+      "text": "debpalash/VoiceStudio debuts at #3 on GitHub Trending (87,330 stars): 'the open-source, fully-local ElevenLabs alternative' for voice cloning, video dubbing, and dictation in 646 languages, licensed AGPL-3.0 with CUDA/ROCm/Vulkan GPU acceleration and a local MCP server for agents.",
+      "tags": [
+        "open-weight",
+        "on-device-llm",
+        "voice"
+      ],
+      "source": "GitHub, direct fetch, 2026-10-26",
+      "url": "https://github.com/debpalash/VoiceStudio"
+    },
+    {
+      "text": "ChatGPT's absence from Google Play's top-30, first logged yesterday, persists to a second consecutive day — one day short of the tracking page's own bar for confirming a genuine second absence thread. Claude's own absence reaches a tenth consecutive day.",
+      "tags": [
+        "play-store",
+        "trust-bifurcation"
+      ],
+      "source": "Google Play Store scrape, 2026-10-26T06:19:27Z",
+      "url": "https://play.google.com/store/apps/top"
+    },
+    {
+      "text": "minimaxir.com traces OpenAI and Anthropic's LLM API price cuts of up to 80% since mid-2026 to open-weight competitive pressure (DeepSeek V4 Flash, Kimi K3.1 Pro) and thin provider moats (29 distinct OpenRouter providers), not pure generosity — while flagging, unresolved, that both companies are rumored to be IPOing soon.",
+      "tags": [
+        "pricing",
+        "ai-dev-tools"
+      ],
+      "source": "minimaxir.com, direct fetch, 2026-10-26",
+      "url": "https://minimaxir.com/2026/10/cheap-llms/"
+    },
+    {
+      "text": "NVIDIA's OpenShell, on GitHub Trending's board for three straight days through 10-25, is absent from today's capture — not yet distinguishable from a genuine falloff without a second day of confirmation.",
+      "tags": [
+        "github-trending",
+        "agent-frameworks"
+      ],
+      "source": "GitHub Trending scrape, 2026-10-26T06:19:27Z",
+      "url": "https://github.com/NVIDIA/OpenShell"
+    },
+    {
+      "text": "Monday's Indie App Monetization rotation: 'ReadEra – book reader pdf epub' and 'Chat AI: Ask Agent Anything' extend a five-dated-capture suffix-keyword-stacking thread in Play Store app titles, still without install or revenue data behind any entry.",
+      "tags": [
+        "indie-app-monetizati",
+        "play-store"
+      ],
+      "source": "Google Play Store scrape, 2026-10-26T06:19:27Z",
+      "url": "https://play.google.com/store/apps/top"
+    },
+    {
+      "text": "AutoGen co-authors Chi Wang and Qingyun Wu logged six combined commits/PRs to a new joint repo, sonichi/sutando, in the last 24 hours — worth a future deep-read given both authors' standing in the agent-framework-explosion thread.",
+      "tags": [
+        "agent-frameworks"
+      ],
+      "source": "AI People roster scrape, 2026-10-26T06:19:27Z",
+      "url": "https://github.com/sonichi/sutando"
+    },
+    {
+      "text": "Of today's 11-item GitHub Trending capture, 7 entries are agent, harness, or skill tooling rather than general-purpose software — continuing the concentration this page first measured at 8/10 on 2026-10-25.",
+      "tags": [
+        "github-trending",
+        "agent-frameworks"
+      ],
+      "source": "GitHub Trending scrape, 2026-10-26T06:19:27Z",
+      "url": "https://github.com/trending"
+    }
+  ],
+  "trending": [
+    {
+      "name": "security-audit-skill",
+      "fullName": "cloudflare/security-audit-skill",
+      "stars": "47.3K",
+      "language": "JavaScript",
+      "delta": "+2,878/d",
+      "url": "https://github.com/cloudflare/security-audit-skill"
+    },
+    {
+      "name": "VoiceStudio",
+      "fullName": "debpalash/VoiceStudio",
+      "stars": "87.3K",
+      "language": "Python",
+      "delta": "+1,592/d",
+      "url": "https://github.com/debpalash/VoiceStudio"
+    },
+    {
+      "name": "hallmark",
+      "fullName": "Nutlope/hallmark",
+      "stars": "34.4K",
+      "language": "CSS",
+      "delta": "+1,317/d",
+      "url": "https://github.com/Nutlope/hallmark"
+    },
+    {
+      "name": "impeccable",
+      "fullName": "pbakaus/impeccable",
+      "stars": "88.0K",
+      "language": "Rust",
+      "delta": "+1,092/d",
+      "url": "https://github.com/pbakaus/impeccable"
+    },
+    {
+      "name": "cindy",
+      "fullName": "makecindy/cindy",
+      "stars": "5.2K",
+      "language": "TypeScript",
+      "delta": "+675/d",
+      "url": "https://github.com/makecindy/cindy"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "776",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "2,878",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "13",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "October 26, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Cloudflare's security-audit-skill shows its highest single-day star badge yet but falls from a three-day #1 streak to #10 on GitHub Trending",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "debpalash/VoiceStudio debuts at #3 on GitHub Trending : 'the open-source, fully-local ElevenLabs alternative' for voice cloning, video dubbing, and dictation in 646 languages, licensed AGPL-3.0 with CUDA/ROCm/Vulkan GPU acceleration and a local MCP server for agents.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "ChatGPT's absence from Google Play's top-30, first logged yesterday, persists to a second consecutive day",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Cloudflare's security-audit-skill posts its biggest daily star gain yet but tumbles from #1 to #10 on GitHub Trending the same day a fully-local, AGPL-licensed ElevenLabs alternative debuts at #3 — rank and velocity are diverging on the harness-tooling board for the first time this run."
+    }
+  }
+}
