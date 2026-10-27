@@ -1,0 +1,177 @@
+{
+  "date": "2026-10-27",
+  "episodeNumber": 213,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "headline": "Anthropic's S-1 filing discloses a $693M operating loss in H1 2026, down from $2.1B in H1 2025",
+  "subtitle": "Anthropic's S-1 filing discloses a $693M operating, Anthropic's S-1 shows more than half of its, Of today's 14-item GitHub Trending capture, 13 are",
+  "heroStat": {
+    "value": "$693M",
+    "label": "operating loss in h1 2026"
+  },
+  "insights": [
+    {
+      "text": "Anthropic's S-1 filing (ticker ANT) discloses a $693M operating loss in H1 2026, down from $2.1B in H1 2025, confirming the $80.7B net loss is mostly a non-cash accounting charge tied to convertible debt — resolving this page's own pre-filing $8.1B operating-loss estimate.",
+      "tags": [
+        "anthropic",
+        "ipo"
+      ],
+      "source": "TechCrunch, direct fetch, 2026-10-26",
+      "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/"
+    },
+    {
+      "text": "Anthropic's S-1 shows more than half of its $100,000+ customers now use both the Claude Platform API and a first-party app, up ~30% from last year, and reports ~900% net revenue retention — though analysts flag the NRR figure excludes Pro/Max subscribers and measures consumption growth, not locked-in contracts.",
+      "tags": [
+        "anthropic",
+        "enterprise"
+      ],
+      "source": "TechCrunch, direct fetch, 2026-10-26",
+      "url": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/"
+    },
+    {
+      "text": "Of today's 14-item GitHub Trending capture, 13 are agent, harness, or skill tooling — up from 7/11 yesterday and 8/10 on 10-25, breaking the 'stable 70-80% plateau' hypothesis this page raised just one day earlier.",
+      "tags": [
+        "github-trending",
+        "agent-frameworks"
+      ],
+      "source": "GitHub Trending scrape, 2026-10-27T06:19:09Z",
+      "url": "https://github.com/trending"
+    },
+    {
+      "text": "ChatGPT's Google Play top-30 absence reaches a third consecutive day, crossing this page's own stated bar for confirming a genuine ranking-change thread independent of Claude's; Claude's own absence reaches eleven days.",
+      "tags": [
+        "play-store",
+        "chatgpt",
+        "claude"
+      ],
+      "source": "Google Play Store scrape, 2026-10-27T06:19:09Z",
+      "url": "https://play.google.com/store/apps/top"
+    },
+    {
+      "text": "Tuesday's voice rotation: destined/hurston-1 ships under Apache-2.0 — the cleanest permissive-license pass this page has logged — but remains synthesis-only, failing the standing full-duplex capability test for the twelfth consecutive rotation since 08-11.",
+      "tags": [
+        "voice-tts",
+        "open-weight"
+      ],
+      "source": "Hugging Face + Show HN, web search cross-check, 2026-10-27",
+      "url": "https://huggingface.co/destined/hurston-1"
+    },
+    {
+      "text": "debpalash/VoiceStudio posts its highest-ever daily GitHub star gain (2,297, total 89,809) yet falls from #3 to #11 on Trending — a second instance this week of rank and star velocity diverging, the same pattern first isolated for cloudflare/security-audit-skill on 10-26.",
+      "tags": [
+        "github-trending",
+        "voice-tts"
+      ],
+      "source": "GitHub Trending scrape, 2026-10-27T06:19:09Z",
+      "url": "https://github.com/debpalash/VoiceStudio"
+    },
+    {
+      "text": "Three independently-published decensored or quantized variants of deepseek-ai/DeepSeek-V4.1-Flash-1017 (today's #1 Hugging Face Trending model) appear in today's top 20, alongside an HN post naming five inference providers now offering an abliterated version — at least one reportedly requiring KYC before access.",
+      "tags": [
+        "on-device-llm",
+        "open-weight"
+      ],
+      "source": "Hugging Face Trending scrape + web search, 2026-10-27T06:19:09Z",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
+    },
+    {
+      "text": "multica-ai/andrej-karpathy-skills — a single community-built CLAUDE.md derived from Andrej Karpathy's LLM-coding-pitfall observations — debuts in this page's GitHub Trending captures with 224,885 total stars, comparable to affaan-m/ECC's 290,064.",
+      "tags": [
+        "claude-code-ecosyste",
+        "github-trending"
+      ],
+      "source": "GitHub Trending scrape, 2026-10-27T06:19:09Z",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills"
+    }
+  ],
+  "trending": [
+    {
+      "name": "VoiceStudio",
+      "fullName": "debpalash/VoiceStudio",
+      "stars": "89.8K",
+      "language": "Python",
+      "delta": "+2,297/d",
+      "url": "https://github.com/debpalash/VoiceStudio"
+    },
+    {
+      "name": "hallmark",
+      "fullName": "Nutlope/hallmark",
+      "stars": "37.0K",
+      "language": "CSS",
+      "delta": "+2,244/d",
+      "url": "https://github.com/Nutlope/hallmark"
+    },
+    {
+      "name": "impeccable",
+      "fullName": "pbakaus/impeccable",
+      "stars": "89.5K",
+      "language": "Rust",
+      "delta": "+1,506/d",
+      "url": "https://github.com/pbakaus/impeccable"
+    },
+    {
+      "name": "TradingAgents",
+      "fullName": "TauricResearch/TradingAgents",
+      "stars": "117K",
+      "language": "Python",
+      "delta": "+1,395/d",
+      "url": "https://github.com/TauricResearch/TradingAgents"
+    },
+    {
+      "name": "cindy",
+      "fullName": "makecindy/cindy",
+      "stars": "6.8K",
+      "language": "TypeScript",
+      "delta": "+1,296/d",
+      "url": "https://github.com/makecindy/cindy"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "1561",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "2,297",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "13",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "October 27, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Anthropic's S-1 filing discloses a $693M operating loss in H1 2026, down from $2.1B in H1 2025, confirming the $80.7B net loss is mostly a non-cash accounting charge tied to convertible debt",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Anthropic's S-1 shows more than half of its $100,000+ customers now use both the Claude Platform API and a first-party app, up ~30% from last year, and reports ~900% net revenue retention",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Of today's 14-item GitHub Trending capture, 13 are agent, harness, or skill tooling",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Anthropic's S-1 confirms its $80.7B net loss is mostly non-cash, not operating burn, while GitHub Trending's agent-tooling concentration jumps to 13 of 14 repos in a single day."
+    }
+  }
+}
