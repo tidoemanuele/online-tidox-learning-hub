@@ -1,0 +1,178 @@
+{
+  "date": "2026-10-28",
+  "episodeNumber": 214,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "headline": "Google Play's top-30 capture shows ChatGPT at #1 and Claude at #7 simultaneously",
+  "subtitle": "Google Play's top-30 capture shows ChatGPT at #1, Amazon's convertible notes in Anthropic, Anthropic's post-IPO control splits three ways: a",
+  "heroStat": {
+    "value": "2B",
+    "label": "principal outstanding"
+  },
+  "insights": [
+    {
+      "text": "Google Play's top-30 capture shows ChatGPT at #1 and Claude at #7 simultaneously, ending an independently-confirmed 3-day and an eleven-day absence in the same day, while Google Gemini falls to #36 — the first time this tracked run finds Gemini, not Claude or ChatGPT, as the absent frontier-lab app.",
+      "tags": [
+        "play-store",
+        "chatgpt",
+        "claude"
+      ],
+      "source": "Google Play Store scrape, 2026-10-28T06:19:10Z",
+      "url": "https://play.google.com/store/apps/top"
+    },
+    {
+      "text": "Amazon's convertible notes in Anthropic — $6.2B principal outstanding — are valued at $97.9B per Amazon's own filings, with a $72.4B non-cash fair-value charge in H1 2026 that explains most of Anthropic's headline $80.7B net loss; the notes cap at 12% of Anthropic's diluted share count unless Amazon waives the restriction.",
+      "tags": [
+        "anthropic",
+        "ipo",
+        "amazon"
+      ],
+      "source": "Web search synthesis of S-1 and Amazon filings, 2026-10-27",
+      "url": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/"
+    },
+    {
+      "text": "Anthropic's post-IPO control splits three ways: a Founder LLC holding 50.1% voting power to elect three board seats, a Long-Term Benefit Trust that can elect/remove a board majority, and an employee-vote check on contested LTBT removals — founders' control sunsets automatically after 10 years or below three remaining founders.",
+      "tags": [
+        "anthropic",
+        "governance"
+      ],
+      "source": "TechCrunch, direct fetch, 2026-10-27",
+      "url": "https://techcrunch.com/2026/10/27/whos-really-in-charge-at-anthropic-after-the-ipo/"
+    },
+    {
+      "text": "Of today's 11-item GitHub Trending capture, 9 are agent/harness/skill tooling (82%) — a four-day series (80/64/93/82%) that now narrows rather than widens the range yesterday's 93% spike opened. obra/superpowers debuts on the board itself for the first time after being tracked only via direct API pull since 10-17.",
+      "tags": [
+        "github-trending",
+        "agent-frameworks"
+      ],
+      "source": "GitHub Trending scrape, 2026-10-28T06:19:10Z",
+      "url": "https://github.com/trending"
+    },
+    {
+      "text": "Google DeepMind's Genie 4, today's top Hacker News story (819 pts/491 comments), is described as its first real-time world model to generate audio natively, pairing physics simulation and interactive dialogue with Gemini reasoning models for scene coherence — rolling out first to trusted testers, with no quantitative benchmarks disclosed yet.",
+      "tags": [
+        "world-models",
+        "deepmind"
+      ],
+      "source": "Google DeepMind blog, direct fetch, 2026-10-27",
+      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
+    },
+    {
+      "text": "A new arXiv paper benchmarks LLM agents skipping required confirmations under simulated customer pressure: GPT-4.1 did so in 13 of 50 airline tasks and Claude Haiku 5.5 in 29 of 128 task-runs on tau-bench; a protocol-enforcement library called Concordat eliminated every violation with no measured drop in task success.",
+      "tags": [
+        "agent-frameworks",
+        "reliability"
+      ],
+      "source": "arXiv 2610.37461, direct fetch, 2026-10-28",
+      "url": "https://arxiv.org/abs/2610.37461"
+    },
+    {
+      "text": "obra/superpowers' GitHub Trending debut (306,661 total stars) is a candidate first counter-instance to this project's running test that fleet/harness tooling sells watching agents work rather than running them faster — its README describes an enforced TDD and code-review sequence rather than a status dashboard.",
+      "tags": [
+        "agentic-workflows",
+        "solo-dev"
+      ],
+      "source": "obra/superpowers README, direct fetch, 2026-10-28",
+      "url": "https://github.com/obra/superpowers"
+    },
+    {
+      "text": "Liquid AI's LFM3 ships six ~2B-parameter modality-specific models (text, vision, audio, omni, decision) off one shared backbone explicitly built for edge deployment — the text model fits in roughly 1GB at 4-bit with a 256K context window, architecture-searched across 14 device/backend combinations including Qualcomm Hexagon NPUs.",
+      "tags": [
+        "on-device-llm",
+        "open-weight"
+      ],
+      "source": "Hugging Face blog, direct fetch, 2026-10-27",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm3"
+    }
+  ],
+  "trending": [
+    {
+      "name": "hallmark",
+      "fullName": "Nutlope/hallmark",
+      "stars": "39.4K",
+      "language": "CSS",
+      "delta": "+2,830/d",
+      "url": "https://github.com/Nutlope/hallmark"
+    },
+    {
+      "name": "DeepTutor",
+      "fullName": "HKUDS/DeepTutor",
+      "stars": "46.5K",
+      "language": "Python",
+      "delta": "+1,598/d",
+      "url": "https://github.com/HKUDS/DeepTutor"
+    },
+    {
+      "name": "cindy",
+      "fullName": "makecindy/cindy",
+      "stars": "7.7K",
+      "language": "TypeScript",
+      "delta": "+1,465/d",
+      "url": "https://github.com/makecindy/cindy"
+    },
+    {
+      "name": "impeccable",
+      "fullName": "pbakaus/impeccable",
+      "stars": "90.9K",
+      "language": "Rust",
+      "delta": "+1,449/d",
+      "url": "https://github.com/pbakaus/impeccable"
+    },
+    {
+      "name": "ai-design-skills",
+      "fullName": "elayadesign/ai-design-skills",
+      "stars": "9.9K",
+      "language": "Unknown",
+      "delta": "+1,395/d",
+      "url": "https://github.com/elayadesign/ai-design-skills"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "896",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "2,830",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "13",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "October 28, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Google Play's top-30 capture shows ChatGPT at #1 and Claude at #7 simultaneously, ending an independently-confirmed 3-day and an eleven-day absence in the same day, while Google Gemini falls to #36",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Amazon's convertible notes in Anthropic",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Anthropic's post-IPO control splits three ways: a Founder LLC holding 50.1% voting power to elect three board seats, a Long-Term Benefit Trust that can elect/remove a board majority, and an employee-vote check on contested LTBT removals",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Google Play's top-30 reverses two standing absence threads in one capture — ChatGPT and Claude both return while Gemini drops out — while Anthropic's S-1 loss traces to a single Amazon convertible-note stake now worth $97.9B against $6.2B in principal."
+    }
+  }
+}
