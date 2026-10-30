@@ -1,0 +1,178 @@
+{
+  "date": "2026-10-30",
+  "episodeNumber": 216,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "headline": "Mistral published full open weights for the trillion-parameter Mistral Large 4",
+  "subtitle": "Mistral published full open weights for the, GitHub Trending's agent/harness/skill, Google Play Store's top-30 capture now shows zero",
+  "heroStat": {
+    "value": "49B",
+    "label": "active parameters"
+  },
+  "insights": [
+    {
+      "text": "Mistral published full open weights for the trillion-parameter Mistral Large 4 ('Le Chonk') — 1T total/49B active parameters, FP8/NVFP4 checkpoints, 1M-token context — framed explicitly around on-prem cybersecurity incident response rather than general capability.",
+      "tags": [
+        "mistral",
+        "on-device-llm"
+      ],
+      "source": "Hacker News + TechCrunch, 2026-10-29/30",
+      "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/"
+    },
+    {
+      "text": "GitHub Trending's agent/harness/skill concentration returns to a standard 11-item board at 80-82% of the top rows, landing squarely inside the prior six-day band (80/64/93/82/70%) and resolving yesterday's anomalous 14-item board as a capture-length artifact, not a genuine decline.",
+      "tags": [
+        "github-trending",
+        "agent-frameworks"
+      ],
+      "source": "GitHub Trending scrape + API, 2026-10-30T06:19:07Z",
+      "url": "https://github.com/trending"
+    },
+    {
+      "text": "Google Play Store's top-30 capture now shows zero of the four tracked frontier-lab apps (Claude, ChatGPT, Gemini, Grok) — completing a four-day round-trip where each one individually appeared and disappeared on its own separate day, with no two apps ever swapping in the same capture.",
+      "tags": [
+        "play-store",
+        "claude",
+        "chatgpt"
+      ],
+      "source": "Google Play Store scrape, 2026-10-30T06:19:07Z",
+      "url": "https://play.google.com/store/apps/top"
+    },
+    {
+      "text": "YC Labs and Olam Labs ran 50 GPT-6.1 Sol agents in a 3-hour Minecraft survival world to 'build a thriving civilization' — the colony sent ~5,900 messages, suffered 34 deaths (22 on night one), and grew only more cautious afterward, never actually thriving.",
+      "tags": [
+        "agent-frameworks",
+        "multi-agent"
+      ],
+      "source": "YC Labs direct fetch, 2026-10-30",
+      "url": "https://labs.ycombinator.com/projects/games/index.html"
+    },
+    {
+      "text": "In a head-to-head Mindustry series, GPT-6.1 Sol agents formed a hive-like communication network and fetched the game's public source code mid-match to study mechanics, while Claude Opus 5.5 agents ran a polite Slack-style '+1' vote and never looked up the code — GPT won the series 6-1.",
+      "tags": [
+        "agent-frameworks",
+        "claude",
+        "gpt"
+      ],
+      "source": "YC Labs direct fetch, 2026-10-30",
+      "url": "https://labs.ycombinator.com/projects/games/index.html"
+    },
+    {
+      "text": "browser-use shipped a Fireworks AI integration guide and model example ahead of Fireworks' partner-ecosystem launch event ('Forge') on November 3, 2026, continuing the maintainer's run of near-daily shipped features this page has tracked since mid-October.",
+      "tags": [
+        "browser-use",
+        "browser-automation"
+      ],
+      "source": "GitHub API, browser-use/browser-use#6238 and browser-use/sdk#379, 2026-10-30",
+      "url": "https://github.com/browser-use/browser-use/pull/6238"
+    },
+    {
+      "text": "A suspected $5.6-6.3B hack drained Binance across Ethereum, Bitcoin and Tron wallets via an EIP-7702 smart-contract exploit — potentially the largest crypto exchange heist on record, exceeding 2025's $1.5B Bybit hack; Tether and Circle froze roughly $1.79B in the receiving wallet.",
+      "tags": [
+        "security",
+        "crypto"
+      ],
+      "source": "CoinDesk / The Block, 2026-10-29",
+      "url": "https://www.coindesk.com/business/2026/10/29/potential-multi-billion-binance-hack-hitting-crypto-markets"
+    },
+    {
+      "text": "CISA added GitLab's already-patched CVSS-10.0 CVE-2026-97229 to its Known Exploited Vulnerabilities catalog after Alpine Linux disclosed an attempted exploitation — the twist being that GitLab's fix was distributed only inside its own official packages, so Alpine's own upgrade to a 'fixed' version stayed vulnerable for five more days.",
+      "tags": [
+        "security",
+        "supply-chain"
+      ],
+      "source": "The Hacker News / Alpine Linux, 2026-10-30",
+      "url": "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html"
+    }
+  ],
+  "trending": [
+    {
+      "name": "impeccable",
+      "fullName": "pbakaus/impeccable",
+      "stars": "95.8K",
+      "language": "Rust",
+      "delta": "+2,870/d",
+      "url": "https://github.com/pbakaus/impeccable"
+    },
+    {
+      "name": "DeepTutor",
+      "fullName": "HKUDS/DeepTutor",
+      "stars": "50.7K",
+      "language": "Python",
+      "delta": "+1,930/d",
+      "url": "https://github.com/HKUDS/DeepTutor"
+    },
+    {
+      "name": "jailbreaks",
+      "fullName": "togg53192-cmd/jailbreaks",
+      "stars": "9.5K",
+      "language": "Unknown",
+      "delta": "+1,594/d",
+      "url": "https://github.com/togg53192-cmd/jailbreaks"
+    },
+    {
+      "name": "OpenMausBot",
+      "fullName": "milind-soni/OpenMausBot",
+      "stars": "7.7K",
+      "language": "TypeScript",
+      "delta": "+1,199/d",
+      "url": "https://github.com/milind-soni/OpenMausBot"
+    },
+    {
+      "name": "ai-design-skills",
+      "fullName": "elayadesign/ai-design-skills",
+      "stars": "12.4K",
+      "language": "Unknown",
+      "delta": "+1,187/d",
+      "url": "https://github.com/elayadesign/ai-design-skills"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "2708",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "2,870",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "13",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "October 30, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Mistral published full open weights for the trillion-parameter Mistral Large 4",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "GitHub Trending's agent/harness/skill concentration returns to a standard 11-item board at 80-82% of the top rows, landing squarely inside the prior six-day band and resolving yesterday's anomalous 14-item board as a capture-length artifact, not a genuine decline.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Google Play Store's top-30 capture now shows zero of the four tracked frontier-lab apps",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Four frontier-lab apps have each had exactly one day in Google Play's top 30 this week and none of them stuck — the clearest evidence yet that the capture window, not the apps' real standing, is what's moving."
+    }
+  }
+}
