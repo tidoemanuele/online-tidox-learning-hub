@@ -1,0 +1,180 @@
+{
+  "date": "2026-10-31",
+  "episodeNumber": 217,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "headline": "A maliciously modified Claude Code VS Code extension",
+  "subtitle": "A maliciously modified Claude Code VS Code, `thedotmack/claude-mem`, a persistent, GitHub Trending's agent/harness/skill",
+  "heroStat": {
+    "value": "861",
+    "label": "points on \"Backdoor in Claude Code for VS Code extension on the Cursor\""
+  },
+  "insights": [
+    {
+      "text": "A maliciously modified Claude Code VS Code extension, published under Anthropic's own legitimate `anthropic.claude-code` identifier, was distributed through Cursor's marketplace for roughly 11 hours on 2026-10-29 and attempted to plant a persistent SSH backdoor on up to 5,000 developer machines. Cursor shut down its entire marketplace to audit and rotate keys.",
+      "tags": [
+        "security",
+        "claude-code",
+        "supply-chain"
+      ],
+      "source": "Hacker News + BleepingComputer, 2026-10-29/31",
+      "url": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/"
+    },
+    {
+      "text": "`thedotmack/claude-mem`, a persistent cross-session agent-memory tool this research has tracked since October 4, spikes to GitHub Trending #1 with +1,140 stars in a single day — nearly as much growth as its entire prior month combined, after sitting at #8 just yesterday.",
+      "tags": [
+        "github-trending",
+        "agent-memory"
+      ],
+      "source": "GitHub Trending + GitHub API, 2026-10-31T06:19:04Z",
+      "url": "https://github.com/thedotmack/claude-mem"
+    },
+    {
+      "text": "GitHub Trending's agent/harness/skill concentration lands its eighth tracked data point on the longest board yet (15 items), reading 70% on the top 10 and 73% on the full board — inside the 57-93% range the metric has held across eight days, with board length itself increasingly correlating with a lower top-10 reading.",
+      "tags": [
+        "github-trending",
+        "agent-frameworks"
+      ],
+      "source": "GitHub Trending scrape, 2026-10-31T06:19:04Z",
+      "url": "https://github.com/trending"
+    },
+    {
+      "text": "Google Play Store's four-way frontier-lab volatility continues: Gemini returns to the top 30 for a second, non-consecutive day (#10, 4.6★) while Claude, ChatGPT and Grok extend their absence to a second day — the first asymmetry among the four apps after four days where each showed exactly one day of presence.",
+      "tags": [
+        "play-store",
+        "gemini",
+        "claude"
+      ],
+      "source": "Google Play Store scrape, 2026-10-31T06:19:04Z",
+      "url": "https://play.google.com/store/apps/top"
+    },
+    {
+      "text": "Blackstone reverses its own prior forecast, now telling investors it expects Anthropic to receive a high \"junk\"/double-B-range credit rating after its IPO rather than the investment-grade rating it previously projected — a reversal that would make Anthropic's continued compute-spending debt costlier to raise.",
+      "tags": [
+        "anthropic",
+        "finance"
+      ],
+      "source": "Financial Times via TechCrunch, 2026-10-30",
+      "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/"
+    },
+    {
+      "text": "Proton's CEO Andy Yen cancels planned company-wide AI-usage \"re-interviews\" after a 404 Media investigation reports him dismissing a request to pentest newly AI-written code as \"bullshit and loser thinking\"; the AI-usage measures will instead fold into standard performance reviews.",
+      "tags": [
+        "privacy",
+        "proton",
+        "ai-labor"
+      ],
+      "source": "404 Media, 2026-10-30",
+      "url": "https://www.404media.co/protons-ceo-cancels-ai-re-interviews/"
+    },
+    {
+      "text": "Consumers use Claude Code and DeepSeek V4.1 Flash as coding agents to strip ads, telemetry and bloatware from their own smart TVs, via open-source projects CleanYourTV (~41,000 GitHub stars) and DumbTV — AI agents turned against a manufacturer's own cloud-connected ad layer via reversible, no-root ADB scripts.",
+      "tags": [
+        "local-first",
+        "privacy",
+        "on-device-llm"
+      ],
+      "source": "TechCrunch + cross-source web search, 2026-10-31",
+      "url": "https://www.techradar.com/entertainment/streaming/your-tv-should-do-what-you-paid-for-people-are-vibe-coding-apps-to-banish-ads-from-their-smart-tvs-and-android-tv-and-its-catching-on"
+    },
+    {
+      "text": "Nathan Lambert partially revisits his own prediction that an open-weight frontier-capability model leak would cause no catastrophic cyber harm, weighing it against October's cyber-incident cluster (PHP2Shell, the GitLab CVE, the suspected Binance hack) — concluding \"a forced industry update\" is the better frame, short of a full reversal.",
+      "tags": [
+        "security",
+        "open-weights"
+      ],
+      "source": "Nathan Lambert, Interconnects, 2026-10-30",
+      "url": "https://www.interconnects.ai/p/was-i-wrong-about-open-models-and"
+    }
+  ],
+  "trending": [
+    {
+      "name": "impeccable",
+      "fullName": "pbakaus/impeccable",
+      "stars": "97.3K",
+      "language": "Rust",
+      "delta": "+2,300/d",
+      "url": "https://github.com/pbakaus/impeccable"
+    },
+    {
+      "name": "DeepTutor",
+      "fullName": "HKUDS/DeepTutor",
+      "stars": "52.0K",
+      "language": "Python",
+      "delta": "+2,282/d",
+      "url": "https://github.com/HKUDS/DeepTutor"
+    },
+    {
+      "name": "jailbreaks",
+      "fullName": "togg53192-cmd/jailbreaks",
+      "stars": "11.5K",
+      "language": "Unknown",
+      "delta": "+2,055/d",
+      "url": "https://github.com/togg53192-cmd/jailbreaks"
+    },
+    {
+      "name": "superpowers",
+      "fullName": "obra/superpowers",
+      "stars": "310K",
+      "language": "Shell",
+      "delta": "+1,259/d",
+      "url": "https://github.com/obra/superpowers"
+    },
+    {
+      "name": "claude-mem",
+      "fullName": "thedotmack/claude-mem",
+      "stars": "107K",
+      "language": "TypeScript",
+      "delta": "+1,140/d",
+      "url": "https://github.com/thedotmack/claude-mem"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "861",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "2,300",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "13",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "October 31, 2026"
+    },
+    "headlines": [
+      {
+        "text": "A maliciously modified Claude Code VS Code extension, published under Anthropic's own legitimate `anthropic.claude-code` identifier, was distributed through Cursor's marketplace for roughly 11 hours on 2026-10-29 and attempted to plant a persistent SSH backdoor on up to 5,000 developer machines. Cursor shut down its entire marketplace to audit and rotate keys.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "`thedotmack/claude-mem`, a persistent cross-session agent-memory tool this research has tracked since October 4, spikes to GitHub Trending #1 with +1,140 stars in a single day",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "GitHub Trending's agent/harness/skill concentration lands its eighth tracked data point on the longest board yet , reading 70% on the top 10 and 73% on the full board",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "A tampered Claude Code extension, published under Anthropic's own identifier, planted an attempted SSH backdoor via Cursor's marketplace for 11 hours — the ecosystem's first marketplace-trust failure, not a registry or community-clone compromise."
+    }
+  }
+}
