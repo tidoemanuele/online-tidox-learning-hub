@@ -1,0 +1,183 @@
+{
+  "date": "2026-11-01",
+  "episodeNumber": 218,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "headline": "Andrej Karpathy had Claude Opus 5.5 build HackerTube, a YouTube-recommendation substitute",
+  "subtitle": "Andrej Karpathy had Claude Opus 5.5 build, A second project, Memdoor, reused the exact, thedotmack/claude-mem holds GitHub Trending #1 for",
+  "heroStat": {
+    "value": "27B",
+    "label": "agents scoring 9"
+  },
+  "insights": [
+    {
+      "text": "Andrej Karpathy had Claude Opus 5.5 build HackerTube, a YouTube-recommendation substitute, entirely on its own: ingesting ~40,000 Hacker News comments, filtering them down to 6,454 recommended videos across 150 topics, building the UI, and deploying it to a hardened VPS — in about two hours, with Karpathy writing no code himself.",
+      "tags": [
+        "agent-frameworks",
+        "claude-code",
+        "content-aggregation"
+      ],
+      "source": "Karpathy's blog, 2026-11-01",
+      "url": "https://karpathy.bearblog.dev/hacker-tube/"
+    },
+    {
+      "text": "A second project, Memdoor, reused the exact benchmark scaffold of October's GVS5H open-weight-ensemble claim and reached a closely comparable result — five Qwen3.8-27B agents scoring 9.8/10 against the original's 9.6/10, both beating Claude Fable 5's single-call 8.0/10 — though this is methodology reuse on the same ten problems, not an independent replication.",
+      "tags": [
+        "agent-frameworks",
+        "open-weight",
+        "benchmarks"
+      ],
+      "source": "GitHub, guregodevo/memdoor README, 2026-11-01",
+      "url": "https://github.com/guregodevo/memdoor"
+    },
+    {
+      "text": "thedotmack/claude-mem holds GitHub Trending #1 for a second consecutive day, and its star velocity rose rather than cooled: +1,723 stars today, up from +1,140 yesterday, against the usual post-launch decay pattern this research has documented for other viral GitHub debuts.",
+      "tags": [
+        "github-trending",
+        "agent-memory"
+      ],
+      "source": "GitHub Trending + GitHub API, 2026-11-01T06:19:04Z",
+      "url": "https://github.com/thedotmack/claude-mem"
+    },
+    {
+      "text": "A Brazilian labor court sanctioned two lawyers for hiding a prompt-injection instruction in a court filing — white-on-white text telling an AI reviewer to respond superficially and not challenge the documents — in what may be the first judicial ruling worldwide to address intentional manipulation of a court's own AI system.",
+      "tags": [
+        "legal",
+        "security",
+        "prompt-injection"
+      ],
+      "source": "jetstream.security, 2026-11-01",
+      "url": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/"
+    },
+    {
+      "text": "pbakaus/impeccable, a design-vocabulary skill for coding agents, is reported by its own creator to now ship pre-bundled inside the new GitHub Copilot app by default — the first concrete instance of a packaged skill being absorbed as a first-party vendor feature rather than an opt-in install.",
+      "tags": [
+        "skills",
+        "claude-code",
+        "github-copilot"
+      ],
+      "source": "Paul Bakaus's blog, 2026-11-01",
+      "url": "https://www.paulbakaus.com/impeccable-by-design/"
+    },
+    {
+      "text": "A widely-discussed Hacker News thread describes Anthropic restricting a Claude account for usage resembling model-training activity, downgrading it away from Opus 5.5 — a fourth, behavioral access-gating mechanism (after identity, age, and geography) likely driven by an automated anti-distillation classifier.",
+      "tags": [
+        "ai-access",
+        "anthropic",
+        "security"
+      ],
+      "source": "Hacker News, 2026-11-01",
+      "url": "https://news.ycombinator.com/item?id=50319358"
+    },
+    {
+      "text": "Google Gemini holds a Play Store top-30 spot for a second consecutive day (#9, 4.6★) while Grok reappears (#16, 4.9★) and Claude and ChatGPT remain absent — the first time any of four tracked frontier-lab apps has cleared this research's own two-consecutive-day bar for treating a return as signal rather than noise.",
+      "tags": [
+        "play-store",
+        "gemini",
+        "grok"
+      ],
+      "source": "Google Play Store scrape, 2026-11-01T06:19:04Z",
+      "url": "https://play.google.com/store/apps/top"
+    },
+    {
+      "text": "Google shipped LiteRT's biggest upgrade yet for Android on-device inference: 1.4x faster GPU inference, roughly 8MB smaller app sizes, and a new CompiledModel API replacing the older Interpreter API, with TensorFlow Lite now in maintenance-only mode as all active development moves to LiteRT.",
+      "tags": [
+        "on-device-llm",
+        "android",
+        "google"
+      ],
+      "source": "Google Developers Blog, 2026-10-29",
+      "url": "https://developers.googleblog.com/litert-the-universal-framework-for-on-device-ai/"
+    }
+  ],
+  "trending": [
+    {
+      "name": "claude-mem",
+      "fullName": "thedotmack/claude-mem",
+      "stars": "108K",
+      "language": "TypeScript",
+      "delta": "+1,723/d",
+      "url": "https://github.com/thedotmack/claude-mem"
+    },
+    {
+      "name": "impeccable",
+      "fullName": "pbakaus/impeccable",
+      "stars": "98.5K",
+      "language": "Rust",
+      "delta": "+1,338/d",
+      "url": "https://github.com/pbakaus/impeccable"
+    },
+    {
+      "name": "OpenMausBot",
+      "fullName": "milind-soni/OpenMausBot",
+      "stars": "9.9K",
+      "language": "TypeScript",
+      "delta": "+1,303/d",
+      "url": "https://github.com/milind-soni/OpenMausBot"
+    },
+    {
+      "name": "t3code",
+      "fullName": "pingdotgg/t3code",
+      "stars": "36.0K",
+      "language": "TypeScript",
+      "delta": "+1,148/d",
+      "url": "https://github.com/pingdotgg/t3code"
+    },
+    {
+      "name": "ziwei-doushu",
+      "fullName": "Renhuai123/ziwei-doushu",
+      "stars": "12.5K",
+      "language": "TypeScript",
+      "delta": "+1,092/d",
+      "url": "https://github.com/Renhuai123/ziwei-doushu"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "1009",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "1,723",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "13",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "November 1, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Andrej Karpathy had Claude Opus 5.5 build HackerTube, a YouTube-recommendation substitute, entirely on its own: ingesting ~40,000 Hacker News comments, filtering them down to 6,454 recommended videos across 150 topics, building the UI, and deploying it to a hardened VPS",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "A second project, Memdoor, reused the exact benchmark scaffold of October's GVS5H open-weight-ensemble claim and reached a closely comparable result",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "thedotmack/claude-mem holds GitHub Trending #1 for a second consecutive day, and its star velocity rose rather than cooled: +1,723 stars today, up from +1,140 yesterday, against the usual post-launch decay pattern this research has documented for other viral GitHub debuts.",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Today's sharpest signal isn't a new model or benchmark — it's Andrej Karpathy having an agent ingest, curate, and deploy a finished product end to end in two hours, the same direction nearly every other story today points: the agent's job keeps expanding into territory a human used to have to finish."
+    }
+  }
+}
