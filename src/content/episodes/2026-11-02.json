@@ -1,0 +1,179 @@
+{
+  "date": "2026-11-02",
+  "episodeNumber": 219,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "headline": "HackerBooks, today's #1 Hacker News story",
+  "subtitle": "HackerBooks, today's #1 Hacker News story, has a, Anthropic quietly added an undisableable, Proton CEO Andy Yen canceled mandatory staff",
+  "heroStat": {
+    "value": "2426",
+    "label": "points on \"HackerTube: YouTube built from videos recommended by HN\""
+  },
+  "insights": [
+    {
+      "text": "HackerBooks, today's #1 Hacker News story, has a different developer reproduce Andrej Karpathy's HackerTube method within 24 hours of his original post: Claude Opus 5.5 scans Hacker News comments from 2007-2026 and extracts 16,543 distinct book mentions, ranked by frequency, with Snow Crash topping the list at 1,004 mentions.",
+      "tags": [
+        "agent-frameworks",
+        "claude-code",
+        "content-aggregation"
+      ],
+      "source": "Hacker News / runtimewire.com, 2026-11-02",
+      "url": "https://news.ycombinator.com/item?id=50326821"
+    },
+    {
+      "text": "Anthropic quietly added an undisableable system-prompt rule to Claude Opus 5.5 inside Claude Code blocking recreation of existing video games, confirmed by an Anthropic engineer as 'two sentences added to the prompt' — developers report the same rule also blocking unrelated work like crash-dump analysis and anti-cheat development.",
+      "tags": [
+        "claude-code",
+        "ai-policy",
+        "ip"
+      ],
+      "source": "Yahoo Tech / Inven Global, 2026-11-02",
+      "url": "https://tech.yahoo.com/ai/claude/articles/anthropics-claude-ai-blocks-video-122000205.html"
+    },
+    {
+      "text": "Proton CEO Andy Yen canceled mandatory staff 're-interviews' about AI usage — originally described as able to affect 'continued employment' — after a 404 Media investigation and internal backlash, though employees say AI use could still factor into ordinary performance reviews.",
+      "tags": [
+        "ai-workforce",
+        "proton"
+      ],
+      "source": "404 Media via Enterprise DNA, 2026-11-02",
+      "url": "https://enterprisedna.co/resources/ai-pulse/ai-pulse-2026-10-30-proton-cancels-ai-re-interviews/"
+    },
+    {
+      "text": "A deep read of Anthropic's full S-1 filing finds the company's financials 'surprisingly strong' — revenue hit $16.8B in Q3, it posted its first-ever operating profit in Q2, and its cash reserves trail only Google and Berkshire Hathaway among non-bank companies — in direct tension with last week's report that Anthropic is expected to receive a high 'junk' credit rating on one debt tranche.",
+      "tags": [
+        "anthropic",
+        "finance"
+      ],
+      "source": "Understanding AI, 2026-11-02",
+      "url": "https://www.understandingai.org/p/anthropics-financials-are-surprisingly"
+    },
+    {
+      "text": "thedotmack/claude-mem holds GitHub Trending #1 for a third consecutive day, but its star velocity moderates to roughly +1,479/day — down from +1,723/day yesterday — the first sign of post-peak deceleration after two days of acceleration.",
+      "tags": [
+        "github-trending",
+        "agent-memory"
+      ],
+      "source": "GitHub Trending + GitHub API, 2026-11-02",
+      "url": "https://github.com/thedotmack/claude-mem"
+    },
+    {
+      "text": "Google Gemini jumps from #9 to #4 in today's Play Store top-30 capture, its best rank across three consecutive tracked days, while Grok, Claude, and ChatGPT are all absent.",
+      "tags": [
+        "play-store",
+        "gemini"
+      ],
+      "source": "Google Play Store scrape, 2026-11-02T06:19:03Z",
+      "url": "https://play.google.com/store/apps/top"
+    },
+    {
+      "text": "Google's NotebookLM, rebranded for the second time as 'Gemini Notebook,' appears in today's Play Store top 30 (#19, 4.8★) — its 203K reviews and 4.79★ rating carried intact through two name changes, a naming-churn case study most indie apps can't assume survives a rebrand.",
+      "tags": [
+        "play-store",
+        "aso",
+        "notebooklm"
+      ],
+      "source": "Google Play Store scrape / app registry cross-check, 2026-11-02",
+      "url": "https://play.google.com/store/apps/top"
+    },
+    {
+      "text": "Qwen3.8-27B, the exact model behind yesterday's memdoor/GVS5H open-weight-ensemble benchmark claim, is today's #13 Hugging Face trending model (18,946 likes, 7.89M downloads) — a demand-side echo of the benchmark story.",
+      "tags": [
+        "on-device-llm",
+        "open-weight"
+      ],
+      "source": "Hugging Face trending, 2026-11-02",
+      "url": "https://huggingface.co/models?sort=trending"
+    }
+  ],
+  "trending": [
+    {
+      "name": "t3code",
+      "fullName": "pingdotgg/t3code",
+      "stars": "38.7K",
+      "language": "TypeScript",
+      "delta": "+3,094/d",
+      "url": "https://github.com/pingdotgg/t3code"
+    },
+    {
+      "name": "claude-mem",
+      "fullName": "thedotmack/claude-mem",
+      "stars": "110K",
+      "language": "TypeScript",
+      "delta": "+1,526/d",
+      "url": "https://github.com/thedotmack/claude-mem"
+    },
+    {
+      "name": "ai-engineering-hub",
+      "fullName": "patchy631/ai-engineering-hub",
+      "stars": "40.5K",
+      "language": "Jupyter Notebook",
+      "delta": "+1,191/d",
+      "url": "https://github.com/patchy631/ai-engineering-hub"
+    },
+    {
+      "name": "hex",
+      "fullName": "anomalyco/hex",
+      "stars": "3.5K",
+      "language": "Rust",
+      "delta": "+1,179/d",
+      "url": "https://github.com/anomalyco/hex"
+    },
+    {
+      "name": "Claude-Code-Game-Studios",
+      "fullName": "Donchitos/Claude-Code-Game-Studios",
+      "stars": "32.6K",
+      "language": "Shell",
+      "delta": "+967/d",
+      "url": "https://github.com/Donchitos/Claude-Code-Game-Studios"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "2426",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "3,094",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "13",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "November 2, 2026"
+    },
+    "headlines": [
+      {
+        "text": "HackerBooks, today's #1 Hacker News story, has a different developer reproduce Andrej Karpathy's HackerTube method within 24 hours of his original post: Claude Opus 5.5 scans Hacker News comments from 2007-2026 and extracts 16,543 distinct book mentions, ranked by frequency, with Snow Crash topping the list at 1,004 mentions.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Anthropic quietly added an undisableable system-prompt rule to Claude Opus 5.5 inside Claude Code blocking recreation of existing video games, confirmed by an Anthropic engineer as 'two sentences added to the prompt'",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Proton CEO Andy Yen canceled mandatory staff 're-interviews' about AI usage",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "Karpathy's agent-as-publisher method already has a copycat — proof the pattern transfers to someone other than Karpathy — while Anthropic quietly hands Claude Code a policy decision it can't be told to ignore, a small but telling sign of where harness control is actually settling."
+    }
+  }
+}
