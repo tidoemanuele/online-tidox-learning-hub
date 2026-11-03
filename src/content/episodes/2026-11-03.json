@@ -1,0 +1,178 @@
+{
+  "date": "2026-11-03",
+  "episodeNumber": 220,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "headline": "MIT CSAIL researchers had a frontier model directly edit Qwen3.5-0.8B's weights with no gradient",
+  "subtitle": "MIT CSAIL researchers had a frontier model, Subvocal, YC-backed smart glasses, use RF/radar, Anthropic's revised S-1A filing warns that",
+  "heroStat": {
+    "value": "2324",
+    "label": "points on \"Astra can read and write weights to improve Qwen\""
+  },
+  "insights": [
+    {
+      "text": "MIT CSAIL researchers had a frontier model (GPT-6 Astra) directly edit Qwen3.5-0.8B's weights with no gradient descent or training, fixing a reasoning-loop bug by changing just 0.016% of weights and lifting its MATH-500 score from 7.9% to 48.1%.",
+      "tags": [
+        "weight-space-program",
+        "ai-research"
+      ],
+      "source": "MIT CSAIL / Hacker News, 2026-11-03",
+      "url": "https://rikiyat.github.io/blog/weight-space-programming/"
+    },
+    {
+      "text": "Subvocal, YC-backed smart glasses, use RF/radar sensing (not cameras) to decode silent, deliberate mouthing into text at a claimed 200+ words per minute — critics flagged cloud-only decoding and no published accuracy numbers.",
+      "tags": [
+        "voice-tech",
+        "wearables"
+      ],
+      "source": "Hacker News / YC launch page, 2026-11-03",
+      "url": "https://news.ycombinator.com/item?id=50340088"
+    },
+    {
+      "text": "Anthropic's revised S-1A filing warns that internal estimates for future models indicate they 'may imminently meet' its own definition of recursive self-improvement, while stating no current model has crossed that threshold.",
+      "tags": [
+        "anthropic",
+        "rsi",
+        "ipo"
+      ],
+      "source": "TechCrunch, 2026-11-03",
+      "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/"
+    },
+    {
+      "text": "A Tech Policy Press essay argues the SEC should block Anthropic's IPO, citing nearly $900B in disclosed spending commitments against $96B in cash and incomplete audited financials in the registration statement.",
+      "tags": [
+        "anthropic",
+        "finance",
+        "regulation"
+      ],
+      "source": "Tech Policy Press, 2026-11-03",
+      "url": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/"
+    },
+    {
+      "text": "Vercel Labs' agent-desktop debuted at GitHub Trending #1 (+2,275 stars today), giving any shell-capable agent computer use on macOS/Windows/Linux via the OS accessibility tree instead of pixel-guessing.",
+      "tags": [
+        "agent-tooling",
+        "computer-use"
+      ],
+      "source": "GitHub Trending, 2026-11-03",
+      "url": "https://github.com/vercel-labs/agent-desktop"
+    },
+    {
+      "text": "thedotmack/claude-mem's GitHub star velocity re-accelerated to +1,803/day (111,023 total) after Sunday's dip to +1,479/day, now a five-day trending run.",
+      "tags": [
+        "github-trending",
+        "agent-memory"
+      ],
+      "source": "GitHub Trending, 2026-11-03",
+      "url": "https://github.com/thedotmack/claude-mem"
+    },
+    {
+      "text": "Grok reappeared at #20 in today's Google Play Store top-30, while Gemini, Claude and ChatGPT were all absent — the fifth consecutive day no frontier-lab app has held a stable position across more than two days running.",
+      "tags": [
+        "play-store",
+        "frontier-labs"
+      ],
+      "source": "Google Play Store scrape, 2026-11-03T06:19:08Z",
+      "url": "https://play.google.com/store/apps/top"
+    },
+    {
+      "text": "NVIDIA's open-weight Nemotron 3.5 Transcribe (30B-MoE, 40-language ASR with diarization) and a new realistic TTS model both trended on Hugging Face today, but neither is full-duplex — the voice-tech suspension test this project tracks has now run 13 consecutive misses since August.",
+      "tags": [
+        "on-device-llm",
+        "voice-tech"
+      ],
+      "source": "Hugging Face trending, 2026-11-03",
+      "url": "https://huggingface.co/models?sort=trending"
+    }
+  ],
+  "trending": [
+    {
+      "name": "t3code",
+      "fullName": "pingdotgg/t3code",
+      "stars": "42.5K",
+      "language": "TypeScript",
+      "delta": "+3,229/d",
+      "url": "https://github.com/pingdotgg/t3code"
+    },
+    {
+      "name": "agent-desktop",
+      "fullName": "vercel-labs/agent-desktop",
+      "stars": "10.7K",
+      "language": "Rust",
+      "delta": "+2,275/d",
+      "url": "https://github.com/vercel-labs/agent-desktop"
+    },
+    {
+      "name": "claude-mem",
+      "fullName": "thedotmack/claude-mem",
+      "stars": "111K",
+      "language": "TypeScript",
+      "delta": "+1,803/d",
+      "url": "https://github.com/thedotmack/claude-mem"
+    },
+    {
+      "name": "Claude-Code-Game-Studios",
+      "fullName": "Donchitos/Claude-Code-Game-Studios",
+      "stars": "33.9K",
+      "language": "Shell",
+      "delta": "+1,379/d",
+      "url": "https://github.com/Donchitos/Claude-Code-Game-Studios"
+    },
+    {
+      "name": "skills",
+      "fullName": "mattpocock/skills",
+      "stars": "310K",
+      "language": "Shell",
+      "delta": "+858/d",
+      "url": "https://github.com/mattpocock/skills"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "2324",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "3,229",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "13",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "November 3, 2026"
+    },
+    "headlines": [
+      {
+        "text": "MIT CSAIL researchers had a frontier model directly edit Qwen3.5-0.8B's weights with no gradient descent or training, fixing a reasoning-loop bug by changing just 0.016% of weights and lifting its MATH-500 score from 7.9% to 48.1%.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Subvocal, YC-backed smart glasses, use RF/radar sensing to decode silent, deliberate mouthing into text at a claimed 200+ words per minute",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Anthropic's revised S-1A filing warns that internal estimates for future models indicate they 'may imminently meet' its own definition of recursive self-improvement, while stating no current model has crossed that threshold.",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "A frontier model editing another model's weights by hand and Anthropic warning it may be nearing self-improvement land on the same day — one a concrete lab result, the other a company's own risk disclosure."
+    }
+  }
+}
