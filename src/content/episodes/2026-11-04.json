@@ -1,0 +1,176 @@
+{
+  "date": "2026-11-04",
+  "episodeNumber": 221,
+  "locale": "en-US",
+  "title": "Intelligence Brief",
+  "headline": "Matthew Honnibal's rebuttal of MIT CSAIL's 'Weight-Space Programming' result finds only 3 of 10",
+  "subtitle": "Matthew Honnibal's rebuttal of MIT CSAIL's, Postman's desktop app silently installs AI agent, Anthropic released FlashProve, an open-source",
+  "heroStat": {
+    "value": "8B",
+    "label": "fix was done by the model writ"
+  },
+  "insights": [
+    {
+      "text": "Matthew Honnibal's rebuttal of MIT CSAIL's 'Weight-Space Programming' result finds only 3 of 10 experiments actually read raw model weights directly; the flagship Qwen3.5-0.8B fix was done by the model writing Python code to inspect and edit weights, which mech-interp commenters identify as standard directional ablation.",
+      "tags": [
+        "weight-space-program",
+        "ai-research"
+      ],
+      "source": "Hacker News / honnibal.dev, 2026-11-04",
+      "url": "https://honnibal.dev/blog/astra-read-write-misleading"
+    },
+    {
+      "text": "Postman's desktop app silently installs AI agent plugins into Codex and Claude Code, and its own installer writes the trust hash that approves the resulting hook — self-approving the exact consent step meant to stop silent third-party code execution.",
+      "tags": [
+        "supply-chain",
+        "dev-tools"
+      ],
+      "source": "GitHub / Hacker News, 2026-11-04",
+      "url": "https://github.com/postmanlabs/postman-app-support/issues/14370"
+    },
+    {
+      "text": "Anthropic released FlashProve, an open-source system that cryptographically proves which model produced a given output using a zkSNARK, at roughly 70-95x the GPU cost of running the model directly, with no deployment plans.",
+      "tags": [
+        "anthropic",
+        "verification"
+      ],
+      "source": "Anthropic, 2026-11-04",
+      "url": "https://www.anthropic.com/research/provable-inference"
+    },
+    {
+      "text": "worktrunk, a git-worktree CLI built specifically for running multiple AI coding agents in parallel, debuted at #3 on GitHub Trending, packaging the hand-rolled tmux-plus-worktree technique solo developers have used since before April as a standalone product.",
+      "tags": [
+        "agentic-dev-workflow",
+        "github-trending"
+      ],
+      "source": "GitHub, 2026-11-04",
+      "url": "https://github.com/max-sixty/worktrunk"
+    },
+    {
+      "text": "Vercel Labs' agent-desktop accelerated to +3,791 stars on its fourth day of GitHub Trending, its highest single-day gain yet, while thedotmack/claude-mem posted its lowest tracked daily velocity (+1,139) across a six-day run.",
+      "tags": [
+        "github-trending",
+        "agent-tooling"
+      ],
+      "source": "GitHub, 2026-11-04",
+      "url": "https://github.com/vercel-labs/agent-desktop"
+    },
+    {
+      "text": "Today's Google Play Store top-30 capture shows zero frontier-lab apps (Gemini, Claude, ChatGPT, Grok all absent) for the first time since the appearance/disappearance tracking thread began on October 29.",
+      "tags": [
+        "play-store",
+        "frontier-labs"
+      ],
+      "source": "Google Play, 2026-11-04T06:19:09Z",
+      "url": "https://play.google.com/store/apps/top"
+    },
+    {
+      "text": "Simon Willison published a follow-up post running weight interpretation on Qwen 3.8 27B locally, extending the same-week scrutiny of whether models can genuinely read and edit neural network weights.",
+      "tags": [
+        "on-device-llm",
+        "weight-space-program"
+      ],
+      "source": "Simon Willison / Hacker News, 2026-11-04",
+      "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/"
+    },
+    {
+      "text": "mattpocock/skills continued its steady GitHub Trending climb to 311,747 stars (+1,164 today), up from 308,701 three days earlier.",
+      "tags": [
+        "github-trending",
+        "claude-code"
+      ],
+      "source": "GitHub, 2026-11-04",
+      "url": "https://github.com/mattpocock/skills"
+    }
+  ],
+  "trending": [
+    {
+      "name": "agent-desktop",
+      "fullName": "vercel-labs/agent-desktop",
+      "stars": "13.3K",
+      "language": "Rust",
+      "delta": "+3,791/d",
+      "url": "https://github.com/vercel-labs/agent-desktop"
+    },
+    {
+      "name": "Scrapling",
+      "fullName": "D4Vinci/Scrapling",
+      "stars": "95.3K",
+      "language": "Python",
+      "delta": "+1,658/d",
+      "url": "https://github.com/D4Vinci/Scrapling"
+    },
+    {
+      "name": "Claude-Code-Game-Studios",
+      "fullName": "Donchitos/Claude-Code-Game-Studios",
+      "stars": "34.9K",
+      "language": "Shell",
+      "delta": "+1,182/d",
+      "url": "https://github.com/Donchitos/Claude-Code-Game-Studios"
+    },
+    {
+      "name": "skills",
+      "fullName": "mattpocock/skills",
+      "stars": "312K",
+      "language": "Shell",
+      "delta": "+1,164/d",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "name": "claude-mem",
+      "fullName": "thedotmack/claude-mem",
+      "stars": "112K",
+      "language": "TypeScript",
+      "delta": "+1,139/d",
+      "url": "https://github.com/thedotmack/claude-mem"
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Top HN Story",
+      "value": "1157",
+      "unit": "pts"
+    },
+    {
+      "label": "Fastest Repo",
+      "value": "3,791",
+      "unit": "stars/day"
+    },
+    {
+      "label": "Sources Scraped",
+      "value": "13",
+      "unit": "sites"
+    },
+    {
+      "label": "Insights Today",
+      "value": "8",
+      "unit": "stories"
+    }
+  ],
+  "scenes": {
+    "masthead": {
+      "title": "INTELLIGENCE BRIEF",
+      "subtitle": "November 4, 2026"
+    },
+    "headlines": [
+      {
+        "text": "Matthew Honnibal's rebuttal of MIT CSAIL's 'Weight-Space Programming' result finds only 3 of 10 experiments actually read raw model weights directly; the flagship Qwen3.5-0.8B fix was done by the model writing Python code to inspect and edit weights, which mech-interp commenters identify as standard directional ablation.",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Postman's desktop app silently installs AI agent plugins into Codex and Claude Code, and its own installer writes the trust hash that approves the resulting hook",
+        "metric": "—",
+        "source": "web"
+      },
+      {
+        "text": "Anthropic released FlashProve, an open-source system that cryptographically proves which model produced a given output using a zkSNARK, at roughly 70-95x the GPU cost of running the model directly, with no deployment plans.",
+        "metric": "—",
+        "source": "web"
+      }
+    ],
+    "takeaway": {
+      "text": "A rebuttal walks back yesterday's weight-editing headline to known technique plus tool-use, while Postman's AI-plugin installer and Anthropic's FlashProve pull trust in opposite directions on the same day."
+    }
+  }
+}
